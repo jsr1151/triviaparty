@@ -6,16 +6,16 @@ A trivia game hosting site with multiple game modes, powered by J-Archive data a
 
 🌐 **[https://jsr1151.github.io/triviaparty/](https://jsr1151.github.io/triviaparty/)**
 
-> **⚠️ One-time setup required — if you see a 404, do this:**
+> **⚠️ One-time setup required — do this once to make the URL live:**
 > 1. Go to your repo on GitHub → **Settings → Pages**
 > 2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
-> 3. Set **Branch** to `gh-pages` and folder to `/ (root)`, then click **Save**
-> 4. The *Deploy to GitHub Pages* workflow will create the `gh-pages` branch automatically on the next push, or you can trigger it manually from the **Actions** tab.
+> 3. Set **Branch** to `copilot/build-trivia-game-site` and folder to **`/docs`**, then click **Save**
 >
-> *(If you previously set Source to "GitHub Actions", change it back to "Deploy from a branch" as described above — the new deployment approach pushes to a `gh-pages` branch directly.)*
+> The static site is already committed to the `docs/` folder in this branch, so the page will
+> go live within ~1 minute of clicking Save — **no CI run or further action needed.**
 
-The site is deployed automatically on every push to `main` or `copilot/build-trivia-game-site`.
-It shows the full UI, but game data is only available in a local or server deployment
+The site shows the full UI with empty-state messages for game modes.
+Game data is only available in a local or server deployment
 (GitHub Pages is a static host — it cannot run the database or the J-Archive scraper).
 
 ## Features
@@ -45,16 +45,13 @@ Open **[https://jsr1151.github.io/triviaparty/](https://jsr1151.github.io/trivia
 
 > **If you see a 404:** go to **Settings → Pages** and set:
 > - **Source** → `Deploy from a branch`
-> - **Branch** → `gh-pages`, folder → `/ (root)` → **Save**
+> - **Branch** → `copilot/build-trivia-game-site`, folder → `/docs` → **Save**
 >
-> The `gh-pages` branch is created automatically by the CI workflow on the next push.
-> You can also trigger it manually from the **Actions** tab → *Deploy to GitHub Pages* → **Run workflow**.
+> The static site is pre-built and committed in `docs/` — it goes live within ~1 minute of saving, no CI needed.
 
-The site is re-deployed automatically on every push to `main` or `copilot/build-trivia-game-site`.
+The site shows the full UI with empty-state messages for game modes.
 
-> **Note:** GitHub Pages is a static host. The live site shows the full UI with empty-state
-> messages for the game modes. To load real game data you need a local or server deployment
-> (Option B or C below).
+> **Note:** GitHub Pages is a static host. To load real game data you need a local or server deployment (Option B or C below).
 
 ---
 
@@ -123,20 +120,20 @@ npm start       # start the production server on http://localhost:3000
 
 ## Deployment
 
-### GitHub Pages (automatic)
+### GitHub Pages
 
-Pushes to `main` or `copilot/build-trivia-game-site` automatically trigger
-`.github/workflows/deploy.yml`, which:
-1. Installs dependencies and generates the Prisma client
-2. Applies database migrations (`prisma migrate deploy`)
-3. Runs `npm run build` with `GITHUB_PAGES=true` to produce a fully-static export in `out/`
-4. Pushes `out/` to the `gh-pages` branch via `peaceiris/actions-gh-pages`
+The static site is pre-built and committed to the `docs/` folder in this branch.
+GitHub Pages serves it directly — no CI run required.
 
-**One-time setup** (required before the live URL will resolve):
+**One-time setup:**
 1. Go to **Settings → Pages** in this repository
 2. Set **Source** to **Deploy from a branch**
-3. Set **Branch** to `gh-pages`, folder to `/ (root)`, then click **Save**
-4. Trigger the workflow: push a commit, or go to **Actions → Deploy to GitHub Pages → Run workflow**
+3. Set **Branch** to `copilot/build-trivia-game-site`, folder to **`/docs`**, then click **Save**
+4. The site will be live at `https://jsr1151.github.io/triviaparty/` within ~1 minute
+
+**Keeping `docs/` up to date:**  
+When the CI workflow is permitted to run (Actions → approve pending runs), it will
+automatically rebuild `docs/` and commit the update on every push.
 
 ### Manual GitHub Pages build
 

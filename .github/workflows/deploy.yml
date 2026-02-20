@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # needed to push to the gh-pages branch
+  contents: write
 
 jobs:
   deploy:
@@ -36,12 +36,15 @@ jobs:
         run: npm run build
         env:
           GITHUB_PAGES: 'true'
-          # The API routes use force-static and return empty data when the DB is
-          # empty, so no real data needs to be present at build time.
           DATABASE_URL: 'file:./dev.db'
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+      - name: Update docs/ with latest build
+        run: |
+          rm -rf docs/
+          cp -r out/ docs/
+          touch docs/.nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || git commit -m "chore: update docs/ with latest static build [skip ci]"
+          git push
