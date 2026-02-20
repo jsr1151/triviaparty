@@ -103,7 +103,6 @@ function normaliseJsonGame(g: JeopardyGameData): JeopardyGame {
 
 const VALUES_SINGLE = [200, 400, 600, 800, 1000];
 const VALUES_DOUBLE = [400, 800, 1200, 1600, 2000];
-const SEASON_OPTIONS = Array.from({ length: 40 }, (_, i) => i + 1);
 
 function inferSeasonFromAirDate(airDate: string): number | null {
   const parsed = new Date(airDate);
@@ -144,6 +143,8 @@ export default function JeopardyPage() {
   // ── Replay list controls
   const [compactReplayList, setCompactReplayList] = useState(false);
   const [selectedSeasons, setSelectedSeasons] = useState<number[]>([]);
+  const [specialMode, setSpecialMode] = useState<'all' | 'regular' | 'special'>('all');
+  const [selectedSpecialTypes, setSelectedSpecialTypes] = useState<string[]>([]);
 
   // ── Load all games on mount ──────────────────────────────────────────────
   useEffect(() => {
@@ -514,12 +515,57 @@ export default function JeopardyPage() {
     ? displayGames.filter(g => g.season != null && selectedSeasons.includes(g.season))
     : displayGames;
 
+  const specialTypes = Array.from(new Set(
+    displayGames
+      .filter(g => g.isSpecial)
+      .map(g => g.tournamentType ?? 'Special')
+  )).sort((a, b) => a.localeCompare(b));
+
+  const seasonOptions = Array.from(new Set(
+    displayGames
+      .map(g => g.season)
+      .filter((season): season is number => season != null)
+  )).sort((a, b) => a - b);
+
+  const seasonFilteredGames = selectedSeasons.length > 0
+    ? displayGames.filter(g => g.season != null && selectedSeasons.includes(g.season))
+    : displayGames;
+
+  const specialModeFilteredGames = seasonFilteredGames.filter(game => {
+    if (specialMode === 'regular') return !game.isSpecial;
+    if (specialMode === 'special') return game.isSpecial;
+    return true;
+  });
+
+  const replayGamesFinal = selectedSpecialTypes.length > 0
+    ? specialModeFilteredGames.filter(game => {
+      if (!game.isSpecial) return false;
+      const type = game.tournamentType ?? 'Special';
+      return selectedSpecialTypes.includes(type);
+    })
+    : specialModeFilteredGames;
+
   function toggleSeasonFilter(season: number) {
     setSelectedSeasons(prev => (
       prev.includes(season)
         ? prev.filter(s => s !== season)
         : [...prev, season].sort((a, b) => a - b)
     ));
+  }
+
+  function toggleSpecialType(type: string) {
+    setSelectedSpecialTypes(prev => (
+      prev.includes(type)
+        ? prev.filter(t => t !== type)
+        : [...prev, type].sort((a, b) => a.localeCompare(b))
+    ));
+  }
+
+  function getCategorySummary(game: JeopardyGame): string {
+    if (game.categories.length > 0) {
+      return `${game.categories.length} categories`;
+    }
+    return 'Categories load on open';
   }
 
   // ── Game selection / mode screen ─────────────────────────────────────────
@@ -571,15 +617,23 @@ export default function JeopardyPage() {
                       Clear Seasons
                     </button>
                   )}
+                  {selectedSpecialTypes.length > 0 && (
+                    <button
+                      onClick={() => setSelectedSpecialTypes([])}
+                      className="px-3 py-1.5 rounded-lg text-sm font-bold bg-blue-800 hover:bg-blue-700"
+                    >
+                      Clear Special Types
+                    </button>
+                  )}
                   <span className="text-sm text-blue-200">
-                    Showing {replayGames.length} of {displayGames.length} game{displayGames.length !== 1 ? 's' : ''}
+                    Showing {replayGamesFinal.length} of {displayGames.length} game{displayGames.length !== 1 ? 's' : ''}
                   </span>
                 </div>
 
                 <div>
-                  <div className="text-xs text-blue-300 mb-2 uppercase font-bold">Season Filter (1–40)</div>
+                  <div className="text-xs text-blue-300 mb-2 uppercase font-bold">Season Filter</div>
                   <div className="flex flex-wrap gap-2 max-h-36 overflow-y-auto pr-1">
-                    {SEASON_OPTIONS.map(season => {
+                    {seasonOptions.map(season => {
                       const active = selectedSeasons.includes(season);
                       return (
                         <button
@@ -597,15 +651,62 @@ export default function JeopardyPage() {
                     })}
                   </div>
                 </div>
+
+                <div>
+                  <div className="text-xs text-blue-300 mb-2 uppercase font-bold">Special Episodes</div>
+                  <div className="flex flex-wrap gap-2 mb-2">
+                    {([
+                      { key: 'all', label: 'All' },
+                      { key: 'regular', label: 'Regular Only' },
+                      { key: 'special', label: 'Specials Only' },
+                    ] as const).map(option => (
+                      <button
+                        key={option.key}
+                        onClick={() => {
+                          setSpecialMode(option.key);
+                          if (option.key === 'regular') setSelectedSpecialTypes([]);
+                        }}
+                        className={`px-3 py-1.5 rounded-lg text-sm font-bold transition-colors ${
+                          specialMode === option.key
+                            ? 'bg-yellow-400 text-blue-950'
+                            : 'bg-blue-800 hover:bg-blue-700 text-blue-100'
+                        }`}
+                      >
+                        {option.label}
+                      </button>
+                    ))}
+                  </div>
+
+                  {specialTypes.length > 0 && (
+                    <div className="flex flex-wrap gap-2 max-h-36 overflow-y-auto pr-1">
+                      {specialTypes.map(type => {
+                        const active = selectedSpecialTypes.includes(type);
+                        return (
+                          <button
+                            key={type}
+                            onClick={() => toggleSpecialType(type)}
+                            className={`px-2 py-1 rounded-md text-sm font-bold transition-colors ${
+                              active
+                                ? 'bg-yellow-400 text-blue-950'
+                                : 'bg-blue-800 hover:bg-blue-700 text-blue-100'
+                            }`}
+                          >
+                            {type}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
               </div>
 
-              {replayGames.length === 0 ? (
+              {replayGamesFinal.length === 0 ? (
                 <div className="text-center text-blue-200 py-8 bg-blue-900 rounded-xl">
-                  No games match the selected season filter.
+                  No games match the selected filters.
                 </div>
               ) : compactReplayList ? (
                 <div className="space-y-1">
-                  {replayGames.map(game => (
+                  {replayGamesFinal.map(game => (
                     <button
                       key={game.id}
                       onClick={() => startReplay(game)}
@@ -617,7 +718,7 @@ export default function JeopardyPage() {
                         <div className="text-gray-300">{game.airDate}</div>
                         <div className="text-blue-300">S{game.season ?? '?'}</div>
                         <div className="text-blue-300">
-                          {replayLoadingId === game.id ? 'Loading…' : `${game.categories.length || '?'} cats`}
+                          {replayLoadingId === game.id ? 'Loading…' : getCategorySummary(game)}
                         </div>
                       </div>
                     </button>
@@ -625,7 +726,7 @@ export default function JeopardyPage() {
                 </div>
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {replayGames.map(game => (
+                  {replayGamesFinal.map(game => (
                     <button key={game.id} onClick={() => startReplay(game)}
                       disabled={replayLoadingId === game.id}
                       className="bg-blue-800 hover:bg-blue-700 rounded-xl p-6 text-left transition-colors">
@@ -640,7 +741,7 @@ export default function JeopardyPage() {
                       <div className="text-gray-300 text-sm">{game.airDate}</div>
                       {game.season && <div className="text-blue-300 text-sm">Season {game.season}</div>}
                       <div className="text-sm text-blue-300 mt-2">
-                        {replayLoadingId === game.id ? 'Loading game…' : `${game.categories.length || '?'} categories`}
+                        {replayLoadingId === game.id ? 'Loading game…' : getCategorySummary(game)}
                       </div>
                     </button>
                   ))}
