@@ -1,22 +1,34 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-static';
+
 export async function GET(req: NextRequest) {
-  const { searchParams } = new URL(req.url);
-  const mode = searchParams.get('mode');
-  const status = searchParams.get('status');
+  let mode: string | null = null;
+  let status: string | null = null;
 
-  const where: Record<string, unknown> = {};
-  if (mode) where.mode = mode;
-  if (status) where.status = status;
+  if (process.env.GITHUB_PAGES !== 'true') {
+    const { searchParams } = new URL(req.url);
+    mode = searchParams.get('mode');
+    status = searchParams.get('status');
+  }
 
-  const games = await prisma.game.findMany({
-    where,
-    orderBy: { createdAt: 'desc' },
-    take: 20,
-  });
+  try {
+    const where: Record<string, unknown> = {};
+    if (mode) where.mode = mode;
+    if (status) where.status = status;
 
-  return NextResponse.json({ games });
+    const games = await prisma.game.findMany({
+      where,
+      orderBy: { createdAt: 'desc' },
+      take: 20,
+    });
+
+    return NextResponse.json({ games });
+  } catch {
+    return NextResponse.json({ games: [] });
+  }
 }
 
 export async function POST(req: NextRequest) {
@@ -36,5 +48,6 @@ export async function POST(req: NextRequest) {
     },
   });
 
+  revalidatePath('/api/games');
   return NextResponse.json(game, { status: 201 });
 }

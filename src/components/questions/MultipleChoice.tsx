@@ -18,7 +18,7 @@ export default function MultipleChoice({ question, onAnswer }: MultipleChoicePro
   useEffect(() => {
     setData(null);
     setSelected(null);
-    fetch(`/api/questions/${question.id}/multiple-choice`)
+    fetch(`/api/questions/details?id=${question.id}&type=multiple_choice`)
       .then(r => r.json())
       .then(setData)
       .catch(() => {});

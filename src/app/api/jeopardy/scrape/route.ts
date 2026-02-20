@@ -1,6 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { prisma } from '@/lib/prisma';
 import { scrapeGame } from '@/lib/scraper';
+
+export const dynamic = 'force-static';
+
+// Placeholder GET so this segment is valid in a static export.
+export async function GET() {
+  return NextResponse.json({ message: 'POST to this endpoint to scrape a J-Archive game by gameId.' });
+}
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
@@ -40,5 +48,6 @@ export async function POST(req: NextRequest) {
     include: { categories: { include: { clues: true } } },
   });
 
+  revalidatePath('/api/jeopardy');
   return NextResponse.json(game, { status: 201 });
 }

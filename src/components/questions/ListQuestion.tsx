@@ -22,7 +22,7 @@ export default function ListQuestion({ question, onAnswer }: ListQuestionProps) 
     setInput('');
     setFound([]);
     setSubmitted(false);
-    fetch(`/api/questions/${question.id}/list`)
+    fetch(`/api/questions/details?id=${question.id}&type=list`)
       .then(r => r.json())
       .then(setData)
       .catch(() => {});

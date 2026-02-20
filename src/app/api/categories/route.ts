@@ -1,11 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-static';
+
 export async function GET() {
-  const categories = await prisma.category.findMany({
-    orderBy: { name: 'asc' },
-  });
-  return NextResponse.json({ categories });
+  try {
+    const categories = await prisma.category.findMany({
+      orderBy: { name: 'asc' },
+    });
+    return NextResponse.json({ categories });
+  } catch {
+    return NextResponse.json({ categories: [] });
+  }
 }
 
 export async function POST(req: NextRequest) {
@@ -20,5 +27,6 @@ export async function POST(req: NextRequest) {
     data: { name, slug, description },
   });
 
+  revalidatePath('/api/categories');
   return NextResponse.json(category, { status: 201 });
 }

@@ -20,7 +20,7 @@ export default function OpenEnded({ question, onAnswer }: OpenEndedProps) {
     setData(null);
     setInput('');
     setSubmitted(false);
-    fetch(`/api/questions/${question.id}/open-ended`)
+    fetch(`/api/questions/details?id=${question.id}&type=open_ended`)
       .then(r => r.json())
       .then(setData)
       .catch(() => {});

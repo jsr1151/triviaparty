@@ -2,6 +2,14 @@
 
 A trivia game hosting site with multiple game modes, powered by J-Archive data and a rich question bank.
 
+## Live Demo
+
+🌐 **[https://jsr1151.github.io/triviaparty/](https://jsr1151.github.io/triviaparty/)**
+
+The live demo is deployed automatically to GitHub Pages from the `main` branch.
+It shows the full UI, but game data is only available in a local or server deployment
+(GitHub Pages is a static host — it cannot run the database or the J-Archive scraper).
+
 ## Features
 
 - **Jeopardy Mode** – Play classic Jeopardy! games scraped from [J-Archive](https://j-archive.com/) with the original board, categories, clues, and scoring.
@@ -23,11 +31,23 @@ A trivia game hosting site with multiple game modes, powered by J-Archive data a
 
 ## Accessing the Application
 
-### Prerequisites
+### Option A — GitHub Pages (live, no setup required)
+
+Open **[https://jsr1151.github.io/triviaparty/](https://jsr1151.github.io/triviaparty/)** in any browser.
+
+The site is re-deployed automatically on every push to `main`.
+
+> **Note:** GitHub Pages is a static host. The live site shows the full UI with empty-state
+> messages for the game modes. To load real game data you need a local or server deployment
+> (Option B or C below).
+
+---
+
+### Option B — Local development (with full data support)
+
+#### Prerequisites
 - **Node.js 18+** – [Download here](https://nodejs.org/)
 - **npm** (bundled with Node.js)
-
-### Quick Start (Development)
 
 ```bash
 # 1. Clone the repository
@@ -56,10 +76,10 @@ Open **[http://localhost:3000](http://localhost:3000)** in your browser. 🎉
 
 | URL | Description |
 |-----|-------------|
-| `http://localhost:3000` | Home – choose a game mode |
-| `http://localhost:3000/play/jeopardy` | Jeopardy board game |
-| `http://localhost:3000/play/party` | Party mode (mixed question types) |
-| `http://localhost:3000/play/random` | Random questions with filters |
+| `/` | Home – choose a game mode |
+| `/play/jeopardy` | Jeopardy board game |
+| `/play/party` | Party mode (mixed question types) |
+| `/play/random` | Random questions with filters |
 
 ---
 
@@ -77,11 +97,33 @@ curl -X POST http://localhost:3000/api/jeopardy/scrape \
 
 ---
 
-### Production Build
+### Option C — Production server build
 
 ```bash
 npm run build   # compile for production
 npm start       # start the production server on http://localhost:3000
+```
+
+---
+
+## Deployment
+
+### GitHub Pages (automatic)
+
+Pushes to `main` automatically trigger `.github/workflows/deploy.yml`, which:
+1. Installs dependencies and generates the Prisma client
+2. Runs `npm run build` with `GITHUB_PAGES=true` to produce a fully-static export in `out/`
+3. Deploys `out/` to GitHub Pages
+
+To enable GitHub Pages for this repository:
+1. Go to **Settings → Pages**
+2. Set **Source** to **GitHub Actions**
+
+### Manual GitHub Pages build
+
+```bash
+GITHUB_PAGES=true npm run build
+# Static files are in out/
 ```
 
 ---
