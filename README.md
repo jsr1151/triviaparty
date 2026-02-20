@@ -6,13 +6,13 @@ A trivia game hosting site with multiple game modes, powered by J-Archive data a
 
 🌐 **[https://jsr1151.github.io/triviaparty/](https://jsr1151.github.io/triviaparty/)**
 
-> **⚠️ One-time setup required — if you see a 404, do this first:**
+> **⚠️ One-time setup required — if you see a 404, do this:**
 > 1. Go to your repo on GitHub → **Settings → Pages**
-> 2. Under **Build and deployment**, set **Source** to **GitHub Actions**
-> 3. Push any commit (or re-run the *Deploy to GitHub Pages* workflow from the **Actions** tab)
+> 2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+> 3. Set **Branch** to `gh-pages` and folder to `/ (root)`, then click **Save**
+> 4. The *Deploy to GitHub Pages* workflow will create the `gh-pages` branch automatically on the next push, or you can trigger it manually from the **Actions** tab.
 >
-> GitHub Pages is disabled by default on new repositories. Until the source is set to
-> "GitHub Actions", every deployment will silently fail and the URL will return 404.
+> *(If you previously set Source to "GitHub Actions", change it back to "Deploy from a branch" as described above — the new deployment approach pushes to a `gh-pages` branch directly.)*
 
 The site is deployed automatically on every push to `main` or `copilot/build-trivia-game-site`.
 It shows the full UI, but game data is only available in a local or server deployment
@@ -43,9 +43,12 @@ It shows the full UI, but game data is only available in a local or server deplo
 
 Open **[https://jsr1151.github.io/triviaparty/](https://jsr1151.github.io/triviaparty/)** in any browser.
 
-> **If you see a 404:** go to **Settings → Pages → Source → GitHub Actions** in this
-> repository, then re-run the *Deploy to GitHub Pages* workflow from the Actions tab.
-> This is a one-time step — GitHub Pages is disabled by default.
+> **If you see a 404:** go to **Settings → Pages** and set:
+> - **Source** → `Deploy from a branch`
+> - **Branch** → `gh-pages`, folder → `/ (root)` → **Save**
+>
+> The `gh-pages` branch is created automatically by the CI workflow on the next push.
+> You can also trigger it manually from the **Actions** tab → *Deploy to GitHub Pages* → **Run workflow**.
 
 The site is re-deployed automatically on every push to `main` or `copilot/build-trivia-game-site`.
 
@@ -127,12 +130,13 @@ Pushes to `main` or `copilot/build-trivia-game-site` automatically trigger
 1. Installs dependencies and generates the Prisma client
 2. Applies database migrations (`prisma migrate deploy`)
 3. Runs `npm run build` with `GITHUB_PAGES=true` to produce a fully-static export in `out/`
-4. Deploys `out/` to GitHub Pages
+4. Pushes `out/` to the `gh-pages` branch via `peaceiris/actions-gh-pages`
 
-**One-time setup** (required before the first deployment will succeed):
+**One-time setup** (required before the live URL will resolve):
 1. Go to **Settings → Pages** in this repository
-2. Set **Source** to **GitHub Actions**
-3. Push a commit or re-run the *Deploy to GitHub Pages* workflow from the **Actions** tab
+2. Set **Source** to **Deploy from a branch**
+3. Set **Branch** to `gh-pages`, folder to `/ (root)`, then click **Save**
+4. Trigger the workflow: push a commit, or go to **Actions → Deploy to GitHub Pages → Run workflow**
 
 ### Manual GitHub Pages build
 
