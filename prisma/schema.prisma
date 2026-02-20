@@ -1,0 +1,158 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Category {
+  id          String     @id @default(cuid())
+  name        String
+  slug        String     @unique
+  description String?
+  createdAt   DateTime   @default(now())
+  questions   Question[]
+}
+
+model JeopardyGame {
+  id         String             @id @default(cuid())
+  showNumber Int
+  airDate    String
+  season     Int?
+  categories JeopardyCategory[]
+  createdAt  DateTime           @default(now())
+}
+
+model JeopardyCategory {
+  id       String        @id @default(cuid())
+  gameId   String
+  game     JeopardyGame  @relation(fields: [gameId], references: [id])
+  name     String
+  round    String
+  position Int
+  clues    JeopardyClue[]
+}
+
+model JeopardyClue {
+  id          String           @id @default(cuid())
+  categoryId  String
+  category    JeopardyCategory @relation(fields: [categoryId], references: [id])
+  question    String
+  answer      String
+  value       Int?
+  dailyDouble Boolean          @default(false)
+  airDate     String?
+  createdAt   DateTime         @default(now())
+}
+
+model Question {
+  id          String    @id @default(cuid())
+  type        String
+  categoryId  String?
+  category    Category? @relation(fields: [categoryId], references: [id])
+  difficulty  String    @default("medium")
+  question    String
+  explanation String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  multipleChoice   MultipleChoiceQuestion?
+  openEnded        OpenEndedQuestion?
+  listQuestion     ListQuestion?
+  groupingQuestion GroupingQuestion?
+  thisOrThat       ThisOrThatQuestion?
+  rankingQuestion  RankingQuestion?
+  mediaQuestion    MediaQuestion?
+  promptQuestion   PromptQuestion?
+}
+
+model MultipleChoiceQuestion {
+  id            String   @id @default(cuid())
+  questionId    String   @unique
+  question      Question @relation(fields: [questionId], references: [id])
+  options       Json
+  correctAnswer String
+  createdAt     DateTime @default(now())
+}
+
+model OpenEndedQuestion {
+  id              String   @id @default(cuid())
+  questionId      String   @unique
+  question        Question @relation(fields: [questionId], references: [id])
+  answer          String
+  acceptedAnswers Json
+  createdAt       DateTime @default(now())
+}
+
+model ListQuestion {
+  id          String   @id @default(cuid())
+  questionId  String   @unique
+  question    Question @relation(fields: [questionId], references: [id])
+  answers     Json
+  minRequired Int
+  createdAt   DateTime @default(now())
+}
+
+model GroupingQuestion {
+  id           String   @id @default(cuid())
+  questionId   String   @unique
+  question     Question @relation(fields: [questionId], references: [id])
+  groupName    String
+  items        Json
+  correctItems Json
+  createdAt    DateTime @default(now())
+}
+
+model ThisOrThatQuestion {
+  id         String   @id @default(cuid())
+  questionId String   @unique
+  question   Question @relation(fields: [questionId], references: [id])
+  categoryA  String
+  categoryB  String
+  items      Json
+  createdAt  DateTime @default(now())
+}
+
+model RankingQuestion {
+  id         String   @id @default(cuid())
+  questionId String   @unique
+  question   Question @relation(fields: [questionId], references: [id])
+  items      Json
+  criteria   String
+  createdAt  DateTime @default(now())
+}
+
+model MediaQuestion {
+  id              String   @id @default(cuid())
+  questionId      String   @unique
+  question        Question @relation(fields: [questionId], references: [id])
+  mediaType       String
+  mediaUrl        String
+  answer          String
+  acceptedAnswers Json
+  createdAt       DateTime @default(now())
+}
+
+model PromptQuestion {
+  id              String   @id @default(cuid())
+  questionId      String   @unique
+  question        Question @relation(fields: [questionId], references: [id])
+  prompt          String
+  answer          String
+  acceptedAnswers Json
+  hints           Json
+  createdAt       DateTime @default(now())
+}
+
+model Game {
+  id              String   @id @default(cuid())
+  mode            String
+  status          String   @default("waiting")
+  players         Json
+  score           Json
+  currentQuestion String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

@@ -1,0 +1,45 @@
+{
+  "name": "triviaparty",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "db:migrate": "prisma migrate dev",
+    "db:generate": "prisma generate",
+    "postinstall": "prisma generate",
+    "scrape": "ts-node --project tsconfig.scripts.json scripts/scrape-to-json.ts",
+    "import": "ts-node --project tsconfig.scripts.json scripts/import-questions.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.0",
+    "@prisma/adapter-libsql": "^7.4.1",
+    "@prisma/client": "^7.4.1",
+    "axios": "^1.13.5",
+    "cheerio": "^1.2.0",
+    "next": "^15.5.12",
+    "prisma": "^7.4.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/supertest": "^6.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "^15.5.12",
+    "jest": "^30.2.0",
+    "postcss": "^8",
+    "supertest": "^7.2.2",
+    "tailwindcss": "^3.4.1",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}
