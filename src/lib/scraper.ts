@@ -51,7 +51,7 @@ function detectSpecial(title: string): { isSpecial: boolean; tournamentType: str
 }
 
 export async function scrapeGameList(season: number): Promise<{ gameId: number; showNumber: number; airDate: string; url: string }[]> {
-  const { data } = await axios.get(`${BASE_URL}/showindex.php?season=${season}`, {
+  const { data } = await axios.get(`${BASE_URL}/showseason.php?season=${season}`, {
     headers: { 'User-Agent': 'TriviaParty/1.0 (educational use)' },
     timeout: 10000,
   });
@@ -161,7 +161,7 @@ export async function scrapeGame(gameId: number): Promise<ScrapedGame | null> {
 
         const answer = $(clueEl).find('.correct_response').first().text().trim();
         const orderAttr = $(clueEl).find('[id*="clue_"]').attr('id') || '';
-        const colMatch = orderAttr.match(/clue_[JD]_(\d+)/);
+        const colMatch = orderAttr.match(/clue_(?:J|DJ)_(\d+)(?:_\d+)?/);
         const catIdx = colMatch ? parseInt(colMatch[1]) - 1 : 0;
         const targetCat = categories.find(c => c.round === round && c.position === catIdx);
         if (targetCat) {

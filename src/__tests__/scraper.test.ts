@@ -119,5 +119,33 @@ describe('scraper', () => {
         expect(clue.rowIndex).toBe(idx);
       });
     });
+
+    it('maps Double Jeopardy clues to the correct category by clue_DJ id', async () => {
+      const html = `<html><body>
+        <div id="game_title">Show #8004 - aired August 1, 2024</div>
+        <div id="double_jeopardy_round">
+          <div class="category_name">CAT 1</div>
+          <div class="category_name">CAT 2</div>
+          <div class="clue">
+            <div id="clue_DJ_2_1" class="clue_text">DJ clue in category 2</div>
+            <div class="clue_value">$400</div>
+            <em class="correct_response">Answer</em>
+          </div>
+        </div>
+      </body></html>`;
+
+      mockedAxios.get.mockResolvedValueOnce({ data: html });
+      const result = await scrapeGame(8004);
+      expect(result).not.toBeNull();
+
+      const doubleCats = result?.categories.filter(c => c.round === 'double') ?? [];
+      expect(doubleCats.length).toBeGreaterThanOrEqual(2);
+
+      const cat1 = doubleCats.find(c => c.position === 0);
+      const cat2 = doubleCats.find(c => c.position === 1);
+      expect(cat1?.clues.length).toBe(0);
+      expect(cat2?.clues.length).toBe(1);
+      expect(cat2?.clues[0].question).toBe('DJ clue in category 2');
+    });
   });
 });
