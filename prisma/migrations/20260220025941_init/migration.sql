@@ -56,7 +56,7 @@ CREATE TABLE "Question" (
 CREATE TABLE "MultipleChoiceQuestion" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "questionId" TEXT NOT NULL,
-    "options" TEXT NOT NULL,
+    "options" JSONB NOT NULL,
     "correctAnswer" TEXT NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT "MultipleChoiceQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
@@ -67,7 +67,7 @@ CREATE TABLE "OpenEndedQuestion" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "questionId" TEXT NOT NULL,
     "answer" TEXT NOT NULL,
-    "acceptedAnswers" TEXT NOT NULL,
+    "acceptedAnswers" JSONB NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT "OpenEndedQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
@@ -76,7 +76,7 @@ CREATE TABLE "OpenEndedQuestion" (
 CREATE TABLE "ListQuestion" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "questionId" TEXT NOT NULL,
-    "answers" TEXT NOT NULL,
+    "answers" JSONB NOT NULL,
     "minRequired" INTEGER NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT "ListQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
@@ -87,8 +87,8 @@ CREATE TABLE "GroupingQuestion" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "questionId" TEXT NOT NULL,
     "groupName" TEXT NOT NULL,
-    "items" TEXT NOT NULL,
-    "correctItems" TEXT NOT NULL,
+    "items" JSONB NOT NULL,
+    "correctItems" JSONB NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT "GroupingQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
@@ -99,7 +99,7 @@ CREATE TABLE "ThisOrThatQuestion" (
     "questionId" TEXT NOT NULL,
     "categoryA" TEXT NOT NULL,
     "categoryB" TEXT NOT NULL,
-    "items" TEXT NOT NULL,
+    "items" JSONB NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT "ThisOrThatQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
@@ -108,7 +108,7 @@ CREATE TABLE "ThisOrThatQuestion" (
 CREATE TABLE "RankingQuestion" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "questionId" TEXT NOT NULL,
-    "items" TEXT NOT NULL,
+    "items" JSONB NOT NULL,
     "criteria" TEXT NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT "RankingQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
@@ -121,7 +121,7 @@ CREATE TABLE "MediaQuestion" (
     "mediaType" TEXT NOT NULL,
     "mediaUrl" TEXT NOT NULL,
     "answer" TEXT NOT NULL,
-    "acceptedAnswers" TEXT NOT NULL,
+    "acceptedAnswers" JSONB NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT "MediaQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
@@ -132,8 +132,8 @@ CREATE TABLE "PromptQuestion" (
     "questionId" TEXT NOT NULL,
     "prompt" TEXT NOT NULL,
     "answer" TEXT NOT NULL,
-    "acceptedAnswers" TEXT NOT NULL,
-    "hints" TEXT NOT NULL,
+    "acceptedAnswers" JSONB NOT NULL,
+    "hints" JSONB NOT NULL,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT "PromptQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
@@ -143,8 +143,8 @@ CREATE TABLE "Game" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "mode" TEXT NOT NULL,
     "status" TEXT NOT NULL DEFAULT 'waiting',
-    "players" TEXT NOT NULL,
-    "score" TEXT NOT NULL,
+    "players" JSONB NOT NULL,
+    "score" JSONB NOT NULL,
     "currentQuestion" TEXT,
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" DATETIME NOT NULL

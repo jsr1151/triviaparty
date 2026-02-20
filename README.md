@@ -21,40 +21,84 @@ A trivia game hosting site with multiple game modes, powered by J-Archive data a
 | Media | Answer a question about an image or video |
 | Prompt | Puzzle-style question with a hint/prompt |
 
-## Getting Started
+## Accessing the Application
 
 ### Prerequisites
-- Node.js 18+
-- npm
+- **Node.js 18+** – [Download here](https://nodejs.org/)
+- **npm** (bundled with Node.js)
 
-### Setup
+### Quick Start (Development)
 
 ```bash
-# Install dependencies
+# 1. Clone the repository
+git clone https://github.com/jsr1151/triviaparty.git
+cd triviaparty
+
+# 2. Install dependencies (also auto-generates the Prisma client)
 npm install
 
-# Copy environment file and configure database
+# 3. Set up your environment file
 cp .env.example .env
 
-# Generate Prisma client and run migrations
-npx prisma migrate dev --name init
+# 4. Create the database and run migrations
+npm run db:migrate
+# When prompted for a migration name, press Enter to accept the default (or type any name)
 
-# Start the development server
+# 5. Start the development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the app.
+Open **[http://localhost:3000](http://localhost:3000)** in your browser. 🎉
 
-### Scraping J-Archive Data
+---
 
-To load Jeopardy games, use the scrape API endpoint:
+### Pages
+
+| URL | Description |
+|-----|-------------|
+| `http://localhost:3000` | Home – choose a game mode |
+| `http://localhost:3000/play/jeopardy` | Jeopardy board game |
+| `http://localhost:3000/play/party` | Party mode (mixed question types) |
+| `http://localhost:3000/play/random` | Random questions with filters |
+
+---
+
+### Loading Jeopardy Games (Optional)
+
+The Jeopardy board is empty until you scrape games from J-Archive.  
+Each game on J-Archive has a numeric ID in its URL (e.g. `showgame.php?game_id=8000`).
 
 ```bash
-# Scrape a specific game by its J-Archive game ID
+# Scrape a specific game (server must be running)
 curl -X POST http://localhost:3000/api/jeopardy/scrape \
   -H "Content-Type: application/json" \
   -d '{"gameId": 8000}'
 ```
+
+---
+
+### Production Build
+
+```bash
+npm run build   # compile for production
+npm start       # start the production server on http://localhost:3000
+```
+
+---
+
+## Development Reference
+
+### Scripts
+
+| Command | Purpose |
+|---------|---------|
+| `npm run dev` | Start development server with hot-reload |
+| `npm run build` | Compile production build |
+| `npm start` | Run production server |
+| `npm test` | Run test suite |
+| `npm run lint` | Lint source files |
+| `npm run db:migrate` | Create and apply a new database migration |
+| `npm run db:generate` | Regenerate the Prisma client (after schema changes) |
 
 ### Running Tests
 
@@ -62,16 +106,9 @@ curl -X POST http://localhost:3000/api/jeopardy/scrape \
 npm test
 ```
 
-### Building for Production
-
-```bash
-npm run build
-npm start
-```
-
 ## Tech Stack
 
-- **Framework**: Next.js 14 (App Router, TypeScript)
+- **Framework**: Next.js 15 (App Router, TypeScript)
 - **Styling**: Tailwind CSS
 - **Database**: Prisma + SQLite (easily swappable to PostgreSQL)
 - **Scraping**: Axios + Cheerio
