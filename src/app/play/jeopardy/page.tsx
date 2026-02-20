@@ -105,6 +105,16 @@ const VALUES_SINGLE = [200, 400, 600, 800, 1000];
 const VALUES_DOUBLE = [400, 800, 1200, 1600, 2000];
 const SEASON_OPTIONS = Array.from({ length: 40 }, (_, i) => i + 1);
 
+function inferSeasonFromAirDate(airDate: string): number | null {
+  const parsed = new Date(airDate);
+  if (Number.isNaN(parsed.getTime())) return null;
+  const year = parsed.getUTCFullYear();
+  const month = parsed.getUTCMonth() + 1;
+  const season = month >= 9 ? year - 1983 : year - 1984;
+  if (season < 1) return null;
+  return season;
+}
+
 export default function JeopardyPage() {
   // ── Data loading
   const [allGames, setAllGames] = useState<JeopardyGameData[]>([]);
@@ -152,7 +162,7 @@ export default function JeopardyPage() {
             gameId: entry.gameId,
             showNumber: entry.showNumber,
             airDate: entry.airDate,
-            season: entry.season,
+            season: entry.season ?? inferSeasonFromAirDate(entry.airDate),
             isSpecial: entry.isSpecial,
             tournamentType: entry.tournamentType,
             categories: [],
