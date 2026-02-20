@@ -118,7 +118,132 @@ npm start       # start the production server on http://localhost:3000
 
 ---
 
-## Deployment
+## Storing Questions (Database Options)
+
+The GitHub Pages site is a **static demo only** — it cannot save data because it has no server.
+To persist questions and use the full app, you need a backend. Here are the two supported options:
+
+---
+
+### Option 1 — Vercel + Turso (recommended, both free)
+
+This gives you a fully-live URL where questions are stored permanently in a cloud database.
+
+#### A. Set up Turso (free hosted database)
+
+```bash
+# Install the Turso CLI
+curl -sSfL https://get.tur.so/install.sh | bash
+
+# Log in / sign up (free, no credit card)
+turso auth login
+
+# Create your database
+turso db create triviaparty
+
+# Get your connection URL
+turso db show triviaparty --url
+# → libsql://triviaparty-<yourname>.turso.io
+
+# Create an auth token
+turso db tokens create triviaparty
+# → paste this as TURSO_AUTH_TOKEN
+```
+
+#### B. Deploy to Vercel (free)
+
+1. Push this branch to GitHub (or fork the repo)
+2. Go to [vercel.com](https://vercel.com) → **New Project** → import this repo
+3. Add these environment variables in Vercel's project settings:
+   - `DATABASE_URL` = `libsql://triviaparty-<yourname>.turso.io`
+   - `TURSO_AUTH_TOKEN` = `<your-token>`
+4. Click **Deploy**
+
+Vercel runs `prisma migrate deploy && next build` automatically (via `vercel.json`).  
+Your app will be live at `https://triviaparty-<yourname>.vercel.app`.
+
+---
+
+### Option 2 — Local server (full control, no cloud account needed)
+
+Run the app on your own machine (or a VPS). See **Option B** in the Accessing section above.
+
+---
+
+### Loading Questions
+
+#### From J-Archive (Jeopardy games)
+
+```bash
+# Scrape a specific game by its J-Archive ID (server must be running)
+curl -X POST https://your-vercel-url.vercel.app/api/jeopardy/scrape \
+  -H "Content-Type: application/json" \
+  -d '{"gameId": 8000}'
+```
+
+#### From your personal question bank (bulk import)
+
+Create a JSON file with your questions:
+
+```json
+[
+  {
+    "type": "multiple_choice",
+    "question": "What is the capital of France?",
+    "difficulty": "easy",
+    "category": "geography",
+    "options": ["Paris", "London", "Berlin", "Rome"],
+    "correctAnswer": "Paris"
+  },
+  {
+    "type": "open_ended",
+    "question": "Who painted the Mona Lisa?",
+    "difficulty": "easy",
+    "category": "art",
+    "answer": "Leonardo da Vinci",
+    "acceptedAnswers": ["da Vinci", "Leonardo"]
+  },
+  {
+    "type": "list",
+    "question": "Name all 8 planets in our solar system.",
+    "difficulty": "medium",
+    "category": "science",
+    "answers": ["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"],
+    "minRequired": 4
+  }
+]
+```
+
+Then import via the API or CLI script:
+
+```bash
+# Via API (POST directly)
+curl -X POST https://your-vercel-url.vercel.app/api/questions/import \
+  -H "Content-Type: application/json" \
+  -d @my-questions.json
+
+# Via CLI script (runs locally, posts to your running server)
+npm run import -- ./my-questions.json https://your-vercel-url.vercel.app
+
+# GET /api/questions/import to see the full format reference
+```
+
+**Supported question types in the import format:**
+
+| `type` value | Required extra fields |
+|---|---|
+| `multiple_choice` | `options` (array), `correctAnswer` |
+| `open_ended` | `answer`, `acceptedAnswers` (array) |
+| `list` | `answers` (array), `minRequired` (number) |
+| `grouping` | `groupName`, `items` (array), `correctItems` (array) |
+| `this_or_that` | `categoryA`, `categoryB`, `items` (array of `{text, answer: "A"\|"B"}`) |
+| `ranking` | `items` (array of `{text, rank}`), `criteria` |
+| `media` | `mediaType` (`image`\|`video`), `mediaUrl`, `answer`, `acceptedAnswers` |
+| `prompt` | `prompt`, `answer`, `acceptedAnswers`, `hints` (array) |
+
+All types also accept: `difficulty` (`easy`\|`medium`\|`hard`), `category` (slug, auto-created), `explanation`.
+
+
 
 ### GitHub Pages
 
@@ -157,6 +282,7 @@ GITHUB_PAGES=true npm run build
 | `npm run lint` | Lint source files |
 | `npm run db:migrate` | Create and apply a new database migration |
 | `npm run db:generate` | Regenerate the Prisma client (after schema changes) |
+| `npm run import -- <file> [url]` | Bulk-import questions from a JSON file |
 
 ### Running Tests
 
@@ -168,6 +294,6 @@ npm test
 
 - **Framework**: Next.js 15 (App Router, TypeScript)
 - **Styling**: Tailwind CSS
-- **Database**: Prisma + SQLite (easily swappable to PostgreSQL)
+- **Database**: Prisma + SQLite (local) / Turso LibSQL (cloud)
 - **Scraping**: Axios + Cheerio
 - **Testing**: Jest + ts-jest

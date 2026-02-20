@@ -3,7 +3,10 @@ import { PrismaLibSql } from '@prisma/adapter-libsql';
 
 function createPrismaClient() {
   const url = process.env.DATABASE_URL || 'file:./dev.db';
-  const adapter = new PrismaLibSql({ url });
+  // TURSO_AUTH_TOKEN is only needed for Turso cloud connections.
+  // For local SQLite (file:./dev.db) the token is not required.
+  const authToken = process.env.TURSO_AUTH_TOKEN;
+  const adapter = new PrismaLibSql({ url, authToken });
   return new PrismaClient({
     adapter,
     log: process.env.NODE_ENV === 'development' ? ['query', 'error', 'warn'] : ['error'],
