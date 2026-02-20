@@ -6,7 +6,15 @@ A trivia game hosting site with multiple game modes, powered by J-Archive data a
 
 🌐 **[https://jsr1151.github.io/triviaparty/](https://jsr1151.github.io/triviaparty/)**
 
-The live demo is deployed automatically to GitHub Pages from the `main` branch.
+> **⚠️ One-time setup required — if you see a 404, do this first:**
+> 1. Go to your repo on GitHub → **Settings → Pages**
+> 2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+> 3. Push any commit (or re-run the *Deploy to GitHub Pages* workflow from the **Actions** tab)
+>
+> GitHub Pages is disabled by default on new repositories. Until the source is set to
+> "GitHub Actions", every deployment will silently fail and the URL will return 404.
+
+The site is deployed automatically on every push to `main` or `copilot/build-trivia-game-site`.
 It shows the full UI, but game data is only available in a local or server deployment
 (GitHub Pages is a static host — it cannot run the database or the J-Archive scraper).
 
@@ -35,7 +43,11 @@ It shows the full UI, but game data is only available in a local or server deplo
 
 Open **[https://jsr1151.github.io/triviaparty/](https://jsr1151.github.io/triviaparty/)** in any browser.
 
-The site is re-deployed automatically on every push to `main`.
+> **If you see a 404:** go to **Settings → Pages → Source → GitHub Actions** in this
+> repository, then re-run the *Deploy to GitHub Pages* workflow from the Actions tab.
+> This is a one-time step — GitHub Pages is disabled by default.
+
+The site is re-deployed automatically on every push to `main` or `copilot/build-trivia-game-site`.
 
 > **Note:** GitHub Pages is a static host. The live site shows the full UI with empty-state
 > messages for the game modes. To load real game data you need a local or server deployment
@@ -110,14 +122,17 @@ npm start       # start the production server on http://localhost:3000
 
 ### GitHub Pages (automatic)
 
-Pushes to `main` automatically trigger `.github/workflows/deploy.yml`, which:
+Pushes to `main` or `copilot/build-trivia-game-site` automatically trigger
+`.github/workflows/deploy.yml`, which:
 1. Installs dependencies and generates the Prisma client
-2. Runs `npm run build` with `GITHUB_PAGES=true` to produce a fully-static export in `out/`
-3. Deploys `out/` to GitHub Pages
+2. Applies database migrations (`prisma migrate deploy`)
+3. Runs `npm run build` with `GITHUB_PAGES=true` to produce a fully-static export in `out/`
+4. Deploys `out/` to GitHub Pages
 
-To enable GitHub Pages for this repository:
-1. Go to **Settings → Pages**
+**One-time setup** (required before the first deployment will succeed):
+1. Go to **Settings → Pages** in this repository
 2. Set **Source** to **GitHub Actions**
+3. Push a commit or re-run the *Deploy to GitHub Pages* workflow from the **Actions** tab
 
 ### Manual GitHub Pages build
 
