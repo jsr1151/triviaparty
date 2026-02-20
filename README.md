@@ -14,9 +14,7 @@ A trivia game hosting site with multiple game modes, powered by J-Archive data a
 > The static site is already committed to the `docs/` folder in this branch, so the page will
 > go live within ~1 minute of clicking Save — **no CI run or further action needed.**
 
-The site shows the full UI with empty-state messages for game modes.
-Game data is only available in a local or server deployment
-(GitHub Pages is a static host — it cannot run the database or the J-Archive scraper).
+The site shows the full UI.  **Jeopardy games are loaded directly from JSON files committed to the repository** — no server or database needed, even on GitHub Pages.
 
 ## Features
 
@@ -37,7 +35,93 @@ Game data is only available in a local or server deployment
 | Media | Answer a question about an image or video |
 | Prompt | Puzzle-style question with a hint/prompt |
 
+## J-Archive Jeopardy Games (no database needed!)
+
+Jeopardy games are scraped from [J-Archive](https://j-archive.com/) and saved as **plain JSON files**
+in `public/data/jeopardy/`. The app reads these files directly — they work on GitHub Pages, locally,
+and on Vercel **without any database**.
+
+### Scraped data per clue
+
+| Field | Description |
+|---|---|
+| Season | Season number (e.g. 40) |
+| Show # / Episode | Episode number (e.g. #8000) |
+| Air date | Original broadcast date |
+| Special episode | Whether it's a tournament/championship/celebrity episode |
+| Tournament type | Name of the tournament (e.g. "Tournament of Champions") |
+| Category | Category name |
+| Dollar value | Clue value ($200–$2000) |
+| Question text | The clue as read on TV |
+| Answer | Correct response |
+| Daily Double | Whether the clue was a Daily Double |
+| Triple Stumper | Whether all contestants answered incorrectly |
+| Final Jeopardy | Whether the clue is a Final Jeopardy question |
+
+### Scraping games
+
+```bash
+# Requires Node.js + npm install (no server needed)
+
+# Scrape one or more games by J-Archive game_id
+npm run scrape -- 8000 8001 8002
+
+# Scrape every game in a season
+npm run scrape -- --season 40
+
+# Scrape a range of IDs
+npm run scrape -- --from 7990 --to 8010
+```
+
+Output is saved to `public/data/jeopardy/game-<id>.json` and the index is updated at
+`public/data/jeopardy/index.json`.
+
+**To publish scraped games to GitHub Pages:**
+
+```bash
+git add public/data/jeopardy/
+git commit -m "feat: add scraped Jeopardy games"
+git push
+```
+
+The Jeopardy game page on GitHub Pages will automatically pick them up on the next load.
+
+### JSON file format
+
+Each game file follows this schema (all 12 fields listed above are included per clue):
+
+```json
+{
+  "gameId": 8000,
+  "showNumber": 4532,
+  "airDate": "January 1, 2024",
+  "season": 40,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FAMOUS PAINTINGS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Spaniard painted Guernica in 1937",
+          "answer": "Picasso",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS PAINTINGS",
+          "round": "single"
+        }
+      ]
+    }
+  ]
+}
+```
+
 ## Accessing the Application
+
 
 ### Option A — GitHub Pages (live, no setup required)
 
@@ -282,6 +366,7 @@ GITHUB_PAGES=true npm run build
 | `npm run lint` | Lint source files |
 | `npm run db:migrate` | Create and apply a new database migration |
 | `npm run db:generate` | Regenerate the Prisma client (after schema changes) |
+| `npm run scrape -- <args>` | Scrape J-Archive games to JSON files (see J-Archive section) |
 | `npm run import -- <file> [url]` | Bulk-import questions from a JSON file |
 
 ### Running Tests

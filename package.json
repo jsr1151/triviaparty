@@ -11,6 +11,7 @@
     "db:migrate": "prisma migrate dev",
     "db:generate": "prisma generate",
     "postinstall": "prisma generate",
+    "scrape": "ts-node --project tsconfig.json scripts/scrape-to-json.ts",
     "import": "ts-node --project tsconfig.json scripts/import-questions.ts"
   },
   "dependencies": {
