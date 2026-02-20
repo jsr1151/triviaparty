@@ -62,14 +62,18 @@ and on Vercel **without any database**.
 
 #### Option A — GitHub Actions (recommended, no local setup needed)
 
-1. Go to your repo on GitHub → **Actions → Scrape J-Archive Games → Run workflow**
-2. Enter space-separated game IDs in the input box (e.g. `173 174 175`)
-3. Click **Run workflow** — the runner scrapes the games and commits the JSON files to the branch automatically
+> **Pre-scraped:** `public/data/jeopardy/game-173.json` (Season 1, Show #1, 1984-09-10) is already
+> committed in this branch and served by GitHub Pages. You can play it right now — no scraping needed.
 
-The Jeopardy page on GitHub Pages will show the new games the next time it loads.
+To scrape additional games after the PR is merged to `main`:
 
-> **Season 1, Show #1 (1984-09-10) = game ID `173`**
-> The deploy workflow auto-scrapes game 173 the first time it runs if the file isn't already committed.
+1. Enable Actions: **Settings → Actions → General → Allow all actions and reusable workflows → Save**
+2. Go to **Actions → Scrape J-Archive Games → Run workflow**
+3. Enter space-separated game IDs (e.g. `173 174 175`) and click **Run workflow**
+
+The workflow commits the JSON files to the branch automatically; the Jeopardy page picks them up on next load.
+
+> **Note:** The `Scrape J-Archive Games` workflow only appears in the GitHub Actions tab once the PR is merged to `main`.
 
 #### Option B — locally (requires Node.js)
 
