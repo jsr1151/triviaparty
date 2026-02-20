@@ -78,6 +78,25 @@ function getIntFlag(args: string[], flag: string, fallback: number): number {
   return Number.isFinite(parsed) ? parsed : fallback;
 }
 
+function positionalGameIdArgs(args: string[]): string[] {
+  const flagsWithValue = new Set([
+    '--season', '--season-from', '--season-to', '--from', '--to',
+    '--delay-ms', '--retries', '--retry-backoff-ms', '--max-games',
+  ]);
+
+  const result: string[] = [];
+  for (let i = 0; i < args.length; i++) {
+    const token = args[i];
+    if (flagsWithValue.has(token)) {
+      i += 1;
+      continue;
+    }
+    if (token.startsWith('--')) continue;
+    result.push(token);
+  }
+  return result;
+}
+
 function loadIndex(): JeopardyIndexEntry[] {
   if (!fs.existsSync(PRIMARY_INDEX_FILE)) return [];
   try { return JSON.parse(fs.readFileSync(PRIMARY_INDEX_FILE, 'utf-8')); }
@@ -273,7 +292,7 @@ async function main() {
     for (let id = from; id <= to; id++) gameIds.push(id);
     console.log(`Scraping game IDs ${from}–${to} (${gameIds.length} games)`);
   } else {
-    gameIds = args.filter(a => !a.startsWith('--')).map(Number).filter(n => !isNaN(n) && n > 0);
+    gameIds = positionalGameIdArgs(args).map(Number).filter(n => !isNaN(n) && n > 0);
     if (gameIds.length === 0) { console.error('No valid game IDs provided'); process.exit(1); }
     console.log(`Scraping ${gameIds.length} game(s): ${gameIds.join(', ')}`);
   }
