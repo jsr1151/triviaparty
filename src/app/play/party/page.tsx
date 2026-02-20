@@ -82,7 +82,8 @@ export default function PartyPage() {
           {q.type === 'open_ended' && <OpenEnded question={q} onAnswer={handleAnswer} />}
           {q.type === 'list' && <ListQuestion question={q} onAnswer={handleAnswer} />}
           {!['multiple_choice','open_ended','list'].includes(q.type) && (
-            <div className="text-gray-400 italic">Question type &quot;{q.type}&quot; viewer coming soon.</div>
+            <div className="text-gray-400 italic">{`Question type "${q.type}" viewer coming soon.`}</div>
+
           )}
           {answered !== null && (
             <div className={`mt-4 text-center text-xl font-bold ${answered ? 'text-green-400' : 'text-red-400'}`}>

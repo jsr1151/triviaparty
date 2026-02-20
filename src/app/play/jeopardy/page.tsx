@@ -147,7 +147,7 @@ export default function JeopardyPage() {
           <div className="text-white text-3xl text-center font-bold max-w-2xl mb-8">{activeClue.clue.question}</div>
           {showAnswer ? (
             <>
-              <div className="text-yellow-300 text-2xl text-center mb-8 italic">&quot;{activeClue.clue.answer}&quot;</div>
+              <div className="text-yellow-300 text-2xl text-center mb-8 italic">{`"${activeClue.clue.answer}"`}</div>
               <div className="flex gap-4">
                 <button onClick={handleCorrect} className="bg-green-600 hover:bg-green-500 px-8 py-3 rounded-xl font-bold text-xl">✓ Correct</button>
                 <button onClick={handleIncorrect} className="bg-red-600 hover:bg-red-500 px-8 py-3 rounded-xl font-bold text-xl">✗ Wrong</button>
