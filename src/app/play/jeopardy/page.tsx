@@ -132,7 +132,35 @@ export default function JeopardyPage() {
     async function load() {
       const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
-      // 1. Try API first (Vercel / local server with DB)
+      // 1. Try static JSON files first (works for GitHub Pages and local scraped data)
+      try {
+        const idxRes = await fetch(`${base}/data/jeopardy/index.json`, { cache: 'no-store' });
+        const index: JeopardyIndexEntry[] = await idxRes.json();
+        if (index.length > 0) {
+          const rawGames: JeopardyGameData[] = [];
+          const uiGames: JeopardyGame[] = [];
+          for (const entry of index) {
+            try {
+              const gRes = await fetch(`${base}/data/jeopardy/${entry.file}`, { cache: 'no-store' });
+              if (!gRes.ok) continue;
+              const gData: JeopardyGameData = await gRes.json();
+              rawGames.push(gData);
+              uiGames.push(normaliseJsonGame(gData));
+            } catch {
+              continue;
+            }
+          }
+          if (uiGames.length > 0) {
+            setAllGames(rawGames);
+            setDisplayGames(uiGames);
+            setDataSource('files');
+            setLoading(false);
+            return;
+          }
+        }
+      } catch { /* fall through */ }
+
+      // 2. Fall back to API (Vercel / local server with DB)
       try {
         const res = await fetch('/api/jeopardy');
         const data = await res.json();
@@ -140,27 +168,6 @@ export default function JeopardyPage() {
         if (apiGames.length > 0) {
           setDisplayGames(apiGames);
           setDataSource('api');
-          setLoading(false);
-          return;
-        }
-      } catch { /* fall through */ }
-
-      // 2. Fall back to static JSON files
-      try {
-        const idxRes = await fetch(`${base}/data/jeopardy/index.json`);
-        const index: JeopardyIndexEntry[] = await idxRes.json();
-        if (index.length > 0) {
-          const rawGames: JeopardyGameData[] = [];
-          const uiGames: JeopardyGame[] = [];
-          for (const entry of index) {
-            const gRes = await fetch(`${base}/data/jeopardy/${entry.file}`);
-            const gData: JeopardyGameData = await gRes.json();
-            rawGames.push(gData);
-            uiGames.push(normaliseJsonGame(gData));
-          }
-          setAllGames(rawGames);
-          setDisplayGames(uiGames);
-          setDataSource('files');
           setLoading(false);
           return;
         }

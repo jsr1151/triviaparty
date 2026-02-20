@@ -3,7 +3,7 @@
  * scripts/scrape-to-json.ts
  *
  * Scrape one or more J-Archive games and save them as static JSON files
- * under public/data/jeopardy/. No database or server needed — the JSON
+ * under public/data/jeopardy/ (and docs/data/jeopardy/ when present). No database or server needed — the JSON
  * files are committed to the repository and served directly by GitHub Pages.
  *
  * Usage:
@@ -19,6 +19,8 @@
  * Output:
  *   public/data/jeopardy/game-<id>.json  — one file per game
  *   public/data/jeopardy/index.json      — updated list of all scraped games
+ *   docs/data/jeopardy/game-<id>.json    — mirrored file for GitHub Pages static docs (if docs/ exists)
+ *   docs/data/jeopardy/index.json        — mirrored index for GitHub Pages static docs (if docs/ exists)
  *
  * After running this script, commit the generated JSON files to the repository.
  * The Jeopardy game page will automatically load them on GitHub Pages.
@@ -29,25 +31,33 @@ import * as path from 'path';
 import { scrapeGame, scrapeGameList } from '../src/lib/scraper';
 import type { JeopardyGameData, JeopardyIndexEntry } from '../src/types/jeopardy';
 
-const DATA_DIR = path.resolve(__dirname, '../public/data/jeopardy');
-const INDEX_FILE = path.join(DATA_DIR, 'index.json');
+const PRIMARY_DATA_DIR = path.resolve(__dirname, '../public/data/jeopardy');
+const DOCS_DATA_DIR = path.resolve(__dirname, '../docs/data/jeopardy');
+const DATA_DIRS = fs.existsSync(path.resolve(__dirname, '../docs'))
+  ? [PRIMARY_DATA_DIR, DOCS_DATA_DIR]
+  : [PRIMARY_DATA_DIR];
+const PRIMARY_INDEX_FILE = path.join(PRIMARY_DATA_DIR, 'index.json');
 
 function loadIndex(): JeopardyIndexEntry[] {
-  if (!fs.existsSync(INDEX_FILE)) return [];
-  try { return JSON.parse(fs.readFileSync(INDEX_FILE, 'utf-8')); }
+  if (!fs.existsSync(PRIMARY_INDEX_FILE)) return [];
+  try { return JSON.parse(fs.readFileSync(PRIMARY_INDEX_FILE, 'utf-8')); }
   catch { return []; }
 }
 
 function saveIndex(entries: JeopardyIndexEntry[]) {
-  fs.writeFileSync(INDEX_FILE, JSON.stringify(entries, null, 2));
+  const serialized = JSON.stringify(entries, null, 2);
+  for (const dir of DATA_DIRS) {
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, 'index.json'), serialized);
+  }
 }
 
-function gameFile(gameId: number) {
-  return path.join(DATA_DIR, `game-${gameId}.json`);
+function gameFile(dataDir: string, gameId: number) {
+  return path.join(dataDir, `game-${gameId}.json`);
 }
 
 async function scrapeAndSave(gameId: number): Promise<boolean> {
-  const outFile = gameFile(gameId);
+  const outFile = gameFile(PRIMARY_DATA_DIR, gameId);
 
   if (fs.existsSync(outFile)) {
     console.log(`  ⏭  game-${gameId}.json already exists — skipping`);
@@ -80,7 +90,11 @@ async function scrapeAndSave(gameId: number): Promise<boolean> {
     })),
   };
 
-  fs.writeFileSync(outFile, JSON.stringify(gameData, null, 2));
+  const serializedGame = JSON.stringify(gameData, null, 2);
+  for (const dir of DATA_DIRS) {
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(gameFile(dir, gameId), serializedGame);
+  }
 
   const entry: JeopardyIndexEntry = {
     gameId,
@@ -112,7 +126,9 @@ async function scrapeAndSave(gameId: number): Promise<boolean> {
 }
 
 async function main() {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+  for (const dir of DATA_DIRS) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
 
   const args = process.argv.slice(2);
 
@@ -159,7 +175,7 @@ async function main() {
   console.log(`Index now has ${loadIndex().length} game(s).`);
   console.log('');
   console.log('Next steps:');
-  console.log('  git add public/data/jeopardy/ && git commit -m "feat: add scraped Jeopardy games"');
+  console.log('  git add public/data/jeopardy/ docs/data/jeopardy/ && git commit -m "feat: add scraped Jeopardy games"');
   console.log('  git push');
 }
 
