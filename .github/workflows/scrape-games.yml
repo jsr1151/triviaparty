@@ -1,15 +1,23 @@
 name: Scrape J-Archive Games
+# ⚠️  This workflow only appears in the GitHub Actions UI when it lives on the
+#     default branch (main). Merge the open PR to main first, then come here:
+#     Actions → "Scrape J-Archive Games" → Run workflow
 
 on:
   workflow_dispatch:
     inputs:
+      season:
+        description: >
+          Scrape an ENTIRE season by number (e.g. "1" for Season 1).
+          Leave blank if using game_ids instead.
+        required: false
+        default: ''
       game_ids:
         description: >
-          Space-separated J-Archive game IDs to scrape.
-          e.g. "173 174 175" for Season 1 episodes 1–3.
-          Use a season with --season flag syntax: "--season 1"
-        required: true
-        default: '173'
+          Space-separated J-Archive game IDs (e.g. "173 174 175").
+          Ignored when 'season' is set.
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -31,7 +39,19 @@ jobs:
         run: npm ci
 
       - name: Scrape games
-        run: npm run scrape -- ${{ github.event.inputs.game_ids }}
+        run: |
+          SEASON="${{ github.event.inputs.season }}"
+          GAME_IDS="${{ github.event.inputs.game_ids }}"
+          if [ -n "$SEASON" ]; then
+            echo "Scraping season $SEASON..."
+            npm run scrape -- --season "$SEASON"
+          elif [ -n "$GAME_IDS" ]; then
+            echo "Scraping game IDs: $GAME_IDS"
+            npm run scrape -- $GAME_IDS
+          else
+            echo "Error: provide either a season number or game IDs" >&2
+            exit 1
+          fi
 
       - name: Commit scraped JSON files
         run: |
@@ -39,6 +59,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/jeopardy/
           git diff --staged --quiet && echo "Nothing new to commit" && exit 0
+          SEASON="${{ github.event.inputs.season }}"
           GAME_IDS="${{ github.event.inputs.game_ids }}"
-          git commit -m "feat: add scraped Jeopardy games: ${GAME_IDS}"
+          LABEL="${SEASON:+season-$SEASON}${GAME_IDS:-$GAME_IDS}"
+          git commit -m "feat: add scraped Jeopardy games ($LABEL)"
           git push

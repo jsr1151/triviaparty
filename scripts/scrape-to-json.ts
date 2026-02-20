@@ -132,11 +132,7 @@ async function main() {
     if (isNaN(season)) { console.error('--season requires a number'); process.exit(1); }
     console.log(`Fetching game list for season ${season}...`);
     const list = await scrapeGameList(season);
-    gameIds = list.map((_, i) => {
-      // scrapeGameList returns URLs; we need the game_id from the URL
-      const urlMatch = list[i].url?.match(/game_id=(\d+)/);
-      return urlMatch ? parseInt(urlMatch[1]) : 0;
-    }).filter(id => id > 0);
+    gameIds = list.map(g => g.gameId).filter(id => id > 0);
     console.log(`Found ${gameIds.length} games in season ${season}`);
   } else if (args.includes('--from') && args.includes('--to')) {
     const from = parseInt(args[args.indexOf('--from') + 1]);

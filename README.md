@@ -62,18 +62,20 @@ and on Vercel **without any database**.
 
 #### Option A — GitHub Actions (recommended, no local setup needed)
 
-> **Pre-scraped:** `public/data/jeopardy/game-173.json` (Season 1, Show #1, 1984-09-10) is already
-> committed in this branch and served by GitHub Pages. You can play it right now — no scraping needed.
+> **⚠️ Requires merging the PR to `main` first.**  
+> GitHub only shows `workflow_dispatch` workflows that exist on the **default branch**.  
+> Until this PR is merged, the "Scrape J-Archive Games" button will not appear in the Actions tab.
 
-To scrape additional games after the PR is merged to `main`:
-
-1. Enable Actions: **Settings → Actions → General → Allow all actions and reusable workflows → Save**
+**Steps:**
+1. **Merge the PR** (or push this branch's contents to `main`)
 2. Go to **Actions → Scrape J-Archive Games → Run workflow**
-3. Enter space-separated game IDs (e.g. `173 174 175`) and click **Run workflow**
+3. To scrape a full season: fill in the **season** field with a number (e.g. `1` for Season 1 — ~79 games) and leave **game_ids** blank
+4. To scrape specific episodes: leave **season** blank and fill **game_ids** with space-separated IDs (e.g. `173 174 175`)
+5. Click **Run workflow**
 
-The workflow commits the JSON files to the branch automatically; the Jeopardy page picks them up on next load.
+The workflow scrapes the games, writes the JSON files, and commits them to the branch automatically. The Jeopardy page picks them up on next load.
 
-> **Note:** The `Scrape J-Archive Games` workflow only appears in the GitHub Actions tab once the PR is merged to `main`.
+**Season 1 info:** 79 episodes, game IDs mostly in the range 170–250. The first episode (Show #1, 1984-09-10) is game ID **173**.
 
 #### Option B — locally (requires Node.js)
 
@@ -102,11 +104,17 @@ git commit -m "feat: add scraped Jeopardy games"
 git push
 ```
 
-#### Known game IDs
+#### Known game IDs (Season 1)
 
-| Season | Show # | Air Date | Game ID |
-|--------|--------|----------|---------|
-| 1 | 1 | 1984-09-10 | 173 |
+Season 1 aired 1984–1985. J-Archive game IDs for Season 1 are mostly in the range 170–250.
+
+| Show # | Air Date | Game ID |
+|--------|----------|---------|
+| 1 | 1984-09-10 | 173 |
+| 2 | 1984-09-11 | 174 |
+| 3 | 1984-09-12 | 175 |
+
+> For a full season, use `--season 1` (Option A or B) — no need to look up individual IDs.
 
 ### JSON file format
 

@@ -50,26 +50,28 @@ function detectSpecial(title: string): { isSpecial: boolean; tournamentType: str
   return { isSpecial: false, tournamentType: null };
 }
 
-export async function scrapeGameList(page = 1): Promise<{ showNumber: number; airDate: string; url: string }[]> {
-  const { data } = await axios.get(`${BASE_URL}/showindex.php?season=${page}`, {
+export async function scrapeGameList(season: number): Promise<{ gameId: number; showNumber: number; airDate: string; url: string }[]> {
+  const { data } = await axios.get(`${BASE_URL}/showindex.php?season=${season}`, {
     headers: { 'User-Agent': 'TriviaParty/1.0 (educational use)' },
     timeout: 10000,
   });
   const $ = cheerio.load(data);
-  const games: { showNumber: number; airDate: string; url: string }[] = [];
+  const games: { gameId: number; showNumber: number; airDate: string; url: string }[] = [];
   $('a[href*="showgame.php"]').each((_, el) => {
     const href = $(el).attr('href') || '';
     const text = $(el).text().trim();
-    const showMatch = href.match(/game_id=(\d+)/);
+    const idMatch = href.match(/game_id=(\d+)/);
+    if (!idMatch) return;
+    const gameId = parseInt(idMatch[1]);
     const dateMatch = text.match(/(\d{4}-\d{2}-\d{2})/);
     const showNumMatch = text.match(/#(\d+)/);
-    if (showMatch) {
-      games.push({
-        showNumber: showNumMatch ? parseInt(showNumMatch[1]) : parseInt(showMatch[1]),
-        airDate: dateMatch ? dateMatch[1] : '',
-        url: href.startsWith('http') ? href : `${BASE_URL}/${href}`,
-      });
-    }
+    const url = href.startsWith('http') ? href : `${BASE_URL}/${href}`;
+    games.push({
+      gameId,
+      showNumber: showNumMatch ? parseInt(showNumMatch[1]) : gameId,
+      airDate: dateMatch ? dateMatch[1] : '',
+      url,
+    });
   });
   return games;
 }
