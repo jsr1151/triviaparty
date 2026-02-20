@@ -12,6 +12,7 @@ export interface ScrapedClue {
   isFinalJeopardy: boolean;
   category: string;
   round: 'single' | 'double' | 'final';
+  rowIndex: number;           // position within the category (0 = cheapest / first clue)
 }
 
 export interface ScrapedCategory {
@@ -128,6 +129,7 @@ export async function scrapeGame(gameId: number): Promise<ScrapedGame | null> {
               isFinalJeopardy: true,
               category: catName,
               round: 'final',
+              rowIndex: 0,
             }] : [],
           });
         }
@@ -170,6 +172,7 @@ export async function scrapeGame(gameId: number): Promise<ScrapedGame | null> {
             isFinalJeopardy: false,
             category: targetCat.name,
             round,
+            rowIndex: targetCat.clues.length, // append order = row index
           });
         }
       });

@@ -68,7 +68,16 @@ async function scrapeAndSave(gameId: number): Promise<boolean> {
     season: scraped.season,
     isSpecial: scraped.isSpecial,
     tournamentType: scraped.tournamentType,
-    categories: scraped.categories,
+    categories: scraped.categories.map(cat => ({
+      ...cat,
+      clues: cat.clues.map((cl, rowIdx) => ({
+        ...cl,
+        rowIndex: rowIdx,
+        // Stable unique ID: g<gameId>-<roundLetter>-c<catPos>-r<rowIdx>
+        // e.g. g8000-s-c2-r3  (game 8000, single round, category 2, row 3)
+        clueId: `g${gameId}-${cat.round[0]}-c${cat.position}-r${rowIdx}`,
+      })),
+    })),
   };
 
   fs.writeFileSync(outFile, JSON.stringify(gameData, null, 2));

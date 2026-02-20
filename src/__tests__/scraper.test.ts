@@ -99,5 +99,25 @@ describe('scraper', () => {
         expect(clue.isFinalJeopardy).toBe(true);
       });
     });
+
+    it('emits rowIndex on every clue', async () => {
+      const html = `<html><body>
+        <div id="game_title">Show #8003 - aired July 1, 2024</div>
+        <div id="jeopardy_round">
+          <td class="category_name">SCIENCE</td>
+          <td class="clue"><div id="clue_J_1_1" class="clue_text">Q1</div><div class="clue_value">$200</div><em class="correct_response">A1</em></td>
+          <td class="clue"><div id="clue_J_1_2" class="clue_text">Q2</div><div class="clue_value">$400</div><em class="correct_response">A2</em></td>
+        </div>
+      </body></html>`;
+      mockedAxios.get.mockResolvedValueOnce({ data: html });
+      const result = await scrapeGame(8003);
+      expect(result).not.toBeNull();
+      const clues = result?.categories.filter(c => c.round === 'single').flatMap(c => c.clues) ?? [];
+      // rowIndex should be sequential starting from 0
+      clues.forEach((clue, idx) => {
+        expect(clue).toHaveProperty('rowIndex');
+        expect(clue.rowIndex).toBe(idx);
+      });
+    });
   });
 });
