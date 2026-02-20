@@ -1,0 +1,833 @@
+{
+  "gameId": 7959,
+  "showNumber": 1519,
+  "airDate": "March 21, 1991",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "EXPLORERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This New York Herald reporter explored the Congo River for three years after finding Livingstone",
+          "answer": "Stanley",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7959-s-c0-r0"
+        },
+        {
+          "question": "In 1478, he served as a purchasing agent for the Genoese traders Di Negro & Centurione",
+          "answer": "Columbus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7959-s-c0-r1"
+        },
+        {
+          "question": "A pile of bones in the Cathedral of Lima is said to be the remains of this conqueror",
+          "answer": "Pizarro",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7959-s-c0-r2"
+        },
+        {
+          "question": "This Portuguese prince promoted explorations of Africa's west coast in the 1400s, but never went himself",
+          "answer": "Prince Henry the Navigator",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7959-s-c0-r3"
+        },
+        {
+          "question": "This Frenchman explored Canada as far west as Lake Huron & later became its governor",
+          "answer": "Samuel de Champlain",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7959-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLICHES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A suspicious person is said to smell one of these rodents",
+          "answer": "a rat",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLICHES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7959-s-c1-r0"
+        },
+        {
+          "question": "If your hat is in this, you're a candidate",
+          "answer": "the ring",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLICHES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7959-s-c1-r1"
+        },
+        {
+          "question": "To rub this in a wound means to add insult to injury; ouch!",
+          "answer": "salt",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLICHES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7959-s-c1-r2"
+        },
+        {
+          "question": "To rule this means to be in charge, as a cock of the walk could tell you",
+          "answer": "the roost",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLICHES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7959-s-c1-r3"
+        },
+        {
+          "question": "Probably originating among circus folk or traveling theater groups, it means \"let's get moving\"",
+          "answer": "let's get the show on the road",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLICHES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7959-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. STATES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This state finds the orange blossom special, so it was made the state flower",
+          "answer": "Florida",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7959-s-c2-r0"
+        },
+        {
+          "question": "Named for an Indian chief who helped the railroad get land, Pocatello is this state's 2nd-largest city",
+          "answer": "Idaho",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7959-s-c2-r1"
+        },
+        {
+          "question": "This state's first governor, William A. Egan, was reelected in 1970",
+          "answer": "Alaska",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7959-s-c2-r2"
+        },
+        {
+          "question": "Its early inhabitants didn't have chalets, they lived in cliff dwellings in Mesa Verde",
+          "answer": "Colorado",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7959-s-c2-r3"
+        },
+        {
+          "question": "The Oregon Trail began in this state",
+          "answer": "Missouri",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7959-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1985, this corporation started a new company to make cars under the trade name Saturn",
+          "answer": "General Motors",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7959-s-c3-r0"
+        },
+        {
+          "question": "In a 1990 survey, frequent flyers rated this Soviet airline last in overall service",
+          "answer": "Aeroflot",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7959-s-c3-r1"
+        },
+        {
+          "question": "Sony is the first company in the United States to mass market DAT recorders, DAT standing for this",
+          "answer": "digital audio tape",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7959-s-c3-r2"
+        },
+        {
+          "question": "West of the Mississippi, McCormick Spices are sold under this name of a company it acquired in 1947",
+          "answer": "Schilling",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7959-s-c3-r3"
+        },
+        {
+          "question": "This media company's holdings include several major newspapers & the Chicago Cubs",
+          "answer": "the Tribune Company",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7959-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"C\" FOOD",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The protein-rich pod of an evergreen tree, its pulp is used as a substitute for chocolate",
+          "answer": "carob",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7959-s-c4-r0"
+        },
+        {
+          "question": "A steak cut from the tenderloin of beef that will do for 2",
+          "answer": "Chateaubriand",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7959-s-c4-r1"
+        },
+        {
+          "question": "Mark Twain called it \"cabbage with a college education\"",
+          "answer": "cauliflower",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7959-s-c4-r2"
+        },
+        {
+          "question": "A gelded rooster fed intensively so that it's plumper than an ordinary chicken",
+          "answer": "capon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7959-s-c4-r3"
+        },
+        {
+          "question": "Legend has it that Napoleon named this soft French cheese & kissed the waitress who served it",
+          "answer": "Camembert",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7959-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE DONNA REED SHOW",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Of Fernwood, Hilldale or Mayberry, the TV town in which the Stone family lived",
+          "answer": "Hilldale",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DONNA REED SHOW",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7959-s-c5-r0"
+        },
+        {
+          "question": "Member of the cast heard here:\"Johnny Angel / How I love him\"",
+          "answer": "Shelley Fabares",
+          "value": 200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DONNA REED SHOW",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7959-s-c5-r1"
+        },
+        {
+          "question": "\"Hogan's Heroes\" star who played the Stone's family friend, Dave Kelsey",
+          "answer": "Bob Crane",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DONNA REED SHOW",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7959-s-c5-r2"
+        },
+        {
+          "question": "He turned in his Mouseketeer ears to star as Donna's son, Jeff Stone",
+          "answer": "Paul Petersen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DONNA REED SHOW",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7959-s-c5-r3"
+        },
+        {
+          "question": "The medical specialty of Donna's husband, Dr. Alex Stone",
+          "answer": "a pediatrician",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DONNA REED SHOW",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7959-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS QUOTES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Many centuries ago, Menander called marriage \"a necessary one of these\"",
+          "answer": "evil",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7959-d-c0-r0"
+        },
+        {
+          "question": "Mao Tse-Tung said, \"Political power grows out of the barrel of one of these\"",
+          "answer": "a gun",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7959-d-c0-r1"
+        },
+        {
+          "question": "Novel in which Tolstoy wrote, \"The strongest of all warriors are these two, time & patience\"",
+          "answer": "War & Peace",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7959-d-c0-r2"
+        },
+        {
+          "question": "The actual Shakespeare quote is not, \"gild the lily\", but do this to it",
+          "answer": "paint the lily",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7959-d-c0-r3"
+        },
+        {
+          "question": "Coleridge wrote, \"In Xanadu did Kublai Khan a stately\" one of these \"decree\"",
+          "answer": "pleasure dome",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7959-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRST FAMILIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "She appeared with the folks on \"Sesame Street\" as an advocate of literacy",
+          "answer": "Barbara Bush",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7959-d-c1-r0"
+        },
+        {
+          "question": "It rained on her 1971 Rose Garden wedding, the first one held outdoors at the White House",
+          "answer": "Tricia Nixon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7959-d-c1-r1"
+        },
+        {
+          "question": "After his fiancee died, a possible suicide, he never married",
+          "answer": "James Buchanan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7959-d-c1-r2"
+        },
+        {
+          "question": "His son was a Confederate general & his daughter was married to Jefferson Davis",
+          "answer": "Zachary Taylor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7959-d-c1-r3"
+        },
+        {
+          "question": "Family name of the man who was a brother of one president & father of a first lady",
+          "answer": "Elliott Roosevelt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7959-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYWRIGHTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "He wrote for radio before succeeding on Broadway with \"All My Sons\" in 1947",
+          "answer": "Arthur Miller",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7959-d-c2-r0"
+        },
+        {
+          "question": "The pen name of Yiddish author Solomon Rabinowitz or a Yiddish way to say, \"Peace be with you\"",
+          "answer": "Sholem Aleichem",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7959-d-c2-r1"
+        },
+        {
+          "question": "His 1881 play \"Ghosts\" created a furor wherever it first played",
+          "answer": "Ibsen",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7959-d-c2-r2"
+        },
+        {
+          "question": "Bald, absurdist playwright who wrote \"The Bald Soprano\"",
+          "answer": "Ionesco",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7959-d-c2-r3"
+        },
+        {
+          "question": "This Englishman is said to have established his reputation with 1959's \"The Caretaker\"",
+          "answer": "(Harold) Pinter",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7959-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ASTRONOMY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The seven brightest stars of Ursa Major or the Great Bear form this famous pattern",
+          "answer": "the Big Dipper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7959-d-c3-r0"
+        },
+        {
+          "question": "Elliptical, irregular & spiral are the 3 main types of these star systems",
+          "answer": "galaxies",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7959-d-c3-r1"
+        },
+        {
+          "question": "Helpful to farmers, the full moon nearest the autumnal equinox is called this",
+          "answer": "the harvest moon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7959-d-c3-r2"
+        },
+        {
+          "question": "As the evening star, this planet has been called Hesperus",
+          "answer": "Venus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7959-d-c3-r3"
+        },
+        {
+          "question": "Edwin Hubble discovered, \"The farther a galaxy is from us, the faster it's\" doing this",
+          "answer": "traveling away from us",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7959-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POT LUCK",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Book of Thoth, or Tot, is the traditional name for this deck of cards",
+          "answer": "tarot cards",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7959-d-c4-r0"
+        },
+        {
+          "question": "In 1822, Jefferson City, Missouri, was laid out by the son of this frontiersman",
+          "answer": "Daniel Boone",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7959-d-c4-r1"
+        },
+        {
+          "question": "Baseball, Manchester & London are three different boards commonly used for this game",
+          "answer": "darts",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7959-d-c4-r2"
+        },
+        {
+          "question": "In 1978, she became the first immediate member of the royal family to get divorced since Henry VIII",
+          "answer": "Princess Margaret",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7959-d-c4-r3"
+        },
+        {
+          "question": "In 1817 he liberated Chile from Spanish rule & became Supreme Dictator",
+          "answer": "Bernardo O'Higgins",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7959-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNATIONAL PARKS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Nepal's Royal Chitwan National Park is a rhinoceros sanctuary in the foothills of these mountains",
+          "answer": "the Himalayas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL PARKS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7959-d-c5-r0"
+        },
+        {
+          "question": "This country's national parks include Megiddo, Caesarea, & Masada",
+          "answer": "Israel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL PARKS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7959-d-c5-r1"
+        },
+        {
+          "question": "Appropriately, the world's largest park is located on this, the world's largest island",
+          "answer": "Greenland",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL PARKS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7959-d-c5-r2"
+        },
+        {
+          "question": "One can visit prehistoric stone statues at Chile's Isla de Pascua National Park on this island",
+          "answer": "Easter Island",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL PARKS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7959-d-c5-r3"
+        },
+        {
+          "question": "Botswana's Gemsbok Park is a game preserve set aside in this desert",
+          "answer": "the Kalahari",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL PARKS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7959-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "RIVERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "1 of the 2 rivers longer than 1200 miles that begin in Canada & flow to the sea through part of the U.S.",
+          "answer": "Yukon River or Columbia River",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "RIVERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7959-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "gameId": 7218,
+  "showNumber": 355,
+  "airDate": "January 17, 1986",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HORSES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "When U.S. horses tie the feedbag on, they most commonly eat this grain",
+          "answer": "oats",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7218-s-c0-r0"
+        },
+        {
+          "question": "A reddish brown horse is called sorrel or this, but don't roast one on an open fire",
+          "answer": "chestnut",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7218-s-c0-r1"
+        }
+      ]
+    },
+    {
+      "name": "MEDICAL TRIVIA",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This mental measurement can change during a person's life",
+          "answer": "IQ",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7218-s-c1-r0"
+        },
+        {
+          "question": "Whether sugared, or not, chewing gum can actually reduce these",
+          "answer": "cavities",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7218-s-c1-r1"
+        },
+        {
+          "question": "The purpose of slapping a newborn baby is to make it do this",
+          "answer": "breathe",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7218-s-c1-r2"
+        },
+        {
+          "question": "According to Red Cross, standard first aid for 1st & 2nd degree burns begins with this",
+          "answer": "immersing in cold water",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7218-s-c1-r3"
+        },
+        {
+          "question": "To cure a nasal polyp, Cato a Roman doctor, advised smelling this leafy vegetable",
+          "answer": "a cabbage",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7218-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS \"VAN\"s",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "TV father who found out every week that \"Eight Is Enough\"",
+          "answer": "Dick Van Patten",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS \"VAN\"s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7218-s-c2-r0"
+        },
+        {
+          "question": "She really knows the alphabet on \"Wheel of Fortune\"",
+          "answer": "Vanna White",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS \"VAN\"s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7218-s-c2-r1"
+        },
+        {
+          "question": "Leonard Nimoy traded his pointy ears for one when he portrayed this painter",
+          "answer": "Vincent van Gogh",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS \"VAN\"s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7218-s-c2-r2"
+        },
+        {
+          "question": "The only U.S. president to fit this category",
+          "answer": "Martin Van Buren",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS \"VAN\"s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7218-s-c2-r3"
+        },
+        {
+          "question": "His \"boy next door\" looks helped him star with \"girl next door\" June Allyson in 6 films",
+          "answer": "Van Johnson",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS \"VAN\"s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7218-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEST SELLERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Comprised of 192 of these, \"The Nothing Book\" sold over 300,000 copies in 1977",
+          "answer": "blank pages",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEST SELLERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7218-s-c3-r0"
+        },
+        {
+          "question": "This tough interviewer's book, \"Close Encounters\" takes longer than \"60 Minutes\" to read",
+          "answer": "Mike Wallace",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEST SELLERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7218-s-c3-r1"
+        },
+        {
+          "question": "This book gave the Monterey, Calif. district of its title the nickname \"Steinbeck's Street\"",
+          "answer": "Cannery Row",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEST SELLERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7218-s-c3-r2"
+        },
+        {
+          "question": "Actress who was referring to her wooden \"brother\" when she wrote \"Knock Wood\"",
+          "answer": "Candice Bergen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEST SELLERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7218-s-c3-r3"
+        },
+        {
+          "question": "Publishers of the \"Places Rated Almanac\" that placed Pittsburgh 1st most desirable U.S. city",
+          "answer": "Rand McNally",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEST SELLERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7218-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAVORITE PASTIMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Conductor Zubin Mehta points a foil, not a baton, in this sport",
+          "answer": "fencing",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAVORITE PASTIMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7218-s-c4-r0"
+        },
+        {
+          "question": "In a 1936 cartoon, Mickey, Goofy, & Donald played this equine sport, just as their boss Walt did",
+          "answer": "polo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAVORITE PASTIMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7218-s-c4-r1"
+        },
+        {
+          "question": "Rough & tumble sport that was often played at Kennedy clan gatherings",
+          "answer": "touch football",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAVORITE PASTIMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7218-s-c4-r2"
+        },
+        {
+          "question": "Jose Feliciano enjoys this speedy aquatic sport but rarely drives the boat for others",
+          "answer": "water skiing",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAVORITE PASTIMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7218-s-c4-r3"
+        },
+        {
+          "question": "An avid bowler, he was the \"1st Protestant\"",
+          "answer": "Martin Luther",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAVORITE PASTIMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7218-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HEAVEN",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Road Michael Landon travels every Wednesday night",
+          "answer": "the Highway to Heaven",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEAVEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7218-s-c5-r0"
+        },
+        {
+          "question": "In Catholic teaching, he holds the keys to the kingdom of heaven",
+          "answer": "St. Peter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEAVEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7218-s-c5-r1"
+        },
+        {
+          "question": "3 Dog Night sings \"Oh, I've never been to heaven, but I've been\" there",
+          "answer": "Oklahoma",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HEAVEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7218-s-c5-r2"
+        },
+        {
+          "question": "Houris are black-eyed damsels that are among heavenly rewards of faithful of this religion",
+          "answer": "the Muslim religion (Islam)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEAVEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7218-s-c5-r3"
+        },
+        {
+          "question": "Paradise of Greek legend where good souls live in simple joy among flowers & meadows",
+          "answer": "the Elysian Fields",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEAVEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7218-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "New Hampshire is located halfway between the North Pole & this line",
+          "answer": "the equator",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7218-d-c0-r0"
+        },
+        {
+          "question": "Towns of Marydel & Delmar straddle these 2 states",
+          "answer": "Maryland & Delaware",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7218-d-c0-r1"
+        },
+        {
+          "question": "City named for Capt. Henry Shreve, who broke Fulton's steamboat monopoly, is in this state",
+          "answer": "Louisiana",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7218-d-c0-r2"
+        },
+        {
+          "question": "When Alaska & Hawaii were added to the Union, a spot in South Dakota became this",
+          "answer": "the geographical center of the United States",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7218-d-c0-r3"
+        },
+        {
+          "question": "Only city to span entire width of a state is Weirton, in 1 of this state's 2 panhandles",
+          "answer": "West Virginia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7218-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMPOSERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "German composer who saw, not heard, applause at the premiere of his 9th Symphony",
+          "answer": "Beethoven",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7218-d-c1-r0"
+        },
+        {
+          "question": "He recently conducted a recording of his \"West Side Story\" with opera singers",
+          "answer": "Leonard Bernstein",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7218-d-c1-r1"
+        },
+        {
+          "question": "For \"The Threepenny Opera\", Bertolt Brecht wrote the words and he wrote the music",
+          "answer": "Kurt Weill",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7218-d-c1-r2"
+        },
+        {
+          "question": "Composer of \"Water Music\" he's called \"English\" although German by birth",
+          "answer": "George Frideric Handel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7218-d-c1-r3"
+        },
+        {
+          "question": "In 1774, he became court composer to Emperor Joseph II of Austria",
+          "answer": "Antonio Salieri",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7218-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAW",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Legal clinic with branches in Montgomery Ward",
+          "answer": "Jacoby & Meyers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAW",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7218-d-c2-r0"
+        },
+        {
+          "question": "A 1984 Supreme Court ruling sided with Sony, letting you use these in your home without fear of arrest",
+          "answer": "a video recording machine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAW",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7218-d-c2-r1"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE TRIVIA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Francis Coppola not only lost his Zoetrope Studios, but seems to have lost this middle name",
+          "answer": "Ford",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7218-d-c3-r0"
+        },
+        {
+          "question": "Though they died in 1957 & '64, Bogart & Alan Ladd co-starred in this '82 Steve Martin film",
+          "answer": "Dead Men Don't Wear Plaid",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7218-d-c3-r1"
+        },
+        {
+          "question": "Newspaper depicted in \"All the President's Men\"",
+          "answer": "the Washington Post",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7218-d-c3-r2"
+        },
+        {
+          "question": "2 recent Woody Allen films with \"Rose\" in the title",
+          "answer": "Broadway Danny Rose & The Purple Rose of Cairo",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7218-d-c3-r3"
+        },
+        {
+          "question": "Audiences greeted these American Greetings characters by making their film a hit",
+          "answer": "the Care Bears",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7218-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "18th CENTURY FRANCE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Developed in France, this system of weights & measures was adopted there in 1795",
+          "answer": "the metric system",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY FRANCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7218-d-c4-r0"
+        },
+        {
+          "question": "In 1793, during the revolution, this state religion was all but banned",
+          "answer": "Catholicism",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY FRANCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7218-d-c4-r1"
+        },
+        {
+          "question": "Since decapitation had been an aristocratic privilege, this was adopted as democratic",
+          "answer": "the guillotine",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY FRANCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7218-d-c4-r2"
+        },
+        {
+          "question": "Marie Antoinette's husband, he preferred working as a blacksmith over his royal duties",
+          "answer": "Louis XVI",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY FRANCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7218-d-c4-r3"
+        },
+        {
+          "question": "France simultaneously fought the 7 Years War in Europe & this war in North America",
+          "answer": "the French-Indian War",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY FRANCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7218-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HELL",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In Greek myth, it's the river which is the entrance to the underworld",
+          "answer": "the River Styx",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7218-d-c5-r0"
+        },
+        {
+          "question": "Guard dog of Hades who kept his eye on you, all 6 of them, in fact",
+          "answer": "Cerberus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7218-d-c5-r1"
+        },
+        {
+          "question": "Fiery title of James Whitmore's one-man stage show about Truman",
+          "answer": "Give 'em Hell, Harry!",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7218-d-c5-r2"
+        },
+        {
+          "question": "Composer of following, his orig. version proved to be his only hot hit:[Eerie instrumental music plays]",
+          "answer": "Arthur Brown",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7218-d-c5-r3"
+        },
+        {
+          "question": "Olsen & Johnson's 1938 attempt to revive vaudeville",
+          "answer": "Hellzapoppin'",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7218-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "DEMOCRATS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Nichols & May; Peter, Paul & Mary; and Simon & Garfunkel all reunited at a 1972 benefit for this Democrat",
+          "answer": "George McGovern",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "DEMOCRATS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7218-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

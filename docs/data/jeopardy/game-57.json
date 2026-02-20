@@ -1,0 +1,809 @@
+{
+  "gameId": 57,
+  "showNumber": 4652,
+  "airDate": "November 23, 2004",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MY NAME IS ALEX",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Bucephalus was the favorite horse of this ancient warrior, who built a city in its honor when it died",
+          "answer": "Alexander the Great",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY NAME IS ALEX",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g57-s-c0-r0"
+        },
+        {
+          "question": "This author first learned of his African ancestor Kunta Kinte while living with his grandparents in Tennessee",
+          "answer": "Alex Haley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY NAME IS ALEX",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g57-s-c0-r1"
+        },
+        {
+          "question": "This French author penned the immortal line \"All for one, and one for all\"",
+          "answer": "(Alexandre) Dumas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY NAME IS ALEX",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g57-s-c0-r2"
+        },
+        {
+          "question": "This scientist was knighted in 1944 for his discovery of penicillin",
+          "answer": "(Alexander) Fleming",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY NAME IS ALEX",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g57-s-c0-r3"
+        },
+        {
+          "question": "A major ocean current off of Peru is named for this man who charted it in 1802",
+          "answer": "(Alexander von) Humboldt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MY NAME IS ALEX",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g57-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE TITLE TRANSLATIONS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In France, this unforgettable Adam Sandler film became \"Love & Amnesia\"",
+          "answer": "50 First Dates",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE TRANSLATIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g57-s-c1-r0"
+        },
+        {
+          "question": "This Oscar-winning film set in Somalia became \"Helicopter on Fire\" in Poland",
+          "answer": "Black Hawk Down",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE TRANSLATIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g57-s-c1-r1"
+        },
+        {
+          "question": "In France, Billy Crystal learned all about \"life, love and cows\" in this film",
+          "answer": "City Slickers",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE TRANSLATIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g57-s-c1-r2"
+        },
+        {
+          "question": "The censorship board in Malaysia damned this Ron Perlman film with the title \"Super Sapiens\"",
+          "answer": "Hellboy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE TRANSLATIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g57-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "ENGLISH LITERATURE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In a 1719 sequel, he & his manservant revisit the island where he was shipwrecked",
+          "answer": "Robinson Crusoe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g57-s-c2-r0"
+        },
+        {
+          "question": "This Mary Shelley tale is told through the letters of an Arctic explorer named Walton",
+          "answer": "Frankenstein",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g57-s-c2-r1"
+        },
+        {
+          "question": "This D.H. Lawrence work was not published in full in England until Penguin books did it in 1960",
+          "answer": "Lady Chatterley's Lover",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g57-s-c2-r2"
+        },
+        {
+          "question": "The activities of a certain London club form the basis of this Dickens novel, his first",
+          "answer": "The Pickwick Papers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g57-s-c2-r3"
+        },
+        {
+          "question": "This tale published in 1932 is set in the year 632 AF (After Ford)",
+          "answer": "Brave New World",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g57-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGE HODGEPODGE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Check it out: in 2000, 17-year-old M.I.T. freshman Elina Groverman was the U.S. women's co-champ in this board game",
+          "answer": "chess",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE HODGEPODGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g57-s-c3-r0"
+        },
+        {
+          "question": "Many a college campus has an area called a quad, which is short for this",
+          "answer": "quadrangle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE HODGEPODGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g57-s-c3-r1"
+        },
+        {
+          "question": "This adjective for a second-year student is defined as \"intellectually pretentious\", \"conceited\" & \"immature\"",
+          "answer": "sophomoric",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE HODGEPODGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g57-s-c3-r2"
+        },
+        {
+          "question": "At Cambridge, this \"Lord\" of poetry became a lifelong friend of John Cam Hobhouse, who later went to Greece with him",
+          "answer": "Byron",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE HODGEPODGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g57-s-c3-r3"
+        },
+        {
+          "question": "(Hi.  I'm Keith Olberman.)  I started when I was 16 and I graduated at 20 with a B.S. in communications at this Ivy League school in Ithaca",
+          "answer": "Cornell",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE HODGEPODGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g57-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PLANETS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The diameter of this largest planet in our solar system is more than 11 times that of the earth",
+          "answer": "Jupiter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g57-s-c4-r0"
+        },
+        {
+          "question": "Taken recently, the ultraviolet image seen here shows this planet's most famous feature",
+          "answer": "Saturn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g57-s-c4-r1"
+        },
+        {
+          "question": "It's the only planet that has yet to be visited by a spacecraft",
+          "answer": "Pluto",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g57-s-c4-r2"
+        },
+        {
+          "question": "They're the 2 planets whose astrological symbols also signify male & female",
+          "answer": "Venus & Mars",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g57-s-c4-r3"
+        },
+        {
+          "question": "Named for a water nymph, Naiad is this planet's nearest known moon",
+          "answer": "Neptune",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g57-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CROSSWORD CLUES \"P\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Aristotle's teacher(5)",
+          "answer": "Plato",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g57-s-c5-r0"
+        },
+        {
+          "question": "At right angles(13)",
+          "answer": "perpendicular",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g57-s-c5-r1"
+        },
+        {
+          "question": "Science of fossils(12)",
+          "answer": "paleontology",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g57-s-c5-r2"
+        },
+        {
+          "question": "Argentinian region(9)",
+          "answer": "Patagonia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g57-s-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "MARTIN LUTHER KING, JR.",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1948 Dr. King was ordained a minister in this Christian denomination",
+          "answer": "Baptist",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARTIN LUTHER KING, JR.",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g57-d-c0-r0"
+        },
+        {
+          "question": "King donated the money he received for winning this international award in December 1964 to civil rights causes",
+          "answer": "the Nobel Peace Prize",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARTIN LUTHER KING, JR.",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g57-d-c0-r1"
+        },
+        {
+          "question": "While at Crozer Theological Seminary, King studied the nonviolent philosophy of this Asian leader",
+          "answer": "Gandhi",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARTIN LUTHER KING, JR.",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g57-d-c0-r2"
+        },
+        {
+          "question": "Tragically, Dr. King was assassinated in 1968 while visiting this Tennessee city",
+          "answer": "Memphis",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARTIN LUTHER KING, JR.",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g57-d-c0-r3"
+        },
+        {
+          "question": "At this Washington, D.C. landmark in 1963, King gave his famous \"I have a dream\" speech",
+          "answer": "Lincoln Memorial",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARTIN LUTHER KING, JR.",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g57-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP CULTURE 2004",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Ending this man's 50-year reign atop the alphabetical list of MLBers, David Aardsma said, \"I owe it all to my parents\"",
+          "answer": "Hank Aaron",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2004",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g57-d-c1-r0"
+        },
+        {
+          "question": "Gwyneth Paltrow & Chris Martin gave their yummy morsel born April 14 this name",
+          "answer": "Apple",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2004",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g57-d-c1-r1"
+        },
+        {
+          "question": "This fitness guru was accused of slapping a 255 lb. man (an actual cage wrestler!) who made fun of his exercise videos",
+          "answer": "Richard Simmons",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2004",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g57-d-c1-r2"
+        },
+        {
+          "question": "Sadly, Shante Broadus got served with divizzle papers after a 7-year marriage to this rapper",
+          "answer": "Snoop Dogg",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2004",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g57-d-c1-r3"
+        },
+        {
+          "question": "A 2004 comedy starred Jon Heder as high school geek Napoleon, with this explosive last name",
+          "answer": "Dynamite",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2004",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g57-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "METALS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Sterling silver is not pure silver; it's actually an alloy consisting of 92.5% silver & 7.5% this metal",
+          "answer": "copper",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g57-d-c2-r0"
+        },
+        {
+          "question": "An oxide of this metal, symbol Ti, is used as a white pigment in paints",
+          "answer": "titanium",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g57-d-c2-r1"
+        },
+        {
+          "question": "Poisoning from this metal is sometimes called plumbism or saturnism",
+          "answer": "lead",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g57-d-c2-r2"
+        },
+        {
+          "question": "Cassiterite is the chief ore of this metal used to coat food containers",
+          "answer": "tin",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g57-d-c2-r3"
+        },
+        {
+          "question": "Named by British scientist Humphry Davy, it's now pronounced & spelled his way in the U.S.; others add an \"I\"",
+          "answer": "aluminum",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g57-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GREECE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "(Sarah of the Clue Crew speaks from Santorini in Greece.)  Volcanic cliffs on Santorini are the remnants of an eruption that may be the source of the legend of this island",
+          "answer": "Atlantis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREECE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g57-d-c3-r0"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reads from Delos in Greece.)  Delos was sacred as the birthplace of this music-loving sun god whose temple this is",
+          "answer": "Apollo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREECE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g57-d-c3-r1"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew delivers the clue from Athens, Greece.)  In Greek cities, orient yourself using this, whose name comes from words meaning \"highest\" & \"city\"",
+          "answer": "the Acropolis",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREECE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g57-d-c3-r2"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew stands in the Theater of Dionysus in Athens, Greece.)  In 401 B.C. here at the Theater of Dionysus, this man won a posthumous first prize for his play \"Oedipus at Colonus\"",
+          "answer": "Sophocles",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREECE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g57-d-c3-r3"
+        },
+        {
+          "question": "(Sarah of the Clue Crew stands in front of the Parthenon in Athens, Greece.)  Built in the 400s B.C., the temple of Athena, known as the Parthenon, is the greatest example of this ancient architectural style",
+          "answer": "doric",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREECE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g57-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "I LEARNED IT ONLINE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "freetranslation.com taught me \"Your eyes shine like oysters\" in this language--\"I suoi occhi brillano come le ostriche\"",
+          "answer": "Italian",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LEARNED IT ONLINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g57-d-c4-r0"
+        },
+        {
+          "question": "howstuffworks.com told me each Apache one of these can carry 16 Hellfire missiles--cool",
+          "answer": "a helicopter",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LEARNED IT ONLINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g57-d-c4-r1"
+        },
+        {
+          "question": "I learned about the obligations of my moving company at dot.gov, the website of this Cabinet department",
+          "answer": "Transportation",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LEARNED IT ONLINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g57-d-c4-r2"
+        },
+        {
+          "question": "At greenwichpast.com I learned that this famed skywatcher was Astronomer Royal from 1720 to his death in 1742",
+          "answer": "Sir Edmond Halley",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LEARNED IT ONLINE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g57-d-c4-r3"
+        },
+        {
+          "question": "webmd.com tells me this condition, which can cause no symptoms until a stroke, is the \"silent killer\"",
+          "answer": "high blood pressure",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "I LEARNED IT ONLINE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g57-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRESHMAN COMPOSITION",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A book by Lynne Truss warns against inserting this into the innocent panda description \"eats shoots & leaves\"",
+          "answer": "a comma",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRESHMAN COMPOSITION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g57-d-c5-r0"
+        },
+        {
+          "question": "The type of essay where you back up your opinion, or the type of person who always challenges others' opinions",
+          "answer": "argumentative",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRESHMAN COMPOSITION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g57-d-c5-r1"
+        },
+        {
+          "question": "You'll find the French word for \"day\" in this word that may be a daily assignment",
+          "answer": "journal",
+          "value": 8200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FRESHMAN COMPOSITION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g57-d-c5-r2"
+        },
+        {
+          "question": "This clue would get or receive a failing & inadequate grade for inordinate & excess use of this 10-letter problem",
+          "answer": "redundancy",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FRESHMAN COMPOSITION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g57-d-c5-r3"
+        },
+        {
+          "question": "From the Latin for \"speak\", in speaking, it's clarity of pronunciation; in writing, it's word choice",
+          "answer": "diction",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRESHMAN COMPOSITION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g57-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE FACTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This state & its capital were named for 2 dukedoms held by the same British man",
+          "answer": "New York",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "STATE FACTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g57-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

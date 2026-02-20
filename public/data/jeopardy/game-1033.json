@@ -1,0 +1,809 @@
+{
+  "gameId": 1033,
+  "showNumber": 3958,
+  "airDate": "November 14, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "Astronomy.com",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Astronomy.com reminds you when to look for these events in the sky, like the Perseid ones around Aug. 11 & 12",
+          "answer": "meteor showers",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Astronomy.com",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1033-s-c0-r0"
+        },
+        {
+          "question": "In the \"Astro for Kids\" section, click on images of your favorite planets; the one seen here symbolizes this planet",
+          "answer": "Venus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Astronomy.com",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1033-s-c0-r1"
+        },
+        {
+          "question": "Astroshopping?  Check out the image stabilization type of these (opera glasses are a lower-tech type)",
+          "answer": "binoculars",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Astronomy.com",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1033-s-c0-r2"
+        },
+        {
+          "question": "The \"Fun Facts\" told us how this Spanish surrealist artist thought he got messages from outer space thru his mustache",
+          "answer": "Dalí",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Astronomy.com",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1033-s-c0-r3"
+        },
+        {
+          "question": "Learn all about these objects, whose name comes from the Latin for \"mist\"; the Eagle one is see here",
+          "answer": "a nebula",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Astronomy.com",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1033-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SITCOMOMS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Estelle Harris as Estelle Costanza",
+          "answer": "Seinfeld",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SITCOMOMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1033-s-c1-r0"
+        },
+        {
+          "question": "Patricia Richardson as Jill Taylor",
+          "answer": "Home Improvement",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SITCOMOMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1033-s-c1-r1"
+        },
+        {
+          "question": "Doris Roberts as Marie Barone",
+          "answer": "Everybody Loves Raymond",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SITCOMOMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1033-s-c1-r2"
+        },
+        {
+          "question": "Debbie Reynolds as Bobbi Adler",
+          "answer": "Will and Grace",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SITCOMOMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1033-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "THEY WERE EXPELLED",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This star of \"Casablanca\" was booted out of Phillips Academy for uncontrollably high spirits",
+          "answer": "Humphrey Bogart",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY WERE EXPELLED",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1033-s-c2-r0"
+        },
+        {
+          "question": "Perhaps responding \"nevermore\", this poet was expelled from West Point in 1831 for refusing to attend drills",
+          "answer": "Edgar Allan Poe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY WERE EXPELLED",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1033-s-c2-r1"
+        },
+        {
+          "question": "Once publisher of the USA's largest newspaper chain, he was expelled from Harvard in 1885 for insulting his professors",
+          "answer": "William Randolph Hearst",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY WERE EXPELLED",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1033-s-c2-r2"
+        },
+        {
+          "question": "Assassinated in August 1940, this Russian Communist leader was expelled in his youth for howling at his teacher",
+          "answer": "Trotsky",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY WERE EXPELLED",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1033-s-c2-r3"
+        },
+        {
+          "question": "The leading actress of her time, in 1860 she was expelled from a Paris convent school for making fun of a bishop",
+          "answer": "(Sarah) Bernhardt",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY WERE EXPELLED",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1033-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "YE GODS!",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Famous for enticing Amaterasu out of hiding, Uzume is a goddess of mirth & dancing from this Asian country",
+          "answer": "Japan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YE GODS!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1033-s-c3-r0"
+        },
+        {
+          "question": "Akin to Quetzalcoatl of the Aztecs, Kinich Ahau was a fire-bird sun god of this Central American people",
+          "answer": "the Mayans",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YE GODS!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1033-s-c3-r1"
+        },
+        {
+          "question": "Hanuman, a god of this religion, leads an army of monkeys & once allied himself with Rama in an important war",
+          "answer": "Hinduism",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YE GODS!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1033-s-c3-r2"
+        },
+        {
+          "question": "Akin to the Greek Dike, Justitia was this empire's divine personification of justice",
+          "answer": "the Roman Empire",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YE GODS!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1033-s-c3-r3"
+        },
+        {
+          "question": "Depicted as both a cobra & a lioness, the goddess Wadjet protected royal authority in this ancient land",
+          "answer": "Egypt",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YE GODS!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1033-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "O CAPTAIN, MY CAPTAIN",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This captain's \"five year mission\" actually only lasted about 3 (until syndication & films)",
+          "answer": "Captain Kirk",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN, MY CAPTAIN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1033-s-c4-r0"
+        },
+        {
+          "question": "Let's give a hand to this villain, created in 1904 by James M. Barrie",
+          "answer": "Captain Hook",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN, MY CAPTAIN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1033-s-c4-r1"
+        },
+        {
+          "question": "Let's give a hand (no, a leg) to this seafaring captain created in 1851",
+          "answer": "Captain Ahab",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN, MY CAPTAIN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1033-s-c4-r2"
+        },
+        {
+          "question": "Climb aboard the S.S. Guppy at this breakfast food mascot's website",
+          "answer": "Cap'n Crunch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN, MY CAPTAIN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1033-s-c4-r3"
+        },
+        {
+          "question": "The secret identity of this patriotic shield-sporting Marvel superhero was Steve Rogers",
+          "answer": "Captain America",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN, MY CAPTAIN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1033-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MMM... YOU SMELL GREAT",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Mmm... you smell like these \"curiously strong peppermints\"; you're wearing the cologne named for them",
+          "answer": "Altoids",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MMM... YOU SMELL GREAT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1033-s-c5-r0"
+        },
+        {
+          "question": "Wow!  Un amour de patou makes you smell like this flower \"of the valley\"",
+          "answer": "a lily",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MMM... YOU SMELL GREAT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1033-s-c5-r1"
+        },
+        {
+          "question": "Mmm!  You smell like sandalwood & tonka bean in this designer's cK Be cologne",
+          "answer": "Calvin Klein",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MMM... YOU SMELL GREAT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1033-s-c5-r2"
+        },
+        {
+          "question": "You smell like the bitter type of this nut, so either you're wearing Dior's Hypnotic Poison or you've swallowed cyanide",
+          "answer": "almond",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MMM... YOU SMELL GREAT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1033-s-c5-r3"
+        },
+        {
+          "question": "I hate to be gauche, but you smell like jasmine in this designer's Rive Gauche perfume",
+          "answer": "Yves St. Laurent",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MMM... YOU SMELL GREAT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1033-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "EUROPEAN HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1979 this nation granted home rule to Catalonia & the Basque country",
+          "answer": "Spain",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1033-d-c0-r0"
+        },
+        {
+          "question": "This Roman emperor known for his \"Wall\" rebuilt the Pantheon between 118 & 128 A.D.",
+          "answer": "Hadrian",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1033-d-c0-r1"
+        },
+        {
+          "question": "He became British prime minister in 1997 as the Labour Party won its largest majority since 1935",
+          "answer": "(Tony) Blair",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1033-d-c0-r2"
+        },
+        {
+          "question": "The Hohenzollern family ruled Germany & Prussia for centuries until this man abdicated in 1918",
+          "answer": "Kaiser Wilhelm (II)",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1033-d-c0-r3"
+        },
+        {
+          "question": "When a 1918 treaty was signed there, the name of this city in Belarus included Litovsk",
+          "answer": "Brest",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1033-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S ALL IN THE DNA",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In most cellular organisms, DNA is carried by these threadlike structures in the nucleus of a cell",
+          "answer": "chromosomes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE DNA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1033-d-c1-r0"
+        },
+        {
+          "question": "Humans have about 30,000 of these basic DNA units of heredity whose name is from the Greek for \"birth\"",
+          "answer": "genes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE DNA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1033-d-c1-r1"
+        },
+        {
+          "question": "In 1953 Watson & crick described the spiral structure of DNA as one of these",
+          "answer": "a double helix",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE DNA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1033-d-c1-r2"
+        },
+        {
+          "question": "3 types of this nucleic acid are transfer, ribosomal & messenger",
+          "answer": "RNA",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE DNA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1033-d-c1-r3"
+        },
+        {
+          "question": "One of the 4 nitrogen-containing DNA bases abbreviated A, G, T & C",
+          "answer": "cytosine (or adenine, guanine or thymine)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE DNA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1033-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "JOHN GRISHAM FILMS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Tom Cruise plays a lawyer in trouble with his bosses in this 1993 film",
+          "answer": "The Firm",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOHN GRISHAM FILMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1033-d-c2-r0"
+        },
+        {
+          "question": "Susan Sarandon plays a lawyer with pint-sized trouble in this 1994 film",
+          "answer": "The Client",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOHN GRISHAM FILMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1033-d-c2-r1"
+        },
+        {
+          "question": "Matt Damon plays a young lawyer in trouble in this \"stormy\" flick",
+          "answer": "The Rainmaker",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOHN GRISHAM FILMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1033-d-c2-r2"
+        },
+        {
+          "question": "Chris O'Donnell plays a lawyer whose granddad faces the ultimate trouble--execution--in this title place",
+          "answer": "The Chamber",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOHN GRISHAM FILMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1033-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "THE BILL OF RIGHTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Many ideas George Mason wrote into this state's Declaration of Rights in 1776 were used in the Bill of Rights",
+          "answer": "Virginia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BILL OF RIGHTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1033-d-c3-r0"
+        },
+        {
+          "question": "The Second Amendment says a \"well regulated\" one of these is \"necessary to the security of a Free State\"",
+          "answer": "a militia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BILL OF RIGHTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1033-d-c3-r1"
+        },
+        {
+          "question": "This man whose signature graces the Bill of Rights was president of the Senate at the time",
+          "answer": "John Adams",
+          "value": 4500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BILL OF RIGHTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1033-d-c3-r2"
+        },
+        {
+          "question": "From 1952 to 2001 the Bill of Rights was on display in the Exhibition Hall of this building in Washington, D.C.",
+          "answer": "the National Archives",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BILL OF RIGHTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1033-d-c3-r3"
+        },
+        {
+          "question": "In essay No. 84 in this series of letters, Alexander Hamilton argued against a Bill of Rights",
+          "answer": "the Federalist Papers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BILL OF RIGHTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1033-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GREAT AMERICAN NOVELS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A nameless black protagonist narrates this 1952 classic by Ralph Ellison",
+          "answer": "Invisible Man",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT AMERICAN NOVELS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1033-d-c4-r0"
+        },
+        {
+          "question": "The name of this Toni Morrison novel (& its title character) comes from the simple inscription on a headstone",
+          "answer": "Beloved",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GREAT AMERICAN NOVELS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1033-d-c4-r1"
+        },
+        {
+          "question": "H.L. Mencken said, \"No romantic novel ever written in America... is one half so beautiful as\" this one by Willa Cather",
+          "answer": "My Antonia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT AMERICAN NOVELS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1033-d-c4-r2"
+        },
+        {
+          "question": "This author's \"An American Tragedy\" was based on a real-life murder case",
+          "answer": "Dreiser",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT AMERICAN NOVELS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1033-d-c4-r3"
+        },
+        {
+          "question": "The title of this 1962 Faulkner novel refers to 3 young men who steal a car & take it for a joy ride",
+          "answer": "The Reivers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GREAT AMERICAN NOVELS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1033-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT'S THAT CALLED?",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "On this berry whose 2 main varieties are red & black, the little beads are called drupelets",
+          "answer": "raspberries",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1033-d-c5-r0"
+        },
+        {
+          "question": "(Sarah of the Clue Crew puts a clasping gizmo in her hair.)  From the French, it's what I'm using to hold my hair back",
+          "answer": "a barrette",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1033-d-c5-r1"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew tugs on her skirt.)  All polite young ladies should learn this respectful gesture",
+          "answer": "a curtsy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1033-d-c5-r2"
+        },
+        {
+          "question": "It's the notch that fits on the bowstring in the non-business end of an arrow",
+          "answer": "the nock",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1033-d-c5-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew finishes chalking up his pool cue.)  Keep track of this part of the table, where I'm suavely setting down my chalk",
+          "answer": "the rail",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1033-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE INTERNET",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This search engine was co-founded by Sergey Brin, a math major who chose the name to imply a vast reach",
+          "answer": "Google",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE INTERNET",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1033-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

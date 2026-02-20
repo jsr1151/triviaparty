@@ -1,0 +1,737 @@
+{
+  "gameId": 4080,
+  "showNumber": 456,
+  "airDate": "September 8, 1986",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. GOVERNMENT",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Term for any committee using both Republicans & Democrats",
+          "answer": "bi-partisan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4080-s-c0-r0"
+        },
+        {
+          "question": "Minimum age for a Congressman",
+          "answer": "25",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4080-s-c0-r1"
+        },
+        {
+          "question": "Of New York, Ohio, or Virginia, state that has contributed most members to the U.S. Supreme Court",
+          "answer": "New York",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4080-s-c0-r2"
+        },
+        {
+          "question": "Secretary of Defense under Kennedy & Johnson who held the office longer than anyone so far",
+          "answer": "Robert McNamara",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4080-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "ANIMALS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Don't kick an adult male of these duck-billed creatures in the ankle; he's got a poisoned spur",
+          "answer": "duck-billed platypus",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4080-s-c1-r0"
+        },
+        {
+          "question": "\"Odobenus rosmarus\", Latin name for this Arctic tusked mammal, means \"one who walks with his teeth\"",
+          "answer": "walrus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4080-s-c1-r1"
+        },
+        {
+          "question": "The Bible states it was upon this color of ass that great personages preferred to ride",
+          "answer": "white",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4080-s-c1-r2"
+        },
+        {
+          "question": "Part of the witches' brew recipe in \"Macbeth\" was a pinch of this amphibian's eye",
+          "answer": "eye of newt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4080-s-c1-r3"
+        },
+        {
+          "question": "Shellfish are not fish, but members of 2 invertebrate classifications, of which this is 1",
+          "answer": "mollusks or crustaceans",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4080-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAUCES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "By corporate policy, it accounts for 2 of the 13 layers in a Big Mac",
+          "answer": "the special sauce",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAUCES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4080-s-c2-r0"
+        },
+        {
+          "question": "Made of beaten oil, egg yolks & vinegar, it's a sauce more common on salads than on meat",
+          "answer": "mayonnaise",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAUCES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4080-s-c2-r1"
+        },
+        {
+          "question": "Of Beaujolais, Bordelaise, or Rouennaise, the brown sauce made from Bordeaux wine",
+          "answer": "Bordelaise",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAUCES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4080-s-c2-r2"
+        },
+        {
+          "question": "The color of Bechamel sauce",
+          "answer": "cream-colored (white or yellow)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAUCES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4080-s-c2-r3"
+        },
+        {
+          "question": "Hollandaise seasoned with chervil, shallots & tarragon becomes this sauce named for region of SW France",
+          "answer": "Bearnaise",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAUCES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4080-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "1966",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In November 1966, NASA was photographing possible landing sites here",
+          "answer": "the moon",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1966",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4080-s-c3-r0"
+        },
+        {
+          "question": "In Las Vegas, on July 19, this 50-year-old singer married 21-year-old Mia Farrow",
+          "answer": "Frank Sinatra",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1966",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4080-s-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "QUOTES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Bandleader who said in 1977, \"When I go I'll take New Year's Eve with me\"",
+          "answer": "Guy Lombardo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4080-s-c4-r0"
+        },
+        {
+          "question": "Finishes Lord Chesterfield's 1749 line; \"No idleness, no laziness, no procrastination: never put off...\"",
+          "answer": "until tomorrow what you can do today",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4080-s-c4-r1"
+        },
+        {
+          "question": "Word which completes the line from \"The Virginian\", \"When you call me that, ....\"",
+          "answer": "smile",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4080-s-c4-r2"
+        },
+        {
+          "question": "Theodore Roosevelt's adage with which \"you will go far\"",
+          "answer": "\"Speak softly and carry a big stick, and...\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4080-s-c4-r3"
+        },
+        {
+          "question": "In Bartlett's, the line from Shakespeare's \"Henry V\", \"The game's afoot\", footnotes this other author",
+          "answer": "Sir Arthur Conan Doyle",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4080-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"LEWIS\" & \"CLARK\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This '84 gold medalist was booed when he didn't try to break the long jump world record",
+          "answer": "Carl Lewis",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LEWIS\" & \"CLARK\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4080-s-c5-r0"
+        },
+        {
+          "question": "He had actually worked in an oil field before he drilled for oil in 1940 film \"Boom Town\"",
+          "answer": "Clark Gable",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LEWIS\" & \"CLARK\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4080-s-c5-r1"
+        },
+        {
+          "question": "Their 1st hit, \"This Diamond Ring\", was their only song to hit #1",
+          "answer": "Gary Lewis and the Playboys",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LEWIS\" & \"CLARK\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4080-s-c5-r2"
+        },
+        {
+          "question": "Author who briefly worked as a janitor at Upton Sinclair's commune",
+          "answer": "Sinclair Lewis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LEWIS\" & \"CLARK\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4080-s-c5-r3"
+        },
+        {
+          "question": "The 2 cast members of \"Webster\" who fit the category",
+          "answer": "Emmanuel Lewis & Susan Clark",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LEWIS\" & \"CLARK\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4080-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL HEROINES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The prince had a ball with her, but only until midnight",
+          "answer": "Cinderella",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL HEROINES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4080-d-c0-r0"
+        },
+        {
+          "question": "Of Franny & Zooey & Daphnis & Chloe, the 2 heroines",
+          "answer": "Franny & Chloe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL HEROINES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4080-d-c0-r1"
+        },
+        {
+          "question": "Julie Christie played Bathsheba in movie version of this pastoral Thomas Hardy novel",
+          "answer": "Far From the Madding Crowd",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL HEROINES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4080-d-c0-r2"
+        },
+        {
+          "question": "Ilsa Lund Laszlo was the heroine of this 1942 film classic",
+          "answer": "Casablanca",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL HEROINES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4080-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "PHYSIOLOGY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Your head line is found not on a newspaper but here, near the phalanges",
+          "answer": "(the palm of) your hand",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSIOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4080-d-c1-r0"
+        },
+        {
+          "question": "Lenses of this shape correct farsightedness",
+          "answer": "convex",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSIOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4080-d-c1-r1"
+        },
+        {
+          "question": "Of the ear bones called \"hammer\", \"anvil\" & \"stirrup\", the one that looks most like its namesake",
+          "answer": "stirrup",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSIOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4080-d-c1-r2"
+        },
+        {
+          "question": "A femoral artery is found in this part of the body",
+          "answer": "leg (thigh)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSIOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4080-d-c1-r3"
+        },
+        {
+          "question": "The heaviest human organ, it gets its blood from both an artery & a vein",
+          "answer": "liver",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PHYSIOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4080-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODD JOBS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In a \"Mary Poppins\" song, good luck would rub off if you shook hands with one",
+          "answer": "a chimney sweep",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4080-d-c2-r0"
+        },
+        {
+          "question": "Sport a tout is usually involved with",
+          "answer": "horse racing",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4080-d-c2-r1"
+        },
+        {
+          "question": "1940 film title profession of Egbert Souse, accent grave over the \"e\"",
+          "answer": "The Bank Dick",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4080-d-c2-r2"
+        },
+        {
+          "question": "These army recruits must be under 25, over 5'8\", & be Catholic bachelors from Switzerland",
+          "answer": "the Swiss Guard",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4080-d-c2-r3"
+        },
+        {
+          "question": "Job of the \"oshiya\" in Japanese subways",
+          "answer": "the pusher",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4080-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE WESTERN HEMISPHERE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Mexico leads all nations in production of this metal",
+          "answer": "silver",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WESTERN HEMISPHERE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4080-d-c3-r0"
+        },
+        {
+          "question": "Measured by its shoreline, it's the the largest bay in the Western Hemisphere",
+          "answer": "Hudson Bay",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WESTERN HEMISPHERE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4080-d-c3-r1"
+        },
+        {
+          "question": "Country that's the title of the following",
+          "answer": "Brazil",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WESTERN HEMISPHERE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4080-d-c3-r2"
+        },
+        {
+          "question": "During the 17th & 18th centuries, all islands in this body of water were called the Sugar Islands",
+          "answer": "the Caribbean (Sea)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WESTERN HEMISPHERE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4080-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A curveball, or the highness or lowness of a musical tone",
+          "answer": "pitch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4080-d-c4-r0"
+        },
+        {
+          "question": "Number of instruments that would comprise a nonet",
+          "answer": "9",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4080-d-c4-r1"
+        },
+        {
+          "question": "Laurens Hammond invented this instrument",
+          "answer": "electric organ",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4080-d-c4-r2"
+        },
+        {
+          "question": "This instrument is a hybrid of the clarinet & oboe",
+          "answer": "saxophone",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4080-d-c4-r3"
+        },
+        {
+          "question": "All bands in the U.S. are technically classified into these 2 types",
+          "answer": "marching & concert or symphonic",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4080-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "KIDS' TV",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The cartoon featuring this group used Scatman Crothers as voice of Meadowlark Lemon",
+          "answer": "the Harlem Globetrotters",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KIDS' TV",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4080-d-c5-r0"
+        },
+        {
+          "question": "Star of \"Charly\", AT&T commercials, & \"Rod Brown of the Rocket Rangers\"",
+          "answer": "Cliff Robertson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KIDS' TV",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4080-d-c5-r1"
+        },
+        {
+          "question": "Years after playing a \"Circus Boy\", he made a \"Monkee\" out of himself",
+          "answer": "Micky Dolenz",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KIDS' TV",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4080-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "World's #1 maker of infant formula, this company does 98.2% of its business outside its home country",
+          "answer": "Nestle",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4080-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 6400,
+  "showNumber": 1256,
+  "airDate": "February 5, 1990",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD GEOGRAPHY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Country that occupies about 85% of the Iberian Peninsula",
+          "answer": "Spain",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6400-s-c0-r0"
+        },
+        {
+          "question": "This island, the world's fourth largest, is separated from Africa by the Mozambique Channel",
+          "answer": "Madagascar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6400-s-c0-r1"
+        },
+        {
+          "question": "An arbitrary separation between these 2 oceans has been placed at the longitude of Tasmania--147°E",
+          "answer": "Pacific Ocean & Indian Ocean",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6400-s-c0-r2"
+        },
+        {
+          "question": "Major city that's divided by the Amstel River",
+          "answer": "Amsterdam",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6400-s-c0-r3"
+        },
+        {
+          "question": "1 of the 2 South American countries that don't border Brazil",
+          "answer": "Ecuador (or Chile)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6400-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COOKING",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A cooking device equipped with a rotating spit on which meat is roasted",
+          "answer": "rotisserie",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOKING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6400-s-c1-r0"
+        },
+        {
+          "question": "If you don't have the energy to \"pull\" this type of candy, you can buy a candy hook",
+          "answer": "taffy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOKING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6400-s-c1-r1"
+        },
+        {
+          "question": "Please pronounce the final \"Z\" sound when you give us the name of this potato & leek soup",
+          "answer": "vichyssoise",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOKING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6400-s-c1-r2"
+        },
+        {
+          "question": "From Japanese for \"fire bowl\", it's a portable charcoal-burning brazier with a grill",
+          "answer": "hibachi",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOKING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6400-s-c1-r3"
+        },
+        {
+          "question": "A traditional New England seafood picnic where bivalves are cooked over hot stones & under seaweed",
+          "answer": "clam bake",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOKING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6400-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV PLANETS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On \"Star Trek\" one of Mr. Spock's parents was from Earth, the other from this planet",
+          "answer": "Vulcan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PLANETS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6400-s-c2-r0"
+        },
+        {
+          "question": "Planet on which the alien in the following was born:",
+          "answer": "Krypton",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PLANETS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6400-s-c2-r1"
+        },
+        {
+          "question": "\"Goodbye\" in the native language of this planet is \"nanu nanu\"",
+          "answer": "Ork",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PLANETS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6400-s-c2-r2"
+        },
+        {
+          "question": "In this show's second season in 1989, a second wave of aliens, from Mor-Tax, invaded the earth",
+          "answer": "War of the Worlds",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PLANETS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6400-s-c2-r3"
+        },
+        {
+          "question": "On \"Dr. Who\", the Doctor is part of a race of these from the planet Gallifrey",
+          "answer": "Time Lords",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV PLANETS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6400-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Book in which \"Tom appeared on the sidewalk with a bucket of whitewash & a long-handled brush\"",
+          "answer": "(The Adventures of) Tom Sawyer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6400-s-c3-r0"
+        },
+        {
+          "question": "Harriet Beecher Stowe classic subtitles \"Life Among the Lowly\"",
+          "answer": "Uncle Tom's Cabin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6400-s-c3-r1"
+        },
+        {
+          "question": "In \"Alice in Wonderland\", it was described as \"beautiful soup so rich & green, waiting in a hot tureen\"",
+          "answer": "turtle soup",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6400-s-c3-r2"
+        },
+        {
+          "question": "This sailor is the narrator of Herman Melville's \"Moby Dick\"",
+          "answer": "Ishmael",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6400-s-c3-r3"
+        },
+        {
+          "question": "In a sequel to his best-known novel, Thomas Hughes wrote about this school boy's days at Oxford",
+          "answer": "Tom Brown",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6400-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRST AID",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Victims of this condition caused by extreme cold should never be treated with excessive heat",
+          "answer": "hypothermia",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST AID",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6400-s-c4-r0"
+        },
+        {
+          "question": "Chemical burns should be treated by doing this for at least 5 minutes before bandaging",
+          "answer": "running under cold water (washing)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST AID",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6400-s-c4-r1"
+        },
+        {
+          "question": "A seriously injured person usually suffers from this condition of very low blood pressure",
+          "answer": "shock",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST AID",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6400-s-c4-r2"
+        },
+        {
+          "question": "A substance that counteracts a particular poison is called this",
+          "answer": "antidote",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST AID",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6400-s-c4-r3"
+        },
+        {
+          "question": "A paste made with this cooking ingredient, NaHCO3, is effective on some insect bites",
+          "answer": "baking soda",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST AID",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6400-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANAGRAMS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Sometimes Brian acts like he doesn't have one of these in his head",
+          "answer": "brain (from Brian)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6400-s-c5-r0"
+        },
+        {
+          "question": "Teresa was born on this holiday",
+          "answer": "Easter (from Teresa)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6400-s-c5-r1"
+        },
+        {
+          "question": "Miles looked disgusting when he was covered with it",
+          "answer": "slime (from Miles)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6400-s-c5-r2"
+        },
+        {
+          "question": "Rosa doesn't have both of these in the water",
+          "answer": "oars (from Rosa)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6400-s-c5-r3"
+        },
+        {
+          "question": "This popular guest host may not know that his name is an anagram of \"Joy Lane\"",
+          "answer": "Jay Leno (from Joy Lane)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6400-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN THE NEWS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Several U.S. entrepreneurs are selling pieces of this wall that began to crumble in 1989",
+          "answer": "Berlin Wall",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6400-d-c0-r0"
+        },
+        {
+          "question": "Pilots & flight attendants ended their 8-month strike against this airline in November 1989",
+          "answer": "Eastern Airlines",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6400-d-c0-r1"
+        },
+        {
+          "question": "Responding to protests in Wenceslas Square, Miles Jakes resigned as pres. of this country",
+          "answer": "Czechoslovakia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6400-d-c0-r2"
+        },
+        {
+          "question": "Teri Smith became the first living donor of this organ when her daughter Alyssa received part of hers",
+          "answer": "liver",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6400-d-c0-r3"
+        },
+        {
+          "question": "Rene Moawad was assassinated just 17 days after he became president of this country",
+          "answer": "Lebanon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6400-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Your body has 23 pairs of these, & if you're a girl, one pair is XX",
+          "answer": "chromosomes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6400-d-c1-r0"
+        },
+        {
+          "question": "This form of an element has the same number of protons but a different number of neutrons",
+          "answer": "isotope",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6400-d-c1-r1"
+        },
+        {
+          "question": "English chemist Sir Walter Haworth coined this acid name for vitamin C",
+          "answer": "ascorbic acid",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6400-d-c1-r2"
+        },
+        {
+          "question": "Alloys containing this metal, symbol Hg, are called amalgams",
+          "answer": "mercury",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6400-d-c1-r3"
+        },
+        {
+          "question": "The idea that maggots could develop from decaying meat is one example of this now discarded theory",
+          "answer": "theory of spontaneous generation",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6400-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "19th CENTURY AMERICA",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On Jan. 23, 1845 Congress said from now on this will be held on the 1st Tuesday after the 1st Monday in Nov.",
+          "answer": "presidential elections",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6400-d-c2-r0"
+        },
+        {
+          "question": "Robert E. Lee graduated from here second in his class & later served as its superintendent",
+          "answer": "U.S. Military Academy (West Point)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6400-d-c2-r1"
+        },
+        {
+          "question": "These for \"The Star-Spangled Banner\" & \"America the Beautiful\" were taken from other sources",
+          "answer": "musical notes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6400-d-c2-r2"
+        },
+        {
+          "question": "He got the Missouri Compromise thru the House & helped arrange the Compromise of 1850",
+          "answer": "Henry Clay",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6400-d-c2-r3"
+        },
+        {
+          "question": "Though Eugene Debs had this lawyer defending him in 1894, he still got 6 months",
+          "answer": "Clarence Darrow",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6400-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Followers of Islam & Judaism believe in the existence of these heavenly beings, as do Christians",
+          "answer": "angels",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6400-d-c3-r0"
+        },
+        {
+          "question": "St. John Lateran Cathedral is his seat as Bishop of Rome",
+          "answer": "the Pope",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6400-d-c3-r1"
+        },
+        {
+          "question": "The formal name of the Quaker Church is the \"Religious Society of\" these",
+          "answer": "Friends",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6400-d-c3-r2"
+        },
+        {
+          "question": "He was born to a noble family circa 563 B.C. in the region of the Indian-Nepalese border",
+          "answer": "the Buddha",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6400-d-c3-r3"
+        },
+        {
+          "question": "This feast day commemorates the adoration of Jesus by the 3 Wise Men",
+          "answer": "Epiphany",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6400-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POETS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This author of \"Evangeline\" was the American honored in Poet's Corner in Westminster Abbey",
+          "answer": "Longfellow",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6400-d-c4-r0"
+        },
+        {
+          "question": "This American poet began the 1st poem in his 1st collection with the line \"I celebrate myself\"",
+          "answer": "Walt Whitman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6400-d-c4-r1"
+        },
+        {
+          "question": "On the 150th anniversary of Lincoln's birth, this Illinois poet addressed a joint session of Congress",
+          "answer": "Carl Sandburg",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6400-d-c4-r2"
+        },
+        {
+          "question": "This poet's \"MS. Found in a Bottle\" won a  Baltimore short story contest in 1833",
+          "answer": "Edgar Allan Poe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6400-d-c4-r3"
+        },
+        {
+          "question": "In 1786 this poet was toasted as \"Caledonia's Bard\" by the Masonic Grand Lodge of Scotland",
+          "answer": "Robert Burns",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6400-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ESKIMOS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Collier's Encyclopedia says the name of this one-man canoe rhymes with \"sly yak\"",
+          "answer": "kayak",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ESKIMOS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6400-d-c5-r0"
+        },
+        {
+          "question": "These homes of Alaskan Eskimos can be made of wood, sod or stone as well as snow",
+          "answer": "igloos",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ESKIMOS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6400-d-c5-r1"
+        },
+        {
+          "question": "In its entry on this subject, Encyclopedia Americana brings up the nose rubbing business",
+          "answer": "kissing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ESKIMOS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6400-d-c5-r2"
+        },
+        {
+          "question": "Meaning \"people\", it's the Eskimo name for themselves",
+          "answer": "Inuit",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ESKIMOS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6400-d-c5-r3"
+        },
+        {
+          "question": "The first time Eskimos met Europeans was back around 1000 A.D. on this island",
+          "answer": "Greenland",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ESKIMOS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6400-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS QUOTES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "One of the most famous questions in history, it was asked in 1871 in the village of Ujiji",
+          "answer": "\"Dr. Livingstone, I presume?\"",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS QUOTES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6400-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "gameId": 5102,
+  "showNumber": 724,
+  "airDate": "October 29, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ACTORS & ACTRESSES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This neat half of TV's \"The Odd Couple\" reportedly said, \"I am a slob, but nobody will believe it\"",
+          "answer": "Tony Randall",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5102-s-c0-r0"
+        },
+        {
+          "question": "With only 1 1/2 years of formal education, he still played a teacher in \"To Sir with Love\"",
+          "answer": "Sidney Poitier",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5102-s-c0-r1"
+        },
+        {
+          "question": "A high school dropout, at only 20 he won a Best Supporting Actor for \"Ordinary People\"",
+          "answer": "Timothy Hutton",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5102-s-c0-r2"
+        },
+        {
+          "question": "He once went to jail for punching someone, but used his fists in the ring for \"The Main Event\"",
+          "answer": "Ryan O'Neal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5102-s-c0-r3"
+        },
+        {
+          "question": "Though \"Butterflies are Free\", college tuition wasn't, so she paid it by teaching dance classes",
+          "answer": "Goldie Hawn",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5102-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEAPONS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Both the pole & battle variety of this can be spelled without an \"e\"",
+          "answer": "an ax",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEAPONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5102-s-c1-r0"
+        },
+        {
+          "question": "1st 2 weapons mentioned in Hamlet's \"To be or not to be\" speech",
+          "answer": "slings & arrows",
+          "value": 1300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEAPONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5102-s-c1-r1"
+        },
+        {
+          "question": "Rank just above PFC in the Marine Corps, it includes a weapon in its name",
+          "answer": "a lance corporal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEAPONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5102-s-c1-r2"
+        },
+        {
+          "question": "It's an explosive device dropped in battle or a shocking surprise dropped in conversation",
+          "answer": "a bombshell (bomb accepted)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEAPONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5102-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "EXPLORERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Rabbi Benjamin of Tudela, Spain went as far as the border of this country 100 years before Marco Polo",
+          "answer": "China",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5102-s-c2-r0"
+        },
+        {
+          "question": "This conqueror of Mexico went on to become probably the wealthiest man in Spanish America",
+          "answer": "(Hernando) Cortez",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5102-s-c2-r1"
+        },
+        {
+          "question": "In 1860-61, Burke & Wills, an Irishman & Englishman, crossed this continent south to north",
+          "answer": "Australia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5102-s-c2-r2"
+        },
+        {
+          "question": "This Dane proved tales of \"Gamaland\",  a continent between Siberia & the New World, were a myth",
+          "answer": "Vitus Bering",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5102-s-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "HOMOPHONES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "To color a fabric or kick the bucket",
+          "answer": "to dye (die)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5102-s-c3-r0"
+        },
+        {
+          "question": "A small stream or the noise old bones might make",
+          "answer": "a creek creak",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5102-s-c3-r1"
+        },
+        {
+          "question": "It can describe the type of grip Crockett & Tubbs have on their department",
+          "answer": "a vise vice",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5102-s-c3-r2"
+        },
+        {
+          "question": "The time gone by",
+          "answer": "the passed past",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5102-s-c3-r3"
+        },
+        {
+          "question": "One does this to do this to the Lord",
+          "answer": "prays praise",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5102-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRENCH COOKING",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "You add this liquid to a recipe calling for \"huile\"",
+          "answer": "oil",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH COOKING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5102-s-c4-r0"
+        },
+        {
+          "question": "To create \"potage parmentier\"; use this pungent vegetable in potato soup",
+          "answer": "leeks (onion accepted)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH COOKING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5102-s-c4-r1"
+        },
+        {
+          "question": "Often the 1st step in preparing a chicken, the French omit it since they feel it destroys flavor",
+          "answer": "washing it",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH COOKING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5102-s-c4-r2"
+        },
+        {
+          "question": "What your doing when preparing foods \"a la vapeur\"",
+          "answer": "steaming them",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH COOKING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5102-s-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "MUSICAL WONDERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "# of times the Monotones sing the word \"wonder\" in 1st line of the song \"The Book of Love\"",
+          "answer": "2",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL WONDERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5102-s-c5-r0"
+        },
+        {
+          "question": "Anthony Newley sang, \"I defy any cloud to appear in the sky\" on one of these",
+          "answer": "on a wonderful day like today",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL WONDERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5102-s-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "BIOLOGY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The influence of this force makes most plant roots grow toward the center of the earth",
+          "answer": "gravity",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5102-d-c0-r0"
+        },
+        {
+          "question": "Male mole crickets shape the entrances of these to amplify their songs, which can be heard a mile away",
+          "answer": "burrows",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5102-d-c0-r1"
+        },
+        {
+          "question": "The male sea horse carries eggs in a pouch, where they absorb food from this liquid",
+          "answer": "the blood",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5102-d-c0-r2"
+        },
+        {
+          "question": "From Greek for \"change\", these fluid 1-celled creatures can grow bigger than the head of a pin",
+          "answer": "amoebas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5102-d-c0-r3"
+        },
+        {
+          "question": "Literally the \"life\" sphere, it's the part of the earth & its atmosphere inhabited by all living organisms",
+          "answer": "biosphere",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5102-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "His 1st novel's actual title is \"The Posthumous Papers of the Pickwick Club\"",
+          "answer": "Dickens",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5102-d-c1-r0"
+        },
+        {
+          "question": "He took the last name of his stepfather after being born Truman Persons",
+          "answer": "Truman Capote",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5102-d-c1-r1"
+        },
+        {
+          "question": "These romantic English poets were married when she was 40 & he was 34",
+          "answer": "Elizabeth Barrett & Robert Browning",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5102-d-c1-r2"
+        },
+        {
+          "question": "This Washington satirist won a Pulitzer Prize in 1982 for Outstanding Commentary",
+          "answer": "(Art) Buchwald",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5102-d-c1-r3"
+        },
+        {
+          "question": "Tho he actually ate well in expensive Paris cafes, in \"A Moveable Feast\", he claimed he went hungry",
+          "answer": "Hemingway",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5102-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LONDON",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Completed in 1209, it was the first stone bridge built across the Thames",
+          "answer": "London Bridge",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5102-d-c2-r0"
+        },
+        {
+          "question": "Famous landmark hidden at the extreme right of this picture:",
+          "answer": "Big Ben",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5102-d-c2-r1"
+        },
+        {
+          "question": "This square features statues of King James II, George Washington & Lord Nelson",
+          "answer": "Trafalgar Square",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5102-d-c2-r2"
+        },
+        {
+          "question": "In the year 1215, this king confirmed London's \"liberties & free customs\"",
+          "answer": "King John",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5102-d-c2-r3"
+        },
+        {
+          "question": "Architect whose greatest work was St. Paul's cathedral, in which he's buried",
+          "answer": "Sir Christopher Wren",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5102-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CATHOLICISM",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Joseph Bernardin in Chicago, Bernard Law in Boston & John J. O'Connor in NYC",
+          "answer": "the cardinals",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATHOLICISM",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5102-d-c3-r0"
+        },
+        {
+          "question": "According to the World Almanac, this continent has more Roman Catholics than any other",
+          "answer": "South America",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATHOLICISM",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5102-d-c3-r1"
+        },
+        {
+          "question": "Members of this largest male Catholic religious order use the initials \"S.J.\" after their names",
+          "answer": "the Jesuits (the Society of Jesus)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATHOLICISM",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5102-d-c3-r2"
+        },
+        {
+          "question": "Summer residence of the popes, it overlooks Lake Albano",
+          "answer": "Castel Gandolfo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATHOLICISM",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5102-d-c3-r3"
+        },
+        {
+          "question": "1st Roman Emperor to be baptized, his Edict of Milan made Christianity a legal religion",
+          "answer": "Constantine the Great",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATHOLICISM",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5102-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "IOWANS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Though this actress was born in Des Moines, on TV, she \"lived\" in Minneapolis, downstairs from Mary Richards",
+          "answer": "Cloris Leachman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5102-d-c4-r0"
+        }
+      ]
+    },
+    {
+      "name": "SPELLING",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A man from Naples, or his ice cream",
+          "answer": "N-E-A-P-O-L-I-T-A-N",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5102-d-c5-r0"
+        },
+        {
+          "question": "This gland's islets of Langerhans produce insulin",
+          "answer": "the P-A-N-C-R-E-A-S",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5102-d-c5-r1"
+        },
+        {
+          "question": "Its capital city is Montevideo",
+          "answer": "U-R-U-G-U-A-Y",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5102-d-c5-r2"
+        },
+        {
+          "question": "This type of Irish elf will show you his treasure if you catch him",
+          "answer": "L-E-P-R-E-C-H-A-U-N",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5102-d-c5-r3"
+        },
+        {
+          "question": "An eagle's nest",
+          "answer": "A-E-R-I-E",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5102-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "100 YEARS AGO",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He was president of the United States 100 years ago",
+          "answer": "Grover Cleveland",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "100 YEARS AGO",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5102-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

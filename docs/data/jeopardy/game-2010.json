@@ -1,0 +1,833 @@
+{
+  "gameId": 2010,
+  "showNumber": 3535,
+  "airDate": "January 7, 2000",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATES BY TOWN",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Racine,Kenosha,Sheboygan",
+          "answer": "Wisconsin",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES BY TOWN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2010-s-c0-r0"
+        },
+        {
+          "question": "Malabar,Winter Haven,Gainesville",
+          "answer": "Florida",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES BY TOWN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2010-s-c0-r1"
+        },
+        {
+          "question": "New Bern,Asheboro,Asheville",
+          "answer": "North Carolina",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES BY TOWN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2010-s-c0-r2"
+        },
+        {
+          "question": "Mansfield,Zanesville,Youngstown",
+          "answer": "Ohio",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES BY TOWN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2010-s-c0-r3"
+        },
+        {
+          "question": "Dixon,Metropolis,Decatur",
+          "answer": "Illinois",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES BY TOWN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2010-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV CROSSOVERS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On April 1, 1997 this \"Wheel of Fortune\" host guest hosted \"Jeopardy!\"",
+          "answer": "Pat Sajak",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV CROSSOVERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2010-s-c1-r0"
+        },
+        {
+          "question": "Lara Flynn Boyle of \"The Practice\" guested on this show & suggested Calista Flockhart eat a cookie",
+          "answer": "Ally McBeal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV CROSSOVERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2010-s-c1-r1"
+        },
+        {
+          "question": "On May 3, 1999 Bill Cosby played Hilton Lucas on 4 consecutive sitcoms on this network",
+          "answer": "CBS",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV CROSSOVERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2010-s-c1-r2"
+        },
+        {
+          "question": "(Hi, I'm Julie Pinson.)  On \"Port Charles\", Lynn Herring plays my nemesis Lucy Coe, a role she plays on this other soap",
+          "answer": "General Hospital",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV CROSSOVERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2010-s-c1-r3"
+        },
+        {
+          "question": "A 1999 episode of \"Early Edition\" featured Sammo Hung, star of this kung fu cop show",
+          "answer": "Martial Law",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV CROSSOVERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2010-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN FOLKLORE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This \"King of the Wild Frontier\" \"Kilt him a b'ar when he was only three\"",
+          "answer": "Davy Crockett",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2010-s-c2-r0"
+        },
+        {
+          "question": "This steel drivin' man used 2 20-pound hammers in his contest with a steam drill",
+          "answer": "John Henry",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2010-s-c2-r1"
+        },
+        {
+          "question": "Immortalized in song, this engineer of the Cannonball Express died in a 1900 crash, saving everyone aboard",
+          "answer": "Casey Jones",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2010-s-c2-r2"
+        },
+        {
+          "question": "This New Hampshire orator is said to have outsmarted the Devil himself",
+          "answer": "Daniel Webster",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2010-s-c2-r3"
+        },
+        {
+          "question": "This cowpoke taught broncos how to buck, & rode a cyclone without a saddle",
+          "answer": "Pecos Bill",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2010-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SLOGANEERING",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Many people \"Love that chicken\" from this sailor's restaurant",
+          "answer": "Popeyes",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOGANEERING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2010-s-c3-r0"
+        },
+        {
+          "question": "You'll give presents or cards from this company \"When You Care Enough to Send the Very Best\"",
+          "answer": "Hallmark",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOGANEERING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2010-s-c3-r1"
+        },
+        {
+          "question": "On cable TV, it boasts that \"No Place on Earth has Better Weather\"",
+          "answer": "The Weather Channel",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOGANEERING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2010-s-c3-r2"
+        },
+        {
+          "question": "This product softens your hands \"while you do dishes\"",
+          "answer": "Palmolive",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOGANEERING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2010-s-c3-r3"
+        },
+        {
+          "question": "Financiers take note -- this company measures success \"One Investor at a Time\"",
+          "answer": "Morgan Stanley Dean Witter",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOGANEERING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2010-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WE GET LETTERS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's the letter replaced by an apostrophe in o'er & ne'er",
+          "answer": "V",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE GET LETTERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2010-s-c4-r0"
+        },
+        {
+          "question": "Something done to perfection is said to be done \"to\" this letter",
+          "answer": "T",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE GET LETTERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2010-s-c4-r1"
+        },
+        {
+          "question": "This cable television network uses an exclamation point in its name",
+          "answer": "E!",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE GET LETTERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2010-s-c4-r2"
+        },
+        {
+          "question": "Played by Desmond Llewelyn, he supplies James Bond with his special gadgets",
+          "answer": "Q",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE GET LETTERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2010-s-c4-r3"
+        },
+        {
+          "question": "This symbol for computer storage is equivalent to 1024 bytes",
+          "answer": "K",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE GET LETTERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2010-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "STUCK ON YOU",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Sticky substance into which medieval lords usually inserted their signet rings",
+          "answer": "Sealing wax",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON YOU",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2010-s-c5-r0"
+        },
+        {
+          "question": "Also available in a \"Silly\" type, it's a mix of powdered chalk & linseed oil used to seal glass panes into frames",
+          "answer": "Putty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON YOU",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2010-s-c5-r1"
+        },
+        {
+          "question": "From Old English for \"grit\", it's used to fill the joints between the tiles in your shower",
+          "answer": "Grout",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON YOU",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2010-s-c5-r2"
+        },
+        {
+          "question": "It's defined as a metal alloy melted with an iron & used to join 2 metal parts together",
+          "answer": "Solder",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON YOU",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2010-s-c5-r3"
+        },
+        {
+          "question": "This dark, sticky substance distilled from coal, wood tar or petroleum is used in paving & waterproofing",
+          "answer": "Pitch",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON YOU",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2010-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "A LITTLE TASTE OF LIECHTENSTEIN",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In September 1990 Liechtenstein became a full member of this international organization",
+          "answer": "United Nations",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE TASTE OF LIECHTENSTEIN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2010-d-c0-r0"
+        },
+        {
+          "question": "Most Liechtensteiners speak Alemannic, a dialect of this language",
+          "answer": "German",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE TASTE OF LIECHTENSTEIN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2010-d-c0-r1"
+        },
+        {
+          "question": "Liechtenstein has been independent since 1719 except for a brief period in the early 1800s when this emperor controlled it",
+          "answer": "Napoleon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE TASTE OF LIECHTENSTEIN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2010-d-c0-r2"
+        },
+        {
+          "question": "This river provides the entire western border of Liechtenstein",
+          "answer": "Rhine",
+          "value": 100,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE TASTE OF LIECHTENSTEIN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2010-d-c0-r3"
+        },
+        {
+          "question": "This Liechtenstein capital is known for its postal museum & state art collection",
+          "answer": "Vaduz",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE TASTE OF LIECHTENSTEIN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2010-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE NATIONAL INVENTORS HALL OF FAME",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Blumberg & Millman shot into the Hall in 1993 with their vaccine for the B strain of this",
+          "answer": "Hepatitis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL INVENTORS HALL OF FAME",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2010-d-c1-r0"
+        },
+        {
+          "question": "This botanist was inducted in 1986 for his peach, not his potato",
+          "answer": "Luther Burbank",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL INVENTORS HALL OF FAME",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2010-d-c1-r1"
+        },
+        {
+          "question": "His peers inducted this plow man in 1989",
+          "answer": "John Deere",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL INVENTORS HALL OF FAME",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2010-d-c1-r2"
+        },
+        {
+          "question": "Eugene Houdry came up with the basic catalytic converter found in this car part",
+          "answer": "Muffler",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL INVENTORS HALL OF FAME",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2010-d-c1-r3"
+        },
+        {
+          "question": "He got a lift when installed in 1988 for the brake he invented for a hoisting apparatus",
+          "answer": "Elisha Otis",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL INVENTORS HALL OF FAME",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2010-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "GENERAL KNOWLEDGE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Yale, Yale the gang's all here, in this city founded in 1638 by Puritans from Boston",
+          "answer": "New Haven, Connecticut",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL KNOWLEDGE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2010-d-c2-r0"
+        },
+        {
+          "question": "Geranium is a plant; Germanium is one of these",
+          "answer": "Element",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL KNOWLEDGE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2010-d-c2-r1"
+        },
+        {
+          "question": "William Baffin was on a voyage in search of this when he first reached Baffin Bay",
+          "answer": "Northwest Passage",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL KNOWLEDGE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2010-d-c2-r2"
+        },
+        {
+          "question": "In 1842 Edwin P. Christy formed his troupe of these",
+          "answer": "Minstrels",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GENERAL KNOWLEDGE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2010-d-c2-r3"
+        },
+        {
+          "question": "Country Bobby Fischer was in in 1972 when he became the 1st American to win the World Chess Championship",
+          "answer": "Iceland",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL KNOWLEDGE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2010-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GODS & MONSTERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In Greek myth the whirlpool Charybdis lay opposite this sea monster with 6 dogs' heads",
+          "answer": "Scylla",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GODS & MONSTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2010-d-c3-r0"
+        },
+        {
+          "question": "In Japanese mythology, Inari is the god of this grain",
+          "answer": "Rice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GODS & MONSTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2010-d-c3-r1"
+        },
+        {
+          "question": "On doomsday this Norse thunder god will kill the Midgard serpent, then drown in its venom",
+          "answer": "Thor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GODS & MONSTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2010-d-c3-r2"
+        },
+        {
+          "question": "Some Jewish legends portray this monster, whose name means \"unformed\", as a defender of the Jews",
+          "answer": "Golem",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GODS & MONSTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2010-d-c3-r3"
+        },
+        {
+          "question": "Mixcoatl, the Aztec god of this activity, carried a bow & arrow & had the characteristics of a deer or a rabbit",
+          "answer": "Hunting",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GODS & MONSTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2010-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN FILM COUNTRIES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "1992:\"Like Water for Chocolate\"",
+          "answer": "Mexico",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILM COUNTRIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2010-d-c4-r0"
+        },
+        {
+          "question": "1989:\"Jesus of Montreal\"",
+          "answer": "Canada",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILM COUNTRIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2010-d-c4-r1"
+        },
+        {
+          "question": "1985:\"My Life as a Dog\"",
+          "answer": "Sweden",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILM COUNTRIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2010-d-c4-r2"
+        },
+        {
+          "question": "1990:\"Tie Me Up!  Tie Me Down!\"",
+          "answer": "Spain",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILM COUNTRIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2010-d-c4-r3"
+        },
+        {
+          "question": "1988:\"Babette's Feast\"",
+          "answer": "Denmark",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILM COUNTRIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2010-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "STUCK ON \"U\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's the 7th rock from the sun",
+          "answer": "Uranus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON \"U\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2010-d-c5-r0"
+        },
+        {
+          "question": "The first in a \"league\" of popes to bear this name began his reign in 222",
+          "answer": "Urban",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON \"U\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2010-d-c5-r1"
+        },
+        {
+          "question": "Term for a one-house legislature, like that of Nebraska",
+          "answer": "Unicameral",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON \"U\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2010-d-c5-r2"
+        },
+        {
+          "question": "Designed by Vasari, this palace in Florence houses one of the world's great art collections",
+          "answer": "Uffizi Palace",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON \"U\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2010-d-c5-r3"
+        },
+        {
+          "question": "This \"unattractive\" Jamaican fruit may be a hybrid of a grapefruit, orange & tangerine",
+          "answer": "Ugli fruit",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STUCK ON \"U\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2010-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "YANKEE STADIUM HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A plaque in Monument Park honors this ex-\"Cardinal\" for a 1979 event held at the stadium",
+          "answer": "Pope John Paul II",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "YANKEE STADIUM HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2010-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

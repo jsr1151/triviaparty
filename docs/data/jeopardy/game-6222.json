@@ -1,0 +1,821 @@
+{
+  "gameId": 6222,
+  "showNumber": 7932,
+  "airDate": "February 19, 2019",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ALEX' BUCKET LIST",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Both the remoteness--2,200 miles west of Chile--& the mysterious Moai statues put this island on my bucket list",
+          "answer": "Easter Island",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALEX' BUCKET LIST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6222-s-c0-r0"
+        },
+        {
+          "question": "Having been to every continent except this one, the smallest, puts it on the list",
+          "answer": "Australia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALEX' BUCKET LIST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6222-s-c0-r1"
+        },
+        {
+          "question": "I want to make a pilgrimage to the Potala Palace, once the main residence of the Dalai Lama, in this city 12,000 feet up",
+          "answer": "Lhasa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALEX' BUCKET LIST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6222-s-c0-r2"
+        },
+        {
+          "question": "I've seen Niagara & Victoria, but need to head to the Brazil-Argentina border where these falls divided into 275 cataracts",
+          "answer": "Iguazu Falls",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALEX' BUCKET LIST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6222-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "EATING VERBS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "To alter food by the action of stomach chemicals so that it can be absorbed",
+          "answer": "digest",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EATING VERBS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6222-s-c1-r0"
+        },
+        {
+          "question": "To snack continuously, the way an antelope nibbles along open grasslands",
+          "answer": "graze",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EATING VERBS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6222-s-c1-r1"
+        },
+        {
+          "question": "As a noun, it means fabric worn around the neck; as a verb, it means to eat quickly",
+          "answer": "scarf",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EATING VERBS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6222-s-c1-r2"
+        },
+        {
+          "question": "It can mean a pickle topping for hot dogs or to eat with great pleasure",
+          "answer": "relish",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EATING VERBS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6222-s-c1-r3"
+        },
+        {
+          "question": "This verb that starts with a silent letter means to chew something that resists being chewed, like a dog's bone",
+          "answer": "gnaw",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EATING VERBS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6222-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT'S HAPPENING THIS MONTH?",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Earth Day,Tax Day",
+          "answer": "April",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S HAPPENING THIS MONTH?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6222-s-c2-r0"
+        },
+        {
+          "question": "Columbus Day,Boss' Day",
+          "answer": "October",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S HAPPENING THIS MONTH?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6222-s-c2-r1"
+        },
+        {
+          "question": "Festivus,International Migrants Day",
+          "answer": "December",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S HAPPENING THIS MONTH?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6222-s-c2-r2"
+        },
+        {
+          "question": "Victoria Day (in Canada),V-E Day",
+          "answer": "May",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S HAPPENING THIS MONTH?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6222-s-c2-r3"
+        },
+        {
+          "question": "England's Twelfth Night,Battle of New Orleans Day",
+          "answer": "January",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S HAPPENING THIS MONTH?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6222-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "OSCAR RECORDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Life is Beautiful\" & \"8 1/2\" are 2 of the record 14 films from this country to win Best Foreign Language Film",
+          "answer": "Italy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR RECORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6222-s-c3-r0"
+        },
+        {
+          "question": "For \"Mudbound\", Rachel Morrison was the first woman nominated in this category given to directors of photography",
+          "answer": "Cinematography",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR RECORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6222-s-c3-r1"
+        },
+        {
+          "question": "Winning for \"The Miracle Worker\", Patty Duke is tied for the shortest Oscar speech: These 2 words",
+          "answer": "thank you",
+          "value": 1400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR RECORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6222-s-c3-r2"
+        },
+        {
+          "question": "This actor's last-minute work on \"All the Money in the World\" made him the oldest actor ever nominated at 88",
+          "answer": "Christopher Plummer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR RECORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6222-s-c3-r3"
+        },
+        {
+          "question": "Beginning in 1940 this comic hosted the Oscars the most times--18",
+          "answer": "Bob Hope",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR RECORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6222-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MY GOD",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Dionysus, party god of fertility & ecstasy, became god of this beverage, too, be it still, dry or sparkling",
+          "answer": "wine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY GOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6222-s-c4-r0"
+        },
+        {
+          "question": "Out of darkness emerge sky father Rangi & earth mother Papa in creation stories of this New Zealand people",
+          "answer": "the Maori",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY GOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6222-s-c4-r1"
+        },
+        {
+          "question": "Some Romans worshipped Orcus as the god of the dead; others worshipped this planetary one",
+          "answer": "Pluto",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY GOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6222-s-c4-r2"
+        },
+        {
+          "question": "Marduk thrashed Tiamat, the monster of Chaos, to become the deity of this city known for its hanging gardens",
+          "answer": "Babylon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY GOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6222-s-c4-r3"
+        },
+        {
+          "question": "The blind god Hod mistakenly killed this handsome & beloved son of Odin",
+          "answer": "Balder",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MY GOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6222-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S FULL OF STORES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Tom Stemberg decided the world needed an office products supermarket & so he founded this chain; that was easy",
+          "answer": "Staples",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S FULL OF STORES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6222-s-c5-r0"
+        },
+        {
+          "question": "The name of this clothing retailer is also a term for a one-export country",
+          "answer": "Banana Republic",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S FULL OF STORES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6222-s-c5-r1"
+        },
+        {
+          "question": "Two Korean immigrants with no college degrees moved to L.A. & in 1984 opened Fashion 21, later renamed this",
+          "answer": "Forever 21",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S FULL OF STORES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6222-s-c5-r2"
+        },
+        {
+          "question": "Sadly, many of its \"referees\" were ejected from the game when this shoe store chain said it was closing 110 stores in 2018",
+          "answer": "Foot Locker",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S FULL OF STORES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6222-s-c5-r3"
+        },
+        {
+          "question": "\"Live Well\" is the slogan of this 3-letter nutritional supplement chain",
+          "answer": "GNC",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S FULL OF STORES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6222-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S TWOSDAY!",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Cheers to you if you know that they're the 2 ingredients in a traditional mimosa",
+          "answer": "champagne and orange juice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S TWOSDAY!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6222-d-c0-r0"
+        },
+        {
+          "question": "They're the 2 main political parties in Britain",
+          "answer": "Labour and Conservative",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S TWOSDAY!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6222-d-c0-r1"
+        },
+        {
+          "question": "Jesus fed a famished 5,000 with this nourishing pair",
+          "answer": "bread and fish",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S TWOSDAY!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6222-d-c0-r2"
+        },
+        {
+          "question": "The 2 main types of camel are the dromedary & this 2-humped variety named for a region of Asia",
+          "answer": "Bactrians",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S TWOSDAY!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6222-d-c0-r3"
+        },
+        {
+          "question": "They're the 2 signs of the zodiac whose symbols are arthropods",
+          "answer": "Cancer and Scorpio",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S TWOSDAY!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6222-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "McPEOPLE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This senator & war hero died in 2018 after a battle with brain cancer",
+          "answer": "(John) McCain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McPEOPLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6222-d-c1-r0"
+        },
+        {
+          "question": "This last name of Richard, seen here, was on signs all over the United States by the time he died in 1998",
+          "answer": "McDonald",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McPEOPLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6222-d-c1-r1"
+        },
+        {
+          "question": "This Union general was \"the young Napoleon of the West\"",
+          "answer": "McClellan",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McPEOPLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6222-d-c1-r2"
+        },
+        {
+          "question": "This Scottish-born fur trader founded a university in Montreal",
+          "answer": "(James) McGill",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McPEOPLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6222-d-c1-r3"
+        },
+        {
+          "question": "Randolph (AKA Rand'l) was the head of this clan in Pike County, Kentucky",
+          "answer": "the McCoys",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "McPEOPLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6222-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN LITERATURE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "E.L. Doctorow's novel \"The March\" uses this general's 1864 trek through Georgia as its backdrop",
+          "answer": "General Sherman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6222-d-c2-r0"
+        },
+        {
+          "question": "In Oz she's the good witch who helps Dorothy get back to Kansas",
+          "answer": "Glinda",
+          "value": 1800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6222-d-c2-r1"
+        },
+        {
+          "question": "In one version the last speech of a play by him says, \"Nothing's more determined than a cat on a tin roof\"",
+          "answer": "Tennessee Williams",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6222-d-c2-r2"
+        },
+        {
+          "question": "In a 1912 Edgar Rice Burroughs tale, Civil War vet John Carter is magically transported here",
+          "answer": "Mars",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6222-d-c2-r3"
+        },
+        {
+          "question": "John Steinbeck's \"East of Eden\" plays out its Cain & Abel parable in this California valley",
+          "answer": "the Salinas Valley",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6222-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT'S A CLOWN CATEGORY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Bart Simpson says of him, \"He's my idol. I've based my whole life on his teachings\"",
+          "answer": "Krusty the Clown",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S A CLOWN CATEGORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6222-d-c3-r0"
+        },
+        {
+          "question": "A line from this novel: \"I...am Mr. Bob Gray, also known as Pennywise the Dancing Clown\"",
+          "answer": "It",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S A CLOWN CATEGORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6222-d-c3-r1"
+        },
+        {
+          "question": "In 1952, with the help of Hank Aaron, the Indianapolis Clowns won the championship in this organization",
+          "answer": "the Negro Leagues",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THAT'S A CLOWN CATEGORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6222-d-c3-r2"
+        },
+        {
+          "question": "Zach Galifianakis fails out of a French clown college at the start of this TV series",
+          "answer": "Baskets",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S A CLOWN CATEGORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6222-d-c3-r3"
+        },
+        {
+          "question": "The early 18th century Watteau work seen here has been called the prototypical this-adjective clown",
+          "answer": "sad",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S A CLOWN CATEGORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6222-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PARIS POTPOURRI",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Rive Gauche & Rive Droite are the left & right banks of this Paris river",
+          "answer": "the Seine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARIS POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6222-d-c4-r0"
+        },
+        {
+          "question": "In Shakespeare her parents want her to marry Paris, a nobleman & kinsman of the prince of Verona",
+          "answer": "Juliet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARIS POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6222-d-c4-r1"
+        },
+        {
+          "question": "For 5 seasons, she & BFF Nicole Richie starred on the reality series \"The Simple Life\"",
+          "answer": "Paris Hilton",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARIS POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6222-d-c4-r2"
+        },
+        {
+          "question": "Used for casts & molds, plaster of Paris is made from this soft mineral",
+          "answer": "gypsum",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PARIS POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6222-d-c4-r3"
+        },
+        {
+          "question": "In Greek mythology Paris is the son of this king of Troy",
+          "answer": "Priam",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PARIS POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6222-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CROSSWORD CLUES \"K\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Moscow citadel(7)",
+          "answer": "Kremlin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"K\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6222-d-c5-r0"
+        },
+        {
+          "question": "Cosmic reincarnation principle(5)",
+          "answer": "karma",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"K\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6222-d-c5-r1"
+        },
+        {
+          "question": "Garments gotten \"in a twist\"(8)",
+          "answer": "knickers",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"K\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6222-d-c5-r2"
+        },
+        {
+          "question": "Invasive climbing vine (5)",
+          "answer": "kudzu",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"K\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6222-d-c5-r3"
+        },
+        {
+          "question": "No fair trials in this court(8)",
+          "answer": "kangaroo",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"K\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6222-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROADWAY MUSICALS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The title of this musical that opened in 1956 came from the last line of a nursery rhyme about a structure that spanned the Thames",
+          "answer": "My Fair Lady",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BROADWAY MUSICALS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6222-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

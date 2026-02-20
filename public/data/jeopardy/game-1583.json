@@ -1,0 +1,833 @@
+{
+  "gameId": 1583,
+  "showNumber": 3897,
+  "airDate": "July 10, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "King Juan Carlos' main home, Zarzuela Palace, lies just outside this capital",
+          "answer": "Madrid",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1583-s-c0-r0"
+        },
+        {
+          "question": "Pyongyang is the capital of North Korea; this is the capital of South Korea",
+          "answer": "Seoul",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1583-s-c0-r1"
+        },
+        {
+          "question": "Augustus Caesar said he found it \"A city of bricks and left it a city of marble\"",
+          "answer": "Rome",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1583-s-c0-r2"
+        },
+        {
+          "question": "It's served by Saddam International Airport",
+          "answer": "Baghdad",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1583-s-c0-r3"
+        },
+        {
+          "question": "This Ecuadorian capital is located near the foot of the volcano Pichincha",
+          "answer": "Quito",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1583-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HIT SONGS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Smoke On The Water\" was a 1973 hit for this British band",
+          "answer": "Deep Purple",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HIT SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1583-s-c1-r0"
+        },
+        {
+          "question": "In 1987 jazz vocalist Al Jarreau had a pop hit with the theme from this Cybill Shepherd-Bruce Willis series",
+          "answer": "Moonlighting",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIT SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1583-s-c1-r1"
+        },
+        {
+          "question": "This group's gold records include \"After the Love has Gone\", \"Boogie Wonderland\" & \"Let's Groove\"",
+          "answer": "Earth, Wind & Fire",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIT SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1583-s-c1-r2"
+        },
+        {
+          "question": "This group made its U.S. Top 40 debut with \"Brass in Pocket\" in 1980",
+          "answer": "The Pretenders",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HIT SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1583-s-c1-r3"
+        },
+        {
+          "question": "What a delight!  This band's \"Afternoon Delight\" topped the charts & went gold",
+          "answer": "the Starland Vocal Band",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIT SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1583-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "After his 1859 hanging, Civil War troops sang of this abolitionist's body \"mouldering in the grave\"",
+          "answer": "John Brown",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1583-s-c2-r0"
+        },
+        {
+          "question": "In 1913 the 16th Amendment was passed allowing Congress to collect taxes on this",
+          "answer": "income",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1583-s-c2-r1"
+        },
+        {
+          "question": "Plessy vs. Ferguson, which upheld segregation, was overturned by this 1954 case",
+          "answer": "Brown v. Board of Education",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1583-s-c2-r2"
+        },
+        {
+          "question": "During WWII America won its 1st major victory over Japan in this naval battle, about 1,200 miles from Hawaii",
+          "answer": "Midway",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1583-s-c2-r3"
+        },
+        {
+          "question": "Bushrod, the favorite nephew of this president, became a Supreme Court justice in 1798",
+          "answer": "George Washington",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1583-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GRAPE JAM",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In an Aesop tale this animal decided the grapes he couldn't reach had to be sour",
+          "answer": "the fox",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPE JAM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1583-s-c3-r0"
+        },
+        {
+          "question": "A form of this company's grape & apple logo, seen here, dates back to 1851",
+          "answer": "Fruit of the Loom",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPE JAM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1583-s-c3-r1"
+        },
+        {
+          "question": "Mae West's famous order in \"I'm No Angel\"",
+          "answer": "\"Peel me a grape!\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPE JAM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1583-s-c3-r2"
+        },
+        {
+          "question": "This dentist & prohibitionist began selling his \"unfermented wine\" in 1869; in 1890 he renamed it \"Grape Juice\"",
+          "answer": "Thomas B. Welch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPE JAM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1583-s-c3-r3"
+        },
+        {
+          "question": "1939 book dedicated in part \"to Tom who lived it\"",
+          "answer": "The Grapes of Wrath",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GRAPE JAM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1583-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHRISTIAN NAMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This name belongs to the last martyred Pope & to actor Sheen",
+          "answer": "Martin",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1583-s-c4-r0"
+        },
+        {
+          "question": "An apostle, or a son of Queen Elizabeth II",
+          "answer": "Andrew",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1583-s-c4-r1"
+        },
+        {
+          "question": "Meaning \"harvester\", it was the name taken by one of the most famous nuns of the 20th century",
+          "answer": "Mother Teresa",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1583-s-c4-r2"
+        },
+        {
+          "question": "\"Speak out\" with this given name of the noted Christian seen here",
+          "answer": "Oral Roberts",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1583-s-c4-r3"
+        },
+        {
+          "question": "The original name of St. Peter & the name of Mr. Pure in an 18th century play",
+          "answer": "Simon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1583-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE \"E\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The jubilant delight with which Rudolph the Red-Nosed Reindeer's friends shouted",
+          "answer": "glee",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"E\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1583-s-c5-r0"
+        },
+        {
+          "question": "A hoarse whistling sound produced by breathing",
+          "answer": "wheeze",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"E\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1583-s-c5-r1"
+        },
+        {
+          "question": "They're the periods each fall, winter & spring when TV ratings are collected so that ad rates can be reset",
+          "answer": "sweeps",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"E\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1583-s-c5-r2"
+        },
+        {
+          "question": "It means strange & frightening, but it sounds like a big lake",
+          "answer": "eerie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"E\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1583-s-c5-r3"
+        },
+        {
+          "question": "Emma Peel's John on TV's \"The Avengers\"",
+          "answer": "steed",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"E\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1583-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "OPERA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Henry Purcell wrote operas about \"The Faery\" one & \"The Indian\" one",
+          "answer": "Queen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1583-d-c0-r0"
+        },
+        {
+          "question": "In 1829, after his move to Paris, this Italian composer wrote \"William Tell\"",
+          "answer": "Gioachino Rossini",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1583-d-c0-r1"
+        },
+        {
+          "question": "Lorenzo Da Ponte supplied composers with over 40 librettos, including \"Cosi fan tutte\" for this man",
+          "answer": "W.A. Mozart",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1583-d-c0-r2"
+        },
+        {
+          "question": "He was in his 70s when he composed \"Otello\" in 1887 & \"Falstaff\" in 1893",
+          "answer": "Giuseppe Verdi",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1583-d-c0-r3"
+        },
+        {
+          "question": "After his 1711 opera \"Rinaldo\" made his name, he immediately moved from Hanover to England",
+          "answer": "G.F. Handel",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1583-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ART SUPPLIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's the type of paper used in the artwork seen here",
+          "answer": "tracing paper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART SUPPLIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1583-d-c1-r0"
+        },
+        {
+          "question": "A pad of paper for quick drawings, it appears in a Washington Irving title along with Geoffrey Crayon",
+          "answer": "a sketch book",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ART SUPPLIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1583-d-c1-r1"
+        },
+        {
+          "question": "This Hunt Corporation brand seen here has been on the cutting edge for over 50 years",
+          "answer": "X-Acto Knife",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART SUPPLIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1583-d-c1-r2"
+        },
+        {
+          "question": "A smooth, heavy cardboard is called this \"board\", after a city west of London",
+          "answer": "Bristol board",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ART SUPPLIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1583-d-c1-r3"
+        },
+        {
+          "question": "This term for Plaster of Paris mixed with glue to prepare a surface comes from the Latin \"gypsum\"",
+          "answer": "gesso",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ART SUPPLIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1583-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "DIRECTORS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"E.T.: The Extra-Terrestrial\"",
+          "answer": "Steven Spielberg",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1583-d-c2-r0"
+        },
+        {
+          "question": "\"Fargo\"",
+          "answer": "Joel Coen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1583-d-c2-r1"
+        },
+        {
+          "question": "\"Paper Moon\"",
+          "answer": "Peter Bogdanovich",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1583-d-c2-r2"
+        },
+        {
+          "question": "\"The Apostle\"",
+          "answer": "Robert Duvall",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1583-d-c2-r3"
+        },
+        {
+          "question": "\"Dead Man Walking\"",
+          "answer": "Tim Robbins",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1583-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "8-LETTER WORDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Having no idea, like Alicia Silverstone in a 1995 movie",
+          "answer": "clueless",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1583-d-c3-r0"
+        },
+        {
+          "question": "This buttoned sweater & a matching shell usually make up a twin set",
+          "answer": "a cardigan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1583-d-c3-r1"
+        },
+        {
+          "question": "This wood, seen here, gives a room a solid feeling",
+          "answer": "mahogany",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1583-d-c3-r2"
+        },
+        {
+          "question": "A type of anesthesia used during childbirth, or the space around the spinal cord where it is injected",
+          "answer": "epidural",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1583-d-c3-r3"
+        },
+        {
+          "question": "This type of chemical bond can be polar, nonpolar, single, double, triple or coordinate",
+          "answer": "a covalent bond",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1583-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOLOGY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The mineral Andalusite was discovered in & named for a region in this country",
+          "answer": "Spain",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1583-d-c4-r0"
+        },
+        {
+          "question": "Fluvial is a term that refers to these geographic features",
+          "answer": "rivers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1583-d-c4-r1"
+        },
+        {
+          "question": "Granite is composed mainly of feldspar & this transparent crystalline material",
+          "answer": "quartz",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1583-d-c4-r2"
+        },
+        {
+          "question": "A 79 A.D. letter about the death of this \"Elder\" scientist had the first accurate description of a volcanic eruption",
+          "answer": "Pliny",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1583-d-c4-r3"
+        },
+        {
+          "question": "In 1812 this German scientist devised a scale to measure the hardness of minerals",
+          "answer": "Frederich Mohs",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1583-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE EAT THAT?",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "We wonder if this variety meat tastes you while you're tasting it",
+          "answer": "tongue",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE EAT THAT?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1583-d-c5-r0"
+        },
+        {
+          "question": "Don't put your PB&J on this -- it's the thymus gland or pancreas of a calf",
+          "answer": "sweetbread",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE EAT THAT?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1583-d-c5-r1"
+        },
+        {
+          "question": "This word for beef stomach lining has become a slang term for \"rubbish\"",
+          "answer": "tripe",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE EAT THAT?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1583-d-c5-r2"
+        },
+        {
+          "question": "A sausage made out of trotters is made from these parts of a pig or a sheep",
+          "answer": "the feet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE EAT THAT?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1583-d-c5-r3"
+        },
+        {
+          "question": "Often sauteed with onions (probably to mask the taste), this brownish large organ has great nutritional value",
+          "answer": "the liver",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE EAT THAT?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1583-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZATIONS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"A Simple, Decent Place to Live\" is Millard Fuller's book about the history of this organization",
+          "answer": "Habitat For Humanity",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ORGANIZATIONS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1583-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

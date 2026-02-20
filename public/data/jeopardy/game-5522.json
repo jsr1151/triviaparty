@@ -1,0 +1,833 @@
+{
+  "gameId": 5522,
+  "showNumber": 7467,
+  "airDate": "February 14, 2017",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STUDYING ABROAD",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Congratulations! You're a Rhodes Scholar! Now pack your bags because you'll be studying at this university",
+          "answer": "Oxford",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUDYING ABROAD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5522-s-c0-r0"
+        },
+        {
+          "question": "If you're interested in Asian culture, spend a semester abroad studying at Mahidol University in this Thai capital",
+          "answer": "Bangkok",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUDYING ABROAD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5522-s-c0-r1"
+        },
+        {
+          "question": "Your time in Greece would of course include a visit to this ancient temple",
+          "answer": "the Parthenon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUDYING ABROAD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5522-s-c0-r2"
+        },
+        {
+          "question": "A program on Holocaust studies includes a visit to Birkenau, part of this largest concentration camp",
+          "answer": "Auschwitz",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUDYING ABROAD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5522-s-c0-r3"
+        },
+        {
+          "question": "Students can work with leading physicists at this center near Geneva that studies subatomic particles",
+          "answer": "CERN",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUDYING ABROAD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5522-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCI-FI BOOKS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The \"hard rain\" in Neal Stephenson's \"Seveneves\" comes from this natural satellite that's broken up & falling to Earth bit by bit",
+          "answer": "the moon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI BOOKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5522-s-c1-r0"
+        },
+        {
+          "question": "This Max Brooks novel tells of the drug Phalanx, which failed to stop the Undead Hordes",
+          "answer": "World War Z",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI BOOKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5522-s-c1-r1"
+        },
+        {
+          "question": "Dubbed \"wildly inaccurate\", it \"supplanted the great Encyclopedia Galactica as the... repository of all knowledge\"",
+          "answer": "The Hitchhiker's Guide to the Galaxy",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI BOOKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5522-s-c1-r2"
+        },
+        {
+          "question": "Thomas in this James Dashner sci-fi book awakens being \"jerked upward like an old lift in a mine shaft\"",
+          "answer": "The Maze Runner",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI BOOKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5522-s-c1-r3"
+        },
+        {
+          "question": "Hiroshi Sakurazaka's \"All You Need Is Kill\" was \"reborn\" in 2014 as this Tom Cruise flick",
+          "answer": "Edge of Tomorrow",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI BOOKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5522-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CLASSIC MARQUEE INGREDIENT",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Benedict or over easy",
+          "answer": "eggs",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CLASSIC MARQUEE INGREDIENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5522-s-c2-r0"
+        },
+        {
+          "question": "Bourguignon or tartare",
+          "answer": "beef",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CLASSIC MARQUEE INGREDIENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5522-s-c2-r1"
+        },
+        {
+          "question": "E fagioli or primavera",
+          "answer": "pasta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CLASSIC MARQUEE INGREDIENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5522-s-c2-r2"
+        },
+        {
+          "question": "Kiev or a la King",
+          "answer": "chicken",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CLASSIC MARQUEE INGREDIENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5522-s-c2-r3"
+        },
+        {
+          "question": "Louie or cakes",
+          "answer": "crab",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CLASSIC MARQUEE INGREDIENT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5522-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"FR\"",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "At Christmas, some people go nutty for this",
+          "answer": "fruitcake",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FR\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5522-s-c3-r0"
+        },
+        {
+          "question": "Among the crimes Bernie Madoff pled guilty to: securities this, mail this & wire this",
+          "answer": "fraud",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FR\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5522-s-c3-r1"
+        },
+        {
+          "question": "The one seen here appears on the  wall of a basilica in Italy",
+          "answer": "a fresco",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FR\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5522-s-c3-r2"
+        },
+        {
+          "question": "Bono for U2 or Eddie Vedder for Pearl Jam",
+          "answer": "a frontman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FR\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5522-s-c3-r3"
+        },
+        {
+          "question": "It entered our vocabulary in 1953 when the Oil & Gas Journal called it \"a new exploratory tool\"",
+          "answer": "fracking",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FR\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5522-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOTTA CRAM",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The largest crowd for a hockey game came in 2010 when 104,173 fans filled Michigan's \"Big House\" in this city",
+          "answer": "Ann Arbor",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOTTA CRAM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5522-s-c4-r0"
+        },
+        {
+          "question": "Every seat at the play is taken; it's SRO, short for this",
+          "answer": "standing room only",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOTTA CRAM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5522-s-c4-r1"
+        },
+        {
+          "question": "If the airplane has too many fliers & you have low priority, you accept this status & hope a seat opens up",
+          "answer": "standby",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOTTA CRAM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5522-s-c4-r2"
+        },
+        {
+          "question": "In 2016 El Pollo Loco introduced new quesadillas that were called this, something you might say about your fluffy sofa",
+          "answer": "overstuffed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOTTA CRAM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5522-s-c4-r3"
+        },
+        {
+          "question": "It's any condition where things grind to a halt, specifically a traffic jam where cars don't clear an intersection",
+          "answer": "gridlock",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOTTA CRAM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5522-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TIME TO PULL AN ALL-NIGHTER",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A song by them says, \"The story of my life, I take her home, I drive all night to keep her warm\"",
+          "answer": "One Direction",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME TO PULL AN ALL-NIGHTER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5522-s-c5-r0"
+        },
+        {
+          "question": "We'll be up for a while, so let's watch \"Clubland\" on this channel & then \"Music Feed\" into the wee hours",
+          "answer": "MTV",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME TO PULL AN ALL-NIGHTER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5522-s-c5-r1"
+        },
+        {
+          "question": "It's gonna be an all-out comic binge, starting with all the DC reboots in their \"New\" this number event",
+          "answer": "52",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME TO PULL AN ALL-NIGHTER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5522-s-c5-r2"
+        },
+        {
+          "question": "Except for 1940 to 1948, this 24-hour endurance race has been run in France every year since 1923",
+          "answer": "Le Mans",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME TO PULL AN ALL-NIGHTER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5522-s-c5-r3"
+        },
+        {
+          "question": "This alliterative country singer went bonkers in 2014 playing 10 shows in 10 cities in 24 hours",
+          "answer": "Hunter Hayes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME TO PULL AN ALL-NIGHTER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5522-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALL KINDS OF TV",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The \"Dr.\"-ate of this mustached talk show host is in clinical psychology",
+          "answer": "Dr. Phil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL KINDS OF TV",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5522-d-c0-r0"
+        },
+        {
+          "question": "You'll find \"Trisha's Southern Kitchen\" on this network",
+          "answer": "the Food Network",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL KINDS OF TV",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5522-d-c0-r1"
+        },
+        {
+          "question": "In 2017 Kaitlin Olson of this show set in a Pennsylvania bar got a new sitcom as \"The Mick\"",
+          "answer": "It's Always Sunny in Philadelphia",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL KINDS OF TV",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5522-d-c0-r2"
+        },
+        {
+          "question": "This CBS series about FBI profilers rolls on, Hotch or no Hotch",
+          "answer": "Criminal Minds",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL KINDS OF TV",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5522-d-c0-r3"
+        },
+        {
+          "question": "MeTV has a pairing of Matlock & this other TV attorney, first name Perry",
+          "answer": "Perry Mason",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALL KINDS OF TV",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5522-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSICAL MUSIC",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Glory to God in the highest\" is one of numerous Biblical verses used in the text of this Handel work",
+          "answer": "Messiah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5522-d-c1-r0"
+        },
+        {
+          "question": "\"Gran Vals\" by Francisco Tárrega would still be pretty obscure if it hadn't become one of these, courtesy of Nokia",
+          "answer": "a ringtone",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5522-d-c1-r1"
+        },
+        {
+          "question": "Originally, his \"A Little Night Music\" contained an additional minuet, but it has been lost",
+          "answer": "Mozart",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5522-d-c1-r2"
+        },
+        {
+          "question": "One of Bartok's last works was a concerto for this instrument that often plays second fiddle to the fiddle",
+          "answer": "viola",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5522-d-c1-r3"
+        },
+        {
+          "question": "As choir director for St. Thomas Church in Leipzig, he wrote 6 cantatas known as the \"Christmas Oratorio\"",
+          "answer": "(Johann Sebastian) Bach",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5522-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "10-LETTER WORDS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "One's partner in crime",
+          "answer": "an accomplice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "10-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5522-d-c2-r0"
+        },
+        {
+          "question": "Name shared by the decorative device & the bird seen here",
+          "answer": "a nutcracker",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "10-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5522-d-c2-r1"
+        },
+        {
+          "question": "\"Madam, I'm Adam\" is a famous one",
+          "answer": "a palindrome",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "10-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5522-d-c2-r2"
+        },
+        {
+          "question": "It describes the circles seen here",
+          "answer": "concentric",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "10-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5522-d-c2-r3"
+        },
+        {
+          "question": "Background music for a movie, or a line drawn beneath a word",
+          "answer": "underscore",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "10-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5522-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SIX FEET UNDER",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The 6 feet (OK, legs) under an insect are typically attached to this, the middle of its 3 body sections",
+          "answer": "the thorax",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SIX FEET UNDER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5522-d-c3-r0"
+        },
+        {
+          "question": "For these biting pests of the family Culicidae, that annoying whine helps attract mates",
+          "answer": "mosquitoes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SIX FEET UNDER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5522-d-c3-r1"
+        },
+        {
+          "question": "That's no fun! The Indian walking this usually reproduces via parthenogenesis",
+          "answer": "a stick",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SIX FEET UNDER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5522-d-c3-r2"
+        },
+        {
+          "question": "These social insects use the \"waggle dance\" to communicate the location of distant food sources",
+          "answer": "bees",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SIX FEET UNDER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5522-d-c3-r3"
+        },
+        {
+          "question": "Killing weak trees (good) but also healthy ones (not good), the pine engraver is this alliterative type of beetle",
+          "answer": "a bark beetle",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SIX FEET UNDER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5522-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "A HISTORY LESSON",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1249 King Alfonso III eliminated the last Moorish stronghold in this neighbor of Spain",
+          "answer": "Portugal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A HISTORY LESSON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5522-d-c4-r0"
+        },
+        {
+          "question": "Czar Alexander II signed the 1867 Treaty of Cession that gave this territory to the United States",
+          "answer": "Alaska",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A HISTORY LESSON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5522-d-c4-r1"
+        },
+        {
+          "question": "In 1513 Machiavelli was accused of conspiracy against this Florentine family & was tortured on the rack",
+          "answer": "the Medicis",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A HISTORY LESSON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5522-d-c4-r2"
+        },
+        {
+          "question": "In 1608 this captain & a few other colonists left Jamestown & explored the Chesapeake Bay & its tributaries",
+          "answer": "(John) Smith",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A HISTORY LESSON",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5522-d-c4-r3"
+        },
+        {
+          "question": "In 1910 Louis Botha became this country's first prime minister, a post he held until 1919",
+          "answer": "South Africa",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A HISTORY LESSON",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5522-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GET A JOB!",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "George Balanchine was a renowned one of these, a creator of dances",
+          "answer": "choreographer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GET A JOB!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5522-d-c5-r0"
+        },
+        {
+          "question": "You can use \"person\" instead of \"boy\" in this word for one who clears tables",
+          "answer": "busboy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GET A JOB!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5522-d-c5-r1"
+        },
+        {
+          "question": "They get their name from where they might wait for the politicians whose votes they want to influence",
+          "answer": "lobbyist",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GET A JOB!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5522-d-c5-r2"
+        },
+        {
+          "question": "Put in a little O.T. studying & you could be one of these health professionals, an O.T.",
+          "answer": "occupational therapist",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GET A JOB!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5522-d-c5-r3"
+        },
+        {
+          "question": "This profession takes its name from a Greek word meaning \"chief builder\"",
+          "answer": "an architect",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GET A JOB!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5522-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WRITERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A New Orleans literary festival in his honor includes various panels, a walking tour & a Stanley & Stella shouting contest",
+          "answer": "Tennessee Williams",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WRITERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5522-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

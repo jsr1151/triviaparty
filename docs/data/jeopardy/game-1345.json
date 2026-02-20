@@ -1,0 +1,749 @@
+{
+  "gameId": 1345,
+  "showNumber": 779,
+  "airDate": "January 14, 1988",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SAINTLY FIRSTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "St. Brigid founded the 1st convent in this country, at Kildare, & is one of its patron saints",
+          "answer": "Ireland",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTLY FIRSTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1345-s-c0-r0"
+        },
+        {
+          "question": "St. Augustine of Canterbury was the first to hold this title, circa 601",
+          "answer": "the Archbishop of Canterbury",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTLY FIRSTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1345-s-c0-r1"
+        },
+        {
+          "question": "Though St. Mark probably wrote his book first, this saint gets first billing in the New Testament",
+          "answer": "St. Matthew",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTLY FIRSTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1345-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "REPUBLICANS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1949, Barry Goldwater was elected to the city council of this Arizona city",
+          "answer": "Phoenix",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPUBLICANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1345-s-c1-r0"
+        },
+        {
+          "question": "Later his 1st att'y general, Herbert Brownell Jr. urged him to select Nixon as a running mate",
+          "answer": "Dwight Eisenhower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPUBLICANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1345-s-c1-r1"
+        },
+        {
+          "question": "This Tennessean replaced Donald Regan as Reagan's Chief of Staff",
+          "answer": "Howard Baker",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPUBLICANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1345-s-c1-r2"
+        },
+        {
+          "question": "He was a Republican when elected mayor of NYC in 1965 but became a Democrat in 1971",
+          "answer": "(John) Lindsay",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPUBLICANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1345-s-c1-r3"
+        },
+        {
+          "question": "President of Bell & Howell at 29, he went on to become an Illinois senator",
+          "answer": "(Charles) Percy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPUBLICANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1345-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WARTHOGS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Roots, grasses, berries, birds' eggs, & even small mammals",
+          "answer": "eat",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WARTHOGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1345-s-c2-r0"
+        },
+        {
+          "question": "Leopards, principally",
+          "answer": "eats",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WARTHOGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1345-s-c2-r1"
+        },
+        {
+          "question": "Warthogs stick this long, thin, tufted body part straight up in the air when they run",
+          "answer": "their tails",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WARTHOGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1345-s-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHIC COCKTAILS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The juice of this fruit makes up to ⅓ of a Valencia cocktail",
+          "answer": "an orange",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHIC COCKTAILS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1345-s-c3-r0"
+        },
+        {
+          "question": "It's not \"a long way to\" this drink, if you've got Irish whiskey, chartreuse & vermouth",
+          "answer": "Tipperary",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHIC COCKTAILS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1345-s-c3-r1"
+        },
+        {
+          "question": "If you order this cold drink on \"Long Island\", you're apt to get 5 distilled spirits, not brewed leaves",
+          "answer": "(a Long Island) iced tea",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHIC COCKTAILS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1345-s-c3-r2"
+        },
+        {
+          "question": "Title of the following, it's also a cocktail made of Scotch whisky, sugar, & bitters:\"Well you take the high road, and I'll take the low road\"\"But I'll be in be in Scotland before ya /For me and my true love may never meet again...\"",
+          "answer": "Loch Lomond",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHIC COCKTAILS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1345-s-c3-r3"
+        },
+        {
+          "question": "You're off to the races in Upstate N.Y. with this drink of ginger ale, sugar, bitters & lemon juice",
+          "answer": "a Saratoga",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHIC COCKTAILS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1345-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PALINDROMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A young seal",
+          "answer": "a pup",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PALINDROMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1345-s-c4-r0"
+        },
+        {
+          "question": "Type of rally given by cheerleaders or talk given by the coach",
+          "answer": "pep",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PALINDROMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1345-s-c4-r1"
+        },
+        {
+          "question": "It can precede chart, art, or \"the question\"",
+          "answer": "pop",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PALINDROMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1345-s-c4-r2"
+        },
+        {
+          "question": "Soft or semi-liquid foods, as for infants",
+          "answer": "pap",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PALINDROMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1345-s-c4-r3"
+        },
+        {
+          "question": "A dot indicating a unit of numerical value on dice or dominoes",
+          "answer": "a pip",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PALINDROMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1345-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAIDEN NAMES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Mrs. Steve Lawrence",
+          "answer": "Eydie Gormé",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1345-s-c5-r0"
+        },
+        {
+          "question": "Mrs. Steven Spielberg",
+          "answer": "Amy Irving",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1345-s-c5-r1"
+        },
+        {
+          "question": "Mrs. Mel Brooks",
+          "answer": "Anne Bancroft",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1345-s-c5-r2"
+        },
+        {
+          "question": "Mrs. Bruce Oppenheim",
+          "answer": "Cybill Shepherd",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1345-s-c5-r3"
+        },
+        {
+          "question": "Mrs. Roger Smith",
+          "answer": "Ann-Margret",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1345-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLONIAL AMERICA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1691, Plymouth Colony became part of this colony",
+          "answer": "the Massachusetts Bay Colony",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1345-d-c0-r0"
+        },
+        {
+          "question": "The 1765 Quartering Act required Colonial cities to provide this",
+          "answer": "lodging for British soldiers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1345-d-c0-r1"
+        },
+        {
+          "question": "King Wiliam's Queen Anne's & King George's were wars Colonists fought in against this country",
+          "answer": "France",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1345-d-c0-r2"
+        },
+        {
+          "question": "Just 10 years after its incorporation, this city had more people than 80-year-old NYC",
+          "answer": "Philadelphia",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1345-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "BRITISH LITERATURE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Of \"Sir\", \"Reverend\", or \"Dr.\", title Charles Lutwidge Dodgson could properly use",
+          "answer": "Reverend",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1345-d-c1-r0"
+        },
+        {
+          "question": "Mythical land mentioned by Samuel Johnson in his \"Debates\" & Jonathan Swift in his \"Travels\"",
+          "answer": "Lilliput",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1345-d-c1-r1"
+        },
+        {
+          "question": "The P.M.'s office offers a name to the sovereign, who then appoints the writer to this post",
+          "answer": "Poet Laureate",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BRITISH LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1345-d-c1-r2"
+        },
+        {
+          "question": "Most famous work of Edward Gibbon, who became Commissioner of Trade & Plantations",
+          "answer": "The Decline and Fall of the Roman Empire",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1345-d-c1-r3"
+        },
+        {
+          "question": "Among this 19th-century writer's poems are \"Pippa Passes\" & \"The Pied Piper of Hamelin\"",
+          "answer": "(Robert) Browning",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1345-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "DEPARTMENT STORES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In August 1987, 3859 people did this together in Macy's annual \"Tap-O-Mania\"",
+          "answer": "tap dance (in unison)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEPARTMENT STORES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1345-d-c2-r0"
+        },
+        {
+          "question": "If you spent more than $60,000 in 1987 at this Texas-based department store, you got a Super Bowl trip",
+          "answer": "Neiman-Marcus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEPARTMENT STORES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1345-d-c2-r1"
+        },
+        {
+          "question": "#2 chain in sales, they've hired style expert Martha Stewart to spruce up their image",
+          "answer": "Kmart",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEPARTMENT STORES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1345-d-c2-r2"
+        },
+        {
+          "question": "In mid-1987, this store started a ₤200 million restoration of its Knightsbridge facility",
+          "answer": "Harrods",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEPARTMENT STORES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1345-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE CLASSICS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Leslie Howard's contract salary for this film was more than twice Vivien Leigh's",
+          "answer": "Gone with the Wind",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CLASSICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1345-d-c3-r0"
+        },
+        {
+          "question": "In the 1948 film, Leonide Massine makes this title footwear for Moira Shearer",
+          "answer": "red shoes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CLASSICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1345-d-c3-r1"
+        },
+        {
+          "question": "In \"Vertigo\", Kim Novak throws herself into the bay beside this famed bridge",
+          "answer": "the Golden Gate Bridge",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CLASSICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1345-d-c3-r2"
+        },
+        {
+          "question": "In this 1932 Oscar-winner, there was room in the inn for a Beery & 2 Barrymores",
+          "answer": "Grand Hotel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CLASSICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1345-d-c3-r3"
+        },
+        {
+          "question": "Tho this man wrote the novel, R. Chandler & B. Wilder wrote the screenplay for \"Double Indemnity\"",
+          "answer": "James Cain",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CLASSICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1345-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARTISTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Born in the Danish West Indies, Camille Pissarro ran away to this Venezuelan capital to paint",
+          "answer": "Caracas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1345-d-c4-r0"
+        },
+        {
+          "question": "Fragonard & Watteau have been called 2 of the great poetic painters of this century",
+          "answer": "the 18th",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1345-d-c4-r1"
+        },
+        {
+          "question": "His sculptures of famous writers included Shaw, Balzac & 2 nudes of Victor Hugo",
+          "answer": "Rodin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1345-d-c4-r2"
+        },
+        {
+          "question": "Partial blindness compelled him to stop painting ballerinas circa 1898",
+          "answer": "Degas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1345-d-c4-r3"
+        },
+        {
+          "question": "South American sculptress who topped her big boxlike figures with her own face",
+          "answer": "Marisol",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1345-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS ALICES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Alice Mitchell is this famous kid's mom",
+          "answer": "Dennis the Menace",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS ALICES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1345-d-c5-r0"
+        },
+        {
+          "question": "The Flying Dr. Service & School of the Air are based in this isolated central Australian town",
+          "answer": "Alice Springs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS ALICES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1345-d-c5-r1"
+        },
+        {
+          "question": "Her \"Autobiography\", published in 1933, was actually written by a close friend",
+          "answer": "Alice B. Toklas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS ALICES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1345-d-c5-r2"
+        },
+        {
+          "question": "The fictional Alice Rutherford married John Clayton & bore this child",
+          "answer": "Lord Greystoke (Tarzan)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS ALICES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1345-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "U.S. RIVERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 2 longest rivers found in Idaho, both named for animals which begin with \"S\"",
+          "answer": "the Snake River & the Salmon River",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. RIVERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1345-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

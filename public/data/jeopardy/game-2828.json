@@ -1,0 +1,833 @@
+{
+  "gameId": 2828,
+  "showNumber": 4261,
+  "airDate": "February 24, 2003",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATE CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "If you want to check out the Lyndon Baines Johnson Library, go to this state capital",
+          "answer": "Austin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2828-s-c0-r0"
+        },
+        {
+          "question": "Its name is French for \"red stick\"",
+          "answer": "Baton Rouge",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2828-s-c0-r1"
+        },
+        {
+          "question": "Among its nicknames are \"Zion\" & \"The New Jerusalem\"",
+          "answer": "Salt Lake City",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2828-s-c0-r2"
+        },
+        {
+          "question": "With a population of over one million, this Southwestern city is the most populous state capital",
+          "answer": "Phoenix",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2828-s-c0-r3"
+        },
+        {
+          "question": "Its Strom Thurmond Federal Building was completed in 1979",
+          "answer": "Columbia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2828-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHOPPING OFF THE TV",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "His Indoor Grilling Machine comes in XL & XXL sizes",
+          "answer": "George Foreman",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOPPING OFF THE TV",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2828-s-c1-r0"
+        },
+        {
+          "question": "The Telezapper is supposed to help get this removed from computerized databases",
+          "answer": "your telephone number",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOPPING OFF THE TV",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2828-s-c1-r1"
+        },
+        {
+          "question": "To make use of your Space Bag, you usually attach it to this household appliance",
+          "answer": "vacuum cleaner",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOPPING OFF THE TV",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2828-s-c1-r2"
+        },
+        {
+          "question": "The Gourmet Blossom Maker works on apples & tomatoes but it's used mainly on these",
+          "answer": "onions",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOPPING OFF THE TV",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2828-s-c1-r3"
+        },
+        {
+          "question": "Company that makes the fantastic \"Inside the Shell Egg Scrambler\" (I gotta get one!)",
+          "answer": "Ronco",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHOPPING OFF THE TV",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2828-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOT REALLY MARRIED",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This country diva serenades this \"Huck Finn\" author with her hit \"You're Still the One\"",
+          "answer": "Shania & Mark Twain",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT REALLY MARRIED",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2828-s-c2-r0"
+        },
+        {
+          "question": "This star of \"Baywatch\" & \"V.I.P.\" makes a honeymoon video with this Confederate general",
+          "answer": "Pamela Anderson & Robert E. Lee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT REALLY MARRIED",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2828-s-c2-r1"
+        },
+        {
+          "question": "This soul star would never tell this First Lady of the American Theater, \"Shut Your Mouth\"",
+          "answer": "Isaac & Helen Hayes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOT REALLY MARRIED",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2828-s-c2-r2"
+        },
+        {
+          "question": "This actress, TV's Hazel, cleans up with this actor & presidential assassin",
+          "answer": "Shirley & John Wilkes Booth",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT REALLY MARRIED",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2828-s-c2-r3"
+        },
+        {
+          "question": "This \"Angel of the Morning\" singer succumbs to this English physicist's laws of gravity",
+          "answer": "Juice & Sir Isaac Newton",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT REALLY MARRIED",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2828-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AL GORE RHYTHMS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "His home state",
+          "answer": "Tennessee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AL GORE RHYTHMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2828-s-c3-r0"
+        },
+        {
+          "question": "His job from 1985 to 1993",
+          "answer": "U.S. Senator",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AL GORE RHYTHMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2828-s-c3-r1"
+        },
+        {
+          "question": "His wife's most famous nickname",
+          "answer": "Tipper",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AL GORE RHYTHMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2828-s-c3-r2"
+        },
+        {
+          "question": "The East Coast school where he got his B.A. in 1969",
+          "answer": "Harvard",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AL GORE RHYTHMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2828-s-c3-r3"
+        },
+        {
+          "question": "The foreign country where he worked as a journalist from 1969 to 1971",
+          "answer": "Vietnam",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AL GORE RHYTHMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2828-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "HERE BE DRAGONS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The phrase \"Hic Sunt Dracones\" appeared on the 16th century Lenox globe on the eastern coast of this continent",
+          "answer": "Asia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE BE DRAGONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2828-s-c4-r0"
+        },
+        {
+          "question": "In Norse myth, Fafnir, a giant, turned himself into a dragon to guard a supply of this",
+          "answer": "gold",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HERE BE DRAGONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2828-s-c4-r1"
+        },
+        {
+          "question": "Rubens, Raphael & Rossetti have all painted this knight/dragon slayer",
+          "answer": "Saint George",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE BE DRAGONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2828-s-c4-r2"
+        },
+        {
+          "question": "An 8th century poem tells of his battle with a fire-dragon, as well as Grendel & Grendel's mom",
+          "answer": "Beowulf",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE BE DRAGONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2828-s-c4-r3"
+        },
+        {
+          "question": "Henry Tudor had a dragon standard when he took on this leader at Bosworth in 1485",
+          "answer": "Richard III",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HERE BE DRAGONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2828-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENDS IN \"ND\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "16 ounces",
+          "answer": "pound",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ND\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2828-s-c5-r0"
+        },
+        {
+          "question": "The pineal one or the prostate one",
+          "answer": "gland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ND\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2828-s-c5-r1"
+        },
+        {
+          "question": "Take note, Gregg & Pitman are methods of this",
+          "answer": "shorthand",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ND\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2828-s-c5-r2"
+        },
+        {
+          "question": "You'll find New Zealand's main international airport in this city",
+          "answer": "Auckland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ND\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2828-s-c5-r3"
+        },
+        {
+          "question": "For its large output of milk products, Wisconsin is nicknamed \"America's\" this",
+          "answer": "Dairyland",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ND\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2828-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SUBMARINE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "(Sarah of the Clue Crew)  The main danger of submarine flooding is being dragged down too deep to expand this",
+          "answer": "the pressure",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUBMARINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2828-d-c0-r0"
+        },
+        {
+          "question": "In the 1950s Hyman Rickover led the team that figured out how to fit one of these into a submarine's hull",
+          "answer": "nuclear reactor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUBMARINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2828-d-c0-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew)  Instead of simple mirrors, some submarine periscopes transmit images with these devices that Newton used to analyze light",
+          "answer": "prisms",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUBMARINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2828-d-c0-r2"
+        },
+        {
+          "question": "Besides the 3 usual meals, submariners can chow down on midrats, short for midnight these",
+          "answer": "rations",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUBMARINE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2828-d-c0-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew)  An instrument panel that I have no intention of touching controls these tanks, hence the sub's buoyancy",
+          "answer": "ballast tanks",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUBMARINE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2828-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLUB",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Located on Anchorage Lane, this type of club in San Diego has 576 slips",
+          "answer": "yacht club",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLUB",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2828-d-c1-r0"
+        },
+        {
+          "question": "London's Garrick Club is a haven for people in this profession, of which David Garrick was a famous member",
+          "answer": "acting",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLUB",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2828-d-c1-r1"
+        },
+        {
+          "question": "Founded in 1868, Sorosis wasn't for drinkers but was the USA's first important club just for these people",
+          "answer": "women",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLUB",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2828-d-c1-r2"
+        },
+        {
+          "question": "What goes around comes around for this club founded in 1905 by Chicagoan Paul Harris",
+          "answer": "Rotary Club",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLUB",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2828-d-c1-r3"
+        },
+        {
+          "question": "Founded in 1752 by British racing & horse-breeding gentlemen, it later merged with the National Hunt Committee",
+          "answer": "The Jockey Club",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLUB",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2828-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HERO",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This title hero is a physician & poet whose life is disrupted by the Russian Revolution",
+          "answer": "Doctor Zhivago",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERO",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2828-d-c2-r0"
+        },
+        {
+          "question": "Mr. Darcy makes sure that Wickham marries Elizabeth Bennet's sister after running away with her in this Jane Austen novel",
+          "answer": "\"Pride and Prejudice\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERO",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2828-d-c2-r1"
+        },
+        {
+          "question": "This narrator of \"The Catcher in the Rye\" heads to NYC when he leaves Pencey Prep (from which he's been expelled)",
+          "answer": "Holden Caulfield",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERO",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2828-d-c2-r2"
+        },
+        {
+          "question": "This narrator of an 1861 novel sets off for London with \"Great Expectations\" of becoming a gentleman",
+          "answer": "Pip",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERO",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2828-d-c2-r3"
+        },
+        {
+          "question": "Hank Morgan, a mechanic from Hartford, is the title character of this Twain work",
+          "answer": "\"A Connecticut Yankee in King Arthur's Court\"",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HERO",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2828-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RAPS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Songs like \"Without Me\" & \"Cleaning Out My Closet\" made this white rapper's 2002 album a multi-platinum hit",
+          "answer": "Eminem",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RAPS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2828-d-c3-r0"
+        },
+        {
+          "question": "This \"cold\" rapper also starred in the films \"Friday\" & \"Barbershop\"",
+          "answer": "Ice Cube",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RAPS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2828-d-c3-r1"
+        },
+        {
+          "question": "Popular in rap music almost from the beginning, it's the term for the DJ-produced musical effect heard here",
+          "answer": "scratching",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RAPS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2828-d-c3-r2"
+        },
+        {
+          "question": "This doctor's smokin' first solo album was \"The Chronic\"",
+          "answer": "Dr. Dre",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RAPS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2828-d-c3-r3"
+        },
+        {
+          "question": "It's what the \"O.G.\" stood for in Ice-T's album title of the same name",
+          "answer": "\"Original Gangster\"",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RAPS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2828-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"B-L-T\"",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's the cry of a sheep or goat",
+          "answer": "bleat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B-L-T\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2828-d-c4-r0"
+        },
+        {
+          "question": "It's the capturing device in the picture seen here",
+          "answer": "butterfly net",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B-L-T\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2828-d-c4-r1"
+        },
+        {
+          "question": "The name of \"High Noon\" screenwriter Carl Foreman was put on this in 1951",
+          "answer": "blacklist",
+          "value": 3400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B-L-T\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2828-d-c4-r2"
+        },
+        {
+          "question": "This type of stain \"on your escutcheon\" means a blemish on your reputation",
+          "answer": "blot",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B-L-T\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2828-d-c4-r3"
+        },
+        {
+          "question": "The emergency transport of people by water, as from Cuba in 1980",
+          "answer": "boatlift",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B-L-T\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2828-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SANDWICHES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Not surprisingly at Jimmy Buffett's Margaritaville Restaurant, you can order one of these \"in Paradise\"",
+          "answer": "Cheeseburger",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SANDWICHES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2828-d-c5-r0"
+        },
+        {
+          "question": "As its name implies, this sandwich of ground beef cooked in tomato sauce is really messy to eat",
+          "answer": "sloppy joe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SANDWICHES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2828-d-c5-r1"
+        },
+        {
+          "question": "This fermented side dish is a traditional ingredient in a Reuben sandwich",
+          "answer": "sauerkraut",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SANDWICHES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2828-d-c5-r2"
+        },
+        {
+          "question": "Similar to the omelet, it's eggs scrambled with ham, onion & green pepper, but served between slices of bread",
+          "answer": "Western/Denver sandwich",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SANDWICHES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2828-d-c5-r3"
+        },
+        {
+          "question": "New Orleans is famous for this Italian sandwich made with salami, ham, provolone & a chopped olive mixture",
+          "answer": "muffaletta",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SANDWICHES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2828-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 1960s",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On September 26, 1960 these 2 men squared off in the studios of WBBM in Chicago",
+          "answer": "John F. Kennedy & Richard Nixon",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE 1960s",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2828-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

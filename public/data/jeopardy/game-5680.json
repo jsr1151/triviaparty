@@ -1,0 +1,785 @@
+{
+  "gameId": 5680,
+  "showNumber": 525,
+  "airDate": "December 12, 1986",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ANCIENT RUMORS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Though it contradicts the meaning of \"B.C.\", it's said he was born some time before 3 B.C.",
+          "answer": "Jesus Christ",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT RUMORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5680-s-c0-r0"
+        },
+        {
+          "question": "He not only \"fiddled\" while Rome burned, he sang, & may have set the fire himself",
+          "answer": "Nero",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT RUMORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5680-s-c0-r1"
+        },
+        {
+          "question": "Etruscan women supposedly built up their dowries by practicing this \"oldest profession\"",
+          "answer": "prostitution",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT RUMORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5680-s-c0-r2"
+        },
+        {
+          "question": "Mithridates VI reputedly drank these daily so he'd be immune from attempts to kill him with them",
+          "answer": "poison",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT RUMORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5680-s-c0-r3"
+        },
+        {
+          "question": "Besides Cleopatra, his \"royal conquests\" were said to include the King of Bithynia",
+          "answer": "Julius Caesar",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT RUMORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5680-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Sport in which you can compete in the Nordic World Championships",
+          "answer": "skiing",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5680-s-c1-r0"
+        },
+        {
+          "question": "\"Gentleman\" who was the 1st champion under Marquis of Queensbury rules",
+          "answer": "\"Gentleman Jim\" Corbett",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5680-s-c1-r1"
+        },
+        {
+          "question": "Of the Kentucky Derby, the Belmont, & the Preakness, the oldest race of the Triple Crown",
+          "answer": "the Belmont",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5680-s-c1-r2"
+        },
+        {
+          "question": "Sport in which before the game, you might get in the cage for some BP",
+          "answer": "baseball",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5680-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "U.S.A.",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Total number of the heads carved on Mt. Rushmore that are wearing hats",
+          "answer": "zero",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S.A.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5680-s-c2-r0"
+        },
+        {
+          "question": "Of J.C. Penney, the U.S. Coast Guard, & the L.A. Dodgers, one which doesn't ban beards",
+          "answer": "J.C. Penney",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S.A.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5680-s-c2-r1"
+        },
+        {
+          "question": "It's what the Motor Vehicle Manufacturers Association recommends in pamphlet titled \"Get It On\"",
+          "answer": "your seat belt",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S.A.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5680-s-c2-r2"
+        },
+        {
+          "question": "100 years apart, Joseph Pulitzer & Lee Iacocca raised money for this",
+          "answer": "the Statue of Liberty",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S.A.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5680-s-c2-r3"
+        },
+        {
+          "question": "In 1986, this state celebrated 150th anniversary of its admittance to the union",
+          "answer": "Arkansas",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S.A.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5680-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FILM GEOGRAPHY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Mr. Smith\" & \"Billy Jack\" both went there",
+          "answer": "Washington",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5680-s-c3-r0"
+        },
+        {
+          "question": "On film, this singer found \"Paradise Hawaiian Style\" & \"Fun in Acapulco\"",
+          "answer": "Elvis Presley",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5680-s-c3-r1"
+        },
+        {
+          "question": "Northern French city known in film for its \"Umbrellas\"",
+          "answer": "Cherbourg",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5680-s-c3-r2"
+        },
+        {
+          "question": "1986 hit film based on Jean Renoir's 1932 film \"Boudu Saved from Drowning\"",
+          "answer": "Down and Out in Beverly Hills",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5680-s-c3-r3"
+        },
+        {
+          "question": "In '70s films, state which preceded \"Split\" & \"Suite\"",
+          "answer": "California",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5680-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FEMALE SINGERS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Sisters Ruth, Anita, June & once upon a time, Bonnie",
+          "answer": "The Pointer Sisters",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE SINGERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5680-s-c4-r0"
+        },
+        {
+          "question": "Inducting her into the Jazz Hall of Fame in 1985, they could have played \"Thanks For The Memorex\"",
+          "answer": "Ella Fitzgerald",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE SINGERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5680-s-c4-r1"
+        },
+        {
+          "question": "The 2 female singers in Fleetwood Mac",
+          "answer": "Stevie Nicks & Christine McVie",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FEMALE SINGERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5680-s-c4-r2"
+        },
+        {
+          "question": "It's Martha Davis who sings lead for this group, not the Travelodge sleepy bear",
+          "answer": "The Motels",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE SINGERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5680-s-c4-r3"
+        },
+        {
+          "question": "When asking this singer her name, she might respond, \"I'm Not Lisa\", I'm Mrs. Waylon Jennings",
+          "answer": "Jessi Colter",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FEMALE SINGERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5680-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "NUMBER PLEASE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In the U.S., the standard number of separate flavors in Neapolitan ice cream",
+          "answer": "3",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER PLEASE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5680-s-c5-r0"
+        },
+        {
+          "question": "Card game, gun salute, or NYC restaurant",
+          "answer": "21",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER PLEASE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5680-s-c5-r1"
+        },
+        {
+          "question": "Of 5, 7, or 9, the number of times Elizabeth Taylor has pledged eternal love at the altar",
+          "answer": "7",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER PLEASE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5680-s-c5-r2"
+        },
+        {
+          "question": "For killing his wife & kids while temporarily insane, Hercules was ordered to perform this many labors",
+          "answer": "12",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NUMBER PLEASE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5680-s-c5-r3"
+        },
+        {
+          "question": "The sum of the ages of Chuck Berry's \"Sweet Little\" thing & when Janis Ian \"learned the truth\"",
+          "answer": "33",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER PLEASE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5680-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SOVIET UNION",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Soviet Army is colloquially called this, even though its uniforms are dark green or khaki",
+          "answer": "Red",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOVIET UNION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5680-d-c0-r0"
+        },
+        {
+          "question": "Of some 14,000, 156, or none at all, number of religious Sunday schools publicly functioning in USSR",
+          "answer": "none (at all, publicly functioning)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOVIET UNION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5680-d-c0-r1"
+        },
+        {
+          "question": "Soviet citizens call it \"The Great Patriotic War\"",
+          "answer": "World War II",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOVIET UNION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5680-d-c0-r2"
+        },
+        {
+          "question": "There are only 30 of these per thousand people in the USSR, compared with 522 per thousand in USA",
+          "answer": "automobiles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SOVIET UNION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5680-d-c0-r3"
+        },
+        {
+          "question": "Originally showing the czar on horseback & carrying a lance, this smallest money unit means \"lance\"",
+          "answer": "a kopek",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOVIET UNION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5680-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL CHARACTERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In the 1958 sequel, this Dr. Seuss character \"Comes Back\"",
+          "answer": "The Cat in the Hat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5680-d-c1-r0"
+        },
+        {
+          "question": "He created the hobbits Frodo & Bilbo Baggins",
+          "answer": "J.R. Tolkein",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5680-d-c1-r1"
+        },
+        {
+          "question": "Danny Kaye played this Thurber character in a 1947 film",
+          "answer": "Walter Mitty",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5680-d-c1-r2"
+        },
+        {
+          "question": "Profession of Donald E. Westlake's John Dortmunder",
+          "answer": "thief",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5680-d-c1-r3"
+        },
+        {
+          "question": "Character in \"David Copperfield\" who epitomizes the word \"unctuous\"",
+          "answer": "Uriah Heep",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5680-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "GAME SHOWS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Challenge which followed \"I can name it in one note\"",
+          "answer": "Name that tune.",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAME SHOWS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5680-d-c2-r0"
+        },
+        {
+          "question": "Of Winter, Fall, Summer, or Spring, one you'd find introducing contestants on \"Sale of the Century\"",
+          "answer": "Summer Bartholomew",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GAME SHOWS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5680-d-c2-r1"
+        },
+        {
+          "question": "1974-1977 game show whose theme began with a racetrack's call-to-post fanfare",
+          "answer": "Celebrity Sweepstakes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GAME SHOWS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5680-d-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "HAIL TO THE CHIEF",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Texan who said, \"For the 1st time in our history it is possible to conquer poverty\"",
+          "answer": "Lyndon Baines Johnson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5680-d-c3-r0"
+        },
+        {
+          "question": "He complained that while 1 \"d\" was enough to spell God, it took 2 \"d's\" for Todd",
+          "answer": "Abraham Lincoln",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5680-d-c3-r1"
+        },
+        {
+          "question": "He changed the name of the presidential retreat from \"Shangri-La\" to \"Camp David\"",
+          "answer": "President Dwight Eisenhower",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5680-d-c3-r2"
+        },
+        {
+          "question": "During Prohibition, this president patronized a bootlegger to keep the White House stocked",
+          "answer": "Warren Harding",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5680-d-c3-r3"
+        },
+        {
+          "question": "Asked what a minister had said in a sermon on sin, this man replied, \"He said he was against it\"",
+          "answer": "Calvin Coolidge",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5680-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PREACHERS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Jean Simmons played preacher Sharon Falconer in '60 film version of this Sinclair Lewis novel",
+          "answer": "Elmer Gantry",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PREACHERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5680-d-c4-r0"
+        },
+        {
+          "question": "Taking Sputnik passing overhead as a sign from heaven to give up rock 'n' roll, he joined the ministry",
+          "answer": "Little Richard",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PREACHERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5680-d-c4-r1"
+        },
+        {
+          "question": "2 preachers seeking a major party nomination for president in 1988",
+          "answer": "Jesse Jackson & Pat Robertson",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PREACHERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5680-d-c4-r2"
+        },
+        {
+          "question": "Foremost Catholic TV religious broadcaster today is this nun from Alabama",
+          "answer": "Mother Angelica",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PREACHERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5680-d-c4-r3"
+        },
+        {
+          "question": "Author of the book subtitled \"A Practical Guide to Mastering the Problems of Everyday Living\"",
+          "answer": "Norman Vincent Peale",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PREACHERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5680-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE DOUBLE LETTERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Some buzz, some sound the Westminster Chimes, while some are just \"ding dong\"s",
+          "answer": "doorbells",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE DOUBLE LETTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5680-d-c5-r0"
+        },
+        {
+          "question": "Forms of this include \"Your Holiness\", the Right Honorable the Earl of\", & \"To Whom It May Concern\"",
+          "answer": "addresses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE DOUBLE LETTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5680-d-c5-r1"
+        },
+        {
+          "question": "In song, destination of the train \"on Track 29\"",
+          "answer": "Chattanooga",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE DOUBLE LETTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5680-d-c5-r2"
+        },
+        {
+          "question": "People marked by eccentric behavior or thinking, or the 1, 3, 5, 7, etc. on a pool table",
+          "answer": "oddballs",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE DOUBLE LETTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5680-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "MEDICINE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Condition whose name is Latin for \"waterfall\", because it's like looking through one",
+          "answer": "a cataract",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MEDICINE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5680-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

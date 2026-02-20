@@ -1,0 +1,833 @@
+{
+  "gameId": 7368,
+  "showNumber": 8651,
+  "airDate": "May 30, 2022",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE MIDWEST",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Nebraska & Kansas are part of what's known as the wheat belt & this other grain's belt",
+          "answer": "corn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MIDWEST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7368-s-c0-r0"
+        },
+        {
+          "question": "Sheboygan in this state is known as the \"bratwurst capital of the world\"",
+          "answer": "Wisconsin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MIDWEST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7368-s-c0-r1"
+        },
+        {
+          "question": "In 2000 this Ohio city welcomed an NHL franchise",
+          "answer": "Columbus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE MIDWEST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7368-s-c0-r2"
+        },
+        {
+          "question": "Fort Wayne is home to the grave of this legendary orchard planter",
+          "answer": "Johnny Appleseed",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MIDWEST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7368-s-c0-r3"
+        },
+        {
+          "question": "The name of this second-largest city in Iowa mentions a tree & alludes to a river",
+          "answer": "Cedar Rapids",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE MIDWEST",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7368-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PUNNY MYSTERY TITLES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Book 1 of \"An Ice Cream Parlor Mystery\": \"A Deadly Inside\" this",
+          "answer": "Scoop",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUNNY MYSTERY TITLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7368-s-c1-r0"
+        },
+        {
+          "question": "A heated murder mystery at Harry's Pottery: \"A View to a\" this",
+          "answer": "a Kiln",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUNNY MYSTERY TITLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7368-s-c1-r1"
+        },
+        {
+          "question": "Part of the \"Mantra for Murder\" series: \"Dial\" this 2-letter word \"for Murder\"",
+          "answer": "Om",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUNNY MYSTERY TITLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7368-s-c1-r2"
+        },
+        {
+          "question": "Titles in the \"Ethnic Eats\" mystery series include \"Italian Iced\", \"French Fried\" & \"Irish\" this",
+          "answer": "Irish Stewed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PUNNY MYSTERY TITLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7368-s-c1-r3"
+        },
+        {
+          "question": "A secret passage, a skeleton & a nod to Edgar Allan Poe: \"The Plot and the\" this",
+          "answer": "Pendulum",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PUNNY MYSTERY TITLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7368-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN THE SPORT'S HALL OF FAME",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Lennox Lewis & Joe Louis",
+          "answer": "boxing",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE SPORT'S HALL OF FAME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7368-s-c2-r0"
+        },
+        {
+          "question": "Lindsay Davenport & Martina Hingis",
+          "answer": "tennis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE SPORT'S HALL OF FAME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7368-s-c2-r1"
+        },
+        {
+          "question": "Sheryl Swoopes & John Thompson",
+          "answer": "basketball",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE SPORT'S HALL OF FAME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7368-s-c2-r2"
+        },
+        {
+          "question": "Janet Evans & Dawn Fraser",
+          "answer": "swimming",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE SPORT'S HALL OF FAME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7368-s-c2-r3"
+        },
+        {
+          "question": "James \"Cool Papa\" Bell & Mordecai \"Three Finger\" Brown",
+          "answer": "baseball",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE SPORT'S HALL OF FAME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7368-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Marketed as smaller & lighter than a pack of gum, the Shuffle version of this device was introduced in January 2005",
+          "answer": "an iPod",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7368-s-c3-r0"
+        },
+        {
+          "question": "Columbia University alumnus Howard Dietz was inspired by his school's lion mascot to create the mascot for this movie studio",
+          "answer": "MGM",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7368-s-c3-r1"
+        },
+        {
+          "question": "Park City's High West Distillery was founded in 2006, becoming the first legal distillery in this state since 1870",
+          "answer": "Utah",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7368-s-c3-r2"
+        },
+        {
+          "question": "Until 2011 this country in northeastern Africa was the continent's biggest in area",
+          "answer": "Sudan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7368-s-c3-r3"
+        },
+        {
+          "question": "Sadly, the heath hen went extinct in 1932, but we still have its relative, the prairie this, known for its courtship displays",
+          "answer": "a chicken (grouse)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7368-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON THE WALL",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A large, concave one of these on your wall will make your room look bigger",
+          "answer": "a mirror",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE WALL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7368-s-c4-r0"
+        },
+        {
+          "question": "Perfect for your bedroom, this item is thought to provide protection through the night",
+          "answer": "a dream catcher",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE WALL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7368-s-c4-r1"
+        },
+        {
+          "question": "Got some fresh plaster on your walls? Try painting one of these murals Correggio was famous for",
+          "answer": "a fresco",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE WALL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7368-s-c4-r2"
+        },
+        {
+          "question": "Types of this wall adornment include verdure, beauvais & millefleur",
+          "answer": "tapestries",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON THE WALL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7368-s-c4-r3"
+        },
+        {
+          "question": "Used first for candles, this 6-letter fixture seen here really brightens up the place",
+          "answer": "a sconce",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE WALL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7368-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "VERB + \"ER\" = NOUN",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Brits call this medical device a Zimmer frame",
+          "answer": "a walker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB + \"ER\" = NOUN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7368-s-c5-r0"
+        },
+        {
+          "question": "An auxiliary rocket, or a vaccination recharge",
+          "answer": "a booster",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB + \"ER\" = NOUN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7368-s-c5-r1"
+        },
+        {
+          "question": "A non-alcoholic ingredient for a cocktail, or an important device for a music producer or DJ",
+          "answer": "a mixer",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB + \"ER\" = NOUN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7368-s-c5-r2"
+        },
+        {
+          "question": "A store's cashier--if there is a big line, there can be a call for a \"second\" one",
+          "answer": "a checker",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB + \"ER\" = NOUN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7368-s-c5-r3"
+        },
+        {
+          "question": "A cleaning machine, or a metal or rubber disc that might be used in the pipes leading up to it",
+          "answer": "washer",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB + \"ER\" = NOUN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7368-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FEMALE PRESIDENTS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 2016 Brazilian President Dilma Rousseff was removed from office this way, by a vote of 61-20",
+          "answer": "impeachment",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7368-d-c0-r0"
+        },
+        {
+          "question": "From 1974 to 1976 Isabel Peron was its president",
+          "answer": "Argentina",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7368-d-c0-r1"
+        },
+        {
+          "question": "Mary Robinson followed Ireland's presidency with a term as UNHCHR, United Nations High Commissioner for these",
+          "answer": "Human Rights",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7368-d-c0-r2"
+        },
+        {
+          "question": "In the 1940s Chicago-born Janet Jagan was stripped of this for her Marxist views; in 1997 she became Guyana's president",
+          "answer": "(her U.S.) citizenship",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7368-d-c0-r3"
+        },
+        {
+          "question": "1980s pres. Agatha Barbara was part of this Mediterranean island's 1950s & 1960s struggle for independence from Britain",
+          "answer": "Malta",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7368-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "STICK TO THE SCRIPTURE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"The serpent beguiled\" her \"through his subtilty\"",
+          "answer": "Eve",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STICK TO THE SCRIPTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7368-d-c1-r0"
+        },
+        {
+          "question": "\"And I saw the seven angels which stood before God; and to them were given seven\" of these instruments",
+          "answer": "trumpets",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STICK TO THE SCRIPTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7368-d-c1-r1"
+        },
+        {
+          "question": "The people with Jesus when \"he called\" this man \"out of his grave, and raised him from the dead\" bore witness",
+          "answer": "Lazarus",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STICK TO THE SCRIPTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7368-d-c1-r2"
+        },
+        {
+          "question": "\"And afterward Moses and Aaron went in, and told Pharaoh, thus saith the Lord God of Israel\", these 4 words",
+          "answer": "Let my people go",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STICK TO THE SCRIPTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7368-d-c1-r3"
+        },
+        {
+          "question": "\"... In the midst of the valley which was full of\" these \"there were very many in the open valley; and, lo, they were very dry\"",
+          "answer": "(dry) bones",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STICK TO THE SCRIPTURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7368-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "18th CENTURY CULTURE CLUB",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "For paintings like the one seen here, Kim Hong-do was the favorite of this country's Chosŏn court",
+          "answer": "Korea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY CULTURE CLUB",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7368-d-c2-r0"
+        },
+        {
+          "question": "Following the Baroque, this triply rhyming design style was all the rage in Paris",
+          "answer": "rococo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY CULTURE CLUB",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7368-d-c2-r1"
+        },
+        {
+          "question": "\"M\" is for this popular dance of the century involving graceful bows & dainty steps",
+          "answer": "a minuet",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY CULTURE CLUB",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7368-d-c2-r2"
+        },
+        {
+          "question": "He composed some famous music for a 1717 royal boat trip down the Thames",
+          "answer": "George Frideric Handel",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY CULTURE CLUB",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7368-d-c2-r3"
+        },
+        {
+          "question": "Meissen porcelain is also referred to as the porcelain of this German city; it would heavily influence European stylings",
+          "answer": "Dresden",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "18th CENTURY CULTURE CLUB",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7368-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ANIMAL IN ITS LOGO",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "AFLAC insurance",
+          "answer": "a duck",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANIMAL IN ITS LOGO",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7368-d-c3-r0"
+        },
+        {
+          "question": "Paperback publisher Pocket Books",
+          "answer": "a kangaroo",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE ANIMAL IN ITS LOGO",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7368-d-c3-r1"
+        },
+        {
+          "question": "Bacardi rum",
+          "answer": "a bat",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANIMAL IN ITS LOGO",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7368-d-c3-r2"
+        },
+        {
+          "question": "Merrill, formerly called Merrill Lynch",
+          "answer": "a bull",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANIMAL IN ITS LOGO",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7368-d-c3-r3"
+        },
+        {
+          "question": "Swarovski crystal",
+          "answer": "a swan",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANIMAL IN ITS LOGO",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7368-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV THEME SONGS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Miley Cyrus sang \"The Best Of Both Worlds\", the theme song to this TV show",
+          "answer": "Hannah Montana",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV THEME SONGS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7368-d-c4-r0"
+        },
+        {
+          "question": "Chicago artist Sasha Go Hard singing, \"I was born on\" this \"Side, I was raised on\" this \"Side\" is the theme to an HBO Max show",
+          "answer": "South Side",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV THEME SONGS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7368-d-c4-r1"
+        },
+        {
+          "question": "Idris Elba played this London police detective to the strains of \"Paradise Circus\" by Massive Attack, sung by Hope Sandoval",
+          "answer": "Luther",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV THEME SONGS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7368-d-c4-r2"
+        },
+        {
+          "question": "In the theme song for \"Cops\" performed by Inner Circle, this question follows \"Bad boys, bad boys\"",
+          "answer": "whatcha gonna do",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV THEME SONGS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7368-d-c4-r3"
+        },
+        {
+          "question": "4 different songs by this British band were used as theme songs for different versions of \"CSI\"",
+          "answer": "The Who",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV THEME SONGS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7368-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PORTMANTEAU WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Similar to smog, smaze comes from these 2 words",
+          "answer": "smoke & haze",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTMANTEAU WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7368-d-c5-r0"
+        },
+        {
+          "question": "Here's a typical departure from this type of facility in Lower Manhattan",
+          "answer": "a heliport",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTMANTEAU WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7368-d-c5-r1"
+        },
+        {
+          "question": "Part of the name of this incendiary mixture comes from the acidic salt palmitate",
+          "answer": "napalm",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTMANTEAU WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7368-d-c5-r2"
+        },
+        {
+          "question": "An enhanced bionic human can also be called a cyborg, short for this pair of words",
+          "answer": "cybernetic organism",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTMANTEAU WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7368-d-c5-r3"
+        },
+        {
+          "question": "To retcon is to go back & fill in a fictional character's history & comes from these 2 words of 4 & 5 syllables",
+          "answer": "retroactive continuity",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTMANTEAU WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7368-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN MEMORIAM 2022",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On the death of this trailblazing man, friend & mentor, Oprah said, \"For me, the greatest of the 'great trees' has fallen\"",
+          "answer": "Sidney Poitier",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "IN MEMORIAM 2022",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7368-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

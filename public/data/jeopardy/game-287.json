@@ -1,0 +1,833 @@
+{
+  "gameId": 287,
+  "showNumber": 4761,
+  "airDate": "April 25, 2005",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. GOVERNMENT",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "When a bill reaches the President's desk, he may sign it, do nothing or do this",
+          "answer": "veto",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g287-s-c0-r0"
+        },
+        {
+          "question": "On Jan. 8, 2002 the President signed this act making schools more accountable",
+          "answer": "No Child Left Behind",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g287-s-c0-r1"
+        },
+        {
+          "question": "He was the first vice president who was born in Washington, D.C.",
+          "answer": "Al Gore",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g287-s-c0-r2"
+        },
+        {
+          "question": "Sen. Ted Stevens of this state chairs the Commerce, Science & Transportation Committee",
+          "answer": "Alaska",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g287-s-c0-r3"
+        },
+        {
+          "question": "This independent agency insures individual deposits in banks & savings associations for up to $100,000",
+          "answer": "FDIC (Federal Deposit Insurance Corporation)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g287-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV TITLE REFERENCES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Matthew Fox & 47 others survive a plane crash but are stranded on a mysterious Pacific island",
+          "answer": "Lost",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE REFERENCES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g287-s-c1-r0"
+        },
+        {
+          "question": "On a primetime ABC soap, Teri Hatcher, Felicity Huffman & their neighbors on Wisteria Lane",
+          "answer": "Desperate Housewives",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE REFERENCES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g287-s-c1-r1"
+        },
+        {
+          "question": "The Kansas hamlet that's home to the Kents",
+          "answer": "Smallville",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE REFERENCES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g287-s-c1-r2"
+        },
+        {
+          "question": "Patricia Arquette, who sees dead people",
+          "answer": "The Medium",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE REFERENCES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g287-s-c1-r3"
+        },
+        {
+          "question": "The McCallister brothers, one of whom becomes president in 2040",
+          "answer": "Jack & Bobby",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE REFERENCES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g287-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTENT POTABLES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A knickerbocker cocktail contains gin, as well as the sweet & dry types of this",
+          "answer": "vermouth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g287-s-c2-r0"
+        },
+        {
+          "question": "The bestselling imported liqueur in the U.S. is this coffee-flavored one from Mexico",
+          "answer": "Kahlúa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g287-s-c2-r1"
+        },
+        {
+          "question": "After imbibing this cocktail of gin or vodka & grapefruit juice, you'd better leave the driving to us",
+          "answer": "greyhound",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g287-s-c2-r2"
+        },
+        {
+          "question": "Peppermint & root beer are popular flavors of this strong potable, from the German for \"mouthful\"",
+          "answer": "schnapps",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g287-s-c2-r3"
+        },
+        {
+          "question": "The \"original melon liqueur\" from Suntory; it'll turn you green with envy",
+          "answer": "Midori",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g287-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ARTIST",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This artist collaged color strips onto a photo of Mick Jagger & silkscreened them into prints",
+          "answer": "Andy Warhol",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ARTIST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g287-s-c3-r0"
+        },
+        {
+          "question": "In 1933 Otto Dix was charged with obscenity by this political party; he was later drafted to fight for them",
+          "answer": "the Nazis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ARTIST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g287-s-c3-r1"
+        },
+        {
+          "question": "Dirck, the younger brother of this \"Laughing Cavalier\" artist, was also big in Haarlem",
+          "answer": "(Frans) Hals",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ARTIST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g287-s-c3-r2"
+        },
+        {
+          "question": "16th century author Pietro Aretino is seen here in a portrait by this Venetian pal of his",
+          "answer": "Titian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ARTIST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g287-s-c3-r3"
+        },
+        {
+          "question": "This Philadelphia painter of \"Death of Wolfe\" headed east to Italy in 1760 to learn new directions in art",
+          "answer": "(Benjamin) West",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ARTIST",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g287-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FORMERLY KNOWN AS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "...as the U.S. holiday Decoration Day",
+          "answer": "Memorial Day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMERLY KNOWN AS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g287-s-c4-r0"
+        },
+        {
+          "question": "...as lyssa or as canine madness",
+          "answer": "rabies",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMERLY KNOWN AS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g287-s-c4-r1"
+        },
+        {
+          "question": "...as Longacre Square, before a major metropolitian newspaper moved in",
+          "answer": "Times Square",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMERLY KNOWN AS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g287-s-c4-r2"
+        },
+        {
+          "question": "...as oil company Jersey Standard",
+          "answer": "Exxon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMERLY KNOWN AS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g287-s-c4-r3"
+        },
+        {
+          "question": "...as Dutch Guiana, until 1948",
+          "answer": "Suriname",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMERLY KNOWN AS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g287-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"PRINCE\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Until 1999 the first snowfall signaled the start of the \"Nude Olympics\" at this university",
+          "answer": "Princeton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"PRINCE\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g287-s-c5-r0"
+        },
+        {
+          "question": "Satan, Dracula & Ozzy Osbourne go by this nickname",
+          "answer": "the Prince of Darkness",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"PRINCE\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g287-s-c5-r1"
+        },
+        {
+          "question": "This was the name given to the ship cast in the starring role on \"The Love Boat\"",
+          "answer": "the Pacific Princess",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"PRINCE\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g287-s-c5-r2"
+        },
+        {
+          "question": "This Caribbean capital was occupied by the U.S. from 1915 to 1934 & from 1994 to 1995",
+          "answer": "Port-au-Prince",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"PRINCE\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g287-s-c5-r3"
+        },
+        {
+          "question": "A French explorer called this North American island Ile-St.-Jean",
+          "answer": "Prince Edward Island",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"PRINCE\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g287-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE & NATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This property allows a razor blade to float on water or mercury to gather into globules",
+          "answer": "surface tension",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g287-d-c0-r0"
+        },
+        {
+          "question": "The pistils of most flowers have 3 main parts: the stigma, the style & this round base where egg cells are formed",
+          "answer": "the ovary",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g287-d-c0-r1"
+        },
+        {
+          "question": "His 2 laws of genetics are the law of segregation & the law of independent assortment",
+          "answer": "(Gregor) Mendel",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g287-d-c0-r2"
+        },
+        {
+          "question": "Of the 6 simple machines, the screw is a spiral version of this other simple machine",
+          "answer": "the inclined plane",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g287-d-c0-r3"
+        },
+        {
+          "question": "The Crab Nebula in this Zodiac constallation is the remains of the supernova of 1054 A.D.",
+          "answer": "Taurus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g287-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICALS BEFORE & AFTER",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In this show, Tony Manero is headed for the disco when he discovers--Oh, no! A cold sore!!",
+          "answer": "Saturday Night Fever Blister",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g287-d-c1-r0"
+        },
+        {
+          "question": "ABBA's rockin' musical about the very maternal star of \"Rosemary's Baby\"",
+          "answer": "Mamma Mia! Farrow",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g287-d-c1-r1"
+        },
+        {
+          "question": "Mrs. Levi dumps matchmaking & busts out as a voluptuous country singer in this blockbuster",
+          "answer": "Hello, Dolly! Parton",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g287-d-c1-r2"
+        },
+        {
+          "question": "Fanny Brice is a laugh riot when she leaves the Follies to sell cookies & earn merit badges in this smash hit",
+          "answer": "Funny Girl Scout",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g287-d-c1-r3"
+        },
+        {
+          "question": "A Siamese monarch & a governess team up for this ungrammatical salute to the play that inspired \"Cabaret\"",
+          "answer": "The King and I Am a Camera",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g287-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PULITZER PRIZE-WINNING AUTHORS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"The Color Purple\"",
+          "answer": "Alice Walker",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PULITZER PRIZE-WINNING AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g287-d-c2-r0"
+        },
+        {
+          "question": "\"The Bridge of San Luis Rey\"",
+          "answer": "Thornton Wilder",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PULITZER PRIZE-WINNING AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g287-d-c2-r1"
+        },
+        {
+          "question": "\"The Fixer\"",
+          "answer": "Bernard Malamud",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PULITZER PRIZE-WINNING AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g287-d-c2-r2"
+        },
+        {
+          "question": "\"All the King's Men\"",
+          "answer": "Robert Penn Warren",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PULITZER PRIZE-WINNING AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g287-d-c2-r3"
+        },
+        {
+          "question": "\"A Confederacy of Dunces\"",
+          "answer": "John Kennedy Toole",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PULITZER PRIZE-WINNING AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g287-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHESS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "(Sarah of the Clue Crew delivers the clue while demonstrating such a move with Cheryl at a chessboard.)  The knight is well suited to this maneuver, that threatens two pieces at one time; it shares its name with a piece of tableware",
+          "answer": "fork",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHESS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g287-d-c3-r0"
+        },
+        {
+          "question": "The \"Sicilian\" one starts with a move by black on the queen's half of the board",
+          "answer": "a defense",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHESS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g287-d-c3-r1"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew delivers the clue while demonstrating in a chess game with Sarah.)  It's the 8-letter term for the direction in which I've chosen to castle",
+          "answer": "kingside",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHESS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g287-d-c3-r2"
+        },
+        {
+          "question": "Bring your queen out fast & you can have this victory after just 2 moves",
+          "answer": "fool's mate",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHESS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g287-d-c3-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew delivers the clue while at a chessboard with Cheryl.)  Even chess masters often begin a game with this familiar opening named for a Spanish priest",
+          "answer": "Ruy Lopez",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHESS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g287-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOLLY \"G\"!",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A short prayer of thanks said before a meal, it's from the Latin for \"favor\"",
+          "answer": "grace",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLLY \"G\"!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g287-d-c4-r0"
+        },
+        {
+          "question": "This 64-square-mile lake is really just a broad basin of the Jordan River",
+          "answer": "the Sea of Galilee",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLLY \"G\"!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g287-d-c4-r1"
+        },
+        {
+          "question": "It's the 2-word nickname for the Mongol army that overran Eastern Europe",
+          "answer": "the Golden Horde",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLLY \"G\"!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g287-d-c4-r2"
+        },
+        {
+          "question": "It's not dad's dad, it's a large gray dolphin with a blunt snout",
+          "answer": "a grampus",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOLLY \"G\"!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g287-d-c4-r3"
+        },
+        {
+          "question": "He's the cutting-edge composer of works like \"Koyaanisqatsi\"",
+          "answer": "Philip Glass",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOLLY \"G\"!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g287-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRINCE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The epithet of this prince, Richard II's father, probably refers to the color of his armor, not the terror he inspired",
+          "answer": "(Edward) the Black Prince",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRINCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g287-d-c5-r0"
+        },
+        {
+          "question": "This Prussian statesman was given the title of Prince in 1871",
+          "answer": "Bismarck",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRINCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g287-d-c5-r1"
+        },
+        {
+          "question": "Austrian prince & foreign minister Metternich arranged a marriage between Napoleon & this archduchess",
+          "answer": "Maria Luisa",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRINCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g287-d-c5-r2"
+        },
+        {
+          "question": "The caravel was developed under the patronage of this man born in 1394",
+          "answer": "Prince Henry (the Navigator, of Portugal)",
+          "value": 5600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRINCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g287-d-c5-r3"
+        },
+        {
+          "question": "While Prince of Novgorod in the 13th century, he became its hero",
+          "answer": "Alexander Nevsky",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRINCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g287-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. CITIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1790 this Midwest city was named for a society that had been named for a Roman citizen-soldier",
+          "answer": "Cincinnati",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. CITIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g287-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

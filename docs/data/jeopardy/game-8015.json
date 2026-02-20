@@ -1,0 +1,689 @@
+{
+  "gameId": 8015,
+  "showNumber": 134,
+  "airDate": "March 14, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "\"STARTS\"",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Indy cars & track stars all begin here",
+          "answer": "start(ing) line",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"STARTS\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8015-s-c0-r0"
+        }
+      ]
+    },
+    {
+      "name": "ANIMALS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Tallyho, it's \"Vulpes fulva\" or Fred Sanford",
+          "answer": "a red fox",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8015-s-c1-r0"
+        },
+        {
+          "question": "The sloth bear is also known by this sticky name of his favorite food",
+          "answer": "a honey bear",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8015-s-c1-r1"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN OLDIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's how Brian Hyland sealed his letter in '62",
+          "answer": "\"Sealed With A Kiss\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8015-s-c2-r0"
+        },
+        {
+          "question": "Song that starts \"Get down to that kitchen & rattle those pots & pans\"",
+          "answer": "\"Shake, Rattle & Roll\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8015-s-c2-r1"
+        },
+        {
+          "question": "According to Everly Bros., \"When I want you in the night...all I have to do\" is this",
+          "answer": "dream",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8015-s-c2-r2"
+        },
+        {
+          "question": "It's why Danny & the Juniors \"don't care what people say\"",
+          "answer": "\"Rock And Roll Is Here To Stay\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8015-s-c2-r3"
+        },
+        {
+          "question": "'59 Fleetwoods hit that begins \"dahm dahm da-ahm doo dahm oo-doo-be-doo\"",
+          "answer": "\"Come Softly To Me\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8015-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Asian country with Seoul",
+          "answer": "Korea",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8015-s-c3-r0"
+        },
+        {
+          "question": "Country with the most land within the Arctic circle",
+          "answer": "Russia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8015-s-c3-r1"
+        },
+        {
+          "question": "Some of the seas that surround this area are the Wendell, Ross, Amundsen & Davis",
+          "answer": "Antarctica",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8015-s-c3-r2"
+        },
+        {
+          "question": "Smallest of the central American countries, it's the only one without a Caribbean coastline",
+          "answer": "El Salvador",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8015-s-c3-r3"
+        },
+        {
+          "question": "Cape Horn, southernmost part of South America, lies at tip of Horn Island in this country",
+          "answer": "Chile",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8015-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE TRIVIA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Level of sport played by the Bad News Bears in films",
+          "answer": "Little League (baseball)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8015-s-c4-r0"
+        },
+        {
+          "question": "French actress who played Lili, Fanny & Gigi",
+          "answer": "Leslie Caron",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8015-s-c4-r1"
+        },
+        {
+          "question": "He's famous for singing \"Hello, Dolly!\" in \"Hello, Dolly!\"",
+          "answer": "Louis Armstrong",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8015-s-c4-r2"
+        },
+        {
+          "question": "She starred in \"Comes a Horseman\" & \"The Electric Horseman\"",
+          "answer": "Jane Fonda",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8015-s-c4-r3"
+        },
+        {
+          "question": "'43 film where Bogart met Bacall",
+          "answer": "To Have and Have Not",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8015-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"STOPS\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Marilyn Monroe movie which sounds like a public transportation sign",
+          "answer": "Bus Stop",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"STOPS\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8015-s-c5-r0"
+        },
+        {
+          "question": "Bumper to bumper traffic movement",
+          "answer": "stop-and-go",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"STOPS\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8015-s-c5-r1"
+        },
+        {
+          "question": "Jimmy Durante uttered it to halt the show",
+          "answer": "\"Stop the music!\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"STOPS\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8015-s-c5-r2"
+        },
+        {
+          "question": "Position Billy Barty frequently plays on celebrity baseball teams",
+          "answer": "shortstop",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"STOPS\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8015-s-c5-r3"
+        },
+        {
+          "question": "A \"Supreme\" effort in 1965:\"Baby baby, I'm aware of where you go / Each time you leave my door\"",
+          "answer": "\"Stop! In The Name Of Love\"",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"STOPS\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8015-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD WAR II",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Calendar date \"which will live in infamy\"",
+          "answer": "December 7, 1941",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8015-d-c0-r0"
+        },
+        {
+          "question": "Country to which the term \"arsenal of democracy\" referred",
+          "answer": "the United States",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8015-d-c0-r1"
+        },
+        {
+          "question": "Country not invited to  '38 Munich conference which decided its fate",
+          "answer": "Czechoslovakia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8015-d-c0-r2"
+        },
+        {
+          "question": "Under Hitler, Joseph Goebbels was Minister of this",
+          "answer": "propaganda",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8015-d-c0-r3"
+        },
+        {
+          "question": "Turning point in N. Africa came when Rommel's army was defeated at this Egyptian town",
+          "answer": "El Alamein",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8015-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORD ORIGINS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Subject of a song in \"Oklahoma!\", this type of carriage was 1st made in a county in England",
+          "answer": "a surrey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8015-d-c1-r0"
+        },
+        {
+          "question": "From the French for \"Croatian\", it's a synonym for necktie",
+          "answer": "a cravat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8015-d-c1-r1"
+        },
+        {
+          "question": "The earl who led the Light Brigade was said to have worn this button-front sweater",
+          "answer": "cardigan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8015-d-c1-r2"
+        },
+        {
+          "question": "From account of 7 martyred brothers in book of Maccabees, it means ghastly or gruesome",
+          "answer": "macabre",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8015-d-c1-r3"
+        },
+        {
+          "question": "To refuse to patronize, from name of English land agent in Ireland who wouldn't lower rents",
+          "answer": "a boycott",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8015-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BRAIN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This family of animals has brains which most resemble humans'",
+          "answer": "apes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BRAIN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8015-d-c2-r0"
+        },
+        {
+          "question": "Side of the brain which is the center for music and emotion",
+          "answer": "the right side",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BRAIN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8015-d-c2-r1"
+        },
+        {
+          "question": "The brain stem links downward to this in humans, but not in spineless jellyfish",
+          "answer": "the spinal cord",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BRAIN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8015-d-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "AUTOMOBILES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "After owning it less than 2 weeks, this actor was killed in a '55 Porsche 550 Spider",
+          "answer": "James Dean",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8015-d-c3-r0"
+        },
+        {
+          "question": "For more air, the Mercury Turnpike cruiser had the unique ability among sedans to lower this",
+          "answer": "the back window",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8015-d-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "His last published novel before his death was \"You Only Live Twice\"",
+          "answer": "Ian Fleming",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8015-d-c4-r0"
+        },
+        {
+          "question": "This Missouri native wrote, \"Never let schooling interfere with your education\"",
+          "answer": "Samuel Clemens (Mark Twain)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8015-d-c4-r1"
+        },
+        {
+          "question": "6'9\" M.D. who wrote \"The Andromeda Strain\" & \"The Terminal Man\"",
+          "answer": "(Michael) Crichton",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8015-d-c4-r2"
+        },
+        {
+          "question": "In 1919, he won a Pulitzer Prize for \"The Magnificent Ambersons\"",
+          "answer": "Booth Tarkington",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8015-d-c4-r3"
+        },
+        {
+          "question": "Jewish author Franz Werfel \"composed\" this story of a modern saint from Lourdes",
+          "answer": "The Song of Bernadette",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8015-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTHOLOGY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "King of Thebes who unwittingly killed his father and married his mother",
+          "answer": "Oedipus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8015-d-c5-r0"
+        },
+        {
+          "question": "2nd mightiest Greek warrior after Achilles & 2nd best selling   cleanser in USA",
+          "answer": "Ajax",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8015-d-c5-r1"
+        },
+        {
+          "question": "Hygeia was the Greek goddess of this",
+          "answer": "cleanliness",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8015-d-c5-r2"
+        },
+        {
+          "question": "Roman Bacchanalia was festival dedicated to the god of this",
+          "answer": "the god of wine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8015-d-c5-r3"
+        },
+        {
+          "question": "Synonymous with doomsayer, this daughter of Priam, king of Troy, predicted the city's fall",
+          "answer": "Cassandra",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8015-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HIGHER EDUCATION",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Besides JFK, 1 of 4 presidents who was a Harvard graduate",
+          "answer": "(1 of) John Adams, John Quincy Adams, Theodore Roosevelt, or Franklin Roosevelt",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "HIGHER EDUCATION",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8015-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

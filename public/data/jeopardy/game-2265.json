@@ -1,0 +1,761 @@
+{
+  "gameId": 2265,
+  "showNumber": 371,
+  "airDate": "February 10, 1986",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MINI-COUNTRIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "If its royal family has no male heir, Monaco will become part of this country",
+          "answer": "France",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MINI-COUNTRIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2265-s-c0-r0"
+        },
+        {
+          "question": "Discoverers of these South Sea islands named them for wise Biblical king whose wealth they sought",
+          "answer": "the Solomon Islands",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MINI-COUNTRIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2265-s-c0-r1"
+        },
+        {
+          "question": "As co-sovereign of this Pyrenees land, the Bishop of Urgel, Spain is paid about $6.87 semi-annually",
+          "answer": "Andorra",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MINI-COUNTRIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2265-s-c0-r2"
+        },
+        {
+          "question": "A problem for this African country is that much of its mail is mistakenly sent to Switzerland",
+          "answer": "Swaziland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MINI-COUNTRIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2265-s-c0-r3"
+        },
+        {
+          "question": "80% of San Marino's gross national product comes from tourism & the sale of these",
+          "answer": "postage stamps",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MINI-COUNTRIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2265-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN INDIANS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Though often credited with winning it, this Sioux medicine man sat out of the Battle of Little Big Horn",
+          "answer": "Sitting Bull",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2265-s-c1-r0"
+        },
+        {
+          "question": "Imposing Duwamish Indian chief for whom Washington State's largest city was named",
+          "answer": "Seattle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2265-s-c1-r1"
+        }
+      ]
+    },
+    {
+      "name": "NAMES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"Rex\" & \"Roy\" both mean this, Your Majesty",
+          "answer": "king",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2265-s-c2-r0"
+        },
+        {
+          "question": "1st name of this football coach, who stressed winning, means \"winner\"",
+          "answer": "Vince (Lombardi)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2265-s-c2-r1"
+        },
+        {
+          "question": "While not the most common Russian name, Ivan Kuznetsov is literal Russian equivalent of this English name",
+          "answer": "John Smith",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2265-s-c2-r2"
+        },
+        {
+          "question": "Common Arabic name which means \"servant of Allah\"",
+          "answer": "Abdullah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2265-s-c2-r3"
+        },
+        {
+          "question": "Girl's name common in Germany & America, it's a contraction of Mary Magdalene",
+          "answer": "Marlene",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2265-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOVERNMENT",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Not surprisingly, this agency's motto is \"Fidelity, Bravery, Integrity\"",
+          "answer": "FBI",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2265-s-c3-r0"
+        },
+        {
+          "question": "Vermont is known for these gatherings considered the purest form of democracy",
+          "answer": "the town meeting",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2265-s-c3-r1"
+        },
+        {
+          "question": "In 1982, James Watt proposed changing this dept's seal from a buffalo facing left to one facing right",
+          "answer": "the Department of the Interior",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2265-s-c3-r2"
+        },
+        {
+          "question": "A toll-free hotline for whistle-blowers is maintained by this agency in charge of federal b'ldgs",
+          "answer": "the General Services Administration",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2265-s-c3-r3"
+        },
+        {
+          "question": "In 1973, the federal government printed 4.8 billion coupons for this",
+          "answer": "gas rationing",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2265-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNREAL ESTATE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This fictional setting of \"The Edge of Night\" shared its name with Jefferson's home",
+          "answer": "Monticello",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNREAL ESTATE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2265-s-c4-r0"
+        },
+        {
+          "question": "When \"all you see are silhouettes & all you hear are castanets & no one cares how late it gets\", you're there",
+          "answer": "\"Hernando's Hideaway\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNREAL ESTATE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2265-s-c4-r1"
+        },
+        {
+          "question": "Not in world atlases but in this comic strip could \"Lower Slobovia\" be found",
+          "answer": "Li'l Abner",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNREAL ESTATE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2265-s-c4-r2"
+        },
+        {
+          "question": "Number of fabulously wealthy \"cities of Cibola\" the Spanish explorer Coronado was looking for",
+          "answer": "7",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNREAL ESTATE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2265-s-c4-r3"
+        },
+        {
+          "question": "A battleship was built to honor this Russian who built fake villages to impress his empress",
+          "answer": "(Grigory) Potemkin",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNREAL ESTATE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2265-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE LONGEST",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "After all these years, Joe Di Maggio still has the longest one in baseball",
+          "answer": "hitting streak",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LONGEST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2265-s-c5-r0"
+        },
+        {
+          "question": "Longest distance flown by this type of airplane is 1¼ miles",
+          "answer": "paper airplane",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LONGEST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2265-s-c5-r1"
+        },
+        {
+          "question": "George Bell of Virginia, who takes size 26, won 20th Century-Fox's contest for the longest pair of these",
+          "answer": "shoes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LONGEST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2265-s-c5-r2"
+        },
+        {
+          "question": "Longest continuous run of any show is London performance of \"The Mousetrap\" by this author",
+          "answer": "Agatha Christie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LONGEST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2265-s-c5-r3"
+        },
+        {
+          "question": "Longest ocean liner, the \"Norway\", was originally named for this country when built in 1961",
+          "answer": "France",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LONGEST",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2265-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He recited verses about Troy aflame, not fiddling as alleged, while watching Rome burn",
+          "answer": "Nero",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2265-d-c0-r0"
+        },
+        {
+          "question": "A runner ran 25 miles & died after announcing Greeks had defeated them in the Battle of Marathon",
+          "answer": "the Persians",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2265-d-c0-r1"
+        },
+        {
+          "question": "Roman statesman Cato closed every speech, regardless of subject, by saying this must be destroyed",
+          "answer": "Carthage",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2265-d-c0-r2"
+        },
+        {
+          "question": "Norwegian who in 1970, crossed the Atlantic in reed boat to prove Egyptians may have reached New World",
+          "answer": "Thor Heyerdahl",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2265-d-c0-r3"
+        },
+        {
+          "question": "King Philip of Macedonia hired him as private tutor for his son, Alexander",
+          "answer": "Aristotle",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2265-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS FOLKS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Pat Boone descends from this famed frontiersman",
+          "answer": "Daniel Boone",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2265-d-c1-r0"
+        },
+        {
+          "question": "Actress whose autobiography is named for her most famous role, \"Baby Doll\"",
+          "answer": "Carroll Baker",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2265-d-c1-r1"
+        },
+        {
+          "question": "Bing Crosby said, \"I think he's always nurtured a secret desire to be a hood\"",
+          "answer": "Frank Sinatra",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2265-d-c1-r2"
+        },
+        {
+          "question": "On personal intervention of Khrushchev, his \"1 Day in the Life of Ivan Denisovich\" was published",
+          "answer": "(Aleksandr) Solzhenitsyn",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2265-d-c1-r3"
+        },
+        {
+          "question": "Formerly South Vietnam's prime minister & vice president, he now lives in Cal. and owes Caesars Palace $20,000",
+          "answer": "Nguyen Cao Ky",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2265-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORD ORIGINS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "These were 1st made during WWII at Quonset Point, Rhode Island",
+          "answer": "Quonset huts",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2265-d-c2-r0"
+        },
+        {
+          "question": "A turnpike is called that because originally a pike or turnstile was turned after you did this",
+          "answer": "paid toll",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2265-d-c2-r1"
+        },
+        {
+          "question": "From Old French \"manoeuvrer\" meaning \"to work by hand\", which was how this item was put into soil",
+          "answer": "manure",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2265-d-c2-r2"
+        },
+        {
+          "question": "Weapon said to have been the size of a pomegranate & filled with \"seeds\" of gunpowder",
+          "answer": "a hand grenade",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2265-d-c2-r3"
+        },
+        {
+          "question": "Though he wasn't part of the Lincoln conspiracy, his name's been blackened in many a town",
+          "answer": "(Dr. Samuel) Mudd",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2265-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRY MUSIC",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Grand Ole Opry is now located in the middle of this amusement park",
+          "answer": "Opryland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2265-d-c3-r0"
+        },
+        {
+          "question": "Hawkshaw Hawkins performed in a silk jacket with this embroidered on the back",
+          "answer": "a hawk",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2265-d-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "SHAKESPEARE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Antony said this assassin of Caesar made \"the most unkindest cut of all\"",
+          "answer": "Brutus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2265-d-c4-r0"
+        },
+        {
+          "question": "King Henry IV complained \"Uneasy lies the head\" that does this",
+          "answer": "wears the crown",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2265-d-c4-r1"
+        },
+        {
+          "question": "Falstaff was said to have \"eaten\" a widow \"out of\" this",
+          "answer": "house & home",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2265-d-c4-r2"
+        },
+        {
+          "question": "At Hamlet's death he says, \"Good night, sweet prince\"",
+          "answer": "Horatio",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2265-d-c4-r3"
+        },
+        {
+          "question": "Expression \"O brave new world\" comes from this last play Shakespeare wrote alone",
+          "answer": "The Tempest",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2265-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SHORTEST",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Shortest on record lasted 38 minutes in 1896 & involved the United Kingdom and Zanzibar",
+          "answer": "the shortest war",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHORTEST",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2265-d-c5-r0"
+        },
+        {
+          "question": "Shortest valid one of these in record reads \"Vse zene\" Czech for \"All to wife\"",
+          "answer": "the shortest will",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHORTEST",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2265-d-c5-r1"
+        },
+        {
+          "question": "America's shortest-lived major TV network, it brought us Capt. Video until its demise in 1955",
+          "answer": "the DuMont Network",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHORTEST",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2265-d-c5-r2"
+        },
+        {
+          "question": "Shortest scheduled flight takes just 2 minutes in this country's Orkney Islands",
+          "answer": "the United Kingdom (Scotland)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHORTEST",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2265-d-c5-r3"
+        },
+        {
+          "question": "At 5'4\" & weighing 100 lbs., he was our shortest president",
+          "answer": "James Madison",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SHORTEST",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2265-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL CHARACTERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Mother of Bonnie Blue, she ran a sawmill after the Civil War",
+          "answer": "Scarlett O'Hara",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2265-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

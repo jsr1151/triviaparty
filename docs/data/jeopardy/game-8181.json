@@ -1,0 +1,833 @@
+{
+  "gameId": 8181,
+  "showNumber": 8901,
+  "airDate": "June 26, 2023",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FIRST LADIES' RHYME TIME",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Mrs. Obama's chimes",
+          "answer": "Michelle's bells",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES' RHYME TIME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8181-s-c0-r0"
+        },
+        {
+          "question": "Mrs. Kennedy's military slacks",
+          "answer": "Jackie's khakis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES' RHYME TIME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8181-s-c0-r1"
+        },
+        {
+          "question": "Mrs. Madison's streetcars",
+          "answer": "Dolley's trolleys",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES' RHYME TIME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8181-s-c0-r2"
+        },
+        {
+          "question": "The second Mrs. Bush's soft felt hats with creased crowns",
+          "answer": "Laura's fedoras",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES' RHYME TIME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8181-s-c0-r3"
+        },
+        {
+          "question": "Mrs. Truman's locks of hair",
+          "answer": "Bess's tresses",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES' RHYME TIME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8181-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HERE COMES THE SUMMER",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "MLB's All-Star Week includes this \"Derby\"; Juan Soto belted 53 to win the 2022 event",
+          "answer": "the Home Run Derby",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES THE SUMMER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8181-s-c1-r0"
+        },
+        {
+          "question": "What better time than summer to unleash your inner child on one of these alliterative items",
+          "answer": "a boogie board",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES THE SUMMER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8181-s-c1-r1"
+        },
+        {
+          "question": "Head to Rockland in this state for the August Lobster Fest & Coronation of the Sea Goddess",
+          "answer": "Maine",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES THE SUMMER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8181-s-c1-r2"
+        },
+        {
+          "question": "Fans by the thousands flock to Chicago's Grant Park for this annual summer music festival",
+          "answer": "Lollapalooza",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES THE SUMMER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8181-s-c1-r3"
+        },
+        {
+          "question": "An Outward Bound summer course lets teenagers get their kicks rock climbing in these \"High\" California mountains",
+          "answer": "the Sierra Nevadas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES THE SUMMER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8181-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "7-LETTER WORDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's a payment given by a feudal vassal to a lord, or a type of band such as Oasish",
+          "answer": "a tribute",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8181-s-c2-r0"
+        },
+        {
+          "question": "Zeno's \"arrow\" is an example of this philosophical statement, from the Greek for \"contrary to expectation\"",
+          "answer": "a paradox",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8181-s-c2-r1"
+        },
+        {
+          "question": "Czech athlete, Barbora Spotáková  holds a world record for throwing this item some 237 feet",
+          "answer": "a javelin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8181-s-c2-r2"
+        },
+        {
+          "question": "This delicate word is stretched out to 3 syllables by Darren McGavin in \"A Christmas Story\"",
+          "answer": "fragile",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8181-s-c2-r3"
+        },
+        {
+          "question": "It's an oxymoronic portmanteau for a good buddy that you also sorta hate",
+          "answer": "frenemy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8181-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNITED KINGDOM ELECTION CONSTITUENCIES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Acting brothers Chris & Liam should love this constituency, about midway between Manchester & Kingston upon Hull",
+          "answer": "Hemsworth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNITED KINGDOM ELECTION CONSTITUENCIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8181-s-c3-r0"
+        },
+        {
+          "question": "You can catch some Grand Slam tennis action as well as election results from this place in the outer boroughs of London",
+          "answer": "Wimbledon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNITED KINGDOM ELECTION CONSTITUENCIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8181-s-c3-r1"
+        },
+        {
+          "question": "Know that Orkney & these islands in the northernmost part of Scotland are a district & we may give you a small pony! (But we won't)",
+          "answer": "Shetland",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNITED KINGDOM ELECTION CONSTITUENCIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8181-s-c3-r2"
+        },
+        {
+          "question": "Covering all its directional bases, this capital of Northern Ireland has constituencies North, South, East & West",
+          "answer": "Belfast",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNITED KINGDOM ELECTION CONSTITUENCIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8181-s-c3-r3"
+        },
+        {
+          "question": "Bordering Dover & Folkestone & Hythe, this district on England's east coast has a few ancient \"Tales\" to tell",
+          "answer": "Canterbury",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNITED KINGDOM ELECTION CONSTITUENCIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8181-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LOVELY RITA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Her road to the EGOT began with winning an Oscar as Anita in \"West Side Story\"",
+          "answer": "Rita Moreno",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVELY RITA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8181-s-c4-r0"
+        },
+        {
+          "question": "She & Tom Hanks co-starred in the 1985 film \"Volunteers\" & lived out their on-screen romance off-screen, marrying in 1988",
+          "answer": "Rita Wilson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVELY RITA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8181-s-c4-r1"
+        },
+        {
+          "question": "A long-time headliner on the Strip, she was named Las Vegas' Comedian of the Year 9 years in a row",
+          "answer": "Rita Rudner",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVELY RITA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8181-s-c4-r2"
+        },
+        {
+          "question": "Margarita Cansino was the real name of this silver screen star of the 1940s & '50s",
+          "answer": "Rita Hayworth",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVELY RITA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8181-s-c4-r3"
+        },
+        {
+          "question": "This lovely Rita honored her heritage by wearing an Albanian folk costume in the video for her 2021 EP \"Bang\"",
+          "answer": "Rita Ora",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LOVELY RITA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8181-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "METER MADE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In the 1930s, Carl Magee conceived these meters for the streets of Oklahoma city & an oil industry supply company made them",
+          "answer": "parking meter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METER MADE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8181-s-c5-r0"
+        },
+        {
+          "question": "Handy for home electrical work, the Klein tools multimeter measures up to 600 of these units",
+          "answer": "volts",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METER MADE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8181-s-c5-r1"
+        },
+        {
+          "question": "The device seen here is called a pulse one of these & is made to see how well your lungs are working",
+          "answer": "an oximeter",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METER MADE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8181-s-c5-r2"
+        },
+        {
+          "question": "stamps.com says its service is better than using this device that Pitney Bowes has been making for a century",
+          "answer": "a postage meter",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METER MADE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8181-s-c5-r3"
+        },
+        {
+          "question": "It was a breeze for John Thomas Romney Robinson to make the cup style one of these in the 1800s; a similar design is still used",
+          "answer": "anemometer",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "METER MADE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8181-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NAMES OF THE 1990s",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Tracey Emin caused a stir with a 1998 artwork consisting of this piece of furniture of hers, unmade, with empty vodka bottles",
+          "answer": "her bed",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES OF THE 1990s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8181-d-c0-r0"
+        },
+        {
+          "question": "Founder Steve Case was the tech tycoon of the moment when this Internet service provider went public in 1992",
+          "answer": "AOL",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES OF THE 1990s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8181-d-c0-r1"
+        },
+        {
+          "question": "He won a 3-way race for party leadership & became prime minister of Great Britain in 1990",
+          "answer": "John Major",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAMES OF THE 1990s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8181-d-c0-r2"
+        },
+        {
+          "question": "In August 1990, with this small country under invasion, its emir Sheikh Jaber fled to Saudi Arabia",
+          "answer": "Kuwait",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES OF THE 1990s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8181-d-c0-r3"
+        },
+        {
+          "question": "Bill Romanowski went from the 49ers to the Eagles & Broncos; this Ill. politician went from power in the U.S. House to prison",
+          "answer": "Dan Rostenkowski",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAMES OF THE 1990s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8181-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WAR OF THE WORDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Gore Vidal said he loathed this \"In Cold Blood\" writer \"the way you might loathe... a filthy animal\"",
+          "answer": "Capote",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR OF THE WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8181-d-c1-r0"
+        },
+        {
+          "question": "Not the Pickwick but the Garrick Club was the site of conversations that caused a falling out between Thackeray & this author",
+          "answer": "Dickens",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR OF THE WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8181-d-c1-r1"
+        },
+        {
+          "question": "Years before \"À la Recherche du Temps Perdu\", he fought a duel with a critic who had angered him; both shots missed",
+          "answer": "Proust",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR OF THE WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8181-d-c1-r2"
+        },
+        {
+          "question": "Poet Wallace Stevens' feud with this novelist erupted into punches in a Key West street",
+          "answer": "Hemingway",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR OF THE WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8181-d-c1-r3"
+        },
+        {
+          "question": "In 1976, Mario Vargas Llosa gave this other 3-named South American Nobelist a literal black eye",
+          "answer": "Gabriel García Márquez",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR OF THE WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8181-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENTISTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In the home seen here, now a museum in Gloucestershire, Edward Jenner came up with a vaccine for this disease",
+          "answer": "smallpox",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENTISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8181-d-c2-r0"
+        },
+        {
+          "question": "In 1847, Maria Mitchell, America's first professional female astronomer, discovered one of these, officially known as C/1847 T1",
+          "answer": "a comet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENTISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8181-d-c2-r1"
+        },
+        {
+          "question": "Mais oui & merci, this man seen here sheepishly came up with an anthrax vaccine in 1881",
+          "answer": "Pasteur",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENTISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8181-d-c2-r2"
+        },
+        {
+          "question": "In 2023 Bob Metcalfe won the Turing Award for inventing this computer networking technology in the 1970s",
+          "answer": "the ethernet",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENTISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8181-d-c2-r3"
+        },
+        {
+          "question": "When Tycho Brahe died in 1601, his protégé, this astronomer, succeeded him as \"imperial mathematician\"",
+          "answer": "Johannes Kepler",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENTISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8181-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSICAL MUSIC",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1976 Sarah Caldwell became the first woman at the Met with this job, helping Beverly Sills soar",
+          "answer": "conductor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8181-d-c3-r0"
+        },
+        {
+          "question": "Canadian Glenn Gould is known primarily for his unique stylings on this instrument",
+          "answer": "the piano",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8181-d-c3-r1"
+        },
+        {
+          "question": "Tan Dun, an Oscar winner for this 2000 Ang Lee film, recently composed an operatic work called \"Buddha Passion\"",
+          "answer": "Crouching Tiger, Hidden Dragon",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8181-d-c3-r2"
+        },
+        {
+          "question": "Modern composer David Philip Hefti's \"Fünf Concertini\" honors this Italian known for creating about 500 concertos",
+          "answer": "Vivaldi",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8181-d-c3-r3"
+        },
+        {
+          "question": "This composer created \"A Musical Portrait of Chuck Close\"; Chuck painted a portrait of him titled \"Phil\"",
+          "answer": "Philip Glass",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8181-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Mel Brooks' 1981 film was really \"Part I\" after all; a 2023 Hulu series is called this: \"Part II\"",
+          "answer": "History of the World",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8181-d-c4-r0"
+        },
+        {
+          "question": "Julia Garner's Ruth Langmore did not survive the finale of this crime series",
+          "answer": "Ozark",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8181-d-c4-r1"
+        },
+        {
+          "question": "This Oscar winner came to TV in 2023 as \"The Consultant\" Regus Patoff",
+          "answer": "Christoph Waltz",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8181-d-c4-r2"
+        },
+        {
+          "question": "She played double agent Sydney Bristow on \"Alias\"",
+          "answer": "Jennifer Garner",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8181-d-c4-r3"
+        },
+        {
+          "question": "This Starz prequel TV show depicts the younger Marquise de Merteuil & Vicomte de Valmont from a novel of romantic intrigue",
+          "answer": "Dangerous Liaisons",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8181-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CROSSWORD CLUES \"P\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Administrative area for a police department(8 letters)",
+          "answer": "precinct",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8181-d-c5-r0"
+        },
+        {
+          "question": "To filch (6 letters)",
+          "answer": "pilfer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8181-d-c5-r1"
+        },
+        {
+          "question": "A commoner in ancient Rome (8 letters)",
+          "answer": "a plebeian",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8181-d-c5-r2"
+        },
+        {
+          "question": "Stocks' punishment partner (7 letters)",
+          "answer": "pillory",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8181-d-c5-r3"
+        },
+        {
+          "question": "A speaker of many languages(8 letters)",
+          "answer": "a polyglot",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"P\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8181-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY EVENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It was immediately reported, \"The flames are still leaping maybe 30, 40 feet from the ground the entire 811 feet length of\" this",
+          "answer": "the Hindenburg",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "20th CENTURY EVENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8181-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

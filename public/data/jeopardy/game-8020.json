@@ -1,0 +1,628 @@
+{
+  "gameId": 8020,
+  "showNumber": 136,
+  "airDate": "March 18, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "1964",
+      "round": "single",
+      "position": 0,
+      "clues": []
+    },
+    {
+      "name": "CUISINE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Good for a \"savage\" appetite, it's raw ground beef mixed with onions, egg & seasonings",
+          "answer": "steak tartare",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CUISINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8020-s-c1-r0"
+        },
+        {
+          "question": "Sounding like a bullfight cheer, it's French for coffee made with scalded milk",
+          "answer": "cafe au lait",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CUISINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8020-s-c1-r1"
+        },
+        {
+          "question": "With a name derived from Ashkelon, Israel, it's a type of green onion",
+          "answer": "a scallion",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CUISINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8020-s-c1-r2"
+        },
+        {
+          "question": "Two food items named for opera singer Dame Nellie Melba",
+          "answer": "peach Melba & Melba toast",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CUISINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8020-s-c1-r3"
+        },
+        {
+          "question": "Smoked liver sausage named for part of Germany where it originated, Brunswick",
+          "answer": "Braunschweiger",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CUISINE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8020-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BODIES BEAUTIFUL",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "She scored in \"10\", but died on the vine in \"Tarzan, the the Ape Man\"",
+          "answer": "Bo Derek",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES BEAUTIFUL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8020-s-c2-r0"
+        },
+        {
+          "question": "This duo dazzled, but \"Rhinestone\" was no gem",
+          "answer": "Sylvester Stallone & Dolly Parton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES BEAUTIFUL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8020-s-c2-r1"
+        },
+        {
+          "question": "Beefcake king turned robot in \"The Terminator\"",
+          "answer": "Arnold Schwarzenegger",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES BEAUTIFUL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8020-s-c2-r2"
+        },
+        {
+          "question": "This \"Dallas\" star's body was \"most envied\" in '83 \"People\" poll",
+          "answer": "Victoria Principal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES BEAUTIFUL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8020-s-c2-r3"
+        },
+        {
+          "question": "Because he wears a Detroit Tigers cap on his series, he was asked to throw out first ball at '84 World Series",
+          "answer": "Tom Selleck",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES BEAUTIFUL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8020-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Uncle Tom's \"profession\"",
+          "answer": "a slave",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8020-s-c3-r0"
+        },
+        {
+          "question": "At the start of \"The Old Man & the Sea\", the old man hadn't done this for 84 days",
+          "answer": "caught a fish",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8020-s-c3-r1"
+        },
+        {
+          "question": "Island on which Dumas hero Edmond Dantes finds a treasure he can \"count\" on",
+          "answer": "Monte Cristo",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8020-s-c3-r2"
+        },
+        {
+          "question": "1904 Jack London novel whose title is the nickname of tramp steamer captain Larson",
+          "answer": "The Sea-Wolf",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8020-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "ALL NUMBERS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In a standard crossword puzzle, the number in the top left white square",
+          "answer": "1",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL NUMBERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8020-s-c4-r0"
+        },
+        {
+          "question": "In September '84, this magazine turned 40, 23 years older than its name",
+          "answer": "Seventeen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL NUMBERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8020-s-c4-r1"
+        },
+        {
+          "question": "Number of Nicholson's easy pieces",
+          "answer": "5",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL NUMBERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8020-s-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "TRIVIA",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "What you'd do with your dulcimer",
+          "answer": "you play it",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8020-s-c5-r0"
+        },
+        {
+          "question": "Letter formed in sign language with the 3 middle fingers raised",
+          "answer": "W",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8020-s-c5-r1"
+        },
+        {
+          "question": "More common name of the Experimental Prototype Community of Tomorrow",
+          "answer": "Epcot",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8020-s-c5-r2"
+        },
+        {
+          "question": "Except for '37 Miss America, who ran off & never accepted crown, this Miss Amer. had shortest reign",
+          "answer": "Suzette Charles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8020-s-c5-r3"
+        },
+        {
+          "question": "From the Greek for \"an inquirer\", they rarely believe what they're told",
+          "answer": "a skeptic",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8020-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Island west of South America discovered by a Dutch captain Easter Sunday, 1722",
+          "answer": "Easter Island",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8020-d-c0-r0"
+        },
+        {
+          "question": "Country Bogie traveled to in search of the Treasure of the Sierra Madre",
+          "answer": "Mexico",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8020-d-c0-r1"
+        },
+        {
+          "question": "Site of world's 3rd largest church, it's Italy's 2nd largest city",
+          "answer": "Milan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8020-d-c0-r2"
+        },
+        {
+          "question": "2 of the 4 largest rivers in Africa",
+          "answer": "(2 of) the Nile, the Congo, the Niger & the Zambezi",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8020-d-c0-r3"
+        },
+        {
+          "question": "In 1983, Saint Christopher-Nevis became this island group's latest independent country",
+          "answer": "The Leeward Islands (Lesser Antilles, West Indies)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8020-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUOTE, UNQUOTE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "They belong \"to the victor\"",
+          "answer": "the spoils",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTE, UNQUOTE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8020-d-c1-r0"
+        },
+        {
+          "question": "\"It is easy to despise what you cannot get\" is the moral of this Aesop fable",
+          "answer": "The Fox and the Grapes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTE, UNQUOTE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8020-d-c1-r1"
+        },
+        {
+          "question": "Accepting Dem. nomination in 1896 he said, \"you shall not crucify mankind upon a cross of gold\"",
+          "answer": "William Jennings Bryan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTE, UNQUOTE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8020-d-c1-r2"
+        },
+        {
+          "question": "Beauty has this in common with a contact lens",
+          "answer": "being in the eye of the beholder",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTE, UNQUOTE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8020-d-c1-r3"
+        },
+        {
+          "question": "English writer who coined the term \"the white man's burden\"",
+          "answer": "Kipling",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTE, UNQUOTE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8020-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CIVIL WAR",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "General of whom it was said, \"he wore defeat like a laurel crown\"",
+          "answer": "Robert E. Lee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8020-d-c2-r0"
+        },
+        {
+          "question": "Though Andrews raid did not succeed, its participants were 1st ever to win this award",
+          "answer": "the Congressional Medal of Honor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8020-d-c2-r1"
+        },
+        {
+          "question": "Alexander Stephens held this office",
+          "answer": "Vice President of the Confederacy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8020-d-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "MAMMALS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "These imported animals caused such damage to Aussie crops that gov't. introduced disease to eradicate them",
+          "answer": "rabbits",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8020-d-c3-r0"
+        },
+        {
+          "question": "German for \"badger dog\", it was bred to hunt them",
+          "answer": "a dachshund",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8020-d-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "CORPORATE AMERICA",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "N.Y. street synonymous with advertising",
+          "answer": "Madison Avenue",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPORATE AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8020-d-c4-r0"
+        }
+      ]
+    },
+    {
+      "name": "PSYCHOLOGY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Founder of psychoanalysis",
+          "answer": "Freud",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCHOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8020-d-c5-r0"
+        },
+        {
+          "question": "This song shares its title with a book by Dr. Eric Berne:\"I walk around / I can't hear a sound / Folks talking loud / But I don't see\"",
+          "answer": "\"The Games People Play\"",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PSYCHOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8020-d-c5-r1"
+        },
+        {
+          "question": "Psychologist Dr. Joyce Brothers won $134,000 on TV quiz shows as an expert on this",
+          "answer": "boxing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCHOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8020-d-c5-r2"
+        },
+        {
+          "question": "Tests devised by psychiatrist Hermann Rorschach involve the use of these",
+          "answer": "inkblots",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCHOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8020-d-c5-r3"
+        },
+        {
+          "question": "Psychoanalyst who wrote best-selling \"Escape from Freedom\" & \"The Art of Loving\"",
+          "answer": "Erich Fromm",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCHOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8020-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CONSTITUTION",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "First branch of the government the Constitution deals with",
+          "answer": "the legislative branch",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE CONSTITUTION",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8020-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

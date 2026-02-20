@@ -1,0 +1,809 @@
+{
+  "gameId": 1402,
+  "showNumber": 2932,
+  "airDate": "May 6, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "NAME THE AUTHOR",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The \"Iliad\",The \"Odyssey\"",
+          "answer": "Homer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THE AUTHOR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1402-s-c0-r0"
+        },
+        {
+          "question": "\"The Andromeda Strain\",\"Jurassic Park\"",
+          "answer": "Michael Crichton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THE AUTHOR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1402-s-c0-r1"
+        },
+        {
+          "question": "\"The Idiot\",\"Crime and Punishment\"",
+          "answer": "Fyodor Dostoevsky",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THE AUTHOR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1402-s-c0-r2"
+        },
+        {
+          "question": "\"The Tin Drum\",\"Dog Years\"",
+          "answer": "Gunter Grass",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAME THE AUTHOR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1402-s-c0-r3"
+        },
+        {
+          "question": "\"The Stranger\",\"The Plague\"",
+          "answer": "Albert Camus",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THE AUTHOR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1402-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNATIONAL FOOD & DRINK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Sushi, which is most associated with this country, is often flavored with rice vinegar",
+          "answer": "Japan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1402-s-c1-r0"
+        },
+        {
+          "question": "Swedish for \"bread & butter table\", it's a Swedish buffet featuring an assortment of taste treats",
+          "answer": "Smorgasbord",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1402-s-c1-r1"
+        },
+        {
+          "question": "Many hot, spicy dishes such as Szechwan shrimp originated in this country's Szechwan province",
+          "answer": "China",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1402-s-c1-r2"
+        },
+        {
+          "question": "Jerk chicken is a specialty of this Caribbean island, the home of reggae music",
+          "answer": "Jamaica",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1402-s-c1-r3"
+        },
+        {
+          "question": "The Rioja region of this European country is noted for its wines",
+          "answer": "Spain",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1402-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "DISCOVERIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1947 a Bedouin discovered important scrolls in a cave on the shore of this sea",
+          "answer": "Dead Sea",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISCOVERIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1402-s-c2-r0"
+        },
+        {
+          "question": "\"Sir Humphry Davy/Abominated gravy/He lived in the odium/of having discovered\" this rhyming element",
+          "answer": "Sodium",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISCOVERIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1402-s-c2-r1"
+        },
+        {
+          "question": "The 1820 discovery of this continent is claimed by both sailors & sealers",
+          "answer": "Antarctica",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISCOVERIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1402-s-c2-r2"
+        },
+        {
+          "question": "It was the first subatomic particle discovered 100 years ago by J.J. Thomson",
+          "answer": "Electron",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISCOVERIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1402-s-c2-r3"
+        },
+        {
+          "question": "Unexplained movements by Uranus led to the discovery of this planet in the 1840s",
+          "answer": "Neptune",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISCOVERIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1402-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLET",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Royal Danish Ballet has been based in this capital city for more than 200 years",
+          "answer": "Copenhagen",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1402-s-c3-r0"
+        },
+        {
+          "question": "Part I of the ballet \"Jewels\" is named for these green gems; Part II is called \"Rubies\"",
+          "answer": "Emeralds",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1402-s-c3-r1"
+        },
+        {
+          "question": "\"Noblissima Visione\" is a dramatic, stylized ballet about this saint of Assisi",
+          "answer": "Saint Francis of Assisi",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1402-s-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGES & UNIVERSITIES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Founded in 1348, Charles University in this Czech capital is the oldest university in central Europe",
+          "answer": "Prague",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1402-s-c4-r0"
+        },
+        {
+          "question": "Opened around 1257, it's now a part of the universities of Paris",
+          "answer": "The Sorbonne",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1402-s-c4-r1"
+        },
+        {
+          "question": "From 1902 to 1938, Sigmund Freud served as a professor of neuropathology at this university",
+          "answer": "University of Vienna",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1402-s-c4-r2"
+        },
+        {
+          "question": "The Radcliffe Camera, a domed building at this British university, is a reading room for the Bodleian Library",
+          "answer": "Oxford",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1402-s-c4-r3"
+        },
+        {
+          "question": "Monrovia is home to the university of this African country",
+          "answer": "Liberia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1402-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENDS WITH \"IST\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "At the grocery store, one of these can help you remember what to buy",
+          "answer": "(shopping) List",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"IST\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1402-s-c5-r0"
+        },
+        {
+          "question": "It connects the hand & the forearm",
+          "answer": "Wrist",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"IST\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1402-s-c5-r1"
+        },
+        {
+          "question": "It's like fog but doesn't reduce visibility as much",
+          "answer": "Mist",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"IST\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1402-s-c5-r2"
+        },
+        {
+          "question": "It's a person who travels for fun",
+          "answer": "Tourist",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"IST\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1402-s-c5-r3"
+        },
+        {
+          "question": "Performer who can put you in a trancelike state that leaves you open to suggestion",
+          "answer": "Hypnotist",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"IST\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1402-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC EUROPEAN LEADERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He was Soviet president at the time the Berlin Wall came down",
+          "answer": "Mikhail Gorbachev",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC EUROPEAN LEADERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1402-d-c0-r0"
+        },
+        {
+          "question": "When she died in 1504, the rule of Castille was passed on to her mad daughter Juana",
+          "answer": "Isabella",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC EUROPEAN LEADERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1402-d-c0-r1"
+        },
+        {
+          "question": "In 1963 he was made Yugoslavia's president for life; he lived until 1980",
+          "answer": "Marshal Josip Broz Tito",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC EUROPEAN LEADERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1402-d-c0-r2"
+        },
+        {
+          "question": "Succeeding his brother Richard the Lionhearted as king, he also succeeded in alienating everyone he knew",
+          "answer": "John Lackland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC EUROPEAN LEADERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1402-d-c0-r3"
+        },
+        {
+          "question": "The patron saint of Bohemia is this \"good king\"",
+          "answer": "Wenceslas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC EUROPEAN LEADERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1402-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMIC ACTORS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "He was a star in British Vaudeville before creating the \"Little Tramp\" onscreen",
+          "answer": "Charlie Chaplin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC ACTORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1402-d-c1-r0"
+        },
+        {
+          "question": "His title roles have included \"Ace Ventura\" & half of \"Dumb & Dumber\"",
+          "answer": "Jim Carrey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC ACTORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1402-d-c1-r1"
+        },
+        {
+          "question": "Martin Short, John Candy & Dan Aykroyd were all born in this country",
+          "answer": "Canada",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC ACTORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1402-d-c1-r2"
+        },
+        {
+          "question": "20 years after playing Woody Allen's \"Annie Hall\", she's become a respected film director",
+          "answer": "Diane Keaton",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC ACTORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1402-d-c1-r3"
+        },
+        {
+          "question": "Seen in \"Evita\", this sex symbol from Malaga gained fame in the offbeat comic films of Pedro Almodovar",
+          "answer": "Antonio Banderas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COMIC ACTORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1402-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD GEOGRAPHY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This country's Lake Balaton, just southwest of Budapest, is central Europe's largest lake",
+          "answer": "Hungary",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1402-d-c2-r0"
+        },
+        {
+          "question": "Peru's highest peaks, Huascaran & Yerupaja, lie in this range",
+          "answer": "Andes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1402-d-c2-r1"
+        },
+        {
+          "question": "Bhopal is the capital of this country's Madhya Pradesh state",
+          "answer": "India",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1402-d-c2-r2"
+        },
+        {
+          "question": "In 1991, after years of construction, the new city of Abuja replaced Lagos as this country's capital",
+          "answer": "Nigeria",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1402-d-c2-r3"
+        },
+        {
+          "question": "This island group also claimed by Argentina was named by the British for a treasurer of the British navy",
+          "answer": "Falkland (or Malvinas) Islands",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1402-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Ganymede & Callisto are the largest moons of this largest planet",
+          "answer": "Jupiter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1402-d-c3-r0"
+        },
+        {
+          "question": "The dromedary type of this mammal has 1 hump; the Bactrian has 2",
+          "answer": "Camel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1402-d-c3-r1"
+        },
+        {
+          "question": "This airline was founded in 1920 as the Queensland & Northern Territory Aerial Services Ltd.",
+          "answer": "Qantas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1402-d-c3-r2"
+        },
+        {
+          "question": "In 1783 these brothers demonstrated their hot air balloon to Louis XVI & Marie Antoinette",
+          "answer": "the Montgolfier brothers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1402-d-c3-r3"
+        },
+        {
+          "question": "In mythology Laius & Oedipus both reigned over this Greek city",
+          "answer": "Thebes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1402-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYS & PLAYWRIGHTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Protest\" is a semi-autobiographical play by this president of the Czech Republic",
+          "answer": "Vaclav Havel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS & PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1402-d-c4-r0"
+        },
+        {
+          "question": "Scene VI of George Bernard Shaw's play about this female saint is set in Rouen in 1431",
+          "answer": "Joan of Arc",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS & PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1402-d-c4-r1"
+        },
+        {
+          "question": "A count's daughter seduces a servant in this Swede's 1880s drama \"Miss Julie\"",
+          "answer": "August Strindberg",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS & PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1402-d-c4-r2"
+        },
+        {
+          "question": "\"La Cantatrice Chauve\", or \"The Bald Soprano\", is an Absurdist play by this author of \"Rhinoceros\"",
+          "answer": "Eugene Ionesco",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS & PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1402-d-c4-r3"
+        },
+        {
+          "question": "This American won a 1928 Pulitzer Prize for his very long, 9-act drama \"Strange Interlude\"",
+          "answer": "Eugene O'Neill",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS & PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1402-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PARDONNEZ MON FRANCAIS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Raising his glass, a Frenchman might say, \"A votre sante\", which means this",
+          "answer": "To your health",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDONNEZ MON FRANCAIS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1402-d-c5-r0"
+        },
+        {
+          "question": "A pas de trois is a dance for this many people",
+          "answer": "3",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDONNEZ MON FRANCAIS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1402-d-c5-r1"
+        },
+        {
+          "question": "At Le Bureau de Poste, you may buy les timbres, these",
+          "answer": "Stamps",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDONNEZ MON FRANCAIS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1402-d-c5-r2"
+        },
+        {
+          "question": "To play vingt-et-un, you need these items",
+          "answer": "Deck of cards",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDONNEZ MON FRANCAIS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1402-d-c5-r3"
+        },
+        {
+          "question": "Beaumarchais title character you might visit for \"une coupe de cheveux\"",
+          "answer": "Figaro (\"The Barber of Seville\")",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDONNEZ MON FRANCAIS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1402-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 7 ANCIENT WONDERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "These 2 oldest wonders were built by non-Greek civilizations",
+          "answer": "Hanging Gardens of Babylon & the Pyramids of Egypt",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE 7 ANCIENT WONDERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1402-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

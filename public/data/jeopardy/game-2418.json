@@ -1,0 +1,833 @@
+{
+  "gameId": 2418,
+  "showNumber": 3418,
+  "airDate": "June 16, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AROUND THE WORLD",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Boomtown 1910 is a recreated frontier street at a museum in Saskatoon in this Canadian province",
+          "answer": "Saskatchewan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE WORLD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2418-s-c0-r0"
+        },
+        {
+          "question": "The Efik people of this continent are closely related to the Ibibio",
+          "answer": "Africa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE WORLD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2418-s-c0-r1"
+        },
+        {
+          "question": "Costa Rica's name translates to this in English",
+          "answer": "\"Rich Coast\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE WORLD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2418-s-c0-r2"
+        },
+        {
+          "question": "This Scandinavian country is quite flat: its highest point, Yding Skovhoj, is just 568 feet high",
+          "answer": "Denmark",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE WORLD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2418-s-c0-r3"
+        },
+        {
+          "question": "If you're a native Maldivian, you hail from an island country in this ocean",
+          "answer": "the Indian Ocean",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE WORLD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2418-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHO THOUGHT OF THAT?",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This country is thought to have invented gunpowder, as well as soy sauce",
+          "answer": "China",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO THOUGHT OF THAT?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2418-s-c1-r0"
+        },
+        {
+          "question": "Clement Ader created this type of sound system that used 2 mikes feeding separate headphones",
+          "answer": "stereo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO THOUGHT OF THAT?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2418-s-c1-r1"
+        },
+        {
+          "question": "The German Heinkel He-280 of 1941 was the first jet fighter to have one of these in case of emergency",
+          "answer": "ejection seat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO THOUGHT OF THAT?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2418-s-c1-r2"
+        },
+        {
+          "question": "He first determined that energy equals mass times the velocity of light squared",
+          "answer": "Albert Einstein",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO THOUGHT OF THAT?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2418-s-c1-r3"
+        },
+        {
+          "question": "In 1965 Stephanie Kwolek developed this material used in bulletproof vests",
+          "answer": "Kevlar",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO THOUGHT OF THAT?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2418-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In January 1935 she became the first woman to fly solo from Hawaii to the U.S. mainland",
+          "answer": "Amelia Earhart",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2418-s-c2-r0"
+        },
+        {
+          "question": "His final regret was \"I only regret that I have but one life to lose for my country\"",
+          "answer": "Nathan Hale",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2418-s-c2-r1"
+        },
+        {
+          "question": "On April 22, 1889 \"Sooners\" staked claims hours ahead of schedule in Guthrie City in this territory's land grab",
+          "answer": "Oklahoma",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2418-s-c2-r2"
+        },
+        {
+          "question": "This 1,500-mile-long mountain system divided the Civil War into the eastern & western theaters",
+          "answer": "Appalachians",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2418-s-c2-r3"
+        },
+        {
+          "question": "In 1910 Victor Berger of Wisconsin became the first of this party of Eugene Debs elected to Congress",
+          "answer": "Socialist",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2418-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "HINTS FROM HELOISE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A marshmallow placed inside the bottom of the cone will help keep this treat from dripping through",
+          "answer": "ice cream cone",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2418-s-c3-r0"
+        },
+        {
+          "question": "Heloise hints that you can add a scrambled egg to the classic sandwich of peanut butter & this",
+          "answer": "jelly",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2418-s-c3-r1"
+        },
+        {
+          "question": "Some of Heloise's readers remove these items from old compacts & hang them on fruit trees to scare birds away",
+          "answer": "mirrors",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2418-s-c3-r2"
+        },
+        {
+          "question": "Heloise recycles these by taking them out of old dresses & inserting them in her bras as \"enhancers\"",
+          "answer": "shoulder pads",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2418-s-c3-r3"
+        },
+        {
+          "question": "To make your laundry soft & fluffy, add the \"white\" type of this salad dressing liquid to the final rinse",
+          "answer": "vinegar",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2418-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV THROUGH THE YEARS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In a 1956 episode of \"I Love Lucy\", the Ricardos visited this country, Ricky's birthplace",
+          "answer": "Cuba",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV THROUGH THE YEARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2418-s-c4-r0"
+        },
+        {
+          "question": "Ray Walston played an inventive alien stranded on Earth in this 1960s TV sitcom hit",
+          "answer": "My Favorite Martian",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV THROUGH THE YEARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2418-s-c4-r1"
+        },
+        {
+          "question": "With a bit o' luck, squire, you'll know he played Corporal Peter Newkirk on \"Hogan's Heroes\"",
+          "answer": "Richard Dawson",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV THROUGH THE YEARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2418-s-c4-r2"
+        },
+        {
+          "question": "\"JAG\"'s David James Elliott starred in the TV series version of this 1987 film that starred Kevin Costner",
+          "answer": "The Untouchables",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV THROUGH THE YEARS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2418-s-c4-r3"
+        },
+        {
+          "question": "Gung-ho Major John D. MacGillis was the spit-shined head of the family in this comedy favorite",
+          "answer": "Major Dad",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV THROUGH THE YEARS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2418-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANAGRAMMED MUSICALS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Or Live!\"",
+          "answer": "Oliver!",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED MUSICALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2418-s-c5-r0"
+        },
+        {
+          "question": "\"Tern\"",
+          "answer": "Rent",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED MUSICALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2418-s-c5-r1"
+        },
+        {
+          "question": "\"Inane\"",
+          "answer": "Annie",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED MUSICALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2418-s-c5-r2"
+        },
+        {
+          "question": "\"Repent Pa\"",
+          "answer": "Peter Pan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED MUSICALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2418-s-c5-r3"
+        },
+        {
+          "question": "\"Go Sin Amiss\"",
+          "answer": "Miss Saigon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED MUSICALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2418-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEW YORK BUILDINGS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Its architect, William Van Allen, was \"driven\" to create the world's tallest building at that time",
+          "answer": "Chrysler Building",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK BUILDINGS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2418-d-c0-r0"
+        },
+        {
+          "question": "This building, John Lennon's last residence, was so named because 72nd St. seemed like the Far West",
+          "answer": "the Dakota",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK BUILDINGS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2418-d-c0-r1"
+        },
+        {
+          "question": "The old RCA building at 30 Rockefeller Plaza is now called this \"building\", one initial shorter",
+          "answer": "GE Building",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK BUILDINGS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2418-d-c0-r2"
+        },
+        {
+          "question": "The building named for this retailer includes a sculpture of him counting nickels & dimes",
+          "answer": "F.W. Woolworth",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK BUILDINGS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2418-d-c0-r3"
+        },
+        {
+          "question": "Named for its developer, this Midtown tower has an atrium with a waterfall instead of a mere lobby",
+          "answer": "Trump Tower",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK BUILDINGS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2418-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"GREAT\" MOVIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This Dickens novel has been filmed several times, most recently in 1998",
+          "answer": "Great Expectations",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GREAT\" MOVIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2418-d-c1-r0"
+        },
+        {
+          "question": "John Barrymore spoofed himself in this 1940 movie whose title reflected his nickname",
+          "answer": "The Great Profile",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GREAT\" MOVIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2418-d-c1-r1"
+        },
+        {
+          "question": "Robert Duvall is an authoritarian Marine at war with his family in this film based on Pat Conroy's novel",
+          "answer": "The Great Santini",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GREAT\" MOVIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2418-d-c1-r2"
+        },
+        {
+          "question": "Simon Ward played James Herriot as a young apprentice to an eccentric veterinarian in this 1974 film",
+          "answer": "All Creatures Great and Small",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GREAT\" MOVIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2418-d-c1-r3"
+        },
+        {
+          "question": "Charlie Chaplin played on the physical resemblance of Hitler & the Little Tramp in this 1940 satire",
+          "answer": "The Great Dictator",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GREAT\" MOVIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2418-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "V.P.s BY MIDDLE NAME",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Danforth",
+          "answer": "(James) Dan(forth) Quayle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "V.P.s BY MIDDLE NAME",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2418-d-c2-r0"
+        },
+        {
+          "question": "Herbert Walker",
+          "answer": "George Bush (Sr.)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "V.P.s BY MIDDLE NAME",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2418-d-c2-r1"
+        },
+        {
+          "question": "Horatio",
+          "answer": "Hubert Humphrey",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "V.P.s BY MIDDLE NAME",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2418-d-c2-r2"
+        },
+        {
+          "question": "Nance",
+          "answer": "John Nance Garner",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "V.P.s BY MIDDLE NAME",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2418-d-c2-r3"
+        },
+        {
+          "question": "Ewing",
+          "answer": "Adlai Stevenson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "V.P.s BY MIDDLE NAME",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2418-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHICH CAME FIRST?",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Texas statehood,North Dakota statehood,Michigan statehood",
+          "answer": "Michigan statehood",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHICH CAME FIRST?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2418-d-c3-r0"
+        },
+        {
+          "question": "Hadrian's Wall,the Wailing Wall,the Berlin Wall",
+          "answer": "the Wailing Wall",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHICH CAME FIRST?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2418-d-c3-r1"
+        },
+        {
+          "question": "\"The Tempest\",\"Romeo and Juliet\",\"Macbeth\"",
+          "answer": "Romeo and Juliet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHICH CAME FIRST?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2418-d-c3-r2"
+        },
+        {
+          "question": "Taft-Hartley Act,Voting Rights Act,Sherman Antitrust Act",
+          "answer": "Sherman Antitrust Act (1890)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHICH CAME FIRST?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2418-d-c3-r3"
+        },
+        {
+          "question": "Byzantium falls to the Turks,Saladin captures Jerusalem,Cornwallis surrenders at Yorktown",
+          "answer": "Saladin captures Jerusalem",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHICH CAME FIRST?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2418-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CORNER DRUGSTORE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Ergotamine, introduced in the 1920s, helps control the migraine & vascular types of these",
+          "answer": "headaches",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CORNER DRUGSTORE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2418-d-c4-r0"
+        },
+        {
+          "question": "Best-known brand name of diazepam, an anti-anxiety drug introduced in 1963",
+          "answer": "Valium",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CORNER DRUGSTORE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2418-d-c4-r1"
+        },
+        {
+          "question": "Available as a liquid & a tablet, it maakes the claim \"No. 1 Heartburn Brand in Hospitals\"",
+          "answer": "Maalox",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CORNER DRUGSTORE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2418-d-c4-r2"
+        },
+        {
+          "question": "This \"colorful\" herb, Hydrastis canadensis, is combined with echinacea to boost the immune system",
+          "answer": "Goldenseal",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CORNER DRUGSTORE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2418-d-c4-r3"
+        },
+        {
+          "question": "Prescriptions for this drug, also called methylphenidate, \"A.D.D.\" up to a 700% increase in the '90s",
+          "answer": "Ritalin",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CORNER DRUGSTORE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2418-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUESTIONS, QUESTIONS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Sept. 20, 1999 is the 15th anniversary of the premiere of this TV show with Tony Danza as a domestic",
+          "answer": "Who's the Boss?",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUESTIONS, QUESTIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2418-d-c5-r0"
+        },
+        {
+          "question": "This title musical question asked by Elvis Presley & Donny Osmond has been around since the '20s",
+          "answer": "\"Are You Lonesome Tonight?\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUESTIONS, QUESTIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2418-d-c5-r1"
+        },
+        {
+          "question": "Cops ask this of someone in a hurry; in 1871 a good answer would have been \"Chicago\"",
+          "answer": "Where's the fire?",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUESTIONS, QUESTIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2418-d-c5-r2"
+        },
+        {
+          "question": "Freud called it the great question he couldn't answer \"despite 30 years of research into the feminine soul\"",
+          "answer": "What do women really want?",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUESTIONS, QUESTIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2418-d-c5-r3"
+        },
+        {
+          "question": "It's the Latin phrase of St. Peter's traditional question to Jesus, \"Whither goest thou?\"",
+          "answer": "\"Domine, Quo Vadis\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUESTIONS, QUESTIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2418-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS WOMEN",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "During WWI this American showed off her talents in a play called \"The Western Girl\"",
+          "answer": "Annie Oakley",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS WOMEN",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2418-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

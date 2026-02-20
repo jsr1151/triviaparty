@@ -1,0 +1,809 @@
+{
+  "gameId": 8300,
+  "showNumber": 2208,
+  "airDate": "March 23, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LAKES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Bonneville Salt Flats in the northwestern part of this state is the former bed of Lake Bonneville",
+          "answer": "Utah",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8300-s-c0-r0"
+        },
+        {
+          "question": "Lake Ladoga, about 25 miles east of St. Petersburg, is this continent's largest lake",
+          "answer": "Europe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAKES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8300-s-c0-r1"
+        },
+        {
+          "question": "This Great Lake receives inflow from Lake Superior &, via the Straits of Mackinac, from Lake Michigan",
+          "answer": "Lake Huron",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8300-s-c0-r2"
+        },
+        {
+          "question": "This lake that forms the boundary between New York & Vermont is named for its 1609 discoverer",
+          "answer": "Lake Champlain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8300-s-c0-r3"
+        },
+        {
+          "question": "The Golomyanka is one of the many fish found only in this Siberian lake",
+          "answer": "Lake Baikal",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAKES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8300-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN IN SPORTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In July 1993 this German beat Jana Novotna to take her fifth Wimbledon singles title",
+          "answer": "Steffi Graf",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8300-s-c1-r0"
+        },
+        {
+          "question": "In April 1993 Sheryl Swoopes scored a record 47 points in an NCAA final in this sport",
+          "answer": "Basketball",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8300-s-c1-r1"
+        },
+        {
+          "question": "In 1992 Manon Rheaume tended goal for the Tampa Bay Lightning in a preseason game of this sport",
+          "answer": "professional hockey",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8300-s-c1-r2"
+        },
+        {
+          "question": "In 1993 this Olympic track star became a co-chairman of the President's Council on Physical Fitness",
+          "answer": "Florence Griffith-Joyner",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8300-s-c1-r3"
+        },
+        {
+          "question": "Often considered the greatest woman athlete in history, she helped found the LPGA in 1950",
+          "answer": "Babe Didrikson",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8300-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MONTHS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A \"fest\"ive fall month, or an ale brewed in it",
+          "answer": "October",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8300-s-c2-r0"
+        },
+        {
+          "question": "The second day of this month is devoted to a marmot",
+          "answer": "February",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8300-s-c2-r1"
+        },
+        {
+          "question": "September's name comes from its being the seventh month; this was the first month at the time",
+          "answer": "March",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8300-s-c2-r2"
+        },
+        {
+          "question": "Month named for the emperor during whose reign Jesus was born",
+          "answer": "August",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8300-s-c2-r3"
+        },
+        {
+          "question": "April showers bring May flowers, but the Mayflower landed in the New World in this month",
+          "answer": "December",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8300-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WAR",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The quote \"It is magnificent, but it is not war\" referred to this famous charge",
+          "answer": "the Charge of the Light Brigade",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8300-s-c3-r0"
+        },
+        {
+          "question": "The Geneva Protocol of 1925 states that warring nations can't use these weapons",
+          "answer": "chemical weapons",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8300-s-c3-r1"
+        },
+        {
+          "question": "It's been called the longest \"war\" in U.S. history; it ended in 1990",
+          "answer": "the Cold War",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8300-s-c3-r2"
+        },
+        {
+          "question": "While reporting on this South African war, Winston Churchill was captured but made a daring escape",
+          "answer": "the Boer War",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8300-s-c3-r3"
+        },
+        {
+          "question": "The Encyclopedia of Military History considers that the first missile weapon was just a plain one of these",
+          "answer": "a rock",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8300-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIRCUS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "On April 3, 1793, the first circus in America was staged in Philadelphia with this president in attendance",
+          "answer": "George Washington",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8300-s-c4-r0"
+        },
+        {
+          "question": "This circus is known as \"The Greatest Show on Earth\"",
+          "answer": "Ringling Brothers, (Barnum & Bailey Circus)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8300-s-c4-r1"
+        },
+        {
+          "question": "To ride this circus animal, you may need a large saddle called a howdah",
+          "answer": "an elephant",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8300-s-c4-r2"
+        },
+        {
+          "question": "In the circus a standard one of these is 42 feet in diameter",
+          "answer": "a ring",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8300-s-c4-r3"
+        },
+        {
+          "question": "This high-wire act was famous for its 7-man walking pyramid",
+          "answer": "the Wallendas",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8300-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALPHABET SOUP",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's located between EST & MST",
+          "answer": "CST",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHABET SOUP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8300-s-c5-r0"
+        },
+        {
+          "question": "Appending these 4 letters to an order means to execute it at once",
+          "answer": "ASAP",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHABET SOUP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8300-s-c5-r1"
+        },
+        {
+          "question": "Azidothymidine, a drug used in AIDS treatment, is called this for short",
+          "answer": "AZT",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHABET SOUP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8300-s-c5-r2"
+        },
+        {
+          "question": "A level in the office hierarchy, or an automaker",
+          "answer": "GM",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHABET SOUP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8300-s-c5-r3"
+        },
+        {
+          "question": "2-letter version of a baseball term or a branch of the U.S. Congress",
+          "answer": "HR",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHABET SOUP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8300-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1867 MP John Stuart Mill proposed that this be extended to women but Parliament said no",
+          "answer": "suffrage (the vote)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8300-d-c0-r0"
+        },
+        {
+          "question": "He went to Moscow in 1959 as Vice President & again in 1972 as President",
+          "answer": "Richard Nixon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8300-d-c0-r1"
+        },
+        {
+          "question": "A worldwide outbreak of this disease in 1918 was responsible for more deaths than WWI's bombs & bullets",
+          "answer": "influenza",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8300-d-c0-r2"
+        },
+        {
+          "question": "Dutch for \"migration\", the Dutch in South Africa made a \"great\" one in the 1830s & '40s",
+          "answer": "trek",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8300-d-c0-r3"
+        },
+        {
+          "question": "In 1912 this leader of the Nationalist Revolution served only a few weeks as president of China",
+          "answer": "Sun Yat-sen",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8300-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROADWAY MUSICALS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "He played Lancelot when \"Camelot\" premiered in 1960 & King Arthur in the 1993 Broadway revival",
+          "answer": "Robert Goulet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY MUSICALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8300-d-c1-r0"
+        },
+        {
+          "question": "Gregory Peck provided the offstage voice of this showman in \"The Will Rogers Follies\"",
+          "answer": "(Flo) Ziegfeld",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY MUSICALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8300-d-c1-r1"
+        },
+        {
+          "question": "This dancer joined the cast of \"Jelly's Last Jam\" just 10 months after he nearly died in a highway accident",
+          "answer": "Ben Vereen",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY MUSICALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8300-d-c1-r2"
+        },
+        {
+          "question": "Don Ameche & Hildegarde Neff starred in this 1955 Cole Porter musical named for fancy hosiery",
+          "answer": "Silk Stockings",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY MUSICALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8300-d-c1-r3"
+        },
+        {
+          "question": "Leslie Bricusse & this star wrote the hit musical \"Stop the World—I Want To Get Off\" in about a month",
+          "answer": "(Anthony) Newley",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY MUSICALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8300-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "INVENTIONS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Edison's used a cylinder with grooves cut in a spiral",
+          "answer": "a phonograph",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8300-d-c2-r0"
+        },
+        {
+          "question": "In 1975 Sony introduced this videotape system for home use",
+          "answer": "Betamax",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8300-d-c2-r1"
+        },
+        {
+          "question": "Carl de Laval's 1878 centrifuge was used by the dairy industry to do this",
+          "answer": "separate cream from milk",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8300-d-c2-r2"
+        },
+        {
+          "question": "Using about 40 grams of test soil from here, T.D. Lin created a way to make concrete with it",
+          "answer": "the moon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8300-d-c2-r3"
+        },
+        {
+          "question": "In 1844 John Mercer found a way to give this fabric a lustrous sheen",
+          "answer": "cotton",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8300-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARTISTS & THEIR SUBJECTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Around 1615 Rubens completed his painting of this biblical figure praying in the lions' den",
+          "answer": "Daniel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS & THEIR SUBJECTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8300-d-c3-r0"
+        },
+        {
+          "question": "Myron sculpted a famous statue of an athlete hurling one of these in the 5th century B.C.",
+          "answer": "a discus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS & THEIR SUBJECTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8300-d-c3-r1"
+        },
+        {
+          "question": "In 1838 Delacroix painted portraits of Chopin & this woman with a man's name, Chopin's lover",
+          "answer": "George Sand",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS & THEIR SUBJECTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8300-d-c3-r2"
+        },
+        {
+          "question": "Hans Holbein the Younger painted his first portrait of this king in 1536; it was a miniature",
+          "answer": "Henry VIII",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS & THEIR SUBJECTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8300-d-c3-r3"
+        },
+        {
+          "question": "His 1906 oil painting of his close friend Gertrude Stein hangs in the Metropolitan Museum of Art",
+          "answer": "Picasso",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS & THEIR SUBJECTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8300-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AQUATIC LIFE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A whale doesn't have any & on a shark they're visible slits",
+          "answer": "gills",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AQUATIC LIFE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8300-d-c4-r0"
+        },
+        {
+          "question": "According to Guinness, the most valuable fish is the Russian species of this",
+          "answer": "sturgeon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AQUATIC LIFE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8300-d-c4-r1"
+        },
+        {
+          "question": "Solaster endeca is one of these bottom dwellers that has more than 5 arms",
+          "answer": "a starfish",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AQUATIC LIFE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8300-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Jean Anouilh classified his comedies as \"Rosy\" & these as \"Black\"",
+          "answer": "tragedies",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8300-d-c5-r0"
+        },
+        {
+          "question": "His first book was \"Mother Goose in Prose\" in 1897; 3 years later he created Oz",
+          "answer": "(Frank) Baum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8300-d-c5-r1"
+        },
+        {
+          "question": "This \"Metamorphosis\" author's request that his papers be destroyed after he died was ignored",
+          "answer": "Franz Kafka",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8300-d-c5-r2"
+        },
+        {
+          "question": "Beth Henley was under 30 when this, her first play, was performed on Broadway in 1981",
+          "answer": "Crimes of the Heart",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8300-d-c5-r3"
+        },
+        {
+          "question": "\"Grace Abounding to the Chief of Sinners\" was this \"Pilgrim's Progress\" author's autobiography",
+          "answer": "(John) Bunyan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8300-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The first person mentioned for whom no children are listed",
+          "answer": "Abel",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE BIBLE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8300-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

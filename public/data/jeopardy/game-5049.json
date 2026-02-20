@@ -1,0 +1,761 @@
+{
+  "gameId": 5049,
+  "showNumber": 7134,
+  "airDate": "September 24, 2015",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LET'S HAVE EGGS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "(Jimmy of the Clue Crew shows a nest of eggs on the monitor.)  Some birds, like this wild American whiskey symbol, nest on the ground & lay pointed eggs so they roll in a circle, not away from the nest",
+          "answer": "turkeys",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE EGGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5049-s-c0-r0"
+        },
+        {
+          "question": "Round eggs, like those of this marine reptile that uses its flippers to bury dozens in holes in sand, fit well in tight places",
+          "answer": "a sea turtle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE EGGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5049-s-c0-r1"
+        },
+        {
+          "question": "You're on your own, kid: the brown tree type of these reptiles doesn't incubate its eggs or care for its young",
+          "answer": "a snake",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE EGGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5049-s-c0-r2"
+        },
+        {
+          "question": "The 1920s discovery of fossil eggs in this central Asian desert proved that at least some dinosaurs laid 'em",
+          "answer": "the Gobi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE EGGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5049-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "BOOKS BY CHAPTER TITLES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Another View of Hester\"",
+          "answer": "The Scarlet Letter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS BY CHAPTER TITLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5049-s-c1-r0"
+        },
+        {
+          "question": "\"Javert Off the Track\"",
+          "answer": "Les Misérables",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS BY CHAPTER TITLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5049-s-c1-r1"
+        },
+        {
+          "question": "\"The Deadly Poppy Field\"",
+          "answer": "The Wizard of Oz",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS BY CHAPTER TITLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5049-s-c1-r2"
+        },
+        {
+          "question": "\"Aunt March Settles the Question\"",
+          "answer": "Little Women",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS BY CHAPTER TITLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5049-s-c1-r3"
+        },
+        {
+          "question": "\"I Strike the Jolly Roger\"",
+          "answer": "Treasure Island",
+          "value": 1800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS BY CHAPTER TITLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5049-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE STATE U's MAIN CAMPUS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The University of Nebraska, presidentially speaking",
+          "answer": "Lincoln",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE U's MAIN CAMPUS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5049-s-c2-r0"
+        },
+        {
+          "question": "The University of Wisconsin, presidentially speaking",
+          "answer": "Madison",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE U's MAIN CAMPUS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5049-s-c2-r1"
+        },
+        {
+          "question": "The Universities of South Carolina & Missouri (it's a university name itself)",
+          "answer": "Columbia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE U's MAIN CAMPUS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5049-s-c2-r2"
+        },
+        {
+          "question": "Here's some flowery prose about Indiana University",
+          "answer": "Bloomington",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE U's MAIN CAMPUS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5049-s-c2-r3"
+        },
+        {
+          "question": "The University of Kentucky",
+          "answer": "Lexington",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE U's MAIN CAMPUS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5049-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PERSECUTED PEOPLE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Being Chechen has not always been easy in this large country where most of them live",
+          "answer": "Russia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PERSECUTED PEOPLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5049-s-c3-r0"
+        },
+        {
+          "question": "ISIS persecutes members of the Mideast's Yazidi sect, who say they are descended only from this man, not his mate",
+          "answer": "Adam",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PERSECUTED PEOPLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5049-s-c3-r1"
+        },
+        {
+          "question": "The Nazis hounded Jehovah's Witnesses in part for refusing to participate in universal this, introduced in 1935",
+          "answer": "military service",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PERSECUTED PEOPLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5049-s-c3-r2"
+        },
+        {
+          "question": "The phrase \"ethnic cleansing\" gained currency in 1991 when done to Balkan groups like Muslims in this 2-named state",
+          "answer": "Bosnia & Herzegovina",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PERSECUTED PEOPLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5049-s-c3-r3"
+        },
+        {
+          "question": "France is not always nice to this ethnic group that included the great French jazzman Django Reinhardt",
+          "answer": "Roma (or Gypsy)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PERSECUTED PEOPLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5049-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "3-LETTER WORDS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In Scrabble you get at least 12 points for this slang synonym of pimple",
+          "answer": "zit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5049-s-c4-r0"
+        },
+        {
+          "question": "A beam of light, or an arm of a starfish",
+          "answer": "ray",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5049-s-c4-r1"
+        },
+        {
+          "question": "It's a Vietnamese soup with noodles & thin slices of meat",
+          "answer": "pho",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5049-s-c4-r2"
+        },
+        {
+          "question": "In Arabian legend, this bird was so big & strong that it could carry off an elephant",
+          "answer": "roc",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5049-s-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "COULDN'T THINK OF A RHYME",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This Ozzy Osbourne band, in \"War Pigs\":\"Generals gathered in their masses, just like witches at black masses\"",
+          "answer": "Black Sabbath",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COULDN'T THINK OF A RHYME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5049-s-c5-r0"
+        },
+        {
+          "question": "In \"Nothing Else Matters\" by this Lars Ulrich band:\"Never opened myself this way, life is ours, we live it our way\"",
+          "answer": "Metallica",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COULDN'T THINK OF A RHYME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5049-s-c5-r1"
+        },
+        {
+          "question": "In \"Hot Blooded\" by this band:\"You don't have to read my mind, to know what I have in mind\"",
+          "answer": "Foreigner",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COULDN'T THINK OF A RHYME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5049-s-c5-r2"
+        },
+        {
+          "question": "This Miami rapper, \"dog\":\"Picture that with a Kodak, or better yet, go to Times Square, take a picture of me with a Kodak\"",
+          "answer": "Pitbull",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COULDN'T THINK OF A RHYME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5049-s-c5-r3"
+        },
+        {
+          "question": "This ex-Beatle:\"You know it don't come easy, you don't have to shout or leap about, you can even play them easy\"",
+          "answer": "Ringo Starr",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COULDN'T THINK OF A RHYME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5049-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "OSCAR-WINNING WRITERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "2010, adaptation:\"The Social Network\"",
+          "answer": "(Aaron) Sorkin",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING WRITERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5049-d-c0-r0"
+        },
+        {
+          "question": "2003, original:\"Lost in Translation\"",
+          "answer": "Sofia Coppola",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING WRITERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5049-d-c0-r1"
+        },
+        {
+          "question": "1999, adaptation:\"The Cider House Rules\"",
+          "answer": "(John) Irving",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING WRITERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5049-d-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN LAKES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This type of shrimp named for its salty habitat has been called the most numerous inhabitant of the Great Salt Lake",
+          "answer": "brine shrimp",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LAKES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5049-d-c1-r0"
+        },
+        {
+          "question": "This lake in Upstate New York was named in 1755 to honor the then-current British monarch",
+          "answer": "Lake George",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LAKES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5049-d-c1-r1"
+        },
+        {
+          "question": "The name of this resort island in Lake Huron used to have \"Michili- \" in front of it",
+          "answer": "Mackinac",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LAKES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5049-d-c1-r2"
+        },
+        {
+          "question": "In the 19th c., this 22-mile-long lake in the Sierra Nevada lost most of the forest around it, used for timber in the Comstock mines",
+          "answer": "Lake Tahoe",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LAKES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5049-d-c1-r3"
+        },
+        {
+          "question": "Due to its serpentine curves, this large reservoir in central Missouri has been called \"the Magic Dragon\"",
+          "answer": "the Lake of the Ozarks",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LAKES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5049-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NAME THAT ELEMENT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's number 1!",
+          "answer": "hydrogen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT ELEMENT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5049-d-c2-r0"
+        },
+        {
+          "question": "Thb 2 elements whose symbols are personal pronouns",
+          "answer": "iodine (I) & helium (He)",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT ELEMENT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5049-d-c2-r1"
+        },
+        {
+          "question": "Element number 18, it's every pirate's favorite noble gas",
+          "answer": "argon",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT ELEMENT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5049-d-c2-r2"
+        },
+        {
+          "question": "Until 1957 it was known as glucinium, but whatever will Be will Be",
+          "answer": "beryllium",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT ELEMENT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5049-d-c2-r3"
+        },
+        {
+          "question": "We won't tell you the \"tedious\" tale of the discovery of this element, No. 107, named for a physicist",
+          "answer": "bohrium",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT ELEMENT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5049-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ECONOMICS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A political rival called the trickle-down monetary theory espoused by Ronald Reagan this \"scary\" kind of economics",
+          "answer": "voodoo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5049-d-c3-r0"
+        },
+        {
+          "question": "Including currency & other liquid assets, it's the total amount of cash available in a given economy",
+          "answer": "the money supply",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5049-d-c3-r1"
+        },
+        {
+          "question": "The proposed trans-pacific partnership is an FTA, this type of agreement meant to open markets & create jobs",
+          "answer": "a free trade agreement",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5049-d-c3-r2"
+        },
+        {
+          "question": "In 1936 this British economist said the way to beat a recession was a government-sponsored policy of full employment",
+          "answer": "(John Maynard) Keynes",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5049-d-c3-r3"
+        },
+        {
+          "question": "America had Reaganomics & now Japan has this set of policies named for the current PM, including fiscal expansion",
+          "answer": "Abenomics",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5049-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELEASE THE \"OUND\"S",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Clean these up & throw them away after using a French press",
+          "answer": "grounds",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELEASE THE \"OUND\"S",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5049-d-c4-r0"
+        },
+        {
+          "question": "To jump-start a fast break, release a quick outlet pass after a defensive one of these",
+          "answer": "a rebound",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELEASE THE \"OUND\"S",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5049-d-c4-r1"
+        },
+        {
+          "question": "It went out of circulation in Ireland in 2002",
+          "answer": "the pound",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELEASE THE \"OUND\"S",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5049-d-c4-r2"
+        },
+        {
+          "question": "Fisherman, release the gulf type of this flatfish if it's less than a foot long",
+          "answer": "flounder",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELEASE THE \"OUND\"S",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5049-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "LOW COUNTRY TYPES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "WWI Dutch aviator Anthony Fokker developed a way to synchronize machine gun fire with the rotation of this",
+          "answer": "a propeller",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOW COUNTRY TYPES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5049-d-c5-r0"
+        },
+        {
+          "question": "Rembrandt was one of these, & his painting was featured on the box of the cigars of the same name",
+          "answer": "a Dutch master",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LOW COUNTRY TYPES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5049-d-c5-r1"
+        },
+        {
+          "question": "Margaretha Zelle was the less glamorous original name of this dancer & accused spy",
+          "answer": "Mata Hari",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOW COUNTRY TYPES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5049-d-c5-r2"
+        },
+        {
+          "question": "1 month older than Anne Frank, this actress survived Nazi-occupied Holland & could not bring herself to portray Anne",
+          "answer": "Audrey Hepburn",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LOW COUNTRY TYPES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5049-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN PHRASES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This French phrase refers to part of the Order of the Holy Ghost; its knights became known for serving superb dinners",
+          "answer": "Cordon Bleu",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "FOREIGN PHRASES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5049-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

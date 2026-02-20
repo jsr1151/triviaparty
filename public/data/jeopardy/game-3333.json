@@ -1,0 +1,833 @@
+{
+  "gameId": 3333,
+  "showNumber": 5868,
+  "airDate": "March 3, 2010",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. STATES' LARGEST ISLANDS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Antelope Island in the Great Salt Lake",
+          "answer": "Utah",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES' LARGEST ISLANDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3333-s-c0-r0"
+        },
+        {
+          "question": "Martha's Vineyard",
+          "answer": "Massachusetts",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES' LARGEST ISLANDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3333-s-c0-r1"
+        },
+        {
+          "question": "Kodiak Island",
+          "answer": "Alaska",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES' LARGEST ISLANDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3333-s-c0-r2"
+        },
+        {
+          "question": "Padre Island",
+          "answer": "Texas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES' LARGEST ISLANDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3333-s-c0-r3"
+        },
+        {
+          "question": "Isle Royale",
+          "answer": "Michigan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES' LARGEST ISLANDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3333-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE SPOILERS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "There's a Washington, D.C. memorial to an ape general when Mark Wahlberg returns to Earth in this 2001 film",
+          "answer": "Planet of the Apes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SPOILERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3333-s-c1-r0"
+        },
+        {
+          "question": "Bruce Willis is dead & doesn't know it in this 1999 thriller",
+          "answer": "The Sixth Sense",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SPOILERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3333-s-c1-r1"
+        },
+        {
+          "question": "Faye Dunaway's daughter is also her sister in this Jack Nicholson classic from 1974",
+          "answer": "Chinatown",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SPOILERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3333-s-c1-r2"
+        },
+        {
+          "question": "The disabled Kevin Spacey seems to be the killer Keyser Soze in this 1995 film",
+          "answer": "The Usual Suspects",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SPOILERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3333-s-c1-r3"
+        },
+        {
+          "question": "In this 1992 IRA thriller starring Stephen Rea, the \"girl\" is really a guy",
+          "answer": "The Crying Game",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SPOILERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3333-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEMS & JEWELRY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This red gem is the traditional gift for a 40th wedding anniversary",
+          "answer": "ruby",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3333-s-c2-r0"
+        },
+        {
+          "question": "Nacre is mother-of-this",
+          "answer": "pearl",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3333-s-c2-r1"
+        },
+        {
+          "question": "L. Frank Baum had this birthstone, the same as the name of a city he created",
+          "answer": "the emerald",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3333-s-c2-r2"
+        },
+        {
+          "question": "This gem is named for being the color of sea water",
+          "answer": "aquamarine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3333-s-c2-r3"
+        },
+        {
+          "question": "The most prized of these fiery gems are the black ones found in New South Wales, Australia",
+          "answer": "an opal",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3333-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE AUTHOR TWITTERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Da, \"War and Peace\" published in complete form 2day.  Liking 1869.  Is very good year",
+          "answer": "Tolstoy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AUTHOR TWITTERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3333-s-c3-r0"
+        },
+        {
+          "question": "Only 25 when \"The Naked and the Dead\" makes me famous. Feel like I'm gonna win 2 Pulitzers b4 I'm thru",
+          "answer": "(Norman) Mailer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AUTHOR TWITTERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3333-s-c3-r1"
+        },
+        {
+          "question": "What am I doing?! Screaming!  Itz 1945 & I'm U.S. soldier @ bombing of Dresden!  (Will write 1969 novel about it)",
+          "answer": "Vonnegut",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AUTHOR TWITTERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3333-s-c3-r2"
+        },
+        {
+          "question": "Made dean of St. Pat's @ Dublin.  Will pen \"Travels\". Pls publish \"Journal to Stella\" after my death",
+          "answer": "Jonathan Swift",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE AUTHOR TWITTERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3333-s-c3-r3"
+        },
+        {
+          "question": "Czech out my short story \"A Hunger Artist\"!  Tweet done.  Max Brod, pls burn my laptop",
+          "answer": "(Franz) Kafka",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AUTHOR TWITTERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3333-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "APPLE SAUCE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "While living in London in the 1750s, this Philadelphian asked his wife to send him barrels of Newtown pippins",
+          "answer": "Franklin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APPLE SAUCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3333-s-c4-r0"
+        },
+        {
+          "question": "Most trees in apple orchards are not grown from seeds; they are produced using this process",
+          "answer": "grafting",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APPLE SAUCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3333-s-c4-r1"
+        },
+        {
+          "question": "The most damaging disease attacking apple trees is apple scab, a type of this spore-bearing organism",
+          "answer": "a fungus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APPLE SAUCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3333-s-c4-r2"
+        },
+        {
+          "question": "Washington State produces more apples than any other state; this state where the Empire apple developed is 2nd",
+          "answer": "New York",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APPLE SAUCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3333-s-c4-r3"
+        },
+        {
+          "question": "In 1935 Gillett's Seedlings was renamed this for the Ohio township where it was developed, not for an Italian city",
+          "answer": "the Rome beauty",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "APPLE SAUCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3333-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMILIAR PHRASES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "To avoid responsibility is to do this",
+          "answer": "pass the buck",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3333-s-c5-r0"
+        },
+        {
+          "question": "A proverb says, \"a new broom\" does this",
+          "answer": "sweeps clean",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3333-s-c5-r1"
+        },
+        {
+          "question": "It's the literal interpretation of a phrase meaning to relax or behave informally",
+          "answer": "let your hair down",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3333-s-c5-r2"
+        },
+        {
+          "question": "When insulted, you might turn a deaf ear or turn this, as advised in Luke & Matthew",
+          "answer": "the other cheek",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3333-s-c5-r3"
+        },
+        {
+          "question": "This 3-word phrase means to stretch the limits",
+          "answer": "push the envelope",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3333-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLET DANCERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Nicknamed Misha, he was nominated for a 1989 Tony Award for Best Actor in a drama for \"Metamorphosis\"",
+          "answer": "Baryshnikov",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET DANCERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3333-d-c0-r0"
+        },
+        {
+          "question": "This British-born ballerina danced until 1979, when she was 60 years old",
+          "answer": "Dame Margot Fonteyn",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BALLET DANCERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3333-d-c0-r1"
+        },
+        {
+          "question": "He was born in Kiev around 1889 to parents who were celebrated dancers from Poland",
+          "answer": "Nijinsky",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BALLET DANCERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3333-d-c0-r2"
+        },
+        {
+          "question": "This Russian ballerina's London home, Ivy House, was famous for its ornamental lake with swans",
+          "answer": "Anna Pavlova",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BALLET DANCERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3333-d-c0-r3"
+        },
+        {
+          "question": "In 1953 she was given the title Wa-Xthe-Thomba, \"woman of two worlds\", in honor of her Osage heritage",
+          "answer": "Maria Tallchief",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET DANCERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3333-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT'S FOUL!",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In football, if you hit an opposing defender below the waist from behind, you'll get hit with this personal foul",
+          "answer": "clipping",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S FOUL!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3333-d-c1-r0"
+        },
+        {
+          "question": "If a baseball player fields a fair ball with his hat, all runners get to advance this many bases (hint: it's a lot)",
+          "answer": "3",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S FOUL!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3333-d-c1-r1"
+        },
+        {
+          "question": "You'll get a foul if you pull your elbow off the elbow pad in this \"over the top\" sport",
+          "answer": "arm wrestling",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S FOUL!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3333-d-c1-r2"
+        },
+        {
+          "question": "Karch Kiraly knows it's a foul to touch the net in this sport in which he's an Olympic gold medalist",
+          "answer": "beach volleyball (or indoor volleyball)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S FOUL!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3333-d-c1-r3"
+        },
+        {
+          "question": "It'll cost you a point if you touch the playing surface with your free hand while playing this racket sport",
+          "answer": "ping-pong (or table tennis)",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S FOUL!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3333-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"E\" IN SCIENCE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Term for a substance that can't be broken down into simpler substances by chemical means",
+          "answer": "element",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"E\" IN SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3333-d-c2-r0"
+        },
+        {
+          "question": "Abnormal electrical activity in the brain causes this seizure-inducing neurological disorder",
+          "answer": "epilepsy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"E\" IN SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3333-d-c2-r1"
+        },
+        {
+          "question": "It's defined as the capacity or power to do work",
+          "answer": "energy",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"E\" IN SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3333-d-c2-r2"
+        },
+        {
+          "question": "Marine invertebrates like starfish & sand dollars are this type of animal, from the Latin for \"urchin skin\"",
+          "answer": "echinoderms",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"E\" IN SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3333-d-c2-r3"
+        },
+        {
+          "question": "Chemical formula C10H15NO, it's used to treat asthma",
+          "answer": "ephedrine",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"E\" IN SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3333-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT'S NEXT ON THE LIST?",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Books of the Bible:Exodus,Leviticus,Numbers...",
+          "answer": "Deuteronomy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S NEXT ON THE LIST?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3333-d-c3-r0"
+        },
+        {
+          "question": "British monarchs:George V,Edward VIII,George VI...",
+          "answer": "Elizabeth II",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S NEXT ON THE LIST?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3333-d-c3-r1"
+        },
+        {
+          "question": "Liz Taylor's marriages:Todd,Fisher,Burton...",
+          "answer": "Burton",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S NEXT ON THE LIST?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3333-d-c3-r2"
+        },
+        {
+          "question": "Vice presidents:Nixon,Johnson,Humphrey...",
+          "answer": "Spiro Agnew",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S NEXT ON THE LIST?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3333-d-c3-r3"
+        },
+        {
+          "question": "World's tallest building:The Eiffel Tower,surpassed by the Chrysler Building,surpassed by...",
+          "answer": "the Empire State Building",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S NEXT ON THE LIST?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3333-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE '70s",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This \"Great\" king ran the Danes out of his country in 878, beginning a period of peace in Wessex",
+          "answer": "Alfred the Great",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3333-d-c4-r0"
+        },
+        {
+          "question": "In 476 Germanic chieftain Odoacer deposed Romulus Augustulus & this half of the Roman Empire fell",
+          "answer": "the Western Empire",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3333-d-c4-r1"
+        },
+        {
+          "question": "In the early 1770s Carl Scheele discovered this gas, but Joseph Priestley published his paper first & got the credit",
+          "answer": "oxygen",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3333-d-c4-r2"
+        },
+        {
+          "question": "In the 1870s Geronimo enraged the U.S. govt. by going \"off\" this, an expression now used to mean \"out of control\"",
+          "answer": "the reservation",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3333-d-c4-r3"
+        },
+        {
+          "question": "In 1079 this Persian astronomer & poet calculated the year to be 365.2421 days, an extremely accurate figure",
+          "answer": "Omar Khayyám",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3333-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHANGE A LETTER",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Change a letter in \"good\" & you get this word meaning \"incite\"",
+          "answer": "goad",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHANGE A LETTER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3333-d-c5-r0"
+        },
+        {
+          "question": "Change one letter in \"bathe\" & you get this wood-shaping tool",
+          "answer": "lathe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHANGE A LETTER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3333-d-c5-r1"
+        },
+        {
+          "question": "Change a letter in \"ballet\" & you get this lodging for a soldier",
+          "answer": "billet",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHANGE A LETTER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3333-d-c5-r2"
+        },
+        {
+          "question": "Change a letter in \"half\" & you get this word meaning \"robust\"",
+          "answer": "hale",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHANGE A LETTER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3333-d-c5-r3"
+        },
+        {
+          "question": "Change a letter in \"homely\" & you get this word that means just the opposite",
+          "answer": "comely",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHANGE A LETTER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3333-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BRITISH HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Dying in 2009 at age 113, British WWI vet Henry Allingham was the last original surviving member of this group, formed 1918",
+          "answer": "the Royal Air Force",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BRITISH HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3333-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

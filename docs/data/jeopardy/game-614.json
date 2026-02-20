@@ -1,0 +1,785 @@
+{
+  "gameId": 614,
+  "showNumber": 3142,
+  "airDate": "April 7, 1998",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "TELEVISION",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This sitcom was well into its first season when Jaleel White joined it as Steve Urkel",
+          "answer": "Family Matters",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g614-s-c0-r0"
+        },
+        {
+          "question": "In 1997 TV Guide described this Bob Newhart-Judd Hirsch comedy as \"More Grumpier Old Men\"",
+          "answer": "George & Leo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g614-s-c0-r1"
+        },
+        {
+          "question": "This man, seen here, now does his presiding on television:",
+          "answer": "Mayor Koch",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g614-s-c0-r2"
+        },
+        {
+          "question": "After a 10-year absence, this series returned in 1997 with Stacy Keach reprising the title role",
+          "answer": "Mike Hammer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g614-s-c0-r3"
+        },
+        {
+          "question": "In the early '60s Martin Milner & George Maharis got their kicks riding around on this series",
+          "answer": "Route 66",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g614-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CAUGHT ON TAPE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This Teflon Don & Gambino Family boss spilled the beans on tape at the Ravenite Social Club in Manhattan",
+          "answer": "John Gotti",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAUGHT ON TAPE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g614-s-c1-r0"
+        },
+        {
+          "question": "As the video revealed, the LAPD didn't treat this man like royalty on March 3, 1991",
+          "answer": "Rodney King",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAUGHT ON TAPE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g614-s-c1-r1"
+        },
+        {
+          "question": "Unaware the mike was open, Ronald Reagan said of this country in 1984, \"The bombing begins in 5 minutes\"",
+          "answer": "the Soviet Union (or Russia)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAUGHT ON TAPE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g614-s-c1-r2"
+        },
+        {
+          "question": "Footage of this mayor using drugs failed to crack the confidence of D.C. voters; they re-elected him in 1994",
+          "answer": "Marion Barry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAUGHT ON TAPE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g614-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "G IS FOR GRAFTON",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Not guilty,\"I is for...\"",
+          "answer": "Innocent",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "G IS FOR GRAFTON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g614-s-c2-r0"
+        },
+        {
+          "question": "It's murder,\"H is for...\"",
+          "answer": "Homicide",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "G IS FOR GRAFTON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g614-s-c2-r1"
+        },
+        {
+          "question": "The deceased, \"C is for...\"",
+          "answer": "Corpse",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "G IS FOR GRAFTON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g614-s-c2-r2"
+        },
+        {
+          "question": "It can be direct or circumstantial,\"E is for...\"",
+          "answer": "Evidence",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "G IS FOR GRAFTON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g614-s-c2-r3"
+        },
+        {
+          "question": "One on the run,\"F is for...\"",
+          "answer": "Fugitive",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "G IS FOR GRAFTON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g614-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN'S WORK",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This future Supreme Court justice hid her pregnancy for fear of losing her teaching job at Rutgers",
+          "answer": "Ginsburg",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S WORK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g614-s-c3-r0"
+        },
+        {
+          "question": "In 1977 Kay Koplovitz founded what is now this cable network, now home to \"La Femme Nikita\"",
+          "answer": "the USA Network",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S WORK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g614-s-c3-r1"
+        },
+        {
+          "question": "(Hi, I'm Jane Seymour.)  This woman not only founded the 1st birth control clinic, she also pioneered the term",
+          "answer": "(Margaret) Sanger",
+          "value": 200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S WORK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g614-s-c3-r2"
+        },
+        {
+          "question": "\"America's Sweetheart\", she was just 24 in 1917 when she commanded $350,000 per film",
+          "answer": "Mary Pickford",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S WORK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g614-s-c3-r3"
+        },
+        {
+          "question": "She was the leading financial columnist for the New York Post from 1935-1978",
+          "answer": "Sylvia Porter",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S WORK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g614-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S NEVER DONE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Oliver Wendell Holmes Jr. said never falsely shout this warning in a theater; it isn't free speech",
+          "answer": "fire",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S NEVER DONE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g614-s-c4-r0"
+        },
+        {
+          "question": "According to the title of a 1941 W.C. Fields movie, \"Never give a sucker\" one of these",
+          "answer": "an even break",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S NEVER DONE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g614-s-c4-r1"
+        },
+        {
+          "question": "Chiquita Banana likes \"the climate of the very, very tropical equator, so you should never put bananas\" in this",
+          "answer": "the refrigerator",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S NEVER DONE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g614-s-c4-r2"
+        },
+        {
+          "question": "When observing Jewish dietary laws, it's not kosher to eat meat with these products",
+          "answer": "dairy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S NEVER DONE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g614-s-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "\"CHA\" CHA CHA",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's a local branch of a club, or any of the main divisions of a book",
+          "answer": "a chapter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CHA\" CHA CHA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g614-s-c5-r0"
+        },
+        {
+          "question": "You can draw with it, or use it as fuel in your barbeque",
+          "answer": "charcoal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CHA\" CHA CHA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g614-s-c5-r1"
+        },
+        {
+          "question": "It's the goblet for the wine used in holy communion",
+          "answer": "a chalice",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CHA\" CHA CHA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g614-s-c5-r2"
+        },
+        {
+          "question": "It's the equivalent of prime minister in some countries, or the title of the president of some universities",
+          "answer": "a chancellor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CHA\" CHA CHA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g614-s-c5-r3"
+        },
+        {
+          "question": "Related to the beet, this vegetable is grown for its spinach-like leaves & thick stalks",
+          "answer": "chard",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"CHA\" CHA CHA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g614-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIBLICAL WRATH & MADNESS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He was so angry at the Israelites, he pulverized their golden calf & made them devour it",
+          "answer": "Moses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL WRATH & MADNESS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g614-d-c0-r0"
+        },
+        {
+          "question": "David plays the harp to calm this tormented king in the Rembrandt painting seen here:",
+          "answer": "Saul",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL WRATH & MADNESS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g614-d-c0-r1"
+        },
+        {
+          "question": "A priest confronted this prophet & author of Lamentations with a letter that accused him of madness",
+          "answer": "Jeremiah",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL WRATH & MADNESS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g614-d-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "THE FAB (18)50s",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On June 16, 1858 he said, \"This government cannot endure permanently half slave and half free\"",
+          "answer": "Lincoln",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAB (18)50s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g614-d-c1-r0"
+        },
+        {
+          "question": "Subtitled \"Or, Life in the Woods\", this 1854 Thoreau book was 1 of 2 published in his lifetime",
+          "answer": "Walden",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAB (18)50s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g614-d-c1-r1"
+        },
+        {
+          "question": "In 1852 the Albany Evening Journal coined this word to be used instead of \"Telegraphic Dispatch\"",
+          "answer": "telegram",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE FAB (18)50s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g614-d-c1-r2"
+        },
+        {
+          "question": "This 1857 Supreme Court decision permitted slavery in all U.S. territories",
+          "answer": "Dred Scott",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAB (18)50s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g614-d-c1-r3"
+        },
+        {
+          "question": "The Treaty of Paris of 1856 ending this war forced Russia to give up the mouth of the Danube to Turkey",
+          "answer": "the Crimean War",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAB (18)50s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g614-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE \"BIG\" SCREEN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In it, Paul Reubens' alter ego joins the circus",
+          "answer": "Big Top Pee-wee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"BIG\" SCREEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g614-d-c2-r0"
+        },
+        {
+          "question": "It's the 1970 Dustin Hoffman film with the line \"It's a good day to die\"",
+          "answer": "Little Big Man",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"BIG\" SCREEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g614-d-c2-r1"
+        },
+        {
+          "question": "Humphrey Bogart played Philip Marlowe in this 1946 film",
+          "answer": "The Big Sleep",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"BIG\" SCREEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g614-d-c2-r2"
+        },
+        {
+          "question": "Lee Marvin & Mark Hamill starred in this 1980 Sam Fuller film full of WWII stories",
+          "answer": "The Big Red One",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE \"BIG\" SCREEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g614-d-c2-r3"
+        },
+        {
+          "question": "If Disney starts a soccer team, they'll probably name it for this 1995 film with Olivia d'Abo",
+          "answer": "The Big Green",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"BIG\" SCREEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g614-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FARAWAY PLACES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Timbuktu in Mali was once a major caravan center for those crossing this desert",
+          "answer": "the Sahara",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FARAWAY PLACES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g614-d-c3-r0"
+        },
+        {
+          "question": "This remote Asian nation once had \"Outer\" attached to its name; an \"Inner\" region belongs to China",
+          "answer": "Mongolia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FARAWAY PLACES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g614-d-c3-r1"
+        },
+        {
+          "question": "Tours in this faraway land include a safari in Royal Chitwan National Park & rafting trips near Katmandu",
+          "answer": "Nepal",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FARAWAY PLACES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g614-d-c3-r2"
+        },
+        {
+          "question": "Punta Arenas, in this country, is the world's southernmost city on a continental mainland",
+          "answer": "Chile",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FARAWAY PLACES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g614-d-c3-r3"
+        },
+        {
+          "question": "A city \"Uz\"ing culture, Samarkand in this former Soviet republic is the site of Tamerlane's tomb",
+          "answer": "Uzbekistan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FARAWAY PLACES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g614-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTORIOUS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A book on this veep's forced resignation was titled \"A Heartbeat Away\"",
+          "answer": "(Spiro) Agnew",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g614-d-c4-r0"
+        },
+        {
+          "question": "After killing this criminal for the $10,000 reward, Bob Ford made personal appearances & was booed",
+          "answer": "Jesse James",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g614-d-c4-r1"
+        },
+        {
+          "question": "He was hanged, drawn & quartered in front of Parliament Jan. 31, 1606; not a good \"Day\" for him",
+          "answer": "Guy Fawkes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g614-d-c4-r2"
+        },
+        {
+          "question": "Bang!  Bang!  An assassin's deadly ax came down on his head, August 20, 1940 in Mexico",
+          "answer": "Leon Trotsky",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g614-d-c4-r3"
+        },
+        {
+          "question": "This Mafioso tuned songbird in the '60s with his testimony & his 1968 \"Papers\"",
+          "answer": "Joseph Valachi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g614-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOMOPHONES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Another name for a bucket, or your coloring if one falls on you",
+          "answer": "pail/pale",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g614-d-c5-r0"
+        },
+        {
+          "question": "You open it in a fireplace, or it may mean you're already way too warm",
+          "answer": "flue/flu",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g614-d-c5-r1"
+        },
+        {
+          "question": "A caustic substance in soap, or an untruth",
+          "answer": "lye/lie",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g614-d-c5-r2"
+        },
+        {
+          "question": "Twisted, like a sense of humor, or bread in a deli",
+          "answer": "wry/rye",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g614-d-c5-r3"
+        },
+        {
+          "question": "It's a corridor, or how you might carry something down one",
+          "answer": "hall/haul",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g614-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHILDREN'S BOOKS & AUTHORS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He also created a 2-letter land called Ix",
+          "answer": "L. Frank Baum (creator of the Wizard of Oz)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "CHILDREN'S BOOKS & AUTHORS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g614-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

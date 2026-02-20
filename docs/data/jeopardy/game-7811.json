@@ -1,0 +1,773 @@
+{
+  "gameId": 7811,
+  "showNumber": 923,
+  "airDate": "September 14, 1988",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "TV TRIVIA",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"Massage parlor television\" was how some denounced this '70s detective trio",
+          "answer": "Charlie's Angels",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7811-s-c0-r0"
+        },
+        {
+          "question": "These were the first 4 words that appeared on Paladin's calling card",
+          "answer": "Have Gun – Will Travel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7811-s-c0-r1"
+        },
+        {
+          "question": "Name of the establishment where we first heard Flo the waitress let fly with \"Kiss my grits\"",
+          "answer": "Mel's",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7811-s-c0-r2"
+        },
+        {
+          "question": "From 1961-64 she worked for the Baxter family",
+          "answer": "Hazel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7811-s-c0-r3"
+        },
+        {
+          "question": "Pop singer who co-wrote the following TV theme:[The Tonight Show theme plays]",
+          "answer": "Paul Anka",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7811-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTORIOUS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "He arranged the murders of some of his own children as well as slaying the infants of Bethlehem",
+          "answer": "King Herod (the Great)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7811-s-c1-r0"
+        },
+        {
+          "question": "Audie Murphy, Paul Newman & even Roy Rogers played this youthful outlaw on film",
+          "answer": "Billy the Kid",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7811-s-c1-r1"
+        },
+        {
+          "question": "In legend, the evil sorceress Morgan le Fay is this king's half-sister",
+          "answer": "King Arthur",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7811-s-c1-r2"
+        },
+        {
+          "question": "In the early 1800s this pirate was \"governor\" of Galveston island, Texas",
+          "answer": "Jean Lafitte",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7811-s-c1-r3"
+        },
+        {
+          "question": "\"Who will free me from this turbulent priest?\" asked Henry II, ordering this man's murder",
+          "answer": "(Thomas à) Becket",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7811-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOGS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This keeps a racing greyhound from biting other dogs in the heat of the chase",
+          "answer": "a muzzle",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7811-s-c2-r0"
+        },
+        {
+          "question": "The name for this type of dog is from Old French for \"Spaniard\"",
+          "answer": "a Spaniel",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7811-s-c2-r1"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The only canned luncheon meat distributed nationally, its name is a contraction of \"spiced ham\"",
+          "answer": "Spam",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7811-s-c3-r0"
+        },
+        {
+          "question": "This vegetable, which comes in spears, was used 2.000 years ago as a medicine, not a weapon",
+          "answer": "asparagus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7811-s-c3-r1"
+        },
+        {
+          "question": "Ovo-lacto vegetarians eat dairy products, vegetable products & these",
+          "answer": "eggs",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7811-s-c3-r2"
+        },
+        {
+          "question": "Ipswich, Massachusetts is famous for this type of shellfish",
+          "answer": "clams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7811-s-c3-r3"
+        },
+        {
+          "question": "Chinese for \"golden orange\", this citrus fruit looks like a tiny, oblong orange",
+          "answer": "a kumquat",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7811-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN SONGS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "According to the minstrel song, \"There'll be\" one of these \"in the old town tonight\"",
+          "answer": "a hot time",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7811-s-c4-r0"
+        },
+        {
+          "question": "Title of the song that says, \"Be it ever so humble, there's no place like home\"",
+          "answer": "\"Home Sweet Home\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7811-s-c4-r1"
+        },
+        {
+          "question": "Paul Dresser, who wrote \"On The Banks Of The Wabash\", was a brother of this \"Sister Carrie\" author",
+          "answer": "Theodore Dreiser",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7811-s-c4-r2"
+        },
+        {
+          "question": "In this 1918 hit, subtitled \"The Stammering Song\", she's \"the only g-g-g-girl that I adore\"",
+          "answer": "\"K-K-K-Katy\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7811-s-c4-r3"
+        },
+        {
+          "question": "This plaintive Civil War song is sometimes called \"Tenting Tonight\"",
+          "answer": "\"Tenting on the Old Camp Ground\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7811-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS QUAKERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Descended from a long line of Quakers, he was the son of village blacksmith Jesse Clark Hoover",
+          "answer": "Herbert Hoover",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUAKERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7811-s-c5-r0"
+        },
+        {
+          "question": "A N.Y. Ivy League university is named for this Quaker who helped develop the U.S. telegraph system",
+          "answer": "(Ezra) Cornell",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUAKERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7811-s-c5-r1"
+        },
+        {
+          "question": "If you know a \"Whit\" about poetry, you know that this man was \"The Quaker Poet\"",
+          "answer": "John Greenleaf Whittier",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUAKERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7811-s-c5-r2"
+        },
+        {
+          "question": "Quaker author Jessamyn West's 1st novel, it was made into a film about Quakers starring Gary Cooper",
+          "answer": "Friendly Persuasion",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUAKERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7811-s-c5-r3"
+        },
+        {
+          "question": "Legend says this Quaker sewed something special for Geo. Washington in her back parlor",
+          "answer": "Betsy Ross",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUAKERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7811-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOVELS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The last name of sisters Amy, Beth. Jo & Meg",
+          "answer": "March",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOVELS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7811-d-c0-r0"
+        },
+        {
+          "question": "This novel concludes, \"After all, tomorrow is another day\"",
+          "answer": "Gone with the Wind",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOVELS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7811-d-c0-r1"
+        },
+        {
+          "question": "1 of 2 characters in \"Tom Sawyer\" who have \"Joe\" in their names",
+          "answer": "(1 of) Injun Joe (or Joe Harper)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOVELS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7811-d-c0-r2"
+        },
+        {
+          "question": "Thornton Wilder novel that delves into the lives of 5 travelers who fall to their deaths in Peru",
+          "answer": "The Bridge of San Luis Rey",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOVELS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7811-d-c0-r3"
+        },
+        {
+          "question": "Pen name of E.Z.C. Judson who originated the dime novel & gave William F. Cody his famous nickname",
+          "answer": "Ned Buntline",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOVELS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7811-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE UNIVERSE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "2 of 3 dates on which the summer solstice can occur",
+          "answer": "(2 of) June 20th & June 21 (or June 22nd)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7811-d-c1-r0"
+        },
+        {
+          "question": "Steady-state,oscillating universe & big bang",
+          "answer": "theories on how the universe was formed",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7811-d-c1-r1"
+        },
+        {
+          "question": "This \"great hunter\" seems to be hunting the 7 Pleiades of the constellation Taurus",
+          "answer": "Orion",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7811-d-c1-r2"
+        },
+        {
+          "question": "The 2 planets which have no known natural satellites",
+          "answer": "Mercury & Venus",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7811-d-c1-r3"
+        },
+        {
+          "question": "About 140 A.D. he compiled the \"Almagest\", an encyclopedia that included a star catalog",
+          "answer": "Ptolemy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7811-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD WAR II",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Col. Paul Tibbits & Major Thomas Ferebee made history on August 6, 1945 by dropping this",
+          "answer": "the atomic bomb",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7811-d-c2-r0"
+        },
+        {
+          "question": "Germany's V-2 was the world's 1st rocket-powered one",
+          "answer": "missile",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7811-d-c2-r1"
+        },
+        {
+          "question": "On Dec. 8, 1941 this country declared war on Japan hours before we did",
+          "answer": "Great Britain",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7811-d-c2-r2"
+        },
+        {
+          "question": "French town noted for its bottled drinking water & its collaborationist WWII government",
+          "answer": "Vichy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7811-d-c2-r3"
+        },
+        {
+          "question": "2 leading Nazis Hitler expelled from the party the day before he committed suicide",
+          "answer": "the deputy Fuhrer Göring & the head of the SS Heinrich Himmler",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7811-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"PORT\"s ON THE MAP",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1770 it replaced Cap-Haitien as the capital of Saint-Domingue, which is now Haiti",
+          "answer": "Port-au-Prince",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"PORT\"s ON THE MAP",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7811-d-c3-r0"
+        },
+        {
+          "question": "European country whose lavish 16th century style of architecture was known as \"Manueline\"",
+          "answer": "Portugal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"PORT\"s ON THE MAP",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7811-d-c3-r1"
+        },
+        {
+          "question": "West Coast city called America's \"City of Roses\"",
+          "answer": "Portland, Oregon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"PORT\"s ON THE MAP",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7811-d-c3-r2"
+        },
+        {
+          "question": "The construction of the Suez Canal resulted in the founding of this city",
+          "answer": "Port Said",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"PORT\"s ON THE MAP",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7811-d-c3-r3"
+        },
+        {
+          "question": "This capital of Trinidad & Tobago was founded by Spanish settlers in the 1500s",
+          "answer": "Port of Spain",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"PORT\"s ON THE MAP",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7811-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "3-SYLLABLE WORDS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Alaskan city that's bidding for the 1994 Winter Olympics",
+          "answer": "Anchorage",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-SYLLABLE WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7811-d-c4-r0"
+        },
+        {
+          "question": "The 2 colors in a rainbow that have 3 syllables are indigo & this on",
+          "answer": "violet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-SYLLABLE WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7811-d-c4-r1"
+        },
+        {
+          "question": "From Latin \"to spit on\", it's a spittoon",
+          "answer": "cuspidor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-SYLLABLE WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7811-d-c4-r2"
+        },
+        {
+          "question": "To pound, crush or grind into a powder",
+          "answer": "pulverize",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-SYLLABLE WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7811-d-c4-r3"
+        },
+        {
+          "question": "The first 3-syllable word in \"The Star-Spangled Banner\"",
+          "answer": "perilous",
+          "value": 1100,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-SYLLABLE WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7811-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS COUSINS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Sargent Shriver's distant cousin who is a tennis champion",
+          "answer": "Pam Shriver",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS COUSINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7811-d-c5-r0"
+        },
+        {
+          "question": "Country cousins Mickey Gilley, Jerry Lee Lewis & this TV evangelist were reportedly \"inseparable\" as children",
+          "answer": "Jim(my) Swaggart",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS COUSINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7811-d-c5-r1"
+        },
+        {
+          "question": "Tyrone Power was a 2nd cousin of this Tyrone, who founded a theater in Minneapolis",
+          "answer": "(Tyrone) Guthrie",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS COUSINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7811-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "MUSICALS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Lerner & Loewe musical was written directly for the screen & wasn't a Broadway musical 'til 1973",
+          "answer": "Gigi",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MUSICALS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7811-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

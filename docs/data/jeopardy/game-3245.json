@@ -1,0 +1,833 @@
+{
+  "gameId": 3245,
+  "showNumber": 4488,
+  "airDate": "February 25, 2004",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATE CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A bronze statue known as \"The Independent Man\" tops the Rhode Island state house in this city",
+          "answer": "Providence",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3245-s-c0-r0"
+        },
+        {
+          "question": "Opened in 1917, the Museum of Fine Arts in this city was built in the Pueblo Revival style",
+          "answer": "Santa Fe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3245-s-c0-r1"
+        },
+        {
+          "question": "Hollywood Cemetery in this city is the final resting place of James Monroe, John Tyler & Jefferson Davis",
+          "answer": "Richmond",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3245-s-c0-r2"
+        },
+        {
+          "question": "This city dropped the word \"Great\" from its name in 1868, while it was still a territorial capital",
+          "answer": "Salt Lake City",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3245-s-c0-r3"
+        },
+        {
+          "question": "The exterior of the gov.'s mansion in Tallahassee was inspired by the Hermitage in this other state capital",
+          "answer": "Nashville",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3245-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GREAT OL' SONGS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This U.S. state \"here I come, right back where I started from\"",
+          "answer": "California",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT OL' SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3245-s-c1-r0"
+        },
+        {
+          "question": "\"Ev'ry morning, ev'ry evening, ain't we got\" this",
+          "answer": "fun",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT OL' SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3245-s-c1-r1"
+        },
+        {
+          "question": "\"When\" this man \"comes marching home again, hurrah, hurrah\"",
+          "answer": "Johnny",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT OL' SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3245-s-c1-r2"
+        },
+        {
+          "question": "This title completes the line \"Now I ask you very confidentially...\"",
+          "answer": "\"Ain't She Sweet\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT OL' SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3245-s-c1-r3"
+        },
+        {
+          "question": "\"I'm looking over\" one of these \"that I overlooked before\"",
+          "answer": "a four-leaf clover",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT OL' SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3245-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT'S THAT CALLED?",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Dottle is the plug of ash you knock out of this",
+          "answer": "pipe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3245-s-c2-r0"
+        },
+        {
+          "question": "As its name indicates, this device divides a cable signal before it enters your TV set",
+          "answer": "splitter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3245-s-c2-r1"
+        },
+        {
+          "question": "Sir, you verily have offended me & if you'll not step aside I'll knock that cockade off this & into yon gutter",
+          "answer": "your head (or your hat)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3245-s-c2-r2"
+        },
+        {
+          "question": "The 4 sections attached to these to help them go straight in barrooms are called flights",
+          "answer": "darts",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3245-s-c2-r3"
+        },
+        {
+          "question": "Seen here is an instance of this type of sign",
+          "answer": "a fingerpost sign",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THAT CALLED?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3245-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL NAME FACTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Alphabetically by first name, he's listed last",
+          "answer": "Zachary Taylor",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NAME FACTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3245-s-c3-r0"
+        },
+        {
+          "question": "Alphabetically by last name, he's listed last",
+          "answer": "Woodrow Wilson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NAME FACTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3245-s-c3-r1"
+        },
+        {
+          "question": "He's the only president whose wife did not change her last name after he married her",
+          "answer": "FDR",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NAME FACTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3245-s-c3-r2"
+        },
+        {
+          "question": "He's the only president with a 2-word last name",
+          "answer": "Martin Van Buren",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NAME FACTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3245-s-c3-r3"
+        },
+        {
+          "question": "At 10 letters, he has the longest single middle name",
+          "answer": "John Fitzgerald Kennedy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NAME FACTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3245-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "A GREEN CATEGORY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's the name of this experienced, yet still \"Green\" politician",
+          "answer": "Ralph Nader",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A GREEN CATEGORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3245-s-c4-r0"
+        },
+        {
+          "question": "Seen here is the cover illustration from this classic children's book",
+          "answer": "Green Eggs and Ham",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A GREEN CATEGORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3245-s-c4-r1"
+        },
+        {
+          "question": "Happy hero of Green Bay, seen here",
+          "answer": "Vince Lombardi",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A GREEN CATEGORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3245-s-c4-r2"
+        },
+        {
+          "question": "A cross-section of this green treat is seen here",
+          "answer": "kiwi",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A GREEN CATEGORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3245-s-c4-r3"
+        },
+        {
+          "question": "Comic book evildoer seen here",
+          "answer": "the Green Goblin",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A GREEN CATEGORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3245-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FITS \"U\" TO A \"T\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "If you've wrecked someone's careful planning, you've done this to the applecart",
+          "answer": "upset",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FITS \"U\" TO A \"T\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3245-s-c5-r0"
+        },
+        {
+          "question": "The condition of an apple pie fresh out of the oven, it's also how I like my movies",
+          "answer": "uncut",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FITS \"U\" TO A \"T\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3245-s-c5-r1"
+        },
+        {
+          "question": "Apple pie is often rich, so it makes sense that this part of the pie is a synonym for \"rich\"",
+          "answer": "the upper crust",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FITS \"U\" TO A \"T\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3245-s-c5-r2"
+        },
+        {
+          "question": "Saying that Dutch apple pie is just good is one of these, because it's the best dessert on Earth",
+          "answer": "an understatement",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FITS \"U\" TO A \"T\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3245-s-c5-r3"
+        },
+        {
+          "question": "If a bakery spends $12 producing 6 apple tarts, this cost is $2",
+          "answer": "a unit",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FITS \"U\" TO A \"T\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3245-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARCHITECTURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A small campanile, hopefully batless",
+          "answer": "belfry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3245-d-c0-r0"
+        },
+        {
+          "question": "This 12th century style was revived in Europe in the 19th century & used for churches into the 20th century",
+          "answer": "Gothic",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3245-d-c0-r1"
+        },
+        {
+          "question": "Wallace K. Harrison met with success designing this theater for Lincoln Center",
+          "answer": "the Metropolitan Opera House",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3245-d-c0-r2"
+        },
+        {
+          "question": "(Sarah of the Clue Crew reports.)  This railing system often seen on balconies includes a top rail, balusters, & sometimes a bottom rail",
+          "answer": "a balustrade",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3245-d-c0-r3"
+        },
+        {
+          "question": "This early 20th century school designed with horizontal lines like the flatness of the land in the Midwest",
+          "answer": "the Prairie School",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3245-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE EUROPEAN DIRECTOR'S CHAIR",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Two Men and a Wardrobe\",\"Death and the Maiden\",\"The Pianist\"",
+          "answer": "Roman Polanski",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EUROPEAN DIRECTOR'S CHAIR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3245-d-c1-r0"
+        },
+        {
+          "question": "\"Amarcord\",\"La Strada\",\"La Dolce Vita\"",
+          "answer": "Federico Fellini",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EUROPEAN DIRECTOR'S CHAIR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3245-d-c1-r1"
+        },
+        {
+          "question": "\"Fahrenheit 451\",\"Jules and Jim\",\"The 400 Blows\"",
+          "answer": "Francois Truffaut",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EUROPEAN DIRECTOR'S CHAIR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3245-d-c1-r2"
+        },
+        {
+          "question": "\"Tie Me Up!  Tie Me Down!\",\"High Heels\",\"Talk to Her\"",
+          "answer": "Pedro Almodovar",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EUROPEAN DIRECTOR'S CHAIR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3245-d-c1-r3"
+        },
+        {
+          "question": "\"Mona Lisa\",\"The Crying Game\",\"Interview with the Vampire\"",
+          "answer": "Neil Jordan",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EUROPEAN DIRECTOR'S CHAIR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3245-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "EPHEN STEPHEN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "With his \"Company\" & \"Follies\", he can stand side-by-side with the best of Broadway's composers",
+          "answer": "Stephen Sondheim",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPHEN STEPHEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3245-d-c2-r0"
+        },
+        {
+          "question": "With Steven Jobs he created a new Apple for your teacher",
+          "answer": "Steve Wozniak",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPHEN STEPHEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3245-d-c2-r1"
+        },
+        {
+          "question": "The state university in Nacogdoches, Texas is named for him",
+          "answer": "Stephen (F.) Austin",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPHEN STEPHEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3245-d-c2-r2"
+        },
+        {
+          "question": "One of the commodores seen here",
+          "answer": "Stephen Decatur",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EPHEN STEPHEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3245-d-c2-r3"
+        },
+        {
+          "question": "He was such a great poet that his unfinished \"Western Star\" won him a Pulitzer (his second) in 1944",
+          "answer": "Stephen Vincent Benet",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPHEN STEPHEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3245-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORD & PHRASE ORIGINS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Used to express a ratio, it's from the Latin for \"by the hundred\"",
+          "answer": "percent",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD & PHRASE ORIGINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3245-d-c3-r0"
+        },
+        {
+          "question": "Now a final resting place for great people, it was originally a great banquet hall for Norse gods",
+          "answer": "Valhalla",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD & PHRASE ORIGINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3245-d-c3-r1"
+        },
+        {
+          "question": "Latin for \"cross\", it's the critical point or feature of an argument",
+          "answer": "crux",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD & PHRASE ORIGINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3245-d-c3-r2"
+        },
+        {
+          "question": "From the Hungarian for \"shepherd\", it came to mean shepherds' food, a stew of meat & vegetables",
+          "answer": "goulash",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD & PHRASE ORIGINS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3245-d-c3-r3"
+        },
+        {
+          "question": "Some say \"Great Scott!\" began as a tribute to the exploits of this Mexican War hero",
+          "answer": "Winfield Scott",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD & PHRASE ORIGINS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3245-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "7th CENTURY HEADLINES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Reports Say the First Observance of This October 31st Holiday Held",
+          "answer": "Halloween",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7th CENTURY HEADLINES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3245-d-c4-r0"
+        },
+        {
+          "question": "Rhodes Invaded by the Arabs; This Ancient Wonder's Remains Sold Off",
+          "answer": "the Colossus of Rhodes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7th CENTURY HEADLINES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3245-d-c4-r1"
+        },
+        {
+          "question": "Vitalian Elected to This Religious Post; Serves for 15 Years",
+          "answer": "pope",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7th CENTURY HEADLINES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3245-d-c4-r2"
+        },
+        {
+          "question": "The Avars Attack the Byzantine Capital City Called This",
+          "answer": "Constantinople",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7th CENTURY HEADLINES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3245-d-c4-r3"
+        },
+        {
+          "question": "Saint David, Patron Saint of This U.K. Country, Passes on to His Heavenly Reward",
+          "answer": "Wales",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7th CENTURY HEADLINES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3245-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"NEW\"S",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's put out by the Washington Post Company's magazine publishing division",
+          "answer": "Newsweek",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"NEW\"S",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3245-d-c5-r0"
+        },
+        {
+          "question": "\"Space Aliens Are Here for our Toothpaste!\" is a typical headline of this American media publication",
+          "answer": "the Weekly World News",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"NEW\"S",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3245-d-c5-r1"
+        },
+        {
+          "question": "Jay McInerney worked as a fact-checker at this magazine & portrayed it in \"Bright Lights, Big City\"",
+          "answer": "The New Yorker",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"NEW\"S",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3245-d-c5-r2"
+        },
+        {
+          "question": "Journalist/novelist Pete Hamill has been editor-in-chief of the New York Post & this paper",
+          "answer": "the (New York) Daily News",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"NEW\"S",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3245-d-c5-r3"
+        },
+        {
+          "question": "The 2003 movie \"Shattered Glass\" is set at this political magazine",
+          "answer": "The New Republic",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"NEW\"S",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3245-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ASTRONOMY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The name of Mintaka, a star in this constellation, is from the Arabic for \"belt\"",
+          "answer": "Orion",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ASTRONOMY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3245-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

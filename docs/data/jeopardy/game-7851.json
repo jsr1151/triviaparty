@@ -1,0 +1,773 @@
+{
+  "gameId": 7851,
+  "showNumber": 303,
+  "airDate": "November 6, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "PREHISTORIC ANIMALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Called \"king of the meat eaters\" since was the largest meat eater ever, on land",
+          "answer": "Tyrannosaurus rex",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PREHISTORIC ANIMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7851-s-c0-r0"
+        },
+        {
+          "question": "Though the Archaeopteryx had teeth & bony tail, it is considered the earliest of these",
+          "answer": "a bird",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PREHISTORIC ANIMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7851-s-c0-r1"
+        },
+        {
+          "question": "Most dinosaur fossils found in the western U.S. are of this one whose name means three-horned face",
+          "answer": "Triceratops",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PREHISTORIC ANIMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7851-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "AESOP'S FABLES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "He may have won the race with the hare but the eagle & the crow had him for lunch",
+          "answer": "the tortoise",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AESOP'S FABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7851-s-c1-r0"
+        },
+        {
+          "question": "Hercules & the wagoner tells us, \"The gods help them that\" do this",
+          "answer": "helps themselves",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AESOP'S FABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7851-s-c1-r1"
+        },
+        {
+          "question": "In exchange for not being eaten it later freed the lion from a trap",
+          "answer": "the mouse",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AESOP'S FABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7851-s-c1-r2"
+        },
+        {
+          "question": "Killing this proved greed often overreaches itself",
+          "answer": "the goose that laid the golden eggs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AESOP'S FABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7851-s-c1-r3"
+        },
+        {
+          "question": "How the bundle of sticks was broken to prove unity in strength",
+          "answer": "one by one",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AESOP'S FABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7851-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEW JERSEY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "While casino gambling is legal throughout Nevada, in New Jersey it's legal only there",
+          "answer": "Atlantic City",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW JERSEY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7851-s-c2-r0"
+        },
+        {
+          "question": "The 2 New Jersey boys heard here:\"Say you walk into a restaurant... you know what that cow gives... you gotta take it away...\"",
+          "answer": "Abbott & Costello",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW JERSEY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7851-s-c2-r1"
+        },
+        {
+          "question": "In 1783 this university town served briefly as U.S. capital",
+          "answer": "Princeton",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW JERSEY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7851-s-c2-r2"
+        },
+        {
+          "question": "Nationally televised annual event that takes place in New Jersey each September",
+          "answer": "the Miss America contest",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW JERSEY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7851-s-c2-r3"
+        },
+        {
+          "question": "Heavyweight champ Arnold Cream was better known by this name which links him with his home state",
+          "answer": "Jersey Joe Walcott",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW JERSEY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7851-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "An action doll & adult vitamins are among merchandizing of this Stallone character",
+          "answer": "Rambo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7851-s-c3-r0"
+        },
+        {
+          "question": "In 1984 this moppet was a \"Firestarter\"",
+          "answer": "Drew Barrymore",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7851-s-c3-r1"
+        },
+        {
+          "question": "In 1985 as Brewster he had \"Millions\"",
+          "answer": "Richard Pryor",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7851-s-c3-r2"
+        },
+        {
+          "question": "The \"Raging Bull\" who wanted to be \"The King of Comedy\"",
+          "answer": "Robert De Niro",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7851-s-c3-r3"
+        },
+        {
+          "question": "He was court-martialed as General Billy Mitchell",
+          "answer": "Gary Cooper",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7851-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSEUMS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In museums this is controlled to keep paintings & fabrics from fading",
+          "answer": "the lighting",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7851-s-c4-r0"
+        },
+        {
+          "question": "In 1683, the 1st public museum, the Ashmolean opened at this British university",
+          "answer": "Oxford",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7851-s-c4-r1"
+        },
+        {
+          "question": "Of the approximately 18,000 museums in the world 1/3 are in this nation",
+          "answer": "the United States",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7851-s-c4-r2"
+        },
+        {
+          "question": "Museum is from Greek for a \"shrine sacred to these\"",
+          "answer": "the Muses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7851-s-c4-r3"
+        },
+        {
+          "question": "Visitors were once required to wear court costume at this Leningrad museum",
+          "answer": "the Hermitage",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7851-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PUNCHLINES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "To get to the other side",
+          "answer": "Why did the chicken cross the road?",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUNCHLINES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7851-s-c5-r0"
+        },
+        {
+          "question": "To hold up his pants",
+          "answer": "Why does a fireman wear red suspenders?",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUNCHLINES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7851-s-c5-r1"
+        },
+        {
+          "question": "A newspaper or a sunburned zebra",
+          "answer": "black & white & red all over",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUNCHLINES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7851-s-c5-r2"
+        },
+        {
+          "question": "Take away his credit card",
+          "answer": "how do you keep an elephant from charging",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUNCHLINES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7851-s-c5-r3"
+        },
+        {
+          "question": "Why we serve everyone, sir, sit down",
+          "answer": "do you serve crabs here (do you serve shrimp here)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUNCHLINES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7851-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIVIL WAR",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "About 31,000 Tennesseans fought on this side",
+          "answer": "the North",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7851-d-c0-r0"
+        },
+        {
+          "question": "Later president, he was only senator from a Confederate state who stayed loyal to the Union",
+          "answer": "Andrew Johnson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7851-d-c0-r1"
+        },
+        {
+          "question": "A popular Yankee song calls for hanging Jeff Davis from this type of tree",
+          "answer": "a sour apple tree",
+          "value": 1700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7851-d-c0-r2"
+        },
+        {
+          "question": "The 1st shots of the Civil War were fired by cadets at this South Carolina military college",
+          "answer": "the Citadel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7851-d-c0-r3"
+        },
+        {
+          "question": "Bloodiest single day's battle in American history occurred at this Maryland creek",
+          "answer": "Antietam",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7851-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLANTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Used for malting in beer, this cereal was grown by the ancient Egyptians",
+          "answer": "barley",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7851-d-c1-r0"
+        },
+        {
+          "question": "The genus Ficus includes fig trees, the banyan tree & this latex laden shrub",
+          "answer": "the rubber tree (India rubber plant)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7851-d-c1-r1"
+        },
+        {
+          "question": "In the 17th & 18th centuries only this mineral was more desired than sassafras as a New World export",
+          "answer": "gold",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7851-d-c1-r2"
+        },
+        {
+          "question": "This aquatic sandwich & salad green belongs to the nasturtium family",
+          "answer": "watercress",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7851-d-c1-r3"
+        },
+        {
+          "question": "This very expensive spice produces a yellow dye which was once the royal color of ancient Greece",
+          "answer": "saffron",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7851-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"FRED\"",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On the 1950s \"Today Show\" Dave Garroway was often upstaged by this chimp",
+          "answer": "(J. Fred) Muggs",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7851-d-c2-r0"
+        },
+        {
+          "question": "The Smithsonian now displays the red cardigan of this PBS children's star",
+          "answer": "Mister Rogers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7851-d-c2-r1"
+        },
+        {
+          "question": "Knighted by the queen this discount airline pioneer may yet start another airline",
+          "answer": "Freddie Laker",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7851-d-c2-r2"
+        },
+        {
+          "question": "Also known as Baldemar Huerta, this country singer is perhaps best known for \"Wasted Days & Wasted Nights\"",
+          "answer": "Freddie Fender",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7851-d-c2-r3"
+        },
+        {
+          "question": "German legend says this Holy Roman Emperor never died but sleeps until his red beard circle the table",
+          "answer": "Frederick Barbarossa",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7851-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ETHIOPIA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In Greek myth the princess of Ethiopia or in Michael Crichton's book, a \"Strain\"",
+          "answer": "Andromeda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ETHIOPIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7851-d-c3-r0"
+        },
+        {
+          "question": "According to legend the 1st to arrive to celebrate his birth was an Ethiopian named Balthazar",
+          "answer": "Jesus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ETHIOPIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7851-d-c3-r1"
+        },
+        {
+          "question": "He was Ethiopia's last emperor",
+          "answer": "Haile Selassie",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ETHIOPIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7851-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Tradition says Peter was crucified this way",
+          "answer": "upside down",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7851-d-c4-r0"
+        },
+        {
+          "question": "Taoism began as a reaction against this Chinese religious philosophy",
+          "answer": "Confucianism",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7851-d-c4-r1"
+        },
+        {
+          "question": "In 1553 this Protestant reformer had radical theologian Michael Servetus burned in Geneva",
+          "answer": "John Calvin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7851-d-c4-r2"
+        },
+        {
+          "question": "The Muslim calendar dates from the 622 A.D. flight of Mohammed to this 2nd holiest city in Islam",
+          "answer": "Medina",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7851-d-c4-r3"
+        },
+        {
+          "question": "Controversial theology of some Catholic priests who hold Catholicism & Marxism are compatible",
+          "answer": "Liberation Theology",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7851-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MICKEY MOUSE CLUB",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The original Mouseketeers were introduced at this park's opening in 1955",
+          "answer": "Disneyland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MICKEY MOUSE CLUB",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7851-d-c5-r0"
+        },
+        {
+          "question": "The \"Big Mooseketeer\", he also designed the hats",
+          "answer": "Roy Williams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MICKEY MOUSE CLUB",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7851-d-c5-r1"
+        },
+        {
+          "question": "The incantation for Moose Cartoon Time to begin",
+          "answer": "Meeska, Mooska, Mouseketeers",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MICKEY MOUSE CLUB",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7851-d-c5-r2"
+        },
+        {
+          "question": "These characters last names were Evans & Markham",
+          "answer": "Spin & Marty",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MICKEY MOUSE CLUB",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7851-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "LAKES & RIVERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 2 Great Lakes that border on Wisconsin",
+          "answer": "Lake Superior & Lake Michigan",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "LAKES & RIVERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7851-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

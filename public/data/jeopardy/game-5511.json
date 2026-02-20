@@ -1,0 +1,773 @@
+{
+  "gameId": 5511,
+  "showNumber": 7453,
+  "airDate": "January 25, 2017",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. ISLANDS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Long Island has 4 counties: Nassau, Suffolk, Kings & this",
+          "answer": "Queens",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. ISLANDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5511-s-c0-r0"
+        },
+        {
+          "question": "East Sand Island in this river near Chinook, Wash. is home to a vast nesting colony of Caspian terns",
+          "answer": "the Columbia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. ISLANDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5511-s-c0-r1"
+        },
+        {
+          "question": "This island shaped like a pork chop is to the east of Martha's Vineyard across Muskeget Channel",
+          "answer": "Nantucket",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. ISLANDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5511-s-c0-r2"
+        },
+        {
+          "question": "The Karluk River on this largest Alaskan island is famous for its red salmon, but you'll have to fight the bears for them",
+          "answer": "Kodiak",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. ISLANDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5511-s-c0-r3"
+        },
+        {
+          "question": "For 3 decades, this California island's Avalon Ballroom has been home to the JazzTrax music festival",
+          "answer": "Catalina",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. ISLANDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5511-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE YELLOW HORNET",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Most hornets are a subfamily of these other insects; they differ in the direction their wings fold while at rest",
+          "answer": "wasps",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE YELLOW HORNET",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5511-s-c1-r0"
+        },
+        {
+          "question": "How green! The yellow band on the Oriental hornet's midsection allows it to trap this type of energy",
+          "answer": "sunlight",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE YELLOW HORNET",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5511-s-c1-r1"
+        },
+        {
+          "question": "Though they're often confused with them, these Georgia Tech mascots aren't true hornets",
+          "answer": "yellow jackets",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE YELLOW HORNET",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5511-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS ABBREV.",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It happens following another score: PAT",
+          "answer": "a point after touchdown",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS ABBREV.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5511-s-c2-r0"
+        },
+        {
+          "question": "In skiing it's all down hill, with obstacles:GS",
+          "answer": "giant slalom",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS ABBREV.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5511-s-c2-r1"
+        },
+        {
+          "question": "A group for pugilists:WBC",
+          "answer": "World Boxing Council",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS ABBREV.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5511-s-c2-r2"
+        },
+        {
+          "question": "Bad designation for a NASCAR driver:DNF",
+          "answer": "did not finish",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS ABBREV.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5511-s-c2-r3"
+        },
+        {
+          "question": "Successes in basketball as well as football:FGM",
+          "answer": "field goal made",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS ABBREV.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5511-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESSES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Beginning in 1904 chubby cartoon kids called Roly-Polys advertised this soup brand",
+          "answer": "Campbell's Soup",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5511-s-c3-r0"
+        },
+        {
+          "question": "This company's 1st product was wood picture frames; doll furniture made from wood scraps changed its emphasis to toys",
+          "answer": "Mattel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5511-s-c3-r1"
+        },
+        {
+          "question": "In 1903 William Ellis Corey became the second president of this iron-strong company",
+          "answer": "U.S. Steel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5511-s-c3-r2"
+        },
+        {
+          "question": "In 1915 Thomas Lyle Williams began selling mascara under this brand name that honored his sister",
+          "answer": "Maybelline",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5511-s-c3-r3"
+        },
+        {
+          "question": "Last name of Henry David, whose Kansas company started making dungarees in 1911",
+          "answer": "Lee",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5511-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAILOR TALK",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "7-letter term for the fixed weight carried in the bottom of a ship to make it more stable",
+          "answer": "ballast",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5511-s-c4-r0"
+        },
+        {
+          "question": "Watch your head when the crew lowers this, also an item used on a movie set",
+          "answer": "the boom",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5511-s-c4-r1"
+        },
+        {
+          "question": "This process of removing a ship from active service can be emotional for the crew",
+          "answer": "decommission",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5511-s-c4-r2"
+        },
+        {
+          "question": "The direction a boat is heading can be referred to by this \"pointy\" term",
+          "answer": "tack",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5511-s-c4-r3"
+        },
+        {
+          "question": "It sounds a bit like the boss of the boat, but it means the type of rope-winding apparatus seen here",
+          "answer": "capstan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5511-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THREE SHEETS TO THE WIND",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "You could be this briny word usually reserved for cucumbers & the sort",
+          "answer": "pickled",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THREE SHEETS TO THE WIND",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5511-s-c5-r0"
+        },
+        {
+          "question": "After that last glass of Chablis, I'm this, what the smith just did at the anvil",
+          "answer": "hammered",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THREE SHEETS TO THE WIND",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5511-s-c5-r1"
+        },
+        {
+          "question": "This 4-word rhyming term for one who has been overserved includes the name of a black & white mammal",
+          "answer": "drunk as a skunk",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THREE SHEETS TO THE WIND",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5511-s-c5-r2"
+        },
+        {
+          "question": "I'm this, like a wall that's had wet gypsum applied",
+          "answer": "plastered",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THREE SHEETS TO THE WIND",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5511-s-c5-r3"
+        },
+        {
+          "question": "This is bad if you're hoping for sober, but good if it describes your abs or an '80s jeans style",
+          "answer": "ripped",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THREE SHEETS TO THE WIND",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5511-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE WORKS OF ROBERT LOUIS STEVENSON",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Seen here is an illustration from this novel",
+          "answer": "Treasure Island",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WORKS OF ROBERT LOUIS STEVENSON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5511-d-c0-r0"
+        },
+        {
+          "question": "These 2 characters finish the title of Stevenson's novel that begins \"The Strange Case of\"...",
+          "answer": "Dr. Jekyll and Mr. Hyde",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WORKS OF ROBERT LOUIS STEVENSON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5511-d-c0-r1"
+        },
+        {
+          "question": "Stevenson's short novel \"The Ebb-Tide\" follows 3 beggars operating in the port of Papeete on this Pacific island",
+          "answer": "Tahiti",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE WORKS OF ROBERT LOUIS STEVENSON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5511-d-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE MUSICAL ROLES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Kenny Wormald & Julianne Hough starred in this remake in which rock music & dancing are banned in a small town",
+          "answer": "Footloose",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICAL ROLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5511-d-c1-r0"
+        },
+        {
+          "question": "Meryl Streep landed a record 19th Oscar nomination for her role as the Witch in this musical",
+          "answer": "Into the Woods",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICAL ROLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5511-d-c1-r1"
+        },
+        {
+          "question": "At the time Madonna said of this 1996 role, it was the most challenging of her career but one she was born to play",
+          "answer": "Evita",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICAL ROLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5511-d-c1-r2"
+        },
+        {
+          "question": "Peter O'Toole dreamed \"The Impossible Dream\" when he played Don Quixote in this film",
+          "answer": "Man of La Mancha",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICAL ROLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5511-d-c1-r3"
+        },
+        {
+          "question": "She played Coco & sang the title tune form \"Fame\"-- she was gonna live forever... do you remember her name?",
+          "answer": "Irene Cara",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICAL ROLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5511-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE WORLD AT WAR",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In October 1940 Italy launched an invasion of this country only to get routed by the gyros of General Papagos",
+          "answer": "Greece",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD AT WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5511-d-c2-r0"
+        },
+        {
+          "question": "On Dec. 2, 1941 German troops who wished they'd packed heavier got to the suburbs of this capital but no further",
+          "answer": "Moscow",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD AT WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5511-d-c2-r1"
+        },
+        {
+          "question": "(Sarah of the Clue Crew shows an animated map on the monitor.) In July 1943, this U.S. general's Seventh Army swept through western Sicily, then turned east to help Montgomery's British Eighth",
+          "answer": "Patton",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD AT WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5511-d-c2-r2"
+        },
+        {
+          "question": "On Oct. 20, 1944 Douglas MacArthur fulfilled this 3-word promise he'd made to the Philippine people in 1942",
+          "answer": "\"I shall return\"",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD AT WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5511-d-c2-r3"
+        },
+        {
+          "question": "This Japanese admiral planned and led the 1941 attack on Pearl Harbor",
+          "answer": "Admiral Yamamoto",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD AT WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5511-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAR OUT!",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "During its 1910 appearance, this comet was photographed for the first time",
+          "answer": "Halley's comet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAR OUT!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5511-d-c3-r0"
+        },
+        {
+          "question": "One theory for why dust covers our moon: rocks are pulverized by rapid cooling during this, partial or total",
+          "answer": "eclipse",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAR OUT!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5511-d-c3-r1"
+        },
+        {
+          "question": "The 5th-brightest star in the nighttime sky, Vega is often called the harp star because it's in this harp constellation",
+          "answer": "Lyra",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAR OUT!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5511-d-c3-r2"
+        },
+        {
+          "question": "This mount's observatory was built in 1904 near Pasadena because the air above it is the steadiest in North America",
+          "answer": "Mount Wilson",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAR OUT!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5511-d-c3-r3"
+        },
+        {
+          "question": "This largest moon of Jupiter has a thin oxygen atmosphere & is the solar system's only moon to have a magnetosphere",
+          "answer": "Ganymede",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAR OUT!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5511-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WE HAVE \"U\" SURROUNDED!",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Victory, or an insult comic dog",
+          "answer": "Triumph",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE HAVE \"U\" SURROUNDED!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5511-d-c4-r0"
+        },
+        {
+          "question": "The science of soil cultivation",
+          "answer": "agriculture",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WE HAVE \"U\" SURROUNDED!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5511-d-c4-r1"
+        },
+        {
+          "question": "Done without volition, be it muscles or manslaughter",
+          "answer": "involuntary",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE HAVE \"U\" SURROUNDED!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5511-d-c4-r2"
+        },
+        {
+          "question": "To attest to someone's character",
+          "answer": "vouch",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WE HAVE \"U\" SURROUNDED!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5511-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "OVER HILL, OVER DALE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This NASCAR driver entered 676 Winston Cup races, won 76 of them & earned more than $40 million in prize money",
+          "answer": "Dale Earnhardt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OVER HILL, OVER DALE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5511-d-c5-r0"
+        },
+        {
+          "question": "In 2016, 25 years after she made national news, she was portrayed by Kerry Washington in \"Confirmation\"",
+          "answer": "Anita Hill",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OVER HILL, OVER DALE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5511-d-c5-r1"
+        },
+        {
+          "question": "He compiled \"Little Known Facts About Well Known People\" 2 years before telling us how to influence people (in general)",
+          "answer": "(Dale) Carnegie",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OVER HILL, OVER DALE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5511-d-c5-r2"
+        },
+        {
+          "question": "Oliver Hill argued in lawsuits against segregated public schools, leading to this landmark 1954 Supreme Court case",
+          "answer": "Brown v. Board of Education",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OVER HILL, OVER DALE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5511-d-c5-r3"
+        },
+        {
+          "question": "Clint Hill, an agent with this part of the government from 1958 to 1975, leaped to fame in November 1963",
+          "answer": "Secret Service",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OVER HILL, OVER DALE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5511-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGIOUS GROUPS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Their name comes from the Greek word for \"Egyptian\"",
+          "answer": "the Copts (or Coptics)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "RELIGIOUS GROUPS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5511-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

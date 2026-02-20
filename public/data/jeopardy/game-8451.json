@@ -1,0 +1,833 @@
+{
+  "gameId": 8451,
+  "showNumber": 2315,
+  "airDate": "September 30, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATE CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Delaware capital boasts some fine examples of Victorian architecture",
+          "answer": "Dover",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8451-s-c0-r0"
+        },
+        {
+          "question": "This city's Frontier Days is the most popular annual event in Wyoming",
+          "answer": "Cheyenne",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8451-s-c0-r1"
+        },
+        {
+          "question": "This Washington city's Japanese garden commemorates its sister city relationship with Yashiro, Japan",
+          "answer": "Olympia",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8451-s-c0-r2"
+        },
+        {
+          "question": "In December candlelight pub crawls led by guides in colonial costume take place in this Maryland capital",
+          "answer": "Annapolis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8451-s-c0-r3"
+        },
+        {
+          "question": "The Sunrise Museum in this West Virginia capital includes a planetarium & an art museum",
+          "answer": "Charleston",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8451-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NURSERY RHYMES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Did you ever see such a sight in your life, as\" this trio",
+          "answer": "three blind mice",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8451-s-c1-r0"
+        },
+        {
+          "question": "The kind of low seat little Miss Muffet sat on; it wasn't spider-proof",
+          "answer": "A tuffet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8451-s-c1-r1"
+        },
+        {
+          "question": "He's \"the boy who looks after the sheep\" & \"he's under the haystack fast asleep\"",
+          "answer": "Little Boy Blue",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8451-s-c1-r2"
+        },
+        {
+          "question": "\"Little Jack Horner sat in the corner, eating a\" pie named for this holiday",
+          "answer": "Christmas",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8451-s-c1-r3"
+        },
+        {
+          "question": "Despite being baked in a pie, four and twenty blackbirds recovered & did this \"when the pie was opened\"",
+          "answer": "\"began to sing\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8451-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHIPS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "At the Battle of Trafalgar in 1805, his flagship, the Victory, was 40 years old",
+          "answer": "Lord Nelson",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8451-s-c2-r0"
+        },
+        {
+          "question": "In 1821 Great Britain launched the Aaron Manby, the first iron- hulled ship powered by this",
+          "answer": "a steam engine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8451-s-c2-r1"
+        },
+        {
+          "question": "Launched in 1853, the Great Republic, one of these speedy ships, was the largest sailing ship of its time",
+          "answer": "a clipper ship",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8451-s-c2-r2"
+        },
+        {
+          "question": "In 1839 this steamship line was founded as the British and North American Royal Mail Steam Packet Company",
+          "answer": "Cunard",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8451-s-c2-r3"
+        },
+        {
+          "question": "In 1942 a fire destroyed this country's ocean liner The Normandie as it lay in New York Harbor",
+          "answer": "France",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8451-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "1960",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "On January 2 this Massachusetts Democrat announced his candidacy for president",
+          "answer": "John Kennedy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8451-s-c3-r0"
+        },
+        {
+          "question": "This fast food chain had its beginnings when Tom Monaghan & his brother took over a Michigan pizzeria",
+          "answer": "Domino's",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8451-s-c3-r1"
+        },
+        {
+          "question": "In February Crown Princess Michiko gave birth to Naruhito & Queen Elizabeth gave birth to this son",
+          "answer": "Prince Andrew",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8451-s-c3-r2"
+        },
+        {
+          "question": "At 12:01 A.M. on July 4, the new 50-star flag was raised at this national monument",
+          "answer": "Fort McHenry",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8451-s-c3-r3"
+        },
+        {
+          "question": "This philanthropist who donated land for the U.N. building died at age 86",
+          "answer": "John (D.) Rockefeller (Jr.)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8451-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "HINTS FROM HELOISE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Heloise suggests putting Easter eggs in a small trash can or football helmet instead of this typical container",
+          "answer": "a basket",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8451-s-c4-r0"
+        },
+        {
+          "question": "Heloise hints that it's easier to do this to Brazil nuts if you freeze them first",
+          "answer": "remove the shell (crack them)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8451-s-c4-r1"
+        },
+        {
+          "question": "Heloise makes a deodorizing sachet by pouring baking soda into one of these filters & taping it shut",
+          "answer": "a coffee filter",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8451-s-c4-r2"
+        },
+        {
+          "question": "Heloise makes a homemade polish for this by boiling a quart of beer with a little sugar & some beeswax",
+          "answer": "furniture",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8451-s-c4-r3"
+        },
+        {
+          "question": "One of Heloise's fans recommends putting dry beans in your tennis shoes to give yourself one of these",
+          "answer": "a massage",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8451-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LEGAL \"E\"s",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This term is from Latin meaning \"and others\"",
+          "answer": "et al.",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGAL \"E\"s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8451-s-c5-r0"
+        },
+        {
+          "question": "This one of the three branches of government is charged with the detail of carrying the laws into effect",
+          "answer": "the executive branch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGAL \"E\"s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8451-s-c5-r1"
+        },
+        {
+          "question": "Obtaining property or money from another by coercion or intimidation is called this",
+          "answer": "extortion",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGAL \"E\"s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8451-s-c5-r2"
+        },
+        {
+          "question": "A legal prohibition on commerce, the U.S. imposed one on exports to Cuba over 30 years ago",
+          "answer": "an embargo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGAL \"E\"s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8451-s-c5-r3"
+        },
+        {
+          "question": "A right to benefits, like Social Security, which may not be abridged without due process",
+          "answer": "an entitlement",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGAL \"E\"s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8451-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1524 an epidemic, possibly smallpox, swept through this South American empire, killing millions",
+          "answer": "the Incan Empire",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8451-d-c0-r0"
+        },
+        {
+          "question": "Between 1213 & 1215, he conquered most of the Chin Empire of northern China",
+          "answer": "Genghis Khan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8451-d-c0-r1"
+        },
+        {
+          "question": "In 1976 this country gave Transkei its independence but other countries did not recognize it",
+          "answer": "South Africa",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8451-d-c0-r2"
+        },
+        {
+          "question": "In 1967 this head of Romania's Communist Party became his country's head of state",
+          "answer": "Nicolae Ceausescu",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8451-d-c0-r3"
+        },
+        {
+          "question": "The Danish Constitution was amended in 1953, allowing her to succeed her father as sovereign",
+          "answer": "Queen Margrethe (II)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8451-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HONG KONG",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A few of these 2-wheeled, man-pulled vehicles still exist, but they're dwindling in number",
+          "answer": "rickshaws",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HONG KONG",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8451-d-c1-r0"
+        },
+        {
+          "question": "This unit of currency has an exchange rate of 7.8 to the U.S. greenback",
+          "answer": "the Hong Kong dollar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HONG KONG",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8451-d-c1-r1"
+        },
+        {
+          "question": "Though Mandarin is gaining in popularity, this is the Chinese dialect most commonly spoken in Hong Kong",
+          "answer": "Cantonese",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HONG KONG",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8451-d-c1-r2"
+        },
+        {
+          "question": "This Portuguese possession 40 miles away is a popular gambling destination for Hong Kong residents",
+          "answer": "Macau",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HONG KONG",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8451-d-c1-r3"
+        },
+        {
+          "question": "The name of this peninsula on the mainland comes from gau-lung, Chinese for \"nine dragons\"",
+          "answer": "Kowloon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HONG KONG",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8451-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ART",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Michelangelo's statue of David shows him just before he confronted this giant",
+          "answer": "Goliath",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8451-d-c2-r0"
+        },
+        {
+          "question": "In Edward Savage's \"The Washington Family\", Martha is pointing out this street on a map",
+          "answer": "Pennsylvania Avenue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8451-d-c2-r1"
+        },
+        {
+          "question": "In a c. 1615 Rubens work, while Daniel is gazing at the sky, several of these animals are staring at you",
+          "answer": "Lions",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8451-d-c2-r2"
+        },
+        {
+          "question": "In the last half of the 19th c., this American pair's firm was producing 3 new lithographic prints a week",
+          "answer": "Currier & Ives",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8451-d-c2-r3"
+        },
+        {
+          "question": "Raphael's \"St. George and the Dragon\" shows George as a member of this order of knighthood",
+          "answer": "The Order of the Garter",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8451-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PUBLISHING",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"The Farmer's Almanac\" added this word to its official title in 1848",
+          "answer": "Old",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8451-d-c3-r0"
+        },
+        {
+          "question": "The Christian Science Monitor was founded in this city in 1908",
+          "answer": "Boston",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8451-d-c3-r1"
+        },
+        {
+          "question": "Argosy is considered the first of these magazines named for the cheap paper on which they were printed",
+          "answer": "pulps",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8451-d-c3-r2"
+        },
+        {
+          "question": "Bertelsmann, based in this country, owns American publisher Bantam Doubleday Dell",
+          "answer": "Germany",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8451-d-c3-r3"
+        },
+        {
+          "question": "Gilbert Hovey Grosvenor edited this magazine for more than 50 years",
+          "answer": "The National Geographic",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8451-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FISH",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Most species of this fish, including the sockeye, live in the Pacific",
+          "answer": "salmon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8451-d-c4-r0"
+        },
+        {
+          "question": "From their resemblance to a quilled mammal, spiny members of the family Diodontidae are called this",
+          "answer": "porcupinefish",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8451-d-c4-r1"
+        },
+        {
+          "question": "The young of this large shark are born with stripes that fade as they grow",
+          "answer": "the tiger shark",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8451-d-c4-r2"
+        },
+        {
+          "question": "This small, tropical fish with a feather-like tail rivals the goldfish as the most popular aquarium pet",
+          "answer": "the guppy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8451-d-c4-r3"
+        },
+        {
+          "question": "Native to Africa & South America, these small, colorful fish include the bleeding- heart & neon",
+          "answer": "tetras",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8451-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY CHARACTERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In his 1852 novel \"Pierre, or The Ambiguities\", Pierre Glendinning is a young writer, not a whale",
+          "answer": "Herman Melville",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8451-d-c5-r0"
+        },
+        {
+          "question": "The vampire Lestat's mother, Gabrielle, was inspired by this novelist's mother, Katherine",
+          "answer": "Anne Rice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8451-d-c5-r1"
+        },
+        {
+          "question": "In an Oscar Wilde novel, Lord Henry Wotton leads this young man into a dissolute, licentious life",
+          "answer": "Dorian Gray",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8451-d-c5-r2"
+        },
+        {
+          "question": "The wife of this Sinclair Lewis realtor sometimes calls him \"Georgie Boy\"",
+          "answer": "Babbitt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8451-d-c5-r3"
+        },
+        {
+          "question": "Wallstreet Panic Snopes is one of the few honest members of the vicious Snopes family created by this novelist",
+          "answer": "William Faulkner",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8451-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. PRESIDENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Of the presidents who attended a service academy, the only one who graduated in the top 10 percent of his class",
+          "answer": "Jimmy Carter",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. PRESIDENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8451-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

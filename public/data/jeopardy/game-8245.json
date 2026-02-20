@@ -1,0 +1,833 @@
+{
+  "gameId": 8245,
+  "showNumber": 2147,
+  "airDate": "December 28, 1993",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BIOLOGY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "DDT has endangered many carnivorous birds because it causes the shells of these to become paper thin",
+          "answer": "their eggs",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8245-s-c0-r0"
+        },
+        {
+          "question": "A deciduous tree drops these in the autumn & produces new ones in the spring",
+          "answer": "leaves",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8245-s-c0-r1"
+        },
+        {
+          "question": "Dentin is the calcified tissue surrounding the pulp of one of these",
+          "answer": "a tooth",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8245-s-c0-r2"
+        },
+        {
+          "question": "The coelacanth, a primitive type of this animal, has lobed as well as ray types of fins",
+          "answer": "a fish",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8245-s-c0-r3"
+        },
+        {
+          "question": "This type of \"heap\" is a pile of vegetable material allowed to break down & used to improve soil",
+          "answer": "a compost heap",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8245-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV NURSES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "As Nurse Christine Chapel, Majel Barrett assisted \"Bones\" on this science fiction series",
+          "answer": "Star Trek",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NURSES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8245-s-c1-r0"
+        },
+        {
+          "question": "The real first name of this \"M*A*S*H\" head nurse was Margaret",
+          "answer": "Hot Lips Houlihan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NURSES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8245-s-c1-r1"
+        },
+        {
+          "question": "Jane Dulo played Nurse Murphy on \"Medical Center\" & nurse Molly Turner on this Ernest Borgnine sitcom",
+          "answer": "McHale's Navy",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NURSES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8245-s-c1-r2"
+        },
+        {
+          "question": "Nurse Daniels shot rapist Dr. Peter White on this series set in a Boston hospital",
+          "answer": "St. Elsewhere",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NURSES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8245-s-c1-r3"
+        },
+        {
+          "question": "She played widowed nurse Julia Baker on \"Julia\"",
+          "answer": "Diahann Carroll",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NURSES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8245-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD & DRINK",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This salad contains romaine, anchovies & garlic croutons, but no emperors",
+          "answer": "a Caesar salad",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8245-s-c2-r0"
+        },
+        {
+          "question": "Manzanilla is a dry, delicate type of sherry that originated in this country",
+          "answer": "Spain",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8245-s-c2-r1"
+        },
+        {
+          "question": "English breakfast tea is classified as this \"color\" tea",
+          "answer": "black",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8245-s-c2-r2"
+        },
+        {
+          "question": "Blancmange is a dessert originally made with this nut milk; what a \"joy\"",
+          "answer": "almond",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8245-s-c2-r3"
+        },
+        {
+          "question": "Found in health food stores, this chocolate substitute is also known as locust bean",
+          "answer": "carob",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8245-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICAL INSTRUMENTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The sheng, a wind instrument from this country, consists of 17 bamboo tubes",
+          "answer": "China",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8245-s-c3-r0"
+        },
+        {
+          "question": "This carpentry tool is played as a folk instrument by bowing or by striking with a mallet",
+          "answer": "a saw",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8245-s-c3-r1"
+        },
+        {
+          "question": "The Gamelan Orchestras of this nation's Bali & Java Islands include bonangs, sulings & rebabs",
+          "answer": "Indonesia",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8245-s-c3-r2"
+        },
+        {
+          "question": "Wynton Marsalis is well known as a virtuoso on this instrument",
+          "answer": "the trumpet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8245-s-c3-r3"
+        },
+        {
+          "question": "The earliest surviving harpsichord was built in this country, where it was called a cembalo",
+          "answer": "Italy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8245-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELATIVES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Different branches of your family appear on this kind of chart with an \"arboreal\" name",
+          "answer": "a family tree",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELATIVES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8245-s-c4-r0"
+        },
+        {
+          "question": "Genealogists call the child of your first cousin a \"first cousin once\" this",
+          "answer": "removed",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELATIVES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8245-s-c4-r1"
+        },
+        {
+          "question": "Nepote is a Scottish word for this relative whom a nepotist might hire",
+          "answer": "a nephew",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELATIVES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8245-s-c4-r2"
+        },
+        {
+          "question": "The Spanish term for this relative is Tia",
+          "answer": "an aunt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELATIVES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8245-s-c4-r3"
+        },
+        {
+          "question": "It's the term for your mother's mother's mother's mother",
+          "answer": "great-great-grandmother",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELATIVES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8245-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORDS OFF THE MAP",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This word for perfumed toilet water refers to the city on the Rhine where it was first made",
+          "answer": "Cologne",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS OFF THE MAP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8245-s-c5-r0"
+        },
+        {
+          "question": "A term for a horse's gait is from the pace set by Pilgrims headed to this English city",
+          "answer": "Canterbury",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS OFF THE MAP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8245-s-c5-r1"
+        },
+        {
+          "question": "The cravat, a type of necktie, derives its name from this newly independent republic",
+          "answer": "Croatia",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS OFF THE MAP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8245-s-c5-r2"
+        },
+        {
+          "question": "This lustrous linen or silk fabric derives its name from Syria's capital",
+          "answer": "damask",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS OFF THE MAP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8245-s-c5-r3"
+        },
+        {
+          "question": "Rugs, shawls & even a hound are named this, after a Middle Eastern country",
+          "answer": "Afghans",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS OFF THE MAP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8245-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In April 1859 ground was broken for the building of this Middle East waterway",
+          "answer": "the Suez Canal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8245-d-c0-r0"
+        },
+        {
+          "question": "Marie Antoinette was among those executed during this \"reign\" of the French Revolution",
+          "answer": "the Reign of Terror",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8245-d-c0-r1"
+        },
+        {
+          "question": "The Haganah, a volunteer militia formed after WWI, became this country's Nat'l Army in 1948",
+          "answer": "Israel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8245-d-c0-r2"
+        },
+        {
+          "question": "After killing his son in a fit of rage, this czar tried to abdicate but was refused",
+          "answer": "Ivan the Terrible",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8245-d-c0-r3"
+        },
+        {
+          "question": "In 1980 this country granted limited self-rule to Flanders & Wallonia",
+          "answer": "Belgium",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8245-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The name of this international language is actually the pen name under which Dr. Zamenhof wrote about it",
+          "answer": "Esperanto",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8245-d-c1-r0"
+        },
+        {
+          "question": "The language of this North Atlantic island nation is similar to Old Norse, the Viking language",
+          "answer": "Iceland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8245-d-c1-r1"
+        },
+        {
+          "question": "Frisian, considered English's nearest neighbor, is spoken in the northern part of this Low Country",
+          "answer": "Holland (the Netherlands)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8245-d-c1-r2"
+        },
+        {
+          "question": "Speakers of this language of the United Kingdom call it Cymraeg",
+          "answer": "Welsh",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8245-d-c1-r3"
+        },
+        {
+          "question": "After the Muslim conquest of this country, Coptic was gradually replaced by Arabic",
+          "answer": "Egypt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8245-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMPOSERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The 1945 film \"Rhapsody in Blue\" is a biography of this composer",
+          "answer": "(George) Gershwin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8245-d-c2-r0"
+        },
+        {
+          "question": "Call him Sir when addressing this \"Cats\" composer; he was knighted in 1992",
+          "answer": "Andrew Lloyd Webber",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8245-d-c2-r1"
+        },
+        {
+          "question": "Giacomo Puccini decided to write operas after hearing a performance of this composer's \"Aida\"",
+          "answer": "Verdi",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8245-d-c2-r2"
+        },
+        {
+          "question": "A trip to this country inspired Felix Mendelssohn's \"Hebrides Overture\"",
+          "answer": "Scotland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8245-d-c2-r3"
+        },
+        {
+          "question": "This Austrian composer wrote over 140 songs in 1815, including 8 lieder in a single day",
+          "answer": "Franz Schubert",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8245-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "INVENTORS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1929 Hans Berger developed this device that measures & records brain wave patterns",
+          "answer": "electroencephalograph",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INVENTORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8245-d-c3-r0"
+        },
+        {
+          "question": "Dorothy Rodgers, wife of composer Richard Rodgers, invented the Jonny-Mop, a cleaner for this device",
+          "answer": "the toilet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8245-d-c3-r1"
+        },
+        {
+          "question": "This inventor of dynamite studied in the U.S. for 4 years",
+          "answer": "Nobel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8245-d-c3-r2"
+        },
+        {
+          "question": "In 1947 this company got the rights to the photocopying process invented by Chester Carlson",
+          "answer": "Xerox",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8245-d-c3-r3"
+        },
+        {
+          "question": "French inventor Charles Brun used compressed air to expel water from the ballast tanks of one of these ships",
+          "answer": "a submarine",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8245-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOVERNMENT & POLITICS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Ames Research Center & the Jet Propulsion Lab. are under the jurisdiction of this space agency",
+          "answer": "NASA",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8245-d-c4-r0"
+        },
+        {
+          "question": "The Bureau of Mines is an agency of this cabinet department",
+          "answer": "the Department of the Interior",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8245-d-c4-r1"
+        },
+        {
+          "question": "Democrat Sam Nunn has represented this state in the U.S. Senate since 1972",
+          "answer": "Georgia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8245-d-c4-r2"
+        },
+        {
+          "question": "This Colorado city is headquarters to the Consumer Information Catalog of Fed. Publications",
+          "answer": "Pueblo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8245-d-c4-r3"
+        },
+        {
+          "question": "The father-in-law of Senator Howard Baker, he served as Senate minority leader from 1959 to his death in 1969",
+          "answer": "Everett Dirksen",
+          "value": 1300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8245-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOOKS & AUTHORS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "She subtitled \"Aunt Erma's Cope Book\" \"How to get from Monday to Friday...in twelve days\"",
+          "answer": "Erma Bombeck",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8245-d-c5-r0"
+        },
+        {
+          "question": "He appeared in the film of his book \"Paper Lion\", but not as himself—Alan Alda got the role",
+          "answer": "George Plimpton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8245-d-c5-r1"
+        },
+        {
+          "question": "\"Beds I Have Known\" is Martha Smith's book about this outdoor hobby",
+          "answer": "gardening",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8245-d-c5-r2"
+        },
+        {
+          "question": "\"Queen of Romance\" who wrote \"The Penniless Peer\", \"The Cruel Count\" & \"The Ruthless Rake\"",
+          "answer": "Barbara Cartland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8245-d-c5-r3"
+        },
+        {
+          "question": "\"From the South Seas\" is a 1939 collection of her anthropological writings",
+          "answer": "Margaret Mead",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8245-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN IN BUSINESS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This woman who began selling her products in the 1930s is estimated to be America's richest self-made woman",
+          "answer": "Estée Lauder",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WOMEN IN BUSINESS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8245-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "gameId": 294,
+  "showNumber": 279,
+  "airDate": "October 3, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "COMIC STRIPS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Jim Davis named this cat after his grandfather, not the 20th president",
+          "answer": "Garfield",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC STRIPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g294-s-c0-r0"
+        },
+        {
+          "question": "John Steinbeck wrote the preface of a book about this Al Capp character",
+          "answer": "Li'l Abner",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC STRIPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g294-s-c0-r1"
+        },
+        {
+          "question": "Standard comment of Little Orphan Annie's dog Sandy",
+          "answer": "Arf!",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC STRIPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g294-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "ENGINEERING",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Used as early as 230 B.C., the 1st successful electric one was developed by the Otis Bros. in 1889",
+          "answer": "an elevator",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGINEERING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g294-s-c1-r0"
+        },
+        {
+          "question": "Begun by Appius Claudius as a public work in 312 B.C., it's one of the roads that lead to Rome",
+          "answer": "the Appian Way",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGINEERING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g294-s-c1-r1"
+        },
+        {
+          "question": "Type of well named for the French region of Artois where 1 was 1st drilled in 1126",
+          "answer": "an artesian well",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGINEERING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g294-s-c1-r2"
+        },
+        {
+          "question": "A 1984 survey found an additional 2,500 miles to this barrier, now totaling 6,200 miles long",
+          "answer": "the Great Wall of China",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGINEERING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g294-s-c1-r3"
+        },
+        {
+          "question": "This 15th century artist built fortresses, bridges, harbors, & locks",
+          "answer": "Leonardo da Vinci",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGINEERING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g294-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Movie question posed by Barbra Streisand & Bugs Bunny",
+          "answer": "What's up, doc?",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g294-s-c2-r0"
+        },
+        {
+          "question": "Dustin Hoffman & Alec Guinness were considered for this role that won an Oscar for Ben Kingsley",
+          "answer": "Gandhi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g294-s-c2-r1"
+        },
+        {
+          "question": "Some of the character names rejected for this classic were \"Gaspy\", \"Daffy\", & \"Snoopy\"",
+          "answer": "Snow White and the Seven Dwarfs",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g294-s-c2-r2"
+        },
+        {
+          "question": "The make of car that starts up immediately after 200 years in Woody Allen's \"Sleeper\"",
+          "answer": "Volkswagen Beetle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g294-s-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "ZOOLOGY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The only mammal capable of sustained flight",
+          "answer": "a bat",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g294-s-c3-r0"
+        },
+        {
+          "question": "Of a rat, a raven, & a spineless jellyfish the one which can be taught to count",
+          "answer": "raven",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g294-s-c3-r1"
+        },
+        {
+          "question": "A luna moth's are feathered, a june bug's leaflike, & a cockroach's are feelers",
+          "answer": "antennae",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g294-s-c3-r2"
+        },
+        {
+          "question": "Since 1955 ultrasonic vibrations have repelled these crusty creatures from ship hulls",
+          "answer": "barnacles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g294-s-c3-r3"
+        },
+        {
+          "question": "Often called the panther, its name was originally given to the cat now known as the cheetah",
+          "answer": "a leopard",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g294-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Herbs anise & fennel resemble the flavor of this common black candy",
+          "answer": "licorice",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g294-s-c4-r0"
+        },
+        {
+          "question": "From the Romanian word for \"to preserve\", it's served hot with mustard on rye",
+          "answer": "pastrami",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g294-s-c4-r1"
+        },
+        {
+          "question": "When it was 1st introduced into England from France, it was called \"butterine\"",
+          "answer": "margarine",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g294-s-c4-r2"
+        },
+        {
+          "question": "Named for an English dr. who recommended meat as cure-all, it's a hamburger without a bun",
+          "answer": "a Salisbury steak",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g294-s-c4-r3"
+        },
+        {
+          "question": "Not a fabric but a cake that's a cross between an angel & a sponge",
+          "answer": "chiffon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g294-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE DOUBLE LETTERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Tinsel Town\"",
+          "answer": "Hollywood",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE DOUBLE LETTERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g294-s-c5-r0"
+        },
+        {
+          "question": "Unable to speak",
+          "answer": "speechless",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE DOUBLE LETTERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g294-s-c5-r1"
+        },
+        {
+          "question": "Soft white Italian cheese often used as pizza topping",
+          "answer": "mozzarella",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE DOUBLE LETTERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g294-s-c5-r2"
+        },
+        {
+          "question": "A gathering at which Pete Seeger & Joan Baez, or an owl & a goat might sing",
+          "answer": "hootenanny",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE DOUBLE LETTERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g294-s-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "ENGLISH LITERATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This author of \"The Jungle Book\" lived in Vermont for 4 years",
+          "answer": "Rudyard Kipling",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g294-d-c0-r0"
+        },
+        {
+          "question": "Aldous Huxley's 1932 version of \"1984\"",
+          "answer": "Brave New World",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g294-d-c0-r1"
+        },
+        {
+          "question": "James Hilton's schoolmaster father was the model for this novel's title character",
+          "answer": "Mr. Chips",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g294-d-c0-r2"
+        },
+        {
+          "question": "The hero's clubfoot in \"Of Human Bondage\" represented this author's stammer",
+          "answer": "Somerset Maugham",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g294-d-c0-r3"
+        },
+        {
+          "question": "Ironically Catherine, wife of this poet, painter, & printer, was illiterate",
+          "answer": "William Blake",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g294-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SINGERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This British/Australian group's name was taken from oldest brother Barry's initials",
+          "answer": "The Bee Gees",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g294-d-c1-r0"
+        },
+        {
+          "question": "In '72, he sang \"Song Sung Blue\"",
+          "answer": "Neil Diamond",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g294-d-c1-r1"
+        },
+        {
+          "question": "In '67, this \"Lady of Soul\" got due \"Respect\"",
+          "answer": "Aretha Franklin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g294-d-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "QUOTES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Dorothy Parker said, \"Men seldom make passes at girls who\" do this",
+          "answer": "wear glasses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g294-d-c2-r0"
+        },
+        {
+          "question": "Emerson said, \"If a man makes a better\" one of these, \"the world will beat a path to his door\"",
+          "answer": "a mousetrap",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g294-d-c2-r1"
+        },
+        {
+          "question": "\"The doctor can bury his mistakes, but we can only advise clients to plant vines\", said this architect",
+          "answer": "Frank Lloyd Wright",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g294-d-c2-r2"
+        },
+        {
+          "question": "Completes the quote \"Go west, young man\"",
+          "answer": "and grow up with the country",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g294-d-c2-r3"
+        },
+        {
+          "question": "\"Reading is to the mind as\" this is \"to the body\"",
+          "answer": "exercise",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g294-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GENERALS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Presidents Hayes, Garfield, & Benjamin Harrison were all generals in this war",
+          "answer": "the Civil War",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g294-d-c3-r0"
+        },
+        {
+          "question": "General who told Congress in 1951, \"There is no substitute for victory\"",
+          "answer": "MacArthur",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g294-d-c3-r1"
+        },
+        {
+          "question": "Generals Lee, Grant, Sherman, Pershing, & Patton have all had a type of these named for them",
+          "answer": "a tank",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g294-d-c3-r2"
+        },
+        {
+          "question": "\"Old Fuss & Feathers\", general Winfield Scott, captured this foreign capital in 1847",
+          "answer": "Mexico City",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g294-d-c3-r3"
+        },
+        {
+          "question": "With under 200 men, this Revolutionary War general captured 3 British forts in Ill. & Ind.",
+          "answer": "George Rogers Clark",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g294-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1965, Pope Paul VI formally exonerated this group of blame for the death of Jesus",
+          "answer": "the Jews",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g294-d-c4-r0"
+        },
+        {
+          "question": "It's what the P.T.L. in TV's \"P.T.L. Club\" stands for",
+          "answer": "Praise the Lord (or People that Love)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g294-d-c4-r1"
+        },
+        {
+          "question": "Well-known nickname of Siddhartha Gautama",
+          "answer": "Buddha",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g294-d-c4-r2"
+        },
+        {
+          "question": "North American Protestant group featured in the movie \"Witness\"",
+          "answer": "the Amish",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g294-d-c4-r3"
+        },
+        {
+          "question": "Prayer taken from salutation of Gabriel, it's now said as commonly as the Lord's Prayer",
+          "answer": "the Hail Mary (or Ave Maria)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g294-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEIGHBORHOODS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Largest Chinese community outside Asia lives in this city's Chinatown",
+          "answer": "San Francisco",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEIGHBORHOODS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g294-d-c5-r0"
+        },
+        {
+          "question": "Of a North, East, South & West Side, the 1 Chicago doesn't have",
+          "answer": "East",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEIGHBORHOODS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g294-d-c5-r1"
+        },
+        {
+          "question": "The Village Stompers stomped around this part of Greenwich Village:",
+          "answer": "Washington Square",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEIGHBORHOODS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g294-d-c5-r2"
+        },
+        {
+          "question": "Founded in 1683, Germantown is now an historic part of this city",
+          "answer": "Philadelphia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEIGHBORHOODS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g294-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "WORLD POLITICS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Last Communist party chief of the U.S.S.R. to leave office without dying",
+          "answer": "Nikita Khrushchev",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WORLD POLITICS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g294-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

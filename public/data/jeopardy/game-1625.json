@@ -1,0 +1,833 @@
+{
+  "gameId": 1625,
+  "showNumber": 3471,
+  "airDate": "October 11, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "NICKNAMES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"The Father of the Telegraph\"",
+          "answer": "Samuel Morse",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NICKNAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1625-s-c0-r0"
+        },
+        {
+          "question": "\"America's Oldest Teenager\"",
+          "answer": "Dick Clark",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NICKNAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1625-s-c0-r1"
+        },
+        {
+          "question": "Tuesday night's \"Mr. Television\"",
+          "answer": "Milton Berle",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NICKNAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1625-s-c0-r2"
+        },
+        {
+          "question": "Would-be assassin \"Squeaky\"",
+          "answer": "Lynette Fromme",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NICKNAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1625-s-c0-r3"
+        },
+        {
+          "question": "Aviator \"The Red Baron\"",
+          "answer": "Manfred von Richthofen",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NICKNAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1625-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE REVIEWS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Time said tickets for the 1st critics' screening of this prequel were \"more precious than a passport out of Kosovo\"",
+          "answer": "Star Wars: The Phantom Menace",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REVIEWS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1625-s-c1-r0"
+        },
+        {
+          "question": "Entertainment Weekly called this 1991 Billy Crystal film, \"Dances With Cows\"",
+          "answer": "City Slickers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REVIEWS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1625-s-c1-r1"
+        },
+        {
+          "question": "The New Yorker felt it had \"a democratic right to expect bandages\" in this 1999 horror flick",
+          "answer": "The Mummy",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REVIEWS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1625-s-c1-r2"
+        },
+        {
+          "question": "(Hi, I'm Garry Marshall.)  I directed this 1990 movie that The New York Times said \"borrows a thing or two from Pygmalion... but has its own... wit\"",
+          "answer": "Pretty Woman",
+          "value": 1300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REVIEWS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1625-s-c1-r3"
+        },
+        {
+          "question": "USA Today said that Meg Ryan & Tom Hanks \"Should win a Nobel Prize for Chemistry\" for this 1998 film",
+          "answer": "You've Got Mail",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REVIEWS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1625-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On Tisha B'Av, the 9th day of the month of Av, Jews observe the destruction of the first & second of these",
+          "answer": "Temples",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1625-s-c2-r0"
+        },
+        {
+          "question": "Legend says he spent 98 days beneath a large bo tree, 49 to solve the riddle of suffering & 49 more to meditate",
+          "answer": "Buddha",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1625-s-c2-r1"
+        },
+        {
+          "question": "Among the 6 schools of philosophy of this religion are nyaya & yoga",
+          "answer": "Hinduism",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1625-s-c2-r2"
+        },
+        {
+          "question": "The Japanese once worshiped their emperor as a descendant of Amaterasu Omikami. the top goddess in this religion",
+          "answer": "Shinto",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1625-s-c2-r3"
+        },
+        {
+          "question": "The sister of Moses & Aaron, she was the first woman given the title of prophetess",
+          "answer": "Miriam",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1625-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "JIMMY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Kentucky Derby-winning jockey in 1878, or the president of the U.S. in 1978",
+          "answer": "Jimmy Carter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1625-s-c3-r0"
+        },
+        {
+          "question": "He's won the U.S Open on 3 surfaces: grass (1974), clay (1976) & hard courts (1978, 1982, 1983)",
+          "answer": "JImmy Connors",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1625-s-c3-r1"
+        },
+        {
+          "question": "He helped bring down Jim & Tammy Bakker, then got knocked off his own pulpit",
+          "answer": "Jimmy Swaggart",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1625-s-c3-r2"
+        },
+        {
+          "question": "Bobby Kennedy was chief council of the Senate committee investigating David Beck & this man",
+          "answer": "Jimmy Hoffa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1625-s-c3-r3"
+        },
+        {
+          "question": "He was dyn-o-mite as mayor of New York from 1926 to 1932",
+          "answer": "Jimmy Walker",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1625-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. CURRENCY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "An 1873 law states that this creature must appear on the reverse of all U.S. coins greater than 10 cents",
+          "answer": "Eagle",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CURRENCY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1625-s-c4-r0"
+        },
+        {
+          "question": "By federal law, all U.S. coins must bear this phrase which means \"Out of many, one\"",
+          "answer": "E Pluribus Unum",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CURRENCY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1625-s-c4-r1"
+        },
+        {
+          "question": "An \"S\" on a U.S. coin indicates that it was minted in this city",
+          "answer": "San Francisco",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CURRENCY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1625-s-c4-r2"
+        },
+        {
+          "question": "It's the only presidential home currently on a U.S. coin",
+          "answer": "Monticello (Thomas Jefferson's)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CURRENCY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1625-s-c4-r3"
+        },
+        {
+          "question": "It's the only U.S. money on which you'll find a depiction of the White House",
+          "answer": "$20 bill",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CURRENCY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1625-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"T\" TIME",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A competition for fishermen, knights or \"Jeopardy!\" contestants",
+          "answer": "Tournament",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"T\" TIME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1625-s-c5-r0"
+        },
+        {
+          "question": "Mexican flat bread, or Steinbeck \"flat\"",
+          "answer": "Tortilla",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"T\" TIME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1625-s-c5-r1"
+        },
+        {
+          "question": "It follows talk & precedes trot",
+          "answer": "turkey",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"T\" TIME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1625-s-c5-r2"
+        },
+        {
+          "question": "Yugoslavia's Josip Broz, or Michael Jackson's brother Toriano",
+          "answer": "Tito",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"T\" TIME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1625-s-c5-r3"
+        },
+        {
+          "question": "Cretaceous \"king\" of carnivores",
+          "answer": "Tyrannosaurus rex",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"T\" TIME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1625-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON THE MAP",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Some of the highest peaks in these mountains are Mont Blanc, Monte Rosa & the Matterhorn",
+          "answer": "Alps",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1625-d-c0-r0"
+        },
+        {
+          "question": "This \"colorful\" branch of the Nile suppiles about two-thirds of the river's water",
+          "answer": "Blue Nile",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1625-d-c0-r1"
+        },
+        {
+          "question": "Mainland Europe's only active volcano, it buried several Italian cities in 79 A.D.",
+          "answer": "Mount Vesuvius",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1625-d-c0-r2"
+        },
+        {
+          "question": "The Java or Sunda Trench contains this ocean's deepest point",
+          "answer": "Indian Ocean",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1625-d-c0-r3"
+        },
+        {
+          "question": "The African country once called Portuguese Guinea is known today by this hyphenated name",
+          "answer": "Guinea-Bissau",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1625-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A scout bee may use the \"waggle\" variety of this to inform others about the location of flowers",
+          "answer": "Dance",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1625-d-c1-r0"
+        },
+        {
+          "question": "Of 1 MPH, 15 MPH or Mach 2, the flight speed of an average worker bee",
+          "answer": "15 MPH",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1625-d-c1-r1"
+        },
+        {
+          "question": "The queen bee's basic duty, it happens 2,000 times a day during summer",
+          "answer": "Laying eggs",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1625-d-c1-r2"
+        },
+        {
+          "question": "These people had domesticated the bee as early as 3000 B.C.",
+          "answer": "Egyptians",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1625-d-c1-r3"
+        },
+        {
+          "question": "The cosmetics industry uses more of this product than any other industry, more than 1,000,000 pounds a year",
+          "answer": "Beeswax",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1625-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CELEBRITY SPOUSES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Mrs. Paul Newman",
+          "answer": "Joanne Woodward",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY SPOUSES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1625-d-c2-r0"
+        },
+        {
+          "question": "Mrs. Antonio Banderas",
+          "answer": "Melanie Griffith",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY SPOUSES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1625-d-c2-r1"
+        },
+        {
+          "question": "Mrs. David Duchovny",
+          "answer": "Tea Leoni",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY SPOUSES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1625-d-c2-r2"
+        },
+        {
+          "question": "Mrs. Ethan Hawke",
+          "answer": "Uma Thurman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY SPOUSES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1625-d-c2-r3"
+        },
+        {
+          "question": "Mrs. Mel Brooks",
+          "answer": "Anne Bancroft",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY SPOUSES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1625-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SUITE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "We could listen to the 1888 suite named for this tale-spinner for \"1001 Nights\"",
+          "answer": "Scheherazade",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUITE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1625-d-c3-r0"
+        },
+        {
+          "question": "Yes, my children, \"Jeux D'Enfants\" is a suite for piano by this composer of \"Carmen\"",
+          "answer": "Georges Bizet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUITE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1625-d-c3-r1"
+        },
+        {
+          "question": "Ferde Grofe's \"grandest\" suite, it premiered in Chicago, not in Arizona",
+          "answer": "Grand Canyon Suite",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUITE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1625-d-c3-r2"
+        },
+        {
+          "question": "This Norwegian's \"Holberg Suite\" isn't quite as famous as his \"Peer Gynt\" suite",
+          "answer": "Edvard Grieg",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUITE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1625-d-c3-r3"
+        },
+        {
+          "question": "Bela Bartok wrote his 1923 \"Dance Suite\" for the 50th anniversary of this city's unification",
+          "answer": "Budapest",
+          "value": 100,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUITE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1625-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYSTERY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Michael Connelly's \"Angels Flight\" is set in this city",
+          "answer": "Los Angeles",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTERY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1625-d-c4-r0"
+        },
+        {
+          "question": "In 1941 this mystery-solving character got his own \"Mystery Magazine\"",
+          "answer": "Ellery Queen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTERY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1625-d-c4-r1"
+        },
+        {
+          "question": "In a 1950 Patricia Highsmith novel, strangers meet on one of these & plot to exchange murders",
+          "answer": "Train (\"Strangers on a Train\")",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MYSTERY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1625-d-c4-r2"
+        },
+        {
+          "question": "Here's this year's Sue Grafton clue:  the 14th book in her series was \"'N' is for....\" this",
+          "answer": "Noose",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTERY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1625-d-c4-r3"
+        },
+        {
+          "question": "In 1999's \"Havana Bay\" he brings back his \"Gorky Park\" investigator Arkady Renko",
+          "answer": "Martin Cruz Smith",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MYSTERY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1625-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "OF \"LIFE\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The mother-daughter drama \"Marriage Material\" found a home in 1999 on this TV network",
+          "answer": "Lifetime",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OF \"LIFE\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1625-d-c5-r0"
+        },
+        {
+          "question": "It's the feature illustrated here",
+          "answer": "Lifeline",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OF \"LIFE\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1625-d-c5-r1"
+        },
+        {
+          "question": "This type of \"system\" refers to space suits & scuba gear as well as medical devices like incubators",
+          "answer": "Life support",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OF \"LIFE\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1625-d-c5-r2"
+        },
+        {
+          "question": "A character from this comic strip is seen here",
+          "answer": "\"Life In Hell\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OF \"LIFE\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1625-d-c5-r3"
+        },
+        {
+          "question": "Book in which Twain wrote, \"There was but one...ambition among my comrades...to be a steamboatman\"",
+          "answer": "Life on the Mississippi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OF \"LIFE\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1625-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS SCANDINAVIANS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The painter who said, \"Illness, madness and death were the dark angels who watched over my cradle\"",
+          "answer": "Edvard Munch",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS SCANDINAVIANS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1625-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

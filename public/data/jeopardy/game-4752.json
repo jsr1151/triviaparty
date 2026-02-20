@@ -1,0 +1,833 @@
+{
+  "gameId": 4752,
+  "showNumber": 6963,
+  "airDate": "December 17, 2014",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "CITY BY STATUE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 17-foot Lord Nelson atop his column",
+          "answer": "London",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITY BY STATUE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4752-s-c0-r0"
+        },
+        {
+          "question": "Donatello, by Torrini",
+          "answer": "Florence",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CITY BY STATUE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4752-s-c0-r1"
+        },
+        {
+          "question": "The Bronze Fonz",
+          "answer": "Milwaukee",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CITY BY STATUE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4752-s-c0-r2"
+        },
+        {
+          "question": "Alexander Mackenzie (at Parliament Hill)",
+          "answer": "Ottawa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITY BY STATUE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4752-s-c0-r3"
+        },
+        {
+          "question": "Prussian ruler \"the Great Elector\" seen here",
+          "answer": "Berlin",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CITY BY STATUE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4752-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEATHER",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "From 2006 to 2013, 261 people in the United States were killed by this weather phenomenon; only 8 were golfers",
+          "answer": "lightning",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4752-s-c1-r0"
+        },
+        {
+          "question": "From the Middle English for \"fall of dew\", it's a light rain in which the water droplets are less than .5 mm in diameter",
+          "answer": "drizzle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4752-s-c1-r1"
+        },
+        {
+          "question": "If there are more than 21 named Atlantic storms in one season, nos. 22 & up are named from letters of this alphabet",
+          "answer": "the Greek alphabet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4752-s-c1-r2"
+        },
+        {
+          "question": "In this index, 11+ means extreme exposure & you should avoid the sun between the hours of 10:00 A.M. & 4:00 P.M.",
+          "answer": "the UV index",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4752-s-c1-r3"
+        },
+        {
+          "question": "Spanish for \"little girl\", it brings wetter, cooler conditions to the Pacific Northwest & drier conditions to the South",
+          "answer": "La Niña",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4752-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HERE'S THE FIRST LETTER",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "I:a list of places to visit on a journey",
+          "answer": "itinerary",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE'S THE FIRST LETTER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4752-s-c2-r0"
+        },
+        {
+          "question": "K:legendary sea monster causing large whirlpools off Norway's coast--release it!",
+          "answer": "the Kraken",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE'S THE FIRST LETTER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4752-s-c2-r1"
+        },
+        {
+          "question": "J:to cut veggies into thin strips",
+          "answer": "julienne",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE'S THE FIRST LETTER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4752-s-c2-r2"
+        },
+        {
+          "question": "Q:an adjective meaning square; it often precedes \"equation\"",
+          "answer": "quadratic",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE'S THE FIRST LETTER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4752-s-c2-r3"
+        },
+        {
+          "question": "X:Coleridge's luxurious place",
+          "answer": "Xanadu",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE'S THE FIRST LETTER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4752-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT'S MY CUP OF TEA",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Gunpowder is this \"colorful\" type of tea that comes from leaves that are steamed & dried but not fermented",
+          "answer": "green",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S MY CUP OF TEA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4752-s-c3-r0"
+        },
+        {
+          "question": "This black pekoe tea bears the name that preceded Sri Lanka",
+          "answer": "Ceylon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S MY CUP OF TEA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4752-s-c3-r1"
+        },
+        {
+          "question": "The name of this soothing tea is combined from Greek words for \"ground\" & \"apple\"",
+          "answer": "chamomile",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S MY CUP OF TEA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4752-s-c3-r2"
+        },
+        {
+          "question": "Developed in 17th century China, this type of tea is sometimes spelled starting \"wu\" instead of \"oo\"",
+          "answer": "oolong",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S MY CUP OF TEA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4752-s-c3-r3"
+        },
+        {
+          "question": "This black tea hails from India's place of the same name in the state of West Bengal & its leaves are grown at 7,000 feet",
+          "answer": "Darjeeling",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S MY CUP OF TEA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4752-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV NUMBERS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "On ABC with Elizabeth Vargas & David Muir:\"____/____\"",
+          "answer": "20/20",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NUMBERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4752-s-c4-r0"
+        },
+        {
+          "question": "Raven pride:\"____ Tree Hill\"",
+          "answer": "One",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NUMBERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4752-s-c4-r1"
+        },
+        {
+          "question": "Help is on the way:\"Nanny ____\"",
+          "answer": "911",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NUMBERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4752-s-c4-r2"
+        },
+        {
+          "question": "A Syfy original:\"Warehouse ____\"",
+          "answer": "13",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NUMBERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4752-s-c4-r3"
+        },
+        {
+          "question": "USA Network found them:\"The ____\"",
+          "answer": "4400",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NUMBERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4752-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC AUTOMOBILES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Sarah of the Clue Crew reports from the Western Reserve Historical Society in Cleveland, OH.)  Long before global warming changed the focus of auto makers, the 1916 Owen Magnetic used both gas & electric power as one of the first of these combined-fuel vehicles",
+          "answer": "a hybrid",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4752-s-c5-r0"
+        },
+        {
+          "question": "(Kelly of the Clue Crew reports from the Western Reserve Historical Society in Cleveland, OH.)  To showcase its strength & durability, this 1964 Thunderbird was one of a handful of cars made with bodies of this alliterative alloy",
+          "answer": "stainless steel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4752-s-c5-r1"
+        },
+        {
+          "question": "(Kelly of the Clue Crew reports from the Western Reserve Historical Society in Cleveland, OH.)  Valued by some estimates at over $1 million, the 1967 365 California by this Italian company saw only 14 of its original design ever made",
+          "answer": "Ferrari",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4752-s-c5-r2"
+        },
+        {
+          "question": "(Sarah of the Clue Crew reports from the Western Reserve Historical Society in Cleveland, OH.)  Though most of the problems were worked out by the 1964 version, the Chevy Corvair was one of the main cars covered unfavorably in this man's book \"Unsafe at Any Speed\"",
+          "answer": "(Ralph) Nader",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4752-s-c5-r3"
+        },
+        {
+          "question": "(Kelly of the Clue Crew reports from the Western Reserve Historical Society in Cleveland, OH.)  There's no mistaking the sleek design lines of a classic, 1981 DeLorean; fewer than 10,000 were ever made, & all featured its unique doors with this unusual name",
+          "answer": "gull-wing doors",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4752-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT A COUP!",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On Jan. 16, 1979 he didn't abdicate after leaving Iran, but Khomeini assumed control anyway",
+          "answer": "the Shah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT A COUP!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4752-d-c0-r0"
+        },
+        {
+          "question": "By the end of the day on Sept. 11, 1973, Augusto Pinochet had done an end run on this president of Chile",
+          "answer": "Salvador Allende",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT A COUP!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4752-d-c0-r1"
+        },
+        {
+          "question": "In 1968 this Arab nationalist party sent the old government in Iraq to the showers",
+          "answer": "the Baath Party",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT A COUP!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4752-d-c0-r2"
+        },
+        {
+          "question": "In 1999 P.M. Sharif didn't like it after this \"P.M.\" named himself Pakistan's chief executive",
+          "answer": "Pervez Musharraf",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT A COUP!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4752-d-c0-r3"
+        },
+        {
+          "question": "Suleyman Demirel's sixth term was cut short by a 1980 coup but he became P.M. again in 1991 in this country",
+          "answer": "Turkey",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT A COUP!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4752-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLATINUM BANDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"The Wall\" by this group is certified 23 times platinum",
+          "answer": "Pink Floyd",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLATINUM BANDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4752-d-c1-r0"
+        },
+        {
+          "question": "Sales of \"Back in Black\" continue to jolt these rockers",
+          "answer": "AC/DC",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLATINUM BANDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4752-d-c1-r1"
+        },
+        {
+          "question": "\"She Will Be Loved\" is one of the \"Songs About Jane\", a multi-platinum album from this band",
+          "answer": "Maroon 5",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLATINUM BANDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4752-d-c1-r2"
+        },
+        {
+          "question": "The song \"Hey Ya!\" helped move 11 million copies of \"Speakerboxxx/The Love Below\" for this hip-hop outfit",
+          "answer": "OutKast",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLATINUM BANDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4752-d-c1-r3"
+        },
+        {
+          "question": "This country trio went multi-platinum with \"Fly\" & \"Wide Open Spaces\"",
+          "answer": "Dixie Chicks",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLATINUM BANDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4752-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHILOSOPHY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "David Hume said the love of this, which a witness is asked to tell, \"never is, nor can be carried to too high a degree\"",
+          "answer": "the truth",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4752-d-c2-r0"
+        },
+        {
+          "question": "According to Hegelian dialectic, this is the solution to the 2 opposites thesis & antithesis",
+          "answer": "synthesis",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4752-d-c2-r1"
+        },
+        {
+          "question": "In his 1886 work \"Beyond Good and Evil\", he expounded on his concept of the Superman",
+          "answer": "Nietzsche",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4752-d-c2-r2"
+        },
+        {
+          "question": "Metaphysics is often divided into 2 areas: ontology, the study of being, & this, the study of the physical universe",
+          "answer": "cosmology",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4752-d-c2-r3"
+        },
+        {
+          "question": "This English philosopher said it's \"necessary to distinguish...the business of civil government from that of religion\"",
+          "answer": "John Locke",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4752-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE TITLE WHO...",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Stieg Larsson:\"The Girl Who Played with...\"",
+          "answer": "Fire",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TITLE WHO...",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4752-d-c3-r0"
+        },
+        {
+          "question": "A James Bond novel:\"The Spy Who...\"",
+          "answer": "Loved Me",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TITLE WHO...",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4752-d-c3-r1"
+        },
+        {
+          "question": "A George Smiley novel:\"The Spy Who...\"",
+          "answer": "Came in from the Cold",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TITLE WHO...",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4752-d-c3-r2"
+        },
+        {
+          "question": "Oliver Sacks:\"The Man Who Mistook His Wife for a...\"",
+          "answer": "Hat",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TITLE WHO...",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4752-d-c3-r3"
+        },
+        {
+          "question": "Kipling:\"The Man Who Would...\"",
+          "answer": "Be King",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TITLE WHO...",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4752-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LET'S TAIWAN ON",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1971 Taiwan was ousted from this international body in favor of the People's Republic of China",
+          "answer": "the United Nations",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S TAIWAN ON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4752-d-c4-r0"
+        },
+        {
+          "question": "From 1895 to 1945 Taiwan was under this country's control",
+          "answer": "Japan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S TAIWAN ON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4752-d-c4-r1"
+        },
+        {
+          "question": "Taiwan's 2 principal religions are Buddhism & this",
+          "answer": "Taoism",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LET'S TAIWAN ON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4752-d-c4-r2"
+        },
+        {
+          "question": "After being driven from mainland China, he ruled Taiwan from 1950 to 1975",
+          "answer": "Chiang Kai-shek",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S TAIWAN ON",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4752-d-c4-r3"
+        },
+        {
+          "question": "Also called marsh gas, it seeps out of a spring to create Taiwan's Water & Fire Cave",
+          "answer": "methane",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LET'S TAIWAN ON",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4752-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPANISH WORDS WITHIN WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "I spotted Nicholas & though we'd had our differences, I greeted him with a simple this",
+          "answer": "hola (in Nicholas)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPANISH WORDS WITHIN WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4752-d-c5-r0"
+        },
+        {
+          "question": "To quench its tremendous thirst, the jaguar roamed the area in search of this",
+          "answer": "agua (in jaguar)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPANISH WORDS WITHIN WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4752-d-c5-r1"
+        },
+        {
+          "question": "The studio recording didn't pick up any ambient sounds, so we believed the track sounded this",
+          "answer": "bien (in ambient)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPANISH WORDS WITHIN WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4752-d-c5-r2"
+        },
+        {
+          "question": "Only a runoff would cease the political bickering & leave this many office seekers happy",
+          "answer": "uno (in runoff)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPANISH WORDS WITHIN WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4752-d-c5-r3"
+        },
+        {
+          "question": "The traitorous soldier refused to surrender when identified & even charged like this animal",
+          "answer": "toro (in traitorous)",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPANISH WORDS WITHIN WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4752-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE AFI's 100 GREATEST FILMS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "One of the top 20, this 1946 film was based on a short story published as \"The Man Who Was Never Born\"",
+          "answer": "It's a Wonderful Life",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "THE AFI's 100 GREATEST FILMS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4752-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

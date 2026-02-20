@@ -1,0 +1,833 @@
+{
+  "gameId": 320,
+  "showNumber": 2188,
+  "airDate": "February 23, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE 50 STATES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "About half of its population lives in the Minneapolis-St. Paul metropolitan area",
+          "answer": "Minnesota",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g320-s-c0-r0"
+        },
+        {
+          "question": "This Midwestern state's highest point, Mount Curwood, rises 1,980 feet on its upper peninsula",
+          "answer": "Michigan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g320-s-c0-r1"
+        },
+        {
+          "question": "In 1796 Knoxville became its first state capital",
+          "answer": "Tennessee",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g320-s-c0-r2"
+        },
+        {
+          "question": "Roanoke Island, now in this state, was the site of the first English settlement in North America",
+          "answer": "North Carolina",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g320-s-c0-r3"
+        },
+        {
+          "question": "This state located between the Missouri & Mississippi rivers is the USA's leading corn producer",
+          "answer": "Iowa",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g320-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HEARTTHROBS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Scott Weinger of \"Full House\" provided the speaking voice of this title lad in a 1992 animated Disney film",
+          "answer": "Aladdin",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARTTHROBS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g320-s-c1-r0"
+        },
+        {
+          "question": "Andrew Shue, who plays Billy Campbell on this series, used to play professional soccer in Zimbabwe",
+          "answer": "Melrose Place",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARTTHROBS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g320-s-c1-r1"
+        },
+        {
+          "question": "Jay R. Ferguson plays Burt Reynolds' son Taylor, an ex-high school quarterback on this TV series",
+          "answer": "Evening Shade",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARTTHROBS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g320-s-c1-r2"
+        },
+        {
+          "question": "Joe Lando heats up the prairie as sexy mountain man Byron Sully on this western series",
+          "answer": "Dr. Quinn, Medicine Woman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARTTHROBS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g320-s-c1-r3"
+        },
+        {
+          "question": "This hunk whose muscles ripple on the covers of romance novels is known by one name",
+          "answer": "Fabio",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARTTHROBS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g320-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANIMAL A.K.A.",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This marsupial's name can be spelled with or without an O in front",
+          "answer": "a possum (opossum)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL A.K.A.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g320-s-c2-r0"
+        },
+        {
+          "question": "It has many alternate names, including catamount, puma, panther & mountain lion",
+          "answer": "a cougar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL A.K.A.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g320-s-c2-r1"
+        },
+        {
+          "question": "This semi-aquatic rodent is also called the musquash",
+          "answer": "the muskrat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL A.K.A.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g320-s-c2-r2"
+        },
+        {
+          "question": "This arachnid that resembles a spider is also called a harvestman",
+          "answer": "a daddy long-legs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL A.K.A.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g320-s-c2-r3"
+        },
+        {
+          "question": "A good guide dog for the blind is this one also known as the Alsatian",
+          "answer": "the German shepherd",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL A.K.A.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g320-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLORS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Featured in such decorations as holly wreaths, they're the 2 traditional colors of Christmas",
+          "answer": "red & green",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g320-s-c3-r0"
+        },
+        {
+          "question": "This color may be livid, hot or shocking",
+          "answer": "pink",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g320-s-c3-r1"
+        },
+        {
+          "question": "In Italian this metallic color is oro",
+          "answer": "gold",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g320-s-c3-r2"
+        },
+        {
+          "question": "As a solid sulfur is this color",
+          "answer": "yellow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g320-s-c3-r3"
+        },
+        {
+          "question": "The name of this light brownish color comes from the same root as tan",
+          "answer": "tawny",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g320-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIVIL WAR",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "William Henry Fitzhugh Lee, this general's son, led a division through the Petersburg Campaign",
+          "answer": "Robert E. Lee",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g320-s-c4-r0"
+        },
+        {
+          "question": "After fleeing Richmond this president was captured near Irwinville, Ga.",
+          "answer": "Jeff Davis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g320-s-c4-r1"
+        },
+        {
+          "question": "This man who succeeded Lincoln was the only senator from a state that seceded to keep his seat",
+          "answer": "Andrew Johnson",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g320-s-c4-r2"
+        },
+        {
+          "question": "In October 1861 Louisiana Gov. Thomas Moore stopped the shipment of this fiber to Europe",
+          "answer": "cotton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g320-s-c4-r3"
+        },
+        {
+          "question": "In 1843 this captor of Vicksburg graduated 21st out of 39 in his West Point class",
+          "answer": "Grant",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g320-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHOICES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "According to Shakespeare, \"that is the question\"",
+          "answer": "To be or not to be",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOICES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g320-s-c5-r0"
+        },
+        {
+          "question": "When a magician fans a standard deck & says, \"Pick a card, any card\", you have this many possible choices",
+          "answer": "52",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOICES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g320-s-c5-r1"
+        },
+        {
+          "question": "Most will pick the lesser of 2 of these; Mae West said she picked the one she never tried before",
+          "answer": "evils",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOICES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g320-s-c5-r2"
+        },
+        {
+          "question": "Famous choice given by Patrick Henry March 23, 1775",
+          "answer": "Give me liberty or give me death",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOICES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g320-s-c5-r3"
+        },
+        {
+          "question": "On domestic flights, Delta's choices of these include bland, Hindu & toddler",
+          "answer": "in-flight meals",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOICES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g320-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE HUMAN BODY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "While almost any vein can become varicose, most occur in this part of the body",
+          "answer": "the legs",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HUMAN BODY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g320-d-c0-r0"
+        },
+        {
+          "question": "Protective membranes called the dura mater & pia mater cover the spinal cord & this organ",
+          "answer": "the brain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HUMAN BODY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g320-d-c0-r1"
+        },
+        {
+          "question": "This projection that's seen at the front of the throat is also called the laryngeal prominence",
+          "answer": "the Adam's apple",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HUMAN BODY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g320-d-c0-r2"
+        },
+        {
+          "question": "On an airplane pressure in the ears can be relieved by swallowing, which opens this tube",
+          "answer": "the eustachian tube",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HUMAN BODY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g320-d-c0-r3"
+        },
+        {
+          "question": "The sclera is the hard white outer layer of this",
+          "answer": "the eyeball",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE HUMAN BODY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g320-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUOTATIONS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In reference to apartheid. Stevie Wonder called this country \"the land with tears in her eyes",
+          "answer": "South Africa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g320-d-c1-r0"
+        },
+        {
+          "question": "Economist Milton Friedman is credited with saying \"There's no such thing as a free\" this",
+          "answer": "a lunch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g320-d-c1-r1"
+        },
+        {
+          "question": "Late newsman Eric Sevareid said that \"The chief cause of\" these is \"solutions\"",
+          "answer": "problems",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g320-d-c1-r2"
+        },
+        {
+          "question": "Of this 1986 tragedy John Glenn said, \"This is a day we have managed to avoid for a quarter of a century\"",
+          "answer": "the Challenger explosion",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g320-d-c1-r3"
+        },
+        {
+          "question": "In Cohens v. Virginia, he wrote, \"The people made the Constitution, and the people can unmake it\"",
+          "answer": "John Marshall",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g320-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. GOVERNMENT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A plow appears on the seal of this cabinet department",
+          "answer": "Agriculture",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g320-d-c2-r0"
+        },
+        {
+          "question": "Now Sec'y of State, he was Jimmy Carter's lead negotiator for the release of the hostages held by Iran",
+          "answer": "Warren Christopher",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g320-d-c2-r1"
+        },
+        {
+          "question": "This printed account of what is said & done in the Congress began March 4, 1873",
+          "answer": "the Congressional Record",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g320-d-c2-r2"
+        },
+        {
+          "question": "Appointed by President Reagan in 1983, she was the first woman Secretary of Transportation",
+          "answer": "(Elizabeth) Dole",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g320-d-c2-r3"
+        },
+        {
+          "question": "This cabinet department operates foreign trade programs & establishes weights & measures",
+          "answer": "Commerce",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GOVERNMENT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g320-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN THE BALLPARK",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1916 a bear cub attended a game in what's now this ballpark named for a gum magnate",
+          "answer": "Wrigley Field",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE BALLPARK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g320-d-c3-r0"
+        },
+        {
+          "question": "Built for the 1912 season, it's named for the section of Boston in which it's located",
+          "answer": "Fenway Park",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE BALLPARK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g320-d-c3-r1"
+        },
+        {
+          "question": "He organized the White Sox, helped plan the American League & a Chicago stadium is named for him",
+          "answer": "(Charles) Comiskey",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE BALLPARK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g320-d-c3-r2"
+        },
+        {
+          "question": "He \"met\" with success in bringing the National League back to New York City",
+          "answer": "(William) Shea",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE BALLPARK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g320-d-c3-r3"
+        },
+        {
+          "question": "A ball hitting the roof may remain in play in the Minnesota stadium named for this vice president",
+          "answer": "Hubert H. Humphrey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE BALLPARK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g320-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN AUTHORS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "As a teenager this \"Gone with the Wind\" author attended Washington Seminary in Atlanta",
+          "answer": "Margaret Mitchell",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g320-d-c4-r0"
+        },
+        {
+          "question": "Before she became a novelist, she was best known as Princess Leia in the \"Star Wars\" films",
+          "answer": "Carrie Fisher",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g320-d-c4-r1"
+        },
+        {
+          "question": "She never wanted Miss Marple & Hercule Poirot to meet because she was \"sure they would not enjoy it at all\"",
+          "answer": "Agatha Christie",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g320-d-c4-r2"
+        },
+        {
+          "question": "She wrote \"The Exile\", a biography of her missionary mother, 5 years after \"The Good Earth\"",
+          "answer": "Pearl Buck",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g320-d-c4-r3"
+        },
+        {
+          "question": "She created Emily of New Moon as well as Anne of Green Gables",
+          "answer": "L.M. Montgomery",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g320-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS FALLS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1895 a large power plant opened on these falls northwest of Buffalo",
+          "answer": "Niagara Falls",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FALLS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g320-d-c5-r0"
+        },
+        {
+          "question": "The falls that David Livingstone discovered on the Zambezi River in 1855 were named for this woman",
+          "answer": "Queen Victoria",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FALLS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g320-d-c5-r1"
+        },
+        {
+          "question": "Near Lanark in this country you can view the Falls of Clyde",
+          "answer": "Scotland",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FALLS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g320-d-c5-r2"
+        },
+        {
+          "question": "The Reichenbach Falls over which Sherlock Holmes fell & \"died\" are real & are located in this Alpine country",
+          "answer": "Switzerland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FALLS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g320-d-c5-r3"
+        },
+        {
+          "question": "You'd need Jacob's Ladder to climb past this 3,212-foot Venezuelan waterfall",
+          "answer": "Angel Falls",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FALLS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g320-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC CAPES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On October 21, 1805 the Victory won a victory off this Spanish cape",
+          "answer": "Trafalgar",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "HISTORIC CAPES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g320-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

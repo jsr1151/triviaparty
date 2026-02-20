@@ -1,0 +1,821 @@
+{
+  "gameId": 2841,
+  "showNumber": 4242,
+  "airDate": "January 28, 2003",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BRAZILIAN HISTORY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "First planted in Brazil around 1727, by the 19th century it was the country's top export",
+          "answer": "coffee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRAZILIAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2841-s-c0-r0"
+        },
+        {
+          "question": "23 years after the United States did so, Brazil abolished this in 1888",
+          "answer": "slavery",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRAZILIAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2841-s-c0-r1"
+        },
+        {
+          "question": "This dance was popular for decades in Brazil before achieving popularity in the U.S. around 1930",
+          "answer": "samba",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRAZILIAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2841-s-c0-r2"
+        },
+        {
+          "question": "South America's most populous city, it was founded by Jesuit priests in 1554",
+          "answer": "Sao Paulo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRAZILIAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2841-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "ITALIAN GEOGRAPHY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "405 miles but only 2 letters long, this Italian river flows past Turin, Cremona & Ferrara",
+          "answer": "Po",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2841-s-c1-r0"
+        },
+        {
+          "question": "The east coast Italian cities of Rimini & Bari are found on this sea, an arm of the Mediterranean",
+          "answer": "Adriatic",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2841-s-c1-r1"
+        },
+        {
+          "question": "A 7-mile tunnel through this mountain peak connects Italy to Chamonix, France",
+          "answer": "Mont Blanc",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2841-s-c1-r2"
+        },
+        {
+          "question": "The play \"Much Ado About Nothing\" takes place in the port city of Messina on this Italian island",
+          "answer": "Sicily",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2841-s-c1-r3"
+        },
+        {
+          "question": "In 1861 this 9,300-square-mile island just south of Corsica became a part of the kingdom of Italy",
+          "answer": "Sardinia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2841-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEXICAN COOKING",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The poblano type of these is popular when making them rellenos, or stuffed",
+          "answer": "chilies",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEXICAN COOKING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2841-s-c2-r0"
+        },
+        {
+          "question": "Author Diana Kennedy says, \"Always serve a wedge of\" this dessert \"with plenty of the extra syrup\"",
+          "answer": "flan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEXICAN COOKING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2841-s-c2-r1"
+        },
+        {
+          "question": "You can make the traditional ties for these from strands of their corn husk wrappings",
+          "answer": "tamales",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEXICAN COOKING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2841-s-c2-r2"
+        },
+        {
+          "question": "Cochinita pibil, a classic Yucatan dish, is one of these cooked in a pib, or pit",
+          "answer": "pig",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEXICAN COOKING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2841-s-c2-r3"
+        },
+        {
+          "question": "The name of this chopped fruit relish means \"rooster's beak\"",
+          "answer": "pico de gallo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEXICAN COOKING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2841-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "EGYPTIAN WILDLIFE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This Egyptian canine spends his day around Lake Nasser",
+          "answer": "jackal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EGYPTIAN WILDLIFE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2841-s-c3-r0"
+        },
+        {
+          "question": "In Aug., thousands of these birds stop in Egypt on their migration to South Africa; that's a lot of baby deliveries!",
+          "answer": "storks",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EGYPTIAN WILDLIFE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2841-s-c3-r1"
+        },
+        {
+          "question": "A close relative of the wild goat, this Egyptian mammal's name would be great for an \"ENDS IN X\" category",
+          "answer": "ibex",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EGYPTIAN WILDLIFE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2841-s-c3-r2"
+        },
+        {
+          "question": "The fennec, Vulpes zerda, is also called the \"desert\" type of this",
+          "answer": "fox",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EGYPTIAN WILDLIFE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2841-s-c3-r3"
+        },
+        {
+          "question": "These fish-eating falcons populate Egyptian coastal areas like the Gulf of Aqaba",
+          "answer": "ospreys",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EGYPTIAN WILDLIFE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2841-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "INDIAN CINEMA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The theme of Raj Kapoor's \"Ram Teri Ganga Maili\" is the pollution of this river",
+          "answer": "Ganges",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDIAN CINEMA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2841-s-c4-r0"
+        },
+        {
+          "question": "\"Rajah Harishandra\", India's first full-length story film, premiered in 1913 in this city, a future film center",
+          "answer": "Bombay (now Mumbai)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDIAN CINEMA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2841-s-c4-r1"
+        },
+        {
+          "question": "India's 1st talkie, 1931's \"Alam Ara\", began a pattern of stopping the action for an often irrelevant one of these",
+          "answer": "song",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDIAN CINEMA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2841-s-c4-r2"
+        },
+        {
+          "question": "Before he teamed up with Ivory, he directed the Oscar-nominated Indian short \"The Creation of a Woman\"",
+          "answer": "Ismail Merchant",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDIAN CINEMA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2841-s-c4-r3"
+        },
+        {
+          "question": "This 2001 film is about the chaos surrounding an arranged marriage in the Verma family",
+          "answer": "Monsoon Wedding",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDIAN CINEMA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2841-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENGLISH \"T\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The London Underground is also called this",
+          "answer": "the Tube",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH \"T\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2841-s-c5-r0"
+        },
+        {
+          "question": "This show that originated on the BBC features Tinky Winky & Laa-Laa",
+          "answer": "Teletubbies",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH \"T\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2841-s-c5-r1"
+        },
+        {
+          "question": "E.H. Baily's 17-foot-tall statue of Lord Nelson is in this London plaza",
+          "answer": "Trafalgar Square",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH \"T\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2841-s-c5-r2"
+        },
+        {
+          "question": "It rises in Gloucestershire, near Cheltenham",
+          "answer": "the Thames River",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH \"T\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2841-s-c5-r3"
+        },
+        {
+          "question": "4 museums in England that house national collections bear the name of this sugar magnate",
+          "answer": "Sir Henry Tate",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH \"T\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2841-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This author's \"The Bear\" is one of many stories dealing with the McCaslins of Yoknapatawpha County",
+          "answer": "William Faulkner",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2841-d-c0-r0"
+        },
+        {
+          "question": "It's said that this \"Tom Jones\" author (mistakenly) traced his lineage to the Hapsburgs",
+          "answer": "Henry Fielding",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2841-d-c0-r1"
+        },
+        {
+          "question": "Books based on his BBC Radio lectures during WWII include \"The Screwtape Letters\" & \"Mere Christianity\"",
+          "answer": "C.S. Lewis",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2841-d-c0-r2"
+        },
+        {
+          "question": "This author of \"The House of Spirits\" once worked for the U.N.'s food & agriculture organization",
+          "answer": "Isabel Allende",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2841-d-c0-r3"
+        },
+        {
+          "question": "He led a marine biology expedition to Baja California & later wrote about it in \"The Sea of Cortez\"",
+          "answer": "John Steinbeck",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2841-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOTBALL",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "(Mark Bruener of the Pittsburgh Steelers gives the clue, along with Jimmy of the Clue Crew.)  I'm holding Jimmy off with this maneuver, like the Heisman Trophy statue",
+          "answer": "a stiff arm",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2841-d-c1-r0"
+        },
+        {
+          "question": "49ers coach Red Hickey pioneered this formation with the quarterback a few yards behind the center",
+          "answer": "shotgun",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2841-d-c1-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew giving the clue, accompanied by Charlie Batch of the Pittsburgh Steelers)  It's said the great Jim Thorpe could kick 50-yard field goals using this style of kick no longer used",
+          "answer": "drop kick",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2841-d-c1-r2"
+        },
+        {
+          "question": "The 3-4 defense is named for its alignment of 3 linemen & 4 of these",
+          "answer": "linebackers",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2841-d-c1-r3"
+        },
+        {
+          "question": "(Charlie Batch giving the clue, along with Mark Bruener & Jimmy)  It's a trick play that includes the name of a dog pest",
+          "answer": "flea flicker",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2841-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PIANO PIECES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "3-letter word for the type of piece for which Scott Joplin is best known",
+          "answer": "rag",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIANO PIECES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2841-d-c2-r0"
+        },
+        {
+          "question": "Mozart's Sonata in F Major, Kochel No. 497, is for 1 piano played with 4 of these",
+          "answer": "hands",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIANO PIECES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2841-d-c2-r1"
+        },
+        {
+          "question": "The Brahms work heard here is this type of dance music",
+          "answer": "waltz",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIANO PIECES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2841-d-c2-r2"
+        },
+        {
+          "question": "This 19th century composer's Opus 14 is classified as a Krakowiak",
+          "answer": "Frederic Chopin",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIANO PIECES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2841-d-c2-r3"
+        },
+        {
+          "question": "Also a word for a daydream, Schumann wrote one in C Major in 1836",
+          "answer": "fantasy",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIANO PIECES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2841-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FISHY WORDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "To glide across the ice",
+          "answer": "skate",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FISHY WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2841-d-c3-r0"
+        },
+        {
+          "question": "Bird sitting location",
+          "answer": "perch",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISHY WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2841-d-c3-r1"
+        },
+        {
+          "question": "Ale maker in England sold to Coors in February 2002",
+          "answer": "Bass",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISHY WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2841-d-c3-r2"
+        },
+        {
+          "question": "A ruthless, greedy person",
+          "answer": "shark",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISHY WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2841-d-c3-r3"
+        },
+        {
+          "question": "Long wooden spear used by medieval foot soldiers",
+          "answer": "pike",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISHY WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2841-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOBEL PRIZE WINNERS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 2000 Gao Xingjian became the first writer from this country to win the Nobel Prize for Literature",
+          "answer": "China",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOBEL PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2841-d-c4-r0"
+        },
+        {
+          "question": "He was teaching at the University of Chicago when he won the 1976 Nobel Prize in Economics",
+          "answer": "Milton Friedman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOBEL PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2841-d-c4-r1"
+        },
+        {
+          "question": "In 1943 the Nobel assembly gave a dam, Henrik Dam, a prize for discovering this vitamin which aids in blood clotting",
+          "answer": "vitamin K",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOBEL PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2841-d-c4-r2"
+        },
+        {
+          "question": "Willard Libby won a Chemistry prize for his method of using this radioactive isotope to date fossils & other objects",
+          "answer": "carbon-14/radiocarbon",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOBEL PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2841-d-c4-r3"
+        },
+        {
+          "question": "It doesn't take a nuclear physicist to figure out that he won the 1975 Nobel Peace Prize",
+          "answer": "Andrei Sakharov",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOBEL PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2841-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEFORE & AFTER",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "TV show in which E.B. White's mouse-like boy lives with Laura Ingalls & her pa",
+          "answer": "Stuart Little House on the Prairie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2841-d-c5-r0"
+        },
+        {
+          "question": "Bionic \"Six Million Dollar Man of Mystery\" whose foe is Dr. Evil",
+          "answer": "Steve Austin Powers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2841-d-c5-r1"
+        },
+        {
+          "question": "Sergio Leone & Hans Christian Andersen Spaghetti Western in which Clint Eastwood becomes a swan",
+          "answer": "The Good, the Bad and the Ugly Duckling",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2841-d-c5-r2"
+        },
+        {
+          "question": "\"Super Freak\" singer who authored the \"Leatherstocking Tales\"",
+          "answer": "Rick James Fenimore Cooper",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2841-d-c5-r3"
+        },
+        {
+          "question": "Haley Joel Osment's catchphrase from \"The Sixth Sense\" that was a \"weird\" 1967 Doors song",
+          "answer": "I see dead People are Strange",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2841-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICANA",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In June 1885 it made a historic transatlantic voyage in 214 crates on the frigate Isere",
+          "answer": "Statue of Liberty",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AMERICANA",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2841-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

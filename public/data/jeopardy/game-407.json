@@ -1,0 +1,821 @@
+{
+  "gameId": 407,
+  "showNumber": 3913,
+  "airDate": "September 12, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AFRICAN-AMERICAN HISTORY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1989 Bertram Lee & Peter Bynoe became the first black owners of a major sports franchise, this city's NBA Nuggets",
+          "answer": "Denver",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g407-s-c0-r0"
+        },
+        {
+          "question": "(Hi. I'm Martin Luther King III.) In 1955, my father led a bus boycott in Montgomery after this woman was arrested for refusing to give up her seat",
+          "answer": "Rosa Parks",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g407-s-c0-r1"
+        },
+        {
+          "question": "In 1957 it became the USA's first major city with a black majority",
+          "answer": "Washington, D.C.",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g407-s-c0-r2"
+        },
+        {
+          "question": "In the 1940s CORE pioneered sit-ins & also used these protests whose name in show biz means \"substitutes\"",
+          "answer": "stand-in",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g407-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE SONGS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Springtime for Hitler\" (a '60s classic)",
+          "answer": "The Producers",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g407-s-c1-r0"
+        },
+        {
+          "question": "\"If I Were King Of The Forest\" (1939)",
+          "answer": "The Wizard of Oz",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g407-s-c1-r1"
+        },
+        {
+          "question": "\"Mean Green Mother From Outer Space\" (1986)",
+          "answer": "The Little Shop of Horrors",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g407-s-c1-r2"
+        },
+        {
+          "question": "\"Nobody Does It Better\" (1977)",
+          "answer": "The Spy Who Loved Me",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g407-s-c1-r3"
+        },
+        {
+          "question": "\"Have Yourself A Merry Little Christmas\"(1944)",
+          "answer": "Meet Me In St. Louis",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g407-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOOK REVIEWS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The N.Y. Times said his \"Ragtime\" \"reflects all that is most significant and dramatic in America's last hundred years\"",
+          "answer": "E.L. Doctorow",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK REVIEWS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g407-s-c2-r0"
+        },
+        {
+          "question": "Time said \"The Pelican Brief\" \"is as close to its predecessor\", this Grisham book, as can be without photocopying it",
+          "answer": "The Firm",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK REVIEWS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g407-s-c2-r1"
+        },
+        {
+          "question": "It \"is remembered as a stomach-turning expose of unsanitary conditions...in the meat-packing industry\"",
+          "answer": "The Jungle",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK REVIEWS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g407-s-c2-r2"
+        },
+        {
+          "question": "This 1925 classic \"captures all the romance and glitter of the Jazz Age\"",
+          "answer": "The Great Gatsby",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK REVIEWS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g407-s-c2-r3"
+        },
+        {
+          "question": "A contemporary review said an 1847 novel by this woman should have been called \"Withering Heights\"",
+          "answer": "Emily Bronte",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK REVIEWS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g407-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SYMBOLISM",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This animal, the symbol of a major political party, is a symbol of stubbornness",
+          "answer": "donkey",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLISM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g407-s-c3-r0"
+        },
+        {
+          "question": "Autumn can symbolize a waning life & this season can symbolize new beginnings or birth",
+          "answer": "Spring",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLISM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g407-s-c3-r1"
+        },
+        {
+          "question": "It symbolizes imprisonment & Maya Angelou knows \"why\" it \"sings\"",
+          "answer": "the caged bird",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLISM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g407-s-c3-r2"
+        },
+        {
+          "question": "Symbols of mystery, they're the mysterious doubles of the people who cast them",
+          "answer": "shadows",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLISM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g407-s-c3-r3"
+        },
+        {
+          "question": "As a sapphire is a symbol of this, Cher could have called her daughter Sapphire instead of the name she chose",
+          "answer": "Chastity",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLISM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g407-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DICK & JANE & SPOT HODGEPODGE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "See Dick. See Dick \"Be all he can be\" in this branch of the military. Serve, Dick, serve!",
+          "answer": "the Army",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DICK & JANE & SPOT HODGEPODGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g407-s-c4-r0"
+        },
+        {
+          "question": "See Spot. See Spot sub for Eddie, played by Moose the dog, on this \"psychological\" sitcom. Act, Spot, act!",
+          "answer": "Frasier",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DICK & JANE & SPOT HODGEPODGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g407-s-c4-r1"
+        },
+        {
+          "question": "See Dick. See Dick leap off a bridge using a long elastic cord, doing this sport. You're crazy, Dick! Crazy!",
+          "answer": "bungee jumping",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DICK & JANE & SPOT HODGEPODGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g407-s-c4-r2"
+        },
+        {
+          "question": "See Spot. See Spot compete in this premier dog show at Madison Square Garden in February 2001. Preen, Spot, preen!",
+          "answer": "the Westminster Dog Show",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DICK & JANE & SPOT HODGEPODGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g407-s-c4-r3"
+        },
+        {
+          "question": "See Jane. See Jane with chimps. Identify Jane!",
+          "answer": "Jane Goodall",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DICK & JANE & SPOT HODGEPODGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g407-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "POT - \"POR\" - RI",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Food staple of Goldilocks",
+          "answer": "porridge",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT - \"POR\" - RI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g407-s-c5-r0"
+        },
+        {
+          "question": "These rodents are born with soft fur in addition to their quills, which harden within hours",
+          "answer": "porcupines",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT - \"POR\" - RI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g407-s-c5-r1"
+        },
+        {
+          "question": "Please, tell us this Spanish way of saying \"Please\"",
+          "answer": "por favor",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT - \"POR\" - RI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g407-s-c5-r2"
+        },
+        {
+          "question": "He wrote, \"You're the Nile, you're the Tower of Pisa, you're the smile on the Mona Lisa\"",
+          "answer": "Cole Porter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT - \"POR\" - RI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g407-s-c5-r3"
+        },
+        {
+          "question": "The University of Haiti is located in this capital",
+          "answer": "Port-au-Prince",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT - \"POR\" - RI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g407-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GO TO HELSINKI!",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "King Gustav I Vasa of this nation founded Helsinki in 1550",
+          "answer": "Sweden",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GO TO HELSINKI!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g407-d-c0-r0"
+        },
+        {
+          "question": "For a few markkas an hour, at the Helsinki City Youth Hostel you can rent one of these conveyances",
+          "answer": "a bicycle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GO TO HELSINKI!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g407-d-c0-r1"
+        },
+        {
+          "question": "In this post-World War II year the Summer Olympic Games were held in Helsinki",
+          "answer": "1952",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GO TO HELSINKI!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g407-d-c0-r2"
+        },
+        {
+          "question": "Known as the official airline of Santa Claus, it's the only major airline that flies directly from the U.S. to Helsinki",
+          "answer": "Finnair",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GO TO HELSINKI!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g407-d-c0-r3"
+        },
+        {
+          "question": "A Helsinki park named for this composer is left unmanicured to reflect the rugged natural beauty of Finland",
+          "answer": "Jean Sibelius",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GO TO HELSINKI!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g407-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATUE-ESQUE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A detail of this famous statue is seen here",
+          "answer": "the Statue of Liberty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATUE-ESQUE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g407-d-c1-r0"
+        },
+        {
+          "question": "Seen here being removed from Vilnius in 1991 is a statue of this man",
+          "answer": "Lenin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATUE-ESQUE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g407-d-c1-r1"
+        },
+        {
+          "question": "The ancient statue seen here is of this weary Greek god",
+          "answer": "Atlas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATUE-ESQUE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g407-d-c1-r2"
+        },
+        {
+          "question": "Little remains today of the statue seen here in this country",
+          "answer": "Afghanistan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATUE-ESQUE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g407-d-c1-r3"
+        },
+        {
+          "question": "Seen here are fragments of a colossal statue of this 4th-century Roman emperor",
+          "answer": "Constantine",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATUE-ESQUE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g407-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENTERTAINMENT NEWS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "N.Y. gun charges against this rap impresario went up in smoke in March 2001",
+          "answer": "Sean Combs",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENTERTAINMENT NEWS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g407-d-c2-r0"
+        },
+        {
+          "question": "Unfortunately, too many \"Days of Thunder\" split this celeb couple in February 2001",
+          "answer": "Tom Cruise and Nicole Kidman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENTERTAINMENT NEWS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g407-d-c2-r1"
+        },
+        {
+          "question": "In March 2001, reports had this \"Come On Over\" singer & her husband Mutt expecting their first pup",
+          "answer": "Shania Twain",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENTERTAINMENT NEWS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g407-d-c2-r2"
+        },
+        {
+          "question": "In 2001 this \"Gladiator\" fought off a kidnapping threat that drew the FBI's attention",
+          "answer": "Russell Crowe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENTERTAINMENT NEWS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g407-d-c2-r3"
+        },
+        {
+          "question": "I pity the lymphoma that was stupid enough to take on this \"A-Team\" star; he beat it, he beat it good",
+          "answer": "Mr. T",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENTERTAINMENT NEWS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g407-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MIND YOUR BUSINESS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This soup-er company began as a canning & preserves business in Camden, New Jersey in 1869",
+          "answer": "Campbell's",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIND YOUR BUSINESS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g407-d-c3-r0"
+        },
+        {
+          "question": "In 1901 he joined with a machinist named Nickerson to make his safety razor",
+          "answer": "Gillette",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIND YOUR BUSINESS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g407-d-c3-r1"
+        },
+        {
+          "question": "In 1952 Glen Bell was selling hot dogs & burgers; he then added these to the drive-in menu & the rest is history",
+          "answer": "tacos",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIND YOUR BUSINESS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g407-d-c3-r2"
+        },
+        {
+          "question": "In 1903 James L. Kraft began a company to handle the wholesale distribution of this food",
+          "answer": "cheese",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIND YOUR BUSINESS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g407-d-c3-r3"
+        },
+        {
+          "question": "The name of this fruit & vegetable canner came off a hotel in Monterey",
+          "answer": "Del Monte",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIND YOUR BUSINESS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g407-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ELEMENT & STATE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Al (AL)",
+          "answer": "aluminum & Alabama",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT & STATE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g407-d-c4-r0"
+        },
+        {
+          "question": "Ne (NE)",
+          "answer": "Neon & Nebraska",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT & STATE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g407-d-c4-r1"
+        },
+        {
+          "question": "Ar (AR)",
+          "answer": "Argon & Arkansas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT & STATE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g407-d-c4-r2"
+        },
+        {
+          "question": "Mn (MN)",
+          "answer": "Manganese & Minnesota",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT & STATE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g407-d-c4-r3"
+        },
+        {
+          "question": "In (IN)",
+          "answer": "indium & Indiana",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT & STATE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g407-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEFORE & AFTER",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"That'll be the day\" when this leader of the Crickets wins an Oscar for \"The Piano\"",
+          "answer": "Buddy Holly Hunter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g407-d-c5-r0"
+        },
+        {
+          "question": "VH1 show about the rise, fall & comeback of Prof. Harold Hill, who sang about 76 trombones",
+          "answer": "Behind the Music Man",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g407-d-c5-r1"
+        },
+        {
+          "question": "R&B group that had a hit with \"Celebration\" & included Mao's third wife to implement harsh policies",
+          "answer": "Kool And The Gang Of Four",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g407-d-c5-r2"
+        },
+        {
+          "question": "1980 film in which Goldie Hawn joins the army & serves as British Prime Minister from 1874 to 1880",
+          "answer": "Private Benjamin Disraeli",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g407-d-c5-r3"
+        },
+        {
+          "question": "With brother Daffy, the NL strikeout leader who served as Truman's Secretary of State",
+          "answer": "Dizzy Dean Acheson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g407-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZATIONS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Linda Collins's tetanus antitoxin allergy led her parents to found this emergency information service",
+          "answer": "MedicAlert",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ORGANIZATIONS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g407-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

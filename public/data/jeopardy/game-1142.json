@@ -1,0 +1,833 @@
+{
+  "gameId": 1142,
+  "showNumber": 3006,
+  "airDate": "September 29, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "EUROPEAN GEOGRAPHY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Dracula could tell you that Walachia & Transylvania are regions of this country",
+          "answer": "Romania",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1142-s-c0-r0"
+        },
+        {
+          "question": "Cape Roca, mainland Europe's westernmost point, is on the coast of this country",
+          "answer": "Portugal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1142-s-c0-r1"
+        },
+        {
+          "question": "Islands located in this arm of the Mediterranean include the Cyclades & Dodecanese",
+          "answer": "Aegean Sea",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1142-s-c0-r2"
+        },
+        {
+          "question": "Malta lies about 60 miles south of this largest Mediterranean island",
+          "answer": "Sicily",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1142-s-c0-r3"
+        },
+        {
+          "question": "About a tenth of Estonia's land area consists of islands in this sea",
+          "answer": "Baltic Sea",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1142-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAUCE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Whether it's a fruit or vegetable, it's the basis of pomodoro & marinara sauces for pasta",
+          "answer": "Tomato",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAUCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1142-s-c1-r0"
+        },
+        {
+          "question": "This small pitcher with a nautical name is used to pour sauces over your food",
+          "answer": "a (gravy) boat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAUCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1142-s-c1-r1"
+        },
+        {
+          "question": "In \"Don Quixote\", Cervantes asserted that this sensation \"is the best sauce in the world\"",
+          "answer": "Hunger",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAUCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1142-s-c1-r2"
+        },
+        {
+          "question": "The name of this wine sauce served on meats betrays its point of origin, Bordeaux",
+          "answer": "bordelaise sauce",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAUCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1142-s-c1-r3"
+        },
+        {
+          "question": "Avery Island, Louisiana has shipped little bottles of this hot sauce to the world since 1868",
+          "answer": "Tabasco sauce",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAUCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1142-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOR MOTHER GOOSE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Garment worn by Wee Willie Winkie as he \"runs through the town, upstairs and downstairs\"",
+          "answer": "Nightgown",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOR MOTHER GOOSE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1142-s-c2-r0"
+        },
+        {
+          "question": "The only one of The 3 Men In A Tub not affiliated with the food industry",
+          "answer": "Candlestick maker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOR MOTHER GOOSE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1142-s-c2-r1"
+        },
+        {
+          "question": "\"Who killed Cock Robin?  'I,' said\" he, \" 'with my bow and arrow, I killed Cock Robin'\"",
+          "answer": "the Sparrow",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOR MOTHER GOOSE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1142-s-c2-r2"
+        },
+        {
+          "question": "\"Needles and pins, needles and pins\", when a man\" does this \"his trouble begins\"",
+          "answer": "Marries",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOR MOTHER GOOSE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1142-s-c2-r3"
+        },
+        {
+          "question": "\"Tom, Tom the piper's son, he learned to play when he was young\", but he could play only this song",
+          "answer": "\"Over The Hills And Far Away\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOR MOTHER GOOSE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1142-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 1980s",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1981 he won some respect & a Grammy for his comedy album \"No Respect\"",
+          "answer": "Rodney Dangerfield",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1980s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1142-s-c3-r0"
+        },
+        {
+          "question": "A 1986 article on her in Ladies' Home Journal was titled \"Talking With Doctor Goodsex\"",
+          "answer": "Dr. Ruth Westheimer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1980s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1142-s-c3-r1"
+        },
+        {
+          "question": "In the 1980s, $10 million was spent to save this animal, seen here, from extinction",
+          "answer": "a California condor (condor accepted)",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1980s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1142-s-c3-r2"
+        },
+        {
+          "question": "At the 1980 Winter Olympics he set records in the 500-, 1,000-, 1,500-, 5,000- & 10,000-m. speed skating races",
+          "answer": "Eric Heiden",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1980s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1142-s-c3-r3"
+        },
+        {
+          "question": "At age 87, after 62 years of rule, this emperor died January 7, 1989",
+          "answer": "Hirohito",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1980s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1142-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV VEHICLES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "At first ABC would only let Fonzie wear a leather jacket when he was with this vehicle",
+          "answer": "His motorcycle",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VEHICLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1142-s-c4-r0"
+        },
+        {
+          "question": "Mr. T drove this title group around in a black GMC van with red trim",
+          "answer": "The A-Team",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VEHICLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1142-s-c4-r1"
+        },
+        {
+          "question": "The type of title automobile driven by Elaine Nardo, Tony Banta & Alex Reiger",
+          "answer": "Taxi",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VEHICLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1142-s-c4-r2"
+        },
+        {
+          "question": "Ernest Borgnine played this man, skipper of the U.S. Navy's PT73",
+          "answer": "Quinton McHale",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VEHICLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1142-s-c4-r3"
+        },
+        {
+          "question": "On \"Knight Rider\" William Daniels provided the voice of this talking Trans-Am",
+          "answer": "KITT",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VEHICLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1142-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE \"ROCKY\"s",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Chocolate ice cream with marshmallows & chocolate-covered almonds",
+          "answer": "Rocky road",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"ROCKY\"s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1142-s-c5-r0"
+        },
+        {
+          "question": "He \"checked into his room, only to find Gideon's Bible\"",
+          "answer": "Rocky Raccoon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"ROCKY\"s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1142-s-c5-r1"
+        },
+        {
+          "question": "This 1975 cult film featured such songs as \"Dammit, Janet\" & \"Over At The Frankenstein Place\"",
+          "answer": "The Rocky Horror Picture Show",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"ROCKY\"s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1142-s-c5-r2"
+        },
+        {
+          "question": "In the bluegrass classic, it's \"Home sweet home to me\"",
+          "answer": "Rocky Top, Tennessee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"ROCKY\"s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1142-s-c5-r3"
+        },
+        {
+          "question": "Somebody up there must have liked him; he was world middleweight boxing champ in 1947 & '48",
+          "answer": "Rocky Graziano",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"ROCKY\"s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1142-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC QUOTES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1588 she said, \"I have the body of a weak & feeble woman, but I have the heart & stomach of a king\"",
+          "answer": "Elizabeth I",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1142-d-c0-r0"
+        },
+        {
+          "question": "General & statesman who said, \"When I want to know what France thinks, I ask myself\"",
+          "answer": "Charles de Gaulle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1142-d-c0-r1"
+        },
+        {
+          "question": "\"I still believe that people are really good at heart\", she wrote in her diary July 15, 1944",
+          "answer": "Anne Frank",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1142-d-c0-r2"
+        },
+        {
+          "question": "An expert on the subject, he told Ptolemy I, \"There is no royal road to geometry\"",
+          "answer": "Euclid",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1142-d-c0-r3"
+        },
+        {
+          "question": "From Waterloo he sent the message, \"Nothing except a battle lost can be half so melancholy as a battle won\"",
+          "answer": "Duke of Wellington",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1142-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHE-PLANTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's Porky Pig's favorite flower, no doubt",
+          "answer": "Petunia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHE-PLANTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1142-d-c1-r0"
+        },
+        {
+          "question": "This herb of the mint family is often grouped in song with parsley, sage & thyme",
+          "answer": "Rosemary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHE-PLANTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1142-d-c1-r1"
+        },
+        {
+          "question": "Popular varieties of this flower include the Easter & Madonna",
+          "answer": "Lily",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHE-PLANTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1142-d-c1-r2"
+        },
+        {
+          "question": "Its forked branches are used for divining rods & its bark & leaves are used in potions -- er, lotions",
+          "answer": "witch hazel",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHE-PLANTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1142-d-c1-r3"
+        },
+        {
+          "question": "This bell-shaped purplish flower of Scotland is also called ling",
+          "answer": "Heather",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHE-PLANTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1142-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARTISTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's been estimated that this Cubist created more than 100,000 works during his 91 years",
+          "answer": "Pablo Picasso",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1142-d-c2-r0"
+        },
+        {
+          "question": "He included sketches of Dutch rural scenes in a letter to his brother Theo sent around 1885",
+          "answer": "Vincent Van Gogh",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1142-d-c2-r1"
+        },
+        {
+          "question": "In the 1920s & 1930s, he collaborated with director Luis Bunuel to make 2 surrealist films",
+          "answer": "Salvador Dali",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1142-d-c2-r2"
+        },
+        {
+          "question": "He completed his last great painting \"Bar at the Folies Bergere\", in 1882, a year before his death",
+          "answer": "Edouard Manet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1142-d-c2-r3"
+        },
+        {
+          "question": "He became wealthy by selling engravings of his works such as \"A Rake's Progress\"",
+          "answer": "William Hogarth",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1142-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNATIONAL FILM STARS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Concerning the pronounciation of his name, this star of \"The English Patient\" said, \"It's 'Rafe', actually\"",
+          "answer": "Ralph Fiennes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FILM STARS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1142-d-c3-r0"
+        },
+        {
+          "question": "He played Robin in 1976's \"Robin And Marian\" & King Richard in 1991's \"Robin Hood:  Prince Of Thieves\"",
+          "answer": "Sean Connery",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FILM STARS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1142-d-c3-r1"
+        },
+        {
+          "question": "The actor seen here is also one of the world's most accomplished bridge players",
+          "answer": "Omar Sharif",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FILM STARS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1142-d-c3-r2"
+        },
+        {
+          "question": "In 1961 she won the Best Actress Oscar for \"Two Women\", becoming the first to win for a foreign language film",
+          "answer": "Sophia Loren",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FILM STARS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1142-d-c3-r3"
+        },
+        {
+          "question": "This knighted British star's 1985 autobiography is titled \"Blessings In Disguise\"",
+          "answer": "Sir Alec Guinness",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FILM STARS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1142-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY FORMS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Term for a mystery novel that's already in the form of a question",
+          "answer": "whodunit",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FORMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1142-d-c4-r0"
+        },
+        {
+          "question": "This term for a work of morbid or absurd humor is the title of a Peter Shaffer play set in the dark",
+          "answer": "Black comedy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FORMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1142-d-c4-r1"
+        },
+        {
+          "question": "The creatures mentioned in this term for a fantastic story may be joined by elves & goblins",
+          "answer": "a fairy tale",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FORMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1142-d-c4-r2"
+        },
+        {
+          "question": "Oringinally an inscription like an epitaph, it now means a brief, striking observation",
+          "answer": "Epigram",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FORMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1142-d-c4-r3"
+        },
+        {
+          "question": "Robert Frost compared writing this unstructured verse to playing tennis without a net",
+          "answer": "Free verse",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FORMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1142-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "15-LETTER WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The order of a pope who kicks you out of the flock",
+          "answer": "Excommunication",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1142-d-c5-r0"
+        },
+        {
+          "question": "The attorney-client relationship has this quality, meaning what you tell him will stay a secret",
+          "answer": "Confidentiality",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1142-d-c5-r1"
+        },
+        {
+          "question": "From the Greek for \"foretelling\", it's a forecast of things to come",
+          "answer": "Prognostication",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1142-d-c5-r2"
+        },
+        {
+          "question": "An expert in Robert's Rules of Order",
+          "answer": "Parliamentarian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1142-d-c5-r3"
+        },
+        {
+          "question": "Wagner's \"Twilight of the Gods\"",
+          "answer": "Gotterdammerung",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1142-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGIOUS TITLES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1996 the Roman Catholic church had 48 men with this title in the U.S.; the Anglican church has 2 in England",
+          "answer": "Archbishop",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "RELIGIOUS TITLES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1142-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 772,
+  "showNumber": 4934,
+  "airDate": "February 9, 2006",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The oldest part of this Northern European capital lies on Stadsholmen, or \"City Island\"",
+          "answer": "Stockholm",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g772-s-c0-r0"
+        },
+        {
+          "question": "This South American capital's full name means \"Our Lady of the Assumption\"",
+          "answer": "Asunción",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g772-s-c0-r1"
+        },
+        {
+          "question": "Its Gaelic name, Baile Atha Cliath, means \"town of the ford of the hurdles\"",
+          "answer": "Dublin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g772-s-c0-r2"
+        },
+        {
+          "question": "The name of this capital in the North Atlantic is Old Norse for \"smokey bay\"",
+          "answer": "Reykjavik",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g772-s-c0-r3"
+        },
+        {
+          "question": "The name of this Middle Eastern capital is Persian for \"warm place\"",
+          "answer": "Tehran",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g772-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TODAY'S HOROSCOPE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "(July 23 - Aug. 22)This fire sign is ready to roar!",
+          "answer": "Leo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TODAY'S HOROSCOPE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g772-s-c1-r0"
+        },
+        {
+          "question": "(April 20 - May 20)Quick decisions are necessary.  Be bullish!",
+          "answer": "Taurus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TODAY'S HOROSCOPE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g772-s-c1-r1"
+        },
+        {
+          "question": "(Feb. 19 - March 20)Something's fishy, & it's this mutable water sign",
+          "answer": "Pisces",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TODAY'S HOROSCOPE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g772-s-c1-r2"
+        },
+        {
+          "question": "(June 21 - July 22)Why so crabby?",
+          "answer": "Cancer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TODAY'S HOROSCOPE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g772-s-c1-r3"
+        },
+        {
+          "question": "(Jan. 20 - Feb. 18)It's the age of this air sign. You may be a water bearer but you lift people's spirits, too",
+          "answer": "Aquarius",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TODAY'S HOROSCOPE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g772-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "JR.'s & SR.'s",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's the first U.S. federal holiday of the year that honors a person",
+          "answer": "Martin Luther King Day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JR.'s & SR.'s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g772-s-c2-r0"
+        },
+        {
+          "question": "This jr. was out of this world on Feb. 20, 1962; up to 162 miles, to be more precise",
+          "answer": "(John) Glenn (Jr.)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JR.'s & SR.'s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g772-s-c2-r1"
+        },
+        {
+          "question": "Freddie Prinze Jr. is seen here with this gal, his wife & sometime co-star",
+          "answer": "Sarah Michelle Gellar",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JR.'s & SR.'s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g772-s-c2-r2"
+        },
+        {
+          "question": "In 1940 FDR made Benjamin Davis Sr. the first black one of these in the Army",
+          "answer": "a general",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JR.'s & SR.'s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g772-s-c2-r3"
+        },
+        {
+          "question": "Seen here are the jr. & sr. versions of this legendary NASCAR family",
+          "answer": "Earnhardt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JR.'s & SR.'s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g772-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRUITS & VEGGIES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Broccoflower is a cross between these 2 veggies",
+          "answer": "broccoli & cauliflower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGGIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g772-s-c3-r0"
+        },
+        {
+          "question": "The Concord type of this is used to make jam & juice",
+          "answer": "grapes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGGIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g772-s-c3-r1"
+        },
+        {
+          "question": "Casaba & cantaloupe are types of this fruit",
+          "answer": "melon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGGIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g772-s-c3-r2"
+        },
+        {
+          "question": "This unloved cabbage family member is named for the capital of Belgium",
+          "answer": "Brussels sprouts",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGGIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g772-s-c3-r3"
+        },
+        {
+          "question": "In Latin a pirum is one of these fruits, not two",
+          "answer": "a pear",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGGIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g772-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOOLS OF THE TRADE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A loupe & a ring sizer are standard tools for this occupation",
+          "answer": "a jeweler",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOLS OF THE TRADE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g772-s-c4-r0"
+        },
+        {
+          "question": "It can be a tool of a croquet player or a percussionist",
+          "answer": "a mallet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOLS OF THE TRADE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g772-s-c4-r1"
+        },
+        {
+          "question": "(Jon of the Clue Crew reports in front of a U.S. Postal Service truck.)  One important tool of a letter carrier is a pepper-based spray intended for this purpose",
+          "answer": "dog repellent (defense from dogs accepted)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOLS OF THE TRADE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g772-s-c4-r2"
+        },
+        {
+          "question": "People who take pictures of your insides wear dosimeters, which measure exposure to this",
+          "answer": "X-rays",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOLS OF THE TRADE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g772-s-c4-r3"
+        },
+        {
+          "question": "(Sarah of the Clue Crew reports from Star City in Russia.)  Here at Russia's Star City, this type of apparatus used to separate liquids has been used to train cosmonauts",
+          "answer": "a centrifuge",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOLS OF THE TRADE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g772-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "RHYMES WITH TEEN",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Spotless or pristine",
+          "answer": "clean",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYMES WITH TEEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g772-s-c5-r0"
+        },
+        {
+          "question": "A division of a play, or the play's setting",
+          "answer": "a scene",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYMES WITH TEEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g772-s-c5-r1"
+        },
+        {
+          "question": "A hereditary unit",
+          "answer": "a gene",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYMES WITH TEEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g772-s-c5-r2"
+        },
+        {
+          "question": "A spongy organ near your stomach",
+          "answer": "a spleen",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYMES WITH TEEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g772-s-c5-r3"
+        },
+        {
+          "question": "To gather grain or knowledge",
+          "answer": "glean",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYMES WITH TEEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g772-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AROUND THE BODY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The central nervous system of the body consists of the spinal cord & this organ",
+          "answer": "the brain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE BODY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g772-d-c0-r0"
+        },
+        {
+          "question": "These teeth are named for their resemblance to a dog's sharp teeth",
+          "answer": "the canines",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE BODY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g772-d-c0-r1"
+        },
+        {
+          "question": "Eating quickly can cause these diaphragm spasms--Boo!",
+          "answer": "hiccups",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE BODY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g772-d-c0-r2"
+        },
+        {
+          "question": "The choroid, or middle coat of the eyeball, is the part from which this sometimes detaches",
+          "answer": "the retina",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE BODY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g772-d-c0-r3"
+        },
+        {
+          "question": "Some 2 million nephrons in this pair of organs filter about 180 liters of blood each day",
+          "answer": "kidneys",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE BODY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g772-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SINGLE WOMEN",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This No Doubt singer went solo as a \"Hollaback Girl\"",
+          "answer": "Gwen Stefani",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGLE WOMEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g772-d-c1-r0"
+        },
+        {
+          "question": "\"Free Yourself\" & know that \"Life is Not a Fairy Tale\" for this third \"American Idol\" winner",
+          "answer": "Fantasia Barrino",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SINGLE WOMEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g772-d-c1-r1"
+        },
+        {
+          "question": "She knows \"We Belong Together\" so \"Don't Forget About Us\"",
+          "answer": "Mariah Carey",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SINGLE WOMEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g772-d-c1-r2"
+        },
+        {
+          "question": "This first lady of Crunk & B has the \"Goodies\"",
+          "answer": "Ciara",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGLE WOMEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g772-d-c1-r3"
+        },
+        {
+          "question": "She is \"Unbreakable\" now that she \"Unplugged\" her piano",
+          "answer": "(Alicia) Keys",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGLE WOMEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g772-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TAKING FLIGHT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The air flowing through a 767's engine on takeoff could inflate this Ohio-based dirigible in less than 10 seconds",
+          "answer": "the Goodyear Blimp",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKING FLIGHT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g772-d-c2-r0"
+        },
+        {
+          "question": "The Lockheed C-130 is known by this name of a mythic hero who slew the Hydra",
+          "answer": "Hercules",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKING FLIGHT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g772-d-c2-r1"
+        },
+        {
+          "question": "The first woman to fly in a plane in the U.S., Mrs. Ralph Van Deman, had a man with this last name as a pilot",
+          "answer": "Wright",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TAKING FLIGHT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g772-d-c2-r2"
+        },
+        {
+          "question": "The press insisted on calling the H-4 the \"Spruce Goose\", something that this billionaire builder hated",
+          "answer": "Hughes",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKING FLIGHT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g772-d-c2-r3"
+        },
+        {
+          "question": "In 1958 this Australian airline began offering around-the-world service",
+          "answer": "Qantas",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKING FLIGHT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g772-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS FACES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The athletic achievements of this American may never be topped",
+          "answer": "Lance Armstrong",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FACES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g772-d-c3-r0"
+        },
+        {
+          "question": "His stature in the early history of the United States was electrifying",
+          "answer": "Benjamin Franklin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FACES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g772-d-c3-r1"
+        },
+        {
+          "question": "This senator was a groundbreaker in 2000",
+          "answer": "(Joseph) Lieberman",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FACES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g772-d-c3-r2"
+        },
+        {
+          "question": "He died in London in 1547 but not before starting his own church",
+          "answer": "Henry VIII",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FACES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g772-d-c3-r3"
+        },
+        {
+          "question": "One of the longest serving prime ministers of his country is this man seen here",
+          "answer": "Tony Blair",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FACES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g772-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANIMAL ADVERSARIES SPEAK",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Ahab's harpoon throwing started it, & I don't even like leg; I'm more of a breast mammal myself\"",
+          "answer": "Moby-Dick",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL ADVERSARIES SPEAK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g772-d-c4-r0"
+        },
+        {
+          "question": "\"Even though it's a theme park, I'm a method dino. To be convincing, I need to kill like I'm from the late Cretaceous\"",
+          "answer": "Jurassic Park",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL ADVERSARIES SPEAK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g772-d-c4-r1"
+        },
+        {
+          "question": "\"I'm a snake with traditional values. It's unnatural for a boy to live with wolves & lead the monkey-people\"",
+          "answer": "The Jungle Book",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL ADVERSARIES SPEAK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g772-d-c4-r2"
+        },
+        {
+          "question": "\"I initiated a hostile takeover because Snowball had no business sense & would have bankrupted the Homestead\"",
+          "answer": "Animal Farm",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL ADVERSARIES SPEAK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g772-d-c4-r3"
+        },
+        {
+          "question": "\"I'm doing my job guarding treasure when this king & Wiglaf protect a thief & come after me!  It burns me up!\"",
+          "answer": "Beowulf",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL ADVERSARIES SPEAK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g772-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"X\" BOXED",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A member of Houston's newest NFL team",
+          "answer": "a Texan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\" BOXED",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g772-d-c5-r0"
+        },
+        {
+          "question": "Past tense word often found before \"out\", as in \"Those $400 shoes ____ out Dad's credit card\"",
+          "answer": "maxed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\" BOXED",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g772-d-c5-r1"
+        },
+        {
+          "question": "From the Latin for \"poison\", it refers to a harmful substance",
+          "answer": "a toxin",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\" BOXED",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g772-d-c5-r2"
+        },
+        {
+          "question": "It's a party to get to know people, or a guy who adjusts sound components",
+          "answer": "a mixer",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\" BOXED",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g772-d-c5-r3"
+        },
+        {
+          "question": "Disney & this animation studio brought us \"Finding Nemo\"",
+          "answer": "Pixar",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\" BOXED",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g772-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CONGRESS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The word for this job comes from a fox-hunting term for someone who keeps the hunting dogs from straying",
+          "answer": "the whip",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "CONGRESS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g772-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

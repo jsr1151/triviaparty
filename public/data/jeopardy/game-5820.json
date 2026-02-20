@@ -1,0 +1,797 @@
+{
+  "gameId": 5820,
+  "showNumber": 612,
+  "airDate": "April 14, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SAN FRANCISCO",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "San Francisco is accessible by land only from this direction",
+          "answer": "the south",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAN FRANCISCO",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5820-s-c0-r0"
+        },
+        {
+          "question": "This famous marine area is found at the foot of Taylor Street",
+          "answer": "Fisherman's Wharf",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAN FRANCISCO",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5820-s-c0-r1"
+        },
+        {
+          "question": "Once covering 58 miles, the routes for these have been reduced to less than 10 miles",
+          "answer": "cable cars",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAN FRANCISCO",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5820-s-c0-r2"
+        },
+        {
+          "question": "What you're doing if you participate in the \"Bay to Breakers\"",
+          "answer": "marathon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAN FRANCISCO",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5820-s-c0-r3"
+        },
+        {
+          "question": "In \"I Left My Heart in San Francisco\", it \"may fill the air, I don't care\"",
+          "answer": "the morning fog",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAN FRANCISCO",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5820-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEAUTY SECRETS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Caswell-Massey still sells \"#6\", the favorite cologne of this #1 president",
+          "answer": "George Washington",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEAUTY SECRETS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5820-s-c1-r0"
+        },
+        {
+          "question": "Sarah Bernhardt slathered on a night cream made from this popular pickle vegetable",
+          "answer": "cucumber",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEAUTY SECRETS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5820-s-c1-r1"
+        },
+        {
+          "question": "It's said that to tint their bodies, East Indians used this paste now used in marzipan",
+          "answer": "almond paste",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEAUTY SECRETS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5820-s-c1-r2"
+        },
+        {
+          "question": "\"Springing eternal\", this comic said his make-up crew also restored the Statue of Liberty",
+          "answer": "Bob Hope",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEAUTY SECRETS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5820-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "NAME THAT TEAM",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Bill Sharman, Bob Cousy, & Bill Russell",
+          "answer": "Boston Celtics",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT TEAM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5820-s-c2-r0"
+        },
+        {
+          "question": "Reggie Jackson, Graig Nettles, & Bucky Dent",
+          "answer": "New York Yankees",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT TEAM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5820-s-c2-r1"
+        },
+        {
+          "question": "Reggie Jackson, Nolan Ryan, & Dean Chance",
+          "answer": "California Angels",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT TEAM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5820-s-c2-r2"
+        },
+        {
+          "question": "Jim Taylor, Ray Nitschke, & Bart Starr",
+          "answer": "Green Bay Packers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT TEAM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5820-s-c2-r3"
+        },
+        {
+          "question": "Sid Abel, Ted Lindsay, & Gordie Howe",
+          "answer": "Detroit Red Wings",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT TEAM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5820-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROCK 'N ROLL",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Appropriate last name of snowy-haired brothers Johnny & Edgar",
+          "answer": "Winter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5820-s-c3-r0"
+        },
+        {
+          "question": "Lionel Richie sang lead for this Motown group before going solo in the '80s",
+          "answer": "The Commodores",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5820-s-c3-r1"
+        },
+        {
+          "question": "This label has digitally remastered Elvis Presley's early records back into mono",
+          "answer": "RCA",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5820-s-c3-r2"
+        },
+        {
+          "question": "His fans are \"Parrotheads\"; his band, \"The Coral Reefers\"; & his biggest hit, \"Margaritaville\"",
+          "answer": "Jimmy Buffett",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5820-s-c3-r3"
+        },
+        {
+          "question": "Carlos Santana's brother Jorge led this \"bad\" Latin-rock band",
+          "answer": "Malo",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5820-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GHOSTS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This biblical villain is said to haunt Switzerland's Mount Pilatus on Good Friday",
+          "answer": "Pontius Pilate",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GHOSTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5820-s-c4-r0"
+        },
+        {
+          "question": "That \"rare\" person whose efforts to produce a ghost at a seance are \"well done\"",
+          "answer": "medium",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GHOSTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5820-s-c4-r1"
+        },
+        {
+          "question": "Beheaded queen whose ghost returns to Norfolk, England on every anniversary of her execution",
+          "answer": "Anne Boleyn",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GHOSTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5820-s-c4-r2"
+        },
+        {
+          "question": "Some say this pirate's ghost still swims around Teach's Hole, N.C. searching for his head",
+          "answer": "Blackbeard",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GHOSTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5820-s-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE TALK",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "1st name -- or is it 1st & middle? -- of the winner of the 1936 Miss Hungary beauty pageant",
+          "answer": "Zsa Zsa",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE TALK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5820-s-c5-r0"
+        },
+        {
+          "question": "To the French this sugary candy is \"good good\"",
+          "answer": "bon bon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE TALK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5820-s-c5-r1"
+        },
+        {
+          "question": "Despite what you may have heard, published lyrics of this song are not at all racy:",
+          "answer": "\"Louie Louie\"",
+          "value": 100,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE TALK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5820-s-c5-r2"
+        },
+        {
+          "question": "The capital of American Samoa, Pago Pago, was formerly named & is usually still called this",
+          "answer": "Pango Pango",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE TALK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5820-s-c5-r3"
+        },
+        {
+          "question": "Nickname of former NHL star B. Geoffrion & Freddie Washington on \"Welcome Back, Kotter\"",
+          "answer": "Boom Boom",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE TALK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5820-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOOKS & AUTHORS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In \"His Way\", author Kitty Kelley told things her way about his life",
+          "answer": "Frank Sinatra",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5820-d-c0-r0"
+        },
+        {
+          "question": "The 4 words which begin the title of every Perry Mason story",
+          "answer": "The Case of the...",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5820-d-c0-r1"
+        },
+        {
+          "question": "William Styron's 1979 story of a Polish Catholic survivor of Auschwitz",
+          "answer": "Sophie's Choice",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5820-d-c0-r2"
+        },
+        {
+          "question": "Author who sued New York Times in 1986 for not putting his \"Exorcist\" sequel on best seller list",
+          "answer": "William Peter Blatty",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5820-d-c0-r3"
+        },
+        {
+          "question": "Author of both, he called his screenplay for 1958's \"The Fly\" \"Equal in quality to 'Noble House'\"",
+          "answer": "James Clavell",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5820-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Martin Luther's translation of the Bible into this language is considered a literary masterpiece",
+          "answer": "German",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5820-d-c1-r0"
+        },
+        {
+          "question": "L.A. Times says people of this country often describe it as 70% Catholic, 30% Protestant & 100% Voodoo",
+          "answer": "Haiti",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5820-d-c1-r1"
+        },
+        {
+          "question": "In Hinduism it's a mystical word or formula chanted repeatedly",
+          "answer": "mantra",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5820-d-c1-r2"
+        },
+        {
+          "question": "It's said John Paul II was 1st pope since Peter to visit 1 of these houses of worship",
+          "answer": "synagogue",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5820-d-c1-r3"
+        },
+        {
+          "question": "In this branch of Christianity, priests can marry, though bishops can't",
+          "answer": "Eastern Orthodox",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5820-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRSTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The 1966 Michigan State-Notre Dame game was first TV event ever sent from mainland to Hawaii via this",
+          "answer": "satellite",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRSTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5820-d-c2-r0"
+        },
+        {
+          "question": "1986 was 1st year a man was selected to head this nonpartisan organization concerned with voter education",
+          "answer": "League of Women Voters",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRSTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5820-d-c2-r1"
+        },
+        {
+          "question": "In 1953 \"Amazon Annie\" became 1st cannon to use this type of ammo",
+          "answer": "atomic",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRSTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5820-d-c2-r2"
+        },
+        {
+          "question": "The 1st synthetic fiber successfully used to make ropes & cordage",
+          "answer": "nylon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRSTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5820-d-c2-r3"
+        },
+        {
+          "question": "Wilma Mankiller is the 1st woman to serve as chief of this Indian nation centered in Oklahoma",
+          "answer": "Cherokee",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRSTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5820-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "STAMPS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "French for \"head to foot\", a tete-beche error occurs when 1 stamp in a series is printed this way",
+          "answer": "upside-down",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STAMPS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5820-d-c3-r0"
+        },
+        {
+          "question": "Name for any mark, such as a postmark, applied to a stamp on a letter to prevent its reuse",
+          "answer": "cancellation mark",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STAMPS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5820-d-c3-r1"
+        },
+        {
+          "question": "From Greek for \"loving exemption from payment\", it's the study & collection of postage stamps",
+          "answer": "philately",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STAMPS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5820-d-c3-r2"
+        },
+        {
+          "question": "Among the most complete stamp collections in the U.S.is that which this famous cardinal collected",
+          "answer": "Cardinal Spellman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STAMPS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5820-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL TRIVIA",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In both \"The President's Lady\" & \"The Buccaneer\", Charlton Heston played this hero of the War of 1812",
+          "answer": "Andrew Jackson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5820-d-c4-r0"
+        },
+        {
+          "question": "He taught surveying to Meriwether Lewis & later sent him on his way",
+          "answer": "Thomas Jefferson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5820-d-c4-r1"
+        },
+        {
+          "question": "His wife, born Anne Frances Robbins, is a 10th cousin to England's Princess Diana",
+          "answer": "Ronald Reagan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5820-d-c4-r2"
+        },
+        {
+          "question": "William Henry Harrison lost his job as 1st U.S. minister to Colombia after offending this \"Liberator\"",
+          "answer": "Simon Bolivar",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5820-d-c4-r3"
+        },
+        {
+          "question": "New York City's Wave Hill Mansion was home at different times to Mark Twain & this police commissioner",
+          "answer": "Teddy Roosevelt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5820-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"THE\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In our solar system, it's the only planet whose name can be preceded by \"The\"",
+          "answer": "The Earth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"THE\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5820-d-c5-r0"
+        },
+        {
+          "question": "The only New York City borough to have \"The\" in its name",
+          "answer": "The Bronx",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"THE\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5820-d-c5-r1"
+        },
+        {
+          "question": "More popular name of the 1968 Beatles album \"The Beatles\"",
+          "answer": "the White Album",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"THE\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5820-d-c5-r2"
+        },
+        {
+          "question": "Matt Johnson's British band, its name's a dual definite article",
+          "answer": "The The",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"THE\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5820-d-c5-r3"
+        },
+        {
+          "question": "European country & its seat of gov't, both of which begin with \"The\", in their language \"Der\" & \"Den\"",
+          "answer": "The Netherlands & The Hague",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"THE\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5820-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE MOVIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 2 highest grossing films of 1965, both musicals, starred this actress",
+          "answer": "Julie Andrews",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE MOVIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5820-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

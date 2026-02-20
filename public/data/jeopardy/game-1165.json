@@ -1,0 +1,773 @@
+{
+  "gameId": 1165,
+  "showNumber": 3996,
+  "airDate": "January 7, 2002",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AT THE BALLET",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A pas de trois is a dance for 3, & this similar term is a dance for 2 performers",
+          "answer": "a pas de deux",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE BALLET",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1165-s-c0-r0"
+        },
+        {
+          "question": "Margot Fonteyn danced divinely in a 1940 ballet inspired by this author of the \"Divine Comedy\"",
+          "answer": "Dante",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE BALLET",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1165-s-c0-r1"
+        },
+        {
+          "question": "A male drifter lusts after a garage owner's wife in \"The Car Man\", inspired by this composer's opera \"Carmen\"",
+          "answer": "Bizet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE BALLET",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1165-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "ACTIVISM",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 2001 students held a sit-in to demand this type of \"wage\" for Harvard service workers",
+          "answer": "a living wage",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTIVISM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1165-s-c1-r0"
+        },
+        {
+          "question": "Court decisions that seek to make laws rather than interpret them are called this type of \"activism\"",
+          "answer": "judicial activism",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTIVISM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1165-s-c1-r1"
+        },
+        {
+          "question": "One day a year Oxfam America asks people in wealthy countries to do this \"for a world harvest\"",
+          "answer": "fast",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTIVISM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1165-s-c1-r2"
+        },
+        {
+          "question": "You could call Julia Butterfly Hill, seen here,a tree-hugger; she spent two years in one of these California trees",
+          "answer": "a redwood",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTIVISM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1165-s-c1-r3"
+        },
+        {
+          "question": "If you live in Brea, California, dislike big government & adore elephants, think of joining the Orange County \"Young\" these",
+          "answer": "Republicans",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTIVISM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1165-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RUGGED TERRAIN",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Twin hills called the Paps are part of the scenery of County Kerry in this country",
+          "answer": "Ireland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUGGED TERRAIN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1165-s-c2-r0"
+        },
+        {
+          "question": "New Hampshire's mount Washington has the skiing spot called Tuckerman this, a narrow valley or gorge",
+          "answer": "ravine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RUGGED TERRAIN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1165-s-c2-r1"
+        },
+        {
+          "question": "On Emei Shan, a mountain in this country, you'll pass White Dragon Cave & Elephant Bathing Pool",
+          "answer": "China",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUGGED TERRAIN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1165-s-c2-r2"
+        },
+        {
+          "question": "Patagonia is mainly in Argentina but part, including craggy Torres del Paine National Park, is in this country",
+          "answer": "Chile",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUGGED TERRAIN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1165-s-c2-r3"
+        },
+        {
+          "question": "For hiking info in this mountainous country, contact the Osterreichischer Alpenverein",
+          "answer": "Austria",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUGGED TERRAIN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1165-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WAY TO GO",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The name of this 3-masted sailing ship used by the Spanish Armada is from the Old Spanish for \"galley\"",
+          "answer": "galleon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY TO GO",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1165-s-c3-r0"
+        },
+        {
+          "question": "Used by the Inuit for thousands of years, it has a covered deck & an open cockpit in which the rower sits with his oar",
+          "answer": "a kayak",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY TO GO",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1165-s-c3-r1"
+        },
+        {
+          "question": "Carl J. Eliason is credited with inventing this vehicle in the 1920s by motorizing a toboggan",
+          "answer": "a snowmobile",
+          "value": 1400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY TO GO",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1165-s-c3-r2"
+        },
+        {
+          "question": "France's TGV & Japan's Shinkansen trains are more popularly known by this \"projectile\" name",
+          "answer": "a bullet (bullet trains)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY TO GO",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1165-s-c3-r3"
+        },
+        {
+          "question": "This pioneer wagon could float when the wheels were removed because it was built with the ends higher than the middle",
+          "answer": "a prairie schooner",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY TO GO",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1165-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AWARDS & HONORS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Lorraine Adams of the Dallas Morning News won this prize for Investigative Reporting in 1992",
+          "answer": "the Pulitzer Prize",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS & HONORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1165-s-c4-r0"
+        },
+        {
+          "question": "(Here's Cheryl at the Plaza Hotel with this clue.) At the Plaza on February 10, 1964, this group was presented with two gold records from their latest album",
+          "answer": "the Beatles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS & HONORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1165-s-c4-r1"
+        },
+        {
+          "question": "In 1998 this \"Dilbert\" creator received the Reuben Award from the National Cartoonists Society",
+          "answer": "Scott Adams",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AWARDS & HONORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1165-s-c4-r2"
+        },
+        {
+          "question": "This man won the 1982 Best Actor Oscar for playing a 1948 assassination victim",
+          "answer": "Ben Kingsley",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS & HONORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1165-s-c4-r3"
+        },
+        {
+          "question": "A 1985 Peabody Award was presented to Bob Geldof for organizing these performance events",
+          "answer": "Live Aid",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS & HONORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1165-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SLANG",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In diner slang, \"without moo\" means without this",
+          "answer": "no milk",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLANG",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1165-s-c5-r0"
+        },
+        {
+          "question": "Derived from the word bimbo, it's the male equivalent of a bimbo",
+          "answer": "himbo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLANG",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1165-s-c5-r1"
+        },
+        {
+          "question": "In baseball, dancer is slang for this type of pitch",
+          "answer": "the knuckleball",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SLANG",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1165-s-c5-r2"
+        },
+        {
+          "question": "(Sofia \"rocks\" the clue.) In rock-climbing slang, to fall hard to the ground is to do this, also part of a volcano. Aaaah!",
+          "answer": "crater",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SLANG",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1165-s-c5-r3"
+        },
+        {
+          "question": "To be compared to a workby this artist, like the one seen here, is an insult; it means you look better from a distance",
+          "answer": "Monet",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLANG",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1165-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD LIT",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The \"Ramayana\" is one of the great epic poems written in this classical language",
+          "answer": "Sanskrit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LIT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1165-d-c0-r0"
+        },
+        {
+          "question": "Because it was dedicated to the schoolchildren of Soweto, the 1980 book \"Fire Flames\" was banned in this country",
+          "answer": "South Africa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LIT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1165-d-c0-r1"
+        },
+        {
+          "question": "(Let's join Jimmy in New Orleans for this clue) This man from Mississippi wrote his first novel, the 1926 book \"Soldier's Pay\", while living in the building behind me",
+          "answer": "Faulkner",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LIT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1165-d-c0-r2"
+        },
+        {
+          "question": "Set during a Cossack uprising, \"Hadji Murad\" is a short novel by this author also known for a much longer work",
+          "answer": "Leo Tolstoy",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LIT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1165-d-c0-r3"
+        },
+        {
+          "question": "\"Before Night Falls\", the controversial autobiography of this Cuban author, inspired a 2000 film",
+          "answer": "Reinaldo Arenas",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD LIT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1165-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOVERNMENT & POLITICS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Before WWII this future French pres. criticized his country's military strategy & argued for Panzer-like tank divisions",
+          "answer": "de Gaulle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1165-d-c1-r0"
+        },
+        {
+          "question": "JFK was the youngest man elected president & this man was the youngest to serve as president",
+          "answer": "Theodore Roosevelt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1165-d-c1-r1"
+        },
+        {
+          "question": "Robbie Robertson is a rock musician; this ex-governor of Wisconsin is Secretary of Health & Human Services",
+          "answer": "Tommy Thompson",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1165-d-c1-r2"
+        },
+        {
+          "question": "What couldn't he do? James K. Polk was the only U.S. president to have held this congressional title, 1835-1839",
+          "answer": "Speaker of the House",
+          "value": 6000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1165-d-c1-r3"
+        },
+        {
+          "question": "Her People Power Revolution toppled Ferdinand Marcos & led to her becoming President of the Philippines",
+          "answer": "(Corazon) Aquino",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT & POLITICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1165-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMIC BOOK TO SCREEN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Brandon Lee, who played this title character who came back to life after being shot, was shot & died during the filming",
+          "answer": "The Crow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC BOOK TO SCREEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1165-d-c2-r0"
+        },
+        {
+          "question": "People have \"shelled out\" money for comics & movies based on this Kevin Eastman & Peter Laird quartet",
+          "answer": "the Teenage Mutant Ninja Turtles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC BOOK TO SCREEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1165-d-c2-r1"
+        },
+        {
+          "question": "Fans marveled as Hugh Jackman nailed (or should we say clawed) this hero in 2000",
+          "answer": "the Wolverine",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC BOOK TO SCREEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1165-d-c2-r2"
+        },
+        {
+          "question": "Shaq smashed as \"Steel\" & this actor bashed as \"Blade\"",
+          "answer": "Wesley Snipes",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COMIC BOOK TO SCREEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1165-d-c2-r3"
+        },
+        {
+          "question": "This 1995 film cast Sylvester Stallone as a man who was the police, jury & executioner all rolled into one",
+          "answer": "Judge Dredd",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMIC BOOK TO SCREEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1165-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"SUPER\" WORDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Christy Turlington, Eva Herzigova or Naomi Campbell",
+          "answer": "a supermodel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SUPER\" WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1165-d-c3-r0"
+        },
+        {
+          "question": "If you say this 34-letter word from \"Mary Poppins\" \"loud enough you'll always sound precocious\"",
+          "answer": "supercalifragilisticexpialidocious",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SUPER\" WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1165-d-c3-r1"
+        },
+        {
+          "question": "This \"Smooth\" Santana album has sold 21 million copies worldwide",
+          "answer": "Supernatural",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"SUPER\" WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1165-d-c3-r2"
+        },
+        {
+          "question": "In 1006 one of these in the nighttime sky was said to have achieved the brightness of a half-moon",
+          "answer": "a supernova",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SUPER\" WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1165-d-c3-r3"
+        },
+        {
+          "question": "On or near the surface, or apparent rather than actual",
+          "answer": "superficial",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SUPER\" WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1165-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PAINT BY NUMBERS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Gustav Klimt's \"Judith I\"is an example of the Viennese Secession Movement, also known as this \"new art\" style",
+          "answer": "Art Nouveau",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAINT BY NUMBERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1165-d-c4-r0"
+        },
+        {
+          "question": "(Take a look.) Goya's \"The Third of May\"commemorates the execution of Madrid's citizens by this emperor's troops",
+          "answer": "Napoleon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PAINT BY NUMBERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1165-d-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "MARY, TYLER OR MOORE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "7 years a Saint,7 years a Bond",
+          "answer": "Roger Moore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARY, TYLER OR MOORE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1165-d-c5-r0"
+        },
+        {
+          "question": "The 1999 book \"Walk this Way\" is about a rock group with this lead singer",
+          "answer": "Steven Tyler",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARY, TYLER OR MOORE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1165-d-c5-r1"
+        },
+        {
+          "question": "Name repeated in the title of a 1976-77 comedy soap",
+          "answer": "Mary Hartman, Mary Hartman",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARY, TYLER OR MOORE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1165-d-c5-r2"
+        },
+        {
+          "question": "City that's home to a branch of the University of Texas",
+          "answer": "Tyler, Texas",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARY, TYLER OR MOORE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1165-d-c5-r3"
+        },
+        {
+          "question": "It's who led the Peasants' Revolt in England in 1381",
+          "answer": "Wat Tyler",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MARY, TYLER OR MOORE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1165-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZATIONS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 2001 a fight over these initials pitted the panda against The Rock",
+          "answer": "WWF",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "ORGANIZATIONS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1165-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

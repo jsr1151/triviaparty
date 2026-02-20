@@ -1,0 +1,773 @@
+{
+  "gameId": 112,
+  "showNumber": 739,
+  "airDate": "November 19, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ASIAN HISTORY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Talks were held during October of 1951 in Panmunjon to re-unify this country, but it didn't work",
+          "answer": "Korea",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g112-s-c0-r0"
+        },
+        {
+          "question": "In 1972 this country returned control of Okinawa to Japan",
+          "answer": "the United States",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g112-s-c0-r1"
+        },
+        {
+          "question": "Estimated death toll from the famous 1756 incident in this room in an Indian fort ranges from 15 to over 100",
+          "answer": "the Black Hole of Calcutta",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g112-s-c0-r2"
+        },
+        {
+          "question": "A former monk turned rebellious, then merciless, founded this Chinese dynasty in 1368",
+          "answer": "the Ming Dynasty",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g112-s-c0-r3"
+        },
+        {
+          "question": "It was completed during World War I & linked eastern & western Siberia",
+          "answer": "the Trans-Siberian Railway",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIAN HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g112-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "After about eight weeks, a human embryo develops into this",
+          "answer": "a fetus",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g112-s-c1-r0"
+        },
+        {
+          "question": "At about 63,000 ft. at normal body temperature, blood will do this",
+          "answer": "boil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g112-s-c1-r1"
+        },
+        {
+          "question": "Because they are never found in chemical compounds, the noble gases neon, argon & helium are called this",
+          "answer": "the inert gases",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g112-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Quechua language of Peru has about one thousand words for these tubers Peruvians have grown for eight thousand years",
+          "answer": "potatoes",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g112-s-c2-r0"
+        },
+        {
+          "question": "Of yogurt, liver or tofu, the food Americans hate most according to \"Harper's Index\"",
+          "answer": "Tofu",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g112-s-c2-r1"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL LIFESPANS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "February 12, 1809 - April 15, 1865",
+          "answer": "Abraham Lincoln",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LIFESPANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g112-s-c3-r0"
+        },
+        {
+          "question": "April 13, 1743 - July 4, 1826",
+          "answer": "Thomas Jefferson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LIFESPANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g112-s-c3-r1"
+        },
+        {
+          "question": "October 30, 1735 - July 4, 1826",
+          "answer": "John Adams",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LIFESPANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g112-s-c3-r2"
+        },
+        {
+          "question": "May 8, 1884 - December 26, 1972",
+          "answer": "Harry Truman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LIFESPANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g112-s-c3-r3"
+        },
+        {
+          "question": "August 10, 1874 - October 20, 1964",
+          "answer": "Herbert Hoover",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LIFESPANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g112-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHICAL SONGS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Hooray for\" this city, where you're terrific if you're even good",
+          "answer": "Hollywood",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g112-s-c4-r0"
+        },
+        {
+          "question": "\"If God didn't make little green apples, then it don't rain\" here \"in the summertime\"",
+          "answer": "Indianapolis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g112-s-c4-r1"
+        },
+        {
+          "question": "\"Me and Mamie O'Rourke tripped the light fantastic on\" these",
+          "answer": "\"Sidewalks Of New York\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g112-s-c4-r2"
+        },
+        {
+          "question": "Cole Porter wrote that this city \"loves lovers, for lovers it's heaven above\"",
+          "answer": "Paris",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g112-s-c4-r3"
+        },
+        {
+          "question": "\"Ragtime Cowboy Joe\" was a \"high-falutin' scootin', shootin' son-of-a-gun from\" this state",
+          "answer": "Arizona",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g112-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"OLD\" & \"NEW\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A semi-aquatic salamander",
+          "answer": "a newt",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" & \"NEW\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g112-s-c5-r0"
+        },
+        {
+          "question": "If a pregnant woman eats strawberries, her baby will have a strawberry-shaped birth mark, for example",
+          "answer": "an old wives' tale",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" & \"NEW\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g112-s-c5-r1"
+        },
+        {
+          "question": "Title of the following which Tom Cruise sang in \"Risky Business\" & Ron Reagan sang on \"Saturday Night Live\":\"Just take those old records off the shelf...\"",
+          "answer": "\"Old Time Rock And Roll\"",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" & \"NEW\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g112-s-c5-r2"
+        },
+        {
+          "question": "The only independent country in the world that fits this category",
+          "answer": "New Zealand",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" & \"NEW\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g112-s-c5-r3"
+        },
+        {
+          "question": "Annual award given by the American Library Association for the outstanding American children's book",
+          "answer": "the Newbery Award/Medal",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" & \"NEW\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g112-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AVIATION",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On October 1, 1986, Northwest Airlines took this word out of its name",
+          "answer": "Orient",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AVIATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g112-d-c0-r0"
+        },
+        {
+          "question": "To serve as Air Force One, two of this model are currently on order from Boeing",
+          "answer": "747",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AVIATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g112-d-c0-r1"
+        },
+        {
+          "question": "One of the two biggest makers of commercial jet aircraft engines in the United States",
+          "answer": "Pratt and Whitney & GE",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AVIATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g112-d-c0-r2"
+        },
+        {
+          "question": "Its acquisition of People Express, Frontier, Continental, and Eastern have made it the biggest U.S. air company",
+          "answer": "Texas Air",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AVIATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g112-d-c0-r3"
+        },
+        {
+          "question": "Some claim that the Wright Brothers made only a power glider & that this Brazillian really invented the airplane",
+          "answer": "Alberto Santos-Dumont",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AVIATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g112-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "IDAHOANS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Encyclopedia Americana\" says this guide of Lewis and Clark lived to about one hundred while the \"Britannica\" says she died at twenty-six",
+          "answer": "Sacajawea (Bird Woman)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IDAHOANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g112-d-c1-r0"
+        },
+        {
+          "question": "Idaho's highest point, Borah Peak, is named for William E. Borah, who held this office for thirty-three years",
+          "answer": "U.S. senator",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IDAHOANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g112-d-c1-r1"
+        },
+        {
+          "question": "It's where you'd go to see Idaho-born sculptor Gutzon Borglum's most famous work",
+          "answer": "Mount Rushmore (South Dakota)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IDAHOANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g112-d-c1-r2"
+        },
+        {
+          "question": "\"The Poet's Poet\", his writings were far more influential than his World War II broadcasts from fascist Italy",
+          "answer": "Ezra Pound",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IDAHOANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g112-d-c1-r3"
+        },
+        {
+          "question": "This former Bendix executive and his wife, Mary Cunningham, now run their own venture capital firm",
+          "answer": "William Agee",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IDAHOANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g112-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIVIL WAR",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It wasn't until the May 1864 Battle of the Wilderness that these two generals encountered each other",
+          "answer": "Grant & Lee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g112-d-c2-r0"
+        },
+        {
+          "question": "In 1861, this Texas governor was deposed for refusing to support secession",
+          "answer": "Sam Houston",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g112-d-c2-r1"
+        },
+        {
+          "question": "Warship that was called \"The Cheesebox on a Raft\"",
+          "answer": "the Monitor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g112-d-c2-r2"
+        },
+        {
+          "question": "Julia Ward Howe wrote \"The Battle Hymn of the Republic\" to be sung to the tune of this song",
+          "answer": "\"John Brown's Body\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g112-d-c2-r3"
+        },
+        {
+          "question": "This abolitionist congressman from Pennsylvania insisted on being buried in an integrated cemetery",
+          "answer": "Thaddeus Stevens",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g112-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHAVIAN CHARACTERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In Shaw's play about her, this Russian empress rhapsodizes about Voltaire, who historically was her pen pal",
+          "answer": "Catherine the Great (or Catherine II or \"Great Catherine\")",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAVIAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g112-d-c3-r0"
+        },
+        {
+          "question": "Performances of \"Mrs. Warren's Profession\" were banned because this was Mrs. Warren's profession",
+          "answer": "prostitution",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAVIAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g112-d-c3-r1"
+        },
+        {
+          "question": "Heroine who says, \"My voices have deceived me... but only a fool will walk into a fire\"",
+          "answer": "St. Joan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAVIAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g112-d-c3-r2"
+        },
+        {
+          "question": "This play has characters named Snobby Price, Rummy Mitchens, and Barbara Undershaft",
+          "answer": "Major Barbara",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAVIAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g112-d-c3-r3"
+        },
+        {
+          "question": "Of all his characters, Captain Shotover of this title domicile may be the most like Shaw himself",
+          "answer": "Heartbreak House",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAVIAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g112-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODD ALPHABETS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In alphabet radio code, \"B\" is Bravo and \"F\" shares its name with this dance",
+          "answer": "the foxtrot",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODD ALPHABETS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g112-d-c4-r0"
+        },
+        {
+          "question": "Edible letters produced by Post",
+          "answer": "Alpha-Bits",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD ALPHABETS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g112-d-c4-r1"
+        },
+        {
+          "question": "In ASCII, this kind of computer code, A is 01000001",
+          "answer": "binary code",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD ALPHABETS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g112-d-c4-r2"
+        },
+        {
+          "question": "In the sign-language alphabet, it's the first letter whose sign resembles it",
+          "answer": "C",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODD ALPHABETS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g112-d-c4-r3"
+        },
+        {
+          "question": "Representing the sound of the \"A\" in \"about\", a small \"E\" turned upside down is called this",
+          "answer": "a schwa",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD ALPHABETS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g112-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In October 1986, the U.S. Mint issued the first of these in more than fifty years",
+          "answer": "gold coin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g112-d-c5-r0"
+        },
+        {
+          "question": "Iva D'Aquino, who in 1977 received a presidential pardon, was better known by this nickname",
+          "answer": "Tokyo Rose",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g112-d-c5-r1"
+        },
+        {
+          "question": "Guinness says the greatest number of people saved by one man from death were saved by him in 1944-45",
+          "answer": "Raoul Wallenberg",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g112-d-c5-r2"
+        },
+        {
+          "question": "He won a lifetime membership in the U.S. Duffers Association after missing the first golf ball he swung at on the Moon",
+          "answer": "Alan Shepard",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g112-d-c5-r3"
+        },
+        {
+          "question": "Once denied a driver's license, this General Secretary of the U.S. Communist Party is usually driven to work",
+          "answer": "Gus Hall",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g112-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "RULERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The only name shared by four consecutive kings of England",
+          "answer": "George (I - IV)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "RULERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g112-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

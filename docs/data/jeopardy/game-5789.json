@@ -1,0 +1,833 @@
+{
+  "gameId": 5789,
+  "showNumber": 7599,
+  "airDate": "September 28, 2017",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LET'S PLAY CHESS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the only piece that can be promoted to one of greater value",
+          "answer": "a pawn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S PLAY CHESS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5789-s-c0-r0"
+        },
+        {
+          "question": "If an identical position occurs 3 times in a game, a player may claim this result, then go kiss his sister",
+          "answer": "a draw",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LET'S PLAY CHESS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5789-s-c0-r1"
+        },
+        {
+          "question": "A tactic via which one piece attacks 2 opposing ones is called this, like a common dining utensil",
+          "answer": "a fork",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LET'S PLAY CHESS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5789-s-c0-r2"
+        },
+        {
+          "question": "Trading a knight or bishop for one of these more valuable pieces is known as winning the exchange",
+          "answer": "a rook",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LET'S PLAY CHESS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5789-s-c0-r3"
+        },
+        {
+          "question": "Descriptive notation like P-Q4 has been largely replaced by this \"mathematical\" kind, which would say simply d4",
+          "answer": "an algebraic term",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LET'S PLAY CHESS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5789-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSIC MOVIE LINES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"You talkin' to me?\"",
+          "answer": "Taxi Driver",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC MOVIE LINES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5789-s-c1-r0"
+        },
+        {
+          "question": "\"I see dead people\"",
+          "answer": "The Sixth Sense",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC MOVIE LINES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5789-s-c1-r1"
+        },
+        {
+          "question": "\"I happen to have Mr. McLuhan right here\"",
+          "answer": "Annie Hall",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC MOVIE LINES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5789-s-c1-r2"
+        },
+        {
+          "question": "\"You want answers?! ...You want answers?! ...You can't handle the truth!\"",
+          "answer": "A Few Good Men",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC MOVIE LINES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5789-s-c1-r3"
+        },
+        {
+          "question": "\"Why worry? Each of us is wearing an unlicensed nuclear accelerator on his back\"",
+          "answer": "Ghostbusters",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC MOVIE LINES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5789-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "IPOs",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This tech co. didn't get as many likes as it wanted after raising $16 billion for its 2012 IPO but it returned 105% within 2 years",
+          "answer": "Facebook",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IPOs",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5789-s-c2-r0"
+        },
+        {
+          "question": "Filing for bankruptcy in 2009? No prob for this automaker, which raised $20.1 billion in a 2010 IPO",
+          "answer": "General Motors",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IPOs",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5789-s-c2-r1"
+        },
+        {
+          "question": "A $731 million IPO in 2015 got this rhymingly named wearable fitness company in tremendous shape",
+          "answer": "Fitbit",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IPOs",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5789-s-c2-r2"
+        },
+        {
+          "question": "Drop the last 4 letters from the name of the app to get this company, the big IPO story of March 2017",
+          "answer": "Snap Inc.",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IPOs",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5789-s-c2-r3"
+        },
+        {
+          "question": "The one of the 3 main consumer credit reporting bureaus that does not begin with \"E\", it raised $664 million in 2015",
+          "answer": "TransUnion",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IPOs",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5789-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM \"S\" TO \"T\"",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This noncommissioned officer ranks just above a corporal in the Marine Corps",
+          "answer": "sergeant",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"S\" TO \"T\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5789-s-c3-r0"
+        },
+        {
+          "question": "This vacant outdoor space is used by children for unorganized games & sports such as baseball",
+          "answer": "a sandlot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"S\" TO \"T\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5789-s-c3-r1"
+        },
+        {
+          "question": "Antonio Guterres is currently the head of this main organ of the United Nations",
+          "answer": "the Secretariat",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"S\" TO \"T\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5789-s-c3-r2"
+        },
+        {
+          "question": "In this form of trapshooting, clay targets simulate birds in flight",
+          "answer": "skeet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"S\" TO \"T\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5789-s-c3-r3"
+        },
+        {
+          "question": "A sleepwalker",
+          "answer": "a somnambulist",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"S\" TO \"T\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5789-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DEEP UNDERGROUND",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "(Kelly of the Clue Crew shows a fault on the monitor.) The sliding of two sides along a fault in the surface of the global crust causes these events",
+          "answer": "earthquakes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEEP UNDERGROUND",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5789-s-c4-r0"
+        },
+        {
+          "question": "It's the most abundant element in Earth's core",
+          "answer": "iron",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEEP UNDERGROUND",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5789-s-c4-r1"
+        },
+        {
+          "question": "Some of the deepest mines like the Savuka & Driefontein are used to look for gold in this country",
+          "answer": "South Africa",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEEP UNDERGROUND",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5789-s-c4-r2"
+        },
+        {
+          "question": "The cave seen here & its rough stalactites were formed as the result of the solidification of this",
+          "answer": "lava",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DEEP UNDERGROUND",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5789-s-c4-r3"
+        },
+        {
+          "question": "Warming trends in Siberia have caused the springing up of tiny hills filled with marsh gas, mainly this deadly stuff",
+          "answer": "methane",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEEP UNDERGROUND",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5789-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HIGH ABOVE THE EARTH",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "14,410 feet southeast of Tacoma",
+          "answer": "Mount Rainier",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH ABOVE THE EARTH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5789-s-c5-r0"
+        },
+        {
+          "question": "28,251 feet in the Karakoram",
+          "answer": "K2",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH ABOVE THE EARTH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5789-s-c5-r1"
+        },
+        {
+          "question": "Remeasured by the USGS in 2016 at 20,310 feet",
+          "answer": "Denali (or Mount McKinley)",
+          "value": 3400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH ABOVE THE EARTH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5789-s-c5-r2"
+        },
+        {
+          "question": "14,692 feet between Switzerland & Italy",
+          "answer": "the Matterhorn",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH ABOVE THE EARTH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5789-s-c5-r3"
+        },
+        {
+          "question": "7,494 feet, the Inuit symbol seen here on Blackcomb Mountain at this British Columbia ski resort",
+          "answer": "Whistler",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH ABOVE THE EARTH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5789-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTY SEATS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Take a seat in the Wrigley Field dugout & you're in this county",
+          "answer": "Cook",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5789-d-c0-r0"
+        },
+        {
+          "question": "The Stickley Museum in Onondaga County, NY. has an outsize chair made for this Tibetan holy man to sit in cross-legged",
+          "answer": "the Dalai Lama",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5789-d-c0-r1"
+        },
+        {
+          "question": "19th century toilets are part of the collection of Watertown's Plumbing Museum in this state's Middlesex County",
+          "answer": "Massachusetts",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5789-d-c0-r2"
+        },
+        {
+          "question": "Cornelius Vanderbilt's rustic rocking chair is in the museum named for this other rich guy in Wayne County, Michigan",
+          "answer": "(Henry) Ford",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5789-d-c0-r3"
+        },
+        {
+          "question": "The House seat for Henderson County, N.C. is held by Mark Meadows, in 2017 news as chair of this conservative caucus",
+          "answer": "the Freedom Caucus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5789-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CIVIL WAR PEOPLE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On the morning of April 15, 1865 Dr. Samuel Mudd set this man's broken leg",
+          "answer": "John Wilkes Booth",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR PEOPLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5789-d-c1-r0"
+        },
+        {
+          "question": "This super-nurse & her supply wagons gave aid to Union casualties & Confederate prisoners",
+          "answer": "Clara Barton",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR PEOPLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5789-d-c1-r1"
+        },
+        {
+          "question": "This preacher, the brother of author Harriet, gave an oration at the raising of the flag over Fort Sumter at war's end",
+          "answer": "Henry Ward Beecher",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR PEOPLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5789-d-c1-r2"
+        },
+        {
+          "question": "Asked why the Confederates lost Gettysburg, he \"charge\"d, \"The Yankees had something to do with it\"",
+          "answer": "(George) Pickett",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR PEOPLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5789-d-c1-r3"
+        },
+        {
+          "question": "In 1861 this future general received a commission in the Army from his brother John, a senator known for his anti-trust act",
+          "answer": "William Tecumseh Sherman",
+          "value": 8000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR PEOPLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5789-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WAYS TO SAY YOU'RE SORRY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Proverbially, you \"make\" these to apologize for an insult",
+          "answer": "amends",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAYS TO SAY YOU'RE SORRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5789-d-c2-r0"
+        },
+        {
+          "question": "In French it means \"street\" & in English, to feel sorrow over something",
+          "answer": "rue",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAYS TO SAY YOU'RE SORRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5789-d-c2-r1"
+        },
+        {
+          "question": "Singularly, it means to feel remorse for; add an \"S\" to politely refuse an invite",
+          "answer": "regret or regrets",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WAYS TO SAY YOU'RE SORRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5789-d-c2-r2"
+        },
+        {
+          "question": "This 8-letter synonym for sorry has its pros but now--specifically--its \"con\"s",
+          "answer": "contrite",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WAYS TO SAY YOU'RE SORRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5789-d-c2-r3"
+        },
+        {
+          "question": "Ian McEwan novel set in the Second World War era",
+          "answer": "Atonement",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAYS TO SAY YOU'RE SORRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5789-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ABSURDIST LIT",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"The Restaurant at the End of the Universe\" is part of this Douglas Adams book series",
+          "answer": "The Hitchhiker's Guide to the Galaxy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABSURDIST LIT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5789-d-c3-r0"
+        },
+        {
+          "question": "Reality & illusion merge in this play that delves into the lives of 2 minor characters in \"Hamlet\"",
+          "answer": "Rosencrantz and Guildenstern are Dead",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABSURDIST LIT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5789-d-c3-r1"
+        },
+        {
+          "question": "Only a few of the works of this Czech author of \"The Castle\" were published while he was alive",
+          "answer": "Kafka",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABSURDIST LIT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5789-d-c3-r2"
+        },
+        {
+          "question": "Tyrone's love life weirdly corresponds with V-2 rocket attacks in this author's \"Gravity's Rainbow\"",
+          "answer": "(Thomas) Pynchon",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABSURDIST LIT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5789-d-c3-r3"
+        },
+        {
+          "question": "A line in this French author's \"Myth of Sisyphus\", saying human life is absurd, gave the movement its name",
+          "answer": "Camus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABSURDIST LIT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5789-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOING 24/7/365",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In geometry, it's a plane figure with 7 sides & 7 angles & despite what you may be thinking, it does not begin with \"S\"",
+          "answer": "a heptagon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOING 24/7/365",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5789-d-c4-r0"
+        },
+        {
+          "question": "A nursery rhyme tells of 24 of these European thrushes miraculously surviving a brush with pie",
+          "answer": "blackbirds",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING 24/7/365",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5789-d-c4-r1"
+        },
+        {
+          "question": "This Trader Joe's rival has a 365 value brand",
+          "answer": "Whole Foods",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING 24/7/365",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5789-d-c4-r2"
+        },
+        {
+          "question": "After Bobby Seale got a separate trial, the group including Jerry Rubin & Abbie Hoffman got renamed this",
+          "answer": "the Chicago Seven",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOING 24/7/365",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5789-d-c4-r3"
+        },
+        {
+          "question": "The 24th Amendment says the right of U.S. citizens to vote \"shall not be denied... by reason of failure to pay\" this specific tax",
+          "answer": "a poll tax",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING 24/7/365",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5789-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"WORLD\" OF ENTERTAINMENT",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "What could go wrong at a park with genetically engineered hybrid dinosaurs? Everything, says this 2015 film",
+          "answer": "Jurassic World",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" OF ENTERTAINMENT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5789-d-c5-r0"
+        },
+        {
+          "question": "This song aka \"Aladdin's Theme\" was a No. 1 hit",
+          "answer": "\"A Whole New World\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" OF ENTERTAINMENT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5789-d-c5-r1"
+        },
+        {
+          "question": "This anthology of athleticism ran on ABC from 1961 to 1998",
+          "answer": "the Wide World of Sports",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" OF ENTERTAINMENT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5789-d-c5-r2"
+        },
+        {
+          "question": "It just takes some time but everything will be just fine if you name this emo band that sang \"The Middle\"",
+          "answer": "Jimmy Eat World",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" OF ENTERTAINMENT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5789-d-c5-r3"
+        },
+        {
+          "question": "Kate Beckinsale plays a vampire warrioress named Selene in this epic saga",
+          "answer": "Underworld",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" OF ENTERTAINMENT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5789-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE NORTHEASTERN U.S.",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Once its own city, it joined with a neighbor in 1898; today on its own it would be the 4th most populous city in the U.S.",
+          "answer": "Brooklyn, New York",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE NORTHEASTERN U.S.",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5789-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

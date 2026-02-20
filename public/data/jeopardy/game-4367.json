@@ -1,0 +1,809 @@
+{
+  "gameId": 4367,
+  "showNumber": 6725,
+  "airDate": "December 6, 2013",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "\"B\" WHERE?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This city is about 80 miles from New Orleans",
+          "answer": "Baton Rouge",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" WHERE?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4367-s-c0-r0"
+        },
+        {
+          "question": "You might make a pilgrimage to this ancient town near Jerusalem",
+          "answer": "Bethlehem",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" WHERE?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4367-s-c0-r1"
+        },
+        {
+          "question": "Several national capitals are found along the Danube, which flows for 1770 miles before emptying into this body of water",
+          "answer": "the Black Sea",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" WHERE?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4367-s-c0-r2"
+        },
+        {
+          "question": "This city was headquarters of the opposition that drove Gaddafi from power",
+          "answer": "Benghazi",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" WHERE?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4367-s-c0-r3"
+        },
+        {
+          "question": "This country links Niger to the Gulf of Guinea",
+          "answer": "Benin",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" WHERE?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4367-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "METALS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1759 a solid version of this metal was made by freezing a thermometer in a mixture of snow & nitric acid",
+          "answer": "mercury",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4367-s-c1-r0"
+        },
+        {
+          "question": "Seen here, the 61-pound Hand of Faith, discovered in 1980,  is now fittingly on display in this Las Vegas casino",
+          "answer": "the Golden Nugget",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4367-s-c1-r1"
+        },
+        {
+          "question": "The Statue of Liberty is sheathed in more than 31 tons of this metal mined in Norway",
+          "answer": "copper",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4367-s-c1-r2"
+        },
+        {
+          "question": "Recycling this metal takes only about 5% of the energy needed to produce it from its ore, bauxite",
+          "answer": "aluminum",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4367-s-c1-r3"
+        },
+        {
+          "question": "Discovered in Colorado in the 1950s, coffinite is an ore that is more than 60% this radioactive metal",
+          "answer": "uranium",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4367-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOU'VE GOT TASTE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Fancy spread on your table!  A 2.2-pound tin of Beluga this goes for around $5,000!",
+          "answer": "caviar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT TASTE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4367-s-c2-r0"
+        },
+        {
+          "question": "I see your \"pursuit of perfection\" matches that of this car company... that RX 350 SUV is pretty sweet",
+          "answer": "Lexus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT TASTE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4367-s-c2-r1"
+        },
+        {
+          "question": "Model yourself on a baron in this banking family, who in 1853 bought a chateau so he could serve his own wine to guests",
+          "answer": "the Rothschilds",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT TASTE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4367-s-c2-r2"
+        },
+        {
+          "question": "Your choice of the 1725 music of this Italian was perfect for your party in the spring",
+          "answer": "(Antonio) Vivaldi",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT TASTE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4367-s-c2-r3"
+        },
+        {
+          "question": "Love that $2,400 single-breasted suit!  This Italian designer was murdered in 1997 but he'll never go out of style!",
+          "answer": "(Gianni) Versace",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT TASTE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4367-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "A FASHION STATEMENT",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "If you have an advantage that no one knows about, you have an ace up this",
+          "answer": "your sleeve",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A FASHION STATEMENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4367-s-c3-r0"
+        },
+        {
+          "question": "When you avoid or keep distant from the controversial subject, you're said to do this to \"the issue\"",
+          "answer": "skirt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A FASHION STATEMENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4367-s-c3-r1"
+        },
+        {
+          "question": "Swing & a short fly ball, looks like it'll drop--no, Trebek makes one of these catches just off the ground",
+          "answer": "a shoestring catch",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A FASHION STATEMENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4367-s-c3-r2"
+        },
+        {
+          "question": "An outer garment & a weapon combine to give us this phrase meaning dealing in espionage & intrigue",
+          "answer": "cloak & dagger",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A FASHION STATEMENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4367-s-c3-r3"
+        },
+        {
+          "question": "\"To fly by\" this came from pilots who used instinct & physical awareness rather than instruments",
+          "answer": "the seat of your pants",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A FASHION STATEMENT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4367-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHIPS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Keebler's Soft Batch these are \"so soft, they taste like they're home-baked!\"",
+          "answer": "chocolate chip cookies",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHIPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4367-s-c4-r0"
+        },
+        {
+          "question": "These 2 Disney chipmunks first appeared in the 1943 short \"Private Pluto\", although they didn't yet have names",
+          "answer": "Chip & Dale",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHIPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4367-s-c4-r1"
+        },
+        {
+          "question": "After going 46-7 as Oregon's head football coach, he was named coach of the NFL's Eagles in January 2013",
+          "answer": "Chip Kelly",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHIPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4367-s-c4-r2"
+        },
+        {
+          "question": "Paris Las Vegas has a $100,000 chip used in this French-named casino card game",
+          "answer": "Baccarat",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHIPS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4367-s-c4-r3"
+        },
+        {
+          "question": "In this 1934 novel, the title character teaches at Brookfield, an all-boys school in England",
+          "answer": "Goodbye, Mr. Chips",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHIPS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4367-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE GRAMMYS: BEST MALE POP VOCAL",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Oh, Pretty Woman!\"(1990)",
+          "answer": "Roy Orbison",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GRAMMYS: BEST MALE POP VOCAL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4367-s-c5-r0"
+        },
+        {
+          "question": "\"Your Body Is A Wonderland\"(2002)",
+          "answer": "John Mayer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GRAMMYS: BEST MALE POP VOCAL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4367-s-c5-r1"
+        },
+        {
+          "question": "\"Tears In Heaven\"(1992)",
+          "answer": "Eric Clapton",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GRAMMYS: BEST MALE POP VOCAL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4367-s-c5-r2"
+        },
+        {
+          "question": "\"What Goes Around...Comes Around\"(2007)",
+          "answer": "(Justin) Timberlake",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GRAMMYS: BEST MALE POP VOCAL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4367-s-c5-r3"
+        },
+        {
+          "question": "\"It Was A Very Good Year\"(1965)",
+          "answer": "Frank Sinatra",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE GRAMMYS: BEST MALE POP VOCAL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4367-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "19th CENTURY NOTABLES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1883 this scout & showman debuted his first Wild West Show in Omaha",
+          "answer": "(Buffalo Bill) Cody",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY NOTABLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4367-d-c0-r0"
+        },
+        {
+          "question": "The Rochester, N.Y. home of this orator & former slave was a station on the Underground Railroad",
+          "answer": "Frederick Douglass",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY NOTABLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4367-d-c0-r1"
+        },
+        {
+          "question": "In 1875 she published the main text of her movement, \"Science and Health with a Key to the Scriptures\"",
+          "answer": "Mary Baker Eddy",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY NOTABLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4367-d-c0-r2"
+        },
+        {
+          "question": "Seen here,he was the last presidentborn under British rule",
+          "answer": "William Henry Harrison",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY NOTABLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4367-d-c0-r3"
+        },
+        {
+          "question": "In 1890 this painter of the American West illustrated an edition of Longfellow's \"Song of Hiawatha\"",
+          "answer": "Frederic Remington",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY NOTABLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4367-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PARTS OF THE CITY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Philadelphia & Jerusalem each have central areas called by this ancient name (Jerusalem's is the more ancient)",
+          "answer": "Old City",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF THE CITY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4367-d-c1-r0"
+        },
+        {
+          "question": "Illuminating name of a type of district known for naughty goings-on",
+          "answer": "the red-light district",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF THE CITY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4367-d-c1-r1"
+        },
+        {
+          "question": "In Gainesville, Florida, Kappa Alpha & Sigma Nu are on this row",
+          "answer": "Fraternity Row",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF THE CITY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4367-d-c1-r2"
+        },
+        {
+          "question": "This Spanish word for \"neighborhood\" refers to a Latino enclave in a U.S. city",
+          "answer": "barrio",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF THE CITY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4367-d-c1-r3"
+        },
+        {
+          "question": "You'll see men in suits looking up stock prices in the Melbourne or New Orleans CBD, short for this",
+          "answer": "Central Business District",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF THE CITY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4367-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE PEOPLE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "007 faced Javier Bardem as Silva in this adventure",
+          "answer": "Skyfall",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE PEOPLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4367-d-c2-r0"
+        },
+        {
+          "question": "Masked villain in \"The Dark Knight Rises\"",
+          "answer": "Bane",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE PEOPLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4367-d-c2-r1"
+        },
+        {
+          "question": "Film featuring bounty hunter Dr. King Schultz",
+          "answer": "Django Unchained",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE PEOPLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4367-d-c2-r2"
+        },
+        {
+          "question": "Richard Griffiths, who played this relative of Harry Potter, died in 2013",
+          "answer": "Vernon Dursley",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE PEOPLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4367-d-c2-r3"
+        },
+        {
+          "question": "Samuel L. Jackson has played this agent of S.H.I.E.L.D.",
+          "answer": "Nick Fury",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE PEOPLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4367-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RUSSIAN PLAYWRIGHTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In the 1890s he took an earlier failed play, \"The Wood Demon\", & transformed it into \"Uncle Vanya\"",
+          "answer": "Chekhov",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4367-d-c3-r0"
+        },
+        {
+          "question": "In 1824 this great poet was exiled to his mother's estate, where he wrote the historical drama \"Boris Godunov\"",
+          "answer": "(Alexander) Pushkin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4367-d-c3-r1"
+        },
+        {
+          "question": "The libretto for this composer's 1890 opera \"The Queen of Spades\" is by his playwright brother Modest",
+          "answer": "Peter Ilyich Tchaikovsky",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4367-d-c3-r2"
+        },
+        {
+          "question": "For some reason faking one's own death is a Russian literary motif, as in \"The Living Corpse\" by this count",
+          "answer": "Tolstoy",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4367-d-c3-r3"
+        },
+        {
+          "question": "His \"The Inspector General\" made fun of authorities, & it took a special order from the Czar to let it be performed",
+          "answer": "(Nikolai) Gogol",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4367-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GREEK GOD OUT, ROMAN GOD IN",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Greeks were from Ares, Romans from this deity, originally an ancient Italian god who watched over agriculture",
+          "answer": "Mars",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK GOD OUT, ROMAN GOD IN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4367-d-c4-r0"
+        },
+        {
+          "question": "Her magic girdle induced love, as magic girdles will do, & Romans had her say, I'm no mighty Aphrodite, I'm your this",
+          "answer": "Venus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK GOD OUT, ROMAN GOD IN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4367-d-c4-r1"
+        },
+        {
+          "question": "What's Dis?  It's another name for this Roman god who took over for Hades",
+          "answer": "Pluto",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK GOD OUT, ROMAN GOD IN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4367-d-c4-r2"
+        },
+        {
+          "question": "Like Hera, this goddess was queen of heaven; unlike Hera, she was closely associated with the moon",
+          "answer": "Juno",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK GOD OUT, ROMAN GOD IN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4367-d-c4-r3"
+        },
+        {
+          "question": "Most of the Greek myths for Athena were adopted by the Romans for this goddess whose temple was on Capitoline Hill",
+          "answer": "Minerva",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK GOD OUT, ROMAN GOD IN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4367-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRIPLE H",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This Mexican dog breed stands about 5 inches high at the shoulder",
+          "answer": "Chihuahua",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIPLE H",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4367-d-c5-r0"
+        },
+        {
+          "question": "In 2011 this New Zealand city was devastated by a 6.3 earthquake",
+          "answer": "Christchurch",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIPLE H",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4367-d-c5-r1"
+        },
+        {
+          "question": "At the end of World War II, Soviet troops occupied Korea north of this parallel of north latitude",
+          "answer": "the 38th parallel",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIPLE H",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4367-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC LETTERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In April 1865 she wrote to Mary Lincoln, \"I cannot remain silent... brokenhearted by the loss of my own beloved husband\"",
+          "answer": "Queen Victoria",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "HISTORIC LETTERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4367-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

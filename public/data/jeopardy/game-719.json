@@ -1,0 +1,833 @@
+{
+  "gameId": 719,
+  "showNumber": 2954,
+  "airDate": "June 5, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "INSECTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This large black & yellow bee can often be found at higher altitudes than other bees",
+          "answer": "Bumblebee",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g719-s-c0-r0"
+        },
+        {
+          "question": "One type of this insect can tell you the temperature; add 40 to the number of chirps in 15 seconds",
+          "answer": "Cricket",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g719-s-c0-r1"
+        },
+        {
+          "question": "Species of this insect include ctenocephalides canis & ctenocephalides felis",
+          "answer": "Flea",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g719-s-c0-r2"
+        },
+        {
+          "question": "The many stag species of this insect get their name from the males' jaws, which resemble antlers",
+          "answer": "Beetles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g719-s-c0-r3"
+        },
+        {
+          "question": "Ants can communicate by releasing these chemicals from glands located throughout the body",
+          "answer": "pheromones",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g719-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN FOOD",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Chicago version of this Italian-American dish is made in a 2-inch-deep pan",
+          "answer": "Pizza",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g719-s-c1-r0"
+        },
+        {
+          "question": "Onions preserved this way can be eaten within days; okra should mellow for a few weeks",
+          "answer": "Pickling",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g719-s-c1-r1"
+        },
+        {
+          "question": "This sandwich named for its meat & dairy filling is a Philadelphia treat",
+          "answer": "Philly Cheesesteak",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g719-s-c1-r2"
+        },
+        {
+          "question": "Pasta Fazool is an American colloquialism for pasta e fagioli, pasta & these",
+          "answer": "Beans",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g719-s-c1-r3"
+        },
+        {
+          "question": "A NYC specialty, it's made with seltzer water, milk & syrup, not with the foods in its name",
+          "answer": "Egg Cream",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g719-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHICAL QUOTES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Lillian Gish described this cinema city as \"an emotional Detroit\"",
+          "answer": "Hollywood",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL QUOTES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g719-s-c2-r0"
+        },
+        {
+          "question": "Philip Sheridan once said, \"If I owned\" this big state \"and hell, I would rent out\" the state \"and live in hell\"",
+          "answer": "Texas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL QUOTES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g719-s-c2-r1"
+        },
+        {
+          "question": "To Ausonius it was \"First among cities, home of the gods\"",
+          "answer": "Rome",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL QUOTES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g719-s-c2-r2"
+        },
+        {
+          "question": "John H. Wilson called it \"At once London's highroad and its sewer\"",
+          "answer": "The Thames River",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL QUOTES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g719-s-c2-r3"
+        },
+        {
+          "question": "Oliver Wendell Holmes claimed this city \"Is the thinking center of the continent, and therefore of the planet\"",
+          "answer": "Boston",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHICAL QUOTES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g719-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SOUTHERN HISTORY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Some states have debated removing the X-shaped design of this battle flag from their own flags",
+          "answer": "Confederate Flag",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUTHERN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g719-s-c3-r0"
+        },
+        {
+          "question": "After a real estate boom, one of these events struck Florida in 1926, 3 years before the \"great\" one",
+          "answer": "Depression",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOUTHERN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g719-s-c3-r1"
+        },
+        {
+          "question": "In 1982 a court struck down an Arkansas law forcing schools to teach this divine event as science",
+          "answer": "Creation",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUTHERN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g719-s-c3-r2"
+        },
+        {
+          "question": "In the Black Patch War of 1906-09 growers tried to break monopolies of this product",
+          "answer": "Tobacco",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOUTHERN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g719-s-c3-r3"
+        },
+        {
+          "question": "This New Orleans D.A. unsuccessfully prosecuted Clay Shaw as a JFK assassination conspirator",
+          "answer": "Jim Garrison",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOUTHERN HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g719-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHOBIAS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Ombrophobia is the fear of this; better get a big umbrella",
+          "answer": "Rain",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHOBIAS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g719-s-c4-r0"
+        },
+        {
+          "question": "If you have phasmophobia, fear of these, stay out of haunted houses",
+          "answer": "Ghosts",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHOBIAS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g719-s-c4-r1"
+        },
+        {
+          "question": "People with severe ichthyophobia can't eat these or even look at pictures of them",
+          "answer": "Fish",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHOBIAS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g719-s-c4-r2"
+        },
+        {
+          "question": "Because pteronophobics fear these, they should avoid chicken coops & fan dancers",
+          "answer": "Feathers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHOBIAS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g719-s-c4-r3"
+        },
+        {
+          "question": "Some people may have uranophobia, fear of this place, because they fear being judged there",
+          "answer": "Heaven",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PHOBIAS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g719-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV TITLE PAIRS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Teri Hatcher & Dean Cain",
+          "answer": "\"Lois & Clark\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE PAIRS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g719-s-c5-r0"
+        },
+        {
+          "question": "Susan Saint James & Jane Curtin",
+          "answer": "\"Kate & Allie\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE PAIRS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g719-s-c5-r1"
+        },
+        {
+          "question": "Jameson Parker & Gerald McRaney",
+          "answer": "\"Simon & Simon\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE PAIRS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g719-s-c5-r2"
+        },
+        {
+          "question": "Bruce Boxleitner & Kate Jackson",
+          "answer": "\"Scarecrow And Mrs. King\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE PAIRS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g719-s-c5-r3"
+        },
+        {
+          "question": "Thomas Haden Church & Debra Messing",
+          "answer": "\"Ned & Stacey\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE PAIRS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g719-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTS & FIRST LADIES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On January 25, 1993 this first lady was appointed head of the task force on national health care reform",
+          "answer": "Hillary Rodham Clinton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS & FIRST LADIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g719-d-c0-r0"
+        },
+        {
+          "question": "In 1984 Doubleday published \"C. Fred's Story\", her humorous book told from the dog's point of view",
+          "answer": "Barbara Bush",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS & FIRST LADIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g719-d-c0-r1"
+        },
+        {
+          "question": "He narrowly won the New York governorship in 1928, but won the presidency by a large margin 4 years later",
+          "answer": "Franklin D. Roosevelt",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS & FIRST LADIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g719-d-c0-r2"
+        },
+        {
+          "question": "In 1913 this man featured on the old $100,000 bill signed the bill creating the Federal Reserve System",
+          "answer": "Woodrow Wilson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS & FIRST LADIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g719-d-c0-r3"
+        },
+        {
+          "question": "On April 22, 1878 she instituted the Easter Egg Roll on the White House lawn",
+          "answer": "Lucy Hayes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS & FIRST LADIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g719-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "With over 8 million members, it's by far the largest Adventist group",
+          "answer": "Seventh-day Adventists",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g719-d-c1-r0"
+        },
+        {
+          "question": "The ultimate goal in Buddhism is to attain this state of perfect blessedness",
+          "answer": "Nirvana",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g719-d-c1-r1"
+        },
+        {
+          "question": "It's the church founded by Rev. Sun Myung Moon",
+          "answer": "The Unification Church",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g719-d-c1-r2"
+        },
+        {
+          "question": "From the Greek for \"not knowing\", it's the belief that God's existence cannot be proved",
+          "answer": "Agnosticism",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g719-d-c1-r3"
+        },
+        {
+          "question": "This religion centered in India's Punjab state combines elements of Hinduism & Islam",
+          "answer": "Sikhism",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g719-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This opera star & \"Celebrity Jeopardy!\" contestant began life as Belle Silverman",
+          "answer": "Beverly Sills",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g719-d-c2-r0"
+        },
+        {
+          "question": "The son of French immigrants, he's credited with opening the nation's first health club in 1936",
+          "answer": "Jack LaLanne",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g719-d-c2-r1"
+        },
+        {
+          "question": "It was the middle name & the more famous name of fashion designer Roy Frowick",
+          "answer": "Halston",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g719-d-c2-r2"
+        },
+        {
+          "question": "Senator Ben Nighthorse Campbell of this state was formerly a top-ranked judo champion",
+          "answer": "Colorado",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g719-d-c2-r3"
+        },
+        {
+          "question": "In 1994 Chandrika Bandaranaike Kumaratunga became this island country's first woman president",
+          "answer": "Sri Lanka  (Ceylon)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g719-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMPOSERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Carl Czerny was just 15 when he began teaching in this Austrian city; Beethoven's nephew was among his pupils",
+          "answer": "Vienna",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g719-d-c3-r0"
+        },
+        {
+          "question": "Cecile Chaminade wrote more than 200 light salon pieces for this musical instrument",
+          "answer": "Piano",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g719-d-c3-r1"
+        },
+        {
+          "question": "Gunther Schuller is known for mixing classical style with this American music form:  way \"cool\"",
+          "answer": "Jazz",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g719-d-c3-r2"
+        },
+        {
+          "question": "His famous overture \"The Hebrides\" is also known as \"Fingal's Cave\"",
+          "answer": "Felix Mendelssohn",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g719-d-c3-r3"
+        },
+        {
+          "question": "As a teenager this \"Grand Canyon Suite\" composer played viola in the Los Angeles Symphony Orchestra",
+          "answer": "Ferde Grofe",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g719-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN CURRENCY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This Japanese monetary unit is equivalent to 100 sen",
+          "answer": "Yen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CURRENCY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g719-d-c4-r0"
+        },
+        {
+          "question": "This currency of Tajikistan has the same name as that of Russia, but only 1/100 of the value",
+          "answer": "Ruble",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CURRENCY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g719-d-c4-r1"
+        },
+        {
+          "question": "The name of this German coin smaller than a mark is old high German for \"penny\"",
+          "answer": "Pfennig",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CURRENCY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g719-d-c4-r2"
+        },
+        {
+          "question": "From 1938 to 1950, this king was depicted on Egypt's 1 millieme coin",
+          "answer": "King Farouk",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CURRENCY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g719-d-c4-r3"
+        },
+        {
+          "question": "It's the currency used in Curacao",
+          "answer": "Dutch Guilder",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CURRENCY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g719-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL CHARACTERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Morlocks in this H.G. Wells novel may be named for Moloch, a heathen god in the Bible",
+          "answer": "\"The Time Machine\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g719-d-c5-r0"
+        },
+        {
+          "question": "Arabella Dean, the conniving daughter of a pig breeder, marries this \"obscure\" hero & then deserts him",
+          "answer": "Jude The Obscure",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g719-d-c5-r1"
+        },
+        {
+          "question": "This Defoe heroine is known by an alias; her real name is never revealed in the novel",
+          "answer": "Moll Flanders",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g719-d-c5-r2"
+        },
+        {
+          "question": "Madge Wildfire is the mad daughter of a midwife in this Scotsman's 1818 novel \"The Heart of Midlothian\"",
+          "answer": "Sir Walter Scott",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g719-d-c5-r3"
+        },
+        {
+          "question": "Paul Hover is a bee hunter who ends up as a congressman in his 1820s novel \"The Prairie\"",
+          "answer": "James Fenimore Cooper",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g719-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTOBIOGRAPHIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1791, one year after his death, part of this American's autobiography was published in Paris as \"Memoires\"",
+          "answer": "Benjamin Franklin",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AUTOBIOGRAPHIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g719-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

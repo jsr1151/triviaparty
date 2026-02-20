@@ -1,0 +1,833 @@
+{
+  "gameId": 1773,
+  "showNumber": 5187,
+  "airDate": "March 13, 2007",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "REAL MEN OF GENIUS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Mr. Posthumous Tony-winning \"Waste Land\" poet",
+          "answer": "T. S. Eliot",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REAL MEN OF GENIUS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1773-s-c0-r0"
+        },
+        {
+          "question": "Dr. Polio-stopping Institute for Biological Studies founder",
+          "answer": "(Jonas) Salk",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REAL MEN OF GENIUS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1773-s-c0-r1"
+        },
+        {
+          "question": "Herr Interchangeable letter printing inventor",
+          "answer": "Gutenberg",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REAL MEN OF GENIUS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1773-s-c0-r2"
+        },
+        {
+          "question": "Monsieur Polonium co-discoverer",
+          "answer": "Pierre Curie",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REAL MEN OF GENIUS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1773-s-c0-r3"
+        },
+        {
+          "question": "Senor Spanish Baroque \"Infanta Margarita in a Pink Dress\" painter",
+          "answer": "Diego Velázquez",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "REAL MEN OF GENIUS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1773-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CARTOON FEMALES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This cartoon female seen here made her debut in 1930--she's lookin' good",
+          "answer": "Betty Boop",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON FEMALES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1773-s-c1-r0"
+        },
+        {
+          "question": "The cartoon female seen here was often fought over by these two guys",
+          "answer": "Popeye and Bluto",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON FEMALES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1773-s-c1-r1"
+        },
+        {
+          "question": "The sexy cartoon female seen here starred in this innovative 1988 film",
+          "answer": "Who Framed Roger Rabbit",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON FEMALES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1773-s-c1-r2"
+        },
+        {
+          "question": "During their heyday, this rocking trio had many mysterious adventures",
+          "answer": "Josie & the Pussycats",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON FEMALES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1773-s-c1-r3"
+        },
+        {
+          "question": "Many men wouldn't have minded at all if this 1970s cartoon female took a bite out of them",
+          "answer": "Vampirella",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON FEMALES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1773-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUPONS FOLKS MIGHT WANT",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "98% off trips on this airline that operates more than 3,700 flights a day?  Talk about \"the friendly skies\"!",
+          "answer": "United",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUPONS FOLKS MIGHT WANT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1773-s-c2-r0"
+        },
+        {
+          "question": "Free gas for a month?!  Oh, this Royal Dutch brand, how nice of you!",
+          "answer": "Shell Oil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUPONS FOLKS MIGHT WANT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1773-s-c2-r1"
+        },
+        {
+          "question": "No way!  Free tuition for a year to this Mass. college that had its 370th anniversary in 2006?  Bargain!",
+          "answer": "Harvard",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUPONS FOLKS MIGHT WANT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1773-s-c2-r2"
+        },
+        {
+          "question": "Buy this 26-time world champion MLB team, get a minor league team free?  Call me \"Big Stein\", Jr.!",
+          "answer": "the New York Yankees",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUPONS FOLKS MIGHT WANT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1773-s-c2-r3"
+        },
+        {
+          "question": "Nice deal!  I'm using my 2-for-1 coupon & buying either an SL600 Roadster or E500 Sedan from this company",
+          "answer": "Mercedes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUPONS FOLKS MIGHT WANT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1773-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"P\"LACES ON THE MAP",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "On the Liberty Bell, this state's name is missing one of its \"N\"s",
+          "answer": "Pennsylvania",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"LACES ON THE MAP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1773-s-c3-r0"
+        },
+        {
+          "question": "(Sarah of the Clue Crew overlooks a well-known cityscape.)  In 1843 William Overton had to borrow 25 cents to file a land claim for what would become this largest Oregon city",
+          "answer": "Portland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"LACES ON THE MAP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1773-s-c3-r1"
+        },
+        {
+          "question": "Limpio, ah yes, a town you can clean up in, is a suburb of Asuncion in this country",
+          "answer": "Paraguay",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"LACES ON THE MAP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1773-s-c3-r2"
+        },
+        {
+          "question": "Thomas Jefferson didn't attend the Constitutional Convention; he was in this city",
+          "answer": "Paris",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"LACES ON THE MAP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1773-s-c3-r3"
+        },
+        {
+          "question": "Home to Italy's second-oldest university, where Galileo & Fallopius taught",
+          "answer": "Padua",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"LACES ON THE MAP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1773-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN'S FIRSTS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Over 50 years after nursing soldiers in the Crimea, she became the first woman awarded the Brit. Order of Merit",
+          "answer": "Florence Nightingale",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S FIRSTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1773-s-c4-r0"
+        },
+        {
+          "question": "In 1975, 22 years after Edmund Hillary achieved the feat, Junko Tabei became the first woman to reach its summit",
+          "answer": "Mount Everest",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S FIRSTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1773-s-c4-r1"
+        },
+        {
+          "question": "In Nov. 1973 Rep. Yvonne Braithwaite of this \"Golden State\" became the first woman to give birth while in Congress",
+          "answer": "California",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S FIRSTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1773-s-c4-r2"
+        },
+        {
+          "question": "In 1941 this \"Jezebel\" actress became the first woman to serve as head of the Motion Picture Academy",
+          "answer": "Bette Davis",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S FIRSTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1773-s-c4-r3"
+        },
+        {
+          "question": "In 1980 Kathleen Conley became the first female graduate of this Colorado Springs school, finishing 8th in her class",
+          "answer": "the Air Force Academy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN'S FIRSTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1773-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "____ OF ____",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This astrological era is believed to bring increased harmony & spirituality on Earth",
+          "answer": "the Age of Aquarius",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ OF ____",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1773-s-c5-r0"
+        },
+        {
+          "question": "Some scholars believe that this play may have been based on a now-lost play called \"The Jew\"",
+          "answer": "The Merchant of Venice",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ OF ____",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1773-s-c5-r1"
+        },
+        {
+          "question": "It ends, \"We mutually pledge to each other our lives, our fortunes and our sacred honor\"",
+          "answer": "the Declaration of Independence",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ OF ____",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1773-s-c5-r2"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew shows a map of the Pacific on the monitor.)  80% of energy released in earthquakes comes from the belt circling the Pacific called this for its volcanic activity",
+          "answer": "the Ring of Fire",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ OF ____",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1773-s-c5-r3"
+        },
+        {
+          "question": "Verdi said, \"For abundance of real musical ideas, for comic verve\", this Rossini work \"is the finest opera buffa in existence\"",
+          "answer": "The Barber of Seville",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ OF ____",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1773-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC AMERICA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Read all about it: this Washington, D.C. landmark calls itself \"the nation's oldest federal cultural institution\"",
+          "answer": "Library of Congress",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1773-d-c0-r0"
+        },
+        {
+          "question": "July 4 is a red-letter day at this author's birthplace in Salem, Mass.; that's the day he was born in 1804",
+          "answer": "Nathaniel Hawthorne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1773-d-c0-r1"
+        },
+        {
+          "question": "You'll find the Amelia Earhart Birthplace Museum in this Kansas town, the first name in a famous railroad trio",
+          "answer": "Atchison",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1773-d-c0-r2"
+        },
+        {
+          "question": "A Natl. Historical Park & Preserve named for this pirate includes the site of the Battle of New Orleans",
+          "answer": "Jean Lafitte",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AMERICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1773-d-c0-r3"
+        },
+        {
+          "question": "The ruins of Pu'ukohola Heiau, a temple built by this king, are a national historic site",
+          "answer": "King Kamehameha",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC AMERICA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1773-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PEABODY AWARDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 2005 this ABC law drama scored a Peabody in part because of... Denny Crane",
+          "answer": "Boston Legal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PEABODY AWARDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1773-d-c1-r0"
+        },
+        {
+          "question": "In 2005 a prize went to \"American Masters: No Direction Home\", a profile of this musician",
+          "answer": "Bob Dylan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PEABODY AWARDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1773-d-c1-r1"
+        },
+        {
+          "question": "Baltimore reporter John Sherman won a Peabody for investigating pollution in this bay",
+          "answer": "Chesapeake Bay",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PEABODY AWARDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1773-d-c1-r2"
+        },
+        {
+          "question": "Tim Russert was two years old when this NBC news program took an award in 1952",
+          "answer": "Meet the Press",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PEABODY AWARDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1773-d-c1-r3"
+        },
+        {
+          "question": "A 2002 prize went to the PBS documentary \"Bringing Down a Dictator\", a look at this Serb",
+          "answer": "(Slobodan) Milosevic",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PEABODY AWARDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1773-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY BROTHERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "He was a teenager (& not yet a lord) when he wrote \"Poems by Two Brothers\" with his brothers Charles & Frederick",
+          "answer": "Tennyson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY BROTHERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1773-d-c2-r0"
+        },
+        {
+          "question": "The hit play \"Victoria Regina\" was the work of Laurence Housman, younger brother of this poet",
+          "answer": "A.E. Housman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY BROTHERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1773-d-c2-r1"
+        },
+        {
+          "question": "Alec Waugh's first novel was \"The Loom of Youth\" in 1917; this brother's was \"Decline and Fall\" in 1928",
+          "answer": "Evelyn Waugh",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY BROTHERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1773-d-c2-r2"
+        },
+        {
+          "question": "Last name of brothers William Michael & Dante Gabriel, co-founders of the Pre-Raphaelite Brotherhood",
+          "answer": "Rossetti",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY BROTHERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1773-d-c2-r3"
+        },
+        {
+          "question": "He wrote \"The Insect Play\" with his brother & the robot play \"R.U.R.\" by himself",
+          "answer": "Karel Capek",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY BROTHERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1773-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ECONOMICS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In February 2002 this Argentine currency began floating, a sign the economy was sinking",
+          "answer": "the peso",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1773-d-c3-r0"
+        },
+        {
+          "question": "Personal income minus taxes is DPI, this type of personal income",
+          "answer": "disposable",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1773-d-c3-r1"
+        },
+        {
+          "question": "Iain Macleod coined this term for a distressing situation of a stagnant economy yet with rising prices",
+          "answer": "stagflation",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1773-d-c3-r2"
+        },
+        {
+          "question": "Failure to minimize costs is called \"X-inefficiency\" & is often caused by lack of this, as in a monopoly",
+          "answer": "competition",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1773-d-c3-r3"
+        },
+        {
+          "question": "This economist who died in 2006 developed the idea that the business cycle stems from the money supply",
+          "answer": "Milton Friedman",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECONOMICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1773-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "I JUST SAW A GHOST!",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Famous ghosts at this London location include Anne Boleyn, Sir Walter Raleigh & 2 young princes murdered here",
+          "answer": "the Tower of London",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I JUST SAW A GHOST!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1773-d-c4-r0"
+        },
+        {
+          "question": "The \"horror\" that took place in the Lutz home in this N.Y. city included flying ghostly pigs & walls that oozed blood",
+          "answer": "Amityville",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I JUST SAW A GHOST!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1773-d-c4-r1"
+        },
+        {
+          "question": "England's Borley Rectory was said to be haunted by this type of woman who fell in love with a monk",
+          "answer": "a nun",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I JUST SAW A GHOST!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1773-d-c4-r2"
+        },
+        {
+          "question": "\"The Bell Witch\" that haunted a Tennessee family in the 1800s is more properly described as one of these noisy ghosts",
+          "answer": "a poltergeist",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I JUST SAW A GHOST!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1773-d-c4-r3"
+        },
+        {
+          "question": "The ghost of this \"Mad\" general is said to ride a ghostly steed through Pennsylvania each New Year's Day",
+          "answer": "\"Mad Anthony\" Wayne",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "I JUST SAW A GHOST!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1773-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"BOO\"!",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's slang for liquor smugglers, from where they would often hide their hooch",
+          "answer": "bootleggers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1773-d-c5-r0"
+        },
+        {
+          "question": "A city that grows rapidly due to prosperity",
+          "answer": "a boomtown",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1773-d-c5-r1"
+        },
+        {
+          "question": "Alternate term for business accounting",
+          "answer": "bookkeeping",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1773-d-c5-r2"
+        },
+        {
+          "question": "Comes before cable or seat",
+          "answer": "booster",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1773-d-c5-r3"
+        },
+        {
+          "question": "Logical system of algebra created around 1854 that bears the name of its inventor",
+          "answer": "Boolean logic",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1773-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HEALTH & MEDICINE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "According to the Mayo Clinic, allergies to these are the USA's most common cause of life-threatening allergic reactions",
+          "answer": "peanuts",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "HEALTH & MEDICINE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1773-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

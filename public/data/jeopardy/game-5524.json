@@ -1,0 +1,833 @@
+{
+  "gameId": 5524,
+  "showNumber": 7468,
+  "airDate": "February 15, 2017",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SHAKESPEAREAN YARD SALE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Calendars can always be reused; here's one with a momentous date for this title Roman",
+          "answer": "Julius Caesar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN YARD SALE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5524-s-c0-r0"
+        },
+        {
+          "question": "Here's an old friend from Act V of this play",
+          "answer": "Hamlet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN YARD SALE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5524-s-c0-r1"
+        },
+        {
+          "question": "This comedy makes use of the mask seen here",
+          "answer": "A Midsummer Night's Dream",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN YARD SALE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5524-s-c0-r2"
+        },
+        {
+          "question": "Amphibian and canine ingredients are included with the item from this play",
+          "answer": "Macbeth",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN YARD SALE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5524-s-c0-r3"
+        },
+        {
+          "question": "It's up, up & away for bliss with a prop seen here from this tragedy",
+          "answer": "Romeo and Juliet",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN YARD SALE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5524-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The only Constitutional amendment to be repealed, the 18th Amendment originally put this into effect",
+          "answer": "Prohibition",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5524-s-c1-r0"
+        },
+        {
+          "question": "In 1964 the Warren Commission concluded that this man acted alone in killing President Kennedy",
+          "answer": "Lee Harvey Oswald",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5524-s-c1-r1"
+        },
+        {
+          "question": "Under the Jones Act of 1917, residents of this Caribbean island gained U.S. citizenship",
+          "answer": "Puerto Rico",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5524-s-c1-r2"
+        },
+        {
+          "question": "Introduced by Europeans, this disease that wiped out entire tribes had its last known U.S. case in 1949",
+          "answer": "smallpox",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5524-s-c1-r3"
+        },
+        {
+          "question": "According to his N.Y. Times obituary, this Tammany Hall boss died in jail in the absence of nearly all family members",
+          "answer": "(William) \"Boss\" Tweed",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5524-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "POLICE GLOSSARY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A suspect avoiding arrest is \"in the wind\" or \"at\" this",
+          "answer": "at large",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLICE GLOSSARY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5524-s-c2-r0"
+        },
+        {
+          "question": "As a verb, it's to steal a small item; as a noun, it's slang for a police informant",
+          "answer": "snitch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POLICE GLOSSARY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5524-s-c2-r1"
+        },
+        {
+          "question": "This British word for a cop comes from the name of the man who founded London's police force",
+          "answer": "bobby",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLICE GLOSSARY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5524-s-c2-r2"
+        },
+        {
+          "question": "A controversial practice used on pedestrians is called \"stop and\" this type of search",
+          "answer": "frisk",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLICE GLOSSARY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5524-s-c2-r3"
+        },
+        {
+          "question": "You can listen as dispatchers talk to patrol cars with the radio receiver called a police type of this",
+          "answer": "scanner",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLICE GLOSSARY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5524-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SINGLE-NAMED SINGERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This \"Royals\" singer made Time magazine's list of the most influential teens of 2013",
+          "answer": "Lorde",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGLE-NAMED SINGERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5524-s-c3-r0"
+        },
+        {
+          "question": "In a collaboration with Eminem, she sings of a monster that's under her bed & voices inside her head",
+          "answer": "Rihanna",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGLE-NAMED SINGERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5524-s-c3-r1"
+        },
+        {
+          "question": "6 months after his death, this rock icon's Minnesota home & studio complex was open to the public for tours",
+          "answer": "Prince",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGLE-NAMED SINGERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5524-s-c3-r2"
+        },
+        {
+          "question": "He collaborated with Pitbull on \"DJ Got Us Fallin' In Love\"",
+          "answer": "Usher",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SINGLE-NAMED SINGERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5524-s-c3-r3"
+        },
+        {
+          "question": "Bey's younger sister, in 2016 she had her first No. 1 album with \"A Seat at the Table\"",
+          "answer": "Solange",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGLE-NAMED SINGERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5524-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT ARE YOU AFRAID OF?",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Brontophobia is fear of this paired weather phenomenon",
+          "answer": "thunder & lightning",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5524-s-c4-r0"
+        },
+        {
+          "question": "It's AKA fear of heights",
+          "answer": "acrophobia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5524-s-c4-r1"
+        },
+        {
+          "question": "Creepy sightings in the autumn of 2016 increased the national level of coulrophobia, a fear of these performers",
+          "answer": "clowns",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5524-s-c4-r2"
+        },
+        {
+          "question": "Term for fear of spiders",
+          "answer": "arachnophobia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5524-s-c4-r3"
+        },
+        {
+          "question": "One of the most common human fears is glossophobia, fear of having to do this",
+          "answer": "speak in front of people",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5524-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"EV\"ERYTHING",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "YouTube has several clips of professors reading mean these written by students",
+          "answer": "evaluations (or reviews)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EV\"ERYTHING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5524-s-c5-r0"
+        },
+        {
+          "question": "In a trial, exhibits must be \"admitted into\" this to be considered by the jury",
+          "answer": "evidence",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EV\"ERYTHING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5524-s-c5-r1"
+        },
+        {
+          "question": "The wildfire is spreading & the sheriff's department has issued a mandatory this order",
+          "answer": "evacuation",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EV\"ERYTHING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5524-s-c5-r2"
+        },
+        {
+          "question": "Adjective for a book or movie that gives you the sense of being in a specific time & place",
+          "answer": "evocative",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EV\"ERYTHING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5524-s-c5-r3"
+        },
+        {
+          "question": "It's a synonym for \"gut\", as when in \"The Social Network\" it's suggested, let's gut the nerd",
+          "answer": "eviscerate",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EV\"ERYTHING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5524-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "EASTERN RELIGION & PHILOSOPHY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He also goes by the name Tenzin Gyatso & he's the spiritual leader of Tibetan Buddhists",
+          "answer": "the Dalai Lama",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EASTERN RELIGION & PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5524-d-c0-r0"
+        },
+        {
+          "question": "Throughout China, there are temples honoring this great sage and philosopher, who was born in 551 B.C.",
+          "answer": "Confucius",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EASTERN RELIGION & PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5524-d-c0-r1"
+        },
+        {
+          "question": "In Hinduism Vishnu is the preserver & he's the destroyer",
+          "answer": "Shiva",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EASTERN RELIGION & PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5524-d-c0-r2"
+        },
+        {
+          "question": "\"The Classic of the Way & Its Power\" is a guide to a spiritual & ethical life according to this Chinese philosophy",
+          "answer": "Taoism",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EASTERN RELIGION & PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5524-d-c0-r3"
+        },
+        {
+          "question": "Kes--uncut hair--& kirpan--a small sword--are among the 5 Ks, 5 symbols of this religion that has a \"K\" in its name",
+          "answer": "Sikhism",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EASTERN RELIGION & PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5524-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT A CHARACTER!",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Monsters, Inc.\" is about Sulley & this buddy, last name Wazowski",
+          "answer": "Mike",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT A CHARACTER!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5524-d-c1-r0"
+        },
+        {
+          "question": "Steve Carell is thick as Brick (Tamland) in this movie",
+          "answer": "Anchorman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT A CHARACTER!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5524-d-c1-r1"
+        },
+        {
+          "question": "Marius & Fantine are characters in this 2012 movie musical",
+          "answer": "Les Misérables",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT A CHARACTER!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5524-d-c1-r2"
+        },
+        {
+          "question": "In 2005 Angelina Jolie was Mrs. this",
+          "answer": "Smith",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT A CHARACTER!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5524-d-c1-r3"
+        },
+        {
+          "question": "This Union Secretary of State is a character in \"Lincoln\"",
+          "answer": "William Seward",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT A CHARACTER!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5524-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIG ISLANDS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This is New Zealand's largest island",
+          "answer": "the South Island",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG ISLANDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5524-d-c2-r0"
+        },
+        {
+          "question": "Part of the Malay Archipelago, this island is exceeded in size only by Greenland",
+          "answer": "New Guinea",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG ISLANDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5524-d-c2-r1"
+        },
+        {
+          "question": "It's the largest island in the Mediterranean Sea that's also an independent nation",
+          "answer": "Cyprus",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG ISLANDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5524-d-c2-r2"
+        },
+        {
+          "question": "This \"fiery\" island divided between Chile & Argentina is the largest in South America",
+          "answer": "Tierra del Fuego",
+          "value": 4400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG ISLANDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5524-d-c2-r3"
+        },
+        {
+          "question": "You'll find Manila & the Bataan Peninsula on this island of the Philippines",
+          "answer": "Luzon",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG ISLANDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5524-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACRONYMS & ABBREVIATIONS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "REM sleep, when most dreaming takes place, stands for this activity",
+          "answer": "rapid eye movement",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5524-d-c3-r0"
+        },
+        {
+          "question": "Metro San Francisco's rapid transit system is known by this 4-letter acronym",
+          "answer": "BART",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5524-d-c3-r1"
+        },
+        {
+          "question": "It's the acronym for the organization that runs soccer's World Cup",
+          "answer": "FIFA",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5524-d-c3-r2"
+        },
+        {
+          "question": "Sir, yes, sir, it's the \"T\" in ROTC",
+          "answer": "training",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5524-d-c3-r3"
+        },
+        {
+          "question": "Australia's most populous state is the one with this 3-letter abbreviation",
+          "answer": "NSW",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5524-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "By definition it's the branch of chemistry that deals with non-carbon compounds",
+          "answer": "inorganic",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5524-d-c4-r0"
+        },
+        {
+          "question": "(Sarah presents three isotopes of hydrogen on the monitor.)  Hydrogen has three isotopes: protium with its nucleus made up of one proton, deuterium with one proton & one neutron, & a third radioactive isotope with an additional neutron giving it a mass number of 3; hence, this name",
+          "answer": "tritium",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5524-d-c4-r1"
+        },
+        {
+          "question": "The Celsius temperature scale is also known as this scale because it's divided into 100 parts",
+          "answer": "centigrade",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5524-d-c4-r2"
+        },
+        {
+          "question": "It seems to defy gravity when a liquid goes up tubes by means of this action",
+          "answer": "capillary action",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5524-d-c4-r3"
+        },
+        {
+          "question": "The original \"handy man\" was this early human whose name means just that",
+          "answer": "Homo habilis",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5524-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHOSE LINE IS IT ANYWAY?",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "March 30, 1942: \"I shall return\"",
+          "answer": "MacArthur",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHOSE LINE IS IT ANYWAY?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5524-d-c5-r0"
+        },
+        {
+          "question": "In 1986: \"If you lead a country like Britain... you have to have a touch of iron about you\"",
+          "answer": "(Margaret) Thatcher",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHOSE LINE IS IT ANYWAY?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5524-d-c5-r1"
+        },
+        {
+          "question": "In an entry dated July 15, 1944: \"I still believe, in spite of everything, that people are truly good at heart\"",
+          "answer": "Anne Frank",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHOSE LINE IS IT ANYWAY?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5524-d-c5-r2"
+        },
+        {
+          "question": "\"I knew then that 'W-A-T-E-R' meant the wonderful cool something that was flowing over my hand\"",
+          "answer": "Helen Keller",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHOSE LINE IS IT ANYWAY?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5524-d-c5-r3"
+        },
+        {
+          "question": "In 1813:\"We have met the enemy and they are ours\"",
+          "answer": "(Commodore Oliver Hazard) Perry",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHOSE LINE IS IT ANYWAY?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5524-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. POLITICAL PARTIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Shortly before its demise, it had split into \"Conscience\" & \"Cotton\" factions",
+          "answer": "the Whig Party",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. POLITICAL PARTIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5524-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

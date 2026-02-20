@@ -1,0 +1,833 @@
+{
+  "gameId": 4113,
+  "showNumber": 6565,
+  "airDate": "March 15, 2013",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "TV SHOW SETTINGS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"Rizzoli & Isles\": solving crime in this New England capital",
+          "answer": "Boston",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV SHOW SETTINGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4113-s-c0-r0"
+        },
+        {
+          "question": "\"Treme\" & \"True Blood\": this state",
+          "answer": "Louisiana",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV SHOW SETTINGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4113-s-c0-r1"
+        },
+        {
+          "question": "\"Grey's Anatomy\": this seat of King County",
+          "answer": "Seattle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV SHOW SETTINGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4113-s-c0-r2"
+        },
+        {
+          "question": "\"Mike & Molly\": this midwestern city",
+          "answer": "Chicago",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV SHOW SETTINGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4113-s-c0-r3"
+        },
+        {
+          "question": "A show about a fading country superstar played by Connie Britton: this city",
+          "answer": "Nashville",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV SHOW SETTINGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4113-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "___ THE ___ PEOPLE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Anonymous London killer of 1888",
+          "answer": "Jack the Ripper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "___ THE ___ PEOPLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4113-s-c1-r0"
+        },
+        {
+          "question": "In Matthew 3 he heralds the coming of Jesus",
+          "answer": "John the Baptist",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "___ THE ___ PEOPLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4113-s-c1-r1"
+        },
+        {
+          "question": "He'd killed numerous men by the time he died around age 20 in 1881",
+          "answer": "Billy the Kid",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "___ THE ___ PEOPLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4113-s-c1-r2"
+        },
+        {
+          "question": "Bobby Darin is among those who've sung this tune about the blade-wielding Macheath",
+          "answer": "Mac the Knife",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "___ THE ___ PEOPLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4113-s-c1-r3"
+        },
+        {
+          "question": "This PBS Kids construction whiz & his \"Can-Do Crew\" entertain kids in 45 languages",
+          "answer": "Bob the Builder",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "___ THE ___ PEOPLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4113-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HIGH FANTASY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Finavar tapestry trilogy by Guy Gavriel Kay includes Lancelot, this king & his dog Cavall",
+          "answer": "Arthur",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH FANTASY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4113-s-c2-r0"
+        },
+        {
+          "question": "Ned is told \"When you play\" this, the title of the book, \"you win or you die\"",
+          "answer": "Game of Thrones",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH FANTASY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4113-s-c2-r1"
+        },
+        {
+          "question": "This sword-wielding barbarian from ancient Cimmeria was created by Robert E. Howard",
+          "answer": "Conan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH FANTASY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4113-s-c2-r2"
+        },
+        {
+          "question": "A large white bear fronts the cover of the first book of the \"His Dark Materials\" series, known as \"The Golden\" this",
+          "answer": "Compass",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH FANTASY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4113-s-c2-r3"
+        },
+        {
+          "question": "In a novel by Diana Wynne Jones, Howl, the title wizard, has a \"moving\" one of these domiciles",
+          "answer": "a castle",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH FANTASY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4113-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MIAMI NICE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 2012 the Miami Marlins began playing at a new stadium in the neighborhood called Little this world capital",
+          "answer": "Havana",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIAMI NICE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4113-s-c3-r0"
+        },
+        {
+          "question": "South Beach's Pelican Hotel has individual rooms called Power Flower, Big Bamboo & Me this, You Vain",
+          "answer": "Tarzan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MIAMI NICE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4113-s-c3-r1"
+        },
+        {
+          "question": "Catch shows from The Wiggles to the Deftones at the theatre named for this star of \"The Honeymooners\"; & away you go!",
+          "answer": "Jackie Gleason",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIAMI NICE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4113-s-c3-r2"
+        },
+        {
+          "question": "High art at the Lowe Art Museum includes 1882's \"The Barge And The Boat\" by this Tahiti lover",
+          "answer": "(Paul) Gauguin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIAMI NICE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4113-s-c3-r3"
+        },
+        {
+          "question": "This 2-word 1920s style of architecture has a district named for it in South Beach",
+          "answer": "art deco",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MIAMI NICE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4113-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"SHORT\"",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Used for long distances, it's radio communication at frequencies between 3,000 & 30,000 kilohertz",
+          "answer": "shortwave",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SHORT\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4113-s-c4-r0"
+        },
+        {
+          "question": "In hockey, the type of goal scored by a team that has a player in the penalty box",
+          "answer": "short-handed",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SHORT\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4113-s-c4-r1"
+        },
+        {
+          "question": "My order cost $9.25, I gave you a ten & you gave me 50 cents-- you did this!",
+          "answer": "short-changed",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SHORT\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4113-s-c4-r2"
+        },
+        {
+          "question": "Food prepared quickly is this profession's specialty",
+          "answer": "short order cook",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SHORT\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4113-s-c4-r3"
+        },
+        {
+          "question": "Cut of beef near the shoulder",
+          "answer": "a short rib",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SHORT\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4113-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SWEET",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This product's familiar packaging is seen here",
+          "answer": "Sweet n' Low",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4113-s-c5-r0"
+        },
+        {
+          "question": "Found in Newtons & with a sugar content of more than 50%, these are among the sweetest fruits",
+          "answer": "figs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4113-s-c5-r1"
+        },
+        {
+          "question": "Rich in vitamin A and cultivated in ancient times by the Aztecs, these edibles are part of the morning glory family",
+          "answer": "sweet potatoes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4113-s-c5-r2"
+        },
+        {
+          "question": "Candy is dandy for Marcel Desaulniers in his cookbook \"Death By\" this sweet ingredient",
+          "answer": "Chocolate",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4113-s-c5-r3"
+        },
+        {
+          "question": "Sweethearts & wafers come from this company whose name stands in part for \"New England\"",
+          "answer": "Necco",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4113-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MASON, DIXON, & THEIR LINE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On Nov. 15, 1763 Mason & Dixon arrived in this Pennsylvania city & shortly headed west",
+          "answer": "Philadelphia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MASON, DIXON, & THEIR LINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4113-d-c0-r0"
+        },
+        {
+          "question": "M & D used an instrument called a zenith sector for determining degrees of this north of the equator",
+          "answer": "latitude",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MASON, DIXON, & THEIR LINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4113-d-c0-r1"
+        },
+        {
+          "question": "Jeremiah Dixon was a surveyor & Charles Mason was employed by the Royal Society in Greenwich in this capacity",
+          "answer": "an astronomer",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MASON, DIXON, & THEIR LINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4113-d-c0-r2"
+        },
+        {
+          "question": "As a border between free & slave states, \"Mason-Dixon line\" was first used in debates over this 1820 compromise",
+          "answer": "the Missouri Compromise",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MASON, DIXON, & THEIR LINE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4113-d-c0-r3"
+        },
+        {
+          "question": "At 5-mile intervals, stones featured the Coat of Arms of the Penn family on one side, this Maryland family on the other",
+          "answer": "the Calverts",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MASON, DIXON, & THEIR LINE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4113-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SECOND ROCK FROM THE SUN",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Geologically active, Venus has more of these, like Sif Mons, than any other planet in the Solar System",
+          "answer": "volcanoes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECOND ROCK FROM THE SUN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4113-d-c1-r0"
+        },
+        {
+          "question": "Venus' atmosphere is 96% this compound that makes up just .037% of Earth's; no wonder its globe has warmed",
+          "answer": "carbon dioxide",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECOND ROCK FROM THE SUN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4113-d-c1-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew explains an animation of Venus on a monitor.) Viewed from Earth, Venus exhibits phases like the Moon.  Galileo's 1610 discovery of that fact helped confirmed the Solar System model named for this man",
+          "answer": "Copernicus",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECOND ROCK FROM THE SUN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4113-d-c1-r2"
+        },
+        {
+          "question": "Tennyson's \"Crossing The Bar\" begins, \"Sunset and\" this item in the sky that's really Venus",
+          "answer": "the Evening Star",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECOND ROCK FROM THE SUN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4113-d-c1-r3"
+        },
+        {
+          "question": "The size of South America, a highland surface area on Venus is named for this Greek goddess",
+          "answer": "Aphrodite",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECOND ROCK FROM THE SUN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4113-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEY CO-STARRED WITH LEO DiCAPRIO",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "That dreamy Joseph Gordon-Levitt in a dream of a movie",
+          "answer": "Inception",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY CO-STARRED WITH LEO DiCAPRIO",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4113-d-c2-r0"
+        },
+        {
+          "question": "Jack Nicholson as a Boston gangster",
+          "answer": "The Departed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY CO-STARRED WITH LEO DiCAPRIO",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4113-d-c2-r1"
+        },
+        {
+          "question": "Cate Blanchett as Ketharine Hepburn, darling",
+          "answer": "The Aviator",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY CO-STARRED WITH LEO DiCAPRIO",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4113-d-c2-r2"
+        },
+        {
+          "question": "Daniel Day-Lewis in a period piece",
+          "answer": "Gangs Of New York",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY CO-STARRED WITH LEO DiCAPRIO",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4113-d-c2-r3"
+        },
+        {
+          "question": "Djimon Hounsou, in Africa",
+          "answer": "Blood Diamond",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY CO-STARRED WITH LEO DiCAPRIO",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4113-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POST MASTERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "These orchestral works by Anton Bruckner, like the 90-minute No. 8, are classics of postromanticism",
+          "answer": "symphonies",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POST MASTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4113-d-c3-r0"
+        },
+        {
+          "question": "In the late 300s Prudentius went postclassical with poems combining this religion with traditional Latin forms",
+          "answer": "Christianity",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POST MASTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4113-d-c3-r1"
+        },
+        {
+          "question": "In the 1960s Robert Venturi pioneered the eclectic style of architecture called post-this",
+          "answer": "postmodernism",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POST MASTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4113-d-c3-r2"
+        },
+        {
+          "question": "Not yet 30, Picasso was in the groundbreaking 1910 London art show \"Manet and\" this group",
+          "answer": "the postimpressionists",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POST MASTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4113-d-c3-r3"
+        },
+        {
+          "question": "On this American's death in 2009, the London Times called him \"the greatest postwar novelist in English\"",
+          "answer": "John Updike",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POST MASTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4113-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN ANNUAL EVENTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Each July Gilroy, California celebrates this pungent herb with a festival of food & fun",
+          "answer": "garlic",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN ANNUAL EVENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4113-d-c4-r0"
+        },
+        {
+          "question": "Not Texas but Ridgway, Penn. is home each February to a wood-carving competition using these power tools",
+          "answer": "a chainsaw",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN ANNUAL EVENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4113-d-c4-r1"
+        },
+        {
+          "question": "This liquor flows for 6 days at a September festival celebrating it in Bardstown, Kentucky",
+          "answer": "Bourbon",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN ANNUAL EVENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4113-d-c4-r2"
+        },
+        {
+          "question": "\"How many CC you got?\" might be heard at the 75-year-old Sturgis, South Dakota rally for these transports",
+          "answer": "motorcycles",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN ANNUAL EVENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4113-d-c4-r3"
+        },
+        {
+          "question": "Each year the International Balloon Fiesta held in this southwest city features a mass ascension",
+          "answer": "Albuquerque",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN ANNUAL EVENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4113-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE N-DEMNITY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This type of \"joke\" or \"gag\" recurs in a play for cumulative comic effect",
+          "answer": "running",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE N-DEMNITY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4113-d-c5-r0"
+        },
+        {
+          "question": "Any sudden help, or food miraculously supplied to the Israelites in Exodus",
+          "answer": "manna",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE N-DEMNITY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4113-d-c5-r1"
+        },
+        {
+          "question": "Any plant having a life cycle of more than 2 years",
+          "answer": "a perennial",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE N-DEMNITY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4113-d-c5-r2"
+        },
+        {
+          "question": "This recent addition to English means a male whose job is child care",
+          "answer": "a manny",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE N-DEMNITY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4113-d-c5-r3"
+        },
+        {
+          "question": "To separate grain from chaff using wind",
+          "answer": "winnow",
+          "value": 10600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE N-DEMNITY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4113-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHAKESPEARE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Samuel Johnson said Shakespeare \"so carefully informs us\" that this play is set on the eve of May Day & yet called it this",
+          "answer": "A Midsummer Night's Dream",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "SHAKESPEARE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4113-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

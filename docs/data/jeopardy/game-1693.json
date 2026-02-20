@@ -1,0 +1,833 @@
+{
+  "gameId": 1693,
+  "showNumber": 2048,
+  "airDate": "June 30, 1993",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SCIENCE & TECHNOLOGY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1982 the Jarvik-7, the first permanent one of these, was implanted in patient Barney Clark",
+          "answer": "an artificial heart",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1693-s-c0-r0"
+        },
+        {
+          "question": "Using a kite antenna, he received the first transatlantic wireless message in 1901, the letter S",
+          "answer": "Marconi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1693-s-c0-r1"
+        },
+        {
+          "question": "In 1611 Johannes Kepler introduced a second convex lens, giving this instrument greater power",
+          "answer": "a telescope",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1693-s-c0-r2"
+        },
+        {
+          "question": "Buckminster Fuller used \"energetic synergetic geometry\" to build these structures",
+          "answer": "geodesic domes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1693-s-c0-r3"
+        },
+        {
+          "question": "The 1st automated instrument to analyze this genetic material's structure was developed in the mid-1980s",
+          "answer": "DNA",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1693-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CELEBRITY RELATIVES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Detective novelist Tony Hillerman is this \"Magnum, P.I.\" co-star's second cousin",
+          "answer": "John Hillerman",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY RELATIVES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1693-s-c1-r0"
+        },
+        {
+          "question": "This director was born to a mother named Italia & has a sister named Talia",
+          "answer": "Francis Ford Coppola",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY RELATIVES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1693-s-c1-r1"
+        },
+        {
+          "question": "Jason Patric is the grandson of this late TV star who was famous for playing a bus driver",
+          "answer": "Jackie Gleason",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY RELATIVES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1693-s-c1-r2"
+        },
+        {
+          "question": "This actress' son Sean Astin found a caveman in his back yard in the 1992 film \"Encino Man\"",
+          "answer": "Patty Duke Astin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY RELATIVES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1693-s-c1-r3"
+        },
+        {
+          "question": "She's Don Johnson's famous mother-in-law; a little \"bird\" told us",
+          "answer": "Tippi Hedren",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY RELATIVES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1693-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGIOUS LEADERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In art this \"Enlightened One\" is often depicted in the lotus position in deep meditation",
+          "answer": "the Buddha",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS LEADERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1693-s-c2-r0"
+        },
+        {
+          "question": "When this evangelist died in 1944, her son Rolf McPherson took over as head of her church",
+          "answer": "Aimee Semple McPherson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS LEADERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1693-s-c2-r1"
+        },
+        {
+          "question": "Most of what we know about this Chinese leader comes from a book called the \"Analects\"",
+          "answer": "Confucius",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS LEADERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1693-s-c2-r2"
+        },
+        {
+          "question": "According to Franciscan tradition, he received marks of Christ's wounds on his body in 1224",
+          "answer": "St. Francis of Assisi",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS LEADERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1693-s-c2-r3"
+        },
+        {
+          "question": "The full name of his church is the Holy Spirit Association for the Unification of World Christianity",
+          "answer": "Sun Myung Moon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS LEADERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1693-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE GARFIELD ERA",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "9 days after Garfield's inauguration, Alexander II of this country was assassinated",
+          "answer": "Russia",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GARFIELD ERA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1693-s-c3-r0"
+        },
+        {
+          "question": "This institute in Alabama opened July 4, 1881 as a school to train black teachers",
+          "answer": "Tuskegee Institute",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GARFIELD ERA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1693-s-c3-r1"
+        },
+        {
+          "question": "Turkey ceded Thessaly to this country",
+          "answer": "Greece",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GARFIELD ERA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1693-s-c3-r2"
+        },
+        {
+          "question": "On April 5, 1881 the Treaty of Pretoria granted independence to this country",
+          "answer": "South Africa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GARFIELD ERA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1693-s-c3-r3"
+        },
+        {
+          "question": "This British bacteriologist born August 6, 1881 \"molded\" the lives of future generations",
+          "answer": "(Sir Alexander) Fleming",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GARFIELD ERA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1693-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FASHION",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A style of pants with tight-fitting legs, or a type of high-crowned hat worn by Lincoln",
+          "answer": "a stovepipe",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1693-s-c4-r0"
+        },
+        {
+          "question": "Wedgies should be worn only on these body parts",
+          "answer": "feet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1693-s-c4-r1"
+        },
+        {
+          "question": "The usual color of the 19th century women's blouses inspired by Giuseppe Garibaldi",
+          "answer": "red",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1693-s-c4-r2"
+        },
+        {
+          "question": "The duffel coat was named for a fabric made in the town of Duffel in this Low Country",
+          "answer": "Belgium",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1693-s-c4-r3"
+        },
+        {
+          "question": "Some of these facial decorations worn in the 1600s & 1700s were star-shaped",
+          "answer": "beauty marks",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1693-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "POT LUCK",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This country leads the world in the production of cultured pearls",
+          "answer": "Japan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1693-s-c5-r0"
+        },
+        {
+          "question": "Commissioned U.S. Army officers are sworn to support & defend this document against all enemies",
+          "answer": "the Constitution",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1693-s-c5-r1"
+        },
+        {
+          "question": "The world's longest of these floating bridges spans 7,518' across Lake Washington",
+          "answer": "a pontoon bridge",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1693-s-c5-r2"
+        },
+        {
+          "question": "Scientifically, this tall grass is called Saccharum officinarum",
+          "answer": "sugarcane",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1693-s-c5-r3"
+        },
+        {
+          "question": "In 1993 people sent letters with these stamps to fake addresses so they would be marked \"return to sender\"",
+          "answer": "the Elvis stamps",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POT LUCK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1693-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE IN HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Lightning struck when this 18th century inventor met Deborah Read & their common law marriage lasted 44 years",
+          "answer": "Ben Franklin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1693-d-c0-r0"
+        },
+        {
+          "question": "Ixtlilxochitl II, a chief of Texcoco in Mexico, became an ally of this Conquistador",
+          "answer": "Cortés",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1693-d-c0-r1"
+        },
+        {
+          "question": "In 1910 he & his sister Agnes co-founded the Girl Guides",
+          "answer": "Lord Baden-Powell",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1693-d-c0-r2"
+        },
+        {
+          "question": "The name of this Grand Inquisitor became synonymous with the horror of the Spanish Inquisition",
+          "answer": "Torquemada",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1693-d-c0-r3"
+        },
+        {
+          "question": "Encyclopedia Americana says this Medici bore King Henry IV \"six children and much ill will\"",
+          "answer": "Marie de' Medici",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1693-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In a list of dictionary abbreviations, this language is often listed as Lith.",
+          "answer": "Lithuanian",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1693-d-c1-r0"
+        },
+        {
+          "question": "Of Balinese, Bengali or Bulgarian, the one that has the most speakers by far",
+          "answer": "Bengali",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1693-d-c1-r1"
+        },
+        {
+          "question": "The famous operetta \"The Gondoliers\" was written in this language",
+          "answer": "English",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1693-d-c1-r2"
+        },
+        {
+          "question": "Portuguese, Sardinian & Ladino belong to this group of Indo-European languages",
+          "answer": "the Romance languages",
+          "value": 1400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1693-d-c1-r3"
+        },
+        {
+          "question": "Guarani is both a language & the basic unit of currency in this landlocked South American country",
+          "answer": "Paraguay",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1693-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS BUILDINGS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This palace's Hall of Mirrors was once flanked by the state apartments of the king & queen",
+          "answer": "Versailles",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BUILDINGS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1693-d-c2-r0"
+        },
+        {
+          "question": "Consecrated in 1094, this basilica was named for the patron saint of Venice",
+          "answer": "St. Mark's",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BUILDINGS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1693-d-c2-r1"
+        },
+        {
+          "question": "The 70-story GE Building is the central structure in this NYC building complex",
+          "answer": "Rockefeller Center",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BUILDINGS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1693-d-c2-r2"
+        },
+        {
+          "question": "This 12th century temple built by King Suryavarman appears on the Cambodian flag",
+          "answer": "Angkor Wat",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BUILDINGS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1693-d-c2-r3"
+        },
+        {
+          "question": "This 7th century Muslim building in Jerusalem is also known as the Mosque of Umar",
+          "answer": "the Dome of the Rock",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BUILDINGS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1693-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Usually eaten between 11 A.M. & 3 P.M., this meal is a combination of breakfast & lunch",
+          "answer": "brunch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1693-d-c3-r0"
+        },
+        {
+          "question": "In the Orient this part of a shark is used to make an expensive & popular soup",
+          "answer": "the fin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1693-d-c3-r1"
+        },
+        {
+          "question": "This company markets Velveeta & Cracker Barrel cheeses",
+          "answer": "Kraft",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1693-d-c3-r2"
+        },
+        {
+          "question": "Named for a South American country, this 3-sided nut is the fruit of the bertholettia tree",
+          "answer": "the Brazil nut",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1693-d-c3-r3"
+        },
+        {
+          "question": "This French term for a tiny pickle means \"little horn\"",
+          "answer": "cornichon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1693-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOWN EASTERS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The governor's mansion in this capital city was formerly the home of James G. Blaine",
+          "answer": "Augusta",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOWN EASTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1693-d-c4-r0"
+        },
+        {
+          "question": "Explorers who came in from the cold to summer in Maine include Robert Peary & this South Pole visitor",
+          "answer": "(Richard) Byrd",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOWN EASTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1693-d-c4-r1"
+        },
+        {
+          "question": "This poet who wrote \"I shot an arrow in the air...\" was born in Portland",
+          "answer": "Longfellow",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOWN EASTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1693-d-c4-r2"
+        },
+        {
+          "question": "In 1980 & 1981 this man from the State of Maine was U.S. Secretary of State",
+          "answer": "Muskie",
+          "value": 3700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOWN EASTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1693-d-c4-r3"
+        },
+        {
+          "question": "This woman born in Hampden helped open hospitals for the mentally ill in over 15 states",
+          "answer": "Dorothea Dix",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOWN EASTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1693-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTHOLOGY BOOKS & AUTHORS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In the 6th century B.C., Greeks used his \"Iliad\" & \"Odyssey\" as textbooks",
+          "answer": "Homer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1693-d-c5-r0"
+        },
+        {
+          "question": "Bullfinch's \"Mythology\" includes \"The Age of Fable\", &, covering knights, \"The Age of\" this",
+          "answer": "Chivalry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1693-d-c5-r1"
+        },
+        {
+          "question": "In an essay Albert Camus compared the human condition to the myth of this rock pusher",
+          "answer": "Sisyphus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1693-d-c5-r2"
+        },
+        {
+          "question": "Bill Moyers' conversations with him were published as \"The Power of Myth\"",
+          "answer": "(Joseph) Campbell",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1693-d-c5-r3"
+        },
+        {
+          "question": "This \"I, Claudius\" author later set his eye on \"The Greek Myths\" & \"The Hebrew Myths\"",
+          "answer": "(Robert) Graves",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1693-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN MUSICALS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A 1920s French production of this musical about 19th c. entertainers was titled \"Mississippi\"",
+          "answer": "Show Boat",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AMERICAN MUSICALS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1693-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

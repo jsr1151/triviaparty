@@ -1,0 +1,833 @@
+{
+  "gameId": 1010,
+  "showNumber": 3945,
+  "airDate": "October 26, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THROWING THE BOOK AT YOU",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"Alexey... was the third son of Fyodor... who became notorious... because of his tragic... death\"",
+          "answer": "The Brothers Karamazov",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THROWING THE BOOK AT YOU",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1010-s-c0-r0"
+        },
+        {
+          "question": "\"Dean was having his kicks; he put on a jazz record, grabbed Marylou... and bounced against her with the beat\"",
+          "answer": "On the Road",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THROWING THE BOOK AT YOU",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1010-s-c0-r1"
+        },
+        {
+          "question": "\"Like a leaden knell the words came back at him: War is Peace Freedom is Slavery Ignorance is Strength\"",
+          "answer": "1984",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THROWING THE BOOK AT YOU",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1010-s-c0-r2"
+        },
+        {
+          "question": "\"40 years ago, certain persons went up to Laputa... and... came back with a very little smattering in mathematics\"",
+          "answer": "Gulliver's Travels",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THROWING THE BOOK AT YOU",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1010-s-c0-r3"
+        },
+        {
+          "question": "\"'Miss Jean Louise, stand up.  Your father's passin.'\"",
+          "answer": "To Kill a Mockingbird",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THROWING THE BOOK AT YOU",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1010-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PRODUCE DEPT.",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Casaba &Santa Claus",
+          "answer": "melons",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRODUCE DEPT.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1010-s-c1-r0"
+        },
+        {
+          "question": "Acorn &Hubbard",
+          "answer": "squash",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRODUCE DEPT.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1010-s-c1-r1"
+        },
+        {
+          "question": "Savoy &bok choy",
+          "answer": "cabbage",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRODUCE DEPT.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1010-s-c1-r2"
+        },
+        {
+          "question": "Greengage &Santa Rosa",
+          "answer": "plums",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE PRODUCE DEPT.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1010-s-c1-r3"
+        },
+        {
+          "question": "Scarlet Globe &White Icicle",
+          "answer": "radishes",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE PRODUCE DEPT.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1010-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SOFTWARE THAT BYTES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A dangerous new virus is actually 2 files which share their names with these 2 Shakespearean lovers",
+          "answer": "Romeo & Juliet",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOFTWARE THAT BYTES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1010-s-c2-r0"
+        },
+        {
+          "question": "A virus was sent as a picture of this 20-year-old tennis star; needless to say it was a popular virus",
+          "answer": "Anna Kournikova",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOFTWARE THAT BYTES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1010-s-c2-r1"
+        },
+        {
+          "question": "A type of virus is named after this surreptitious instrument of war used by ancient Greeks",
+          "answer": "Trojan Horse",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOFTWARE THAT BYTES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1010-s-c2-r2"
+        },
+        {
+          "question": "Every March 6 your computer can be infected by this virus named for a Renaissance artist",
+          "answer": "Michelangelo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOFTWARE THAT BYTES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1010-s-c2-r3"
+        },
+        {
+          "question": "This \"pest\" virus that originated in the Philippines was sent via an amorous attachment",
+          "answer": "Love Bug Virus",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOFTWARE THAT BYTES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1010-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BELOVED SINGERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Now starring on \"Touched by an Angel\", in the '50s she brought gospel music to Las Vegas",
+          "answer": "Della Reese",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BELOVED SINGERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1010-s-c3-r0"
+        },
+        {
+          "question": "This singer's shapely shaved head stars in the video for R.E.M.'s \"Strange Currencies\"",
+          "answer": "Michael Stipe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BELOVED SINGERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1010-s-c3-r1"
+        },
+        {
+          "question": "The vocals of this country singer were featured in Disney's \"Robin Hood\"",
+          "answer": "Roger Miller",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BELOVED SINGERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1010-s-c3-r2"
+        },
+        {
+          "question": "Shawn Colvin said her life was changed by this singer whose biggest album was \"Court and Spark\"",
+          "answer": "Joni Mitchell",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BELOVED SINGERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1010-s-c3-r3"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew is on the stage of the Apollo Theatre in New York City.)  This \"Sassy\" singer won an amateur contest here in 1942 with her rendition of \"Body and Soul\"",
+          "answer": "Sarah Vaughan",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BELOVED SINGERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1010-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALTIMORE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Begun in 1815, America's first large-scale monument to this man towers above Mount Vernon Place",
+          "answer": "George Washington",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALTIMORE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1010-s-c4-r0"
+        },
+        {
+          "question": "The 1814 bombardment of this nearby site is commemorated on Defenders' Day",
+          "answer": "Fort McHenry",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALTIMORE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1010-s-c4-r1"
+        },
+        {
+          "question": "\"Liberty Heights\" & \"Diner\" are among the Baltimore-set movies by this Baltimore-born writer & director",
+          "answer": "Barry Levinson",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALTIMORE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1010-s-c4-r2"
+        },
+        {
+          "question": "Famous for its medical school, this university celebrated its 125th anniversary in 2001",
+          "answer": "Johns Hopkins",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALTIMORE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1010-s-c4-r3"
+        },
+        {
+          "question": "Horse racing's Preakness Stakes runs each May at this racetrack",
+          "answer": "Pimlico",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALTIMORE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1010-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"BEL\"LISSIMO!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Bats love to hang out in this church tower",
+          "answer": "belfry",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BEL\"LISSIMO!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1010-s-c5-r0"
+        },
+        {
+          "question": "(Sarah of the Clue Crew is ready to dive into a pool,)  Unfortunately, it's what I'm about to do here",
+          "answer": "belly flop",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BEL\"LISSIMO!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1010-s-c5-r1"
+        },
+        {
+          "question": "As 1 word, it's a poisonous plant also called deadly nightshade; as 2 words, it's a Stevie Nicks album",
+          "answer": "belladonna/\"Bella Donna\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BEL\"LISSIMO!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1010-s-c5-r2"
+        },
+        {
+          "question": "Eric Clapton had these title \"Blues\" in 1973",
+          "answer": "\"Bell Bottom Blues\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BEL\"LISSIMO!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1010-s-c5-r3"
+        },
+        {
+          "question": "This 1940 novel is set near Segovia, Spain in 1937",
+          "answer": "For Whom the Bell Tolls",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BEL\"LISSIMO!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1010-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHYSICISTS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1804 Joseph Gay-Lussac went up, up & away in one of these to research the atmosphere",
+          "answer": "balloon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1010-d-c0-r0"
+        },
+        {
+          "question": "New data seem to confirm the \"negative gravity\" that this 20th century genius proposed & then abandoned",
+          "answer": "Albert Einstein",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1010-d-c0-r1"
+        },
+        {
+          "question": "Georges Lemaitre's idea of the explosion of a primeval atom gave rise to this theory",
+          "answer": "Big Bang Theory",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1010-d-c0-r2"
+        },
+        {
+          "question": "In 2000 a group of physicists finally found evidence of the Tau type of this subatomic particle",
+          "answer": "neutrino",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PHYSICISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1010-d-c0-r3"
+        },
+        {
+          "question": "In the 19th century this 3-named British scientist established the kinetic theory of gases -- smart!",
+          "answer": "James Clerk Maxwell",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1010-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPEECH",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The roof of the mouth; a cleft one may lead to difficulty in articulation",
+          "answer": "palate",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEECH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1010-d-c1-r0"
+        },
+        {
+          "question": "The national association for this disorder says not to fill in sufferers' words or tell them, \"just relax\"",
+          "answer": "stuttering",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEECH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1010-d-c1-r1"
+        },
+        {
+          "question": "Type of \"stop\" heard in a Cockney pronounciation of \"little\"",
+          "answer": "glottal stop",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEECH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1010-d-c1-r2"
+        },
+        {
+          "question": "One \"intonation contour\" is the rising pitch at the end of a sentence that's the standard signal for this",
+          "answer": "a question",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEECH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1010-d-c1-r3"
+        },
+        {
+          "question": "Read my lips -- the consonants M & B are phonetically this type of sound",
+          "answer": "labial",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPEECH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1010-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SUPREME COURT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In a 2001 book David Brock said he lied in a 1993 book slamming her, Clarence Thomas' nemesis at confirmation",
+          "answer": "Anita Hill",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1010-d-c2-r0"
+        },
+        {
+          "question": "Eisenhower said his 2 biggest mistakes as president were nominating William Brennan & this chief justice",
+          "answer": "Earl Warren",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1010-d-c2-r1"
+        },
+        {
+          "question": "This current Supreme Court justice's first & middle names have a papal sound",
+          "answer": "John Paul Stevens",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1010-d-c2-r2"
+        },
+        {
+          "question": "In 1778 he was president of the Continental Congress; 11 years later, he became chief justice",
+          "answer": "John Jay",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1010-d-c2-r3"
+        },
+        {
+          "question": "The biography \"The Judge from Beacon Hill\" covers his life & his 3 decades on the Supreme Court",
+          "answer": "Oliver Wendell Holmes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1010-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLET",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Herr Drosselmeyer brings Clara a special Christmas gift in this 1892 ballet",
+          "answer": "The Nutcracker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1010-d-c3-r0"
+        },
+        {
+          "question": "Act three, scene one of this ballet is called \"The Awakening\"",
+          "answer": "Sleeping Beauty",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1010-d-c3-r1"
+        },
+        {
+          "question": "Prince Siegfried & Odette drown themselves toward the end of this classic ballet",
+          "answer": "Swan Lake",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1010-d-c3-r2"
+        },
+        {
+          "question": "This ballet by Agnes De Mille is subtitled \"The Courting at Burnt Ranch\"",
+          "answer": "Rodeo",
+          "value": 100,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1010-d-c3-r3"
+        },
+        {
+          "question": "This title character has the face & arms of a woman & a body of feathers that tapers off in flames",
+          "answer": "The Firebird",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1010-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DUTCH ROYALTY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Born in 1943, Princess Margriet was named for the Marguerite flower, a symbol of resistance against this group",
+          "answer": "the Nazis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH ROYALTY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1010-d-c4-r0"
+        },
+        {
+          "question": "When Princess Laurentien studied at UC Berkeley, she wrote a thesis on \"Street Prostitution in\" this nearby city",
+          "answer": "San Francisco",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH ROYALTY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1010-d-c4-r1"
+        },
+        {
+          "question": "Seen here, Prince William-Alexander, the heir to the throne, is the eldest child of this queen",
+          "answer": "Beatrix",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH ROYALTY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1010-d-c4-r2"
+        },
+        {
+          "question": "In 1980 she celebrated her 71st birthday by abdicating the Dutch throne",
+          "answer": "Queen Juliana",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH ROYALTY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1010-d-c4-r3"
+        },
+        {
+          "question": "This mother of Queen Wilhelmina had the same first name as a Jane Austen heroine",
+          "answer": "Emma",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH ROYALTY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1010-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMPOUND WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "You can be \"as dead as\" this, a word combining a portal & a fastener",
+          "answer": "doornail",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOUND WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1010-d-c5-r0"
+        },
+        {
+          "question": "Meaning \"to peddle\", it attaches to iron or war",
+          "answer": "monger",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOUND WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1010-d-c5-r1"
+        },
+        {
+          "question": "Meal to end a period of non-eating",
+          "answer": "breakfast",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOUND WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1010-d-c5-r2"
+        },
+        {
+          "question": "As an afterthought, P.S. is short for this",
+          "answer": "postscript",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOUND WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1010-d-c5-r3"
+        },
+        {
+          "question": "Words meaning \"academy\" & \"court\" merge to form this place where me & Julio hung out",
+          "answer": "schoolyard",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOUND WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1010-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "'90s MOVIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It was based on the true story of the 4 Niland brothers of Tonawanda, New York",
+          "answer": "Saving Private Ryan",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "'90s MOVIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1010-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

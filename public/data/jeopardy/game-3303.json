@@ -1,0 +1,833 @@
+{
+  "gameId": 3303,
+  "showNumber": 5848,
+  "airDate": "February 3, 2010",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "CAPITAL CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It joins Yokohama in a Metro area home to more than 30 million people",
+          "answer": "Tokyo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3303-s-c0-r0"
+        },
+        {
+          "question": "The Maly & Bolshoi theaters are on its Teatralnaya Square",
+          "answer": "Moscow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3303-s-c0-r1"
+        },
+        {
+          "question": "It fell to British troops in 1917 & to U.S. troops on April 9, 2003",
+          "answer": "Baghdad",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3303-s-c0-r2"
+        },
+        {
+          "question": "Once the capital of Spain's New World empire, this South American city was founded by Pizarro in 1535",
+          "answer": "Lima",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3303-s-c0-r3"
+        },
+        {
+          "question": "The Rideau canal separates this North American capital into upper & lower regions",
+          "answer": "Ottawa",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3303-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE OBJECTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In \"The Wizard of Oz\", the Wicked Witch of the West watches these disappear & then finds them on Dorothy",
+          "answer": "ruby slippers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE OBJECTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3303-s-c1-r0"
+        },
+        {
+          "question": "In this holiday classic, Ralphie's dad's \"leg lamp\" causes quite a stir",
+          "answer": "A Christmas Story",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE OBJECTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3303-s-c1-r1"
+        },
+        {
+          "question": "At the beginning of \"Close Encounters\", a bunch of these, missing since 1945, are found in the Sonoran Desert",
+          "answer": "airplanes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE OBJECTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3303-s-c1-r2"
+        },
+        {
+          "question": "This shiny title object from a 2007 fantasy film is actually an alethiometer, which cryptically answers questions",
+          "answer": "The Golden Compass",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE OBJECTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3303-s-c1-r3"
+        },
+        {
+          "question": "When Jimmy Stewart finds these items from his daughter Zuzu in his pocket in \"It's a Wonderful Life\", all is well",
+          "answer": "the flower petals",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE OBJECTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3303-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD FESTIVALS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Make room for guacamole & head to Fallbrook, California for its festival of this fruit",
+          "answer": "avocado",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD FESTIVALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3303-s-c2-r0"
+        },
+        {
+          "question": "Bridge City, Louisiana is famous for this festival where a lot of stewing goes on--seafood or chicken?",
+          "answer": "gumbo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD FESTIVALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3303-s-c2-r1"
+        },
+        {
+          "question": "You'll find deep dish pizza & more at the \"Taste of\" this city, in Grant Park",
+          "answer": "Chicago",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD FESTIVALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3303-s-c2-r2"
+        },
+        {
+          "question": "The largest ethnic festival in Arkansas highlights foods from this country, like gyros & souvlaki",
+          "answer": "Greece",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD FESTIVALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3303-s-c2-r3"
+        },
+        {
+          "question": "The Valparaiso Popcorn Festival in Indiana has a parade named for this man, America's popcorn king",
+          "answer": "Orville Redenbacher",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD FESTIVALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3303-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAMMALS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Like mice, chipmunks belong to this order of mammals",
+          "answer": "rodentia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3303-s-c3-r0"
+        },
+        {
+          "question": "Down Under, a male one of these is called a buck, Boomer or jack",
+          "answer": "a kangaroo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3303-s-c3-r1"
+        },
+        {
+          "question": "Our domesticated hogs are descended from these \"wild\" mammals of Europe",
+          "answer": "wild boars",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3303-s-c3-r2"
+        },
+        {
+          "question": "The daily diet for this toothless mammal is some 30,000 termites & the insect in its name",
+          "answer": "an anteater",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3303-s-c3-r3"
+        },
+        {
+          "question": "One of 2 living water mammals, also called sea cows, that belong to the order sirenia",
+          "answer": "manatees (or dugongs)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3303-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TAKE THE FIFTH",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "With the familiar 4-note opener, his Fifth Symphony has been called \"the most popular orchestral work ever written\"",
+          "answer": "Beethoven",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE FIFTH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3303-s-c4-r0"
+        },
+        {
+          "question": "Our fifth president, he moved into a renovated post-torching White House",
+          "answer": "Monroe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE FIFTH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3303-s-c4-r1"
+        },
+        {
+          "question": "This fifth book of the Bible ends with the death of Moses",
+          "answer": "Deuteronomy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE FIFTH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3303-s-c4-r2"
+        },
+        {
+          "question": "The first American in space, he would later become the fifth man on the Moon",
+          "answer": "(Alan) Shepard",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE FIFTH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3303-s-c4-r3"
+        },
+        {
+          "question": "You get a B if you know it's the fifth element on the periodic table",
+          "answer": "boron",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE FIFTH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3303-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORDS IN FEBRUARY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The cost to ride a bus or subway",
+          "answer": "fare",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS IN FEBRUARY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3303-s-c5-r0"
+        },
+        {
+          "question": "Extremely uncommon, or how I like my steak",
+          "answer": "rare",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS IN FEBRUARY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3303-s-c5-r1"
+        },
+        {
+          "question": "Exercise rail used by ballet dancers",
+          "answer": "barre",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS IN FEBRUARY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3303-s-c5-r2"
+        },
+        {
+          "question": "Grain for sandwich bread",
+          "answer": "rye",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS IN FEBRUARY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3303-s-c5-r3"
+        },
+        {
+          "question": "For Mercury it's only 88 days long",
+          "answer": "a year",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS IN FEBRUARY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3303-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOMETRY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In books 1 through 4 of his \"Elements\", he covered the rudiments of plane geometry",
+          "answer": "Euclid",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3303-d-c0-r0"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew shows a diagram on the monitor.)  Two or more circles that have the same center point are said to be this, from the Latin for \"together center\"",
+          "answer": "concentric",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3303-d-c0-r1"
+        },
+        {
+          "question": "You deserve straight As if you know that a straight angle has this many degrees",
+          "answer": "180",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3303-d-c0-r2"
+        },
+        {
+          "question": "(Sarah of the Clue Crew shows a diagram on the monitor.)  Because the angle here is more than 90 degrees, both the angle & the triangle are classified as this",
+          "answer": "obtuse",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3303-d-c0-r3"
+        },
+        {
+          "question": "When carried out to 5 decimal places, pi equals this",
+          "answer": "3.14159",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3303-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GRAPHIC NOVELS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Though the show has ended, Joss Whedon still writes graphic novels about Angel & this title character",
+          "answer": "Buffy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPHIC NOVELS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3303-d-c1-r0"
+        },
+        {
+          "question": "\"The Photographer\" chronicles a trip to Afghanistan with this medical humanitarian organization",
+          "answer": "Doctors Without Borders",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPHIC NOVELS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3303-d-c1-r1"
+        },
+        {
+          "question": "A graphic novel by Robert Venditti & Brett Weldele was the basis for this Bruce Willis film about androids that live for users",
+          "answer": "Surrogates",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPHIC NOVELS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3303-d-c1-r2"
+        },
+        {
+          "question": "Tim Hamilton illustrated the authorized adaptation of this dystopian classic by Ray Bradbury",
+          "answer": "Fahrenheit 451",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPHIC NOVELS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3303-d-c1-r3"
+        },
+        {
+          "question": "Art Spiegelman tackled the holocaust in this graphic novel that portrayed Germans as cats",
+          "answer": "Maus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAPHIC NOVELS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3303-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASS \"E\"",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Elementary classroom culture & management is an offering from Stanford's school of this",
+          "answer": "Education",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASS \"E\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3303-d-c2-r0"
+        },
+        {
+          "question": "In the name of a Penn department, Earth Studies is paired with these earth-friendly studies",
+          "answer": "Environmental Studies",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASS \"E\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3303-d-c2-r1"
+        },
+        {
+          "question": "Don't bug me!  I'm doing my reading for this class in which we study insects",
+          "answer": "entomology",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASS \"E\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3303-d-c2-r2"
+        },
+        {
+          "question": "At Harvard, Introduction to Game Theory is a course on this",
+          "answer": "economics",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLASS \"E\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3303-d-c2-r3"
+        },
+        {
+          "question": "Often paired with public health, it's the branch of medicine that deals with outbreaks of infectious diseases",
+          "answer": "epidemiology",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASS \"E\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3303-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL ALMA MATERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "United States Military Academy (class of 1843)",
+          "answer": "(Ulysses) Grant",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ALMA MATERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3303-d-c3-r0"
+        },
+        {
+          "question": "William & Mary College (class of 1762)",
+          "answer": "Jefferson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ALMA MATERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3303-d-c3-r1"
+        },
+        {
+          "question": "University of Michigan (class of 1935)",
+          "answer": "Ford",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ALMA MATERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3303-d-c3-r2"
+        },
+        {
+          "question": "Yale University (class of 1948)",
+          "answer": "George H.W. Bush",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ALMA MATERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3303-d-c3-r3"
+        },
+        {
+          "question": "Whittier College (class of 1934)",
+          "answer": "Nixon",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ALMA MATERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3303-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PORTRAIT OF WHOM?",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A 17th-century holder of this holy office in a 20th-century portrait",
+          "answer": "the Pope",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT OF WHOM?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3303-d-c4-r0"
+        },
+        {
+          "question": "This English king in his coronation robes, a 1760 work by Allan Ramsay",
+          "answer": "George III",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT OF WHOM?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3303-d-c4-r1"
+        },
+        {
+          "question": "This person seen here by Rembrandt, not Whistler",
+          "answer": "the artist's mother",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT OF WHOM?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3303-d-c4-r2"
+        },
+        {
+          "question": "This super-impressionist, by fellow painter Renoir, 1875",
+          "answer": "Monet",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT OF WHOM?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3303-d-c4-r3"
+        },
+        {
+          "question": "Seen here, Giovanni, a younger member of this Tuscan family",
+          "answer": "the de' Medicis",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT OF WHOM?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3303-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "I'M FEELIN' HAPPY!",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This \"pleased\" company is known for its drawstring trash bags",
+          "answer": "Glad",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M FEELIN' HAPPY!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3303-d-c5-r0"
+        },
+        {
+          "question": "Rapture, or the first name of Ms. Behar of \"The View\"... so what? who cares?",
+          "answer": "Joy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M FEELIN' HAPPY!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3303-d-c5-r1"
+        },
+        {
+          "question": "In titles, it precedes \"Adventures of Robin Hood\" & \"Wives of Windsor\"",
+          "answer": "Merry",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M FEELIN' HAPPY!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3303-d-c5-r2"
+        },
+        {
+          "question": "Greatly pleased, you're said to be this verb \"pink\" but to me, that sounds awful!",
+          "answer": "tickled",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M FEELIN' HAPPY!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3303-d-c5-r3"
+        },
+        {
+          "question": "Ron Burgundy sang--but I won't--\"a-uh-aa-aa-aa... afternoon\" this",
+          "answer": "delight",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M FEELIN' HAPPY!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3303-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "OLYMPIC VENUES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "At above 7,000 feet, this Western Hemisphere city had the highest altitude ever of a Summer Olympics host city",
+          "answer": "Mexico City",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "OLYMPIC VENUES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3303-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

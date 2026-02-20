@@ -1,0 +1,833 @@
+{
+  "gameId": 55,
+  "showNumber": 4650,
+  "airDate": "November 19, 2004",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE BODY HUMAN",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The sartorius, which flexes the thigh, is the body's longest one of these",
+          "answer": "muscle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g55-s-c0-r0"
+        },
+        {
+          "question": "World Book describes this organ as a \"grayish-pink jellylike ball with many ridges and grooves\"",
+          "answer": "brain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g55-s-c0-r1"
+        },
+        {
+          "question": "It's the area of hardened skin at the base & sides of your fingernails, or a protective outer layer of a hair",
+          "answer": "cuticle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g55-s-c0-r2"
+        },
+        {
+          "question": "This substance that covers the tooth is the hardest tissue in the body",
+          "answer": "enamel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g55-s-c0-r3"
+        },
+        {
+          "question": "As well as red & white blood cells you have these disk-like cells, aka thrombocytes, to help blood clot",
+          "answer": "platelets",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g55-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CELEBS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This daughter of a pop music icon found \"The Simple Life\" on Fox",
+          "answer": "Nicole Richie",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g55-s-c1-r0"
+        },
+        {
+          "question": "This tennis star born in Omaha is nicknamed A-Rod",
+          "answer": "Andy Roddick",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g55-s-c1-r1"
+        },
+        {
+          "question": "She & Chris Robinson have a baby named Ryder Russell Robinson",
+          "answer": "Kate Hudson",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g55-s-c1-r2"
+        },
+        {
+          "question": "He's the fashion savant on \"Queer Eye for the Straight Guy\"",
+          "answer": "Carson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g55-s-c1-r3"
+        },
+        {
+          "question": "This American supermodel's dad is a Dutch-born furniture maker",
+          "answer": "Rebecca Romijn-Stamos",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CELEBS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g55-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICANA",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The cereal that Tony the Tiger thinks is gr-r-reat is Kellogg's Frosted Flakes of this",
+          "answer": "corn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g55-s-c2-r0"
+        },
+        {
+          "question": "The total weight of copper in this statue is 31 tons, though the copper sheeting is only 3/32 of an inch thick",
+          "answer": "Statue of Liberty",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g55-s-c2-r1"
+        },
+        {
+          "question": "For McDonald's fries, this portion found in the name of a documentary translates to 610 calories & 29 grams of fat",
+          "answer": "Super Size",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g55-s-c2-r2"
+        },
+        {
+          "question": "A 2003 stamp honored the bicentennial of this, often called the greatest real estate deal in history",
+          "answer": "Louisiana Purchase",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g55-s-c2-r3"
+        },
+        {
+          "question": "This white school shoe is named for the shape of the black leather piece that's over the middle section of the shoe",
+          "answer": "saddle shoe",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g55-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "DRIVING THE GREEN",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Because you've got better things to do than plug in and wait\", the battery of this co.'s Civic Hybrid recharges itself",
+          "answer": "Honda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING THE GREEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g55-s-c3-r0"
+        },
+        {
+          "question": "At 55 MPG, you could get from L.A. to Vegas on about 5 gallons driving a Prius from this company",
+          "answer": "Toyota",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING THE GREEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g55-s-c3-r1"
+        },
+        {
+          "question": "The Altra EV from this company that also makes the Altima can hit 75 MPH; what a (non) gas!",
+          "answer": "Nissan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING THE GREEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g55-s-c3-r2"
+        },
+        {
+          "question": "The Escape Hybrid from this company claims to have a \"range of well over 400 miles on a single tank\"",
+          "answer": "Ford",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING THE GREEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g55-s-c3-r3"
+        },
+        {
+          "question": "The EV1 got a fantastic 0 MPG, as it was a no-gas vehicle from this U.S. co. organized by William Durant in 1908",
+          "answer": "General Motors",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING THE GREEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g55-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEWITCHED",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In a Grimm fairy tale, a witch entices this brother & sister into a gingerbread house",
+          "answer": "Hansel & Gretel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEWITCHED",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g55-s-c4-r0"
+        },
+        {
+          "question": "It's the town where 20 people were executed for being witches in 1692",
+          "answer": "Salem",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEWITCHED",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g55-s-c4-r1"
+        },
+        {
+          "question": "As a witch's familiar, Pywacket is one of these animals in the play \"Bell, Book and Candle\"",
+          "answer": "cat",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEWITCHED",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g55-s-c4-r2"
+        },
+        {
+          "question": "This term for a group of witches is from an Anglo-Norman word meaning \"assembly\"",
+          "answer": "coven",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEWITCHED",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g55-s-c4-r3"
+        },
+        {
+          "question": "In this Hawthorne tale, a \"young\" man discovers his neighbors practicing witchcraft",
+          "answer": "Young Goodman Brown",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEWITCHED",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g55-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE \"O.C.\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Olympic Games begin with these events",
+          "answer": "opening ceremony",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"O.C.\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g55-s-c5-r0"
+        },
+        {
+          "question": "It's the capital of the Sooner State",
+          "answer": "Oklahoma City",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"O.C.\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g55-s-c5-r1"
+        },
+        {
+          "question": "Freudian theory in which a son wants to kill his father & marry his mother",
+          "answer": "the Oedipus complex",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"O.C.\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g55-s-c5-r2"
+        },
+        {
+          "question": "This Neil Simon play featured the antics of fussy Felix & slovenly Oscar",
+          "answer": "Odd Couple",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"O.C.\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g55-s-c5-r3"
+        },
+        {
+          "question": "This man and his son ruled England following the execution of King Charles I",
+          "answer": "Oliver Cromwell",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"O.C.\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g55-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE RENAISSANCE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Renaissance began in the early 1300s in the northern city-states of what is now this country",
+          "answer": "Italy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g55-d-c0-r0"
+        },
+        {
+          "question": "This French author poked fun at man's follies in his stinging satire \"Gargantua\"",
+          "answer": "Rabelais",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g55-d-c0-r1"
+        },
+        {
+          "question": "King Philip II hated this artist's \"Martyrdom at St. Maurice\", so he never gained royal favor; he soon moved to Toledo",
+          "answer": "El Greco",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g55-d-c0-r2"
+        },
+        {
+          "question": "In his 1509 work \"The Praise of Folly\", this Dutch priest criticized the moral quality of church leaders",
+          "answer": "Erasmus",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g55-d-c0-r3"
+        },
+        {
+          "question": "He opposed Henry VIII's divorce, but Henry appointed him anyway to succeed Cardinal Wolsey as Lord Chancellor",
+          "answer": "Thomas More",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g55-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEFORE & AFTER",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"The Chronicles of Riddick\" star who is an internal-combustion machine found in trucks",
+          "answer": "Vin Diesel Engine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g55-d-c1-r0"
+        },
+        {
+          "question": "\"Hybrid Theory\" & \"Meteora\" are albums by this alt-metal band that's the second-priciest Monopoly property",
+          "answer": "Linkin Park Place",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g55-d-c1-r1"
+        },
+        {
+          "question": "1977 film in which Luke Skywalker uses the force in the struggle between the royal houses of York & Lancaster",
+          "answer": "Star Wars of the Roses",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g55-d-c1-r2"
+        },
+        {
+          "question": "\"Sister Act\" comedienne who is a 1740s piece of music J.S. Bach wrote for harpsichord",
+          "answer": "Whoopi Goldberg Variations",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g55-d-c1-r3"
+        },
+        {
+          "question": "Not only was this man Chief Justice of the U.S. from 1801 to 1835, he's also Eminem's real name",
+          "answer": "John Marshall Mathers",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g55-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGE NEWSPAPERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Daily Bruin",
+          "answer": "UCLA",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE NEWSPAPERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g55-d-c2-r0"
+        },
+        {
+          "question": "The Daily Tar Heel",
+          "answer": "University of North Carolina",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE NEWSPAPERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g55-d-c2-r1"
+        },
+        {
+          "question": "The Daily Gamecock",
+          "answer": "University of South Carolina",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE NEWSPAPERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g55-d-c2-r2"
+        },
+        {
+          "question": "The Hoya",
+          "answer": "Georgetown",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE NEWSPAPERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g55-d-c2-r3"
+        },
+        {
+          "question": "Washington Square News",
+          "answer": "NYU",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE NEWSPAPERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g55-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RUSSIAN AROUND",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "You could say it was horrible that he became the first Russian czar in 1547, but that wouldn't be quite the right word",
+          "answer": "Ivan the Terrible",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN AROUND",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g55-d-c3-r0"
+        },
+        {
+          "question": "In 2000 the Russian Orthodox Church canonized this last Russian czar & his family",
+          "answer": "Nicholas II",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN AROUND",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g55-d-c3-r1"
+        },
+        {
+          "question": "In 1762 Peter III was deposed, she became reigning empress & poor ol' Pete was murdered shortly thereafter",
+          "answer": "Catherine the Great",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN AROUND",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g55-d-c3-r2"
+        },
+        {
+          "question": "In 1887 the brother of this first USSR leader was executed for attempting to kill Czar Alexander III",
+          "answer": "Lenin",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN AROUND",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g55-d-c3-r3"
+        },
+        {
+          "question": "The 1980s were tough on Russian heads of state: he died in 1982, Andropov in 1984 & Chernenko in 1985",
+          "answer": "Brezhnev",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN AROUND",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g55-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT UP, DOG?",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Other names for this Australian dog are Noggum, Maliki & Boolomo; don't let one \"steal your by-bee\"",
+          "answer": "Dingo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT UP, DOG?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g55-d-c4-r0"
+        },
+        {
+          "question": "With public sentiment running high from WWI, the British renamed this breed Alsatian",
+          "answer": "the German shepherd",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT UP, DOG?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g55-d-c4-r1"
+        },
+        {
+          "question": "When a problem comes along you must name this British breed seen here",
+          "answer": "the whippet",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT UP, DOG?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g55-d-c4-r2"
+        },
+        {
+          "question": "This breed shares its name with a famous 1830s British science ship",
+          "answer": "the beagle",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT UP, DOG?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g55-d-c4-r3"
+        },
+        {
+          "question": "Zeppo Marx helped establish the U.S. line of this hound that would feel at home in Kandahar",
+          "answer": "Afghan",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT UP, DOG?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g55-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BASKETBALL WITH COACH DIXON",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Coach Dixon diagrams the clue on the board.)  We need to force some turnovers--let's use this \"full-court\" defense",
+          "answer": "the press",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASKETBALL WITH COACH DIXON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g55-d-c5-r0"
+        },
+        {
+          "question": "(Coach Dixon diagrams the clue on the board.)  As long as they're in man-to-man, keep going to this basic play which starts with setting a pick",
+          "answer": "pick and roll",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASKETBALL WITH COACH DIXON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g55-d-c5-r1"
+        },
+        {
+          "question": "(Coach Dixon diagrams the clue on the board.)  This is what I tell people who don't belong in the gym; it's also the play we'll run to isolate our hot hand on one side",
+          "answer": "clear out",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BASKETBALL WITH COACH DIXON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g55-d-c5-r2"
+        },
+        {
+          "question": "(Coach Dixon diagrams the clue on the board.)  We'll never get transition points if you don't sharpen up this pass that gets the fast break going",
+          "answer": "an outlet pass",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BASKETBALL WITH COACH DIXON",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g55-d-c5-r3"
+        },
+        {
+          "question": "(Coach Dixon diagrams the clue on the board.)  When I talk about the \"3-man\" type of this, I don't mean something you get at the hair salon",
+          "answer": "the weave",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BASKETBALL WITH COACH DIXON",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g55-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS WOMEN",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1952 William Rehnquist graduated first in his class at Stanford Law & she graduated third",
+          "answer": "Sandra Day O'Connor",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS WOMEN",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g55-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "gameId": 5172,
+  "showNumber": 7220,
+  "airDate": "January 22, 2016",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "PRESIDENTS 101",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The most recent left-handed president",
+          "answer": "Obama",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS 101",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5172-s-c0-r0"
+        },
+        {
+          "question": "The first president to be born in a hospital; it was October 1924",
+          "answer": "Carter",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS 101",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5172-s-c0-r1"
+        },
+        {
+          "question": "The first to hold an Internet chat with the public",
+          "answer": "(Bill) Clinton",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS 101",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5172-s-c0-r2"
+        },
+        {
+          "question": "The first born outside the original colonies, in 1809",
+          "answer": "Abraham Lincoln",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS 101",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5172-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "SCHWA DE VIVRE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A schwa is an unstressed \"uh\" sound like the one at the start of this military postureə 'ten",
+          "answer": "attention",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCHWA DE VIVRE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5172-s-c1-r0"
+        },
+        {
+          "question": "People often omit the schwa from the middle of this cacao product",
+          "answer": "chocolate",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCHWA DE VIVRE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5172-s-c1-r1"
+        },
+        {
+          "question": "UCLA's is 419 acres in area",
+          "answer": "campus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCHWA DE VIVRE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5172-s-c1-r2"
+        },
+        {
+          "question": "There's a schwa at the end of this synonym for \"couch\"",
+          "answer": "sofa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCHWA DE VIVRE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5172-s-c1-r3"
+        },
+        {
+          "question": "A schwa is in the middle of this adjective meaning suffering from feelings of persecution",
+          "answer": "paranoid",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCHWA DE VIVRE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5172-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TAKE MY PICTURE!",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"Color transparencies\" is another name for these & no, I don't want to see the ones from your vacation",
+          "answer": "slides",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE MY PICTURE!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5172-s-c2-r0"
+        },
+        {
+          "question": "(Jimmy gets in on Sarah of the Clue Crew's presentation of the clue.)  Collins Dictionary's word of the year for 2014 was this act that Jimmy's committing",
+          "answer": "photobomb",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE MY PICTURE!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5172-s-c2-r1"
+        },
+        {
+          "question": "In photo lab work, darkening an area of a print is called burning; lightening an area has this evasive name",
+          "answer": "dodging",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TAKE MY PICTURE!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5172-s-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "POP HITS OF THE '80s",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Sweet Dreams (Are Made Of This)\" was from Annie Lennox & Dave Stewart, the duo behind this band",
+          "answer": "The Eurythmics",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP HITS OF THE '80s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5172-s-c3-r0"
+        },
+        {
+          "question": "Don't say we're not deep!  Here's Poison to tell you that \"Every\" this \"Has Its Thorn\"",
+          "answer": "a rose",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP HITS OF THE '80s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5172-s-c3-r1"
+        },
+        {
+          "question": "We're not \"out of touch\"!  We've got \"Out Of Touch\" by this duo, an '80s hit-making machine",
+          "answer": "Hall & Oates",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP HITS OF THE '80s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5172-s-c3-r2"
+        },
+        {
+          "question": "You remember David Coverdale... Tawny Kitaen writhing on a car... it's \"Here I Go Again\" from this \"colorful\" band",
+          "answer": "Whitesnake",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP HITS OF THE '80s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5172-s-c3-r3"
+        },
+        {
+          "question": "These British gloom-meisters cracked the U.S. Top 40 in 1988 with \"Just Like Heaven\"",
+          "answer": "The Cure",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP HITS OF THE '80s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5172-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARCHER",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This arrow-totin' infant of Roman myth was a gangster of love way before Steve Miller",
+          "answer": "Cupid",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5172-s-c4-r0"
+        },
+        {
+          "question": "Daryl Dixon makes ample use of his crossbow on this AMC drama",
+          "answer": "The Walking Dead",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5172-s-c4-r1"
+        },
+        {
+          "question": "In a novel, she tells gs, \"The boy from District 1 dies before he can pull out the spear.  My arrow drives... into... his neck\"",
+          "answer": "Katniss Everdeen",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5172-s-c4-r2"
+        },
+        {
+          "question": "Merida is on target--repeatedly--as she shoots for her own hand in this Disney/Pixar film",
+          "answer": "Brave",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5172-s-c4-r3"
+        },
+        {
+          "question": "In the 1730s the \"Chronicon Helveticum\" expounded on the legend of this archer",
+          "answer": "William Tell",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5172-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DANGER ZONE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1989 the Lebanese army in the eastern part of this capital hit the west with months of heavy shelling",
+          "answer": "Beirut",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DANGER ZONE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5172-s-c5-r0"
+        },
+        {
+          "question": "Unfortunately, there's more than just cliff diving in this Mexican city; 104 homicides per 100,000 residents, reported in 2014",
+          "answer": "Acapulco",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DANGER ZONE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5172-s-c5-r1"
+        },
+        {
+          "question": "In 2009 the Maersk Alabama, captained by Richard Phillips, was 280 miles off the coast of this country when pirates boarded",
+          "answer": "Somalia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DANGER ZONE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5172-s-c5-r2"
+        },
+        {
+          "question": "Donetsk & Luhansk in this country (for now) are not good travel choices",
+          "answer": "Ukraine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DANGER ZONE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5172-s-c5-r3"
+        },
+        {
+          "question": "In 2015 the State Dept. said terrorist attacks in the IKR, the Iraqi this \"stan\" region, are relatively few",
+          "answer": "Kurdistan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DANGER ZONE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5172-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE FISH",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A sculpture of this fish, a symbol of Massachusetts for more than 200 years, hangs in the state house in Boston",
+          "answer": "a cod",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FISH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5172-d-c0-r0"
+        },
+        {
+          "question": "Known as the \"striper\", it's South Carolina's state fish",
+          "answer": "a striped bass",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FISH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5172-d-c0-r1"
+        },
+        {
+          "question": "Maine's state fish, the landlocked this, migrates to various lakes & rivers to spawn, laying eggs in nests called redds",
+          "answer": "salmon",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FISH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5172-d-c0-r2"
+        },
+        {
+          "question": "This denizen of the deep, Florida's state saltwater fish, could give some boats a run for their money",
+          "answer": "a sailfish",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FISH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5172-d-c0-r3"
+        },
+        {
+          "question": "In 1987 Tennessee chose the channel species of this as a state fish; Nebraska followed in 1997",
+          "answer": "the catfish",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FISH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5172-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FEMALE TITLE ROLES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Private Benjamin\"(1980)",
+          "answer": "Goldie Hawn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE TITLE ROLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5172-d-c1-r0"
+        },
+        {
+          "question": "\"Frida\"(2002)",
+          "answer": "Salma Hayek",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE TITLE ROLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5172-d-c1-r1"
+        },
+        {
+          "question": "\"Gilda\"(1946)",
+          "answer": "Rita Hayworth",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE TITLE ROLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5172-d-c1-r2"
+        },
+        {
+          "question": "\"The Young Victoria\"(2009)",
+          "answer": "Emily Blunt",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE TITLE ROLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5172-d-c1-r3"
+        },
+        {
+          "question": "\"Marnie\"(1964)",
+          "answer": "Tippi Hedren",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEMALE TITLE ROLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5172-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROARING '20s READER",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In Warwick Deeping's 1925 \"Sorrell & Son\", a vet of this war makes sacrifices to raise his son",
+          "answer": "World War I",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROARING '20s READER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5172-d-c2-r0"
+        },
+        {
+          "question": "\"Incident at West Egg\" was a title considered for this classic",
+          "answer": "The Great Gatsby",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROARING '20s READER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5172-d-c2-r1"
+        },
+        {
+          "question": "\"Connie, this is the new game-keeper\" is a line from this scandalous 1928 novel",
+          "answer": "Lady Chatterley's Lover",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROARING '20s READER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5172-d-c2-r2"
+        },
+        {
+          "question": "John Erskine hit the bestseller list with \"The Private Life of\" this beauty of the classical world",
+          "answer": "Helen (of Troy)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROARING '20s READER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5172-d-c2-r3"
+        },
+        {
+          "question": "Unitarian minister Leon Birkhead served as an advisor to Sinclair Lewis while Lewis was writing this 1927 novel",
+          "answer": "Elmer Gantry",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROARING '20s READER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5172-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. UNIVERSITY TOWNS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Florida State University",
+          "answer": "Tallahassee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. UNIVERSITY TOWNS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5172-d-c3-r0"
+        },
+        {
+          "question": "DePaul University",
+          "answer": "Chicago",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. UNIVERSITY TOWNS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5172-d-c3-r1"
+        },
+        {
+          "question": "Temple University",
+          "answer": "Philadelphia",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. UNIVERSITY TOWNS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5172-d-c3-r2"
+        },
+        {
+          "question": "American University",
+          "answer": "Washington, D.C.",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. UNIVERSITY TOWNS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5172-d-c3-r3"
+        },
+        {
+          "question": "Liberty University",
+          "answer": "Lynchburg, Virginia",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. UNIVERSITY TOWNS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5172-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"EYE\" WITNESS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Make this direct visual link with an interviewer",
+          "answer": "eye contact",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EYE\" WITNESS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5172-d-c4-r0"
+        },
+        {
+          "question": "At the sad moment \"there wasn't\" this \"in the house\"",
+          "answer": "a dry eye",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EYE\" WITNESS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5172-d-c4-r1"
+        },
+        {
+          "question": "A translucent visor used as a shield against strong light",
+          "answer": "an eyeshade",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EYE\" WITNESS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5172-d-c4-r2"
+        },
+        {
+          "question": "When this happens in a song lyric, \"that's amore!\"",
+          "answer": "When the moon hits your eye like a big pizza pie",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EYE\" WITNESS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5172-d-c4-r3"
+        },
+        {
+          "question": "The horse that wins the Preakness Stakes is draped in a blanket of these flowers",
+          "answer": "black-eyed susans",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EYE\" WITNESS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5172-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TEXAS CHILDREN'S HOSPITAL",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Dr. Arnold delivers the clue.)  Able to replicate an operating room, emergency room & more, Texas Children's Hospital's Simulation Center provides an ideal environment for risk-free training in obstetrics & this branch of medicine that deals with the care of children",
+          "answer": "pediatrics",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXAS CHILDREN'S HOSPITAL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5172-d-c5-r0"
+        },
+        {
+          "question": "(Dr. Arnold delivers the clue.)  Studies have shown that simulation-based training improves success rates in procedures such as this insertion of a tube into the trachea to ensure an open airway",
+          "answer": "intubation",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXAS CHILDREN'S HOSPITAL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5172-d-c5-r1"
+        },
+        {
+          "question": "(Dr. Arnold delivers the clue.)  In a simulation involving a patient in cardiac arrest, the attending physician must recognize the need to begin this application of electricity to shock an arrhythmic heart back into a normal beat",
+          "answer": "defibrillation",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXAS CHILDREN'S HOSPITAL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5172-d-c5-r2"
+        },
+        {
+          "question": "(Dr. Arnold delivers the clue.)  Key to the simulation process are computer-controlled mannequins that can breathe, bleed, & display symptoms such as this enlargement of the pupil that can indicate head trauma",
+          "answer": "dilation",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXAS CHILDREN'S HOSPITAL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5172-d-c5-r3"
+        },
+        {
+          "question": "(Dr. Arnold delivers the clue.)  Simulations are so realistic that  in one scenario apparent respiratory distress helps team members learn to distinguish between an asthma attack & this allergen-induced condition in which blood pressure & oxygen levels drop, requiring emergency response",
+          "answer": "anaphylactic shock",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TEXAS CHILDREN'S HOSPITAL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5172-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Pantites, sent to recruit troops, & Aristodemus, sent off to treat his eye disease, were the only known Greeks to survive this event",
+          "answer": "the Battle of Thermopylae",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ANCIENT HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5172-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

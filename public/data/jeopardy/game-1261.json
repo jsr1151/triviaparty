@@ -1,0 +1,833 @@
+{
+  "gameId": 1261,
+  "showNumber": 3033,
+  "airDate": "November 5, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. PRESIDENTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He's on the front of the penny & his memorial is on the back",
+          "answer": "Abraham Lincoln",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1261-s-c0-r0"
+        },
+        {
+          "question": "He was married to an Academy Award winner",
+          "answer": "Ronald Reagan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1261-s-c0-r1"
+        },
+        {
+          "question": "Among his nicknames were \"Gloomy Gus\" & \"Tricky Dick\"",
+          "answer": "Richard Nixon",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1261-s-c0-r2"
+        },
+        {
+          "question": "He won the popular vote in 1960 by just 113,057 votes",
+          "answer": "John F. Kennedy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1261-s-c0-r3"
+        },
+        {
+          "question": "On Jan. 20, 1993 he became a former president",
+          "answer": "George H.W. Bush",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1261-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FLOWER POWER",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Its name is derived from \"day's eye\"; like an eye, its blossoms close at night & open by day",
+          "answer": "the daisy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWER POWER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1261-s-c1-r0"
+        },
+        {
+          "question": "A craze for this flower developed in Holland in 1634 with single bulbs fetching high prices",
+          "answer": "a tulip",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWER POWER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1261-s-c1-r1"
+        },
+        {
+          "question": "This popular Christmas flower comes in several different colors, but the red variety is in greatest demand",
+          "answer": "the poinsettia",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWER POWER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1261-s-c1-r2"
+        },
+        {
+          "question": "A species of this beautiful tropical flower is classified as vanilla planifolia",
+          "answer": "the orchid",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWER POWER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1261-s-c1-r3"
+        },
+        {
+          "question": "Swedish botanist Anders Dahl introduced this flower into Europe",
+          "answer": "the dahlia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWER POWER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1261-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CITIES OF THE BIBLE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "After David captured this city's fortress, it was called the City of David",
+          "answer": "Jerusalem",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CITIES OF THE BIBLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1261-s-c2-r0"
+        },
+        {
+          "question": "This city already had a bad reputation when Lot decided to settle there",
+          "answer": "Sodom",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITIES OF THE BIBLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1261-s-c2-r1"
+        },
+        {
+          "question": "After Joshua & the Israelites crossed the Jordan, this city locked its gates",
+          "answer": "Jericho",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITIES OF THE BIBLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1261-s-c2-r2"
+        },
+        {
+          "question": "As a captive in this city, Daniel was known by the name Belteshazzar",
+          "answer": "Babylon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITIES OF THE BIBLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1261-s-c2-r3"
+        },
+        {
+          "question": "Elijah anoited Hazael king of Syria in the wilderness outside this capital",
+          "answer": "Damascus",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITIES OF THE BIBLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1261-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SODA POP QUIZ",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This ubiquitous soft drink removed its cocaine by 1905 but kept the caffeine",
+          "answer": "Coca-Cola",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SODA POP QUIZ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1261-s-c3-r0"
+        },
+        {
+          "question": "Like root beer, this \"ale\" is flavored with a root, mostly from Jamaica",
+          "answer": "ginger ale",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SODA POP QUIZ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1261-s-c3-r1"
+        },
+        {
+          "question": "This gas produced by fermentation gives soda its pop",
+          "answer": "Carbon dioxide (CO2)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SODA POP QUIZ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1261-s-c3-r2"
+        },
+        {
+          "question": "This 19th c. physician of Rural Retreat, Va. was immortalized in the name of a soft drink",
+          "answer": "Dr. Charles T. Pepper",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SODA POP QUIZ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1261-s-c3-r3"
+        },
+        {
+          "question": "Pharmaceutical company G.D. Searle developed the soda sweetener Aspartame, marketed as this",
+          "answer": "NutraSweet",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SODA POP QUIZ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1261-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALL GAMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A slow- or fast-pitch 7-inning game, or a question as easy as this one",
+          "answer": "softball",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALL GAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1261-s-c4-r0"
+        },
+        {
+          "question": "In the billiards game named for this black object, you must sink it last",
+          "answer": "the 8-ball",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALL GAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1261-s-c4-r1"
+        },
+        {
+          "question": "The object of this game is to completely coil a cord around a post",
+          "answer": "Tetherball",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALL GAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1261-s-c4-r2"
+        },
+        {
+          "question": "In this sport all plays start with the ball between or on the hash marks",
+          "answer": "football",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALL GAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1261-s-c4-r3"
+        },
+        {
+          "question": "Game seen here:",
+          "answer": "skee ball",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALL GAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1261-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PASSING \"NOTE\"s",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "From the Latin for \"buying back\", it's the type of note kidnappers are known for writing",
+          "answer": "a ransom note",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASSING \"NOTE\"s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1261-s-c5-r0"
+        },
+        {
+          "question": "Reading these study aids with the yellow & black covers is no substitute for reading the text",
+          "answer": "Cliff's Notes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASSING \"NOTE\"s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1261-s-c5-r1"
+        },
+        {
+          "question": "It's slang for the $100 bill, from the Roman numeral that once appeared on it",
+          "answer": "a C-note",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASSING \"NOTE\"s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1261-s-c5-r2"
+        },
+        {
+          "question": "Used for taking notes in class, they may be filled with wide-ruled or college-ruled paper",
+          "answer": "notebooks",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASSING \"NOTE\"s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1261-s-c5-r3"
+        },
+        {
+          "question": "On a musical score, this type of note has no stem",
+          "answer": "a whole note",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASSING \"NOTE\"s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1261-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ISLANDS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The island of Honshu is considered this country's \"mainland\"",
+          "answer": "Japan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1261-d-c0-r0"
+        },
+        {
+          "question": "About 80% of this Mediterranean island's 700,000 people speak Greek; about 18% speak Turkish",
+          "answer": "Cyprus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1261-d-c0-r1"
+        },
+        {
+          "question": "Since 1949 this island has been the seat of the Republic of China",
+          "answer": "Taiwan",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1261-d-c0-r2"
+        },
+        {
+          "question": "In 1778 Capt. James Cook surveyed the eastern part of this Alaskan island chain",
+          "answer": "Aleutians",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1261-d-c0-r3"
+        },
+        {
+          "question": "The Biminis, the westernmost group in this island nation, lie about 60 miles east of Miami",
+          "answer": "Bahamas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1261-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PARTY GEOMETRY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's a figure defined by a closed plane curve & a vertex, or what you can fill with a scoop of ice cream",
+          "answer": "a cone",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTY GEOMETRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1261-d-c1-r0"
+        },
+        {
+          "question": "In the game room, the flight paths of well-thrown darts form these parts of circles",
+          "answer": "arcs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTY GEOMETRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1261-d-c1-r1"
+        },
+        {
+          "question": "Jill & her boyfriend form these 2 coplanar lines & Jill's dad is relieved they have no point in common",
+          "answer": "parallel lines",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTY GEOMETRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1261-d-c1-r2"
+        },
+        {
+          "question": "2/3 pi r cubed will give us this measure for our hemispherical punch bowl",
+          "answer": "volume",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTY GEOMETRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1261-d-c1-r3"
+        },
+        {
+          "question": "2 angles with a common vertex & a common side, or the position of the house next door that called the cops",
+          "answer": "adjacent",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTY GEOMETRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1261-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHOWBIZ FAMILIES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Damon,Keenan,Marlon,Shawn",
+          "answer": "Wayans",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOWBIZ FAMILIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1261-d-c2-r0"
+        },
+        {
+          "question": "Beau,Jeff,Lloyd",
+          "answer": "Bridges",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOWBIZ FAMILIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1261-d-c2-r1"
+        },
+        {
+          "question": "John,David,Keith,Robert",
+          "answer": "Carradine",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOWBIZ FAMILIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1261-d-c2-r2"
+        },
+        {
+          "question": "Lionel,Ethel,John,Drew",
+          "answer": "Barrymore",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOWBIZ FAMILIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1261-d-c2-r3"
+        },
+        {
+          "question": "Edwin, Junius,John Wilkes",
+          "answer": "Booth",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOWBIZ FAMILIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1261-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "STUFF",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Congress defends & amends this document",
+          "answer": "Constitution",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUFF",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1261-d-c3-r0"
+        },
+        {
+          "question": "His resume includes trumpeter, book deliverer, archangel & announcer",
+          "answer": "Gabriel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUFF",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1261-d-c3-r1"
+        },
+        {
+          "question": "One of the 3 Greek letters whose names don't end in a vowel",
+          "answer": "epsilon, omicron or upsilon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUFF",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1261-d-c3-r2"
+        },
+        {
+          "question": "9-year-old Jamie Lynn Bence is famous for doing this in about 20 Major League ball parks",
+          "answer": "singing the national anthem",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUFF",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1261-d-c3-r3"
+        },
+        {
+          "question": "In 1997 French Polynesia celebrated the 50th anniversary of this Thor Heyerdahl raft",
+          "answer": "Kon-Tiki",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUFF",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1261-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN LIT",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Number of poems Emily Dickinson gave permission to publish during her lifetime",
+          "answer": "0",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LIT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1261-d-c4-r0"
+        },
+        {
+          "question": "Of Hawkeye, Hot Lips or Klinger, the one in \"Last of the Mohicans\"",
+          "answer": "Hawkeye",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LIT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1261-d-c4-r1"
+        },
+        {
+          "question": "\"North of Boston\" & \"New Hampshire\" are books of poetry by this man",
+          "answer": "Robert Frost",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LIT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1261-d-c4-r2"
+        },
+        {
+          "question": "This Shirley Jackson short story about a stoning is subtitled \"The Adventures of James Harris\"",
+          "answer": "The Lottery",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LIT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1261-d-c4-r3"
+        },
+        {
+          "question": "The Rachel picked up Ishmael, the lone survivor of this other whaling ship",
+          "answer": "the Pequod",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LIT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1261-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"END\" AT THE BEGINNING",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Unfortunately, leopards, Asian elephants & gray whales are on this animal list",
+          "answer": "the endangered species list",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"END\" AT THE BEGINNING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1261-d-c5-r0"
+        },
+        {
+          "question": "A long, hard race, like a marathon, is meant to test this in an athlete",
+          "answer": "endurance",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"END\" AT THE BEGINNING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1261-d-c5-r1"
+        },
+        {
+          "question": "Honey, Sweetheart & Sugar are terms of this",
+          "answer": "endearment",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"END\" AT THE BEGINNING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1261-d-c5-r2"
+        },
+        {
+          "question": "Give a grant of money to support an institution",
+          "answer": "endowment",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"END\" AT THE BEGINNING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1261-d-c5-r3"
+        },
+        {
+          "question": "The thyroid is one of these glands",
+          "answer": "endocrine",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"END\" AT THE BEGINNING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1261-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1935, at the request of President Manuel Quezon, he was appointed military advisor to the Philippines",
+          "answer": "Douglas MacArthur",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "HISTORIC NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1261-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

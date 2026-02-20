@@ -1,0 +1,809 @@
+{
+  "gameId": 1100,
+  "showNumber": 4077,
+  "airDate": "April 30, 2002",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SCIENCE & TECHNOLOGY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Nearly 25 percent of U.S. teens now own one of these phones, so there's no excuse for not calling home",
+          "answer": "a cell phone",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1100-s-c0-r0"
+        },
+        {
+          "question": "Automaton is sometimes just a fancy name for one of these mechanical beings",
+          "answer": "a robot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1100-s-c0-r1"
+        },
+        {
+          "question": "When a plane travels faster than the speed of sound, it creates this thunderous noise",
+          "answer": "a sonic boom",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1100-s-c0-r2"
+        },
+        {
+          "question": "An empty Goodyear blimp weighs over 12,000 lbs.; when they fill it with this gas, it weighs only 100 to 200 pounds",
+          "answer": "helium",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1100-s-c0-r3"
+        },
+        {
+          "question": "The Celsius temperature scale is also called this, meaning \"divided into one hundred parts\"",
+          "answer": "centigrade",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1100-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP THE QUESTION",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Elton John won his first Grammy as a solo artist for this song from \"The Lion King\"",
+          "answer": "\"Can You Feel The Love Tonight\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP THE QUESTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1100-s-c1-r0"
+        },
+        {
+          "question": "\"And there won't be snow in Africa this Christmastime\" is a line from this song by Band Aid",
+          "answer": "\"Do They Know It's Christmas?\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP THE QUESTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1100-s-c1-r1"
+        },
+        {
+          "question": "This 1960 No. 1 song begins, \"Tonight you're mine completely, you give your love so sweetly\"",
+          "answer": "\"Will You Still Love Me Tomorrow\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP THE QUESTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1100-s-c1-r2"
+        },
+        {
+          "question": "Joe Jackson sees \"Jeanie with her new boyfriend\" and voices this title complaint in the form of a question",
+          "answer": "\"Is She Really Going Out With Him?\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POP THE QUESTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1100-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "A BEAUTIFUL \"IND\"",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Lacking the sense of sight",
+          "answer": "blind",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A BEAUTIFUL \"IND\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1100-s-c2-r0"
+        },
+        {
+          "question": "Something used to help you recall an important fact or duty",
+          "answer": "a reminder",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A BEAUTIFUL \"IND\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1100-s-c2-r1"
+        },
+        {
+          "question": "Sir Francis Drake's \"precious metal\" flagship",
+          "answer": "the Golden Hind",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A BEAUTIFUL \"IND\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1100-s-c2-r2"
+        },
+        {
+          "question": "One who discovers a new route, or the title of a James Fenimore Cooper novel",
+          "answer": "the pathfinder",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A BEAUTIFUL \"IND\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1100-s-c2-r3"
+        },
+        {
+          "question": "A highly intelligent person who plans & directs a criminal activity",
+          "answer": "a mastermind",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A BEAUTIFUL \"IND\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1100-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "LET'S HAVE A DRINK!",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A margarita may be served with salt on the rim; a sidecar is served with this on the rim",
+          "answer": "sugar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE A DRINK!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1100-s-c3-r0"
+        },
+        {
+          "question": "(Sofia of the Clue Crew pours a drink in the bar of New York's Plaza Hotel.)  It's the geographically appropriate name for the bourbon & vermouth cocktail I'm pouring here",
+          "answer": "a Manhattan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE A DRINK!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1100-s-c3-r1"
+        },
+        {
+          "question": "The Sondheim song \"The Ladies Who Lunch\" rhymes \"Another brilliant zinger\" with \"Another vodka\" one of these",
+          "answer": "a stinger",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE A DRINK!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1100-s-c3-r2"
+        },
+        {
+          "question": "This adjective follows \"whiskey\" in the name of a whiskey & lemon juice cocktail",
+          "answer": "sour",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE A DRINK!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1100-s-c3-r3"
+        },
+        {
+          "question": "This brand's bottle shows a lithograph, seen here, of a plantation down in Dixie",
+          "answer": "Southern Comfort",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S HAVE A DRINK!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1100-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "OH, YOU ANIMAL!",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Give it a month & the May beetle becomes known by this name",
+          "answer": "a June bug",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, YOU ANIMAL!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1100-s-c4-r0"
+        },
+        {
+          "question": "The aardwolf, seen here, isn't really a wolf, but is actually more closely related to this laugher",
+          "answer": "a hyena",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, YOU ANIMAL!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1100-s-c4-r1"
+        },
+        {
+          "question": "Of the bluefin, the bigeye or the skipjack, the species of tuna that can grow to 1,800 pounds & 14 feet long",
+          "answer": "the bluefin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, YOU ANIMAL!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1100-s-c4-r2"
+        },
+        {
+          "question": "This species of bear is the best swimmer",
+          "answer": "a polar bear",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, YOU ANIMAL!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1100-s-c4-r3"
+        },
+        {
+          "question": "(Sarah of the Clue Crew reports from the zoo.)  These largest parrots are prized for their beautifully colored plumage",
+          "answer": "a macaw",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, YOU ANIMAL!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1100-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ADVICE FROM DR. JOYCE BROTHERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Dr. Joyce Brothers reads the clue.)  Your daughter who's exhibiting this type of kleptomania at Wal-Mart may be trying to get attention",
+          "answer": "shoplifting",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE FROM DR. JOYCE BROTHERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1100-s-c5-r0"
+        },
+        {
+          "question": "(Dr. Joyce Brothers reads the clue.)  Many have overcome their fear of this; you can always start with the cliche, \"unaccustomed as I am\" to it",
+          "answer": "speaking in public",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE FROM DR. JOYCE BROTHERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1100-s-c5-r1"
+        },
+        {
+          "question": "(Dr. Joyce Brothers reads the clue.)  Make sure your kids know that this euphoria-inducing drug, also called MDMA, can do serious damage",
+          "answer": "ecstasy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE FROM DR. JOYCE BROTHERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1100-s-c5-r2"
+        },
+        {
+          "question": "(Dr. Joyce Brothers reads the clue.)  Don't fear non-traditional gender roles, like a man keeping house as in this Michael Keaton film",
+          "answer": "Mr. Mom",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE FROM DR. JOYCE BROTHERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1100-s-c5-r3"
+        },
+        {
+          "question": "(Dr. Joyce Brothers reads the clue.)  There's no need to be ashamed of this common mental illness, even if it's alternating with mania",
+          "answer": "depression",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE FROM DR. JOYCE BROTHERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1100-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BATTLEFIELDS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Don't be fooled--the Brussels suburb called this is miles north of the actual battlefield",
+          "answer": "Waterloo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BATTLEFIELDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1100-d-c0-r0"
+        },
+        {
+          "question": "The Palo Alto that's the site of a major 1846 battle isn't in California but in this state",
+          "answer": "Texas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BATTLEFIELDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1100-d-c0-r1"
+        },
+        {
+          "question": "The Virginia battle also called Bull Run took place at what's now this National Battlefield Park",
+          "answer": "Manassas",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BATTLEFIELDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1100-d-c0-r2"
+        },
+        {
+          "question": "Urban battle sites include the house defended for 58 days by Sergeant Pavlov in this WWII battle",
+          "answer": "Stalingrad",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BATTLEFIELDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1100-d-c0-r3"
+        },
+        {
+          "question": "Ulundi, South Africa is the site of the final battle of England's 1879 war with this people",
+          "answer": "the Zulus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BATTLEFIELDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1100-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSIC DRAMA SERIES EPISODES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Let Bartlet Be Bartlet\"",
+          "answer": "The West Wing",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC DRAMA SERIES EPISODES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1100-d-c1-r0"
+        },
+        {
+          "question": "\"A Bullet for Crockett\"",
+          "answer": "Miami Vice",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC DRAMA SERIES EPISODES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1100-d-c1-r1"
+        },
+        {
+          "question": "\"Lifeguards Can't Jump\"",
+          "answer": "Baywatch",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC DRAMA SERIES EPISODES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1100-d-c1-r2"
+        },
+        {
+          "question": "\"To Serve Man\"",
+          "answer": "The Twilight Zone",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC DRAMA SERIES EPISODES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1100-d-c1-r3"
+        },
+        {
+          "question": "\"How to Stay Alive in Vietnam\"",
+          "answer": "China Beach",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC DRAMA SERIES EPISODES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1100-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODDS & ENDS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's the standard number of holes in a complete round of tournament golf",
+          "answer": "18",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1100-d-c2-r0"
+        },
+        {
+          "question": "In 1989 Chris Gueffroy became the last person to die climbing this; he was trying to reach West Germany",
+          "answer": "the Berlin Wall",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1100-d-c2-r1"
+        },
+        {
+          "question": "Much of this store's revenue comes from its private-label brands: Craftsman tools & Kenmore appliances",
+          "answer": "Sears",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1100-d-c2-r2"
+        },
+        {
+          "question": "In 2000 U.S. News & World Report named Creighton University in this state as the best Midwest university",
+          "answer": "Nebraska",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1100-d-c2-r3"
+        },
+        {
+          "question": "Erasmus, a patron saint of sailors, is also known by this name",
+          "answer": "St. Elmo",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1100-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S A MYSTERY!",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "C. Auguste Dupin solved these crimes, the title of a Poe story",
+          "answer": "\"The Murders in the Rue Morgue\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A MYSTERY!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1100-d-c3-r0"
+        },
+        {
+          "question": "In titles of mysteries, Lawrence Treat & Sue Grafton made \"H\" stand for this",
+          "answer": "Homicide",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A MYSTERY!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1100-d-c3-r1"
+        },
+        {
+          "question": "Dickens offered to solve this \"Mystery\" for Queen Victoria before it was published, but she wasn't interested",
+          "answer": "The Mystery of Edwin Drood",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A MYSTERY!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1100-d-c3-r2"
+        },
+        {
+          "question": "Chapter 4 of this novel is \"The Black Bird\"",
+          "answer": "The Maltese Falcon",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IT'S A MYSTERY!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1100-d-c3-r3"
+        },
+        {
+          "question": "This Holmes case is so named for the \"thread of murder running through the colorless skein of life\"",
+          "answer": "A Study in Scarlet",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A MYSTERY!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1100-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PAY THE \"BILL\"",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In the classic Scandinavian folk tale, this title trio outwits a hungry troll",
+          "answer": "\"The Three Billy Goats Gruff\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAY THE \"BILL\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1100-d-c4-r0"
+        },
+        {
+          "question": "In the '70s many quenched their thirst on a brand of brewski named for this presidential brother",
+          "answer": "Billy Carter",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAY THE \"BILL\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1100-d-c4-r1"
+        },
+        {
+          "question": "Tom Laughlin kicked butt as this troublesome Indian hippie in 4 movies",
+          "answer": "Billy Jack",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAY THE \"BILL\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1100-d-c4-r2"
+        },
+        {
+          "question": "It was Michael Jackson's first music video to play on MTV",
+          "answer": "\"Billie Jean\"",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAY THE \"BILL\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1100-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "CZECH, PLEASE!",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "About 56 years after she was born in Prague, Bill Clinton made her a member of his cabinet",
+          "answer": "Madeleine Albright",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CZECH, PLEASE!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1100-d-c5-r0"
+        },
+        {
+          "question": "In 1994 this politician & playwright was awarded the Philadelphia Liberty Medal",
+          "answer": "Vaclav Havel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CZECH, PLEASE!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1100-d-c5-r1"
+        },
+        {
+          "question": "This Czech-born director named his twins born in 1998 after Jim Carrey & Andy Kaufman",
+          "answer": "Milos Forman",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CZECH, PLEASE!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1100-d-c5-r2"
+        },
+        {
+          "question": "His works include the operas \"Vanda\", \"The Jacobin\", \"Rusalka\" & of course his symphony \"From the New World\"",
+          "answer": "(Antonin) Dvorak",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CZECH, PLEASE!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1100-d-c5-r3"
+        },
+        {
+          "question": "In addition to the play \"R.U.R.\", he also wrote the novel \"The War with the Newts\"",
+          "answer": "(Karel) Capek",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CZECH, PLEASE!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1100-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNATIONAL FILM DIRECTORS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This director of an Oscar-winning film is fighting to preserve Angel Island, site of a former immigration station in S.F. Bay",
+          "answer": "Ang Lee",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "INTERNATIONAL FILM DIRECTORS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1100-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

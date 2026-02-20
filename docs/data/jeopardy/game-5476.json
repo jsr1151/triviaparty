@@ -1,0 +1,773 @@
+{
+  "gameId": 5476,
+  "showNumber": 7428,
+  "airDate": "December 21, 2016",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HERE COMES SANTA CLAUS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This comedian made his big screen debut in \"The Santa Clause\" in which he accidentally kills Santa",
+          "answer": "(Tim) Allen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES SANTA CLAUS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5476-s-c0-r0"
+        },
+        {
+          "question": "Colonel Potter dresses as Santa in the \"Death Takes A Holiday\" episode of this sitcom",
+          "answer": "M*A*S*H",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES SANTA CLAUS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5476-s-c0-r1"
+        },
+        {
+          "question": "John Ritter's last film appearance was in this movie, trying to keep an inebriated Billy Bob Thornton in check",
+          "answer": "Bad Santa",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES SANTA CLAUS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5476-s-c0-r2"
+        },
+        {
+          "question": "Jack Skellington's plot to kidnap Santa goes awry in this stop-motion fable from Tim Burton",
+          "answer": "The Nightmare Before Christmas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES SANTA CLAUS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5476-s-c0-r3"
+        },
+        {
+          "question": "This '70s TV animated film featuring Heat Miser & Snow Miser was remade in 2006 with John Goodman as the big guy",
+          "answer": "The Year without a Santa Claus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERE COMES SANTA CLAUS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5476-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORKING WOMEN",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The first African-American woman to head a Fortune 500 company, Ursula Burns became its CEO in 2009; copy that!",
+          "answer": "Xerox",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORKING WOMEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5476-s-c1-r0"
+        },
+        {
+          "question": "She's the author, commentator & media mogul seen here",
+          "answer": "Arianna Huffington",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORKING WOMEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5476-s-c1-r1"
+        },
+        {
+          "question": "Anne Geddes & Annie Leibovitz share this profession",
+          "answer": "photography",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORKING WOMEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5476-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "RHYMIN' SIMON",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Ascendin' a cliff face",
+          "answer": "climbin'",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYMIN' SIMON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5476-s-c2-r0"
+        },
+        {
+          "question": "Makin' a melodious ringin' sound by strikin' a small bell",
+          "answer": "chimin'",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYMIN' SIMON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5476-s-c2-r1"
+        },
+        {
+          "question": "Hinderin' with trivialities, not coins",
+          "answer": "nickel-and-dimin'",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RHYMIN' SIMON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5476-s-c2-r2"
+        },
+        {
+          "question": "Preparin' a pump by pourin' water into it",
+          "answer": "primin'",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYMIN' SIMON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5476-s-c2-r3"
+        },
+        {
+          "question": "Playin' Scott Joplin tunes on the piano",
+          "answer": "ragtimin'",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RHYMIN' SIMON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5476-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHERE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In this city, the Eero Saarinen-designed landmark seen here",
+          "answer": "St. Louis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5476-s-c3-r0"
+        },
+        {
+          "question": "In Memphis, bought for $102,500 in 1957, address is 3764 Elvis Presley Boulevard",
+          "answer": "Graceland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5476-s-c3-r1"
+        },
+        {
+          "question": "In Paris, on 40 acres on the Seine, with a sculpture of slaves by Michelangelo",
+          "answer": "the Louvre",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5476-s-c3-r2"
+        },
+        {
+          "question": "In Beijing, 178 walled-in acres, home to 24 emperors",
+          "answer": "the Forbidden City",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5476-s-c3-r3"
+        },
+        {
+          "question": "In Australia's Northern Territory, 1,141 feet high, 5.8 miles around its base",
+          "answer": "Ayers Rock",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5476-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOUR HEART",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The 3 main ones of the heart branch from your aorta to supply the upper body & head with oxygenated blood",
+          "answer": "arteries",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOUR HEART",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5476-s-c4-r0"
+        },
+        {
+          "question": "Like the one in the nose, this in the heart is a dividing membrane in the ventricle",
+          "answer": "the septum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOUR HEART",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5476-s-c4-r1"
+        },
+        {
+          "question": "When the heart doesn't pump enough blood, other fluids clog up your body & you have this type of \"heart failure\"",
+          "answer": "congestive",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOUR HEART",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5476-s-c4-r2"
+        },
+        {
+          "question": "In the '90s rare heart-valve lesions were found in women taking this homophonic diet drug, which soon went bye-bye",
+          "answer": "Fen-phen",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOUR HEART",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5476-s-c4-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew shows an anatomical animation on the monitor.)  When blood flow to the heart is reduced by plaque or a clot, the heart muscle is deprived of oxygen & begins to die; the result is a heart attack known medically as this, M.I. for short",
+          "answer": "a myocardial infarction",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOUR HEART",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5476-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON YOUR SLEEVE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The four letters to the left of the crown stand for this",
+          "answer": "the Royal Canadian Mounted Police",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON YOUR SLEEVE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5476-s-c5-r0"
+        },
+        {
+          "question": "On an Army patch for a special 1945 project, a question mark represents secrecy with the tail splitting this",
+          "answer": "the atom",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON YOUR SLEEVE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5476-s-c5-r1"
+        },
+        {
+          "question": "A military badge of this country recently at odds with Russia shows a trident over its blue & yellow flag",
+          "answer": "Ukraine",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON YOUR SLEEVE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5476-s-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "BUILT LIKE A GREEK GOD",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He must have felt like hell when lots were drawn to divvy up the universe & he got the Underworld",
+          "answer": "Hades",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUILT LIKE A GREEK GOD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5476-d-c0-r0"
+        },
+        {
+          "question": "This means war!  Or rather, he meant war, especially when he defended his son Cycnus & took on Hercules",
+          "answer": "Ares",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUILT LIKE A GREEK GOD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5476-d-c0-r1"
+        },
+        {
+          "question": "He was the god of fertility, wine, vegetation & obviously, good times",
+          "answer": "Bacchus (or Dionysus)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUILT LIKE A GREEK GOD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5476-d-c0-r2"
+        },
+        {
+          "question": "This blacksmith god must have been hurt by the infidelities of his wife Aphrodite & could have said \"You're fired!\"",
+          "answer": "Hephaestus",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUILT LIKE A GREEK GOD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5476-d-c0-r3"
+        },
+        {
+          "question": "Beneath the clock is this god of time--not the same as the father of Zeus, though their names sound alike",
+          "answer": "Chronos",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUILT LIKE A GREEK GOD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5476-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "3-WORD BOOK SUMMARY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "1895:Crane.\"Colorful\".War",
+          "answer": "The Red Badge of Courage",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-WORD BOOK SUMMARY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5476-d-c1-r0"
+        },
+        {
+          "question": "1878:Vronsky.Train.Oops",
+          "answer": "Anna Karenina",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-WORD BOOK SUMMARY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5476-d-c1-r1"
+        },
+        {
+          "question": "1962:Alex.Droogs.Nasty",
+          "answer": "A Clockwork Orange",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-WORD BOOK SUMMARY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5476-d-c1-r2"
+        },
+        {
+          "question": "1925:Driving.Non-Miss.Daisy",
+          "answer": "The Great Gatsby",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-WORD BOOK SUMMARY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5476-d-c1-r3"
+        },
+        {
+          "question": "1970:Canoeing--no,survival",
+          "answer": "Deliverance",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-WORD BOOK SUMMARY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5476-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "____ THE ____",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "19th century documents show pirates actually made victims do this, plunge to their death by stepping off a beam",
+          "answer": "walk the plank",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ THE ____",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5476-d-c2-r0"
+        },
+        {
+          "question": "To do this provides little sustenance for the amount of mastication, which may be why it refers to idle chatter",
+          "answer": "chew the fat",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ THE ____",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5476-d-c2-r1"
+        },
+        {
+          "question": "In 2016 this disciple of Kanye West released his \"Coloring Book\" mixtape",
+          "answer": "Chance the Rapper",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ THE ____",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5476-d-c2-r2"
+        },
+        {
+          "question": "\"Sister Carrie\" uses this dessert phrase that now means to surpass all others in a bad or unusual way",
+          "answer": "take the cake",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "____ THE ____",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5476-d-c2-r3"
+        },
+        {
+          "question": "The title of this \"touch and feel\" board book by Dorothy Kunhardt is a command to babies, not the name of a hare",
+          "answer": "Pat the Bunny",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ THE ____",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5476-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PARDON MY FRENCH",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "At an 1802 White House dinner, Thomas Jefferson supplied the starch with these \"in the French manner\"",
+          "answer": "potatoes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDON MY FRENCH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5476-d-c3-r0"
+        },
+        {
+          "question": "This French military group  that formed in 1831 had its first headquarters in Sidi Bel Abbes, Algeria",
+          "answer": "the French Foreign Legion",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDON MY FRENCH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5476-d-c3-r1"
+        },
+        {
+          "question": "This birthing method developed by a French doctor in the 1950s involves breath control & pain reduction",
+          "answer": "Lamaze",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDON MY FRENCH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5476-d-c3-r2"
+        },
+        {
+          "question": "Post-WWII Juliette Greco made her mark on this style of song known simply by the French word for \"song\"",
+          "answer": "chanson",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARDON MY FRENCH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5476-d-c3-r3"
+        },
+        {
+          "question": "From the French for \"light of hand\", it's the art involved in sleight of hand",
+          "answer": "legerdemain",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PARDON MY FRENCH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5476-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "1895",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "William G. Morgan invented this team sport that's played indoors by teams of 6 players",
+          "answer": "volleyball",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1895",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5476-d-c4-r0"
+        },
+        {
+          "question": "In 1895 John Holland got a Navy contract to build the Plunger, an experimental one of these",
+          "answer": "submarine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1895",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5476-d-c4-r1"
+        },
+        {
+          "question": "This Asheville, North Carolina mansion was nearly finished after 6 years, so the Vanderbilts moved in",
+          "answer": "Biltmore",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1895",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5476-d-c4-r2"
+        },
+        {
+          "question": "Oscar Wilde withdrew his libel case against this nobleman but the publicity led to his own conviction for \"gross indecency\"",
+          "answer": "the Marquess of Queensbury",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1895",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5476-d-c4-r3"
+        },
+        {
+          "question": "These brothers showed their first movie to a public audience at the Grand Cafe",
+          "answer": "the Lumière brothers",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1895",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5476-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE DEL-TONES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Del Shannon wondered in 1961 why--why, why, why, why, why \"my little\" this title person took off",
+          "answer": "Runaway",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DEL-TONES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5476-d-c5-r0"
+        },
+        {
+          "question": "Del the Funky Homosapien is a cousin of this \"cool\" rapper of N.W.A. fame",
+          "answer": "Ice Cube",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DEL-TONES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5476-d-c5-r1"
+        },
+        {
+          "question": "This title woman in a 1997 Tarantino film chooses to play the Delfonics during a scene with Robert Forster",
+          "answer": "Jackie Brown",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DEL-TONES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5476-d-c5-r2"
+        },
+        {
+          "question": "Perhaps finding it a \"Cruel World\", in 2014 she unleashed a bit of the old \"Ultraviolence\"",
+          "answer": "Lana Del Rey",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE DEL-TONES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5476-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "LITTLE COUNTRIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the closest nation to the mainland U.S. where cars customarily drive on the left",
+          "answer": "the Bahamas",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "LITTLE COUNTRIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5476-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

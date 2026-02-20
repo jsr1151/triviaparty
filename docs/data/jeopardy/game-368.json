@@ -1,0 +1,725 @@
+{
+  "gameId": 368,
+  "showNumber": 110,
+  "airDate": "February 8, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "POLITICS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "1st Tuesday after the 1st Monday in November",
+          "answer": "Election Day",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g368-s-c0-r0"
+        },
+        {
+          "question": "Traditionally speaking, as this state goes, \"so goes the nation\"",
+          "answer": "Maine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g368-s-c0-r1"
+        },
+        {
+          "question": "\"Shrill\" name for train tour electioneering",
+          "answer": "a whistle stop",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g368-s-c0-r2"
+        },
+        {
+          "question": "The rooster was symbol of this party before Thomas Nast drew their new one in 1870",
+          "answer": "the Democrats",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g368-s-c0-r3"
+        },
+        {
+          "question": "He called himself \"the plain people's pres. against the privileged people's Congress\"",
+          "answer": "Harry S. Truman",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g368-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BASEBALL",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Atlanta Braves are in this division of the National League",
+          "answer": "the Western division",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g368-s-c1-r0"
+        },
+        {
+          "question": "Eddie Gaedel, number 1/8th, was the only one ever to play in the Major Leagues",
+          "answer": "a midget",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g368-s-c1-r1"
+        },
+        {
+          "question": "Now a paper company sales rep, he pitched only perfect game in World Series history",
+          "answer": "Don Larsen",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g368-s-c1-r2"
+        },
+        {
+          "question": "Boston's \"Green Monster\" is in this stadium",
+          "answer": "Fenway Park",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g368-s-c1-r3"
+        },
+        {
+          "question": "In '84, he became 1st manager to win over 100 games with teams in both Major Leagues",
+          "answer": "Sparky Anderson",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g368-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODD JOBS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Eliza Doolittle did it for a living",
+          "answer": "sold flowers (flower girl accepted)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g368-s-c2-r0"
+        },
+        {
+          "question": "In the Old West they were in charge of horses, on a movie set in charge of chickens",
+          "answer": "wranglers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g368-s-c2-r1"
+        },
+        {
+          "question": "He solemnly swears you in, in court",
+          "answer": "a bailiff",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g368-s-c2-r2"
+        },
+        {
+          "question": "Ub Iwerks, Friz Freleng & Tex Avery drew the line at this job",
+          "answer": "cartoonists (or animators)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD JOBS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g368-s-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "MOVIES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Subtitled \"The Search for Spock\"",
+          "answer": "Star Trek III",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g368-s-c3-r0"
+        },
+        {
+          "question": "Title describing Tom Cruise's precarious commercial enterprise",
+          "answer": "Risky Business",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g368-s-c3-r1"
+        },
+        {
+          "question": "Film where Lily Tomlin is really Steve Martin's better half",
+          "answer": "All of Me",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g368-s-c3-r2"
+        },
+        {
+          "question": "Mozart's middle name becomes a movie",
+          "answer": "Amadeus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g368-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "AUSTRALIA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "1 of 2 animals on its coat of arms",
+          "answer": "(1 of) kangaroo and emu",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUSTRALIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g368-s-c4-r0"
+        },
+        {
+          "question": "Title of this song, which actually means \"to tramp the roads with a backpack\"",
+          "answer": "\"Waltzing Matilda\"",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUSTRALIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g368-s-c4-r1"
+        },
+        {
+          "question": "\"Satanic\" mammal found only on island S. of Australia",
+          "answer": "Tasmanian devil",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUSTRALIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g368-s-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "\"CAT\" EGORY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Malcolm McDowell & Nastassja Kinski's \"purr\"fect roles in 1982",
+          "answer": "cat people",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CAT\" EGORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g368-s-c5-r0"
+        },
+        {
+          "question": "Ancient weapon kept a stone's throw from its target",
+          "answer": "a catapult",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CAT\" EGORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g368-s-c5-r1"
+        },
+        {
+          "question": "It gets things going in a chemical reaction",
+          "answer": "a catalyst",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CAT\" EGORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g368-s-c5-r2"
+        },
+        {
+          "question": "Elizabeth Taylor character that could have burnt her paws on a hot tin roof",
+          "answer": "Maggie the Cat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"CAT\" EGORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g368-s-c5-r3"
+        },
+        {
+          "question": "During one in a hospital, your brain should think \"cheese\"",
+          "answer": "a CAT scan",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CAT\" EGORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g368-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "According to both Burns & Steinbeck, their best laid schemes \"gang aft a-gley\"",
+          "answer": "mice and men",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g368-d-c0-r0"
+        },
+        {
+          "question": "In 1671, Milton wrote \"Paradise Regained\", a sequel to this",
+          "answer": "Paradise Lost",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g368-d-c0-r1"
+        },
+        {
+          "question": "English title of 7-part novel \"A la recherche du temps perdu\" by Proust",
+          "answer": "Remembrance of Things Past",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g368-d-c0-r2"
+        },
+        {
+          "question": "\"All stories, if continued far enough, end in death...\" he wrote in \"Death in the Afternoon\"",
+          "answer": "Ernest Hemingway",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g368-d-c0-r3"
+        },
+        {
+          "question": "Language in which Browning's \"Sonnets from the Portuguese\" was originally written",
+          "answer": "English",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g368-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAKES & RIVERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Body of water, currently crossed by the 1831 London Bridge",
+          "answer": "Lake Havasu",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g368-d-c1-r0"
+        },
+        {
+          "question": "Turin is the only major city on both banks of this river",
+          "answer": "the Po River",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g368-d-c1-r1"
+        },
+        {
+          "question": "This lake in the Banff National Park is the most visited place in the Canadian Rockies",
+          "answer": "Lake Louise",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g368-d-c1-r2"
+        },
+        {
+          "question": "While poets pour over the Rhine & Danube this 2nd largest German river gets no press",
+          "answer": "the Elbe",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g368-d-c1-r3"
+        },
+        {
+          "question": "Containing a source of the Nile near Jinja, this country's surface is 1/6 water",
+          "answer": "Uganda",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g368-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STARTS WITH \"A\"",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's where the leg bone's connected to the foot bone",
+          "answer": "the ankle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g368-d-c2-r0"
+        },
+        {
+          "question": "Moveable part of airplane wing providing lateral control",
+          "answer": "an aileron",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g368-d-c2-r1"
+        },
+        {
+          "question": "A result or consequence, or immediately following multiplication",
+          "answer": "aftermath",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g368-d-c2-r2"
+        },
+        {
+          "question": "Unyielding or inflexible",
+          "answer": "adamant",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g368-d-c2-r3"
+        },
+        {
+          "question": "It means extreme fear or anxiety in German or English",
+          "answer": "angst",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g368-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHEMISTRY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Metallic element essential for strong bones & teeth",
+          "answer": "calcium",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g368-d-c3-r0"
+        },
+        {
+          "question": "Marie Curie named this element for her native land",
+          "answer": "polonium",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g368-d-c3-r1"
+        },
+        {
+          "question": "Metal with highest melting point, it's commonly used in light bulb filaments",
+          "answer": "tungsten",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g368-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "ARCHITECTURE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "From Turkish meaning \"lighthouse\", it's a slender, lofty tower attached to a mosque",
+          "answer": "minaret",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g368-d-c4-r0"
+        },
+        {
+          "question": "Simon Rodia built these fairy-tale structures in a South L.A. ghetto",
+          "answer": "the Watts towers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g368-d-c4-r1"
+        },
+        {
+          "question": "Flying buttresses & ribbed vaults characterize this 13 c. style",
+          "answer": "Gothic",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g368-d-c4-r2"
+        },
+        {
+          "question": "Prior to his '59 death, he was planning a mile-high skyscraper",
+          "answer": "Frank Lloyd Wright",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g368-d-c4-r3"
+        },
+        {
+          "question": "2 of 3 orders of Greek column styles",
+          "answer": "(2 of) Ionian, Doric, and Corinthian",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g368-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEMS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Organic & opaque, they represent purity & virginity",
+          "answer": "pearls",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g368-d-c5-r0"
+        },
+        {
+          "question": "Stone of Laz, the Arabian goddess of love",
+          "answer": "lapis lazuli",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g368-d-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "THE ZODIAC",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Appropriate astrological sign shared by Britain's Princesses Anne & Margaret",
+          "answer": "Leo",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "THE ZODIAC",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g368-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

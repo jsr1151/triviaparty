@@ -1,0 +1,833 @@
+{
+  "gameId": 5000,
+  "showNumber": 1009,
+  "airDate": "January 12, 1989",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ROYALTY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Lord Mountbatten, the last viceroy of India, was the nephew of this last czar of Russia",
+          "answer": "Nicholas II",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5000-s-c0-r0"
+        },
+        {
+          "question": "When she died in 1982, the cover of Newsweek called her  life \"The Last Fairy Tale\"",
+          "answer": "Princess Grace",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5000-s-c0-r1"
+        },
+        {
+          "question": "Marco Polo served as an aide to this Mongol ruler of China",
+          "answer": "Kublai Khan",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5000-s-c0-r2"
+        },
+        {
+          "question": "American-born Lisa Halaby is now Queen Noor of this Middle East country",
+          "answer": "Jordan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5000-s-c0-r3"
+        },
+        {
+          "question": "In 1987 the sultan of this Asian country bought the Beverly Hills Hotel",
+          "answer": "Brunei",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5000-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS QUOTES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A sportswriter defined it as \"A hard rubber disk... hockey players strike when they can't hit one another\"",
+          "answer": "puck",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS QUOTES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5000-s-c1-r0"
+        },
+        {
+          "question": "This legendary Notre Dame coach said, \"Show me a good and gracious loser and I'll show you a failure\"",
+          "answer": "Knute Rockne",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS QUOTES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5000-s-c1-r1"
+        },
+        {
+          "question": "This 4-word boast of boxer Muhammad Ali is listed in Bartlett's Quotations",
+          "answer": "I am the greatest",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS QUOTES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5000-s-c1-r2"
+        },
+        {
+          "question": "Commenting on Toots Shor's, this former Yankee said, \"It's so crowded nobody goes there anymore\"",
+          "answer": "Yogi Berra",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS QUOTES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5000-s-c1-r3"
+        },
+        {
+          "question": "\"You've got to think positively to achieve the impossible,\" believes this Heisman Trophy winning L.A. Raider",
+          "answer": "Marcus Allen",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS QUOTES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5000-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANAGRAMS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "You might find a flea on this part of your garden's foliage",
+          "answer": "leaf (from flea)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5000-s-c2-r0"
+        },
+        {
+          "question": "Even when you throw dead flowers away you save this",
+          "answer": "vase (from save)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5000-s-c2-r1"
+        },
+        {
+          "question": "What Isolde is when she gets dirty",
+          "answer": "soiled (from Isolde)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5000-s-c2-r2"
+        },
+        {
+          "question": "It takes a lot of talent to do it well on ice",
+          "answer": "skate (from takes)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5000-s-c2-r3"
+        },
+        {
+          "question": "Deeply engrossed in part of a book",
+          "answer": "rapt (from part)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5000-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. CITIES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Johnny Appleseed's grave is in this Indiana city that began as a fort",
+          "answer": "Fort Wayne",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5000-s-c3-r0"
+        },
+        {
+          "question": "The city of West New York is in this state",
+          "answer": "New Jersey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5000-s-c3-r1"
+        },
+        {
+          "question": "City whose \"Golden Triangle\" is formed by the Allegheny & Monongahela Rivers",
+          "answer": "Pittsburgh",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5000-s-c3-r2"
+        },
+        {
+          "question": "In the late 19th century some called this Kansas cow town \"The Wickedest Little City in America\"",
+          "answer": "Dodge City",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5000-s-c3-r3"
+        },
+        {
+          "question": "City in the title of the following song, Glen Campbell's 1st Top 40 hit:\"By the time I make Oklahoma /She'll be sleeping...\"",
+          "answer": "Phoenix",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5000-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHOCOLATE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The tree from which chocolate is derived grows only within 20 degrees of this line",
+          "answer": "Equator",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOCOLATE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5000-s-c4-r0"
+        },
+        {
+          "question": "Neiman Marcus once offered a version of this Parker Bros. game made of chocolate",
+          "answer": "Monopoly",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOCOLATE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5000-s-c4-r1"
+        },
+        {
+          "question": "A top-ten selling candy in the U.S., Nestle introduced this rice-filled bar in 1937",
+          "answer": "Nestlé Crunch",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOCOLATE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5000-s-c4-r2"
+        },
+        {
+          "question": "When chocolate is exposed to sunlight or heat, this rises to the surface, leaving a gray film",
+          "answer": "cocoa butter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHOCOLATE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5000-s-c4-r3"
+        },
+        {
+          "question": "Campbell Soup owns both the American & Belgian divisions of this expensive \"chocolatier\"",
+          "answer": "Godiva",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHOCOLATE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5000-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL ASTROLOGY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This \"bully\" president wasn't born under the sign of Taurus; he was a Scorpio",
+          "answer": "Teddy Roosevelt",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ASTROLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5000-s-c5-r0"
+        },
+        {
+          "question": "Calvin Coolidge's sign was Cancer, which means he was ruled by this heavenly body, not by Mrs. Coolidge",
+          "answer": "moon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ASTROLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5000-s-c5-r1"
+        },
+        {
+          "question": "This was LBJ's sign, though he's not usually associated with maidenly virtues",
+          "answer": "Virgo",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ASTROLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5000-s-c5-r2"
+        },
+        {
+          "question": "Thomas Jefferson was our 1st president born under this sign, the 1st of the zodiac",
+          "answer": "Aries",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ASTROLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5000-s-c5-r3"
+        },
+        {
+          "question": "After all the publicity, you should know that this is Ronald Reagan's sign",
+          "answer": "Aquarius",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL ASTROLOGY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5000-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The salutatory address at Princeton's 1988 commencement was given in this ancient tongue",
+          "answer": "Latin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5000-d-c0-r0"
+        },
+        {
+          "question": "Byelorussian is better known by this more colorful name",
+          "answer": "White Russian",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5000-d-c0-r1"
+        },
+        {
+          "question": "This country's official language is Magyar",
+          "answer": "Hungary",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5000-d-c0-r2"
+        },
+        {
+          "question": "You can call it Croatian, or you can call it by this longer name",
+          "answer": "Serbo-Croatian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5000-d-c0-r3"
+        },
+        {
+          "question": "Italian for the \"Frankish tongue\", it's a means of communication between peoples of different languages",
+          "answer": "lingua franca",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5000-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "RECENT HISTORY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1972 this ex-Teamster leader tried to go to Hanoi to free POWs, but the U.S. gov't stopped him",
+          "answer": "Jimmy Hoffa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RECENT HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5000-d-c1-r0"
+        },
+        {
+          "question": "This July 1985 famine relief fundraiser has been called Bob Geldof's \"global jukebox\"",
+          "answer": "Live Aid",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5000-d-c1-r1"
+        },
+        {
+          "question": "A ban on the general use of this germ killer in 1972 meant Phisohex had to be sold by prescription",
+          "answer": "hexachlorophene",
+          "value": 3500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RECENT HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5000-d-c1-r2"
+        },
+        {
+          "question": "He was chosen to replace Thomas Eagleton as the 1972 Democratic vice-presidential nominee",
+          "answer": "(Sargent) Shriver",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5000-d-c1-r3"
+        },
+        {
+          "question": "After speaking out against this, Soviet dissident Andrei Sakharov was exiled in January 1980",
+          "answer": "invasion of Afghanistan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5000-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RIVERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Porcupine River flows into this U.S. state from the Yukon Territory",
+          "answer": "Alaska",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5000-d-c2-r0"
+        },
+        {
+          "question": "At Niagara Falls, 90% of the flow of the Niagara River goes over this fall",
+          "answer": "Horseshoe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5000-d-c2-r1"
+        },
+        {
+          "question": "This river enters the east end of Lake Geneva near Montreaux & leaves the west end in Geneva",
+          "answer": "Rhone",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5000-d-c2-r2"
+        },
+        {
+          "question": "Though much of the Yangtze is navigable, very little of this 3,000 mile-long Chinese river is",
+          "answer": "Huang He (Yellow River)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5000-d-c2-r3"
+        },
+        {
+          "question": "Europe's 2nd-busiest airport serves Frankfurt & is named for these 2 rivers",
+          "answer": "Rhine & Main",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5000-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEIGHTS & MEASURES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A span, which is approximately 9\" long, is based on the span of this part of the body",
+          "answer": "hand",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5000-d-c3-r0"
+        },
+        {
+          "question": "There are 4 gills in a pint, so there are this many gills in a quart",
+          "answer": "8",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5000-d-c3-r1"
+        },
+        {
+          "question": "In the metric system, the weight of 1 liter of water is equal to 1 of these units",
+          "answer": "kilogram",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5000-d-c3-r2"
+        },
+        {
+          "question": "Unit of measure in printing; there are 12 of them to a pica, about 72 of them to an inch",
+          "answer": "point",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5000-d-c3-r3"
+        },
+        {
+          "question": "Term for 1 hundred-millionth of a centimeter, it's named after a Swedish physicist",
+          "answer": "angstrom",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5000-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY CLASSICS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Glumdalclitch was a friendly 9-year-old who took care of him in Brobdingnag",
+          "answer": "Gulliver",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CLASSICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5000-d-c4-r0"
+        },
+        {
+          "question": "Simon Tappertit, John Wemmick, Mr. Turveydrop & Mr. Tulkinghorn were all created by this English author",
+          "answer": "Dickens",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CLASSICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5000-d-c4-r1"
+        },
+        {
+          "question": "Eugene O'Neill play about a black ex-con who's manaaged to become ruler of a West Indian island",
+          "answer": "The Emperor Jones",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CLASSICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5000-d-c4-r2"
+        },
+        {
+          "question": "King Priam's daughter, she was blessed w/the gift of prophecy but condemned by Apollo to be disbelieved",
+          "answer": "Cassandra",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CLASSICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5000-d-c4-r3"
+        },
+        {
+          "question": "Among his characters are Charles Strickland, Philip Carey & Sadie Thompson",
+          "answer": "Somerset Maugham",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY CLASSICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5000-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN FILMS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"The Seven Samurai\" became this title group in a 1960 U.S. film",
+          "answer": "The Magnificent Seven",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5000-d-c5-r0"
+        },
+        {
+          "question": "Ingmar Bergman directed this fellow Swede in her last theatrical film, 1978's \"Autumn Sonata\"",
+          "answer": "Ingrid Bergman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5000-d-c5-r1"
+        },
+        {
+          "question": "S. Bondarchuk not only wrote & directed this Oscar-winning Tolstoy epic, he played the male lead",
+          "answer": "War and Peace",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5000-d-c5-r2"
+        },
+        {
+          "question": "Francois Truffaut's \"The Bride Wore Black\" was an homage to this master of suspense",
+          "answer": "Hitchcock",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5000-d-c5-r3"
+        },
+        {
+          "question": "\"The Clowns\", this director's tribute to circus performers, was originally made for Italian TV",
+          "answer": "(Federico) Fellini",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FILMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5000-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FASHION",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 2 Asian leaders in the 1960s & '70s for whom popular jacket styles were named",
+          "answer": "Nehru & Mao",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FASHION",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5000-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

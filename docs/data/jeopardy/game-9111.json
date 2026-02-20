@@ -1,0 +1,833 @@
+{
+  "gameId": 9111,
+  "showNumber": 9260,
+  "airDate": "January 31, 2025",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD FACTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the only continent whose mainland lies in all 4 hemispheres",
+          "answer": "Africa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9111-s-c0-r0"
+        },
+        {
+          "question": "In its constitution this country is also referred to as Bharat",
+          "answer": "India",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9111-s-c0-r1"
+        },
+        {
+          "question": "Mount Elbrus, the highest mountain in Europe, is in this range that forms a boundary between Europe & Asia",
+          "answer": "the Caucasus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9111-s-c0-r2"
+        },
+        {
+          "question": "The largest barrier reef in the Western Hemisphere extends over 180 miles along the entire coast of this Central American country",
+          "answer": "Belize",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9111-s-c0-r3"
+        },
+        {
+          "question": "Central Asia is made up of 5 countries, all former Soviet republics, including these 2 \"T\" ones",
+          "answer": "Tajikistan & Turkmenistan",
+          "value": 1800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9111-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"H.R.\"",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The United Nations' Universal Declaration of these has been called the most translated document in the world",
+          "answer": "Human Rights",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H.R.\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9111-s-c1-r0"
+        },
+        {
+          "question": "Despite cell phones & the internet, this is still a popular hobby & can be useful in times of emergency",
+          "answer": "ham radio",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H.R.\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9111-s-c1-r1"
+        },
+        {
+          "question": "Gamblers who wager lots of money at a casino, or, before \"Jeopardy!\", a game show hosted by Alex Trebek, featuring Ruta Lee & some dice",
+          "answer": "high rollers",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"H.R.\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9111-s-c1-r2"
+        },
+        {
+          "question": "This type of surgery involves removing a damaged femoral head & frequently the socket it fits into",
+          "answer": "a hip replacement",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H.R.\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9111-s-c1-r3"
+        },
+        {
+          "question": "It's the official name for Greece",
+          "answer": "the Hellenic Republic",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H.R.\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9111-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LUCKY 13",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"The best feeling in my life, to finally come back & hit that water\", said this commander of the Apollo 13 mission",
+          "answer": "Lovell",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LUCKY 13",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9111-s-c2-r0"
+        },
+        {
+          "question": "Atomic number 13, it's the most common metallic element in the Earth's crust, does not rust & resists weathering",
+          "answer": "aluminum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LUCKY 13",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9111-s-c2-r1"
+        },
+        {
+          "question": "From Greek, it's an abnormal fear of the number 13",
+          "answer": "triskaidekaphobia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LUCKY 13",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9111-s-c2-r2"
+        },
+        {
+          "question": "The 15th century's \"Thirteen Years' War\" was between Poland & this order of Germanic knights that began as a Crusader army",
+          "answer": "the Teutonic Knights",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LUCKY 13",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9111-s-c2-r3"
+        },
+        {
+          "question": "This Japanese musical instrument has 13 strings made of silk & is plucked with an ivory plectrum called a tsume",
+          "answer": "the koto",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LUCKY 13",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9111-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE THEATER",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "When \"The Seagull\" bombed in St. Petersburg in 1896, this dramatist vowed to give up playwriting",
+          "answer": "Chekhov",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE THEATER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9111-s-c3-r0"
+        },
+        {
+          "question": "In 2024 he traded in his Iron Man suit & made his Broadway debut as the title character in the play \"McNeal\"",
+          "answer": "Robert Downey Jr.",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE THEATER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9111-s-c3-r1"
+        },
+        {
+          "question": "In a Euripides play, after she exacts revenge on Jason, she escapes in a chariot provided by her grandpa, the sun god Helios",
+          "answer": "Medea",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE THEATER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9111-s-c3-r2"
+        },
+        {
+          "question": "For its Canadian debut, this play by Heidi Schreck used Canada's Charter of Rights & Freedoms rather than the title U.S. document",
+          "answer": "What the Constitution Means to Me",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE THEATER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9111-s-c3-r3"
+        },
+        {
+          "question": "The title guys of this Shakespeare play leave home & head to Milan; various love plots ensue",
+          "answer": "The Two Gentlemen of Verona",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE THEATER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9111-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "OF EQUAL MEASURE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Currently, we're talking DC: 10 amps x 120 volts equals 1,200 of these",
+          "answer": "watts",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OF EQUAL MEASURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9111-s-c4-r0"
+        },
+        {
+          "question": "Please don't sing your response, but one (non-leap) year has 525,600 of these",
+          "answer": "minutes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OF EQUAL MEASURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9111-s-c4-r1"
+        },
+        {
+          "question": "Let's get deep--5,280 feet is 880 of these",
+          "answer": "fathoms",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OF EQUAL MEASURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9111-s-c4-r2"
+        },
+        {
+          "question": "You want 500 pecks, or 125 of these?",
+          "answer": "a bushel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OF EQUAL MEASURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9111-s-c4-r3"
+        },
+        {
+          "question": "In December 2024 200 British pounds got you $253 but 200 U.S. pounds was a constant 14.29 these",
+          "answer": "the stone",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OF EQUAL MEASURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9111-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYING SPORTSBALL",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 2004, LeBron James welcomed his son Bronny into the world; in 2024, Mr. J took his son to work as both hooped for this team",
+          "answer": "the Lakers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING SPORTSBALL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9111-s-c5-r0"
+        },
+        {
+          "question": "In 2019 Novak Djokovic & this Swiss mister couldn't get enough of Wimbledon, matching up for 4 hours & 57 minutes",
+          "answer": "Federer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING SPORTSBALL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9111-s-c5-r1"
+        },
+        {
+          "question": "For women, the playing area of this sport is roughly 27 yards x 22 yards & 6 feet deep",
+          "answer": "water polo",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLAYING SPORTSBALL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9111-s-c5-r2"
+        },
+        {
+          "question": "We get a kick out of this Argentinean who in 2012 became the first player to score 5 goals in a Champions League match",
+          "answer": "Messi",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING SPORTSBALL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9111-s-c5-r3"
+        },
+        {
+          "question": "In 2024 the only Jewish starting QB in college football was Jake Retzlaff of this Provo school, one of 3 M.O.T.s on the whole campus",
+          "answer": "BYU",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING SPORTSBALL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9111-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT AN ARTIST DIES IN ME",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "After making his mother immortal (metaphorically, as the woman died in 1881), this American painter passed on July 17, 1903",
+          "answer": "Whistler",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT AN ARTIST DIES IN ME",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9111-d-c0-r0"
+        },
+        {
+          "question": "Cousin to a noted gunmaker, this sculptor of \"The Rattlesnake\" died at 48 from complications after an appendectomy",
+          "answer": "Remington",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT AN ARTIST DIES IN ME",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9111-d-c0-r1"
+        },
+        {
+          "question": "This American expat who drew--OK, painted--\"The Child's Bath\" would die at 82 near her beloved Paris in 1926",
+          "answer": "Mary Cassatt",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT AN ARTIST DIES IN ME",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9111-d-c0-r2"
+        },
+        {
+          "question": "If this Northern Renaissance painter of wild imagery was alive, he'd ask, \"A TV cop has my name? & What's TV?\"",
+          "answer": "Bosch",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT AN ARTIST DIES IN ME",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9111-d-c0-r3"
+        },
+        {
+          "question": "In 1614 in Toledo it was time for the burial of this \"Burial of the Count of Orgaz\" painter",
+          "answer": "El Greco",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT AN ARTIST DIES IN ME",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9111-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ETYMOLOGY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Business stays all in the family with this word derived from Latin for nephew",
+          "answer": "nepotism",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ETYMOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9111-d-c1-r0"
+        },
+        {
+          "question": "It gets its name from originally being the seventh month of the Roman calendar",
+          "answer": "September",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ETYMOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9111-d-c1-r1"
+        },
+        {
+          "question": "It means \"to walk before\"; a famous one begins, \"We the People\"",
+          "answer": "a preamble",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ETYMOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9111-d-c1-r2"
+        },
+        {
+          "question": "Not just found in Hawaiian waters, this fishy has a name that you could say means \"strong-strong\"",
+          "answer": "mahi-mahi",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ETYMOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9111-d-c1-r3"
+        },
+        {
+          "question": "Aristotle believed there was a \"fifth element\", which gives us this word for the purest form of something",
+          "answer": "quintessence",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ETYMOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9111-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WAY, WAY BACK IN THE DAY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Founded c. 800 B.C., this great city of antiquity on the north coast of Africa has a name meaning \"new town\"",
+          "answer": "Carthage",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY, WAY BACK IN THE DAY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9111-d-c2-r0"
+        },
+        {
+          "question": "According to tradition, this ruler hid inside a rolled-up carpet to smuggle herself into Julius Caesar's quarters",
+          "answer": "Cleopatra",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY, WAY BACK IN THE DAY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9111-d-c2-r1"
+        },
+        {
+          "question": "In the 490s B.C. he left the state of Lu along with his disciples after having been minister of crime",
+          "answer": "Confucius",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY, WAY BACK IN THE DAY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9111-d-c2-r2"
+        },
+        {
+          "question": "Britannica calls this Roman's \"Natural History\" an \"encyclopaedic scientific work of dubious accuracy\"",
+          "answer": "Pliny (the Elder)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WAY, WAY BACK IN THE DAY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9111-d-c2-r3"
+        },
+        {
+          "question": "The ruler Ur-Nammu is credited with building the Great one of these pyramidal structures of Ur around 2100 B.C.",
+          "answer": "a ziggurat",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAY, WAY BACK IN THE DAY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9111-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON THE MOVIE SOUNDTRACK",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "2022:\"Suspicious Minds\",\"Can't Help Falling In Love\"",
+          "answer": "Elvis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9111-d-c3-r0"
+        },
+        {
+          "question": "1994:\"Son Of A Preacher Man\",\"Surf Rider\"",
+          "answer": "Pulp Fiction",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9111-d-c3-r1"
+        },
+        {
+          "question": "Animated in 2009:\"Down In New Orleans\",\"When We're Human\"",
+          "answer": "The Princess and the Frog",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9111-d-c3-r2"
+        },
+        {
+          "question": "A 2014 mix tape:\"Hooked On A Feeling\",\"Come And Get Your Love\"",
+          "answer": "Guardians of the Galaxy",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9111-d-c3-r3"
+        },
+        {
+          "question": "1968: \"Lux Aeterna\" &\"Thus Spoke Zarathustra\"",
+          "answer": "2001: A Space Odyssey",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9111-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NATURE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Despite its name, it also enjoys beetles, arachnids, grasshoppers",
+          "answer": "a Venus flytrap",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9111-d-c4-r0"
+        },
+        {
+          "question": "Used in herbal medicine, there's a fungus among us, named for its resemblance to this fowl's tail",
+          "answer": "turkey",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9111-d-c4-r1"
+        },
+        {
+          "question": "No cows are born during this process by which icebergs break off from glaciers",
+          "answer": "calving",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9111-d-c4-r2"
+        },
+        {
+          "question": "Scientists have identified more than 20,000 species of these prehistoric arthropods named for three of a certain part",
+          "answer": "trilobites",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9111-d-c4-r3"
+        },
+        {
+          "question": "Agate, carnelian & even onyx are all varieties of this 10-letter quartz mineral",
+          "answer": "chalcedony",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9111-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYING NON-SPORTS\"BALL\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Larry Sabato has one for predicting political races, but also has the motto \"he who lives by\" this \"ends up eating ground glass!\"",
+          "answer": "a crystal ball",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING NON-SPORTS\"BALL\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9111-d-c5-r0"
+        },
+        {
+          "question": "Knaidel is another name for this item that you hope turns out light & airy for your chicken soup",
+          "answer": "a matzo ball",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING NON-SPORTS\"BALL\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9111-d-c5-r1"
+        },
+        {
+          "question": "She starred as the title character on TV's No. 1-rated show from October 1952 to April 1955",
+          "answer": "Lucille Ball",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING NON-SPORTS\"BALL\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9111-d-c5-r2"
+        },
+        {
+          "question": "The seller of the house you want needs to move fast; let's make this kind of offer, way under the asking price",
+          "answer": "lowball",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING NON-SPORTS\"BALL\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9111-d-c5-r3"
+        },
+        {
+          "question": "Belly up to the bar & get this drink of strong + fizzy, such as whiskey & soda or gin & tonic",
+          "answer": "highballs",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLAYING NON-SPORTS\"BALL\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9111-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. PLACE NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Before 1867, this city that lends its name to a type of tree was known as Novo Arkhangelsk",
+          "answer": "Sitka",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "U.S. PLACE NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g9111-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "gameId": 4301,
+  "showNumber": 1301,
+  "airDate": "April 9, 1990",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "\"C\" CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "City on the banks of the Nile about 500 miles downriver from the Aswan High Dam",
+          "answer": "Cairo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4301-s-c0-r0"
+        },
+        {
+          "question": "Dar El-Beida is the Arabic name of this, Morocco's largest city",
+          "answer": "Casablanca",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4301-s-c0-r1"
+        },
+        {
+          "question": "A Panamanian town, Cristobal, meaning \"Christopher\", is next to this town, whose name means \"Columbus\"",
+          "answer": "Colon",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4301-s-c0-r2"
+        },
+        {
+          "question": "The Pinyin Chinese name for this southern port is Guangzhou",
+          "answer": "Canton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4301-s-c0-r3"
+        },
+        {
+          "question": "Originally called Rapids City, this Iowa city was renamed in 1849 to include the name of the river",
+          "answer": "Cedar Rapids",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4301-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Sitting Bull was born into the Hunkpapa division of this tribe",
+          "answer": "Sioux",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4301-s-c1-r0"
+        },
+        {
+          "question": "George Bush plays this game at a special White House pit",
+          "answer": "horseshoes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4301-s-c1-r1"
+        },
+        {
+          "question": "The type of muffin you're likely to find with your Eggs Benedict",
+          "answer": "English muffins",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4301-s-c1-r2"
+        },
+        {
+          "question": "Despite its name, this design usually consists of more than one initial",
+          "answer": "monogram",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4301-s-c1-r3"
+        },
+        {
+          "question": "This Sinclair Lewis novel opens with \"The towers of Zenith aspired above the morning mist...\"",
+          "answer": "Babbitt",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4301-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV DETECTIVES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Before \"Alice\", Linda Lavin worked under this captain of the 12th Precinct",
+          "answer": "Barney Miller",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV DETECTIVES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4301-s-c2-r0"
+        },
+        {
+          "question": "He was Lieut. Tobias on \"Mannix\" at the same time he was playing Mike Brady",
+          "answer": "Robert Reed",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV DETECTIVES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4301-s-c2-r1"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Since 1931 this airline's 4-engined planes have been known as Clippers",
+          "answer": "Pan Am",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4301-s-c3-r0"
+        },
+        {
+          "question": "\"Bus\" is short for this Latin word used in 19th C. France to describe a vehicle \"for all\"",
+          "answer": "omnibus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4301-s-c3-r1"
+        },
+        {
+          "question": "A one horse open sleigh, or a small, lightly armed motorboat used by the Coast Guard",
+          "answer": "cutter",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4301-s-c3-r2"
+        },
+        {
+          "question": "Chrysler says these safety devices are standard on all its U.S.-built cars beginning with 1990 models",
+          "answer": "air bags",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4301-s-c3-r3"
+        },
+        {
+          "question": "When completed in 1916, this railroad was the world's longest -- & still is",
+          "answer": "Trans-Siberian",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4301-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEMS & JEWELRY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This brilliant green gem is actually a rare variety of beryl",
+          "answer": "emerald",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4301-s-c4-r0"
+        },
+        {
+          "question": "In names of gems, this word follows hawk's, cat's & tiger's",
+          "answer": "eye",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4301-s-c4-r1"
+        },
+        {
+          "question": "Asterism, an optical effect found in some sapphires, is a gleam shaped like this",
+          "answer": "star",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4301-s-c4-r2"
+        },
+        {
+          "question": "The \"seed\" variety of these weighs less than 1/4 grain, equivalent to 1/16 carat",
+          "answer": "pearl",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4301-s-c4-r3"
+        },
+        {
+          "question": "Alphabetically last in a list of birthstones, it's 1 of the 2 birthstones for December",
+          "answer": "zircon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS & JEWELRY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4301-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GIRLS IN SONG",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1985 DeBarge wondered \"Who's Holding\" this girl \"Now\"",
+          "answer": "Donna",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GIRLS IN SONG",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4301-s-c5-r0"
+        },
+        {
+          "question": "Name of the showgirl in the song with the following chorus:",
+          "answer": "Lola (from \"Copacabana\")",
+          "value": 100,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GIRLS IN SONG",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4301-s-c5-r1"
+        },
+        {
+          "question": "John Cougar Mellencamp gave us the ballad of Jack & this girl",
+          "answer": "Diane",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GIRLS IN SONG",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4301-s-c5-r2"
+        },
+        {
+          "question": "According to the title of the 1968 hit, Judy was \"in disguise\" with these",
+          "answer": "glasses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GIRLS IN SONG",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4301-s-c5-r3"
+        },
+        {
+          "question": "Tommy Roe in '62 & Ready for the World in 1985 took songs with this girl's name in the title to No. 1",
+          "answer": "Sheila",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GIRLS IN SONG",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4301-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD LEADERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The \"Youth\" group named for this man was organized after he came to power in 1933",
+          "answer": "Hitler",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4301-d-c0-r0"
+        },
+        {
+          "question": "In 1976 she was seized by Argentine Air Force officers & kept under house arrest for 5 years",
+          "answer": "Isabel Peron",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4301-d-c0-r1"
+        },
+        {
+          "question": "Idi Amin served in the British action against this country's Mau Mau rebels in the 1950s",
+          "answer": "Kenya",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4301-d-c0-r2"
+        },
+        {
+          "question": "Middle East country whose current president was born in Belfast, Northern Ireland",
+          "answer": "Israel (Chaim Herzog)",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4301-d-c0-r3"
+        },
+        {
+          "question": "In 1981 Gro Harlem Brundtland became the 1st female P.M. of this Scandinavian country",
+          "answer": "Norway",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4301-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENGLISH LITERATURE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Of a person, place or thing, what Little Dorrit was in the Dickens tale",
+          "answer": "person",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4301-d-c1-r0"
+        },
+        {
+          "question": "After R.L. Stevenson drew a map with his stepson's paints he was inspired to write this story",
+          "answer": "Treasure Island",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4301-d-c1-r1"
+        },
+        {
+          "question": "Though famous for his science fiction, his best-selling work was \"The Outline of History\"",
+          "answer": "H.G. Wells",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4301-d-c1-r2"
+        },
+        {
+          "question": "B. Disraeli found this Jane Austen novel about the Bennet family so delightful that he read it 17 times",
+          "answer": "Pride and Prejudice",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4301-d-c1-r3"
+        },
+        {
+          "question": "The Bloomsbury Group often met at the London home of this author of \"To the Lighthouse\"",
+          "answer": "Virginia Woolf",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4301-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "An ingredient in tortillas, it's grown on nearly half the cultivated land in Mexico",
+          "answer": "corn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4301-d-c2-r0"
+        },
+        {
+          "question": "Related to onions, these are chopped, added to sour cream & put on baked potatoes",
+          "answer": "chives",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4301-d-c2-r1"
+        },
+        {
+          "question": "Tea made from this feline favorite supposedly cures insomnia in humans",
+          "answer": "catnip",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4301-d-c2-r2"
+        },
+        {
+          "question": "If you're eating ostriche in Napoli, you're eating this seafood, not a big bird",
+          "answer": "oysters",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4301-d-c2-r3"
+        },
+        {
+          "question": "This Polish sausage that looks like a big frankfurter is coarser in texture & contains garlic",
+          "answer": "kielbasa",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4301-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "IOWANS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This singer & variety show host was born in Wall Lake, not Moon River, Iowa",
+          "answer": "Andy Williams",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4301-d-c3-r0"
+        },
+        {
+          "question": "After this pitcher retired in 1956, the Cleveland Indians also retired his number -- 19",
+          "answer": "Bob Feller",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4301-d-c3-r1"
+        },
+        {
+          "question": "1 of the 2 first ladies who were born in Iowa",
+          "answer": "Mamie Eisenhower (or Lou Hoover)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4301-d-c3-r2"
+        },
+        {
+          "question": "76% of our staff knew that this Iowan founded the American Institute of Public Opinion in 1935",
+          "answer": "George Gallup",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4301-d-c3-r3"
+        },
+        {
+          "question": "The film \"The Music Man\" had its premiere in Mason City, home town of this man, its composer",
+          "answer": "Meredith Willson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4301-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE DARK AGES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Dark Ages began when this city fell in 476 A.D.",
+          "answer": "Rome",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DARK AGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4301-d-c4-r0"
+        },
+        {
+          "question": "The armies of Justinian, who headed this empire, conquered the Vandals in 534",
+          "answer": "Byzantine Empire",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DARK AGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4301-d-c4-r1"
+        },
+        {
+          "question": "In 568 the Lombards began their conquest of what is now this country",
+          "answer": "Italy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DARK AGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4301-d-c4-r2"
+        },
+        {
+          "question": "In 711 Arabs & Berbers crossed over from north Africa & drove the last Visigoth king from this country",
+          "answer": "Spain",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DARK AGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4301-d-c4-r3"
+        },
+        {
+          "question": "The 3 Germanic tribes that invaded England between 400-600",
+          "answer": "Jutes, Angles & Saxons",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DARK AGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4301-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "NAME'S THE SAME",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A Scottish engineer & inventor, or the interior sec'y famous for his \"Beach Boys\" gaffe",
+          "answer": "James Watt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME'S THE SAME",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4301-d-c5-r0"
+        },
+        {
+          "question": "The man who patented papier-mache in the 18th century, or a famous 19th C. statesman from Kentucky",
+          "answer": "Henry Clay",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAME'S THE SAME",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4301-d-c5-r1"
+        },
+        {
+          "question": "A 19th century Arctic explorer, or the composer who won a 1971 Oscar for the theme to the movie \"Shaft\"",
+          "answer": "Isaac Hayes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME'S THE SAME",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4301-d-c5-r2"
+        },
+        {
+          "question": "An island in Antarctica & an island in N.Y.'s East River, both named for our 32nd president, not our 26th",
+          "answer": "Roosevelt Island",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME'S THE SAME",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4301-d-c5-r3"
+        },
+        {
+          "question": "The agreement signed at the end of the Seven Years' War or the American Revolution",
+          "answer": "Treaty of Paris",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME'S THE SAME",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4301-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Virginia's motto since 1776; it was shouted in another context on April 14, 1865",
+          "answer": "\"Sic Semper Tyrannis\"",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AMERICAN HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4301-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

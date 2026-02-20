@@ -1,0 +1,773 @@
+{
+  "gameId": 7759,
+  "showNumber": 284,
+  "airDate": "October 10, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE OLYMPICS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The heavyweight class in wrestling is 220 lb.s or this round number of kilograms",
+          "answer": "100 kilograms",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7759-s-c0-r0"
+        },
+        {
+          "question": "In this event you can snatch, jerk or press",
+          "answer": "weightlifting",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7759-s-c0-r1"
+        },
+        {
+          "question": "Gold medalist Johnny Weissmuller was the 1st to swim this distance in less than 1 minute",
+          "answer": "100 meters",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7759-s-c0-r2"
+        },
+        {
+          "question": "Appropriately, flying Dutchman is one event in this sport",
+          "answer": "sailing (yachting)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7759-s-c0-r3"
+        },
+        {
+          "question": "In 1968, a West German attacked his horse in frustration during this 5-event sport",
+          "answer": "(the modern) pentathlon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7759-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS SHIPS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Millionaires Benjamin Guggenheim & John Jacob Astor went down with this ship",
+          "answer": "the Titanic",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS SHIPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7759-s-c1-r0"
+        },
+        {
+          "question": "In film it's been captained by Charles Laughton, Trevor Howard & Anthony Hopkins",
+          "answer": "the Bounty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS SHIPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7759-s-c1-r1"
+        },
+        {
+          "question": "Comic opera where you hear this song:\"We sail the ocean blue / And our saucy ship's a beauty / We're sober men and true / And attentive to our duty / When the balls whistle free / O'er the bright blue sea / We stand to our guns all day / When at anchor we ride / On the Portsmouth tide / We have plenty of time for play / Ahoy! Ahoy!...\"",
+          "answer": "H.M.S. Pinafore",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS SHIPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7759-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "WESTERN SLANG",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Reach for the sky",
+          "answer": "put your hands up",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WESTERN SLANG",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7759-s-c2-r0"
+        },
+        {
+          "question": "Redeye was only one term for it",
+          "answer": "whiskey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WESTERN SLANG",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7759-s-c2-r1"
+        },
+        {
+          "question": "A sodbuster was a farmer, but a sinbuster was this",
+          "answer": "a preacher",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WESTERN SLANG",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7759-s-c2-r2"
+        },
+        {
+          "question": "Hobble your lip",
+          "answer": "be quiet (stop talking)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WESTERN SLANG",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7759-s-c2-r3"
+        },
+        {
+          "question": "Oklahoma rain meant this kind of storm",
+          "answer": "a dust storm",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WESTERN SLANG",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7759-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARTS & CRAFTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Process of printing through a piece of fine cloth, usually silk",
+          "answer": "silk screening",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTS & CRAFTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7759-s-c3-r0"
+        },
+        {
+          "question": "The art of molding paste & pulp, or a 1970 Dionne Warwick song",
+          "answer": "papier-mâché",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARTS & CRAFTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7759-s-c3-r1"
+        },
+        {
+          "question": "Named for an 18th century French finance minister, these black paper cutouts came to mean \"cheap portraitures\"",
+          "answer": "silhouettes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTS & CRAFTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7759-s-c3-r2"
+        },
+        {
+          "question": "Display case of memento-filled compartments, sound like sparring with imaginary opponents",
+          "answer": "shadow box",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTS & CRAFTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7759-s-c3-r3"
+        },
+        {
+          "question": "From French, meaning \"noose\", it's what every kid makes at camp",
+          "answer": "a lanyard",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTS & CRAFTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7759-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POETRY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "According to John Donne what \"No man\" is",
+          "answer": "an island",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7759-s-c4-r0"
+        },
+        {
+          "question": "2000 years ago the Roman poet Lucretius wrote that \"One man's food can be\" this \"to another\"",
+          "answer": "poison",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7759-s-c4-r1"
+        },
+        {
+          "question": "Town in which \"There was no joy because Might Casey has struck out\"",
+          "answer": "Mudville",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7759-s-c4-r2"
+        },
+        {
+          "question": "\"My heart's in the Highlands, my heart is not here, My heart's in the Highlands, a-chasing\" these",
+          "answer": "the deer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POETRY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7759-s-c4-r3"
+        },
+        {
+          "question": "He wrote, \"All hope abandon ye who enter here\"",
+          "answer": "Dante (Alighieri)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETRY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7759-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "OUTFOXED",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The \"Ties\" that bind Michael J. Fox",
+          "answer": "family ties",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OUTFOXED",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7759-s-c5-r0"
+        },
+        {
+          "question": "They played \"Saturday Night Live's\" two wild & crazy guys looking for foxes",
+          "answer": "Dan Aykroyd & Steve Martin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OUTFOXED",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7759-s-c5-r1"
+        },
+        {
+          "question": "Famous literary figure eaten by Foxy Loxy",
+          "answer": "Chicken Little",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OUTFOXED",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7759-s-c5-r2"
+        },
+        {
+          "question": "Film where Richard Farnsworth played an Old West outlaw learning about modern times",
+          "answer": "The Grey Fox",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OUTFOXED",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7759-s-c5-r3"
+        },
+        {
+          "question": "This flower is the source for the heart-stimulating drug digitalis",
+          "answer": "foxglove",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OUTFOXED",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7759-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN AUTHORS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "New York City dentist whose \"Riders of the Purple Sage\" made him a popular Western novelist",
+          "answer": "Zane Grey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7759-d-c0-r0"
+        },
+        {
+          "question": "Punning author of light verse who wrote, \"Cats have kittens, bats have bittens\"",
+          "answer": "Ogden Nash",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7759-d-c0-r1"
+        },
+        {
+          "question": "\"Cuckoo's Nest\" author whose lifestyle was the subject of Tom Wolfe's \"The Electric Kool-Aid Acid Test\"",
+          "answer": "Ken Kesey",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7759-d-c0-r2"
+        },
+        {
+          "question": "She chronicled her lover Dashiell Hammett's battle with McCarthyism in \"Scoundrel Time\"",
+          "answer": "Lillian Hellman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7759-d-c0-r3"
+        },
+        {
+          "question": "\"A Place in the Sun\" with Montgomery Cliff & Elizabeth Taylor was based on this Theodore Dreiser classic",
+          "answer": "An American Tragedy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7759-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Galileo attempted to measure its speed by having men with lanterns on hills flash each other",
+          "answer": "light",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7759-d-c1-r0"
+        },
+        {
+          "question": "Nature, according to ancient scientists, abhors it",
+          "answer": "a vacuum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7759-d-c1-r1"
+        },
+        {
+          "question": "Prepared from alcohol by the action of chloride of lime, it can put you to sleep",
+          "answer": "chloroform",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7759-d-c1-r2"
+        },
+        {
+          "question": "Avogadro's number is the total of these atom groups in a mole of any substance",
+          "answer": "molecules",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7759-d-c1-r3"
+        },
+        {
+          "question": "As the word implies, every carbohydrate contains these 3 common elements",
+          "answer": "carbon, hydrogen & oxygen",
+          "value": 900,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7759-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"LINE\"s",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In song, Johnny Cash says he does this because \"you're mine\"",
+          "answer": "I walk the line",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LINE\"s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7759-d-c2-r0"
+        },
+        {
+          "question": "Railroad in Monopoly that fits this category",
+          "answer": "Short Line",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LINE\"s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7759-d-c2-r1"
+        }
+      ]
+    },
+    {
+      "name": "MUSICALS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It opens with Tevye touting, \"Tradition\"",
+          "answer": "Fiddler on the Roof",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7759-d-c3-r0"
+        },
+        {
+          "question": "John Van Druten's \"I Am a Camera\" developed into this musical picture of pre-war Germany",
+          "answer": "Cabaret",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7759-d-c3-r1"
+        },
+        {
+          "question": "In \"I'd Rather Be Right\" George M. Cohan played him, the first sitting president to be featured in a Broadway musical",
+          "answer": "FDR",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7759-d-c3-r2"
+        },
+        {
+          "question": "A Pulitzer-prize winning book by James Michener became this Pulitzer-prize winning show",
+          "answer": "South Pacific",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7759-d-c3-r3"
+        },
+        {
+          "question": "Gene Kelly originally played this cad who bewitched, bothered & bewildered the ladies",
+          "answer": "Pal Joey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7759-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "KINGS & QUEENS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Hers was the longest reign in English history",
+          "answer": "Queen Victoria",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KINGS & QUEENS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7759-d-c4-r0"
+        },
+        {
+          "question": "In 19th c. Garibaldi helped King Victor Emmanuel unite this peninsula",
+          "answer": "Italy (the Apennine Peninsula)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KINGS & QUEENS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7759-d-c4-r1"
+        },
+        {
+          "question": "Louis XVIII became of France after this ruler's exile in 1814",
+          "answer": "Napoleon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KINGS & QUEENS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7759-d-c4-r2"
+        },
+        {
+          "question": "Illiterate himself, this great Frankish ruler founded a palace school which he attended with wife & children",
+          "answer": "Charlemagne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KINGS & QUEENS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7759-d-c4-r3"
+        },
+        {
+          "question": "To learn about building a navy, this great czar worked as a ship's carpenter in Holland",
+          "answer": "Peter the Great",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KINGS & QUEENS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7759-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Dancers in a 1796 ballet performed this feat later made famous in a Peter Pan production",
+          "answer": "flying (by wires)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7759-d-c5-r0"
+        },
+        {
+          "question": "In 1944 this Caribbean ruler appeared as an extra in Esther Williams' film \"Bathing Beauty\"",
+          "answer": "Fidel Castro",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7759-d-c5-r1"
+        },
+        {
+          "question": "It was the instrument of E. Power Biggs",
+          "answer": "the organ",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7759-d-c5-r2"
+        },
+        {
+          "question": "As 1 word it's an American Indian sport, as 2 a city in Wisconsin",
+          "answer": "lacrosse (La Crosse)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7759-d-c5-r3"
+        },
+        {
+          "question": "The odds are 35-1 against throwing either of these 2 numbers in a single toss of the dice",
+          "answer": "a 12 & a 2",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7759-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AGRICULTURE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Though a leader in wheat production, this country also imports more wheat than any other",
+          "answer": "the USSR",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AGRICULTURE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7759-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

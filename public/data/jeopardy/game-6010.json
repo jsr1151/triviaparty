@@ -1,0 +1,773 @@
+{
+  "gameId": 6010,
+  "showNumber": 994,
+  "airDate": "December 22, 1988",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MAN IN SPACE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "His one & only flight in space lasted 4 hours 55 minutes & consisted of 3 orbits",
+          "answer": "John Glenn",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAN IN SPACE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6010-s-c0-r0"
+        },
+        {
+          "question": "In names given to the Mercury capsules Friendship 7 &, Faith 7, etc., the \"7\" meant this",
+          "answer": "number of original Mercury astronauts",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAN IN SPACE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6010-s-c0-r1"
+        },
+        {
+          "question": "Apollo 11 astronaut who tells the history of U.S. manned spaceflight in the 1988 book \"Liftoff\"",
+          "answer": "Michael Collins",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAN IN SPACE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6010-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "ADVERTISING",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This airline describes itself as \"something special in the air\"",
+          "answer": "American Airlines",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVERTISING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6010-s-c1-r0"
+        },
+        {
+          "question": "A flying red horse is a symbol of this oil company",
+          "answer": "Mobil",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVERTISING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6010-s-c1-r1"
+        },
+        {
+          "question": "Ads for this German car say it's \"engineered like no other car in the world\"",
+          "answer": "Mercedes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVERTISING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6010-s-c1-r2"
+        },
+        {
+          "question": "\"The most unforgettable women in the world wear\" this",
+          "answer": "Revlon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ADVERTISING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6010-s-c1-r3"
+        },
+        {
+          "question": "French crystal \"at the service of monarchs, luminaries, statesmen & mere perfectionists since 1764\"",
+          "answer": "Baccarat",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVERTISING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6010-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHAKESPEARE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "According to Shakespeare, this queen liked to play billiards with her eunuch",
+          "answer": "Cleopatra",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6010-s-c2-r0"
+        },
+        {
+          "question": "This fun couple lived in a castle in Inverness",
+          "answer": "Macbeth & Lady Macbeth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6010-s-c2-r1"
+        },
+        {
+          "question": "In \"Romeo & Juliet\", it's the occupation of John & Lawrence",
+          "answer": "priests (friars)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6010-s-c2-r2"
+        },
+        {
+          "question": "It's how Hamlet finds out his father was murdered",
+          "answer": "(father's) ghost",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6010-s-c2-r3"
+        },
+        {
+          "question": "Characters in this comedy include Shallow, Simple, Slender & Falstaff",
+          "answer": "The Merry Wives of Windsor",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6010-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CRIME & PUNISHMENT",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "At last count this state had the greatest number of women behind bars",
+          "answer": "California",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6010-s-c3-r0"
+        },
+        {
+          "question": "Never allowed B-4, this game is still banned in Abu Dhabi as contrary to Islamic teaching",
+          "answer": "bingo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6010-s-c3-r1"
+        },
+        {
+          "question": "Moscow has declared it illegal for gangs to roar through the city at night on these vehicles",
+          "answer": "motorcycles",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6010-s-c3-r2"
+        },
+        {
+          "question": "Buying stocks using info not available to the public, you could be fined up to $100,000 for doing it",
+          "answer": "insider trading",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6010-s-c3-r3"
+        },
+        {
+          "question": "In '84 the Supreme Court ruled the practice of \"time shifting\" with one of these didn't violate copyrights",
+          "answer": "home VCR machine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6010-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "McSINGERS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In the duet \"Ebony & Ivory\", Stevie Wonder was the ebony while he was the ivory",
+          "answer": "Paul McCartney",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McSINGERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6010-s-c4-r0"
+        },
+        {
+          "question": "This singer's only No. 1 hit \"American Pie\", was so long it had to be divided in half to fit on a 45",
+          "answer": "Don McLean",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McSINGERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6010-s-c4-r1"
+        },
+        {
+          "question": "This '50s female group was \"Sincerely\" one of the best",
+          "answer": "McGuires (McGuire Sisters)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McSINGERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6010-s-c4-r2"
+        },
+        {
+          "question": "She got \"The Wedding Bell Blues\" & Billy Davis Jr. married her",
+          "answer": "Marilyn McCoo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McSINGERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6010-s-c4-r3"
+        },
+        {
+          "question": "When Stevie Nicks isn't singing lead for Fleetwood Mac, she usually is",
+          "answer": "Christine McVie",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "McSINGERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6010-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "OOPS!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A $16 million F-16 was destroyed when it hit a pair of these animals \"hogging\" the runway",
+          "answer": "pigs",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OOPS!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6010-s-c5-r0"
+        },
+        {
+          "question": "The 1st day these were put on Amtrak's Calif. trains, riders used them to tell spouses the train broke down",
+          "answer": "(cellular) telephones",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OOPS!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6010-s-c5-r1"
+        },
+        {
+          "question": "Instead of children's songs, a mislabelled \"Lullaby Magic\" tape featured this Jerry Garcia group",
+          "answer": "Grateful Dead",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OOPS!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6010-s-c5-r2"
+        },
+        {
+          "question": "Postal officials predicted by 1988 90% of 1st class mailers would be using these, but only 20% now do",
+          "answer": "9-digit zip codes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OOPS!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6010-s-c5-r3"
+        },
+        {
+          "question": "A '88 Cannes Film Festival juror sat with Nastassja Kinski thinking she was this star of \"Blue Velvet\"",
+          "answer": "Isabella Rossellini",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OOPS!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6010-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE OLD WEST",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Manufacturer of the legendary .44 caliber \"Peacemaker\"",
+          "answer": "Colt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLD WEST",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6010-d-c0-r0"
+        },
+        {
+          "question": "The grave of this wild west scout & showman is on top of Lookout Mountain near Golden, Colo.",
+          "answer": "William Cody (Buffalo Bill)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLD WEST",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6010-d-c0-r1"
+        },
+        {
+          "question": "To cowboys, \"hair pants\" were this accessory with the hair left on the hide",
+          "answer": "chaps",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLD WEST",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6010-d-c0-r2"
+        },
+        {
+          "question": "As a result of the Gunfight at the O.K. Corral, Virgil Earp lost his job as marshal of this city",
+          "answer": "Tombstone",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLD WEST",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6010-d-c0-r3"
+        },
+        {
+          "question": "Imprisoned in 1881, Billy the Kid appealed to this governor who was too busy promoting his novel to help",
+          "answer": "Lew Wallace",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLD WEST",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6010-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS QUOTES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In the line widely attributed to P.T. Barnum, it's how often a sucker is born",
+          "answer": "every minute",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6010-d-c1-r0"
+        },
+        {
+          "question": "He called religion \"the opium of the people\"",
+          "answer": "(Karl) Marx",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6010-d-c1-r1"
+        },
+        {
+          "question": "He coined the phrase \"Here's a pretty kettle of fish\" in the operetta \"Iolanthe\"",
+          "answer": "Gilbert",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6010-d-c1-r2"
+        },
+        {
+          "question": "Part of the inscription on the Statue of Liberty reads, \"I lift my lamp beside\" this",
+          "answer": "the golden door",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6010-d-c1-r3"
+        },
+        {
+          "question": "After his 1877 surrender, this Indian chief said, \"I will fight no more forever\"",
+          "answer": "Chief Joseph",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6010-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "As this church celebrated its 1000th anniversary, it was granted new freedom by Gorbachev",
+          "answer": "Russian Orthodox",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6010-d-c2-r0"
+        },
+        {
+          "question": "Church founded in the 1950s in the U.S. by former sci-fi writer L. Ron Hubbard",
+          "answer": "Scientology",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6010-d-c2-r1"
+        },
+        {
+          "question": "Originally built to house the ashes of Buddha, stupas evolved into these in S.E. Asia",
+          "answer": "pagodas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6010-d-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The capital of Austria's Tyrol Province in this city in the Inn Valley",
+          "answer": "Innsbruck",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6010-d-c3-r0"
+        },
+        {
+          "question": "World's largest active volcano, its name is Hawaiian for \"mountain long\"",
+          "answer": "Mauna Loa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6010-d-c3-r1"
+        },
+        {
+          "question": "World's largest producer of cloves & vanilla is this large island, southeast of Zanzibar",
+          "answer": "Madagascar",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6010-d-c3-r2"
+        },
+        {
+          "question": "The Caspian Sea, largest lake in the world is bounded by the USSR & this country",
+          "answer": "Iran",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6010-d-c3-r3"
+        },
+        {
+          "question": "The widest part of South America is 3,200 miles across & extends from Brazil to the coast of this country",
+          "answer": "Peru",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6010-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTORS & ACTRESSES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Classified 4-F during WWII, this swashbuckling Tasmanian only fought on film",
+          "answer": "Errol Flynn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6010-d-c4-r0"
+        },
+        {
+          "question": "This actor married 3 actresses: Jill Esmond,Vivien Leigh &Joan Plowright",
+          "answer": "Laurence Olivier",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6010-d-c4-r1"
+        },
+        {
+          "question": "Morgan Fairchild was Faye Dunaway's stand-in for this film & even dated Warren Beatty",
+          "answer": "Bonnie and Clyde",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6010-d-c4-r2"
+        },
+        {
+          "question": "Born Alec de Cuffe, he was illegitimate & has never learned his father's identity",
+          "answer": "Alec Guinness",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6010-d-c4-r3"
+        },
+        {
+          "question": "Frank Capra said this co-star of \"Mr. Deeds Goes to Town\" is his favorite actress",
+          "answer": "Jean Arthur",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6010-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN THE NEWS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The friends who bought them a house in Bel Air on St. Cloud Dr. changed the address from 666 to 668",
+          "answer": "Reagans",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6010-d-c5-r0"
+        },
+        {
+          "question": "A number of states are blaming 1988 budget gaps on changes in this in 1987",
+          "answer": "federal income tax (federal tax laws)",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6010-d-c5-r1"
+        },
+        {
+          "question": "A new statue in the Paris Tuileries is of this Jewish soldier tried for treason & later exonerated",
+          "answer": "(Alfred) Dreyfus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6010-d-c5-r2"
+        },
+        {
+          "question": "1st diamond of this color to be put on permanent display was unveiled by the Smithsonian in 1988",
+          "answer": "red",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6010-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN IN SPORTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This California teenager was the 1st American to win a regular gold medal at the 1988 Summer Olympics",
+          "answer": "Janet Evans",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WOMEN IN SPORTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6010-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,736 @@
+{
+  "gameId": 1380,
+  "showNumber": 5103,
+  "airDate": "November 15, 2006",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "CROSSING JORDAN",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The status of the 2,270-sq.-mi. area on this shore of the Jordan is contested by Palestinians & Israelis",
+          "answer": "the West Bank",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSING JORDAN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1380-s-c0-r0"
+        },
+        {
+          "question": "Deganya in the Jordan Valley is this type of Israeli collective settlement, the country's oldest",
+          "answer": "a kibbutz",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSING JORDAN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1380-s-c0-r1"
+        },
+        {
+          "question": "East of the Jordan, the Ghor Canal has made orange groves spring up by doing this to once-barren land",
+          "answer": "irrigation",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSING JORDAN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1380-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "WHAT'S ON THE TUBE?",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Keith Carradine's role as Wild Bill Hickok on this series ended when Jack McCall killed Hickok",
+          "answer": "Deadwood",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON THE TUBE?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1380-s-c1-r0"
+        },
+        {
+          "question": "This veteran Pulitzer-winning film critic trades reviews with Richard Roeper",
+          "answer": "(Roger) Ebert",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON THE TUBE?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1380-s-c1-r1"
+        },
+        {
+          "question": "In one episode of this comedienne's Bravo Channel show \"My Life on the D-List\", she auctioned off a stay in her home",
+          "answer": "Kathy Griffin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON THE TUBE?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1380-s-c1-r2"
+        },
+        {
+          "question": "This cable channel's \"Meerkat Manor\" has been billed as \"'All My Children' meets 'Wild Kingdom'\"",
+          "answer": "Animal Planet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON THE TUBE?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1380-s-c1-r3"
+        },
+        {
+          "question": "In June 2006 this movie channel premiered its first made-for-TV movie, \"Broken Trail\", starring Robert Duvall",
+          "answer": "American Movie Classics (AMC)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON THE TUBE?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1380-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FUHGETTABOUDIT",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Want to marry this ex-wife of Burton, Todd, Hilton & Fisher?  Fuhgettaboudit!  She says she's staying single",
+          "answer": "Elizabeth Taylor",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUHGETTABOUDIT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1380-s-c2-r0"
+        },
+        {
+          "question": "Trying to locate this country just to the east of the old Berlin Wall on a map?  Fuhgettaboudit!  It's gone",
+          "answer": "East Germany",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUHGETTABOUDIT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1380-s-c2-r1"
+        },
+        {
+          "question": "Hoping to get on the Olympic team for this event where 2 sides pull on a rope?  Fuhgettaboudit!  Last held in 1920",
+          "answer": "the tug of war",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUHGETTABOUDIT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1380-s-c2-r2"
+        },
+        {
+          "question": "Want to join this religion so you can have more than one spouse?  Fuhgettaboudit!  Canceled the practice in 1890",
+          "answer": "Mormon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUHGETTABOUDIT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1380-s-c2-r3"
+        },
+        {
+          "question": "Hungry for food using this flavor enhancer abbreviated MSG?  Fuhgettaboudit!  Many places have stopped using it",
+          "answer": "monosodium glutamate",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUHGETTABOUDIT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1380-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AROUND THE U.S.A.",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "North Little Rock is the sixth-largest city in this state",
+          "answer": "Arkansas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE U.S.A.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1380-s-c3-r0"
+        },
+        {
+          "question": "\"I love\" this city, America's biggest metropolis--doesn't everyone?",
+          "answer": "New York",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE U.S.A.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1380-s-c3-r1"
+        },
+        {
+          "question": "This small U.S. state is only about half the size of Delaware",
+          "answer": "Rhode Island",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE U.S.A.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1380-s-c3-r2"
+        },
+        {
+          "question": "Any Texan can tell you that this city is \"Big D\"",
+          "answer": "Dallas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE U.S.A.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1380-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "CAN I BUY YOU A DRINK?",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Cuba Libre is just a fancy name for plain old rum, a hint of lime & this",
+          "answer": "Coca-Cola",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAN I BUY YOU A DRINK?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1380-s-c4-r0"
+        },
+        {
+          "question": "It's a little early in the day--maybe time for this champagne & orange juice cocktail",
+          "answer": "a mimosa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAN I BUY YOU A DRINK?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1380-s-c4-r1"
+        },
+        {
+          "question": "A Scotch Manhattan, with scotch & sweet vermouth, usually goes by the name of this Scottish outlaw",
+          "answer": "Rob Roy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAN I BUY YOU A DRINK?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1380-s-c4-r2"
+        },
+        {
+          "question": "You might enjoy this drink, classically made with equal parts of orange juice & peach schnapps",
+          "answer": "a fuzzy navel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAN I BUY YOU A DRINK?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1380-s-c4-r3"
+        },
+        {
+          "question": "How about a martini or this identical cocktail garnished with an onion instead of an olive",
+          "answer": "a Gibson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAN I BUY YOU A DRINK?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1380-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HEY, WHERE'D YOU \"GO\"?",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Vezina Trophy is for hockey's best one of these",
+          "answer": "a goalkeeper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEY, WHERE'D YOU \"GO\"?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1380-s-c5-r0"
+        },
+        {
+          "question": "It's the type of dog seen here",
+          "answer": "a golden retriever",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEY, WHERE'D YOU \"GO\"?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1380-s-c5-r1"
+        },
+        {
+          "question": "This type of animal torments Bill Murray in \"Caddyshack\"",
+          "answer": "a gopher",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEY, WHERE'D YOU \"GO\"?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1380-s-c5-r2"
+        },
+        {
+          "question": "This large African animal (which did not torment Bill Murray in \"Caddyshack\") can make about 20 different sounds",
+          "answer": "the gorilla",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HEY, WHERE'D YOU \"GO\"?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1380-s-c5-r3"
+        },
+        {
+          "question": "This 4-letter word means to spur, push or impel",
+          "answer": "goad",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEY, WHERE'D YOU \"GO\"?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1380-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD IN HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A 19th c. duchess who felt faint in the afternoon began the British custom of serving tiny little cakes with this beverage",
+          "answer": "tea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD IN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1380-d-c0-r0"
+        },
+        {
+          "question": "Re-enactors still buy hardtack crackers from the G.H. Bent Co. of Mass., which supplied them for this 1860s war",
+          "answer": "the Civil War",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD IN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1380-d-c0-r1"
+        },
+        {
+          "question": "This Roman emperor served his guests snow mixed with honey (& probably bored them with his fiddle-playing)",
+          "answer": "Nero",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD IN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1380-d-c0-r2"
+        },
+        {
+          "question": "It's said that this French emperor's chef created Chicken Marengo for him right on the battlefield",
+          "answer": "Napoleon",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD IN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1380-d-c0-r3"
+        },
+        {
+          "question": "Mme. Pompadour loved to top filet of sole with these fancy fungi",
+          "answer": "truffles",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD IN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1380-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SOPRANOS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Ft. Lauderdale Sun-Sentinel called this Vegas diva a \"soprano geyser\"; somehow, \"My Heart Will Go On\"",
+          "answer": "Céline Dion",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOPRANOS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1380-d-c1-r0"
+        },
+        {
+          "question": "\"The Hills Are Alive\" with the sound of this Oscar-winning soprano's voice, whether she's Victor or Victoria",
+          "answer": "Julie Andrews",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SOPRANOS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1380-d-c1-r1"
+        },
+        {
+          "question": "Of her 1994 Xmas CD, USA Today said, this \"Vision Of Love\" diva had \"a soprano that could unhinge St. Peter's gate\"",
+          "answer": "Mariah Carey",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SOPRANOS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1380-d-c1-r2"
+        },
+        {
+          "question": "Maria Jeritza must have been lovely to have Strauss write the role of this beauty of Troy for her--see for yourself",
+          "answer": "Helen (of Troy)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOPRANOS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1380-d-c1-r3"
+        },
+        {
+          "question": "In the 1940s Rise Stevens owned the role of this Spanish Gypsy at the Met & sang it in the film \"Going My Way\"",
+          "answer": "Carmen",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SOPRANOS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1380-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEW YORK IN THE MOVIES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "As this title superhero, Tobey Maguire spun his web across New York",
+          "answer": "Spider-Man",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK IN THE MOVIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1380-d-c2-r0"
+        },
+        {
+          "question": "On a Manhattan morning, Audrey Hepburn admires the gems in a shop window while eating a roll in this film's opening",
+          "answer": "Breakfast at Tiffany's",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK IN THE MOVIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1380-d-c2-r1"
+        },
+        {
+          "question": "A classic Christmas movie is called \"Miracle on\" this Manhattan street",
+          "answer": "34th Street",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK IN THE MOVIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1380-d-c2-r2"
+        },
+        {
+          "question": "This writer/director's New York-set films include \"Manhattan\" & \"Manhattan Murder Mystery\"",
+          "answer": "Woody Allen",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK IN THE MOVIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1380-d-c2-r3"
+        },
+        {
+          "question": "Who ya gonna call when spirits haunt the Big Apple?  The title group of this 1984 comedy, of course",
+          "answer": "Ghostbusters",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK IN THE MOVIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1380-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SMITH",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The first Grammy for Best Rap Performance went to DJ Jazzy Jeff & this \"Fresh Prince\"",
+          "answer": "Will Smith",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMITH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1380-d-c3-r0"
+        },
+        {
+          "question": "Betty Smith wrote about young Francie Nolan in her novel \"A Tree Grows in\" this New York City borough",
+          "answer": "Brooklyn",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMITH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1380-d-c3-r1"
+        },
+        {
+          "question": "Winston Smith is a writer of Newspeak for the Ministry of Truth in this George Orwell novel",
+          "answer": "1984",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMITH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1380-d-c3-r2"
+        },
+        {
+          "question": "A New York City Fire Department fireboat is named for this 1928 pres. candidate known as the \"Happy Warrior\"",
+          "answer": "Al Smith",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SMITH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1380-d-c3-r3"
+        },
+        {
+          "question": "Economist Adam Smith is best known for \"An Inquiry into the Nature and Causes of\" this",
+          "answer": "the Wealth of Nations",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SMITH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1380-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NON-COSMETIC SURGERY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "These masses of tissue in the throat, below the adenoids, fight infection but have to go if they become infected",
+          "answer": "tonsils",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NON-COSMETIC SURGERY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1380-d-c4-r0"
+        },
+        {
+          "question": "Though there is elbow-replacement surgery, the knees & this higher joint are the ones replaced most often",
+          "answer": "hips",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NON-COSMETIC SURGERY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1380-d-c4-r1"
+        },
+        {
+          "question": "Removal of the gallbladder is the usual treatment for concretions better known as these",
+          "answer": "gallstones",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NON-COSMETIC SURGERY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1380-d-c4-r2"
+        },
+        {
+          "question": "It's a general term for surgery that requires an incision right into your ticker",
+          "answer": "open-heart surgery",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NON-COSMETIC SURGERY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1380-d-c4-r3"
+        },
+        {
+          "question": "Gastric bypass isn't for the chunky or the just overweight, but for BMI over 35, classed as being this",
+          "answer": "morbidly obese",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NON-COSMETIC SURGERY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1380-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "NURSERY RHYME E.R.",
+      "round": "double",
+      "position": 5,
+      "clues": []
+    },
+    {
+      "name": "MOVIE HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Producer David Selznick was fined $5,000 by censors for using this word in a 1939 film",
+          "answer": "damn",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MOVIE HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1380-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "gameId": 7044,
+  "showNumber": 564,
+  "airDate": "February 5, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SPACE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A large group of stars close together in space, or a large group of peanuts in chocolate",
+          "answer": "a cluster",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7044-s-c0-r0"
+        },
+        {
+          "question": "Every star we can see with the naked eye is part of this galaxy",
+          "answer": "the Milky Way",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7044-s-c0-r1"
+        },
+        {
+          "question": "As it exists today, the Sun is considered a star of this color",
+          "answer": "yellow",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7044-s-c0-r2"
+        },
+        {
+          "question": "Triton is the largest moon on this planet",
+          "answer": "Neptune",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7044-s-c0-r3"
+        },
+        {
+          "question": "Having \"gone\" this in 1572, a star in Cassiopeia could be seen in daylight",
+          "answer": "nova",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7044-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE CRITICS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Leonard Maltin's critique of \"E.T.\" was one of the first he did for this \"ET\"",
+          "answer": "Entertainment Tonight",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CRITICS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7044-s-c1-r0"
+        },
+        {
+          "question": "After attending \"Sneak Previews\", they spent 4 yrs. together \"At the Movies\"",
+          "answer": "Ebert & Siskel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CRITICS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7044-s-c1-r1"
+        },
+        {
+          "question": "Known for \"pun\"ishing bad films, this TV critic reviewed \"Superfly\" using a fly swatter",
+          "answer": "Gene Shallit",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CRITICS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7044-s-c1-r2"
+        },
+        {
+          "question": "You'll find \"This Week's Movies\" in TV Guide under this critic's byline",
+          "answer": "Judith Crist",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE CRITICS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7044-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN PHRASES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The time in Germany if \"Es ist ein uhr\"",
+          "answer": "one o'clock",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN PHRASES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7044-s-c2-r0"
+        },
+        {
+          "question": "A Swede who does something \"Tva ganger om dagen\" does it this often",
+          "answer": "twice a day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN PHRASES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7044-s-c2-r1"
+        },
+        {
+          "question": "The Latin proverb \"caveat emptor\"  tells us this person should beware",
+          "answer": "the buyer",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN PHRASES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7044-s-c2-r2"
+        },
+        {
+          "question": "What an Italian has bought you if you receive \"diamanti falsi\"",
+          "answer": "fake diamonds",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN PHRASES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7044-s-c2-r3"
+        },
+        {
+          "question": "A French girl who says \"Viens dans mes bras\" is asking you to come here",
+          "answer": "into my arms",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN PHRASES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7044-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "NONPOTENT POTABLES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The 1st settlers of Rome, who were shepherds, offered this lactic liquid to the gods",
+          "answer": "milk",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7044-s-c3-r0"
+        },
+        {
+          "question": "Of 2, 8, or 13, Total # of people who supposedly know complete formula for Coca-Cola syrup",
+          "answer": "2",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7044-s-c3-r1"
+        },
+        {
+          "question": "Next to water, it's the most widely consumed beverage in the world",
+          "answer": "tea",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7044-s-c3-r2"
+        },
+        {
+          "question": "Made from leaves of a type of holly, \"mate\" is a favorite drink of these South American cowboys",
+          "answer": "gauchos",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7044-s-c3-r3"
+        },
+        {
+          "question": "Most root beer makers use the sap of the desert yucca tree to create this",
+          "answer": "the foam",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7044-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUHAMMAD ALI",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Upon becoming a Muslim, he changed his name from this former one",
+          "answer": "Cassius (Marcellus) Clay",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUHAMMAD ALI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7044-s-c4-r0"
+        },
+        {
+          "question": "In 1963, though not yet champion, he made an album for Columbia Records titled, \"I Am...\" this",
+          "answer": "the Greatest",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUHAMMAD ALI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7044-s-c4-r1"
+        },
+        {
+          "question": "Reason for which Ali lost his heavyweight title in 1967",
+          "answer": "refusing to serve in the armed forces",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUHAMMAD ALI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7044-s-c4-r2"
+        },
+        {
+          "question": "2 of the 3 men Ali defeated to gain the heavyweight championship 3 times",
+          "answer": "(2 of) George Foreman, Leon Spinks (Sonny Liston)",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUHAMMAD ALI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7044-s-c4-r3"
+        },
+        {
+          "question": "Speaking of this man, his trainer, Ali said, \"He gave me the jab, but the rest is me\"",
+          "answer": "Angelo Dundee",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUHAMMAD ALI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7044-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIBLICAL RESULTS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Looking back resulted in her becoming a pillar of the community - a salt pillar, that is",
+          "answer": "Lot's wife",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL RESULTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7044-s-c5-r0"
+        },
+        {
+          "question": "\"Because there was no room for them in the inn,\" they had to bunk in the barn",
+          "answer": "Joseph & Mary",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL RESULTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7044-s-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "ARTISTS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The word for \"Greek\" in this artist's nickname is Italian, not Spanish",
+          "answer": "El Greco",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7044-d-c0-r0"
+        },
+        {
+          "question": "In 1891 painter Paul Gauguin left Paris bound for this island",
+          "answer": "Tahiti",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7044-d-c0-r1"
+        },
+        {
+          "question": "Event depicted in this famous painting by Pieter Bruegel the Elder:",
+          "answer": "The Peasant Wedding",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7044-d-c0-r2"
+        },
+        {
+          "question": "He's famous for his depiction of \"The 4 Freedoms\" as well as scenes from life in middle America",
+          "answer": "Norman Rockwell",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7044-d-c0-r3"
+        },
+        {
+          "question": "Critics of this prolific artist point out his name anagrams to \"Avida Dollars\", meaning eager for bucks",
+          "answer": "Salvador Dali",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7044-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AGRICULTURE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This huge flower which can be a foot in diameter, is grown for both its seeds & their oil",
+          "answer": "sunflower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7044-d-c1-r0"
+        },
+        {
+          "question": "It only takes about 85 of these to make a pound of milk chocolate",
+          "answer": "cocoa beans",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7044-d-c1-r1"
+        },
+        {
+          "question": "Summer berries only found growing wild until 1st cultivated in New Jersey in early 20th c.",
+          "answer": "blueberries",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7044-d-c1-r2"
+        },
+        {
+          "question": "Pea, beans & peanuts are members of this 2nd largest family of flowering plants",
+          "answer": "legumes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7044-d-c1-r3"
+        },
+        {
+          "question": "85% of U.S. supply of this species of hard wheat used in pasta comes from North Dakota",
+          "answer": "durum",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7044-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTO-BIOGRAPHIES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"Swanson on Swanson\"",
+          "answer": "Gloria Swanson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTO-BIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7044-d-c2-r0"
+        },
+        {
+          "question": "This strong-willed Watergate felon simply titled his autobiography \"Will\"",
+          "answer": "G. Gordon Liddy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTO-BIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7044-d-c2-r1"
+        },
+        {
+          "question": "\"Up from Slavery\"",
+          "answer": "Booker T. Washington",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTO-BIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7044-d-c2-r2"
+        },
+        {
+          "question": "\"My Life for Beauty\" is autobiography of this cosmetician",
+          "answer": "Helena Rubinstein",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTO-BIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7044-d-c2-r3"
+        },
+        {
+          "question": "\"Good Evening, Everybody\" & \"So Long Until Tomorrow\"",
+          "answer": "Lowell Thomas",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTO-BIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7044-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SICKNESS & HEALTH",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Color commonly associated with jaundice",
+          "answer": "yellow",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7044-d-c3-r0"
+        },
+        {
+          "question": "People with this universal donor blood type are more likely to develop ulcers",
+          "answer": "O",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7044-d-c3-r1"
+        },
+        {
+          "question": "Condition where your legs turn inward at the patellas, it's how a 1-man-band plays the cymbals",
+          "answer": "knock-kneed",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7044-d-c3-r2"
+        },
+        {
+          "question": "From Greek for \"gray\", this eye disorder is characterized by extreme pressure in the eyeball",
+          "answer": "glaucoma",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7044-d-c3-r3"
+        },
+        {
+          "question": "If you consult an otorhinolaryngologist, you're seeing a doctor who specializes in these",
+          "answer": "ear, nose & throat",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7044-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "STARTS WITH \"Z\"",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "My oh my, what a wonderful day it was when Disney's \"Song of the South\" won an Oscar for this song",
+          "answer": "\"Zip-A-Dee-Doo-Dah\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7044-d-c4-r0"
+        },
+        {
+          "question": "Mangosuthu Gatcha Buthulesi has been in the news as chief of this, South Africa's largest Black tribe",
+          "answer": "the Zulus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7044-d-c4-r1"
+        },
+        {
+          "question": "Only president whose first or last name fits this category",
+          "answer": "Zachary Taylor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7044-d-c4-r2"
+        },
+        {
+          "question": "This former arm of the North Sea, now being reclaimed, has become the 12th Netherlands province",
+          "answer": "the Zuider Zee",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7044-d-c4-r3"
+        },
+        {
+          "question": "Mary Leakey found remains of this 1 3/4 million-year -old being later renamed Australo-pithecus boisei",
+          "answer": "Zinjanthropus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7044-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL U.S.A.",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "To keep new technology secret, this Battle Creek co. has stopped their 80-year-old plant tour",
+          "answer": "Kellogg's",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7044-d-c5-r0"
+        },
+        {
+          "question": "Named for rock formations in the area, this Colorado city gets its water from a glacier it owns",
+          "answer": "Boulder",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7044-d-c5-r1"
+        },
+        {
+          "question": "City where you can visit Minnehaha Falls, its name combines Indian & Greek words for water & city",
+          "answer": "MInneapolis",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7044-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "THE CONSTITUTION",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 26th Amendment gave these people the right to vote in federal elections",
+          "answer": "18-year-olds",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE CONSTITUTION",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7044-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 3516,
+  "showNumber": 6029,
+  "airDate": "November 25, 2010",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "KNOW YOUR RIGHTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Sixth Amendment gives you the right to \"enjoy\" (yep, enjoy) \"a speedy and public\" one of these",
+          "answer": "a trial",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KNOW YOUR RIGHTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3516-s-c0-r0"
+        },
+        {
+          "question": "The Seventh Amendment gives you the right to a jury if you're suing for more than this much--2 sawbucks",
+          "answer": "$20",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KNOW YOUR RIGHTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3516-s-c0-r1"
+        },
+        {
+          "question": "The First Amendment states that \"Congress shall make no law... abridging the freedom of\" these 2 things",
+          "answer": "speech & the press",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KNOW YOUR RIGHTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3516-s-c0-r2"
+        },
+        {
+          "question": "The 3rd Amendment says that in time of peace, one of these can't be quartered in a house without the owner's consent",
+          "answer": "a soldier",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KNOW YOUR RIGHTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3516-s-c0-r3"
+        },
+        {
+          "question": "The 4th Amendment says \"No warrants shall issue but upon\" this 2-word phrase \"supported by oath or affirmation\"",
+          "answer": "probable cause",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KNOW YOUR RIGHTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3516-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THIS & THAT",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In Exodus his wife is identified as Zipporah",
+          "answer": "Moses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3516-s-c1-r0"
+        },
+        {
+          "question": "He was U.S. President when the stock market crashed in 1929",
+          "answer": "Hoover",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3516-s-c1-r1"
+        },
+        {
+          "question": "Hephaestus was the Greek god of this; Prometheus was chained to a rock for stealing it",
+          "answer": "fire",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3516-s-c1-r2"
+        },
+        {
+          "question": "This U.S. state is \"The Magnolia State\", y'all",
+          "answer": "Mississippi",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3516-s-c1-r3"
+        },
+        {
+          "question": "This controversial man won an Oscar for directing \"On the Waterfront\"",
+          "answer": "(Elia) Kazan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3516-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE OFFICE WORKOUT",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Mayo Clinic suggests sitting on an exercise ball--you'll improve this, the way you sit, starting with a straight back",
+          "answer": "your posture",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OFFICE WORKOUT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3516-s-c2-r0"
+        },
+        {
+          "question": "Practice the office version of this exercise by sitting down & standing up in rapid succession a few times a day",
+          "answer": "squats",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OFFICE WORKOUT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3516-s-c2-r1"
+        },
+        {
+          "question": "(Kelly of the Clue Crew demonstrates an office exercise.) With water bottles, you can tone these muscles in the front of the upper arms",
+          "answer": "the biceps",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OFFICE WORKOUT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3516-s-c2-r2"
+        },
+        {
+          "question": "On your break, walk laps around the office, tracking your steps on this gadget; 10,000 a day is your goal",
+          "answer": "a pedometer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OFFICE WORKOUT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3516-s-c2-r3"
+        },
+        {
+          "question": "(Kelly of the Clue Crew demonstrates an office exercise.)  It may not look like much, but pressing down on a desk for several seconds & holding is this type of static exercise, which increases muscle strength",
+          "answer": "isometric",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OFFICE WORKOUT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3516-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PRINCESS BRIDE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "With her 1993 marriage to Crown Prince Naruhito, Masako Owada became this country's empress-in-waiting",
+          "answer": "Japan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRINCESS BRIDE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3516-s-c3-r0"
+        },
+        {
+          "question": "After her 1956 wedding, she & her prince drove through the streets of Monte Carlo in an open-top car",
+          "answer": "Grace Kelly",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRINCESS BRIDE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3516-s-c3-r1"
+        },
+        {
+          "question": "She became Philip Mountbatten's bride in 1947",
+          "answer": "Queen Elizabeth II",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRINCESS BRIDE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3516-s-c3-r2"
+        },
+        {
+          "question": "This Powhatan princess wed John Rolfe in 1614",
+          "answer": "Pocahontas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRINCESS BRIDE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3516-s-c3-r3"
+        },
+        {
+          "question": "Single mom Mette-Marit Tjessem Hoiby wed Crown Prince Haakon in 2001, making her a princess of this country",
+          "answer": "Norway",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE PRINCESS BRIDE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3516-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "I'M GONNA \"MAKE\" IT!",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A complete, renovative beauty treatment; mine needed spackle & a trowel",
+          "answer": "a makeover",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M GONNA \"MAKE\" IT!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3516-s-c4-r0"
+        },
+        {
+          "question": "3-word term for keeping your finances in order, or joining 2 opposite extremes of a rope",
+          "answer": "to make ends meet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M GONNA \"MAKE\" IT!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3516-s-c4-r1"
+        },
+        {
+          "question": "This adjective refers to using whatever is available to meet an urgent need",
+          "answer": "makeshift",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M GONNA \"MAKE\" IT!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3516-s-c4-r2"
+        },
+        {
+          "question": "It sounds like a farm machine, but it's really a hard punch that renders an opponent unable to continue boxing",
+          "answer": "a haymaker",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M GONNA \"MAKE\" IT!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3516-s-c4-r3"
+        },
+        {
+          "question": "Matthew 5:9 says they shall be called \"the children of God\"",
+          "answer": "the peacemakers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M GONNA \"MAKE\" IT!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3516-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOU'LL NEED SOME COACHING",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Walter Alston,Sparky Anderson",
+          "answer": "baseball",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'LL NEED SOME COACHING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3516-s-c5-r0"
+        },
+        {
+          "question": "Tom Osborne,Marty Schottenheimer",
+          "answer": "football",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'LL NEED SOME COACHING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3516-s-c5-r1"
+        },
+        {
+          "question": "Valery Liukin,Bela Karolyi",
+          "answer": "gymnastics",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'LL NEED SOME COACHING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3516-s-c5-r2"
+        },
+        {
+          "question": "Lute Olson,Lenny Wilkens",
+          "answer": "basketball",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'LL NEED SOME COACHING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3516-s-c5-r3"
+        },
+        {
+          "question": "Jacques Lemaire,Scotty Bowman",
+          "answer": "hockey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'LL NEED SOME COACHING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3516-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the colorful body of water between Korea & Shanghai",
+          "answer": "the Yellow Sea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3516-d-c0-r0"
+        },
+        {
+          "question": "This branch of the Nile used to flood due to seasonal rainfall in Lake Tana",
+          "answer": "the Blue Nile",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3516-d-c0-r1"
+        },
+        {
+          "question": "Guyana shares the Acarai Mountains with this nation, its largest neighbor",
+          "answer": "Brazil",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3516-d-c0-r2"
+        },
+        {
+          "question": "What was once called Muslim East Bengal is today known as this",
+          "answer": "Bangladesh",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3516-d-c0-r3"
+        },
+        {
+          "question": "The Gobi Desert straddles these 2 countries",
+          "answer": "Mongolia & China",
+          "value": 3200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3516-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WE'RE GONNA NEED A BIGGER BOAT",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Near the end of this movie, Maverick makes one final \"flyby\", annoying the \"air boss\" of USS Kitty Hawk",
+          "answer": "Top Gun",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE GONNA NEED A BIGGER BOAT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3516-d-c1-r0"
+        },
+        {
+          "question": "Thanks to Rodney Dangerfield, Judge Smails' boat The Flying Wasp meets an untimely end in this comedy",
+          "answer": "Caddyshack",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE GONNA NEED A BIGGER BOAT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3516-d-c1-r1"
+        },
+        {
+          "question": "This drama adapted from a book concerns the Massachusetts fishing boat the Andrea Gail",
+          "answer": "The Perfect Storm (A Perfect Storm accepted)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE GONNA NEED A BIGGER BOAT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3516-d-c1-r2"
+        },
+        {
+          "question": "In \"Pirates of the Caribbean: At World's End\", Davy Jones helms this ship, also the name of a Wagner opera",
+          "answer": "The Flying Dutchman",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WE'RE GONNA NEED A BIGGER BOAT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3516-d-c1-r3"
+        },
+        {
+          "question": "In \"Waterworld\" Dennis Hopper helmed this ship once piloted by Joseph Hazelwood",
+          "answer": "the Exxon Valdez",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE GONNA NEED A BIGGER BOAT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3516-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY LETTER DROP",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "When a Twain title loses a letter, young royal Edward Tudor learns the problems of The London Times",
+          "answer": "The Prince and the Paper",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LETTER DROP",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3516-d-c2-r0"
+        },
+        {
+          "question": "A Faulkner tale about the Compson family loses a letter to focus on animal pelts",
+          "answer": "The Sound and the Fur",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LETTER DROP",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3516-d-c2-r1"
+        },
+        {
+          "question": "Courageous neologisms abound when a Huxley title drops a letter",
+          "answer": "Brave New Word",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LETTER DROP",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3516-d-c2-r2"
+        },
+        {
+          "question": "Drop a letter from a George Eliot novel & the Tulliver siblings are unwell on a certain river",
+          "answer": "The Ill on the Floss",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LETTER DROP",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3516-d-c2-r3"
+        },
+        {
+          "question": "Look out!  A Thomas Hardy title loses a letter & you'll want to keep your distance from a frenzied black bird",
+          "answer": "Far from the Madding Crow",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LETTER DROP",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3516-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PAT-POURRI",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's the largest Gothic-style Catholic church in the United States",
+          "answer": "St. Patrick's cathedral",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAT-POURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3516-d-c3-r0"
+        },
+        {
+          "question": "Despite his big 1775 \"Give me liberty or give me death\" speech, this man was a wealthy colonial slave owner",
+          "answer": "Patrick Henry",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAT-POURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3516-d-c3-r1"
+        },
+        {
+          "question": "The New York Knicks retired his No. 33 jersey",
+          "answer": "Patrick Ewing",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PAT-POURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3516-d-c3-r2"
+        },
+        {
+          "question": "In 2000 this political commentator was the Reform Party nominee for president",
+          "answer": "Pat Buchanan",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAT-POURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3516-d-c3-r3"
+        },
+        {
+          "question": "Author of the swashbuckling naval adventure novel \"Master & Commander\"",
+          "answer": "Patrick O'Brian",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAT-POURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3516-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLANTS & TREES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Varieties of this plant grown in American gardens include madonna, Korean aureum & tiger",
+          "answer": "lilies",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3516-d-c4-r0"
+        },
+        {
+          "question": "Tigers generally avoid man but enjoy the shelter of this tropical tree whose name starts with \"man\"",
+          "answer": "a mangrove",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3516-d-c4-r1"
+        },
+        {
+          "question": "Ochroma pyramidale, this tree, yields a lightweight wood often used to make surfboards",
+          "answer": "balsa",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3516-d-c4-r2"
+        },
+        {
+          "question": "This hardy gray-leaved shrub is so abundant in Nevada that it gave the state one of its nicknames",
+          "answer": "sagebrush",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3516-d-c4-r3"
+        },
+        {
+          "question": "This chalky white \"infantile\" flower used in bouquets is from the genus Gypsophila, which means \"lover of chalk\"",
+          "answer": "baby's breath",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3516-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "STRONG WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "From the Latin for \"energy\" or \"force\" comes this word sometimes paired with vim",
+          "answer": "vigor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STRONG WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3516-d-c5-r0"
+        },
+        {
+          "question": "This word for a strong man shares its name with a Georgia-Pacific paper product",
+          "answer": "brawny",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STRONG WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3516-d-c5-r1"
+        },
+        {
+          "question": "Completed 12 labors? You may be described with this adjective, like an ancient hero who did the same",
+          "answer": "herculean",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STRONG WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3516-d-c5-r2"
+        },
+        {
+          "question": "Meaning tough or resilient, this 6-letter word refers to tendons",
+          "answer": "sinewy",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STRONG WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3516-d-c5-r3"
+        },
+        {
+          "question": "Post-Civil War Republicans opposed to civil service reform were called these",
+          "answer": "Stalwarts",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STRONG WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3516-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. PRESIDENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He is the only president of the United States to be awarded the Purple Heart",
+          "answer": "John F. Kennedy",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. PRESIDENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3516-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

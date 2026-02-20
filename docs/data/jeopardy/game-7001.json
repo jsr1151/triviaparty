@@ -1,0 +1,809 @@
+{
+  "gameId": 7001,
+  "showNumber": 2431,
+  "airDate": "March 13, 1995",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ORGANS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Its name is akin to the Latin \"lingua\"",
+          "answer": "the tongue",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7001-s-c0-r0"
+        },
+        {
+          "question": "Elderly people sometimes have dark skin spots named for this organ",
+          "answer": "the liver",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7001-s-c0-r1"
+        },
+        {
+          "question": "A blue baby is born with this organ defective; it can now be corrected with surgery",
+          "answer": "the heart",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7001-s-c0-r2"
+        },
+        {
+          "question": "An eye bank arranges transplants of this transparent outer part of the eye",
+          "answer": "the cornea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7001-s-c0-r3"
+        },
+        {
+          "question": "Hail, hail, the basal ganglia is all here in this organ",
+          "answer": "the brain",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7001-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PIERRES CELEBRES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Pierre Boulle wrote \"The Bridge on the River Kwai\" & \"The Planet of\" these animals",
+          "answer": "the Apes",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIERRES CELEBRES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7001-s-c1-r0"
+        },
+        {
+          "question": "This state's capital is named for fur trader Pierre Chouteau",
+          "answer": "South Dakota",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIERRES CELEBRES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7001-s-c1-r1"
+        },
+        {
+          "question": "In 1898 he & his wife told of finding an element hundreds of times as radioactive as uranium",
+          "answer": "Pierre Curie",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIERRES CELEBRES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7001-s-c1-r2"
+        },
+        {
+          "question": "In April 1968, less than 3 years after taking his first public office, he was made P.M. of Canada",
+          "answer": "Pierre Trudeau",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIERRES CELEBRES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7001-s-c1-r3"
+        },
+        {
+          "question": "This French Impressionist is known for works like \"The Loge\" & for his filmmaker son, Jean",
+          "answer": "(Pierre) Renoir",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIERRES CELEBRES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7001-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In Tibetan Buddhism, the Panchen Lama was second only to this one in authority",
+          "answer": "the Dalai Lama",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7001-s-c2-r0"
+        },
+        {
+          "question": "For Muslims, this book corrects & completes revelations given to earlier prophets",
+          "answer": "the Koran",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7001-s-c2-r1"
+        },
+        {
+          "question": "The Falashas, an Ethiopian sect of this religion, trace descent from Solomon & the Queen of Sheba",
+          "answer": "Judaism",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7001-s-c2-r2"
+        },
+        {
+          "question": "Mostly Dominicans & Franciscans staffed this heretic-seeking tribunal set up in 1231",
+          "answer": "the Inquisition",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7001-s-c2-r3"
+        },
+        {
+          "question": "Term for the religious images venerated in Orthodox churches",
+          "answer": "icons",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7001-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRUITS & VEGETABLES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This orange root vegetable belongs to the same family as celery & parsley",
+          "answer": "a carrot",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7001-s-c3-r0"
+        },
+        {
+          "question": "The Crenshaw is a type of this with green skin & salmon-colored flesh",
+          "answer": "a melon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7001-s-c3-r1"
+        },
+        {
+          "question": "A compound called capsaicin puts the varying degrees of hot in different types of these",
+          "answer": "a pepper",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7001-s-c3-r2"
+        },
+        {
+          "question": "The new yellow pear variety of this is used in much the same way as the cherry type",
+          "answer": "tomatoes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7001-s-c3-r3"
+        },
+        {
+          "question": "To make moussaka use one of these purple vegetables",
+          "answer": "an eggplant",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7001-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICANA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A $100 bill shows a picture of Benjamin Franklin on the front & this building on the back",
+          "answer": "Independence Hall",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7001-s-c4-r0"
+        },
+        {
+          "question": "You can observe the big-sea-water of Lake Superior in a Michigan forest named for this Indian hero",
+          "answer": "Hiawatha",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7001-s-c4-r1"
+        },
+        {
+          "question": "Among Ivy League colleges, they're nicknamed \"The Big 3\"",
+          "answer": "Harvard, Princeton & Yale",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7001-s-c4-r2"
+        },
+        {
+          "question": "Airports in Barrow, Alaska & Renton, Washington are named for this pair who died in a 1935 plane crash",
+          "answer": "Will Rogers & Wiley Post",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7001-s-c4-r3"
+        },
+        {
+          "question": "The Bowery area of New York City was named for the farm of this Dutch colonial governor",
+          "answer": "(Peter) Stuyvesant",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICANA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7001-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANAGRAMS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A spy might use the invisible type of this to send messages to his kin",
+          "answer": "ink (for kin)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7001-s-c5-r0"
+        },
+        {
+          "question": "Many collectors file away copies of this magazine",
+          "answer": "Life (for file)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7001-s-c5-r1"
+        },
+        {
+          "question": "Sidney won't watch any films that weren't made by this studio",
+          "answer": "Disney (for Sidney)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7001-s-c5-r2"
+        },
+        {
+          "question": "If an artist doesn't own this kind of support, he should lease one",
+          "answer": "easel (for lease)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7001-s-c5-r3"
+        },
+        {
+          "question": "Nina's hobbies are pressing petals in a scrapbook & collecting these items of tableware",
+          "answer": "plates (for petals)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7001-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 16th CENTURY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "She was only 6 days old when she became Scotland's queen in 1542",
+          "answer": "Mary, Queen of Scots",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 16th CENTURY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7001-d-c0-r0"
+        },
+        {
+          "question": "The ruins of Pompeii, destroyed by this volcano's eruption, were discovered late in the century",
+          "answer": "Vesuvius",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 16th CENTURY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7001-d-c0-r1"
+        },
+        {
+          "question": "On April 18, 1506, Pope Julius II laid the cornerstone for this church",
+          "answer": "St. Peter's",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 16th CENTURY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7001-d-c0-r2"
+        },
+        {
+          "question": "In 1590 John White returned to this island to find its settlers gone, including his granddaughter Virginia Dare",
+          "answer": "Roanoke Island",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 16th CENTURY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7001-d-c0-r3"
+        },
+        {
+          "question": "In 1522 the Ottoman Turks seized this Greek island, forcing the Knights Hospitalers to flee",
+          "answer": "Rhodes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE 16th CENTURY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7001-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAKES & RIVERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's the largest river that empties into the Gulf of Mexico",
+          "answer": "the Mississippi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7001-d-c1-r0"
+        },
+        {
+          "question": "The Dordogne River, which eventually joins the Garonne, is one of this country's longest rivers",
+          "answer": "France",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7001-d-c1-r1"
+        },
+        {
+          "question": "Lakes Winnipeg & Winnipegosis in this Canadian province are remnants of the glacial Lake Agassiz",
+          "answer": "Manitoba",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7001-d-c1-r2"
+        },
+        {
+          "question": "This second-largest African lake separates Tanzania from Zaire",
+          "answer": "Lake Tanganyika",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7001-d-c1-r3"
+        },
+        {
+          "question": "On its way from the Andes to the Pacific, the Loa river flows through this Chilean desert",
+          "answer": "the Atacama",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7001-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICAL THEATRE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Rosie O'Donnell played the tart-tongued Rizzo in the 1994 revival of this musical set in the '50s",
+          "answer": "Grease",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7001-d-c2-r0"
+        },
+        {
+          "question": "Rodgers & Hammerstein wrote this \"regal\" musical for Gertrude Lawrence, who played Anna in it",
+          "answer": "The King and I",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7001-d-c2-r1"
+        },
+        {
+          "question": "This \"Cabaret\" star played George M. Cohan in the 1968 musical \"George M!\"",
+          "answer": "Joel Grey",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7001-d-c2-r2"
+        },
+        {
+          "question": "This dancer who says he's 5 feet 18 1/2 inches tall directed & choreographed \"Grand Hotel\"",
+          "answer": "Tommy Tune",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7001-d-c2-r3"
+        },
+        {
+          "question": "This composer's \"Passion\" won the 1994 Tony for Best Musical",
+          "answer": "Stephen Sondheim",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7001-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CONGRESS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "TV cameras were admitted to the Senate chambers in 1974 when N. Rockefeller was sworn into this job",
+          "answer": "vice president",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONGRESS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7001-d-c3-r0"
+        },
+        {
+          "question": "Since 1787 Congress has presented only 33 of these to the states; 6 were not ratified",
+          "answer": "amendments to the Constitution",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONGRESS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7001-d-c3-r1"
+        },
+        {
+          "question": "The privilege of sending mail by putting a signature on the envelope is called this",
+          "answer": "franking",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONGRESS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7001-d-c3-r2"
+        },
+        {
+          "question": "This chair of the Senate Watergate Committee first entered the House to complete his brother's term",
+          "answer": "Sam Ervin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONGRESS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7001-d-c3-r3"
+        },
+        {
+          "question": "This Democrat won his fourth Senate term in 1994 but lost his Finance Committee chair to the GOP",
+          "answer": "Senator Daniel Patrick Moynihan (of New York)",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CONGRESS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7001-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAMMALS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The blue bear, whose fur appears bluish, lives in this U.S. state—maybe it's cold",
+          "answer": "Alaska",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7001-d-c4-r0"
+        },
+        {
+          "question": "Of the average man, mouse or warthog, the one who can run fastest at its top speed",
+          "answer": "the warthog",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7001-d-c4-r1"
+        },
+        {
+          "question": "The Bedlington terrier is named for a coal-mining area in this country",
+          "answer": "England",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7001-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY ALLUSIONS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The name of this Washington Irving sleepyhead came to symbolize a person who's out of step with the times",
+          "answer": "Rip Van Winkle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY ALLUSIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7001-d-c5-r0"
+        },
+        {
+          "question": "Ali Baba's 2-word command, it signifies something that brings about a desired result, as if by magic",
+          "answer": "open sesame",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY ALLUSIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7001-d-c5-r1"
+        },
+        {
+          "question": "Uncouth boors have been called Yahoos ever since this 18th century satirist coined the term — think \"fast\"",
+          "answer": "Jonathan Swift",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY ALLUSIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7001-d-c5-r2"
+        },
+        {
+          "question": "Someone who teaches crimes to others is called this, after the twisted old gang leader in \"Oliver Twist\"",
+          "answer": "Fagin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY ALLUSIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7001-d-c5-r3"
+        },
+        {
+          "question": "The title of O. Henry's book \"Cabbages and Kings\" comes from Lewis Carroll's poem about this duo",
+          "answer": "the Walrus & the Carpenter",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY ALLUSIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7001-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD CURRENCY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On an alphabetical list of the world's basic monetary units, this one is last",
+          "answer": "the złoty",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "WORLD CURRENCY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7001-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

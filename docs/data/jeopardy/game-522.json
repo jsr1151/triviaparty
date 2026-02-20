@@ -1,0 +1,761 @@
+{
+  "gameId": 522,
+  "showNumber": 1309,
+  "airDate": "April 19, 1990",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE OSCARS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Edgar Bergen received an honorary Oscar in 1938 for creating this dummy",
+          "answer": "Charlie McCarthy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE OSCARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g522-s-c0-r0"
+        },
+        {
+          "question": "The last Oscar for cinematography in B & W went to this '66 film based on an Edward Albee play",
+          "answer": "Who's Afraid of Virginia Woolf?",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OSCARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g522-s-c0-r1"
+        }
+      ]
+    },
+    {
+      "name": "UTAH",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The first Europeans to visit the area were explorers from this country",
+          "answer": "Spain",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UTAH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g522-s-c1-r0"
+        },
+        {
+          "question": "This university in Provo, run by the Mormon church, is the largest in the state",
+          "answer": "Brigham Young University",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UTAH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g522-s-c1-r1"
+        },
+        {
+          "question": "Record speeds of more than 600 MPH have been reached at the International Speedway here",
+          "answer": "Bonneville Salt Flats",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UTAH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g522-s-c1-r2"
+        },
+        {
+          "question": "When it applied for statehood in 1849, some wanted to call it Deseret, which means this",
+          "answer": "Honeybees",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UTAH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g522-s-c1-r3"
+        },
+        {
+          "question": "The state's largest ski area, Park City, is on the eastern slopes of this range of the Rockies",
+          "answer": "Wasatch",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UTAH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g522-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FASHION DESIGNERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1957 Mary Quant opened her Bazaar Boutique on the King's Road in this city",
+          "answer": "London",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION DESIGNERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g522-s-c2-r0"
+        },
+        {
+          "question": "Geoffrey Beene designed the gown that Lynda Bird Johnson wore for this Dec. 9, 1967 event",
+          "answer": "her wedding",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION DESIGNERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g522-s-c2-r1"
+        },
+        {
+          "question": "This Bronx native designs western-inspired fashions for ladies & for \"chaps\"",
+          "answer": "Ralph Lauren",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION DESIGNERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g522-s-c2-r2"
+        },
+        {
+          "question": "By the 1920s Balenciaga was the leading couturier in this country, his homeland",
+          "answer": "Spain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION DESIGNERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g522-s-c2-r3"
+        },
+        {
+          "question": "This Havana-born designer is known by his first name, not by his last, Sardina",
+          "answer": "Adolfo",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION DESIGNERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g522-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEATHER",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Pleistocene epoch of extensive glaciation in Europe & America is also called this",
+          "answer": "The Ice Age",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g522-s-c3-r0"
+        },
+        {
+          "question": "A magnetic storm is a worldwide disturbance of Earth's magnetic field caused by disturbances there",
+          "answer": "The Sun",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g522-s-c3-r1"
+        },
+        {
+          "question": "The temperature & humidity conditions characteristic of Santa Ana, Foehn & Chinook winds",
+          "answer": "Hot & Dry",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g522-s-c3-r2"
+        },
+        {
+          "question": "\"Seasonal\" term that describes the cold & dark weather that nuclear war could bring",
+          "answer": "Nuclear Winter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g522-s-c3-r3"
+        },
+        {
+          "question": "The 2 most commonly used temperature scales, each named for its inventor",
+          "answer": "Celsius & Fahrenheit",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g522-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TITLES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Mrs.\" is an abbreviation of this title",
+          "answer": "Mistress",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TITLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g522-s-c4-r0"
+        },
+        {
+          "question": "Any Mongol could tell you it means \"Universal Ruler\"",
+          "answer": "Genghis Khan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TITLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g522-s-c4-r1"
+        },
+        {
+          "question": "In 1973 Lou Ferrigno was \"Mr.\" this, & Maria Margarita Moran, \"Miss\"",
+          "answer": "Universe",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TITLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g522-s-c4-r2"
+        },
+        {
+          "question": "This moniker for a mendicant comes from the Latin for \"brother\"",
+          "answer": "Friar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TITLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g522-s-c4-r3"
+        },
+        {
+          "question": "It follows \"your\" when addressing a duke",
+          "answer": "Grace",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TITLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g522-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LEFTOVERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Some call this American war \"The War of Northern Aggression\"",
+          "answer": "The Civil War",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g522-s-c5-r0"
+        },
+        {
+          "question": "October, our tenth month, is from the Latin word \"octo\", meaning this",
+          "answer": "Eight",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g522-s-c5-r1"
+        },
+        {
+          "question": "It was the No. 2 reactor at this Pennsylvania site that caused fears of a meltdown",
+          "answer": "Three Mile Island",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g522-s-c5-r2"
+        },
+        {
+          "question": "In 1968 Creighton Abrams replaced this general as commander of U.S. forces in Vietnam",
+          "answer": "William Westmoreland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g522-s-c5-r3"
+        },
+        {
+          "question": "This chairman of Occidental Petroleum said he will raise $250 million a year in a \"Stop Cancer\" drive",
+          "answer": "Armand Hammer",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g522-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "RECENT U.S. HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1954 the U.S. tested a hydrogen bomb in the Marshall Islands & launched this nuclear sub",
+          "answer": "the Nautilus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g522-d-c0-r0"
+        },
+        {
+          "question": "N.Y. governor who announced in January 1948 he'd run for president if nominated; he was; he lost",
+          "answer": "Thomas Dewey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g522-d-c0-r1"
+        },
+        {
+          "question": "In 1973 he chaired the Senate Select Committee on Presidential Campaign Activities",
+          "answer": "Sam Ervin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g522-d-c0-r2"
+        },
+        {
+          "question": "Lyndon Johnson convinced Arthur Goldberg to give up his Supreme Court seat for this job",
+          "answer": "Ambassador to the U.N.",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g522-d-c0-r3"
+        },
+        {
+          "question": "In 1972 she ran for president on the slogan \"Unbought and unbossed\"",
+          "answer": "Shirley Chisholm",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g522-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Poet John Donne was first to write \"No man is\" this",
+          "answer": "an island",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g522-d-c1-r0"
+        },
+        {
+          "question": "Bret Harte wrote a short story about \"The Outcasts of\" this mining camp",
+          "answer": "Poker Flat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g522-d-c1-r1"
+        },
+        {
+          "question": "The Reader's Encyclopedia said, \"He loved the... main streets of America even as he deplored them\"",
+          "answer": "Sinclair Lewis",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g522-d-c1-r2"
+        },
+        {
+          "question": "Ayn Rand book that ends with \"Then there was only the ocean and the sky and the figure of Howard Roark\"",
+          "answer": "The Fountainhead",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g522-d-c1-r3"
+        },
+        {
+          "question": "His eccentric novel \"Tristram Shandy\" contains blank pages & 1-sentence chapters",
+          "answer": "Laurence Sterne",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g522-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HORSES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This spotted breed originated in the Palouse River region of Washington & Idaho",
+          "answer": "Appaloosa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g522-d-c2-r0"
+        },
+        {
+          "question": "Of 18, 36 or 48, the maximum number of letters allowed in the name of a thoroughbred racehorse",
+          "answer": "18",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HORSES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g522-d-c2-r1"
+        },
+        {
+          "question": "During their first year, both male & female horses are referred to by this term",
+          "answer": "foal",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g522-d-c2-r2"
+        },
+        {
+          "question": "It's a projection with a tuft of hair on the back of a horse's leg just above the hoof",
+          "answer": "a fetlock",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g522-d-c2-r3"
+        },
+        {
+          "question": "This harness breed shares its name with a 17th century English coach for hire",
+          "answer": "Hackney Pony",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HORSES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g522-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "EDUCATION",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Type of American school that's equivalent to a European gymnasium",
+          "answer": "high school",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EDUCATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g522-d-c3-r0"
+        },
+        {
+          "question": "The women who raised $500,000 to open this Baltimore med school in 1893 insisted women be admitted",
+          "answer": "Johns Hopkins",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EDUCATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g522-d-c3-r1"
+        },
+        {
+          "question": "In 1989 this city's school system, 3rd largest in the U.S., was required by state law to decentralize",
+          "answer": "Chicago",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EDUCATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g522-d-c3-r2"
+        },
+        {
+          "question": "The first U.S. school of architecture was established at this Mass. school founded in 1861",
+          "answer": "Massachusetts Institute of Technology (MIT)",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EDUCATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g522-d-c3-r3"
+        },
+        {
+          "question": "Headquartered in the Bronx, its ads say it's the \"Jesuit University of New York City\"",
+          "answer": "Fordham",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EDUCATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g522-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD CITIES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1788 a handful of officials & some 700 convicts founded this Australian city on Botany Bay",
+          "answer": "Sydney",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g522-d-c4-r0"
+        },
+        {
+          "question": "Intercontinental flights to Scotland land at Prestwick Airport just outside this city",
+          "answer": "Glasgow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g522-d-c4-r1"
+        },
+        {
+          "question": "In 1919 locksmith Anton Drexler founded the forerunner of the Nazi Party in this Bavarian capital",
+          "answer": "Munich",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g522-d-c4-r2"
+        },
+        {
+          "question": "Much in the news of late, it's Colombia's second largest city",
+          "answer": "Medellin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g522-d-c4-r3"
+        },
+        {
+          "question": "You can see an exhibit about early transatlantic flights at this Newfoundland city's airport",
+          "answer": "Gander",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g522-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SODOM & GOMORRAH",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "1 of the 2 things the Lord \"rained\" upon the cities to destroy them",
+          "answer": "fire (or brimstone)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SODOM & GOMORRAH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g522-d-c5-r0"
+        },
+        {
+          "question": "Jesus told them the fate of people who don't heed them will be worse than Sodom & Gomorrah",
+          "answer": "the Apostles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SODOM & GOMORRAH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g522-d-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This company was incorporated in 1946 as Tokyo Telecommunications Engineering Corporation",
+          "answer": "Sony",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g522-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 4721,
+  "showNumber": 6937,
+  "airDate": "November 11, 2014",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. CITY NICKNAMES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "New Mexico:\"Atomic City\"",
+          "answer": "Los Alamos",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITY NICKNAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4721-s-c0-r0"
+        },
+        {
+          "question": "Missouri:\"Live Music Capital of the World\"",
+          "answer": "Branson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITY NICKNAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4721-s-c0-r1"
+        },
+        {
+          "question": "Oregon:\"Track Town USA\"",
+          "answer": "Eugene",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITY NICKNAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4721-s-c0-r2"
+        },
+        {
+          "question": "Indiana:\"Steel City\"",
+          "answer": "Gary",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITY NICKNAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4721-s-c0-r3"
+        },
+        {
+          "question": "New York:\"Snapshot City\"",
+          "answer": "Rochester",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITY NICKNAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4721-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEIGHTS & MEASURES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "As a rule of thumb, a full one of these should have a minimum of 300 coils; a king should have 450",
+          "answer": "mattress",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4721-s-c1-r0"
+        },
+        {
+          "question": "A variable size of paper, often 23\" or 30\", or an adjective referring to the British system of weights & measures",
+          "answer": "imperial",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4721-s-c1-r1"
+        },
+        {
+          "question": "18-karat gold is this percentage pure",
+          "answer": "75%",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4721-s-c1-r2"
+        },
+        {
+          "question": "In the metric system the prefix \"deca\" means 10; this means 1 trillion",
+          "answer": "tera",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4721-s-c1-r3"
+        },
+        {
+          "question": "Your lumber company can tell you that one of these is 12 inches by 12 inches by 1 inch",
+          "answer": "board foot",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4721-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY AWARDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This award for science fiction or fantasy is named for Mr. Gernsback, the founder of Amazing Stories magazine",
+          "answer": "the Hugo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY AWARDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4721-s-c2-r0"
+        },
+        {
+          "question": "This French writer was just 44 when he got the Nobel Prize for Literature for works like \"The Myth of Sisyphus\"",
+          "answer": "(Albert) Camus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY AWARDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4721-s-c2-r1"
+        },
+        {
+          "question": "A Swedish award for adolescent & children's literature is named for this \"Pippi Longstocking\" author",
+          "answer": "Astrid Lindgren",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY AWARDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4721-s-c2-r2"
+        },
+        {
+          "question": "The Man Group administers this prize now open to any novel written in English, not just by Brits",
+          "answer": "Booker Prize",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY AWARDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4721-s-c2-r3"
+        },
+        {
+          "question": "Though dead almost 20 years, she won a 1982 Pulitzer for her \"Collected Poems\"",
+          "answer": "(Sylvia) Plath",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY AWARDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4721-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CROSSWORD CLUES \"M\"",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Before Tussaud or Bovary(6)",
+          "answer": "Madame",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"M\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4721-s-c3-r0"
+        },
+        {
+          "question": "Nobleman below a duke & above an earl(7)",
+          "answer": "marquis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"M\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4721-s-c3-r1"
+        },
+        {
+          "question": "GranTurismo maker(8)",
+          "answer": "Maserati",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"M\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4721-s-c3-r2"
+        },
+        {
+          "question": "Teeny tiny bacteria & protozoans(14)",
+          "answer": "microorganisms",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"M\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4721-s-c3-r3"
+        },
+        {
+          "question": "Judas' apostle replacement(8)",
+          "answer": "Matthias",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"M\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4721-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ABOVE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "To be superior is to be this shampoo brand \"above the rest\"",
+          "answer": "Head & Shoulders",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABOVE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4721-s-c4-r0"
+        },
+        {
+          "question": "Rumors led Caesar to divorce his wife, who we now proverbially say \"must be above\" this",
+          "answer": "suspicion",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABOVE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4721-s-c4-r1"
+        },
+        {
+          "question": "In film budgeting, writers, producers & talent are idiomatically considered this",
+          "answer": "above the line",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABOVE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4721-s-c4-r2"
+        },
+        {
+          "question": "Wordsworth wrote lines composed a few miles above this place",
+          "answer": "Tintern Abbey",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABOVE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4721-s-c4-r3"
+        },
+        {
+          "question": "In the original language, these first 4 words of the anthem written in 1841 put 1 country \"above all\"",
+          "answer": "Deutschland, Deutschland über alles",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ABOVE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4721-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "& BEYONCÉ",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Before she was an independent woman, Beyoncé was part of this group that hit with \"Independent Women Part 1\"",
+          "answer": "Destiny's Child",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BEYONCÉ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4721-s-c5-r0"
+        },
+        {
+          "question": "In an \"SNL\" skit, Justin Timberlake & Andy Samberg, in leotards & heels, replaced Bey's female dancers in this video",
+          "answer": "\"Single Ladies\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BEYONCÉ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4721-s-c5-r1"
+        },
+        {
+          "question": "Beyoncé's daughter sounds like a colorful plant with this first & middle name",
+          "answer": "Blue Ivy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BEYONCÉ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4721-s-c5-r2"
+        },
+        {
+          "question": "In the movie \"Cadillac Records\", Beyoncé played this R&B legend & sang \"At Last\" on the soundtrack",
+          "answer": "Etta James",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BEYONCÉ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4721-s-c5-r3"
+        },
+        {
+          "question": "Jay Z is featured on this Beyoncé song that mentions \"that liquor get into me\"",
+          "answer": "\"Drunk In Love\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BEYONCÉ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4721-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "OPERA MAN",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Wagnerian dude tells Wotan he's forged the sword, killed the dragon & taken the gold",
+          "answer": "Siegfried",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA MAN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4721-d-c0-r0"
+        },
+        {
+          "question": "In a Benjamin Britten opera, Claggart uses Corporal Squeak to spy on this title sailor",
+          "answer": "Billy Budd",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA MAN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4721-d-c0-r1"
+        },
+        {
+          "question": "In \"Die Fledermaus\" Frosch the jailer comically has problems keeping Alfred from doing this in his cell",
+          "answer": "singing",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OPERA MAN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4721-d-c0-r2"
+        },
+        {
+          "question": "Given names Benjamin Franklin, he arranges for a marriage with a geisha in a 1904 opera",
+          "answer": "(Lieutenant) Pinkerton",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA MAN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4721-d-c0-r3"
+        },
+        {
+          "question": "When she disguises herself as a man, Leonore takes this name; now she & hubby Florestan have matching monograms",
+          "answer": "Fidelio",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA MAN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4721-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALL THE PRESIDENTS' CHILDREN",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "His baby Ruth was born in 1891, in between his two terms",
+          "answer": "Grover Cleveland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL THE PRESIDENTS' CHILDREN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4721-d-c1-r0"
+        },
+        {
+          "question": "This teen's given first name is Natasha",
+          "answer": "Sasha Obama",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL THE PRESIDENTS' CHILDREN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4721-d-c1-r1"
+        },
+        {
+          "question": "In 1999 People magazine said his \"death left unbearable pain, unfulfilled promise\"",
+          "answer": "John F. Kennedy, Jr.",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL THE PRESIDENTS' CHILDREN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4721-d-c1-r2"
+        },
+        {
+          "question": "His son Elliott wrote a series of mystery novels featuring his mother, including \"The White House Pantry Murder\"",
+          "answer": "FDR",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALL THE PRESIDENTS' CHILDREN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4721-d-c1-r3"
+        },
+        {
+          "question": "When this daughter of Ronald Reagan died in 2001, she was recalled as a \"glorious powerhouse of a woman\"",
+          "answer": "Maureen Reagan",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALL THE PRESIDENTS' CHILDREN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4721-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNATIONAL FESTIVALS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Beer steins up for this 2-week-long festival in Munich that's attended by more than 6 million people annually",
+          "answer": "Oktoberfest",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4721-d-c2-r0"
+        },
+        {
+          "question": "The Palme d'Or is the top prize at this festival held on the French Riviera",
+          "answer": "Cannes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4721-d-c2-r1"
+        },
+        {
+          "question": "This Japanese city & onetime Winter Olympic host, also a beer name, has a festival featuring snow sculptures",
+          "answer": "Sapporo",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4721-d-c2-r2"
+        },
+        {
+          "question": "In July 2014 this resort town on Lake Geneva jazzed things up hosting its 48th annual jazz festival",
+          "answer": "Montreux",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4721-d-c2-r3"
+        },
+        {
+          "question": "The name of this major Hindu festival is derived from Sanskrit for \"row of lights\"",
+          "answer": "Diwali",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4721-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "VOWEL, CONSONANT x3",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A departure, Biblically speaking",
+          "answer": "exodus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWEL, CONSONANT x3",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4721-d-c3-r0"
+        },
+        {
+          "question": "Aroused to mirth; the queen may not be, but we are",
+          "answer": "amused",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWEL, CONSONANT x3",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4721-d-c3-r1"
+        },
+        {
+          "question": "Astounded",
+          "answer": "amazed",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWEL, CONSONANT x3",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4721-d-c3-r2"
+        },
+        {
+          "question": "A public speaker of great eloquence; it was once a legal term for a plaintiff",
+          "answer": "orator",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWEL, CONSONANT x3",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4721-d-c3-r3"
+        },
+        {
+          "question": "It's Latin for \"womb\"",
+          "answer": "uterus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWEL, CONSONANT x3",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4721-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CASPIAN SEA",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Caspian is historically the chief source of the Beluga type of this food from sturgeon",
+          "answer": "caviar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CASPIAN SEA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4721-d-c4-r0"
+        },
+        {
+          "question": "This Russian river provides more than 75% of the Caspian Sea's inflow",
+          "answer": "the Volga",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CASPIAN SEA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4721-d-c4-r1"
+        },
+        {
+          "question": "Native to the Caspian, this mussel, named for its striped pattern, was found invading the Great Lakes region in the 1980s",
+          "answer": "the zebra mussel",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CASPIAN SEA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4721-d-c4-r2"
+        },
+        {
+          "question": "The Caspian's southern shoreline borders this country at the foot of the Elburz Mountains",
+          "answer": "Iran",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CASPIAN SEA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4721-d-c4-r3"
+        },
+        {
+          "question": "Large-scale oil production began in this Azerbaijani capital in 1872, making it a global center of the industry by 1900",
+          "answer": "Baku",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CASPIAN SEA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4721-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SUPERMAN TO HER LOIS LANE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Margot Kidder(1978)",
+          "answer": "Christopher Reeve",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN TO HER LOIS LANE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4721-d-c5-r0"
+        },
+        {
+          "question": "Amy Adams(2013)",
+          "answer": "Henry Cavill",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN TO HER LOIS LANE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4721-d-c5-r1"
+        },
+        {
+          "question": "Teri Hatcher(1990s TV)",
+          "answer": "Dean Cain",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN TO HER LOIS LANE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4721-d-c5-r2"
+        },
+        {
+          "question": "Noel Neill(1950s TV)",
+          "answer": "George Reeves",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN TO HER LOIS LANE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4721-d-c5-r3"
+        },
+        {
+          "question": "Kate Bosworth(2006)",
+          "answer": "Brandon Routh",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN TO HER LOIS LANE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4721-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE OXFORD ENGLISH DICTIONARY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "As of 2013 this 3-letter verb common in sports, theater & politics has the largest entry in the online OED",
+          "answer": "run",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE OXFORD ENGLISH DICTIONARY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4721-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

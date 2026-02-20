@@ -1,0 +1,712 @@
+{
+  "gameId": 7610,
+  "showNumber": 180,
+  "airDate": "May 17, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SHIPS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Second in command to the captain",
+          "answer": "first mate (executive officer accepted)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7610-s-c0-r0"
+        },
+        {
+          "question": "From Old English for \"steering oar\" & \"ship's side\", it's the right side of the ship",
+          "answer": "starboard",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7610-s-c0-r1"
+        },
+        {
+          "question": "Ship in the following:\"...he got drunk /And broke in the Captain’s trunk /The constable had to come and take him away...\"",
+          "answer": "the sloop John B",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7610-s-c0-r2"
+        },
+        {
+          "question": "Though the Confederates had the \"Hunley\", the \"Holland\", launched in 1898, was the 1st of this type in U.S. Navy",
+          "answer": "a submarine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7610-s-c0-r3"
+        },
+        {
+          "question": "Spain's \"Invincible Armada\" was made up of these vincible treasure ships",
+          "answer": "galleons",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7610-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAIRIES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "If Washington had left a tooth under his pillow, she might have left a wooden nickel",
+          "answer": "tooth fairy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAIRIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7610-s-c1-r0"
+        },
+        {
+          "question": "Another name for a fairy, or a Coca-Cola product with \"Lymon\"",
+          "answer": "Sprite",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAIRIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7610-s-c1-r1"
+        },
+        {
+          "question": "It was she, not the prince, who really gave Cinderella the night to remember",
+          "answer": "the Fairy Godmother",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAIRIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7610-s-c1-r2"
+        },
+        {
+          "question": "Wish the Blue Fairy granted Geppetto",
+          "answer": "that his wooden doll would become his son (that Pinocchio would become a real boy)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAIRIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7610-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRY MUSIC",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Jeannie C. Riley hit sold 6 million records",
+          "answer": "\"The Harper Valley P.T.A.\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7610-s-c2-r0"
+        },
+        {
+          "question": "Expelled from a Bible school at age 15, this country-rock star is known as \"The Killer\"",
+          "answer": "Jerry Lee Lewis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7610-s-c2-r1"
+        },
+        {
+          "question": "A Rhodes scholarship paid \"For the Good Times\" he had at Oxford",
+          "answer": "Kris Kristofferson",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7610-s-c2-r2"
+        },
+        {
+          "question": "Though he's the son of Hank Snow, \"The Singing Ranger\", he's named after \"The Singing Brakeman\"",
+          "answer": "Jimmie Rodgers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7610-s-c2-r3"
+        },
+        {
+          "question": "According to Johnny Horton, \"When it's springtime in Alaska\" it's this temperature",
+          "answer": "40 below",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7610-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTENT POTABLES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It makes M.A.D.D. members mad",
+          "answer": "drunk drivers (drinking and driving)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7610-s-c3-r0"
+        },
+        {
+          "question": "St. Paul wrote to Timothy: \"Drink no longer water but use a little\" of this \"for thy stomach's sake\"",
+          "answer": "wine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7610-s-c3-r1"
+        },
+        {
+          "question": "A tall cocktail of rum, liqueur & fruit juice, or a walking corpse",
+          "answer": "a zombie",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7610-s-c3-r2"
+        },
+        {
+          "question": "Eastern European country in which Tokay wine originated",
+          "answer": "Hungary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7610-s-c3-r3"
+        },
+        {
+          "question": "Nickname of British admiral Vernon who watered down sailors' liquor rations",
+          "answer": "Grog",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7610-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Fortunately, God must have had a 2nd copy of these lying around because Moses smashed the first",
+          "answer": "the Ten Commandments",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7610-s-c4-r0"
+        }
+      ]
+    },
+    {
+      "name": "LETTER PERFECT",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Precedes ray, rated, & marks the spot",
+          "answer": "X",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7610-s-c5-r0"
+        },
+        {
+          "question": "A piece of paper signed to represent a debt",
+          "answer": "IOU",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7610-s-c5-r1"
+        },
+        {
+          "question": "1930 Peter Lorre film directed by Fritz Lang",
+          "answer": "M",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7610-s-c5-r2"
+        },
+        {
+          "question": "The 15th & 16th letters, or a Mayberry youth",
+          "answer": "OP (Opie)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7610-s-c5-r3"
+        },
+        {
+          "question": "The only letter not present in the spellings of any of the fifty states",
+          "answer": "Q",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7610-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 622, he was driven out of Mecca & fled to Medina",
+          "answer": "Muhammad",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7610-d-c0-r0"
+        },
+        {
+          "question": "John Milton was member of Puritan govt. which ruled England under leadership of this man",
+          "answer": "Oliver Cromwell",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7610-d-c0-r1"
+        },
+        {
+          "question": "Country besides Israel that was part of Britain's Palestine mandate",
+          "answer": "Jordan",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7610-d-c0-r2"
+        },
+        {
+          "question": "Nickname of Prince Henry of Portugal who sponsored over 50 exploratory voyages but didn't go on any",
+          "answer": "Prince Henry the Navigator",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7610-d-c0-r3"
+        },
+        {
+          "question": "To start a new industry, 6th c. missionaries smuggled mulberry seeds & these eggs out of China",
+          "answer": "the silk industry (silkworm eggs)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7610-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN INDIANS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Actor who turned down '73 Oscar to protest treatment of Indians",
+          "answer": "Marlon Brando",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7610-d-c1-r0"
+        },
+        {
+          "question": "19th C. Plains Ind. Ghost Dance religion promised disappearance of Whites & return of these animals",
+          "answer": "buffalo (or bison)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7610-d-c1-r1"
+        },
+        {
+          "question": "Their name is said to derive from rubbing their moccasins in ashes",
+          "answer": "the Blackfeet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7610-d-c1-r2"
+        },
+        {
+          "question": "State whose name comes from 2 Choctaw words meaning \"red people\"",
+          "answer": "Oklahoma",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7610-d-c1-r3"
+        },
+        {
+          "question": "When the pilgrims got to America, they met this English-speaking Indian who had lived in England",
+          "answer": "Squanto",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7610-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL CHARACTERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Captain Ahab died harpooning him",
+          "answer": "Moby Dick",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7610-d-c2-r0"
+        },
+        {
+          "question": "Elwood P. Dowd's bosom bunny",
+          "answer": "Harvey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7610-d-c2-r1"
+        },
+        {
+          "question": "Mark Twain's foreman from Bridgeport, played on screen by Will Rogers & Bing Crosby",
+          "answer": "Connecticut Yankee in King Arthur's Court",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7610-d-c2-r2"
+        },
+        {
+          "question": "He ran away from home the day he was born because he heard his parents talking about his future as a man",
+          "answer": "Peter Pan",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7610-d-c2-r3"
+        },
+        {
+          "question": "The twins Louis & Lucien de Franchi were the title characters of this Dumas tale",
+          "answer": "The Corsican Brothers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7610-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ITALY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Milan is noted for this thick vegetable soup",
+          "answer": "minestrone",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7610-d-c3-r0"
+        },
+        {
+          "question": "In 1937 NBC formed a symphony orchestra for this great Italian conductor to direct",
+          "answer": "Toscanini",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7610-d-c3-r1"
+        },
+        {
+          "question": "These radical terrorists oppose all political parties, even the Communists",
+          "answer": "the Red Brigade",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7610-d-c3-r2"
+        },
+        {
+          "question": "Artisans of the Venetian islands of Murano are famed for working with this substance",
+          "answer": "glass",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ITALY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7610-d-c3-r3"
+        },
+        {
+          "question": "40% of Italy's people live in this river valley",
+          "answer": "the Po",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7610-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSEUMS",
+      "round": "double",
+      "position": 4,
+      "clues": []
+    },
+    {
+      "name": "FIRST, MIDDLE & LAST",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "His first phone call went \"Mr. Watson, come here; I want you!\"",
+          "answer": "Alexander Graham Bell",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST, MIDDLE & LAST",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7610-d-c5-r0"
+        },
+        {
+          "question": "In 1971, she became 1st woman tennis player to earn $100,000 in one year",
+          "answer": "Billie Jean King",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST, MIDDLE & LAST",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7610-d-c5-r1"
+        },
+        {
+          "question": "He starred as Starsky",
+          "answer": "Paul Michael Glaser",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST, MIDDLE & LAST",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7610-d-c5-r2"
+        },
+        {
+          "question": "To the Samoans, who called him \"Tusitala\", or teller of tales, he was a real \"Island Treasure\"",
+          "answer": "Robert Louis Stevenson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST, MIDDLE & LAST",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7610-d-c5-r3"
+        },
+        {
+          "question": "Desperate to get this animal trainer, \"Ringling\" bought entire German circus for $2 million",
+          "answer": "Gunther Gebel-Williams",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRST, MIDDLE & LAST",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7610-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BRITISH MONARCHS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1553, she became 1st woman to be crowned Queen of England",
+          "answer": "Mary (Bloody Mary/Mary Tudor)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "BRITISH MONARCHS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7610-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

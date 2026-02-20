@@ -1,0 +1,640 @@
+{
+  "gameId": 3010,
+  "showNumber": 2808,
+  "airDate": "November 13, 1996",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "CURRENT EVENTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In July 1996 he was reelected president of Russia in that country's first free presidential election",
+          "answer": "Boris Yeltsin",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3010-s-c0-r0"
+        },
+        {
+          "question": "This Bill Gates' company introduced its Internet Explorer web browser to compete with Netscape",
+          "answer": "Microsoft",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3010-s-c0-r1"
+        },
+        {
+          "question": "The only living Democratic ex-president, he didn't attend the 1996 convention, but vacationed in Montana",
+          "answer": "Jimmy Carter",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3010-s-c0-r2"
+        },
+        {
+          "question": "On August 15, 1996 this Bosnian capital's airport opened for commercial flights after a 4-year closure",
+          "answer": "Sarajevo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3010-s-c0-r3"
+        },
+        {
+          "question": "On August 19, 1996 this consumer advocate accepted the Green Party's nomination for president",
+          "answer": "Ralph Nader",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3010-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS STARS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Rick Mears has won this May auto race a record 3 times from the pole position",
+          "answer": "the Indianapolis 500",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3010-s-c1-r0"
+        },
+        {
+          "question": "Close but no; on August 10, 1996 this horse failed to break Citation's record of 16 straight victories",
+          "answer": "Cigar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3010-s-c1-r1"
+        },
+        {
+          "question": "NBA player seen here:",
+          "answer": "Dennis Rodman",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3010-s-c1-r2"
+        },
+        {
+          "question": "This Olympic gold medal-winning tennis player won the ATP title for the second year in a row August 11, 1996",
+          "answer": "Andre Agassi",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3010-s-c1-r3"
+        },
+        {
+          "question": "On December 25, 1995 this Dallas Cowboys running back set an NFL season record by rushing for his 25th touchdown",
+          "answer": "Emmitt Smith",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3010-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CELEBRITY BOOKS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This talk show host & son Cody share some of their experiences in \"Listen to My Heart\"",
+          "answer": "Kathie Lee Gifford",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3010-s-c2-r0"
+        },
+        {
+          "question": "If you know that \"No Shirt. No Shoes. No Problem!\" is a book by this comic, you might be a redneck",
+          "answer": "Jeff Foxworthy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3010-s-c2-r1"
+        },
+        {
+          "question": "This \"Mad About You\" star offered his witty views on marriage & living together in \"Couplehood\"",
+          "answer": "Paul Reiser",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3010-s-c2-r2"
+        },
+        {
+          "question": "In 1996 this former \"Dynasty\" star published a Hollywood sizzler called \"Infamous\"",
+          "answer": "Joan Collins",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3010-s-c2-r3"
+        },
+        {
+          "question": "This pop artist published his philosophy \"From A to B & Back Again\" in 1975 & his \"Diaries\" in 1989",
+          "answer": "Andy Warhol",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3010-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD TRAVEL",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Actors should enjoy the Theater History Museum inside this Danish capital's Royal Court Theater",
+          "answer": "Copenhagen",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD TRAVEL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3010-s-c3-r0"
+        }
+      ]
+    },
+    {
+      "name": "LIONS & TIGERS & BEARS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The two that are of the family Felidae",
+          "answer": "lions & tigers",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIONS & TIGERS & BEARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3010-s-c4-r0"
+        }
+      ]
+    },
+    {
+      "name": "\"O\" MY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "My bologna's first name",
+          "answer": "O-S-C-A-R",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"O\" MY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3010-s-c5-r0"
+        },
+        {
+          "question": "Marine mollusk good at arm to arm to arm to arm to arm to arm to arm to arm combat",
+          "answer": "octopus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"O\" MY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3010-s-c5-r1"
+        },
+        {
+          "question": "Zeus' mount",
+          "answer": "Olympus",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"O\" MY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3010-s-c5-r2"
+        },
+        {
+          "question": "Clinton can't be cornered in it",
+          "answer": "the Oval Office",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"O\" MY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3010-s-c5-r3"
+        },
+        {
+          "question": "Branch of medicine concerned with \"labor\" relations...& babies",
+          "answer": "obstetrics",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"O\" MY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3010-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT NEWS BULLETINS",
+      "round": "double",
+      "position": 0,
+      "clues": []
+    },
+    {
+      "name": "FOOD & DRINK",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The term \"prawn\" is used loosely for a large one of these shellfish",
+          "answer": "shrimp",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3010-d-c1-r0"
+        },
+        {
+          "question": "Before fermentation it's called \"sweet\"; after fermentation, it's \"hard\"",
+          "answer": "cider",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3010-d-c1-r1"
+        },
+        {
+          "question": "Popular at brunches, it's a cocktail made with equal parts of champagne & orange juice",
+          "answer": "mimosa",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3010-d-c1-r2"
+        },
+        {
+          "question": "Retsina wine from this country is said to taste something like turpentine",
+          "answer": "Greece",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3010-d-c1-r3"
+        },
+        {
+          "question": "Chopped coriander leaves popular in salsas are also known by this Spanish name",
+          "answer": "cilantro",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3010-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE CAPITALS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Massachusetts capital is the most populous city in New England",
+          "answer": "Boston",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3010-d-c2-r0"
+        },
+        {
+          "question": "Gold prospectors founded this Alaskan capital in 1880",
+          "answer": "Juneau",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3010-d-c2-r1"
+        },
+        {
+          "question": "Three Mile Island, the site of a 1979 nuclear accident, lies outside this Pennsylvania capital",
+          "answer": "Harrisburg",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3010-d-c2-r2"
+        },
+        {
+          "question": "About 75% of all U.S. coins are minted in this capital city",
+          "answer": "Denver",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3010-d-c2-r3"
+        },
+        {
+          "question": "Bill Campbell became mayor of this southern capital in 1994",
+          "answer": "Atlanta",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3010-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTHOLOGY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This Roman goddess who protected women during childbirth has the same name as the Princess of Wales",
+          "answer": "Diana",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3010-d-c3-r0"
+        },
+        {
+          "question": "Pele, a Polynesian fire goddess, lives inside one of these; it erupts when she gets angry",
+          "answer": "a volcano",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3010-d-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "FILM DIRECTORS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The last film he directed was \"A Matter of Time\" in 1976; it starred his daughter Liza",
+          "answer": "Vincente Minnelli",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM DIRECTORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3010-d-c4-r0"
+        },
+        {
+          "question": "In 1996 he released \"Natural Born Killers: The Director's Cut\" on video with previously unseen footage",
+          "answer": "Oliver Stone",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM DIRECTORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3010-d-c4-r1"
+        },
+        {
+          "question": "The name of this \"Home Alone\" & \"Mrs. Doubtfire\" director may remind you of a famous explorer",
+          "answer": "Chris Columbus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM DIRECTORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3010-d-c4-r2"
+        },
+        {
+          "question": "His 1985 film \"Ran\" is a Japanese version of \"King Lear\"",
+          "answer": "Akira Kurosawa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM DIRECTORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3010-d-c4-r3"
+        },
+        {
+          "question": "He's noted for such off-beat comedies as \"Pink Flamingos\", \"Polyester\" & \"Serial Mom\"",
+          "answer": "John Waters",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILM DIRECTORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3010-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE DREADED OPERA CATEGORY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In a famous fairy tale opera, these 2 children turn the witch into a giant cookie -- serves her right",
+          "answer": "Hansel and Gretel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DREADED OPERA CATEGORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3010-d-c5-r0"
+        },
+        {
+          "question": "French for \"again\", it's the word audiences shout to get a diva to sing one more time",
+          "answer": "\"Encore!\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DREADED OPERA CATEGORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3010-d-c5-r1"
+        },
+        {
+          "question": "In \"The Maid of Orleans\", this saint has a lot at stake; by the opera's end, she's tied to a stake",
+          "answer": "Joan of Arc",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DREADED OPERA CATEGORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3010-d-c5-r2"
+        },
+        {
+          "question": "Ramfis is the high priest of Egypt in this Verdi opera",
+          "answer": "Aida",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE DREADED OPERA CATEGORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3010-d-c5-r3"
+        },
+        {
+          "question": "Celestine Galli-Marie was the 1st to play this seductress from Seville in Bizet's most famous opera",
+          "answer": "Carmen",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DREADED OPERA CATEGORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3010-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GREAT ARTISTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "His first important commission in Amsterdam was to paint that city's guild of surgeons",
+          "answer": "Rembrandt",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "GREAT ARTISTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3010-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

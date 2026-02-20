@@ -1,0 +1,761 @@
+{
+  "gameId": 1335,
+  "showNumber": 617,
+  "airDate": "April 21, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SUMMER",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Though about 50,000 of these storms occur daily worldwide, in U.S., they occur mainly in spring & summer",
+          "answer": "thunderstorms",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUMMER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1335-s-c0-r0"
+        },
+        {
+          "question": "Cocozell, patty pan & yellow crookneck",
+          "answer": "summer squashes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUMMER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1335-s-c0-r1"
+        },
+        {
+          "question": "1982 Woody Allen movie whose title suggests he had a little help from Shakespeare",
+          "answer": "A Midsummer Night's Sex Comedy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUMMER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1335-s-c0-r2"
+        },
+        {
+          "question": "Date you arrive in New Zealand if your itinerary says you land in Auckland the last day of their summer",
+          "answer": "March 21 (or March 20)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUMMER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1335-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "AUTOMOBILES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Synchromesh\" allows you to do this, either up or down",
+          "answer": "shift gears",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1335-s-c1-r0"
+        },
+        {
+          "question": "The 2 standard gauges in a U.S. car that are calibrated in miles",
+          "answer": "the speedometer & the odometer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1335-s-c1-r1"
+        },
+        {
+          "question": "Good brands of this ethylene-glycol base fluid contain rust inhibitors & lubricants",
+          "answer": "antifreeze",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1335-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "LESSER-KNOWN NAMES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Most famous son of the man born Alois Schicklgruber in 1837",
+          "answer": "Adolf Hitler",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LESSER-KNOWN NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1335-s-c2-r0"
+        },
+        {
+          "question": "Malcolm Little",
+          "answer": "Malcolm X",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LESSER-KNOWN NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1335-s-c2-r1"
+        },
+        {
+          "question": "Charles Eugene Boone is better known by this 1st name",
+          "answer": "Pat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LESSER-KNOWN NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1335-s-c2-r2"
+        },
+        {
+          "question": "Rock & roller Ernest Evans, his stage name is a \"twisted\" version of Fats Domino's",
+          "answer": "Chubby Checker",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LESSER-KNOWN NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1335-s-c2-r3"
+        },
+        {
+          "question": "While Beverly Hillbillies Jed & Elly May had the last name Clampett, Jethro's was this",
+          "answer": "Bodine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LESSER-KNOWN NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1335-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLONIAL AMERICA",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Local colonial voter eligibility was usually determined by being Protestant, free, a property owner & this sex",
+          "answer": "male",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1335-s-c3-r0"
+        },
+        {
+          "question": "In 1762 Ben Franklin was given an honorary degree by this English university",
+          "answer": "Oxford",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1335-s-c3-r1"
+        },
+        {
+          "question": "The largest 18th c. manufacturing industry in New England was the distilling of this liquor",
+          "answer": "rum",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1335-s-c3-r2"
+        },
+        {
+          "question": "Anthropologists have stated these peoples were at a Neolithic stage when colonists landed",
+          "answer": "the Indians",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1335-s-c3-r3"
+        },
+        {
+          "question": "The infamous tax on this was used to save the British East India Company from bankruptcy",
+          "answer": "tea",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLONIAL AMERICA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1335-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "STARRY SONGS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Perry Como advised \"Catch a falling star & put it...\" there",
+          "answer": "your pocket",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARRY SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1335-s-c4-r0"
+        },
+        {
+          "question": "It begins, \"Are the stars out tonight, I can't tell if it's cloudy or bright\"",
+          "answer": "\"I Only Have Eyes For You\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARRY SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1335-s-c4-r1"
+        },
+        {
+          "question": "It's when \"Peace will guide the planets & love will steer the stars\"",
+          "answer": "(the dawning of) the Age of Aquarius",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARRY SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1335-s-c4-r2"
+        },
+        {
+          "question": "\"At night the stars put on a show for free & darling you can share it all with me...\" there",
+          "answer": "\"Up On The Roof\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARRY SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1335-s-c4-r3"
+        },
+        {
+          "question": "Song in which the Everly Brothers declared \"I'm through with counting the stars above\"",
+          "answer": "\"Bye Bye, Love\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARRY SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1335-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOING IN STYLE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Years after her death, Juan Peron often ate dinner with this wife's body seated at his table",
+          "answer": "Eva Perón (or Evita)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING IN STYLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1335-s-c5-r0"
+        },
+        {
+          "question": "When he dies, the author of \"Frisbee\" wants his ashes mixed w/ polyethylene & made into these",
+          "answer": "Frisbees",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING IN STYLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1335-s-c5-r1"
+        },
+        {
+          "question": "Perhaps rehearsing for death, this \"divine\" 19th c. star slept in a satin-lined casket",
+          "answer": "Sarah Bernhardt",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING IN STYLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1335-s-c5-r2"
+        },
+        {
+          "question": "Napoleon's sister Pauline asked that a nude statue of this person be displayed at her funeral",
+          "answer": "herself",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOING IN STYLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1335-s-c5-r3"
+        },
+        {
+          "question": "It's said this part of Peter Stuyvesant's body was buried with full military honors years before his death",
+          "answer": "his (real) leg",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOING IN STYLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1335-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROYALTY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "As a symbol of her power, Egypt's Queen Hatshepsut wore a beard & had artists depict her as this",
+          "answer": "a man",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1335-d-c0-r0"
+        },
+        {
+          "question": "This part of Robert the Bruce's body was cut out & taken on Crusades",
+          "answer": "his heart",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1335-d-c0-r1"
+        },
+        {
+          "question": "Tho she may not have said \"Qu'ils mangent de la brioche!\", she was guillotined in 1793 anyway",
+          "answer": "Marie Antoinette",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1335-d-c0-r2"
+        },
+        {
+          "question": "American Lisa Halaby met this king while working for an airline & became his 4th wife in 1978",
+          "answer": "King Hussein",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1335-d-c0-r3"
+        },
+        {
+          "question": "This empress of Mexico, it's said, went mad in the Pope's presence & never knew of her husband's execution",
+          "answer": "Carlota (the wife of Maximilian)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYALTY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1335-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIRDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The breed of these named for Canada are sometimes called \"honkers\"",
+          "answer": "geese",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1335-d-c1-r0"
+        },
+        {
+          "question": "German mountains where best singing canaries are bred, or brand of bird seed you might feed yours",
+          "answer": "Hartz",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1335-d-c1-r1"
+        },
+        {
+          "question": "In 1941, only 15 of these large birds were left, but they now number well over 100",
+          "answer": "whooping cranes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1335-d-c1-r2"
+        },
+        {
+          "question": "In America some 35 species of finches are referred to by this name for small, common birds",
+          "answer": "sparrows",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1335-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL CHARACTERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Among this author's title characters are Dombey & Son, Barnaby Rudge, & Martin Chuzzlewit",
+          "answer": "Dickens",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1335-d-c2-r0"
+        },
+        {
+          "question": "The band of outlaws in Glen Doone adopted a girl they captured & named her this",
+          "answer": "Lorna",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1335-d-c2-r1"
+        },
+        {
+          "question": "First name of the girl jockey Elizabeth Taylor played in 1944 film",
+          "answer": "Velvet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1335-d-c2-r2"
+        },
+        {
+          "question": "Egbert, a cowpuncher from Red Gap, Washington won this valet in a poker game",
+          "answer": "Ruggles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1335-d-c2-r3"
+        },
+        {
+          "question": "Paul Baumer is the German narrator of this Remarqueable tale",
+          "answer": "All Quiet on the Western Front (All's Quiet on the Western Front accepted)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1335-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV COMMERCIALS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "If you don't believe this \"Softens hands while you do dishes\", ask Madge",
+          "answer": "Palmolive",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV COMMERCIALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1335-d-c3-r0"
+        },
+        {
+          "question": "Said to be 1 of TV's sexiest ½ minutes, the 1982 \"Man in Bed\" ad pushed this men's cologne",
+          "answer": "Paco Rabanne",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV COMMERCIALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1335-d-c3-r1"
+        },
+        {
+          "question": "From 1974-82, these 2 blondes sang, in turn, \"Ace is the place with the helpful hardware man\"",
+          "answer": "Suzanne Somers & Connie Stevens",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV COMMERCIALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1335-d-c3-r2"
+        },
+        {
+          "question": "The slogan for this \"simple\" shampoo-in hair color was \"The closer he gets, the better you look\"",
+          "answer": "Nice 'n Easy (or Clairol)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV COMMERCIALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1335-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "WORLD GEOGRAPHY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Hispaniola is an island comprised of Haiti & this other nation",
+          "answer": "the Dominican Republic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1335-d-c4-r0"
+        },
+        {
+          "question": "2 of the 3 countries of the world that begin with the letter \"J\"",
+          "answer": "(2 of) Jordan, Jamaica, & Japan",
+          "value": 3300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1335-d-c4-r1"
+        },
+        {
+          "question": "Continent with the most square miles of dry desert",
+          "answer": "Africa",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1335-d-c4-r2"
+        },
+        {
+          "question": "Of Alberta, Saskatchewan, or Manitoba, the 1 Canadian Prairie Province that is not landlocked",
+          "answer": "Manitoba",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1335-d-c4-r3"
+        },
+        {
+          "question": "The only Southeast Asian country with any part lying south of the Equator",
+          "answer": "Indonesia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1335-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LETTER PERFECT",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1957 Dale Hawkins song, letter which followed \"Suzie\"",
+          "answer": "Q",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1335-d-c5-r0"
+        },
+        {
+          "question": "Letter which began all 3 names of the man who was vice president between Johnson & Agnew",
+          "answer": "H (for Hubert Horatio Humphrey)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1335-d-c5-r1"
+        },
+        {
+          "question": "It's the only letter which stands for both a chess piece & a blood group",
+          "answer": "B (for Bishop)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1335-d-c5-r2"
+        },
+        {
+          "question": "In the Los Angeles white pages, this letter has only 1 ½ columns of entries",
+          "answer": "X",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1335-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS QUOTES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1946 in Missouri, Churchill said, \"From Stettin... to Trieste,\" it \"has descended across the continent\"",
+          "answer": "an Iron Curtain",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS QUOTES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1335-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

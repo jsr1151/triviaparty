@@ -1,0 +1,833 @@
+{
+  "gameId": 7210,
+  "showNumber": 8529,
+  "airDate": "December 9, 2021",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "PROF TALK",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Profs definitely want good \"P.R.\", this process by which academic experts referee papers",
+          "answer": "peer review",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROF TALK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7210-s-c0-r0"
+        },
+        {
+          "question": "Remember grad school & getting the yearly payment called this--appropriately, from Latin for \"alms\"?",
+          "answer": "stipend",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROF TALK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7210-s-c0-r1"
+        },
+        {
+          "question": "A PhD candidate who's finished all the coursework but not that last bit of writing is an ABD, this",
+          "answer": "all but dissertation",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROF TALK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7210-s-c0-r2"
+        },
+        {
+          "question": "This word for a group of associated professors can also mean a natural power or ability",
+          "answer": "faculty",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROF TALK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7210-s-c0-r3"
+        },
+        {
+          "question": "In 1880 Harvard became the first to grant these marvelously restful paid leaves of absence",
+          "answer": "sabbatical",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROF TALK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7210-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AROUND THE MEDITERRANEAN",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A neutral zone separates Spain from this territory & peninsula, a gateway to the Med that always knows how to rock",
+          "answer": "Gibraltar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE MEDITERRANEAN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7210-s-c1-r0"
+        },
+        {
+          "question": "Stretch your legs for a walk around this entire country; okay, its area is about 500 acres, but still...! Then hit its casino",
+          "answer": "Monaco",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE MEDITERRANEAN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7210-s-c1-r1"
+        },
+        {
+          "question": "Let's check out the 88-foot Pompey's Pillar, dedicated around 297 A.D. in this Egyptian city, but we're a tad late on its lighthouse",
+          "answer": "Alexandria",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE MEDITERRANEAN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7210-s-c1-r2"
+        },
+        {
+          "question": "This city can be said to be twice on the Mediterranean coast; one as a world capital, the other in Lebanon",
+          "answer": "Tripoli",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE MEDITERRANEAN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7210-s-c1-r3"
+        },
+        {
+          "question": "Enjoy the days & knights of this nation in the Central Med composed of 5 islands including Cominotto",
+          "answer": "Malta",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE MEDITERRANEAN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7210-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT DOES IT PREVENT?",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Higher-octane gasoline: this \"kn\"oise, partner of the dreaded pinging",
+          "answer": "knocking",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DOES IT PREVENT?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7210-s-c2-r0"
+        },
+        {
+          "question": "Bounce dryer sheets, symbolized by a tee shirt & a lightning bolt",
+          "answer": "static cling",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DOES IT PREVENT?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7210-s-c2-r1"
+        },
+        {
+          "question": "The compound levonorgestrel, in products like Mirena",
+          "answer": "pregnancy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DOES IT PREVENT?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7210-s-c2-r2"
+        },
+        {
+          "question": "A living trust: this court procedure to carry out the terms of a will",
+          "answer": "probate",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DOES IT PREVENT?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7210-s-c2-r3"
+        },
+        {
+          "question": "Ladybugs & lacewings: these garden menaces also known as plant lice",
+          "answer": "aphids",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DOES IT PREVENT?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7210-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALL ON YOUR HEAD NOW",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Dangle & hoop are types of these but I like your choice of chandelier",
+          "answer": "earrings",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL ON YOUR HEAD NOW",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7210-s-c3-r0"
+        },
+        {
+          "question": "You profs once wore this flat-topped cap; now you see it on celebrating soon-to-be ex-students once or twice a year",
+          "answer": "a mortarboard",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL ON YOUR HEAD NOW",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7210-s-c3-r1"
+        },
+        {
+          "question": "The Donnersmarck emerald & diamond this, a semi-circular crown, went for $12.7 million in 2011 & it would set off your eyes",
+          "answer": "a tiara",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL ON YOUR HEAD NOW",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7210-s-c3-r2"
+        },
+        {
+          "question": "Spikes of hair framing the face are called these spikes in tribute to a lady of the harbor",
+          "answer": "liberty spikes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL ON YOUR HEAD NOW",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7210-s-c3-r3"
+        },
+        {
+          "question": "Let's go one this hat seen here over the line, & chef up something delicious",
+          "answer": "a toque",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL ON YOUR HEAD NOW",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7210-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGE SPORTS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 2021 LSU's men's team claimed the outdoor track & field NCAA title, aided by Terrance Laird's time of 10.05 in this event",
+          "answer": "the 100 meter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7210-s-c4-r0"
+        },
+        {
+          "question": "With stars like Maya Moore, the Huskies of this U. have won over 90% of their games & 11 national titles in women's basketball since '95",
+          "answer": "Connecticut (UConn)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7210-s-c4-r1"
+        },
+        {
+          "question": "Winners of this prestigious honor introduced in 1935 include Steve Spurrier, Barry Sanders & Jameis Winston",
+          "answer": "the Heisman Trophy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7210-s-c4-r2"
+        },
+        {
+          "question": "\"On\", this Big Ten school! Coached by \"Miracle on Ice\" team member Mark Johnson, the women's hockey team won the 2021 NCAA title",
+          "answer": "Wisconsin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7210-s-c4-r3"
+        },
+        {
+          "question": "Mia Hamm won 4 national soccer titles with this southern school",
+          "answer": "the University of North Carolina",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7210-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LIT CHARACTERS' BAD CHOICES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Thy hour and thy harpoon are at hand!\"; he should've cut bait & run, as his harpoon issues got much worse the next day",
+          "answer": "(Captain) Ahab",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIT CHARACTERS' BAD CHOICES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7210-s-c5-r0"
+        },
+        {
+          "question": "James, don't break up a family's baseball game & try to kill this girl! Edward will be mad & it just won't end well for you!",
+          "answer": "Bella Swan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LIT CHARACTERS' BAD CHOICES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7210-s-c5-r1"
+        },
+        {
+          "question": "She a) married Roger Chillingworth & b) didn't just head off for Europe with Dimmesdale as soon as she heard the word \"prison\"",
+          "answer": "Hester Prynne",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIT CHARACTERS' BAD CHOICES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7210-s-c5-r2"
+        },
+        {
+          "question": "He makes the mistake of trusting O'Brien, which leads to a harsh re-education at the Ministry of Love",
+          "answer": "Winston (Smith)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIT CHARACTERS' BAD CHOICES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7210-s-c5-r3"
+        },
+        {
+          "question": "True love wins out, but he wasn't smart to let his friend Mr. Darcy talk him into leaving Jane Bennet in the lurch",
+          "answer": "Mr. Charles Bingley",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LIT CHARACTERS' BAD CHOICES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7210-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "YIDDISH THEATER",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "David Moishele is an aging wealthy merchant with problematic children in the 1892 play \"The Yiddish\" this Shakespeare tragedy",
+          "answer": "King Lear",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YIDDISH THEATER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7210-d-c0-r0"
+        },
+        {
+          "question": "A surprise New York hit in 2018 was a Yiddish-language \"Fiddler on the Roof\"; this song becomes \"Ven Ikh Bin A Rotshild\"",
+          "answer": "\"If I Were A Rich Man\"",
+          "value": 2400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YIDDISH THEATER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7210-d-c0-r1"
+        },
+        {
+          "question": "Yiddish theater's beginnings are associated with this Jewish holiday involving dressing up in costume",
+          "answer": "Purim",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YIDDISH THEATER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7210-d-c0-r2"
+        },
+        {
+          "question": "The play \"Chantzhe in Amerika\" is about a woman wanting to learn this modern skill; \"How I Learned to\" do it is a non-Yiddish play",
+          "answer": "drive",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "YIDDISH THEATER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7210-d-c0-r3"
+        },
+        {
+          "question": "To Marlon Brando, \"Stella\" also meant this woman from a Yiddish theater dynasty, the teacher who changed his life",
+          "answer": "Stella Adler",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YIDDISH THEATER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7210-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE VOCABULARY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "From a word meaning \"insect\", it's the study of bugs",
+          "answer": "entomology",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE VOCABULARY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7210-d-c1-r0"
+        },
+        {
+          "question": "Atoms share a pair of electrons in this type of chemical bond",
+          "answer": "covalent",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE VOCABULARY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7210-d-c1-r1"
+        },
+        {
+          "question": "\"Specific\" this is the ratio of a substance's density to that of a standard substance, often water",
+          "answer": "gravity",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE VOCABULARY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7210-d-c1-r2"
+        },
+        {
+          "question": "In physics, a body at rest is in \"static\" this if all the forces acting on it cancel each other out",
+          "answer": "equilibrium",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE VOCABULARY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7210-d-c1-r3"
+        },
+        {
+          "question": "This slow wobbling of the Earth's axis of rotation completes a cycle every 26,000 years or so",
+          "answer": "precession",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE VOCABULARY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7210-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE SONGS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Lyrics from this Louisiana state song include \"You make me happy when skies are gray\"",
+          "answer": "\"You Are My Sunshine\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7210-d-c2-r0"
+        },
+        {
+          "question": "With words by King David Kalakaua, its state song urges, \"Be loyal to your chief\"",
+          "answer": "Hawaii",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7210-d-c2-r1"
+        },
+        {
+          "question": "This state has an official song & several honorary ones including \"Live Free Or Die\" & \"The Old Man Of The Mountain\"",
+          "answer": "New Hampshire",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7210-d-c2-r2"
+        },
+        {
+          "question": "The state song of Indiana is titled \"On The Banks Of\" this river \"Far Away\"",
+          "answer": "the Wabash",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7210-d-c2-r3"
+        },
+        {
+          "question": "One of Colorado's state songs is where these wildflowers grow",
+          "answer": "the columbines",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7210-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "DESCRIBING THE TV DRAMA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's a Mads Mads Mads Mads Mikkelsen world; the doctor will eat you now",
+          "answer": "Hannibal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE TV DRAMA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7210-d-c3-r0"
+        },
+        {
+          "question": "On since 2010 but cast job security? Iffy; Michael Rooker was Norman Reedus' brother, remember that?",
+          "answer": "The Walking Dead",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE TV DRAMA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7210-d-c3-r1"
+        },
+        {
+          "question": "Simon & Daphne, streaming steamily; episodes included \"The Duke & I\" & \"Art of the Swoon\"",
+          "answer": "Bridgerton",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE TV DRAMA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7210-d-c3-r2"
+        },
+        {
+          "question": "Catherine, dressing to empress; we're stanning Fanning",
+          "answer": "The Great",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE TV DRAMA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7210-d-c3-r3"
+        },
+        {
+          "question": "An island resort is not quite paradise; Jennifer Coolidge deals with the ashes of a relationship",
+          "answer": "White Lotus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE TV DRAMA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7210-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN RECENT YEARS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The 2016 Summer Olympics were held in this South American city",
+          "answer": "Rio",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN RECENT YEARS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7210-d-c4-r0"
+        },
+        {
+          "question": "In 2010 Apple released this tablet & sold more than 3 million in the first 80 days",
+          "answer": "iPad",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN RECENT YEARS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7210-d-c4-r1"
+        },
+        {
+          "question": "David Cameron is seen here with this home secretary, his successor as prime minister",
+          "answer": "Theresa May",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN RECENT YEARS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7210-d-c4-r2"
+        },
+        {
+          "question": "In 2015 this disease also known as German measles was declared eradicated in the Americas",
+          "answer": "rubella",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN RECENT YEARS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7210-d-c4-r3"
+        },
+        {
+          "question": "In 2018 it was reported that this British firm had accessed the personal data of up to 87 million Facebook users",
+          "answer": "Cambridge Analytica",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN RECENT YEARS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7210-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHOW ME YOUR P-H-D",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A son or daughter by marriage",
+          "answer": "a stepchild",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOW ME YOUR P-H-D",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7210-d-c5-r0"
+        },
+        {
+          "question": "To arrest a criminal suspect",
+          "answer": "apprehend",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOW ME YOUR P-H-D",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7210-d-c5-r1"
+        },
+        {
+          "question": "In 2021 4 astronauts landed in the Gulf of Mexico in the USA's first nighttime one of these since 1968",
+          "answer": "a (crewed) splashdown",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOW ME YOUR P-H-D",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7210-d-c5-r2"
+        },
+        {
+          "question": "Squid & octopuses are members of this class of marine mollusks",
+          "answer": "cephalopods",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOW ME YOUR P-H-D",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7210-d-c5-r3"
+        },
+        {
+          "question": "These sacred writings of Hinduism explain the fundamental tenets of the religion",
+          "answer": "Upanishads",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHOW ME YOUR P-H-D",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7210-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "1950s PUBLIC WORKS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Dubbed \"The Greatest Construction Show on Earth\", when completed it connected Minnesota to Montreal",
+          "answer": "the St. Lawrence Seaway",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "1950s PUBLIC WORKS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7210-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

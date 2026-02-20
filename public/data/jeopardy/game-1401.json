@@ -1,0 +1,737 @@
+{
+  "gameId": 1401,
+  "showNumber": 2931,
+  "airDate": "May 5, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD PRESS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Some citizens in this Canadian capital get their news from the Citizen newspaper",
+          "answer": "Ottawa",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD PRESS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1401-s-c0-r0"
+        },
+        {
+          "question": "Xinhua, China's news agency, was founded by this political party",
+          "answer": "the Communist Party (the People's Party accepted)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD PRESS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1401-s-c0-r1"
+        },
+        {
+          "question": "It's the length of time between issues of Germany's news magazine Der Spiegel",
+          "answer": "One week",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD PRESS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1401-s-c0-r2"
+        },
+        {
+          "question": "El Periodico de Catalunya is the second-largest newspaper serving this second-largest Spanish city",
+          "answer": "Barcelona",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD PRESS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1401-s-c0-r3"
+        },
+        {
+          "question": "Now available around the world, this paper grew out of the N.Y. Herald's Paris edition",
+          "answer": "The International Herald Tribune",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD PRESS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1401-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AFRICAN HISTORY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In the 1500s the Portuguese transported Angolans as slaves to this South American colony",
+          "answer": "Brazil",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1401-s-c1-r0"
+        },
+        {
+          "question": "In 1969 General Siad Barre led a military coup in this country on the horn of Africa",
+          "answer": "Somalia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1401-s-c1-r1"
+        },
+        {
+          "question": "Shaka increased the population of this tribe by absorbing his defeated enemies into it",
+          "answer": "Zulu",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1401-s-c1-r2"
+        },
+        {
+          "question": "This west African country takes its name from a trading empire that once included Timbuktu",
+          "answer": "Mali",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1401-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "NUMBER, PLEASE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "You saw thousands of spots before your eyes in the 2 Disney movies about this number of dalmatians",
+          "answer": "101",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER, PLEASE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1401-s-c2-r0"
+        },
+        {
+          "question": "In the Biblical flood, the rain lasted this many days; the water stayed 110 more",
+          "answer": "40",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER, PLEASE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1401-s-c2-r1"
+        },
+        {
+          "question": "On a square, it's the total number of degrees of the interior angles",
+          "answer": "360",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER, PLEASE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1401-s-c2-r2"
+        },
+        {
+          "question": "John Lennon & Paul McCartney were in their 20s when they wrote \"When I'm\" this old",
+          "answer": "64",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER, PLEASE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1401-s-c2-r3"
+        },
+        {
+          "question": "From 1912 to 1959 there were this many states in the United States",
+          "answer": "48",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUMBER, PLEASE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1401-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BARNYARD ANIMALS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "When bringing home the bacon, remember that this animal's meat is taboo to observant Muslims & Jews",
+          "answer": "Pig/swine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BARNYARD ANIMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1401-s-c3-r0"
+        },
+        {
+          "question": "A \"maid\" may have a special stool to sit on while attending to this bovine animal",
+          "answer": "a cow",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BARNYARD ANIMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1401-s-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY WOMEN",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "On July 8, 1993 this British princess' stepmother, Raine Spencer, married a French count",
+          "answer": "Princess Diana",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1401-s-c4-r0"
+        },
+        {
+          "question": "She was sworn in as Pakistan's first female prime minister on December 2, 1988 in Islamabad",
+          "answer": "Benazir Bhutto",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1401-s-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS TERMS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Racket,baseline,backcourt",
+          "answer": "Tennis",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TERMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1401-s-c5-r0"
+        },
+        {
+          "question": "Fletching,bow,bull's-eye",
+          "answer": "archery",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TERMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1401-s-c5-r1"
+        },
+        {
+          "question": "Backward short leg,bat,wicket",
+          "answer": "Cricket",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TERMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1401-s-c5-r2"
+        },
+        {
+          "question": "Pelota,cesta,cancha",
+          "answer": "jai alai",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TERMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1401-s-c5-r3"
+        },
+        {
+          "question": "Dohyo,chonmage,yobidashi",
+          "answer": "sumo wrestling",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TERMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1401-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNATIONAL FESTIVALS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The running of these animals starts daily at 8 A.M. during the Festival of San Fermin in Pamplona, Spain",
+          "answer": "Bulls",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1401-d-c0-r0"
+        },
+        {
+          "question": "This second-largest Australian city's Moomba Festival features a world-class waterskiing tournament",
+          "answer": "Melbourne",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1401-d-c0-r1"
+        },
+        {
+          "question": "In 1996 Wayne Shorter & Dave Brubeck performed at Vienna's festival for this type of music",
+          "answer": "jazz",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1401-d-c0-r2"
+        },
+        {
+          "question": "\"Abduction from the Seraglio\" is performed at Topkapi Palace at this city's annual music festival",
+          "answer": "Istanbul",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1401-d-c0-r3"
+        },
+        {
+          "question": "Yearly this small southeast Asian island country celebrates the 9 Emperor Gods with a 9-day festival",
+          "answer": "Singapore",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL FESTIVALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1401-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCULPTURE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1504 Leonardo da Vinci was on the commission that decided the location for this man's \"David\"",
+          "answer": "Michelangelo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1401-d-c1-r0"
+        },
+        {
+          "question": "The name of the Farnese bull comes from the Farnese Palace in this Italian capital where it was once kept",
+          "answer": "Rome",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1401-d-c1-r1"
+        },
+        {
+          "question": "In 1881 this Cubist painter & sculptor was born in Malaga, Spain, the son of a professor of art",
+          "answer": "Pablo Picasso",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1401-d-c1-r2"
+        },
+        {
+          "question": "A Cellini masterpiece shows this Greek hero holding the head of Medusa",
+          "answer": "Perseus",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1401-d-c1-r3"
+        },
+        {
+          "question": "Toronto's City Hall has an outdoor work by this British sculptor known for using holes in his art",
+          "answer": "Henry Moore",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1401-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL & TOURISM",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "At the National Museum in Dublin you can see a bell reportedly used by this patron saint",
+          "answer": "Saint Patrick",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1401-d-c2-r0"
+        },
+        {
+          "question": "Not surprisingly, this Israeli national airline offers the most nonstop flights between Israel & the U.S.",
+          "answer": "El Al",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1401-d-c2-r1"
+        },
+        {
+          "question": "In Moscow's Teatralnaya Square, you can take in a show at this famous opera & ballet theater",
+          "answer": "the Bolshoi",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1401-d-c2-r2"
+        },
+        {
+          "question": "Verses from the Koran decorate the walls of this marble tomb in Agra built by Shah Jahan for his late wife",
+          "answer": "Taj Mahal",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1401-d-c2-r3"
+        },
+        {
+          "question": "Tourism is a growing industry in this pair of Caribbean islands known as T&T for short",
+          "answer": "Trinidad & Tobago",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1401-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ELEMENTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Around 3600 B.C. King Menes of Egypt set this precious metal's value at two-fifths that of gold",
+          "answer": "Silver",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1401-d-c3-r0"
+        },
+        {
+          "question": "By volume, this element makes up about 78% of our atmosphere",
+          "answer": "Nitrogen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1401-d-c3-r1"
+        },
+        {
+          "question": "Diamond, the hardest known substance, is made of crystallized atoms of this element",
+          "answer": "Carbon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1401-d-c3-r2"
+        },
+        {
+          "question": "This metal, the lightest solid element, was discovered here in Sweden by J.A. Arfvedson",
+          "answer": "lithium",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1401-d-c3-r3"
+        },
+        {
+          "question": "This synthetic radioactive element was named for the discoverers of radium",
+          "answer": "Curium",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1401-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. PRESIDENTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "He was a U.S. senator when he married Jacqueline Bouvier in 1953",
+          "answer": "John F. Kennedy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1401-d-c4-r0"
+        },
+        {
+          "question": "On June 15, 1775 he was unanimously elected Commander in Chief of the Continental Army",
+          "answer": "George Washington",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1401-d-c4-r1"
+        },
+        {
+          "question": "A revolving book stand he adapted may be seen at his home, Monticello",
+          "answer": "Thomas Jefferson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1401-d-c4-r2"
+        },
+        {
+          "question": "In 1859, before he was president, he wrote, \"He who would be no slave must consent to have no slave\"",
+          "answer": "Abraham Lincoln",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PRESIDENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1401-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY TRANSLATIONS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Many of these English Christmas songs are translations, like \"Silent Night\" from German",
+          "answer": "Carols",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TRANSLATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1401-d-c5-r0"
+        },
+        {
+          "question": "Gilbert Adair faithfully adapted Georges Perec's novel \"A Void\", written without this vowel",
+          "answer": "E",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TRANSLATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1401-d-c5-r1"
+        },
+        {
+          "question": "Translator Rosemary Edmonds leaves the final \"A\" off the last name of this Tolstoy title heroine",
+          "answer": "Anna Karenina",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TRANSLATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1401-d-c5-r2"
+        },
+        {
+          "question": "2 translators of this man's \"The Satanic Verses\" were brutally attacked in July 1991",
+          "answer": "Salman Rushdie",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TRANSLATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1401-d-c5-r3"
+        },
+        {
+          "question": "Rabindranath Tagore translated his own poetry into English from this language spoken in Dhaka",
+          "answer": "Bengali",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TRANSLATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1401-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTABLE NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On January 30, 1997, the 49th anniversary of his death, some of his ashes were scattered in the Ganges River",
+          "answer": "Mohandas K. Gandhi",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "NOTABLE NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1401-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

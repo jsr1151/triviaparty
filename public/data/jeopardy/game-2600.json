@@ -1,0 +1,809 @@
+{
+  "gameId": 2600,
+  "showNumber": 4161,
+  "airDate": "October 7, 2002",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "RIVERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "As a baby Moses was left in a basket along this river's banks",
+          "answer": "the Nile",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2600-s-c0-r0"
+        },
+        {
+          "question": "80% of Washington, D.C.'s fresh drinking water comes from this river",
+          "answer": "the Potomac",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2600-s-c0-r1"
+        },
+        {
+          "question": "Stratford & Warwick are important towns upon this river",
+          "answer": "the Avon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2600-s-c0-r2"
+        },
+        {
+          "question": "Mainz, Germany & Basel, Switzerland both lie on this river",
+          "answer": "the Rhine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2600-s-c0-r3"
+        },
+        {
+          "question": "During WWI 2 famous battles were fought near this river, the largest branch of the Seine",
+          "answer": "the Marne",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2600-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "REMAKES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1957 a recreation of this ship made a recreation of its 17th century trip from England to Massachusetts",
+          "answer": "the Mayflower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMAKES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2600-s-c1-r0"
+        },
+        {
+          "question": "In 2000 Hasbro gave this dot-gobbling '80s arcade star a new 3-D look for a PC game",
+          "answer": "Pac-Man",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMAKES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2600-s-c1-r1"
+        },
+        {
+          "question": "Released in 2002, \"Today's New International Version\" is a non-gender specific translation of this",
+          "answer": "the Bible",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMAKES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2600-s-c1-r2"
+        },
+        {
+          "question": "Neil Simon has recreated this 1965 play for the 21st century; he did it once before in 1986 for female stars",
+          "answer": "The Odd Couple",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMAKES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2600-s-c1-r3"
+        },
+        {
+          "question": "A 1997 TV remake of this 1957 film featured Tony Danza as Juror No. 7",
+          "answer": "12 Angry Men",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMAKES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2600-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD LEADERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On November 22, 2001 he personally sent his first e-mail, a message to Roman Catholics in Oceania",
+          "answer": "Pope John Paul II",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2600-s-c2-r0"
+        },
+        {
+          "question": "In 1999 he was elected to his (wow!) fourth 6-year term as president of Egypt",
+          "answer": "Hosni Mubarak",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2600-s-c2-r1"
+        },
+        {
+          "question": "Eduard Shevardnadze had this former Soviet republic on his mind when he was reelected president in 1995",
+          "answer": "Georgia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2600-s-c2-r2"
+        },
+        {
+          "question": "After its president Fernando de la Rua resigned December 20, 2001, Adolfo Rodriguez Saa got the post & lasted a week",
+          "answer": "Argentina",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2600-s-c2-r3"
+        },
+        {
+          "question": "Dragon King, or as they say in Thimphu, druk gyalpo, Jigme Singye Wangchuck is its head of state",
+          "answer": "Bhutan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2600-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TINY THINGS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "These minute grains link the flowers & the bees",
+          "answer": "pollen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TINY THINGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2600-s-c3-r0"
+        },
+        {
+          "question": "Mayonnaise is an example of an emulsion that is a suspension of tiny globules of this in water",
+          "answer": "oil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TINY THINGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2600-s-c3-r1"
+        },
+        {
+          "question": "Access time on hard drives isn't measured in minutes, but in these units abbreviated ms",
+          "answer": "milliseconds",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TINY THINGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2600-s-c3-r2"
+        },
+        {
+          "question": "Present in minute amounts in soil & water, these \"elements\", such as copper & zinc, are essential for your good health",
+          "answer": "trace elements",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TINY THINGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2600-s-c3-r3"
+        },
+        {
+          "question": "Those minute red blood cells are erythrocytes, white ones are leukocytes & these are thrombocytes",
+          "answer": "platelets",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TINY THINGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2600-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SEWING",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "When these are made by hand you cut the hole first; when machine-worked you cut them open after",
+          "answer": "buttonholes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2600-s-c4-r0"
+        },
+        {
+          "question": "To shorten one of these, whipstitch across the teeth 8 or 10 times to form a new bottom stop, then cut below it",
+          "answer": "zipper",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2600-s-c4-r1"
+        },
+        {
+          "question": "Simplicity provides a guide to show how these are laid out on the fabric for cutting",
+          "answer": "patterns",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2600-s-c4-r2"
+        },
+        {
+          "question": "Robin Hood's friendly friar, or a decorative touch that may be blind, space or pin",
+          "answer": "Tuck",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2600-s-c4-r3"
+        },
+        {
+          "question": "This fuzzy finish on the fabric should line up when the garment is sewn together",
+          "answer": "a nap",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2600-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"I\" OBJECT",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "An experienced Inuit can build one of these icy dwellings in under 2 hours",
+          "answer": "an igloo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"I\" OBJECT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2600-s-c5-r0"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reports.)  While these were first patented in 1819, it wasn't until the 1990s that they really took off",
+          "answer": "inline skates",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"I\" OBJECT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2600-s-c5-r1"
+        },
+        {
+          "question": "You're on the money if you know that it's a bar or block of metal like aluminum, steel or gold",
+          "answer": "an ingot",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"I\" OBJECT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2600-s-c5-r2"
+        },
+        {
+          "question": "Seen here, this model of Chevy first hit the road in 1958",
+          "answer": "Impala",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"I\" OBJECT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2600-s-c5-r3"
+        },
+        {
+          "question": "Prior to 1984 this pain reliever found in Motrin & Nuprin was sold by prescription only",
+          "answer": "ibuprofen",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"I\" OBJECT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2600-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the First Punic War, Rome & Carthage fought over possession of this island at the tip of Italy's \"boot\"",
+          "answer": "Sicily",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2600-d-c0-r0"
+        },
+        {
+          "question": "The latter years of his reign were marked by building projects, including the temple of Abu Simbel",
+          "answer": "Rameses the Great",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2600-d-c0-r1"
+        },
+        {
+          "question": "Among this Babylonian king's laws was: \"If a son has struck his father, they shall cut off his hand\"",
+          "answer": "Hammurabi",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2600-d-c0-r2"
+        },
+        {
+          "question": "Around 165 B.C., this Jewish leader re-entered Jerusalem & repurified & rededicated the Temple",
+          "answer": "Judah the Maccabee",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2600-d-c0-r3"
+        },
+        {
+          "question": "In 391 he was ordained a priest in Hippo in northern Africa; he served as the bishop of Hippo from 396 to 430",
+          "answer": "Saint Augustine",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2600-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOUGH CHICKS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Yvonne Craig on TV & Alicia Silverstone on film played this hero",
+          "answer": "Batgirl",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH CHICKS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2600-d-c1-r0"
+        },
+        {
+          "question": "This New Zealander hung up her chakram in 2001",
+          "answer": "Lucy Lawless",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TOUGH CHICKS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2600-d-c1-r1"
+        },
+        {
+          "question": "As this hero, Lynda Carter was in her satin tights, fighting for her rights",
+          "answer": "Wonder Woman",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH CHICKS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2600-d-c1-r2"
+        },
+        {
+          "question": "She was played on TV by Diana Rigg & on film by Uma Thurman",
+          "answer": "Emma Peel",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH CHICKS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2600-d-c1-r3"
+        },
+        {
+          "question": "She was a kick as Yu Shu Lien in \"Crouching Tiger\" & Wai Lin in \"Tomorrow Never Dies\"",
+          "answer": "Michelle Yeoh",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH CHICKS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2600-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE & TECHNOLOGY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1843 the Great Britain became the first oceangoing steamship with the screw type of this, not a paddlewheel",
+          "answer": "propeller",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2600-d-c2-r0"
+        },
+        {
+          "question": "(Hi, this is Janet Kavandi aboard the space shuttle Atlantis.)  Canada's proud contribution to the Int'l Space Station, the Robotic Manipulator System, is better known as this robotic body part",
+          "answer": "the arm",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2600-d-c2-r1"
+        },
+        {
+          "question": "In 2000 news, an experiment appeared to accelerate a pulse of this to 300 times its already high speed",
+          "answer": "light",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2600-d-c2-r2"
+        },
+        {
+          "question": "Common in California, it's the type of \"farm\" seen here",
+          "answer": "wind farm (windmill)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2600-d-c2-r3"
+        },
+        {
+          "question": "VLSI, very large-scale integrated circuits, would be impossible without CAD, this kind of design",
+          "answer": "computer aided design",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2600-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PUERTO RICAN HOLIDAYS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Jose Barbosa, who is honored on July 27, founded Puerto Rico's Republican Party on this patriotic American holiday",
+          "answer": "the 4th of July (Independence Day)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUERTO RICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2600-d-c3-r0"
+        },
+        {
+          "question": "As elsewhere, it works out that this is the first Monday in September",
+          "answer": "Labor Day",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUERTO RICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2600-d-c3-r1"
+        },
+        {
+          "question": "January 11 is the birthday of Eugenio Maria de Hostos, founder of the 1st \"Normal\" one of these in Santo Domingo",
+          "answer": "school",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUERTO RICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2600-d-c3-r2"
+        },
+        {
+          "question": "A royal-sounding January 6 holiday, or a 1999 George Clooney film",
+          "answer": "Three Kings Day",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUERTO RICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2600-d-c3-r3"
+        },
+        {
+          "question": "Luis Munoz Rivera, who fought for Puerto Rico's autonomy from these 2 countries, has his own holiday",
+          "answer": "Spain & the United States",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUERTO RICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2600-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PULITZER-WINNING PLAYWRIGHTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Cat on a Hot Tin Roof\"",
+          "answer": "Tennessee Williams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PULITZER-WINNING PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2600-d-c4-r0"
+        },
+        {
+          "question": "\"Death of a Salesman\"",
+          "answer": "Arthur Miller",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PULITZER-WINNING PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2600-d-c4-r1"
+        },
+        {
+          "question": "\"Buried Child\"",
+          "answer": "Sam Shepard",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PULITZER-WINNING PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2600-d-c4-r2"
+        },
+        {
+          "question": "\"The Time of Your Life\"",
+          "answer": "William Saroyan",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PULITZER-WINNING PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2600-d-c4-r3"
+        },
+        {
+          "question": "\"Three Tall Women\"",
+          "answer": "Edward Albee",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PULITZER-WINNING PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2600-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "11-LETTER WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's a work page containing a multicolumn analysis of related entries, such as in Microsoft Excel",
+          "answer": "a spreadsheet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "11-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2600-d-c5-r0"
+        },
+        {
+          "question": "A collector of rupees, pesos & drachmas",
+          "answer": "a numismatist",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "11-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2600-d-c5-r1"
+        },
+        {
+          "question": "In this operation, a surgeon repairs a blood vessel by inserting a balloon-tipped catheter to unblock it",
+          "answer": "angioplasty",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "11-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2600-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE MUSIC",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The end credits for this 1998 film with Woody Allen feature the song \"High Hopes\"",
+          "answer": "Antz",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MOVIE MUSIC",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2600-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

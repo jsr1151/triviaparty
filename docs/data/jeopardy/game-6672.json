@@ -1,0 +1,833 @@
+{
+  "gameId": 6672,
+  "showNumber": 8225,
+  "airDate": "May 29, 2020",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "PICTURE THE MOVIE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Take a ride with this recent Oscar-winning movie",
+          "answer": "Green Book",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE MOVIE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6672-s-c0-r0"
+        },
+        {
+          "question": "Costner, for the win",
+          "answer": "Dances with Wolves",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE MOVIE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6672-s-c0-r1"
+        },
+        {
+          "question": "A Kubrick classic",
+          "answer": "A Clockwork Orange",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE MOVIE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6672-s-c0-r2"
+        },
+        {
+          "question": "The jury is in",
+          "answer": "12 Angry Men",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE MOVIE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6672-s-c0-r3"
+        },
+        {
+          "question": "It's 2019 in L.A.",
+          "answer": "Blade Runner",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE MOVIE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6672-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COOL NEWS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "17-year-old Wolf Cukier discovered a planet just 3 days into his internship with this government agency",
+          "answer": "NASA",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOL NEWS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6672-s-c1-r0"
+        },
+        {
+          "question": "M.I.T. researchers used a solar still, evaporation & condensation in this process to make ocean water drinkable",
+          "answer": "desalinization",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOL NEWS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6672-s-c1-r1"
+        },
+        {
+          "question": "In 2020 this sports league & its players association reached a deal that will pay top centers & point guards in excess of $500,000 a year",
+          "answer": "the WNBA",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOL NEWS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6672-s-c1-r2"
+        },
+        {
+          "question": "In 2019 Tunisia held its second straight election that was considered to meet the alliterative criterion \"free &\" this",
+          "answer": "fair",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COOL NEWS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6672-s-c1-r3"
+        },
+        {
+          "question": "A sort of \"EpiPen\" for spinal cord injuries could thwart paralysis by using these microscopic \"particles\"",
+          "answer": "nanoparticles",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COOL NEWS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6672-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAB PARTNERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Marie gets a Nobel! Pierre gets a Nobel! Irene gets a Nobel! Frederic gets a Nobel! Everybody in this family gets a Nobel!",
+          "answer": "Curie",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAB PARTNERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6672-s-c2-r0"
+        },
+        {
+          "question": "Thomas Francis was the guy who tested Jonas Salk's vaccine against this vicious disease through the double-blind method in 1954",
+          "answer": "polio",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAB PARTNERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6672-s-c2-r1"
+        },
+        {
+          "question": "Thomas Watson worked in the lab with this man & in 1876 was on the other end of a very important phone call",
+          "answer": "(Alexander Graham) Bell",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAB PARTNERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6672-s-c2-r2"
+        },
+        {
+          "question": "Howard Florey & Ernst Chain followed up Alexander Fleming's work on this antibiotic & they all shared a Nobel Prize in 1945",
+          "answer": "penicillin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAB PARTNERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6672-s-c2-r3"
+        },
+        {
+          "question": "In 1942 at the University of Chicago, Leo Szilard helped this Italian create the first nuclear reactor",
+          "answer": "Enrico Fermi",
+          "value": 3456,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAB PARTNERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6672-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "I HAVE MY DOUBTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Proverbially, \"He who\" does this \"is lost\"",
+          "answer": "hesitates",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I HAVE MY DOUBTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6672-s-c3-r0"
+        },
+        {
+          "question": "Let's check your \"Q\" rating--this word pluralized denotes sudden misgivings or questions",
+          "answer": "qualms",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I HAVE MY DOUBTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6672-s-c3-r1"
+        },
+        {
+          "question": "Heisenberg's 1927 indistinct principle? Irresolution? Hold on, I got it! It was called this principle! That's it",
+          "answer": "Uncertainty",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I HAVE MY DOUBTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6672-s-c3-r2"
+        },
+        {
+          "question": "If you cast a wary or cynical eye on things, you may be a this, like the ancient Greek philosophy adopted by Plato's school",
+          "answer": "a skeptic",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I HAVE MY DOUBTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6672-s-c3-r3"
+        },
+        {
+          "question": "Some folks unsure of a higher power are this word from the Greek for \"not known\"",
+          "answer": "agnostic",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I HAVE MY DOUBTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6672-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICAL THEATRE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In the title of a politically incorrect show, it's the New York avenue on which some puppets live",
+          "answer": "Avenue Q",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6672-s-c4-r0"
+        },
+        {
+          "question": "In 2019, Christie Brinkley starred on Broadway as Roxie Hart in this musical",
+          "answer": "Chicago",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6672-s-c4-r1"
+        },
+        {
+          "question": "Songs in this musical based on a film include \"Omigod You Guys\" & \"The Harvard Variations\"",
+          "answer": "Legally Blonde",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6672-s-c4-r2"
+        },
+        {
+          "question": "An outdoor production of this musical set in Asia featured an actual Huey helicopter landing nightly",
+          "answer": "Miss Saigon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6672-s-c4-r3"
+        },
+        {
+          "question": "Among the great songwriting teams were Rodgers & Hammerstein & this pair who gave us \"My Fair Lady\"",
+          "answer": "Lerner & Loewe",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATRE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6672-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MULTIPLE \"CHOICE\" QUIZ",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In this kind of poker, the player holding the deck picks the game",
+          "answer": "dealer's choice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE \"CHOICE\" QUIZ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6672-s-c5-r0"
+        },
+        {
+          "question": "If you are safe at first base because the out was made on the runner at second, it's scored as this",
+          "answer": "fielder's choice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE \"CHOICE\" QUIZ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6672-s-c5-r1"
+        },
+        {
+          "question": "Conagra started this frozen food brand after its CEO had a heart attack in 1985",
+          "answer": "Healthy Choice",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE \"CHOICE\" QUIZ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6672-s-c5-r2"
+        },
+        {
+          "question": "The title of a 1979 novel, this is a decision where either option will end in sacrifice",
+          "answer": "Sophie's Choice",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE \"CHOICE\" QUIZ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6672-s-c5-r3"
+        },
+        {
+          "question": "The horse closest to the stable door or nothing",
+          "answer": "Hobson's choice",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE \"CHOICE\" QUIZ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6672-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "RUSSIAN TO THE BOOKSHELF",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Natasha Rostov & Pierre Bezukhov are characters in this Tolstoy masterpiece",
+          "answer": "War and Peace",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN TO THE BOOKSHELF",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6672-d-c0-r0"
+        },
+        {
+          "question": "Early in a Pasternak novel, this title man stands \"in the corridor of the gynecological section of the hospital\"",
+          "answer": "Doctor Zhivago",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN TO THE BOOKSHELF",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6672-d-c0-r1"
+        },
+        {
+          "question": "This 19th century poet, playwright and unsuccessful duelist is considered a founder of modern Russian literature",
+          "answer": "Alexander Pushkin",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN TO THE BOOKSHELF",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6672-d-c0-r2"
+        },
+        {
+          "question": "Woody Allen's film \"Love and Death\" parodies Russian novels & its title echoes \"Crime and Punishment\" & this 1862 Turgenev title",
+          "answer": "Fathers and Sons",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN TO THE BOOKSHELF",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6672-d-c0-r3"
+        },
+        {
+          "question": "This 1970 Literature Nobel Prize winner spent time in the gulag & was deported from the Soviet Union in 1974",
+          "answer": "Solzhenitsyn",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN TO THE BOOKSHELF",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6672-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DESCRIBING THE ADJECTIVE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "There are a limited number of I's--3--in this word meaning endless... or unlimited...or...",
+          "answer": "infinite",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE ADJECTIVE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6672-d-c1-r0"
+        },
+        {
+          "question": "This adjective meaning warmly appreciative is in the name of Bob Weir's band",
+          "answer": "grateful",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE ADJECTIVE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6672-d-c1-r1"
+        },
+        {
+          "question": "Desolate & raw, or a title description of a novel \"House\" with Ada Clarek",
+          "answer": "bleak",
+          "value": 3456,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE ADJECTIVE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6672-d-c1-r2"
+        },
+        {
+          "question": "If you're this \"fallacy\" of attributing emotions to objects, you're this, & there's no \"em-\" at the start of the word",
+          "answer": "pathetic",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE ADJECTIVE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6672-d-c1-r3"
+        },
+        {
+          "question": "Though it sounds like 5 things you really require, it actually describes the perfect embodiment of something",
+          "answer": "quintessential",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE ADJECTIVE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6672-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "(Kareem Abdul-Jabbar presents the clue.) One of my heroes is Wild Bill Hickok, who before moving west & becoming a legendary lawman & gunfighter helped escaping slaves at his family's Illinois farm, which served as a stop on this",
+          "answer": "the Underground Railroad",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6672-d-c2-r0"
+        },
+        {
+          "question": "New York statesman DeWitt Clinton promoted the idea of this waterway & was the commissioner who oversaw its construction",
+          "answer": "the Erie Canal",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6672-d-c2-r1"
+        },
+        {
+          "question": "The only clue to this colony's disappearance was the word \"Croatoan\" on a post; hasn't helped much",
+          "answer": "Roanoke",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6672-d-c2-r2"
+        },
+        {
+          "question": "This 2-word concept was used to justify the acquisitions of Oregon territory, California & Mexican land in the southwest",
+          "answer": "Manifest Destiny",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6672-d-c2-r3"
+        },
+        {
+          "question": "This education reformer took John Quincy Adams' seat in the House of Representatives, where he vigorously opposed slavery",
+          "answer": "Horace Mann",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6672-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ATHLETES WHO TEACH",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "NFL quarterback Jon Kitna traded Xs & Os for the Xs & Ys of this branch of math with a name from Arabic",
+          "answer": "algebra",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ATHLETES WHO TEACH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6672-d-c3-r0"
+        },
+        {
+          "question": "In 2012 Ken Dryden began teaching a course at McGill in these national \"Studies\"",
+          "answer": "Canadian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ATHLETES WHO TEACH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6672-d-c3-r1"
+        },
+        {
+          "question": "The first woman to win three gold track medals in a single Olympics, 1960, she taught second graders in Tennessee",
+          "answer": "Wilma Rudolph",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ATHLETES WHO TEACH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6672-d-c3-r2"
+        },
+        {
+          "question": "This former Knick & onetime presidential candidate taught at Maryland & Stanford",
+          "answer": "Bill Bradley",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ATHLETES WHO TEACH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6672-d-c3-r3"
+        },
+        {
+          "question": "Mike Doleac went to the Final Four with this state U., won an NBA title & came home to teach physics at Park City High",
+          "answer": "Utah",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ATHLETES WHO TEACH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6672-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAILING THE 5 SEAS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Travel from Colombia to Jamaica across this sea",
+          "answer": "the Caribbean Sea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAILING THE 5 SEAS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6672-d-c4-r0"
+        },
+        {
+          "question": "Odessa & Sochi are ports on this sea that looks dark in winter due to heavy fogs",
+          "answer": "the Black Sea",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAILING THE 5 SEAS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6672-d-c4-r1"
+        },
+        {
+          "question": "The Germans call this bordering sea Ostsee; the Swedes', Ostersjon",
+          "answer": "the Baltic",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAILING THE 5 SEAS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6672-d-c4-r2"
+        },
+        {
+          "question": "In 1822 a Russian navy captain named this sea off his nation's east coast for a Danish explorer",
+          "answer": "the Bering Sea",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAILING THE 5 SEAS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6672-d-c4-r3"
+        },
+        {
+          "question": "On the other side of Greece from the Aegean, this sea is the Mediterranean's deepest, maxing at more than 16,000 feet",
+          "answer": "the Ionian",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAILING THE 5 SEAS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6672-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"Mc\"PEOPLE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "On Sept. 6, 1901 he was shot at the Pan-American exposition in Buffalo & died 8 days later",
+          "answer": "McKinley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"Mc\"PEOPLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6672-d-c5-r0"
+        },
+        {
+          "question": "Once known as the bad boy of tennis, today he's a respected commentator, both here and abroad",
+          "answer": "(John) McEnroe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"Mc\"PEOPLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6672-d-c5-r1"
+        },
+        {
+          "question": "In February 2020 the Duchess of Cambridge paid tribute to this designer on the 10th anniversary of his death, wearing one of his outfits",
+          "answer": "Alexander McQueen",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"Mc\"PEOPLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6672-d-c5-r2"
+        },
+        {
+          "question": "She's best remembered by sci-fi readers for her \"Pern\" novels, many written with son Todd",
+          "answer": "Anne McCaffrey",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"Mc\"PEOPLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6672-d-c5-r3"
+        },
+        {
+          "question": "After his 1960s gig as Secretary of Defense, he became president of the World Bank",
+          "answer": "Robert McNamara",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"Mc\"PEOPLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6672-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL LIBRARIES & MUSEUMS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Of the 15 U.S. presidential libraries or museums, 3 are in this state, more than any other",
+          "answer": "Texas",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "PRESIDENTIAL LIBRARIES & MUSEUMS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6672-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 1615,
+  "showNumber": 3479,
+  "airDate": "October 21, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MATH & SCIENCE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On the centigrade scale, it's the melting point of ice",
+          "answer": "0 (zero)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH & SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1615-s-c0-r0"
+        },
+        {
+          "question": "1 volt times 1 amp equals this unit",
+          "answer": "watt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH & SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1615-s-c0-r1"
+        },
+        {
+          "question": "Forces like gravity are measured in units abbreviated N., named for this scientist",
+          "answer": "Isaac Newton",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH & SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1615-s-c0-r2"
+        },
+        {
+          "question": "To convert kilograms into grams, multiply by this",
+          "answer": "1000",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH & SCIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1615-s-c0-r3"
+        },
+        {
+          "question": "Musical instruments are tuned to 440 cycles per second, this note on a piano",
+          "answer": "A",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH & SCIENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1615-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "A WORLD OF BEER",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Asahi",
+          "answer": "Japan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A WORLD OF BEER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1615-s-c1-r0"
+        },
+        {
+          "question": "Foster's",
+          "answer": "Australia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A WORLD OF BEER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1615-s-c1-r1"
+        },
+        {
+          "question": "Beck's",
+          "answer": "Germany",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A WORLD OF BEER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1615-s-c1-r2"
+        },
+        {
+          "question": "Moosehead",
+          "answer": "Canada",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A WORLD OF BEER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1615-s-c1-r3"
+        },
+        {
+          "question": "Harp",
+          "answer": "Ireland",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A WORLD OF BEER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1615-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SOUTH DAKOTA",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The capitol building is on a 30-acre tract in this city overlooking the Missouri River",
+          "answer": "Pierre",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUTH DAKOTA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1615-s-c2-r0"
+        },
+        {
+          "question": "A gruesome clash between the government & the Indians took place here on December 29, 1890",
+          "answer": "Wounded Knee",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOUTH DAKOTA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1615-s-c2-r1"
+        },
+        {
+          "question": "South Dakota's Homestake Mine is one of the Western Hemisphere's largest producers of this metal",
+          "answer": "gold",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUTH DAKOTA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1615-s-c2-r2"
+        },
+        {
+          "question": "In Storybook Land in Aberdeen, where this author once lived, the \"Oz\" stories come to life",
+          "answer": "L. Frank Baum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUTH DAKOTA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1615-s-c2-r3"
+        },
+        {
+          "question": "On August 2, 1876 this gunfighter was shot in the back of the head by Jack McCall in Deadwood",
+          "answer": "Wild Bill Hickok",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUTH DAKOTA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1615-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BLACK AMERICANS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In May 1999 he won the release of 3 U.S. soldiers held captive in Serbia",
+          "answer": "Rev. Jesse Jackson",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1615-s-c3-r0"
+        },
+        {
+          "question": "During the 1996 Summer Olympics, this boxer was given a new gold medal to replace one from 1960",
+          "answer": "Muhammad Ali (Cassius Clay)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1615-s-c3-r1"
+        },
+        {
+          "question": "In 1998 this poet & author made her directorial debut with the movie \"Down in the Delta\"",
+          "answer": "Maya Angelou",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1615-s-c3-r2"
+        },
+        {
+          "question": "It's no secret, she was the first black model featured on a Victoria's Secret catalog cover",
+          "answer": "Tyra Banks",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1615-s-c3-r3"
+        },
+        {
+          "question": "He formed his famous New York dance theater company in 1958 with a troupe of only 8 dancers",
+          "answer": "Alvin Ailey",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1615-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "HIs & BYEs",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It wasn't necessary to dub this Schwarzenegger line in \"T2\" into Spanish",
+          "answer": "\"Hasta La Vista, Baby!\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIs & BYEs",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1615-s-c4-r0"
+        },
+        {
+          "question": "2-word greeting, or name of a famous fifties freckled marionette",
+          "answer": "Howdy Doody",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIs & BYEs",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1615-s-c4-r1"
+        },
+        {
+          "question": "This reptilian-flavored farewell hails from the '30s",
+          "answer": "\"See Ya Later, Alligator!\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIs & BYEs",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1615-s-c4-r2"
+        },
+        {
+          "question": "It's how Akihito would bid you farewell",
+          "answer": "Sayonara",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIs & BYEs",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1615-s-c4-r3"
+        },
+        {
+          "question": "Greeting that can follow \"ship\" or \"chips\"",
+          "answer": "Ahoy!",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIs & BYEs",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1615-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV CHARACTERS' MAIDEN NAMES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "MacGillicuddy was her TV maiden name from 1951 to 1960 (it still is today in reruns)",
+          "answer": "Lucille Ball",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV CHARACTERS' MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1615-s-c5-r0"
+        },
+        {
+          "question": "Like Jackie Kennedy, Marge Simpson had this maiden name",
+          "answer": "Bouvier",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV CHARACTERS' MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1615-s-c5-r1"
+        },
+        {
+          "question": "Jamie had recently shed her maiden name, Stemple, when this sitcom debuted in 1992",
+          "answer": "Mad About You",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV CHARACTERS' MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1615-s-c5-r2"
+        },
+        {
+          "question": "\"Oh, Rob!\"  This character was given 2 different maiden names, Meeker & Meehan",
+          "answer": "Laura Petrie (from \"The Dick Van Dyke Show\")",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV CHARACTERS' MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1615-s-c5-r3"
+        },
+        {
+          "question": "She played Gloria Stivic, nee Bunker",
+          "answer": "Sally Struthers",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV CHARACTERS' MAIDEN NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1615-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SECRETARIES OF STATE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He was the first person who could put U.S. Secretary of State on his resume",
+          "answer": "Thomas Jefferson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECRETARIES OF STATE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1615-d-c0-r0"
+        },
+        {
+          "question": "Dean Acheson continued the European recovery plan of this predecessor",
+          "answer": "George Marshall",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECRETARIES OF STATE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1615-d-c0-r1"
+        },
+        {
+          "question": "He was the only Secretary of State succeeded by a woman",
+          "answer": "Warren Christopher",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SECRETARIES OF STATE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1615-d-c0-r2"
+        },
+        {
+          "question": "The last Secretary of State to become president, he served under Polk & Taylor before being elected in 1856",
+          "answer": "James Buchanan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECRETARIES OF STATE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1615-d-c0-r3"
+        },
+        {
+          "question": "George Shultz served 7 years in the '80s, the longest run for someone in the post since this man in the '60s",
+          "answer": "Dean Rusk",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SECRETARIES OF STATE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1615-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN-BORN OSCAR WINNERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Born in India in 1913, she won her second Oscar for playing Blanche DuBois in 1951",
+          "answer": "Vivian Leigh",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN-BORN OSCAR WINNERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1615-d-c1-r0"
+        },
+        {
+          "question": "Aussie Geoffrey got quite a rush winning for this 1996 film",
+          "answer": "Shine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN-BORN OSCAR WINNERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1615-d-c1-r1"
+        },
+        {
+          "question": "Of the 2 women to win acting awards for 1961, she was the Italian",
+          "answer": "Sophia Loren (for \"Two Women\")",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN-BORN OSCAR WINNERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1615-d-c1-r2"
+        },
+        {
+          "question": "Her last of 3 Oscar wins was for playing Greta Ohlsson in 1974's \"Murder on the Orient Express\"",
+          "answer": "Ingrid Bergman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN-BORN OSCAR WINNERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1615-d-c1-r3"
+        },
+        {
+          "question": "This 1957 winner claimed he was born on Sakhalin Island, about 3,000 miles northeast of Siam",
+          "answer": "Yul Brynner",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN-BORN OSCAR WINNERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1615-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHAKESPEAREAN GEOGRAPHY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Boar's Head Tavern is one of many Shakespearean settings in this city",
+          "answer": "London",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1615-d-c2-r0"
+        },
+        {
+          "question": "In \"Henry VI, Part 1\" it's a setting; in \"Romeo and Juliet\" it's a suitor for Juliet's hand",
+          "answer": "Paris",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1615-d-c2-r1"
+        },
+        {
+          "question": "Messina, where \"Much Ado About Nothing\" takes place, is a port on this Italian island",
+          "answer": "Sicily",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1615-d-c2-r2"
+        },
+        {
+          "question": "Hamlet's father, the king of Denmark, killed Fortinbras' father, king of this nearby country",
+          "answer": "Norway",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1615-d-c2-r3"
+        },
+        {
+          "question": "Theseus, duke of this city in \"A Midsummer Night's Dream\", doesn't run into fellow resident Timon",
+          "answer": "Athens",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1615-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHIL-ER UP",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Da!  In 1987 he became the first American talk show host to tape shows in Russia",
+          "answer": "Phil Donahue",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL-ER UP",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1615-d-c3-r0"
+        },
+        {
+          "question": "His impersonations on \"Saturday Night Live\" included Bill Clinton & Frank Sinatra",
+          "answer": "Phil Hartman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL-ER UP",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1615-d-c3-r1"
+        },
+        {
+          "question": "He composed & sang most of the songs in Disney's \"Tarzan\" movie",
+          "answer": "Phil Collins",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL-ER UP",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1615-d-c3-r2"
+        },
+        {
+          "question": "This Boston Bruins center led the NHL in goals a record 6 straight seasons, from 1970 to 1975",
+          "answer": "Phil Esposito",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL-ER UP",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1615-d-c3-r3"
+        },
+        {
+          "question": "Before he was elected senator, this Texan served in the House as both a Democrat & a Republican",
+          "answer": "Phil Gramm",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL-ER UP",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1615-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE YEAR OF THE HEADLINE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Nazis Invade Poland!",
+          "answer": "1939",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE YEAR OF THE HEADLINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1615-d-c4-r0"
+        },
+        {
+          "question": "Frank Sinatra Passes Away!",
+          "answer": "1998",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE YEAR OF THE HEADLINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1615-d-c4-r1"
+        },
+        {
+          "question": "Nixon Reelected President!",
+          "answer": "1972",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE YEAR OF THE HEADLINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1615-d-c4-r2"
+        },
+        {
+          "question": "\"Miracle On Ice!\"  U.S. Men's Ice Hockey Team Wins Olympic Gold!",
+          "answer": "1980",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE YEAR OF THE HEADLINE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1615-d-c4-r3"
+        },
+        {
+          "question": "Sputnik 1 Launched!",
+          "answer": "1957",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE YEAR OF THE HEADLINE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1615-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"SEVEN\"s",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A state of great joy or satisfaction, or a series on the WB Network",
+          "answer": "Seventh Heaven",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SEVEN\"s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1615-d-c5-r0"
+        },
+        {
+          "question": "This religious sect observes the sabbath on Saturday",
+          "answer": "Seventh-day Adventists",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SEVEN\"s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1615-d-c5-r1"
+        },
+        {
+          "question": "This Akira Kurosawa film was the basis for the 1960 classic western \"The Magnificent Seven\"",
+          "answer": "The Seven Samurai",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SEVEN\"s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1615-d-c5-r2"
+        },
+        {
+          "question": "Burt Lancaster plays a general who plans to overthrow the president in this 1964 film",
+          "answer": "Seven Days in May",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"SEVEN\"s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1615-d-c5-r3"
+        },
+        {
+          "question": "A report by Marcos De Niza, a Franciscan priest, led Francisco Coronado to seek them",
+          "answer": "Seven Cities of Cibola/Gold",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"SEVEN\"s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1615-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "EXPLORERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On hearing of the discovery of George Mallory's body, this man told reporters he still thinks he was first",
+          "answer": "Sir Edmund Hillary",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "EXPLORERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1615-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

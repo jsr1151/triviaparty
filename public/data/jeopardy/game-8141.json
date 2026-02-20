@@ -1,0 +1,687 @@
+{
+  "gameId": 8141,
+  "showNumber": 172,
+  "airDate": "May 7, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HOSPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": []
+    },
+    {
+      "name": "SILLY SONGS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's what was going on while Bobby Darin was \"splish splash, takin' a bath\"",
+          "answer": "that party going on",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8141-s-c1-r0"
+        },
+        {
+          "question": "Hey! This guy he was so fine, he blew Toni Basil's mind",
+          "answer": "Mickey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8141-s-c1-r1"
+        },
+        {
+          "question": "According to the following, \"if you ever saw it\", what \"you would even say\":\"Then one foggy Christmas Eve / Santa came to say / Rudolph, with your nose so bright...\"",
+          "answer": "it glows",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8141-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "STARTS WITH \"V\"",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "B.P., heart rate & respiration are these kinds of signs to a paramedic",
+          "answer": "vital signs",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"V\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8141-s-c2-r0"
+        },
+        {
+          "question": "What Nolan Ryan would be if he threw his voice instead of a ball",
+          "answer": "a ventriloquist",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"V\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8141-s-c2-r1"
+        },
+        {
+          "question": "They're stacked to give a man backbone, unlike a spineless jellyfish",
+          "answer": "vertebrae",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"V\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8141-s-c2-r2"
+        },
+        {
+          "question": "It can be spiked to score a point",
+          "answer": "a volleyball",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"V\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8141-s-c2-r3"
+        },
+        {
+          "question": "Repeated word for word",
+          "answer": "verbatim",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"V\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8141-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAMMALS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This bushy-tailed tree top rodent can take falls up to 100 feet without injury",
+          "answer": "a squirrel (a flying squirrel)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8141-s-c3-r0"
+        },
+        {
+          "question": "Renowned for speed, this large carnivore can go from standing to 45 mph in 2 secs.",
+          "answer": "a cheetah",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8141-s-c3-r1"
+        },
+        {
+          "question": "In Europe, this fierce animal is the \"glutton\", in the Big 10, it's the University of Michigan",
+          "answer": "a wolverine",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8141-s-c3-r2"
+        },
+        {
+          "question": "Genuine angora, not mohair, is made from the fur of this mammal",
+          "answer": "a rabbit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8141-s-c3-r3"
+        },
+        {
+          "question": "More common name for wapiti",
+          "answer": "an elk",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8141-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "JIMMY CAGNEY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Three word phrase he's often imitated saying, but claims he never said in films",
+          "answer": "you dirty rat",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY CAGNEY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8141-s-c4-r0"
+        },
+        {
+          "question": "In \"One, Two, Three\", Cagney played an overseas executive for this soda co.",
+          "answer": "Coca-Cola",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY CAGNEY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8141-s-c4-r1"
+        },
+        {
+          "question": "In this famous 1949 film, Cagney died, consumed by flames on the \"top of the world\"",
+          "answer": "White Heat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "JIMMY CAGNEY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8141-s-c4-r2"
+        },
+        {
+          "question": "Oscar role he said had \"all the elements... drama...comedy...hokey-pokey, real hokey-pokey\"",
+          "answer": "Yankee Doodle Dandy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY CAGNEY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8141-s-c4-r3"
+        },
+        {
+          "question": "On doctor's orders, he returned to making movies after 20 years for this 1981 film",
+          "answer": "Ragtime",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JIMMY CAGNEY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8141-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DESSERTS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Famous Amos, Mrs. Fields & the Keebler elves have all made their names with these",
+          "answer": "cookies",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8141-s-c5-r0"
+        },
+        {
+          "question": "Dessert stolen by the Knave of Hearts",
+          "answer": "tarts",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8141-s-c5-r1"
+        },
+        {
+          "question": "You should find 4 cherry halves in a 17-oz. Del Monte can of this",
+          "answer": "a tin fruit cocktail",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8141-s-c5-r2"
+        },
+        {
+          "question": "German for \"whirlpool\", when filled with apples it's a pastry",
+          "answer": "strudel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8141-s-c5-r3"
+        },
+        {
+          "question": "It looks like ice cream, tastes like ice cream, but it's the current curd fad",
+          "answer": "Tofutti (tofu ice cream)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8141-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD CITIES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Only Muslims may enter this holiest Islamic city",
+          "answer": "Mecca",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8141-d-c0-r0"
+        },
+        {
+          "question": "This Canadian city is North America's busiest Pacific port",
+          "answer": "Vancouver",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8141-d-c0-r1"
+        },
+        {
+          "question": "\"Dark pool\" in Gaelic, it's known for a monumental no. of public monuments",
+          "answer": "Dublin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8141-d-c0-r2"
+        },
+        {
+          "question": "Icelandic capital which uses natural hot springs to heat all its buildings",
+          "answer": "Reykjavik",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8141-d-c0-r3"
+        },
+        {
+          "question": "Founded as St. Petersburg & now called Leningrad, it was this from 1914-1924",
+          "answer": "Petrograd",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8141-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "12-LETTER WORDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In Batman's Gotham City, this was the title of the police force's James Gordon",
+          "answer": "Commissioner",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "12-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8141-d-c1-r0"
+        },
+        {
+          "question": "It's the picture that accompanies the prose",
+          "answer": "illustration",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "12-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8141-d-c1-r1"
+        },
+        {
+          "question": "It's the art of making or displaying fireworks",
+          "answer": "pyrotechnics",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "12-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8141-d-c1-r2"
+        },
+        {
+          "question": "Style of swimming that got its 1st medal in the '84 Olympics",
+          "answer": "synchronized",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "12-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8141-d-c1-r3"
+        },
+        {
+          "question": "Another name for stevedore",
+          "answer": "a longshoreman",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "12-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8141-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMPOSERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Rossini really \"hit the bull's-eye\" when he wrote this overture",
+          "answer": "the William Tell Overture",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8141-d-c2-r0"
+        },
+        {
+          "question": "His 9th Symphony's \"Ode To Joy\" was featured in The Beatles' movie \"Help\"",
+          "answer": "Beethoven",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8141-d-c2-r1"
+        },
+        {
+          "question": "It took only 3 weeks for him to compose \"Rhapsody In Blue\"",
+          "answer": "George Gershwin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8141-d-c2-r2"
+        },
+        {
+          "question": "Though German, he admired Shakespeare and wrote incidental music for \"A Midsummer Night's Dream\"",
+          "answer": "Mendelssohn",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8141-d-c2-r3"
+        },
+        {
+          "question": "Brahms & Chopin were 2 primary composers of this period which followed the classical",
+          "answer": "the Romantic period",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPOSERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8141-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AGRICULTURE",
+      "round": "double",
+      "position": 3,
+      "clues": []
+    },
+    {
+      "name": "CIVIL WAR",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "First side to resort to drafting soldiers",
+          "answer": "the South (the Confederacy)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8141-d-c4-r0"
+        },
+        {
+          "question": "Son-in-law of President Zachary Taylor who was himself a president during the war",
+          "answer": "Jefferson Davis (President of the Confederacy)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8141-d-c4-r1"
+        },
+        {
+          "question": "1 of 5 slaves states that didn't secede",
+          "answer": "(1 of) Kentucky (Missouri, West Virginia, Delaware or Maryland)",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8141-d-c4-r2"
+        },
+        {
+          "question": "\"High-Water Mark of the South\" was this general's charge at Gettysburg",
+          "answer": "Pickett",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8141-d-c4-r3"
+        },
+        {
+          "question": "Though there were only eleven states in the Confederacy, the Confederate flag had this many stars",
+          "answer": "13",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8141-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "EQUIVALENCIES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Canadian equivalent of our states",
+          "answer": "provinces",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENCIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8141-d-c5-r0"
+        },
+        {
+          "question": "British equivalent of the Girl Scouts",
+          "answer": "the Girl Guides",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENCIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8141-d-c5-r1"
+        },
+        {
+          "question": "Jewish equivalent of crepes",
+          "answer": "blintzes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENCIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8141-d-c5-r2"
+        },
+        {
+          "question": "In 5 states, Calif., Nev., NY, NJ & Wisc., the state House of Representatives is called this",
+          "answer": "the State Assembly",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENCIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8141-d-c5-r3"
+        },
+        {
+          "question": "Naval equivalent of a 2nd lieutenant",
+          "answer": "an ensign",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENCIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8141-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOVERNMENT",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The highest ranking member of the U.S. President's Cabinet",
+          "answer": "the Secretary of State",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "GOVERNMENT",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8141-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

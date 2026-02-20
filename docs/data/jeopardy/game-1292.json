@@ -1,0 +1,821 @@
+{
+  "gameId": 1292,
+  "showNumber": 5081,
+  "airDate": "October 16, 2006",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "TWIN PEAKS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Nanga Parbat & Namcha Barwa, both over 25,000 feet",
+          "answer": "the Himalayas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TWIN PEAKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1292-s-c0-r0"
+        },
+        {
+          "question": "Monte Leone&the Rheinwaldhorn",
+          "answer": "the Alps",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TWIN PEAKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1292-s-c0-r1"
+        },
+        {
+          "question": "Mount Elbert&Longs Peak",
+          "answer": "the Rockies",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TWIN PEAKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1292-s-c0-r2"
+        },
+        {
+          "question": "Lassen Peak&Mount Rainier",
+          "answer": "the Cascades",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TWIN PEAKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1292-s-c0-r3"
+        },
+        {
+          "question": "Mont-Louis&Monte Perdido",
+          "answer": "the Pyrenees",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TWIN PEAKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1292-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HORSE SENSE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Count Casimir Pulaski led his own cavalry unit in this war",
+          "answer": "Revolutionary War",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSE SENSE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1292-s-c1-r0"
+        },
+        {
+          "question": "You don't need a Gallup  poll to tell you it has the horse seen here on its grille",
+          "answer": "the Ford Mustang",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSE SENSE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1292-s-c1-r1"
+        },
+        {
+          "question": "Overo & Tobiano are 2 major color patterns of this breed that's not available from Sherwin-Williams",
+          "answer": "a paint (or pinto)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSE SENSE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1292-s-c1-r2"
+        },
+        {
+          "question": "Among trees, the Aesculus hippocastanum is the common horse this",
+          "answer": "chestnut",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HORSE SENSE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1292-s-c1-r3"
+        },
+        {
+          "question": "We'll issue you one if you can name this horse who in 1951 became the first million-dollar earner",
+          "answer": "Citation",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORSE SENSE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1292-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THOU ART DA MAN!",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"They brought\" this Old Testament man, \"and cast him into the den of lions\"",
+          "answer": "Daniel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THOU ART DA MAN!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1292-s-c2-r0"
+        },
+        {
+          "question": "In Genesis 5 we learn this man \"was five hundred years old; and... begat Shem, Ham, and Japheth\"",
+          "answer": "Noah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THOU ART DA MAN!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1292-s-c2-r1"
+        },
+        {
+          "question": "In his Bible book he \"prayed unto the Lord his God out of the fish's belly\"",
+          "answer": "Jonah",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THOU ART DA MAN!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1292-s-c2-r2"
+        },
+        {
+          "question": "In Exodus 3:14 \"God said unto\" this man, \"I am that I am\"",
+          "answer": "Moses",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THOU ART DA MAN!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1292-s-c2-r3"
+        },
+        {
+          "question": "In Acts he says, \"I am a Jew of Tarsus, a city in Cilicia, a citizen of no mean city\"",
+          "answer": "Paul",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THOU ART DA MAN!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1292-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COFFEES ALL AROUND",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This \"Good to the last drop\" brand lets you choose among smooth, rich & bold",
+          "answer": "Maxwell House",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COFFEES ALL AROUND",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1292-s-c3-r0"
+        },
+        {
+          "question": "At Starbucks, a \"shot\" is typically a shot of this coffee brew",
+          "answer": "espresso",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COFFEES ALL AROUND",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1292-s-c3-r1"
+        },
+        {
+          "question": "The press you can use to infuse your coffee bears the name of this country that invented the infusion method",
+          "answer": "France (a French press accepted)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COFFEES ALL AROUND",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1292-s-c3-r2"
+        },
+        {
+          "question": "If you feel a chill in Chinchina, Colombia, you may be passing the factory where instant coffee is made this way",
+          "answer": "freeze-dried",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COFFEES ALL AROUND",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1292-s-c3-r3"
+        },
+        {
+          "question": "This \"heavenly coffee\", a New York institution, is the official coffee of Radio City Music Hall",
+          "answer": "Chock Full O' Nuts",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COFFEES ALL AROUND",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1292-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LET'S MAKE THEM IRISH!",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Making an Irishman out of potato chip entrepreneur Herman brings this cry of approval",
+          "answer": "O'Lay (olé)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S MAKE THEM IRISH!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1292-s-c4-r0"
+        },
+        {
+          "question": "Make baseball pitcher Nolan (even more) Irish & you get this \"belted\" constellation",
+          "answer": "O'Ryan (Orion)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S MAKE THEM IRISH!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1292-s-c4-r1"
+        },
+        {
+          "question": "Make the band that sang \"She Sells Sanctuary\" Irish, & you've got this realm of the supernatural",
+          "answer": "O'Cult (occult)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S MAKE THEM IRISH!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1292-s-c4-r2"
+        },
+        {
+          "question": "Take any wise man, like the one \"of Monticello\", turn him Irish & you'll have this Oklahoma tribe",
+          "answer": "O'Sage (Osage)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S MAKE THEM IRISH!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1292-s-c4-r3"
+        },
+        {
+          "question": "Turning Hero's mythical lover into an Irishman gives you this evergreen shrub",
+          "answer": "O'Leander (Oleander)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LET'S MAKE THEM IRISH!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1292-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOTBALL 101",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Jimmy of the Clue Crew takes the snap and holds for the kick.) The ball is snapped from the 3-yard-line to the holder a few yards back to kick a PAT, which stands for this",
+          "answer": "a point after touchdown",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL 101",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1292-s-c5-r0"
+        },
+        {
+          "question": "(Jimmy watches a receiver catch the ball while running out of bounds.)  It's the reason that's a completed pass under NCAA rules, but would be an incompletion in the NFL",
+          "answer": "the receiver had only one foot in bounds",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL 101",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1292-s-c5-r1"
+        },
+        {
+          "question": "(Jimmy describes a formation.)  Usually there's a split end about ten yards from one tackle & this end close to the other tackle; Junior Miller was a great one",
+          "answer": "a tight end",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL 101",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1292-s-c5-r2"
+        },
+        {
+          "question": "(Jimmy stands and takes the snap from center.) By lining up several yards behind the center, the quarterback pulls the trigger on this offense popularized by the Dallas Cowboys\"Hut, hut!\"",
+          "answer": "shotgun",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL 101",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1292-s-c5-r3"
+        },
+        {
+          "question": "(Jimmy watches an offensive drill.) In this pattern, whose name is also an insect, the receiver runs straight down the field at full speed",
+          "answer": "a fly pattern",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOTBALL 101",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1292-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Not Natty Dresser but Natty this dies in the novel \"The Prairie\"",
+          "answer": "Bumppo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1292-d-c0-r0"
+        },
+        {
+          "question": "This Melville character's artificial leg is carved from the jawbone of a sperm whale",
+          "answer": "Ahab",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1292-d-c0-r1"
+        },
+        {
+          "question": "Jim Hawkins narrates this 1883 novel",
+          "answer": "Treasure Island",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1292-d-c0-r2"
+        },
+        {
+          "question": "At the start of this Dickens novel, Pip meets an escaped convict who threatens to eat him",
+          "answer": "Great Expectations",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1292-d-c0-r3"
+        },
+        {
+          "question": "This governor of a Southern state asks his aide to dig up dirt on Judge Irwin, a man of integrity",
+          "answer": "Willie Stark",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1292-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE QUOTES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "1967:\"I just want to say one word to you--just one word... plastics!\"",
+          "answer": "The Graduate",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1292-d-c1-r0"
+        },
+        {
+          "question": "1970:\"Oh, Frank, my lips are hot.  Kiss my hot lips\"",
+          "answer": "M*A*S*H",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1292-d-c1-r1"
+        },
+        {
+          "question": "1987:\"Hello.  My name is Inigo Montoya.  You killed my father.  Prepare to die!\"",
+          "answer": "The Princess Bride",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1292-d-c1-r2"
+        },
+        {
+          "question": "1983:\"You wanna play rough?  Okay.  Say hello to my little friend\"",
+          "answer": "Scarface",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1292-d-c1-r3"
+        },
+        {
+          "question": "1952, Grace Kelly:\"You're asking me to wait an hour to find out if I'm going to be a wife or a widow\"",
+          "answer": "High Noon",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1292-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE GUYS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "At a 1944 auction a copy of his paper on the special theory of relativity brought a $6.5-mil. pledge in war bonds",
+          "answer": "Einstein",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1292-d-c2-r0"
+        },
+        {
+          "question": "In the 1930s Charles A. Lindbergh helped secure financial backing for this man's rocket experiments",
+          "answer": "Goddard",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1292-d-c2-r1"
+        },
+        {
+          "question": "\"General Chemistry\", a 1947 textbook by this Peace & Chemistry Nobel winner, is still a useful introduction",
+          "answer": "(Linus) Pauling",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1292-d-c2-r2"
+        },
+        {
+          "question": "We're certain that in the 1920s, this \"principled\" German physicist developed the principle of matrix mechanics",
+          "answer": "(Wener) Heisenberg",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1292-d-c2-r3"
+        },
+        {
+          "question": "This professor of anatomy at the Univ. of Bologna discovered that electricity can cause frogs' legs to twitch",
+          "answer": "Galvani",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1292-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "DISGUISE THE LIMIT",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Capone's men were disguised as these during the \"St. Valentine's Day Massacre\" of 1929",
+          "answer": "policemen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DISGUISE THE LIMIT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1292-d-c3-r0"
+        },
+        {
+          "question": "In 19th c. India British troops dyed their white uniforms to blend with the dry earth, utilizing this 10-letter term",
+          "answer": "camouflage",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISGUISE THE LIMIT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1292-d-c3-r1"
+        },
+        {
+          "question": "Imprisoned for Bonapartist sympathies, Edmond Dantes returns disguised, rich & mad in this book",
+          "answer": "The Count of Monte Cristo",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISGUISE THE LIMIT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1292-d-c3-r2"
+        },
+        {
+          "question": "In Sept. 1776 this patriot disguised himself as a schoolmaster & carried his Yale diploma while tracking the Brits",
+          "answer": "(Nathan) Hale",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISGUISE THE LIMIT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1292-d-c3-r3"
+        },
+        {
+          "question": "Gugilemo & Ferrando gussy up as Albanians to test their finacees' fidelity in his opera \"Cosi fan tutte\"",
+          "answer": "Mozart",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISGUISE THE LIMIT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1292-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHO'S THAT GUERRILLA?",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "His guerrilla war against Chaing Kai-shek led him to his own brand of Marxism where the peasants lead the revolution",
+          "answer": "Mao Zedong",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THAT GUERRILLA?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1292-d-c4-r0"
+        },
+        {
+          "question": "U.S. Army Lt. Col. Wendell Fertig was a WWII guerrilla leader on Mindanao in this country",
+          "answer": "the Philippines",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THAT GUERRILLA?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1292-d-c4-r1"
+        },
+        {
+          "question": "For Encyclopedia Britannica, he wrote a \"Guerrilla Warfare\" article based on the Arab revolt of 1916-18",
+          "answer": "Lawrence (of Arabia)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THAT GUERRILLA?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1292-d-c4-r2"
+        },
+        {
+          "question": "Ramdane Abbane fought the French in this African country in the 1950s",
+          "answer": "Algeria",
+          "value": 8000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THAT GUERRILLA?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1292-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "\"K\" MART",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Ann Richards delivered this \"address\" at the 1988 Democratic National Convention",
+          "answer": "the keynote",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" MART",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1292-d-c5-r0"
+        },
+        {
+          "question": "Jewish \"ravioli\" served in soup",
+          "answer": "kreplach",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"K\" MART",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1292-d-c5-r1"
+        },
+        {
+          "question": "In playing cards, it's another word for a jack",
+          "answer": "a knave",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" MART",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1292-d-c5-r2"
+        },
+        {
+          "question": "Called Durobrivae in ancient times, Rochester, England is found in this county where you'll also find Canterbury",
+          "answer": "Kent",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" MART",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1292-d-c5-r3"
+        },
+        {
+          "question": "In December of 1991 Nursultan Nazarbayev became this -stan's first democratically elected president",
+          "answer": "Kazakhstan",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" MART",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1292-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM MOVIE TO MUSICAL",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A play-within-a-play, called \"Pretty Lady\", suddenly needs a new leading lady in this ever-popular musical",
+          "answer": "42nd Street",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FROM MOVIE TO MUSICAL",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1292-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

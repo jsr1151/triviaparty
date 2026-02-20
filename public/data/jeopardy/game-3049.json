@@ -1,0 +1,821 @@
+{
+  "gameId": 3049,
+  "showNumber": 3786,
+  "airDate": "February 5, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "CITIZENSHIP TEST",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the government body abbreviated CIA",
+          "answer": "the Central Intelligence Agency",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITIZENSHIP TEST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3049-s-c0-r0"
+        },
+        {
+          "question": "It was the last state to join the United States",
+          "answer": "Hawaii",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITIZENSHIP TEST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3049-s-c0-r1"
+        },
+        {
+          "question": "By law a U.S. senator's term lasts this many years",
+          "answer": "6",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITIZENSHIP TEST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3049-s-c0-r2"
+        },
+        {
+          "question": "In 1800 the national government of the United States moved from this city to Washington, D.C.",
+          "answer": "Philadelphia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CITIZENSHIP TEST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3049-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "BETTER KNOWN AS...",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Norma Jean Baker",
+          "answer": "Marilyn Monroe",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN AS...",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3049-s-c1-r0"
+        },
+        {
+          "question": "Allen Stewart Konigsberg",
+          "answer": "Woody Allen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN AS...",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3049-s-c1-r1"
+        },
+        {
+          "question": "Ramon Estevez",
+          "answer": "Martin Sheen",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN AS...",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3049-s-c1-r2"
+        },
+        {
+          "question": "Nicolas Coppola",
+          "answer": "Nicolas Cage",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN AS...",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3049-s-c1-r3"
+        },
+        {
+          "question": "Bernard Schwartz",
+          "answer": "Tony Curtis",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN AS...",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3049-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOLIDAYS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The saying \"Wearing his heart on his sleeve\" probably comes from a practice once performed on this holiday",
+          "answer": "Valentine's Day",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3049-s-c2-r0"
+        },
+        {
+          "question": "For Roman Catholics this 40-day period of fasting begins on Ash Wednesday & ends on Easter",
+          "answer": "Lent",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3049-s-c2-r1"
+        },
+        {
+          "question": "This Jewish holy day begins with the recitation of the Kol Nidre",
+          "answer": "Yom Kippur",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3049-s-c2-r2"
+        },
+        {
+          "question": "This June day had been celebrated for 62 years, but it wasn't official until signed into law by Nixon in 1972",
+          "answer": "Father's Day",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3049-s-c2-r3"
+        },
+        {
+          "question": "Reputedly, the first Christmas tree in England was the one Prince Albert gave this queen in 1841",
+          "answer": "Victoria",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3049-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP MUSIC",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Her 1990 greatest hits album is called \"The Immaculate Collection\"",
+          "answer": "Madonna",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3049-s-c3-r0"
+        },
+        {
+          "question": "He was \"Born in the U.S.A.\" on Sept. 23, 1949",
+          "answer": "Bruce Springsteen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3049-s-c3-r1"
+        },
+        {
+          "question": "This Beatles song begins, \"When I find myself in times of trouble, Mother Mary comes to me\"",
+          "answer": "\"Let It Be\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3049-s-c3-r2"
+        },
+        {
+          "question": "This rock band's 1991 concert film \"At the Max\" was shot during their Steel Wheels tour",
+          "answer": "The Rolling Stones",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3049-s-c3-r3"
+        },
+        {
+          "question": "It's the group heard here",
+          "answer": "Blondie",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3049-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORY FROM HOLLYWOOD",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "At the end of \"Tora! Tora! Tora!\" Admiral Yamamoto realizes this sneak attack may have been a big mistake",
+          "answer": "Pearl Harbor",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY FROM HOLLYWOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3049-s-c4-r0"
+        },
+        {
+          "question": "1927's \"Wings\" features great dogfight scenes set in this war",
+          "answer": "World War I",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY FROM HOLLYWOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3049-s-c4-r1"
+        },
+        {
+          "question": "In 1995 Thandie Newton was sexy slave Sally & Nick Nolte was this U.S. statesman \"in Paris\"",
+          "answer": "Jefferson",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY FROM HOLLYWOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3049-s-c4-r2"
+        },
+        {
+          "question": "In 1954 Anthony Quinn played this barbarian Hun",
+          "answer": "Attila",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY FROM HOLLYWOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3049-s-c4-r3"
+        },
+        {
+          "question": "In 1939 Spencer Tracy searched for this African explorer, played by Cedric Hardwicke",
+          "answer": "Dr. David Livingstone",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORY FROM HOLLYWOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3049-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TALK NONSENSE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This partner of \"goo goo\" in baby talk also means \"foolishly enthusiastic\"",
+          "answer": "ga ga",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK NONSENSE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3049-s-c5-r0"
+        },
+        {
+          "question": "Completes the immortal words of Little Richard, \"A wop bop a loo bop a lop...\"",
+          "answer": "bam boom",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK NONSENSE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3049-s-c5-r1"
+        },
+        {
+          "question": "In the dictionary this triple-talk phrase meaning \"and so on\" comes after bladder & before blanch",
+          "answer": "blah blah blah",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK NONSENSE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3049-s-c5-r2"
+        },
+        {
+          "question": "Children's taunt once used by fugitive Deborah Ulrich in a letter to police",
+          "answer": "nya, nya, nya",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK NONSENSE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3049-s-c5-r3"
+        },
+        {
+          "question": "On '70s TV this was Charo's version of making whoopee",
+          "answer": "cuchi cuchi",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK NONSENSE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3049-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLET",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In a 1999 ballet Roger Van Fleteren played Dr. Jekyll & Wes Chapman played this alter ego",
+          "answer": "Mr. Hyde",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3049-d-c0-r0"
+        },
+        {
+          "question": "\"Go Daddy-O!\" celebrates this style of music that Benny Goodman was the \"King of\"",
+          "answer": "Swing",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3049-d-c0-r1"
+        },
+        {
+          "question": "A 1982 Twyla Tharp work is danced to 9 of this singer's hits, including \"Strangers in the Night\" & \"My Way\"",
+          "answer": "Frank Sinatra",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3049-d-c0-r2"
+        },
+        {
+          "question": "The Joffrey's 1993 ballet \"Billboards\" rocks with the music of this \"Purple Rain\"er",
+          "answer": "Prince",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3049-d-c0-r3"
+        },
+        {
+          "question": "\"A Streetcar...\" is an abstract ballet inspired by the work of this playwright",
+          "answer": "Tennessee Williams",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3049-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FORGOTTEN BUT NOT GONE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This crime of stealing cattle, more associated with the Old West, still plagues ranchers today",
+          "answer": "rustling",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORGOTTEN BUT NOT GONE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3049-d-c1-r0"
+        },
+        {
+          "question": "Wham-O still sells this hip-hugging plastic toy, though not 25 million in 4 months like when it debuted in 1958",
+          "answer": "the Hula-Hoop",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORGOTTEN BUT NOT GONE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3049-d-c1-r1"
+        },
+        {
+          "question": "The U.S. Army still has units called this, though the actual horse-mounted forces were abolished in 1950",
+          "answer": "the cavalry",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORGOTTEN BUT NOT GONE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3049-d-c1-r2"
+        },
+        {
+          "question": "At a dance class, you can still learn this hot 1920s dance named for a South Carolina city",
+          "answer": "the Charleston",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORGOTTEN BUT NOT GONE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3049-d-c1-r3"
+        },
+        {
+          "question": "Despite the DPT vaccine, there are still thousands of cases of this type of \"cough\" in the U.S. each year",
+          "answer": "whooping cough",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORGOTTEN BUT NOT GONE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3049-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"F\" IN GEOGRAPHY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Major cities in this European nation include Vaasa, Maarianhamina & Helsinki",
+          "answer": "Finland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3049-d-c2-r0"
+        },
+        {
+          "question": "Doncha know this city on the Red River is the largest city in North Dakota",
+          "answer": "Fargo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3049-d-c2-r1"
+        },
+        {
+          "question": "It's the numeric name for the locality where the borders of Utah, Colorado, New Mexico & Arizona meet",
+          "answer": "the Four Corners",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3049-d-c2-r2"
+        },
+        {
+          "question": "This city 30 miles west of Dallas was an important stop along the Chisholm Trail",
+          "answer": "Fort Worth",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3049-d-c2-r3"
+        },
+        {
+          "question": "In the 1980s Argentina & Great Britain fought a war over these South American islands",
+          "answer": "the Falklands",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3049-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RECENT MOVIES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This Lucy Liu-Cameron Diaz-Drew Barrymore blockbuster was \"heaven sent\"",
+          "answer": "Charlie's Angels",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT MOVIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3049-d-c3-r0"
+        },
+        {
+          "question": "This funnyman played Robert De Niro's shrink in \"Analyze This\"",
+          "answer": "Billy Crystal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT MOVIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3049-d-c3-r1"
+        },
+        {
+          "question": "He played a mystical caddy in \"The Legend of Bagger Vance\"",
+          "answer": "Will Smith",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT MOVIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3049-d-c3-r2"
+        },
+        {
+          "question": "In 1998 Ralph Fiennes' brother Joseph played this writer \"in Love\"",
+          "answer": "Shakespeare",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT MOVIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3049-d-c3-r3"
+        },
+        {
+          "question": "Laurence Fishburne shows computer hacker Keanu Reeves that the world isn't what it seems in this film",
+          "answer": "The Matrix",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RECENT MOVIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3049-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "As well as the \"Iliad\" & \"Odyssey\", a number of hymns are attributed to him",
+          "answer": "Homer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3049-d-c4-r0"
+        },
+        {
+          "question": "This American novelist created the old fisherman Santiago & the young bullfighter Pedro Romero",
+          "answer": "Hemingway",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3049-d-c4-r1"
+        },
+        {
+          "question": "Before \"Les Miserables\", he attacked the French penal system in the novel \"Claude Gueux\"",
+          "answer": "Victor Hugo",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3049-d-c4-r2"
+        },
+        {
+          "question": "This Thoreau work includes a chapter on \"The Pond in Winter\"",
+          "answer": "\"Walden\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3049-d-c4-r3"
+        },
+        {
+          "question": "The 2 leading French Absurdists were Ionesco, from Romania, & this Irish author of \"Waiting for Godot\"",
+          "answer": "Beckett",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3049-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "A LITTLE FRENCH",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Chaise longue\", French for \"long chair\", got Americanized to this",
+          "answer": "chaise lounge",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE FRENCH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3049-d-c5-r0"
+        },
+        {
+          "question": "Canard may mean a hoax or rumor, or this bird, perhaps served \"a l'orange\"",
+          "answer": "duck",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE FRENCH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3049-d-c5-r1"
+        },
+        {
+          "question": "In French this instrument played by Tracy Partridge is a tambour de Basque",
+          "answer": "tambourine",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE FRENCH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3049-d-c5-r2"
+        },
+        {
+          "question": "Paris' subway, Le Chemin de Fer Metropolitain, is usually just called this",
+          "answer": "the Metro",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE FRENCH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3049-d-c5-r3"
+        },
+        {
+          "question": "The Fendi sisters make a fabulous one of these handbags with the same name as a loaf of French bread",
+          "answer": "a Baguette",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE FRENCH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3049-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS SHIPS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In December 1620 this vessel came ashore at a secondary destination because of a shortage of beer",
+          "answer": "the Mayflower",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS SHIPS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3049-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

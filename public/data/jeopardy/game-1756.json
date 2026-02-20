@@ -1,0 +1,785 @@
+{
+  "gameId": 1756,
+  "showNumber": 571,
+  "airDate": "February 16, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BIRDS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The bat parrot probably got its name from sleeping in this position",
+          "answer": "upside-down",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1756-s-c0-r0"
+        },
+        {
+          "question": "Too \"lei\"zy to migrate, the geese in this tropical state stay year-round",
+          "answer": "Hawaii",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1756-s-c0-r1"
+        },
+        {
+          "question": "A bird waterproofs its feathers with oil from its \"preen gland\", located at the base of this",
+          "answer": "its tail",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1756-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "THE LIBRARY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Defacing books or shouting or throwing spitballs at the other readers",
+          "answer": "three activities prohibited in the library",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1756-s-c1-r0"
+        },
+        {
+          "question": "On most reference books in your local library, you'll find this letter above the call number",
+          "answer": "R",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1756-s-c1-r1"
+        },
+        {
+          "question": "When a book has been checked out it's said to be \"in\" this",
+          "answer": "circulation",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1756-s-c1-r2"
+        },
+        {
+          "question": "In this classification system, WWII, 940.54, comes before the Civil War, 973.7",
+          "answer": "the Dewey Decimal system",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1756-s-c1-r3"
+        },
+        {
+          "question": "Shirley Jones played this part by the book in \"The Music Man\"",
+          "answer": "(Marian the) librarian",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1756-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LEAD SINGERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Genesis",
+          "answer": "Phil Collins",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEAD SINGERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1756-s-c2-r0"
+        },
+        {
+          "question": "The Police",
+          "answer": "Sting",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEAD SINGERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1756-s-c2-r1"
+        },
+        {
+          "question": "Wham!",
+          "answer": "George Michael",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEAD SINGERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1756-s-c2-r2"
+        },
+        {
+          "question": "Eurythmics",
+          "answer": "Annie Lennox",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEAD SINGERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1756-s-c2-r3"
+        },
+        {
+          "question": "Talking Heads",
+          "answer": "David Byrne",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEAD SINGERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1756-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYTIME",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "To compete with \"G.I. Joe\", Coleco has created a line of soldiers inspired by this Stallone film",
+          "answer": "Rambo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYTIME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1756-s-c3-r0"
+        },
+        {
+          "question": "In 1977, Kenner sold gift certificates for toys based on this sci-fi film since the toys didn't exist yet",
+          "answer": "Star Wars",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYTIME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1756-s-c3-r1"
+        },
+        {
+          "question": "Christmas stockings in 1986 were filled with this Hungarian inventor's \"Magic\", as well as Santa's",
+          "answer": "Rubik",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYTIME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1756-s-c3-r2"
+        },
+        {
+          "question": "Since 1949, this game manufacturer has sold about 1 million Candyland sets a year",
+          "answer": "Milton Bradley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLAYTIME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1756-s-c3-r3"
+        },
+        {
+          "question": "A battle of the bands is ensuing between Barbie & The Rockers & this doll & The Holograms",
+          "answer": "Jem",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYTIME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1756-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CURRENT EVENTS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Hamilton, Ohio recently added this punctuation mark to its name, like our show's always had",
+          "answer": "an exclamation mark",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1756-s-c4-r0"
+        },
+        {
+          "question": "\"Hands Across America\" raised money for the hungry & homeless in this country",
+          "answer": "the United States of America",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1756-s-c4-r1"
+        },
+        {
+          "question": "In October 1986, Reagan & Gorbachev went face to face in this cold capital",
+          "answer": "Reykjavik",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1756-s-c4-r2"
+        },
+        {
+          "question": "Father Lawrence Jenco, the Reverend Benjamin Weir, & David Jacobsen",
+          "answer": "hostages that were released from Beirut",
+          "value": 200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1756-s-c4-r3"
+        },
+        {
+          "question": "In 1986, for the 1st time ever, 2 women ran against each other for gov. in this plains state",
+          "answer": "Nebraska",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1756-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CAR TALK",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "If you \"boil the hides\", it means your rear tires are producing this at the start of a drag race",
+          "answer": "smoke",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAR TALK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1756-s-c5-r0"
+        },
+        {
+          "question": "When fixing cars, \"R & R\" means remove & do this to an auto part",
+          "answer": "restore (or replace or repair)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAR TALK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1756-s-c5-r1"
+        },
+        {
+          "question": "When your car is \"on the hook\", it's traveling this way",
+          "answer": "on a tow truck",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAR TALK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1756-s-c5-r2"
+        },
+        {
+          "question": "When a car has been \"chopped\", this part of it has been lowered",
+          "answer": "the top",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAR TALK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1756-s-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Death of his son led him to write a \"History of Spiritualism\" before his last Sherlock Holmes book",
+          "answer": "(Sir Arthur Conan) Doyle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1756-d-c0-r0"
+        },
+        {
+          "question": "\"A Christmas Carol\" character who tells Scrooge, \"I wear the chain I forged in life\"",
+          "answer": "Jacob Marley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1756-d-c0-r1"
+        },
+        {
+          "question": "Narrator of classic tales translated by Sir Richard Burton, or title of this \"suite\" music",
+          "answer": "Scheherezade",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1756-d-c0-r2"
+        },
+        {
+          "question": "19th c. feminist Catharine Beecher wrote \"The American Woman's Home\" with this more famous sister",
+          "answer": "Harriet Beecher Stowe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1756-d-c0-r3"
+        },
+        {
+          "question": "Subtitled \"A Tale of Acadie\", this Longfellow poem describes the tragic romance of an Acadian woman",
+          "answer": "Evangeline",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1756-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE WORLD",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On the 1st day of spring or fall, the Sun is directly over this imaginary line",
+          "answer": "the Equator",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1756-d-c1-r0"
+        },
+        {
+          "question": "Of about 10, 30, or 50%, percentage of Earth's surface covered by land",
+          "answer": "30%",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1756-d-c1-r1"
+        },
+        {
+          "question": "All of the peoples of the world belong to this single species",
+          "answer": "Homo sapiens",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1756-d-c1-r2"
+        },
+        {
+          "question": "Guinness says more people emigrate from this Latin country than any other in the world",
+          "answer": "Mexico",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1756-d-c1-r3"
+        },
+        {
+          "question": "The term \"second world\" refers to this nation & its nearby allies",
+          "answer": "the Soviet Union",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE WORLD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1756-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TEEN QUEENS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This teenage Egyptian ruler gave birth to a son she claimed was Julius Caesar's",
+          "answer": "Cleopatra",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEEN QUEENS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1756-d-c2-r0"
+        },
+        {
+          "question": "Teen-aged Mary, Queen of Scots, also became queen of this country, because she'd married the Dauphin",
+          "answer": "France",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEEN QUEENS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1756-d-c2-r1"
+        },
+        {
+          "question": "At 15, she became the future Louis XVI's bride; at 18, she became queen",
+          "answer": "Marie Antoinette",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEEN QUEENS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1756-d-c2-r2"
+        },
+        {
+          "question": "British monarch crowned in 1837, when she was barely 18",
+          "answer": "Victoria",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEEN QUEENS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1756-d-c2-r3"
+        },
+        {
+          "question": "Many claim that before Bloody Mary grabbed the throne, this \"Lady\" was Queen of England for 9 days",
+          "answer": "Lady Jane Grey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEEN QUEENS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1756-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUOTES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Ben Franklin said, \"There was never a good war or a bad\" 1 of these",
+          "answer": "peace",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1756-d-c3-r0"
+        },
+        {
+          "question": "It was way back in 1696 that Mary Manley wrote there's \"no time like\" this",
+          "answer": "the present",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1756-d-c3-r1"
+        },
+        {
+          "question": "Penguin's Modern Quotes lists \"Supercalifragilistic- expialidocious\" under his name",
+          "answer": "Disney",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1756-d-c3-r2"
+        },
+        {
+          "question": "17th century English diarist known for the phrase \"and so to bed\"",
+          "answer": "Samuel Pepys",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1756-d-c3-r3"
+        },
+        {
+          "question": "Bartlett's says she \"coined\" the phrase \"equal pay for equal work\" on March 18, 1869",
+          "answer": "Susan B. Anthony",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1756-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HOLIDAYS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Since 1941, Thanksgiving is observed on this Thursday in November",
+          "answer": "the fourth Thursday",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1756-d-c4-r0"
+        },
+        {
+          "question": "\"Shrove Tuesday\", the day before Lent starts, is commonly called this in New Orleans",
+          "answer": "Mardi Gras",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1756-d-c4-r1"
+        },
+        {
+          "question": "Supposedly a union president suggested date of this holiday to fill gap between July 4th & Thanksgiving",
+          "answer": "Labor Day",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1756-d-c4-r2"
+        },
+        {
+          "question": "Until June 1, 1954, this was officially called \"Armistice Day\"",
+          "answer": "Veterans Day",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1756-d-c4-r3"
+        },
+        {
+          "question": "This memorialized president's birthday, April 13, was a legal holiday in Virginia from 1943 to 1967",
+          "answer": "Thomas Jefferson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HOLIDAYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1756-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DESSERTS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Sacher Torte originated in this Austrian capital",
+          "answer": "Vienna",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1756-d-c5-r0"
+        },
+        {
+          "question": "Like lemon pie, \"Baked Alaska\" is covered with this, then put in an oven to brown",
+          "answer": "meringue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1756-d-c5-r1"
+        },
+        {
+          "question": "It's thought Saladin offered this fruity dessert, cousin to ice cream, to Richard I during Crusades",
+          "answer": "sherbet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1756-d-c5-r2"
+        },
+        {
+          "question": "A dessert that might be appropriate while repairing shoes",
+          "answer": "cobbler",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESSERTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1756-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "BODIES OF WATER",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Bordering on Mich. & N.Y., these 2 Great Lakes are the only ones to border on 1 state each",
+          "answer": "Lake Huron & Lake Ontario",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "BODIES OF WATER",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1756-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

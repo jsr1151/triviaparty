@@ -1,0 +1,773 @@
+{
+  "gameId": 4960,
+  "showNumber": 1051,
+  "airDate": "March 13, 1989",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This city is situated at the junction of the Anacostia & Potomac Rivers",
+          "answer": "Washington, D.C.",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4960-s-c0-r0"
+        },
+        {
+          "question": "City in which you'd see the  Franklin Parkway, Franklin Bridge & Franklin Institute",
+          "answer": "Philadelphia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4960-s-c0-r1"
+        },
+        {
+          "question": "It took 3 days to extinguish the 1906 fire that burned 512 blocks of this city",
+          "answer": "San Francisco",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4960-s-c0-r2"
+        },
+        {
+          "question": "This Missouri city Harry Truman called home was named for one of Andrew Jackson's ideals",
+          "answer": "Independence",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4960-s-c0-r3"
+        },
+        {
+          "question": "McCormick Place, this city's convention center, has 162 million square feet of space on 4 levels",
+          "answer": "Chicago",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4960-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "REFERENCE BOOKS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Latin for \"treasure\", it's a treasure-trove of related words for a writer to use",
+          "answer": "thesaurus",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REFERENCE BOOKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4960-s-c1-r0"
+        },
+        {
+          "question": "Look up \"goober\" in the current Encyclopedia Britannica & you're referred to this entry",
+          "answer": "peanuts",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REFERENCE BOOKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4960-s-c1-r1"
+        },
+        {
+          "question": "The Press of this university publishes \"Companions to\" English Lit, Art & the Theatre",
+          "answer": "Oxford",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REFERENCE BOOKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4960-s-c1-r2"
+        },
+        {
+          "question": "\"Beat the Odds\", \"Music Bingo\" & \"Fast Draw\" are entries in an ency. of these by Schwartz, Ryan & Wostbrock",
+          "answer": "game shows",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REFERENCE BOOKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4960-s-c1-r3"
+        },
+        {
+          "question": "In the preface to his 1747 dict., this British lexicographaer apologized to critics if he missed any words",
+          "answer": "Samuel Johnson",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REFERENCE BOOKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4960-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WICKED WOMEN",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "She was an exotic dancer as well a German spy in World War I",
+          "answer": "Mata Hari",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED WOMEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4960-s-c2-r0"
+        },
+        {
+          "question": "Her husband was serving 99 years in prison for murder when she met Clyde Barrow",
+          "answer": "Bonnie Parker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED WOMEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4960-s-c2-r1"
+        },
+        {
+          "question": "Historians now believe she was merely the tool of her brother Cesare & her father Pope Alexander VI",
+          "answer": "Lucrezia Borgia",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED WOMEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4960-s-c2-r2"
+        },
+        {
+          "question": "Nickname of Lynette Fromme, who tried to assassinate President Ford in September 1975",
+          "answer": "\"Squeaky\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED WOMEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4960-s-c2-r3"
+        },
+        {
+          "question": "Her gang included Herman, Lloyd, Arthur & Fred--her four sons",
+          "answer": "Ma Barker",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED WOMEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4960-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "During a fox hunt, the \"whippers-in\" keep these together",
+          "answer": "hounds",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4960-s-c3-r0"
+        },
+        {
+          "question": "A beginning karate student commonly wears a belt of this color",
+          "answer": "white",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4960-s-c3-r1"
+        },
+        {
+          "question": "No well-dressed matador would be seen in the ring without this, his \"traje de luces\"",
+          "answer": "suit of lights",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4960-s-c3-r2"
+        },
+        {
+          "question": "Curses! it's the only weapon women are allowed to use in fencing competitions",
+          "answer": "foil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4960-s-c3-r3"
+        },
+        {
+          "question": "Scuba divers experience this \"euphoria\" when nitrogen enters their blood at high pressures",
+          "answer": "nitrogen narcosis (rapture of the deep)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4960-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROCK 'N' ROLL FILMS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "1st of Frankie & Annette's \"Beach\" movies",
+          "answer": "Beach Party",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N' ROLL FILMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4960-s-c4-r0"
+        },
+        {
+          "question": "Country-rock \"Killer\" who sang the title tune to \"High School Confidential\"",
+          "answer": "Jerry Lee Lewis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N' ROLL FILMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4960-s-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "POTABLE ANAGRAMS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "We doubt that anyone would refer to this fruity beverage as \"demon ale\"",
+          "answer": "lemonade",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTABLE ANAGRAMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4960-s-c5-r0"
+        },
+        {
+          "question": "Paul could tell you if the Ankas drink this at breakfast",
+          "answer": "Sanka",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTABLE ANAGRAMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4960-s-c5-r1"
+        },
+        {
+          "question": "A bartender might serve this cocktail \"in a trim\" little glass",
+          "answer": "martini",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTABLE ANAGRAMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4960-s-c5-r2"
+        },
+        {
+          "question": "\"Quiet Al\" gets noisy when he drinks too much of this",
+          "answer": "tequila",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTABLE ANAGRAMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4960-s-c5-r3"
+        },
+        {
+          "question": "The kind of brandy cocktails Cressida might serve",
+          "answer": "sidecars",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTABLE ANAGRAMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4960-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS QUOTES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "His famous quote heard here is from the 1932 film \"The Fatal Glass of Beer\":\"It's not a fit night out for man nor beast.\"",
+          "answer": "W.C. Fields",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4960-d-c0-r0"
+        },
+        {
+          "question": "At Pearl Harbor December 7, 1941, Howell Forgy was 1st to say \"Praise the Lord and pass\" this",
+          "answer": "ammunition",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4960-d-c0-r1"
+        },
+        {
+          "question": "At his inauguration, President Hayes claimed \"He serves his party best who serves\" this \"best\"",
+          "answer": "his country",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4960-d-c0-r2"
+        },
+        {
+          "question": "Architect who said, \"No house should ever be on any hill or on anything. It should be of the hill...\"",
+          "answer": "Frank Lloyd Wright",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4960-d-c0-r3"
+        },
+        {
+          "question": "In 1876 this German archaeologist told the King of Greece, \"I have gazed on the face of Agamemnon\"",
+          "answer": "(Heinrich) Schliemann",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4960-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE U.N.",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The U.N. flag consists of a map of the world & 2 olive branches on a background of this color",
+          "answer": "blue",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE U.N.",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4960-d-c1-r0"
+        },
+        {
+          "question": "Now the mayor of Atlanta, in 1977 he became the 1st black to serve as U.S. ambassador to the U.N.",
+          "answer": "Andrew Young",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE U.N.",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4960-d-c1-r1"
+        },
+        {
+          "question": "The U.N. Library is named for this secretary-gen. who was killed in a 1961 plane crash in Africa",
+          "answer": "Dag Hammarskjöld",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE U.N.",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4960-d-c1-r2"
+        },
+        {
+          "question": "Although not a member of the U.N., the PLO was granted this type of status in 1974",
+          "answer": "observer status",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE U.N.",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4960-d-c1-r3"
+        },
+        {
+          "question": "3 of the 6 major organs of the U.N.",
+          "answer": "(3 of) Secretariat, General Assembly, Security Council, International Court of Justice, Economic & Social Council, & Trusteeship Council",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE U.N.",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4960-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTHOLOGY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "She loved Narcissus She loved Narcissus",
+          "answer": "Echo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4960-d-c2-r0"
+        },
+        {
+          "question": "For her impiety toward the gods, Arachne the weaver was turned into this",
+          "answer": "spider",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4960-d-c2-r1"
+        },
+        {
+          "question": "Hercules slew Hippolyta, queen of these warrior people",
+          "answer": "Amazons",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4960-d-c2-r2"
+        },
+        {
+          "question": "Paphos was the son of this sculptor & his statue-come-to-life wife",
+          "answer": "Pygmalion",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4960-d-c2-r3"
+        },
+        {
+          "question": "The god of wine, he gave King Midas the golden touch as a reward for a kindness",
+          "answer": "Bacchus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4960-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIVIL WAR",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This general was born into an aristocratic VA. family & married M. Washington's great-granddaughter",
+          "answer": "Robert E. Lee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4960-d-c3-r0"
+        },
+        {
+          "question": "The only state which seceded from the Union in 1860",
+          "answer": "South Carolina",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4960-d-c3-r1"
+        },
+        {
+          "question": "MacKinlay Kantor's novel about this notorious prison won the '56 Pulitzer Prize for Fiction",
+          "answer": "Andersonville",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4960-d-c3-r2"
+        },
+        {
+          "question": "During the war, the Confederacy purchased some 19 warships in this country",
+          "answer": "Great Britain",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4960-d-c3-r3"
+        },
+        {
+          "question": "In August 1863 this guerrilla leader & his raiders burned Lawrence, Kan. & killed about 150 people",
+          "answer": "(William C.) Quantrill",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4960-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE BIRDS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Pennsylvania's state bird is this handsome \"ruffled\" relative of a turkey",
+          "answer": "grouse",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE BIRDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4960-d-c4-r0"
+        },
+        {
+          "question": "State bird of Mich., Wis. & Conn., it's a sign of spring throughout the northern U.S.",
+          "answer": "robin",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE BIRDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4960-d-c4-r1"
+        },
+        {
+          "question": "This bright red member of the finch family represents 7 states, more than any other bird",
+          "answer": "cardinal",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE BIRDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4960-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "ENDS IN \"ELLA\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It falls somewhere between a short story & a novel",
+          "answer": "novella",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ELLA\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4960-d-c5-r0"
+        },
+        {
+          "question": "The most common pizza cheese",
+          "answer": "mozzarella",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ELLA\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4960-d-c5-r1"
+        },
+        {
+          "question": "Jerry Lewis had a wicked stepmother & a fairy godfather in this 1960 film",
+          "answer": "Cinderfella",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ELLA\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4960-d-c5-r2"
+        },
+        {
+          "question": "A Hollywood rivalry began when Hedda \"scooped\" her by announcing the divorce of FDR's son James",
+          "answer": "Louella Parsons",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ELLA\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4960-d-c5-r3"
+        },
+        {
+          "question": "A yellow oil that's found in perfume, soap & insect repellent",
+          "answer": "citronella",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS IN \"ELLA\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4960-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN LITERATURE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "When Rip Van Winkle fell asleep, this ruler's portrait hung in front of the inn",
+          "answer": "King George III",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AMERICAN LITERATURE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4960-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

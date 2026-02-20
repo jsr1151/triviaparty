@@ -1,0 +1,665 @@
+{
+  "gameId": 5243,
+  "showNumber": 19,
+  "airDate": "October 4, 1984",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Much of this largest Louisiana city is below sea level",
+          "answer": "New Orleans",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5243-s-c0-r0"
+        },
+        {
+          "question": "The leading dairy products state",
+          "answer": "Wisconsin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5243-s-c0-r1"
+        },
+        {
+          "question": "This state's coastline is 2nd in length to Alaska's",
+          "answer": "Florida",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5243-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "BASEBALL",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "To celebrate winning the '83 World Series, the Baltimore Orioles popped 240 bottles of it",
+          "answer": "champagne",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5243-s-c1-r0"
+        },
+        {
+          "question": "Johnny Vander Meer is the only man to have ever pitched 2 of them consecutively",
+          "answer": "no-hitters",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5243-s-c1-r1"
+        },
+        {
+          "question": "Brand of bats made in Kentucky; also describes Muhammad Ali",
+          "answer": "Louisville Slugger",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5243-s-c1-r2"
+        },
+        {
+          "question": "In '51 playoff he hit \"the Shot Heard 'Round the World\"",
+          "answer": "Bobby Thomson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5243-s-c1-r3"
+        },
+        {
+          "question": "For years this Southerner was \"the voice of the Yankees\"",
+          "answer": "Mel Allen",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5243-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LEGENDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Gift giver named from the Dutch \"Sinter Klaas\"",
+          "answer": "Santa Claus",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGENDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5243-s-c2-r0"
+        },
+        {
+          "question": "John Chapman was the real name of this wandering fruit tree planter",
+          "answer": "Johnny Appleseed",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGENDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5243-s-c2-r1"
+        },
+        {
+          "question": "The man whom Miles Standish asked to have a chat with Priscilla",
+          "answer": "John Alden",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGENDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5243-s-c2-r2"
+        },
+        {
+          "question": "On July 4, 1776, he wrote his signature large so King George could read it without glasses",
+          "answer": "John Hancock",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGENDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5243-s-c2-r3"
+        },
+        {
+          "question": "English explorer who made smoking fashionable, he smoked before his own execution in 1618",
+          "answer": "Sir Walter Raleigh",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEGENDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5243-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GENERALS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Old Blood & Guts\", he was tank commander in both World Wars",
+          "answer": "Patton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5243-s-c3-r0"
+        },
+        {
+          "question": "This Civil War general wrote \"Ben-Hur\"",
+          "answer": "Lew Wallace",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5243-s-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "TRIVIA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Nickname of Harry Lillis Crosby",
+          "answer": "Bing",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5243-s-c4-r0"
+        },
+        {
+          "question": "Term 1st coined to describe combination of smoke & fog",
+          "answer": "smog",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5243-s-c4-r1"
+        },
+        {
+          "question": "It was claimed of this product \"a little dab'll do ya\"",
+          "answer": "Brylcreem",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5243-s-c4-r2"
+        },
+        {
+          "question": "Originally term to describe shed built onto a building, it now means expensive unit on the roof",
+          "answer": "a penthouse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5243-s-c4-r3"
+        },
+        {
+          "question": "Where Longfellow's arrow fell to earth",
+          "answer": "I know not where",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5243-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"CAN\" IT",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A dance dance from France France",
+          "answer": "the can-can",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CAN\" IT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5243-s-c5-r0"
+        },
+        {
+          "question": "Edgar's daughter who isn't a dummy",
+          "answer": "Candice Bergen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CAN\" IT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5243-s-c5-r1"
+        },
+        {
+          "question": "They'll eat your heart out",
+          "answer": "cannibals",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"CAN\" IT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5243-s-c5-r2"
+        },
+        {
+          "question": "Terry Southern's little gumdrop",
+          "answer": "Candy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"CAN\" IT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5243-s-c5-r3"
+        },
+        {
+          "question": "Poem part",
+          "answer": "canto",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CAN\" IT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5243-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENGLISH LITERATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "If Orwell's tale were true, year Big Brother would be watching you",
+          "answer": "1984",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5243-d-c0-r0"
+        },
+        {
+          "question": "\"Treasure Island\"'s peg-legged pirate",
+          "answer": "Long John Silver",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5243-d-c0-r1"
+        },
+        {
+          "question": "Of Bacon & Lamb, the one who wrote \"A Dissertation upon Roast Pig\"",
+          "answer": "(Charles) Lamb",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5243-d-c0-r2"
+        },
+        {
+          "question": "Shakespeare's first comedy, though it's said to be originally titled \"The Historie of Error\"",
+          "answer": "The Comedy of Errors",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5243-d-c0-r3"
+        },
+        {
+          "question": "Its sequels were \"Men against the Sea\" & \"Pitcairn's Island\"",
+          "answer": "Mutiny on the Bounty",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5243-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "INSECTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Balls of naphthalene are protection against them",
+          "answer": "moths",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5243-d-c1-r0"
+        }
+      ]
+    },
+    {
+      "name": "POLITICAL QUOTES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In the '80 campaign, he coined the term \"voodoo economics\"",
+          "answer": "George Bush",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5243-d-c2-r0"
+        },
+        {
+          "question": "Acid-tongued V.P. who said, \"Some newspapers dispose of their garbage by printing it\"",
+          "answer": "Spiro Agnew",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5243-d-c2-r1"
+        },
+        {
+          "question": "2-time pres. candidate who said, \"Eggheads unite, you have nothing to lose but your yolks\"",
+          "answer": "Adlai Stevenson",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5243-d-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "HITCHCOCK",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Film where nutty Norman Bates was a real cut-up",
+          "answer": "Psycho",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HITCHCOCK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5243-d-c3-r0"
+        },
+        {
+          "question": "Called ideal Hitchcock hero, he starred in \"Notorious\", \"Suspicion\" &\"North by Northwest\"",
+          "answer": "Cary Grant",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HITCHCOCK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5243-d-c3-r1"
+        },
+        {
+          "question": "Before playing \"Perry\", he was killer James Stewart saw through the  \"Rear Window\"",
+          "answer": "Raymond Burr",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HITCHCOCK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5243-d-c3-r2"
+        },
+        {
+          "question": "His first American movie with Fontaine & Olivier, in which title character never appears",
+          "answer": "Rebecca",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HITCHCOCK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5243-d-c3-r3"
+        },
+        {
+          "question": "This movie wasn't his best, but \"Que Sera, Sera\"",
+          "answer": "The Man who Knew Too Much",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HITCHCOCK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5243-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NAMESAKES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Stuffed toy named for Pres. Roosevelt",
+          "answer": "a teddy bear",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMESAKES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5243-d-c4-r0"
+        },
+        {
+          "question": "Thinned down perfume first made in this W. German city",
+          "answer": "Cologne",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMESAKES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5243-d-c4-r1"
+        },
+        {
+          "question": "From the Civil War general who believed they raised troops' morale, it's slang for prostitute",
+          "answer": "hooker",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMESAKES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5243-d-c4-r2"
+        },
+        {
+          "question": "Wild West gambling game named for kings on old playing cards",
+          "answer": "Faro",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMESAKES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5243-d-c4-r3"
+        },
+        {
+          "question": "An unrealistic optimist, from heroine of Eleanor Porter novel",
+          "answer": "a Pollyanna",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMESAKES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5243-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEDICINE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "British sailors were named \"Limey\" for the fruit they ate to ward off this disease",
+          "answer": "scurvy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5243-d-c5-r0"
+        },
+        {
+          "question": "From Latin \"to please\", medicine given just to humor a patient",
+          "answer": "a placebo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5243-d-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "THE CALENDAR",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Number of leap years between 1985 & 2001",
+          "answer": "4",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "THE CALENDAR",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5243-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

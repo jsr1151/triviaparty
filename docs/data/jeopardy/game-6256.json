@@ -1,0 +1,833 @@
+{
+  "gameId": 6256,
+  "showNumber": 7964,
+  "airDate": "April 4, 2019",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "NATURE STICKS IT TO YOU",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "These from a porcupine puncture the victim with ease, but require about 4 times the force to be removed",
+          "answer": "quills",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATURE STICKS IT TO YOU",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6256-s-c0-r0"
+        },
+        {
+          "question": "This fish whips its tail forward like a scorpion to stab you with its barbs",
+          "answer": "a stingray",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATURE STICKS IT TO YOU",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6256-s-c0-r1"
+        },
+        {
+          "question": "On 8 of the 9 days of the festival of San Fermin in this city, you can try running with the bulls",
+          "answer": "Pamplona",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATURE STICKS IT TO YOU",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6256-s-c0-r2"
+        },
+        {
+          "question": "The stiletto type of this reptile has horizontal fangs & is especially dangerous because it can bite you with its mouth closed",
+          "answer": "a snake",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NATURE STICKS IT TO YOU",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6256-s-c0-r3"
+        },
+        {
+          "question": "The venomous stonefish has a blade called a lachrymal saber that pops out from a bone under this body part",
+          "answer": "the eye",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATURE STICKS IT TO YOU",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6256-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE HIGHEST CAPITAL CITY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Canberra,Kathmandu,Kingston",
+          "answer": "Kathmandu",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HIGHEST CAPITAL CITY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6256-s-c1-r0"
+        },
+        {
+          "question": "Washington, D.C.,Ottawa,Mexico City",
+          "answer": "Mexico City",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HIGHEST CAPITAL CITY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6256-s-c1-r1"
+        },
+        {
+          "question": "Brasilia,Quito,Santiago",
+          "answer": "Quito",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HIGHEST CAPITAL CITY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6256-s-c1-r2"
+        },
+        {
+          "question": "Athens,Amsterdam,Addis Ababa",
+          "answer": "Addis Ababa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HIGHEST CAPITAL CITY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6256-s-c1-r3"
+        },
+        {
+          "question": "Kabul,Baghdad,Beirut",
+          "answer": "Kabul",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HIGHEST CAPITAL CITY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6256-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLPARK CUISINE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Sheffield Corner at this stadium offers the Chick-ago sandwich",
+          "answer": "Wrigley Field",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLPARK CUISINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6256-s-c2-r0"
+        },
+        {
+          "question": "For the 2018 season, Comerica Park in Detroit offered egg rolls filled with this hazelnut spread",
+          "answer": "Nutella",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLPARK CUISINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6256-s-c2-r1"
+        },
+        {
+          "question": "Minute Maid Park has the meats: pulled pork, chopped beef & smoked sausage, all atop this deep-fried spiral cake",
+          "answer": "a funnel cake",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLPARK CUISINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6256-s-c2-r2"
+        },
+        {
+          "question": "Head to AT&T Park for ahi tuna over rice, tortilla chips or fresh greens--this dish with a Hawaiian name that means \"to slice\"",
+          "answer": "poke",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLPARK CUISINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6256-s-c2-r3"
+        },
+        {
+          "question": "Some of the best things to eat at Chase Field, home of this team, are green tamales & the Sonoran dog",
+          "answer": "the Diamondbacks",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLPARK CUISINE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6256-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "U3",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Let's needle you with this Chinese medical practice",
+          "answer": "acupuncture",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U3",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6256-s-c3-r0"
+        },
+        {
+          "question": "In 1891 it was incorporated as a city in New Mexico; it had about 3,800 people then",
+          "answer": "Albuquerque",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U3",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6256-s-c3-r1"
+        },
+        {
+          "question": "Tom Jones could have sung \"It's Not Uncommon\" but went with this instead",
+          "answer": "unusual",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U3",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6256-s-c3-r2"
+        },
+        {
+          "question": "3-word term for minestrone when it's only offered on, say, Tuesday",
+          "answer": "soup du jour",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U3",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6256-s-c3-r3"
+        },
+        {
+          "question": "A demon in female form; we're throwing you under the...",
+          "answer": "a succubus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U3",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6256-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The cheese-filled receptacle seen here is called this pot",
+          "answer": "fondue",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6256-s-c4-r0"
+        },
+        {
+          "question": "This city was established as the capital of the territory of Florida in 1824",
+          "answer": "Tallahassee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6256-s-c4-r1"
+        },
+        {
+          "question": "A painting that spent 60 years stored in this room at the top of a house was authenticated as a van Gogh in 2013",
+          "answer": "an attic",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6256-s-c4-r2"
+        },
+        {
+          "question": "A study found over half of moms admit to this -ism, being more proud of or closer to 1 adult child than another",
+          "answer": "favoritism",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6256-s-c4-r3"
+        },
+        {
+          "question": "The most recent impeachment of a president was in 1998 based on a report by this man",
+          "answer": "(Kenneth) Starr",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6256-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DON'T TREAD ON MEME",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "knowyourmeme.com says this Muppet is the origin of the \"Om nom nom nom\" eating meme",
+          "answer": "Cookie Monster",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TREAD ON MEME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6256-s-c5-r0"
+        },
+        {
+          "question": "A 2016 interview with this Batman actor found him looking sad; the internet then made him the meme we deserve",
+          "answer": "Ben Affleck",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TREAD ON MEME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6256-s-c5-r1"
+        },
+        {
+          "question": "After she wore a jacket with \"I really don't care. Do u?\" written on it, memes flew fast & furious",
+          "answer": "Melania Trump",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TREAD ON MEME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6256-s-c5-r2"
+        },
+        {
+          "question": "When Tom Holland as him said, \"I don't feel so good\" in \"Infinity War\", half the meme community sprang to life",
+          "answer": "Spider-Man",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TREAD ON MEME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6256-s-c5-r3"
+        },
+        {
+          "question": "One meme about this actor who was \"Walker, Texas Ranger\": he \"counted to infinity--twice\"",
+          "answer": "Chuck Norris",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TREAD ON MEME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6256-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACCORDING TO THE AUTHOR",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the preface to this 1937 book, Tolkien explains that he is using \"dwarves\" instead of the preferred plural, \"dwarfs\"",
+          "answer": "The Hobbit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACCORDING TO THE AUTHOR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6256-d-c0-r0"
+        },
+        {
+          "question": "This author of the Michael Bennett thrillers: \"If I'm working with a co-writer, they'll usually write the first draft\"",
+          "answer": "James Patterson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACCORDING TO THE AUTHOR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6256-d-c0-r1"
+        },
+        {
+          "question": "\"I believe the road to hell is paved with\" these modifying parts of speech, Stephen King said forcefully",
+          "answer": "adverbs",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACCORDING TO THE AUTHOR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6256-d-c0-r2"
+        },
+        {
+          "question": "Late in life, this author clarified, \"Sharks don't target human beings, & they certainly don't hold grudges\"",
+          "answer": "(Peter) Benchley",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACCORDING TO THE AUTHOR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6256-d-c0-r3"
+        },
+        {
+          "question": "This author revealed Yoknapatawpha, a place in his books, is a Chickasaw word meaning \"water runs slow through flat land\"",
+          "answer": "(William) Faulkner",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACCORDING TO THE AUTHOR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6256-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD WAR II",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Launching hostilities in 1939, the Germans used blitzkrieg tactics in their invasion of this country",
+          "answer": "Poland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6256-d-c1-r0"
+        },
+        {
+          "question": "These suicide plane attacks near the end of the war in the Pacific sank 34 ships & damaged hundreds of others",
+          "answer": "the kamikaze",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6256-d-c1-r1"
+        },
+        {
+          "question": "Walthère Dewé was a leader of this underground anti-occupation movement in Belgium in WWI as well as WWII",
+          "answer": "the resistance",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6256-d-c1-r2"
+        },
+        {
+          "question": "Many have seen Germany's decision to do this along with Italy 4 days after Pearl Harbor as a big mistake",
+          "answer": "declare war on the United States",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6256-d-c1-r3"
+        },
+        {
+          "question": "Rounds from the Katyusha rocket launcher made a howling sound; German troops called it this enemy leader's \"organ\"",
+          "answer": "Stalin",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD WAR II",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6256-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On May 6, 1994 this 31-mile expanse was officially opened by Queen Elizabeth & Francois Mitterrand",
+          "answer": "the Channel Tunnel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6256-d-c2-r0"
+        },
+        {
+          "question": "This transportation hub in the heart of midtown Manhattan opened in 1913",
+          "answer": "Grand Central Station",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6256-d-c2-r1"
+        },
+        {
+          "question": "Here's the logo of this electric transport sharing company",
+          "answer": "Bird",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6256-d-c2-r2"
+        },
+        {
+          "question": "During the Revolutionary War, a one-man craft called the Turtle was one of these used in naval warfare",
+          "answer": "a submarine",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6256-d-c2-r3"
+        },
+        {
+          "question": "This sporty Volkswagen coupe debuted in 1955",
+          "answer": "the Karmann Ghia",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6256-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM THE GREEK",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Bread has its roots in German while this dairy partner goes back to the Greek for \"cow\"",
+          "answer": "butter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE GREEK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6256-d-c3-r0"
+        },
+        {
+          "question": "Appropriately, this optical instrument gets its name from the Greek for \"far-seeing\"",
+          "answer": "a telescope",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE GREEK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6256-d-c3-r1"
+        },
+        {
+          "question": "In ancient Greek comedies, there were 24 in this group of performers",
+          "answer": "the chorus",
+          "value": 9812,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE GREEK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6256-d-c3-r2"
+        },
+        {
+          "question": "This synonym for dictionary comes from the Greek for \"word\"",
+          "answer": "lexicon",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE GREEK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6256-d-c3-r3"
+        },
+        {
+          "question": "A Southwestern national park is named for these stone carvings, which is what the word means",
+          "answer": "petroglyphs",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE GREEK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6256-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSEUMS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "You too can donate a lock of this to the Turkish museum dedicated to it",
+          "answer": "hair",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6256-d-c4-r0"
+        },
+        {
+          "question": "Most of the surviving French crown jewels reside in the Galerie d'Apollon in this Paris museum",
+          "answer": "Louvre",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6256-d-c4-r1"
+        },
+        {
+          "question": "The Topeka, Kansas museum dedicated to this daredevil features his red, white & blue rocket cycle",
+          "answer": "Evel Knievel",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6256-d-c4-r2"
+        },
+        {
+          "question": "The Winter Palace that was once home to Russia's czars is part of this museum in St. Petersburg",
+          "answer": "the Hermitage",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6256-d-c4-r3"
+        },
+        {
+          "question": "The Crystal Bridges Museum of American Art is in this Walmart company town",
+          "answer": "Bentonville",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSEUMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6256-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SMALL SCREEN SHOW TUNES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "On \"Britain's Got Talent\", Susan Boyle stunned the crowd with \"I Dreamed A Dream\" from this show",
+          "answer": "Les Misérables",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMALL SCREEN SHOW TUNES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6256-d-c5-r0"
+        },
+        {
+          "question": "Andy Bernard sauntered into \"The Office\" singing of this \"demon barber of Fleet Street\"",
+          "answer": "Sweeney Todd",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMALL SCREEN SHOW TUNES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6256-d-c5-r1"
+        },
+        {
+          "question": "Vanessa Hudgens played Maureen when this musical based on a Puccini opera went live on Fox in 2019",
+          "answer": "Rent",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMALL SCREEN SHOW TUNES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6256-d-c5-r2"
+        },
+        {
+          "question": "On a memorable \"American Idol\", Jason Castro sang \"Memory\" from this Broadway musical",
+          "answer": "Cats",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMALL SCREEN SHOW TUNES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6256-d-c5-r3"
+        },
+        {
+          "question": "An episode of NBC's \"Smash\" included \"Another Op'nin' Another Show\" from this musical based on \"The Taming of the Shrew\"",
+          "answer": "Kiss Me, Kate",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMALL SCREEN SHOW TUNES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6256-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. BODIES OF WATER",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Jordan, Bear & Weber Rivers deposit over a million tons of minerals into it annually, much of that chloride & sodium",
+          "answer": "the Great Salt Lake",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. BODIES OF WATER",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6256-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

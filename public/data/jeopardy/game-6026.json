@@ -1,0 +1,773 @@
+{
+  "gameId": 6026,
+  "showNumber": 889,
+  "airDate": "June 16, 1988",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FAMOUS AMERICANS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Mary Baker Eddy founded the Church of Christ, Scientist in this New England city",
+          "answer": "Boston",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6026-s-c0-r0"
+        },
+        {
+          "question": "It's said William Pitt told the House of Lords that this man ranked with Newton as a scientist",
+          "answer": "Benjamin Franklin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6026-s-c0-r1"
+        },
+        {
+          "question": "In 1962, this att'y general sent Congress a civil rights bill aimed at curbing police brutality",
+          "answer": "Robert Kennedy",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6026-s-c0-r2"
+        },
+        {
+          "question": "A former lawyer & schoolteacher, this noted lexicographer helped found Amherst College in 1821",
+          "answer": "Noah Webster",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6026-s-c0-r3"
+        },
+        {
+          "question": "Personally mild in temperament, William Lloyd Garrison was best known for radical opposition to this",
+          "answer": "slavery",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6026-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTOMOBILES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1986, this company sold some 169,000 cars in the U.S., most ever by an import in its 1st year",
+          "answer": "Honda",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6026-s-c1-r0"
+        },
+        {
+          "question": "AMC has become this division of Chrysler",
+          "answer": "Jeep-Eagle",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6026-s-c1-r1"
+        }
+      ]
+    },
+    {
+      "name": "IN THE NEWS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The only part of his NBC interview cut on Soviet TV was his admitting he discussed affairs with Raisa",
+          "answer": "Gorbachev",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6026-s-c2-r0"
+        },
+        {
+          "question": "In January 1988, the Supreme Court ruled that this type of newspaper could be censored",
+          "answer": "school",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6026-s-c2-r1"
+        },
+        {
+          "question": "A new study indicates aggressive, type A personalities are actually less likely to die from this cause",
+          "answer": "heart attacks",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6026-s-c2-r2"
+        },
+        {
+          "question": "This embattled oil company announced it may owe the IRS $6 1/2 billion in back taxes",
+          "answer": "Texaco",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6026-s-c2-r3"
+        },
+        {
+          "question": "In its 5-year-long eruption, this volcano on a slope of Mauna Loa has destroyed over 50 homes",
+          "answer": "Kilauea",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6026-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "NutraSweet said \"Simplesse\", a substitute for this, could cut the calories in ice cream by over 50%",
+          "answer": "fat",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6026-s-c3-r0"
+        },
+        {
+          "question": "To \"coddle\" food, cook it in water just below this temperature",
+          "answer": "boiling point",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6026-s-c3-r1"
+        },
+        {
+          "question": "More types of these expensive fungi have been found in Pacific Coast woodlands than anywhere else",
+          "answer": "truffles",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6026-s-c3-r2"
+        },
+        {
+          "question": "Julia Child says this \"wickedly rich\" chocolate dessert may be made a day or so before serving",
+          "answer": "chocolate mousse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6026-s-c3-r3"
+        },
+        {
+          "question": "The French use this fruit to make \"tarte aux framboises\"",
+          "answer": "raspberries",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6026-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GAMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In \"Hangman\" dashes or blanks indicate the number of these",
+          "answer": "letters",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6026-s-c4-r0"
+        },
+        {
+          "question": "In \"Crazy Eights\", these cards score 50 points each",
+          "answer": "eights",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6026-s-c4-r1"
+        },
+        {
+          "question": "In \"Going on a Trip\", what you might say if the player before you is \"taking an apple & a book\"",
+          "answer": "apple, book & C word",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6026-s-c4-r2"
+        },
+        {
+          "question": "Many players own their own set of these, used to play \"301\" in a pub",
+          "answer": "darts",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6026-s-c4-r3"
+        },
+        {
+          "question": "Term for what players do to determine the order of shooting in pool",
+          "answer": "lag",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6026-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROWNS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "He's known as the Godfather--of Soul & Funk, that is",
+          "answer": "James Brown",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROWNS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6026-s-c5-r0"
+        },
+        {
+          "question": "As governor, he warned Californians to lower their expectations of what government can do for them",
+          "answer": "Jerry Brown",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROWNS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6026-s-c5-r1"
+        },
+        {
+          "question": "His properties in Pennsylvania included a concealed room for hiding fugitive slaves",
+          "answer": "John Brown",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROWNS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6026-s-c5-r2"
+        },
+        {
+          "question": "According to her 1982 bestseller, she believed in \"Having It All\"",
+          "answer": "Helen Gurley Brown",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROWNS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6026-s-c5-r3"
+        },
+        {
+          "question": "His creator said he \"represents the insecurity in all of us, & our desire to be liked\"",
+          "answer": "Charlie Brown",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROWNS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6026-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GERMANY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "East Germany ranks 1st in world production of lignite, which is a type of this fuel",
+          "answer": "coal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GERMANY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6026-d-c0-r0"
+        },
+        {
+          "question": "Germans call this city \"Koln\", but we call it this",
+          "answer": "Cologne",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GERMANY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6026-d-c0-r1"
+        },
+        {
+          "question": "German is one of the newer European nations since it wasn't unified until late in this century",
+          "answer": "19th",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GERMANY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6026-d-c0-r2"
+        },
+        {
+          "question": "Founded in 1386, it's the oldest university in West Germany",
+          "answer": "University of Heidelberg",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GERMANY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6026-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "BIOLOGY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The species \"rhizobium\" of these micro-organisms plays an important role in nitrogen fixation in plants",
+          "answer": "bacteria",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6026-d-c1-r0"
+        },
+        {
+          "question": "The part of a cell where chromosomes are found",
+          "answer": "nucleus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6026-d-c1-r1"
+        },
+        {
+          "question": "Calcite crystals form this, the iridescent lining of nautilus shells",
+          "answer": "mother-of-pearl",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6026-d-c1-r2"
+        },
+        {
+          "question": "The term for a parasite's \"meal ticket\"",
+          "answer": "host",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6026-d-c1-r3"
+        },
+        {
+          "question": "The standard divisions in biological classification, remembered by the initials \"KPCOFGS\"",
+          "answer": "kingdom, phylum, class, order, family, genus, species",
+          "value": 4800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6026-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSICAL LITERATURE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "If you read Ovid's \"Metamorphoses\" in English, it was metamorphosized from this, its original language",
+          "answer": "Latin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6026-d-c2-r0"
+        },
+        {
+          "question": "This book of the Bible contains songs by David, Asaph, the Korahites & others",
+          "answer": "Psalms",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6026-d-c2-r1"
+        },
+        {
+          "question": "His epic, the \"Aeneid\", describes the founding of Rome",
+          "answer": "Virgil",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6026-d-c2-r2"
+        },
+        {
+          "question": "One encyclopedia says his portrait of Socrates is the best drawn character in Greek literature",
+          "answer": "Plato",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6026-d-c2-r3"
+        },
+        {
+          "question": "Writing during army campaigns, Marcus Aurelius originally titled this self-reflective work \"to himself\"",
+          "answer": "The Meditations",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6026-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WESTERNS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In \"The Life & Times of Judge Roy Bean\", the judge reads' this N.Y. paper to follow Lily Langtry's career",
+          "answer": "New York Times",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WESTERNS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6026-d-c3-r0"
+        },
+        {
+          "question": "This legendary stock pen was a setting in \"Law & Order\", \"Darling Clementine\", & \"Hour of the Gun\"",
+          "answer": "O.K. Corral",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WESTERNS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6026-d-c3-r1"
+        },
+        {
+          "question": "The boat in \"Man in the Wilderness\" was based upon the notes of this pair of U.S. explorers",
+          "answer": "Lewis & Clark",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WESTERNS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6026-d-c3-r2"
+        },
+        {
+          "question": "It's claimed the final fight of this Peckinpah classic used more rounds than the 1923 Mexican Revolution",
+          "answer": "The Wild Bunch",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WESTERNS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6026-d-c3-r3"
+        },
+        {
+          "question": "This primary color was not used in \"A Man Called Horse\" since 19th c. Sioux had no access to it",
+          "answer": "blue",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WESTERNS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6026-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "OPERA",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "During a performance of an opera about this queen of Egypt, Handel had a 1/2 fist-fight w/the composer",
+          "answer": "Cleopatra",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6026-d-c4-r0"
+        },
+        {
+          "question": "\"Don Giovanni\" is the Italian name of this legendary seducer",
+          "answer": "Don Juan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6026-d-c4-r1"
+        },
+        {
+          "question": "Opening night at the Met for the 1918 season was November 11, which coincided with this WWI event",
+          "answer": "Armistice",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6026-d-c4-r2"
+        },
+        {
+          "question": "Richard Strauss' 1-act opera about this temptress is based on a play by Oscar Wilde",
+          "answer": "Salome",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6026-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "\"G.L.\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Amy Vanderbilt says for a wedding, it should include all close friends & odd family retainers",
+          "answer": "guest list",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G.L.\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6026-d-c5-r0"
+        },
+        {
+          "question": "Black's Law Dictionary says English law originally defined this as theft worth 12 pence or more",
+          "answer": "grand larceny",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G.L.\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6026-d-c5-r1"
+        },
+        {
+          "question": "Its extreme thinness is achieved by hammering it between layers of parchment",
+          "answer": "gold leaf",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G.L.\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6026-d-c5-r2"
+        },
+        {
+          "question": "He led the group who gave us the following No. 1 song in 1965: This diamond ring doesn't shine for me anymore / And this diamond ring doesn't mean what it meant before / So if you've got…",
+          "answer": "Gary Lewis",
+          "value": 900,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G.L.\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6026-d-c5-r3"
+        },
+        {
+          "question": "Once asked if he would \"swear to tell the truth, the whole truth, & nothing but the truth\" he replied \"No\"",
+          "answer": "G. Gordon Liddy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G.L.\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6026-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MILITARY MEN",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"A better army...probably never faced an enemy,\" Grant wrote of his service as a lieutenant in this war",
+          "answer": "Mexican War",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MILITARY MEN",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6026-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "gameId": 4387,
+  "showNumber": 6746,
+  "airDate": "January 6, 2014",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "\"U\". \"S\". CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "California's capital",
+          "answer": "Sacramento",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"U\". \"S\". CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4387-s-c0-r0"
+        },
+        {
+          "question": "\"Mother City of Georgia\"",
+          "answer": "Savannah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"U\". \"S\". CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4387-s-c0-r1"
+        },
+        {
+          "question": "Twin city of Champaign, Illinois",
+          "answer": "Urbana",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"U\". \"S\". CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4387-s-c0-r2"
+        },
+        {
+          "question": "\"S\"eat of Onondaga County, between Albany & Buffalo",
+          "answer": "Syracuse",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"U\". \"S\". CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4387-s-c0-r3"
+        },
+        {
+          "question": "Seat of Oneida County, between Albany & Buffalo",
+          "answer": "Utica",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"U\". \"S\". CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4387-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GREEN THINGS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's the green isle seen in an aerial shot",
+          "answer": "Ireland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEN THINGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4387-s-c1-r0"
+        },
+        {
+          "question": "These nuts are sometimes referred to as \"green almonds\" or \"happy nuts\"; get crackin'!",
+          "answer": "pistachios",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEN THINGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4387-s-c1-r1"
+        },
+        {
+          "question": "The flag of Saudi Arabia is green with a Muslim inscription & this weapon in white",
+          "answer": "a sword",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEN THINGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4387-s-c1-r2"
+        },
+        {
+          "question": "In American roulette, they're the 2 \"green numbers\"",
+          "answer": "0 & 00",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEN THINGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4387-s-c1-r3"
+        },
+        {
+          "question": "In the green species of this lizard, the male sports a colorful throat flap; puffed out if he's feeling frisky or territorial",
+          "answer": "an anole",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GREEN THINGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4387-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV ANCHORS AWEIGH!",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A Jimmy Fallon video bit made it look like this NBC anchor \"rapped\" Marky Mark's \"Good Vibrations\"",
+          "answer": "Brian Williams",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV ANCHORS AWEIGH!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4387-s-c2-r0"
+        },
+        {
+          "question": "From his CBS bio: \"In addition to his daily anchor role... (he) continues to provide many stories to '60 Minutes'\"",
+          "answer": "Scott Pelley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV ANCHORS AWEIGH!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4387-s-c2-r1"
+        },
+        {
+          "question": "\"File\" this blonde anchor & lawyer under Fox News where she hosts a show weekdays from 9 to 10 P.M.",
+          "answer": "Megyn Kelly",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV ANCHORS AWEIGH!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4387-s-c2-r2"
+        },
+        {
+          "question": "In 2011 he found himself in the situation of moderating the first-ever CNN/Tea Party Republican debate",
+          "answer": "Wolf Blitzer",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV ANCHORS AWEIGH!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4387-s-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "MEYER TO NAUVOO",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1954 the U.S. accepted 1.852 kilometers as the length of a nautical one of these",
+          "answer": "mile",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEYER TO NAUVOO",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4387-s-c3-r0"
+        },
+        {
+          "question": "Made from sugarcane, the blackstrap variety of this has less sugar but more nutrition than lighter types",
+          "answer": "molasses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEYER TO NAUVOO",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4387-s-c3-r1"
+        },
+        {
+          "question": "In this comic opera by Gilbert & Sullivan, the Emperor's son, Nanki-Poo, poses as a minstrel",
+          "answer": "Mikado",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEYER TO NAUVOO",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4387-s-c3-r2"
+        },
+        {
+          "question": "French for \"assembly\", it's the technique in which separate pieces of film are joined in sequence for an effect",
+          "answer": "montage",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEYER TO NAUVOO",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4387-s-c3-r3"
+        },
+        {
+          "question": "In 1902 this political cartoonist was appointed consul to Guayaquil, Ecuador",
+          "answer": "(Thomas) Nast",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEYER TO NAUVOO",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4387-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BODY PART PREFIXES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Derma-",
+          "answer": "skin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PREFIXES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4387-s-c4-r0"
+        },
+        {
+          "question": "Glosso-",
+          "answer": "tongue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PREFIXES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4387-s-c4-r1"
+        },
+        {
+          "question": "Cephalo-",
+          "answer": "head",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PREFIXES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4387-s-c4-r2"
+        },
+        {
+          "question": "Hystero-",
+          "answer": "uterus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PREFIXES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4387-s-c4-r3"
+        },
+        {
+          "question": "Blepharo-",
+          "answer": "eyelid",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PREFIXES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4387-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPACE SHUTTLE ENDEAVOUR",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Kelly of the Clue Crew reports from the California Science Center in Los Angeles.)  In 1993, Endeavour made the first service mission to this malfunctioning project launched three years earlier & gave it what NASA called \"a new pair of glasses\"",
+          "answer": "the Hubble Space Telescope",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE SHUTTLE ENDEAVOUR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4387-s-c5-r0"
+        },
+        {
+          "question": "(Kelly of the Clue Crew reports from the California Science Center in Los Angeles.)  In 1998, Endeavour carried the U.S.-built Unity module into orbit, docking it with the Russian-built Zarya module, marking the first step in the assembly of this multi-national structure",
+          "answer": "the ISS (the International Space Station)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE SHUTTLE ENDEAVOUR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4387-s-c5-r1"
+        },
+        {
+          "question": "(Kelly of the Clue Crew reports from the California Science Center in Los Angeles.)  On Endeavour's first mission, 3 crew members stood atop the shuttle to capture & repair an out-of-control satellite; the hazardous 8½-hour procedure set a record for the longest EVA--this type of activity",
+          "answer": "extravehicular",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE SHUTTLE ENDEAVOUR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4387-s-c5-r2"
+        },
+        {
+          "question": "(Sarah of the Clue Crew reports from the California Science Center in Los Angeles.)  Orbiting 200 miles over Russia, in 1998, Endeavour made a flawless docking with this Russian craft whose name meant \"peace\" to bring it water, supplies, & a new American crew member",
+          "answer": "Mir",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE SHUTTLE ENDEAVOUR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4387-s-c5-r3"
+        },
+        {
+          "question": "(Sarah of the Clue Crew reports from the California Science Center in Los Angeles.)  Flying above war-torn Rwanda in 1994, Endeavour used space-borne imaging radar to penetrate clouds over the Virunga volcano chain in an effort to help researchers track & protect this endangered species",
+          "answer": "the mountain gorilla",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPACE SHUTTLE ENDEAVOUR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4387-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOOKS & AUTHORS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He wrote his first 2 novels, \"A Time to Kill\" & \"The Firm\", while working at a Southaven, Miss. law office",
+          "answer": "(John) Grisham",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4387-d-c0-r0"
+        },
+        {
+          "question": "Ann Brashares' \"The Second Summer of the Sisterhood\" was a follow-up to this novel",
+          "answer": "The Sisterhood of the Traveling Pants",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4387-d-c0-r1"
+        },
+        {
+          "question": "In a bestselling tale about high school, Bel Kaufman took us \"Up the Down\" this",
+          "answer": "Staircase",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4387-d-c0-r2"
+        },
+        {
+          "question": "\"The Coral Sea\" & \"Mutiny\" were 2 of the stories in this 1947 James Michener work",
+          "answer": "Tales of the South Pacific",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4387-d-c0-r3"
+        },
+        {
+          "question": "This 1959 Philip Roth novella begins, \"The first time I saw Brenda she asked me to hold her glasses\"",
+          "answer": "Goodbye, Columbus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4387-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S A RAP",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"I made the change from a common thief/ to up close and personal with robin leach\", rapped this \"Notorious\" guy",
+          "answer": "Notorious B.I.G.",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A RAP",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4387-d-c1-r0"
+        },
+        {
+          "question": "\"Don't push me, 'cause I'm close to the edge/ I'm trying not to lose my head\", rapped this pioneering \"Grandmaster\"",
+          "answer": "Grandmaster Flash",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A RAP",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4387-d-c1-r1"
+        },
+        {
+          "question": "\"Another plane, another train / another bottle in the brain\", the Beastie Boys rapped in \"No Sleep Till\" here",
+          "answer": "\"Brooklyn\"",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A RAP",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4387-d-c1-r2"
+        },
+        {
+          "question": "In \"Nuthin' But A 'G' Thang\", this \"Doctor\" rapped, \"Never let me slip, 'cause if I slip, then I'm slippin\"'",
+          "answer": "Dr. Dre",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A RAP",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4387-d-c1-r3"
+        },
+        {
+          "question": "Public Enemy:\"You go ooh and ahh when I jump in my car/ People treat me like\" this hall of fame L.A. Lakers center",
+          "answer": "Kareem Abdul-Jabbar",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A RAP",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4387-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SLEEPING WITH THE \"NME\"",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The proper adjustment of a machine's components, like for the wheels of your car",
+          "answer": "alignment",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLEEPING WITH THE \"NME\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4387-d-c2-r0"
+        },
+        {
+          "question": "Things not to be talked of; more specifically, madame's underwear",
+          "answer": "unmentionables",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLEEPING WITH THE \"NME\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4387-d-c2-r1"
+        },
+        {
+          "question": "A dark gray with a bluish or purplish tinge, resembling a weapon",
+          "answer": "gunmetal",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLEEPING WITH THE \"NME\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4387-d-c2-r2"
+        },
+        {
+          "question": "In the lab, swirl liquids by hand with this flask",
+          "answer": "Erlenmeyer",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLEEPING WITH THE \"NME\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4387-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "EUROPEAN HISTORY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "During the last 17 years of his reign, Spain's King Philip II also ruled as this neighboring country's King Philip I",
+          "answer": "Portugal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4387-d-c3-r0"
+        },
+        {
+          "question": "In May 1916 the British executed by firing squad 16 leaders from this rebellion of the month before",
+          "answer": "the Easter Rebellion",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4387-d-c3-r1"
+        },
+        {
+          "question": "A 1995 peace plan signed in Dayton, Ohio called for dividing this nation into 2 parts: a Croat federation & a Serb republic",
+          "answer": "Bosnia-Herzegovina",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4387-d-c3-r2"
+        },
+        {
+          "question": "The council of this Italian city was a series of conferences begun in 1545 to discuss Catholic doctrinal issues",
+          "answer": "Trent",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4387-d-c3-r3"
+        },
+        {
+          "question": "From 1793 to 1794 the Committee of Public Safety ruled France with power in the hands of members of this \"club\"",
+          "answer": "the Jacobins",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4387-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "EAT, DRINK",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Caffe Americano is this strong coffee diluted with 3 parts water",
+          "answer": "espresso",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EAT, DRINK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4387-d-c4-r0"
+        },
+        {
+          "question": "It can mean \"sour\" or a small pie",
+          "answer": "tart",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EAT, DRINK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4387-d-c4-r1"
+        },
+        {
+          "question": "It's the Friday eveningfoodstuff seen here",
+          "answer": "challah",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EAT, DRINK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4387-d-c4-r2"
+        },
+        {
+          "question": "The University of Minnesota created the honeycrisp, a variety of this fruit",
+          "answer": "an apple",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EAT, DRINK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4387-d-c4-r3"
+        },
+        {
+          "question": "Devised in Boston in 1946, the name of this juice brand combines patriotism & convenience",
+          "answer": "Minute Maid",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EAT, DRINK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4387-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "& BE MARY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "For 7 seasons she played Mary Richards",
+          "answer": "Mary Tyler Moore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BE MARY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4387-d-c5-r0"
+        },
+        {
+          "question": "Since 1997 Mary Landrieu has represented this southern state in the U.S. Senate",
+          "answer": "Louisiana",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BE MARY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4387-d-c5-r1"
+        },
+        {
+          "question": "The religious abbreviation BVM is short for this",
+          "answer": "Blessed Virgin Mary",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BE MARY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4387-d-c5-r2"
+        },
+        {
+          "question": "Mary, daughter of England's James II, married this Dutch prince who became England's king",
+          "answer": "William (of Orange)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "& BE MARY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4387-d-c5-r3"
+        },
+        {
+          "question": "Her boarding house, where John Wilkes Booth hatched his plots, is now a restaurant called the Wok N Roll",
+          "answer": "Mary Surratt",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "& BE MARY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4387-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROADWAY ACTRESSES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "She originated 2 famous Broadway roles: one later played on film by Marilyn Monroe, another by Barbra Streisand",
+          "answer": "Carol Channing",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BROADWAY ACTRESSES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4387-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

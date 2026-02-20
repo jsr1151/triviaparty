@@ -1,0 +1,833 @@
+{
+  "gameId": 83,
+  "showNumber": 732,
+  "airDate": "November 10, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"The Rome of the North\" is how famed sculptor Rodin described this Czech capital",
+          "answer": "Prague",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g83-s-c0-r0"
+        },
+        {
+          "question": "Foreign embassies are located in Jiddah, some 500 miles from this country's capital, Riyadh",
+          "answer": "Saudi Arabia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g83-s-c0-r1"
+        },
+        {
+          "question": "\"From the halls of Montezuma to the shores of Tripoli\" refers to the capitals of these two countries",
+          "answer": "Mexico & Libya",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g83-s-c0-r2"
+        },
+        {
+          "question": "Founded in 1496 by Columbus's brother, this Dominican capitol is the oldest European city in the new world",
+          "answer": "Santo Domingo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g83-s-c0-r3"
+        },
+        {
+          "question": "Construction of this planned Asian capital began in 1912; the government was moved there in 1931",
+          "answer": "New Delhi, India",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g83-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "APOLLO 11",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Some 1 million spectators surrounded this space center to watch the lift-off",
+          "answer": "Cape Kennedy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APOLLO 11",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g83-s-c1-r0"
+        },
+        {
+          "question": "\"Peaceful\" site on the moon where the lunar module touched down",
+          "answer": "the Sea of Tranquility",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APOLLO 11",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g83-s-c1-r1"
+        },
+        {
+          "question": "Astronomic name for the booster rocket used to power the launch",
+          "answer": "Saturn",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APOLLO 11",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g83-s-c1-r2"
+        },
+        {
+          "question": "The three crew members of Apollo 11",
+          "answer": "Neil Armstrong, Buzz Aldrin, and Michael Collins",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APOLLO 11",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g83-s-c1-r3"
+        },
+        {
+          "question": "While the lunar lander was code-named \"Eagle\", the command module was code-named this",
+          "answer": "Columbia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "APOLLO 11",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g83-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STORYTELLERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"Call him\" the narrator of \"Moby Dick\"",
+          "answer": "Ishmael",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STORYTELLERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g83-s-c2-r0"
+        },
+        {
+          "question": "ABC radio commentator who tells \"The Rest of the Story\"",
+          "answer": "Paul Harvey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STORYTELLERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g83-s-c2-r1"
+        },
+        {
+          "question": "Some sources say it was Carnegie Hall; others say it was the '67 Newport Festival where he first sang \"Alice's Restaurant\"",
+          "answer": "Arlo Guthrie",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STORYTELLERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g83-s-c2-r2"
+        },
+        {
+          "question": "In addition to her \"Fairie Tale Theatre\", she now has \"Tall Tales and Legends\" playing on cable",
+          "answer": "Shelley Duvall",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STORYTELLERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g83-s-c2-r3"
+        },
+        {
+          "question": "He wrote two collections of modern fables, several fairytales, and \"My World and Welcome to It\"",
+          "answer": "James Thurber",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STORYTELLERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g83-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MR. MOVIES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1962, \"Mr. Hobbs Took\" this",
+          "answer": "A Vacation",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MR. MOVIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g83-s-c3-r0"
+        },
+        {
+          "question": "Though Diane Keaton never found the title character in this 1977 film, she found someone really nuts",
+          "answer": "Looking for Mr. Goodbar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MR. MOVIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g83-s-c3-r1"
+        },
+        {
+          "question": "Of James Cagney, Henry Fonda or Jack Lemmon, the one who won an Oscar for \"Mr. Roberts\"",
+          "answer": "Jack Lemmon",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MR. MOVIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g83-s-c3-r2"
+        },
+        {
+          "question": "Of this 1939 film, the \"New York Times\" said \"More fun even than the Senate itself!\"",
+          "answer": "Mr. Smith Goes to Washington",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MR. MOVIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g83-s-c3-r3"
+        },
+        {
+          "question": "\"Mr. Pennypacker\", \"Mr. Scoutmaster\", and \"Mr. Belvedere\" are some of his title characters",
+          "answer": "Clifton Webb",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MR. MOVIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g83-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEATS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This cut is a pig's hind leg above the hock",
+          "answer": "ham",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEATS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g83-s-c4-r0"
+        },
+        {
+          "question": "A long-standing tradition in France, hippophagy is the consumption of this",
+          "answer": "horse",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEATS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g83-s-c4-r1"
+        },
+        {
+          "question": "These gastropods are sometimes fed aromatic herbs to give them a special savor",
+          "answer": "snail",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEATS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g83-s-c4-r2"
+        },
+        {
+          "question": "One of the largest edible fish, these huge flatfish can measure over 5 X 10 feet and can exceed 700 pounds",
+          "answer": "halibut",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEATS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g83-s-c4-r3"
+        },
+        {
+          "question": "Used to cure many meats including bacon, it's the creosote & formaldehyde in this that help preserve things",
+          "answer": "smoke",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MEATS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g83-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT VIPs",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Books about him were written by Plato & Xenophon, both students of his",
+          "answer": "Socrates",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT VIPs",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g83-s-c5-r0"
+        },
+        {
+          "question": "This Hebrew king taxed his people into rebellion, which may not have been too wise",
+          "answer": "Solomon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT VIPs",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g83-s-c5-r1"
+        },
+        {
+          "question": "The period during which he ruled is often referred to as \"The Golden Age of Athens\"",
+          "answer": "Pericles",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT VIPs",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g83-s-c5-r2"
+        },
+        {
+          "question": "Uncle of Caligula and stepfather of Nero, this Roman emperor was poisoned by his wife, Nero's mother",
+          "answer": "Claudius",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT VIPs",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g83-s-c5-r3"
+        },
+        {
+          "question": "In the 6th century B.C., he conquered Babylon and made Persia the greatest empire in the world",
+          "answer": "Cyrus the Great",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT VIPs",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g83-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHYSICS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A shotgun's powerful recoil is an example of his third law of motion",
+          "answer": "Isaac Newton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g83-d-c0-r0"
+        },
+        {
+          "question": "The term horsepower came about when James Watt compared work done by a horse to work done by this",
+          "answer": "steam engine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g83-d-c0-r1"
+        },
+        {
+          "question": "If it were not for the retarding influence of this, raindrops would attain bullet-like speeds",
+          "answer": "the atmosphere",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g83-d-c0-r2"
+        },
+        {
+          "question": "Pulling the cloth off a table without disturbing the dishes is the principle of this",
+          "answer": "inertia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g83-d-c0-r3"
+        },
+        {
+          "question": "Term for the speed of a body in a specified direction",
+          "answer": "velocity",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g83-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "General whose Presidential campaign song was written by Irving Berlin",
+          "answer": "Dwight Eisenhower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g83-d-c1-r0"
+        },
+        {
+          "question": "All elected Presidents who are members of this party died in office",
+          "answer": "Whig",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g83-d-c1-r1"
+        },
+        {
+          "question": "This Iowan was the first President born west of the Mississippi",
+          "answer": "Herbert Hoover",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g83-d-c1-r2"
+        },
+        {
+          "question": "The last President to sport a moustache or beard while in office",
+          "answer": "William Howard Taft",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g83-d-c1-r3"
+        },
+        {
+          "question": "The \"54º40' or Fight\" fever over Oregon helped elect this president, the only one ever to be speaker of the U.S. House",
+          "answer": "James K. Polk",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g83-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STARTS WITH \"P\"",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The word \"pram\" is short for this",
+          "answer": "perambulator",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"P\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g83-d-c2-r0"
+        },
+        {
+          "question": "Movie that featured the following music:",
+          "answer": "Picnic",
+          "value": 200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"P\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g83-d-c2-r1"
+        },
+        {
+          "question": "This extinct early man is known from fossils found at Chukutien",
+          "answer": "Peking Man",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"P\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g83-d-c2-r2"
+        },
+        {
+          "question": "As being of great price purchased with all she had, Hester Prynne named her child this",
+          "answer": "Pearl",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"P\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g83-d-c2-r3"
+        },
+        {
+          "question": "The small cogwheel that engages a larger cogwheel",
+          "answer": "pinion",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"P\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g83-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POETIC TERMS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The sonnet originated in this country with such poets as Guitoni D'Arretzo",
+          "answer": "Italy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETIC TERMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g83-d-c3-r0"
+        },
+        {
+          "question": "These funny five-line verses often end with the name of a place; or, a place in Ireland",
+          "answer": "Limerick",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETIC TERMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g83-d-c3-r1"
+        },
+        {
+          "question": "A deliberate violation of the rules of rhyming or grammar, not a little piece of paper from the DMV",
+          "answer": "poetic license",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETIC TERMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g83-d-c3-r2"
+        },
+        {
+          "question": "16th century poet who perfected in \"The Faerie Queene\" the stanza named for him",
+          "answer": "Edmund Spenser",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETIC TERMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g83-d-c3-r3"
+        },
+        {
+          "question": "It's an echoic term for words like \"hiss\" that imitate an actual sound",
+          "answer": "onomatopoeia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETIC TERMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g83-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEPAL",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It consists of two red triangles outlined in blue with white symbols of the sun and the moon",
+          "answer": "the flag of Nepal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEPAL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g83-d-c4-r0"
+        },
+        {
+          "question": "At Lumbini, you can visit the birthplace of this \"Enlightened One\"",
+          "answer": "Buddha",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEPAL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g83-d-c4-r1"
+        },
+        {
+          "question": "This Sherpa who went to the top of the world with Edmund Hillary died in 1986 at the age of 72",
+          "answer": "Tenzing Norgay",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEPAL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g83-d-c4-r2"
+        },
+        {
+          "question": "\"Wooden temple\", the meaning of this city's name, refers to the 400-year old one in its central square",
+          "answer": "Kathmandu",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEPAL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g83-d-c4-r3"
+        },
+        {
+          "question": "Told to jump from 600 feet, these tough Nepalese soldiers, not knowing they'd get chutes, said 300 feet was easier",
+          "answer": "Gurkhas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEPAL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g83-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GREAT DAMES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1952, she sprang her \"Mousetrap\"",
+          "answer": "Agatha Christie",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT DAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g83-d-c5-r0"
+        },
+        {
+          "question": "She played \"Hamlet\" at the age of 73 and a Vulcan high priestess in \"Star Trek III\"",
+          "answer": "Dame Judith Anderson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GREAT DAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g83-d-c5-r1"
+        },
+        {
+          "question": "She helped her husband survive an attempted assassination & was Nureyev's partner for over fifteen years",
+          "answer": "Dame Margot Fonteyn",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GREAT DAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g83-d-c5-r2"
+        },
+        {
+          "question": "She starred as Cleopatra and Olivier's Juliet, long before booking \"A Passage to India\"",
+          "answer": "Dame Peggy Ashcroft",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GREAT DAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g83-d-c5-r3"
+        },
+        {
+          "question": "This Maori diva from New Zealand sang with Nelson Riddle and at Prince Charles's wedding",
+          "answer": "Kiri Te Kanawa",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT DAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g83-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The first verse of this book says, \"There was a man in the land of Uz that feared God and eschewed evil\"",
+          "answer": "Job",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE BIBLE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g83-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

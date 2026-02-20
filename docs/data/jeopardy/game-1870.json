@@ -1,0 +1,833 @@
+{
+  "gameId": 1870,
+  "showNumber": 5238,
+  "airDate": "May 23, 2007",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LOOK!",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's time for you to name this timepiece, squire",
+          "answer": "Big Ben",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOOK!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1870-s-c0-r0"
+        },
+        {
+          "question": "The life & music of this legend continue to shine",
+          "answer": "Ray Charles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOOK!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1870-s-c0-r1"
+        },
+        {
+          "question": "Middle name of the mug-shot man seen here",
+          "answer": "Harvey",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOOK!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1870-s-c0-r2"
+        },
+        {
+          "question": "The legend seen here most famously played this sport",
+          "answer": "soccer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOOK!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1870-s-c0-r3"
+        },
+        {
+          "question": "The vast reaches of this country encompass desert lands as well as rain forests",
+          "answer": "Sudan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LOOK!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1870-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "UP IN THE SKY!",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Ye gods, it's this outer planet seen here",
+          "answer": "Neptune",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UP IN THE SKY!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1870-s-c1-r0"
+        },
+        {
+          "question": "Something to reflect on--it runs on batteries, is about the size of a bus & circles the Earth every 97 minutes",
+          "answer": "the Hubble Space Telescope",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UP IN THE SKY!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1870-s-c1-r1"
+        },
+        {
+          "question": "In September 2006 it was reduced to a number--number 134340 in the catalog of minor planets",
+          "answer": "Pluto",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UP IN THE SKY!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1870-s-c1-r2"
+        },
+        {
+          "question": "The 2 brightest stars in this constellation are Castor & Pollux",
+          "answer": "Gemini",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UP IN THE SKY!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1870-s-c1-r3"
+        },
+        {
+          "question": "Usually reaching its peak on August 12, it's been called the \"Old Faithful\" of meteor showers",
+          "answer": "a perseid",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UP IN THE SKY!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1870-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S A BIRD!",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On New Zealand's Stewart Island you'll find tuis, pipits, kakas & shags, but it's \"the home of\" this national bird",
+          "answer": "a kiwi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A BIRD!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1870-s-c2-r0"
+        },
+        {
+          "question": "For the blue-backed manakin, this ritual begins with a duet sung by 2 birds--a dominant male & his wingman",
+          "answer": "a mating ritual",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A BIRD!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1870-s-c2-r1"
+        },
+        {
+          "question": "If you see the rock species of this urban bird on a ledge, don't try to talk it down; it may just be building a nest",
+          "answer": "a pigeon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A BIRD!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1870-s-c2-r2"
+        },
+        {
+          "question": "Like a type of shark, the bird seen here is named for its resemblance to this tool",
+          "answer": "a hammer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A BIRD!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1870-s-c2-r3"
+        },
+        {
+          "question": "The tawny species of this bird can see prey by the light of one candle 500 yards away",
+          "answer": "the owl",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A BIRD!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1870-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S A PLANE!",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In a numerical sense, naught, zip, nada",
+          "answer": "zero",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A PLANE!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1870-s-c3-r0"
+        },
+        {
+          "question": "2-syllable social wasp of the family Vespidae",
+          "answer": "hornet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IT'S A PLANE!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1870-s-c3-r1"
+        },
+        {
+          "question": "Songs by this band include \"Vertigo\" & \"I Still Haven't Found What I'm Looking For\"",
+          "answer": "U2",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A PLANE!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1870-s-c3-r2"
+        },
+        {
+          "question": "The French know that this optical phenomenon can be seen not only in the desert but also at sea",
+          "answer": "a mirage",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A PLANE!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1870-s-c3-r3"
+        },
+        {
+          "question": "Not necessarily a \"menace\", it's a specter or ghost, or something illusory",
+          "answer": "a phantom",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A PLANE!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1870-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SUPERMAN",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "He played Jesse James in 1943's \"The Kansan\" before donning the cape of Superman on TV in the 1950s",
+          "answer": "George Reeves",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1870-s-c4-r0"
+        },
+        {
+          "question": "(Hi, I'm Michael McKean.)My guest appearance as Perry White made this show successful; my wife, Annette O'Toole, may also have helped",
+          "answer": "Smallville",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1870-s-c4-r1"
+        },
+        {
+          "question": "In \"Superman III\" this comedian uses the \"Salami Technique\" to steal tiny sums of money from many bank accounts",
+          "answer": "Richard Pryor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1870-s-c4-r2"
+        },
+        {
+          "question": "Kate Bosworth was Lois Lane in this 2006 man of steel movie",
+          "answer": "Superman Returns",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1870-s-c4-r3"
+        },
+        {
+          "question": "1978's \"Superman\" was scripted by this New York author famous for mafia tomes",
+          "answer": "Mario Puzo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPERMAN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1870-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE MAN OF STEEL",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1942 Philip Murray became the first President of the U.S.A., this labor union",
+          "answer": "United Steelworkers of America",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAN OF STEEL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1870-s-c5-r0"
+        },
+        {
+          "question": "Harry Brearly developed this steel after noticing the anti-corrosion properties of high chromium steel",
+          "answer": "stainless steel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAN OF STEEL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1870-s-c5-r1"
+        },
+        {
+          "question": "Anarchist Alexander Berkman tried to kill this steel magnate for whom a NYC museum is now named",
+          "answer": "Henry Clay Frick",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE MAN OF STEEL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1870-s-c5-r2"
+        },
+        {
+          "question": "This Brit's steel-making \"process\" was a result of his interest in improving gun construction",
+          "answer": "Bessemer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAN OF STEEL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1870-s-c5-r3"
+        },
+        {
+          "question": "In 1901 this Chicago lawyer for whom a nearby Indiana city is named helped organize the U.S. Steel Corporation",
+          "answer": "(Elbert) Gary",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAN OF STEEL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1870-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Before writing his classic novel, he spent 2 years with a group of Oklahoma farmers journeying to California",
+          "answer": "Steinbeck",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1870-d-c0-r0"
+        },
+        {
+          "question": "This author's work as a private detective with Pinkerton lent authenticity to \"The Maltese Falcon\"",
+          "answer": "(Dashiell) Hammett",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1870-d-c0-r1"
+        },
+        {
+          "question": "He wrote comic book stories for \"Captain America\" & \"Captain Marvel\" before hitting it big with \"I, the Jury\"",
+          "answer": "Mickey Spillane",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1870-d-c0-r2"
+        },
+        {
+          "question": "Her major works, including \"The Age of Innocence\", were written while living in France, where she moved in 1907",
+          "answer": "Edith Wharton",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1870-d-c0-r3"
+        },
+        {
+          "question": "In the 1930s this author of \"Marjorie Morningstar\" was a writer for comedian Fred Allen",
+          "answer": "(Herman) Wouk",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1870-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHO'S THE MRS.?",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Mrs. Ashton Kutcher",
+          "answer": "Demi Moore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THE MRS.?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1870-d-c1-r0"
+        },
+        {
+          "question": "Mrs. Garth Brooks",
+          "answer": "(Trisha) Yearwood",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THE MRS.?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1870-d-c1-r1"
+        },
+        {
+          "question": "Mrs. Antonio Banderas",
+          "answer": "(Melanie) Griffith",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THE MRS.?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1870-d-c1-r2"
+        },
+        {
+          "question": "Mrs. David Duchovny",
+          "answer": "(Téa) Leoni",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THE MRS.?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1870-d-c1-r3"
+        },
+        {
+          "question": "Mrs. Christopher Guest",
+          "answer": "Jamie Lee Curtis",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHO'S THE MRS.?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1870-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CIRCUS TALK",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "(Jimmy of the Clue Crew clowns around.) Clowns are masters of this look of reaction for the benefit of the audience; especially a double one",
+          "answer": "a double take",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIRCUS TALK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1870-d-c2-r0"
+        },
+        {
+          "question": "(Sarah of the Clue Crew stands next to a juggler.)  Because of the way the balls go up the middle & down the side, a common juggling pattern has this watery name that reminds us of a Northwest mountain range",
+          "answer": "cascade",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIRCUS TALK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1870-d-c2-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew watches the juggler play.)  To us it's a structure at the end of an animal's limb; to a juggler it's a downward movement to catch an object",
+          "answer": "a claw",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CIRCUS TALK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1870-d-c2-r2"
+        },
+        {
+          "question": "(Sarah of the Clue Crew watches people hanging around.)  As the trapeze was invented in France, the catcher is sometimes called \"porteur\" & this person in a trick is called \"voltigeur\"",
+          "answer": "the flyer",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CIRCUS TALK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1870-d-c2-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew watches a balancing act.)  Wire walking includes the highwire, the tightrope & this one that many people think is most difficult because any shaking is magnified",
+          "answer": "slackrope walking",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CIRCUS TALK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1870-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GHANA IN 60 SECONDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "President Ford named this former child star the U.S. Ambassador to Ghana in 1974",
+          "answer": "(Shirley) Temple (Black)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GHANA IN 60 SECONDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1870-d-c3-r0"
+        },
+        {
+          "question": "This is Ghana's official language",
+          "answer": "English",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GHANA IN 60 SECONDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1870-d-c3-r1"
+        },
+        {
+          "question": "So far, he's the only U.N. Secretary-General from Ghana",
+          "answer": "(Kofi) Annan",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GHANA IN 60 SECONDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1870-d-c3-r2"
+        },
+        {
+          "question": "One of the 3 African countries that Ghana borders",
+          "answer": "(1 of) Ivory Coast, Burkina Faso and Togo",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GHANA IN 60 SECONDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1870-d-c3-r3"
+        },
+        {
+          "question": "Ghana is located in West Africa on this gulf that bears the name of another African country",
+          "answer": "Gulf of Guinea",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GHANA IN 60 SECONDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1870-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN POLITICAL IDOL",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1804 this guy killed a political foe with one shot in New Jersey... You're the V.P., not Tony Soprano!  Act like it!",
+          "answer": "Aaron Burr",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN POLITICAL IDOL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1870-d-c4-r0"
+        },
+        {
+          "question": "As a 19th century \"boss\" he plundered NYC of sums estimated at between $30-200 million...what a dreadful performance",
+          "answer": "(Boss) Tweed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN POLITICAL IDOL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1870-d-c4-r1"
+        },
+        {
+          "question": "That March 4, 1841 inaugural address in cold drizzle took about 2 hours; mark my words, it'll be the death of him",
+          "answer": "William Henry Harrison",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN POLITICAL IDOL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1870-d-c4-r2"
+        },
+        {
+          "question": "I have the 1860 election results... this Ill. Democrat & orator who ran against Lincoln... you're going home tonight",
+          "answer": "(Stephen) Douglas",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN POLITICAL IDOL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1870-d-c4-r3"
+        },
+        {
+          "question": "The Whiskey Ring scandal & William Belknap, his Sec. of War, impeached? No wonder this Republican didn't get a third term!",
+          "answer": "Ulysses Grant",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN POLITICAL IDOL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1870-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"WORD\" PLAY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "At the turn of the 19th century, he penned the sonnet \"The World Is Too Much With Us\"",
+          "answer": "(William) Wordsworth",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORD\" PLAY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1870-d-c5-r0"
+        },
+        {
+          "question": "A concluding section or statement at the end of a book that's separate from the main text",
+          "answer": "the afterword",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORD\" PLAY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1870-d-c5-r1"
+        },
+        {
+          "question": "Hyphenated term for the process by which rumors & informal movie reviews are spread",
+          "answer": "word-of-mouth",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORD\" PLAY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1870-d-c5-r2"
+        },
+        {
+          "question": "A word that leads you to useful results in an Internet search",
+          "answer": "the keyword",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORD\" PLAY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1870-d-c5-r3"
+        },
+        {
+          "question": "Psychological \"test\" of verbal stimuli given to induce revelatory verbal responses",
+          "answer": "word association",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORD\" PLAY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1870-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MNEMONIC DEVICES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A traditional mnemonic device for remembering these begins, \"Willie, Willie, Harry, Stee, Harry, Dick, John, Harry Three\"",
+          "answer": "English monarchs",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MNEMONIC DEVICES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1870-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

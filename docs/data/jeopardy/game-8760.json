@@ -1,0 +1,833 @@
+{
+  "gameId": 8760,
+  "showNumber": 9012,
+  "airDate": "January 9, 2024",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "\"F\" IN GEOGRAPHY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This state capital is near the western edge of the Inner Bluegrass Region",
+          "answer": "Frankfort",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8760-s-c0-r0"
+        },
+        {
+          "question": "Espoo & Lappeenranta are cities in this nation",
+          "answer": "Finland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8760-s-c0-r1"
+        },
+        {
+          "question": "This city in Alaska has hosted the Midnight Sun Festival for more than 40 years",
+          "answer": "Fairbanks",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8760-s-c0-r2"
+        },
+        {
+          "question": "Although it shares its name with a type of headwear, the name of this city may come from Arabic for a kind of axe",
+          "answer": "Fez",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8760-s-c0-r3"
+        },
+        {
+          "question": "An island in the Persian Gulf shares its name with this language",
+          "answer": "Farsi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"F\" IN GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8760-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS TAKES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Stay balanced, tighten your jaw muscles & keep your chin down are tips for how to take one of these--if you have to",
+          "answer": "a punch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TAKES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8760-s-c1-r0"
+        },
+        {
+          "question": "Basketball players take shots, like this type added to the NBA in 1979",
+          "answer": "a three-point shot (three-pointer)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TAKES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8760-s-c1-r1"
+        },
+        {
+          "question": "Stephen A. Smith & Molly Qerim talk sports & more on this ESPN show",
+          "answer": "First Take",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TAKES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8760-s-c1-r2"
+        },
+        {
+          "question": "The NHL has a penalty for taking this to try to get your team a power play; the rules also call it \"embellishment\"",
+          "answer": "a dive (flopping on purpose)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TAKES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8760-s-c1-r3"
+        },
+        {
+          "question": "An unwritten rule of baseball is to take (not swing) on this count, especially if your team has a big lead",
+          "answer": "3-0",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TAKES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8760-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGE PREP",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "University worker Nick Saban earns more than $11 million a year as the highest paid public employee in this state",
+          "answer": "Alabama",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE PREP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8760-s-c2-r0"
+        },
+        {
+          "question": "Bates, Beal & Bowdoin are colleges in this state that does not begin with B",
+          "answer": "Maine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE PREP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8760-s-c2-r1"
+        },
+        {
+          "question": "At this Montreal U. Wilder Penfield found you can stimulate the brain directly into a sense memory like a burnt toast smell",
+          "answer": "McGill",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE PREP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8760-s-c2-r2"
+        },
+        {
+          "question": "In 1881 this University of Pennsylvania institution became America's first collegiate business school",
+          "answer": "Wharton",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE PREP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8760-s-c2-r3"
+        },
+        {
+          "question": "Per its name, Rensselaer in Troy, New York is this type of school that educates students in many scientific fields",
+          "answer": "polytechnic",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGE PREP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8760-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "3 OF THE SAME LETTER",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "To thumb a ride",
+          "answer": "hitchhike",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3 OF THE SAME LETTER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8760-s-c3-r0"
+        },
+        {
+          "question": "Creepy, like an unsettling coincidence",
+          "answer": "eerie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3 OF THE SAME LETTER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8760-s-c3-r1"
+        },
+        {
+          "question": "Less common, or less well-done",
+          "answer": "rarer",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "3 OF THE SAME LETTER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8760-s-c3-r2"
+        },
+        {
+          "question": "Derived from an initialism, it means to act as host for an entertainment",
+          "answer": "emcee",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3 OF THE SAME LETTER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8760-s-c3-r3"
+        },
+        {
+          "question": "A 7-letter cure for everything",
+          "answer": "panacea",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3 OF THE SAME LETTER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8760-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "A RECIPE FOR...",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The recipe for canard à la presse requires a special press to extract juices from this fowl",
+          "answer": "duck",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A RECIPE FOR...",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8760-s-c4-r0"
+        },
+        {
+          "question": "The 2 main ingredients for the pasta dish cacio e pepe are cheese & this, pepe nero in Italian",
+          "answer": "black pepper",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A RECIPE FOR...",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8760-s-c4-r1"
+        },
+        {
+          "question": "To make this traditional one-word Mexican breakfast, combine fried tortillas with salsa & top with queso fresco",
+          "answer": "chilaquiles",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A RECIPE FOR...",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8760-s-c4-r2"
+        },
+        {
+          "question": "A traditional recipe for collard greens calls for cooking the greens with this alliterative pig product, also called the pork knuckle",
+          "answer": "a ham hock",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A RECIPE FOR...",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8760-s-c4-r3"
+        },
+        {
+          "question": "2 shallots & quarter cup of grated Parmesan are part of Tyler Florence's recipe for oysters this",
+          "answer": "Rockefeller",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A RECIPE FOR...",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8760-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DISASTER",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The earthquake & ensuing fire that struck this U.S. city in 1906 had a 7.9 magnitude & claimed more than 3,000 lives",
+          "answer": "San Francisco",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISASTER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8760-s-c5-r0"
+        },
+        {
+          "question": "BP's Deepwater Horizon rig suffered an explosion in 2010, resulting in a massive oil spill in this body of water",
+          "answer": "the Gulf of Mexico",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISASTER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8760-s-c5-r1"
+        },
+        {
+          "question": "In 2003 this Space Shuttle met with disaster when it broke apart during its descent on its 28th mission",
+          "answer": "the Columbia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISASTER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8760-s-c5-r2"
+        },
+        {
+          "question": "The USA's deadliest maritime disaster killed more than 1,000 people when the steamboat Sultana sank on this river in 1865",
+          "answer": "the Mississippi",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISASTER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8760-s-c5-r3"
+        },
+        {
+          "question": "In 1988 a terrorist bomb destroyed Pan Am Flight 103 over this Scottish town",
+          "answer": "Lockerbie",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISASTER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8760-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL CHARACTERS' OCCUPATIONS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Stevens in \"The Remains of the Day\"",
+          "answer": "butler",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS' OCCUPATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8760-d-c0-r0"
+        },
+        {
+          "question": "Mark Watney, who accidentally gets left behind, & Dave Bowman",
+          "answer": "astronaut",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS' OCCUPATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8760-d-c0-r1"
+        },
+        {
+          "question": "Eliza Doolittle, before she becomes a \"lady\"",
+          "answer": "flower girl (flower seller)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS' OCCUPATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8760-d-c0-r2"
+        },
+        {
+          "question": "Harry Bosch's half-brother Mickey Haller",
+          "answer": "a defense attorney",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS' OCCUPATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8760-d-c0-r3"
+        },
+        {
+          "question": "Martin Dysart in \"Equus\"",
+          "answer": "a psychiatrist",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS' OCCUPATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8760-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN MY ART DECO ERA",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Petersen  Automotive Museum has a Phantom from this car company that \"epitomizes the prewar Art Deco school of design\"",
+          "answer": "a Rolls-Royce",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN MY ART DECO ERA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8760-d-c1-r0"
+        },
+        {
+          "question": "Before this music hall opened in 1932, a N.Y. newspaper glowed, \"The whole theatre interior lends itself to effect of sunrise\"",
+          "answer": "Radio City Music Hall",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN MY ART DECO ERA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8760-d-c1-r1"
+        },
+        {
+          "question": "Union Terminal is a great example of Art Deco architecture in this Ohio city, as is the Taft Theater",
+          "answer": "Cincinnati",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN MY ART DECO ERA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8760-d-c1-r2"
+        },
+        {
+          "question": "Atop Telegraph Hill in San Francisco stands this 210-foot Art Deco tower",
+          "answer": "Coit Tower",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN MY ART DECO ERA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8760-d-c1-r3"
+        },
+        {
+          "question": "The top of Los Angeles City Hall was inspired by the look of this ancient wonder of Halicarnassus",
+          "answer": "a mausoleum",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN MY ART DECO ERA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8760-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. NOBEL PEACE PRIZE WINNERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A longtime member of FDR's cabinet, Cordell Hull won the award in 1945 & was known as the \"father of\" this international org.",
+          "answer": "the United Nations",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. NOBEL PEACE PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8760-d-c2-r0"
+        },
+        {
+          "question": "This politician shared the 2007 Nobel Peace Prize for raising awareness about global warming",
+          "answer": "Gore",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. NOBEL PEACE PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8760-d-c2-r1"
+        },
+        {
+          "question": "Before winning a Peace Prize in 1962, scientist & vitamin C advocate Linus Pauling won one in this category in 1954",
+          "answer": "chemistry",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. NOBEL PEACE PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8760-d-c2-r2"
+        },
+        {
+          "question": "\"Soldier of Peace\" is the subtitle of a biography of this general who helped Europe recover following World War II",
+          "answer": "Marshall",
+          "value": 5400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. NOBEL PEACE PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8760-d-c2-r3"
+        },
+        {
+          "question": "His name is on a pact with Aristide Briand, but Aristide had won a Nobel Prize a few years before, so he got the 1929 prize alone",
+          "answer": "Frank Kellogg",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. NOBEL PEACE PRIZE WINNERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8760-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "4-LETTER FISH",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Skipjack is the most common species of this that you'll find canned in the United States",
+          "answer": "tuna",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER FISH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8760-d-c3-r0"
+        },
+        {
+          "question": "Koi are an ornamental type of this common fish",
+          "answer": "carp",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER FISH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8760-d-c3-r1"
+        },
+        {
+          "question": "The longjaw mudsucker, which burrows in mud or sand, is a type of this fish found in the Eastern Pacific, not an Asian desert",
+          "answer": "goby",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER FISH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8760-d-c3-r2"
+        },
+        {
+          "question": "Dory could tell you that surgeonfish is another name for this blue fish whose natural habitat is coral reef",
+          "answer": "a blue tang",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER FISH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8760-d-c3-r3"
+        },
+        {
+          "question": "The muskellunge, or muskie, a large member of this 4-letter family, can eat frogs & waterfowl",
+          "answer": "a pike",
+          "value": 6000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER FISH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8760-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN OF COUNTRY MUSIC",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 2023 friends including Kelsea Ballerini helped her complete the Judds farewell tour",
+          "answer": "Wynonna Judd",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN OF COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8760-d-c4-r0"
+        },
+        {
+          "question": "In 2020 Natalie Maines, Emily Strayer & Martie Maguire dropped the first part of their trio's name & now go simply as this",
+          "answer": "The Chicks",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN OF COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8760-d-c4-r1"
+        },
+        {
+          "question": "Selling more than 10 million copies each, her \"Up!\", \"The Woman In Me\" & \"Come on Over\" albums have all been certified diamond",
+          "answer": "Shania Twain",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN OF COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8760-d-c4-r2"
+        },
+        {
+          "question": "In 2023 this queen of country took to the chair as a new coach on \"The Voice\"",
+          "answer": "Reba McEntire",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN OF COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8760-d-c4-r3"
+        },
+        {
+          "question": "13 in 1972 when she had her first hit, \"Delta Dawn\", she continues to put out music, including her recent album, \"Sweet Western Sound\"",
+          "answer": "Tanya Tucker",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN OF COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8760-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WATERLOGGED WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "These \"drenched\" fats are usually solid at room temperature & a diet high in them can raise cholesterol",
+          "answer": "saturated",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WATERLOGGED WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8760-d-c5-r0"
+        },
+        {
+          "question": "Damp means wet, as does this other 4-letter \"D\" word that the cool kids use to mean \"excellent\"",
+          "answer": "dank",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WATERLOGGED WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8760-d-c5-r1"
+        },
+        {
+          "question": "With information it means \"to shorten\"; in science, it's what happens when vapor turns into water",
+          "answer": "condense",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WATERLOGGED WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8760-d-c5-r2"
+        },
+        {
+          "question": "This verb can be defined as extinguishing a flame or dipping someone in water",
+          "answer": "douse",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WATERLOGGED WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8760-d-c5-r3"
+        },
+        {
+          "question": "This word for totally submerged has a huge body of water in the middle of it",
+          "answer": "engulfed",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WATERLOGGED WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8760-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ANCIENT WORLD",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This text helped the soul, or ka, navigate a journey into a region called Amenti",
+          "answer": "the Book of the Dead",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE ANCIENT WORLD",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8760-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 7769,
+  "showNumber": 1409,
+  "airDate": "October 18, 1990",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Syrian capital is believed to be the oldest, continuously inhabited city in the world",
+          "answer": "Damascus",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7769-s-c0-r0"
+        },
+        {
+          "question": "A 1666 fire which broke out in a baker's shop nearly destroyed this capital",
+          "answer": "London",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7769-s-c0-r1"
+        },
+        {
+          "question": "Over a third of Chile's people live in this capital city",
+          "answer": "Santiago",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7769-s-c0-r2"
+        },
+        {
+          "question": "In the late 1960s Islamabad replaced Rawalpindi as this country's capital",
+          "answer": "Pakistan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7769-s-c0-r3"
+        },
+        {
+          "question": "In 1919, Soviet troops occupied this capital of Afghanistan",
+          "answer": "Kabul",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7769-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HEALTH & MEDICINE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's reported that the QEII medical staff gives about 5,000 injections a year for this",
+          "answer": "seasickness",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7769-s-c1-r0"
+        },
+        {
+          "question": "Dr. René Laennec invented this piece of medical equipment  by rolling a piece of paper into a tube",
+          "answer": "a stethoscope",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7769-s-c1-r1"
+        },
+        {
+          "question": "After this was invented in the mid-15th century, the need for glasses became widespread",
+          "answer": "printing press",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7769-s-c1-r2"
+        },
+        {
+          "question": "Described as vermiform, or wormlike, it's attached to the right side of the large intestine",
+          "answer": "the appendix",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7769-s-c1-r3"
+        },
+        {
+          "question": "In childbirth classes you learn that Braxton Hicks contractions are commonly called this",
+          "answer": "false labor",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7769-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CELEBRITY BOOKS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"A-Team\" co-star who subtitled his autobiography \"The Man with the Gold\"",
+          "answer": "Mr. T",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7769-s-c2-r0"
+        },
+        {
+          "question": "Composer who called his book \"Did They Mention the Music?\", not \"Days of Wine and Roses\"",
+          "answer": "Henry Mancini",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7769-s-c2-r1"
+        },
+        {
+          "question": "This actor titled Chapter 13 of his memoir \"Hi There, Sherlock, How's Doctor Watson?\"",
+          "answer": "Basil Rathbone",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7769-s-c2-r2"
+        },
+        {
+          "question": "Ziegfeld Follies humorist who called his 1927 book \"There's Not a Bathing Suit in Russia\"",
+          "answer": "Will Rogers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7769-s-c2-r3"
+        },
+        {
+          "question": "\"Your Cheatin' Heart\" has been called the consummate biography of this singer",
+          "answer": "Hank Williams",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY BOOKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7769-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTENT POTABLES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It can be stout, pilsner or lager",
+          "answer": "beer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7769-s-c3-r0"
+        },
+        {
+          "question": "The Bartender's Guide calls it the Russian national drink",
+          "answer": "vodka",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7769-s-c3-r1"
+        },
+        {
+          "question": "Scotch gets its smoky flavor from this malted grain dried over peat fires",
+          "answer": "barley",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7769-s-c3-r2"
+        },
+        {
+          "question": "Bottled in Britain, this brand of gin calls itself, \"the world's most imported gin\"",
+          "answer": "Beefeater",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7769-s-c3-r3"
+        },
+        {
+          "question": "Mix cream, rum, Cointreau & Blue Curaçao & you'll have this tropical cocktail named for a state",
+          "answer": "a Blue Hawaii",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7769-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRO BASKETBALL",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Nicknamed \"The Stilt\", this Philadelphia Warrior player scored 100 points in a game March 2, 1962",
+          "answer": "Wilt Chamberlain",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO BASKETBALL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7769-s-c4-r0"
+        },
+        {
+          "question": "By the time he retired in 1989, this Laker had been named the NBA's MVP a record 6 times",
+          "answer": "Kareem Abdul-Jabbar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO BASKETBALL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7769-s-c4-r1"
+        },
+        {
+          "question": "In 1966 Bill Russell became the NBA's first Black coach when he succeeded Red Auerbach as this team's coach",
+          "answer": "the Boston Celtics",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO BASKETBALL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7769-s-c4-r2"
+        },
+        {
+          "question": "This NBA team's official logo features a stylized musical note",
+          "answer": "the (Utah) Jazz",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO BASKETBALL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7769-s-c4-r3"
+        },
+        {
+          "question": "This professional league folded in 1976 with four of its teams joining the NBA",
+          "answer": "the American Basketball Association (the ABA)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO BASKETBALL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7769-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMMON BONDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Upright,player,baby grand",
+          "answer": "types of piano",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7769-s-c5-r0"
+        },
+        {
+          "question": "Billy,putty,string",
+          "answer": "sillies",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7769-s-c5-r1"
+        },
+        {
+          "question": "the red carpet,pie dough,the barrel",
+          "answer": "things you roll out",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7769-s-c5-r2"
+        },
+        {
+          "question": "Tab,big game,Fred Dryer",
+          "answer": "Hunters",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7769-s-c5-r3"
+        },
+        {
+          "question": "Charlie McCarthy,Mr. Peanut,Colonel Klink",
+          "answer": "individuals wearing monocles",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7769-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "After her husband collapsed at the Battle of Monmouth, she pitched in to fire his cannon",
+          "answer": "Molly Pitcher",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7769-d-c0-r0"
+        },
+        {
+          "question": "Ellen Gates Starr co-founded this settlement house with Jane Addams",
+          "answer": "Hull House",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7769-d-c0-r1"
+        },
+        {
+          "question": "This colony was named for Queen Henrietta Maria, so it could have been called Henriettaland",
+          "answer": "Maryland",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7769-d-c0-r2"
+        },
+        {
+          "question": "He killed a lawyer named Charles Dickinson in a duel, 23 years before he became president",
+          "answer": "Andrew Jackson",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7769-d-c0-r3"
+        },
+        {
+          "question": "Because of the Alien & Sedition Acts this political party became known as a party of oppression",
+          "answer": "the Federalist Party",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7769-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "6-LETTER WORDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A geisha's garb",
+          "answer": "a kimono",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7769-d-c1-r0"
+        },
+        {
+          "question": "Nonsense talk, or the technical language of a trade",
+          "answer": "jargon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7769-d-c1-r1"
+        },
+        {
+          "question": "Type of book in which debits, credits & money transactions are recorded",
+          "answer": "a ledger",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7769-d-c1-r2"
+        },
+        {
+          "question": "While equine pertains to a horse, this pertains to a bear",
+          "answer": "ursine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7769-d-c1-r3"
+        },
+        {
+          "question": "A papal ambassador or representative",
+          "answer": "a nuncio (a legate)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7769-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENGLISH LITERATURE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Tennyson poem was written in 1854, a few weeks after the Crimean War battle it describes",
+          "answer": "\"The Charge of the Light Brigade\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7769-d-c2-r0"
+        },
+        {
+          "question": "Nahum Tate's version of this play eliminates the Fool, makes Edgar & Cordelia lovers & ends happily",
+          "answer": "King Lear",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7769-d-c2-r1"
+        },
+        {
+          "question": "A.A. Milne's son Christopher was a friend of Frances Hodgson Burnett's son, on whom this character was based",
+          "answer": "Little Lord Fauntleroy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7769-d-c2-r2"
+        },
+        {
+          "question": "This \"Empire of the Sun\" author began as a science fiction writer in the 1950s",
+          "answer": "J.G. Ballard",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7769-d-c2-r3"
+        },
+        {
+          "question": "His last novel, \"Staying On\", told the story of two minor characters in his \"Raj Quartet\"",
+          "answer": "(Paul) Scott",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7769-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MATH",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The longest chord of a circle, it divides the circle into two equal parts",
+          "answer": "a diameter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7769-d-c3-r0"
+        },
+        {
+          "question": "Raise a number to the 2nd power & you square it; raise it to the 3rd power & you do this",
+          "answer": "cube it",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7769-d-c3-r1"
+        },
+        {
+          "question": "Derived from the Latin word for \"finger\", it describes a numeral from 0 to 9",
+          "answer": "a digit",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7769-d-c3-r2"
+        },
+        {
+          "question": "2 angles are said to be this when their sum is 90 degrees",
+          "answer": "complementary",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7769-d-c3-r3"
+        },
+        {
+          "question": "A bar placed over a Roman numeral indicates it should be multiplied by this number",
+          "answer": "1,000",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7769-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NURSERY RHYMES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"There was a crooked man\" and he went this distance",
+          "answer": "a crooked mile",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7769-d-c4-r0"
+        },
+        {
+          "question": "It's where the little boy is who looks after the sheep",
+          "answer": "under the haystack fast asleep",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7769-d-c4-r1"
+        },
+        {
+          "question": "Little Jack Horner said, \"What a good boy am I\", after he did this to his pie",
+          "answer": "stuck in his thumb & pulled out a plum",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7769-d-c4-r2"
+        },
+        {
+          "question": "\"I had a little\", one of these, \"his name was Dapple Gray\"",
+          "answer": "a pony",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7769-d-c4-r3"
+        },
+        {
+          "question": "He \"went to bed with his stockings on; one shoe off, one shoe on\"",
+          "answer": "diddle, diddle, dumpling, my son John",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NURSERY RHYMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7769-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRADEMARK NAMES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Now a generic term, it went originally by its trade name for acetylsalicylic acid",
+          "answer": "aspirin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRADEMARK NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7769-d-c5-r0"
+        },
+        {
+          "question": "Since the 1870s petroleum jelly has been manufactured & sold under this famous name",
+          "answer": "Vaseline",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRADEMARK NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7769-d-c5-r1"
+        },
+        {
+          "question": "It's DuPont's name for a common air conditioning refrigerant",
+          "answer": "Freon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRADEMARK NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7769-d-c5-r2"
+        },
+        {
+          "question": "In 1915, Corning coined this name for cookware made of heat resistant glass",
+          "answer": "Pyrex",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRADEMARK NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7769-d-c5-r3"
+        },
+        {
+          "question": "Nipper heard his master's voice over this trademarked phonograph which preceded the Victrola",
+          "answer": "a Gramophone",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRADEMARK NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7769-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ZODIAC",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Besides the archer, who can be a centaur, 2 of the 3 signs symbolized by human figures",
+          "answer": "(2 of) Gemini, Virgo & Aquarius",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE ZODIAC",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7769-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 8344,
+  "showNumber": 2263,
+  "airDate": "June 8, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "EUROPEAN CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Unofficially, the Cathedrale de St.- Michel in this city is the National Cathedral of Belgium",
+          "answer": "Brussels",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8344-s-c0-r0"
+        },
+        {
+          "question": "You'll find the University of Iceland in this capital city",
+          "answer": "Reykjavik",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8344-s-c0-r1"
+        },
+        {
+          "question": "The Ulster Museum in this city is known for its Celtic artifacts",
+          "answer": "Belfast",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8344-s-c0-r2"
+        },
+        {
+          "question": "The Pyramid of Gaius Cestius, the only pyramid in this city, has a burial chamber inside",
+          "answer": "Rome",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8344-s-c0-r3"
+        },
+        {
+          "question": "Dom Pedro IV Square in this capital is named for the first emperor of Brazil",
+          "answer": "Lisbon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8344-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGIOUS CONVERSIONS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "As a newly ordained bishop, he set off for Ireland in 432 to convert the people to Christianity",
+          "answer": "St. Patrick",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS CONVERSIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8344-s-c1-r0"
+        },
+        {
+          "question": "John Donne converted to this religion in the 1590s & was named Dean of St. Paul's in 1621",
+          "answer": "Church of England (Anglicanism)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS CONVERSIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8344-s-c1-r1"
+        },
+        {
+          "question": "When he converted to this faith, Cassius Clay became Muhammad Ali",
+          "answer": "Islam",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS CONVERSIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8344-s-c1-r2"
+        },
+        {
+          "question": "After a 1954 auto accident, this singer converted to Judaism",
+          "answer": "Sammy Davis Jr.",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS CONVERSIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8344-s-c1-r3"
+        },
+        {
+          "question": "In the late 1960s reggae singer Bob Marley converted to this religion",
+          "answer": "Rastafarian",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGIOUS CONVERSIONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8344-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARCHITECTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Charles Robert Cockerell designed this British university's Ashmolean Museum",
+          "answer": "Oxford",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8344-s-c2-r0"
+        },
+        {
+          "question": "Julia Morgan built one of the world's most lavish homes for W.R. Hearst at this site",
+          "answer": "San Simeon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8344-s-c2-r1"
+        },
+        {
+          "question": "Greek architect Constantinos Doxiadis planned Islamabad, this country's new capital",
+          "answer": "Pakistan",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8344-s-c2-r2"
+        },
+        {
+          "question": "Born Andrea di Pietro della Gondola, he was renamed Palladio for this Greek goddess of wisdom",
+          "answer": "Pallas Athena",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8344-s-c2-r3"
+        },
+        {
+          "question": "Bernini worked on the baldacchino of this basilica before becoming its architect",
+          "answer": "St. Peter's",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8344-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN IN SCIENCE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Florence Seibert invented a process to produce pure tuberculin, used to detect this disease",
+          "answer": "tuberculosis",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8344-s-c3-r0"
+        },
+        {
+          "question": "A friend whose bird sanctuary had been sprayed with DDT sparked her to write \"Silent Spring\"",
+          "answer": "Rachel Carson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8344-s-c3-r1"
+        },
+        {
+          "question": "Irene Joliot-Curie was a member of the Atomic Energy Commission of this, her native country",
+          "answer": "France",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8344-s-c3-r2"
+        },
+        {
+          "question": "In 1969 Dorothy Hodgkin revealed the structure of this protein used to treat diabetes",
+          "answer": "insulin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SCIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8344-s-c3-r3"
+        },
+        {
+          "question": "Barbara McClintock discovered that these can move from one place to another on plant chromosomes",
+          "answer": "genes",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN SCIENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8344-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "JOBS ON THE WATER",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "He'll pole you around Venice",
+          "answer": "a gondolier",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOBS ON THE WATER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8344-s-c4-r0"
+        },
+        {
+          "question": "The Aquamaids at this Winter Haven, Florida attraction are famous for their waterskiing prowess",
+          "answer": "Cypress Gardens",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOBS ON THE WATER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8344-s-c4-r1"
+        },
+        {
+          "question": "It's a ship that keeps a channel clear during the winter",
+          "answer": "an icebreaker",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOBS ON THE WATER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8344-s-c4-r2"
+        },
+        {
+          "question": "From French for \"barbecuer\", it's a 17th century pirate who raided Spanish ships",
+          "answer": "a buccaneer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOBS ON THE WATER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8344-s-c4-r3"
+        },
+        {
+          "question": "He's there to give direction to Olympic oarsmen",
+          "answer": "coxswain",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOBS ON THE WATER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8344-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODDS & ENDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It grants a title of real estate; a villain might want the one to the ranch",
+          "answer": "a deed",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8344-s-c5-r0"
+        },
+        {
+          "question": "This sweet can precede bee, creeper or suckle",
+          "answer": "honey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8344-s-c5-r1"
+        },
+        {
+          "question": "Day of the week on which you go to the polling station to cast your vote for president",
+          "answer": "Tuesday",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8344-s-c5-r2"
+        },
+        {
+          "question": "It's the fruit used in making cold duck",
+          "answer": "grapes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8344-s-c5-r3"
+        },
+        {
+          "question": "Flavor of the first Life Saver, introduced in 1912",
+          "answer": "peppermint",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8344-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "17th CENTURY AMERICA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On April 5, 1621 it sailed back to England, leaving the Plymouth Colony to fend for itself",
+          "answer": "the Mayflower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "17th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8344-d-c0-r0"
+        },
+        {
+          "question": "In 1676 Nathaniel Bacon led a rebellion that burned down this Virginia settlement",
+          "answer": "Jamestown",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "17th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8344-d-c0-r1"
+        },
+        {
+          "question": "Between 1661 & 1663, the first of these printed in the American colonies appeared in Algonquian",
+          "answer": "the Bible",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "17th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8344-d-c0-r2"
+        },
+        {
+          "question": "In 1630 colonists from this company settled Boston",
+          "answer": "the Massachusetts Bay Company",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "17th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8344-d-c0-r3"
+        },
+        {
+          "question": "He arrived in New Netherland in May 1626, bought land & built Fort Amsterdam",
+          "answer": "Peter Minuit",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "17th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8344-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE MOVIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Bates Motel\", a 1987 TV movie, was based on this 1960 Alfred Hitchcock classic",
+          "answer": "Psycho",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8344-d-c1-r0"
+        },
+        {
+          "question": "This director's mother had a bit part in his 1989 film \"When Harry Met Sally\"",
+          "answer": "Rob Reiner",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8344-d-c1-r1"
+        },
+        {
+          "question": "Between 1938 & 1950, Penny Singleton played this comic strip character in 28 films",
+          "answer": "Blondie",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8344-d-c1-r2"
+        },
+        {
+          "question": "Joseph Ruttenberg's cinematography for \"The Great Waltz\", the film biography of this composer, won a 1938 Oscar",
+          "answer": "Strauss",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8344-d-c1-r3"
+        },
+        {
+          "question": "Director John Ford followed this 1948 western with \"She Wore a Yellow Ribbon\" & \"Rio Grande\"",
+          "answer": "Fort Apache",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8344-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAINTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Hans Brinker creator Mary Mapes Dodge edited the children's magazine named for this holiday saint",
+          "answer": "St. Nicholas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8344-d-c2-r0"
+        },
+        {
+          "question": "Rose of this Peruvian capital died in 1617 & was canonized in 1671 to become the new world's first saint",
+          "answer": "Lima",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8344-d-c2-r1"
+        },
+        {
+          "question": "This saint who refused to be made a bishop was the subject of a 1963 hit by The Singing Nun",
+          "answer": "Dominique",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8344-d-c2-r2"
+        },
+        {
+          "question": "A trio of biblical women sharing this name share the feast day of May 25",
+          "answer": "Mary",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8344-d-c2-r3"
+        },
+        {
+          "question": "In 1625 he founded the Congregation of the Mission, also known as the Lazarists or Vincentians",
+          "answer": "St. Vincent de Paul",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8344-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TEXTILES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The name of this fabric comes from the Latin word for \"loop\" or \"snare\", laqueus",
+          "answer": "lace",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXTILES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8344-d-c3-r0"
+        },
+        {
+          "question": "The best cashmere is obtained from these animals by combing, not by shearing",
+          "answer": "goats",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXTILES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8344-d-c3-r1"
+        },
+        {
+          "question": "The most valuable variety of this fiber used to make linen is raised in Belgium",
+          "answer": "flax",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXTILES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8344-d-c3-r2"
+        },
+        {
+          "question": "This steam engine pioneer helped perfect a method of bleaching fabrics with chlorine",
+          "answer": "(James) Watt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXTILES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8344-d-c3-r3"
+        },
+        {
+          "question": "This fine net fabric used for wedding veils & tutus has hexagonal holes",
+          "answer": "tulle",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TEXTILES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8344-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "He learned about \"War and Peace\" early on, having served in the Army during the Crimean War",
+          "answer": "Tolstoy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8344-d-c4-r0"
+        },
+        {
+          "question": "Born at West Point, where his father taught aeronautics, this \"1876\" author could fly a plane at age 10",
+          "answer": "Gore Vidal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8344-d-c4-r1"
+        },
+        {
+          "question": "This author of \"The Other Side of Midnight\" originally dreamed of becoming a composer",
+          "answer": "Sidney Sheldon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8344-d-c4-r2"
+        },
+        {
+          "question": "This author was arrested in 1846 for his \"Civil Disobedience\" in refusing to pay a poll tax",
+          "answer": "Thoreau",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8344-d-c4-r3"
+        },
+        {
+          "question": "This Lebanese-American author of \"The Prophet\" studied art in Paris, where he met Rodin",
+          "answer": "Kahlil Gibran",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8344-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE \"SAN\"s OF TIME",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The 1906 San Francisco earthquake was this fault's fault",
+          "answer": "the San Andreas Fault",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"SAN\"s OF TIME",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8344-d-c5-r0"
+        },
+        {
+          "question": "Originally, Puerto Rico was a city name & this was the island's name; sometime in history they switched names",
+          "answer": "San Juan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"SAN\"s OF TIME",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8344-d-c5-r1"
+        },
+        {
+          "question": "Some say this island of the Bahamas, also called Watlings Island, was Columbus' 1st New World stop",
+          "answer": "San Salvador",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"SAN\"s OF TIME",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8344-d-c5-r2"
+        },
+        {
+          "question": "Gen. Sam Houston was one of the Texans wounded in this April 1836 battle; he was shot in the ankle",
+          "answer": "San Jacinto",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"SAN\"s OF TIME",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8344-d-c5-r3"
+        },
+        {
+          "question": "It's the oldest republic in the world",
+          "answer": "San Marino",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"SAN\"s OF TIME",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8344-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL ELECTIONS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "2 of the 3 presidents elected with over 500 electoral votes",
+          "answer": "(2 of) Nixon, Reagan or Franklin Delano Roosevelt",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "PRESIDENTIAL ELECTIONS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8344-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 1852,
+  "showNumber": 3709,
+  "airDate": "October 19, 2000",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AMERICAN EXPERIENCE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He's the performer seen here",
+          "answer": "Harry Houdini",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN EXPERIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1852-s-c0-r0"
+        },
+        {
+          "question": "River seen here before the building of the Hoover Dam",
+          "answer": "Colorado River",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN EXPERIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1852-s-c0-r1"
+        },
+        {
+          "question": "Site of the historic attack seen here",
+          "answer": "Pearl Harbor",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN EXPERIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1852-s-c0-r2"
+        },
+        {
+          "question": "Richard Byrd is seen here preparing to visit this geographic extreme",
+          "answer": "South Pole",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN EXPERIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1852-s-c0-r3"
+        },
+        {
+          "question": "This president is seen here with his camera-shy wife Ida",
+          "answer": "William McKinley",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN EXPERIENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1852-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS SHORTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Cal Ripken broke this man's consecutive-games record",
+          "answer": "Lou Gehrig",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SHORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1852-s-c1-r0"
+        },
+        {
+          "question": "\"Knick Killer\" seen here",
+          "answer": "Reggie Miller",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SHORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1852-s-c1-r1"
+        },
+        {
+          "question": "Ali's opponent in the \"Rumble in the Jungle\"",
+          "answer": "George Foreman",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SHORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1852-s-c1-r2"
+        },
+        {
+          "question": "Agassi won it in '99 for a career Grand Slam",
+          "answer": "French Open",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SHORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1852-s-c1-r3"
+        },
+        {
+          "question": "Bobby's son, he scored 86 goals in a season",
+          "answer": "Brett Hull",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SHORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1852-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNATIONAL CUISINE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Jamaicans combine salt fish with ackee, a fruit introduced to the island as part of this captain's \"bounty\"",
+          "answer": "William Bligh",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL CUISINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1852-s-c2-r0"
+        },
+        {
+          "question": "Derby cheese, which originated in this country, is sometimes flavored with sage",
+          "answer": "England (or Great Britain)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL CUISINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1852-s-c2-r1"
+        },
+        {
+          "question": "European chefs cook the young foliage of this stinging plant, Urtica dioica, like spinach",
+          "answer": "nettle",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL CUISINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1852-s-c2-r2"
+        },
+        {
+          "question": "This German dish whose name means \"hare pepper\" is often served with sour cream",
+          "answer": "Hassenpfeffer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL CUISINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1852-s-c2-r3"
+        },
+        {
+          "question": "Legend says this smoked haddock dish came from the Scottish fishing village of Findhorn",
+          "answer": "Finnan haddie",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL CUISINE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1852-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE & NATURE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The cuttlefish hides 2 ways: it can camouflage itself like a chameleon, or hide behind a cloud of this",
+          "answer": "ink",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1852-s-c3-r0"
+        },
+        {
+          "question": "Having 4 large pairs of these makes the fruit fly a favorite subject for geneticists",
+          "answer": "chromosomes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1852-s-c3-r1"
+        },
+        {
+          "question": "A silvery food fish, or to heat ore in order to extract metal",
+          "answer": "smelt",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1852-s-c3-r2"
+        },
+        {
+          "question": "In rhyme, the bells of St. Clement's speak of these 2 fruits that'll help prevent scurvy",
+          "answer": "oranges & lemons",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1852-s-c3-r3"
+        },
+        {
+          "question": "Unlike most of its pine family relatives, the larch is classified as this, as it loses its needles each fall",
+          "answer": "deciduous",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1852-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRST THINGS FIRST",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In the 19th century enterprising Americans first added sleeping & dining cars to these",
+          "answer": "trains",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST THINGS FIRST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1852-s-c4-r0"
+        },
+        {
+          "question": "Coroebus of Elis was the first winner in the first of these games; he won the only event, a sprint, in 776 B.C.",
+          "answer": "the Olympics",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST THINGS FIRST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1852-s-c4-r1"
+        },
+        {
+          "question": "Of 3 minutes, 3 hours or 3 days, it's about how long the first woman in space stayed there",
+          "answer": "3 days (Valentina Tereshkova)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST THINGS FIRST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1852-s-c4-r2"
+        },
+        {
+          "question": "Tea & rice wine were first drunk in this country",
+          "answer": "China",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST THINGS FIRST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1852-s-c4-r3"
+        },
+        {
+          "question": "The first group to sell a million records were these \"Glow Worm\" brothers with \"Tiger Rag\" in 1930",
+          "answer": "The Mills Brothers",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST THINGS FIRST",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1852-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN 2 WORDS -- FAMILY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The relatives come from all over the country to celebrate this ceremony of a Jewish boy becoming a man",
+          "answer": "a bar mitzvah",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN 2 WORDS -- FAMILY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1852-s-c5-r0"
+        },
+        {
+          "question": "It's the common name for a generational chart of ancestry",
+          "answer": "a family tree",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN 2 WORDS -- FAMILY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1852-s-c5-r1"
+        },
+        {
+          "question": "In modern times a woman may keep using hers, or link it with a man's by a hyphen",
+          "answer": "her maiden name",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN 2 WORDS -- FAMILY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1852-s-c5-r2"
+        },
+        {
+          "question": "It's the term for the payments made after a divorce for the upkeep of the kids",
+          "answer": "child support",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN 2 WORDS -- FAMILY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1852-s-c5-r3"
+        },
+        {
+          "question": "A domicile in which parents raise kids not their own; Stephen's was an old Kentucky one",
+          "answer": "a foster home",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN 2 WORDS -- FAMILY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1852-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "19th CENTURY LIT",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"Tevye the Dairyman\", published beginning in 1894, inspired this Broadway & movie musical",
+          "answer": "Fiddler on the Roof",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY LIT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1852-d-c0-r0"
+        },
+        {
+          "question": "His first novel was \"Hans of Iceland\", 8 years before \"The Hunchback of Notre Dame\"",
+          "answer": "Victor Hugo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY LIT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1852-d-c0-r1"
+        },
+        {
+          "question": "The infamous opening of Bulwer-Lytton's \"Paul Clifford\" is \"It was\" this type of \"night\"",
+          "answer": "dark and stormy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY LIT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1852-d-c0-r2"
+        },
+        {
+          "question": "This English romantic poet who died at 25 wrote the sonnet \"When I Have Fears that I May Cease to Be\"",
+          "answer": "John Keats",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY LIT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1852-d-c0-r3"
+        },
+        {
+          "question": "Frenchman famous for realistic novels & for an open letter published Jan 13, 1898",
+          "answer": "Emile Zola (J'Accuse)",
+          "value": 2001,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY LIT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1852-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHO WAS THE U.S. VEEP?",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On Nov. 3, 1992, the day Bill Clinton was elected president",
+          "answer": "Dan Quayle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO WAS THE U.S. VEEP?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1852-d-c1-r0"
+        },
+        {
+          "question": "When Sputnik 1 went up",
+          "answer": "Richard Nixon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO WAS THE U.S. VEEP?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1852-d-c1-r1"
+        },
+        {
+          "question": "When the atomic bomb was dropped on Hiroshima",
+          "answer": "no one",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO WAS THE U.S. VEEP?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1852-d-c1-r2"
+        },
+        {
+          "question": "When Moscow hosted the Olympics",
+          "answer": "Walter Mondale",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO WAS THE U.S. VEEP?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1852-d-c1-r3"
+        },
+        {
+          "question": "When South Carolina seceded from the Union",
+          "answer": "John C. Breckinridge",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHO WAS THE U.S. VEEP?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1852-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE NATIONAL FILM REGISTRY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Films from 1940 include this Disney puppet tale & the ever-popular \"Tacoma Narrows Bridge Collapse\"",
+          "answer": "Pinocchio",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL FILM REGISTRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1852-d-c2-r0"
+        },
+        {
+          "question": "In 7 years he directed 3 films on the registry: \"Mean Streets\", \"Taxi Driver\" & \"Raging Bull\"",
+          "answer": "Martin Scorsese",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL FILM REGISTRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1852-d-c2-r1"
+        },
+        {
+          "question": "Pauline Kael called this 1967 Dunaway-Beatty choice \"a landmark movie\"",
+          "answer": "Bonnie and Clyde",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL FILM REGISTRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1852-d-c2-r2"
+        },
+        {
+          "question": "The newest film on the registry is this 1989 Spike Lee film set on a hot Brooklyn day",
+          "answer": "Do the Right Thing",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL FILM REGISTRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1852-d-c2-r3"
+        },
+        {
+          "question": "The title of this 1957 film with Burt Lancaster & Tony Curtis lends the registry a pleasant aroma",
+          "answer": "The Sweet Smell of Success",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NATIONAL FILM REGISTRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1852-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Among state capitals, it's first alphabetically",
+          "answer": "Albany, New York",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1852-d-c3-r0"
+        },
+        {
+          "question": "It's the U.S. state that reaches the farthest south",
+          "answer": "Hawaii",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1852-d-c3-r1"
+        },
+        {
+          "question": "Of the U.S. states with active volcanoes, this state is the largest in area",
+          "answer": "Alaska",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1852-d-c3-r2"
+        },
+        {
+          "question": "A city named Beach is found in this landlocked U.S. state wedged between Montana & Minnesota",
+          "answer": "North Dakota",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1852-d-c3-r3"
+        },
+        {
+          "question": "This state's 6,680-foot Mount Mitchell is the highest point east of the Mississippi River",
+          "answer": "North Carolina",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1852-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BEAUTIFUL",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Her famed rendition of \"That Old Black Magic\" appears in the 1956 film \"Bus Stop\"",
+          "answer": "Marilyn Monroe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BEAUTIFUL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1852-d-c4-r0"
+        },
+        {
+          "question": "Enrique is the real first name of this Puerto Rican who knows how to \"Shake Your Bon-Bon\"",
+          "answer": "Ricky Martin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BEAUTIFUL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1852-d-c4-r1"
+        },
+        {
+          "question": "The success of \"The Philadelphia Story\" as a play & a film helped her shake the reputation of \"box office poison\"",
+          "answer": "Katharine Hepburn",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BEAUTIFUL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1852-d-c4-r2"
+        },
+        {
+          "question": "He was the title character in 1991's \"Johnny Suede\"",
+          "answer": "Brad Pitt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BEAUTIFUL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1852-d-c4-r3"
+        },
+        {
+          "question": "In a 1957 film photographer Fred Astaire loved her \"Funny Face\"",
+          "answer": "Audrey Hepburn",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BEAUTIFUL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1852-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAND OF THE \"FREE\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A popular expression observes, \"There's no such thing as\" this midday meal",
+          "answer": "a free lunch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAND OF THE \"FREE\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1852-d-c5-r0"
+        },
+        {
+          "question": "Poetry without a fixed metrical pattern",
+          "answer": "free verse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAND OF THE \"FREE\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1852-d-c5-r1"
+        },
+        {
+          "question": "It's a disorganized fight with everyone present joining in",
+          "answer": "free-for-all",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAND OF THE \"FREE\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1852-d-c5-r2"
+        },
+        {
+          "question": "\"Horsey\" term for giving someone complete independence in decision-making",
+          "answer": "free rein",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAND OF THE \"FREE\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1852-d-c5-r3"
+        },
+        {
+          "question": "Barbells & dumbbells",
+          "answer": "free weights",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAND OF THE \"FREE\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1852-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "INVENTORS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In September 1899 he equipped 2 ships to report the progress of the America's Cup yacht race to a NYC newspaper",
+          "answer": "Guglielmo Marconi",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "INVENTORS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1852-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

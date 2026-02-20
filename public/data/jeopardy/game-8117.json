@@ -1,0 +1,701 @@
+{
+  "gameId": 8117,
+  "showNumber": 342,
+  "airDate": "December 31, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "DETECTIVES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Probably fiction's most famous detective, his 1st name was originally \"Sherrinford\"",
+          "answer": "Sherlock Holmes",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DETECTIVES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8117-s-c0-r0"
+        }
+      ]
+    },
+    {
+      "name": "SHIPS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Ironically, few people even lost their footing when this ship hit the iceberg",
+          "answer": "the Titanic",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8117-s-c1-r0"
+        },
+        {
+          "question": "A single-masted ship such as the \"John B\"",
+          "answer": "a sloop",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8117-s-c1-r1"
+        },
+        {
+          "question": "Fighting in this war, Germany's \"Seeadler\" was the last important naval vessel to use sails",
+          "answer": "World War I",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8117-s-c1-r2"
+        },
+        {
+          "question": "Rush to reach Cal. gold fields spurred construction of this speedy type of vessel",
+          "answer": "clipper ships",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8117-s-c1-r3"
+        },
+        {
+          "question": "This British line, which includes \"QE2\", sent its 1st steamship across the Atlantic in 1840",
+          "answer": "the Cunard line",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHIPS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8117-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SEASONAL SONGS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "David Loggins asked you \"Please come to Boston\" in this season",
+          "answer": "in the springtime",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SEASONAL SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8117-s-c2-r0"
+        },
+        {
+          "question": "In 1972, this 1st Top Ten hit for Seals & Crofts \"made them feel fine\"",
+          "answer": "\"Summer Breeze\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEASONAL SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8117-s-c2-r1"
+        },
+        {
+          "question": "Title once used on Oscar telecast to intro 2-time Best Supporting Actress:[Instrumental music plays.]",
+          "answer": "\"Winter Wonderland\"",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SEASONAL SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8117-s-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "SOVIET UNION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's the official \"religion\" of the Soviet Union",
+          "answer": "atheism",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8117-s-c3-r0"
+        },
+        {
+          "question": "Of up, down or remaining the same, direction male life expectancy has moved in last 20 years",
+          "answer": "down",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8117-s-c3-r1"
+        },
+        {
+          "question": "Due to excessive alcoholism, drinking age has been raised from 18 to this",
+          "answer": "21",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8117-s-c3-r2"
+        },
+        {
+          "question": "\"In the future there will be fewer but better Russians\", supposedly said this dictator",
+          "answer": "Joseph Stalin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8117-s-c3-r3"
+        },
+        {
+          "question": "Over half of all Soviet families have this many children",
+          "answer": "1",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8117-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FLOWERS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Name for Swedish botanist, Anders Dahl, who introduced them into Europe from Mexico",
+          "answer": "the dahlia",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8117-s-c4-r0"
+        },
+        {
+          "question": "Lilies, hyacinths, & daffodils all grow from this type of bud",
+          "answer": "a bulb",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8117-s-c4-r1"
+        },
+        {
+          "question": "In flowers, it's the male reproductive organ",
+          "answer": "the stamen",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8117-s-c4-r2"
+        },
+        {
+          "question": "FTD means a florist who will help you make this \"T.D.\"",
+          "answer": "transworld delivery",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8117-s-c4-r3"
+        },
+        {
+          "question": "The petals collectively, or a model of Toyota",
+          "answer": "a corolla",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8117-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"TABLE\" TALK",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Ping Pong",
+          "answer": "table tennis",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TABLE\" TALK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8117-s-c5-r0"
+        },
+        {
+          "question": "Among its entries might be the forward, preface, & introduction",
+          "answer": "the table of contents",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TABLE\" TALK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8117-s-c5-r1"
+        },
+        {
+          "question": "For those who need to see & be seen at restaurants, this jumping activity is a must",
+          "answer": "table hopping",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TABLE\" TALK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8117-s-c5-r2"
+        },
+        {
+          "question": "To dispose of or postpone an item of business in parliamentary procedure",
+          "answer": "to table it",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TABLE\" TALK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8117-s-c5-r3"
+        },
+        {
+          "question": "Static scenes of 3-dimensional figures, the annual Laguna Arts Festival features them \"vivant\"",
+          "answer": "a tableau vivant",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TABLE\" TALK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8117-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAGAZINES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The June 1985 \"Vanity Fair\" featured this couple dancing on cover & kissing inside",
+          "answer": "the Reagans (the president & the first lady)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8117-d-c0-r0"
+        },
+        {
+          "question": "w/circulation of about 20 million each, these 2 pocket-size periodicals are the biggest in U.S.",
+          "answer": "TV Guide & Reader's Digest",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8117-d-c0-r1"
+        },
+        {
+          "question": "At the turn of 20th c., Edward Bok turned this magazine into model for all future ladies periodicals",
+          "answer": "Ladies' Home Journal",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8117-d-c0-r2"
+        },
+        {
+          "question": "This famous West German newsmagazine \"mirrors\" the life of the people & country",
+          "answer": "Der Spiegel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8117-d-c0-r3"
+        },
+        {
+          "question": "Largest magazine publisher in U.S., it's noted for technical publications as well as \"Business Week\"",
+          "answer": "McGraw Hill",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8117-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIVIL WAR",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The 2 killed in 50-gun salute celebrating fort's surrender were only casualties of this 1st battle",
+          "answer": "the Battle of Fort Sumter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8117-d-c1-r0"
+        },
+        {
+          "question": "Side whose songs included: \"Lula, Lula, Lula Is Gone\" & \"3 Times Around She went\"",
+          "answer": "the Confederacy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8117-d-c1-r1"
+        },
+        {
+          "question": "Defiant battle cry that Admiral Farragut made famous at Mobile Bay",
+          "answer": "Damn the torpedoes, full speed ahead",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8117-d-c1-r2"
+        },
+        {
+          "question": "When Lincoln was assassinated, this Secretary of State was separately attacked but survived",
+          "answer": "Seward",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8117-d-c1-r3"
+        },
+        {
+          "question": "Crunchy flour & water biscuit ration that was a staple of soldiers in both blue & gray",
+          "answer": "hardtack",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8117-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CANDY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The milk of 50,000 cows goes into 1 day's production of this Penn. company's chocolate",
+          "answer": "Hershey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANDY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8117-d-c2-r0"
+        },
+        {
+          "question": "Dating back to 2000 B.C., earliest recorded references to candy are found in papyri of this country",
+          "answer": "Egypt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANDY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8117-d-c2-r1"
+        },
+        {
+          "question": "For a 1920's promotion, biplanes used these to drop Baby Ruth bars over cities & towns",
+          "answer": "little parachutes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANDY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8117-d-c2-r2"
+        },
+        {
+          "question": "America's 1st commercial candymakers were the Dutch bakers of this city in the 1700s",
+          "answer": "New York",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANDY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8117-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "4-LETTER WORDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "State of Old Mother Hubbard's cupboard or Joan Collins in \"Playboy\"",
+          "answer": "bare",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8117-d-c3-r0"
+        },
+        {
+          "question": "Precedes ended, hearted, & minded",
+          "answer": "open",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8117-d-c3-r1"
+        },
+        {
+          "question": "A hussy or a pastry",
+          "answer": "a tart",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8117-d-c3-r2"
+        },
+        {
+          "question": "From German for \"announce\", to declare cards for a score such as in Canasta",
+          "answer": "to meld",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8117-d-c3-r3"
+        },
+        {
+          "question": "This lets a guitarist change keys & not change fingerings",
+          "answer": "a capo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8117-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Officially, he's the 264th pope",
+          "answer": "John Paul II",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8117-d-c4-r0"
+        }
+      ]
+    },
+    {
+      "name": "ODDS & ENDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Studies are still being done on this genius' brain, saved from cremation in 1955",
+          "answer": "Albert Einstein",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8117-d-c5-r0"
+        },
+        {
+          "question": "Indication that one accepts challenge of battle made by a thrown down glove",
+          "answer": "to pick up the glove",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8117-d-c5-r1"
+        },
+        {
+          "question": "Color on the U.S. flag which stands for vigilance, perseverance & justice",
+          "answer": "blue",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8117-d-c5-r2"
+        },
+        {
+          "question": "From Roman times to the 1600s, the main procedure to get water to the fire",
+          "answer": "a bucket brigade",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8117-d-c5-r3"
+        },
+        {
+          "question": "Leavenworth & the Int'l Assoc. of Chiefs of Police supplied the FBI with their 1st 810,000 of these",
+          "answer": "fingerprints",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8117-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTORS & ROLES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Role played by J. Gilbert in the silents, R. Donat in the talkies, & R. Chamberlain in TV movie",
+          "answer": "the Count of Monte Cristo",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ACTORS & ROLES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8117-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

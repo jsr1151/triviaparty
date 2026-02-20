@@ -1,0 +1,797 @@
+{
+  "gameId": 3377,
+  "showNumber": 449,
+  "airDate": "May 29, 1986",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HISTORY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "From 1905-7, Austria & Serbia fought an economic \"war\" over tariffs, such as over this porcine animal",
+          "answer": "a pig",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3377-s-c0-r0"
+        },
+        {
+          "question": "The western jury system is thought to have been brought to England by these peoples in 1066",
+          "answer": "the Normans",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3377-s-c0-r1"
+        },
+        {
+          "question": "Century known as the \"High Renaissance\"",
+          "answer": "the 16th",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3377-s-c0-r2"
+        },
+        {
+          "question": "World power whose emperor gave up claims to divinity before it adopted a new constitution in 1947",
+          "answer": "Japan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3377-s-c0-r3"
+        },
+        {
+          "question": "1957 U.S. policy allowing the president to use armed force in the Middle East",
+          "answer": "the Eisenhower Doctrine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3377-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TABLE MANNERS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "While Amy Vanderbilt says a waiter should remove these from the right, Vogue says from the left",
+          "answer": "(used) plates",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TABLE MANNERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3377-s-c1-r0"
+        },
+        {
+          "question": "In Spain and Portugal, the proper way to eat asparagus is with these",
+          "answer": "the fingers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TABLE MANNERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3377-s-c1-r1"
+        },
+        {
+          "question": "If napkins weren't provided, 19th c. etiquette permitted a gentleman to use a hanky or this instead",
+          "answer": "tablecloth",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TABLE MANNERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3377-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC ON THE MAP",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The girl from here was \"tall & tan & young & lovely\"",
+          "answer": "Ipanema",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC ON THE MAP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3377-s-c2-r0"
+        },
+        {
+          "question": "It's where I'm sitting \"just rolling along, just rolling along\"",
+          "answer": "on top of the world",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC ON THE MAP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3377-s-c2-r1"
+        },
+        {
+          "question": "Gerry & the Pacemakers ferry crossed this Liverpool river",
+          "answer": "the Mersey",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC ON THE MAP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3377-s-c2-r2"
+        },
+        {
+          "question": "\"Whoopee ti yi yo, git along little dogies, for you know\" this state \"will be your new home\"",
+          "answer": "Wyoming",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC ON THE MAP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3377-s-c2-r3"
+        },
+        {
+          "question": "2 of the 5 specific places \"Travelin' Man\" Ricky Nelson had traveled to according to the song",
+          "answer": "(2 of) Mexico, Alaska, Berlin, Hong Kong, and Waikiki, Hawaii",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC ON THE MAP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3377-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY ART",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Grandma Moses ordered her first set of paints from this Chicago mail order company",
+          "answer": "Sears, Roebuck",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY ART",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3377-s-c3-r0"
+        },
+        {
+          "question": "Primarily a movement in painting, this \"square\" trend also influenced sculpture",
+          "answer": "cubism",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY ART",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3377-s-c3-r1"
+        },
+        {
+          "question": "Manhattan's MoMA stands on land once occupied by 2 mansions of this noted N.Y. family",
+          "answer": "the Rockefellers",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY ART",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3377-s-c3-r2"
+        },
+        {
+          "question": "Famous for his Olympic & sports action paintings, he's appeared in 2 \"Rocky\" movies",
+          "answer": "LeRoy Neiman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY ART",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3377-s-c3-r3"
+        },
+        {
+          "question": "1920 painting by George Grosz shows one of these machines Karel Capek named the next year",
+          "answer": "a robot",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY ART",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3377-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOLF",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Archie, Edith, or a sand trap",
+          "answer": "a bunker",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3377-s-c4-r0"
+        },
+        {
+          "question": "In 1937, this singer & golf enthusiast put on the 1st celebrity pro-am match",
+          "answer": "Bing Crosby",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3377-s-c4-r1"
+        },
+        {
+          "question": "In December 1985, Fuzzy Zoeller won $255,000 competing in this type of hole-by-hole contest",
+          "answer": "a skins game",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3377-s-c4-r2"
+        },
+        {
+          "question": "Playboy asked this Australian golfer to pose in the buff, not in the rough",
+          "answer": "Jan Stephenson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3377-s-c4-r3"
+        },
+        {
+          "question": "Stanford psychology grad who, in 1980, became 1st player to win over $½ million in 1 year",
+          "answer": "Tom Watson",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3377-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LEFTOVERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Innovation introduced in the Middle Ages to distinguish the small \"i\" from the m, n, & u",
+          "answer": "the dot",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3377-s-c5-r0"
+        },
+        {
+          "question": "Most air conditioners' filters won't trap this, the #1 contaminant of indoor air",
+          "answer": "cigarette smoke",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3377-s-c5-r1"
+        },
+        {
+          "question": "Minton, Limoges, & Spode, for example",
+          "answer": "chinas",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3377-s-c5-r2"
+        },
+        {
+          "question": "According to a survey, \"True Story\" is the magazine read most by people sitting here",
+          "answer": "the bathroom",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3377-s-c5-r3"
+        },
+        {
+          "question": "Not a Kawasaki, but this loop knot, makes a lasso circular",
+          "answer": "a honda",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LEFTOVERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3377-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MATHEMATICS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In algebra, numbers can be represented by numerals or these symbols",
+          "answer": "letters",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3377-d-c0-r0"
+        },
+        {
+          "question": "Term for the side of a right triangle that is opposite the 90° angle",
+          "answer": "hypotenuse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3377-d-c0-r1"
+        },
+        {
+          "question": "1,000, expressed by using 10 and an exponent",
+          "answer": "10 cubed",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3377-d-c0-r2"
+        },
+        {
+          "question": "A basic math statement whose truth is self-evident & therefore needs no further proof",
+          "answer": "axiom",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3377-d-c0-r3"
+        },
+        {
+          "question": "The prime factors of 21",
+          "answer": "3 and 7",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3377-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLORADO",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "U.S. 550 between Ouray & Silverton is called \"Million Dollar Highway\" because it's paved with this ore",
+          "answer": "gold ore",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLORADO",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3377-d-c1-r0"
+        },
+        {
+          "question": "This corner of Colorado meets corners of 3 other states at \"4 Corners\"",
+          "answer": "the southwest corner",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORADO",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3377-d-c1-r1"
+        },
+        {
+          "question": "In Colo., \"people had a careless way ... of firing revolvers ... at each other ...\", so he went east, young man",
+          "answer": "Horace Greeley",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLORADO",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3377-d-c1-r2"
+        },
+        {
+          "question": "U. of Colorado's \"Alferd Packer Grill\" was named after 1st man in U.S. convicted of this crime",
+          "answer": "cannibalism",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORADO",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3377-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "FASHION",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Though WWII's \"Rosie the Riveter\" wore them, this war 1st popularized trousers for womenswear",
+          "answer": "World War I",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3377-d-c2-r0"
+        },
+        {
+          "question": "Body part on which you'd wear an epaulet",
+          "answer": "the shoulder",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3377-d-c2-r1"
+        },
+        {
+          "question": "1st sold by the Hookless Fastener Co. in 1913, it didn't get this name until 1923",
+          "answer": "the zipper",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3377-d-c2-r2"
+        },
+        {
+          "question": "In Japanese, it means \"a thing for wearing\" or \"clothes\"",
+          "answer": "a kimono",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3377-d-c2-r3"
+        },
+        {
+          "question": "Named for a city in Scotland, it's a type of overcoat with detachable cape",
+          "answer": "an Inverness",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3377-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RUSSIAN LITERATURE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Literary hobby of Dr. Zhivago, whose writing got better, not \"verse\"",
+          "answer": "poetry",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3377-d-c3-r0"
+        },
+        {
+          "question": "In \"And Quiet Flows The Don\", Natalia Korshunov tries to commit this with a scythe",
+          "answer": "suicide",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3377-d-c3-r1"
+        },
+        {
+          "question": "In 1927, this Russian leader's book \"The State & Revolution\" was banned in Boston as obscene",
+          "answer": "Lenin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3377-d-c3-r2"
+        },
+        {
+          "question": "Most acclaimed novel of Ivan Turgenev, 1st Russian to be widely read and admired in Europe",
+          "answer": "\"Fathers and Sons\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3377-d-c3-r3"
+        },
+        {
+          "question": "Possibly the greatest Russian poet of all time, this author of \"Boris Godunov\" was part black",
+          "answer": "(Alexander) Pushkin",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3377-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"DAVID\"s",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Julie's Ike",
+          "answer": "David Eisenhower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"DAVID\"s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3377-d-c4-r0"
+        },
+        {
+          "question": "Consumers can \"fight back\" with him",
+          "answer": "David Horowitz",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"DAVID\"s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3377-d-c4-r1"
+        },
+        {
+          "question": "1st prime minister of Israel, he could be called the father of his country",
+          "answer": "David Ben-Gurion",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"DAVID\"s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3377-d-c4-r2"
+        },
+        {
+          "question": "Without his lyrics, Dionne Warwick would have only hummed Burt Bacharach's tune",
+          "answer": "Hal David",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"DAVID\"s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3377-d-c4-r3"
+        },
+        {
+          "question": "Name shared by a Union general at Gettysburg & an actor who played TV's \"Serpico\"",
+          "answer": "David Birney",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"DAVID\"s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3377-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FUTURISTIC FILMS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In it, Woody Allen proves cryogenics works, if you don't mind waking up in a police state",
+          "answer": "Sleeper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUTURISTIC FILMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3377-d-c5-r0"
+        },
+        {
+          "question": "Film which used the following as a greeting:",
+          "answer": "Close Encounters of the Third Kind",
+          "value": 200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUTURISTIC FILMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3377-d-c5-r1"
+        },
+        {
+          "question": "In 1997, Kurt Russell & Season Hubley will try to \"escape\" from this city turned prison",
+          "answer": "New York",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUTURISTIC FILMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3377-d-c5-r2"
+        },
+        {
+          "question": "It took a team of 8 writers to adapt a French comic strip into this 41st century ultra-high camp film",
+          "answer": "Barbarella",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUTURISTIC FILMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3377-d-c5-r3"
+        },
+        {
+          "question": "1 of 2 races Rod Taylor meets circa 800,000 A.D. in \"The Time Machine\"",
+          "answer": "Elois (or Morlocks)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUTURISTIC FILMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3377-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE NOBEL PRIZE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the only organization to have been awarded 3 Nobel Peace Prizes",
+          "answer": "the Red Cross",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE NOBEL PRIZE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3377-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

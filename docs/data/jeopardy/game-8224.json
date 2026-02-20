@@ -1,0 +1,785 @@
+{
+  "gameId": 8224,
+  "showNumber": 179,
+  "airDate": "May 16, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "NOTORIOUS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Bruno Richard Hauptmann was convicted & executed for kidnap-murder of this man's son",
+          "answer": "Charles Lindbergh",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8224-s-c0-r0"
+        },
+        {
+          "question": "According to a U.S. Senate report, his regime in China killed 32-62 mil. people",
+          "answer": "Mao Tse-tung",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8224-s-c0-r1"
+        },
+        {
+          "question": "\"Arthur is president now,\" shouted Charles Guiteau as he shot this president",
+          "answer": "Garfield",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8224-s-c0-r2"
+        },
+        {
+          "question": "Though Incas paid him largest ransom in history, this conquistador had their leader killed",
+          "answer": "(Francisco) Pizarro",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8224-s-c0-r3"
+        },
+        {
+          "question": "Alternate name for the Mafia meaning \"our thing\"",
+          "answer": "Cosa Nostra",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8224-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS TRIVIA",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1899, George F. Grant patented this to hold up your ball",
+          "answer": "a golf tee",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8224-s-c1-r0"
+        },
+        {
+          "question": "The 2 positions in baseball which use different gloves from the other 7",
+          "answer": "the catcher and the first baseman",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8224-s-c1-r1"
+        },
+        {
+          "question": "America's first organized sport, it can be \"tracked\" back to New Amsterdam in 1664",
+          "answer": "horse racing",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8224-s-c1-r2"
+        },
+        {
+          "question": "In 1905, this team sport produced 18 fatalities & 159 serious injuries",
+          "answer": "football",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8224-s-c1-r3"
+        },
+        {
+          "question": "Total number of face-off spots on an NHL rink",
+          "answer": "9",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8224-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRENCH FOOD",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's the defining ingredient in vinaigrette dressing",
+          "answer": "vinegar",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8224-s-c2-r0"
+        },
+        {
+          "question": "What the potage du jour is",
+          "answer": "the soup of the day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8224-s-c2-r1"
+        },
+        {
+          "question": "\"Foie gras\" typically refers to a pate or terrine of this fowl organ",
+          "answer": "goose liver",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8224-s-c2-r2"
+        },
+        {
+          "question": "A la the city of Nice, it's a salad of tomatoes, green beans, potatoes, ripe olives and anchovies",
+          "answer": "a salad niçoise",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8224-s-c2-r3"
+        },
+        {
+          "question": "\"Parmentier\" refers to dishes prepared with this vegetable",
+          "answer": "potato",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8224-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROCK OF THE 80'S",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Of \"Men at Work\", \"Men Without Hats\" & \"Men of La Mancha\", group to not have a hit in the '80s",
+          "answer": "Men of La Mancha",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK OF THE 80'S",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8224-s-c3-r0"
+        },
+        {
+          "question": "This Joan Jett hit from 1981 was parodied by Weird Al as \"I love Rocky Road\"",
+          "answer": "\"I Love Rock 'N Roll\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK OF THE 80'S",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8224-s-c3-r1"
+        },
+        {
+          "question": "His first of many hits in the '80s was \"She's Out Of My Life\"",
+          "answer": "Michael Jackson",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK OF THE 80'S",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8224-s-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "GRAMMAR",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Part of speech which frequently ends in \"ly\"",
+          "answer": "an adverb",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8224-s-c4-r0"
+        },
+        {
+          "question": "Word which is the subject in the film title \"The Subject Was Roses\"",
+          "answer": "subject",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8224-s-c4-r1"
+        },
+        {
+          "question": "20 years to life, or a series of words arranged as a meaningful unit",
+          "answer": "a sentence",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8224-s-c4-r2"
+        },
+        {
+          "question": "This language has a larger vocabulary than any other",
+          "answer": "English",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8224-s-c4-r3"
+        },
+        {
+          "question": "Celebrities and government officials complain when their quotes are \"taken out of\" this",
+          "answer": "context",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8224-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "RITUALS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "When giving a purse or wallet as a gift, it is a custom to include this",
+          "answer": "money",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RITUALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8224-s-c5-r0"
+        },
+        {
+          "question": "On Dec. 13, 1984, Nancy Reagan broke a ritual started with Coolidge by doing this instead of Ron",
+          "answer": "to light the Christmas tree",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RITUALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8224-s-c5-r1"
+        },
+        {
+          "question": "For orthodox Jews, eating, work, washing, sex & wearing leather are forbidden on this holy day",
+          "answer": "Yom Kippur",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RITUALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8224-s-c5-r2"
+        },
+        {
+          "question": "Primitive performance done before battle to whoop up courage as well as scare the enemy",
+          "answer": "a war dance",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RITUALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8224-s-c5-r3"
+        },
+        {
+          "question": "In a lounge show it's \"instrumental\" that this follows almost any joke or one-liner",
+          "answer": "cymbal clash (rimshot)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RITUALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8224-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "When excited, this gas glows red, which means our Jeopardy! sign gets excited often",
+          "answer": "neon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8224-d-c0-r0"
+        },
+        {
+          "question": "From his NJ lab at the turn of the century, he advertised \"inventions to order\"",
+          "answer": "Thomas Edison",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8224-d-c0-r1"
+        },
+        {
+          "question": "Renaissance anatomist Gabriello Fallopio discovered these human oviducts",
+          "answer": "the fallopian tubes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8224-d-c0-r2"
+        },
+        {
+          "question": "Number of points where a tangent line touches a curve",
+          "answer": "1",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8224-d-c0-r3"
+        },
+        {
+          "question": "The three main parts of the Earth are the lithosphere, the hydrosphere & this",
+          "answer": "the atmosphere",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8224-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRST FAMILIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The family we learn about in \"First Lady from Plains\"",
+          "answer": "the Carters",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8224-d-c1-r0"
+        },
+        {
+          "question": "First child born to President or President-elect in office since 1893, he's recently studied in India",
+          "answer": "John Kennedy, Jr. (JFK Jr.)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8224-d-c1-r1"
+        },
+        {
+          "question": "This couple is the grandson of one president & the daughter of another",
+          "answer": "David & Julie Eisenhower",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8224-d-c1-r2"
+        },
+        {
+          "question": "Presidential daughter who's earned good reviews for her books, but once got bad reviews for her singing",
+          "answer": "Margaret Truman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8224-d-c1-r3"
+        },
+        {
+          "question": "Last name of John, an Ohio farmer who was son of one pres. & father to another",
+          "answer": "Harrison",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST FAMILIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8224-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "POE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Appropriately, it was Poe's first writing form",
+          "answer": "poetry",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8224-d-c2-r0"
+        },
+        {
+          "question": "American director famous for series of Poe films in the early '60s",
+          "answer": "Roger Corman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8224-d-c2-r1"
+        },
+        {
+          "question": "Last name of twins Roderick & Madeline, together they brought down the house",
+          "answer": "the Ushers",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8224-d-c2-r2"
+        },
+        {
+          "question": "Double relation to Poe of Virginia Clemm",
+          "answer": "cousin & wife",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8224-d-c2-r3"
+        },
+        {
+          "question": "Title referring to Prince Prospero's plague party",
+          "answer": "\"The Masque of the Red Death\"",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8224-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RUSSIAN REVOLUTION",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Colors associated with the 2 armies that opposed each other in Russian Civil War",
+          "answer": "red & white",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8224-d-c3-r0"
+        },
+        {
+          "question": "Lenin took power promising to pull Russia out of this war",
+          "answer": "World War I",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8224-d-c3-r1"
+        },
+        {
+          "question": "Fed enough poison to kill a cow, then shot & stabbed, Rasputin finally died of this",
+          "answer": "drowning",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8224-d-c3-r2"
+        },
+        {
+          "question": "Though they were only a small minority, the Communists took this name which means \"majority\"",
+          "answer": "Bolshevik",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8224-d-c3-r3"
+        },
+        {
+          "question": "John Reed's eyewitness account",
+          "answer": "Ten Days That Shook the World",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8224-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOSTON",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "From 1930-79, he led the Boston Pops",
+          "answer": "Arthur Fiedler",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOSTON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8224-d-c4-r0"
+        },
+        {
+          "question": "Boston's largest ethnic group",
+          "answer": "the Irish",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOSTON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8224-d-c4-r1"
+        },
+        {
+          "question": "Both Harvard & M.I.T. are in this Boston suburb",
+          "answer": "Cambridge",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOSTON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8224-d-c4-r2"
+        },
+        {
+          "question": "Term for east Indian or Boston elite",
+          "answer": "a Brahmin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOSTON",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8224-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "\"FRED\"s",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "William Frawley role on \"I Love Lucy\"",
+          "answer": "Fred Mertz",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8224-d-c5-r0"
+        },
+        {
+          "question": "\"Yabba dabba doo\"",
+          "answer": "Fred Flintstone",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8224-d-c5-r1"
+        },
+        {
+          "question": "Noted for sexy lingerie by catalogue, they also operate 194 stores in 34 states",
+          "answer": "Frederick's of Hollywood",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8224-d-c5-r2"
+        },
+        {
+          "question": "Rock 'n' roll star who did this version of a 1922 jazz hit:\"Well, way down yonder in New Orleans / In the land of the dreamy scenes / There's a Garden of Eden, / Ah, you know what I mean\"",
+          "answer": "Freddy Cannon",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"FRED\"s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8224-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "TELEVISION",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Only \"M·A·S·H\" regular to really serve in Korea, he also served in \"AfterMASH\"",
+          "answer": "Jamie Farr",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "TELEVISION",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8224-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

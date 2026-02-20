@@ -1,0 +1,833 @@
+{
+  "gameId": 8907,
+  "showNumber": 9085,
+  "airDate": "April 19, 2024",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ANATOMY A TO Z",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "L: Sprains of them range from grade 1 to grade 3",
+          "answer": "ligaments",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY A TO Z",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8907-s-c0-r0"
+        },
+        {
+          "question": "J: The upper one is also known as the maxilla",
+          "answer": "your jaw",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY A TO Z",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8907-s-c0-r1"
+        },
+        {
+          "question": "O: They're the major source of estrogen",
+          "answer": "ovaries",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY A TO Z",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8907-s-c0-r2"
+        },
+        {
+          "question": "T: Adenoids are a type of these",
+          "answer": "tonsils",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY A TO Z",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8907-s-c0-r3"
+        },
+        {
+          "question": "P: Part of the alimentary canal, this passageway is between the esophagus & mouth",
+          "answer": "the pharynx",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY A TO Z",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8907-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's the \"Boomer State\" as well as the \"Sooner State\"",
+          "answer": "Oklahoma",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8907-s-c1-r0"
+        },
+        {
+          "question": "This state capital is located at the confluence of two rivers, one of which shares its name",
+          "answer": "Des Moines",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8907-s-c1-r1"
+        },
+        {
+          "question": "The Catskill Mountains in New York are part of this much larger mountain system",
+          "answer": "the Appalachians",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8907-s-c1-r2"
+        },
+        {
+          "question": "Leapin' lizards! This river flows 630 miles before joining the Colorado River at Yuma, Arizona",
+          "answer": "the Gila River",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8907-s-c1-r3"
+        },
+        {
+          "question": "Located in a caldera in the Cascade Mountains, it's the USA's deepest lake",
+          "answer": "Crater Lake",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8907-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FUN FACTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On April 1, 1979 David Kirke used an elastic rope & plunged from a bridge in Bristol, England, inventing this extreme sport",
+          "answer": "bungee jumping",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN FACTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8907-s-c2-r0"
+        },
+        {
+          "question": "These marshmallow chick candies took 27 hours to make individually by hand in 1953; now 509 are hatched every 8 seconds",
+          "answer": "Peeps",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN FACTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8907-s-c2-r1"
+        },
+        {
+          "question": "Mei Xiang, Tian Tian & their cub flew from Dulles to China on a flight nicknamed this, like an American Chinese restaurant chain",
+          "answer": "Panda Express",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN FACTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8907-s-c2-r2"
+        },
+        {
+          "question": "During a yacht trip, a captain told Ringo Starr about the creatures beneath the waves, inspiring Ringo to write this Beatles song",
+          "answer": "\"Octopus's Garden\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN FACTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8907-s-c2-r3"
+        },
+        {
+          "question": "Inspired by Viking history, Klaus Teuber created this board game that debuted in 1995",
+          "answer": "Settlers of Catan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN FACTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8907-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ORDINAL PHRASES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's how the law regards possession, idiomatically",
+          "answer": "nine-tenths of the law",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORDINAL PHRASES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8907-s-c3-r0"
+        },
+        {
+          "question": "Trump did it over 400 times in a 2022 deposition",
+          "answer": "took the Fifth",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORDINAL PHRASES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8907-s-c3-r1"
+        },
+        {
+          "question": "In the \"Hair\" song \"Aquarius\", the Moon is here, ruled in part by Libra",
+          "answer": "the seventh house",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORDINAL PHRASES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8907-s-c3-r2"
+        },
+        {
+          "question": "Addressing the audience directly in a play is an example of doing this",
+          "answer": "breaking the fourth wall",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORDINAL PHRASES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8907-s-c3-r3"
+        },
+        {
+          "question": "Ask the bard, it's the eve of Epiphany",
+          "answer": "Twelfth Night",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ORDINAL PHRASES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8907-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOWLING",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Hope Gramly rolled a spare & 9 of these to lead the McKendree University Bearcats to the 2022 NCAA women's bowling title",
+          "answer": "strikes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOWLING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8907-s-c4-r0"
+        },
+        {
+          "question": "Usually the central No. 5 pin, it has this \"regal\" name",
+          "answer": "the king pin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOWLING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8907-s-c4-r1"
+        },
+        {
+          "question": "The spot amongst the pins you most want to hit with your ball, it sounds like it's part of your trousers",
+          "answer": "the pocket",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOWLING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8907-s-c4-r2"
+        },
+        {
+          "question": "So, this form where you knock down slenderer items is popular in New England & eastern Canada? Most illuminating",
+          "answer": "candlepin bowling",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOWLING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8907-s-c4-r3"
+        },
+        {
+          "question": "In 1895 the son-in-law of this \"Br\"and's founder organized the first American Bowling Congress",
+          "answer": "Brunswick",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOWLING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8907-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SILENCE!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The right to remain silent & to have an attorney was enshrined in 1966 when the Supreme Court ruled in his favor",
+          "answer": "Miranda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILENCE!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8907-s-c5-r0"
+        },
+        {
+          "question": "Heavier bells were silenced in this 185-foot landmark in the 1900s to make sure their movement didn't worsen its classic feature",
+          "answer": "the Leaning Tower of Pisa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILENCE!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8907-s-c5-r1"
+        },
+        {
+          "question": "This letter--repeat, this letter!--is silent in the name of a partridge-like grouse of the genus Lagopus that lives in the Arctic",
+          "answer": "P",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILENCE!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8907-s-c5-r2"
+        },
+        {
+          "question": "\"There's a weapon that we must use in our defense--silence\" in this song by Jane Wiedlin & Terry Hall about their secret romance",
+          "answer": "\"Our Lips Are Sealed\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SILENCE!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8907-s-c5-r3"
+        },
+        {
+          "question": "Said in this novel: \"Buffalo Bill's name is William Rubin... he was referred to me in April or May 1975, by my patient Benjamin Raspail\"",
+          "answer": "The Silence of the Lambs",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILENCE!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8907-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AFRICAN HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Persian settlers made the Comoros an island group in the Indian Ocean, Africa's southernmost nation, mainly of this religion",
+          "answer": "Islam",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8907-d-c0-r0"
+        },
+        {
+          "question": "With uses in the 19th c. compared to plastics' in the 20th, trade in this material led to exploitation of Africans & animals",
+          "answer": "ivory",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8907-d-c0-r1"
+        },
+        {
+          "question": "Long-time human rights abuses in this region are attributed to Sudanese fighters called the Rapid Support Forces",
+          "answer": "Darfur",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8907-d-c0-r2"
+        },
+        {
+          "question": "After a pilgrimage in 1324, Mali emperor Mansa Musa built the Great Mosque in this trading post",
+          "answer": "Timbuktu",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8907-d-c0-r3"
+        },
+        {
+          "question": "This double-talk anti-colonial movement of the 1950s originated among the Kikuyu people of Kenya",
+          "answer": "Mau Mau",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8907-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOT YOUR EVERYDAY WORDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Pesade describes this animal rearing up on its hind legs with its front legs in the air--perhaps in a statue",
+          "answer": "a horse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT YOUR EVERYDAY WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8907-d-c1-r0"
+        },
+        {
+          "question": "If you're a quidnunc, Latin for \"what now?\", you have this quality of excess curiosity, from a body part",
+          "answer": "nosy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOT YOUR EVERYDAY WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8907-d-c1-r1"
+        },
+        {
+          "question": "In South Asia, you might give your dhoti, seen here, to a dhobi, a person with this job",
+          "answer": "laundry (washing clothes)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT YOUR EVERYDAY WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8907-d-c1-r2"
+        },
+        {
+          "question": "Lovely day, nothing to do, I'll go apricate in the sun, though I don't know why when this 4-letter synonym will do fine",
+          "answer": "bask",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT YOUR EVERYDAY WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8907-d-c1-r3"
+        },
+        {
+          "question": "Below the line on ancient coins, the exergue is the space with the alliteratively named this mark, here for the city of Siscia",
+          "answer": "mint mark",
+          "value": 4200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT YOUR EVERYDAY WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8907-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON GUITAR",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"Freaky Rob\" Gueringer backed Dre, Snoop, Eminem, 50 Cent, Mary J. Blige & Kendrick Lamar at this Feb. 13, 2022 event",
+          "answer": "the Super Bowl Halftime Show",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON GUITAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8907-d-c2-r0"
+        },
+        {
+          "question": "That's Jonny Buckland doing the electric intro riff on this colorful tune, Coldplay's first hit",
+          "answer": "\"Yellow\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON GUITAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8907-d-c2-r1"
+        },
+        {
+          "question": "Prince could do it all, including the jaw-dropping outro guitar solo on this tune about looking for the purple banana (huh?)",
+          "answer": "\"Let's Go Crazy\"",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON GUITAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8907-d-c2-r2"
+        },
+        {
+          "question": "A 1961 Stratocaster helped this guitarist & singer make the solos on \"Sultans Of Swing\" immortal",
+          "answer": "Knopfler",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON GUITAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8907-d-c2-r3"
+        },
+        {
+          "question": "Rolling Stone's 250 Greatest Guitarists put this Sleater-Kinney axewoman at No. 64 & called her a \"shameless guitar hero\"",
+          "answer": "(Carrie) Brownstein",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON GUITAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8907-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POETS OF LOVE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Love Song\" by this Algonquin Round Table member goes full vicious circle: \"He is all my heart, & I wish somebody'd shoot him\"",
+          "answer": "(Dorothy) Parker",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS OF LOVE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8907-d-c3-r0"
+        },
+        {
+          "question": "This poet who died young in Rome wrote, \"Hither, hither, hither / Love this boon has sent-- / If I die & wither / I shall die content\"",
+          "answer": "Keats",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POETS OF LOVE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8907-d-c3-r1"
+        },
+        {
+          "question": "Percy Shelley wrote, \"Nothing in the world is single; / All things by a law divine / In one spirit meet &\" this, like at a mixer",
+          "answer": "mingle",
+          "value": 4500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POETS OF LOVE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8907-d-c3-r2"
+        },
+        {
+          "question": "This Roman poet got sappy with it in \"Eclogues\"; \"Love conquers all: let us too yield to love\"",
+          "answer": "Virgil",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POETS OF LOVE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8907-d-c3-r3"
+        },
+        {
+          "question": "The final stanza of this poem by Matthew Arnold begins, \"Ah, love, let us be true to one another!\"",
+          "answer": "\"Dover Beach\"",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS OF LOVE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8907-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLUMBING",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Other names for this plumbing stalwart include force cup & plumber's friend or helper",
+          "answer": "a plunger",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLUMBING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8907-d-c4-r0"
+        },
+        {
+          "question": "Cobra fittingly makes this type of tool that can extend to a plumber-friendly 15 feet",
+          "answer": "a snake",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLUMBING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8907-d-c4-r1"
+        },
+        {
+          "question": "The Energy Dept. lauds this type of water heater, aka \"instantaneous\", as it's more energy efficient than the storage kind",
+          "answer": "a tankless water heater",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLUMBING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8907-d-c4-r2"
+        },
+        {
+          "question": "This rhyming device helps suck water from basements or crawl spaces",
+          "answer": "a sump pump",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLUMBING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8907-d-c4-r3"
+        },
+        {
+          "question": "Plumbers should know that the \"PE\" in PEX pipes stands for this, the most widely used plastic in the world",
+          "answer": "polyethylene",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLUMBING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8907-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE DEPTHS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Centered off Sumatra, this deepest trench of the Indian Ocean is named for another Indonesian island",
+          "answer": "Java",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DEPTHS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8907-d-c5-r0"
+        },
+        {
+          "question": "Making up the order Actiniaria, these sea organisms are not delicate despite their flower name--some live 30,000 feet deep",
+          "answer": "sea anemones",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DEPTHS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8907-d-c5-r1"
+        },
+        {
+          "question": "Herbert Nitsch is renowned in this activity & has gone more than 700 feet underwater on a single breath",
+          "answer": "free diving",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DEPTHS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8907-d-c5-r2"
+        },
+        {
+          "question": "This odd name chosen by the McPublic is now borne by a submersible that has gone deep under the Thwaites Glacier to study its ice loss",
+          "answer": "Boaty McBoatface",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DEPTHS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8907-d-c5-r3"
+        },
+        {
+          "question": "\"B\" is for this type of map that uses contour lines to show the ocean's depths",
+          "answer": "a bathymetric map",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE DEPTHS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8907-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMIC BOOK CHARACTERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Featured in a 2020 film, she gets her name from a 16th c. Italian stock character who often wore diamond-patterned outfits",
+          "answer": "Harley Quinn",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "COMIC BOOK CHARACTERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8907-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

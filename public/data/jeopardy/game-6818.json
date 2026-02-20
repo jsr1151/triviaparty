@@ -1,0 +1,833 @@
+{
+  "gameId": 6818,
+  "showNumber": 813,
+  "airDate": "March 2, 1988",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATE CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "1 of 5 state capitals to begin with the letter \"A\"",
+          "answer": "(1 of) Atlanta (Albany, Annapolis, Augusta, Austin)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6818-s-c0-r0"
+        },
+        {
+          "question": "1 of 4 state capitals to begin with the letter \"B\"",
+          "answer": "(1 of) Boise (Bismarck, Boston, Baton Rouge)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6818-s-c0-r1"
+        },
+        {
+          "question": "1 of 3 state capitals to begin with the letter \"L\"",
+          "answer": "(1 of) Lincoln (Lansing, Little Rock)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6818-s-c0-r2"
+        },
+        {
+          "question": "1 of 2 state capitals to begin with the letter \"O\"",
+          "answer": "(1 of) Oklahoma City (Olympia)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6818-s-c0-r3"
+        },
+        {
+          "question": "The only state capital to begin with the letter \"N\"",
+          "answer": "Nashville",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6818-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROYAL RUMORS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "William II's death while hunting may have been murder; he died with 1 of these thru his heart",
+          "answer": "an arrow",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYAL RUMORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6818-s-c1-r0"
+        },
+        {
+          "question": "Some say Queen Victoria's grandson the Duke of Clarence was this notorious murderer",
+          "answer": "Jack the Ripper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYAL RUMORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6818-s-c1-r1"
+        },
+        {
+          "question": "This Egyptian reputedly used a mix of bear grease, horse's teeth, & burnt mice on her hair & eyelashes",
+          "answer": "Cleopatra",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYAL RUMORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6818-s-c1-r2"
+        },
+        {
+          "question": "Her enemies said this 2nd wife of Henry VIII had an extra finger on each hand",
+          "answer": "Anne Boleyn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYAL RUMORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6818-s-c1-r3"
+        },
+        {
+          "question": "She reportedly loves Mark Phillips, Coca-Cola & horses, not necessarily in that order",
+          "answer": "Princess Anne",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROYAL RUMORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6818-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Batting almost 1.000, this sport's Major Leagues have had only 1 fatality",
+          "answer": "baseball",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6818-s-c2-r0"
+        },
+        {
+          "question": "A baby drooling twice, or an illegal way to advance a basketball",
+          "answer": "a double dribble",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6818-s-c2-r1"
+        },
+        {
+          "question": "At a rodeo, \"dogging\" is done to this animal, not a collie",
+          "answer": "bull (steer, cow)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6818-s-c2-r2"
+        },
+        {
+          "question": "Golf Magazine stated that pro golfers would most like to win this Augusta tournament",
+          "answer": "the Masters",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6818-s-c2-r3"
+        },
+        {
+          "question": "Best known as the \"Red Wings\" right wing, he played pro hockey for 32 years",
+          "answer": "Gordie Howe",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6818-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRUITS & VEGETABLES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "On the vine, the inside of this \"cool\" vegetable can be 20º cooler than the air outside",
+          "answer": "a cucumber",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6818-s-c3-r0"
+        },
+        {
+          "question": "Their pods are so tender & crisp they're cooked & eaten with the peas inside",
+          "answer": "Chinese peas (snow peas)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6818-s-c3-r1"
+        },
+        {
+          "question": "True cantaloupes are hardly known outside Europe; what we call a cantaloupe is actually this",
+          "answer": "a musk melon",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6818-s-c3-r2"
+        },
+        {
+          "question": "1 of 2 fruits prescribed in the following Top 10 1972 hit:\"...you called your doctor, woke him up /And said, Doctor, ain't there nothing I can take /I said, Doctor...\"",
+          "answer": "(1 of) lime (coconut)",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6818-s-c3-r3"
+        },
+        {
+          "question": "The variety of lettuce called cos, after a Greek isle, is also commonly called this",
+          "answer": "Romaine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6818-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV TRIVIA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Delta Burke & Dixie Carter play sassy southern siblings on this sitcom",
+          "answer": "Designing Women",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6818-s-c4-r0"
+        },
+        {
+          "question": "His car was vandalized by persons unknown the night his \"Sons of Scarface\" special aired",
+          "answer": "Geraldo Rivera",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6818-s-c4-r1"
+        },
+        {
+          "question": "Believe it or not, in 1949 he was the 1st to host a TV version of \"Believe It or Not\"",
+          "answer": "Ripley",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6818-s-c4-r2"
+        },
+        {
+          "question": "Of this role Gene Barry said, \"I may not have been the fastest gun in the West, but I was neat\"",
+          "answer": "Bat Masterson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6818-s-c4-r3"
+        },
+        {
+          "question": "On 1 episode of this 60s sitcom, Clint Eastwood's horse stole the talkative star's girlfriends",
+          "answer": "Mr. Ed",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6818-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "RHYME TIME",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "All the sisters of President Ulysses' parents",
+          "answer": "Grant's aunts",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6818-s-c5-r0"
+        },
+        {
+          "question": "A scrawny little horse",
+          "answer": "a bony pony",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6818-s-c5-r1"
+        },
+        {
+          "question": "The women that \"Psychos\" Norman might have taken to dinner",
+          "answer": "Bates' dates",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6818-s-c5-r2"
+        },
+        {
+          "question": "A long, lean Union soldier",
+          "answer": "a lanky Yankee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6818-s-c5-r3"
+        },
+        {
+          "question": "In \"Margaritaville\", Jimmy Buffett \"stepped on\" this & cut his heel",
+          "answer": "a pop top",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6818-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENGLISH CITIES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This city next to the White Cliffs took a 4-year artillery bombardment during WWII",
+          "answer": "Dover",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH CITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6818-d-c0-r0"
+        },
+        {
+          "question": "Appropriately named town that has England's oldest & most famous spa",
+          "answer": "Bath",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH CITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6818-d-c0-r1"
+        },
+        {
+          "question": "Shade of green associated with Robin Hood, it's named for a city in England, not a U.S. president",
+          "answer": "Lincoln green",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH CITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6818-d-c0-r2"
+        },
+        {
+          "question": "Dr. R. Russell's 18th c. promotion of sea bathing for health promoted this resort town due S. of London",
+          "answer": "Brighton",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH CITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6818-d-c0-r3"
+        },
+        {
+          "question": "In 1742, Thos. Boulsover, a cutler in this city, discovered how to plate copper with silver",
+          "answer": "Sheffield",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENGLISH CITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6818-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROADWAY LYRICS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In \"Damn Yankees\", the 2 words that follow \"Whatever Lola wants\"",
+          "answer": "Lola gets",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY LYRICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6818-d-c1-r0"
+        },
+        {
+          "question": "\"Don't let it be forgot that once there was a spot for 1 brief, shining moment that was known as\" this",
+          "answer": "Camelot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY LYRICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6818-d-c1-r1"
+        },
+        {
+          "question": "\"Show Boat\" lyric \"I used to dream that I would discover the perfect lover\" refers to \"just\" this man",
+          "answer": "Bill",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY LYRICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6818-d-c1-r2"
+        },
+        {
+          "question": "\"Isn't it rich? Are we a pair?\" is the 1st line of this sad Sondheim song",
+          "answer": "\"Send In The Clowns\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY LYRICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6818-d-c1-r3"
+        },
+        {
+          "question": "Musical in which a hoofer sings, \"If Troy Donahue could be a movie star, then I could be a movie star\"",
+          "answer": "A Chorus Line",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY LYRICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6818-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "IOWANS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "At his birthplace in Winterset, Iowa, you can view 1 of the eye patches he wore in \"True Grit\"",
+          "answer": "John Wayne",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6818-d-c2-r0"
+        },
+        {
+          "question": "Heeding advice of this newspaperman, J. Grinnell left New York in 1854 & founded Grinnell, Iowa",
+          "answer": "Horace Greeley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6818-d-c2-r1"
+        },
+        {
+          "question": "The uniquely named \"USS The Sullivans\" honors 5 Iowan brothers killed at sea in this war",
+          "answer": "World War II",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6818-d-c2-r2"
+        },
+        {
+          "question": "In 1872, this scout, later a showman, won the Medal of Honor, but it was revoked in 1916",
+          "answer": "Buffalo Bill Cody",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6818-d-c2-r3"
+        },
+        {
+          "question": "It's said this baseball player turned evangelist preached to over 100 million people",
+          "answer": "Billy Sunday",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IOWANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6818-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOUNTAINS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "According to Guinness, 96 of the world's 109 peaks over 24,000 feet are in this mountain range",
+          "answer": "the Himalayas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6818-d-c3-r0"
+        },
+        {
+          "question": "Called the most photographed & painted mountain in the world, a brand of film even carries its name",
+          "answer": "(Mount) Fuji",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6818-d-c3-r1"
+        },
+        {
+          "question": "Hawaii's Mauna Kea is the world's tallest mountain, if you measure from this point",
+          "answer": "the sea floor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6818-d-c3-r2"
+        },
+        {
+          "question": "19,520 foot high Mount Logan is the highest peak in this country",
+          "answer": "Canada",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6818-d-c3-r3"
+        },
+        {
+          "question": "1 of 2 countries linked by Europe's famous Brenner Pass",
+          "answer": "(1 of) Italy (Austria)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6818-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHEMISTRY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's the \"H\" in pH",
+          "answer": "hydrogen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6818-d-c4-r0"
+        },
+        {
+          "question": "Bohr's model explained the structure of this",
+          "answer": "the atom",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6818-d-c4-r1"
+        },
+        {
+          "question": "The isotope of this element with a mass number of 12 is the standard for atomic mass measurement",
+          "answer": "carbon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6818-d-c4-r2"
+        },
+        {
+          "question": "Aristotle added \"aether\" as a fifth element to these basic 4 named by Empedocles",
+          "answer": "earth, air, fire & water",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6818-d-c4-r3"
+        },
+        {
+          "question": "While carbon atoms usually link in chains, in benzene they link in this shape",
+          "answer": "rings",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6818-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"MR.\" & \"MRS.\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "For General Motors, he symbolizes the best in automobile repairs",
+          "answer": "Mr. Goodwrench",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MR.\" & \"MRS.\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6818-d-c5-r0"
+        },
+        {
+          "question": "Richard Page, Steve George, Steve Farris, & Pat Mastelotto are better known",
+          "answer": "Mr. Mister",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MR.\" & \"MRS.\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6818-d-c5-r1"
+        },
+        {
+          "question": "The founder & home office of this chocolate chip cookie company can be found in Park City, Utah",
+          "answer": "Mrs. Fields",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MR.\" & \"MRS.\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6818-d-c5-r2"
+        },
+        {
+          "question": "On NBC's \"SNL\", he did impressions of celebrities with steel needles stuck in their eyes",
+          "answer": "Mr. Mike",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MR.\" & \"MRS.\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6818-d-c5-r3"
+        },
+        {
+          "question": "In this 1949 movie, Evelyn Keyes plays the wife of Mountie Dick Powell",
+          "answer": "Mrs. Mike",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"MR.\" & \"MRS.\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6818-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL & TOURISM",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "To serve U.S. tourists, there are 9 American consulates there, more than in any other country",
+          "answer": "Mexico",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "TRAVEL & TOURISM",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6818-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

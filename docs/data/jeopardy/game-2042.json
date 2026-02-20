@@ -1,0 +1,785 @@
+{
+  "gameId": 2042,
+  "showNumber": 3454,
+  "airDate": "September 16, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "JAZZ",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Known as the \"First Lady of Song\", she won 13 Grammy Awards, the most by any jazz artist",
+          "answer": "Ella Fitzgerald",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2042-s-c0-r0"
+        },
+        {
+          "question": "In the title of the album \"Diz 'N' Bird In Concert\", Diz is Dizzy Gillespie & Bird is this saxophonist",
+          "answer": "Charlie Parker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2042-s-c0-r1"
+        },
+        {
+          "question": "In 1964 this jazz great reached the top of the pop charts with his vocal recording of \"Hello, Dolly!\"",
+          "answer": "Louis Armstrong",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2042-s-c0-r2"
+        },
+        {
+          "question": "Induction into the Jazz Hall of Fame in Orlando is determined by a poll conducted by this leading jazz publication",
+          "answer": "Down Beat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2042-s-c0-r3"
+        },
+        {
+          "question": "On April 7, 1986 she received a star on the Hollywood Walk of Fame -- nearly 27 years after her death",
+          "answer": "Billie Holiday",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2042-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TAKE A SEAT!",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Seat seen here, possibly preferred by Spielberg or Welles:",
+          "answer": "Director's chair",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A SEAT!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2042-s-c1-r0"
+        },
+        {
+          "question": "Proverbially, you don't want to be the one rearranging this kind of chair on the Titanic:",
+          "answer": "Deck chair",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A SEAT!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2042-s-c1-r1"
+        },
+        {
+          "question": "Famous boy whose royal seat is seen here:",
+          "answer": "King Tutankhamun",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A SEAT!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2042-s-c1-r2"
+        },
+        {
+          "question": "Late 19th & early 20th century French master who painted the seat seen here:",
+          "answer": "Pierre Auguste Renoir",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TAKE A SEAT!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2042-s-c1-r3"
+        },
+        {
+          "question": "The chairs seen here are examples of this popular 18th century style named for a designer:",
+          "answer": "Chippendale",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A SEAT!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2042-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCENIC ROUTES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "You might see antelope when you travel Happy Jack Road between Laramie & Cheyenne in this state",
+          "answer": "Wyoming",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCENIC ROUTES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2042-s-c2-r0"
+        },
+        {
+          "question": "Don't miss walking through the Thurston Lava Tube when you drive around this state's Volcanoes National Park",
+          "answer": "Hawaii",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCENIC ROUTES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2042-s-c2-r1"
+        },
+        {
+          "question": "If you like to gaze at glaciers, you'll enjoy driving the Seward Highway in this state",
+          "answer": "Alaska",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCENIC ROUTES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2042-s-c2-r2"
+        },
+        {
+          "question": "The Skyline Drive provides spectacular views of this state's Shenandoah National Park",
+          "answer": "Virginia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCENIC ROUTES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2042-s-c2-r3"
+        },
+        {
+          "question": "The Centennial Trail covers 111 miles in these hills, from Bear Butte State Park to Wind Cave Naional Park",
+          "answer": "South Dakota",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCENIC ROUTES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2042-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEY USED TO BE IN CHARGE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Benjamin Netanyahu",
+          "answer": "Israel",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY USED TO BE IN CHARGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2042-s-c3-r0"
+        },
+        {
+          "question": "Helmut Schmidt",
+          "answer": "West Germany",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY USED TO BE IN CHARGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2042-s-c3-r1"
+        },
+        {
+          "question": "Olof Palme",
+          "answer": "Sweden",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY USED TO BE IN CHARGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2042-s-c3-r2"
+        },
+        {
+          "question": "Bob Hawke",
+          "answer": "Australia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY USED TO BE IN CHARGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2042-s-c3-r3"
+        },
+        {
+          "question": "Fidel Ramos",
+          "answer": "Philippines",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THEY USED TO BE IN CHARGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2042-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "22 Jermyn Street, The Savoy & The Covent Garden are all hotels in this city",
+          "answer": "London",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2042-s-c4-r0"
+        },
+        {
+          "question": "Miss Piggy knows this Muppeteer's original last name was Oznowicz",
+          "answer": "Frank Oz",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2042-s-c4-r1"
+        },
+        {
+          "question": "\"Common Sense\" guy who wrote, \"Let the far and the near all unite, with a cheer, in defense of our liberty tree\"",
+          "answer": "Thomas Paine",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2042-s-c4-r2"
+        },
+        {
+          "question": "Male sea spiders carry the eggs on a special pair of these until they hatch",
+          "answer": "Legs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2042-s-c4-r3"
+        },
+        {
+          "question": "These bivalves are the main ingredient in the French dish moules mariniere",
+          "answer": "Mussels",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2042-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"RO\" IS ME",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "He's the sculptor whose grave near Paris is marked by a copy of \"The Thinker\"",
+          "answer": "Auguste Rodin",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RO\" IS ME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2042-s-c5-r0"
+        },
+        {
+          "question": "The first British pilot to die in a flying accident was this business partner of Henry Royce",
+          "answer": "Charles Rolls",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RO\" IS ME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2042-s-c5-r1"
+        },
+        {
+          "question": "In a word, he helped found a medical school at Manchester but he's better known for his thesaurus",
+          "answer": "Peter Roget",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RO\" IS ME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2042-s-c5-r2"
+        },
+        {
+          "question": "On May 26, 1793 he called on the French people to rise in insurrection",
+          "answer": "Robespierre",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"RO\" IS ME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2042-s-c5-r3"
+        },
+        {
+          "question": "Italian composer who was born on Leap Day, 1792 & died on Friday the 13th, 1868; no wonder he was superstitious",
+          "answer": "Gioachino Rossini",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RO\" IS ME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2042-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOW OFTEN DOES IT HAPPEN?",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Fortnightly",
+          "answer": "Every 2 weeks",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW OFTEN DOES IT HAPPEN?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2042-d-c0-r0"
+        },
+        {
+          "question": "Biennially",
+          "answer": "Every 2 years",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW OFTEN DOES IT HAPPEN?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2042-d-c0-r1"
+        },
+        {
+          "question": "Semidiurnally",
+          "answer": "twice a day",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOW OFTEN DOES IT HAPPEN?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2042-d-c0-r2"
+        },
+        {
+          "question": "Semimillennially",
+          "answer": "every 500 years (or twice every 1,000 years)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW OFTEN DOES IT HAPPEN?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2042-d-c0-r3"
+        },
+        {
+          "question": "Sesquicentennially",
+          "answer": "Every 150 years",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW OFTEN DOES IT HAPPEN?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2042-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. FIRSTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The first U.S. spacecraft to hit the visible side of the moon landed in this waterless \"sea\" in 1964",
+          "answer": "Sea of Tranquility",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. FIRSTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2042-d-c1-r0"
+        },
+        {
+          "question": "He was the first Pope to pop into the White House for a visit",
+          "answer": "John Paul II",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. FIRSTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2042-d-c1-r1"
+        },
+        {
+          "question": "The USA's first major fully-enclosed baseball stadium, it opened April 9, 1965",
+          "answer": "Houston Astrodome",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. FIRSTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2042-d-c1-r2"
+        },
+        {
+          "question": "On Aug. 2, 1962 the U.S. submarines Skate & Seadragon made a historic joint surfacing here",
+          "answer": "North Pole",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. FIRSTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2042-d-c1-r3"
+        },
+        {
+          "question": "In 1964 this legendary couple of the stage became the first husband & wife awarded the Medal of Freedom",
+          "answer": "Alfred Lunt & Lynn Fontanne",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. FIRSTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2042-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIG SCREEN COWBOYS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In \"A Fistful of Dollars\", Clint Eastwood is listed in the credits as \"The Man With\" this",
+          "answer": "No Name",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG SCREEN COWBOYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2042-d-c2-r0"
+        },
+        {
+          "question": "This cowpuncher was a star of westerns & music  & has 5 stars on the Hollywood Walk of Fame:",
+          "answer": "Gene Autry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG SCREEN COWBOYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2042-d-c2-r1"
+        },
+        {
+          "question": "It's the original last name of the Western legend who starred as the Ringo Kid in 1939's \"Stagecoach\"",
+          "answer": "Marion Michael Morrison (John Wayne)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIG SCREEN COWBOYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2042-d-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "NOTHING NEW HERE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A city once the capital of Roman Britain, or Richard III's royal house",
+          "answer": "York",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTHING NEW HERE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2042-d-c3-r0"
+        },
+        {
+          "question": "We doubt that this French city, from whom Joan of Arc drove the English in 1429, has a French Quarter",
+          "answer": "Orleans",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTHING NEW HERE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2042-d-c3-r1"
+        },
+        {
+          "question": "The 4 main (English) Channel Islands are Sark, Alderney, Guernsey & this one",
+          "answer": "Jersey",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTHING NEW HERE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2042-d-c3-r2"
+        },
+        {
+          "question": "The English name for the German area of Braunschweig; it's also a big name in bowling equipment",
+          "answer": "Brunswick",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTHING NEW HERE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2042-d-c3-r3"
+        },
+        {
+          "question": "Conakry is the capital of this African country northwest of the gulf that shares its name",
+          "answer": "Guinea",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTHING NEW HERE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2042-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FLOWER GIRLS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "She gave birth to 3 20th century U.S. senators, one of whom became president",
+          "answer": "Rose Kennedy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWER GIRLS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2042-d-c4-r0"
+        },
+        {
+          "question": "On the \"Cosby Show\" spinoff \"A Different World\", she played wealthy dormmate Whitley Gilbert",
+          "answer": "Jasmine Guy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWER GIRLS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2042-d-c4-r1"
+        },
+        {
+          "question": "Judge Roy Bean claimed that the frontier town where he laid down the law was named for this English actress",
+          "answer": "Lillie Langtry",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWER GIRLS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2042-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "FROM Z TO A",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "An embarrassed one of these may be black & white & red all over",
+          "answer": "Zebra",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM Z TO A",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2042-d-c5-r0"
+        },
+        {
+          "question": "A common variety of this flower is seen here:",
+          "answer": "Zinnia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM Z TO A",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2042-d-c5-r1"
+        },
+        {
+          "question": "It comes between epsilon & eta or, pronounced differently, between Catherine & Jones",
+          "answer": "Zeta",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM Z TO A",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2042-d-c5-r2"
+        },
+        {
+          "question": "Its capital is Lusaka",
+          "answer": "Zambia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FROM Z TO A",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2042-d-c5-r3"
+        },
+        {
+          "question": "Zoroaster's nom-de-Persian",
+          "answer": "Zarathustra",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FROM Z TO A",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2042-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROCK MUSIC",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This term for a rock genre came into popular usage from a line in Steppenwolf's \"Born to Be Wild\"",
+          "answer": "Heavy metal",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ROCK MUSIC",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2042-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 5399,
+  "showNumber": 2648,
+  "airDate": "February 21, 1996",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE PLANETS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It completes one rotation on its axis every 23 hours, 56 minutes, 4.09 seconds",
+          "answer": "the Earth",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5399-s-c0-r0"
+        },
+        {
+          "question": "Meteorites believed to be from this \"red planet\" were found in Antarctica in the 1980s",
+          "answer": "Mars",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5399-s-c0-r1"
+        },
+        {
+          "question": "It was the last of the 9 planets discovered",
+          "answer": "Pluto",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5399-s-c0-r2"
+        },
+        {
+          "question": "This planet's features include a mountain ridge called Aphrodite & a crater called Cleopatra",
+          "answer": "Venus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5399-s-c0-r3"
+        },
+        {
+          "question": "A comet first sighted in 1993 bombarded this planet with fragments in 1994",
+          "answer": "Jupiter",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5399-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CELEBRITY ALUMNI",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This \"Tonight Show\" host spent 3 days in the Emerson College dean's office to convince the dean to accept him",
+          "answer": "Jay Leno",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY ALUMNI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5399-s-c1-r0"
+        },
+        {
+          "question": "Andrew Shue, who plays Billy Campbell on this series, majored in History at Dartmouth",
+          "answer": "Melrose Place",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY ALUMNI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5399-s-c1-r1"
+        },
+        {
+          "question": "Purchase College graduate Steven Weber is flying high as Tim Daly's brother on this sitcom",
+          "answer": "Wings",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY ALUMNI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5399-s-c1-r2"
+        },
+        {
+          "question": "Glenn Close earned her Phi Beta Kappa key while a drama student at this Williamsburg, Virginia school",
+          "answer": "William and Mary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY ALUMNI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5399-s-c1-r3"
+        },
+        {
+          "question": "Raised in Yankton, South Dakota, this NBC anchorman is a graduate of the University of South Dakota",
+          "answer": "Tom Brokaw",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITY ALUMNI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5399-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL U.S.A.",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The volcano in front of this Nevada city's Mirage Hotel erupts every 15 minutes from dusk to midnight",
+          "answer": "Las Vegas",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5399-s-c2-r0"
+        },
+        {
+          "question": "Made to look like a snow-covered ski resort, Blizzard Beach is the newest water park at this Florida theme park",
+          "answer": "Disney World",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5399-s-c2-r1"
+        },
+        {
+          "question": "A wild roller coaster called Jaguar! careens across 1/6 of this \"fruity\" California theme park",
+          "answer": "Knott's Berry Farm",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5399-s-c2-r2"
+        },
+        {
+          "question": "Made famous by a Julia Roberts film, Mystic Pizza is located in Mystic in this New England state",
+          "answer": "Connecticut",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5399-s-c2-r3"
+        },
+        {
+          "question": "Kilgore College in this state has a museum devoted to the Kilgore Rangerettes Drill team",
+          "answer": "Texas",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5399-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PASTIMES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Yo! The 1996 Players Dictionary for this game now includes the word yo",
+          "answer": "Scrabble",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASTIMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5399-s-c3-r0"
+        },
+        {
+          "question": "It's the art of making rugs or textiles on a loom",
+          "answer": "weaving",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASTIMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5399-s-c3-r1"
+        },
+        {
+          "question": "If you can stomach it, it's the sport of plunging from tall heights attached to an elasticized cord",
+          "answer": "bungee jumping",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASTIMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5399-s-c3-r2"
+        },
+        {
+          "question": "Rollerblading is properly referred to as this type of skating",
+          "answer": "inline skating",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASTIMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5399-s-c3-r3"
+        },
+        {
+          "question": "This Japanese art of paper folding is occasionally used to teach students solid geometry",
+          "answer": "origami",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PASTIMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5399-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT ROME",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Suetonius says this emperor sang while Rome burned & his last words were \"What an artist dies with me\"",
+          "answer": "Nero",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT ROME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5399-s-c4-r0"
+        },
+        {
+          "question": "In 313 Constantine declared this religion legal",
+          "answer": "Christianity",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT ROME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5399-s-c4-r1"
+        },
+        {
+          "question": "About 40 of these underground cemeteries stretch approximately 350 miles around Rome",
+          "answer": "catacombs",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT ROME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5399-s-c4-r2"
+        },
+        {
+          "question": "Coins celebrating Julius Caesar's murder had 2 daggers on them & \"Eid-Mar\", short for this",
+          "answer": "the Ides of March",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT ROME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5399-s-c4-r3"
+        },
+        {
+          "question": "There were few statues of this goddess of the hearth; she was represented by an eternal flame",
+          "answer": "Vesta",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT ROME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5399-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMMON BONDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Costume,surprise,slumber",
+          "answer": "a party",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5399-s-c5-r0"
+        },
+        {
+          "question": "Santa Fe,Oregon,Chisholm",
+          "answer": "Trails",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5399-s-c5-r1"
+        },
+        {
+          "question": "Reuben,club,hero",
+          "answer": "a sandwich",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5399-s-c5-r2"
+        },
+        {
+          "question": "A thermometer,a novel,the riot act",
+          "answer": "things you read",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5399-s-c5-r3"
+        },
+        {
+          "question": "Pulp,crown,root",
+          "answer": "parts of the teeth",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5399-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY AMERICA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Nation of Islam minister led the Million Man March in Washington, D.C. October 16, 1995",
+          "answer": "(Louis) Farrakhan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5399-d-c0-r0"
+        },
+        {
+          "question": "On December 10, 1915, this company's one millionth automobile rolled off the assembly line",
+          "answer": "Ford Motor Company",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5399-d-c0-r1"
+        },
+        {
+          "question": "On Wake Island in October 1950, President Truman met this general for the first time to discuss the Korean War",
+          "answer": "MacArthur",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5399-d-c0-r2"
+        },
+        {
+          "question": "On May 3, 1973 this 110-story Chicago building topped out at 1,450 feet",
+          "answer": "the Sears Tower",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5399-d-c0-r3"
+        },
+        {
+          "question": "In 1915 this city celebrated its rebirth from a fire as well as the opening of the Panama Canal",
+          "answer": "San Francisco",
+          "value": 200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5399-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANIMALS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Part of the scientific name for this marsupial is from 2 Greek words for \"pouch\" & \"bear\"",
+          "answer": "koala bear",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5399-d-c1-r0"
+        },
+        {
+          "question": "During religious festivals, the Incas sacrificed this beast of burden to their gods",
+          "answer": "llamas",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5399-d-c1-r1"
+        },
+        {
+          "question": "With the bonobo, it makes up the genus Pan in the great ape family",
+          "answer": "the chimpanzee",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5399-d-c1-r2"
+        },
+        {
+          "question": "The horns on the Grant's species of this graceful antelope may reach 30 inches or longer",
+          "answer": "gazelles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5399-d-c1-r3"
+        },
+        {
+          "question": "This whale is known for its exceptionally long flippers, which may be 1/3 as long as its body",
+          "answer": "a humpback whale",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5399-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Most of the people in this African country speak Kinyarwanda, a Bantu language",
+          "answer": "Rwanda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5399-d-c2-r0"
+        },
+        {
+          "question": "Of Manx, Welsh & Gaelic, the language with the fewest speakers",
+          "answer": "Manx",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5399-d-c2-r1"
+        },
+        {
+          "question": "The speech of Tuscany has long been considered the most prestigious form of this modern language",
+          "answer": "Italian",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5399-d-c2-r2"
+        },
+        {
+          "question": "Dialects of this language include Gulf, Maghrebi & Egyptian",
+          "answer": "Arabic",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5399-d-c2-r3"
+        },
+        {
+          "question": "Transdanubian & Paloc are dialects of Magyar, the official language of this country",
+          "answer": "Hungary",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5399-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE OLYMPICS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Patricia McCormick was the first to win both platform & springboard gold in this sport in 2 Olympics",
+          "answer": "diving",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5399-d-c3-r0"
+        },
+        {
+          "question": "This team sport played in a pool has been an Olympic event since 1900",
+          "answer": "water polo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5399-d-c3-r1"
+        },
+        {
+          "question": "This British ice dancing team won a bronze medal in Lillehammer after several years as professionals",
+          "answer": "Torvill and Dean",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5399-d-c3-r2"
+        },
+        {
+          "question": "This swimmer took a silver, a bronze & 2 golds at the 1968 games before his 7 gold medals in 1972",
+          "answer": "Mark Spitz",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5399-d-c3-r3"
+        },
+        {
+          "question": "Many consider Bob Beamon's 1968 record in this event the greatest performance ever in track & field",
+          "answer": "the long jump",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5399-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTABLE NAMES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This creator of a writing system for the blind was an accomplished musician",
+          "answer": "Braille",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5399-d-c4-r0"
+        },
+        {
+          "question": "In 1995 this first woman on the Supreme Court was named to the National Women's Hall of Fame",
+          "answer": "Sandra Day O'Connor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5399-d-c4-r1"
+        },
+        {
+          "question": "In the late 1940s, with the help of students from Black Mountain College, he build his 1st large geodesic dome",
+          "answer": "Buckminster Fuller",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5399-d-c4-r2"
+        },
+        {
+          "question": "He published his \"English Dictionary\" more than 70 years before Webster's \"American Dictionary\"",
+          "answer": "(Samuel) Johnson",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5399-d-c4-r3"
+        },
+        {
+          "question": "In 1976 these 2 Steves founded Apple Computer, Inc.",
+          "answer": "Jobs & Wozniak",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5399-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "POETS & POETRY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "All the stanzas of this Poe poem end with \"nothing more\", \"evermore\" or \"nevermore\"",
+          "answer": "The Raven",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5399-d-c5-r0"
+        },
+        {
+          "question": "In the Elizabeth Barrett Browning poem, it completes the line that begins, \"How do I love thee?\"",
+          "answer": "\"Let me count the ways\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5399-d-c5-r1"
+        },
+        {
+          "question": "Emma Lazarus wrote, \"Give me your tired, your poor, your huddled masses yearning to\" do this",
+          "answer": "\"breathe free\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5399-d-c5-r2"
+        },
+        {
+          "question": "His \"Old Possum's Book of Practical Cats\" inspired a Broadway musical",
+          "answer": "T.S. Eliot",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5399-d-c5-r3"
+        },
+        {
+          "question": "\"They also serve who only stand and wait\" is from this poet's \"On His Blindness\"",
+          "answer": "(John) Milton",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5399-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BRITISH MONARCHS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "She was the niece of the last Hanoverian king",
+          "answer": "Victoria",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BRITISH MONARCHS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5399-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

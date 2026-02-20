@@ -1,0 +1,833 @@
+{
+  "gameId": 8681,
+  "showNumber": 1918,
+  "airDate": "December 30, 1992",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LONDON",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Royal Festival Hall is part of the South Bank Centre, an arts complex on the south bank of this river",
+          "answer": "the Thames",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8681-s-c0-r0"
+        },
+        {
+          "question": "The banners of the Knights of the Bath hang in the Henry VII chapel in this historic abbey",
+          "answer": "Westminster Abbey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8681-s-c0-r1"
+        },
+        {
+          "question": "This queen might have said of herself, \"We were born in Kensington Palace on May 24, 1819\"",
+          "answer": "Victoria",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8681-s-c0-r2"
+        },
+        {
+          "question": "The cross on the massive dome of this cathedral towers 365 feet above the ground",
+          "answer": "St. Paul's Cathedral",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8681-s-c0-r3"
+        },
+        {
+          "question": "From 1698 to 1837 this \"saintly\" palace as the official royal residence",
+          "answer": "St. James",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8681-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SONG LYRICS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"The corn is as high as\" this \"an' it looks like it's climbin' clear up to the sky\"",
+          "answer": "an elephant's eye",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8681-s-c1-r0"
+        },
+        {
+          "question": "\"Just kiss me once, then kiss me twice, then kiss me once again, it's been\" this",
+          "answer": "a long, long time",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8681-s-c1-r1"
+        },
+        {
+          "question": "\"Why, O why, O why O, why did I ever leave\" this state",
+          "answer": "Ohio",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8681-s-c1-r2"
+        },
+        {
+          "question": "\"Mamma may have, papa may have, but God bless\" this person \"that's got his own!\"",
+          "answer": "the child",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8681-s-c1-r3"
+        },
+        {
+          "question": "\"Dress in style and go hog wild, me oh my oh son of a gun, we'll have big fun on\" this",
+          "answer": "the bayou",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8681-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD & DRINK",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "If you order \"pigs' trotters\" in a restaurant, you'll get these",
+          "answer": "pigs' feet",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8681-s-c2-r0"
+        },
+        {
+          "question": "Even the French eat only these parts of a frog, les cuisses",
+          "answer": "frogs' legs",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8681-s-c2-r1"
+        },
+        {
+          "question": "To make a very dry martini, use plenty of gin but just a little of this potent potable",
+          "answer": "vermouth",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8681-s-c2-r2"
+        },
+        {
+          "question": "Havarti is a type of this dairy product named for the Danish area where it was developed",
+          "answer": "cheese",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8681-s-c2-r3"
+        },
+        {
+          "question": "The oldest brewery in Venezuela makes a beer named for these mountains",
+          "answer": "the Andes",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8681-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SICKNESS & HEALTH",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This stimulant occurs in kola nuts & cocoa beans as well as in coffee beans",
+          "answer": "caffeine",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8681-s-c3-r0"
+        },
+        {
+          "question": "In atrial fibrillation the upper chambers of this organ beat rapidly & irregularly",
+          "answer": "the heart",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8681-s-c3-r1"
+        },
+        {
+          "question": "This condition where the ear becomes painful, swollen & distorted is most common in boxers",
+          "answer": "cauliflower ear",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8681-s-c3-r2"
+        },
+        {
+          "question": "Jerry Lewis could tell you Duchenne is the most common form of this disorder",
+          "answer": "muscular dystrophy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8681-s-c3-r3"
+        },
+        {
+          "question": "This pink substance of zinc & iron oxides is made into a lotion used for poison ivy",
+          "answer": "calamine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8681-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GAMBLING",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In blackjack a hand begins with this many cards",
+          "answer": "2",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAMBLING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8681-s-c4-r0"
+        },
+        {
+          "question": "It's the American equivalent of the British \"fruit machine\"",
+          "answer": "a slot machine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAMBLING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8681-s-c4-r1"
+        },
+        {
+          "question": "Rank of the card in the middle of a Royal Flush",
+          "answer": "the queen",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAMBLING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8681-s-c4-r2"
+        },
+        {
+          "question": "Though an American roulette wheel has 38 spaces, this is the highest number",
+          "answer": "36",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAMBLING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8681-s-c4-r3"
+        },
+        {
+          "question": "In 1946 Benjamin \"Don't Call Me Bugsy\" Siegel opened this first of the luxury hotel-casinos in Vegas",
+          "answer": "the Flamingo",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GAMBLING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8681-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"HO\"-POURRI",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A square dance, or the kind of party where you dance it",
+          "answer": "a hoe-down",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HO\"-POURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8681-s-c5-r0"
+        },
+        {
+          "question": "All \"Jeopardy!\" contestants belong to this species, though we've never said it's a requirement",
+          "answer": "Homo sapiens",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HO\"-POURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8681-s-c5-r1"
+        },
+        {
+          "question": "This Hawaiian began his singing career more than 30 years ago at his parents' bar on Oahu",
+          "answer": "Don Ho",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HO\"-POURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8681-s-c5-r2"
+        },
+        {
+          "question": "Hokey-Pokey may be an alteration of this term a magician might pull out of his hat",
+          "answer": "hocus-Pocus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HO\"-POURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8681-s-c5-r3"
+        },
+        {
+          "question": "These dairy cattle have black and white markings, but their milk is just plain white",
+          "answer": "Holsteins",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HO\"-POURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8681-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ANCIENT WORLD",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Roman emperor Julian renounced this religion & tried to reinstate paganism",
+          "answer": "Christianity",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANCIENT WORLD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8681-d-c0-r0"
+        },
+        {
+          "question": "By the 3rd dynasty Memphis had become the preeminent city of this country",
+          "answer": "Egypt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANCIENT WORLD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8681-d-c0-r1"
+        },
+        {
+          "question": "Ancient writers called this militaristic Greek state Lacedaemon",
+          "answer": "Sparta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANCIENT WORLD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8681-d-c0-r2"
+        },
+        {
+          "question": "The wall in Britain named for this emperor ran from Solway Firth to Wallsend on the Tyne",
+          "answer": "Hadrian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANCIENT WORLD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8681-d-c0-r3"
+        },
+        {
+          "question": "Cyrus the Great founded this empire by conquering Lydia & Babylonia in the 6th century B.C.",
+          "answer": "the Persian Empire",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANCIENT WORLD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8681-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This language is officially called Nederlands",
+          "answer": "Dutch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8681-d-c1-r0"
+        },
+        {
+          "question": "The name jai alai comes from this language spoken in the mountain regions of Spain & France",
+          "answer": "Basque",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8681-d-c1-r1"
+        },
+        {
+          "question": "It's the only country whose official language is Magyar",
+          "answer": "Hungary",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8681-d-c1-r2"
+        },
+        {
+          "question": "Most Indian Muslims speak this language",
+          "answer": "Urdu",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8681-d-c1-r3"
+        },
+        {
+          "question": "It's the easternmost of all Slavic languages",
+          "answer": "Russian",
+          "value": 2300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8681-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOUNDERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In the 1830s Henry Miller Shreve founded a port city in this state",
+          "answer": "Louisiana",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUNDERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8681-d-c2-r0"
+        },
+        {
+          "question": "This movie studio was founded in 1919 by Douglas Fairbanks, Mary Pickford, Charlie Chaplin & D.W. Griffith",
+          "answer": "United Artists",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUNDERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8681-d-c2-r1"
+        },
+        {
+          "question": "He broke with Freud to found analytic psychology",
+          "answer": "(Carl) Jung",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUNDERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8681-d-c2-r2"
+        },
+        {
+          "question": "In 1808 Louis Bonaparte founded what is now this Amsterdam museum",
+          "answer": "the Rijksmuseum",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUNDERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8681-d-c2-r3"
+        },
+        {
+          "question": "A group led in NYC by John Lamb & Isaac Sears, founded in 1765 to oppose the Stamp Act",
+          "answer": "the Sons of Liberty",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUNDERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8681-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "STRINGED INSTRUMENTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In the 1940s Les Paul pioneered the solid-body type of this electrical instrument",
+          "answer": "the guitar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STRINGED INSTRUMENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8681-d-c3-r0"
+        },
+        {
+          "question": "Stringed instrument associated with comedian Steve Martin",
+          "answer": "the banjo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STRINGED INSTRUMENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8681-d-c3-r1"
+        },
+        {
+          "question": "He made his last violin in 1737 at the age of 93 in Cremona, Italy",
+          "answer": "Stradivarius",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STRINGED INSTRUMENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8681-d-c3-r2"
+        },
+        {
+          "question": "The name of this instrument popular in the Renaissance is from the Arabic ud, meaning \"wood\"",
+          "answer": "the lute",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STRINGED INSTRUMENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8681-d-c3-r3"
+        },
+        {
+          "question": "In 1950 Anton Karas had a hit with his recording of \"The Third Man\" theme on this instrument",
+          "answer": "the zither",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STRINGED INSTRUMENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8681-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POETS & POETRY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Some of his early poems like \"The Brigs of Ayr\" imitated those of another Scottish poet, Robert Fergusson",
+          "answer": "Robert Burns",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8681-d-c4-r0"
+        },
+        {
+          "question": "The white oak which is said to have inspired his \"Trees\" poem was located at Rutgers University",
+          "answer": "Joyce Kilmer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8681-d-c4-r1"
+        },
+        {
+          "question": "In poem No. 712 she wrote, \"Because I could not stop for death, he kindly stopped for me\"",
+          "answer": "Emily Dickinson",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8681-d-c4-r2"
+        },
+        {
+          "question": "Ethel Lynn Beers' famous poem about a Civil War soldier begins, \"All quiet along\" this river",
+          "answer": "the Potomac",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8681-d-c4-r3"
+        },
+        {
+          "question": "On the death of John Keats in 1821, this poet wrote \"Adonais\"",
+          "answer": "Shelley",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS & POETRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8681-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HAIL TO THE CHIEF",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This president's name is believed to be a contraction of \"Pollok\", the ancestral name in Britain",
+          "answer": "(James) Polk",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8681-d-c5-r0"
+        },
+        {
+          "question": "At 6'3\" this Texan was the second-tallest president",
+          "answer": "Lyndon Johnson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8681-d-c5-r1"
+        },
+        {
+          "question": "In 1796 this future president helped draft Tennessee's first constitution",
+          "answer": "Andrew Jackson",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8681-d-c5-r2"
+        },
+        {
+          "question": "On July 4, 1826 these 2 presidents died within hours of each other",
+          "answer": "Thomas Jefferson & John Adams",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8681-d-c5-r3"
+        },
+        {
+          "question": "He was the last of 3 presidents to serve in 1881",
+          "answer": "Arthur",
+          "value": 2700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8681-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Volume 1 of the New Book of Knowledge Ency. has an article on this man written by Danny Kaye",
+          "answer": "Hans Christian Andersen",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8681-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

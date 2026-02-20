@@ -1,0 +1,809 @@
+{
+  "gameId": 1242,
+  "showNumber": 3021,
+  "airDate": "October 20, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Francisco Lopez found this precious metal in California in 1842, before the rush",
+          "answer": "gold",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1242-s-c0-r0"
+        },
+        {
+          "question": "In 1843 Congress allocated $30,000 to string one between Baltimore & Washington; it was completed in 1844",
+          "answer": "a telegraph wire",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1242-s-c0-r1"
+        },
+        {
+          "question": "In 1873 President Grant proclaimed this city the site of the Centennial Exposition of 1876",
+          "answer": "Philadelphia",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1242-s-c0-r2"
+        },
+        {
+          "question": "Before cotton became king, this plant that yields a violet dye was a popular southern crop",
+          "answer": "indigo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1242-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "COFFEE BREAK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This stimulant found in coffee can ease headaches by constricting blood vessels",
+          "answer": "caffeine",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COFFEE BREAK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1242-s-c1-r0"
+        },
+        {
+          "question": "Cappuccino is this coffee drink mixed or topped with steamed milk",
+          "answer": "espresso",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COFFEE BREAK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1242-s-c1-r1"
+        },
+        {
+          "question": "In a cantata by this composer heard here, Lieschen sings of her need for coffee:",
+          "answer": "J.S. Bach",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COFFEE BREAK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1242-s-c1-r2"
+        },
+        {
+          "question": "The coffee tree's red berries, which contain the beans, also bear the name of this fruit",
+          "answer": "cherry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COFFEE BREAK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1242-s-c1-r3"
+        },
+        {
+          "question": "\"Coffee\" comes from this language's \"qahwah\", which meant \"wine\"",
+          "answer": "Arabic",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COFFEE BREAK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1242-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTION",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This hero \"of the Apes\" later hung out with ant men, lion men & leopard men",
+          "answer": "Tarzan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1242-s-c2-r0"
+        },
+        {
+          "question": "Like the hero, the author of the 1817 novel \"Rob Roy\" was of this nationality",
+          "answer": "Scottish",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1242-s-c2-r1"
+        },
+        {
+          "question": "In a Dumas novel, the \"Man in\" this uncomfortable piece of apparel is Louis XIV's brother",
+          "answer": "the Iron Mask",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1242-s-c2-r2"
+        },
+        {
+          "question": "In a Kipling story, this mongoose heroically battles a cobra",
+          "answer": "Rikki-Tikki-Tavi",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1242-s-c2-r3"
+        },
+        {
+          "question": "David Foster Wallace is the author of this 1996 comic novel whose title might refer to its vast length",
+          "answer": "Infinite Jest",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1242-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ACADEMY AWARDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This Brit won twice for playing Southern belles, Scarlett & Blanche",
+          "answer": "Vivian Leigh",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ACADEMY AWARDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1242-s-c3-r0"
+        },
+        {
+          "question": "He picked up an Oscar for his \"Theme From Shaft\"",
+          "answer": "Isaac Hayes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ACADEMY AWARDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1242-s-c3-r1"
+        },
+        {
+          "question": "Academy listings have \"The Seven Samurai\" nominated under this name, what it was first titled for the U.S.",
+          "answer": "The Magnificent Seven",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ACADEMY AWARDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1242-s-c3-r2"
+        },
+        {
+          "question": "She was nominated for 1964's \"Hush... Hush, Sweet Charlotte\" & began \"Bewitched\" that same year",
+          "answer": "Agnes Moorehead",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ACADEMY AWARDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1242-s-c3-r3"
+        },
+        {
+          "question": "For 1969 \"Midnight Cowboy\" won for its screenplay; for 1978 this \"Midnight\" movie won",
+          "answer": "Midnight Express",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ACADEMY AWARDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1242-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DWELLINGS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's the often fancy apartment occupying a building's top floor",
+          "answer": "the penthouse",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DWELLINGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1242-s-c4-r0"
+        },
+        {
+          "question": "From Swiss French for \"shelter\", it's a wooden cottage or lodge with overhanging eaves",
+          "answer": "Chalet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DWELLINGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1242-s-c4-r1"
+        },
+        {
+          "question": "Manhattan is known for these handsome sandstone buildings named for their dark hue",
+          "answer": "brownstones",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DWELLINGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1242-s-c4-r2"
+        },
+        {
+          "question": "Though born to wealth, William Henry Harrison used this humble dwelling as a campaign symbol",
+          "answer": "a log cabin (even though he wasn't born in one)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DWELLINGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1242-s-c4-r3"
+        },
+        {
+          "question": "In Malaysia several families may live in this type of \"house\", also built by the Iroquois",
+          "answer": "a longhouse",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DWELLINGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1242-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ABBREV.",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In case you were wondering, FYI stands for this",
+          "answer": "for your information",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREV.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1242-s-c5-r0"
+        },
+        {
+          "question": "Fans of this film classic commonly refer to it as \"GWTW\"",
+          "answer": "Gone with the Wind",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREV.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1242-s-c5-r1"
+        },
+        {
+          "question": "In computerese, when referring to capacity, MB is short for this",
+          "answer": "megabyte",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREV.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1242-s-c5-r2"
+        },
+        {
+          "question": "This metric unit can be abbreviated cg or cgm",
+          "answer": "centigram",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREV.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1242-s-c5-r3"
+        },
+        {
+          "question": "In the game of chess chm. is an abbreviation for this move",
+          "answer": "checkmate",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREV.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1242-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLET",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This niece of Cecil B. De Mille choreographed a ballet based on John Ford's classic film \"The Informer\"",
+          "answer": "Agnes De Mille",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1242-d-c0-r0"
+        },
+        {
+          "question": "This \"West Side Story\" composer wrote the music for Jerome Robbins' ballet \"Dybbuk\"",
+          "answer": "Leonard Bernstein",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1242-d-c0-r1"
+        },
+        {
+          "question": "Kirk Douglas may know that the ballet about this gladiator who led a slave revolt includes an orgy scene",
+          "answer": "Spartacus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1242-d-c0-r2"
+        },
+        {
+          "question": "Called \"the first psychedelic ballet\", Robert Joffrey's \"Astarte\" premiered in this decade",
+          "answer": "the 1960s",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1242-d-c0-r3"
+        },
+        {
+          "question": "This Russian composer's favorite of his own ballets was \"The Sleeping Beauty\"",
+          "answer": "Pyotr Tchaikovsky",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1242-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT'S THE QUESTION?",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Alfred E. Neuman's standard rhetorical query",
+          "answer": "\"What, me worry?\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THE QUESTION?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1242-d-c1-r0"
+        },
+        {
+          "question": "E.B. Browning answers this question with \"I love thee with the breath, smiles, tears, of all my life!\"",
+          "answer": "\"How do I love thee?\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THE QUESTION?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1242-d-c1-r1"
+        },
+        {
+          "question": "In this drama's last line, Martha finally answers the title question with, \"I am, George, I am.\"",
+          "answer": "Who's Afraid of Virginia Woolf?",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THE QUESTION?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1242-d-c1-r2"
+        },
+        {
+          "question": "Question answered with \"When the hurlyburly's done, when the battle's lost and won\"",
+          "answer": "\"When shall we three meet again?\" (from Macbeth)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THE QUESTION?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1242-d-c1-r3"
+        },
+        {
+          "question": "In \"Marathon Man\", it's the repeated query of Nazi dentist Christian Szell",
+          "answer": "\"Is it safe?\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S THE QUESTION?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1242-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "VALLEYS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A valley in Nova Scotia as well as the capital of Maryland are named this after a royal lady",
+          "answer": "Annapolis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VALLEYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1242-d-c2-r0"
+        },
+        {
+          "question": "With a narrow valley between 2 mountain masses, this second-largest Hawaiian island is the Valley Isle",
+          "answer": "Maui",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VALLEYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1242-d-c2-r1"
+        },
+        {
+          "question": "West Point guards this river valley",
+          "answer": "Hudson River Valley",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VALLEYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1242-d-c2-r2"
+        },
+        {
+          "question": "David Jenkins & Carol Heiss won 1960 Olympic figure skating gold medals in this California valley",
+          "answer": "Squaw Valley",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VALLEYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1242-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "SECTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The informal name of the Religious Society of Friends, which has orthodox & conservative sects",
+          "answer": "the Quakers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1242-d-c3-r0"
+        },
+        {
+          "question": "In the 16th century the Druze, a Syrian sect, ruled this city, now Lebanon's capital",
+          "answer": "Beirut",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1242-d-c3-r1"
+        },
+        {
+          "question": "As a lay preacher for the nonconformists, this \"Pilgrim's Progress\" author delivered sermons",
+          "answer": "John Bunyan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1242-d-c3-r2"
+        },
+        {
+          "question": "This man who joined the Separatists in the early 1600s was re-elected Plymouth Colony governor 30 times",
+          "answer": "William Bradford",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1242-d-c3-r3"
+        },
+        {
+          "question": "This sect's melody, \"'Tis A Gift To Be Simple\" was used by Aaron Copland in his \"Appalachian Spring\"",
+          "answer": "the Shakers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SECTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1242-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DRUGS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Discovered in 1928, this antibiotic was first used to treat Alexander Fleming's assistant in 1929",
+          "answer": "penicillin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1242-d-c4-r0"
+        },
+        {
+          "question": "Sold under the name Rogaine, this hair-growth drug was originally used to treat high blood pressure",
+          "answer": "minoxidil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1242-d-c4-r1"
+        },
+        {
+          "question": "Parents are advised not to give their children aspirin because of its link to this potentially fatal syndrome",
+          "answer": "Reye syndrome",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1242-d-c4-r2"
+        },
+        {
+          "question": "This ointment claims to be the \"No. 1 doctor recommended brand for infection protection\"",
+          "answer": "Neosporin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1242-d-c4-r3"
+        },
+        {
+          "question": "From the Greek for \"without pain\", it refers to drugs used to treat headaches & muscle soreness",
+          "answer": "analgesics",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1242-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROCK 'N' ROLL",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "1997 marks the 35th anniversary of when Mick Jagger & this group first got together",
+          "answer": "The Rolling Stones",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N' ROLL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1242-d-c5-r0"
+        },
+        {
+          "question": "New Wave group heard here in a 1979 hit:",
+          "answer": "Blondie",
+          "value": 1900,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N' ROLL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1242-d-c5-r1"
+        },
+        {
+          "question": "Steven Tyler is the lead singer for this group",
+          "answer": "Aerosmith",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N' ROLL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1242-d-c5-r2"
+        },
+        {
+          "question": "Michael McDonald was a member of Steely Dan before joining this group in 1975",
+          "answer": "The Doobie Brothers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N' ROLL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1242-d-c5-r3"
+        },
+        {
+          "question": "Remixes from her \"Post\" album are featured on this Icelandic pop star's 1996 album \"Telegram\"",
+          "answer": "Bjork",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N' ROLL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1242-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE ACTRESSES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Her career began with the silent \"An Unseen Enemy\" in 1912 & ended with \"The Whales of August\" 75 years later",
+          "answer": "Lillian Gish",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MOVIE ACTRESSES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1242-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

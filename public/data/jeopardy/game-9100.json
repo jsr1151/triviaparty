@@ -1,0 +1,833 @@
+{
+  "gameId": 9100,
+  "showNumber": 9252,
+  "airDate": "January 21, 2025",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AUTHORS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This author with the given names Elwyn Brooks said he never liked Elwyn but he was a sixth child & his mom ran out of names",
+          "answer": "E.B. White",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9100-s-c0-r0"
+        },
+        {
+          "question": "A lifelong Baltimorean, this \"Red Storm Rising\" author was a part-owner of baseball's Orioles",
+          "answer": "(Tom) Clancy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9100-s-c0-r1"
+        },
+        {
+          "question": "In 1990 she put her vampires on hold for \"The Witching Hour\"",
+          "answer": "Rice",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9100-s-c0-r2"
+        },
+        {
+          "question": "This author who has set several of his novels in New Hampshire was born in Exeter, New Hampshire, in 1942",
+          "answer": "John Irving",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9100-s-c0-r3"
+        },
+        {
+          "question": "All hail this Pulitzer Prize-winning author of \"Demon Copperhead\" & \"The Poisonwood Bible\"",
+          "answer": "Kingsolver",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9100-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE ANIMALS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Developed in the Great Lakes region, the American water breed of this is Wisconsin's state dog",
+          "answer": "a spaniel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE ANIMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9100-s-c1-r0"
+        },
+        {
+          "question": "Featured on the reverse of the state flag, it's the state animal of Oregon",
+          "answer": "the beaver",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE ANIMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9100-s-c1-r1"
+        },
+        {
+          "question": "It's the state animal of Montana & California, but the California one is extinct",
+          "answer": "the grizzly bear",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE ANIMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9100-s-c1-r2"
+        },
+        {
+          "question": "The name of this pretty kitty includes the state where it's an official symbol",
+          "answer": "the Maine Coon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE ANIMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9100-s-c1-r3"
+        },
+        {
+          "question": "It's South Carolina's official game bird, not its state bourbon",
+          "answer": "wild turkey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE ANIMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9100-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOUND ON TEMU",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Perfect for your small fry, you can buy a plush one of these; McDonald's uses white meat for their edible ones",
+          "answer": "a chicken McNugget (a nugget)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUND ON TEMU",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9100-s-c2-r0"
+        },
+        {
+          "question": "How about a sticker for your toilet that makes it look like this rodent, maybe a red or eastern gray one, is popping out to say hi",
+          "answer": "a squirrel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUND ON TEMU",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9100-s-c2-r1"
+        },
+        {
+          "question": "A blanket with the words \"Hey Baby Girl\" over the huge beautiful nose of this green ogre?  Enchanting!",
+          "answer": "Shrek",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUND ON TEMU",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9100-s-c2-r2"
+        },
+        {
+          "question": "Why go to Houston when you can buy these teeth fronts over on Temu? One place sells them as \"hip hop braces\"",
+          "answer": "grills",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOUND ON TEMU",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9100-s-c2-r3"
+        },
+        {
+          "question": "Get a 2025 calendar of the \"World's Greatest\" types of this hairstyle that's business in the front & a party in the back",
+          "answer": "a mullet",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOUND ON TEMU",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9100-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WILD CARD WINNERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 2001 Goran Ivanisevic needed a wild card entry to qualify for this tournament but went on to win the gentlemen's singles",
+          "answer": "Wimbledon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WILD CARD WINNERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9100-s-c3-r0"
+        },
+        {
+          "question": "No wild card team has ever won this trophy, but in 2017 the Nashville Predators became the first to make it to the finals",
+          "answer": "the Stanley Cup",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WILD CARD WINNERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9100-s-c3-r1"
+        },
+        {
+          "question": "2023 saw an all-wild card World Series, with the Texas Rangers rounding up these snakes",
+          "answer": "the Arizona Diamondbacks",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WILD CARD WINNERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9100-s-c3-r2"
+        },
+        {
+          "question": "The 1997 Denver Broncos won a wild card game, 2 more playoff games & then Super Bowl 32 behind this Hall of Fame QB",
+          "answer": "Elway",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WILD CARD WINNERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9100-s-c3-r3"
+        },
+        {
+          "question": "North Korea's Kye Sun-hui used a wild card entry to the 1996 Atlanta Games & some nifty trips & throws to win gold in this sport",
+          "answer": "judo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WILD CARD WINNERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9100-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SHAPE OF THINGS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Your classic one of these has a square base & 4 triangular faces",
+          "answer": "a pyramid",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHAPE OF THINGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9100-s-c4-r0"
+        },
+        {
+          "question": "It's the shape & style of the pendant seen here, but don't let it get you down",
+          "answer": "a teardrop",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHAPE OF THINGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9100-s-c4-r1"
+        },
+        {
+          "question": "Used to describe noses, aquiline means shaped like the curved beak of this bird",
+          "answer": "an eagle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHAPE OF THINGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9100-s-c4-r2"
+        },
+        {
+          "question": "Named for its shape, it can be pretty harmless, unless it hits the ground",
+          "answer": "a funnel cloud",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHAPE OF THINGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9100-s-c4-r3"
+        },
+        {
+          "question": "Dentiform means shaped like a tooth; dendriform means shaped like one of these",
+          "answer": "a tree",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SHAPE OF THINGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9100-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM THE DUTCH",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Santa Claus derives his name from the Dutch Sinterklaas, a legendary figure based on this saint",
+          "answer": "Saint Nicholas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE DUTCH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9100-s-c5-r0"
+        },
+        {
+          "question": "The Dutch may not have invented this distilled spirit, but they did give it its name from words meaning \"burnt wine\"",
+          "answer": "brandy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE DUTCH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9100-s-c5-r1"
+        },
+        {
+          "question": "This word from Dutch means to join 2 pieces of something together, like film or fragments of DNA",
+          "answer": "to splice",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE DUTCH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9100-s-c5-r2"
+        },
+        {
+          "question": "You can have the whole kit & this, or just the whole this, from Dutch for all one's possessions",
+          "answer": "the caboodle",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE DUTCH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9100-s-c5-r3"
+        },
+        {
+          "question": "Once part of New Netherland, Coney Island is believed to have been named from the Dutch word for these animals found in the area",
+          "answer": "rabbits",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE DUTCH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9100-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "1925",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Called \"Il Duce\", he made a speech in January & became dictator of his country",
+          "answer": "Mussolini",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1925",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9100-d-c0-r0"
+        },
+        {
+          "question": "In March millions tuned in on their radios to hear this president get sworn in for a new term",
+          "answer": "Coolidge",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1925",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9100-d-c0-r1"
+        },
+        {
+          "question": "Elected to succeed her husband, Nellie Tayloe Ross of this \"Equality State\" became the first woman governor in the United States",
+          "answer": "Wyoming",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1925",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9100-d-c0-r2"
+        },
+        {
+          "question": "This 1925 silent film classic by Sergei Eisenstein commemorated a mutiny from 20 years earlier by Russian sailors",
+          "answer": "the Battleship Potemkin",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1925",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9100-d-c0-r3"
+        },
+        {
+          "question": "She traveled to American Samoa, where she would spend 9 months observing & interviewing female adolescents",
+          "answer": "Margaret Mead",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1925",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9100-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEFORE & AFTER",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Traditional spiced holiday cookie shaped like a person that's a musical about Don Quixote",
+          "answer": "a gingerbread Man of La Mancha",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9100-d-c1-r0"
+        },
+        {
+          "question": "The name of a Florida NBA team flows into a fantastical literary style employed by José Saramago",
+          "answer": "Orlando Magical Realism",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9100-d-c1-r1"
+        },
+        {
+          "question": "\"White Lines\" pioneer hip-hop DJ who appears as a sudden overflowing of water after a heavy rain",
+          "answer": "Grandmaster Flash flood",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9100-d-c1-r2"
+        },
+        {
+          "question": "University city southwest of Toledo, Ohio featuring Sam-I-Am & his edible offering",
+          "answer": "Bowling Green eggs & ham",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9100-d-c1-r3"
+        },
+        {
+          "question": "16th century comedy drama with Costard the Clown & the interplanetary Robinson family",
+          "answer": "Love's Labour's Lost in Space",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9100-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The book of Hebrews tells us the Ark of the Covenant contained Aaron's rod, the 10 Commandments & a jar of this special food",
+          "answer": "manna",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9100-d-c2-r0"
+        },
+        {
+          "question": "In the NT we learn Peter's brother Andrew, who also became an apostle, had previously been a disciple of this religious figure",
+          "answer": "John the Baptist",
+          "value": 10800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9100-d-c2-r1"
+        },
+        {
+          "question": "Name changes in Genesis include Sarai to Sarah, Abram to Abraham & this guy's name changed to Israel",
+          "answer": "Jacob",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9100-d-c2-r2"
+        },
+        {
+          "question": "Matthew 26 recounts Judas Iscariot making his deal to identify & betray Jesus for this amount of money",
+          "answer": "30 pieces of silver",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9100-d-c2-r3"
+        },
+        {
+          "question": "When the 39 books of the Old Testament in the King James Bible are listed alphabetically, they run from Amos to this prophet",
+          "answer": "Zephaniah",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9100-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCI-FI ACRONYMS & ABBREVIATIONS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The \"T\" in TARDIS stands for this, something the Doctor is good at manipulating",
+          "answer": "time",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9100-d-c3-r0"
+        },
+        {
+          "question": "This A.I. from a 1968 film gets its name from its 2 processes of intelligence, the first being Heuristic",
+          "answer": "HAL",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9100-d-c3-r1"
+        },
+        {
+          "question": "FTL in \"Battlestar Galactica\" is short for this type of travel that moves you very quickly",
+          "answer": "faster than light",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9100-d-c3-r2"
+        },
+        {
+          "question": "In a 2023 flick Allison Williams vies with M3GAN, whose name refers to a Model 3 Generative this as per the last 2 letters",
+          "answer": "an Android",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9100-d-c3-r3"
+        },
+        {
+          "question": "The beloved sitcom character ALF had a name that stood for this, which described what he was",
+          "answer": "Alien Life Form",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI ACRONYMS & ABBREVIATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9100-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SOME WEAR...",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Sneakers for a casual look; others opt for these shoes whose name starts with a portion of bread",
+          "answer": "loafers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOME WEAR...",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9100-d-c4-r0"
+        },
+        {
+          "question": "Cravats when dressing fancy, or perhaps this variation named for its popularity at a British racetrack",
+          "answer": "an ascot",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOME WEAR...",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9100-d-c4-r1"
+        },
+        {
+          "question": "Apple's smart watch but some prefer the Google watch with this itty-bitty name",
+          "answer": "the (Google) Pixel",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOME WEAR...",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9100-d-c4-r2"
+        },
+        {
+          "question": "Skinny jeans & some women wear these wide-legged pants with an Italian name referring to a luxurious residence",
+          "answer": "palazzo pants",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOME WEAR...",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9100-d-c4-r3"
+        },
+        {
+          "question": "Fedoras; others don this similar-looking hat that shares a name with a George du Maurier novel",
+          "answer": "trilby",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOME WEAR...",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9100-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"B\" ON THE SEA",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This country's 40-mile coastline on the North Sea includes the city of Ostend",
+          "answer": "Belgium",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" ON THE SEA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9100-d-c5-r0"
+        },
+        {
+          "question": "This city on the Mediterranean Sea hosted the Summer Olympics in 1992",
+          "answer": "Barcelona",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" ON THE SEA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9100-d-c5-r1"
+        },
+        {
+          "question": "Bridgetown is the capital of this island country of the Caribbean Sea",
+          "answer": "Barbados",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" ON THE SEA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9100-d-c5-r2"
+        },
+        {
+          "question": "The name of this small Middle Eastern kingdom means \"the 2 seas\" in Arabic",
+          "answer": "Bahrain",
+          "value": 13400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" ON THE SEA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9100-d-c5-r3"
+        },
+        {
+          "question": "This 4-letter world capital is the largest city on the Caspian Sea--so what if the Caspian Sea isn't actually a sea? Who cares?",
+          "answer": "Baku",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" ON THE SEA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9100-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTHOLOGY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Some myths say the treasure of the Nibelung was hidden under a promontory called this, on the Rhine near St. Goarshausen",
+          "answer": "Lorelei",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MYTHOLOGY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g9100-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

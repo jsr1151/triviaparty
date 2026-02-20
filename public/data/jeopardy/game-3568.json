@@ -1,0 +1,797 @@
+{
+  "gameId": 3568,
+  "showNumber": 528,
+  "airDate": "December 17, 1986",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STARTS WITH \"I\"",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The University of Pennsylvania's is 1 of 8 colleges in this league",
+          "answer": "the Ivy League",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"I\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3568-s-c0-r0"
+        },
+        {
+          "question": "While it's an infraction in hockey, it really makes the cake",
+          "answer": "icing",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"I\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3568-s-c0-r1"
+        },
+        {
+          "question": "On \"Superman\" TV series, rank of Metropolis policeman William Henderson",
+          "answer": "inspector",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"I\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3568-s-c0-r2"
+        },
+        {
+          "question": "In cities, it's usually surrounded by 4 crosswalks",
+          "answer": "an intersection",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"I\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3568-s-c0-r3"
+        },
+        {
+          "question": "This saint was born in the castle of Loyola, Azpeitia, Spain",
+          "answer": "Ignatius",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"I\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3568-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS TRIVIA",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This city of his birth provided Charles Dillon Stengel with his nickname, Casey",
+          "answer": "Kansas City",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3568-s-c1-r0"
+        },
+        {
+          "question": "In 1986, this ABC show celebrated the thrill of its 25th anniversary",
+          "answer": "The Wide World of Sports",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3568-s-c1-r1"
+        },
+        {
+          "question": "Since \"S\" stands for \"sacrifice\", this letter has been used to symbolize \"strikeout\" since the 1860s",
+          "answer": "K",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3568-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "IN THE NEWS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Major news story that \"leaked\" out of Russia April 28, 1986",
+          "answer": "Chernobyl (the nuclear disaster)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3568-s-c2-r0"
+        },
+        {
+          "question": "He called Mayor Clint Eastwood to ask \"What's an actor who once played with a monkey doing in politics?\"",
+          "answer": "Ronald Reagan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3568-s-c2-r1"
+        },
+        {
+          "question": "Gov. Deukmejian said \"She fainted very gracefully\" as she toured California Pavilion at Expo '86",
+          "answer": "Princess Diana",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3568-s-c2-r2"
+        },
+        {
+          "question": "During search for Shuttle debris, the Navy found a floating bag with $13 mil. worth of this contraband",
+          "answer": "cocaine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3568-s-c2-r3"
+        },
+        {
+          "question": "Not wanting to show passports, diplomats going between this city's halves will show ID cards instead",
+          "answer": "Berlin",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3568-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL CHARACTERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Novel which features the Joad family, Dust Bowl farmers who move to California",
+          "answer": "Grapes of Wrath",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3568-s-c3-r0"
+        },
+        {
+          "question": "During his 7 voyages, he was sold into slavery, met the cyclops, & got stuck on 2 desert islands",
+          "answer": "Sinbad",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3568-s-c3-r1"
+        },
+        {
+          "question": "Wilfred, son of Cedric the Saxon, is the title character of this Sir Walter Scott novel",
+          "answer": "Ivanhoe",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3568-s-c3-r2"
+        },
+        {
+          "question": "In 1925 Anita Loos novel, hair color of Lorelei Lee",
+          "answer": "blonde",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3568-s-c3-r3"
+        },
+        {
+          "question": "She helped grandfather to tend goats & Klara, an invalid child, to walk",
+          "answer": "Heidi",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3568-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTENT POTABLES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's added to a gin fizz to make it fizz",
+          "answer": "carbonated soda (or soda water or carbonated water)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3568-s-c4-r0"
+        },
+        {
+          "question": "Whether called a golden spike, golden screw. or screwdriver, it just contains these 2 liquids",
+          "answer": "vodka & orange juice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3568-s-c4-r1"
+        },
+        {
+          "question": "From Latin \"to open\", it's a drink taken to open a meal",
+          "answer": "an apéritif",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3568-s-c4-r2"
+        },
+        {
+          "question": "Mixer's measure that can run about 1/32 of an ounce, not 100 yards",
+          "answer": "a dash",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3568-s-c4-r3"
+        },
+        {
+          "question": "It's said Jefferson Davis used to lace this bourbon drink with a tablespoonful of French brandy",
+          "answer": "a mint julep",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3568-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SUDDEN DEATH",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A proverb states \"See\" this Italian port city \"and die\"",
+          "answer": "Naples",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3568-s-c5-r0"
+        },
+        {
+          "question": "Though this actor died a sudden death on Dallas in 1985, he showed up in the shower in 1986",
+          "answer": "Patrick Duffy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3568-s-c5-r1"
+        },
+        {
+          "question": "With this fun couple, \"He was her man, but he done her wrong\", so she shot him",
+          "answer": "Frankie & Johnny",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3568-s-c5-r2"
+        },
+        {
+          "question": "According to the Great Karnak \"the noise a sheep makes when it explodes\"",
+          "answer": "sis, boom, baa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3568-s-c5-r3"
+        },
+        {
+          "question": "It's who, on June 3 1953, jumped off the Tallahatchee Bridge",
+          "answer": "Billie Joe McAllister",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3568-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Since they're no longer spoken, Sumerian, Etruscan & Gothic are given this lifeless name",
+          "answer": "dead languages",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3568-d-c0-r0"
+        },
+        {
+          "question": "Besides English, the play \"Children of a Lesser God\" makes use of this special language",
+          "answer": "sign language",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3568-d-c0-r1"
+        },
+        {
+          "question": "The film \"Shoah\" credits translation of this language to \"Mrs. Apfelbaum\"",
+          "answer": "Yiddish",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3568-d-c0-r2"
+        },
+        {
+          "question": "Foreign language in which U.S. commercials for both Fibre Trim & Perma Soft were done",
+          "answer": "French",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3568-d-c0-r3"
+        },
+        {
+          "question": "Language that originally gave us the word \"language\"",
+          "answer": "Latin",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3568-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CONSTELLATIONS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Great Square, an astronomical landmark, connects Andromeda & this winged horse",
+          "answer": "Pegasus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3568-d-c1-r0"
+        },
+        {
+          "question": "To find this, follow the line formed by the \"pointer\" stars of the Big Dipper's ladle",
+          "answer": "the North Star (or Pole Star)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3568-d-c1-r1"
+        },
+        {
+          "question": "Living along this \"line\", you can, at one time or another, see all the constellations",
+          "answer": "the equator",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3568-d-c1-r2"
+        },
+        {
+          "question": "Part of the Big Dog, it appears as the brightest star in our night sky",
+          "answer": "Sirius (the Dog Star)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3568-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "LABOR",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Slang for a worker who crosses picket lines; your mother might have told you not to pick it",
+          "answer": "a scab",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LABOR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3568-d-c2-r0"
+        },
+        {
+          "question": "From 1979-83, the UAW headquarters in Detroit wouldn't allow any of these in the parking lot",
+          "answer": "a foreign car",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LABOR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3568-d-c2-r1"
+        },
+        {
+          "question": "1947 labor act which made the \"closed shop\" agreement illegal",
+          "answer": "the Taft-Hartley Act",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LABOR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3568-d-c2-r2"
+        },
+        {
+          "question": "Based on their occupation, U.S. union the 7 dwarfs might join today to get a health plan & pension",
+          "answer": "the United Mine Workers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LABOR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3568-d-c2-r3"
+        },
+        {
+          "question": "It is considered the successor to the Knights of Labor",
+          "answer": "the AFL (the American Federation of Labor)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LABOR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3568-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSICAL MUSIC",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Completes the title of the Strauss waltz, \"On the Beautiful...\"",
+          "answer": "Blue Danube",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3568-d-c3-r0"
+        },
+        {
+          "question": "This \"King of Swing\" recorded Mozart's Quintet in A Major for Clarinet & Strings",
+          "answer": "Benny Goodman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3568-d-c3-r1"
+        },
+        {
+          "question": "Composer noted for piano playing & playing around with Georges Sand",
+          "answer": "Frédéric Chopin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3568-d-c3-r2"
+        },
+        {
+          "question": "Haydn's Symphony No. 94 in G Major was named this, from the sudden loud chord which made the lades wake up",
+          "answer": "the Surprise Symphony",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3568-d-c3-r3"
+        },
+        {
+          "question": "In \"Spring Symphony\", Nastassja Kinski plays Clara Wieck, pianist & wife of this composer",
+          "answer": "Schumann",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3568-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUOTES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "According to Kris Kristofferson, it's \"just another word for nothing left to lose\"",
+          "answer": "freedom",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3568-d-c4-r0"
+        },
+        {
+          "question": "Completes the line from Stephen Crane, \"He wished that he, too, had a wound, a...\"",
+          "answer": "red badge of courage",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3568-d-c4-r1"
+        },
+        {
+          "question": "Nathan Forrest is quoted as coining this rule of war: \"Get there 1st with...\" this",
+          "answer": "the most",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3568-d-c4-r2"
+        },
+        {
+          "question": "Shakespeare wrote that it was wasteful & ridiculous \"to gild refined gold or paint...\" this",
+          "answer": "the lily",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3568-d-c4-r3"
+        },
+        {
+          "question": "In 1955 play, Tennessee Williams wrote, \"Nothing's more determined than...\" this",
+          "answer": "a cat on a hot tin roof",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3568-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPINELESS JELLYFISH",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "He showed he was yellow inside as well as out after Dorothy hit him for scaring Toto",
+          "answer": "the Cowardly Lion",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPINELESS JELLYFISH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3568-d-c5-r0"
+        },
+        {
+          "question": "For 1986 TV movie, he reprised his role as Deputy Barney Fife",
+          "answer": "Don Knotts",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPINELESS JELLYFISH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3568-d-c5-r1"
+        },
+        {
+          "question": "Title of the following:\"Promise me, Son, not to do the things I've done / Walk away from trouble if you can / Now, it won't mean you're weak if you turn the other cheek / I hope you're old enough to understand...\"",
+          "answer": "\"Coward Of The County\"",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPINELESS JELLYFISH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3568-d-c5-r2"
+        },
+        {
+          "question": "Now come to mean any meek person, it was the last name of Caspar in H.T. Webster's comic strip",
+          "answer": "Milquetoast",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPINELESS JELLYFISH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3568-d-c5-r3"
+        },
+        {
+          "question": "Bully from \"Tom Brown's Schooldays\" who became reluctant hero of George McDonald Fraser series",
+          "answer": "Harry Flashman",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPINELESS JELLYFISH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3568-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "KID STUFF",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In tic-tac-toe, maximum number of X's you can have on the board without winning",
+          "answer": "5",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "KID STUFF",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3568-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

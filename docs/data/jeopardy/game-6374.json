@@ -1,0 +1,797 @@
+{
+  "gameId": 6374,
+  "showNumber": 8037,
+  "airDate": "July 16, 2019",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "O CAPTAIN! MY CAPTAIN!",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "You'd think after 56 years, there'd be a premium version of this cereal where its mascot gets his long-deserved admiral promotion",
+          "answer": "Cap'n Crunch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN! MY CAPTAIN!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6374-s-c0-r0"
+        },
+        {
+          "question": "J.M. Barrie wrote that this pirate was \"cadaverous...his hair dressed in long curls which look like black candles about to melt\"",
+          "answer": "Captain Hook",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN! MY CAPTAIN!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6374-s-c0-r1"
+        },
+        {
+          "question": "Valentine's Day in Hawaii sounds perfect for most, but in 1779, this captain was killed in a dispute over a stolen cutter",
+          "answer": "Captain Cook",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN! MY CAPTAIN!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6374-s-c0-r2"
+        },
+        {
+          "question": "The 2003 novel \"Gilligan's Wake\" gives this TV character a backstory as a WWII PT boat captain hanging with JFK",
+          "answer": "the Skipper",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O CAPTAIN! MY CAPTAIN!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6374-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGE LAB",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In French this melting vessel is le creuset but the Arthur Miller play of the same name is \"Les Sorcieres de Salem\"",
+          "answer": "crucible",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGE LAB",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6374-s-c1-r0"
+        },
+        {
+          "question": "A Czech scientist can measure to the microgram with his váhy, this",
+          "answer": "scale",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGE LAB",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6374-s-c1-r1"
+        },
+        {
+          "question": "In Russian pipetka (like pipette) is this dispenser of small amounts of liquid, one at a time",
+          "answer": "a dropper",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGE LAB",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6374-s-c1-r2"
+        },
+        {
+          "question": "The microscope is called a Microscoop in this country where it was invented",
+          "answer": "the Netherlands",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGE LAB",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6374-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "IT'S ALL IN THE PAST",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "March 2, 1969 saw the first flight of this supersonic transport; it didn't hit 300 mph that day but went 1,350 eventually",
+          "answer": "the Concorde",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE PAST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6374-s-c2-r0"
+        },
+        {
+          "question": "Some say this 10-yr. economic slump could have been stopped by a strong leader--Benjamin Strong, the N.Y. Fed head who died at 55 in 1928",
+          "answer": "the Great Depression",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE PAST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6374-s-c2-r1"
+        },
+        {
+          "question": "England could have had a King Fred, but Frederick Lewis, Prince of Wales, son & father of kings with this name, died young in 1751",
+          "answer": "George",
+          "value": 6600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE PAST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6374-s-c2-r2"
+        },
+        {
+          "question": "This landmark began as the First Baptist Church of Wash. in 1833, became infamous in 1865 & closed for more than 100 years",
+          "answer": "Ford's Theatre",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE PAST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6374-s-c2-r3"
+        },
+        {
+          "question": "The 12th c. Knights Hospitallers helped pilgrims in the Holy Land while the Knights this protected 'em coming & going",
+          "answer": "the Templar",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S ALL IN THE PAST",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6374-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FANCY RESTAURANTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Valentino in Santa Monica had private dining in this space that held thousands of bottles, like Gavi & Chardonnay",
+          "answer": "a wine cellar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FANCY RESTAURANTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6374-s-c3-r0"
+        },
+        {
+          "question": "At Eleven Madison Park in New York, a cheesecake made from sturgeon is garnished with this, sturgeon roe",
+          "answer": "caviar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FANCY RESTAURANTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6374-s-c3-r1"
+        },
+        {
+          "question": "Naturally, NYC's La Grenouille serves cuisses de grenouilles, this exotic dish in butter & garlic",
+          "answer": "frogs' legs",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FANCY RESTAURANTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6374-s-c3-r2"
+        },
+        {
+          "question": "Diners book months in advance at Apège in Paris; in winter the menu has black truffles & in spring, stalks of white this",
+          "answer": "asparagus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FANCY RESTAURANTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6374-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "THAT MOVIE'S IN BOSTON",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This 1997 movie was up for 9 Oscahs & took home 2--you got its numbahs; how do ya like them apples?!",
+          "answer": "Good Will Hunting",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT MOVIE'S IN BOSTON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6374-s-c4-r0"
+        },
+        {
+          "question": "David Ortiz was on hand at this ballpark for the premiere party of \"Fever Pitch\", starring Jimmy Fallon",
+          "answer": "Fenway",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT MOVIE'S IN BOSTON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6374-s-c4-r1"
+        },
+        {
+          "question": "Mark Wahlberg goes through an impressive speed round of possible names of the new girlfriend of his bear pal in this pic",
+          "answer": "Ted",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT MOVIE'S IN BOSTON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6374-s-c4-r2"
+        },
+        {
+          "question": "A cop poses as a mobster & a mobster poses as a cop in this 2006 Scorsese film set in Boston",
+          "answer": "The Departed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT MOVIE'S IN BOSTON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6374-s-c4-r3"
+        },
+        {
+          "question": "The \"Friends of\" this Boston crook played by Robert Mitchum are the people he's pressured to snitch on",
+          "answer": "Eddie Coyle",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT MOVIE'S IN BOSTON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6374-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WICKED!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Nice's opposite in a  \"Santa Claus Is Comin' To Town\" lyric",
+          "answer": "naughty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6374-s-c5-r0"
+        },
+        {
+          "question": "Putrid, tainted, or Johnny of The Sex Pistols",
+          "answer": "rotten",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6374-s-c5-r1"
+        },
+        {
+          "question": "A Yeti might find this other adjective used in its alternate name to be quite loathsome",
+          "answer": "abominable",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6374-s-c5-r2"
+        },
+        {
+          "question": "George W. Bush coined the \"Axis of\" it in 2002",
+          "answer": "evil",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WICKED!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6374-s-c5-r3"
+        },
+        {
+          "question": "Go \"pro\" with this word meaning blasphemous",
+          "answer": "profane",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WICKED!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6374-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANDREW DAVIES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Andrew Davies is known for \"bonnet dramas\", like his adaptation of this author's \"Middlemarch\"",
+          "answer": "George Eliot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANDREW DAVIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6374-d-c0-r0"
+        },
+        {
+          "question": "Davies intended a different take from the musical in his adaptation of this Hugo novel, airing on PBS in 2019",
+          "answer": "Les Miserables",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANDREW DAVIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6374-d-c0-r1"
+        },
+        {
+          "question": "Conservative whip Francis Urquhart was the scheming center of this Davies series that got a presidential Netflix version",
+          "answer": "House of Cards",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANDREW DAVIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6374-d-c0-r2"
+        },
+        {
+          "question": "Davies wrote most of the episodes of \"Bleak House\" 30 minutes long to evoke the way this author serialized it",
+          "answer": "Dickens",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANDREW DAVIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6374-d-c0-r3"
+        },
+        {
+          "question": "Davies wrote the 1990s \"Pride & Prejudice\" that brought fame to Jennifer Ehle & to this actor who played Mr. Darcy",
+          "answer": "Colin Firth",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANDREW DAVIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6374-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOLLOW THE LEADER",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Head of the FBI after Robert Mueller: J.C.",
+          "answer": "(James) Comey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOLLOW THE LEADER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6374-d-c1-r0"
+        },
+        {
+          "question": "Following Fay Vincent as MLB commish: B.S.",
+          "answer": "Bud Selig",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOLLOW THE LEADER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6374-d-c1-r1"
+        },
+        {
+          "question": "Soviet leader after Khruschchev:L.B.",
+          "answer": "(Leonid) Brezhnev",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOLLOW THE LEADER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6374-d-c1-r2"
+        },
+        {
+          "question": "Following Alan Greenspan at the Fed: B.B.",
+          "answer": "Ben Bernanke",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOLLOW THE LEADER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6374-d-c1-r3"
+        },
+        {
+          "question": "After Roman emperor Antoninus Pius:M.A.",
+          "answer": "Marcus Aurelius",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOLLOW THE LEADER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6374-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE CAPITALS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's about 85 miles northeast of San Francisco",
+          "answer": "Sacramento",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6374-d-c2-r0"
+        },
+        {
+          "question": "6 bronze stars on South Carolina's State House in this city mark where Sherman's cannonballs hit it during the Civil War",
+          "answer": "Columbia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6374-d-c2-r1"
+        },
+        {
+          "question": "It's less than 15 miles from Hersheypark to the capitol building in this city",
+          "answer": "Harrisburg (Pennsylvania)",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6374-d-c2-r2"
+        },
+        {
+          "question": "Penacook & Rumford are previous names of this capital located on the Merrimack River",
+          "answer": "Concord",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6374-d-c2-r3"
+        },
+        {
+          "question": "Antislavery settlers from Lawrence chose the site for this city in the 1850s",
+          "answer": "Topeka",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6374-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN THE AIR",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In Genesis this man is told to take \"fowls...of the air\" by sevens",
+          "answer": "Noah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE AIR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6374-d-c3-r0"
+        },
+        {
+          "question": "At a 1914 air show, Lawrence Sperry stood on the wing as the plane he was flying stayed on course using this invention",
+          "answer": "autopilot",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE AIR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6374-d-c3-r1"
+        },
+        {
+          "question": "A murmuration of these stellar birds is seen in Spain making some pretty shapes",
+          "answer": "starlings",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE AIR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6374-d-c3-r2"
+        },
+        {
+          "question": "In a Khaled Hosseini book, the \"real fun began\" when the string of one of these \"was cut\"",
+          "answer": "a kite",
+          "value": 6000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE AIR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6374-d-c3-r3"
+        },
+        {
+          "question": "In 1979 this craft made news when it entered the atmosphere & broke apart over Australia",
+          "answer": "Skylab",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE AIR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6374-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A misheard word may have led Charles Perrault to make this character's shoes verre, \"of glass\", not vair, \"of fur'",
+          "answer": "Cinderella",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6374-d-c4-r0"
+        },
+        {
+          "question": "It's the only letter that doesn't appear in the name of a U.S. state",
+          "answer": "Q",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6374-d-c4-r1"
+        },
+        {
+          "question": "Greek for \"beyond\" & \"heavy\" gives us this name for a chamber used to treat pressure-related conditions like the bends",
+          "answer": "hyperbaric",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6374-d-c4-r2"
+        },
+        {
+          "question": "This tuberous vegetable isn't named for the city in Israel but for the Italian word for \"sunflower\", girasole",
+          "answer": "a Jerusalem artichoke",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6374-d-c4-r3"
+        },
+        {
+          "question": "Though it's the softest commercial wood, it's defined botanically as a hardwood",
+          "answer": "balsa wood",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6374-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENDS WITH \"ART\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A defensive embankment with a parapet on top",
+          "answer": "a rampart",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"ART\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6374-d-c5-r0"
+        },
+        {
+          "question": "This brand that popularized food processors in the '70s became a trademark of the Conair Corporation",
+          "answer": "Cuisinart",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"ART\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6374-d-c5-r1"
+        },
+        {
+          "question": "To disrupt a plan is to \"upset\" this item used to display fruit",
+          "answer": "the apple cart",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"ART\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6374-d-c5-r2"
+        },
+        {
+          "question": "Someone who talks so much of this own achievements that it annoys other people",
+          "answer": "a braggart",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"ART\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6374-d-c5-r3"
+        },
+        {
+          "question": "A very loyal friend or supporter",
+          "answer": "a stalwart",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENDS WITH \"ART\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6374-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "EUROPEAN COUNTRY NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Resolving a decades-long dispute with its neighbor to the south, in 2019 this 28-year-old republic added \"North\" to its name",
+          "answer": "North Macedonia",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "EUROPEAN COUNTRY NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6374-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

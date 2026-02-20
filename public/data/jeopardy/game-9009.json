@@ -1,0 +1,833 @@
+{
+  "gameId": 9009,
+  "showNumber": 9165,
+  "airDate": "September 20, 2024",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ON THE MAP",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Winnibigoshish Lake is one of this state's many, many lakes",
+          "answer": "Minnesota",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9009-s-c0-r0"
+        },
+        {
+          "question": "It's only about 130 miles from Vienna to this capital of Hungary",
+          "answer": "Budapest",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9009-s-c0-r1"
+        },
+        {
+          "question": "Time flies, this Pacific island nation hasn't had Western in front of its name since 1997",
+          "answer": "Samoa",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9009-s-c0-r2"
+        },
+        {
+          "question": "About 80 miles from Cairo, this city known for its canal is a departure point for the Hajj",
+          "answer": "Suez",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9009-s-c0-r3"
+        },
+        {
+          "question": "This river's name is derived from the Delaware word \"oolikhana\", meaning \"good river\"",
+          "answer": "the Allegheny",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON THE MAP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9009-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POWERS THAT \"B\"",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Strong, as in the name of a certain absorbent paper towel",
+          "answer": "brawny",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POWERS THAT \"B\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9009-s-c1-r0"
+        },
+        {
+          "question": "Use your noggin & come up with this 2-word term used to describe FDR's heady group of advisors",
+          "answer": "a brain trust",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POWERS THAT \"B\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9009-s-c1-r1"
+        },
+        {
+          "question": "As a noun, this 4-letter word is a polishing action for your car; as an adjective, it describes your ripped musculature",
+          "answer": "buff",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POWERS THAT \"B\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9009-s-c1-r2"
+        },
+        {
+          "question": "It can mean obstinate or stupid, or, when describing the stock market, expecting a surge in profits",
+          "answer": "bullish",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POWERS THAT \"B\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9009-s-c1-r3"
+        },
+        {
+          "question": "Referring to a type of chicken, it comes before \"weight\" in a class of boxer",
+          "answer": "bantam",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POWERS THAT \"B\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9009-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Brits say \"sweetcorn\" to refer to edible kernels; the growing plant is this 5-letter stuff",
+          "answer": "maize",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9009-s-c2-r0"
+        },
+        {
+          "question": "This N'awlins version of a sub is made with French bread",
+          "answer": "a po' boy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9009-s-c2-r1"
+        },
+        {
+          "question": "Melt some Gruyere, add cornstarch, some spices & a little white wine & it's time for this",
+          "answer": "fondue",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9009-s-c2-r2"
+        },
+        {
+          "question": "It's another name for the garbanzo bean",
+          "answer": "a chickpea",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9009-s-c2-r3"
+        },
+        {
+          "question": "This soft cow's \"C\"heese from Normandy resembles brie but has a more intense flavor & a bit less fat",
+          "answer": "Camembert",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9009-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MISSING MOVIE TITLE ADJECTIVES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A romcom: \"____ in Seattle\"",
+          "answer": "Sleepless",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MISSING MOVIE TITLE ADJECTIVES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9009-s-c3-r0"
+        },
+        {
+          "question": "\"My ____ ____Greek Wedding\"",
+          "answer": "Big Fat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MISSING MOVIE TITLE ADJECTIVES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9009-s-c3-r1"
+        },
+        {
+          "question": "A classic about a drinking binge: \"The ____ Weekend\"",
+          "answer": "Lost",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MISSING MOVIE TITLE ADJECTIVES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9009-s-c3-r2"
+        },
+        {
+          "question": "Charlie Chaplin's \"____ Times \"",
+          "answer": "Modern",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MISSING MOVIE TITLE ADJECTIVES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9009-s-c3-r3"
+        },
+        {
+          "question": "\"Alright, alright, alright\", a cult favorite set in 1976: \"____ and ____\"",
+          "answer": "Dazed & Confused",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MISSING MOVIE TITLE ADJECTIVES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9009-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPOKE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "On July 4, 1939 he told the crowd at Yankee Stadium, \"I might have had a tough break but I have an awful lot to live for\"",
+          "answer": "(Lou) Gehrig",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOKE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9009-s-c4-r0"
+        },
+        {
+          "question": "In June 1987 President Reagan challenged Gorbachev to \"come here to this gate\"",
+          "answer": "the Brandenburg Gate",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOKE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9009-s-c4-r1"
+        },
+        {
+          "question": "A 1979 speech of his included, \"We hereby announce that\" Iran's govt. \"is in fact illegal\"; soon, he led a new one",
+          "answer": "the Ayatollah Khomeini",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOKE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9009-s-c4-r2"
+        },
+        {
+          "question": "In a 1947 speech this secretary of state said, \"Our policy is... against hunger, poverty, desperation and chaos\"",
+          "answer": "Marshall",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOKE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9009-s-c4-r3"
+        },
+        {
+          "question": "In an 1863 speech   before the Prussian parliament, he claimed, \"Politics is not an exact science\"",
+          "answer": "Bismarck",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOKE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9009-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HUB",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Naturally, this airline's 3 main hubs are Montreal, Toronto & Vancouver",
+          "answer": "Air Canada",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HUB",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9009-s-c5-r0"
+        },
+        {
+          "question": "Alaska Airlines' main hub is Sea-Tac, but the company does have a hub at Ted Stevens Intl. serving this city, of course",
+          "answer": "Anchorage",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HUB",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9009-s-c5-r1"
+        },
+        {
+          "question": "Atlanta is the biggest hub of this airline, but it has others like L.A. & Seoul",
+          "answer": "Delta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HUB",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9009-s-c5-r2"
+        },
+        {
+          "question": "This United hub in the Northeast has the code EWR, which has 3 of the city's 6 letters",
+          "answer": "Newark",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HUB",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9009-s-c5-r3"
+        },
+        {
+          "question": "Frontier Airlines gains even more altitude leaving this hub city just east of the Front Range",
+          "answer": "Denver",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HUB",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9009-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "TREES & FLOWERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The kinkajou is a pollinator of this tree noted for its extremely light wood that's often used in model airplane kits",
+          "answer": "balsa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES & FLOWERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9009-d-c0-r0"
+        },
+        {
+          "question": "If a Hawaiian woman wears this tropical flower behind her left ear, she's taken; behind the right, she's single",
+          "answer": "a hibiscus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES & FLOWERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9009-d-c0-r1"
+        },
+        {
+          "question": "Nicknamed the General Sherman, the world's largest tree by volume is this kind",
+          "answer": "sequoia",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES & FLOWERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9009-d-c0-r2"
+        },
+        {
+          "question": "Salix is the genus for this tree, a source for an acid used in pain relievers",
+          "answer": "willow",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TREES & FLOWERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9009-d-c0-r3"
+        },
+        {
+          "question": "Over 1,000 stigmas from this flower are necessary to get even a small amount of saffron seasoning",
+          "answer": "a crocus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TREES & FLOWERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9009-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY TITLE MATH",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Heller's catch minus Northup's years as \"a Slave\"",
+          "answer": "10",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TITLE MATH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9009-d-c1-r0"
+        },
+        {
+          "question": "Garcia Marquez' solitary years times Albom's heavenly greeters",
+          "answer": "500",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TITLE MATH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9009-d-c1-r1"
+        },
+        {
+          "question": "Dodie Smith's spotted pooches plus Bradbury's pyrometric threshold",
+          "answer": "552",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TITLE MATH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9009-d-c1-r2"
+        },
+        {
+          "question": "The entirety of Hosseini's splendid suns plus Verne's leagues below the waves",
+          "answer": "21,000",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TITLE MATH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9009-d-c1-r3"
+        },
+        {
+          "question": "Covey's quantity of highly effective habits divided by Harrer's years in Tibet",
+          "answer": "1",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TITLE MATH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9009-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's the instrument being played here",
+          "answer": "a didgeridoo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9009-d-c2-r0"
+        },
+        {
+          "question": "Music played as King Charles & Camilla left the coronation included this March No. 4 by Elgar",
+          "answer": "Pomp and Circumstance",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9009-d-c2-r1"
+        },
+        {
+          "question": "From Italian for \"jest\" or \"joke\", it's a quick, lively musical piece often making up the third movement of a symphony or sonata",
+          "answer": "a scherzo",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9009-d-c2-r2"
+        },
+        {
+          "question": "In Act II of this opera, we learn how Falke was once left drunk & asleep in a park dressed in a bat costume",
+          "answer": "Die Fledermaus",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9009-d-c2-r3"
+        },
+        {
+          "question": "James Taylor & Brandi Carlile are among those scheduled to play this Berkshires summer music festival in 2024",
+          "answer": "Tanglewood",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9009-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV PETS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Sabrina the Teenage Witch had a talking black cat with this name, a city synonymous with witches",
+          "answer": "Salem",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PETS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9009-d-c3-r0"
+        },
+        {
+          "question": "At Christmastime one year, the Simpsons adopted a greyhound with this 3-word name",
+          "answer": "Santa's Little Helper",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV PETS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9009-d-c3-r1"
+        },
+        {
+          "question": "SpongeBob's pet Gary meows like a cat but is actually one of these",
+          "answer": "a snail",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PETS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9009-d-c3-r2"
+        },
+        {
+          "question": "If you think Astro on this show & Scooby-Doo sound alike, \"rat's right\"--Don Messick voiced them both",
+          "answer": "The Jetsons",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PETS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9009-d-c3-r3"
+        },
+        {
+          "question": "This TV android once wrote a poem to his pet cat named Spot & she even appeared in his dreams",
+          "answer": "Data",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV PETS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9009-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LATIN LOVERS NEEDED",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Meaning \"from the very beginning\", ab ovo translates to \"from\" this natural product",
+          "answer": "an egg",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN LOVERS NEEDED",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9009-d-c4-r0"
+        },
+        {
+          "question": "In Latin, these 2 body parts are oculus sinister & oculus dexter",
+          "answer": "your right eye & your left eye",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN LOVERS NEEDED",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9009-d-c4-r1"
+        },
+        {
+          "question": "It's the condition of a body after death when chemical changes cause stiffening",
+          "answer": "rigor mortis",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN LOVERS NEEDED",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9009-d-c4-r2"
+        },
+        {
+          "question": "A common sundial motto is this Latin one reminding us that \"time flies\"",
+          "answer": "tempus fugit",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN LOVERS NEEDED",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9009-d-c4-r3"
+        },
+        {
+          "question": "A law providing for a unique situation is this, \"of its own kind\"",
+          "answer": "sui generis",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LATIN LOVERS NEEDED",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9009-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY WOMEN",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This French designer became a scent-sation after she introduced her No. 5 perfume in 1921",
+          "answer": "Coco Chanel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9009-d-c5-r0"
+        },
+        {
+          "question": "In 1969, British biochemist Dorothy Hodgkin & her team discovered the structure of this protein used to treat diabetes",
+          "answer": "insulin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9009-d-c5-r1"
+        },
+        {
+          "question": "Discouraged by health issues, she painted herself as a wounded deer in 1946",
+          "answer": "(Frida) Kahlo",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9009-d-c5-r2"
+        },
+        {
+          "question": "Beginning with \"Valley of the Dolls\", she was the first novelist to have three consecutive No. 1 New York Times bestsellers",
+          "answer": "Jacqueline Susann",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9009-d-c5-r3"
+        },
+        {
+          "question": "Under 5 feet tall & about 90 pounds, this diminutive chanteuse was nicknamed \"The Little Sparrow\"",
+          "answer": "(Édith) Piaf",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9009-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ISLAND CHAINS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Named for a Spanish queen, this Pacific island chain was a starting point for famous explorations of 1960 & 2012",
+          "answer": "the Mariana Islands",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "ISLAND CHAINS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g9009-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

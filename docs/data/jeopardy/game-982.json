@@ -1,0 +1,833 @@
+{
+  "gameId": 982,
+  "showNumber": 3306,
+  "airDate": "January 11, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "DICKENSIANA",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Dickens mentions this Defoe work in many of his tales, including \"Bleak House\" & \"A Christmas Carol\"",
+          "answer": "Robinson Crusoe",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DICKENSIANA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g982-s-c0-r0"
+        },
+        {
+          "question": "Subtitled \"The Parish Boy's Progress\", it appeared in 24 installments in Bentley's Miscellany",
+          "answer": "Oliver Twist",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DICKENSIANA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g982-s-c0-r1"
+        },
+        {
+          "question": "Dickens met this U.S. president a few weeks before the impeachment proceedings",
+          "answer": "Andrew Johnson",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DICKENSIANA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g982-s-c0-r2"
+        },
+        {
+          "question": "Dickens' self-styled hero born \"A posthumous child\"",
+          "answer": "David Copperfield",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DICKENSIANA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g982-s-c0-r3"
+        },
+        {
+          "question": "One of the first full-length sound films of a Dickens work was a 1935 version of this tale of Nell & Quilp",
+          "answer": "Ye Olde Curiosity Shoppe",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DICKENSIANA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g982-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLANTS & TREES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On St. Patrick's Day it's traditional to wear a wee bit of this plant",
+          "answer": "Shamrock",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g982-s-c1-r0"
+        },
+        {
+          "question": "Kiss & tell the name of this plant",
+          "answer": "Mistletoe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g982-s-c1-r1"
+        },
+        {
+          "question": "Had the Israelites wandered in the Mojave Desert, they would have seen this tree named for one of their leaders",
+          "answer": "Joshua tree",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g982-s-c1-r2"
+        },
+        {
+          "question": "Anatomist Caspar Wistar gave his name to this popular trellis plant",
+          "answer": "Wisteria",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g982-s-c1-r3"
+        },
+        {
+          "question": "The leaves of this tree are used in cold remedies & to feed koalas",
+          "answer": "Eucalyptus",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS & TREES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g982-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CARTOON BIRDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "He was supposedly inspired by a bird that disrupted creator Walter Lantz's honeymoon",
+          "answer": "Woody Woodpecker",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON BIRDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g982-s-c2-r0"
+        },
+        {
+          "question": "They're the pair of fast-talkers seen here",
+          "answer": "Heckle & Jeckle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON BIRDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g982-s-c2-r1"
+        },
+        {
+          "question": "Good Grief!  This little bird flew into the funnies in 1970",
+          "answer": "Woodstock",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON BIRDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g982-s-c2-r2"
+        },
+        {
+          "question": "\"Camptown Races\" is a favorite song of this boisterous blabbermouth from the South",
+          "answer": "Foghorn Leghorn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON BIRDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g982-s-c2-r3"
+        },
+        {
+          "question": "He's the cool character seen here",
+          "answer": "Chilly Willy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON BIRDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g982-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE LIST LIST",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Number of songs on the American top pop list hosted by Casey Kasem",
+          "answer": "40",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIST LIST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g982-s-c3-r0"
+        },
+        {
+          "question": "Santa keeps a list of people who fall into these 2 \"N\" categories",
+          "answer": "Naughty & nice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIST LIST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g982-s-c3-r1"
+        },
+        {
+          "question": "In 1988 Microsoft came in at No. 137 out of the 500 companies on this magazine's famous list",
+          "answer": "Fortune",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIST LIST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g982-s-c3-r2"
+        },
+        {
+          "question": "Supplying info that led to the arrest of everyone on this list in August 1998 could have netted you over $1,500,000",
+          "answer": "FBI Ten Most Wanted List",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIST LIST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g982-s-c3-r3"
+        },
+        {
+          "question": "Topping his first worst-dressed list in 1960 was Anna Magnani, who dressed like she was \"wearing tramp clothes\"",
+          "answer": "Mr. Blackwell",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIST LIST",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g982-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN WORDS & PHRASES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Now hear this!  Das ohr is German for this body part",
+          "answer": "Ear",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g982-s-c4-r0"
+        },
+        {
+          "question": "French for \"In the fashion\", it's a fashionable way to serve pie",
+          "answer": "A la mode",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g982-s-c4-r1"
+        },
+        {
+          "question": "This Yiddish word can mean to lug a load, or to drag oneself",
+          "answer": "Schlep",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g982-s-c4-r2"
+        },
+        {
+          "question": "Practitioners of karate & judo refer to their training school by this 4-letter Japanese name",
+          "answer": "Dojo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g982-s-c4-r3"
+        },
+        {
+          "question": "Meaning clandestine, the Spanish phrase \"capa y espada\" translates to this common English phrase",
+          "answer": "Cloak and dagger",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g982-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "STUPID ANSWERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Group that had the 1983 hit \"In A Big Country\"",
+          "answer": "Big Country",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g982-s-c5-r0"
+        },
+        {
+          "question": "Italian leader Benito Mussolini called himself \"Il Duce\" which means this",
+          "answer": "\"The Leader\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g982-s-c5-r1"
+        },
+        {
+          "question": "Writer Ruth McKenney's sister Eileen was the inspiration for this play",
+          "answer": "My Sister Eileen",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g982-s-c5-r2"
+        },
+        {
+          "question": "Chimachogori, the garb of some Korean women, includes a skirt, the chima, & a jacket called this",
+          "answer": "Chogori",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g982-s-c5-r3"
+        },
+        {
+          "question": "Street crime was up in Liverpool, England in May 1998 as criminals stole one of these worth $16,000",
+          "answer": "Street",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g982-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS NAMES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "His wealth once estimated to be $100 million, this gangster died a broken man in 1947",
+          "answer": "Al Capone",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g982-d-c0-r0"
+        },
+        {
+          "question": "Born in 1394, this Portuguese prince founded a school of navigation",
+          "answer": "Prince Henry the Navigator",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g982-d-c0-r1"
+        },
+        {
+          "question": "Hail him, he's the Roman depicted here",
+          "answer": "Julius Caesar",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g982-d-c0-r2"
+        },
+        {
+          "question": "This man was the first prime minister of his country (Israel)",
+          "answer": "David Ben-Gurion",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g982-d-c0-r3"
+        },
+        {
+          "question": "In 1863 this explorer published \"Journal of the Discovery of the Source of the Nile\"",
+          "answer": "John Speke",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g982-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP MUSIC",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The groups Heart & Pearl Jam were formed in this city",
+          "answer": "Seattle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g982-d-c1-r0"
+        },
+        {
+          "question": "\"Aja\", \"Gaucho\" & \"Pretzel Logic\" are albums by this group",
+          "answer": "Steely Dan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g982-d-c1-r1"
+        },
+        {
+          "question": "In 1998 this Alanis Morissette album matched Boston's \"Boston\" as the best-selling debut album ever",
+          "answer": "Jagged Little Pill",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g982-d-c1-r2"
+        },
+        {
+          "question": "\"You Might Think\" this group won MTV's Best Video of 1984: well, you're right, they did",
+          "answer": "The Cars",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g982-d-c1-r3"
+        },
+        {
+          "question": "Last name of brothers Mark & David who were part of the original lineup of Dire Straits",
+          "answer": "Knopfler",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g982-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE CAPITAL NICKNAMES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Mormons make a bee-line for this city, the \"Mormon's Mecca\"",
+          "answer": "Salt Lake City",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g982-d-c2-r0"
+        },
+        {
+          "question": "It's the \"North Star City\" because it's the capital of the North Star State",
+          "answer": "St. Paul",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g982-d-c2-r1"
+        },
+        {
+          "question": "It's New England's \"City Beautiful\" as well as the \"Insurance City\"",
+          "answer": "Hartford",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g982-d-c2-r2"
+        },
+        {
+          "question": "It's the \"Queen on the James\" -- the James River, that is",
+          "answer": "Richmond",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g982-d-c2-r3"
+        },
+        {
+          "question": "Great Scot!  This city on the Hudson has been called the \"Edinburgh of America\"",
+          "answer": "Albany",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g982-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. STAMPS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "She got \"all dolled up\" for the stamp seen here",
+          "answer": "Raggedy Ann",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STAMPS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g982-d-c3-r0"
+        },
+        {
+          "question": "Different types of these on stamps of the 1990s include lunch, circus & Conestoga",
+          "answer": "Wagons",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STAMPS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g982-d-c3-r1"
+        },
+        {
+          "question": "A C-54 cargo plane is on the 1998 stamp commemorating the 50th anniversary of this aid mission",
+          "answer": "Berlin Airlift",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STAMPS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g982-d-c3-r2"
+        },
+        {
+          "question": "It's the Sousa march honored on the 1997 stamp seen here",
+          "answer": "\"The Stars and Stripes Forever\"",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STAMPS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g982-d-c3-r3"
+        },
+        {
+          "question": "The tribute to this artist was released March 25, 1998 in Washington, D.C., not \"Mobile\"",
+          "answer": "Alexander Calder",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STAMPS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g982-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOLIDAYS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"(Hi, I'm Chuck Woolery)  You can send a card to your sweetheart or anyone in your 4th grade class on this February holiday\"",
+          "answer": "Valentine's Day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g982-d-c4-r0"
+        },
+        {
+          "question": "In this religion, Ashura is a simple fast for Sunnis but a day of guilt & mortification for Shiites",
+          "answer": "Islam",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g982-d-c4-r1"
+        },
+        {
+          "question": "This November day on which girls court boys comes from the comic strip \"Li'l Abner\"",
+          "answer": "Sadie Hawkins Day",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g982-d-c4-r2"
+        },
+        {
+          "question": "The people of San Juan, Puerto Rico lose their heads celebrating June 24, this saint's feast day",
+          "answer": "John the Baptist",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g982-d-c4-r3"
+        },
+        {
+          "question": "September 3 commemorates the founding of all 24 square miles of this republic within Italy",
+          "answer": "San Marino",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g982-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"EZ\" DOES IT",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Every first aid kit should have a pair of these to remove splinters",
+          "answer": "Tweezers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EZ\" DOES IT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g982-d-c5-r0"
+        },
+        {
+          "question": "His Old Testament book comes between Lamentations & Daniel",
+          "answer": "Ezekiel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EZ\" DOES IT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g982-d-c5-r1"
+        },
+        {
+          "question": "Named for Indians who lived in the region, it was Mississippi's first capital",
+          "answer": "Natchez",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"EZ\" DOES IT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g982-d-c5-r2"
+        },
+        {
+          "question": "He headed the Soviet Union's Communist party from 1964 until his death in 1982",
+          "answer": "Leonid Brezhnev",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"EZ\" DOES IT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g982-d-c5-r3"
+        },
+        {
+          "question": "In 1975 Cambodia seized this American merchant ship on the Gulf of Siam, claiming it was a spy vessel",
+          "answer": "Mayaguez",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"EZ\" DOES IT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g982-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "McDonald's'  2 most successful promotional campaigns both involved these Happy Meal toys",
+          "answer": "Beanie Babies",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g982-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

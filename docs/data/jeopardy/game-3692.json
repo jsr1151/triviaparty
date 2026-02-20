@@ -1,0 +1,761 @@
+{
+  "gameId": 3692,
+  "showNumber": 6188,
+  "airDate": "July 6, 2011",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THINK FAST WITH U.S. PRESIDENTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The one who married a Michelle",
+          "answer": "Obama",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THINK FAST WITH U.S. PRESIDENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3692-s-c0-r0"
+        },
+        {
+          "question": "The one who had Al Gore as his Vice President",
+          "answer": "Clinton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THINK FAST WITH U.S. PRESIDENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3692-s-c0-r1"
+        },
+        {
+          "question": "The only President to be elected 4 times to the job",
+          "answer": "FDR",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THINK FAST WITH U.S. PRESIDENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3692-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "SUMMER GAMES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Little Tigers know that the WMF is the World Federation for the \"Mini\" version of this sport--look out for the windmill",
+          "answer": "golf",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUMMER GAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3692-s-c1-r0"
+        },
+        {
+          "question": "In this \"equine\" basketball game, you get a letter if you miss a shot & your rival makes one--if you spell the game, you lose",
+          "answer": "horse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUMMER GAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3692-s-c1-r1"
+        },
+        {
+          "question": "Use soccer balls to play a giant version of this game where the shooter knocks rolling targets out of a ring",
+          "answer": "marbles",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUMMER GAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3692-s-c1-r2"
+        },
+        {
+          "question": "Hinkspiel is a German version of this game where you jump from one numbered space to another",
+          "answer": "hopscotch",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUMMER GAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3692-s-c1-r3"
+        },
+        {
+          "question": "In one of these \"hunts\" named for the behavior of certain animals, you & your friends compete to gather items on a list",
+          "answer": "a scavenger hunt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUMMER GAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3692-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOR KIDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Recess?  Time for this game with a soft drink in its name, where a septet of students are \"it\"",
+          "answer": "Heads Up, Seven Up",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOR KIDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3692-s-c2-r0"
+        },
+        {
+          "question": "Get out the door faster in shoes that fasten using this material of tiny hooks & loops instead of laces",
+          "answer": "Velcro",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOR KIDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3692-s-c2-r1"
+        },
+        {
+          "question": "In comic books, this kind-hearted bird is often seen with his friend, Wormie",
+          "answer": "Owly",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOR KIDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3692-s-c2-r2"
+        },
+        {
+          "question": "Ham & American sub is one of these Oscar Mayer combos that sound perfect for the noon meal",
+          "answer": "Lunchables",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOR KIDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3692-s-c2-r3"
+        },
+        {
+          "question": "DZ for short, this maker of music for the whole family used to be in a grown-up band, the Del Fuegos",
+          "answer": "Dan Zanes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOR KIDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3692-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ICE CREAM",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "More than 60 years ago, this brand started with 31 flavors; today it has over 1,000",
+          "answer": "Baskin-Robbins",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ICE CREAM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3692-s-c3-r0"
+        },
+        {
+          "question": "In January of 2011, pecans fruit & chocolaty bits in vanilla soft serve was this brand's \"Blizzard of the Month\"",
+          "answer": "Dairy Queen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ICE CREAM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3692-s-c3-r1"
+        },
+        {
+          "question": "Candy Center Crunch & Strawberry Shortcake are ice creams on a stick from this \"good\" company, man",
+          "answer": "Good Humor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ICE CREAM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3692-s-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "WHAT WILL YOU BE WHEN YOU GROW UP?",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "After I hatch from my egg I'll keep growing and growing until I'm a mature seven foot tall one of these birds",
+          "answer": "an ostrich",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT WILL YOU BE WHEN YOU GROW UP?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3692-s-c4-r0"
+        },
+        {
+          "question": "I look a little fishy right now at an early stage but soon I'll grow up & become this",
+          "answer": "a frog",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT WILL YOU BE WHEN YOU GROW UP?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3692-s-c4-r1"
+        },
+        {
+          "question": "Don't recognize me?  I'm this beloved little beetle, still in the larval stage",
+          "answer": "a ladybug",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT WILL YOU BE WHEN YOU GROW UP?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3692-s-c4-r2"
+        },
+        {
+          "question": "Eventually I'll bloom into one of these, with a  thousand  seeds or so",
+          "answer": "a sunflower",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT WILL YOU BE WHEN YOU GROW UP?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3692-s-c4-r3"
+        },
+        {
+          "question": "An old proverb says that from the little item seen here here grow great ones of these trees",
+          "answer": "an oak",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT WILL YOU BE WHEN YOU GROW UP?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3692-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "VOWELS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "With a plus, it's the highest grade possible on a standard report card",
+          "answer": "an A",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWELS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3692-s-c5-r0"
+        },
+        {
+          "question": "A book called \"Send\" is \"The Essential Guide\" to this type of \"mail\"",
+          "answer": "e-mail",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWELS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3692-s-c5-r1"
+        },
+        {
+          "question": "On the national anthem, it precedes \"Canada\"",
+          "answer": "O",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWELS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3692-s-c5-r2"
+        },
+        {
+          "question": "In traditional usage, it's also a pronoun",
+          "answer": "I",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWELS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3692-s-c5-r3"
+        },
+        {
+          "question": "In non-traditional usage, like in text messages, it's also a pronoun",
+          "answer": "u",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOWELS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3692-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTHOLOGY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Greek god could command the waves of the sea & create storms",
+          "answer": "Poseidon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3692-d-c0-r0"
+        },
+        {
+          "question": "This Greek goddess of marriage & childbirth was jealous of Zeus' frequent infidelities",
+          "answer": "Hera",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3692-d-c0-r1"
+        },
+        {
+          "question": "The Norse believed that during a thunderstorm, this god rode through the heavens on a chariot drawn by goats",
+          "answer": "Thor",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3692-d-c0-r2"
+        },
+        {
+          "question": "Melanion had to ask for help from this Greek love goddess on how to win Atalanta's hand",
+          "answer": "Aphrodite",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3692-d-c0-r3"
+        },
+        {
+          "question": "This 3-headed watchdog eats mortals who dare enter the underworld",
+          "answer": "Cerberus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3692-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP CULTURE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This son of Will Smith turns 13 this week & says math is his favorite subject-- let's get him a textbook",
+          "answer": "Jaden Smith",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3692-d-c1-r0"
+        },
+        {
+          "question": "In a 2011 animated film, Emily Blunt voices Juliet & James McAvoy voices this other title character",
+          "answer": "Gnomeo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3692-d-c1-r1"
+        },
+        {
+          "question": "On a Disney show, these 2 best friends try to be the world's greatest skateboarders",
+          "answer": "Zeke & Luther",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3692-d-c1-r2"
+        },
+        {
+          "question": "Young singer Bianca Ryan won the first season of this TV show now judged by Sharon Osbourne & others",
+          "answer": "America's Got Talent",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3692-d-c1-r3"
+        },
+        {
+          "question": "A video game in the \"Club Penguin\" series is titled his \"Revenge\"",
+          "answer": "Herbert",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3692-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S A SCIENTIFIC FACT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Due to its size, this planet is responsible for the Kirkwood gaps in our galaxy's asteroid belt",
+          "answer": "Jupiter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A SCIENTIFIC FACT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3692-d-c2-r0"
+        },
+        {
+          "question": "(Here is the clue. Pay attention to Sarah.) Chairs, a broom, some string, and a can full of sand are all you need for the experiment that creates one of these swinging devices, similar to the one physicist Foucault used to show the earth's rotation",
+          "answer": "a pendulum",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A SCIENTIFIC FACT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3692-d-c2-r1"
+        },
+        {
+          "question": "An emulsion is a mixture of 2 or more of these that don't dissolve in each other",
+          "answer": "liquids",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A SCIENTIFIC FACT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3692-d-c2-r2"
+        },
+        {
+          "question": "(Jimmy help us out, please.) Ice is not as heavy or dense as water. In fact, our little ice boat here floats because these smallest particles that consist of atoms expand and spread out.",
+          "answer": "molecules",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A SCIENTIFIC FACT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3692-d-c2-r3"
+        },
+        {
+          "question": "Humans can drink sea water once it has been desalinated, meaning this has been removed",
+          "answer": "salt",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A SCIENTIFIC FACT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3692-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE LIBRARY OF CONGRESS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The smallest book in the collection, 1/25 of an inch square, tells the story of this \"merry old soul\" in a nursery rhyme",
+          "answer": "Old King Cole",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY OF CONGRESS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3692-d-c3-r0"
+        },
+        {
+          "question": "The loc.gov feature called Thomas lets you search for these made by Congress, like H.R. 575",
+          "answer": "laws that are passed by Congress",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY OF CONGRESS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3692-d-c3-r1"
+        },
+        {
+          "question": "In 1931 the library began providing sound recordings of books as well as books written in this",
+          "answer": "Braille",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY OF CONGRESS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3692-d-c3-r2"
+        },
+        {
+          "question": "Kids' books are under PZ in the LOC's cataloging system; this Michael Ende \"Story\" is in the PZ7's",
+          "answer": "The Neverending Story",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY OF CONGRESS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3692-d-c3-r3"
+        },
+        {
+          "question": "The LOC holds the oldest book printed in North America, a 1640 translation of these Biblical verses",
+          "answer": "the Psalms",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY OF CONGRESS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3692-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAPS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Most maps typically use this color to depict bodies of water",
+          "answer": "blue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAPS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3692-d-c4-r0"
+        },
+        {
+          "question": "This term refers to the box on a map that explains what the symbols and colors represent",
+          "answer": "the key (or legend)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAPS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3692-d-c4-r1"
+        },
+        {
+          "question": "In 1904 the company named for Rand & him produced its first road map",
+          "answer": "McNally",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAPS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3692-d-c4-r2"
+        },
+        {
+          "question": "The world's first weather map was created by this English astronomer in 1686 & showed the trade winds",
+          "answer": "Edmund Halley",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAPS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3692-d-c4-r3"
+        },
+        {
+          "question": "TV commercials for this maker of car navigation devices feature such characters as DougDoug & SueSue",
+          "answer": "a TomTom",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAPS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3692-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPELL IT!",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Spell this Christian group that's often found before \"Oats\"",
+          "answer": "Q-U-A-K-E-R",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELL IT!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3692-d-c5-r0"
+        },
+        {
+          "question": "Spell this word for the young of a goose that's also the surname of an actor named Ryan",
+          "answer": "G-O-S-L-I-N-G",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELL IT!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3692-d-c5-r1"
+        },
+        {
+          "question": "Spell this metric measurement equal to .03937 of an inch",
+          "answer": "M-I-L-L-I-M-E-T-E-R",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPELL IT!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3692-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "U.S. STATE NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Of the 4 states that begin & end with the same vowel, the one that doesn't begin & end with the same letter as the other 3 states",
+          "answer": "Ohio",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. STATE NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3692-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

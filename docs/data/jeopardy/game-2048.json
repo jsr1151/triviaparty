@@ -1,0 +1,833 @@
+{
+  "gameId": 2048,
+  "showNumber": 3588,
+  "airDate": "March 22, 2000",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "PRESIDENTIAL FATHER'S DAY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Sam Ealy Johnson, Jr.",
+          "answer": "Lyndon B. Johnson",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2048-s-c0-r0"
+        },
+        {
+          "question": "Theodore Roosevelt",
+          "answer": "Teddy Roosevelt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2048-s-c0-r1"
+        },
+        {
+          "question": "Benjamin Harrison V",
+          "answer": "William Henry Harrison",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2048-s-c0-r2"
+        },
+        {
+          "question": "Leslie Lynch King",
+          "answer": "Gerald Ford",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2048-s-c0-r3"
+        },
+        {
+          "question": "William Jefferson Blythe III",
+          "answer": "Bill Clinton",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2048-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PARTS OF A BUILDING",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The dormer type of this is placed vertically in a gable in a sloping roof",
+          "answer": "Window",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF A BUILDING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2048-s-c1-r0"
+        },
+        {
+          "question": "Home is where this floor of the fireplace is",
+          "answer": "Hearth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF A BUILDING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2048-s-c1-r1"
+        },
+        {
+          "question": "It's a tastier-sounding synonym for a doorcheck or doorpost",
+          "answer": "Door jamb",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF A BUILDING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2048-s-c1-r2"
+        },
+        {
+          "question": "An unsolicited book manuscript is submitted \"over\" this, a crosspiece above a door",
+          "answer": "Transom",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF A BUILDING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2048-s-c1-r3"
+        },
+        {
+          "question": "L-E-N-T-I-L spells a legume; rearranged & spelled this way, you get a supporting piece",
+          "answer": "L-I-N-T-E-L",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARTS OF A BUILDING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2048-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 7 WONDERS OF THE ANCIENT WORLD",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "They were ancient even before the other 6 wonders were built",
+          "answer": "Pyramids",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 7 WONDERS OF THE ANCIENT WORLD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2048-s-c2-r0"
+        },
+        {
+          "question": "Its flowers & trees were irrigated by slaves turning screws to lift water from the Euphrates River",
+          "answer": "Hanging Gardens of Babylon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 7 WONDERS OF THE ANCIENT WORLD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2048-s-c2-r1"
+        },
+        {
+          "question": "This ancient wonder is said to have worn a sun-ray crown & stand beside, not over, a harbor",
+          "answer": "Colossus of Rhodes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 7 WONDERS OF THE ANCIENT WORLD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2048-s-c2-r2"
+        },
+        {
+          "question": "Its light was created by fires of wood or oil intensified by several metal mirrors",
+          "answer": "Lighthouse of Alexandria",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 7 WONDERS OF THE ANCIENT WORLD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2048-s-c2-r3"
+        },
+        {
+          "question": "In the 4th century, this ancient wonder was transported from Olympia to Constantinople",
+          "answer": "Statue of Zeus at Olympia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE 7 WONDERS OF THE ANCIENT WORLD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2048-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIG SCREEN TIME TRAVEL",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1949 Bing Crosby played this title New Englander who travels back to a time of knights & ladies",
+          "answer": "A Connecticut Yankee in King Arthur's Court",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG SCREEN TIME TRAVEL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2048-s-c3-r0"
+        },
+        {
+          "question": "When this duo traveled through time in a souped-up phone booth, everything was \"Excellent\"",
+          "answer": "Bill & Ted",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG SCREEN TIME TRAVEL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2048-s-c3-r1"
+        },
+        {
+          "question": "The fourth installment of this film series involved 2 time-traveling whales",
+          "answer": "Star Trek",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG SCREEN TIME TRAVEL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2048-s-c3-r2"
+        },
+        {
+          "question": "As this author, Malcolm McDowell chases Jack the Ripper across time in the 1979 thriller \"Time After Time\"",
+          "answer": "H.G. Wells",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG SCREEN TIME TRAVEL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2048-s-c3-r3"
+        },
+        {
+          "question": "A military \"Experiment\" sends sailor Michael Pare over 40 years into the future in this film",
+          "answer": "The Philadelphia Experiment",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIG SCREEN TIME TRAVEL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2048-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEAR FEAT",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "At about 9 feet & 1,700 pounds, this large bear shares its name with an Alaskan island",
+          "answer": "Kodiak",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEAR FEAT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2048-s-c4-r0"
+        },
+        {
+          "question": "The Asiatic black bear also bears the beary nice name of these Indian mountains where it dwells",
+          "answer": "Himalayas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEAR FEAT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2048-s-c4-r1"
+        },
+        {
+          "question": "Often named Bruin, this species is the most likely to be found in children's stories of Europe & Asia",
+          "answer": "Brown bear",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEAR FEAT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2048-s-c4-r2"
+        },
+        {
+          "question": "This smallest bear species bears the name of a heavenly object",
+          "answer": "Sun bear",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEAR FEAT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2048-s-c4-r3"
+        },
+        {
+          "question": "Spectacled bears are the only species found on this continent",
+          "answer": "South America",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEAR FEAT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2048-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"RH\" FACTOR",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A lot of exaggerated hip swinging is used in this complex Cuban dance",
+          "answer": "Rhumba",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RH\" FACTOR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2048-s-c5-r0"
+        },
+        {
+          "question": "Glen Campbell was this kind of \"Cowboy\" in a 1975 No. 1 hit",
+          "answer": "\"Rhinestone Cowboy\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RH\" FACTOR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2048-s-c5-r1"
+        },
+        {
+          "question": "It can be a serious quarrel or a red-stalked vegetable used in cooking",
+          "answer": "Rhubarb",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RH\" FACTOR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2048-s-c5-r2"
+        },
+        {
+          "question": "This critter seen here shares its name with a wife of the ancient Greek god Cronus:",
+          "answer": "Rhea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RH\" FACTOR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2048-s-c5-r3"
+        },
+        {
+          "question": "It's a term for a free-form musical composition emotional in effect & improvisational in nature",
+          "answer": "Rhapsody",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RH\" FACTOR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2048-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTIES OF ENGLAND",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "With 1 T it's an English county; with 2 Ts, Heisman Trophy winner Tony",
+          "answer": "Dorset/Dorsett",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTIES OF ENGLAND",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2048-d-c0-r0"
+        },
+        {
+          "question": "Sussex was named for the south Saxons; this county was named for the east Saxons",
+          "answer": "Essex",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTIES OF ENGLAND",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2048-d-c0-r1"
+        },
+        {
+          "question": "Its name means \"Southern district with the fringe on top\" (okay, we lied about the fringe part)",
+          "answer": "Surrey",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTIES OF ENGLAND",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2048-d-c0-r2"
+        },
+        {
+          "question": "Becket was killed in this county, home to Canterbury",
+          "answer": "Kent",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTIES OF ENGLAND",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2048-d-c0-r3"
+        },
+        {
+          "question": "The westernmost county of England, or what the eldest son of the monarch is duke of",
+          "answer": "Cornwall",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTIES OF ENGLAND",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2048-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTRESSES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This star who plays TV's Dharma is a classically trained ballerina",
+          "answer": "Jenna Elfman",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTRESSES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2048-d-c1-r0"
+        },
+        {
+          "question": "Movies like \"The River\" & \"Crimes of the Heart\" have earned her 5 Oscar nominations for Best Actress",
+          "answer": "Sissy Spacek",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ACTRESSES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2048-d-c1-r1"
+        },
+        {
+          "question": "She revealed that after making \"The Heartbreak Kid\" she had a fling with Elvis Presley",
+          "answer": "Cybill Shepherd",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTRESSES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2048-d-c1-r2"
+        },
+        {
+          "question": "(Hi, I'm Melody Thomas Scott from \"The Young and the Restless\")  In my film debut at age 8, I stole the show playing this Alfred Hitchcock thief as a young girl",
+          "answer": "Marnie",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTRESSES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2048-d-c1-r3"
+        },
+        {
+          "question": "This French actress played a seductress in \"Damage\" before nursing \"The English Patient\"",
+          "answer": "Juliette Binoche",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTRESSES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2048-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BRONTE BEAT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Emily Bronte novel opens with Mr. Lockwood telling of a visit with his landlord, Mr. Heathcliff",
+          "answer": "\"Wuthering Heights\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BRONTE BEAT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2048-d-c2-r0"
+        },
+        {
+          "question": "Charlotte's experience at boarding school formed the basis for Lowood in this 1847 novel",
+          "answer": "\"Jane Eyre\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BRONTE BEAT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2048-d-c2-r1"
+        },
+        {
+          "question": "Like the title character of Anne's \"Agnes Grey\", Anne & Charlotte both worked as these",
+          "answer": "Governesses",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BRONTE BEAT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2048-d-c2-r2"
+        },
+        {
+          "question": "The book of poetry Charlotte, Emily & Anne published under this pseudonymous last name sold only 2 copies",
+          "answer": "Bell (Currer, Ellis & Acton)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BRONTE BEAT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2048-d-c2-r3"
+        },
+        {
+          "question": "The portrait of the Brontes seen here was painted by this man, their brother:",
+          "answer": "Patrick Branwell Bronte",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BRONTE BEAT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2048-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "OSCAR-WINNING SONGS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"When You Wish Upon A Star\"",
+          "answer": "Pinocchio",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SONGS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2048-d-c3-r0"
+        },
+        {
+          "question": "\"Take My Breath Away\"",
+          "answer": "Top Gun",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SONGS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2048-d-c3-r1"
+        },
+        {
+          "question": "\"You Must Love Me\"",
+          "answer": "Evita",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SONGS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2048-d-c3-r2"
+        },
+        {
+          "question": "\"I'm Easy\"",
+          "answer": "Nashville",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SONGS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2048-d-c3-r3"
+        },
+        {
+          "question": "\"Sooner or Later (I Always Get My Man)\"",
+          "answer": "Dick Tracy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SONGS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2048-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AYE AYE, ADMIRAL",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1805, in memory of this admiral, his brother William was made an Earl of Trafalgar",
+          "answer": "Lord Nelson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AYE AYE, ADMIRAL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2048-d-c4-r0"
+        },
+        {
+          "question": "He died a vice admiral in 1817, that little 1789 mutiny behind him",
+          "answer": "William Bligh",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AYE AYE, ADMIRAL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2048-d-c4-r1"
+        },
+        {
+          "question": "In less than a day, May 1, 1898, his fleet demolished the Spanish fleet in Manila Bay",
+          "answer": "George Dewey",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AYE AYE, ADMIRAL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2048-d-c4-r2"
+        },
+        {
+          "question": "At the National Security Council Ollie North reported to this vice admiral",
+          "answer": "John Poindexter",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AYE AYE, ADMIRAL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2048-d-c4-r3"
+        },
+        {
+          "question": "He supervised the planning & construction of the first U.S. nuclear-powered sub, the Nautilus",
+          "answer": "Hyman Rickover",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AYE AYE, ADMIRAL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2048-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ISMs",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "By definition, it's the ism practiced by a peeping Tom",
+          "answer": "Voyeurism",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISMs",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2048-d-c5-r0"
+        },
+        {
+          "question": "This \"rate\" tells how many criminals leave prison & relapse into bad behavior",
+          "answer": "Recidivism",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISMs",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2048-d-c5-r1"
+        },
+        {
+          "question": "Max Weber's best-known work is \"The Protestant Ethic and the Spirit of\" this economic system",
+          "answer": "Capitalism",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISMs",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2048-d-c5-r2"
+        },
+        {
+          "question": "From Greek for \"The Inhabited World\", it refers to the movement toward Christian unity",
+          "answer": "Ecumenism",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ISMs",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2048-d-c5-r3"
+        },
+        {
+          "question": "As part of this Renaissance movement, Montaigne & Erasmus advocated individual reason",
+          "answer": "Humanism",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISMs",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2048-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC PEOPLE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "After his 1955 death, his papers were given to Jerusalem's Hebrew Univ. & his violin was left to his grandson",
+          "answer": "Albert Einstein",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "HISTORIC PEOPLE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2048-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

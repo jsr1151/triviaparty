@@ -1,0 +1,821 @@
+{
+  "gameId": 111,
+  "showNumber": 4693,
+  "airDate": "January 19, 2005",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1921 this New Jersey city crowned its first Miss America",
+          "answer": "Atlantic City",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g111-s-c0-r0"
+        },
+        {
+          "question": "This Georgia city that's popular with golfers was named for the mother of George III",
+          "answer": "Augusta",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g111-s-c0-r1"
+        },
+        {
+          "question": "Had this Michigan city kept its earlier name, there might have been a song \"I've Got A Gal In Bronson\"",
+          "answer": "Kalamazoo",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g111-s-c0-r2"
+        },
+        {
+          "question": "A bay & a river bear the name of this city, Alabama's second largest",
+          "answer": "Mobile",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g111-s-c0-r3"
+        },
+        {
+          "question": "An A to Z list of Ohio cities might run from Aberdeen to this birthplace of a famous western author",
+          "answer": "Zanesville",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g111-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE DIRECTORS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "He was nominated for a 1994 Oscar for directing \"Pulp Fiction\"",
+          "answer": "(Quentin) Tarantino",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g111-s-c1-r0"
+        },
+        {
+          "question": "Producers told him he could direct \"Taxi Driver\" only if he got Robert De Niro to play the lead",
+          "answer": "(Martin) Scorsese",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g111-s-c1-r1"
+        },
+        {
+          "question": "This director cast his son Kyle in a bit role as a bass player in a blues band in \"The Bridges of Madison County\"",
+          "answer": "(Clint) Eastwood",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g111-s-c1-r2"
+        },
+        {
+          "question": "This quirky Californian directed \"Batman\" & \"Batman Returns\"",
+          "answer": "(Tim) Burton",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g111-s-c1-r3"
+        },
+        {
+          "question": "In 1977 he directed his first film, \"Grand Theft Auto\", from a script he co-wrote with his father Rance",
+          "answer": "Ron Howard",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g111-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUILDING FEATURES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A roofed porch or balcony may be called a gallery, a lanai, or especially in the south, this",
+          "answer": "a veranda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUILDING FEATURES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g111-s-c2-r0"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reports from the outside of the National Cathedral in Washington, D.C.)  The National Cathedral has 110 of these figures, whose function is to carry rain away from the walls & foundation",
+          "answer": "a gargoyle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUILDING FEATURES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g111-s-c2-r1"
+        },
+        {
+          "question": "A fleche is a slender one of these rising above a church",
+          "answer": "a spire",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUILDING FEATURES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g111-s-c2-r2"
+        },
+        {
+          "question": "All right.  See the dome, players?  Now see the little \"domey\" thing on top of the dome?  That's called this, from the Latin for tub",
+          "answer": "a cupola",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUILDING FEATURES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g111-s-c2-r3"
+        },
+        {
+          "question": "Of rooms usually found in real estate listings, the one on which a dormer window etymologically belongs",
+          "answer": "the bedroom",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUILDING FEATURES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g111-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHERCHEZ LA FEMME",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Gene Tunney,Gene Tierney,Gene Rayburn",
+          "answer": "Gene Tierney",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHERCHEZ LA FEMME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g111-s-c3-r0"
+        },
+        {
+          "question": "Ashley Montagu,Ashleigh Banfield,Ashley Wilkes",
+          "answer": "Ashleigh Banfield",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHERCHEZ LA FEMME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g111-s-c3-r1"
+        },
+        {
+          "question": "Kim Philby,Kim Stanley,Kim Jong Il",
+          "answer": "Kim Stanley",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHERCHEZ LA FEMME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g111-s-c3-r2"
+        },
+        {
+          "question": "Barry Sullivan,Barrie Chase,Barry Humphries",
+          "answer": "Barrie Chase",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHERCHEZ LA FEMME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g111-s-c3-r3"
+        },
+        {
+          "question": "P.D. James,P.G. Wodehouse,P.J. O'Rourke",
+          "answer": "P.D. James",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHERCHEZ LA FEMME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g111-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHARACTERS' FAREWELLS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Towards thee I roll, thou all-destroying but unconquering whale...\"",
+          "answer": "Ahab",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS' FAREWELLS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g111-s-c4-r0"
+        },
+        {
+          "question": "\"Take thou Excalibur, my good sword, and go with it to yonder waterside...\"",
+          "answer": "King Arthur",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS' FAREWELLS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g111-s-c4-r1"
+        },
+        {
+          "question": "\"Dave, stop... stop, Dave.  Will you stop, Dave?  Stop, Dave.  I'm afraid.  I'm afraid, Dave.  Dave, my mind is going...\"",
+          "answer": "HAL",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS' FAREWELLS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g111-s-c4-r2"
+        },
+        {
+          "question": "\"It is a far, far better thing that I do, than I have ever done...\"",
+          "answer": "Sydney Carton",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS' FAREWELLS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g111-s-c4-r3"
+        },
+        {
+          "question": "\"Precious, precious, precious! My precious! O my precious!\"",
+          "answer": "Gollum",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS' FAREWELLS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g111-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODD, OLD & OBSCURE VOCABULARY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Manus usually refers to this part of the body; in fact, some people live \"from manus to mouth\"",
+          "answer": "hand",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD, OLD & OBSCURE VOCABULARY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g111-s-c5-r0"
+        },
+        {
+          "question": "Hibernal means pertaining to this season",
+          "answer": "winter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD, OLD & OBSCURE VOCABULARY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g111-s-c5-r1"
+        },
+        {
+          "question": "Related to the word \"glacier\", verglas is a thin coating of this on a rock",
+          "answer": "ice",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD, OLD & OBSCURE VOCABULARY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g111-s-c5-r2"
+        },
+        {
+          "question": "Manducate, like this word that begins with the same 2 letters, means to chew",
+          "answer": "masticate",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD, OLD & OBSCURE VOCABULARY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g111-s-c5-r3"
+        },
+        {
+          "question": "Lacteous describes something that's the color of this substance",
+          "answer": "milk",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD, OLD & OBSCURE VOCABULARY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g111-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WON",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "2 of the closest presidential races involved this man; in 1796 he lost to John Adams & in 1800 he beat Aaron Burr",
+          "answer": "Jefferson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g111-d-c0-r0"
+        },
+        {
+          "question": "COTY, once a prestigious fashion award, stood for this when the Mini Cooper won it in 2003",
+          "answer": "Car of the Year",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g111-d-c0-r1"
+        },
+        {
+          "question": "In Serbia's first post-Communist direct elections held in 1990, this man won \"reelection\" by a large majority",
+          "answer": "Slobodan Milosevic",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g111-d-c0-r2"
+        },
+        {
+          "question": "Fittingly, the HMS Victory was the British flagship at this famous 1805 battle",
+          "answer": "Trafalgar",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WON",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g111-d-c0-r3"
+        },
+        {
+          "question": "In 1984 this ice dancing pair won Olympic gold with all 9 judges giving them perfect scores for artistry",
+          "answer": "Torvill & Dean",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WON",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g111-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOSE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Linus Pauling pushed large doses of this vitamin in hopes that it would prevent cancer",
+          "answer": "C",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOSE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g111-d-c1-r0"
+        },
+        {
+          "question": "In 1965 Vincent Dole & Marie Nyswander developed a way of treating heroin addicts using high doses of this",
+          "answer": "methadone",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOSE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g111-d-c1-r1"
+        },
+        {
+          "question": "L-dopa, which becomes this neurotransmitter in the brain, is used to treat Parkinson's",
+          "answer": "dopamine",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOSE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g111-d-c1-r2"
+        },
+        {
+          "question": "The hydrogen kind of this chemical is found in apple seeds & a dose of a few milligrams can be fatal",
+          "answer": "cyanide",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOSE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g111-d-c1-r3"
+        },
+        {
+          "question": "1 gray is equal to the dose absorbed when one kilogram of matter absorbs one joule of ionizing this",
+          "answer": "radiation",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOSE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g111-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TREES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This \"sad\" tree's shade reportedly comforted Napoleon in exile on St. Helena; later, he was buried under one",
+          "answer": "a weeping willow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g111-d-c2-r0"
+        },
+        {
+          "question": "This Shel Silverstein story is about an apple tree & its friend who grows from child to adult",
+          "answer": "The Giving Tree",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g111-d-c2-r1"
+        },
+        {
+          "question": "This 5-letter tree of the pine family mentioned often in a famous Monty Python sketch is used to make telephone poles",
+          "answer": "the larch",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g111-d-c2-r2"
+        },
+        {
+          "question": "While the white variety of this \"berry\" tree feeds silkworms, other types yield edible fruit",
+          "answer": "the mulberry",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g111-d-c2-r3"
+        },
+        {
+          "question": "This type of pine named for its use in construction makes up most of the trees in Yellowstone National Park",
+          "answer": "lodgepole",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g111-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"FORE\"",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This legal process involves a mortgagor losing rights to the mortgaged property",
+          "answer": "foreclosure",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FORE\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g111-d-c3-r0"
+        },
+        {
+          "question": "He won the best actor award at the 1988 Cannes film festival for his portrayal of Charlie Parker",
+          "answer": "Forest Whitaker",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"FORE\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g111-d-c3-r1"
+        },
+        {
+          "question": "This Hitchcock film stars Joel McCrea as an American reporter who uncovers a spy ring in London prior to WWII",
+          "answer": "Foreign Correspondent",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"FORE\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g111-d-c3-r2"
+        },
+        {
+          "question": "You laugh & dance now, but I have this, a feeling inside that something terrible is about to happen",
+          "answer": "foreboding",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FORE\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g111-d-c3-r3"
+        },
+        {
+          "question": "This word can apply to a debate team or a lab that uses science to establish facts or evidence in the law",
+          "answer": "forensic",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FORE\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g111-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "'56",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Israel's conflict with Egypt near the end of 1956 led to the Israeli seizure of this peninsula",
+          "answer": "the Sinai",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'56",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g111-d-c4-r0"
+        },
+        {
+          "question": "Queen Elizabeth & the Duke of Edinburgh made an official visit to Lagos in this, Britain's largest African colony",
+          "answer": "Nigeria",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'56",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g111-d-c4-r1"
+        },
+        {
+          "question": "En route to New York, this ship collided with the Stockholm in dense fog in the North Atlantic on July 25",
+          "answer": "the Andrea Doria",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'56",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g111-d-c4-r2"
+        },
+        {
+          "question": "Founded as Queen's College in 1766, it didn't officially become the State University of New Jersey until 1956",
+          "answer": "Rutgers",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'56",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g111-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "7 DEADLY SINS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The name of this covetous \"green\" feeling can also mean the person about whom you're feeling it",
+          "answer": "envy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7 DEADLY SINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g111-d-c5-r0"
+        },
+        {
+          "question": "Gary Cooper was this \"of the Yankees\" when playing Lou Gehrig in a 1942 weeper",
+          "answer": "Pride",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7 DEADLY SINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g111-d-c5-r1"
+        },
+        {
+          "question": "Sadly, drunkenness is sometimes included with this deadly sin... hic",
+          "answer": "gluttony",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7 DEADLY SINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g111-d-c5-r2"
+        },
+        {
+          "question": "Deadly sin mentioned in the title of Irving Stone's Van Gogh book",
+          "answer": "lust",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "7 DEADLY SINS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g111-d-c5-r3"
+        },
+        {
+          "question": "It's an arboreal mammal of the Americas, & some have 3 toes",
+          "answer": "sloth",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7 DEADLY SINS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g111-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSIC AMERICAN SONGS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The introductory verse to this 1908 song begins, \"Katie Casey was baseball mad\"",
+          "answer": "\"Take Me Out To The Ball Game\"",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "CLASSIC AMERICAN SONGS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g111-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

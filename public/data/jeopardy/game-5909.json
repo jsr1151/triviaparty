@@ -1,0 +1,785 @@
+{
+  "gameId": 5909,
+  "showNumber": 340,
+  "airDate": "December 27, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "POTENT POTABLES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "When his name is used to describe a brandy, it usually means it's over 5 years old",
+          "answer": "Napoleon brandy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5909-s-c0-r0"
+        },
+        {
+          "question": "The sweeter these are originally, the higher the alcoholic content of the wine will be",
+          "answer": "grapes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5909-s-c0-r1"
+        },
+        {
+          "question": "Kamchatka, Popov, or Mr. Boston, for example",
+          "answer": "vodkas",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5909-s-c0-r2"
+        },
+        {
+          "question": "2 products which merge in a \"Seven and Seven\"",
+          "answer": "Seagram's 7 & 7-Up",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5909-s-c0-r3"
+        },
+        {
+          "question": "Classic formula for this rum drink is \"1 of sour, 2 of sweet, 3 of strong, & 4 of weak\"",
+          "answer": "daiquiri",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5909-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CARDS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This general used playing cards as ration cards during the French Revolution",
+          "answer": "Napoleon",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5909-s-c1-r0"
+        },
+        {
+          "question": "Popular 5-card game with an ante but no uncle",
+          "answer": "poker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5909-s-c1-r1"
+        },
+        {
+          "question": "This country's card makers tried replacing the standard suits with stars, shields, eagles & stripes",
+          "answer": "United States",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5909-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "MOVIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Recently revived 1927 Abel Gance film, so big it takes 3 screens to show it all",
+          "answer": "Napoleon",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5909-s-c2-r0"
+        },
+        {
+          "question": "Its sequels were \"Damien\" & \"The Final Conflict\"",
+          "answer": "The Omen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5909-s-c2-r1"
+        },
+        {
+          "question": "The 2 parts of E.T. that glowed",
+          "answer": "heart & fingertips",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5909-s-c2-r2"
+        },
+        {
+          "question": "In 1983, Mr. T took a break from \"The A-Team\" to drive a cab in this city",
+          "answer": "Washington, D.C.",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5909-s-c2-r3"
+        },
+        {
+          "question": "1972 comedy, it's Woody Allen's only film based on a best seller",
+          "answer": "Everything You Always Wanted to Know About Sex* (*But Were Afraid to Ask)",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5909-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RULERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "He said, \"I have never loved anyone for love's sake, except perhaps, Josephine -- a little\"",
+          "answer": "Napoleon",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5909-s-c3-r0"
+        },
+        {
+          "question": "1st to rule all of Britain, probably best remembered for bible translation he sponsored",
+          "answer": "King James I",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5909-s-c3-r1"
+        },
+        {
+          "question": "1st Russian ruler to be called \"czar\", he annexed Siberia &, in 1580, killed his son",
+          "answer": "Ivan the Terrible",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5909-s-c3-r2"
+        },
+        {
+          "question": "Longest reign ever, 94 years, was that of Pepi II, who ruled this country about 2300 B.C.",
+          "answer": "Egypt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5909-s-c3-r3"
+        },
+        {
+          "question": "2 of 3 Arab countries currently ruled by kings",
+          "answer": "(2 of) Saudi Arabia, Jordan, & Morocco",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5909-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PROVERBS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "When the cat's away, what the mice will do",
+          "answer": "play",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5909-s-c4-r0"
+        },
+        {
+          "question": "As you make your bed, so must you do this",
+          "answer": "lie in it",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5909-s-c4-r1"
+        },
+        {
+          "question": "Said Francis Bacon, \"If the mountain will not come to Muhammed, Muhammed will\" do this",
+          "answer": "go to the mountain",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5909-s-c4-r2"
+        },
+        {
+          "question": "\"Man proposes\", but God does this",
+          "answer": "disposes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5909-s-c4-r3"
+        },
+        {
+          "question": "\"A bad workman quarrels with\" these",
+          "answer": "his tools",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5909-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "JUST DESSERTS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Rich treat composed of layers of puff pastry filled with cream, custard, or jelly",
+          "answer": "Napoleon",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5909-s-c5-r0"
+        },
+        {
+          "question": "Fruit usually set afire in a \"Jubilee\"",
+          "answer": "cherries",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5909-s-c5-r1"
+        },
+        {
+          "question": "Weapon featured in the Laurel & Hardy comedy \"The Battle of the Century\"",
+          "answer": "pies",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5909-s-c5-r2"
+        },
+        {
+          "question": "Italian for \"pressed out\", machines to make this dessert drink can run up to $500",
+          "answer": "espresso",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5909-s-c5-r3"
+        },
+        {
+          "question": "Obtained from drying cassava starch, it's used in puddings",
+          "answer": "tapioca",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5909-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "U.S. participation in Korean War was under sponsorship of this organization",
+          "answer": "United Nations",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5909-d-c0-r0"
+        },
+        {
+          "question": "Though shot by 12-man French firing squad, only 3 bullets hit & killed this WWI spy",
+          "answer": "Mata Hari",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5909-d-c0-r1"
+        },
+        {
+          "question": "Within 1, the year in which number of U.S. servicemen in Vietnam reached peak, 543,400",
+          "answer": "1969",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5909-d-c0-r2"
+        },
+        {
+          "question": "This country lost its only seaport in 19th century war with Chile",
+          "answer": "Bolivia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5909-d-c0-r3"
+        },
+        {
+          "question": "After Spanish-American War, Congress created the rank of Admiral of the Navy for him",
+          "answer": "Admiral (George) Dewey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5909-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY LINGO",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A biting satire, Harvard's went \"National\"",
+          "answer": "lampoon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LINGO",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5909-d-c1-r0"
+        },
+        {
+          "question": "One writer's deliberate theft of another's literary material",
+          "answer": "plagiarism",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LINGO",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5909-d-c1-r1"
+        },
+        {
+          "question": "Not a spectral but a surrogate author",
+          "answer": "ghostauthor/ghostwriter",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LINGO",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5909-d-c1-r2"
+        },
+        {
+          "question": "Whether Shakespearean, Spenserian, or Petrarchian, they have but 14 lines",
+          "answer": "sonnet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LINGO",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5909-d-c1-r3"
+        },
+        {
+          "question": "Most similes begin with one or the other of these 2 words",
+          "answer": "like or as",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY LINGO",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5909-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN RELIGION",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Fundamentally, a fundamentalist believes in the literal truth of this book",
+          "answer": "the Bible",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5909-d-c2-r0"
+        },
+        {
+          "question": "\"Trembling\" sect that's now almost extinct due to celibacy",
+          "answer": "Shakers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5909-d-c2-r1"
+        },
+        {
+          "question": "Despite handling these, no Hopi priest is known to have been killed in snake dance ceremony",
+          "answer": "rattlesnakes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5909-d-c2-r2"
+        },
+        {
+          "question": "Term for Pentacostalists sometimes known to writhe on the ground in religious ecstasy",
+          "answer": "holy rollers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RELIGION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5909-d-c2-r3"
+        },
+        {
+          "question": "America's largest Protestant denomination",
+          "answer": "(Southern) Baptists",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RELIGION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5909-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRY SINGERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Surname shared by singers Johnny, Brenda & Dickey",
+          "answer": "Lee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SINGERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5909-d-c3-r0"
+        },
+        {
+          "question": "For more than 10 years, they've been hosting \"Hee Haw\" together",
+          "answer": "Buck Owens & (Roy) Clark",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SINGERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5909-d-c3-r1"
+        },
+        {
+          "question": "These \"Brothers\" have been countin' money in their pockets since \"Countin' Flowers on the Wall\" in 1966",
+          "answer": "The Statler Brothers",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SINGERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5909-d-c3-r2"
+        },
+        {
+          "question": "At age 14, in 1972, the career of this singer dawned with \"Delta Dawn\"",
+          "answer": "Tanya Tucker",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SINGERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5909-d-c3-r3"
+        },
+        {
+          "question": "\"Kentucky Rain\", Presley's 50th gold record, was written by this Brooklyn boy who \"Loves a Rainy Night\"",
+          "answer": "Eddie Rabbitt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SINGERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5909-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ASTRONOMY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Most major stars' names are from Greek, Latin, or this Middle Eastern language",
+          "answer": "Arabic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5909-d-c4-r0"
+        },
+        {
+          "question": "Neighbor of Uranus, it's only about 1/2 as dense as Earth",
+          "answer": "Neptune",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5909-d-c4-r1"
+        },
+        {
+          "question": "Because of planetary pull, all comets travel in orbits of this oval shape",
+          "answer": "ellipse",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5909-d-c4-r2"
+        },
+        {
+          "question": "Most asteroids are found between the orbits of these 2 planets",
+          "answer": "Mars & Jupiter",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5909-d-c4-r3"
+        },
+        {
+          "question": "A solar eclipse can only take place when the moon is in this phase",
+          "answer": "new",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5909-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALTIMORE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1803, this French emperor's younger brother, Jerome, was married in Baltimore",
+          "answer": "Napoleon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALTIMORE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5909-d-c5-r0"
+        },
+        {
+          "question": "Baltimore-reared \"King of Hi De Ho\" who wrote this:",
+          "answer": "Cab Calloway",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALTIMORE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5909-d-c5-r1"
+        },
+        {
+          "question": "Mysterious circumstances led to this poet's 1849 death in Baltimore",
+          "answer": "(Edgar Allan) Poe",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALTIMORE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5909-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "LANDMARKS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Of the 6 current standard U.S. coins, the number that feature U.S. landmarks",
+          "answer": "2",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "LANDMARKS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5909-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 433,
+  "showNumber": 4815,
+  "airDate": "July 8, 2005",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "DEATH OF A PRESIDENT",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He died on Independence Day in 1826 at his beloved Monticello",
+          "answer": "Thomas Jefferson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEATH OF A PRESIDENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g433-s-c0-r0"
+        },
+        {
+          "question": "He died on Independence Day in 1826 in Quincy, Massachusetts",
+          "answer": "John Adams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEATH OF A PRESIDENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g433-s-c0-r1"
+        },
+        {
+          "question": "Pneumonia claimed this president's life on April 4, 1841",
+          "answer": "William Henry Harrison",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEATH OF A PRESIDENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g433-s-c0-r2"
+        },
+        {
+          "question": "His March 8, 1930 death occured a month after he resigned as Chief Justice of the Supreme Court due to heart trouble",
+          "answer": "(William) Taft",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEATH OF A PRESIDENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g433-s-c0-r3"
+        },
+        {
+          "question": "He died in his sleep on February 3, 1924, 6 months after Warren Harding",
+          "answer": "(Woodrow) Wilson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEATH OF A PRESIDENT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g433-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BONDS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Despite their name, these partly tax-exempt bonds aren't just issued by cities & towns but by hospitals & colleges too",
+          "answer": "municipal bonds",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BONDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g433-s-c1-r0"
+        },
+        {
+          "question": "In 1998 Californians OK'd a $9.2-billion bond measure to help these; seemed like a lot to borrow back then",
+          "answer": "schools",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BONDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g433-s-c1-r1"
+        },
+        {
+          "question": "This term refers to bonds issued in U.S. dollars from foreign issuers, not to bonds issued by George Steinbrenner",
+          "answer": "Yankee bonds",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BONDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g433-s-c1-r2"
+        },
+        {
+          "question": "The Treasury's post-9/11 \"Patriot Bond\" is considered this type, last seen in the U.S. in the 1940s",
+          "answer": "war bonds",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BONDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g433-s-c1-r3"
+        },
+        {
+          "question": "In 1909 he started publishing letter ratings of the bonds of America's railroads",
+          "answer": "(John) Moody",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BONDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g433-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE FIRST WORD",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In our Constitution's preamble",
+          "answer": "We",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST WORD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g433-s-c2-r0"
+        },
+        {
+          "question": "In Melville's \"Moby Dick\"",
+          "answer": "Call",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST WORD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g433-s-c2-r1"
+        },
+        {
+          "question": "In Dickens' \"A Christmas Carol\"",
+          "answer": "Marley",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST WORD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g433-s-c2-r2"
+        },
+        {
+          "question": "In Bulwer-Lytton's novel \"Paul Clifford\"",
+          "answer": "It",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST WORD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g433-s-c2-r3"
+        },
+        {
+          "question": "In Shakespeare's 18th sonnet",
+          "answer": "Shall",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST WORD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g433-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "HENRY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1957 he produced & starred in the landmark drama \"12 Angry Men\"",
+          "answer": "Henry Fonda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HENRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g433-s-c3-r0"
+        },
+        {
+          "question": "Flowery poems by Henry Gibson were often featured on this wacky 1960s sketch-comedy show",
+          "answer": "Laugh-In",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HENRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g433-s-c3-r1"
+        },
+        {
+          "question": "King Henry VIII had Anne Boleyn's head chopped off so he could take up with this lady-in-waiting, his next wife",
+          "answer": "Jane Seymour",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HENRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g433-s-c3-r2"
+        },
+        {
+          "question": "Nominated for 18 Oscars, one of his first jobs was composing music for an Abbott & Costello movie",
+          "answer": "Mancini",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HENRY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g433-s-c3-r3"
+        },
+        {
+          "question": "Henry Pu Yi's last years as the ruler of China were the basis of this 1987 film",
+          "answer": "The Last Emperor",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HENRY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g433-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE EIGHTH",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In music, it's also called a quaver",
+          "answer": "an eighth note",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EIGHTH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g433-s-c4-r0"
+        },
+        {
+          "question": "In 1948 Citation became the eighth to win this, & the last for 25 years",
+          "answer": "the Triple Crown",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EIGHTH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g433-s-c4-r1"
+        },
+        {
+          "question": "This eighth book of the Old Testament is named for a Moabite woman",
+          "answer": "Ruth",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EIGHTH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g433-s-c4-r2"
+        },
+        {
+          "question": "Louis IX of France died during the eighth of these campaigns",
+          "answer": "crusades",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EIGHTH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g433-s-c4-r3"
+        },
+        {
+          "question": "The Constitution's Eighth Amendment prohibits excessive bail & fines & these 2 kinds of punishment",
+          "answer": "cruel & unusual",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EIGHTH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g433-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "I NEED A NEW \"QUEEN\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Head to this franchise for a Brownie Earthquake",
+          "answer": "Dairy Queen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I NEED A NEW \"QUEEN\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g433-s-c5-r0"
+        },
+        {
+          "question": "This fictional detective solved his first mystery in 1929",
+          "answer": "Ellery Queen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I NEED A NEW \"QUEEN\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g433-s-c5-r1"
+        },
+        {
+          "question": "\"O Canada\" is Canada's national anthem; this song is its royal anthem",
+          "answer": "\"God Save The Queen\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I NEED A NEW \"QUEEN\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g433-s-c5-r2"
+        },
+        {
+          "question": "At the time of its construction, this span over the East River was the longest cantilever bridge in the U.S.",
+          "answer": "the Queensboro Bridge",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "I NEED A NEW \"QUEEN\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g433-s-c5-r3"
+        },
+        {
+          "question": "It was Anne Rice's second followup to \"Interview with the Vampire\"",
+          "answer": "Queen of the Damned",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I NEED A NEW \"QUEEN\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g433-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY VENICE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This libidinous lord's Venetian exploits included an 1818 swim from the Lido \"right to the end of the Grand Canal\"",
+          "answer": "Lord Byron",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY VENICE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g433-d-c0-r0"
+        },
+        {
+          "question": "(Sarah of the Clue Crew reports from a Venetian canal.) Much of this Shakespeare play is set here in the title city, including the trial where Shylock demands a pound of flesh",
+          "answer": "The Merchant of Venice",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY VENICE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g433-d-c0-r1"
+        },
+        {
+          "question": "This \"Andrea del Sarto\" poet spent his final days at Ca' Rezzonico, the palatial home of his son Pen, & died there in 1889",
+          "answer": "Robert Browning",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY VENICE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g433-d-c0-r2"
+        },
+        {
+          "question": "\"Yes, this was Venice... half fairy-tale, half snare\", wrote this author in \"Death in Venice\"",
+          "answer": "Thomas Mann",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY VENICE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g433-d-c0-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew reports from Caffe Florian in Venice, Italy.)  I'm at Caffe Florian, a favorite spot of this U.S.-born author, who wrote about it in \"The Wings of the Dove\" & \"The Aspern Papers\"",
+          "answer": "Henry James",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY VENICE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g433-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE TITLE PAIRS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "1989:Tom Hanks &a slobbering junkyard dog",
+          "answer": "Turner and Hooch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE PAIRS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g433-d-c1-r0"
+        },
+        {
+          "question": "1973:James Coburn &Kris Kristofferson",
+          "answer": "Pat Garrett and Billy the Kid",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE PAIRS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g433-d-c1-r1"
+        },
+        {
+          "question": "1989:Sylvester Stallone &Kurt Russell",
+          "answer": "Tango and Cash",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE PAIRS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g433-d-c1-r2"
+        },
+        {
+          "question": "1952:Katharine Hepburn &Spencer Tracy",
+          "answer": "Pat and Mike",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE PAIRS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g433-d-c1-r3"
+        },
+        {
+          "question": "1974:Clint Eastwood &Jeff Bridges",
+          "answer": "Thunderbolt and Lightfoot",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TITLE PAIRS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g433-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CAPITAL IDEAS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Lucio Costa designed this South American city for 500,000 people; today the population is over 2 million",
+          "answer": "Brasilia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL IDEAS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g433-d-c2-r0"
+        },
+        {
+          "question": "The U.K. helped fund the design of this capital after Belize City was destroyed by a hurricane",
+          "answer": "Belmopan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL IDEAS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g433-d-c2-r1"
+        },
+        {
+          "question": "Punjab's capital Chandigarh was designed by this largely self-taught Swiss architect",
+          "answer": "Le Corbusier",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL IDEAS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g433-d-c2-r2"
+        },
+        {
+          "question": "This architect served at Valley Forge before his appointment by Washington to design the new capital",
+          "answer": "L'Enfant",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL IDEAS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g433-d-c2-r3"
+        },
+        {
+          "question": "This planned \"City of Peace\" includes the National Mosque as well as the Atomic Research Institute",
+          "answer": "Islamabad",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL IDEAS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g433-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAKING THE CUT",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This steak is named for the letter-shaped hard substance separating the tenderloin from the top loin",
+          "answer": "T-bone",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAKING THE CUT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g433-d-c3-r0"
+        },
+        {
+          "question": "This rib roast is typically only rated as a \"choice\" cut, but its name signifies the highest-quality meat",
+          "answer": "prime rib",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAKING THE CUT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g433-d-c3-r1"
+        },
+        {
+          "question": "This cut's name derives from a N.Y. liquor establishment & contains the tenderloin & the top loin muscle",
+          "answer": "porterhouse",
+          "value": 100,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAKING THE CUT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g433-d-c3-r2"
+        },
+        {
+          "question": "This geometric-sounding section of the hind leg extends from the rump to the ankle",
+          "answer": "the round",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAKING THE CUT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g433-d-c3-r3"
+        },
+        {
+          "question": "French for \"between the ribs\", this tender cut comes from the meat between the 9th & 11th ribs",
+          "answer": "entrecôte",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAKING THE CUT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g433-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE GUYS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This Pole died in 1543, days after receiving the first copy of his book \"On the Revolutions of Heavenly Bodies\"",
+          "answer": "Copernicus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g433-d-c4-r0"
+        },
+        {
+          "question": "Although known as the founder of microbiology, this French chemist's first discoveries were in crystallography",
+          "answer": "Pasteur",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g433-d-c4-r1"
+        },
+        {
+          "question": "While serving as secretary of the Geological Society of London, 1839-41, he wrote the \"Journal of Researches\"",
+          "answer": "Darwin",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g433-d-c4-r2"
+        },
+        {
+          "question": "In 1938 Mussolini let him travel to Sweden to receive his Nobel Prize for Physics; he then defected to the U.S.",
+          "answer": "(Enrico) Fermi",
+          "value": 1400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g433-d-c4-r3"
+        },
+        {
+          "question": "In the 1820s this British scientist discovered the laws of electrical induction forming the basis for the magneto & dynamo",
+          "answer": "Michael Faraday",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE GUYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g433-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"V\" IS FOR...",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "...this, a boat, bowl or blood-carrier",
+          "answer": "vessel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\" IS FOR...",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g433-d-c5-r0"
+        },
+        {
+          "question": "...this style of house, a specialty of artist Debbie Patrick",
+          "answer": "Victorian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\" IS FOR...",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g433-d-c5-r1"
+        },
+        {
+          "question": "...this material, what old phonograph records are made of",
+          "answer": "vinyl",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\" IS FOR...",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g433-d-c5-r2"
+        },
+        {
+          "question": "...this uplifting Italian import heard here",
+          "answer": "\"Volare\"",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\" IS FOR...",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g433-d-c5-r3"
+        },
+        {
+          "question": "...this official who rules over a province or colony in the name of a king",
+          "answer": "viceroy",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\" IS FOR...",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g433-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "OLYMPIC ATHLETES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1960 European journalists gave her the nickname \"La Gazzella\"",
+          "answer": "Wilma Rudolph",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "OLYMPIC ATHLETES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g433-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}
