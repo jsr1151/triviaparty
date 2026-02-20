@@ -108,9 +108,13 @@ const SEASON_OPTIONS = Array.from({ length: 40 }, (_, i) => i + 1);
 export default function JeopardyPage() {
   // ── Data loading
   const [allGames, setAllGames] = useState<JeopardyGameData[]>([]);
+  const [indexEntries, setIndexEntries] = useState<JeopardyIndexEntry[]>([]);
   const [displayGames, setDisplayGames] = useState<JeopardyGame[]>([]);
   const [loading, setLoading] = useState(true);
   const [dataSource, setDataSource] = useState<'api' | 'files' | 'empty'>('api');
+  const [replayLoadingId, setReplayLoadingId] = useState<string | null>(null);
+  const [libraryLoading, setLibraryLoading] = useState(false);
+  const [libraryProgress, setLibraryProgress] = useState({ loaded: 0, total: 0 });
 
   // ── Mode selection
   const [gameMode, setGameMode] = useState<GameMode>('replay');
@@ -136,31 +140,26 @@ export default function JeopardyPage() {
     async function load() {
       const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
-      // 1. Try static JSON files first (works for GitHub Pages and local scraped data)
+      // 1. Try static index first (fast startup for GitHub Pages and local scraped data)
       try {
-        const idxRes = await fetch(`${base}/data/jeopardy/index.json`, { cache: 'no-store' });
+        const idxRes = await fetch(`${base}/data/jeopardy/index.json`);
+        if (!idxRes.ok) throw new Error('index fetch failed');
         const index: JeopardyIndexEntry[] = await idxRes.json();
         if (index.length > 0) {
-          const rawGames: JeopardyGameData[] = [];
-          const uiGames: JeopardyGame[] = [];
-          for (const entry of index) {
-            try {
-              const gRes = await fetch(`${base}/data/jeopardy/${entry.file}`, { cache: 'no-store' });
-              if (!gRes.ok) continue;
-              const gData: JeopardyGameData = await gRes.json();
-              rawGames.push(gData);
-              uiGames.push(normaliseJsonGame(gData));
-            } catch {
-              continue;
-            }
-          }
-          if (uiGames.length > 0) {
-            setAllGames(rawGames);
-            setDisplayGames(uiGames);
-            setDataSource('files');
-            setLoading(false);
-            return;
-          }
+          setIndexEntries(index);
+          setDisplayGames(index.map(entry => ({
+            id: String(entry.gameId),
+            gameId: entry.gameId,
+            showNumber: entry.showNumber,
+            airDate: entry.airDate,
+            season: entry.season,
+            isSpecial: entry.isSpecial,
+            tournamentType: entry.tournamentType,
+            categories: [],
+          })));
+          setDataSource('files');
+          setLoading(false);
+          return;
         }
       } catch { /* fall through */ }
 
@@ -183,6 +182,51 @@ export default function JeopardyPage() {
     load();
   }, []);
 
+  async function loadAllGamesFromFiles() {
+    if (libraryLoading || allGames.length > 0 || dataSource !== 'files' || indexEntries.length === 0) {
+      return;
+    }
+    setLibraryLoading(true);
+    setLibraryProgress({ loaded: 0, total: indexEntries.length });
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+    const loadedGames: JeopardyGameData[] = [];
+    const concurrency = 8;
+    let cursor = 0;
+    let loadedCount = 0;
+
+    const worker = async () => {
+      while (cursor < indexEntries.length) {
+        const current = cursor;
+        cursor += 1;
+        const entry = indexEntries[current];
+        try {
+          const res = await fetch(`${base}/data/jeopardy/${entry.file}`);
+          if (!res.ok) continue;
+          const game: JeopardyGameData = await res.json();
+          loadedGames.push(game);
+        } catch {
+          // skip failures and continue bulk load
+        } finally {
+          loadedCount += 1;
+          if (loadedCount % 25 === 0 || loadedCount === indexEntries.length) {
+            setLibraryProgress({ loaded: loadedCount, total: indexEntries.length });
+          }
+        }
+      }
+    };
+
+    await Promise.all(Array.from({ length: concurrency }, () => worker()));
+    setAllGames(loadedGames);
+    setLibraryProgress({ loaded: loadedGames.length, total: indexEntries.length });
+    setLibraryLoading(false);
+  }
+
+  useEffect(() => {
+    if (gameMode === 'random' || gameMode === 'custom') {
+      loadAllGamesFromFiles();
+    }
+  }, [gameMode, dataSource, indexEntries.length]);
+
   // ── Board builders ───────────────────────────────────────────────────────
 
   function buildBoard(game: JeopardyGame, round: 'single' | 'double' | 'final') {
@@ -200,10 +244,35 @@ export default function JeopardyPage() {
     setCurrentRound(round);
   }
 
-  function startReplay(game: JeopardyGame) {
-    setSelectedGame(game);
-    buildBoard(game, 'single');
-    setScore(0);
+  async function startReplay(game: JeopardyGame) {
+    if (game.categories.length > 0) {
+      setSelectedGame(game);
+      buildBoard(game, 'single');
+      setScore(0);
+      return;
+    }
+
+    if (!game.gameId) return;
+
+    const entry = indexEntries.find(e => e.gameId === game.gameId);
+    if (!entry) return;
+
+    setReplayLoadingId(game.id);
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+    try {
+      const res = await fetch(`${base}/data/jeopardy/${entry.file}`);
+      if (!res.ok) throw new Error('game fetch failed');
+      const gameData: JeopardyGameData = await res.json();
+      const normalised = normaliseJsonGame(gameData);
+      setDisplayGames(prev => prev.map(g => (g.id === game.id ? normalised : g)));
+      setSelectedGame(normalised);
+      buildBoard(normalised, 'single');
+      setScore(0);
+    } catch {
+      alert('Unable to load this game right now. Please try again.');
+    } finally {
+      setReplayLoadingId(null);
+    }
   }
 
   function startRandom() {
@@ -450,7 +519,7 @@ export default function JeopardyPage() {
       <h1 className="text-4xl font-bold text-yellow-400 mb-2 text-center">Jeopardy!</h1>
       {dataSource === 'files' && (
         <p className="text-center text-blue-300 text-sm mb-4">
-          {displayGames.length} game{displayGames.length !== 1 ? 's' : ''} loaded from local JSON files
+          {displayGames.length} game{displayGames.length !== 1 ? 's' : ''} indexed from local JSON files
         </p>
       )}
 
@@ -530,13 +599,16 @@ export default function JeopardyPage() {
                     <button
                       key={game.id}
                       onClick={() => startReplay(game)}
+                      disabled={replayLoadingId === game.id}
                       className="w-full bg-blue-800 hover:bg-blue-700 rounded-lg px-4 py-2 text-left transition-colors"
                     >
                       <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
                         <div className="font-bold text-yellow-300">Show #{game.showNumber}</div>
                         <div className="text-gray-300">{game.airDate}</div>
                         <div className="text-blue-300">S{game.season ?? '?'}</div>
-                        <div className="text-blue-300">{game.categories.length} cats</div>
+                        <div className="text-blue-300">
+                          {replayLoadingId === game.id ? 'Loading…' : `${game.categories.length || '?'} cats`}
+                        </div>
                       </div>
                     </button>
                   ))}
@@ -545,6 +617,7 @@ export default function JeopardyPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {replayGames.map(game => (
                     <button key={game.id} onClick={() => startReplay(game)}
+                      disabled={replayLoadingId === game.id}
                       className="bg-blue-800 hover:bg-blue-700 rounded-xl p-6 text-left transition-colors">
                       <div className="flex items-center gap-2 mb-1">
                         <span className="text-xl font-bold">Show #{game.showNumber}</span>
@@ -556,7 +629,9 @@ export default function JeopardyPage() {
                       </div>
                       <div className="text-gray-300 text-sm">{game.airDate}</div>
                       {game.season && <div className="text-blue-300 text-sm">Season {game.season}</div>}
-                      <div className="text-sm text-blue-300 mt-2">{game.categories.length} categories</div>
+                      <div className="text-sm text-blue-300 mt-2">
+                        {replayLoadingId === game.id ? 'Loading game…' : `${game.categories.length || '?'} categories`}
+                      </div>
                     </button>
                   ))}
                 </div>
@@ -569,7 +644,11 @@ export default function JeopardyPage() {
       {/* ── RANDOM MODE ── */}
       {gameMode === 'random' && (
         <div className="max-w-lg mx-auto text-center">
-          {allGames.length === 0 ? (
+          {libraryLoading ? (
+            <div className="text-gray-300">
+              Loading clue library… {libraryProgress.loaded.toLocaleString()} / {libraryProgress.total.toLocaleString()}
+            </div>
+          ) : allGames.length === 0 ? (
             <EmptyState />
           ) : (
             <>
@@ -588,7 +667,11 @@ export default function JeopardyPage() {
       {/* ── CUSTOM MODE ── */}
       {gameMode === 'custom' && (
         <div className="max-w-2xl mx-auto">
-          {allGames.length === 0 ? (
+          {libraryLoading ? (
+            <div className="text-center text-gray-300">
+              Loading clue library… {libraryProgress.loaded.toLocaleString()} / {libraryProgress.total.toLocaleString()}
+            </div>
+          ) : allGames.length === 0 ? (
             <EmptyState />
           ) : (
             <>
