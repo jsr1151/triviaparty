@@ -60,24 +60,54 @@ and on Vercel **without any database**.
 
 ### Scraping games
 
-#### Option A — GitHub Actions (recommended, no local setup needed)
+#### Option A — GitHub Codespaces (fastest, no install needed)
 
-> **⚠️ Requires merging the PR to `main` first.**  
-> GitHub only shows `workflow_dispatch` workflows that exist on the **default branch**.  
-> Until this PR is merged, the "Scrape J-Archive Games" button will not appear in the Actions tab.
+Open a free cloud terminal in your browser — no local Node.js, no merging required:
 
-**Steps:**
-1. **Merge the PR** (or push this branch's contents to `main`)
-2. Go to **Actions → Scrape J-Archive Games → Run workflow**
-3. To scrape a full season: fill in the **season** field with a number (e.g. `1` for Season 1 — ~79 games) and leave **game_ids** blank
-4. To scrape specific episodes: leave **season** blank and fill **game_ids** with space-separated IDs (e.g. `173 174 175`)
-5. Click **Run workflow**
+1. Go to **[https://github.com/jsr1151/triviaparty/tree/copilot/build-trivia-game-site](https://github.com/jsr1151/triviaparty/tree/copilot/build-trivia-game-site)**
+2. Click the green **`<> Code`** button → **Codespaces** tab → **Create codespace on copilot/build-trivia-game-site**
+3. Wait ~60 seconds for the environment to start (Node.js is pre-installed, `npm install` runs automatically)
+4. In the Codespaces terminal, run:
 
-The workflow scrapes the games, writes the JSON files, and commits them to the branch automatically. The Jeopardy page picks them up on next load.
+```bash
+# Scrape all of Season 1 (~79 games)
+npm run scrape -- --season 1
+
+# Or scrape a single episode
+npm run scrape -- 173
+
+# Commit and push the JSON files
+git add public/data/jeopardy/
+git commit -m "feat: add Season 1 Jeopardy games"
+git push
+```
+
+The scraped games appear on the live site at `https://jsr1151.github.io/triviaparty/` within seconds of pushing.
+
+---
+
+#### Option B — GitHub Actions (after merging the PR)
+
+> **⚠️ This workflow only appears in the Actions tab once the PR is merged to `main`.**
+>
+> **How to merge the PR** (4 steps on the GitHub website):
+> 1. Go to **[https://github.com/jsr1151/triviaparty/pull/1](https://github.com/jsr1151/triviaparty/pull/1)**
+> 2. Scroll to the bottom — click **"Ready for review"** (the PR is currently a *draft*; this button converts it to a regular PR)
+> 3. Click **"Merge pull request"**
+> 4. Click **"Confirm merge"**
+>
+> After merging, go to **Actions → Scrape J-Archive Games → Run workflow**.
+
+**To scrape once the workflow is visible:**
+- Full season: fill in the **season** field (e.g. `1` for Season 1 — ~79 games), leave **game_ids** blank
+- Specific episodes: leave **season** blank, fill **game_ids** with space-separated IDs (e.g. `173 174 175`)
+- Click **Run workflow**
+
+The workflow commits the JSON files to the repo automatically. The Jeopardy page picks them up on next load.
 
 **Season 1 info:** 79 episodes, game IDs mostly in the range 170–250. The first episode (Show #1, 1984-09-10) is game ID **173**.
 
-#### Option B — locally (requires Node.js)
+#### Option C — locally (requires Node.js)
 
 ```bash
 # Install dependencies first
