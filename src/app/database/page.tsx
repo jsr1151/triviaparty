@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 
 interface DatabaseQuestion {
   id: string;
+  source: 'database' | 'jeopardy';
   type: string;
   difficulty: string;
   question: string;
@@ -19,11 +20,23 @@ interface DatabaseQuestion {
     rankingQuestion: { items: unknown[]; criteria: string } | null;
     mediaQuestion: { mediaType: string; mediaUrl: string } | null;
     promptQuestion: { hints: unknown[] } | null;
+    jeopardy: {
+      gameId: number;
+      showNumber: number;
+      airDate: string;
+      season: number | null;
+      value: number | null;
+      round: string;
+      dailyDouble: boolean;
+      tripleStumper: boolean;
+      category: string;
+    } | null;
   };
 }
 
-const TYPES = ['all', 'multiple_choice', 'open_ended', 'list', 'grouping', 'this_or_that', 'ranking', 'media', 'prompt'];
-const DIFFICULTIES = ['all', 'easy', 'medium', 'hard'];
+const TYPES = ['all', 'jeopardy', 'multiple_choice', 'open_ended', 'list', 'grouping', 'this_or_that', 'ranking', 'media', 'prompt'];
+const DIFFICULTIES = ['all', 'n/a', 'easy', 'medium', 'hard'];
+const SOURCES = ['all', 'database', 'jeopardy'];
 
 function asArray(value: unknown): unknown[] {
   return Array.isArray(value) ? value : [];
@@ -38,6 +51,10 @@ function formatInfo(q: DatabaseQuestion): string {
   if (q.details.rankingQuestion) return `${asArray(q.details.rankingQuestion.items).length} ranked items • ${q.details.rankingQuestion.criteria}`;
   if (q.details.mediaQuestion) return `${q.details.mediaQuestion.mediaType} • ${q.details.mediaQuestion.mediaUrl}`;
   if (q.details.promptQuestion) return `${asArray(q.details.promptQuestion.hints).length} hints`;
+  if (q.details.jeopardy) {
+    const valueLabel = q.details.jeopardy.value == null ? 'FJ' : `$${q.details.jeopardy.value}`;
+    return `Show #${q.details.jeopardy.showNumber} • ${q.details.jeopardy.round} • ${valueLabel}`;
+  }
   return 'No type details';
 }
 
@@ -50,6 +67,7 @@ export default function DatabasePage() {
   const [search, setSearch] = useState('');
   const [type, setType] = useState('all');
   const [difficulty, setDifficulty] = useState('all');
+  const [source, setSource] = useState('all');
 
   useEffect(() => {
     async function load() {
@@ -58,6 +76,7 @@ export default function DatabasePage() {
       if (search.trim()) params.set('search', search.trim());
       if (type !== 'all') params.set('type', type);
       if (difficulty !== 'all') params.set('difficulty', difficulty);
+      if (source !== 'all') params.set('source', source);
 
       try {
         const res = await fetch(`/api/questions/database?${params.toString()}`);
@@ -73,7 +92,7 @@ export default function DatabasePage() {
     }
 
     load();
-  }, [page, limit, search, type, difficulty]);
+  }, [page, limit, search, type, difficulty, source]);
 
   const totalPages = Math.max(1, Math.ceil(total / limit));
 
@@ -83,13 +102,22 @@ export default function DatabasePage() {
         <h1 className="text-4xl font-bold mb-2 text-cyan-400">🗄️ Database</h1>
         <p className="text-gray-300 mb-6">Browse questions in the database with their tags and type metadata.</p>
 
-        <div className="bg-gray-900 rounded-xl p-4 mb-4 grid grid-cols-1 md:grid-cols-4 gap-3">
+        <div className="bg-gray-900 rounded-xl p-4 mb-4 grid grid-cols-1 md:grid-cols-5 gap-3">
           <input
             value={search}
             onChange={(e) => { setPage(1); setSearch(e.target.value); }}
             placeholder="Search question or explanation..."
             className="md:col-span-2 bg-gray-800 rounded-lg px-3 py-2"
           />
+          <select
+            value={source}
+            onChange={(e) => { setPage(1); setSource(e.target.value); }}
+            className="bg-gray-800 rounded-lg px-3 py-2"
+          >
+            {SOURCES.map(s => (
+              <option key={s} value={s}>{s === 'all' ? 'All sources' : s}</option>
+            ))}
+          </select>
           <select
             value={type}
             onChange={(e) => { setPage(1); setType(e.target.value); }}
@@ -116,6 +144,8 @@ export default function DatabasePage() {
           <table className="w-full min-w-[980px] text-sm">
             <thead className="bg-gray-900 text-gray-300">
               <tr>
+                <th className="text-left p-3">ID</th>
+                <th className="text-left p-3">Source</th>
                 <th className="text-left p-3">Question</th>
                 <th className="text-left p-3">Type</th>
                 <th className="text-left p-3">Difficulty</th>
@@ -126,12 +156,14 @@ export default function DatabasePage() {
             </thead>
             <tbody>
               {loading ? (
-                <tr><td className="p-4 text-gray-400" colSpan={6}>Loading...</td></tr>
+                <tr><td className="p-4 text-gray-400" colSpan={8}>Loading...</td></tr>
               ) : questions.length === 0 ? (
-                <tr><td className="p-4 text-gray-400" colSpan={6}>No questions found.</td></tr>
+                <tr><td className="p-4 text-gray-400" colSpan={8}>No questions found.</td></tr>
               ) : (
                 questions.map(q => (
                   <tr key={q.id} className="border-t border-gray-800 align-top">
+                    <td className="p-3 text-xs text-yellow-300">{q.id}</td>
+                    <td className="p-3 text-xs">{q.source}</td>
                     <td className="p-3">
                       <div className="font-medium">{q.question}</div>
                       {q.explanation && <div className="text-xs text-gray-400 mt-1">{q.explanation}</div>}
