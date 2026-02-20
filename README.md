@@ -60,23 +60,37 @@ and on Vercel **without any database**.
 
 ### Scraping games
 
+#### Option A — GitHub Actions (recommended, no local setup needed)
+
+1. Go to your repo on GitHub → **Actions → Scrape J-Archive Games → Run workflow**
+2. Enter space-separated game IDs in the input box (e.g. `173 174 175`)
+3. Click **Run workflow** — the runner scrapes the games and commits the JSON files to the branch automatically
+
+The Jeopardy page on GitHub Pages will show the new games the next time it loads.
+
+> **Season 1, Show #1 (1984-09-10) = game ID `173`**
+> The deploy workflow auto-scrapes game 173 the first time it runs if the file isn't already committed.
+
+#### Option B — locally (requires Node.js)
+
 ```bash
-# Requires Node.js + npm install (no server needed)
+# Install dependencies first
+npm install
 
 # Scrape one or more games by J-Archive game_id
-npm run scrape -- 8000 8001 8002
+npm run scrape -- 173 174 175
 
 # Scrape every game in a season
-npm run scrape -- --season 40
+npm run scrape -- --season 1
 
 # Scrape a range of IDs
-npm run scrape -- --from 7990 --to 8010
+npm run scrape -- --from 170 --to 180
 ```
 
 Output is saved to `public/data/jeopardy/game-<id>.json` and the index is updated at
 `public/data/jeopardy/index.json`.
 
-**To publish scraped games to GitHub Pages:**
+Commit and push the resulting files to publish them:
 
 ```bash
 git add public/data/jeopardy/
@@ -84,7 +98,11 @@ git commit -m "feat: add scraped Jeopardy games"
 git push
 ```
 
-The Jeopardy game page on GitHub Pages will automatically pick them up on the next load.
+#### Known game IDs
+
+| Season | Show # | Air Date | Game ID |
+|--------|--------|----------|---------|
+| 1 | 1 | 1984-09-10 | 173 |
 
 ### JSON file format
 

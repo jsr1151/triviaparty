@@ -11,8 +11,8 @@
     "db:migrate": "prisma migrate dev",
     "db:generate": "prisma generate",
     "postinstall": "prisma generate",
-    "scrape": "ts-node --project tsconfig.json scripts/scrape-to-json.ts",
-    "import": "ts-node --project tsconfig.json scripts/import-questions.ts"
+    "scrape": "ts-node --project tsconfig.scripts.json scripts/scrape-to-json.ts",
+    "import": "ts-node --project tsconfig.scripts.json scripts/import-questions.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.17.0",
@@ -39,6 +39,7 @@
     "supertest": "^7.2.2",
     "tailwindcss": "^3.4.1",
     "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
