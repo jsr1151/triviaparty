@@ -25,6 +25,14 @@ const gameModes = [
     href: '/play/random',
     color: 'from-green-600 to-teal-600',
   },
+  {
+    id: 'database',
+    title: 'Database',
+    description: 'Browse all saved questions with their tags and type-specific metadata.',
+    icon: '🗄️',
+    href: '/database',
+    color: 'from-cyan-600 to-blue-700',
+  },
 ];
 
 export default function Home() {
@@ -40,7 +48,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-16">
           {gameModes.map((mode) => (
             <Link key={mode.id} href={mode.href}>
               <div className={`bg-gradient-to-br ${mode.color} rounded-2xl p-8 cursor-pointer hover:scale-105 transition-transform duration-200 shadow-xl`}>

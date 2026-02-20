@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import type {
   JeopardyGameData,
   JeopardyIndexEntry,
@@ -7,7 +7,6 @@ import type {
   JeopardyFilter,
 } from '@/types/jeopardy';
 import {
-  buildReplayBoard,
   buildRandomBoard,
   buildCustomBoard,
   searchClues,
@@ -104,6 +103,7 @@ function normaliseJsonGame(g: JeopardyGameData): JeopardyGame {
 
 const VALUES_SINGLE = [200, 400, 600, 800, 1000];
 const VALUES_DOUBLE = [400, 800, 1200, 1600, 2000];
+const SEASON_OPTIONS = Array.from({ length: 40 }, (_, i) => i + 1);
 
 export default function JeopardyPage() {
   // ── Data loading
@@ -126,6 +126,10 @@ export default function JeopardyPage() {
   const [customFilter, setCustomFilter] = useState<JeopardyFilter>({});
   const [customSearch, setCustomSearch] = useState('');
   const [customBuilding, setCustomBuilding] = useState(false);
+
+  // ── Replay list controls
+  const [compactReplayList, setCompactReplayList] = useState(false);
+  const [selectedSeasons, setSelectedSeasons] = useState<number[]>([]);
 
   // ── Load all games on mount ──────────────────────────────────────────────
   useEffect(() => {
@@ -427,6 +431,18 @@ export default function JeopardyPage() {
     );
   }
 
+  const replayGames = selectedSeasons.length > 0
+    ? displayGames.filter(g => g.season != null && selectedSeasons.includes(g.season))
+    : displayGames;
+
+  function toggleSeasonFilter(season: number) {
+    setSelectedSeasons(prev => (
+      prev.includes(season)
+        ? prev.filter(s => s !== season)
+        : [...prev, season].sort((a, b) => a - b)
+    ));
+  }
+
   // ── Game selection / mode screen ─────────────────────────────────────────
 
   return (
@@ -457,23 +473,94 @@ export default function JeopardyPage() {
           {displayGames.length === 0 ? (
             <EmptyState />
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
-              {displayGames.map(game => (
-                <button key={game.id} onClick={() => startReplay(game)}
-                  className="bg-blue-800 hover:bg-blue-700 rounded-xl p-6 text-left transition-colors">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xl font-bold">Show #{game.showNumber}</span>
-                    {game.isSpecial && (
-                      <span className="bg-yellow-400 text-blue-950 text-xs font-bold px-2 py-0.5 rounded-full">
-                        {game.tournamentType ?? 'Special'}
-                      </span>
-                    )}
+            <div className="max-w-6xl mx-auto">
+              <div className="bg-blue-900 rounded-xl p-4 mb-4 space-y-4">
+                <div className="flex flex-wrap items-center gap-2">
+                  <button
+                    onClick={() => setCompactReplayList(v => !v)}
+                    className={`px-3 py-1.5 rounded-lg text-sm font-bold transition-colors ${
+                      compactReplayList ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'
+                    }`}
+                  >
+                    {compactReplayList ? '☰ Thin Rows: On' : '☷ Thin Rows: Off'}
+                  </button>
+                  {selectedSeasons.length > 0 && (
+                    <button
+                      onClick={() => setSelectedSeasons([])}
+                      className="px-3 py-1.5 rounded-lg text-sm font-bold bg-blue-800 hover:bg-blue-700"
+                    >
+                      Clear Seasons
+                    </button>
+                  )}
+                  <span className="text-sm text-blue-200">
+                    Showing {replayGames.length} of {displayGames.length} game{displayGames.length !== 1 ? 's' : ''}
+                  </span>
+                </div>
+
+                <div>
+                  <div className="text-xs text-blue-300 mb-2 uppercase font-bold">Season Filter (1–40)</div>
+                  <div className="flex flex-wrap gap-2 max-h-36 overflow-y-auto pr-1">
+                    {SEASON_OPTIONS.map(season => {
+                      const active = selectedSeasons.includes(season);
+                      return (
+                        <button
+                          key={season}
+                          onClick={() => toggleSeasonFilter(season)}
+                          className={`min-w-9 px-2 py-1 rounded-md text-sm font-bold transition-colors ${
+                            active
+                              ? 'bg-yellow-400 text-blue-950'
+                              : 'bg-blue-800 hover:bg-blue-700 text-blue-100'
+                          }`}
+                        >
+                          {season}
+                        </button>
+                      );
+                    })}
                   </div>
-                  <div className="text-gray-300 text-sm">{game.airDate}</div>
-                  {game.season && <div className="text-blue-300 text-sm">Season {game.season}</div>}
-                  <div className="text-sm text-blue-300 mt-2">{game.categories.length} categories</div>
-                </button>
-              ))}
+                </div>
+              </div>
+
+              {replayGames.length === 0 ? (
+                <div className="text-center text-blue-200 py-8 bg-blue-900 rounded-xl">
+                  No games match the selected season filter.
+                </div>
+              ) : compactReplayList ? (
+                <div className="space-y-1">
+                  {replayGames.map(game => (
+                    <button
+                      key={game.id}
+                      onClick={() => startReplay(game)}
+                      className="w-full bg-blue-800 hover:bg-blue-700 rounded-lg px-4 py-2 text-left transition-colors"
+                    >
+                      <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
+                        <div className="font-bold text-yellow-300">Show #{game.showNumber}</div>
+                        <div className="text-gray-300">{game.airDate}</div>
+                        <div className="text-blue-300">S{game.season ?? '?'}</div>
+                        <div className="text-blue-300">{game.categories.length} cats</div>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {replayGames.map(game => (
+                    <button key={game.id} onClick={() => startReplay(game)}
+                      className="bg-blue-800 hover:bg-blue-700 rounded-xl p-6 text-left transition-colors">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-xl font-bold">Show #{game.showNumber}</span>
+                        {game.isSpecial && (
+                          <span className="bg-yellow-400 text-blue-950 text-xs font-bold px-2 py-0.5 rounded-full">
+                            {game.tournamentType ?? 'Special'}
+                          </span>
+                        )}
+                      </div>
+                      <div className="text-gray-300 text-sm">{game.airDate}</div>
+                      {game.season && <div className="text-blue-300 text-sm">Season {game.season}</div>}
+                      <div className="text-sm text-blue-300 mt-2">{game.categories.length} categories</div>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </>
