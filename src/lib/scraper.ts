@@ -31,6 +31,13 @@ export interface ScrapedGame {
   categories: ScrapedCategory[];
 }
 
+export interface ScrapedGameListEntry {
+  gameId: number;
+  showNumber: number;
+  airDate: string;
+  url: string;
+}
+
 /** Keywords that indicate a special / tournament episode. */
 const SPECIAL_KEYWORDS = [
   'tournament', 'championship', 'celebrity', 'college', 'teen',
@@ -50,13 +57,13 @@ function detectSpecial(title: string): { isSpecial: boolean; tournamentType: str
   return { isSpecial: false, tournamentType: null };
 }
 
-export async function scrapeGameList(season: number): Promise<{ gameId: number; showNumber: number; airDate: string; url: string }[]> {
+export async function scrapeGameList(season: number | string): Promise<ScrapedGameListEntry[]> {
   const { data } = await axios.get(`${BASE_URL}/showseason.php?season=${season}`, {
     headers: { 'User-Agent': 'TriviaParty/1.0 (educational use)' },
     timeout: 10000,
   });
   const $ = cheerio.load(data);
-  const games: { gameId: number; showNumber: number; airDate: string; url: string }[] = [];
+  const games: ScrapedGameListEntry[] = [];
   $('a[href*="showgame.php"]').each((_, el) => {
     const href = $(el).attr('href') || '';
     const text = $(el).text().trim();

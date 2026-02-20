@@ -49,6 +49,8 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import axios from 'axios';
+import * as cheerio from 'cheerio';
 import { scrapeGame, scrapeGameList } from '../src/lib/scraper';
 import type { JeopardyGameData, JeopardyIndexEntry } from '../src/types/jeopardy';
 
@@ -59,6 +61,11 @@ const DATA_DIRS = fs.existsSync(path.resolve(__dirname, '../docs'))
   : [PRIMARY_DATA_DIR];
 const PRIMARY_INDEX_FILE = path.join(PRIMARY_DATA_DIR, 'index.json');
 const FAILURES_FILE = path.join(PRIMARY_DATA_DIR, 'scrape-failures.json');
+
+type SpecialOverride = {
+  isSpecial: boolean;
+  tournamentType: string | null;
+};
 
 function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -115,7 +122,7 @@ function gameFile(dataDir: string, gameId: number) {
   return path.join(dataDir, `game-${gameId}.json`);
 }
 
-async function scrapeAndSave(gameId: number): Promise<boolean> {
+async function scrapeAndSave(gameId: number, override?: SpecialOverride): Promise<boolean> {
   const outFile = gameFile(PRIMARY_DATA_DIR, gameId);
 
   if (fs.existsSync(outFile)) {
@@ -135,8 +142,8 @@ async function scrapeAndSave(gameId: number): Promise<boolean> {
     showNumber: scraped.showNumber,
     airDate: scraped.airDate,
     season: scraped.season,
-    isSpecial: scraped.isSpecial,
-    tournamentType: scraped.tournamentType,
+    isSpecial: override?.isSpecial ?? scraped.isSpecial,
+    tournamentType: override?.tournamentType ?? scraped.tournamentType,
     categories: scraped.categories.map(cat => ({
       ...cat,
       clues: cat.clues.map((cl, rowIdx) => ({
@@ -160,8 +167,8 @@ async function scrapeAndSave(gameId: number): Promise<boolean> {
     showNumber: scraped.showNumber,
     airDate: scraped.airDate,
     season: scraped.season,
-    isSpecial: scraped.isSpecial,
-    tournamentType: scraped.tournamentType,
+    isSpecial: override?.isSpecial ?? scraped.isSpecial,
+    tournamentType: override?.tournamentType ?? scraped.tournamentType,
     file: `game-${gameId}.json`,
   };
 
@@ -178,17 +185,22 @@ async function scrapeAndSave(gameId: number): Promise<boolean> {
   const tsCount = gameData.categories.flatMap(c => c.clues).filter(cl => cl.tripleStumper).length;
   console.log(
     `✓  Show #${scraped.showNumber} | ${scraped.airDate}` +
-    (scraped.isSpecial ? ` [${scraped.tournamentType}]` : '') +
+    ((override?.isSpecial ?? scraped.isSpecial) ? ` [${override?.tournamentType ?? scraped.tournamentType}]` : '') +
     ` | ${clueCount} clues | ${ddCount} DD | ${tsCount} TS`,
   );
   return true;
 }
 
-async function scrapeAndSaveWithRetry(gameId: number, retries: number, retryBackoffMs: number): Promise<boolean> {
+async function scrapeAndSaveWithRetry(
+  gameId: number,
+  retries: number,
+  retryBackoffMs: number,
+  override?: SpecialOverride,
+): Promise<boolean> {
   let attempt = 0;
   while (attempt <= retries) {
     attempt += 1;
-    const ok = await scrapeAndSave(gameId);
+    const ok = await scrapeAndSave(gameId, override);
     if (ok) return true;
     if (attempt <= retries) {
       const wait = retryBackoffMs * Math.pow(2, attempt - 1);
@@ -200,7 +212,7 @@ async function scrapeAndSaveWithRetry(gameId: number, retries: number, retryBack
 }
 
 async function scrapeSeasonGameIds(
-  season: number,
+  season: number | string,
   retries: number,
   retryBackoffMs: number,
 ): Promise<number[]> {
@@ -225,6 +237,33 @@ async function scrapeSeasonGameIds(
   return [];
 }
 
+async function fetchSpecialSeasonCodes(): Promise<Array<{ code: string; label: string }>> {
+  const { data } = await axios.get('https://j-archive.com/listseasons.php', {
+    headers: { 'User-Agent': 'TriviaParty/1.0 (educational use)' },
+    timeout: 10000,
+  });
+
+  const $ = cheerio.load(data);
+  const specialSeasons = new Map<string, string>();
+
+  $('a[href*="showseason.php?season="]').each((_, el) => {
+    const href = $(el).attr('href') || '';
+    const label = $(el).text().trim();
+    const match = href.match(/season=([^&]+)/);
+    if (!match) return;
+
+    const code = decodeURIComponent(match[1]);
+    if (/^\d+$/.test(code)) return;
+    if (!label) return;
+
+    specialSeasons.set(code, label);
+  });
+
+  return Array.from(specialSeasons.entries())
+    .map(([code, label]) => ({ code, label }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+}
+
 async function main() {
   for (const dir of DATA_DIRS) {
     fs.mkdirSync(dir, { recursive: true });
@@ -237,6 +276,8 @@ async function main() {
     console.error('  npm run scrape -- <gameId> [gameId...]  scrape specific games');
     console.error('  npm run scrape -- --season <n>          scrape a full season');
     console.error('  npm run scrape -- --season-from <n> --season-to <n>  scrape season range');
+    console.error('  npm run scrape -- --specials-only       scrape all non-numeric special events');
+    console.error('  npm run scrape -- --season-from <n> --season-to <n> --include-specials');
     console.error('  npm run scrape -- --from <id> --to <id> scrape a range of IDs');
     console.error('Optional flags: --delay-ms <n> --retries <n> --retry-backoff-ms <n> --max-games <n>');
     process.exit(1);
@@ -246,10 +287,40 @@ async function main() {
   const retries = Math.max(0, getIntFlag(args, '--retries', 2));
   const retryBackoffMs = Math.max(100, getIntFlag(args, '--retry-backoff-ms', 1000));
   const maxGames = Math.max(0, getIntFlag(args, '--max-games', 0));
+  const includeSpecials = args.includes('--include-specials');
+  const specialsOnly = args.includes('--specials-only');
 
   let gameIds: number[] = [];
+  const specialOverrides = new Map<number, SpecialOverride>();
 
-  if (args.includes('--season-from') && args.includes('--season-to')) {
+  async function appendSpecials() {
+    console.log('Fetching special event season codes...');
+    const specials = await fetchSpecialSeasonCodes();
+    console.log(`Found ${specials.length} special event season code(s)`);
+
+    const seen = new Set(gameIds);
+    for (const special of specials) {
+      const ids = await scrapeSeasonGameIds(special.code, retries, retryBackoffMs);
+      if (ids.length === 0) {
+        console.log(`  ⚠ no games found for ${special.label} (${special.code})`);
+        continue;
+      }
+      for (const id of ids) {
+        specialOverrides.set(id, { isSpecial: true, tournamentType: special.label });
+        if (!seen.has(id)) {
+          seen.add(id);
+          gameIds.push(id);
+        }
+      }
+      console.log(`  ✓ ${special.label}: ${ids.length} game(s)`);
+      await sleep(Math.min(delayMs, 1000));
+    }
+  }
+
+  if (specialsOnly) {
+    await appendSpecials();
+    console.log(`Found ${gameIds.length} total special-event game(s)`);
+  } else if (args.includes('--season-from') && args.includes('--season-to')) {
     const from = parseInt(args[args.indexOf('--season-from') + 1], 10);
     const to = parseInt(args[args.indexOf('--season-to') + 1], 10);
     if (!Number.isFinite(from) || !Number.isFinite(to)) {
@@ -278,6 +349,11 @@ async function main() {
       await sleep(Math.min(delayMs, 1000));
     }
     console.log(`Found ${gameIds.length} total unique game(s) across seasons ${seasonFrom}–${seasonTo}`);
+
+    if (includeSpecials) {
+      await appendSpecials();
+      console.log(`Total unique game(s) after including special events: ${gameIds.length}`);
+    }
   } else if (args.includes('--season')) {
     const seasonIdx = args.indexOf('--season');
     const season = parseInt(args[seasonIdx + 1], 10);
@@ -309,7 +385,7 @@ async function main() {
   const startedAt = new Date().toISOString();
 
   for (const id of gameIds) {
-    const success = await scrapeAndSaveWithRetry(id, retries, retryBackoffMs);
+    const success = await scrapeAndSaveWithRetry(id, retries, retryBackoffMs, specialOverrides.get(id));
     if (success) ok++;
     else {
       fail++;
