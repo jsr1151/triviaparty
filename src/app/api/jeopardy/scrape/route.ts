@@ -3,7 +3,7 @@ import { revalidatePath } from 'next/cache';
 import { prisma } from '@/lib/prisma';
 import { scrapeGame } from '@/lib/scraper';
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
 
 // Placeholder GET so this segment is valid in a static export.
 export async function GET() {

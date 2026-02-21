@@ -14,9 +14,10 @@ interface Props {
   onCorrect: () => void;
   onIncorrect: () => void;
   onSkip: () => void;
+  respondentLabel?: string;
 }
 
-export default function ClueModal({ clue, value, onCorrect, onIncorrect, onSkip }: Props) {
+export default function ClueModal({ clue, value, onCorrect, onIncorrect, onSkip, respondentLabel }: Props) {
   const [showAnswer, setShowAnswer] = useState(false);
   const [showTagger, setShowTagger] = useState(false);
   const [flagged, setFlagged] = useState(false);
@@ -83,7 +84,7 @@ export default function ClueModal({ clue, value, onCorrect, onIncorrect, onSkip 
       {/* Badges row */}
       <div className="flex flex-wrap gap-2 justify-center mb-4">
         {clue.dailyDouble && (
-          <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+          <span className="bg-red-600 text-white text-sm md:text-base font-bold px-4 py-2 rounded-full animate-pulse">
             Daily Double!
           </span>
         )}
@@ -118,6 +119,12 @@ export default function ClueModal({ clue, value, onCorrect, onIncorrect, onSkip 
       <div className="text-white text-2xl md:text-3xl text-center font-bold max-w-3xl mb-6 leading-snug">
         {clue.question}
       </div>
+
+      {respondentLabel && (
+        <div className="text-blue-200 text-sm md:text-base mb-4">
+          Responding: <span className="text-yellow-300 font-bold">{respondentLabel}</span>
+        </div>
+      )}
 
       {/* Answer */}
       {showAnswer && (
