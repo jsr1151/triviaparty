@@ -115,6 +115,17 @@ function normaliseJsonGame(g: JeopardyGameData, file?: string): JeopardyGame {
   };
 }
 
+function getEffectiveSeason(game: Pick<JeopardyGame, 'season' | 'airDate'>): number | null {
+  if (game.season != null) return game.season;
+  const parsed = new Date(game.airDate);
+  if (Number.isNaN(parsed.getTime())) return null;
+
+  const year = parsed.getUTCFullYear();
+  const month = parsed.getUTCMonth();
+  const estimated = year - 1984 + (month >= 8 ? 1 : 0);
+  return estimated > 0 ? estimated : null;
+}
+
 async function postJson(url: string, payload: unknown) {
   const res = await fetch(url, {
     method: 'POST',
@@ -346,7 +357,8 @@ export default function JeopardyPage() {
 
   function filteredReplayGames() {
     return displayGames.filter(game => {
-      if (selectedSeasons.length > 0 && (game.season == null || !selectedSeasons.includes(game.season))) return false;
+      const effectiveSeason = getEffectiveSeason(game);
+      if (selectedSeasons.length > 0 && (effectiveSeason == null || !selectedSeasons.includes(effectiveSeason))) return false;
 
       if (game.isSpecial) {
         const specialType = game.tournamentType || 'Other Special';
@@ -861,7 +873,7 @@ export default function JeopardyPage() {
               <button key={game.id} onClick={() => startReplay(game)} className="bg-blue-800 hover:bg-blue-700 rounded-xl p-6 text-left">
                 <div className="text-xl font-bold">Show #{game.showNumber}</div>
                 <div className="text-sm text-blue-300">{game.airDate}</div>
-                {game.season && <div className="text-sm text-blue-300">Season {game.season}</div>}
+                {getEffectiveSeason(game) && <div className="text-sm text-blue-300">Season {getEffectiveSeason(game)}</div>}
                 {game.isSpecial && <div className="text-xs mt-1 text-yellow-300">{game.tournamentType || 'Other Special'}</div>}
               </button>
             ))}
