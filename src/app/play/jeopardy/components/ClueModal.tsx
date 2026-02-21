@@ -15,9 +15,24 @@ interface Props {
   onIncorrect: () => void;
   onSkip: () => void;
   respondentLabel?: string;
+  teamOptions?: string[];
+  respondentIndex?: number | null;
+  onRespondentChange?: (index: number) => void;
+  lockRespondent?: boolean;
 }
 
-export default function ClueModal({ clue, value, onCorrect, onIncorrect, onSkip, respondentLabel }: Props) {
+export default function ClueModal({
+  clue,
+  value,
+  onCorrect,
+  onIncorrect,
+  onSkip,
+  respondentLabel,
+  teamOptions,
+  respondentIndex,
+  onRespondentChange,
+  lockRespondent,
+}: Props) {
   const [showAnswer, setShowAnswer] = useState(false);
   const [showTagger, setShowTagger] = useState(false);
   const [flagged, setFlagged] = useState(false);
@@ -126,6 +141,22 @@ export default function ClueModal({ clue, value, onCorrect, onIncorrect, onSkip,
         </div>
       )}
 
+      {showAnswer && teamOptions && teamOptions.length > 0 && onRespondentChange && (
+        <div className="mb-4 w-full max-w-sm">
+          <label className="block text-sm text-blue-200 mb-1">Who buzzed in?</label>
+          <select
+            disabled={Boolean(lockRespondent)}
+            value={respondentIndex ?? ''}
+            onChange={e => onRespondentChange(Number(e.target.value))}
+            className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2 text-sm">
+            {respondentIndex == null && <option value="" disabled>Select team</option>}
+            {teamOptions.map((team, index) => (
+              <option key={`${team}-${index}`} value={index}>{team}</option>
+            ))}
+          </select>
+        </div>
+      )}
+
       {/* Answer */}
       {showAnswer && (
         <div className="text-yellow-300 text-xl md:text-2xl text-center mb-6 italic max-w-3xl">
@@ -210,10 +241,12 @@ export default function ClueModal({ clue, value, onCorrect, onIncorrect, onSkip,
         ) : (
           <>
             <button onClick={onCorrect}
+              disabled={teamOptions && teamOptions.length > 0 && respondentIndex == null}
               className="bg-green-600 hover:bg-green-500 px-8 py-3 rounded-xl font-bold text-xl">
               ✓ Correct
             </button>
             <button onClick={onIncorrect}
+              disabled={teamOptions && teamOptions.length > 0 && respondentIndex == null}
               className="bg-red-600 hover:bg-red-500 px-8 py-3 rounded-xl font-bold text-xl">
               ✗ Wrong
             </button>

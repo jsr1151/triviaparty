@@ -29,10 +29,18 @@ const gameModes = [
   {
     id: 'learn',
     title: 'Learn Mode',
-    description: 'Review missed Jeopardy clues tied to your account progress across devices.',
+    description: 'Review missed Jeopardy clues from your local tracker progress.',
     icon: '🧠',
     href: '/play/learn',
     color: 'from-amber-500 to-orange-700',
+  },
+  {
+    id: 'stats',
+    title: 'Statistics',
+    description: 'Review overall performance and episode-by-episode results from your local tracker.',
+    icon: '📈',
+    href: '/play/stats',
+    color: 'from-cyan-600 to-blue-700',
   },
 ];
 
@@ -51,7 +59,7 @@ export default function Home() {
 
         <HomeAuthPanel />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 max-w-7xl mx-auto mb-16">
           {gameModes.map((mode) => (
             <Link key={mode.id} href={mode.href}>
               <div className={`bg-gradient-to-br ${mode.color} rounded-2xl p-8 cursor-pointer hover:scale-105 transition-transform duration-200 shadow-xl`}>

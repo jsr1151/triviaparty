@@ -1,8 +1,17 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import Link from 'next/link';
 import type { JeopardyClueData, JeopardyFilter, JeopardyGameData, JeopardyIndexEntry } from '@/types/jeopardy';
 import { buildCustomBoard, buildRandomBoard, getClueUserData, searchClues } from '@/lib/clue-store';
+import {
+  getEpisodeStats,
+  getLearnCluesLocal,
+  getOverallStats,
+  initEpisodeStats,
+  markEpisodeCompleted,
+  recordEpisodeOutcome,
+} from '@/lib/local-tracker';
 import ClueModal from './components/ClueModal';
 
 interface JeopardyClue extends JeopardyClueData {
@@ -32,6 +41,7 @@ interface JeopardyGame {
 type Round = 'single' | 'double' | 'triple' | 'final';
 type JeopardyMethod = 'replay' | 'random' | 'custom' | 'learn';
 type SessionType = 'competition' | 'practice';
+type GameKind = 'replay' | 'random' | 'custom' | 'learn';
 type TeamScore = { name: string; score: number };
 type Cell = { revealed: boolean; clue: JeopardyClue };
 type Board = Record<string, Record<number, Cell>>;
@@ -153,14 +163,26 @@ export default function JeopardyPage() {
   const [showSettings, setShowSettings] = useState(false);
 
   const [selectedGame, setSelectedGame] = useState<JeopardyGame | null>(null);
+  const [selectedGameKind, setSelectedGameKind] = useState<GameKind | null>(null);
   const [currentRound, setCurrentRound] = useState<Round>('single');
   const [board, setBoard] = useState<Board>({});
-  const [activeClue, setActiveClue] = useState<{ clue: JeopardyClue; catId: string; value: number } | null>(null);
+  const [activeClue, setActiveClue] = useState<{
+    clue: JeopardyClue;
+    catId: string;
+    boardValue: number;
+    scoreValue: number;
+    respondentTeamIndex: number | null;
+    respondentLocked: boolean;
+  } | null>(null);
+
+  const [episodeKey, setEpisodeKey] = useState<string | null>(null);
+  const [showWinScreen, setShowWinScreen] = useState(false);
+  const revealedClueIdsRef = useRef<Set<string>>(new Set());
 
   const [score, setScore] = useState(0);
   const [teamNamesInput, setTeamNamesInput] = useState('Team 1, Team 2');
   const [teamScores, setTeamScores] = useState<TeamScore[]>([]);
-  const [activeTeamIndex, setActiveTeamIndex] = useState(0);
+  const [chooserTeamIndex, setChooserTeamIndex] = useState(0);
 
   const [normalizeTripleStumperColor, setNormalizeTripleStumperColor] = useState(false);
 
@@ -179,6 +201,8 @@ export default function JeopardyPage() {
 
   const [authUser, setAuthUser] = useState<AuthUser | null>(null);
   const [userStats, setUserStats] = useState<UserStats | null>(null);
+  const [localOverallStats, setLocalOverallStats] = useState(getOverallStats());
+  const [localEpisodeStats, setLocalEpisodeStats] = useState<ReturnType<typeof getEpisodeStats> | null>(null);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -199,6 +223,10 @@ export default function JeopardyPage() {
       } catch {
       }
     })();
+  }, []);
+
+  useEffect(() => {
+    setLocalOverallStats(getOverallStats());
   }, []);
 
   useEffect(() => {
@@ -336,9 +364,23 @@ export default function JeopardyPage() {
     if (!resolvedGame.categories.length) return;
 
     setSelectedGame(resolvedGame);
+    setSelectedGameKind('replay');
     setScore(0);
     setTeamScores(sessionType === 'competition' ? parsedTeams() : []);
-    setActiveTeamIndex(0);
+    setChooserTeamIndex(0);
+    setShowWinScreen(false);
+    revealedClueIdsRef.current = new Set();
+
+    const key = `replay:${resolvedGame.showNumber || resolvedGame.id}`;
+    setEpisodeKey(key);
+    const totalClues = resolvedGame.categories.reduce((sum, c) => sum + c.clues.length, 0);
+    initEpisodeStats({
+      episodeKey: key,
+      showNumber: resolvedGame.showNumber || null,
+      mode: sessionType,
+      totalClues,
+    });
+    setLocalEpisodeStats(getEpisodeStats(key));
     buildBoard(resolvedGame, 'single');
   }
 
@@ -380,6 +422,17 @@ export default function JeopardyPage() {
 
     const index = Math.floor(Math.random() * pool.length);
     await startReplay(pool[index]);
+  }
+
+  async function replayNextEpisode() {
+    if (!selectedGame?.showNumber) return;
+    const ordered = [...filteredReplayGames()].sort((a, b) => a.showNumber - b.showNumber);
+    const idx = ordered.findIndex(g => g.showNumber === selectedGame.showNumber);
+    if (idx >= 0 && idx < ordered.length - 1) {
+      await startReplay(ordered[idx + 1]);
+    } else {
+      alert('No next episode in current filter.');
+    }
   }
 
   async function startRandom() {
@@ -444,9 +497,18 @@ export default function JeopardyPage() {
     };
 
     setSelectedGame(game);
+    setSelectedGameKind('random');
     setScore(0);
     setTeamScores(sessionType === 'competition' ? parsedTeams() : []);
-    setActiveTeamIndex(0);
+    setChooserTeamIndex(0);
+    setShowWinScreen(false);
+    revealedClueIdsRef.current = new Set();
+
+    const key = `random:${Date.now()}`;
+    setEpisodeKey(key);
+    const totalClues = game.categories.reduce((sum, c) => sum + c.clues.length, 0);
+    initEpisodeStats({ episodeKey: key, showNumber: null, mode: sessionType, totalClues });
+    setLocalEpisodeStats(getEpisodeStats(key));
     buildBoard(game, 'single');
   }
 
@@ -481,9 +543,18 @@ export default function JeopardyPage() {
       };
 
       setSelectedGame(game);
+      setSelectedGameKind('custom');
       setScore(0);
       setTeamScores(sessionType === 'competition' ? parsedTeams() : []);
-      setActiveTeamIndex(0);
+      setChooserTeamIndex(0);
+      setShowWinScreen(false);
+      revealedClueIdsRef.current = new Set();
+
+      const key = `custom:${Date.now()}`;
+      setEpisodeKey(key);
+      const totalClues = game.categories.reduce((sum, c) => sum + c.clues.length, 0);
+      initEpisodeStats({ episodeKey: key, showNumber: null, mode: sessionType, totalClues });
+      setLocalEpisodeStats(getEpisodeStats(key));
       buildBoard(game, 'single');
     } catch {
       alert('Error building custom game.');
@@ -493,15 +564,8 @@ export default function JeopardyPage() {
   }
 
   async function startLearnMode() {
-    if (!authUser) {
-      alert('Please sign in on the home page first.');
-      return;
-    }
-
     try {
-      const res = await fetch('/api/user/learn');
-      const data = await res.json();
-      const learn: LearnClue[] = data.clues ?? [];
+      const learn: LearnClue[] = getLearnCluesLocal();
 
       if (!learn.length) {
         alert('No missed clues yet. Miss or skip clues first, then come back to Learn mode.');
@@ -545,8 +609,17 @@ export default function JeopardyPage() {
       };
 
       setSelectedGame(game);
+      setSelectedGameKind('learn');
       setScore(0);
       setTeamScores([]);
+      setShowWinScreen(false);
+      revealedClueIdsRef.current = new Set();
+
+      const key = `learn:${Date.now()}`;
+      setEpisodeKey(key);
+      const totalClues = game.categories.reduce((sum, c) => sum + c.clues.length, 0);
+      initEpisodeStats({ episodeKey: key, showNumber: null, mode: 'learn' , totalClues });
+      setLocalEpisodeStats(getEpisodeStats(key));
       buildBoard(game, 'single');
     } catch {
       alert('Could not load your Learn clues.');
@@ -555,12 +628,28 @@ export default function JeopardyPage() {
 
   function selectClue(clue: JeopardyClue, catId: string, value: number) {
     let wageredValue = value;
+    let respondentTeamIndex: number | null = null;
+    let respondentLocked = false;
+
     if (clue.dailyDouble && currentRound !== 'final') {
-      const input = window.prompt('Daily Double! Enter wager:', String(Math.max(200, value)));
+      const chooserName = teamScores[chooserTeamIndex]?.name ?? 'Chooser';
+      const input = window.prompt(`Daily Double! ${chooserName}, enter wager:`, String(Math.max(200, value)));
       const parsed = input ? Number(input.replace(/[^\d]/g, '')) : NaN;
       if (!Number.isNaN(parsed) && parsed > 0) wageredValue = parsed;
+      if (sessionType === 'competition') {
+        respondentTeamIndex = chooserTeamIndex;
+        respondentLocked = true;
+      }
     }
-    setActiveClue({ clue, catId, value: wageredValue });
+
+    setActiveClue({
+      clue,
+      catId,
+      boardValue: value,
+      scoreValue: wageredValue,
+      respondentTeamIndex,
+      respondentLocked,
+    });
   }
 
   function revealClue() {
@@ -569,25 +658,51 @@ export default function JeopardyPage() {
       ...prev,
       [activeClue.catId]: {
         ...prev[activeClue.catId],
-        [activeClue.value]: {
-          ...prev[activeClue.catId][activeClue.value],
+        [activeClue.boardValue]: {
+          ...prev[activeClue.catId][activeClue.boardValue],
           revealed: true,
         },
       },
     }));
+
     setActiveClue(null);
+
+    if (!selectedGame) return;
+    const totalClues = selectedGame.categories.reduce((sum, c) => sum + c.clues.length, 0);
+    revealedClueIdsRef.current.add(activeClue.clue.id);
+    if (revealedClueIdsRef.current.size >= totalClues) {
+      if (episodeKey) {
+        markEpisodeCompleted(episodeKey);
+        setLocalEpisodeStats(getEpisodeStats(episodeKey));
+        setLocalOverallStats(getOverallStats());
+      }
+      setShowWinScreen(true);
+    }
   }
 
-  function applyScore(delta: number) {
+  function applyScore(delta: number, responderIndex: number | null) {
     if (sessionType === 'competition') {
-      setTeamScores(prev => prev.map((team, i) => (i === activeTeamIndex ? { ...team, score: team.score + delta } : team)));
+      const target = responderIndex ?? chooserTeamIndex;
+      setTeamScores(prev => prev.map((team, i) => (i === target ? { ...team, score: team.score + delta } : team)));
       return;
     }
     setScore(prev => prev + delta);
   }
 
   async function recordOutcome(outcome: 'correct' | 'incorrect' | 'skip') {
-    if (!activeClue || !authUser) return;
+    if (!activeClue) return;
+
+    if (episodeKey) {
+      recordEpisodeOutcome({
+        episodeKey,
+        outcome,
+        clue: activeClue.clue,
+      });
+      setLocalEpisodeStats(getEpisodeStats(episodeKey));
+      setLocalOverallStats(getOverallStats());
+    }
+
+    if (!authUser) return;
     try {
       await postJson('/api/user/progress', {
         outcome,
@@ -614,15 +729,20 @@ export default function JeopardyPage() {
 
   async function handleCorrect() {
     if (!activeClue) return;
+    const responder = activeClue.respondentTeamIndex;
     await recordOutcome('correct');
-    applyScore(activeClue.value);
+    applyScore(activeClue.scoreValue, responder);
+    if (sessionType === 'competition' && responder != null) {
+      setChooserTeamIndex(responder);
+    }
     revealClue();
   }
 
   async function handleIncorrect() {
     if (!activeClue) return;
+    const responder = activeClue.respondentTeamIndex;
     await recordOutcome('incorrect');
-    applyScore(-activeClue.value);
+    applyScore(-activeClue.scoreValue, responder);
     revealClue();
   }
 
@@ -648,7 +768,18 @@ export default function JeopardyPage() {
     }
 
     setSelectedGame(null);
+    setSelectedGameKind(null);
     setActiveClue(null);
+    setShowWinScreen(false);
+    setEpisodeKey(null);
+    setLocalEpisodeStats(null);
+    revealedClueIdsRef.current = new Set();
+  }
+
+  function getWinningTeamName() {
+    if (sessionType !== 'competition' || teamScores.length === 0) return null;
+    const sorted = [...teamScores].sort((a, b) => b.score - a.score);
+    return sorted[0]?.name ?? null;
   }
 
   function renderBoard() {
@@ -721,6 +852,56 @@ export default function JeopardyPage() {
 
     return (
       <div className="min-h-screen bg-blue-950 text-white p-4">
+        {showWinScreen && (
+          <div className="fixed inset-0 z-50 bg-blue-950/95 flex items-center justify-center p-6">
+            <div className="absolute inset-0 pointer-events-none overflow-hidden">
+              {Array.from({ length: 60 }).map((_, i) => (
+                <span
+                  key={i}
+                  className="absolute text-2xl animate-bounce"
+                  style={{ left: `${(i * 17) % 100}%`, top: `${(i * 13) % 100}%`, animationDelay: `${(i % 10) * 0.1}s` }}>
+                  🎉
+                </span>
+              ))}
+            </div>
+            <div className="relative bg-blue-900 border border-blue-700 rounded-2xl p-8 w-full max-w-2xl text-center">
+              <h2 className="text-4xl font-bold text-yellow-300 mb-3">Game Complete!</h2>
+              {sessionType === 'competition' ? (
+                <p className="text-xl mb-4">🏆 Winner: <span className="font-bold text-yellow-300">{getWinningTeamName()}</span></p>
+              ) : (
+                <p className="text-xl mb-4">Final score: <span className="font-bold text-yellow-300">${score.toLocaleString()}</span></p>
+              )}
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {selectedGameKind === 'replay' && (
+                  <>
+                    <button onClick={replayNextEpisode} className="bg-yellow-400 text-blue-950 px-4 py-3 rounded-xl font-bold">Replay next episode</button>
+                    <button onClick={startRandomReplayFromFilters} className="bg-yellow-400 text-blue-950 px-4 py-3 rounded-xl font-bold">Replay random episode</button>
+                    <button onClick={() => { setShowWinScreen(false); setSelectedGame(null); setSelectedGameKind(null); }} className="bg-blue-700 px-4 py-3 rounded-xl font-bold">Choose episode</button>
+                    <Link href="/" className="bg-blue-700 px-4 py-3 rounded-xl font-bold">Main Menu</Link>
+                  </>
+                )}
+
+                {selectedGameKind !== 'replay' && (
+                  <>
+                    <button
+                      onClick={() => {
+                        setShowWinScreen(false);
+                        if (selectedGameKind === 'random') void startRandom();
+                        if (selectedGameKind === 'custom') void startCustom();
+                        if (selectedGameKind === 'learn') void startLearnMode();
+                      }}
+                      className="bg-yellow-400 text-blue-950 px-4 py-3 rounded-xl font-bold">
+                      {selectedGameKind === 'random' ? 'Create new episode' : 'Play again'}
+                    </button>
+                    <Link href="/" className="bg-blue-700 px-4 py-3 rounded-xl font-bold">Main Menu</Link>
+                  </>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
         <div className="flex justify-between items-center mb-4 gap-3">
           <button onClick={finishGameAndBack} className="text-yellow-400 hover:underline">← Back</button>
           <div className="text-center">
@@ -730,20 +911,42 @@ export default function JeopardyPage() {
           {sessionType === 'competition' ? (
             <div className="text-right">
               {teamScores.map((team, index) => (
-                <div key={`${team.name}-${index}`} className={`text-sm ${index === activeTeamIndex ? 'text-yellow-300 font-bold' : 'text-white'}`}>
+                <div key={`${team.name}-${index}`} className={`text-sm ${index === chooserTeamIndex ? 'text-yellow-300 font-bold' : 'text-white'}`}>
                   {team.name}: ${team.score.toLocaleString()}
                 </div>
               ))}
             </div>
           ) : (
-            <div className="text-2xl font-bold">${score.toLocaleString()}</div>
+            <div className="text-right">
+              <div className="text-2xl font-bold">${score.toLocaleString()}</div>
+              {localEpisodeStats && (
+                <div className="text-xs text-blue-200">Episode C/W/S: {localEpisodeStats.correctAnswers}/{localEpisodeStats.incorrectAnswers}/{localEpisodeStats.skippedQuestions}</div>
+              )}
+              <div className="text-xs text-blue-300">Overall C/W/S: {localOverallStats.correctAnswers}/{localOverallStats.incorrectAnswers}/{localOverallStats.skippedQuestions}</div>
+            </div>
           )}
         </div>
 
+        <div className="mb-3 flex gap-2">
+          <button onClick={() => setShowSettings(prev => !prev)} className="px-3 py-2 rounded-lg bg-blue-800 hover:bg-blue-700 text-sm font-bold">Settings</button>
+          {sessionType === 'competition' && teamScores[chooserTeamIndex] && (
+            <div className="text-sm text-blue-200 py-2">Category control: <span className="text-yellow-300 font-bold">{teamScores[chooserTeamIndex].name}</span></div>
+          )}
+        </div>
+
+        {showSettings && (
+          <div className="max-w-3xl bg-blue-900 rounded-xl p-3 mb-4">
+            <label className="text-sm text-blue-200 flex items-center gap-2">
+              <input type="checkbox" checked={normalizeTripleStumperColor} onChange={e => setNormalizeTripleStumperColor(e.target.checked)} />
+              Triple stumper as blue
+            </label>
+          </div>
+        )}
+
         {sessionType === 'competition' && teamScores.length > 0 && (
           <div className="mb-4 flex items-center gap-3">
-            <label className="text-sm text-blue-300">Responding team:</label>
-            <select value={activeTeamIndex} onChange={e => setActiveTeamIndex(Number(e.target.value))} className="bg-blue-800 border border-blue-600 rounded px-2 py-1 text-sm">
+            <label className="text-sm text-blue-300">Category chooser:</label>
+            <select value={chooserTeamIndex} onChange={e => setChooserTeamIndex(Number(e.target.value))} className="bg-blue-800 border border-blue-600 rounded px-2 py-1 text-sm">
               {teamScores.map((team, index) => (
                 <option key={`${team.name}-${index}`} value={index}>{team.name}</option>
               ))}
@@ -761,11 +964,15 @@ export default function JeopardyPage() {
         {activeClue && (
           <ClueModal
             clue={activeClue.clue}
-            value={activeClue.value}
+            value={activeClue.scoreValue}
             onCorrect={handleCorrect}
             onIncorrect={handleIncorrect}
             onSkip={handleSkip}
-            respondentLabel={sessionType === 'competition' ? teamScores[activeTeamIndex]?.name : undefined}
+            respondentLabel={sessionType === 'competition' && activeClue.respondentTeamIndex != null ? teamScores[activeClue.respondentTeamIndex]?.name : undefined}
+            teamOptions={sessionType === 'competition' ? teamScores.map(t => t.name) : undefined}
+            respondentIndex={activeClue.respondentTeamIndex}
+            onRespondentChange={index => setActiveClue(prev => prev ? { ...prev, respondentTeamIndex: index } : prev)}
+            lockRespondent={activeClue.respondentLocked}
           />
         )}
 
@@ -909,7 +1116,7 @@ export default function JeopardyPage() {
 
       {method === 'learn' && (
         <div className="max-w-xl mx-auto text-center bg-blue-900 rounded-xl p-6">
-          <p className="text-blue-200 mb-4">Study your missed and skipped clues from your account history.</p>
+          <p className="text-blue-200 mb-4">Study your missed and skipped clues from your local tracker history.</p>
           <button onClick={startLearnMode} className="bg-yellow-400 text-blue-950 px-8 py-3 rounded-xl font-bold">Start Learn Game</button>
         </div>
       )}
