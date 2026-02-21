@@ -193,18 +193,21 @@ export default function JeopardyPage() {
   useEffect(() => {
     async function loadGames() {
       const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+      const isStaticPages = Boolean(base);
 
-      try {
-        const res = await fetch('/api/jeopardy?limit=300');
-        const data = await res.json();
-        const apiGames = (data.games ?? []).map(normaliseApiGame);
-        if (apiGames.length > 0) {
-          setDisplayGames(apiGames);
-          setDataSource('api');
-          setLoading(false);
-          return;
+      if (!isStaticPages) {
+        try {
+          const res = await fetch('/api/jeopardy?limit=300');
+          const data = await res.json();
+          const apiGames = (data.games ?? []).map(normaliseApiGame);
+          if (apiGames.length > 0) {
+            setDisplayGames(apiGames);
+            setDataSource('api');
+            setLoading(false);
+            return;
+          }
+        } catch {
         }
-      } catch {
       }
 
       try {
@@ -813,6 +816,18 @@ export default function JeopardyPage() {
         <div className="max-w-6xl mx-auto space-y-4">
           <div className="bg-blue-900 rounded-xl p-4">
             <div className="text-sm text-blue-200 mb-2">Seasons</div>
+            <div className="flex gap-2 mb-2">
+              <button
+                onClick={() => setSelectedSeasons(Array.from({ length: 42 }, (_, i) => i + 1))}
+                className="px-3 py-1 rounded text-xs font-bold bg-blue-800 hover:bg-blue-700">
+                All
+              </button>
+              <button
+                onClick={() => setSelectedSeasons([])}
+                className="px-3 py-1 rounded text-xs font-bold bg-blue-800 hover:bg-blue-700">
+                None
+              </button>
+            </div>
             <div className="flex flex-wrap gap-1 mb-3">
               {Array.from({ length: 42 }).map((_, i) => {
                 const season = i + 1;

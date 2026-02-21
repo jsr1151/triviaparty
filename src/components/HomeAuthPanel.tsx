@@ -29,6 +29,7 @@ async function postJson(url: string, payload: unknown) {
 }
 
 export default function HomeAuthPanel() {
+  const isStaticHost = typeof window !== 'undefined' && window.location.hostname.endsWith('github.io');
   const [mode, setMode] = useState<'signin' | 'signup'>('signin');
   const [loading, setLoading] = useState(false);
   const [user, setUser] = useState<AuthUser | null>(null);
@@ -53,6 +54,11 @@ export default function HomeAuthPanel() {
   }, []);
 
   async function submit() {
+    if (isStaticHost) {
+      setError('Account sign-in requires a server deployment (e.g. Vercel). GitHub Pages is static only.');
+      return;
+    }
+
     setError('');
     setLoading(true);
     try {
@@ -138,6 +144,12 @@ export default function HomeAuthPanel() {
       <button onClick={submit} disabled={loading} className="mt-4 bg-yellow-400 text-black px-5 py-2 rounded-lg font-bold disabled:opacity-60">
         {loading ? 'Working…' : mode === 'signin' ? 'Sign In' : 'Create Account'}
       </button>
+
+      {isStaticHost && !error && (
+        <div className="text-yellow-300 text-sm mt-3">
+          This deployment is GitHub Pages (static). Full account login requires a server deployment.
+        </div>
+      )}
     </div>
   );
 }
