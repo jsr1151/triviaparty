@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import type { JeopardyClueData } from '@/types/jeopardy';
 import {
   getClueUserData,
@@ -7,6 +7,12 @@ import {
   updateClueTags,
   getAllTags,
 } from '@/lib/clue-store';
+import {
+  formatQuestionTagLabel,
+  getQuestionTagGroups,
+  guessQuestionTagsForClue,
+  isKnownQuestionTag,
+} from '@/lib/question-tags';
 
 interface Props {
   clue: JeopardyClueData & { id: string };
@@ -40,6 +46,13 @@ export default function ClueModal({
   const [topicTags, setTopicTags] = useState<string[]>([]);
   const [tagInput, setTagInput] = useState('');
   const [allTags, setAllTags] = useState<string[]>([]);
+  const [expandedGroups, setExpandedGroups] = useState<string[]>(['science', 'arts']);
+
+  const predefinedGroups = useMemo(() => getQuestionTagGroups(), []);
+  const autoTagSuggestions = useMemo(
+    () => guessQuestionTagsForClue(clue).filter(tag => !topicTags.includes(tag)),
+    [clue, topicTags],
+  );
 
   // Load user data when clue changes
   useEffect(() => {
@@ -52,6 +65,7 @@ export default function ClueModal({
     setShowAnswer(false);
     setShowTagger(false);
     setTagInput('');
+    setExpandedGroups(['science', 'arts']);
   }, [clue.clueId]);
 
   const saveFlags = useCallback(
@@ -79,6 +93,23 @@ export default function ClueModal({
     if (!clean || topicTags.includes(clean)) return;
     saveTags([...topicTags, clean]);
     setTagInput('');
+  }
+
+  function toggleTag(tag: string) {
+    if (topicTags.includes(tag)) {
+      saveTags(topicTags.filter(t => t !== tag));
+      return;
+    }
+    saveTags([...topicTags, tag]);
+  }
+
+  function applyAutoTags() {
+    if (autoTagSuggestions.length === 0) return;
+    saveTags(Array.from(new Set([...topicTags, ...autoTagSuggestions])));
+  }
+
+  function toggleGroup(groupId: string) {
+    setExpandedGroups(prev => prev.includes(groupId) ? prev.filter(id => id !== groupId) : [...prev, groupId]);
   }
 
   function removeTag(tag: string) {
@@ -125,7 +156,7 @@ export default function ClueModal({
         )}
         {topicTags.map(tag => (
           <span key={tag} className="bg-blue-700 text-white text-xs font-bold px-3 py-1 rounded-full">
-            #{tag}
+            {formatQuestionTagLabel(tag)}
           </span>
         ))}
       </div>
@@ -171,10 +202,70 @@ export default function ClueModal({
             {topicTags.map(tag => (
               <span key={tag}
                 className="bg-blue-700 text-white text-sm px-2 py-1 rounded-full flex items-center gap-1">
-                #{tag}
+                {formatQuestionTagLabel(tag)}
                 <button onClick={() => removeTag(tag)} className="text-blue-300 hover:text-white">×</button>
               </span>
             ))}
+          </div>
+
+          <div className="mb-4">
+            <div className="flex items-center justify-between mb-2">
+              <div className="text-sm text-blue-200 font-bold">Auto-tag suggestions</div>
+              <button
+                onClick={applyAutoTags}
+                disabled={autoTagSuggestions.length === 0}
+                className="bg-yellow-400 text-blue-950 px-3 py-1 rounded text-xs font-bold disabled:opacity-50">
+                Apply auto-tags
+              </button>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {autoTagSuggestions.length === 0 && (
+                <span className="text-xs text-blue-300">No strong keyword matches found.</span>
+              )}
+              {autoTagSuggestions.map(tag => (
+                <button
+                  key={tag}
+                  onClick={() => toggleTag(tag)}
+                  className="bg-blue-800 hover:bg-blue-700 text-blue-100 text-xs px-2 py-1 rounded-full">
+                  + {formatQuestionTagLabel(tag)}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-2 mb-4">
+            {predefinedGroups.map(group => {
+              const isOpen = expandedGroups.includes(group.id) || group.options.some(option => topicTags.includes(option.id));
+              return (
+                <div key={group.id} className="bg-blue-900/40 border border-blue-800 rounded-lg">
+                  <button
+                    onClick={() => toggleGroup(group.id)}
+                    className="w-full px-3 py-2 text-left text-sm font-bold text-blue-100 flex items-center justify-between">
+                    <span>{group.emoji} {group.label}</span>
+                    <span className="text-blue-300">{isOpen ? '−' : '+'}</span>
+                  </button>
+                  {isOpen && (
+                    <div className="px-3 pb-3 flex flex-wrap gap-2">
+                      {group.options.map(option => {
+                        const active = topicTags.includes(option.id);
+                        return (
+                          <button
+                            key={option.id}
+                            onClick={() => toggleTag(option.id)}
+                            className={`text-xs px-2 py-1 rounded-full border transition-colors ${
+                              active
+                                ? 'bg-yellow-400 text-blue-950 border-yellow-300'
+                                : 'bg-blue-800 text-blue-100 border-blue-700 hover:bg-blue-700'
+                            }`}>
+                            {option.label}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           {/* Tag input */}
@@ -184,7 +275,7 @@ export default function ClueModal({
               value={tagInput}
               onChange={e => setTagInput(e.target.value)}
               onKeyDown={e => { if (e.key === 'Enter') addTag(tagInput); }}
-              placeholder="Add topic tag…"
+              placeholder="Add custom tag…"
               className="flex-1 bg-blue-800 text-white placeholder-blue-400 border border-blue-600 rounded-lg px-3 py-2 text-sm"
             />
             <button onClick={() => addTag(tagInput)}
@@ -199,7 +290,7 @@ export default function ClueModal({
               {suggestions.slice(0, 8).map(s => (
                 <button key={s} onClick={() => addTag(s)}
                   className="bg-blue-800 hover:bg-blue-700 text-blue-200 text-xs px-2 py-1 rounded">
-                  {s}
+                  {isKnownQuestionTag(s) ? formatQuestionTagLabel(s) : s}
                 </button>
               ))}
             </div>
