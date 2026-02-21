@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { createSession, makeSessionCookieHeader, sanitizeAuthUser, verifyPassword } from '@/lib/auth';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 export async function POST(req: Request) {
   try {

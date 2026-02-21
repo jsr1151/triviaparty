@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getUserFromRequest } from '@/lib/auth';
 import { recordGameCompletedServer } from '@/lib/server-user-stats';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 export async function POST(req: NextRequest) {
   const user = await getUserFromRequest(req);

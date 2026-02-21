@@ -2,9 +2,13 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getUserFromRequest, sanitizeAuthUser } from '@/lib/auth';
 import { ensureUserStats } from '@/lib/server-user-stats';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 export async function GET(req: NextRequest) {
+  if (process.env.GITHUB_PAGES === 'true') {
+    return NextResponse.json({ user: null, stats: null });
+  }
+
   const user = await getUserFromRequest(req);
   if (!user) {
     return NextResponse.json({ user: null }, { status: 401 });
