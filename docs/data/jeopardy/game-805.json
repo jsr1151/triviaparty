@@ -1,0 +1,797 @@
+{
+  "gameId": 805,
+  "showNumber": 3223,
+  "airDate": "September 16, 1998",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATE CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "MacArthur Park in this Arkansas capital honors General Douglas MacArthur, not Richard Harris",
+          "answer": "Little Rock",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g805-s-c0-r0"
+        },
+        {
+          "question": "This capital has been home to the NBA's Kings since 1985",
+          "answer": "Sacramento",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g805-s-c0-r1"
+        },
+        {
+          "question": "Its one daily newspaper is the Idaho Statesman",
+          "answer": "Boise",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g805-s-c0-r2"
+        },
+        {
+          "question": "The old governor's mansion in this capital was built by Huey Long in 1930",
+          "answer": "Baton Rouge, Louisiana",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g805-s-c0-r3"
+        },
+        {
+          "question": "The Peachtree Road Race is a 6-mile run held every July 4 in this capital",
+          "answer": "Atlanta",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g805-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTOMOBILE LOGOS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "(Small \"V\" on top of a large \"W\", enclosed in a circle)",
+          "answer": "Volkswagen",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILE LOGOS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g805-s-c1-r0"
+        },
+        {
+          "question": "(Stylized \"H\" inside a square)",
+          "answer": "Honda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILE LOGOS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g805-s-c1-r1"
+        },
+        {
+          "question": "(A jumping feline)",
+          "answer": "Jaguar",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILE LOGOS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g805-s-c1-r2"
+        },
+        {
+          "question": "(Interlocking \"T\" & \"O\" on a circle)",
+          "answer": "Toyota",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILE LOGOS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g805-s-c1-r3"
+        },
+        {
+          "question": "(Three diamonds, which is also what the name translates to)",
+          "answer": "Mitsubishi",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILE LOGOS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g805-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HEALTH & MEDICINE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The \"R\" in the MMR vaccine stands for this",
+          "answer": "Rubella",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g805-s-c2-r0"
+        },
+        {
+          "question": "New studies have found artemether as effective as quinine in treating this disease",
+          "answer": "Malaria",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g805-s-c2-r1"
+        },
+        {
+          "question": "Nicknamed the \"kissing disease\", it's commonly caused by the Epstein-Barr Virus",
+          "answer": "Mononucleosis",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g805-s-c2-r2"
+        },
+        {
+          "question": "In WWII Charles Drew persuaded blood banks to store this instead of whole blood; it keeps longer",
+          "answer": "Plasma",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g805-s-c2-r3"
+        },
+        {
+          "question": "The virus that causes this kids' disease can cause shingles in later life",
+          "answer": "Chicken pox",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEALTH & MEDICINE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g805-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SNL ALUMNI",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1998 he hit the big screen as \"Dr. Dolittle\"",
+          "answer": "Eddie Murphy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SNL ALUMNI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g805-s-c3-r0"
+        },
+        {
+          "question": "She plays Dr. Mary Albright on TV's \"3rd Rock From The Sun\"",
+          "answer": "Jane Curtin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SNL ALUMNI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g805-s-c3-r1"
+        },
+        {
+          "question": "In 1991's \"Father Of The Bride\", he played wedding planner Franck Eggelhoffer",
+          "answer": "Martin Short",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SNL ALUMNI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g805-s-c3-r2"
+        },
+        {
+          "question": "This comic seen here recently hit the streets in \"Lethal Weapon 4\"",
+          "answer": "Chris Rock",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SNL ALUMNI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g805-s-c3-r3"
+        },
+        {
+          "question": "This one-time regular got an Oscar nomination for her role as the frustrated fiancee in \"In & Out\"",
+          "answer": "Joan Cusack",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SNL ALUMNI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g805-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENVIRONMENTAL GROUPS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's the only \"W\" in the NWF & the second \"W\" in the WWF",
+          "answer": "Wildlife",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENVIRONMENTAL GROUPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g805-s-c4-r0"
+        },
+        {
+          "question": "This \"bird-brained\" group runs 8 education centers & over 100 sanctuaries in the U.S.",
+          "answer": "The Audubon Society",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENVIRONMENTAL GROUPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g805-s-c4-r1"
+        },
+        {
+          "question": "This San Francisco-based group's books have very de\"muir\" text & Ansel Adams photos",
+          "answer": "the Sierra Club",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENVIRONMENTAL GROUPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g805-s-c4-r2"
+        },
+        {
+          "question": "Founded in 1971 to protest U.S. nuclear weapon testing in Alaska, it broadened its scope to the world",
+          "answer": "Greenpeace",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ENVIRONMENTAL GROUPS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g805-s-c4-r3"
+        },
+        {
+          "question": "This Arlington, Virginia-based conservancy protects species & habitats by buying lands",
+          "answer": "The Nature Conservancy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ENVIRONMENTAL GROUPS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g805-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICALS IN OTHER WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Leonine Monarch\"",
+          "answer": "The Lion King",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS IN OTHER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g805-s-c5-r0"
+        },
+        {
+          "question": "\"The Windy City\"",
+          "answer": "Chicago",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS IN OTHER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g805-s-c5-r1"
+        },
+        {
+          "question": "\"Specter Lurking in a Certain Paris Theatre\"",
+          "answer": "Phantom of the Opera",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS IN OTHER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g805-s-c5-r2"
+        },
+        {
+          "question": "\"Ta-Ta Conrad\"",
+          "answer": "Bye Bye Birdie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS IN OTHER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g805-s-c5-r3"
+        },
+        {
+          "question": "\"Cohan!\"",
+          "answer": "George M!",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSICALS IN OTHER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g805-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN LITERATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Queequeg, a tattooed cannibal, is Starbuck's harpooner aboard the Pequod in this 1851 novel",
+          "answer": "Moby-Dick",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g805-d-c0-r0"
+        },
+        {
+          "question": "This novel begins:  \"Samuel Spade's jaw was long and bony...\"",
+          "answer": "The Maltese Falcon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g805-d-c0-r1"
+        },
+        {
+          "question": "The line \"A dozen Hurons fell by a discharge from Chingachgook and his band\" is from this novel",
+          "answer": "The Last of the Mohicans",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g805-d-c0-r2"
+        },
+        {
+          "question": "Upton Sinclair novel that ends: \"Chicago will be ours!  Chicago will be ours!\"",
+          "answer": "The Jungle",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g805-d-c0-r3"
+        },
+        {
+          "question": "Novel in which Willa Cather wrote, \"The Shimerdas were the first Bohemian family\" in the area",
+          "answer": "My Ántonia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g805-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DIRECTORS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "His son Tony wrote the last film he directed, \"The Dead\"; his daughter Anjelica starred in it",
+          "answer": "John Huston",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g805-d-c1-r0"
+        },
+        {
+          "question": "Dennis Weaver is terrorized by a truck in \"Duel\", a 1971 TV movie this wunderkind directed in his 20s",
+          "answer": "Steven Spielberg",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g805-d-c1-r1"
+        },
+        {
+          "question": "The first American film Alfred Hitchcock directed was this 1940 classic, seen here:\"You thought you could be Mrs. DeWinter, live in her house, walk in her steps, take the things that were hers, but she's too strong for you, you can't fight her...\"",
+          "answer": "Rebecca",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g805-d-c1-r2"
+        },
+        {
+          "question": "This actor directed himself & wife Trish Van Devere in the 1974 film \"The Savage Is Loose\"",
+          "answer": "George C. Scott",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g805-d-c1-r3"
+        },
+        {
+          "question": "David Lean co-directed the WWII film \"In Which We Serve\" with this \"Blithe Spirit\" playwright",
+          "answer": "Noel Coward",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DIRECTORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g805-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BOSTON TEA PARTY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The colonists darkened their faces & dressed up (admittedly badly) as these",
+          "answer": "American Indians",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOSTON TEA PARTY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g805-d-c2-r0"
+        },
+        {
+          "question": "After taking part in the Tea Party, he rode to Philadelphia in a less famous ride to report on it",
+          "answer": "Paul Revere",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOSTON TEA PARTY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g805-d-c2-r1"
+        },
+        {
+          "question": "Historians believe he gave the signal for the Tea Party (not the beer party) to begin",
+          "answer": "Samuel Adams",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOSTON TEA PARTY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g805-d-c2-r2"
+        },
+        {
+          "question": "In retaliation the British passed a series of laws the Colonists dubbed these",
+          "answer": "Intolerable Acts",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOSTON TEA PARTY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g805-d-c2-r3"
+        },
+        {
+          "question": "The tea belonged to this company whose monopoly angered the colonists",
+          "answer": "British East India Company",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOSTON TEA PARTY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g805-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "IS THERE A DOCTOR IN THE HOUSE?",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1977 Jimmy Carter awarded this polio vaccine pioneer the Presidential Medal of Freedom",
+          "answer": "Jonas Salk",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IS THERE A DOCTOR IN THE HOUSE?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g805-d-c3-r0"
+        },
+        {
+          "question": "Apollo & Asclepius are 2 gods mentioned in his oath",
+          "answer": "Hippocrates",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IS THERE A DOCTOR IN THE HOUSE?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g805-d-c3-r1"
+        },
+        {
+          "question": "This \"Study in Scarlet\" author began writing while waiting for patients who never came",
+          "answer": "Sir Arthur Conan Doyle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IS THERE A DOCTOR IN THE HOUSE?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g805-d-c3-r2"
+        },
+        {
+          "question": "In 1852 this first U.S. woman doctor published her lectures on \"The Physical Education of Girls\"",
+          "answer": "Elizabeth Blackwell",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IS THERE A DOCTOR IN THE HOUSE?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g805-d-c3-r3"
+        },
+        {
+          "question": "In the 18th C., this Italian anatomist  showed that electric current affects nerves & causes muscles to act",
+          "answer": "Luigi Galvani",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IS THERE A DOCTOR IN THE HOUSE?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g805-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DEAD LINES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The AP received his 1897 telegram saying, \"The report of my death was an exaggeration\"",
+          "answer": "Mark Twain",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEAD LINES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g805-d-c4-r0"
+        },
+        {
+          "question": "Character whose father says the following:  \"Murder, most foul, as in the best it is but this most foul, strange and unnatural\"",
+          "answer": "Hamlet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEAD LINES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g805-d-c4-r1"
+        },
+        {
+          "question": "\"Any man's death diminishes me...and therefore never send to know\" this",
+          "answer": "\"For Whom The Bell Tolls\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEAD LINES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g805-d-c4-r2"
+        },
+        {
+          "question": "Oscar Wilde says \"The coward does it with a kiss, the brave man with a sword\"",
+          "answer": "\"Kill the thing he loves\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DEAD LINES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g805-d-c4-r3"
+        },
+        {
+          "question": "In \"Fathers And Sons\" he wrote \"Go and try to disprove death.  Death will disprove you.\"",
+          "answer": "Ivan Turgenev",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DEAD LINES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g805-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE GREAT \"BEYOND\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Don't be \"mad\", it's where Mel Gibson took Max in the third installment",
+          "answer": "\"Beyond Thunderdome\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GREAT \"BEYOND\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g805-d-c5-r0"
+        },
+        {
+          "question": "The degree to which the prosecution must prove its case to obtain a guilty verdict",
+          "answer": "beyond a reasonable doubt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GREAT \"BEYOND\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g805-d-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "VOLCANOES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the only continent with no active volcanoes",
+          "answer": "Australia",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "VOLCANOES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g805-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

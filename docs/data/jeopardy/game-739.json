@@ -1,0 +1,833 @@
+{
+  "gameId": 739,
+  "showNumber": 2964,
+  "airDate": "June 19, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FLORIDA CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Tableware from the battleship Florida is a highlight of the governor's mansion in this city",
+          "answer": "Tallahassee",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLORIDA CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g739-s-c0-r0"
+        },
+        {
+          "question": "This city, central Florida's largest, is one of the world's top tourist destinations",
+          "answer": "Orlando",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLORIDA CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g739-s-c0-r1"
+        },
+        {
+          "question": "Miami is the seat of this county, which is entirely within Miami's metropolitan area",
+          "answer": "Dade County",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLORIDA CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g739-s-c0-r2"
+        },
+        {
+          "question": "John Ringling exerted major influence on the development of this city where he made his home in the 1920s",
+          "answer": "Sarasota",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLORIDA CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g739-s-c0-r3"
+        },
+        {
+          "question": "Florida city in which the group seen here is headquartered:",
+          "answer": "Pensacola",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FLORIDA CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g739-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV STARS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This \"Good Morning America\" hostess' \"Healthy Cooking\" cookbook was a 1996 bestseller",
+          "answer": "Joan Lunden",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV STARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g739-s-c1-r0"
+        },
+        {
+          "question": "\"3rd Rock From The Sun\" is this Oscar nominee's first sitcom",
+          "answer": "John Lithgow",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV STARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g739-s-c1-r1"
+        },
+        {
+          "question": "This actor who plays Dr. Mark Greene on \"ER\" became the first cast member to direct an episode",
+          "answer": "Anthony Edwards",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV STARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g739-s-c1-r2"
+        },
+        {
+          "question": "This former \"Entertainment Tonight\" co-host covered gymnastics for NBC at the 1996 Olympics",
+          "answer": "John Tesh",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV STARS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g739-s-c1-r3"
+        },
+        {
+          "question": "Caroline on \"Baywatch\", she was a Johnson & Johnson baby at age 6 months",
+          "answer": "Yasmine Bleeth",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV STARS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g739-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANNUAL EVENTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Christian holiday can fall as early as March 22 or as late as April 25",
+          "answer": "Easter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g739-s-c2-r0"
+        },
+        {
+          "question": "Shelley, Idaho celebrates this tuber each September",
+          "answer": "Potato",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g739-s-c2-r1"
+        },
+        {
+          "question": "Each June Grand Rapids, Minnesota honors this \"Wizard of Oz\" star with a 4-day festival",
+          "answer": "Judy Garland",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g739-s-c2-r2"
+        },
+        {
+          "question": "Jerry Lewis' annual Labor Day telethon raises money to fight this disease",
+          "answer": "Muscular Dystrophy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g739-s-c2-r3"
+        },
+        {
+          "question": "The Fiesta Bowl Parade & Prescott Bluegrass Festival are annual events in this state",
+          "answer": "Arizona",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g739-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "An EEG records the electrical activity of this organ",
+          "answer": "Brain",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g739-s-c3-r0"
+        },
+        {
+          "question": "Human beings normally have 46 of these in most of their cells",
+          "answer": "Chromosomes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g739-s-c3-r1"
+        },
+        {
+          "question": "This second-lightest metal, symbol K, is so soft it can be cut with a knife",
+          "answer": "Potassium",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g739-s-c3-r2"
+        },
+        {
+          "question": "He's been called the \"Father of Modern Rocketry\"",
+          "answer": "Robert Goddard",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g739-s-c3-r3"
+        },
+        {
+          "question": "According to his law, resistance in a DC circuit is the ratio of volts to amps",
+          "answer": "Georg Ohm",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g739-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FURNITURE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This oblong seat without a back holds baseball players",
+          "answer": "Bench",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FURNITURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g739-s-c4-r0"
+        },
+        {
+          "question": "Part of the house that precedes \"clock\", \"chair\" & \"tree\"",
+          "answer": "Hall",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FURNITURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g739-s-c4-r1"
+        },
+        {
+          "question": "The Boston type of this chair has a spindle back & arms that match the curve of the seat, & sits on curved slats",
+          "answer": "Rocking chair",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FURNITURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g739-s-c4-r2"
+        },
+        {
+          "question": "Any \"birdbrain\" knows these are the small compartments for papers in a desk",
+          "answer": "Pigeonholes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FURNITURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g739-s-c4-r3"
+        },
+        {
+          "question": "This French term for a tall cupboard with doors goes back to what it originally held -- weapons",
+          "answer": "Armoire",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FURNITURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g739-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CROSSWORD CLUES \"L\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "They have breathing room            (5)",
+          "answer": "Lungs",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"L\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g739-s-c5-r0"
+        },
+        {
+          "question": "Paul Bunyan, for one           (10)",
+          "answer": "Lumberjack",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"L\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g739-s-c5-r1"
+        },
+        {
+          "question": "Bagel topper          (3)",
+          "answer": "Lox",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"L\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g739-s-c5-r2"
+        },
+        {
+          "question": "Tetanus woe          (7)",
+          "answer": "Lockjaw",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"L\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g739-s-c5-r3"
+        },
+        {
+          "question": "Dictionary compiler           (13)",
+          "answer": "Lexicographer",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"L\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g739-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRST NOVELS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Dane's first novel \"The Improviser\", was published the same year as his first book of fairy tales",
+          "answer": "Hans Christian Andersen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g739-d-c0-r0"
+        },
+        {
+          "question": "In this first Tom Clancy novel, the captain of a Soviet sub decides to defect with his ship",
+          "answer": "The Hunt for Red October",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g739-d-c0-r1"
+        },
+        {
+          "question": "Sherwood Anderson helped this Mississippian find a publisher for \"Soldier's Pay\", his first novel",
+          "answer": "William Faulkner",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g739-d-c0-r2"
+        },
+        {
+          "question": "He introduced intelligence agent George Smiley in 1961's \"Call for the Dead\"",
+          "answer": "John le Carré",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g739-d-c0-r3"
+        },
+        {
+          "question": "Later a Bertolucci film, this first novel by Paul Bowles is considered a model of existential fiction",
+          "answer": "The Sheltering Sky",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g739-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE IN HISTORY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Claiming he was innocent, Captain Kidd was hanged in 1701 in this English capital for murder & piracy",
+          "answer": "London",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g739-d-c1-r0"
+        },
+        {
+          "question": "This first prime minister of independent India was educated in England at Harrow & Cambridge",
+          "answer": "Jawaharlal Nehru",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g739-d-c1-r1"
+        },
+        {
+          "question": "For health reasons, this founder of the Boy Scouts spent his last years in Kenya",
+          "answer": "Lord Robert Baden-Powell",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g739-d-c1-r2"
+        },
+        {
+          "question": "King Haakon I of this country was killed in battle while fighting Erik Bloodax' sons",
+          "answer": "Norway",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g739-d-c1-r3"
+        },
+        {
+          "question": "William H. Seward negotiated the Alaska Purchase during this president's administration",
+          "answer": "Andrew Johnson",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g739-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARTISTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A fine series of these paintings on fresh plaster in Assisi is tentatively attributed to Giotto",
+          "answer": "frescoes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g739-d-c2-r0"
+        },
+        {
+          "question": "His father, Auguste Manet, worked for the Ministry of Justice & wanted him to become a lawyer",
+          "answer": "Edouard Manet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g739-d-c2-r1"
+        },
+        {
+          "question": "As an art student in Madrid he met director Luis Bunuel with whom he later made the film \"An Andalusian Dog\"",
+          "answer": "Salvador Dali",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g739-d-c2-r2"
+        },
+        {
+          "question": "He was 24 when he first painted Spain's Philip IV who became his patron",
+          "answer": "Diego Velázquez",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g739-d-c2-r3"
+        },
+        {
+          "question": "In 1906 Rodin invited this Romanian sculptor to work in his studio, but he refused",
+          "answer": "Constantin Brancusi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARTISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g739-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD GEOGRAPHY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "If you're out in this European mountain range you may find the Inn Valley",
+          "answer": "the Alps",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g739-d-c3-r0"
+        },
+        {
+          "question": "Bayern is the German name of this German state known for its beer",
+          "answer": "Bavaria",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g739-d-c3-r1"
+        },
+        {
+          "question": "Though Bornholm is a Danish island, it's much closer to this Scandinavian country than to Denmark",
+          "answer": "Sweden",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g739-d-c3-r2"
+        },
+        {
+          "question": "An island called the Calf of Man lies southwest of the Isle of Man in this sea",
+          "answer": "Irish Sea",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g739-d-c3-r3"
+        },
+        {
+          "question": "At 7,339 feet, Mount Orohena on this island is the highest point in the Society Islands",
+          "answer": "Tahiti",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g739-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FATS & OILS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The inventor of this substitute named it after the Greek word for \"pearly\"--margarites",
+          "answer": "margarine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATS & OILS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g739-d-c4-r0"
+        },
+        {
+          "question": "Ancient Greeks used this pressed oil from the fruit of the Olea Europaea for skin lotion & anointings",
+          "answer": "olive oil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATS & OILS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g739-d-c4-r1"
+        },
+        {
+          "question": "This type of fat found in plum pudding can be used to make tallow candles",
+          "answer": "suet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FATS & OILS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g739-d-c4-r2"
+        },
+        {
+          "question": "The name of this oil was changed from \"rapeseed oil\" by the Canadian oil-seed industry",
+          "answer": "canola oil",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FATS & OILS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g739-d-c4-r3"
+        },
+        {
+          "question": "Found in fish, omega-3 oils are thought to lower the level of this bad cholesterol",
+          "answer": "LDL (low density lipoproteins)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATS & OILS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g739-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHAKESPEAREAN LAST SCENES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Friar Lawrence urges her to join \"a sisterhood of holy nuns\" but she ignores him & kills herself",
+          "answer": "Juliet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN LAST SCENES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g739-d-c5-r0"
+        },
+        {
+          "question": "This comedy ends in Lucentio's house, not in Petruchio's",
+          "answer": "The Taming of the Shrew",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN LAST SCENES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g739-d-c5-r1"
+        },
+        {
+          "question": "The last scene of this tragedy takes place in a pavilion in Titus' garden in Rome",
+          "answer": "Titus Andronicus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN LAST SCENES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g739-d-c5-r2"
+        },
+        {
+          "question": "This prince of Tyre discovers the wife he believed was dead has become a priestess of Diana",
+          "answer": "Pericles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN LAST SCENES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g739-d-c5-r3"
+        },
+        {
+          "question": "Shortly before he dies this king laments, \"And my poor fool is hang'd!\"",
+          "answer": "King Lear",
+          "value": 3100,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN LAST SCENES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g739-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOVERNMENT OFFICIALS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Last name of 2 brothers, one currently a cabinet secretary & one mayor of a city of several million",
+          "answer": "Daley (William M. & Richard M.)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "GOVERNMENT OFFICIALS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g739-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

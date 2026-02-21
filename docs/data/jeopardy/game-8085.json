@@ -1,0 +1,833 @@
+{
+  "gameId": 8085,
+  "showNumber": 2692,
+  "airDate": "April 23, 1996",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FOSSILS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Well-preserved bodies of this \"woolly\" Elephant relative have been found in Siberia",
+          "answer": "a mammoth",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOSSILS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8085-s-c0-r0"
+        },
+        {
+          "question": "In the 1920s Roy Chapman Andrews found the first dinosaur eggs while exploring this Asian desert",
+          "answer": "the Gobi Desert",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOSSILS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8085-s-c0-r1"
+        },
+        {
+          "question": "Fossils of the saber-toothed cat & 3-toed horse have been found at Badlands National Park in this state",
+          "answer": "South Dakota",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOSSILS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8085-s-c0-r2"
+        },
+        {
+          "question": "In 1986 dinosaur fossil remains were first discovered on this continent",
+          "answer": "Antarctica",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOSSILS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8085-s-c0-r3"
+        },
+        {
+          "question": "The name of this early prehistoric sea animal means \"three-lobed\" in Greek",
+          "answer": "trilobite",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOSSILS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8085-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANNUAL EVENTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In December this Kentucky national park sponsors a Christmas Sing in the Cave",
+          "answer": "Mammoth Cave",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8085-s-c1-r0"
+        },
+        {
+          "question": "The National Tom Sawyer Fence Painting Contest is held in this Missouri city each July",
+          "answer": "Hannibal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8085-s-c1-r1"
+        },
+        {
+          "question": "For years \"Cry of the Wild Ram\", a play about Russian control of this state, has been presented in Kodiak",
+          "answer": "Alaska",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8085-s-c1-r2"
+        },
+        {
+          "question": "In October Boston hosts a rowing regatta on this river",
+          "answer": "the Charles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8085-s-c1-r3"
+        },
+        {
+          "question": "Citizens of this Michigan city scrub the streets in preparation for its Tulip Time Festival",
+          "answer": "Holland",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8085-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCI-FI FILMS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Arnold Schwarzenegger played a cyborg sent to present-day L.A. in this film & its sequel",
+          "answer": "The Terminator",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI FILMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8085-s-c2-r0"
+        },
+        {
+          "question": "In \"Return of the Jedi\", Luke Skywalker comes to terms with the fact that this villain is his father",
+          "answer": "Darth Vader",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI FILMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8085-s-c2-r1"
+        },
+        {
+          "question": "James Spader & Kurt Russell pass through a portal to a land reminiscent of ancient Egypt in this 1994 film",
+          "answer": "Stargate",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI FILMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8085-s-c2-r2"
+        },
+        {
+          "question": "A gunslinging robot played by Yul Brynner stalks Richard Benjamin & James Brolin in this 1973 film",
+          "answer": "Westworld",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI FILMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8085-s-c2-r3"
+        },
+        {
+          "question": "In this 1956 classic, residents of a small town are replaced by duplicates hatched from pods",
+          "answer": "Invasion of the Body Snatchers",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCI-FI FILMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8085-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "1990",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In January 1990 this party in Poland voted itself out of existence",
+          "answer": "the Communist Party",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1990",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8085-s-c3-r0"
+        },
+        {
+          "question": "The U.S. lifted sanctions against this country since its former strongman Noriega was under arrest",
+          "answer": "Panama",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1990",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8085-s-c3-r1"
+        },
+        {
+          "question": "In April this Himalayan kingdom legalized political parties, banned since 1960",
+          "answer": "Nepal",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1990",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8085-s-c3-r2"
+        },
+        {
+          "question": "This U.N. secretary- general swore in Sam Nujoma, the 1st president of the new country of Namibia",
+          "answer": "Javier Perez de Cuellar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1990",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8085-s-c3-r3"
+        },
+        {
+          "question": "In March 1990 it became the 3rd nation to put a satellite in lunar orbit",
+          "answer": "Japan",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1990",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8085-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMILIAR SIMILES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The phrase \"as flat as\" this breakfast item was a familiar simile back in 1611",
+          "answer": "a pancake",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR SIMILES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8085-s-c4-r0"
+        },
+        {
+          "question": "A lumberjack who slumbers soundly \"sleeps like\" one of these",
+          "answer": "a log",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR SIMILES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8085-s-c4-r1"
+        },
+        {
+          "question": "An incredibly aged person or thing is \"as old as\" this man who lived to be 969",
+          "answer": "Methuselah",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR SIMILES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8085-s-c4-r2"
+        },
+        {
+          "question": "People used to catch these fish with their bare hands, hence the phrase \"as slippery as\" one",
+          "answer": "an eel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR SIMILES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8085-s-c4-r3"
+        },
+        {
+          "question": "This simile once meant as proper as a certain stringed instrument, not as healthy as one",
+          "answer": "fit as a fiddle",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR SIMILES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8085-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLORS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Dutch call this color rood",
+          "answer": "red",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8085-s-c5-r0"
+        },
+        {
+          "question": "It precedes Magic, Market & Maria",
+          "answer": "black",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8085-s-c5-r1"
+        },
+        {
+          "question": "It's the pale tan color of an oval nut, or the nut itself",
+          "answer": "almond",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8085-s-c5-r2"
+        },
+        {
+          "question": "Candy & watermelon are deep shades of this color",
+          "answer": "pink",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8085-s-c5-r3"
+        },
+        {
+          "question": "This purplish color was named for a town in northern Italy where a battle was fought June 4, 1859",
+          "answer": "magenta",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8085-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "EPIC POETS & POETRY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He abandoned his long-planned epic about King Arthur to write what became \"Paradise Lost\"",
+          "answer": "Milton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPIC POETS & POETRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8085-d-c0-r0"
+        },
+        {
+          "question": "Books 1-3 of this Edmund Spenser work are devoted to the virtues of holiness, temperance & chastity",
+          "answer": "The Faerie Queen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPIC POETS & POETRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8085-d-c0-r1"
+        },
+        {
+          "question": "Emperor Augustus overturned this poet's request that his \"Aeneid\" be destroyed after his death",
+          "answer": "Virgil",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPIC POETS & POETRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8085-d-c0-r2"
+        },
+        {
+          "question": "Tradition holds that this poet lived in the 12th century B.C. in Chios or Smyrna",
+          "answer": "Homer",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPIC POETS & POETRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8085-d-c0-r3"
+        },
+        {
+          "question": "He wrote a second mock epic, \"The Dunciad\", as well as \"The Rape of the Lock\"",
+          "answer": "(Alexander) Pope",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPIC POETS & POETRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8085-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BREADS & ROLLS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This bread made with dough left over from the previous day is associated with prospecting",
+          "answer": "sourdough",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREADS & ROLLS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8085-d-c1-r0"
+        },
+        {
+          "question": "This crescent-shaped roll dates back to the 1680s, when Austria & Hungary were at war with Turkey",
+          "answer": "a croissant",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREADS & ROLLS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8085-d-c1-r1"
+        },
+        {
+          "question": "This heavy, dark bread originated in Westphalia, Germany",
+          "answer": "pumpernickel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREADS & ROLLS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8085-d-c1-r2"
+        },
+        {
+          "question": "Puddinglike spoon bread is made of this grain",
+          "answer": "corn",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREADS & ROLLS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8085-d-c1-r3"
+        },
+        {
+          "question": "Made of clumps of dough piled in a tube pan, bubble bread is also known by this simian name",
+          "answer": "monkey bread",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREADS & ROLLS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8085-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMPUTERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A vaccine is an analyzer program that checks your computer for these",
+          "answer": "a virus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPUTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8085-d-c2-r0"
+        },
+        {
+          "question": "Abbreviated VR, it's a computer-based simulation system designed to seem real to a user's senses",
+          "answer": "virtual reality",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPUTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8085-d-c2-r1"
+        },
+        {
+          "question": "This hypertext-based distributed information system is called WWW for short",
+          "answer": "the World Wide Web",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPUTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8085-d-c2-r2"
+        },
+        {
+          "question": "Computers are often plugged into one of these devices that clamp voltage transients down to safe levels",
+          "answer": "a surge protector",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPUTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8085-d-c2-r3"
+        },
+        {
+          "question": "An in-house data communications system, LAN is an acronym of this",
+          "answer": "local area network",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMPUTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8085-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RULERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "His parents were Prince Pierre, Comte de Polignac & Princess Charlotte of Monaco",
+          "answer": "Prince Rainier",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8085-d-c3-r0"
+        },
+        {
+          "question": "The 2nd Spanish queen named this married her cousin Francisco in 1846 but didn't live with him",
+          "answer": "Isabella",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8085-d-c3-r1"
+        },
+        {
+          "question": "This \"Great\" king of the West Saxons had a love of learning & promoted literacy among his people",
+          "answer": "Alfred (the Great)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8085-d-c3-r2"
+        },
+        {
+          "question": "In 1942 this Dutch queen visited FDR at Hyde Park",
+          "answer": "Wilhelmina",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8085-d-c3-r3"
+        },
+        {
+          "question": "Between 1371 & 1625, Scotland's sovereigns were all members of this house",
+          "answer": "the House of Stuart",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RULERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8085-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD GEOGRAPHY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Buenos Aires is this country's most populous province",
+          "answer": "Argentina",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8085-d-c4-r0"
+        },
+        {
+          "question": "On its trip to the North Sea, this river flows between the Vosges Mountains & the Black Forest",
+          "answer": "the Rhine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8085-d-c4-r1"
+        },
+        {
+          "question": "France's 2nd-longest river, it begins near Dijon & empties into the English Channel at Le Havre",
+          "answer": "the Seine",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8085-d-c4-r2"
+        },
+        {
+          "question": "New Zealand's chief port, it was founded in 1840 on the site of a major Maori settlement",
+          "answer": "Auckland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8085-d-c4-r3"
+        },
+        {
+          "question": "Most of Botswana is covered by this desert",
+          "answer": "the Kalahari",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8085-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "OPERA CHARACTERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Sarastro is a priest of Isis in this composer's opera \"The Magic Flute\"",
+          "answer": "Mozart",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8085-d-c5-r0"
+        },
+        {
+          "question": "Prince Yamadori is a wealthy suitor rejected by Cio-Cio-San in this 1904 opera",
+          "answer": "Madame Butterfly",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8085-d-c5-r1"
+        },
+        {
+          "question": "Selim is the visiting Turk in this \"William Tell\" composer's opera \"Il Turco In Italia\"",
+          "answer": "Rossini",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8085-d-c5-r2"
+        },
+        {
+          "question": "In a Monteverdi opera, the goddess Minerva urges Ulysses to return home to this faithful wife",
+          "answer": "Penelope",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8085-d-c5-r3"
+        },
+        {
+          "question": "A peasant girl named Marenka is the title character of this Smetana opera",
+          "answer": "The Bartered Bride",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8085-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATESMEN",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He abandoned plans for a military career at age 17 &, in 1607, became Bishop of Lucon",
+          "answer": "Cardinal Richelieu",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "STATESMEN",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8085-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

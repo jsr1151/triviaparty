@@ -1,0 +1,664 @@
+{
+  "gameId": 7619,
+  "showNumber": 23,
+  "airDate": "October 10, 1984",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "EXPLORERS",
+      "round": "single",
+      "position": 0,
+      "clues": []
+    },
+    {
+      "name": "TOYS & GAMES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Kissing game that sounds like it’s played by mailmen",
+          "answer": "post office",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7619-s-c1-r0"
+        },
+        {
+          "question": "“King me” is the cry in this simpler version of chess",
+          "answer": "checkers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7619-s-c1-r1"
+        },
+        {
+          "question": "Pool without pockets",
+          "answer": "billiards",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7619-s-c1-r2"
+        },
+        {
+          "question": "Called “naughts & crosses” long before it went “Hollywood Squares”",
+          "answer": "tic-tac-toe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7619-s-c1-r3"
+        },
+        {
+          "question": "Yellow ghost gobbler who is first video game hero with his own TV show",
+          "answer": "Pac-Man",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7619-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOLLAND",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Dutch footwear also known as “klompen”",
+          "answer": "wooden shoes",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLAND",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7619-s-c2-r0"
+        },
+        {
+          "question": "Holland’s best-known varieties are Edam & Gouda",
+          "answer": "cheese",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLAND",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7619-s-c2-r1"
+        },
+        {
+          "question": "Holland’s official name, meaning “lowlands”",
+          "answer": "the Netherlands",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLAND",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7619-s-c2-r2"
+        },
+        {
+          "question": "Statue near Haarlem of this boy “symbolizes struggle of Holland against the sea”",
+          "answer": "the boy who stuck his finger in the dike",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLAND",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7619-s-c2-r3"
+        },
+        {
+          "question": "This airline is the oldest in the world still in operation",
+          "answer": "KLM (Royal Dutch Airlines)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOLLAND",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7619-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE TRIVIA",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Boris Karloff, Christopher Lee & Peter Sellers all played this oriental villain",
+          "answer": "Fu Manchu",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7619-s-c3-r0"
+        },
+        {
+          "question": "In it, Jolson appropriately said, “You ain’t heard nothing’ yet”",
+          "answer": "The Jazz Singer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7619-s-c3-r1"
+        },
+        {
+          "question": "Vamp who changed her name from Theodosia Goodman to an anagram for “ARAB DEATH”",
+          "answer": "Theda Bara",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7619-s-c3-r2"
+        },
+        {
+          "question": "Of historical characters, this French conqueror has been “captured” on screen most often",
+          "answer": "Napoleon Bonaparte",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7619-s-c3-r3"
+        },
+        {
+          "question": "What Sam Goldwyn said “a verbal contract isn’t worth”",
+          "answer": "the paper it's written on",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7619-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FISH",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Fish travel in these “educated” circles",
+          "answer": "schools",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7619-s-c4-r0"
+        },
+        {
+          "question": "The King James Bible says his captor was a “great fish”",
+          "answer": "Jonah",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7619-s-c4-r1"
+        },
+        {
+          "question": "Good eating fish that comes with a “smallmouth” or a “largemouth”",
+          "answer": "bass",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7619-s-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "BEGINS WITH “Z”",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Tyrone Power, Guy Williams & George Hamilton all played this foxy Spanish Robin Hood",
+          "answer": "Zorro",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH “Z”",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7619-s-c5-r0"
+        },
+        {
+          "question": "His “follies” made him rich",
+          "answer": "Florenz Ziegfeld",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH “Z”",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7619-s-c5-r1"
+        },
+        {
+          "question": "Hope & Crosby's road led to this E. African island",
+          "answer": "Zanzibar",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH “Z”",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7619-s-c5-r2"
+        },
+        {
+          "question": "TV's senior F.B.I. agent who's also a junior",
+          "answer": "Efrem Zimbalist",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH “Z”",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7619-s-c5-r3"
+        },
+        {
+          "question": "When in Rome, his name was Jupiter",
+          "answer": "Zeus",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH “Z”",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7619-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Robert W. Bunsen’s hot item invented in 1855",
+          "answer": "the Bunsen burner",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7619-d-c0-r0"
+        }
+      ]
+    },
+    {
+      "name": "AWARDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Though his leading actors were a mouse & a duck, this producer won more Oscars than anyone",
+          "answer": "Walt Disney",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7619-d-c1-r0"
+        },
+        {
+          "question": "Country that has won the most medals in modern Olympic history",
+          "answer": "the United States",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7619-d-c1-r1"
+        },
+        {
+          "question": "Gaylord Perry was the only pitcher to win this award in both leagues",
+          "answer": "the Cy Young Award",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7619-d-c1-r2"
+        },
+        {
+          "question": "Mystery Writers named their award for this early author of the eerie",
+          "answer": "Edgar Allan Poe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7619-d-c1-r3"
+        },
+        {
+          "question": "Germany’s highest military honor or a ring maneuver in gymnastics",
+          "answer": "the Iron Cross",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7619-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "1960",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "U.S. won gold in this Olympic event with Oscar Robertson & Jerry West",
+          "answer": "basketball",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7619-d-c2-r0"
+        },
+        {
+          "question": "Lerner & Loewe musical that provided theme for the Kennedy years",
+          "answer": "Camelot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7619-d-c2-r1"
+        },
+        {
+          "question": "He supplied the key to the Oscar-winning “Apartment”",
+          "answer": "Jack Lemmon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7619-d-c2-r2"
+        },
+        {
+          "question": "Sedentary demonstration against lunch-room segregation",
+          "answer": "a sit-in",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7619-d-c2-r3"
+        },
+        {
+          "question": "The commoner Princess Margaret married",
+          "answer": "Antony Armstrong-Jones",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1960",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7619-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN LEADERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The “Iron Lady” of 10 Downing Street",
+          "answer": "Margaret Thatcher",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN LEADERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7619-d-c3-r0"
+        },
+        {
+          "question": "She led Israel through the Yom Kippur War",
+          "answer": "Golda Meir",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN LEADERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7619-d-c3-r1"
+        },
+        {
+          "question": "“The Saint of the Gutters”, this nun received 1979’s Nobel Peace Prize",
+          "answer": "Sister Teresa",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN LEADERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7619-d-c3-r2"
+        },
+        {
+          "question": "Though a registered Democrat, she’s Reagan’s U.N. ambassador",
+          "answer": "Jeane Kirkpatrick",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN LEADERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7619-d-c3-r3"
+        },
+        {
+          "question": "She leads the world’s most populous democracy",
+          "answer": "(Indira) Gandhi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN LEADERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7619-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Before the auto, their daily litter on N.Y.C. streets was 2 ½ million pounds",
+          "answer": "horses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7619-d-c4-r0"
+        },
+        {
+          "question": "Favored vehicle for going over Niagara Falls",
+          "answer": "a barrel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7619-d-c4-r1"
+        },
+        {
+          "question": "Mode of transportation this tune’s about:",
+          "answer": "a sleigh",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7619-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY QUOTES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "According to Ogden Nash, though “candy is dandy”, this “is quicker”",
+          "answer": "liquor",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7619-d-c5-r0"
+        },
+        {
+          "question": "Dante advised, “All hope abandon, ye who enter here”",
+          "answer": "Inferno (or hell)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7619-d-c5-r1"
+        },
+        {
+          "question": "Said “there’s no room for deathless prose in the novel”; she proved it with “Valley of the Dolls”",
+          "answer": "Jacqueline Susann",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7619-d-c5-r2"
+        },
+        {
+          "question": "Long before Perry Como sang “put it in your pocket”, Donne said “Go and catch it”",
+          "answer": "a falling star",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7619-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "DANCE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Introduced in 1650 at court of Louis XIV, it’s a slow, dignified dance done in 3/4 time",
+          "answer": "the minuet",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "DANCE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7619-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "gameId": 1220,
+  "showNumber": 4008,
+  "airDate": "January 23, 2002",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATUES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A marble hand holding an apple found on the Greek isle of Melos may have belonged to her",
+          "answer": "Venus de Milo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATUES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1220-s-c0-r0"
+        },
+        {
+          "question": "Alton, Illinois has an 8-foot, 11-inch life-size statue of Robert Pershing Wadlow, who once held this record",
+          "answer": "tallest man (in the world)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATUES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1220-s-c0-r1"
+        },
+        {
+          "question": "A statue of these 2 fictional characters stands at the foot of Cardiff Hill in Hannibal, Missouri",
+          "answer": "Tom Sawyer & Huckleberry Finn",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATUES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1220-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "HOW...?",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "For the Pacific 36,201 feet",
+          "answer": "deep it is",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW...?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1220-s-c1-r0"
+        },
+        {
+          "question": "Get at least 270 votes in the Electoral College",
+          "answer": "win the presidency",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW...?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1220-s-c1-r1"
+        },
+        {
+          "question": "For this problem, the title of a 1971 Bee Gees song, the band should have seen Dr. Christiaan Barnard",
+          "answer": "\"How Can You Mend a Broken Heart\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOW...?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1220-s-c1-r2"
+        },
+        {
+          "question": "Mrs. Browning said to find  this out she had to \"count the ways\"",
+          "answer": "How do I love thee",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW...?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1220-s-c1-r3"
+        },
+        {
+          "question": "Say \"Shazam!\" & let a bolt of lightning hit you",
+          "answer": "become Captain Marvel",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW...?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1220-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "VARIETY HEADLINES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This computer-animated character stomped the competition as \"Jolly Green B.O. Giant\"",
+          "answer": "Shrek",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VARIETY HEADLINES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1220-s-c2-r0"
+        },
+        {
+          "question": "After 3 big weeks we feasted on \"Munch Ado...\" this Anthony Hopkins film \"...Devours for Third Course\"",
+          "answer": "Hannibal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VARIETY HEADLINES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1220-s-c2-r1"
+        },
+        {
+          "question": "It was \"Sudden Death\" when this football league started by the WWF & NBC fumbled to end its season",
+          "answer": "XFL",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VARIETY HEADLINES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1220-s-c2-r2"
+        },
+        {
+          "question": "Dreamworks' \"Almost Famous\" & this film were \"Rock 'n\" Romans\" when they won Golden Globe Awards",
+          "answer": "Gladiator",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VARIETY HEADLINES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1220-s-c2-r3"
+        },
+        {
+          "question": "This Mel Gibson comedy had a merry Christmas with \"Mel's Belles Pinch 'Grinch'\"",
+          "answer": "What Women Want",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VARIETY HEADLINES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1220-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SOUNDS GOOD TO ME",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Hoo ha! It's the low visibility warning device heard here, son",
+          "answer": "foghorn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUNDS GOOD TO ME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1220-s-c3-r0"
+        },
+        {
+          "question": "Title of the national anthem heard here",
+          "answer": "\"God Save the Queen\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUNDS GOOD TO ME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1220-s-c3-r1"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew at SeaWorld.) A dolphin's clicks are used in echolocation; to identify itself to others it has a signature one of these sounds",
+          "answer": "whistle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SOUNDS GOOD TO ME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1220-s-c3-r2"
+        },
+        {
+          "question": "In the wild this African equine heard here can live more than 20 years",
+          "answer": "zebra",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUNDS GOOD TO ME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1220-s-c3-r3"
+        },
+        {
+          "question": "The early 20th century Italian heard here, he was one of the first to make phonographic records",
+          "answer": "(Enrico) Caruso",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUNDS GOOD TO ME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1220-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOU'VE GOT GREAT \"LEG\"s",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A trademark for popular toy building blocks",
+          "answer": "Legos",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT GREAT \"LEG\"s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1220-s-c4-r0"
+        },
+        {
+          "question": "A family of pod-bearing plants",
+          "answer": "legumes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT GREAT \"LEG\"s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1220-s-c4-r1"
+        },
+        {
+          "question": "An elected body with the power to make, change & repeal laws",
+          "answer": "legislature",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT GREAT \"LEG\"s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1220-s-c4-r2"
+        },
+        {
+          "question": "A bequest made in a will or something that remains from a previous generation",
+          "answer": "legacy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT GREAT \"LEG\"s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1220-s-c4-r3"
+        },
+        {
+          "question": "A direction telling a musician to play in a smooth, even manner",
+          "answer": "legato",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'VE GOT GREAT \"LEG\"s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1220-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TANKS!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Reportedly this British prime minister once termed the English Channel the world's best tank trap",
+          "answer": "Churchill",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TANKS!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1220-s-c5-r0"
+        },
+        {
+          "question": "This large U.S. tank bearing the name of a Civil War general was the most widely produced tank of World War II",
+          "answer": "Sherman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TANKS!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1220-s-c5-r1"
+        },
+        {
+          "question": "In 1942 British forces were pushed from Libya into Egypt by this general's Afrika Korps tank units",
+          "answer": "Rommel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TANKS!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1220-s-c5-r2"
+        },
+        {
+          "question": "This country's T-34 tank played a large part in fighting off German invasion in 1941",
+          "answer": "Soviet Union",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TANKS!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1220-s-c5-r3"
+        },
+        {
+          "question": "\"War As I Knew It\" was the memoir of this fierce tank commander who participated in the invasion of Sicily",
+          "answer": "Patton",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TANKS!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1220-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON THE ROAD WITH JEOPARDY!",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Our Big Apple shows came from the theater at this \"Garden\"",
+          "answer": "Madison Square Garden",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE ROAD WITH JEOPARDY!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1220-d-c0-r0"
+        },
+        {
+          "question": "2000 took us to Atlanta, where staffers quenched their thirst at the attraction called World of this",
+          "answer": "Coca-Cola",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE ROAD WITH JEOPARDY!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1220-d-c0-r1"
+        },
+        {
+          "question": "The 1998 College Tournament came from this California city, home of People's Park",
+          "answer": "Berkeley",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON THE ROAD WITH JEOPARDY!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1220-d-c0-r2"
+        },
+        {
+          "question": "In 1998 \"Jeopardy!\" shows 3261-3270 came from the capital of this New England commonwealth",
+          "answer": "Massachusetts",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE ROAD WITH JEOPARDY!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1220-d-c0-r3"
+        },
+        {
+          "question": "The International Tournament of 1997 came from this city where Lake Malaren meets the Baltic Sea",
+          "answer": "Stockholm",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE ROAD WITH JEOPARDY!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1220-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICAL BOTANY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Also the name of a plant, this golden oldie by The Coasters mentons \"an ocean of calamine lotion\"",
+          "answer": "poison ivy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL BOTANY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1220-d-c1-r0"
+        },
+        {
+          "question": "Tony Orlando & Dawn topped the charts with this song that begins, \"I'm comin' home, I've done my time\"",
+          "answer": "\"Tie a Yellow Ribbon Round the Ole Oak Tree\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL BOTANY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1220-d-c1-r1"
+        },
+        {
+          "question": "It's the alternate title of the love theme from \"A Star is Born\"",
+          "answer": "\"Evergreen\"",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL BOTANY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1220-d-c1-r2"
+        },
+        {
+          "question": "In a 1982 hit Patrice Rushen was sending you these flowers \"to help me to remember\"",
+          "answer": "forget me nots",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL BOTANY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1220-d-c1-r3"
+        },
+        {
+          "question": "\"Just remember in the winter far beneath the bitter snow lies the seed that with the sun's love... becomes\" this",
+          "answer": "\"The Rose\"",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL BOTANY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1220-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPACE EXPLORATION",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1986 2 Japanese spacecraft, Suisei & Sakigake, encountered this comet",
+          "answer": "Halley's Comet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE EXPLORATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1220-d-c2-r0"
+        },
+        {
+          "question": "Gordon Cooper's 22-orbit mission in May 1963 was the last in the U.S. program with the name of this planet",
+          "answer": "Mercury",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE EXPLORATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1220-d-c2-r1"
+        },
+        {
+          "question": "(Hi, I'm Jim Reilly of the STS-104 crew aboard the space shuttle Atlantis.)  The space station is going to eventually have an acre of these assembled to complete the supply of electrical power to its 6 orbiting laboratories",
+          "answer": "solar panels",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE EXPLORATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1220-d-c2-r2"
+        },
+        {
+          "question": "This Russian woman had no experiences as a pilot prior to being trained as a cosmonaut in 1961",
+          "answer": "Valentina Tereshkova",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPACE EXPLORATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1220-d-c2-r3"
+        },
+        {
+          "question": "Of NASA's first 5 space shuttles, it was the last to make its debut launch--in 1992",
+          "answer": "Endeavour",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE EXPLORATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1220-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOT THE BEATLES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1968 he met his songwriting collaborator Bernie Taupin",
+          "answer": "Elton John",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT THE BEATLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1220-d-c3-r0"
+        },
+        {
+          "question": "This pioneering guitar player gave Colleen Summers the stage name Mary Ford",
+          "answer": "Les Paul",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT THE BEATLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1220-d-c3-r1"
+        },
+        {
+          "question": "This outlaw who made her Oklahoma home a haven for crooks was imprisoned for horse theft in 1883",
+          "answer": "Belle Starr",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOT THE BEATLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1220-d-c3-r2"
+        },
+        {
+          "question": "Serving in the British parliament from 1890 to 1945, he was prime minister during WWI",
+          "answer": "David Lloyd George",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOT THE BEATLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1220-d-c3-r3"
+        },
+        {
+          "question": "In the 1971 Peckinpah classic \"Straw Dogs\" she played Dustin Hoffman's wife",
+          "answer": "Susan George",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOT THE BEATLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1220-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "KING LEAR",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Nahum Tate's happy rewrite in which this daughter finds love with Edgar was popular for about 150 years",
+          "answer": "Cordelia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KING LEAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1220-d-c4-r0"
+        },
+        {
+          "question": "Lear is king of Britain; the other king in the play rules this country",
+          "answer": "France",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KING LEAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1220-d-c4-r1"
+        },
+        {
+          "question": "Lear's line \"Ha, ha, ha!\" is in response to a line from this character",
+          "answer": "the Fool (the Jester)",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KING LEAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1220-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "\"B\" BOP",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Pete Seeger, a master of this folk instrument, also wrote a book on how to play it",
+          "answer": "banjo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" BOP",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1220-d-c5-r0"
+        },
+        {
+          "question": "It's the common termfor the type of sports coatJimmy's wearing here",
+          "answer": "blazer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" BOP",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1220-d-c5-r1"
+        },
+        {
+          "question": "The Battle of Bunker Hill actually took place on this adjacent hill",
+          "answer": "Breed's Hill",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" BOP",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1220-d-c5-r2"
+        },
+        {
+          "question": "On the road to sainthood, this is the process of declaring someone \"blessed\"",
+          "answer": "beatification",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" BOP",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1220-d-c5-r3"
+        },
+        {
+          "question": "Diglot is a synonym for this adjective, which describes a certain ability",
+          "answer": "bilingual",
+          "value": 2400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"B\" BOP",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1220-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1795 he received the first official permit from the King of Spain to produce tequila commercially",
+          "answer": "Jose Cuervo",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BUSINESS NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1220-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

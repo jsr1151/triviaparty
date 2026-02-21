@@ -1,0 +1,833 @@
+{
+  "gameId": 208,
+  "showNumber": 4732,
+  "airDate": "March 15, 2005",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE NEWSPAPER",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Stop the presses!  In 1982 it became America's first national, general interest newspaper",
+          "answer": "USA Today",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEWSPAPER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g208-s-c0-r0"
+        },
+        {
+          "question": "When it hit the streets in 1831, Michigan Intelligencer was part of its name",
+          "answer": "The Detroit Free Press",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEWSPAPER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g208-s-c0-r1"
+        },
+        {
+          "question": "This city's Observer serves 40 counties in North & South Carolina",
+          "answer": "Charlotte",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEWSPAPER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g208-s-c0-r2"
+        },
+        {
+          "question": "This paper rises each morning from its headquarters at Calvert & Centre Streets",
+          "answer": "The Baltimore Sun",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE NEWSPAPER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g208-s-c0-r3"
+        },
+        {
+          "question": "At the request of its founder, this Boston paper runs 1 religious article each day in its home forum section",
+          "answer": "The Christian Science Monitor",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEWSPAPER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g208-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SPORTS PAGE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Yankee manager Billy Martin nearly came to blows in the dugout with this \"Mr. October\" slugger in 1977",
+          "answer": "Reggie Jackson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SPORTS PAGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g208-s-c1-r0"
+        },
+        {
+          "question": "This Packer QB's first NFL completion was to himself, a deflected pass for -7 yards on Sept. 13, 1992",
+          "answer": "Brett Favre",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SPORTS PAGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g208-s-c1-r1"
+        },
+        {
+          "question": "\"All of my books are thought-provoking\", said this NBA analyst seen here",
+          "answer": "Charles Barkley",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SPORTS PAGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g208-s-c1-r2"
+        },
+        {
+          "question": "At the 2000 Las Vegas invitational, Jerry Kelly happily tied a PGA record with 8 of these in a row",
+          "answer": "birdies",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SPORTS PAGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g208-s-c1-r3"
+        },
+        {
+          "question": "One of this league's biggest newsmakers in 2004-'05 was Commissioner Gary Bettman",
+          "answer": "the National Hockey League",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SPORTS PAGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g208-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BOOK REVIEW",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"American Soldier\" is a memoir by this general who led American & Coalition forces in Iraq",
+          "answer": "Tommy Franks",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOOK REVIEW",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g208-s-c2-r0"
+        },
+        {
+          "question": "This comedian is pictured on the cover of \"America (The Book): A Citizen's Guide to Democracy Inaction\"",
+          "answer": "Jon Stewart",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOOK REVIEW",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g208-s-c2-r1"
+        },
+        {
+          "question": "A book about this ever-popular sweet substance is subtitled \"The Nature of Indulgence\"",
+          "answer": "chocolate",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOOK REVIEW",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g208-s-c2-r2"
+        },
+        {
+          "question": "The 6-word title of this bestselling dating guide offers \"The No-Excuses Truth to Understanding Guys\"",
+          "answer": "He's Just Not That Into You",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOOK REVIEW",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g208-s-c2-r3"
+        },
+        {
+          "question": "\"How to Talk to a Liberal (if You Must)\" is subtitled \"The World According to\" her",
+          "answer": "Ann Coulter",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BOOK REVIEW",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g208-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE FOOD SECTION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "For Japanese New Year, feast on mochi, pounded cakes made from this grain",
+          "answer": "rice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FOOD SECTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g208-s-c3-r0"
+        },
+        {
+          "question": "No Passover would be complete without plates of this appetizer, ground fish with egg & matzo meal",
+          "answer": "gefilte fish",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FOOD SECTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g208-s-c3-r1"
+        },
+        {
+          "question": "The Russian paskha sweet cheese mold for this holiday has the initials XB on it, meaning \"Christ is risen\"",
+          "answer": "Easter",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FOOD SECTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g208-s-c3-r2"
+        },
+        {
+          "question": "Pan de muerto, an egg-rich bread, is a favorite in Mexico on this aptly named 4-word holiday",
+          "answer": "Day of the Dead",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FOOD SECTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g208-s-c3-r3"
+        },
+        {
+          "question": "A sweet called shira is made with this spice from the seed seen here",
+          "answer": "cardamom",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FOOD SECTION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g208-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PERSONALS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "330 B.C.:At 26, I've conquered Persia... can you conquer my heart?",
+          "answer": "Alexander the Great",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PERSONALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g208-s-c4-r0"
+        },
+        {
+          "question": "Dec. 14, 1809:Divorced today!  Ex-empress, 46, Malmaison-bound, desires tall man for a change",
+          "answer": "Josephine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PERSONALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g208-s-c4-r1"
+        },
+        {
+          "question": "450 A.D.:\"Scourge of God\" demands sister of emperor of West Roman Empire as bride--now!",
+          "answer": "Attila the Hun",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PERSONALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g208-s-c4-r2"
+        },
+        {
+          "question": "1944:Radio actress, mid-20s, desires Argentinean VP for relationship",
+          "answer": "Eva Peron",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PERSONALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g208-s-c4-r3"
+        },
+        {
+          "question": "37 A.D.:Let's have Italian!  \"Little Boot\" emperor seeks hot companion shoe for stylish fit",
+          "answer": "Caligula",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PERSONALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g208-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE \"C\"ROSSWORD PUZZLE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "1986 disaster city in Ukraine(9)",
+          "answer": "Chernobyl",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"C\"ROSSWORD PUZZLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g208-s-c5-r0"
+        },
+        {
+          "question": "Premium California red winegrape(8)",
+          "answer": "cabernet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"C\"ROSSWORD PUZZLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g208-s-c5-r1"
+        },
+        {
+          "question": "Michigan city, or DeVille maker(8)",
+          "answer": "Cadillac",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"C\"ROSSWORD PUZZLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g208-s-c5-r2"
+        },
+        {
+          "question": "A yellowish green, or a liqueur(10)",
+          "answer": "chartreuse",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"C\"ROSSWORD PUZZLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g208-s-c5-r3"
+        },
+        {
+          "question": "Used in atomic clocks, it melts at 83.3 degrees F.(6)",
+          "answer": "cesium",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"C\"ROSSWORD PUZZLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g208-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Pernambuco or brazilwood is frequently used to make this accessory for string players",
+          "answer": "bows",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g208-d-c0-r0"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew reports from a chalkboard.)  In the treble clef, the lines of the staff are E-G-B-D-F, so the spaces are known by this anatomical acronym",
+          "answer": "FACE",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g208-d-c0-r1"
+        },
+        {
+          "question": "The keynote of a major or minor scale also has this drinkable name",
+          "answer": "tonic",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g208-d-c0-r2"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew blows into a saxophone.)  From the French for \"mouth\", it's the way you form your lips & teeth around a horn's mouthpiece",
+          "answer": "the embouchure",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g208-d-c0-r3"
+        },
+        {
+          "question": "From the Italian for \"big\", it's a concerto for an orchestra & a group of instrumental soloists",
+          "answer": "(concerto) grosso",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g208-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIVE EASY PISCES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Perhaps inspired by his zodiac symbol, he wrote \"One Fish Two Fish Red Fish Blue Fish\"",
+          "answer": "Dr. Seuss",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIVE EASY PISCES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g208-d-c1-r0"
+        },
+        {
+          "question": "He's the Pisces born March 6, 1475 who said, \"I saw the angel in the marble and carved until I set him free\"",
+          "answer": "Michelangelo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIVE EASY PISCES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g208-d-c1-r1"
+        },
+        {
+          "question": "\"When we met first and loved...\" begins one of the famous sonnets by this \"Portuguese\" Pisces",
+          "answer": "Elizabeth Barrett Browning",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIVE EASY PISCES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g208-d-c1-r2"
+        },
+        {
+          "question": "Elizabeth Taylor is a Pisces & so was this man--the explorer, not her husband of the same name",
+          "answer": "Richard Burton",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIVE EASY PISCES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g208-d-c1-r3"
+        },
+        {
+          "question": "Since Pisces is a water sign, it's not surprising that he composed \"Water Music\" in 1717",
+          "answer": "Handel",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIVE EASY PISCES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g208-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHAPLIN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Charlie Chaplin said that in creating his Tramp character he added this to make him look older",
+          "answer": "a mustache",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAPLIN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g208-d-c2-r0"
+        },
+        {
+          "question": "In \"Benny & Joon\" this actor performed Chaplin's dancing roll scene from \"The Gold Rush\"",
+          "answer": "Johnny Depp",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAPLIN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g208-d-c2-r1"
+        },
+        {
+          "question": "Chaplin was born April 16, 1889 in England & died Christmas day in 1977 in this country",
+          "answer": "Switzerland",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAPLIN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g208-d-c2-r2"
+        },
+        {
+          "question": "In 1914, this Keystone Studios head was the last person other than Chaplin to direct him in a film",
+          "answer": "(Mack) Sennett",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAPLIN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g208-d-c2-r3"
+        },
+        {
+          "question": "In \"Limelight\" Chaplin cast as his partner this other great comic of the silent screen",
+          "answer": "Buster Keaton",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAPLIN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g208-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM THE CIA WORLD FACTBOOK",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The IDF, this country's defense force, based at Keflavik, is manned by Americans",
+          "answer": "Iceland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE CIA WORLD FACTBOOK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g208-d-c3-r0"
+        },
+        {
+          "question": "The center of power of an empire until 1918, this country is a bit smaller than Maine",
+          "answer": "Austria",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE CIA WORLD FACTBOOK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g208-d-c3-r1"
+        },
+        {
+          "question": "Nepal's regime is threatened by this type of movement, named for a Chinese leader",
+          "answer": "Maoists",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE CIA WORLD FACTBOOK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g208-d-c3-r2"
+        },
+        {
+          "question": "Frequent recent invasions haven't hurt this Asian country's opium crop, the world's largest",
+          "answer": "Afghanistan",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE CIA WORLD FACTBOOK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g208-d-c3-r3"
+        },
+        {
+          "question": "Though illegal, the Muslim Brotherhood is the main opposition to this African in power since 1981",
+          "answer": "Hosni Mubarak",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FROM THE CIA WORLD FACTBOOK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g208-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE STATE OF EDUCATION",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The University of Puget Sound,Gonzaga University",
+          "answer": "Washington State",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE OF EDUCATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g208-d-c4-r0"
+        },
+        {
+          "question": "Stillman College,Auburn University",
+          "answer": "Alabama",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE OF EDUCATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g208-d-c4-r1"
+        },
+        {
+          "question": "Tougaloo College,Jackson State University",
+          "answer": "Mississippi",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE OF EDUCATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g208-d-c4-r2"
+        },
+        {
+          "question": "Bowling Green State University,Case Western Reserve University",
+          "answer": "Ohio",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE OF EDUCATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g208-d-c4-r3"
+        },
+        {
+          "question": "Suffolk University,Brandeis University",
+          "answer": "Massachusetts",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STATE OF EDUCATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g208-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "15-LETTER WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Film industry position of the person who oversees the camerawork & the lighting",
+          "answer": "cinematographer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g208-d-c5-r0"
+        },
+        {
+          "question": "It's the illegal conduct being identified here",
+          "answer": "unsportsmanlike conduct",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g208-d-c5-r1"
+        },
+        {
+          "question": "It's a refusal to obey orders or submit to authority in the military",
+          "answer": "insubordination",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g208-d-c5-r2"
+        },
+        {
+          "question": "Specifically, the person in an organization who enforces Robert's Rules of Order",
+          "answer": "the parliamentarian",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g208-d-c5-r3"
+        },
+        {
+          "question": "In the armed forces, it's what the NC stands for in NCO",
+          "answer": "noncommissioned",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "15-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g208-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARTISTIC MASTERPIECES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"Shouldn't the shining dots of the sky be as accessible as the black dots on the map of France?\" the artist wrote of this work",
+          "answer": "The Starry Night (by Vincent van Gogh)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ARTISTIC MASTERPIECES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g208-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "gameId": 2041,
+  "showNumber": 3453,
+  "airDate": "September 15, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ASTRONOMY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "All the stars you can see with the naked eye are part of this galaxy",
+          "answer": "Milky Way",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2041-s-c0-r0"
+        },
+        {
+          "question": "A camera orbiting this planet in March 1999 snapped a crater that resembles a \"happy face\"",
+          "answer": "Mars",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2041-s-c0-r1"
+        },
+        {
+          "question": "In an emergency repair mission scheduled for October 1999 NASA will replace all of the gyros in this telescope",
+          "answer": "Hubble Space Telescope",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2041-s-c0-r2"
+        },
+        {
+          "question": "Sky and Telescope magazine erred 53 years ago; it's the fourth full moon in a season, not the second in a month",
+          "answer": "Blue moon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2041-s-c0-r3"
+        },
+        {
+          "question": "In 1967 what were called \"Schwarzschild Singularities\" were renamed this",
+          "answer": "Black holes",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2041-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NASA SHUTTLE NAMES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's the capital of South Carolina, or a Sony-owned movie company",
+          "answer": "Columbia",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NASA SHUTTLE NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2041-s-c1-r0"
+        },
+        {
+          "question": "Some have said this lost island was in the Aegean; others, in the Mediterranean, or elsewhere",
+          "answer": "Atlantis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NASA SHUTTLE NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2041-s-c1-r1"
+        },
+        {
+          "question": "This science, nature & exploration cable channel has its own stores in over 20 states",
+          "answer": "Discovery",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NASA SHUTTLE NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2041-s-c1-r2"
+        },
+        {
+          "question": "It's now the top U.S. car rental agency",
+          "answer": "Enterprise",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NASA SHUTTLE NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2041-s-c1-r3"
+        },
+        {
+          "question": "Make an effort to come up with this word; it's from Middle English for \"to make an effort\"",
+          "answer": "Endeavour",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NASA SHUTTLE NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2041-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "OLD COMMERCIALS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It hunts bugs like radar & kills them dead",
+          "answer": "Raid",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD COMMERCIALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2041-s-c2-r0"
+        },
+        {
+          "question": "Gemini astronauts drank this orange drink, just like you",
+          "answer": "Tang",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD COMMERCIALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2041-s-c2-r1"
+        },
+        {
+          "question": "A woman in a '60s Clairol ad intoned, \"If I had but one life to live, let me live it as\" one of these",
+          "answer": "Blonde",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD COMMERCIALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2041-s-c2-r2"
+        },
+        {
+          "question": "Bucky, one of these animals, pushed Ipana toothpaste",
+          "answer": "Beaver",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD COMMERCIALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2041-s-c2-r3"
+        },
+        {
+          "question": "\"I Want My Maypo\", this type of cereal flavored with maple",
+          "answer": "Oatmeal",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD COMMERCIALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2041-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE TWIN CITIES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "One of St. Paul's architectural highlights is this 1905 building with a marble dome",
+          "answer": "Capitol Building",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TWIN CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2041-s-c3-r0"
+        },
+        {
+          "question": "Ya sure, go to Minneapolis' Park Avenue to visit the institute devoted to this ethnic group",
+          "answer": "Swedes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TWIN CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2041-s-c3-r1"
+        },
+        {
+          "question": "The Twins & Vikings play in the Metrodome, named for this politician",
+          "answer": "Hubert H. Humphrey",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TWIN CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2041-s-c3-r2"
+        },
+        {
+          "question": "Word for the pedestrian shopping area of Nicollet Avenue, less imposing than this nearby one \"of America\"",
+          "answer": "Mall",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TWIN CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2041-s-c3-r3"
+        },
+        {
+          "question": "In Minneapolis' name, polis is Greek for \"city\" & minne is an Indian word meaning this substance",
+          "answer": "Water",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TWIN CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2041-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CUPS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "(Globe)",
+          "answer": "World Cup",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CUPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2041-s-c4-r0"
+        },
+        {
+          "question": "(Man making advances toward his sweetheart on a park bench)",
+          "answer": "Loving cup",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CUPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2041-s-c4-r1"
+        },
+        {
+          "question": "(Actress Bette)",
+          "answer": "Davis Cup",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CUPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2041-s-c4-r2"
+        },
+        {
+          "question": "(Pixie the \"meece\"'s partner in crime)",
+          "answer": "Dixie cup",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CUPS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2041-s-c4-r3"
+        },
+        {
+          "question": "(\"Square\" used in drafting to draw lines)",
+          "answer": "Tea cup",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CUPS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2041-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CROSSWORD CLUES \"S\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Aretha is the queen of it(4)",
+          "answer": "Soul",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"S\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2041-s-c5-r0"
+        },
+        {
+          "question": "Gastropod known for its pace(5)",
+          "answer": "Snail",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"S\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2041-s-c5-r1"
+        },
+        {
+          "question": "Mouselike mammal that needs \"taming\"(5)",
+          "answer": "Shrew",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"S\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2041-s-c5-r2"
+        },
+        {
+          "question": "It precedes guard or chard(5)",
+          "answer": "Swiss",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"S\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2041-s-c5-r3"
+        },
+        {
+          "question": "Hebridean isle, or its terrier(4)",
+          "answer": "Skye",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CROSSWORD CLUES \"S\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2041-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "EUROPEAN GEOGRAPHY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On this sea, an arm of the Mediterranean, you'll find Rimini & Ravenna, Italy & Rijeka, Croatia",
+          "answer": "Adriatic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2041-d-c0-r0"
+        },
+        {
+          "question": "This seaport is a center of German trade, perhaps in the ground beef that bears its name",
+          "answer": "Hamburg",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2041-d-c0-r1"
+        },
+        {
+          "question": "Malmo, one of Sweden's major cities, is just 16 miles from this capitol of another country",
+          "answer": "Copenhagen, Denmark",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2041-d-c0-r2"
+        },
+        {
+          "question": "The Italian Riviera east of Genoa is the Coast of the Rising Sun; west of Genoa it's the Coast of this",
+          "answer": "Setting Sun",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2041-d-c0-r3"
+        },
+        {
+          "question": "For centuries the Dutch could put out to zee on this North Sea inlet that was dammed around 1930",
+          "answer": "Zuider Zee",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2041-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRIALS OF THE CENTURY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Alger Hiss was indicted for this, defined as lying under oath",
+          "answer": "Perjury",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIALS OF THE CENTURY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2041-d-c1-r0"
+        },
+        {
+          "question": "F. Lee Bailey claimed insanity for his client Albert DeSalvo, who was known as this around Beantown",
+          "answer": "The Boston Strangler",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIALS OF THE CENTURY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2041-d-c1-r1"
+        },
+        {
+          "question": "This heiress was tried for robbery in 1976 & got 7 years, but President Carter commuted her sentence",
+          "answer": "Patricia Hearst",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIALS OF THE CENTURY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2041-d-c1-r2"
+        },
+        {
+          "question": "At the Gang of Four trial in China his widow said, \"I was (his) dog.  If he said bite someone, I bit him.\"",
+          "answer": "Mao Tse-tung",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIALS OF THE CENTURY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2041-d-c1-r3"
+        },
+        {
+          "question": "The cops' acquittal in the 1992 trial for beating this man resulted in the worst riots in L.A. since 1965",
+          "answer": "Rodney King",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIALS OF THE CENTURY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2041-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PIG-POURRI",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Number of the pig you have to be to get roast beef or a brick house",
+          "answer": "3",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIG-POURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2041-d-c2-r0"
+        },
+        {
+          "question": "On TV, Noel was the pet pig of this \"Designing Woman\"",
+          "answer": "Delta Burke/Suzanne Sugarbaker",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIG-POURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2041-d-c2-r1"
+        },
+        {
+          "question": "'70s show with a \"Pigs in Space\" segment that featured Capt. Link Hogthrob of the spaceship Swinetrek",
+          "answer": "The Muppet Show",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PIG-POURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2041-d-c2-r2"
+        },
+        {
+          "question": "Last name of Hooterville pig Arnold",
+          "answer": "Ziffel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PIG-POURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2041-d-c2-r3"
+        },
+        {
+          "question": "Besides a pig, it was the other animal in the title of the book on which the movie \"Babe\" was based",
+          "answer": "Sheep (\"The Sheep-Pig\")",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PIG-POURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2041-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTORS ON BROADWAY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "His role as a suspected killer in the 1999 revival of \"Night Must Fall\" was a far cry from Ferris Bueller",
+          "answer": "Matthew Broderick",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS ON BROADWAY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2041-d-c3-r0"
+        },
+        {
+          "question": "Jeremy Kushnier cuts loose in the Kevin Bacon role in the musical based on this 1984 film; \"Let's Hear It for the Boy\"",
+          "answer": "Footloose",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS ON BROADWAY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2041-d-c3-r1"
+        },
+        {
+          "question": "(Hi, I'm Jane Seymour.)  I starred on Broadway as Mozart's wife in this acclaimed drama",
+          "answer": "Amadeus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS ON BROADWAY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2041-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL NICKNAMES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Bull Moose\"",
+          "answer": "Theodore Roosevelt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2041-d-c4-r0"
+        },
+        {
+          "question": "\"The Father of the University of Virginia\"",
+          "answer": "Thomas Jefferson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2041-d-c4-r1"
+        },
+        {
+          "question": "\"Landslide\"",
+          "answer": "Lyndon B. Johnson",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2041-d-c4-r2"
+        },
+        {
+          "question": "\"The Great Engineer\"",
+          "answer": "Herbert Hoover",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2041-d-c4-r3"
+        },
+        {
+          "question": "The \"Son of the Grandfather\"",
+          "answer": "Benjamin Harrison",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2041-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEFORE & AFTER",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Candle in the Wind\" singer who boldly signed the Declaration of Independence first",
+          "answer": "Elton John Hancock",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2041-d-c5-r0"
+        },
+        {
+          "question": "Ozzie & Harriet offspring sworn in as vice president under Ford",
+          "answer": "Ricky Nelson Rockefeller",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2041-d-c5-r1"
+        },
+        {
+          "question": "1939 big screen Civil War saga that takes place in an aerodynamics test chamber",
+          "answer": "Gone with the Wind Tunnel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2041-d-c5-r2"
+        },
+        {
+          "question": "Reclusive \"That Girl\" star who pens books like \"Gravity's Rainbow\" in her spare time",
+          "answer": "Marlo Thomas Pynchon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2041-d-c5-r3"
+        },
+        {
+          "question": "\"Sling Blade\" Oscar winner who won a Pulitzer for \"The Skin of Our Teeth\"",
+          "answer": "Billy Bob Thornton Wilder",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEFORE & AFTER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2041-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS NOVELS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Chapter XVI of this novel concerns \"The Inn Which He Took for a Castle\"",
+          "answer": "\"Don Quixote\"",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS NOVELS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2041-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

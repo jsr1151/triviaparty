@@ -1,0 +1,833 @@
+{
+  "gameId": 3240,
+  "showNumber": 5807,
+  "airDate": "December 8, 2009",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ANATOMY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This transparent membrane in the eye covers the iris & has no blood vessels",
+          "answer": "the cornea",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3240-s-c0-r0"
+        },
+        {
+          "question": "This vein's name comes from the Latin for \"collarbone\"",
+          "answer": "the jugular",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3240-s-c0-r1"
+        },
+        {
+          "question": "The head of the femur fits into the acetabulum, a socket in this pelvic bone",
+          "answer": "the hip bone",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3240-s-c0-r2"
+        },
+        {
+          "question": "The base of the fibula forms the outer projection of this joint",
+          "answer": "the ankle",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3240-s-c0-r3"
+        },
+        {
+          "question": "A ringlike muscle called the pyloric sphincter lies at the end of this, leading into the duodenum",
+          "answer": "the stomach",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3240-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DUDE, YOU'RE A SONG!",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"...don't make it bad, take a sad song and make it better\"",
+          "answer": "Jude",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUDE, YOU'RE A SONG!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3240-s-c1-r0"
+        },
+        {
+          "question": "\"...and don't you come back no more, no more, no more, no more\"",
+          "answer": "Jack",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUDE, YOU'RE A SONG!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3240-s-c1-r1"
+        },
+        {
+          "question": "\"There stood a log cabin made of earth and wood, where lived a country boy named...\"",
+          "answer": "Johnny B. Goode",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUDE, YOU'RE A SONG!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3240-s-c1-r2"
+        },
+        {
+          "question": "\"Trouble ahead, trouble behind, and you know that notion just crossed my mind\" (Now we see who's the Deadhead)",
+          "answer": "Casey Jones",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUDE, YOU'RE A SONG!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3240-s-c1-r3"
+        },
+        {
+          "question": "In a Pearl Jam tune this boy \"spoke in class today\"",
+          "answer": "Jeremy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUDE, YOU'RE A SONG!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3240-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALWAYS SAY NEVER",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "There's an old expression that says these \"never prosper\"; remember that",
+          "answer": "cheaters",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS SAY NEVER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3240-s-c2-r0"
+        },
+        {
+          "question": "Line that precedes \"they simply fade away\" in a British army song",
+          "answer": "Old soldiers never die",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS SAY NEVER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3240-s-c2-r1"
+        },
+        {
+          "question": "\"He that fights and runs away may\" these 5 words \"but he that is in battle slain will never rise to fight again\"",
+          "answer": "live to fight another day",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS SAY NEVER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3240-s-c2-r2"
+        },
+        {
+          "question": "In his \"Ballad of East and West\", this Brit wrote, \"east is east and west is west and never the twain shall meet\"",
+          "answer": "(Rudyard) Kipling",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS SAY NEVER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3240-s-c2-r3"
+        },
+        {
+          "question": "Shelley said of this, \"Hail to thee, blithe spirit!  Bird thou never wert!\"; Wordsworth said they \"soar but never roam\"",
+          "answer": "a skylark",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS SAY NEVER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3240-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "L____O",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's a long rope with a loop on one end, used to rope cattle",
+          "answer": "a lasso",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "L____O",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3240-s-c3-r0"
+        },
+        {
+          "question": "This term for the sex drive comes from the Latin for \"lust\"",
+          "answer": "libido",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "L____O",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3240-s-c3-r1"
+        },
+        {
+          "question": "How low can you go?  Perhaps to this place on the border of heaven or hell",
+          "answer": "limbo",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "L____O",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3240-s-c3-r2"
+        },
+        {
+          "question": "The opposite of staccato, it's a direction to play music smoothly",
+          "answer": "legato",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "L____O",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3240-s-c3-r3"
+        },
+        {
+          "question": "This term for any man who seduces & deceives women comes from a character in the 18th century play \"The Fair Penitent\"",
+          "answer": "lothario",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "L____O",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3240-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AN ARTHUR BEE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "He followed Garfield as president",
+          "answer": "Chester Arthur",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AN ARTHUR BEE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3240-s-c4-r0"
+        },
+        {
+          "question": "Go to Flushing Meadows & see the 22,547-capacity stadium named for this man",
+          "answer": "Arthur Ashe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AN ARTHUR BEE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3240-s-c4-r1"
+        },
+        {
+          "question": "His father was Uther Pendragon",
+          "answer": "King Arthur",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AN ARTHUR BEE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3240-s-c4-r2"
+        },
+        {
+          "question": "Author of \"3001: The Final Odyssey\"",
+          "answer": "Arthur C. Clarke",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AN ARTHUR BEE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3240-s-c4-r3"
+        },
+        {
+          "question": "For 50 seasons this Boston-born man was director of the Boston Pops",
+          "answer": "Arthur Fiedler",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AN ARTHUR BEE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3240-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEN THERE'S MAUVE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The mauve flowers of the Paulownia tree adorn the highest grade of the Order of the Rising Sun award of this country",
+          "answer": "Japan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEN THERE'S MAUVE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3240-s-c5-r0"
+        },
+        {
+          "question": "First obtained from aniline, the color mauve was the first commercially successful synthetic this",
+          "answer": "a dye",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEN THERE'S MAUVE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3240-s-c5-r1"
+        },
+        {
+          "question": "Not much mauve but lots of gray in the paintings of Anton Mauve, a member of The Hague school in this country",
+          "answer": "the Netherlands",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEN THERE'S MAUVE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3240-s-c5-r2"
+        },
+        {
+          "question": "Bella Donna Mauve is in the Color Riche line of these made by L'Oreal",
+          "answer": "lipsticks",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEN THERE'S MAUVE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3240-s-c5-r3"
+        },
+        {
+          "question": "\"Madame de Mauves\" was an 1874 novel by this expatriate American",
+          "answer": "Henry James",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEN THERE'S MAUVE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3240-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ISLANDS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "These islands famous for their ponies form the northernmost part of Scotland",
+          "answer": "the Shetlands",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3240-d-c0-r0"
+        },
+        {
+          "question": "Portuguese sailors originally named this island in the South China Sea Ilha Formosa, \"beautiful island\"",
+          "answer": "Taiwan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3240-d-c0-r1"
+        },
+        {
+          "question": "The Leeward Islands are among the \"Lesser\" of these islands; Cuba & Jamaica are among the \"Greater\"",
+          "answer": "the Antilles",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3240-d-c0-r2"
+        },
+        {
+          "question": "In the Caribbean this island is partnered with Nevis",
+          "answer": "St. Kitts",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3240-d-c0-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew shows a map on the monitor.)  Because they surround Delos, the sacred birthplace of Apollo & Artemis, this island group derives its name from the Greek word for \"circle\"",
+          "answer": "the Cyclades",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3240-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CALENDAR GIRLS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Donna Douglas played this \"Beverly Hillbillies\" gal on TV & Erika Eleniak played her in the 1993 movie",
+          "answer": "Elly May",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALENDAR GIRLS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3240-d-c1-r0"
+        },
+        {
+          "question": "In 1963 she co-wrote \"Ring of Fire\" with Merle Kilgore",
+          "answer": "(June) Carter (Cash)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALENDAR GIRLS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3240-d-c1-r1"
+        },
+        {
+          "question": "Patricia Clarkson was nominated for an Oscar for \"Pieces of\" this title gal played by Katie Holmes",
+          "answer": "April (Burns)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALENDAR GIRLS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3240-d-c1-r2"
+        },
+        {
+          "question": "This MGM star & wife of Dick Powell is seen here",
+          "answer": "June Allyson",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALENDAR GIRLS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3240-d-c1-r3"
+        },
+        {
+          "question": "Pernilla August once worked with Ingmar Bergman, but we know her best for playing Shmi in the fourth film in this series",
+          "answer": "the Star Wars series",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALENDAR GIRLS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3240-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "19th CENTURY SCRAPBOOK",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This imposing American landmark is seen here as it looked in 1876",
+          "answer": "the Washington Monument",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY SCRAPBOOK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3240-d-c2-r0"
+        },
+        {
+          "question": "Successful \"Little\" author seen here",
+          "answer": "(Louisa May) Alcott",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY SCRAPBOOK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3240-d-c2-r1"
+        },
+        {
+          "question": "Future leader of the UK seen here on the right in the 1880s",
+          "answer": "Churchill",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY SCRAPBOOK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3240-d-c2-r2"
+        },
+        {
+          "question": "This Russian seen here set the table for future chemists",
+          "answer": "Mendeleev",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY SCRAPBOOK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3240-d-c2-r3"
+        },
+        {
+          "question": "Pictured here around 1890, he was the original \"Iron Man\"",
+          "answer": "(Otto von) Bismarck",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY SCRAPBOOK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3240-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POLITICAL TALK",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Lincoln once said not to \"swap\" these \"while crossing a stream\"",
+          "answer": "horses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL TALK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3240-d-c3-r0"
+        },
+        {
+          "question": "This type of \"son\" holds a state's convention votes together but is not a serious candidate for presidency",
+          "answer": "a favorite son",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL TALK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3240-d-c3-r1"
+        },
+        {
+          "question": "A \"strict\" one of these 15-letter words tends to interpret the Constitution literally",
+          "answer": "a constructionist",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL TALK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3240-d-c3-r2"
+        },
+        {
+          "question": "According to the League of Women Voters, an \"empty chair\" one of these should be canceled",
+          "answer": "debates",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL TALK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3240-d-c3-r3"
+        },
+        {
+          "question": "Saddle up & give us this 5-letter term for an added provision that may not be germane to the purpose of a bill",
+          "answer": "a rider",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL TALK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3240-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BORN IN DUBLIN",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "After the Battle of Waterloo, he said, \"Nothing except a battle lost can be half so melancholy as a battle won\"",
+          "answer": "Wellington",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BORN IN DUBLIN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3240-d-c4-r0"
+        },
+        {
+          "question": "John Millington Synge wasn't born on Dublin's Synge St.; this other 3-named playwright was",
+          "answer": "George Bernard Shaw",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BORN IN DUBLIN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3240-d-c4-r1"
+        },
+        {
+          "question": "This red-haired beauty born in the Dublin suburb of Ranelagh played Natalie Wood's mother in \"Miracle on 34th Street\"",
+          "answer": "Maureen O'Hara",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BORN IN DUBLIN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3240-d-c4-r2"
+        },
+        {
+          "question": "His first major satire, \"A Tale of a Tub\", was published in 1704",
+          "answer": "Swift",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BORN IN DUBLIN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3240-d-c4-r3"
+        },
+        {
+          "question": "This \"Babes in Toyland\" composer helped found the organization ASCAP in 1914",
+          "answer": "Victor Herbert",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BORN IN DUBLIN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3240-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CALL ME A\"LEX\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "3 housing units all under one roof",
+          "answer": "a triplex",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALL ME A\"LEX\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3240-d-c5-r0"
+        },
+        {
+          "question": "Adjective meaning able to bend & snap back readily without breaking",
+          "answer": "flexible",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALL ME A\"LEX\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3240-d-c5-r1"
+        },
+        {
+          "question": "By profession, Noah Webster was one of these",
+          "answer": "a lexicographer",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALL ME A\"LEX\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3240-d-c5-r2"
+        },
+        {
+          "question": "Elaborate in structure or by nature",
+          "answer": "complex",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALL ME A\"LEX\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3240-d-c5-r3"
+        },
+        {
+          "question": "A light transparent weather-resistant man-made thermoplastic",
+          "answer": "Plexiglas",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALL ME A\"LEX\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3240-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE OF THE 1800s",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This character said, \"I will live in the past, the present, and the future.  The spirits of all three shall strive within me\"",
+          "answer": "Ebenezer Scrooge",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "LITERATURE OF THE 1800s",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3240-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

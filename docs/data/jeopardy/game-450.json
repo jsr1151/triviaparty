@@ -1,0 +1,833 @@
+{
+  "gameId": 450,
+  "showNumber": 3922,
+  "airDate": "September 25, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BOOKS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The message \"Some pig\", spun by a spider, convinces a farmer to save Wilbur in this book",
+          "answer": "Charlotte's Web",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g450-s-c0-r0"
+        },
+        {
+          "question": "Meg Murry finds out that this title phenomenon, also called a tesseract, exists in a Madeleine L'Engle novel",
+          "answer": "A Wrinkle in Time",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g450-s-c0-r1"
+        },
+        {
+          "question": "The subtitle of this J.R.R. Tolkien novel is \"There and Back Again\"",
+          "answer": "The Hobbit",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g450-s-c0-r2"
+        },
+        {
+          "question": "This Philip Pullman series includes \"The Golden Compass\", \"The Subtle Knife\" & \"The Amber Spyglass\"",
+          "answer": "His Dark Materials",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g450-s-c0-r3"
+        },
+        {
+          "question": "Lemony Snicket's \"A Series of Unfortunate Events\" books chronicle the lives of these 3 orphans",
+          "answer": "the Baudelaires",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g450-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S A LIVING",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Donna Karan,Mossimo",
+          "answer": "a fashion designer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A LIVING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g450-s-c1-r0"
+        },
+        {
+          "question": "Julia Child,Emeril Lagasse",
+          "answer": "a chef",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A LIVING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g450-s-c1-r1"
+        },
+        {
+          "question": "David Blaine,David Copperfield",
+          "answer": "a magician",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A LIVING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g450-s-c1-r2"
+        },
+        {
+          "question": "Ruth Bader Ginsburg,William Rehnquist",
+          "answer": "a justice of the Supreme Court",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A LIVING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g450-s-c1-r3"
+        },
+        {
+          "question": "Jeb Bush,Gray Davis",
+          "answer": "governors",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IT'S A LIVING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g450-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LET'S CELEBRATE!",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Celebrated on November 11, it honors those who served in our Armed Forces",
+          "answer": "Veterans Day",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S CELEBRATE!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g450-s-c2-r0"
+        },
+        {
+          "question": "Holiday celebrated in the parade seen here",
+          "answer": "St. Patrick's Day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S CELEBRATE!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g450-s-c2-r1"
+        },
+        {
+          "question": "In 1621 Pilgrims celebrated the first traditional Thanksgiving in this Massachusetts colony",
+          "answer": "Plymouth",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S CELEBRATE!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g450-s-c2-r2"
+        },
+        {
+          "question": "Also known as Shrove Tuesday, this lively celebration is held on the Tuesday before Ash Wednesday",
+          "answer": "Fat Tuesday (or Mardi Gras)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S CELEBRATE!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g450-s-c2-r3"
+        },
+        {
+          "question": "In 1915 President Wilson proclaimed that the second Sunday in May would be this annual holiday",
+          "answer": "Mother's Day",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S CELEBRATE!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g450-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MARS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Because of its hue, Mars is known as this \"colorful\" planet",
+          "answer": "red",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g450-s-c3-r0"
+        },
+        {
+          "question": "In the H.G. Wells novel \"War of the Worlds\", invading Martians attack this capital city of England",
+          "answer": "London",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g450-s-c3-r1"
+        },
+        {
+          "question": "Phobos & Deimos are the names of these 2 objects that orbit Mars",
+          "answer": "moons",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g450-s-c3-r2"
+        },
+        {
+          "question": "Meteorites from Mars have been found on this cold continent at the bottom of the world",
+          "answer": "Antarctica",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g450-s-c3-r3"
+        },
+        {
+          "question": "Olympus Mons, one of these lava-spewing openings in Mars' surface, is over 16 miles high",
+          "answer": "volcano",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MARS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g450-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHEN IN SOUTHERN CALIFORNIA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Pat Sajak's was one of the stars temporarily removed from this street during its subway construction",
+          "answer": "Hollywood Boulevard",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHEN IN SOUTHERN CALIFORNIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g450-s-c4-r0"
+        },
+        {
+          "question": "You can check out the Nixon library in Yorba Linda or this '80s president's library in Simi Valley",
+          "answer": "Reagan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHEN IN SOUTHERN CALIFORNIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g450-s-c4-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew reads the clue from the Page Museum.) The big tooth seen here is from this ancient relative of the elephant whose name means \"big\"",
+          "answer": "a mammoth",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHEN IN SOUTHERN CALIFORNIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g450-s-c4-r2"
+        },
+        {
+          "question": "This \"Eye\" network's \"Television City\" is next to the Farmer's Market",
+          "answer": "CBS",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHEN IN SOUTHERN CALIFORNIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g450-s-c4-r3"
+        },
+        {
+          "question": "Tiffany's, Versace & Chanel are among the names on stores on this famous Beverly Hills street",
+          "answer": "Rodeo Drive",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHEN IN SOUTHERN CALIFORNIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g450-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPEAK & SPELL",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Go north, young person & spell...",
+          "answer": "Q-U-E-B-E-C",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEAK & SPELL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g450-s-c5-r0"
+        },
+        {
+          "question": "Get onboard & cruise to the spelling of...",
+          "answer": "Y-A-C-H-T",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEAK & SPELL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g450-s-c5-r1"
+        },
+        {
+          "question": "Brace yourself & spell...",
+          "answer": "O-R-T-H-O-D-O-N-T-I-A",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPEAK & SPELL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g450-s-c5-r2"
+        },
+        {
+          "question": "Everyone agrees you can spell...",
+          "answer": "U-N-A-N-I-M-O-U-S",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPEAK & SPELL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g450-s-c5-r3"
+        },
+        {
+          "question": "Get nosy & spell...",
+          "answer": "A-A-R-D-V-A-R-K",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEAK & SPELL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g450-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SOUND & THE FURRY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This animal heard here is also called the king of the beasts",
+          "answer": "a lion",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOUND & THE FURRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g450-d-c0-r0"
+        },
+        {
+          "question": "\"Big bad\" beast heard here",
+          "answer": "a wolf",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOUND & THE FURRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g450-d-c0-r1"
+        },
+        {
+          "question": "This big fella of northern North America is named for its grizzled fur",
+          "answer": "a grizzly bear",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOUND & THE FURRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g450-d-c0-r2"
+        },
+        {
+          "question": "The African animal heard here, it comes in Mountain & Lowland types",
+          "answer": "a gorilla",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOUND & THE FURRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g450-d-c0-r3"
+        },
+        {
+          "question": "This type of \"Dog\" heard here doesn't sound much like rover",
+          "answer": "a prairie dog",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOUND & THE FURRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g450-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOOD SPORTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This team sport is known as football in most of the world, but we call it this",
+          "answer": "soccer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOOD SPORTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g450-d-c1-r0"
+        },
+        {
+          "question": "The Indianapolis 500 is one of the major events in this sport",
+          "answer": "car racing",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOOD SPORTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g450-d-c1-r1"
+        },
+        {
+          "question": "This sport involves using a long shaft to swing yourself up & over a crossbar",
+          "answer": "pole vaulting",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOOD SPORTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g450-d-c1-r2"
+        },
+        {
+          "question": "Derek Jeter & Pedro Martinez play this professional sport",
+          "answer": "baseball",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOOD SPORTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g450-d-c1-r3"
+        },
+        {
+          "question": "(Cheryl of the clue crew swings a club on a golf course)  On my way to the green I've ended up in this turbulent part of a golf course",
+          "answer": "the rough",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOOD SPORTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g450-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE IN HISTORY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In a famous kite experiment, this Statesman proved that lightning is a form of electricity",
+          "answer": "Benjamin Franklin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g450-d-c2-r0"
+        },
+        {
+          "question": "One of the first Europeans to reach North America was this son of Eric the Red",
+          "answer": "Leif Ericson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g450-d-c2-r1"
+        },
+        {
+          "question": "Winning a military victory in 47 B.C., this Roman general said, \"I came, I saw, I conquered\"",
+          "answer": "(Julius) Caesar",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g450-d-c2-r2"
+        },
+        {
+          "question": "In 1804 this man crowned himself Emperor of France",
+          "answer": "Napoleon",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g450-d-c2-r3"
+        },
+        {
+          "question": "This 17th century English sea captain gave his name to a large North American bay, a river & a strait",
+          "answer": "(Henry) Hudson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g450-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUARTER BACKS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's the state featured on the quarter here",
+          "answer": "New York",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUARTER BACKS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g450-d-c3-r0"
+        },
+        {
+          "question": "A yellow jessamine, a palmetto tree & a Carolina Wren show off this state's nature",
+          "answer": "South Carolina",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUARTER BACKS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g450-d-c3-r1"
+        },
+        {
+          "question": "Seen here this state's quarter features Narragansett Bay",
+          "answer": "Rhode Island",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUARTER BACKS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g450-d-c3-r2"
+        },
+        {
+          "question": "The quarter for this state features a race horse; we can't tell if it's standing on bluegrass",
+          "answer": "Kentucky",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUARTER BACKS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g450-d-c3-r3"
+        },
+        {
+          "question": "This state's Governor Zell Miller selected a peach of a quarter",
+          "answer": "Georgia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUARTER BACKS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g450-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE FIVE SENSES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Bummer, dude! Getting otitis media before a rock concert totally messes up this all-important sense",
+          "answer": "hearing",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIVE SENSES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g450-d-c4-r0"
+        },
+        {
+          "question": "Your tactile sense; it can proverbially be this \"& go\"",
+          "answer": "touch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIVE SENSES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g450-d-c4-r1"
+        },
+        {
+          "question": "If you have the \"Second\" type of this sense, you already knew you'd answer this clue correctly",
+          "answer": "sight",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE FIVE SENSES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g450-d-c4-r2"
+        },
+        {
+          "question": "You can have a lack of it in fashion, or use chemoreceptor cells to aid it at Chuck E. Cheese's",
+          "answer": "taste",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIVE SENSES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g450-d-c4-r3"
+        },
+        {
+          "question": "Use your septum & posterior nares to help get this sense of your surroundings",
+          "answer": "smell",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIVE SENSES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g450-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "I KNOW IT FORWARD & BACKWARD",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Dad's \"Other half\"",
+          "answer": "mom",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I KNOW IT FORWARD & BACKWARD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g450-d-c5-r0"
+        },
+        {
+          "question": "When the shadow on your sundial is pointing due north, it's this time",
+          "answer": "noon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I KNOW IT FORWARD & BACKWARD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g450-d-c5-r1"
+        },
+        {
+          "question": "Craft illustrated here",
+          "answer": "kayak",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I KNOW IT FORWARD & BACKWARD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g450-d-c5-r2"
+        },
+        {
+          "question": "Air traffic controllers keep their eyes glued to this screen, following the blips on it",
+          "answer": "radar",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I KNOW IT FORWARD & BACKWARD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g450-d-c5-r3"
+        },
+        {
+          "question": "Piece of paper that says you own the property",
+          "answer": "deed",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I KNOW IT FORWARD & BACKWARD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g450-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP MUSIC",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Selling over 12 million copies, this singer's 1999 album is the bestselling album by a teenage solo artist",
+          "answer": "Britney Spears",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "POP MUSIC",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g450-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

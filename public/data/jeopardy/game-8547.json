@@ -1,0 +1,749 @@
+{
+  "gameId": 8547,
+  "showNumber": 746,
+  "airDate": "November 30, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SCIENCE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This famed Renaissance scientist & artist was a pioneer in aerodynamics & hydraulics",
+          "answer": "da Vinci",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8547-s-c0-r0"
+        },
+        {
+          "question": "Galena is the principal ore of this element used in batteries, solder, & pipes",
+          "answer": "lead",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8547-s-c0-r1"
+        },
+        {
+          "question": "Of 100 thousand, 100 million, or 100 billion, current estimated # of galaxies in the universe",
+          "answer": "100 billion",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8547-s-c0-r2"
+        },
+        {
+          "question": "From Latin \"to fall off\", term for shrubs & trees whose leaves fall off seasonally",
+          "answer": "deciduous",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8547-s-c0-r3"
+        },
+        {
+          "question": "Derived from lichens, it's one of the oldest acid-based indicators",
+          "answer": "litmus",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8547-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ITALIAN IDIOMS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In his act, Tiny Tim would fake naivete as well as this unnaturally high-pitched voice",
+          "answer": "falsetto",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN IDIOMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8547-s-c1-r0"
+        },
+        {
+          "question": "Though he was neither Italian nor a tot at the time, Babe Ruth was called this",
+          "answer": "the Bambino",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN IDIOMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8547-s-c1-r1"
+        },
+        {
+          "question": "An Italian with a fondness for \"il vino, le donne e le canzone\" likes these",
+          "answer": "wine, women & song",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN IDIOMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8547-s-c1-r2"
+        },
+        {
+          "question": "Ronzoni describes its pasta products with this 2-word Italian phrase",
+          "answer": "sono buoni",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ITALIAN IDIOMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8547-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "ONE-WORD SONGS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "1-word #1 hit in 1960 for Maurice Williams, or 1-word command for a dog to remain in place",
+          "answer": "\"Stay\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8547-s-c2-r0"
+        },
+        {
+          "question": "\"Bye Bye Birdie\" song with the musical query, \"Why can't they be like we were, perfect in every way?\"",
+          "answer": "\"Kids\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8547-s-c2-r1"
+        },
+        {
+          "question": "Linda Ronstadt lamented that he'd \"been out ridin' fences for so long now\"",
+          "answer": "\"Desperado\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8547-s-c2-r2"
+        },
+        {
+          "question": "A time of rest, or title of the following lively Go-Go's hit:\"Can't seem to get my mind off of you / Back here at home, there's nothin' to do / Now that I'm away...\"",
+          "answer": "\"Vacation\"",
+          "value": 200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8547-s-c2-r3"
+        },
+        {
+          "question": "\"The evening breeze caressed the trees\" this way",
+          "answer": "\"Tenderly\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8547-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEEDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A single plant of some species of weeds can bear a half million or more of these",
+          "answer": "spores (or seeds)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEEDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8547-s-c3-r0"
+        },
+        {
+          "question": "Ancient Greeks made a brew out of this poisonous parsley relative & offered it up to criminals",
+          "answer": "hemlock",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEEDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8547-s-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "CONTESTS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Playing this in Mich., 92-yr.-old George Shaffer won over $3 mil., to be paid in 20 yearly installments",
+          "answer": "the (state) lottery",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTESTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8547-s-c4-r0"
+        },
+        {
+          "question": "Wild beasts fought in the Colosseum in the morning; their contests took place in the afternoon",
+          "answer": "gladiators",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTESTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8547-s-c4-r1"
+        },
+        {
+          "question": "In 1987, \"dyscalculia\" eliminated Rachel Nussbaum in round 9 of these national championships",
+          "answer": "the National Spelling Bee",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTESTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8547-s-c4-r2"
+        },
+        {
+          "question": "At age 12, this Australian singer won a Hayley Mills look-alike contest",
+          "answer": "Olivia Newton-John",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTESTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8547-s-c4-r3"
+        },
+        {
+          "question": "A 1986 United Brands banana jingle-writing contest stipulated your entry must begin w/these 3 words",
+          "answer": "I'm Chiquita Banana",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CONTESTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8547-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CONTAINERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A sack or bag, you're advised not to buy a pig in one",
+          "answer": "a poke",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTAINERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8547-s-c5-r0"
+        },
+        {
+          "question": "A diplomat's contains papers, while a kangaroo's holds a joey",
+          "answer": "a pouch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTAINERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8547-s-c5-r1"
+        },
+        {
+          "question": "From French for \"small basin\", it's an oblong basket used to hold the baby",
+          "answer": "a bassinet",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTAINERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8547-s-c5-r2"
+        },
+        {
+          "question": "It's used to contain the fine linens, household items, & silver a prospective bride saves up",
+          "answer": "a hope chest",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTAINERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8547-s-c5-r3"
+        },
+        {
+          "question": "A sarcophagus is a coffin made of this material",
+          "answer": "stone",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONTAINERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8547-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE MIDDLE AGES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the 10th century, Otto III tried to recreate the power & the glory of this ancient empire",
+          "answer": "the ancient Roman Empire",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MIDDLE AGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8547-d-c0-r0"
+        },
+        {
+          "question": "In medieval heraldry, a \"lion coward\" was one drawn with this between its legs",
+          "answer": "a tail",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MIDDLE AGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8547-d-c0-r1"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "President & editor of Ms. magazine who in 1986 published a \"feminist\" bio of Marilyn Monroe",
+          "answer": "Gloria Steinem",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8547-d-c1-r0"
+        },
+        {
+          "question": "The Secretary of Transportation",
+          "answer": "Elizabeth Dole",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8547-d-c1-r1"
+        },
+        {
+          "question": "Muriel Siebert, who now owns her own firm, was 1st woman to buy a seat here",
+          "answer": "the New York Stock Exchange",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8547-d-c1-r2"
+        },
+        {
+          "question": "Daughter of Pablo, she designs jewelry for Tiffany",
+          "answer": "Paloma Picasso",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8547-d-c1-r3"
+        },
+        {
+          "question": "2 children of efficiency expert Lillian Gilbreth wrote this book about how she raised her big family",
+          "answer": "Cheaper by the Dozen",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8547-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. STATES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Just over ½ the size of L.A. county, it's the 2nd smallest state in the U.S.",
+          "answer": "Delaware",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8547-d-c2-r0"
+        },
+        {
+          "question": "1 of the 2 largest islands off Massachusetts' Cape Cod",
+          "answer": "Martha's Vineyard or Nantucket Island",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8547-d-c2-r1"
+        },
+        {
+          "question": "The only U.S. state where coffee is grown commercially",
+          "answer": "Hawaii",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8547-d-c2-r2"
+        },
+        {
+          "question": "In 1986, both this state & its largest city celebrated a sesquicentennial",
+          "answer": "Texas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8547-d-c2-r3"
+        },
+        {
+          "question": "In area, this state with fewer than 1 million people is the 4th largest in the U.S.",
+          "answer": "Montana",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8547-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE TRIVIA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "They lied: beauty didn't kill this beast; he got an artificial heard implant & lived",
+          "answer": "King Kong",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8547-d-c3-r0"
+        },
+        {
+          "question": "The Boring Inst. voted this 1986 cave woman saga with Daryl Hannah the year's most boring film",
+          "answer": "Clan of the Cave Bear",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8547-d-c3-r1"
+        },
+        {
+          "question": "He cast both his son & daughter, Sydney & Geraldine, in his last film \"The Countess from Hong Kong\"",
+          "answer": "Charlie Chaplin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8547-d-c3-r2"
+        },
+        {
+          "question": "Nickname of Richard Kiel's character in \"The Spy Who Loved Me\", it's the name of another hit film",
+          "answer": "\"Jaws\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8547-d-c3-r3"
+        },
+        {
+          "question": "In \"The Purple Rose of Cairo\", he played Tom Baxter, in \"Radio Days\", Biff Baxter",
+          "answer": "Jeff Daniels",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8547-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Boston College, Rice & Notre Dame don't have these \"brotherly\" & \"sisterly\" social organizations",
+          "answer": "fraternities & sororities",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8547-d-c4-r0"
+        },
+        {
+          "question": "The 1st 4 Black college grads in the U.S. all attended colleges in this 6-state region",
+          "answer": "New England",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8547-d-c4-r1"
+        },
+        {
+          "question": "Poughkeepsie, N.Y. brewer who, in 1861, donated the money to found a women's college",
+          "answer": "Matthew Vassar",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8547-d-c4-r2"
+        },
+        {
+          "question": "Dr. Parkman, who gave the land for its med school, was murdered by a fellow grad of this famous U.",
+          "answer": "Harvard",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8547-d-c4-r3"
+        },
+        {
+          "question": "While M.I.T. is the Massachusetts Institute of Technology, NYC's F.I.T. is this",
+          "answer": "the Fashion Institute of Technology",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8547-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"B\" IN LITERATURE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Sebastian Marchmain's stately home, it's a great place to \"revisit\"",
+          "answer": "Brideshead",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" IN LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8547-d-c5-r0"
+        },
+        {
+          "question": "He becomes king of the Geats in the epic Old English poem named for him",
+          "answer": "Beowulf",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" IN LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8547-d-c5-r1"
+        },
+        {
+          "question": "1880 epic subtitled \"A Tale of the Christ\"",
+          "answer": "Ben-Hur",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"B\" IN LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8547-d-c5-r2"
+        },
+        {
+          "question": "A target of Nazi persecution, he fled Germany & wrote \"Mother Courage\" in exile",
+          "answer": "Bertolt Brecht",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"B\" IN LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8547-d-c5-r3"
+        },
+        {
+          "question": "A ragman dies of spontaneous combustion in the Dickens novel named for this domicile",
+          "answer": "Bleak House",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"B\" IN LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8547-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD GEOGRAPHY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Antilles are a group of islands that arc between Florida & this South American country",
+          "answer": "Venezuela",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WORLD GEOGRAPHY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8547-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

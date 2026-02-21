@@ -1,0 +1,833 @@
+{
+  "gameId": 8825,
+  "showNumber": 9040,
+  "airDate": "February 16, 2024",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "PRESIDENTIAL TV",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"The Missiles of October\"",
+          "answer": "Kennedy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TV",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8825-s-c0-r0"
+        },
+        {
+          "question": "\"Warm Springs\"",
+          "answer": "FDR",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TV",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8825-s-c0-r1"
+        },
+        {
+          "question": "\"The Man from Independence\"",
+          "answer": "Harry Truman",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TV",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8825-s-c0-r2"
+        },
+        {
+          "question": "\"The Final Days\" (1989)",
+          "answer": "Nixon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TV",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8825-s-c0-r3"
+        },
+        {
+          "question": "\"The Crossing\"",
+          "answer": "Washington",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TV",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8825-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTION & NONFICTION",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Oath and Honor\" is a 2023 memoir & warning by this politician",
+          "answer": "Liz Cheney",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION & NONFICTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8825-s-c1-r0"
+        },
+        {
+          "question": "Seeking le mot juste, Gustave Flaubert took 5 years to write this novel about a bleak marriage",
+          "answer": "Madame Bovary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION & NONFICTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8825-s-c1-r1"
+        },
+        {
+          "question": "She worked as a librarian before writing classic kids' books like \"The Mouse & the Motorcycle\"",
+          "answer": "Cleary",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION & NONFICTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8825-s-c1-r2"
+        },
+        {
+          "question": "Marjane Satrapi used the name of an ancient Persian city for the title of this graphic memoir of her childhood in Iran",
+          "answer": "Persepolis",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION & NONFICTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8825-s-c1-r3"
+        },
+        {
+          "question": "She wrote fiction like 1970's \"Play It as It Lays\" & nonfiction including \"The White Album\"",
+          "answer": "Didion",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION & NONFICTION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8825-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "A DOG'S LIFE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "To avoid confusion & possible danger, train your dog on the standard type of this before getting the retractable kind",
+          "answer": "a leash",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A DOG'S LIFE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8825-s-c2-r0"
+        },
+        {
+          "question": "Theobromine in this substance is toxic to dogs; the darker & more bitter kinds are more dangerous for the pooch",
+          "answer": "chocolate",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A DOG'S LIFE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8825-s-c2-r1"
+        },
+        {
+          "question": "This word for pellets of dry dog food comes from a verb meaning \"to grind coarsely\"",
+          "answer": "kibble",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A DOG'S LIFE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8825-s-c2-r2"
+        },
+        {
+          "question": "Dogs are especially vulnerable to this deadly airborne viral \"dis\"ease transmitted from wildlife; get your pup vaccinated!",
+          "answer": "distemper",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A DOG'S LIFE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8825-s-c2-r3"
+        },
+        {
+          "question": "If your dog paces & whines before you leave, it may be suffering from this 2-word issue; exercise & crate training can help",
+          "answer": "separation anxiety",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A DOG'S LIFE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8825-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT'S GOT 2 HYPHENS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Relatively speaking, it's your spouse's dad, to you",
+          "answer": "father-in-law",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S GOT 2 HYPHENS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8825-s-c3-r0"
+        },
+        {
+          "question": "Benadryl & ibuprofen are this type of medication that's purchased sans prescription",
+          "answer": "over-the-counter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S GOT 2 HYPHENS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8825-s-c3-r1"
+        },
+        {
+          "question": "Charles V chose to put 3 of these floral symbols on France's royal emblem",
+          "answer": "a fleur-de-lis",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S GOT 2 HYPHENS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8825-s-c3-r2"
+        },
+        {
+          "question": "It's a brawl with no rules & for our purposes, no cost",
+          "answer": "a free-for-all",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S GOT 2 HYPHENS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8825-s-c3-r3"
+        },
+        {
+          "question": "Where a CEO might have a personal assistant, a general has this French-named helper by his side",
+          "answer": "an aide-de-camp",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S GOT 2 HYPHENS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8825-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Serving 16 million passengers a year, their fleet vehicles feature a dog on the hood",
+          "answer": "Greyhound",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8825-s-c4-r0"
+        },
+        {
+          "question": "At a value of more than $650,000, the Rolls-Royce Phantom B12 is a very spendy one of these \"grave\" vehicles",
+          "answer": "a hearse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8825-s-c4-r1"
+        },
+        {
+          "question": "The special locomotives used to guide ships through the Panama Canal are nicknamed this, for a hybrid pack animal",
+          "answer": "a mule",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8825-s-c4-r2"
+        },
+        {
+          "question": "The first of these watercraft was the Charlotte Dundas, used to tow barges on the Forth & Clyde Canal in Scotland around 1800",
+          "answer": "a tugboat",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8825-s-c4-r3"
+        },
+        {
+          "question": "Known for its yellow planes, this low-cost airline began flying gamblers from Detroit to Atlantic City in 1992",
+          "answer": "Spirit",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8825-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "I'M CUBAN",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "His catchphrase \"Dale\" basically means \"go ahead\"",
+          "answer": "Pitbull",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M CUBAN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8825-s-c5-r0"
+        },
+        {
+          "question": "This Cuban-born man played the \"I\" in \"I Love Lucy\" opposite his wife in real life, Lucille Ball",
+          "answer": "Desi Arnaz",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M CUBAN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8825-s-c5-r1"
+        },
+        {
+          "question": "Born in Cuba, this \"Havana\" singer came to the U.S. at age 6",
+          "answer": "(Camila) Cabello",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "I'M CUBAN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8825-s-c5-r2"
+        },
+        {
+          "question": "The first Latina inducted in the Songwriters Hall of Fame, she co-wrote her hit \"Rhythm Is Gonna Get You\"",
+          "answer": "Gloria Estefan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M CUBAN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8825-s-c5-r3"
+        },
+        {
+          "question": "A graduate of the National Theater School of Havana, she co-starred in \"Knives Out\"",
+          "answer": "(Ana) de Armas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I'M CUBAN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8825-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CANADIAN GEOGRAPHY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The second-most populous city in Canada, it was founded in 1642 as a missionary center by Paul de Chomedey",
+          "answer": "Montreal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANADIAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8825-d-c0-r0"
+        },
+        {
+          "question": "Lying between the 49th & the 60th parallels of latitude, it's the only province with no natural features defining its border",
+          "answer": "Saskatchewan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANADIAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8825-d-c0-r1"
+        },
+        {
+          "question": "The 2 principal parts of Niagara Falls are American Falls on the U.S. side & these falls on the Canadian side",
+          "answer": "Horseshoe",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANADIAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8825-d-c0-r2"
+        },
+        {
+          "question": "Appropriately named Terra Nova, Canada's easternmost national park is found on this island",
+          "answer": "Newfoundland",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANADIAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8825-d-c0-r3"
+        },
+        {
+          "question": "The world's largest freshwater archipelago, Ontario's Georgian Bay Islands are found in this Great Lake",
+          "answer": "Huron",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CANADIAN GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8825-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTHOLOGY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The guys who sailed with Jason were called these, after the name of their ship",
+          "answer": "Argonauts",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8825-d-c1-r0"
+        },
+        {
+          "question": "A bird called Aetos kaukasios ate his liver every day",
+          "answer": "Prometheus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8825-d-c1-r1"
+        },
+        {
+          "question": "This nymph's unrequited love for Narcissus made her fade away until all that was left of her was her voice",
+          "answer": "Echo",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8825-d-c1-r2"
+        },
+        {
+          "question": "The names of these 2 goddesses, Zeus' wife & Zeus' mother, are anagrams of each other",
+          "answer": "Hera & Rhea",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8825-d-c1-r3"
+        },
+        {
+          "question": "He was just a shepherd when he was asked to judge which of 3 goddesses was the most beautiful",
+          "answer": "Paris",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8825-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE STUFF",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This iron-containing pigment in blood has a job to do: carry oxygen to tissue",
+          "answer": "hemoglobin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE STUFF",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8825-d-c2-r0"
+        },
+        {
+          "question": "A 1926 issue of Nature proposed this name for a quantum of light",
+          "answer": "a photon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE STUFF",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8825-d-c2-r1"
+        },
+        {
+          "question": "In 1891 Tesla unveiled his famous this, used in radio technology",
+          "answer": "his (the Tesla) coil",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE STUFF",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8825-d-c2-r2"
+        },
+        {
+          "question": "Meaning \"covered seed\", it's the scientific term used to designate flowering plants",
+          "answer": "angiosperm",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE STUFF",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8825-d-c2-r3"
+        },
+        {
+          "question": "Galileo discovered this, the largest moon of Jupiter & the largest satellite in our solar system",
+          "answer": "Ganymede",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE STUFF",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8825-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTABLE NAMES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "On July 2, 1937 in one of her final transmissions, she reported that \"gas is running low\"",
+          "answer": "Earhart",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8825-d-c3-r0"
+        },
+        {
+          "question": "Though written in the mid-1840s, this pair's \"The German Ideology\" wasn't published in its entirety until the 1930s",
+          "answer": "Marx & Engels",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8825-d-c3-r1"
+        },
+        {
+          "question": "In 1919 this American scientist published \"A Method of Reaching Extreme Altitudes\"",
+          "answer": "Goddard",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8825-d-c3-r2"
+        },
+        {
+          "question": "\"Unbought and Unbossed\" was a campaign slogan & an autobiography by this first African-American congresswoman",
+          "answer": "Shirley Chisholm",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8825-d-c3-r3"
+        },
+        {
+          "question": "In 2022, this Antarctic explorer's ship \"Endurance\", which sank in 1915, was located at the bottom of the Weddell Sea",
+          "answer": "Ernest Shackleton",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8825-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DESCRIBING THE SONG",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Michael Jackson warns about evil \"lurking in the dark\" & Vincent Price waxes poetic about grisly ghouls",
+          "answer": "\"Thriller\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE SONG",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8825-d-c4-r0"
+        },
+        {
+          "question": "Drake remembers an ex who used to call him all the time but now is living her best life \"running out of pages\" in her passport",
+          "answer": "\"Hotline Bling\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE SONG",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8825-d-c4-r1"
+        },
+        {
+          "question": "Various people who live lives of quiet desperation, like Davy in the Navy, yell at Billy Joel to sing at a watering hole",
+          "answer": "\"Piano Man\"",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE SONG",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8825-d-c4-r2"
+        },
+        {
+          "question": "Biz Markie finds out a girl named \"Blah-Blah-Blah\" is, in fact, having more than a platonic relationship with another man",
+          "answer": "\"Just A Friend\"",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE SONG",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8825-d-c4-r3"
+        },
+        {
+          "question": "Warren G has some trouble with the local roughs until Nate Dogg saves him; together they help some ladies with car trouble",
+          "answer": "\"Regulate\"",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DESCRIBING THE SONG",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8825-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "OH, \"MY\" WORD!",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This word can refer to physical nearsightedness or a mental lack of foresight",
+          "answer": "myopia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, \"MY\" WORD!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8825-d-c5-r0"
+        },
+        {
+          "question": "This Asian critter is known for its ability to mimic human speech",
+          "answer": "the mynah",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, \"MY\" WORD!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8825-d-c5-r1"
+        },
+        {
+          "question": "This polyester film from DuPont is useful in making things like survival blankets where heat retention is critical",
+          "answer": "Mylar",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, \"MY\" WORD!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8825-d-c5-r2"
+        },
+        {
+          "question": "It's the muscular center layer of your heart wall, & you don't want it infarcted",
+          "answer": "the myocardium",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, \"MY\" WORD!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8825-d-c5-r3"
+        },
+        {
+          "question": "According to legend, this prehistoric Greek city was Agamemnon's capital",
+          "answer": "Mycenae",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH, \"MY\" WORD!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8825-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEATER",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A 1955 play review noted \"restless Delta folk\" & \"lives as uncomfortable & insecure as the proverbial\" this title",
+          "answer": "Cat on a Hot Tin Roof",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THEATER",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8825-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

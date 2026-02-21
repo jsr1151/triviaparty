@@ -1,0 +1,833 @@
+{
+  "gameId": 9210,
+  "showNumber": 9341,
+  "airDate": "May 26, 2025",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "IN THE STARS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "They're the 2 brightest stars in Gemini",
+          "answer": "Castor & Pollux",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE STARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9210-s-c0-r0"
+        },
+        {
+          "question": "Polaris Australis, the closest star to the celestial this, is barely visible to the naked eye & not much use in navigation",
+          "answer": "the (celestial) South Pole",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE STARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9210-s-c0-r1"
+        },
+        {
+          "question": "A hard-to-spot star called Lionrock isn't in Leo but in this watery constellation",
+          "answer": "Aquarius",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE STARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9210-s-c0-r2"
+        },
+        {
+          "question": "Variable stars that briefly increase greatly in brightness are called dwarf these, though not the super kind",
+          "answer": "nova",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE STARS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9210-s-c0-r3"
+        },
+        {
+          "question": "Mirfak is a bright yellow supergiant in the constellation named for this hero who killed the Gorgon",
+          "answer": "Perseus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE STARS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9210-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NAME CHANGERS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In the decade after Coca-Cola came out, a pharmacist created \"Brad's Drink\", soon renaming it this",
+          "answer": "Pepsi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME CHANGERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9210-s-c1-r0"
+        },
+        {
+          "question": "It's been Willis Tower since 2009, but many Chicagoans still refer to 233 S. Wacker Drive as this",
+          "answer": "the Sears Tower",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME CHANGERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9210-s-c1-r1"
+        },
+        {
+          "question": "In 2013 the NBA's New Orleans Hornets rebranded as this, after Louisiana's state bird",
+          "answer": "the Pelicans",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME CHANGERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9210-s-c1-r2"
+        },
+        {
+          "question": "This U.S. president was born with the surname Blythe; he later took the name of his stepfather",
+          "answer": "Bill Clinton",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAME CHANGERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9210-s-c1-r3"
+        },
+        {
+          "question": "In 2011 Sri Lanka's govt. announced it would rename all state institutions still bearing this former British colonial name",
+          "answer": "Ceylon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME CHANGERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9210-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOU GET A P+",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Gym class",
+          "answer": "PE",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU GET A P+",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9210-s-c2-r0"
+        },
+        {
+          "question": "It signifies that \"some material may not be suitable for children\"",
+          "answer": "PG",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU GET A P+",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9210-s-c2-r1"
+        },
+        {
+          "question": "Headquartered in London, this firm became one of the world's largest oil companies in 1998 when it merged with Amoco",
+          "answer": "BP",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU GET A P+",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9210-s-c2-r2"
+        },
+        {
+          "question": "In 2001 Microsoft introduced this new version of Windows that was popular for well over a decade",
+          "answer": "XP",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU GET A P+",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9210-s-c2-r3"
+        },
+        {
+          "question": "This army duty has been used as a form of punishment for some infractions",
+          "answer": "KP",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU GET A P+",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9210-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CULTURE, IN THE POPULAR SENSE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "If you were curious, according to CinemaBlend, the kill count in the first 4 films featuring this title assassin is 495",
+          "answer": "John Wick",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CULTURE, IN THE POPULAR SENSE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9210-s-c3-r0"
+        },
+        {
+          "question": "It's something many use every day to unlock things online & the nickname of Red Sox prospect Jhostynxon Garcia",
+          "answer": "a password",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CULTURE, IN THE POPULAR SENSE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9210-s-c3-r1"
+        },
+        {
+          "question": "Or in the pope-ular sense; Isabella Rossellini made the most of her 7+ minutes onscreen in this 2024 film, nabbing an Oscar nom",
+          "answer": "Conclave",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CULTURE, IN THE POPULAR SENSE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9210-s-c3-r2"
+        },
+        {
+          "question": "A misheard lyric from a song by this band: \"You are the Dancing Queen, young & sweet, only 7 teeth\"",
+          "answer": "ABBA",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CULTURE, IN THE POPULAR SENSE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9210-s-c3-r3"
+        },
+        {
+          "question": "With a 2025 Best Rap Album Grammy for her mixtape \"Alligator Bites Never Heal\", she was one triumphant Tampanian",
+          "answer": "Doechii",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CULTURE, IN THE POPULAR SENSE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9210-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SOUND",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Deepwater ports on this inlet include Seattle, Tacoma & Everett",
+          "answer": "Puget Sound",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUND",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9210-s-c4-r0"
+        },
+        {
+          "question": "King George Sound off Western Australia is an inlet of this much larger body of water",
+          "answer": "the Indian Ocean",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUND",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9210-s-c4-r1"
+        },
+        {
+          "question": "Smith Sound separates Canada's Ellesmere Island from this non-Canadian territory",
+          "answer": "Greenland",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUND",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9210-s-c4-r2"
+        },
+        {
+          "question": "Horse Island in Connecticut's Thimble Archipelago in this sound is an ecological lab owned by Yale University",
+          "answer": "Long Island Sound",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUND",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9210-s-c4-r3"
+        },
+        {
+          "question": "The Exxon Valdez oil disaster occurred when the ship struck Bligh Reef in this royal-sounding sound",
+          "answer": "Prince William Sound",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOUND",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9210-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ADVICE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In her \"Guide to Life\", this Muppet gives fashion advice: \"Take it from moi... refuse to go along with... apparel trends\"",
+          "answer": "Miss Piggy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9210-s-c5-r0"
+        },
+        {
+          "question": "Shirley Strawberry serves up relationship advice during the \"Strawberry Letter\" segment of this man's morning show",
+          "answer": "(Steve) Harvey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9210-s-c5-r1"
+        },
+        {
+          "question": "He offered pious advice as Poor Richard; as himself, he advised a friend \"on the choice of a mistress\"",
+          "answer": "(Ben) Franklin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9210-s-c5-r2"
+        },
+        {
+          "question": "Originally an actor & a teacher, he had a huge bestseller with the self-help book \"How to Win Friends & Influence People\"",
+          "answer": "Dale Carnegie",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9210-s-c5-r3"
+        },
+        {
+          "question": "Abbreviated FBL, it's a system for improving a product by collecting & processing users' comments",
+          "answer": "a feedback loop",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9210-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT HAPPENED ONE LEAP YEAR",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The first modern Olympic Games were held in 1896, in this city for old time's sake",
+          "answer": "Athens",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED ONE LEAP YEAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9210-d-c0-r0"
+        },
+        {
+          "question": "In 1996 Bosnian Serb forces ended a 4-year siege of this capital, the longest in modern European history",
+          "answer": "Sarajevo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED ONE LEAP YEAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9210-d-c0-r1"
+        },
+        {
+          "question": "After its top court's landmark Goodridge decision, the first legal same-sex marriages took place in 2004 in this U.S. state",
+          "answer": "Massachusetts",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED ONE LEAP YEAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9210-d-c0-r2"
+        },
+        {
+          "question": "The USA's first public telegraph line opened for business in 1844 with the dispatch of this 4-word biblical message",
+          "answer": "What hath God wrought",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED ONE LEAP YEAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9210-d-c0-r3"
+        },
+        {
+          "question": "He administered the first experimental vaccination for smallpox in 1796, to an 8-year-old boy named James Phipps",
+          "answer": "(Edward) Jenner",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED ONE LEAP YEAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9210-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GERMAN NOBEL LITERATURE LAUREATES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Nelly Sachs accepted her 1966 prize in this country, her home since she had taken refuge from Nazi Germany in 1940",
+          "answer": "Sweden",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GERMAN NOBEL LITERATURE LAUREATES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9210-d-c1-r0"
+        },
+        {
+          "question": "The masterpiece of 1902 winner Theodor Mommsen was a multi-volume history of this ancient imperial city",
+          "answer": "Rome",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GERMAN NOBEL LITERATURE LAUREATES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9210-d-c1-r1"
+        },
+        {
+          "question": "1912 winner Gerhart Hauptmann later wrote \"The Heretic of Soana\", about a priest who joins the pagan cult of this Greek love god",
+          "answer": "Eros",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GERMAN NOBEL LITERATURE LAUREATES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9210-d-c1-r2"
+        },
+        {
+          "question": "He got the prize mainly for his first novel, \"Buddenbrooks\", which shot him to fame in 1901",
+          "answer": "Thomas Mann",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GERMAN NOBEL LITERATURE LAUREATES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9210-d-c1-r3"
+        },
+        {
+          "question": "A former seminary student, he won in 1946 for works like \"Knulp\" & \"Demian\", combining the sensual & the spiritual",
+          "answer": "Hermann Hesse",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GERMAN NOBEL LITERATURE LAUREATES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9210-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ONE VOWEL, 3 TIMES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Commercial bunches of this fruit can weigh between about 50 & 140 pounds & consist of 9 hands",
+          "answer": "bananas",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE VOWEL, 3 TIMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9210-d-c2-r0"
+        },
+        {
+          "question": "To withdraw formally from an association, like some states once did",
+          "answer": "secede",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE VOWEL, 3 TIMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9210-d-c2-r1"
+        },
+        {
+          "question": "You put merchandise on this when you pay a deposit, then pay the rest later",
+          "answer": "layaway",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE VOWEL, 3 TIMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9210-d-c2-r2"
+        },
+        {
+          "question": "It's not just chimps that may be into cannibalism; this related knuckle-walker has been known to partake as well",
+          "answer": "a bonobo",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE VOWEL, 3 TIMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9210-d-c2-r3"
+        },
+        {
+          "question": "This type of demon seduced men while they slept",
+          "answer": "a succubus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE VOWEL, 3 TIMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9210-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOU SEEM DISTANT",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 2024 NASA found a new farthest-off galaxy; we see it as it was 13.5 billion years ago, just 290 million years after this event",
+          "answer": "the Big Bang",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU SEEM DISTANT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9210-d-c3-r0"
+        },
+        {
+          "question": "In July 1846 the Mormon Battalion was formed for this war, but they were in Iowa, so they marched about 2,000 miles to San Diego",
+          "answer": "the Mexican-American War",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU SEEM DISTANT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9210-d-c3-r1"
+        },
+        {
+          "question": "Late distance runner Kelvin Kiptum never reached his goal of breaking this marathon barrier; he set a record at 35 seconds over it",
+          "answer": "two hours",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU SEEM DISTANT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9210-d-c3-r2"
+        },
+        {
+          "question": "Daunted by the Appalachian Trail from the start of this book, Bill Bryson ended up trekking about 2/5 of its 2,200 miles",
+          "answer": "A Walk in the Woods",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU SEEM DISTANT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9210-d-c3-r3"
+        },
+        {
+          "question": "Britain end-to-end is proverbially to John o'Groat's from here in Cornwall; try the journey in a polo & chinos from a clothing retailer",
+          "answer": "Land's End",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU SEEM DISTANT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9210-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM THE MOVIE SOUNDTRACK",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Seal covered \"Fly Like An Eagle\" for the soundtrack of this '90s Jordan/Bugs film",
+          "answer": "Space Jam",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9210-d-c4-r0"
+        },
+        {
+          "question": "This popular '80s soundtrack includes \"Hungry Eyes\" & The Ronettes' \"Be My Baby\", which opens the movie",
+          "answer": "Dirty Dancing",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FROM THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9210-d-c4-r1"
+        },
+        {
+          "question": "Picture Ryan Gosling cruising around L.A. when you listen to \"A Real Hero\" & \"Nightcall\" from this film's soundtrack",
+          "answer": "Drive",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9210-d-c4-r2"
+        },
+        {
+          "question": "The soundtrack for this film includes \"Swerve\" & the Oscar-winning song \"It's Hard Out Here For A Pimp\"",
+          "answer": "Hustle & Flow",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FROM THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9210-d-c4-r3"
+        },
+        {
+          "question": "The Ringer called the cover of \"Lady Marmalade\" off this movie's soundtrack \"a heater, a jam & a bop\"",
+          "answer": "Moulin Rouge!",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE MOVIE SOUNDTRACK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9210-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GUYS NAMED RICHARD",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Michael Gambon had big shoes to fill when replacing the late Muggle Richard Harris in this film role",
+          "answer": "Dumbledore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUYS NAMED RICHARD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9210-d-c5-r0"
+        },
+        {
+          "question": "People magazine once called this fitness guru \"a lithe, hyperkinetic elf in an emerald-green track suit\"",
+          "answer": "(Richard) Simmons",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUYS NAMED RICHARD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9210-d-c5-r1"
+        },
+        {
+          "question": "Video game superstar Richard Tyler Blevins is known to his millions of streaming followers by this handle",
+          "answer": "Ninja",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUYS NAMED RICHARD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9210-d-c5-r2"
+        },
+        {
+          "question": "This prolific author & illustrator created Busytown, a richly detailed world full of animals doing human-like stuff",
+          "answer": "Richard Scarry",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUYS NAMED RICHARD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9210-d-c5-r3"
+        },
+        {
+          "question": "In 1978, while working for Vogue, he became the first living photographer granted a show at the Metropolitan Museum of Art",
+          "answer": "(Richard) Avedon",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUYS NAMED RICHARD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9210-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNESCO WORLD HERITAGE SITES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The first 12 sites added to the list in 1978 included Mesa Verde National Park in Colorado & this site 500 miles to the north",
+          "answer": "Yellowstone (National Park)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "UNESCO WORLD HERITAGE SITES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g9210-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

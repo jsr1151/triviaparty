@@ -1,0 +1,833 @@
+{
+  "gameId": 2621,
+  "showNumber": 4172,
+  "airDate": "October 22, 2002",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "EXPLORERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On August 3, 1492 he & his crew left Palos, Spain, heading southwest & then west",
+          "answer": "Christopher Columbus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2621-s-c0-r0"
+        },
+        {
+          "question": "In 1928 she wrote \"20 Hrs. 40 Min.\", an account of her recent flight from Newfoundland to Wales",
+          "answer": "Amelia Earhart",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2621-s-c0-r1"
+        },
+        {
+          "question": "In 1275 Marco Polo, his father & his uncle arrived at the court of this Mongol leader",
+          "answer": "Kublai Khan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2621-s-c0-r2"
+        },
+        {
+          "question": "In 1497 Vasco da Gama landed at Mossel Bay at the southern tip of Africa & claimed it for this country",
+          "answer": "Portugal",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2621-s-c0-r3"
+        },
+        {
+          "question": "Louis Joliet & this Catholic priest explored the Mississippi River during June & July 1673",
+          "answer": "Marquette",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2621-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MONTHS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Even in a leap year, it's still the shortest month",
+          "answer": "February",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2621-s-c1-r0"
+        },
+        {
+          "question": "The 2 months in which Easter can fall",
+          "answer": "March & April",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2621-s-c1-r1"
+        },
+        {
+          "question": "It's the title \"Morn\" in an '80s hit by Neil Diamond",
+          "answer": "\"September Morn\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2621-s-c1-r2"
+        },
+        {
+          "question": "In the Southern Hemisphere summer begins in this month",
+          "answer": "December",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2621-s-c1-r3"
+        },
+        {
+          "question": "Leo & Virgo are both Zodiac signs for this month",
+          "answer": "August",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2621-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CELEBRITIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1995 a rest stop along I-295 in New Jersey was named for this shock jock",
+          "answer": "Howard Stern",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2621-s-c2-r0"
+        },
+        {
+          "question": "Called \"The Man Who Invented Casual\" by Bing Crosby, this cardigan-clad crooner passed away in 2001",
+          "answer": "Perry Como",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2621-s-c2-r1"
+        },
+        {
+          "question": "Famous for his Polo line of clothes, this fashion designer's real last name is Lifshitz",
+          "answer": "Ralph Lauren",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2621-s-c2-r2"
+        },
+        {
+          "question": "Bally Total Fitness has teamed with this pop star for \"Get Your Body Started\" hip-hop aerobics classes",
+          "answer": "Pink",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2621-s-c2-r3"
+        },
+        {
+          "question": "In 1978 this comic appeared on \"The Dating Game\" as contestant Baji Kimran; \"Tenk You Veddy Much\"",
+          "answer": "Andy Kaufman",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2621-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "A REAL DOG & PONY SHOW",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Though the smallest of the British ponies, this breed seen here is very powerful for its size",
+          "answer": "Shetland pony",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A REAL DOG & PONY SHOW",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2621-s-c3-r0"
+        },
+        {
+          "question": "In the 1920s a dog of this breed, named Buddy, became the first seeing eye dog in the U.S.",
+          "answer": "German shepherd",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A REAL DOG & PONY SHOW",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2621-s-c3-r1"
+        },
+        {
+          "question": "This breed seen here may be descended from the harrier",
+          "answer": "beagle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A REAL DOG & PONY SHOW",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2621-s-c3-r2"
+        },
+        {
+          "question": "In the names of breeds, this nationality precedes springer spaniel & mountain pony",
+          "answer": "Welsh",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A REAL DOG & PONY SHOW",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2621-s-c3-r3"
+        },
+        {
+          "question": "A parson from Devon, England developed this dog breed seen here",
+          "answer": "Jack Russell terrier",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A REAL DOG & PONY SHOW",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2621-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOOLS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Digging tool to use in the dirt, or the last name of an actor who played Joe Dirt",
+          "answer": "(David) Spade",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOLS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2621-s-c4-r0"
+        },
+        {
+          "question": "From the Latin trua, it's a bricklayer's tool that's used to smooth things out",
+          "answer": "trowel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOLS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2621-s-c4-r1"
+        },
+        {
+          "question": "Here's the buzz: Stihl's website says it has set the standards for these forest tools for over 70 years",
+          "answer": "chainsaws",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOLS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2621-s-c4-r2"
+        },
+        {
+          "question": "A rotary tool used to finish holes, it's also a kitchen tool to get the juice out of an orange",
+          "answer": "reamer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TOOLS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2621-s-c4-r3"
+        },
+        {
+          "question": "It's an iron spike that attaches to the shoe to stop a climber from slipping",
+          "answer": "crampon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TOOLS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2621-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TEST YOUR SHORT TERM MEMORY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This short term for naturally occuring liquid hydrocarbons is found before \"slick\" & \"well\"",
+          "answer": "oil",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEST YOUR SHORT TERM MEMORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2621-s-c5-r0"
+        },
+        {
+          "question": "It's the short term for the diving hazard decompression sickness",
+          "answer": "bends",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEST YOUR SHORT TERM MEMORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2621-s-c5-r1"
+        },
+        {
+          "question": "The \"Legal Thesaurus\" lists charlatanism & false representation under this 5-letter word",
+          "answer": "fraud",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEST YOUR SHORT TERM MEMORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2621-s-c5-r2"
+        },
+        {
+          "question": "One-syllable short term that's the equivalent of \"Vicar of Christ\"",
+          "answer": "pope",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEST YOUR SHORT TERM MEMORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2621-s-c5-r3"
+        },
+        {
+          "question": "As the last name of Jack, \"tiny ice crystal covering\" doesn't sound as good as this short term",
+          "answer": "Frost",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEST YOUR SHORT TERM MEMORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2621-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BRITISH PARLIAMENTARY DISTRICTS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The large area of this largest Scottish city includes Ballieston & Rutherglen",
+          "answer": "Glasgow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PARLIAMENTARY DISTRICTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2621-d-c0-r0"
+        },
+        {
+          "question": "A Leicestershire district shares its name with this field where Richard III met his end",
+          "answer": "Bosworth",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PARLIAMENTARY DISTRICTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2621-d-c0-r1"
+        },
+        {
+          "question": "Alphabetically, this sport district falls between Wiltshire North & Winchester",
+          "answer": "Wimbledon",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PARLIAMENTARY DISTRICTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2621-d-c0-r2"
+        },
+        {
+          "question": "The Welsh constituency of Caerphilly is best known for having originated a type of this food",
+          "answer": "cheese",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PARLIAMENTARY DISTRICTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2621-d-c0-r3"
+        },
+        {
+          "question": "This historic county includes the constituencies of Canterbury, Dover & Tunbridge Wells",
+          "answer": "Kent",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PARLIAMENTARY DISTRICTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2621-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHERE THEY PLAY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Sammy Sosa",
+          "answer": "Wrigley Field",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE THEY PLAY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2621-d-c1-r0"
+        },
+        {
+          "question": "Brett Favre",
+          "answer": "Lambeau Field",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE THEY PLAY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2621-d-c1-r1"
+        },
+        {
+          "question": "Karl Malone",
+          "answer": "Delta Center",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE THEY PLAY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2621-d-c1-r2"
+        },
+        {
+          "question": "Pedro Martinez",
+          "answer": "Fenway Park",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE THEY PLAY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2621-d-c1-r3"
+        },
+        {
+          "question": "Kurt Warner",
+          "answer": "the TWA Dome (or the Edward Jones Dome)",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE THEY PLAY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2621-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS FOLK",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This scandalous 11th century lady was the wife of Leofric, Earl of Mercia",
+          "answer": "Lady Godiva",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2621-d-c2-r0"
+        },
+        {
+          "question": "This man's tenure as U.N. Secretary-General may have been subject to KGB manipulation due to a hidden Nazi past",
+          "answer": "Kurt Waldheim",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2621-d-c2-r1"
+        },
+        {
+          "question": "Reportedly, every 25 years Venezuela's president opens this man's casket to confirm that his remains are still there",
+          "answer": "Simon Bolivar",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2621-d-c2-r2"
+        },
+        {
+          "question": "In La Haye, France on March 31, 1596 this philosopher might have remarked, \"I think, therefore I am born\"",
+          "answer": "Rene Descartes",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2621-d-c2-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew in San Francisco)  When this great French actress stayed here at the Palace Hotel in 1887, she was accompanied by her pet baby tiger",
+          "answer": "Sarah Bernhardt",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2621-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRICKY QUESTIONS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Total number of pool balls used in a game of 8-ball",
+          "answer": "16",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRICKY QUESTIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2621-d-c3-r0"
+        },
+        {
+          "question": "Russians celebrate the October Revolution of 1917 during this month",
+          "answer": "November",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRICKY QUESTIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2621-d-c3-r1"
+        },
+        {
+          "question": "Total number of vertices on the polygon (star) seen here",
+          "answer": "10",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRICKY QUESTIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2621-d-c3-r2"
+        },
+        {
+          "question": "According to the Gregorian calendar, it's the full date of the first day of the second millennium",
+          "answer": "January 1, 1001",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRICKY QUESTIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2621-d-c3-r3"
+        },
+        {
+          "question": "When doubled, this number between one & ten equals its half plus nine",
+          "answer": "6",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRICKY QUESTIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2621-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEATRE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Jessica Lange went to London in 2000 to play the drug-addicted mom in his play \"Long Day's Journey Into Night\"",
+          "answer": "Eugene O'Neill",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATRE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2621-d-c4-r0"
+        },
+        {
+          "question": "Written in 405 B.C., this comedy by Aristophanes really is all it's \"croaked\" up to be",
+          "answer": "The Frogs",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATRE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2621-d-c4-r1"
+        },
+        {
+          "question": "In 1997 in Vienna, he directed the musical \"Dance of the Vampires\", based on his 1967 film \"The Fearless Vampire Killers\"",
+          "answer": "Roman Polanski",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THEATRE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2621-d-c4-r2"
+        },
+        {
+          "question": "Mary-Louise Parker was awesome in this play that won David Auburn a Pulitzer Prize in 2001",
+          "answer": "Proof",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THEATRE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2621-d-c4-r3"
+        },
+        {
+          "question": "This South African playwright starred in his own autobiographical play \"The Captain's Tiger\" in 1998",
+          "answer": "Athol Fugard",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATRE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2621-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"MIS\"QUOTES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Art is a jealous\" one",
+          "answer": "mistress",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MIS\"QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2621-d-c5-r0"
+        },
+        {
+          "question": "\"For Satan finds some\" this \"still for idle hands to do\"",
+          "answer": "mischief",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MIS\"QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2621-d-c5-r1"
+        },
+        {
+          "question": "A 1929 song says, \"Ain't\" doin' this, \"I'm savin' my love for you\"",
+          "answer": "Misbehavin'",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MIS\"QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2621-d-c5-r2"
+        },
+        {
+          "question": "(Sofia of the Clue Crew at Ralph Waldo Emerson's house in Concord, Massachusetts)  Emerson wrote his essays here, including the line \"To be great is to be\" this",
+          "answer": "misunderstood",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MIS\"QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2621-d-c5-r3"
+        },
+        {
+          "question": "\"It is a folly unsurpassed by any other to try to improve the world\" is from this Moliere play",
+          "answer": "The Misanthrope",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MIS\"QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2621-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN AUTHORS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A line in her first novel reads, \"I am to replace my mother, whose seat at the mah jong table has been empty\"",
+          "answer": "Amy Tan (The Joy Luck Club)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WOMEN AUTHORS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2621-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

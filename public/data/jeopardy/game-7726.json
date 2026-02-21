@@ -1,0 +1,833 @@
+{
+  "gameId": 7726,
+  "showNumber": 8813,
+  "airDate": "February 22, 2023",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "EUROPEAN CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Though Amsterdam is the capital of the Netherlands, the seat of government is in this city",
+          "answer": "The Hague",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7726-s-c0-r0"
+        },
+        {
+          "question": "\"Carmen\" is set in this city; \"The Marriage of Figaro\" takes place nearby",
+          "answer": "Seville",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7726-s-c0-r1"
+        },
+        {
+          "question": "Seen here is some merrymaking in this capital of Bavaria",
+          "answer": "Munich",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7726-s-c0-r2"
+        },
+        {
+          "question": "Since 1578 a sacred 14-foot linen shroud has been preserved in a cathedral in this city",
+          "answer": "Turin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7726-s-c0-r3"
+        },
+        {
+          "question": "Warsaw lies on both banks of this river, the longest in Poland",
+          "answer": "the Vistula",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7726-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHO PLAYED 'EM?",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Dr. Stephen Strange, 2016 & 2022",
+          "answer": "(Benedict) Cumberbatch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO PLAYED 'EM?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7726-s-c1-r0"
+        },
+        {
+          "question": "The conflicted Ben Solo/Kylo Ren, 2015, 2017 & 2019",
+          "answer": "(Adam) Driver",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO PLAYED 'EM?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7726-s-c1-r1"
+        },
+        {
+          "question": "Gandalf, sometimes grey, sometimes white, 6 times starting in 2001",
+          "answer": "McKellen",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO PLAYED 'EM?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7726-s-c1-r2"
+        },
+        {
+          "question": "Dominic Toretto, 7 times so far since 2001",
+          "answer": "Vin Diesel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO PLAYED 'EM?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7726-s-c1-r3"
+        },
+        {
+          "question": "Pete \"Maverick\" Mitchell, 1986 & 2022",
+          "answer": "Tom Cruise",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO PLAYED 'EM?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7726-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HAVE A NOSH",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "I know I want the Flamin' Hot kind of these snacks; the question is:Crunchy or puffs?",
+          "answer": "Cheetos",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAVE A NOSH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7726-s-c2-r0"
+        },
+        {
+          "question": "I might be in the mood for a Fuji or a Gala one of these",
+          "answer": "apples",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAVE A NOSH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7726-s-c2-r1"
+        },
+        {
+          "question": "Noshing at AMC Theatres can include this appetizer, tortilla chips & melted cheese",
+          "answer": "nachos",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAVE A NOSH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7726-s-c2-r2"
+        },
+        {
+          "question": "Rold Gold & Snyder's of Hanover both make these snacks",
+          "answer": "pretzels",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAVE A NOSH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7726-s-c2-r3"
+        },
+        {
+          "question": "How about a handful of these Hawaiian nuts, commonly paired with white chocolate in cookies",
+          "answer": "macadamia nuts",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAVE A NOSH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7726-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE CRITTERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's the animal in the name of the unit equivalent to 33,000 foot-pounds of work per minute",
+          "answer": "a horse",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE CRITTERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7726-s-c3-r0"
+        },
+        {
+          "question": "In an Oscar-winning 2020 documentary, this sea creature was a \"Teacher\"",
+          "answer": "an octopus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE CRITTERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7726-s-c3-r1"
+        },
+        {
+          "question": "If you've taken biology, you've probably studied Drosophila, these alliterative winged insects",
+          "answer": "fruit flies",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE CRITTERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7726-s-c3-r2"
+        },
+        {
+          "question": "This Russian physiologist trained many breeds of dogs to reflexively salivate at the sound of noises they associated with food",
+          "answer": "Pavlov",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE CRITTERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7726-s-c3-r3"
+        },
+        {
+          "question": "This Nobel-winning physicist came up with a thought experiment involving a cat & whether or not it's alive",
+          "answer": "Schrödinger",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE CRITTERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7726-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WELCOME BACK!",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 2017 this Anaheim theme park stopped stamping the hands of exiting guests who wanted to return; now it takes photos",
+          "answer": "Disneyland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELCOME BACK!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7726-s-c4-r0"
+        },
+        {
+          "question": "The Brits call this type of airline ticket a return",
+          "answer": "a round trip",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELCOME BACK!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7726-s-c4-r1"
+        },
+        {
+          "question": "Set in a high school, the '70s TV series \"Welcome Back, Kotter\" made this no-longer-high school-age star a star",
+          "answer": "(John) Travolta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELCOME BACK!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7726-s-c4-r2"
+        },
+        {
+          "question": "The citizens of St. Louis lined the riverbank to welcome this pair back on September 23, 1806",
+          "answer": "Lewis & Clark",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELCOME BACK!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7726-s-c4-r3"
+        },
+        {
+          "question": "Still in quarantine after splashing down, the Apollo 11 astronauts were welcomed back by this president",
+          "answer": "Nixon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELCOME BACK!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7726-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S GREAT TO \"CU\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "No joke, Whoopi Goldberg considered using the stage name Whoopi this",
+          "answer": "Cushion",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S GREAT TO \"CU\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7726-s-c5-r0"
+        },
+        {
+          "question": "Meaning \"with distinction\", it follows summa & magna in college honors",
+          "answer": "cum laude",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S GREAT TO \"CU\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7726-s-c5-r1"
+        },
+        {
+          "question": "Grab a broom--it's the [Mayim laughs] sport being played here",
+          "answer": "curling",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S GREAT TO \"CU\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7726-s-c5-r2"
+        },
+        {
+          "question": "From the French, it's a quiet dead end street",
+          "answer": "a cul-de-sac",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S GREAT TO \"CU\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7726-s-c5-r3"
+        },
+        {
+          "question": "Sumerian & Akkadian were 2 of the main languages to be written in this ancient wedge-shaped script",
+          "answer": "cuneiform",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S GREAT TO \"CU\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7726-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGES & UNIVERSITIES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "(I'm Troian Bellisario.) Considering my first name, maybe I was predestined to attend this university's school of dramatic arts where I earned a fine arts degree; fight on, Trojans!",
+          "answer": "USC",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7726-d-c0-r0"
+        },
+        {
+          "question": "Its main campus in West Lafayette, Indiana includes the Krannert School of Management",
+          "answer": "Purdue",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7726-d-c0-r1"
+        },
+        {
+          "question": "This Boston school of music is named for its second president; his first & last names were reversed",
+          "answer": "Berklee",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7726-d-c0-r2"
+        },
+        {
+          "question": "The Hawthorne-Longfellow Library is at this private college in Brunswick, Maine",
+          "answer": "Bowdoin",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7726-d-c0-r3"
+        },
+        {
+          "question": "One of the Claremont Colleges, it's named for a mining engineer & focuses on engineering, science & math",
+          "answer": "Harvey Mudd",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7726-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL FACTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Mainland Australia has 3 of these, ranging from UTC +8 to UTC +10",
+          "answer": "time zones",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL FACTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7726-d-c1-r0"
+        },
+        {
+          "question": "A legacy of its colonial past, Burundi's currency is this, divided into 100 centimes",
+          "answer": "the franc",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL FACTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7726-d-c1-r1"
+        },
+        {
+          "question": "No shorts or miniskirts if you want to get into this Vatican chapel constructed from 1473 to 1481\\",
+          "answer": "the Sistine Chapel",
+          "value": 7000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL FACTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7726-d-c1-r2"
+        },
+        {
+          "question": "Remember to drive on the left in this country once known as Ceylon",
+          "answer": "Sri Lanka",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL FACTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7726-d-c1-r3"
+        },
+        {
+          "question": "Say yes to grandma when she wants to take you on a cruise to the stretch of the Yucatan coast invitingly called the \"Mayan\" this",
+          "answer": "the Mayan Riviera",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL FACTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7726-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PRESIDENTIAL VICTOR",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1964 he won in a landslide over Barry Goldwater",
+          "answer": "LBJ (Lyndon B. Johnson)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRESIDENTIAL VICTOR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7726-d-c2-r0"
+        },
+        {
+          "question": "Lincoln defeated this Illinois senator",
+          "answer": "(Stephen A.) Douglas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRESIDENTIAL VICTOR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7726-d-c2-r1"
+        },
+        {
+          "question": "Grover Cleveland would have his revenge on this victor",
+          "answer": "Benjamin Harrison",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRESIDENTIAL VICTOR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7726-d-c2-r2"
+        },
+        {
+          "question": "He waxed Wendell Willkie in wartime",
+          "answer": "Franklin D. Roosevelt",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE PRESIDENTIAL VICTOR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7726-d-c2-r3"
+        },
+        {
+          "question": "Samuel J. Tilden beat him in the popular vote but did not become President Tilden",
+          "answer": "Rutherford B. Hayes",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PRESIDENTIAL VICTOR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7726-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV SWITCHEROO",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 2006 \"Monday Night Football\" began airing on this network after decades as a mainstay on ABC",
+          "answer": "ESPN",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV SWITCHEROO",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7726-d-c3-r0"
+        },
+        {
+          "question": "Dwight was perplexed when Randall Park, seen here, showed up in an \"Office\" episode impersonating this character",
+          "answer": "Jim (Halpert)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV SWITCHEROO",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7726-d-c3-r1"
+        },
+        {
+          "question": "Lacey Chabert voiced this character on the first season of \"Family Guy\", but Mila Kunis picked up the ball & ran with it",
+          "answer": "Meg",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV SWITCHEROO",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7726-d-c3-r2"
+        },
+        {
+          "question": "On the \"WandaVision\" episode about Wanda's reunion with this \"mercurial\" brother, he's a different actor from \"Age of Ultron\"",
+          "answer": "Quicksilver",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV SWITCHEROO",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7726-d-c3-r3"
+        },
+        {
+          "question": "After a big time jump in season 9 of this show, we find a new actress playing young Judith Grimes & she's there to help the survivors",
+          "answer": "The Walking Dead",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV SWITCHEROO",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7726-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY MOVEMENTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Gregory Corso, one of the leading poets of this hip 1950s movement, incorporated jazz rhythms into his verse",
+          "answer": "the Beat movement",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MOVEMENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7726-d-c4-r0"
+        },
+        {
+          "question": "Gertrude Stein is credited with giving this bleak nickname to a group of young writers alienated from post-World War I society",
+          "answer": "the Lost Generation",
+          "value": 5200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MOVEMENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7726-d-c4-r1"
+        },
+        {
+          "question": "Poet & playwright Amiri Baraka is considered the founder of this 1960s & '70s movement, BAM for short",
+          "answer": "the Black Arts Movement",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MOVEMENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7726-d-c4-r2"
+        },
+        {
+          "question": "Wordsworth & this sometime friend & writing partner were the big stars of the early 19th century Lake School of English poetry",
+          "answer": "Coleridge",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MOVEMENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7726-d-c4-r3"
+        },
+        {
+          "question": "For their gallant verses & loyalty to Charles I, 1600s poets like Richard Lovelace were known as these mounted knights",
+          "answer": "cavaliers",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MOVEMENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7726-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "A JOLLY RHYME",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Streetcar transit from days of old is being revived, like the one seen here in St. Louis, called this",
+          "answer": "a (Loop) trolley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A JOLLY RHYME",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7726-d-c5-r0"
+        },
+        {
+          "question": "An act of sheer madness or idiocy",
+          "answer": "folly",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A JOLLY RHYME",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7726-d-c5-r1"
+        },
+        {
+          "question": "North Carolina State University's Memorial Bell Tower is seen with the skyline of this city behind it",
+          "answer": "Raleigh",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A JOLLY RHYME",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7726-d-c5-r2"
+        },
+        {
+          "question": "1621's \"Anatomy of\" this sad mood rhymes, \"All my griefs to this are jolly\"",
+          "answer": "melancholy",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A JOLLY RHYME",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7726-d-c5-r3"
+        },
+        {
+          "question": "A camera mounted on a cart is used for this type of movie shot in moving toward a subject or out for the reverse",
+          "answer": "a dolly",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A JOLLY RHYME",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7726-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE & PLACES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Thought to descend from people of Southeast Asia, the Chamorro make up this U.S. territory's largest ethnic group",
+          "answer": "Guam",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "PEOPLE & PLACES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7726-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

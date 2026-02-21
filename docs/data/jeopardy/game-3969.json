@@ -1,0 +1,833 @@
+{
+  "gameId": 3969,
+  "showNumber": 6434,
+  "airDate": "August 2, 2012",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THAT'S OUR ISLAND",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Capri & Sicily",
+          "answer": "Italy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S OUR ISLAND",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3969-s-c0-r0"
+        },
+        {
+          "question": "Honshu",
+          "answer": "Japan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S OUR ISLAND",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3969-s-c0-r1"
+        },
+        {
+          "question": "Crete",
+          "answer": "Greece",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S OUR ISLAND",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3969-s-c0-r2"
+        },
+        {
+          "question": "Baffin Island",
+          "answer": "Canada",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THAT'S OUR ISLAND",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3969-s-c0-r3"
+        },
+        {
+          "question": "The Isle of Wight",
+          "answer": "England",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THAT'S OUR ISLAND",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3969-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN CASE YOU'RE THIRSTY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The logo of this sports drink is a capital \"G\" with an orange lightning bolt in it",
+          "answer": "Gatorade",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN CASE YOU'RE THIRSTY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3969-s-c1-r0"
+        },
+        {
+          "question": "The name of this lemon-lime soda means an elf or a fairy",
+          "answer": "Sprite",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN CASE YOU'RE THIRSTY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3969-s-c1-r1"
+        },
+        {
+          "question": "Glaceau makes a bottled beverage called \"Vitamin\" this",
+          "answer": "water",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN CASE YOU'RE THIRSTY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3969-s-c1-r2"
+        },
+        {
+          "question": "Created in Atlanta, this soft drink was being sold in every state & territory of the U.S. by 1895",
+          "answer": "Coca-Cola",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN CASE YOU'RE THIRSTY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3969-s-c1-r3"
+        },
+        {
+          "question": "This brand known for its vegetable juices has a line of V-Fusion juices",
+          "answer": "V8",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN CASE YOU'RE THIRSTY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3969-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LET'S GO ONLINE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"The Clone Wars: Fierce Twilight\" & \"The Powerpuff Girls: Fast and Flurrious\" are games at this TV channel's .com",
+          "answer": "Cartoon Network",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO ONLINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3969-s-c2-r0"
+        },
+        {
+          "question": "Play card-jitsu, become a ninja or check out the featured igloo at \"Club\" this",
+          "answer": "Club Penguin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO ONLINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3969-s-c2-r1"
+        },
+        {
+          "question": "Help construct the product at this 3-word \"Workshop\" where there's a \"Sale Den\" & a link to \"Hug a Cub\"",
+          "answer": "Build-A-Bear",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO ONLINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3969-s-c2-r2"
+        },
+        {
+          "question": "Shoyru, Kacheek & Bruce are title critters at this .com backed by Nickelodeon",
+          "answer": "Neopets",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO ONLINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3969-s-c2-r3"
+        },
+        {
+          "question": "\"Adopt your own pet monster\" at this .com; over 50 million have found good cyber-homes",
+          "answer": "Moshi Monsters",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO ONLINE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3969-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "I LIKE TO READ",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Lincoln Pierce & Marjorie Weinman Sharmat write about boys with this first name; one is \"Big\" & one is \"the Great\"",
+          "answer": "Nate",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LIKE TO READ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3969-s-c3-r0"
+        },
+        {
+          "question": "In the Percy Jackson books, Percy meets other teen demigods at camp this",
+          "answer": "Camp Half-Blood",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LIKE TO READ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3969-s-c3-r1"
+        },
+        {
+          "question": "We meet Pip in Chapter 1 of this \"Great\" novel by Charles Dickens",
+          "answer": "Great Expectations",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LIKE TO READ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3969-s-c3-r2"
+        },
+        {
+          "question": "\"A Scandal in Bohemia\" was a case for this British detective",
+          "answer": "Sherlock Holmes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LIKE TO READ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3969-s-c3-r3"
+        },
+        {
+          "question": "2 dogs & a cat trek through the wilderness to find their way home in \"The Incredible\" this",
+          "answer": "Journey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I LIKE TO READ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3969-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT KIND OF MOVIE?",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Mary Poppins\":It comes before \"chairs\" in the name of a game",
+          "answer": "a musical",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT KIND OF MOVIE?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3969-s-c4-r0"
+        },
+        {
+          "question": "\"The Last Song\":Author Anna Dewdney rhymes it with \"llama\"",
+          "answer": "drama",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT KIND OF MOVIE?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3969-s-c4-r1"
+        },
+        {
+          "question": "\"Zookeeper\"; Shakespeare wrote one \"of Errors\"",
+          "answer": "a comedy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT KIND OF MOVIE?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3969-s-c4-r2"
+        },
+        {
+          "question": "The \"Spy Kids\" movies:A synonym for \"movement\"",
+          "answer": "action",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT KIND OF MOVIE?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3969-s-c4-r3"
+        },
+        {
+          "question": "\"The Nightmare Before Christmas\": it means a wild daydream",
+          "answer": "fantasy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT KIND OF MOVIE?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3969-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ADD A LETTER",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Add a letter to \"dive\" & you can do this, operate a car (in a few years)",
+          "answer": "drive",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADD A LETTER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3969-s-c5-r0"
+        },
+        {
+          "question": "Add a letter to \"warm\" & you're buzzing with this bunch of bees",
+          "answer": "swarm",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADD A LETTER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3969-s-c5-r1"
+        },
+        {
+          "question": "Add a letter to \"peal\" to get this bike part",
+          "answer": "pedal",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADD A LETTER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3969-s-c5-r2"
+        },
+        {
+          "question": "Add a letter to \"air\" to get this hiding place for a beast of prey",
+          "answer": "lair",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADD A LETTER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3969-s-c5-r3"
+        },
+        {
+          "question": "Add a letter to \"rank\" to get this, a practical joke",
+          "answer": "prank",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADD A LETTER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3969-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GENERAL SCIENCE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Kangaroos are marsupials known as macropods, macro- meaning \"large\" & -pod, from the Greek for this body part",
+          "answer": "foot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3969-d-c0-r0"
+        },
+        {
+          "question": "In most other parts of the world, this scale, not Fahrenheit, is used for measuring temperature",
+          "answer": "Celsius",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3969-d-c0-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew looks squat.) No, I didn't shrink; I'm standing in front of a typical fun house mirror, which, unlike a regular flat mirror, is this type, curving out toward me, the opposite of concave",
+          "answer": "convex",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3969-d-c0-r2"
+        },
+        {
+          "question": "From the Greek for \"middle life\", this geologic era that included the Jurassic Period is often called the \"Age of Reptiles\"",
+          "answer": "Mesozoic Era",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3969-d-c0-r3"
+        },
+        {
+          "question": "(Sarah of the Clue Crew shows a geologic diagram on the monitor.)  By studying seismic waves, scientists concluded that the earth can be divided into four layers--the crust, mantle, a liquid outer core, & a solid inner core made mainly of this metal",
+          "answer": "iron",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3969-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHILDISH WORDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A blue ox of lore, or a non-blue pig of film",
+          "answer": "Babe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHILDISH WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3969-d-c1-r0"
+        },
+        {
+          "question": "It precedes \"league\" & \"varsity\" but, in another way, can come after sophomore",
+          "answer": "junior",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHILDISH WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3969-d-c1-r1"
+        },
+        {
+          "question": "This is often found before \"hostel\" & after \"fountain of\"",
+          "answer": "youth",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHILDISH WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3969-d-c1-r2"
+        },
+        {
+          "question": "Not serious, like a superficial wound; it can also mean a type of musical key",
+          "answer": "minor",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHILDISH WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3969-d-c1-r3"
+        },
+        {
+          "question": "3-letter word meaning to jest",
+          "answer": "kid",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHILDISH WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3969-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ART CLASS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "After you've finished painting, wash these & store them bristles up",
+          "answer": "paintbrushes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART CLASS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3969-d-c2-r0"
+        },
+        {
+          "question": "To make paint for this \"digital\" type of pre-school art, you can simply take tempera & thicken it with cornstarch",
+          "answer": "finger painting",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART CLASS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3969-d-c2-r1"
+        },
+        {
+          "question": "Before you create your final, full-scale artwork, you might want to make a practice drawing, so \"etch a\" this",
+          "answer": "sketch",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART CLASS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3969-d-c2-r2"
+        },
+        {
+          "question": "This term for a painting depicting outdoor scenery was first used in English in the early 17th century",
+          "answer": "landscape",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART CLASS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3969-d-c2-r3"
+        },
+        {
+          "question": "Used to apply ink, a brayer is one of these rounded objects, like the kind used to paint walls",
+          "answer": "a paint roller",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART CLASS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3969-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 1910s",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1919 the Chicago White Sox lost this big baseball series on purpose, making them the \"Black Sox\"",
+          "answer": "the World Series",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1910s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3969-d-c3-r0"
+        },
+        {
+          "question": "The October 1912 All-Story magazine featured the tale of this man \"of the Apes\", his debut in print",
+          "answer": "Tarzan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE 1910s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3969-d-c3-r1"
+        },
+        {
+          "question": "In March 1915 the Russian army seized an Austrian fortress & captured 119,000 P.O.W.s, these \"of war\"",
+          "answer": "prisoners",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1910s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3969-d-c3-r2"
+        },
+        {
+          "question": "In 1918 Lawrence of Arabia shocked King George V by refusing this high honor that lets you be called \"Sir\"",
+          "answer": "knighthood (knightship accepted)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1910s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3969-d-c3-r3"
+        },
+        {
+          "question": "This grim-sounding California valley reached its all-time high temperature of 134 degrees in 1913",
+          "answer": "Death Valley",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1910s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3969-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TIME FOR VIDEO GAMES?",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"NFL Blitz\" lets you experience this sport without getting hit",
+          "answer": "football",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR VIDEO GAMES?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3969-d-c4-r0"
+        },
+        {
+          "question": "In \"Golden Trails 2\" you're trying to exonerate a man accused of this crime, like Jack Sparrow might be",
+          "answer": "piracy (pirating accepted)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR VIDEO GAMES?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3969-d-c4-r1"
+        },
+        {
+          "question": "In \"Mystery Legends: Sleepy Hollow\", players solve puzzles as this character searches for his noggin",
+          "answer": "the Headless Horseman",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR VIDEO GAMES?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3969-d-c4-r2"
+        },
+        {
+          "question": "Ratchet & this robot buddy of his kick some serious butt in their PlayStation game \"All 4 One\"",
+          "answer": "Clank",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR VIDEO GAMES?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3969-d-c4-r3"
+        },
+        {
+          "question": "On Sony's PS Vita you can play \"Touch My\" this Japanese word & roll balls of increasing size around landscapes",
+          "answer": "Katamari",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR VIDEO GAMES?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3969-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DO YOUR \"HOME\" WORK",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's the song \"where seldom is heard a discouraging word\"",
+          "answer": "\"Home On The Range\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DO YOUR \"HOME\" WORK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3969-d-c5-r0"
+        },
+        {
+          "question": "For your side dish, would you like hash browns or these, potatoes cooked in butter with onions & green peppers?",
+          "answer": "home fries",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DO YOUR \"HOME\" WORK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3969-d-c5-r1"
+        },
+        {
+          "question": "The U.S. Department of Education says 1.5 million U.S. students are taught this way, perhaps by a parent",
+          "answer": "homeschool",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DO YOUR \"HOME\" WORK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3969-d-c5-r2"
+        },
+        {
+          "question": "It's the initial & main hypertext document of a website",
+          "answer": "a home page",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DO YOUR \"HOME\" WORK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3969-d-c5-r3"
+        },
+        {
+          "question": "Maybe on Saturday you went with your dad to this do-it-yourself home improvement store founded in 1978",
+          "answer": "Home Depot",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DO YOUR \"HOME\" WORK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3969-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOOK SERIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the 8th book in a series by L. Frank Baum, this character begins to speak; he simply chose not to before",
+          "answer": "Toto",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "BOOK SERIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3969-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

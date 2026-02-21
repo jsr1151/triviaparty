@@ -1,0 +1,833 @@
+{
+  "gameId": 23,
+  "showNumber": 4618,
+  "airDate": "October 6, 2004",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "GEOGRAPHY \"B\"",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Verrazano-Narrows Bridge links this borough & Staten Island",
+          "answer": "Brooklyn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY \"B\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g23-s-c0-r0"
+        },
+        {
+          "question": "This Missouri city is \"the live music show capital of the world\"",
+          "answer": "Branson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY \"B\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g23-s-c0-r1"
+        },
+        {
+          "question": "Zugspitze is the highest point in this mountain range",
+          "answer": "the Bavarian Alps",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY \"B\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g23-s-c0-r2"
+        },
+        {
+          "question": "The Rhodope Mountains & the city of Sofia are in this country",
+          "answer": "Bulgaria",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY \"B\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g23-s-c0-r3"
+        },
+        {
+          "question": "This sea off the coast of North America is named for Rear Admiral Francis",
+          "answer": "the Beaufort Sea",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY \"B\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g23-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV WEAPONS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On \"Star Trek\" the Bat'leth is a traditional combat sword used by these aliens",
+          "answer": "Klingons",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV WEAPONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g23-s-c1-r0"
+        },
+        {
+          "question": "Agents of this criminal group would laugh at Agent 86 whenever he pulled out his gun shaped like a finger",
+          "answer": "KAOS",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV WEAPONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g23-s-c1-r1"
+        },
+        {
+          "question": "Because his boss wouldn't let him carry a loaded gun, this bumbling '60s deputy kept one bullet in his shirt pocket",
+          "answer": "Barney Fife",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV WEAPONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g23-s-c1-r2"
+        },
+        {
+          "question": "One of the large metal-ringed Chakrams that this title female used could kill a god",
+          "answer": "Xena (Warrior Princess)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV WEAPONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g23-s-c1-r3"
+        },
+        {
+          "question": "Yancy Butler as Sara Pezzini wielded this title sword that's a mystical, shape-shifting talisman of power",
+          "answer": "Witchblade",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV WEAPONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g23-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "A YEN FOR JAPAN",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's the Japanese version of horseradish",
+          "answer": "wasabi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A YEN FOR JAPAN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g23-s-c2-r0"
+        },
+        {
+          "question": "Gichin Funakoshi, an Okinawan master, popularized this martial art in Japan early in the 20th century",
+          "answer": "karate",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A YEN FOR JAPAN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g23-s-c2-r1"
+        },
+        {
+          "question": "Japanese warriors believed this, the hara, was the locus of life & character, hence harakiri",
+          "answer": "the belly (or the stomach)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A YEN FOR JAPAN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g23-s-c2-r2"
+        },
+        {
+          "question": "On December 7, 1941 the Japanese also attacked this Marianas island that Spain ceded to the U.S. in 1898",
+          "answer": "Guam",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A YEN FOR JAPAN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g23-s-c2-r3"
+        },
+        {
+          "question": "Japan's top honor is to be awarded \"The Order of\" this flower",
+          "answer": "the chrysanthemum",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A YEN FOR JAPAN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g23-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMILY MEMBERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The family Rosaceae includes roses & these fruits, such as Jonathans",
+          "answer": "apples",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILY MEMBERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g23-s-c3-r0"
+        },
+        {
+          "question": "It's the scientific name of the only extant species of the primate family Hominidae",
+          "answer": "Homo sapiens",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILY MEMBERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g23-s-c3-r1"
+        },
+        {
+          "question": "If you're looking at a marimba, you probably can figure out it's in this family of musical instruments",
+          "answer": "percussion",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILY MEMBERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g23-s-c3-r2"
+        },
+        {
+          "question": "Portuguese & Catalan are part of this Indo-European language family",
+          "answer": "the Romance languages",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILY MEMBERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g23-s-c3-r3"
+        },
+        {
+          "question": "Safer antibiotics & penicillin have largely replaced this family of drugs first used in the 1930s",
+          "answer": "sulfas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILY MEMBERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g23-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CHURCH LADY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Major General Lorraine Potter was the Air Force's first female one of these religious counselors",
+          "answer": "chaplains",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CHURCH LADY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g23-s-c4-r0"
+        },
+        {
+          "question": "The Gnostic Gospels depict this woman as a companion of Jesus & a leader of his disciples",
+          "answer": "Mary Magdalene",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CHURCH LADY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g23-s-c4-r1"
+        },
+        {
+          "question": "Seen here, this minister & entertainer helped build the three largest Christian TV networks in the world",
+          "answer": "Tammy Faye Bakker",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CHURCH LADY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g23-s-c4-r2"
+        },
+        {
+          "question": "Known as Sister Aimee, this female evangelist founded L.A.'s Angelus Temple in 1923",
+          "answer": "Aimee Semple McPherson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CHURCH LADY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g23-s-c4-r3"
+        },
+        {
+          "question": "Judges 4 & 5 tell us that this woman was the chief preacher, evangelist & leader of Israel for 40 years",
+          "answer": "Deborah",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CHURCH LADY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g23-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ISN'T THAT SPATIAL?",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A multi-unit structure in which the whole building is jointly owned by all the residents",
+          "answer": "a co-op",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISN'T THAT SPATIAL?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g23-s-c5-r0"
+        },
+        {
+          "question": "A set of buildings housing soldiers in a garrison",
+          "answer": "a barracks",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISN'T THAT SPATIAL?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g23-s-c5-r1"
+        },
+        {
+          "question": "A single residence divided into 3 units",
+          "answer": "a triplex",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISN'T THAT SPATIAL?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g23-s-c5-r2"
+        },
+        {
+          "question": "Especially in the form of a tower with several stories, it's a Buddhist temple with upwardly curving roofs",
+          "answer": "a pagoda",
+          "value": 3600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISN'T THAT SPATIAL?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g23-s-c5-r3"
+        },
+        {
+          "question": "Literally French for \"house\", it often goes into the name of a restaurant",
+          "answer": "maison",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ISN'T THAT SPATIAL?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g23-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the first Punic War, Rome conquered Corsica, Sardinia & this largest island of the Mediterranean",
+          "answer": "Sicily",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g23-d-c0-r0"
+        },
+        {
+          "question": "At a 1943 meeting in this N. African city, FDR & Churchill agreed to an invasion of \"the soft underbelly of the Axis\"",
+          "answer": "Casablanca",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g23-d-c0-r1"
+        },
+        {
+          "question": "On August 1, 1798 Admiral Nelson delivered a fatal blow to the French fleet near the Rosetta mouth of this river",
+          "answer": "the Nile",
+          "value": 4600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g23-d-c0-r2"
+        },
+        {
+          "question": "In 1961 this Asian country invaded the small colonies of Daman, Diu & Goa, & defeated the Portuguese",
+          "answer": "India",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g23-d-c0-r3"
+        },
+        {
+          "question": "In 1530 a statement of faith, or \"confession\", was issued from this German city named for a Roman Emperor",
+          "answer": "Augsburg",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g23-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SONG LYRICS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Cheer up Sleepy Jean, oh what can it mean to a daydream believer and...\" this",
+          "answer": "a homecoming queen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g23-d-c1-r0"
+        },
+        {
+          "question": "A hit from 1964 suggests that \"If you want to know if he loves you so\" it's here",
+          "answer": "in his kiss",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g23-d-c1-r1"
+        },
+        {
+          "question": "This classic from 1969 says, \"I feel that ice is slowly melting\"",
+          "answer": "\"Here Comes The Sun\"",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g23-d-c1-r2"
+        },
+        {
+          "question": "This Alice Cooper tune cheers, \"No more pencils, no more books, no more teacher's dirty looks\"",
+          "answer": "\"School's Out\"",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g23-d-c1-r3"
+        },
+        {
+          "question": "Who could forget this Duran Duran song that begins, \"Telegram force and ready, I knew this was a big mistake\"",
+          "answer": "\"Union Of The Snake\"",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SONG LYRICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g23-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY PAIRS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "They \"dined on mince and slices of quince which they ate with a runcible spoon\"",
+          "answer": "the Owl & the Pussycat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY PAIRS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g23-d-c2-r0"
+        },
+        {
+          "question": "Introduced by 18th century poet John Byrom, this pair was popularized by Lewis Carroll",
+          "answer": "Tweedledee & Tweedledum",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY PAIRS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g23-d-c2-r1"
+        },
+        {
+          "question": "Absurdly enough, Tom Stoppard re-dramatized this Shakespearean duo, old school chums of Hamlet turned spies",
+          "answer": "Rosencrantz & Guildenstern",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY PAIRS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g23-d-c2-r2"
+        },
+        {
+          "question": "The film title \"Eternal Sunshine of the Spotless Mind\" comes from a poem about these ill-fated medieval lovers",
+          "answer": "Heloise & Abelard",
+          "value": 12000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY PAIRS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g23-d-c2-r3"
+        },
+        {
+          "question": "These 2 \"Royal\" characters from \"Huck Finn\" end up tarred & feathered after their cons go awry",
+          "answer": "the Duke & the King",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY PAIRS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g23-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM A TO E",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "When it opened in 1965, it was the world's first completely enclosed sports stadium",
+          "answer": "the Astrodome",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM A TO E",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g23-d-c3-r0"
+        },
+        {
+          "question": "It's an amusing yarn or reminiscence; in fact, did I ever tell you about the time...",
+          "answer": "an anecdote",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM A TO E",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g23-d-c3-r1"
+        },
+        {
+          "question": "Then there was this time I had to take one of these remedies to counteract a poison",
+          "answer": "an antidote",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM A TO E",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g23-d-c3-r2"
+        },
+        {
+          "question": "Like the opening in a camera, the main opening in the shell of a mollusk is called this",
+          "answer": "the aperture",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM A TO E",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g23-d-c3-r3"
+        },
+        {
+          "question": "Krazy Glue advises if fingers get stuck together soak them in this solvent, or a nail polish remover that contains it",
+          "answer": "acetone",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM A TO E",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g23-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ART APPRECIATION",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In the 1970s this frizzy-haired singer appeared in the Mike Nichols films \"Catch-22\" & \"Carnal Knowledge\"",
+          "answer": "Art Garfunkel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART APPRECIATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g23-d-c4-r0"
+        },
+        {
+          "question": "Some of his famous science-fiction novels include \"Rendezvous with Rama\" & \"Childhood's End\"",
+          "answer": "Arthur C. Clarke",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART APPRECIATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g23-d-c4-r1"
+        },
+        {
+          "question": "In 1953 he had 3 TV shows on air with his name in the titles & in 2001 he was inducted into the Ukulele Hall of Fame",
+          "answer": "Arthur Godfrey",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ART APPRECIATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g23-d-c4-r2"
+        },
+        {
+          "question": "This French poet's stormy friendship with Paul Verlaine almost cost him his life as Verlaine took a shot at him",
+          "answer": "(Arthur) Rimbaud",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART APPRECIATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g23-d-c4-r3"
+        },
+        {
+          "question": "In 1917 this man sent a telegram to the German minister in Mexico, with a means for Mexico to reclaim lost Texas lands",
+          "answer": "(Arthur) Zimmerman",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART APPRECIATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g23-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "OTHER USES FOR ANIMALS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Join the club, the cricket club, where you swing one of these",
+          "answer": "a bat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OTHER USES FOR ANIMALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g23-d-c5-r0"
+        },
+        {
+          "question": "You can't beat this 9-tailed whip, or maybe you can",
+          "answer": "a cat-o'-nine-tails",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OTHER USES FOR ANIMALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g23-d-c5-r1"
+        },
+        {
+          "question": "Some find this nut on a violin bow--ribbeting",
+          "answer": "a frog",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OTHER USES FOR ANIMALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g23-d-c5-r2"
+        },
+        {
+          "question": "Fasten securely to prevent leaking",
+          "answer": "a seal",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OTHER USES FOR ANIMALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g23-d-c5-r3"
+        },
+        {
+          "question": "A hit with the fist or one swallow of liquor",
+          "answer": "a slug",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OTHER USES FOR ANIMALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g23-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "2004",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On Monday, December 13, 3 people designated these will meet in Cheyenne, Wyoming to help decide the world's future",
+          "answer": "electors",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "2004",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g23-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

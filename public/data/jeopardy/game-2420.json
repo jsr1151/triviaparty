@@ -1,0 +1,833 @@
+{
+  "gameId": 2420,
+  "showNumber": 3420,
+  "airDate": "June 18, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FATHER'S DAY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Sam Houston & Stephen Austin are both called the father of this; let's have a paternity test",
+          "answer": "Texas",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2420-s-c0-r0"
+        },
+        {
+          "question": "Cosimo de Medici, Andrea Doria & George Washington share this sobriquet",
+          "answer": "\"father of their country\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2420-s-c0-r1"
+        },
+        {
+          "question": "If you can \"Field\" this response you'll know he was the father of the Brooklyn Dodgers",
+          "answer": "Charles Ebbets",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2420-s-c0-r2"
+        },
+        {
+          "question": "You'll have better living through Robert Boyle, known by some as the father of this",
+          "answer": "chemistry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2420-s-c0-r3"
+        },
+        {
+          "question": "\"Birds\" brain who's known as the father of comedy",
+          "answer": "Aristophanes",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHER'S DAY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2420-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHO'S WHO IN THE BIBLE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Whosoever liveth and believeth in me shall never die,\" Jesus said before raising this man from the dead",
+          "answer": "Lazarus",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S WHO IN THE BIBLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2420-s-c1-r0"
+        },
+        {
+          "question": "He was still virile at 500 years old when he begat Shem, Ham & Japheth",
+          "answer": "Noah",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S WHO IN THE BIBLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2420-s-c1-r1"
+        },
+        {
+          "question": "According to John's gospel, she was the first person to notice Jesus' empty tomb",
+          "answer": "Mary Magdalene",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S WHO IN THE BIBLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2420-s-c1-r2"
+        },
+        {
+          "question": "Isaac's mom, she's the woman most often mentioned by name in the Bible",
+          "answer": "Sarah",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S WHO IN THE BIBLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2420-s-c1-r3"
+        },
+        {
+          "question": "In 1 Samuel 28 this king consulted the witch of Endor",
+          "answer": "Saul",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHO'S WHO IN THE BIBLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2420-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTORS & ACTRESSES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Her real name is Donna Miller; another actress had the same name, so she changed hers to this",
+          "answer": "Donna Mills",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2420-s-c2-r0"
+        },
+        {
+          "question": "In the 1930s this heartthrob was so popular he was known as \"The King of Hollywood\"",
+          "answer": "Clark Gable",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2420-s-c2-r1"
+        },
+        {
+          "question": "Of John Gielgud, Henry Irving or Laurence Olivier, the first English actor to be knighted",
+          "answer": "Henry Irving (back in the 1800s)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2420-s-c2-r2"
+        },
+        {
+          "question": "This \"Fair Lady\" of film starred on Broadway in a non-musical version of \"Gigi\" in 1951",
+          "answer": "Audrey Hepburn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2420-s-c2-r3"
+        },
+        {
+          "question": "He once played young Tom Hughes on \"As The World Turns\" but he's better known as John-Boy Walton",
+          "answer": "Richard Thomas",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ACTRESSES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2420-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE OBJECTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "We had to squeeze this one in; it's Florida's state beverage",
+          "answer": "orange juice",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE OBJECTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2420-s-c3-r0"
+        },
+        {
+          "question": "If things pan out, you'l discover this is the state mineral of Alaska",
+          "answer": "gold",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE OBJECTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2420-s-c3-r1"
+        },
+        {
+          "question": "How sweet, it's the state insect of New Jersey",
+          "answer": "the honeybee",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE OBJECTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2420-s-c3-r2"
+        },
+        {
+          "question": "This being North Carolina's precious stone may turn other states green with envy",
+          "answer": "the emerald",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE OBJECTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2420-s-c3-r3"
+        },
+        {
+          "question": "The morel is Minnesota's state one of these",
+          "answer": "mushroom",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE OBJECTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2420-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRO STADIUMS & ARENAS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Fenway Park",
+          "answer": "the Boston Red Sox",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO STADIUMS & ARENAS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2420-s-c4-r0"
+        },
+        {
+          "question": "Busch Stadium",
+          "answer": "the St. Louis Cardinals",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO STADIUMS & ARENAS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2420-s-c4-r1"
+        },
+        {
+          "question": "Foxboro Stadium",
+          "answer": "the New England Patriots",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO STADIUMS & ARENAS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2420-s-c4-r2"
+        },
+        {
+          "question": "Alamodome",
+          "answer": "the San Antonio Spurs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO STADIUMS & ARENAS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2420-s-c4-r3"
+        },
+        {
+          "question": "Molson Centre",
+          "answer": "the Montreal Canadiens",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRO STADIUMS & ARENAS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2420-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"HORSE\" SENSE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "He pursues Ichabod Crane through Sleepy Hollow",
+          "answer": "the Headless Horseman",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HORSE\" SENSE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2420-s-c5-r0"
+        },
+        {
+          "question": "Pungent ground up Armoracia rusticana roots used as a condiment",
+          "answer": "horseradish",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HORSE\" SENSE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2420-s-c5-r1"
+        },
+        {
+          "question": "He's the Native American leader emerging here",
+          "answer": "Crazy Horse",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HORSE\" SENSE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2420-s-c5-r2"
+        },
+        {
+          "question": "A little-known, unexpectedly successful political candidate",
+          "answer": "Dark horse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HORSE\" SENSE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2420-s-c5-r3"
+        },
+        {
+          "question": "Unit equal to 33,000 foot-pounds per minute",
+          "answer": "horsepower",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"HORSE\" SENSE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2420-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL FACTS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "2 of 3 who attended a military academy",
+          "answer": "Grant, Eisenhower, Carter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FACTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2420-d-c0-r0"
+        },
+        {
+          "question": "3 of 5 Harvard grads",
+          "answer": "(3 of) J. Adams. J.Q. Adams, T. Roosevelt, F. Roosevelt & Kennedy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FACTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2420-d-c0-r1"
+        },
+        {
+          "question": "2 of 4 Baptists",
+          "answer": "(2 of) Carter & Clinton (or Harding & Truman)",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FACTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2420-d-c0-r2"
+        },
+        {
+          "question": "2 of 6 who married a widow",
+          "answer": "(2 of) Washington, Jefferson, Madison, Fillmore, B. Harrison & Wilson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FACTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2420-d-c0-r3"
+        },
+        {
+          "question": "2 of 4 Whigs",
+          "answer": "(2 of) W. Harrison, Tyler, Taylor & Fillmore",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL FACTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2420-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "JUST DESSERTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This brand of gelatin first jiggled in 4 flavors: strawberry, lemon, orange & raspberry",
+          "answer": "Jell-O",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2420-d-c1-r0"
+        },
+        {
+          "question": "Despite its name, Sara Lee's \"All Butter\" one is only 10 3/4 ounces",
+          "answer": "pound cake",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2420-d-c1-r1"
+        },
+        {
+          "question": "A happy baking accident led to the invention of this semisoft candy that's often chocolate",
+          "answer": "fudge",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2420-d-c1-r2"
+        },
+        {
+          "question": "One variation of this cookie is the Double Stuf, with twice the creme filling of the original",
+          "answer": "Oreo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2420-d-c1-r3"
+        },
+        {
+          "question": "Sea captain Hanson Gregory & the Pennsylvania Dutch are both credited with putting the hole in this treat",
+          "answer": "doughnuts",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST DESSERTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2420-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSICAL COMPOSERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "His \"William Tell\" was to have been the first of 5 operas for the Paris Opera but his contract was set aside",
+          "answer": "G. Rossini",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL COMPOSERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2420-d-c2-r0"
+        },
+        {
+          "question": "In Weimar he wrote a set of organ chorales for his \"Orgelbuchlein\", or \"Little Organ Book\"",
+          "answer": "J.S. Bach",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL COMPOSERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2420-d-c2-r1"
+        },
+        {
+          "question": "In 1939 the Helsinki Music Institute changed its name to honor this famed graduate",
+          "answer": "Jean Sibelius",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL COMPOSERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2420-d-c2-r2"
+        },
+        {
+          "question": "His 1905 composition \"La Mer\" was inspired by the ideas of painters J.M.W. Turner & Claude Monet",
+          "answer": "Claude Debussy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL COMPOSERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2420-d-c2-r3"
+        },
+        {
+          "question": "In 1907 he became professor of piano at the Royal Academy of Music in Budapest",
+          "answer": "Bela Bartok",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL COMPOSERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2420-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOING DUTCH",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In her diary she wrote, \"It is not the Dutch people's fault that we are having such a miserable time\"",
+          "answer": "Anne Frank",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING DUTCH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2420-d-c3-r0"
+        },
+        {
+          "question": "Johann Cruyff, known as the Dutch Major, was tops in this sport & even played for the L.A. Aztecs",
+          "answer": "soccer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING DUTCH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2420-d-c3-r1"
+        },
+        {
+          "question": "In 1993 Northwest Airlines formed an alliance with this Dutch company",
+          "answer": "KLM",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING DUTCH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2420-d-c3-r2"
+        },
+        {
+          "question": "The roots of this U.S. state capital go back to Fort Nassau, a trading post founded by the Dutch in 1614",
+          "answer": "Albany",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING DUTCH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2420-d-c3-r3"
+        },
+        {
+          "question": "A new waterway opened in 1872 allowed large vessels passage to this Dutch city, now a top world port",
+          "answer": "Rotterdam",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING DUTCH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2420-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON WORDS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "What the Old Norse knew as Thorsdagr, we call this today",
+          "answer": "Thursday",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2420-d-c4-r0"
+        },
+        {
+          "question": "Of a person, place or thing, it's what the Rosetta Stone was named for",
+          "answer": "a place",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2420-d-c4-r1"
+        },
+        {
+          "question": "From the Greek for a \"race discourse\", it's the history of a family",
+          "answer": "genealogy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2420-d-c4-r2"
+        },
+        {
+          "question": "The words journey, journal & diurnal are all based on this unit of time",
+          "answer": "day",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2420-d-c4-r3"
+        },
+        {
+          "question": "Alone it means \"silence\"; add \"ble\" & it means to talk indistinctly",
+          "answer": "mum",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2420-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHRISTIAN SLATER",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In this 1994 film Christian sank his teeth into the role of the interviewer",
+          "answer": "Interview with the Vampire",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN SLATER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2420-d-c5-r0"
+        },
+        {
+          "question": "At age 10 Christian played Winthrop Paroo in a New York revival of this Meredith Willson musical",
+          "answer": "The Music Man",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN SLATER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2420-d-c5-r1"
+        },
+        {
+          "question": "Christian had a cameo in a film subtitled \"The Undiscovered Country\", the sixth in this series",
+          "answer": "Star Trek",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN SLATER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2420-d-c5-r2"
+        },
+        {
+          "question": "Christian is not the brother of this \"Legend of Billie Jean\" co-star; in fact, he had a crush on her",
+          "answer": "Helen Slater",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN SLATER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2420-d-c5-r3"
+        },
+        {
+          "question": "As Will Scarlett, in this 1991 film Christian was in tight with Kevin Costner",
+          "answer": "Robin Hood: Prince of Thieves",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRISTIAN SLATER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2420-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS FATHERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He played rhythm & blues guitar before working as a crane operator & raising a family in Gary, Indiana",
+          "answer": "Joe Jackson",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS FATHERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2420-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "gameId": 5045,
+  "showNumber": 360,
+  "airDate": "January 24, 1986",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ROCK 'N ROLL",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1985, largest-scale live rock festival ever drew 1.5 million to this Brazilian city",
+          "answer": "Rio de Janeiro",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5045-s-c0-r0"
+        },
+        {
+          "question": "Harlem theater whose reopening was celebrated in an NBC rock music special in May, 1985",
+          "answer": "the Apollo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5045-s-c0-r1"
+        }
+      ]
+    },
+    {
+      "name": "ASTRONOMY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Winds reach over 900 MPH on this giant neighbor of Jupiter",
+          "answer": "Saturn",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5045-s-c1-r0"
+        },
+        {
+          "question": "Most meteors are bits of debris left by these passing by",
+          "answer": "comets",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5045-s-c1-r1"
+        },
+        {
+          "question": "Energy the sun emits in this time unit is 13 million times the energy used in the U.S. daily",
+          "answer": "one second",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5045-s-c1-r2"
+        },
+        {
+          "question": "Since 1979, this planet, not Pluto, is  furthest from the sun",
+          "answer": "Neptune",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5045-s-c1-r3"
+        },
+        {
+          "question": "It would take an Apollo spacecraft over 100,000 years to reach this nearest star to the sun",
+          "answer": "Alpha Centauri",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5045-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1985 after 8 tries, they beat the Celtics for the NBA title",
+          "answer": "the L.A. Lakers",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5045-s-c2-r0"
+        },
+        {
+          "question": "This annual amateur boxing tournament was 1st held in 1927",
+          "answer": "the Golden Gloves",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5045-s-c2-r1"
+        },
+        {
+          "question": "Though traced back to ancient Rome, handball came to the U.S. from this Celtic country",
+          "answer": "Ireland",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5045-s-c2-r2"
+        },
+        {
+          "question": "In 1700, Francisco Romero became the 1st famous figure in this controversial \"sport\"",
+          "answer": "bullfighting",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5045-s-c2-r3"
+        },
+        {
+          "question": "In 1985 this former teen wonder became the 1st American jockey in 65 years to win Britain's Epsom Derby",
+          "answer": "Steve Cauthen",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5045-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN INDIANS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "After 1510, Africans began replacing the Indians as these in the new world",
+          "answer": "slaves",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5045-s-c3-r0"
+        },
+        {
+          "question": "Hard quartz used by Indians as arrowheads & firestarters",
+          "answer": "flint",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5045-s-c3-r1"
+        },
+        {
+          "question": "This S.W. tribe of Indians came to name a criminal element in faraway Paris",
+          "answer": "Apache",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5045-s-c3-r2"
+        },
+        {
+          "question": "The English named this tribe for the many streams that ran through their southern U.S. domain",
+          "answer": "the Creek Indians",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5045-s-c3-r3"
+        },
+        {
+          "question": "This same Indian word means a ceremony, a medicine man, or most often, a political meeting",
+          "answer": "a pow-wow",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INDIANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5045-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BRITISH CLOTHING",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Using the American term for this, Gilbert & Sullivan's operetta is \"H.M.S. Apron\"",
+          "answer": "a pinafore",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH CLOTHING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5045-s-c4-r0"
+        },
+        {
+          "question": "A Briton would have these \"turn-ups\" put on his trousers, not his plate",
+          "answer": "cuffs",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH CLOTHING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5045-s-c4-r1"
+        },
+        {
+          "question": "What a British sports fan wears sitting around in his \"vest\" drinking beer & watching the telly",
+          "answer": "undershirt",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BRITISH CLOTHING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5045-s-c4-r2"
+        },
+        {
+          "question": "A man could get arrested for wearing these British \"knickers\" to play golf",
+          "answer": "underpants",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH CLOTHING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5045-s-c4-r3"
+        },
+        {
+          "question": "Part of the body where women wear \"winklepickers\"",
+          "answer": "their feet",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BRITISH CLOTHING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5045-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"COCK\" A DOODLE DO",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Fred was one on \"Baretta\"",
+          "answer": "a cockatoo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"COCK\" A DOODLE DO",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5045-s-c5-r0"
+        },
+        {
+          "question": "He sat in a chair marked \"Mrs. Bates\" during the filming of \"Psycho\"",
+          "answer": "Alfred Hitchcock",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"COCK\" A DOODLE DO",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5045-s-c5-r1"
+        },
+        {
+          "question": "\"Body part\" warmed by sentiment",
+          "answer": "the cockles of the heart",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"COCK\" A DOODLE DO",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5045-s-c5-r2"
+        },
+        {
+          "question": "Balderdash",
+          "answer": "poppycock",
+          "value": 100,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"COCK\" A DOODLE DO",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5045-s-c5-r3"
+        },
+        {
+          "question": "Ency. Americana says he felt slighted he wasn't named Commander-in-Chief of the Continental Army",
+          "answer": "John Hancock",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"COCK\" A DOODLE DO",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5045-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "1946",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Added to U.S. Nat'l Archives was marriage certificate of this ruler who'd killed himself the year before",
+          "answer": "Adolf Hitler",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1946",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5045-d-c0-r0"
+        },
+        {
+          "question": "In its 2nd test, it sank 10 ships, including the battleship \"Arkansas\"",
+          "answer": "an atomic test",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1946",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5045-d-c0-r1"
+        },
+        {
+          "question": "This crooner introduced the idea of transcribed rather than live broadcasts",
+          "answer": "Bing Crosby",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1946",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5045-d-c0-r2"
+        },
+        {
+          "question": "A leading Shakespearean actor in the 1890s, this movie cowboy died June 23, 1946",
+          "answer": "William S. Hart",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1946",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5045-d-c0-r3"
+        },
+        {
+          "question": "The U.N. voted 46-to-7 to accept this family's offer of a site in New York for permanent headquarters",
+          "answer": "the Rockefeller family",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1946",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5045-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYSTICISM",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In a singles bar, they'll ask for your sign, but a pro at this will ask for your birthday",
+          "answer": "astrology",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTICISM",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5045-d-c1-r0"
+        },
+        {
+          "question": "The radiated light around your body which can be seen by certain attuned people",
+          "answer": "your aura",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTICISM",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5045-d-c1-r1"
+        },
+        {
+          "question": "In a series of books, Carlos Castaneda tells of his apprenticeship with this Yaqui Indian",
+          "answer": "Don Juan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTICISM",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5045-d-c1-r2"
+        },
+        {
+          "question": "Spiritual organ located in the center of the forehead",
+          "answer": "the third eye",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTICISM",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5045-d-c1-r3"
+        },
+        {
+          "question": "Sanskrit for \"to blow out\", for only in this state is hate, greed & ignorance extinguished",
+          "answer": "nirvana",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MYSTICISM",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5045-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "OPERA",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "English translation of this Strauss title is \"The Cavalier of the Rose\"",
+          "answer": "Der Rosenkavalier",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5045-d-c2-r0"
+        },
+        {
+          "question": "In his \"Don Giovanni\" an orchestra on stage played an aria from his \"Marriage of Figaro\"",
+          "answer": "Mozart",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5045-d-c2-r1"
+        },
+        {
+          "question": "Appropriate profession of Floria Tosca in the opera \"Tosca\"",
+          "answer": "an opera singer",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5045-d-c2-r2"
+        },
+        {
+          "question": "Opened in 1833, it presented its 1st American opera in 1910",
+          "answer": "the Met",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5045-d-c2-r3"
+        },
+        {
+          "question": "\"Ho-jo-ho-to\" was her battle cry in Act II of Wagner's \"Die Walkure\"",
+          "answer": "Brünnhilde",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5045-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PUBLISHING",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "According to \"USA Today\", 95% of newsweekly magazines' sales are by this",
+          "answer": "subscription",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5045-d-c3-r0"
+        },
+        {
+          "question": "In 1909, John Hill & he formed a company to publish technical books",
+          "answer": "McGraw",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5045-d-c3-r1"
+        },
+        {
+          "question": "\"At the Movies\" reviewers Siskel & Ebert write for these rival Chicago papers",
+          "answer": "the Chicago Tribune & the Sun-Times",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5045-d-c3-r2"
+        },
+        {
+          "question": "Eugene F. Maleska edits this for \"The New York Times\"",
+          "answer": "the crossword puzzles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5045-d-c3-r3"
+        },
+        {
+          "question": "Publishers of Dr. Seuss, in 1933, they won the U.S.'s most famous censorship case on \"Ulysses\"",
+          "answer": "Random House",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5045-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACRONYMS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Society for Industrial & Applied Mathematics, not a country that exports cats",
+          "answer": "SIAM",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5045-d-c4-r0"
+        },
+        {
+          "question": "Actors belong to SAG, but extras belong to SEG, this union",
+          "answer": "the Screen Extras Guild",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5045-d-c4-r1"
+        },
+        {
+          "question": "Missiles called \"SAM\"s are of this type",
+          "answer": "surface-to-air missiles",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5045-d-c4-r2"
+        },
+        {
+          "question": "Meaning of graphic designers' axiom \"KISS\"",
+          "answer": "keep it simple, stupid",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5045-d-c4-r3"
+        },
+        {
+          "question": "To Chevy, IROC is a Camaro, bt to A.J. Foyt it's this event he's driven IROCs in",
+          "answer": "the International Race of Champions",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACRONYMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5045-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOUGH TV TRIVIA",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Sponsor of \"Wild Kingdom\"",
+          "answer": "Mutual of Omaha",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH TV TRIVIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5045-d-c5-r0"
+        },
+        {
+          "question": "Long before \"Night Court\", she was a real gem writing for Uncle Milty & Sid Caesar",
+          "answer": "Selma Diamond",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH TV TRIVIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5045-d-c5-r1"
+        },
+        {
+          "question": "Based on the Peter Bogdanovich film, this 1974 series featured Jodie Foster as Addie Pray",
+          "answer": "Paper moon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH TV TRIVIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5045-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "TWENTIETH CENTURY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "To honor him in 1965, Elizabeth II was the 1st reigning British monarch to attend a commoner's funeral",
+          "answer": "Winston Churchill",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "TWENTIETH CENTURY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5045-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "gameId": 5094,
+  "showNumber": 2167,
+  "airDate": "January 25, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE PLANETS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's rings begin about 4,000 miles above the surface & are over 35,000 miles wide",
+          "answer": "Saturn",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5094-s-c0-r0"
+        },
+        {
+          "question": "This planet's equatorial diameter is only about 400 miles less than Earth's",
+          "answer": "Venus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5094-s-c0-r1"
+        },
+        {
+          "question": "This planet never appears more than 28 degrees from the sun in the sky",
+          "answer": "Mercury",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5094-s-c0-r2"
+        },
+        {
+          "question": "In August 1989 this became the last planet visited by the Voyager 2 spacecraft",
+          "answer": "Neptune",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5094-s-c0-r3"
+        },
+        {
+          "question": "It has the strongest surface gravity of our sun's planets, 2.64 times that of Earth",
+          "answer": "Jupiter",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5094-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV GUIDE SAYS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"It's a showdown at the FYI Corral as Miles lays down the law to Murphy\"",
+          "answer": "Murphy Brown",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5094-s-c1-r0"
+        },
+        {
+          "question": "\"Hordes gather outside Sugarbaker's after the face of Elvis appears on a shovel belonging to Mary Jo\"",
+          "answer": "Designing Women",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5094-s-c1-r1"
+        },
+        {
+          "question": "\"Peg spoils the family's fun when she's kidnapped by the ax murderer\"",
+          "answer": "Married...With Children",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5094-s-c1-r2"
+        },
+        {
+          "question": "\"Geordi finds himself drawn romantically to a starfleet lieutenant who is suspected of murder\"",
+          "answer": "Star Trek: The Next Generation",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5094-s-c1-r3"
+        },
+        {
+          "question": "\"Elaine contributes to the downing of George and Jerry's TV pilot\"",
+          "answer": "Seinfeld",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5094-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRUITS & VEGETABLES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A sauce made of this fruit is the traditional accompaniment for a Thanksgiving turkey",
+          "answer": "cranberries",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5094-s-c2-r0"
+        },
+        {
+          "question": "Before making ratatouille, this vegetable should be salted to reduce its bitterness",
+          "answer": "eggplant",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5094-s-c2-r1"
+        },
+        {
+          "question": "Celeriac is a type of celery grown for this part, not for its stalks",
+          "answer": "the roots",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5094-s-c2-r2"
+        },
+        {
+          "question": "This state produces over 80% of the strawberries grown in the United States",
+          "answer": "California",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5094-s-c2-r3"
+        },
+        {
+          "question": "The Japanese daikon is a giant, mild type of this vegetable",
+          "answer": "a radish",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5094-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "1979",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In December, the price of this precious metal topped $500 per troy ounce for the first time",
+          "answer": "gold",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1979",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5094-s-c3-r0"
+        },
+        {
+          "question": "On March 28 the British gov't lost a vote of confidence & there was an accident at this U.S. reactor",
+          "answer": "Three Mile Island",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1979",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5094-s-c3-r1"
+        },
+        {
+          "question": "This long dinosaur at the Carnegie Museum got a new head; the old one belonged to a Camarasaurus",
+          "answer": "Brontosaurus",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1979",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5094-s-c3-r2"
+        },
+        {
+          "question": "At the end of May, this country added \"Zimbabwe\" to its name",
+          "answer": "Rhodesia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1979",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5094-s-c3-r3"
+        },
+        {
+          "question": "On April 3 she was elected mayor of Chicago with 82.5% of the vote",
+          "answer": "Jane Byrne",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1979",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5094-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MONTHS OF THE YEAR",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It \"comes in like a lion and goes out like a lamb\"",
+          "answer": "March",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS OF THE YEAR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5094-s-c4-r0"
+        },
+        {
+          "question": "This month that's also a female name is an anagram of the name Pilar",
+          "answer": "April",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS OF THE YEAR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5094-s-c4-r1"
+        },
+        {
+          "question": "The French call it Janvier",
+          "answer": "January",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS OF THE YEAR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5094-s-c4-r2"
+        },
+        {
+          "question": "It was the tenth month of the early Roman calendar; its name comes from the Latin word for \"ten\"",
+          "answer": "December",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONTHS OF THE YEAR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5094-s-c4-r3"
+        },
+        {
+          "question": "Like the United States, Sweden celebrates its Flag Day during this month",
+          "answer": "June",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MONTHS OF THE YEAR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5094-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ABBREVIATIONS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Take note: this secretarial skill is abbreviated dict.",
+          "answer": "dictation",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREVIATIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5094-s-c5-r0"
+        },
+        {
+          "question": "In grammar pr. can stand for present or this part of speach",
+          "answer": "pronoun",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREVIATIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5094-s-c5-r1"
+        },
+        {
+          "question": "DJ can stand for disc jockey or for this part of a record album",
+          "answer": "a dust jacket",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREVIATIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5094-s-c5-r2"
+        },
+        {
+          "question": "In telecommunications PBS is the Public Broadcasting Service & NPR is this",
+          "answer": "National Public Radio",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREVIATIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5094-s-c5-r3"
+        },
+        {
+          "question": "Biblically speaking, Jud. can stand for Judges or for this book of the Apocrypha",
+          "answer": "Judith",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ABBREVIATIONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5094-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "There were 2 ancient cities of Thebes. 1 in Greece & 1 here",
+          "answer": "Egypt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5094-d-c0-r0"
+        },
+        {
+          "question": "Hammurabi's code said that a person accused of this was to be thrown in the river; floaters were innocent",
+          "answer": "witchcraft",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5094-d-c0-r1"
+        },
+        {
+          "question": "In 256 B.C. the Chou dynasty was deposed by this one that gave the country its name",
+          "answer": "Chin dynasty",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5094-d-c0-r2"
+        },
+        {
+          "question": "The Stone Age stones used for tools were flint & this black volcanic glass",
+          "answer": "obsidian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5094-d-c0-r3"
+        },
+        {
+          "question": "Cities arose c. 2500 B.C. at sites now in Pakistan, in this river valley",
+          "answer": "the Indus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5094-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLET",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1991 the NYC Ballet staged its first production of this ballet about a slumbering princess",
+          "answer": "Sleeping Beauty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5094-d-c1-r0"
+        },
+        {
+          "question": "In \"La Esmeralda\", this bell ringer saves the heroine from being murdered",
+          "answer": "Quasimodo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5094-d-c1-r1"
+        },
+        {
+          "question": "Nijinsky's first ballet as a choreographer was \"L'Après-midi d'un faune\", which translates to this",
+          "answer": "Afternoon of a Faun",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5094-d-c1-r2"
+        },
+        {
+          "question": "\"Paradise Lost\" was created for this pair & first performed by London's Royal Ballet in 1967",
+          "answer": "Fonteyn & Nureyev",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5094-d-c1-r3"
+        },
+        {
+          "question": "In the 1920s this ballerina was captured on film in a compilation called \"The Immortal Swan\"",
+          "answer": "Pavlova",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5094-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD GEOGRAPHY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Indonesia's Sunda Islands form a boundary between the Pacific Ocean & this ocean",
+          "answer": "the Indian Ocean",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5094-d-c2-r0"
+        },
+        {
+          "question": "Sicily's highest point is this volcano",
+          "answer": "Mount Etna",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5094-d-c2-r1"
+        },
+        {
+          "question": "1 of 2 overseas departments of France in the West Indies",
+          "answer": "(1 of) Martinique & Guadeloupe",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5094-d-c2-r2"
+        },
+        {
+          "question": "It's the middle of Canada's 3 Prairie Provinces",
+          "answer": "Saskatchewan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5094-d-c2-r3"
+        },
+        {
+          "question": "Lake Titicaca, South America's largest lake, straddles the border of these 2 countries",
+          "answer": "Peru & Bolivia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5094-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1968 this toy manufacturer introduced Hot Wheels, its line of miniature model cars",
+          "answer": "Mattel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5094-d-c3-r0"
+        },
+        {
+          "question": "A former logo of this oil company featured a small star at its bottom",
+          "answer": "Texaco",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5094-d-c3-r1"
+        },
+        {
+          "question": "This farm implement manufacturer publishes a magazine for farmers called \"The Furrow\"",
+          "answer": "John Deere",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5094-d-c3-r2"
+        },
+        {
+          "question": "This credit reporting giant was originally called the Cleveland Cap Screw Company",
+          "answer": "TRW",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5094-d-c3-r3"
+        },
+        {
+          "question": "Among the brands owned by this Swedish vacuum cleaner company are Eureka, Tappan & Frigidaire",
+          "answer": "Electrolux",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5094-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POETS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This German was 82 when he finished \"Faust\" in 1832",
+          "answer": "Goethe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5094-d-c4-r0"
+        },
+        {
+          "question": "Author of the ode \"To Autumn\", he wrote as his own epitaph \"Here lies one whose name was writ in water\"",
+          "answer": "John Keats",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POETS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5094-d-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "QUEENLY NICKNAMES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This British queen was known as \"the queen of virgins\" & \"the queen with the heart of a king\"",
+          "answer": "Queen Elizabeth I",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUEENLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5094-d-c5-r0"
+        },
+        {
+          "question": "This dame was the \"queen of crime\"",
+          "answer": "Agatha Christie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUEENLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5094-d-c5-r1"
+        },
+        {
+          "question": "Both Irna Phillips & Agnes Nixon have been called \"the queen of\" this daytime TV genre",
+          "answer": "a soap opera",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUEENLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5094-d-c5-r2"
+        },
+        {
+          "question": "This presidential daughter was called \"Queen Alice\"",
+          "answer": "Alice Roosevelt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUEENLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5094-d-c5-r3"
+        },
+        {
+          "question": "This heroine of \"The Perils of Pauline\" was \"the queen of the silent serials\"",
+          "answer": "Pearl White",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUEENLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5094-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN NOVELS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The first sentence of this 1957 novel is \"I first met Dean not long after my wife and I split up\"",
+          "answer": "On the Road",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AMERICAN NOVELS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5094-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

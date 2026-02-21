@@ -1,0 +1,772 @@
+{
+  "gameId": 4282,
+  "showNumber": 641,
+  "airDate": "May 25, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LESOTHO",
+      "round": "single",
+      "position": 0,
+      "clues": []
+    },
+    {
+      "name": "ANIMALS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Skunks develop this ability before they're one month old, so watch out!",
+          "answer": "spraying foul-smelling stuff",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4282-s-c1-r0"
+        },
+        {
+          "question": "The most recent member of the \"ursus\", or bear, line is this species which headed north",
+          "answer": "polar bear",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4282-s-c1-r1"
+        },
+        {
+          "question": "Of the higher primates, the pygmy marmoset is smallest in size & this is the largest",
+          "answer": "gorilla",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4282-s-c1-r2"
+        },
+        {
+          "question": "Of the civet, otter, & badger, the mammal that's considered aquatic",
+          "answer": "otter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4282-s-c1-r3"
+        },
+        {
+          "question": "Lemurs live chiefly on The Comoros & this other island country off Africa's southeast coast",
+          "answer": "Madagascar",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4282-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPACE & AVIATION",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On its historic flight in December 1986, number of times Voyager stopped for gas",
+          "answer": "none",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE & AVIATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4282-s-c2-r0"
+        },
+        {
+          "question": "In 1986, besides the U.S., 1 of 2 countries whose airports were among the 10 busiest in the world",
+          "answer": "England or Japan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE & AVIATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4282-s-c2-r1"
+        },
+        {
+          "question": "Testor Corp. is selling a model kit for this plane the government won't even admit exists",
+          "answer": "Stealth",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE & AVIATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4282-s-c2-r2"
+        },
+        {
+          "question": "Of a Boeing 727, 737, 747, 757, or 767, one with the most engines",
+          "answer": "747",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE & AVIATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4282-s-c2-r3"
+        },
+        {
+          "question": "American who launched the 1st successful liquid-propelled rocket on March 16, 1926",
+          "answer": "(Robert) Goddard",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPACE & AVIATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4282-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GAME SHOWS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The \"Chance of a Lifetime\" is to win this prize",
+          "answer": "million dollars",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAME SHOWS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4282-s-c3-r0"
+        },
+        {
+          "question": "Major network which currently airs the greatest number of daytime game shows",
+          "answer": "NBC",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GAME SHOWS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4282-s-c3-r1"
+        },
+        {
+          "question": "Bob Eubanks hosts the daytime network version; Bill Rafferty, the syndicated",
+          "answer": "Card Sharks",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GAME SHOWS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4282-s-c3-r2"
+        },
+        {
+          "question": "In Italy, this show is called \"Il Prezzo et Justo\"",
+          "answer": "The Price is Right",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAME SHOWS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4282-s-c3-r3"
+        },
+        {
+          "question": "The difference between the number of game board monitors on \"Tic Tac Dough\" & \"Jeopardy!\"",
+          "answer": "21",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GAME SHOWS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4282-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FACTS & FIGURES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Experts say it takes an intake of 3500 extra calories to gain this much weight",
+          "answer": "a pound",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4282-s-c4-r0"
+        },
+        {
+          "question": "59' tall & from California, it was put up on the U.S. Capitol ground December 1, 1986",
+          "answer": "Christmas tree",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4282-s-c4-r1"
+        },
+        {
+          "question": "After 27 years, he's the current NFL coach who has served the longest with 1 team",
+          "answer": "Landry",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4282-s-c4-r2"
+        },
+        {
+          "question": "Officials in Rome estimate that there are 50,000 too many of these in the capital each day",
+          "answer": "automobiles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4282-s-c4-r3"
+        },
+        {
+          "question": "In 1985-86, this character's dream accounted for 31 hours of television programming",
+          "answer": "Pam Ewing",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4282-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOOD ON THE MAP",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Just ask Reggie Jackson, & he'll tell you the A's are from this city",
+          "answer": "Oakland",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOOD ON THE MAP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4282-s-c5-r0"
+        },
+        {
+          "question": "Colorado resort city named in 1879 for the trees in the region",
+          "answer": "Aspen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOOD ON THE MAP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4282-s-c5-r1"
+        },
+        {
+          "question": "Cities in Iowa are named for the falls & rapids of this river",
+          "answer": "Cedar",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOOD ON THE MAP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4282-s-c5-r2"
+        },
+        {
+          "question": "The General Sherman tree, most massive living thing in the world, is in this nat'l park",
+          "answer": "Sequoia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOOD ON THE MAP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4282-s-c5-r3"
+        },
+        {
+          "question": "Wild Bill Hickok met his end in this appropriately named South Dakota town",
+          "answer": "Deadwood",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOOD ON THE MAP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4282-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "EXODUS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Jewish holiday established in Exodus 12",
+          "answer": "Passover",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXODUS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4282-d-c0-r0"
+        },
+        {
+          "question": "Moses set desert rations for the \"bread of the Lord\" at 1 omer each day except Sat., 2 on Friday",
+          "answer": "manna",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXODUS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4282-d-c0-r1"
+        },
+        {
+          "question": "In the 1960 film \"Exodus\", he played Ari Ben Canaan",
+          "answer": "Paul Newman",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXODUS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4282-d-c0-r2"
+        },
+        {
+          "question": "After all the rods became serpents, his rod ate them all",
+          "answer": "Aaron",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXODUS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4282-d-c0-r3"
+        },
+        {
+          "question": "Moses' father-in-law, he shares name with a \"Beverly Hillbilly\"",
+          "answer": "Jethro",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXODUS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4282-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 1930s",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "When dedicated on May 1, 1931, it was the world's tallest building",
+          "answer": "Empire State Building",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1930s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4282-d-c1-r0"
+        },
+        {
+          "question": "Of \"Dracula\", \"The Wolf Man\" or \"Frankenstein\", film which didn't premiere in the 1930s",
+          "answer": "The Wolf Man",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1930s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4282-d-c1-r1"
+        },
+        {
+          "question": "On May 9, 1936, it landed successfully at Lakehurst, New Jersey",
+          "answer": "Hindenburg",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1930s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4282-d-c1-r2"
+        },
+        {
+          "question": "Japan's 8-year war against this country began at the Marco Polo Bridge in July 1937",
+          "answer": "China",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1930s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4282-d-c1-r3"
+        },
+        {
+          "question": "In October 1935, Roosevelt said \"A state of war unhappily exists\" between Italy & this country",
+          "answer": "Ethiopia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1930s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4282-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HAIL TO THE CHIEF",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "His mother's name was Jessie Janet Woodrow",
+          "answer": "Woodrow Wilson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4282-d-c2-r0"
+        },
+        {
+          "question": "John Quincy Adams named his 1st-born after this man famous for being a 1st",
+          "answer": "George Washington",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4282-d-c2-r1"
+        },
+        {
+          "question": "Bob Hope said \"When I play (golf) with this president, I...bring a special caddy--he's my blood type!\"",
+          "answer": "Ford",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4282-d-c2-r2"
+        },
+        {
+          "question": "2 of the 3 men who were president in 1881",
+          "answer": "(2 of) Garfield & Arthur & Rutherford B. Hayes",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4282-d-c2-r3"
+        },
+        {
+          "question": "In the 1856 election, this ex-president was candidate of both the Whigs & Know-Nothings",
+          "answer": "Millard Fillmore",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAIL TO THE CHIEF",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4282-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PUBLISHING",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Newspaper whose reporters originally broke the Watergate story",
+          "answer": "The Washington Post",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4282-d-c3-r0"
+        },
+        {
+          "question": "Gertrude the kangaroo is the symbol of this company, the USA's pioneer paperback book publisher",
+          "answer": "Pocketbook",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4282-d-c3-r1"
+        },
+        {
+          "question": "This city's Free Press was rebuked by readers for revealing our T of C winner's name early",
+          "answer": "Detroit",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4282-d-c3-r2"
+        },
+        {
+          "question": "This head of Random House was a regular panelist on \"What's My Line?\"",
+          "answer": "Bennett Cerf",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4282-d-c3-r3"
+        },
+        {
+          "question": "This pair was Row, Peterson & Company's most successful equivalent to \"Dick & Jane\"",
+          "answer": "Alice & Jerry",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PUBLISHING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4282-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ONE SONG",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Heard here, it's the title of the song this category is based on: You never close your eyes any more When I kiss your lips",
+          "answer": "\"You've Lost that Lovin' Feeling\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE SONG",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4282-d-c4-r0"
+        },
+        {
+          "question": "Under this group name Bill Medley & Bobby Hatfield took the song to #1 in 1965",
+          "answer": "The Righteous Brothers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE SONG",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4282-d-c4-r1"
+        },
+        {
+          "question": "Actress to whom the song was sung in \"Top Gun\"",
+          "answer": "Kelly McGillis",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE SONG",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4282-d-c4-r2"
+        },
+        {
+          "question": "According to the lyrics, \"Girl, you're startin' to criticize\" these",
+          "answer": "little things I do",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE SONG",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4282-d-c4-r3"
+        },
+        {
+          "question": "This pop pair had a Billboard top 20 hit in 1980 with a remake of the song",
+          "answer": "(Daryl) Hall & (John) Oates",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE SONG",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4282-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "2-LETTER WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Direction in which you'd have to look right now to see a catwalk",
+          "answer": "up",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4282-d-c5-r0"
+        },
+        {
+          "question": "Printer's measure, or Dorothy's Auntie",
+          "answer": "Em",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4282-d-c5-r1"
+        },
+        {
+          "question": "Proper title of the \"Sound of Music\" song which begins \"Do a deer\", it's 3 2-letter words",
+          "answer": "\"Do-Re-Mi\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4282-d-c5-r2"
+        },
+        {
+          "question": "Spelled out, it's a blood type; pronounced, it's a month of the Jewish calendar",
+          "answer": "AB",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4282-d-c5-r3"
+        },
+        {
+          "question": "2 of the 4 Greek letters that are 2-letter words",
+          "answer": "(2 of) pi, mu, nu & xi",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4282-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOLOGY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "3 of the 5 U.S. states with volcanoes active within the last two centuries",
+          "answer": "(3 of) Hawaii, Alaska, Washington, Oregon & California",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "GEOLOGY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4282-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

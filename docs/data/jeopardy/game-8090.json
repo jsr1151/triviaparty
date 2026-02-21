@@ -1,0 +1,689 @@
+{
+  "gameId": 8090,
+  "showNumber": 159,
+  "airDate": "April 18, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LAKES & RIVERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Only Great Lake with an outlet to the St. Lawrence River",
+          "answer": "Lake Ontario",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8090-s-c0-r0"
+        },
+        {
+          "question": "World leader whose summer home is at Castel Gandolfo on Lake Albano",
+          "answer": "Pope John Paul",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8090-s-c0-r1"
+        },
+        {
+          "question": "Continent whose major river system is the Murray",
+          "answer": "Australia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8090-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "RADIO",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "3-letter word which is the general topic of Dr. Ruth Westheimer's radio call-in show",
+          "answer": "sex",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RADIO",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8090-s-c1-r0"
+        },
+        {
+          "question": "Comic strip heroine whose radio theme began, \"Who's that little chatterbox...\"",
+          "answer": "Little Orphan Annie",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RADIO",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8090-s-c1-r1"
+        },
+        {
+          "question": "Los Angeles D.J. who took over the hosting job this season on TV's \"Solid Gold\"",
+          "answer": "Rick Dees",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RADIO",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8090-s-c1-r2"
+        },
+        {
+          "question": "Name under which Barry Hansen \"doctors\" up popular weird song radio show",
+          "answer": "Dr. Demento",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RADIO",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8090-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "POTENT POTABLES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The most common of these used today is Angostura",
+          "answer": "bitters",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8090-s-c2-r0"
+        },
+        {
+          "question": "This peach-flavored bourbon is popular on both sides of the Mason-Dixon Line",
+          "answer": "Southern Comfort",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8090-s-c2-r1"
+        },
+        {
+          "question": "Liquor that this song's about:\"Jose Cuervo you are a friend of mine / I like to drink you with a little salt and lime / Did I kiss all the cowboys? / Did I shoot out the lights? / Did I dance on the bar? / Did I start a fight?\"",
+          "answer": "tequila",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8090-s-c2-r2"
+        },
+        {
+          "question": "European country that produces the most wine",
+          "answer": "Italy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8090-s-c2-r3"
+        },
+        {
+          "question": "It's done to spiced wine to make it \"mulled\"",
+          "answer": "you heat it",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8090-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "5-LETTER WORDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The space on the paper to be filled in",
+          "answer": "blank",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8090-s-c3-r0"
+        },
+        {
+          "question": "The \"courage\" to pull out a feather",
+          "answer": "pluck",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8090-s-c3-r1"
+        },
+        {
+          "question": "You do it to grapes, doorbells & ducks",
+          "answer": "press",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8090-s-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRY MUSIC",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "His '64 film biography was called \"Your Cheatin' Heart\"",
+          "answer": "Hank Williams",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8090-s-c4-r0"
+        },
+        {
+          "question": "Carl Perkins, Johnny Cash & Elvis Presley all got their start with this Memphis recording co.",
+          "answer": "Sun Records",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8090-s-c4-r1"
+        },
+        {
+          "question": "Guitarist who won \"Cashbox's\" best instrumentalist award 19 years straight",
+          "answer": "Chester (Chet) Atkins",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8090-s-c4-r2"
+        },
+        {
+          "question": "This former pro ballplayer is country's top Black star",
+          "answer": "Charley Pride",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8090-s-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "ETIQUETTE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This etiquette expert is really Judith Martin",
+          "answer": "Miss Manners",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ETIQUETTE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8090-s-c5-r0"
+        },
+        {
+          "question": "In the U.S., an invitation to dinner here is akin to a command & other plans should be cancelled",
+          "answer": "the White House",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ETIQUETTE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8090-s-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "MEDICAL HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "French medical pioneer who developed rabies vaccine",
+          "answer": "Pasteur",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8090-d-c0-r0"
+        },
+        {
+          "question": "Known as consumption in the 19th century, this disease, not a six-gun, killed Doc Holliday",
+          "answer": "tuberculosis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8090-d-c0-r1"
+        },
+        {
+          "question": "The 1st surgical anesthetic, it's been in use since 1842",
+          "answer": "ether",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8090-d-c0-r2"
+        },
+        {
+          "question": "Empowered by a 1938 act of Cong., this agency guards against snake oil cures & excess rat hairs in food",
+          "answer": "the Food and Drug Administration (the FDA)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8090-d-c0-r3"
+        },
+        {
+          "question": "Discovered in 1957, this antiviral protein is useful in treating some cancers",
+          "answer": "interferon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICAL HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8090-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEATER",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Muslin-covered, wooden-framed set piece, or how Joan Rivers refers to her chest",
+          "answer": "a flat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8090-d-c1-r0"
+        },
+        {
+          "question": "In O'Neill play, a passionate stepmother & stepson found \"Desire\" there",
+          "answer": "Under The Elms",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8090-d-c1-r1"
+        },
+        {
+          "question": "Brother of the notorious John Wilkes, he played the finest Hamlet of his time",
+          "answer": "Edwin Booth",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8090-d-c1-r2"
+        },
+        {
+          "question": "The stage is dressed but the actors aren't in this musical with sketches by Jules Feiffer & John Lennon",
+          "answer": "Oh, Calcutta!",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8090-d-c1-r3"
+        },
+        {
+          "question": "\"Learn the lines & don't bump into the furniture,\" advised this Brit. author of \"Blithe Spirit\"",
+          "answer": "Noel Coward",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8090-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In Catholicism, the dead make amends here for their sins before entering heaven",
+          "answer": "purgatory",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8090-d-c2-r0"
+        },
+        {
+          "question": "Rastafarians worship this late Ethiopian emperor as God",
+          "answer": "Haile Selassie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8090-d-c2-r1"
+        },
+        {
+          "question": "They started publishing their \"Watchtower\" magazine in 1879, the year they were organized",
+          "answer": "the Jehovah's Witnesses",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8090-d-c2-r2"
+        },
+        {
+          "question": "Daughter of this congressman murdered by Jonestown cult is member of Rajneesh cult in Oregon",
+          "answer": "(Leo) Ryan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8090-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "1940",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "German saturation bombing of this courageous city was called \"The Blitz\"",
+          "answer": "London",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1940",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8090-d-c3-r0"
+        },
+        {
+          "question": "This industry became the 1st form of U.S. transport to pass a year without a fatality",
+          "answer": "aviation",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1940",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8090-d-c3-r1"
+        },
+        {
+          "question": "This du Maurier story was Hitchcock's U.S. directing debut & 1940's Best Picture",
+          "answer": "Rebecca",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1940",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8090-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS FOLKS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Vietnam commander Wm. Westmoreland sued CBS over remarks made on this show",
+          "answer": "60 Minutes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8090-d-c4-r0"
+        },
+        {
+          "question": "After starring with Gene Wilder in \"Woman in Red\", she married him",
+          "answer": "Gilda Radner",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8090-d-c4-r1"
+        },
+        {
+          "question": "U.S. secretary of transportation who's married to the Senate majority leader",
+          "answer": "Elizabeth Dole",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8090-d-c4-r2"
+        },
+        {
+          "question": "Paralleling Westmoreland case, this Israeli general & former defense minister sued \"Time\"",
+          "answer": "Ariel Sharon",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8090-d-c4-r3"
+        },
+        {
+          "question": "Former Baptist preacher & LBJ White House press sec'y, now commentator on \"CBS Evening News\"",
+          "answer": "Bill Moyers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FOLKS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8090-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAST WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Actor Robert Armstrong said of his demise, \"twas beauty killed the beast\"",
+          "answer": "King Kong",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8090-d-c5-r0"
+        },
+        {
+          "question": "She closed her '50s variety hour with a big \"Mmmm-wah!\" to the audience",
+          "answer": "Dinah Shore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8090-d-c5-r1"
+        },
+        {
+          "question": "In Shakespeare, Julius Caesar's accusatory adieu",
+          "answer": "\"et tu, Brutus\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8090-d-c5-r2"
+        },
+        {
+          "question": "As they both lay dying July 4, 1826, his last words were \"Jefferson still survives\"",
+          "answer": "John Adams",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8090-d-c5-r3"
+        },
+        {
+          "question": "This British Restoration king's last concern was for his mistress: \"Let not poor Nelly starve\"",
+          "answer": "Charles II",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8090-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE AUTOMOBILE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1972, it surpassed the Model T to become largest single car model ever sold",
+          "answer": "Volkswagen Beetle",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE AUTOMOBILE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8090-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

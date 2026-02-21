@@ -1,0 +1,797 @@
+{
+  "gameId": 1168,
+  "showNumber": 3999,
+  "airDate": "January 10, 2002",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ALICE IN WONDERLAND",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The story began as a tale told to Alice Liddell & her sisters during a rowing trip on this river",
+          "answer": "Thames",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALICE IN WONDERLAND",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1168-s-c0-r0"
+        },
+        {
+          "question": "Alice's trip to Wonderland starts when she follows this character down a hole that's under a hedge",
+          "answer": "White Rabbit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALICE IN WONDERLAND",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1168-s-c0-r1"
+        },
+        {
+          "question": "When Alice plays this game, the flamingo she's using as a mallet gets away & tries to fly up into a tree",
+          "answer": "croquet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALICE IN WONDERLAND",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1168-s-c0-r2"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew at the Alice statue in Central Park.) It was this worm-like creature who told Alice that eating a mushroom would make her taller or shorter",
+          "answer": "Caterpillar",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALICE IN WONDERLAND",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1168-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "SAILOR TALK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Can't handle life on board? Don't have your sea legs? The others may call you a land-this",
+          "answer": "lubber",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1168-s-c1-r0"
+        },
+        {
+          "question": "A triangular sail set on the stays of the foremast; you may admire the cut of someone's",
+          "answer": "jib",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1168-s-c1-r1"
+        },
+        {
+          "question": "Mudhook is a slang term for this piece of equipment",
+          "answer": "anchor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1168-s-c1-r2"
+        },
+        {
+          "question": "Common term for the windows called scuttles; you scuttle the ship if the water line goes above them when open",
+          "answer": "portholes",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1168-s-c1-r3"
+        },
+        {
+          "question": "When a sailor \"splices the main brace\", he may be adding an extra rope, or doing this ashore",
+          "answer": "getting into the sauce",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAILOR TALK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1168-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORICAL COLLECT CALL FROM...",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Congratulate this writer on the 1585 birth of twins; a girl, Judith, & a boy named Hamnet",
+          "answer": "Shakespeare",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICAL COLLECT CALL FROM...",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1168-s-c2-r0"
+        },
+        {
+          "question": "Good to hear from you...What? You became the 1st woman to get the British Order of Merit? Good night, nurse?",
+          "answer": "Florence Nightingale",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICAL COLLECT CALL FROM...",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1168-s-c2-r1"
+        },
+        {
+          "question": "It's so funny you'd be calling; I mean, you got the very first call ever on March 10, 1876",
+          "answer": "Watson",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICAL COLLECT CALL FROM...",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1168-s-c2-r2"
+        },
+        {
+          "question": "When this man who gave West Point to Henry Clinton in 1780 calls, explain the irony of his reversing charges",
+          "answer": "Benedict Arnold",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICAL COLLECT CALL FROM...",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1168-s-c2-r3"
+        },
+        {
+          "question": "It's appropriate this president would be calling; in the 1870s he was the first to use a telephone in the the White House",
+          "answer": "Rutherford B. Hayes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORICAL COLLECT CALL FROM...",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1168-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN FUNDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The South Sandwich Islands like South London, use this currency",
+          "answer": "pound",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FUNDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1168-s-c3-r0"
+        },
+        {
+          "question": "To buy chili in Colombia or a Columbia VHS tape in Chile, you'll spend currency called this",
+          "answer": "peso",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FUNDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1168-s-c3-r1"
+        },
+        {
+          "question": "Jump bail in Transylvania in this country & you'll be skipping to the leu its currency",
+          "answer": "Romania",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FUNDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1168-s-c3-r2"
+        },
+        {
+          "question": "If Dan Marino went to San Marino, he'd find this currency of its neighbor being used until euros came into play",
+          "answer": "lira",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FUNDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1168-s-c3-r3"
+        },
+        {
+          "question": "You'll have to pay your builders in guilders in this former Dutch colony in South America",
+          "answer": "Suriname",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN FUNDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1168-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC MEN",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "His rendition of \"The Star-Spangled Banner\" was a highlight of Woodstock",
+          "answer": "Jimi Hendrix",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC MEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1168-s-c4-r0"
+        },
+        {
+          "question": "This \"noble\" bandleader's compositions include \"It Don't Mean a Thing If It Ain't Got That Swing\"",
+          "answer": "Duke Ellington",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC MEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1168-s-c4-r1"
+        },
+        {
+          "question": "These brothers collaborated on \"Lady Be Good!\" & \"Of Thee I Sing\"",
+          "answer": "the Gershwins",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC MEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1168-s-c4-r2"
+        },
+        {
+          "question": "(Sofia of the Clue Crew reports from the Waldorf Astoria.)  I'm playing a song by this composer on his piano at the Waldorf\"I get no kick from champagne...\"",
+          "answer": "Cole Porter",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC MEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1168-s-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "VERB FIRST NAMES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "To close one eye briefly like the host of \"Tic Tac Dough\"",
+          "answer": "wink",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB FIRST NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1168-s-c5-r0"
+        },
+        {
+          "question": "Walk in shallow water like baseball's Boggs",
+          "answer": "wade",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB FIRST NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1168-s-c5-r1"
+        },
+        {
+          "question": "To surgically cut, like a Tour de France winner",
+          "answer": "lance",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB FIRST NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1168-s-c5-r2"
+        },
+        {
+          "question": "To identify something with a spot, like a lover of Cleopatra",
+          "answer": "mark",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB FIRST NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1168-s-c5-r3"
+        },
+        {
+          "question": "To bestow, like a \"gothic\" American painter from Iowa",
+          "answer": "grant",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VERB FIRST NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1168-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY AMERICAN ARTISTS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Read all about it. His magazine cover \"Little Spooners,\" or \"Sunset,\"seen here, appeared in 1926",
+          "answer": "Norman Rockwell",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICAN ARTISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1168-d-c0-r0"
+        },
+        {
+          "question": "Between 1971 & 1985 he depicted his neighbor Helga in over 240 of his works",
+          "answer": "Andrew Wyeth",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICAN ARTISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1168-d-c0-r1"
+        },
+        {
+          "question": "The feminist artist born Judy Cohen in 1939 goes by this last name, the city of her birth",
+          "answer": "Judy Chicago",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICAN ARTISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1168-d-c0-r2"
+        },
+        {
+          "question": "He modeled the male diners in his \"Nighthawks\" after himself & the female diner after his wife Jo",
+          "answer": "(Edward) Hopper",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICAN ARTISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1168-d-c0-r3"
+        },
+        {
+          "question": "America's most collectedliving artist, he's the painter of light whose work is seen here",
+          "answer": "Thomas Kinkade",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY AMERICAN ARTISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1168-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TELL ME YOUR TROUBLES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "If your affairs are in shambles, they've gone to \"rack &\" this",
+          "answer": "ruin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELL ME YOUR TROUBLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1168-d-c1-r0"
+        },
+        {
+          "question": "One possible origin for this state of uncertainty is the Latin quando, \"when\"",
+          "answer": "quandary",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELL ME YOUR TROUBLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1168-d-c1-r1"
+        },
+        {
+          "question": "The band Big Star sang, \"I've been built up and trusted, broke down and\" this",
+          "answer": "busted",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELL ME YOUR TROUBLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1168-d-c1-r2"
+        },
+        {
+          "question": "A difficult situation to be \"in\"; or a way to repair it",
+          "answer": "fix",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TELL ME YOUR TROUBLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1168-d-c1-r3"
+        },
+        {
+          "question": "As a verb it's an old synonym for \"pledge\"; as a noun, a difficult condition",
+          "answer": "plight",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TELL ME YOUR TROUBLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1168-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SWEET HOME, ALABAMA",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It became Alabama's capital in 1847",
+          "answer": "Montgomery",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET HOME, ALABAMA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1168-d-c2-r0"
+        },
+        {
+          "question": "An industrial center, this city was named for an industrial city in England",
+          "answer": "Birmingham",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET HOME, ALABAMA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1168-d-c2-r1"
+        },
+        {
+          "question": "It's Alabama's only seaport",
+          "answer": "Mobile",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET HOME, ALABAMA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1168-d-c2-r2"
+        },
+        {
+          "question": "The U.S. Space & Rocket Center is at Tranquility Base in this city",
+          "answer": "Huntsville",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET HOME, ALABAMA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1168-d-c2-r3"
+        },
+        {
+          "question": "A group of black aviators or \"airmen\" trained near this city during WWII",
+          "answer": "Tuskegee",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SWEET HOME, ALABAMA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1168-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUEEN'S BIRTHDAY HONORS 2001",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This Irish flautist can now flaunt his knighthood",
+          "answer": "(James) Galway",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUEEN'S BIRTHDAY HONORS 2001",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1168-d-c3-r0"
+        },
+        {
+          "question": "\"Thunderbirds are go!\" to see this man, their creator, pick up an MBE",
+          "answer": "Gerry Anderson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUEEN'S BIRTHDAY HONORS 2001",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1168-d-c3-r1"
+        },
+        {
+          "question": "This director of \"The English Patient\" gets to put CBE between his name & \"Oscar-winner\"",
+          "answer": "Minghella",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUEEN'S BIRTHDAY HONORS 2001",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1168-d-c3-r2"
+        },
+        {
+          "question": "\"Shirley\" you know 2001 honoree Pauline Collins got a 1989 Oscar nomination for playing this woman",
+          "answer": "Shirley Valentine",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUEEN'S BIRTHDAY HONORS 2001",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1168-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS FILMS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Sylvester Stallone was inspired to write this film after seeing underdog Chuck Wepner take on Muhammad Ali",
+          "answer": "Rocky",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS FILMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1168-d-c4-r0"
+        },
+        {
+          "question": "In \"Knute Rockne: All American\", this actor delivered the famous deathbed line \"Win one for the Gipper\"",
+          "answer": "Ronald Reagan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS FILMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1168-d-c4-r1"
+        },
+        {
+          "question": "This 1981 film about 2 participants in the 1924 Olympics ran off with 4 Oscars including Best Picture",
+          "answer": "Chariots of Fire",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS FILMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1168-d-c4-r2"
+        },
+        {
+          "question": "Susan Sarandon & Tim Robbins struck up a romance after meeting on the set of this baseball flick",
+          "answer": "Bull Durham",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS FILMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1168-d-c4-r3"
+        },
+        {
+          "question": "This 1977 film featured Paul Newman as aging hockey coach Reggie Dunlop",
+          "answer": "Slap Shot",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS FILMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1168-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GONNA FLY NOW",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1932 she flew from Newfoundland to a pasture near Londonderry in 14 hours, 54 minutes",
+          "answer": "Amelia Earhart",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GONNA FLY NOW",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1168-d-c5-r0"
+        },
+        {
+          "question": "Of monoplane, biplane or triplane, the first to achieve manned, powered, heavier-than-air flight",
+          "answer": "biplane",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GONNA FLY NOW",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1168-d-c5-r1"
+        },
+        {
+          "question": "On December 31, 1968 this country's Tupolev Tu-144 became the first supersonic transport plane to be test flown",
+          "answer": "USSR",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GONNA FLY NOW",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1168-d-c5-r2"
+        },
+        {
+          "question": "This term for the flight of an airplane on a combat mission is from the French for \"to go out\"",
+          "answer": "sortie",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GONNA FLY NOW",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1168-d-c5-r3"
+        },
+        {
+          "question": "In 1962 Robert White, the first pilot to qualify as an astronaut, flew this experimental plane to over 50 mi. up",
+          "answer": "X-15",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GONNA FLY NOW",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1168-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PAST PRESIDENTIAL CANDIDATES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Each fall the Archdiocese of New York sponsors a major fund-raising dinner named for him",
+          "answer": "Al Smith",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "PAST PRESIDENTIAL CANDIDATES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1168-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

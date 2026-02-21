@@ -1,0 +1,833 @@
+{
+  "gameId": 985,
+  "showNumber": 3665,
+  "airDate": "July 7, 2000",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "DUTCH TREATS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "One of Louis Pasteur's pupils developed a fermenting agent for this famous beer",
+          "answer": "Heineken",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g985-s-c0-r0"
+        },
+        {
+          "question": "A Dutch treat is kaasdoop, a fondue usually made with this type of Dutch cheese",
+          "answer": "Gouda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g985-s-c0-r1"
+        },
+        {
+          "question": "Day or night you can buy (& eat) these fish, raw or pickled, served with gherkins & onions",
+          "answer": "Herring",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g985-s-c0-r2"
+        },
+        {
+          "question": "The Dutch are famous for genever, this type of liquor",
+          "answer": "Gin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g985-s-c0-r3"
+        },
+        {
+          "question": "The Rijsttafel (\"Rice Table\") is a feast that was imported from this former Dutch colony",
+          "answer": "Indonesia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g985-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LIFE SCIENCE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "These animals, the only mammals that can truly fly, are not rodents",
+          "answer": "Bats",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIFE SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g985-s-c1-r0"
+        },
+        {
+          "question": "This vital organ is the largest gland in the human body",
+          "answer": "Liver",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIFE SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g985-s-c1-r1"
+        },
+        {
+          "question": "These disease-causers have a nucleic acid in a protein shell, but not even a single cell",
+          "answer": "Viruses",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIFE SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g985-s-c1-r2"
+        },
+        {
+          "question": "Not Darwin, but Herbert Spencer coined this 4-word phrase that sums up natural selection",
+          "answer": "\"Survival of the Fittest\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIFE SCIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g985-s-c1-r3"
+        },
+        {
+          "question": "The monera kingdom consists of bacteria & the blue-green species of this",
+          "answer": "Algae",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIFE SCIENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g985-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE AMERICAN REVOLUTION",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This silversmith briefly served in the militia taking part in the disastrous Penobscot Expedition",
+          "answer": "Paul Revere",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g985-s-c2-r0"
+        },
+        {
+          "question": "Pass the bottle!  This Sept. 11, 1777 battle near Philadelphia  was a British victory over Washington's troops",
+          "answer": "Brandywine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g985-s-c2-r1"
+        },
+        {
+          "question": "The first Continental Congress met in 1774 to protest 4 British acts collectively called this",
+          "answer": "Intolerable Acts",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g985-s-c2-r2"
+        },
+        {
+          "question": "On December 31, 1775 American general Montgomery was killed in the assault on this Canadian city",
+          "answer": "Quebec",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g985-s-c2-r3"
+        },
+        {
+          "question": "As prime minister, this lord carried out King George's taxation policies although he felt the measures were unwise",
+          "answer": "Lord North",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g985-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEORGIANS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Kim Basinger hails from this Georgia city whose name may be Greek to you",
+          "answer": "Athens",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEORGIANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g985-s-c3-r0"
+        },
+        {
+          "question": "This star of \"The Piano\" learned how to play the piano while she was growing up in Conyers, Georgia",
+          "answer": "Holly Hunter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEORGIANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g985-s-c3-r1"
+        },
+        {
+          "question": "If you know this man seen here was born in Atlanta in 1958, you might be a redneck!",
+          "answer": "Jeff Foxworthy",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEORGIANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g985-s-c3-r2"
+        },
+        {
+          "question": "This Georgia-born hunk delivered the performance of his career as a macho Georgian named Lewis in \"Deliverance\"",
+          "answer": "Burt Reynolds",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEORGIANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g985-s-c3-r3"
+        },
+        {
+          "question": "This actress from Thomasville won a Golden Globe for \"Rachel, Rachel\", the first film directed by Paul Newman",
+          "answer": "Joanne Woodward",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEORGIANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g985-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT BORDERS BOTH",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Brazil & Panama",
+          "answer": "Colombia",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT BORDERS BOTH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g985-s-c4-r0"
+        },
+        {
+          "question": "Tanzania & Ethiopia",
+          "answer": "Kenya",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IT BORDERS BOTH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g985-s-c4-r1"
+        },
+        {
+          "question": "Norway & China",
+          "answer": "Russia",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT BORDERS BOTH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g985-s-c4-r2"
+        },
+        {
+          "question": "Switzerland & Poland",
+          "answer": "Germany",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT BORDERS BOTH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g985-s-c4-r3"
+        },
+        {
+          "question": "Algeria & Libya",
+          "answer": "Tunisia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT BORDERS BOTH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g985-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"OO\"!  \"OO\"!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's what George Bush labeled Reagan's \"economics\" in 1980",
+          "answer": "Voodoo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\"!  \"OO\"!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g985-s-c5-r0"
+        },
+        {
+          "question": "Meaning \"unencumbered\", it goes with fancy-free",
+          "answer": "Footloose",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\"!  \"OO\"!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g985-s-c5-r1"
+        },
+        {
+          "question": "In a nursery rhyme this barnyard cry precedes \"My dame has lost her shoe\"",
+          "answer": "\"Cock-a-doodle-doo\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\"!  \"OO\"!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g985-s-c5-r2"
+        },
+        {
+          "question": "It's the transparent section above a car driver's head",
+          "answer": "Moonroof",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\"!  \"OO\"!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g985-s-c5-r3"
+        },
+        {
+          "question": "A Maine river, or an 1838-1839 war that set the Maine-New Brunswick border",
+          "answer": "Aroostook",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"OO\"!  \"OO\"!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g985-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "DUTCH TREATIES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the 1674 Treaty of Westminster, the Dutch returned New York & this other \"new\" colony to the British",
+          "answer": "New Jersey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g985-d-c0-r0"
+        },
+        {
+          "question": "In the Treaty of The Hague, this country's Philip V ended his unequal war with the Quadruple Alliance",
+          "answer": "Spain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g985-d-c0-r1"
+        },
+        {
+          "question": "A 1948 Dutch truce with Indonesia was signed on a ship off this city, then called Batavia",
+          "answer": "Jakarta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g985-d-c0-r2"
+        },
+        {
+          "question": "In 1958 the Netherlands & 2 other Low Countries signed a treaty creating this economic union",
+          "answer": "Benelux (Belgium, Netherlands & Luxembourg)",
+          "value": 5000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g985-d-c0-r3"
+        },
+        {
+          "question": "A famous 18th century peace was signed at this city once called Ultrajectum",
+          "answer": "Utrecht",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUTCH TREATIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g985-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE TRUTH ABOUT CATS & DOGS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "At 26 cycles a second felines do this about twice as fast as an idling diesel engine",
+          "answer": "Purr",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TRUTH ABOUT CATS & DOGS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g985-d-c1-r0"
+        },
+        {
+          "question": "Of 6 million, 60 million or 600 million, the number of pet cats in the USA",
+          "answer": "60 million",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TRUTH ABOUT CATS & DOGS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g985-d-c1-r1"
+        },
+        {
+          "question": "The xuloitzcuintli, resembling the Chihuahua, is the national dog of this country",
+          "answer": "Mexico",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TRUTH ABOUT CATS & DOGS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g985-d-c1-r2"
+        },
+        {
+          "question": "Garm, the hound of Hel in Norse mythology, is often compared to this canine of Greek mythology",
+          "answer": "Cerberus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TRUTH ABOUT CATS & DOGS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g985-d-c1-r3"
+        },
+        {
+          "question": "The official dog of this nation's army, the Briard was once rare because so many were lost in World War I",
+          "answer": "France",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE TRUTH ABOUT CATS & DOGS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g985-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHAKESPEAREAN CHARACTERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Osric is a fatuous fop at the Danish court in this tragedy",
+          "answer": "Hamlet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g985-d-c2-r0"
+        },
+        {
+          "question": "Her nurse says of her, \"Come Lammas-eve at night shall she be fourteen\"",
+          "answer": "Juliet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g985-d-c2-r1"
+        },
+        {
+          "question": "It's the play in which Hecate says, \"And now about the caldron sing, like elves and fairies in a ring\"",
+          "answer": "Macbeth",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g985-d-c2-r2"
+        },
+        {
+          "question": "In \"The Tempest\", this beastlike character is described as a \"born devil\" & \"a monster\"",
+          "answer": "Caliban",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g985-d-c2-r3"
+        },
+        {
+          "question": "Marina is captured by pirates & sold to a brothel in the play named for this Prince of Tyre",
+          "answer": "Pericles",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEAREAN CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g985-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHAMPIONS OF TOURNAMENTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1978 the first champion of this tournament in the Flushing Meadows era was crowned",
+          "answer": "U.S. Open (tennis)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAMPIONS OF TOURNAMENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g985-d-c3-r0"
+        },
+        {
+          "question": "A grand champion of a tournament in this sport is called a yokozuna",
+          "answer": "Sumo wrestling",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAMPIONS OF TOURNAMENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g985-d-c3-r1"
+        },
+        {
+          "question": "This motorless vehicle tournament crowns its champion each year in Akron, Ohio",
+          "answer": "Soap Box Derby",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAMPIONS OF TOURNAMENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g985-d-c3-r2"
+        },
+        {
+          "question": "After being crowned a champ at the Golden Gloves tournament, this \"Hit Man\" turned pro in 1977",
+          "answer": "Thomas Hearns",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAMPIONS OF TOURNAMENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g985-d-c3-r3"
+        },
+        {
+          "question": "The 2 teams that always qualify for soccer's World Cup are the previous champs & this nation -- in 1994 it was the U.S.",
+          "answer": "Host/home nation",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHAMPIONS OF TOURNAMENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g985-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN INVENTIONS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This 1969 invention of Don Wetzel is associated with a P.I.N.",
+          "answer": "ATM (Automated Teller Machine)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INVENTIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g985-d-c4-r0"
+        },
+        {
+          "question": "On Feb. 21, 1947 Edwin Land demonstrated one of these to the Optical Society of America",
+          "answer": "Polaroid/instant camera",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INVENTIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g985-d-c4-r1"
+        },
+        {
+          "question": "In the 1960s this U.S. firm released the first word processor, an adaptation of its Selectric typewriter",
+          "answer": "IBM",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INVENTIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g985-d-c4-r2"
+        },
+        {
+          "question": "Without this 1947 invention of Shockley, Bardeen & Brattain, we'd have 40-pound Walkmans",
+          "answer": "Transistor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INVENTIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g985-d-c4-r3"
+        },
+        {
+          "question": "Almost 40 years after Otis invented the safety elevator, Jesse Reno developed this people mover",
+          "answer": "Escalator",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN INVENTIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g985-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"Y\"s GUYS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "On October 8, 1918 this U.S. Army corporal, later sergeant, killed over 20 Germans & captured 132 others",
+          "answer": "Alvin York",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"Y\"s GUYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g985-d-c5-r0"
+        },
+        {
+          "question": "This Japanese naval officer was given the title Admiral of the Fleet after he was killed in the Solomons in 1943",
+          "answer": "Isoroku Yamamoto",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"Y\"s GUYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g985-d-c5-r1"
+        },
+        {
+          "question": "In 1986 this former test pilot was named to the committee investigating the Challenger disaster",
+          "answer": "Chuck Yeager",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"Y\"s GUYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g985-d-c5-r2"
+        },
+        {
+          "question": "In 1968 this future Detroit mayor became the first black member of the Democratic National Committee",
+          "answer": "Coleman Young",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"Y\"s GUYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g985-d-c5-r3"
+        },
+        {
+          "question": "During his 20-year career with the Brewers, he had 3,142 hits & a major league record 123 sacrifice flies",
+          "answer": "Robin Yount",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"Y\"s GUYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g985-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CURRENT TELEVISION",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Dee Dee Myers is a consultant to this drama series",
+          "answer": "The West Wing",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "CURRENT TELEVISION",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g985-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

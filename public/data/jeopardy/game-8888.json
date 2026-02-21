@@ -1,0 +1,833 @@
+{
+  "gameId": 8888,
+  "showNumber": 1688,
+  "airDate": "December 25, 1991",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AIR",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A person who boasts about nothing is full of this",
+          "answer": "hot air",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AIR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8888-s-c0-r0"
+        },
+        {
+          "question": "In aviation lingo, when a plane hits a sudden downward stream of air it hits an \"air\" one of these",
+          "answer": "an air pocket",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AIR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8888-s-c0-r1"
+        },
+        {
+          "question": "In the 17th century this compound became the first part of the air to be identified",
+          "answer": "carbon dioxide",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AIR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8888-s-c0-r2"
+        },
+        {
+          "question": "In 1868 he used air power to operate a mechanical brake",
+          "answer": "George Westinghouse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AIR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8888-s-c0-r3"
+        },
+        {
+          "question": "These are 4 main classifications of air masses: polar, arctic, tropical & this",
+          "answer": "equatorial",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AIR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8888-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DISNEY VILLAINS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "His hand, the left one, is inside another character, the crocodile",
+          "answer": "Captain Hook",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISNEY VILLAINS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8888-s-c1-r0"
+        },
+        {
+          "question": "The Heffalumps & Woozles who tried to steal his honey were imaginary; he dreamt them",
+          "answer": "Winnie the Pooh",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISNEY VILLAINS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8888-s-c1-r1"
+        },
+        {
+          "question": "In this 1977 film Bernard & Bianca save the orphan Penny from the evil clutches of Madame Medusa",
+          "answer": "The Rescuers",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISNEY VILLAINS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8888-s-c1-r2"
+        },
+        {
+          "question": "J. Worthington Foulfellow, a.k.a. Honest John, is this type of sly animal who charms Pinocchio",
+          "answer": "a fox",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISNEY VILLAINS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8888-s-c1-r3"
+        },
+        {
+          "question": "Even the name of this wicked fairy in \"Sleeping Beauty\" sounds evil",
+          "answer": "Maleficent",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DISNEY VILLAINS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8888-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL HISTORIC SITES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In Georgia, a 7' tall \"big smiling peanut\" is part of a Nat'l Historic Site honoring this president",
+          "answer": "Jimmy Carter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL HISTORIC SITES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8888-s-c2-r0"
+        },
+        {
+          "question": "This boulevard between the White House & the Capitol was designated a Nat'l Historic Site in 1965",
+          "answer": "Pennsylvania Avenue",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL HISTORIC SITES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8888-s-c2-r1"
+        },
+        {
+          "question": "Every May 10, Golden Spike Nat'l Historic Site reenacts the completion of this",
+          "answer": "the Transcontinental Railroad",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL HISTORIC SITES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8888-s-c2-r2"
+        },
+        {
+          "question": "A 17-room Victorian house belonging to this Sierra Club founder is part of a historic site in California",
+          "answer": "(John) Muir",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL HISTORIC SITES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8888-s-c2-r3"
+        },
+        {
+          "question": "The Springfield Armory where Daniel Shays led a rebellion is a national historic site in this state",
+          "answer": "Massachusetts",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL HISTORIC SITES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8888-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. NAVY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This Navy marching song became popular after the annual Army-Navy football game in 1907",
+          "answer": "\"Anchors Aweigh\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. NAVY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8888-s-c3-r0"
+        },
+        {
+          "question": "Trident & Poseidon missiles are launched from this type of ship",
+          "answer": "a submarine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. NAVY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8888-s-c3-r1"
+        },
+        {
+          "question": "Command & strategy courses are taught at the Naval War College in this Rhode Island summer resort",
+          "answer": "Newport",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. NAVY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8888-s-c3-r2"
+        },
+        {
+          "question": "In 1866 this commander who fought at Mobile Bay became the 1st Navy officer promoted to the rank of admiral",
+          "answer": "Admiral Farragut",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. NAVY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8888-s-c3-r3"
+        },
+        {
+          "question": "During the 1950s the Navy named a class of aircraft carriers for this 1st Defense Sec'y",
+          "answer": "James Forrestal",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. NAVY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8888-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORD ORIGINS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A variety show, from the French meaning \"song of vau de vire\", a region in France",
+          "answer": "Vaudeville",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8888-s-c4-r0"
+        },
+        {
+          "question": "A farrier, one who shoes horses, comes from ferrum, Latin for this metal horseshoes are made of",
+          "answer": "iron",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8888-s-c4-r1"
+        },
+        {
+          "question": "This central part of an atom is Latin for kernel",
+          "answer": "a nucleus",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8888-s-c4-r2"
+        },
+        {
+          "question": "The name of this symptom of certain diseases comes from Latin for greenish-yellow, \"galbinus\"",
+          "answer": "jaundice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8888-s-c4-r3"
+        },
+        {
+          "question": "From Nawwab, a rank of government officials under India's Mogul rulers, it's a man of prominence & wealth",
+          "answer": "a nabob",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8888-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROKEN",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Moses broke the first set of these after seeing the golden calf",
+          "answer": "the (tablets on which the Ten) Commandments (were written)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROKEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8888-s-c5-r0"
+        },
+        {
+          "question": "Even with a broken one of these, John Wilkes Booth escaped from Ford's Theatre",
+          "answer": "a leg",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROKEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8888-s-c5-r1"
+        },
+        {
+          "question": "In 1971 the Bee Gees asked, \"How can you mend a broken\" one",
+          "answer": "a heart",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROKEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8888-s-c5-r2"
+        },
+        {
+          "question": "It was broken October 14, 1947 by Charles Yeager",
+          "answer": "the speed of sound",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROKEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8888-s-c5-r3"
+        },
+        {
+          "question": "It was broken into in 1922 by Lord Carnarvon & Howard Carter",
+          "answer": "the tomb of King Tut",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROKEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8888-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "VICE PRESIDENTS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This New York governor was the last governor to become vice president",
+          "answer": "Nelson Rockefeller",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VICE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8888-d-c0-r0"
+        },
+        {
+          "question": "While vice president in 1804, he was indicted for murder in New York & New Jersey",
+          "answer": "Aaron Burr",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VICE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8888-d-c0-r1"
+        },
+        {
+          "question": "Grover Cleveland's 2nd vice president, his grandson shared his name & ran for president in 1952 & 1956",
+          "answer": "Adlai Stevenson",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VICE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8888-d-c0-r2"
+        },
+        {
+          "question": "While mayor of Minneapolis in 1947, he helped found Americans for Democratic Action",
+          "answer": "Hubert Humphrey",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VICE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8888-d-c0-r3"
+        },
+        {
+          "question": "He served under FDR for 2 terms & then ran against him for the 1940 presidential nomination",
+          "answer": "John Nance Garner",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VICE PRESIDENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8888-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHORT STORIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "His \"Plain Tales from the Hills\" is a volume of stories about life in India",
+          "answer": "(Rudyard) Kipling",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT STORIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8888-d-c1-r0"
+        },
+        {
+          "question": "It's O. Henry's story about 2 people who \"sacrificed for each other the greatest treasures of their house\"",
+          "answer": "\"The Gift of the Magi\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT STORIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8888-d-c1-r1"
+        },
+        {
+          "question": "The name of his \"Twice-Told Tales\" may have come from a line in Shakespeare's \"King John\"",
+          "answer": "Nathaniel Hawthorne",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHORT STORIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8888-d-c1-r2"
+        },
+        {
+          "question": "D.H. Lawrence wrote a story about a boy who rides himself to death on 1 of these equine toys",
+          "answer": "a rocking horse",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT STORIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8888-d-c1-r3"
+        },
+        {
+          "question": "\"The Jewels\" was 1 of many stories written by this Frenchman who died in an asylum in 1893",
+          "answer": "Guy de Maupassant",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT STORIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8888-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE OTTOMAN EMPIRE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It was the dominant religion of the empire",
+          "answer": "Islam",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OTTOMAN EMPIRE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8888-d-c2-r0"
+        },
+        {
+          "question": "The seat of the empire was in Anatolia which is now in this country",
+          "answer": "Turkey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OTTOMAN EMPIRE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8888-d-c2-r1"
+        },
+        {
+          "question": "Mehmed VI, the last sultan of the once great Ottoman Empire, fled his office in this century",
+          "answer": "the 20th century",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OTTOMAN EMPIRE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8888-d-c2-r2"
+        },
+        {
+          "question": "The famous Ottoman Corsair Khayr-Ad Din was called this by Europeans because of a facial feature",
+          "answer": "Barbarossa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE OTTOMAN EMPIRE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8888-d-c2-r3"
+        },
+        {
+          "question": "Selim I killed all rivals for the throne, including his sons, except this one who succeeded him",
+          "answer": "Suleyman the Magnificent",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE OTTOMAN EMPIRE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8888-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEMS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Often found in geodes, this purplish gem is the most highly valued quartz stone",
+          "answer": "amethyst",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8888-d-c3-r0"
+        },
+        {
+          "question": "It's the largest blue diamond in the world",
+          "answer": "the Hope Diamond",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8888-d-c3-r1"
+        },
+        {
+          "question": "Since ancient times peridot has been found off the Egyptian coast in this \"colorful\" sea",
+          "answer": "the Red Sea",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8888-d-c3-r2"
+        },
+        {
+          "question": "Mexico is a major source of the \"fire\" type of these gems",
+          "answer": "an opal",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8888-d-c3-r3"
+        },
+        {
+          "question": "Most of the Biwa type of these gems are cultivated in Japan's Lake Biwa, for which they're named",
+          "answer": "pearls",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8888-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Arne Naess, who scaled Mount Everest in 1985, married this \"Supreme\" singer that same year",
+          "answer": "Diana Ross",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8888-d-c4-r0"
+        },
+        {
+          "question": "This star of TV's \"Evening Shade\" was once employed as a bouncer at NYC's Roseland Ballroom",
+          "answer": "Burt Reynolds",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8888-d-c4-r1"
+        },
+        {
+          "question": "Newsday is the New York home paper of this woman called America's most popular gossip columnist",
+          "answer": "Liz Smith",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8888-d-c4-r2"
+        },
+        {
+          "question": "This executive editor of the Washington Post announced his resignation in June 1991",
+          "answer": "Ben Bradlee",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8888-d-c4-r3"
+        },
+        {
+          "question": "This late king of Norway won an Olympic gold medal for yachting in 1928",
+          "answer": "(King) Olav",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8888-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ZOOLOGY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's the branch of zoology that studies insects",
+          "answer": "entomology",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8888-d-c5-r0"
+        },
+        {
+          "question": "It's the process by which a bird cleans, smoothes & oils its feathers",
+          "answer": "preening",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8888-d-c5-r1"
+        },
+        {
+          "question": "This mollusk has a long, internal shell called a pen, & like the octopus, can shoot ink",
+          "answer": "a squid",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8888-d-c5-r2"
+        },
+        {
+          "question": "It's the term for the grasping claw on a crab or lobster",
+          "answer": "pincer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8888-d-c5-r3"
+        },
+        {
+          "question": "Referring to its large nose, Nasalis larvatus is the scientific name for this monkey",
+          "answer": "proboscis monkey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8888-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHINA",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Ch'in Dynasty gave China its first emperor, this dynasty gave it its last",
+          "answer": "the Ch'ing (or Manchu) Dynasty",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "CHINA",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8888-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

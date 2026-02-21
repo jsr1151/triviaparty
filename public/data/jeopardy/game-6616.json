@@ -1,0 +1,833 @@
+{
+  "gameId": 6616,
+  "showNumber": 8211,
+  "airDate": "April 27, 2020",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WHO MADE THAT?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "We write of its 4-color original pen",
+          "answer": "Bic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO MADE THAT?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6616-s-c0-r0"
+        },
+        {
+          "question": "Here's a switch... the game called \"Mario & Sonic at the Olympic Games Tokyo 2020\"",
+          "answer": "Nintendo (*Sega)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO MADE THAT?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6616-s-c0-r1"
+        },
+        {
+          "question": "Twinkies, which it calls \"The Snack Cake Golden Child\"",
+          "answer": "Hostess",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO MADE THAT?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6616-s-c0-r2"
+        },
+        {
+          "question": "The stately Colorado pickup truck",
+          "answer": "Chevy (Chevrolet)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO MADE THAT?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6616-s-c0-r3"
+        },
+        {
+          "question": "Get your kicks, hoop it up & play your \"A\" game with Harden Stepback shoes",
+          "answer": "Adidas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHO MADE THAT?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6616-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CITY HOMOPHONES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Beaten in battle, or a town paired with Lexington",
+          "answer": "conquered/Concord",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITY HOMOPHONES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6616-s-c1-r0"
+        },
+        {
+          "question": "Your brother's daughter, or a town on the French Riviera",
+          "answer": "niece/Nice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITY HOMOPHONES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6616-s-c1-r1"
+        },
+        {
+          "question": "Spooky, or a Pennsylvania Great Lake city",
+          "answer": "eerie/Erie",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITY HOMOPHONES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6616-s-c1-r2"
+        },
+        {
+          "question": "A person's animating spirit, or city that's headquarters to Hyundai",
+          "answer": "soul/Seoul",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CITY HOMOPHONES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6616-s-c1-r3"
+        },
+        {
+          "question": "4-letter low-carb diet, or Andean capital",
+          "answer": "keto/Quito",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CITY HOMOPHONES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6616-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ONE-WORD TV TITLES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This drama was about the survivors of the crash of Oceanic flight 815",
+          "answer": "Lost",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD TV TITLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6616-s-c2-r0"
+        },
+        {
+          "question": "Sherlock Holmes & Dr. Watson solved crimes in modern-day New York City on this CBS procedural",
+          "answer": "Elementary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD TV TITLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6616-s-c2-r1"
+        },
+        {
+          "question": "A San Francisco detective solved crimes on this show despite his obsessive-compulsive disorder sometimes getting in the way",
+          "answer": "Monk",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD TV TITLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6616-s-c2-r2"
+        },
+        {
+          "question": "Hayden Panettiere starred on this show about rising & fading country music stars",
+          "answer": "Nashville",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD TV TITLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6616-s-c2-r3"
+        },
+        {
+          "question": "After their mom's death, 3 young women discover they have magic powers on this CW drama",
+          "answer": "Charmed",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-WORD TV TITLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6616-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AROUND THE USA",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Head to this state to visit the Mendenhall Glacier & the Mendenhall Ice Caves (but hurry--the ice is melting)",
+          "answer": "Alaska",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE USA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6616-s-c3-r0"
+        },
+        {
+          "question": "This granite boulder is in Pilgrim Memorial State Park in Massachusetts",
+          "answer": "Plymouth Rock",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE USA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6616-s-c3-r1"
+        },
+        {
+          "question": "Visit the CNN Center or the Center for Civil & Human Rights in this city",
+          "answer": "Atlanta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE USA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6616-s-c3-r2"
+        },
+        {
+          "question": "A 50-foot stainless steel South Dakota statue called \"Dignity\" honors the culture of the Dakota and this group whose name rhymes with \"Dakota\"",
+          "answer": "the Lakota",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE USA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6616-s-c3-r3"
+        },
+        {
+          "question": "Miner & cowhand Jim White claimed to have discovered these New Mexico caverns as a 16-year-old in 1898",
+          "answer": "Carlsbad Caverns",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND THE USA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6616-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Named for the way it rolls around lonely streets in western movies, this plant was imported to the U.S. from Russia",
+          "answer": "a tumbleweed",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6616-s-c4-r0"
+        },
+        {
+          "question": "This type of whale here has a point; and it's ivory",
+          "answer": "a narwhal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6616-s-c4-r1"
+        },
+        {
+          "question": "Businessman Charles Schwab, novelist John Irving & lawyer David Boies all have this reading disorder",
+          "answer": "dyslexia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6616-s-c4-r2"
+        },
+        {
+          "question": "15% of a U.S. ton is this many pounds",
+          "answer": "300",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6616-s-c4-r3"
+        },
+        {
+          "question": "Check out this two-word boat item as it goes soaring through the air; I like the cut of yours",
+          "answer": "a flying jib",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6616-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "STARTS WITH \"Z\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's the type of garden, seen here, where you might do some meditating",
+          "answer": "a Zen garden",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6616-s-c5-r0"
+        },
+        {
+          "question": "In England this summer squash is popularly called a courgette",
+          "answer": "a zucchini",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6616-s-c5-r1"
+        },
+        {
+          "question": "It's what the woman here is doing to her lemon",
+          "answer": "zesting",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6616-s-c5-r2"
+        },
+        {
+          "question": "Literally meaning \"golden\", it's the basic monetary unit of Poland",
+          "answer": "a zloty",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6616-s-c5-r3"
+        },
+        {
+          "question": "Native to Austria & Germany, it's the instrument being played here",
+          "answer": "the zither",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"Z\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6616-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ZULUS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Zulu is a subgroup of this 5-letter language group of South & Central Africa",
+          "answer": "Bantu",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ZULUS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6616-d-c0-r0"
+        },
+        {
+          "question": "Andries Pretorius, a leader of this Dutch settler group, defeated an army of some 10,000 Zulus at the Battle of Blood River in 1838",
+          "answer": "the Boers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ZULUS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6616-d-c0-r1"
+        },
+        {
+          "question": "This host of \"The Daily Show\" speaks several languages, including Zulu & Xhosa",
+          "answer": "Trevor Noah",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ZULUS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6616-d-c0-r2"
+        },
+        {
+          "question": "Zulu King Goodwill Zwelithini has revived customs like the harvest festival of \"first\" these that also inspired Kwanzaa",
+          "answer": "first fruits",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ZULUS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6616-d-c0-r3"
+        },
+        {
+          "question": "Here as on each September 24th, Zulus celebrate a holiday that was named in honor of of this warrior leader of the early 1800s",
+          "answer": "Shaka Zulu (Shaka)",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ZULUS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6616-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GENERAL HOSPITAL",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A code of this color is widely used to call out a medical emergency all over the facility",
+          "answer": "code blue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GENERAL HOSPITAL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6616-d-c1-r0"
+        },
+        {
+          "question": "A sling type of this, a stretcher with an elevated headrest, can have 6 wheels & has 6 letters",
+          "answer": "a gurney",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL HOSPITAL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6616-d-c1-r1"
+        },
+        {
+          "question": "This machine can restore a regular heartbeat by using electric currents... are we clear?",
+          "answer": "a defibrillator",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GENERAL HOSPITAL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6616-d-c1-r2"
+        },
+        {
+          "question": "One factor for a newborn entering the NICU, short for this, is a birth weight of less than 5.5 pounds",
+          "answer": "neonatal intensive care unit",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL HOSPITAL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6616-d-c1-r3"
+        },
+        {
+          "question": "Have issues with your blood? Head over to this department, the study of blood diseases & of blood-forming organs",
+          "answer": "hematology",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENERAL HOSPITAL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6616-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOLY SMOKE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "If you see the \"fumata bianca\" come through the chimney & hear the bells of St. Peter's Basilica ring, this selection was just made",
+          "answer": "a new pope",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLY SMOKE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6616-d-c2-r0"
+        },
+        {
+          "question": "This alliterative shrubbery from Exodus was not consumed by the fire that engulfed it",
+          "answer": "the burning bush",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLY SMOKE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6616-d-c2-r1"
+        },
+        {
+          "question": "Native Americans were fond of burning this plant in ceremonies, and the practice is now used to remove bad energy from home",
+          "answer": "sage",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLY SMOKE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6616-d-c2-r2"
+        },
+        {
+          "question": "Some religious ceremonies feature one of these smoky incense carriers",
+          "answer": "a censer",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOLY SMOKE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6616-d-c2-r3"
+        },
+        {
+          "question": "The smoky cityscape of Delhi is beautifully lit up during this Hindu festival of lights",
+          "answer": "Diwali",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLY SMOKE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6616-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "HER MAJOR MOVIE DEBUT",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Mia Thermopolis in \"The Princess Diaries\"",
+          "answer": "Anne Hathaway",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HER MAJOR MOVIE DEBUT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6616-d-c3-r0"
+        },
+        {
+          "question": "You get a role & you get a role & she got the role of Sofia in \"The Color Purple\"",
+          "answer": "Oprah",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HER MAJOR MOVIE DEBUT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6616-d-c3-r1"
+        },
+        {
+          "question": "Abby in \"Blood Simple\", written by who else but the Coen brothers & directed by Joel",
+          "answer": "Frances McDormand",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HER MAJOR MOVIE DEBUT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6616-d-c3-r2"
+        },
+        {
+          "question": "1993's \"The Piano\", for which she won an Oscar at age 11",
+          "answer": "Anna Paquin",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HER MAJOR MOVIE DEBUT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6616-d-c3-r3"
+        },
+        {
+          "question": "The female lead in the 1976 remake of \"King Kong\"",
+          "answer": "Jessica Lange",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HER MAJOR MOVIE DEBUT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6616-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARCHER",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In one legend this mythological hunter is killed by an arrow from Artemis & later placed in the heavens",
+          "answer": "Orion",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6616-d-c4-r0"
+        },
+        {
+          "question": "Schiller's play about this Swiss man features a bow, an arrow & an apple",
+          "answer": "William Tell",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6616-d-c4-r1"
+        },
+        {
+          "question": "In a 2008 novel she gets angry at the Gamemakers & shoots an arrow into a pig they are about to eat",
+          "answer": "Katniss Everdeen",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6616-d-c4-r2"
+        },
+        {
+          "question": "In this Edith Wharton novel, the aptly named May Welland Archer wins an archery contest at the Beaufort House",
+          "answer": "The Age of Innocence",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6616-d-c4-r3"
+        },
+        {
+          "question": "She gave Legolas a bow of the Galadhrim, \"strung with a string of elf-hair\"",
+          "answer": "Galadriel",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6616-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "UH, PHRASING...",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Meaning to \"achieve a goal\", \"there's more than one way\" to do this, but why bring the feline into it?",
+          "answer": "to skin a cat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UH, PHRASING...",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6616-d-c5-r0"
+        },
+        {
+          "question": "An idiom suggests not doing this \"to spite your face\"; why would you even consider it?!",
+          "answer": "to cut off your nose",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UH, PHRASING...",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6616-d-c5-r1"
+        },
+        {
+          "question": "I've heard it said, \"Don't throw the baby out with\" this liquid; what is the matter with you people?",
+          "answer": "the bathwater",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UH, PHRASING...",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6616-d-c5-r2"
+        },
+        {
+          "question": "Actors don't like \"Good luck\" before shows, but this 3-word alternative seems awfully painful",
+          "answer": "Break a leg",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UH, PHRASING...",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6616-d-c5-r3"
+        },
+        {
+          "question": "This 2-word term for someone deemed attractive yet chaotic has origins in warm foods served in the 19th century",
+          "answer": "a hot mess",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UH, PHRASING...",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6616-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CIVIL WAR PEOPLE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Before they were photographed together in 1862, Lincoln wryly noted this general \"should have no problem\" sitting still for it",
+          "answer": "George McClellan",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "CIVIL WAR PEOPLE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6616-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 3888,
+  "showNumber": 6369,
+  "airDate": "May 3, 2012",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "PICTURE THE PREZ",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Short-timer seen here",
+          "answer": "Gerald Ford",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE PREZ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3888-s-c0-r0"
+        },
+        {
+          "question": "Long-timer seen here",
+          "answer": "FDR",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE PREZ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3888-s-c0-r1"
+        },
+        {
+          "question": "War-timer seen here",
+          "answer": "Woodrow Wilson",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE PREZ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3888-s-c0-r2"
+        },
+        {
+          "question": "Two-timer seen here",
+          "answer": "Grover Cleveland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE PREZ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3888-s-c0-r3"
+        },
+        {
+          "question": "One-timer seen here",
+          "answer": "John Adams",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PICTURE THE PREZ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3888-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GUINNESS WORLD RECORDS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The highest jump onto a ramp (quarter pipe) was made in 2010 from this Paris landmark",
+          "answer": "the Eiffel Tower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUINNESS WORLD RECORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3888-s-c1-r0"
+        },
+        {
+          "question": "In 2010 almost 4,000 women formed a pink ribbon to raise awareness of this disease",
+          "answer": "breast cancer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUINNESS WORLD RECORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3888-s-c1-r1"
+        },
+        {
+          "question": "Treviso, Italy set a record for the longest this; it covered a surface at which 6,000 people sat",
+          "answer": "a tablecloth",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GUINNESS WORLD RECORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3888-s-c1-r2"
+        },
+        {
+          "question": "The Italian Red Cross checked the blood glucose of 1,220 people in 8 hours to raise awareness about this disorder",
+          "answer": "diabetes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUINNESS WORLD RECORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3888-s-c1-r3"
+        },
+        {
+          "question": "The largest group of this type of Mexican band came together in 2010, wearing the traditional traje de charro",
+          "answer": "a mariachi band",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GUINNESS WORLD RECORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3888-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEASTLY BUSINESS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The western spotted variety of this animal does a handstand before it sprays its enemies",
+          "answer": "a skunk",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY BUSINESS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3888-s-c2-r0"
+        },
+        {
+          "question": "These tree-dwelling marsupials that are imprecisely called \"bears\" have fingerprints similar to human ones",
+          "answer": "koalas",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY BUSINESS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3888-s-c2-r1"
+        },
+        {
+          "question": "Naturally Nemo's a boy--these fish are all born male",
+          "answer": "clownfish",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY BUSINESS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3888-s-c2-r2"
+        },
+        {
+          "question": "A supercolony of an invading Argentine species of this insect stretches almost 4,000 miles from Italy to Portugal",
+          "answer": "ants",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY BUSINESS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3888-s-c2-r3"
+        },
+        {
+          "question": "The Abyssinian colobus, a type of this, has a fluffy brush at the end of its long tail",
+          "answer": "a monkey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY BUSINESS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3888-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TECH STUFF",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "You can get a special wristband for the iPod Nano; put the nano in the middle & it looks like you're wearing this",
+          "answer": "a watch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3888-s-c3-r0"
+        },
+        {
+          "question": "(Kelly of the Clue Crew gives the clue.)  Sony's S is this type of computer--bigger than a smartphone but smaller than a laptop",
+          "answer": "a tablet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3888-s-c3-r1"
+        },
+        {
+          "question": "My PlayStation 3 lets me enjoy important historical movies in this \"colorful\" format",
+          "answer": "Blu-ray",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3888-s-c3-r2"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew gives the clue.)  To quickly copy text into your computer, use a \"pen\" type of this optical device",
+          "answer": "a scanner",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3888-s-c3-r3"
+        },
+        {
+          "question": "Connect to the Internet with ease with a wireless one of these--sounds like a seat for your little brother",
+          "answer": "a booster",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3888-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP MUSIC",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "He's the Canadian pop sensation being sensational here\"There's gonna be one less lonely girl...\"",
+          "answer": "Justin Bieber",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3888-s-c4-r0"
+        },
+        {
+          "question": "This roc-a-fella introduced us to a \"Hard Knock Life (Ghetto Anthem)\"",
+          "answer": "Jay-Z",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3888-s-c4-r1"
+        },
+        {
+          "question": "\"You Sent Me Flying\", sang this British woman who died young in 2011",
+          "answer": "Amy Winehouse",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3888-s-c4-r2"
+        },
+        {
+          "question": "Ontario native seen hereback in high school. We hear she had a thingfor \"Sk8er Bois\"",
+          "answer": "Avril Lavigne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3888-s-c4-r3"
+        },
+        {
+          "question": "M. Ward & Zooey Deschanel, I now pronoun you this duo",
+          "answer": "She & Him",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3888-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"RAY\" OF HOPE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A reverent petition made to a deity",
+          "answer": "prayer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RAY\" OF HOPE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3888-s-c5-r0"
+        },
+        {
+          "question": "It's the sound heard here",
+          "answer": "bray",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RAY\" OF HOPE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3888-s-c5-r1"
+        },
+        {
+          "question": "To assume the character of someone in a play or movie",
+          "answer": "to portray",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RAY\" OF HOPE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3888-s-c5-r2"
+        },
+        {
+          "question": "A homeless cat that wanders over to your house",
+          "answer": "a stray",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RAY\" OF HOPE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3888-s-c5-r3"
+        },
+        {
+          "question": "When this happens to shoelaces or tempers, something's about to snap",
+          "answer": "fray",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RAY\" OF HOPE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3888-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "INDONESIA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Of eat, pray or love, the part of that bestseller that takes place on the Indonesian island of Bali",
+          "answer": "love",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3888-d-c0-r0"
+        },
+        {
+          "question": "Did ja know that Jakarta is on this island?",
+          "answer": "Java",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3888-d-c0-r1"
+        },
+        {
+          "question": "(Kelly of the Clue Crew gives the clue.)  The zoological boundary known as Wallace's Line runs through the Indonesian islands; animal life on the left is classed Asian, & on the right, including bowerbirds & marsupials, is the class named for this continent",
+          "answer": "Australia",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3888-d-c0-r2"
+        },
+        {
+          "question": "Indonesia is home to more than 100 active these, including Sinabung",
+          "answer": "volcanoes",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3888-d-c0-r3"
+        },
+        {
+          "question": "This industry that makes the country less green generates 70% of Indonesia's greenhouse gas emissions",
+          "answer": "timber industry (deforestation accepted)",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3888-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHE'S SO COOL",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "She plays Alex Russo on \"Wizards of Waverly Place\"",
+          "answer": "Selena Gomez",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHE'S SO COOL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3888-d-c1-r0"
+        },
+        {
+          "question": "After appearing in \"High School Musical\", she released her cool debut single \"Come Back To Me\"",
+          "answer": "Vanessa Hudgens",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHE'S SO COOL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3888-d-c1-r1"
+        },
+        {
+          "question": "She started off as one of the \"Mean Girls\" before donning her \"Little Red Riding Hood\"",
+          "answer": "Amanda Seyfried",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHE'S SO COOL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3888-d-c1-r2"
+        },
+        {
+          "question": "This actress' last name made her most appropriate to play the female lead in \"King Arthur\"",
+          "answer": "Keira Knightley",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHE'S SO COOL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3888-d-c1-r3"
+        },
+        {
+          "question": "Rosie Huntington-Whiteley replaced Megan Fox in the 2011 film in this series",
+          "answer": "Transformers",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHE'S SO COOL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3888-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BARD GAMES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In \"The Tempest\", Ferdinand plays this board game with Miranda, whom he plans to promote to queen",
+          "answer": "chess",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BARD GAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3888-d-c2-r0"
+        },
+        {
+          "question": "France's dauphin taunts Henry V with a gift of these balls; you could say there's zero love lost between them",
+          "answer": "tennis",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BARD GAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3888-d-c2-r1"
+        },
+        {
+          "question": "Cleopatra learns of Antony's marriage while playing this game of which pool is the \"pocket\" type",
+          "answer": "billiards",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BARD GAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3888-d-c2-r2"
+        },
+        {
+          "question": "Kent trips Oswald & calls him a \"base football player\" for disrespecting this title royal, Goneril's father",
+          "answer": "King Lear",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BARD GAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3888-d-c2-r3"
+        },
+        {
+          "question": "In \"Love's Labour's Lost\", a character \"plays at tables\", an old term for this board game played with counters & dice",
+          "answer": "backgammon",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BARD GAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3888-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "OH SO VERY LITERARY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The main story line of a literary work, or the spot where you could be buried",
+          "answer": "plot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH SO VERY LITERARY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3888-d-c3-r0"
+        },
+        {
+          "question": "The protective paper cover around a hardbound book is known as this type of \"jacket\"",
+          "answer": "dust",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH SO VERY LITERARY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3888-d-c3-r1"
+        },
+        {
+          "question": "Unrhymed poetry of irregular meter & rhythm is known by this 2-word term",
+          "answer": "free verse",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OH SO VERY LITERARY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3888-d-c3-r2"
+        },
+        {
+          "question": "Usually followed by the resolution or denouement, it's the decisive turning point of a dramatic story!",
+          "answer": "the climax",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH SO VERY LITERARY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3888-d-c3-r3"
+        },
+        {
+          "question": "As its prefix indicates, this 7-letter word is the implied meaning \"underneath\" a literary work",
+          "answer": "subtext",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH SO VERY LITERARY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3888-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PORTRAIT BY THE ARTIST",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "1891: \"Femmes de Tahiti (Sur la plage)\"",
+          "answer": "(Paul) Gauguin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT BY THE ARTIST",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3888-d-c4-r0"
+        },
+        {
+          "question": "1893: \"The Scream\"",
+          "answer": "Edvard Munch",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT BY THE ARTIST",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3888-d-c4-r1"
+        },
+        {
+          "question": "C. 1509: \"Vitruvian Man\"",
+          "answer": "da Vinci",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT BY THE ARTIST",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3888-d-c4-r2"
+        },
+        {
+          "question": "1949: \"Diego and I\"",
+          "answer": "Frida Kahlo",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT BY THE ARTIST",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3888-d-c4-r3"
+        },
+        {
+          "question": "1812: \"The Emperor Napoleon in his study at the Tuileries\"",
+          "answer": "Jacques-Louis David",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTRAIT BY THE ARTIST",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3888-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "4-LETTER VERBS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "To misdirect one's energies is to do this \"up the wrong tree\"",
+          "answer": "bark",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER VERBS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3888-d-c5-r0"
+        },
+        {
+          "question": "Fill a hole tightly, or promote a product by mentioning it in the media",
+          "answer": "plug",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER VERBS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3888-d-c5-r1"
+        },
+        {
+          "question": "To dip a food item into liquid, such as a donut into milk",
+          "answer": "dunk",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER VERBS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3888-d-c5-r2"
+        },
+        {
+          "question": "To flick the middle finger from the thumb tip to the base of the thumb, producing this sharp noise",
+          "answer": "snap",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER VERBS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3888-d-c5-r3"
+        },
+        {
+          "question": "As a noun, it's a building where grain is ground into flour; as a verb, it means to do the grinding",
+          "answer": "mill",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER VERBS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3888-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEDICINE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Though its name means \"against life\", it's any of a class of substances used to save a life",
+          "answer": "an antibiotic",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MEDICINE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3888-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

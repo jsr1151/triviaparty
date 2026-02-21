@@ -1,0 +1,773 @@
+{
+  "gameId": 5335,
+  "showNumber": 7333,
+  "airDate": "June 29, 2016",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "VODKA COUNTRY OF ORIGIN",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Smirnoff",
+          "answer": "Russia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VODKA COUNTRY OF ORIGIN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5335-s-c0-r0"
+        },
+        {
+          "question": "Ketel One",
+          "answer": "the Netherlands",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VODKA COUNTRY OF ORIGIN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5335-s-c0-r1"
+        },
+        {
+          "question": "Skyy",
+          "answer": "the United States",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VODKA COUNTRY OF ORIGIN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5335-s-c0-r2"
+        },
+        {
+          "question": "Grey Goose",
+          "answer": "France",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VODKA COUNTRY OF ORIGIN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5335-s-c0-r3"
+        },
+        {
+          "question": "Belvedere",
+          "answer": "Poland",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VODKA COUNTRY OF ORIGIN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5335-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE GOLD BURGLARS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Jeremy Irons tries to steal gold \"with a Vengeance\" in the third entry in this film series, but John McClane is on it",
+          "answer": "Die Hard",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GOLD BURGLARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5335-s-c1-r0"
+        },
+        {
+          "question": "In the role of Satipo, he's the gold-thieving actor seen here, trying to relieve Indiana Jones of his booty",
+          "answer": "Alfred Molina",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE GOLD BURGLARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5335-s-c1-r1"
+        },
+        {
+          "question": "Bad guys want the ship full of gold doubloons in this 1985 film; Chunk, Mouth & the rest of the teen crew aren't having it",
+          "answer": "The Goonies",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GOLD BURGLARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5335-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC OOPSIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1812 this world leader learned a hard lesson--don't wage war in Russia in winter",
+          "answer": "Napoleon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC OOPSIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5335-s-c2-r0"
+        },
+        {
+          "question": "In 1941 this world leader learned a hard lesson--don't wage war in Russia in winter",
+          "answer": "Hitler",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC OOPSIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5335-s-c2-r1"
+        },
+        {
+          "question": "In 1999 NASA used the metric system for the $125 million orbiter of this planet; Lockheed Martin did not... bye bye, orbiter",
+          "answer": "Mars",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC OOPSIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5335-s-c2-r2"
+        },
+        {
+          "question": "By 1959 Ford had sunk $250 million into developing this model; 21st c. inflation adjusted, that's nearly $2 billion",
+          "answer": "the Edsel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC OOPSIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5335-s-c2-r3"
+        },
+        {
+          "question": "Offered armor at the 1632 Battle of Lutzen, king Gustav II of this country said, \"God is my armor!\"; well...",
+          "answer": "Sweden",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC OOPSIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5335-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALLEYS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Benjamin Franklin impersonators are found in this city's Elfreth's Alley, \"America's oldest residential neighborhood\"",
+          "answer": "Philadelphia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALLEYS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5335-s-c3-r0"
+        },
+        {
+          "question": "In this basketball play, a player lobs the ball to another, who dunks it",
+          "answer": "an alley-oop",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALLEYS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5335-s-c3-r1"
+        },
+        {
+          "question": "This song publishing area of Manhattan gets its name from the slang term for the cheap pianos publishers used",
+          "answer": "Tin Pan Alley",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALLEYS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5335-s-c3-r2"
+        },
+        {
+          "question": "Often used as the shooter in marbles, an alley is named for this hard stone from which it is sometimes made",
+          "answer": "alabaster",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALLEYS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5335-s-c3-r3"
+        },
+        {
+          "question": "Belden Place, an alley near Chinatown, is called the \"French Quarter of\" this Ca. city due to its fine restaurants",
+          "answer": "San Francisco",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALLEYS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5335-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MULTIPLE MEANINGS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "One trip around the track, or a way to take in liquid",
+          "answer": "lap",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE MEANINGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5335-s-c4-r0"
+        },
+        {
+          "question": "Courage, or to remove feathers",
+          "answer": "pluck",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE MEANINGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5335-s-c4-r1"
+        },
+        {
+          "question": "A dark beer, or one who handles your luggage at a railway station",
+          "answer": "porter",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE MEANINGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5335-s-c4-r2"
+        },
+        {
+          "question": "Impartial, or a public exposition",
+          "answer": "fair",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE MEANINGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5335-s-c4-r3"
+        },
+        {
+          "question": "An evergreen tree, or to make neat & trim",
+          "answer": "spruce",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MULTIPLE MEANINGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5335-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"LOST\" & \"FOUND\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The main characters in this 1667 epic poem are God, Lucifer, Adam & Eve",
+          "answer": "Paradise Lost",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOST\" & \"FOUND\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5335-s-c5-r0"
+        },
+        {
+          "question": "In this Shakespeare play, the king of Navarre & his friends say, bros before ladies",
+          "answer": "Love's Labour's Lost",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOST\" & \"FOUND\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5335-s-c5-r1"
+        },
+        {
+          "question": "Hugh Conway finds inner peace in the Himalayas in this James Hilton work",
+          "answer": "Lost Horizon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"LOST\" & \"FOUND\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5335-s-c5-r2"
+        },
+        {
+          "question": "The title of a Lewis Carroll work reads \"Through the Looking-Glass and What...\"",
+          "answer": "Alice Found There",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOST\" & \"FOUND\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5335-s-c5-r3"
+        },
+        {
+          "question": "Joseph Ellis wrote this prize-winning history book that put a sibling twist on a name for the fathers of our country",
+          "answer": "Founding Brothers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOST\" & \"FOUND\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5335-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "TIME FOR SPACE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "13.6 billion years old, the oldest-known star, HD 140283, has been given this biblical nickname",
+          "answer": "Methuselah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR SPACE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5335-d-c0-r0"
+        },
+        {
+          "question": "(Sarah of the Clue Crew presents an astronomical illustration on the monitor.)  The red region around a star is too hot for a planet to have liquid water, & the blue region is too cold; the green region, where conditions are just right for liquid water, is the habitable zone, nicknamed this for a storybook character",
+          "answer": "Goldilocks",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR SPACE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5335-d-c0-r1"
+        },
+        {
+          "question": "For exhibiting aspects of each, 133P/Elst-Pizarro is designated both an asteroid & one of these solar orbiters",
+          "answer": "a comet",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR SPACE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5335-d-c0-r2"
+        },
+        {
+          "question": "This planet that comes the closest to Earth rotates so slowly that a \"day\" there lasts longer than its \"year\"",
+          "answer": "Venus",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR SPACE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5335-d-c0-r3"
+        },
+        {
+          "question": "Designated one of these objects like Pluto, distant Haumea spins so fast on its axis that it's twice as tall as it is wide",
+          "answer": "a dwarf planet",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TIME FOR SPACE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5335-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LIBRARIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "When entering the official website of this country's Royal Library, you have the choice of reading in Dutch or French",
+          "answer": "Belgium",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBRARIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5335-d-c1-r0"
+        },
+        {
+          "question": "The French in this Aussie city mark Bastille Day by placing flowers at the Joan of Arc statue at the State Library of Victoria",
+          "answer": "Melbourne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LIBRARIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5335-d-c1-r1"
+        },
+        {
+          "question": "On Nov. 5, 1895 Mr. C. himself dedicated the Carnegie Library of this city",
+          "answer": "Pittsburgh",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBRARIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5335-d-c1-r2"
+        },
+        {
+          "question": "In 2016 Nancy Reagan was laid to rest at her husband's library in this \"Valley\" city northwest of Los Angeles",
+          "answer": "Simi Valley",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBRARIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5335-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "SRI LANKA",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Sri Lanka's 1000-rupee note features a peafowl on one side & this large beast of burden on the other",
+          "answer": "an elephant",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SRI LANKA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5335-d-c2-r0"
+        },
+        {
+          "question": "In 1972 the country officially became Sri Lanka; before that it had this name",
+          "answer": "Ceylon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SRI LANKA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5335-d-c2-r1"
+        },
+        {
+          "question": "An important Sri Lankan crop is this curry spice that can end with \"-om\" or \"-on\"",
+          "answer": "cardamom",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SRI LANKA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5335-d-c2-r2"
+        },
+        {
+          "question": "Sri Lanka's most populous city, it has one of the world's largest artificial harbors",
+          "answer": "Colombo",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SRI LANKA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5335-d-c2-r3"
+        },
+        {
+          "question": "Sri Lanka's flag features a golden lion & leaves of this fig tree sacred to Buddhists",
+          "answer": "the Bo Tree (or Bodhi Tree)",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SRI LANKA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5335-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTOBIOGRAPHIES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Walk This Way\" is the title of an autobiography & a hit tune by this rock band",
+          "answer": "Aerosmith",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5335-d-c3-r0"
+        },
+        {
+          "question": "From the Latin for \"not faithful\", this word is the title of Dutch Somali activist Ayaan Hirsi Ali's 2006 memoir",
+          "answer": "Infidel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5335-d-c3-r1"
+        },
+        {
+          "question": "We must reveal that Rousseau & St. Augustine both wrote autobiographies with this plural title",
+          "answer": "Confessions",
+          "value": 1600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5335-d-c3-r2"
+        },
+        {
+          "question": "\"Born on the Fourth of July\" is this Vietnam War vet's memoir of his journey from soldier to antiwar activist",
+          "answer": "Ron Kovic",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5335-d-c3-r3"
+        },
+        {
+          "question": "Playwright Moss Hart titled his autobiography this, like the first part of a play",
+          "answer": "Act I",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5335-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALL \"CAP\"S",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "They connect arterioles (small branches of arteries) & venules (itty-bitty veins)",
+          "answer": "capillaries",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL \"CAP\"S",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5335-d-c4-r0"
+        },
+        {
+          "question": "Its first use was in an 1833 London Standard article on economics deploring \"the tyranny of\" this",
+          "answer": "capitalism",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL \"CAP\"S",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5335-d-c4-r1"
+        },
+        {
+          "question": "It's just another beautiful day on this Italian island",
+          "answer": "Capri",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL \"CAP\"S",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5335-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "LOST & FOUND",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Jorge Garcia won the lottery playing Hugo on \"Lost\" & stayed in Hawaii for the reboot of this Jack Lord series",
+          "answer": "Hawaii Five-O",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOST & FOUND",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5335-d-c5-r0"
+        },
+        {
+          "question": "You can find Sawyer, aka Josh Holloway, on \"Colony\" on TV or in the \"Ghost Protocol\" entry of this film franchise",
+          "answer": "Mission: Impossible",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOST & FOUND",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5335-d-c5-r1"
+        },
+        {
+          "question": "As Benjamin Linus, Michael Emerson committed a few crimes; now he tries to stop them before they happen on this CBS show",
+          "answer": "Person of Interest",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LOST & FOUND",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5335-d-c5-r2"
+        },
+        {
+          "question": "Evangeline Lilly traded in the island to play Hope van Dyne opposite Paul Rudd in this Marvel movie",
+          "answer": "Ant-Man",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOST & FOUND",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5335-d-c5-r3"
+        },
+        {
+          "question": "Henry Ian Cusick played Desmond on \"Lost\" & now can be found on this numeric CW sci-fi show",
+          "answer": "The 100",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LOST & FOUND",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5335-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. STATE GEOGRAPHY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Of the contiguous states, these 2 coastal states have elevation changes within them of more than 14,000 feet",
+          "answer": "California & Washington",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. STATE GEOGRAPHY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5335-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

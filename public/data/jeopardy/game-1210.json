@@ -1,0 +1,833 @@
+{
+  "gameId": 1210,
+  "showNumber": 3181,
+  "airDate": "June 1, 1998",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATE CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This New York capital was once known as Beverwyck",
+          "answer": "Albany",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1210-s-c0-r0"
+        },
+        {
+          "question": "In 1982 Alaskans rejected a proposal that would have made Willow the capital instead of this city",
+          "answer": "Juneau",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1210-s-c0-r1"
+        },
+        {
+          "question": "In hopes that Germany would help finance its railroad, North Dakota named its capital this",
+          "answer": "Bismarck",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1210-s-c0-r2"
+        },
+        {
+          "question": "Built in 1610, the Spanish Palace of Governors in this Southwest capital is now a museum",
+          "answer": "Santa Fe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1210-s-c0-r3"
+        },
+        {
+          "question": "It's \"The Birthplace of Dixie\"",
+          "answer": "Montgomery, Alabama",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1210-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE MOVIES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's the 1997 sequel to 1981's \"An American Werewolf in London\"",
+          "answer": "An American Werewolf in Paris",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1210-s-c1-r0"
+        },
+        {
+          "question": "His 1997 film \"Jackie Brown\" was the first full feature film he's directed since \"Pulp Fiction\"",
+          "answer": "Quentin Tarantino",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1210-s-c1-r1"
+        },
+        {
+          "question": "2 of the 3 James Bond movies with \"Gold\" in the title",
+          "answer": "(2 of) GoldenEye, Goldfinger & The Man with the Golden Gun",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1210-s-c1-r2"
+        },
+        {
+          "question": "(Hi, I'm Jane Curtin.)  For this 1993 film I reprised my role as parental unit Prymaat",
+          "answer": "Coneheads",
+          "value": 250,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1210-s-c1-r3"
+        },
+        {
+          "question": "He played the absent-minded professor who invented Flubber in the original 1961 film",
+          "answer": "Fred MacMurray",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOVIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1210-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "IMPORTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On April 14, 1927 this company's first car came off its Gothenburg, Sweden assembly line",
+          "answer": "Volvo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IMPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1210-s-c2-r0"
+        },
+        {
+          "question": "This brand of water comes from a natural spring in Vergeze",
+          "answer": "Perrier",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IMPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1210-s-c2-r1"
+        },
+        {
+          "question": "In 1900, this Japanese company began production of its upright pianos; in 1954, its motorcycles",
+          "answer": "Yamaha",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IMPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1210-s-c2-r2"
+        },
+        {
+          "question": "For 177 years, until 1936, Guinness brewed all of its stout in this city",
+          "answer": "Dublin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IMPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1210-s-c2-r3"
+        },
+        {
+          "question": "Guiliana & Luciano's United Colors Company",
+          "answer": "Benetton",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IMPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1210-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANIMALS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The monkey-eating species of this bird lives in the Philippines; the bald species lives in the U.S.",
+          "answer": "the eagle",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1210-s-c3-r0"
+        },
+        {
+          "question": "These birds range in size from the 1-foot blue to the 4-foot emperor",
+          "answer": "the penguin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1210-s-c3-r1"
+        },
+        {
+          "question": "Group of mammals seen here:",
+          "answer": "meerkats",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1210-s-c3-r2"
+        },
+        {
+          "question": "It has webbed, padded toes & can drink over 20 gallons of water in a single drink",
+          "answer": "the camel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1210-s-c3-r3"
+        },
+        {
+          "question": "This land animal can weigh more than 8,000 pounds & can open its immense jaws 150 degrees",
+          "answer": "the hippopotamus",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1210-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHIPS & CHAINS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's a group of convicts linked together for outdoor labor",
+          "answer": "a chain gang",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHIPS & CHAINS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1210-s-c4-r0"
+        },
+        {
+          "question": "Used for flogging, it's a whip with 9 knotted cords fastened to a handle",
+          "answer": "Cat o' Nine Tails",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHIPS & CHAINS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1210-s-c4-r1"
+        },
+        {
+          "question": "The group who sang the 1980 hit heard here:[\"Whip It\"]",
+          "answer": "Devo",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHIPS & CHAINS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1210-s-c4-r2"
+        },
+        {
+          "question": "House leadership position held by Republican congressman Tom DeLay at the start of 1997",
+          "answer": "majority whip",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHIPS & CHAINS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1210-s-c4-r3"
+        },
+        {
+          "question": "Flexible armor composed of small, overlapping metal rings",
+          "answer": "chain mail",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHIPS & CHAINS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1210-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"C\" OF LOVE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The title of a 1958 Connie Francis song calls this love god \"stupid\"",
+          "answer": "Cupid",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" OF LOVE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1210-s-c5-r0"
+        },
+        {
+          "question": "If you didn't show up for a blind date, you have these kind of \"feet\"",
+          "answer": "cold feet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" OF LOVE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1210-s-c5-r1"
+        },
+        {
+          "question": "From an old word for \"cape\", it's an older person who, for propriety's sake, accompanies young unmarrieds",
+          "answer": "a chaperone",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" OF LOVE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1210-s-c5-r2"
+        },
+        {
+          "question": "The youngest daughter of King Lear; the only one who really loved him",
+          "answer": "Cordelia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" OF LOVE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1210-s-c5-r3"
+        },
+        {
+          "question": "Italian for \"with love\", it's the musical direction to play or sing lovingly",
+          "answer": "con amore",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"C\" OF LOVE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1210-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GENESIS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the theoretical cosmic explosion that marked the origin of the universe",
+          "answer": "The Big Bang Theory",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1210-d-c0-r0"
+        },
+        {
+          "question": "It was a party when Lenin & his followers formed this \"majority\" party in 1903",
+          "answer": "Bolsheviks",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1210-d-c0-r1"
+        },
+        {
+          "question": "He went \"Big Time\" & was replaced by Phil Collins as lead singer of Genesis",
+          "answer": "Peter Gabriel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1210-d-c0-r2"
+        },
+        {
+          "question": "The daughter of Eleanor & Ananias, she was the first English child born in the New World",
+          "answer": "Virginia Dare",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1210-d-c0-r3"
+        },
+        {
+          "question": "His 12-volume \"A Study Of History\" probed the genesis, growth & decline of the world's great civilizations",
+          "answer": "Arnold Toynbee",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1210-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"X\"ODUS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A brand name, it's become a synonym for a photocopy",
+          "answer": "Xerox",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\"ODUS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1210-d-c1-r0"
+        },
+        {
+          "question": "Second name of St. Francis, known as the \"Apostle of the Indies\"",
+          "answer": "Xavier",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\"ODUS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1210-d-c1-r1"
+        },
+        {
+          "question": "It's the 4-letter spelling of the shortened form of Christmas; many Christians frown on it",
+          "answer": "Xmas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\"ODUS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1210-d-c1-r2"
+        },
+        {
+          "question": "Back Off!  I've got this irrational fear of strangers",
+          "answer": "Xenophobia",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\"ODUS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1210-d-c1-r3"
+        },
+        {
+          "question": "It's the alphabetical name for the troubling 1790s incident involving French agents",
+          "answer": "XYZ Affair",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"X\"ODUS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1210-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "JUDGES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A swimsuit wasn't required during a call-in vote to this pageant in 1996 when viewers were the \"8th Judge\"",
+          "answer": "Miss America",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUDGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1210-d-c2-r0"
+        },
+        {
+          "question": "Paul Newman played this folk hero who was the only law \"West of the Pecos\"",
+          "answer": "Judge Roy Bean",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUDGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1210-d-c2-r1"
+        },
+        {
+          "question": "She was the first Olympic gymnast to receive a perfect 10 from the judges",
+          "answer": "Nadia Comaneci",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUDGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1210-d-c2-r2"
+        },
+        {
+          "question": "The 15 judges of this court are the main judicial body of the U.N.",
+          "answer": "World Court",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUDGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1210-d-c2-r3"
+        },
+        {
+          "question": "Judges give out the Golden Lion Award at this European film festival; hope it can swim",
+          "answer": "Venice",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUDGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1210-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PROVERBS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It \"Catches the worm\"",
+          "answer": "The early bird",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1210-d-c3-r0"
+        },
+        {
+          "question": "There's not only one \"to every rule\", it also \"proves the rule\"",
+          "answer": "Exception",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1210-d-c3-r1"
+        },
+        {
+          "question": "A variation of this pony proverb says \"You may force a man to shut his eyes, but you can't make him sleep\"",
+          "answer": "\"You can lead a horse to water, but you can't make him drink\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1210-d-c3-r2"
+        },
+        {
+          "question": "George Bernard Shaw was the first to observe that \"He who can does; he who cannot\" does this",
+          "answer": "Teach",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1210-d-c3-r3"
+        },
+        {
+          "question": "The saying \"There is nothing new under the sun\" is a variation of a proverb in this Old Testament book",
+          "answer": "Ecclesiastes",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1210-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Act 2 of this farce finds Algernon Moncrieff earnestly pretending to be Ernest Worthing",
+          "answer": "The Importance of Being Earnest",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1210-d-c4-r0"
+        },
+        {
+          "question": "Act 1 of this play introduces Juror No. 8, the man who convinces the other 11 to re-examine the evidence",
+          "answer": "12 Angry Men",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1210-d-c4-r1"
+        },
+        {
+          "question": "In Act 1 of this play, Happy complains to Biff about their father's driving",
+          "answer": "Death Of A Salesman",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1210-d-c4-r2"
+        },
+        {
+          "question": "In act 3 of this Ionesco work, Berenger's ladylove Daisy runs off to join a pack of horned pachyderms",
+          "answer": "Rhinoceros",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1210-d-c4-r3"
+        },
+        {
+          "question": "Finally in act 2, Dr. Dysart solves the riddle of the blinded horses in this Peter Shaffer masterpiece",
+          "answer": "Equus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1210-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "REVELATION",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Make way!  Modern science has revealed that this planet travels around the Sun at about 68,000 mph",
+          "answer": "Earth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "REVELATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1210-d-c5-r0"
+        },
+        {
+          "question": "In 1962 Rachel Carson revealed the dangers of toxic pollution to a mass audience in this book",
+          "answer": "Silent Spring",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REVELATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1210-d-c5-r1"
+        },
+        {
+          "question": "Using one of these test strips will reveal the acidity & alkalinity of a solution on a scale from 1 to 14",
+          "answer": "Litmus paper",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REVELATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1210-d-c5-r2"
+        },
+        {
+          "question": "This German's excavations of Troy in the 1870s revealed the Homeric legends were not completely a myth",
+          "answer": "Heinrich Schliemann",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REVELATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1210-d-c5-r3"
+        },
+        {
+          "question": "Greek for \"heat writing\", this technique reveals abnormal tissue growth by studying temperature",
+          "answer": "Thermography",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REVELATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1210-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHIPS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It was refloated, towed to Matauri Bay & sunk there Dec. 12, 1987, with full Maori ceremony",
+          "answer": "The Rainbow Warrior (of Greenpeace)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "SHIPS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1210-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

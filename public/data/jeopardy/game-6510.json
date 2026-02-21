@@ -1,0 +1,833 @@
+{
+  "gameId": 6510,
+  "showNumber": 8128,
+  "airDate": "January 1, 2020",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WHERE YA FROM?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "An Emirati is from this country",
+          "answer": "the United Arab Emirates",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE YA FROM?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6510-s-c0-r0"
+        },
+        {
+          "question": "A Newfie is from this Canadian province",
+          "answer": "Newfoundland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE YA FROM?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6510-s-c0-r1"
+        },
+        {
+          "question": "A Weegie is a lad or a lass from this Scottish city",
+          "answer": "Glasgow",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE YA FROM?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6510-s-c0-r2"
+        },
+        {
+          "question": "The Sammarinese are the people of this country",
+          "answer": "San Marino",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHERE YA FROM?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6510-s-c0-r3"
+        },
+        {
+          "question": "A Paceño is from this South American capital",
+          "answer": "La Paz",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE YA FROM?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6510-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMICS & GRAPHIC NOVELS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The graphic thriller \"Whiteout\" takes place at McMurdo station in this very remote place",
+          "answer": "Antarctica",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMICS & GRAPHIC NOVELS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6510-s-c1-r0"
+        },
+        {
+          "question": "To correctly read this Japanese type of comic, be sure to start with the panel at the upper right side of the page",
+          "answer": "manga",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMICS & GRAPHIC NOVELS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6510-s-c1-r1"
+        },
+        {
+          "question": "The Marvel comic \"Spider-Gwen\" takes place in a universe where this girlfriend of Peter Parker gets the radioactive bite",
+          "answer": "Gwen Stacy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMICS & GRAPHIC NOVELS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6510-s-c1-r2"
+        },
+        {
+          "question": "The graphic novel \"They Called Us Enemy\" is a memoir of this \"Star Trek\" actor's time in an American WWII internment camp",
+          "answer": "George Takei",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMICS & GRAPHIC NOVELS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6510-s-c1-r3"
+        },
+        {
+          "question": "\"Exit Stage Left\" reimagines this cat from Hanna-Barbera cartoons as a Southern playwright in the 1950s",
+          "answer": "Snagglepuss",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMICS & GRAPHIC NOVELS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6510-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. FACTS & FIGURES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Each year U.S. fossil fuels emit around 5 billion metric tons of this gas",
+          "answer": "CO2 (carbon dioxide)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6510-s-c2-r0"
+        },
+        {
+          "question": "Thomas Jefferson's final draft of this document dropped language calling slavery \"an execrable commerce\"",
+          "answer": "the Declaration of Independence",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6510-s-c2-r1"
+        },
+        {
+          "question": "According to the Census Bureau, 35% of U.S. adults over 25 have this college degree or higher",
+          "answer": "a Bachelor's",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6510-s-c2-r2"
+        },
+        {
+          "question": "The Great Seal of the United States bears two 3-word Latin phrases: Novus ordo seclorum & this",
+          "answer": "E pluribus unum",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6510-s-c2-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew presents by a display monitor.) A Census Bureau map shows that, from 1930 to 2000, the population density of this Nevada county increased by more than 5,000%",
+          "answer": "Clark County",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6510-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHARAOHS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The face of this statue of Giza is thought to represent Khafre, builder of one of the Great Pyramids at Giza",
+          "answer": "the Sphinx",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHARAOHS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6510-s-c3-r0"
+        },
+        {
+          "question": "The word pharaoh originally referred to a palace, but in the 18th of these, the word began to refer to the kings themselves",
+          "answer": "a Dynasty",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHARAOHS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6510-s-c3-r1"
+        },
+        {
+          "question": "Pharaohs were known to wear headdresses with a uraeus, a symbol of power in the form of this snake",
+          "answer": "an asp",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHARAOHS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6510-s-c3-r2"
+        },
+        {
+          "question": "Near Lake Nasser is the \"Great Temple\" constructed by this pharaoh who reigned for 66 years",
+          "answer": "Ramses II (the Great)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHARAOHS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6510-s-c3-r3"
+        },
+        {
+          "question": "Thutmose I was the first pharaoh to cut his tomb into this \"royal\" resting place near Thebes",
+          "answer": "the Valley of the Kings",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHARAOHS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6510-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOOT",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "During the Revolutionary War, drums were usually paired with this four-letter tooter",
+          "answer": "fife",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6510-s-c4-r0"
+        },
+        {
+          "question": "Tradition says a toot of this instrument by Gabriel will announce judgment day",
+          "answer": "a trumpet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6510-s-c4-r1"
+        },
+        {
+          "question": "In \"Rigoletto\" Verdi used this really high-pitched tooter to represent a flash of lightning",
+          "answer": "a piccolo",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6510-s-c4-r2"
+        },
+        {
+          "question": "Lester Young was a legendary tooter on the tenor type of this",
+          "answer": "saxophone",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6510-s-c4-r3"
+        },
+        {
+          "question": "This tuba was developed by & named for the \"March King\"",
+          "answer": "the sousaphone",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOOT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6510-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNCOMMON",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This 4-letter way you might like your steak is also a synonym for \"uncommon\"",
+          "answer": "rare",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNCOMMON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6510-s-c5-r0"
+        },
+        {
+          "question": "In a Marine Corps recruiting slogan, this 3-letter word means \"uncommon\"",
+          "answer": "the Few",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UNCOMMON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6510-s-c5-r1"
+        },
+        {
+          "question": "\"Monty Python's Flying Circus\" often encouraged us with \"And now for something...\" these 2 words",
+          "answer": "completely different",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNCOMMON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6510-s-c5-r2"
+        },
+        {
+          "question": "There are 3 C's in this word for someone who has a truly unconventional personality",
+          "answer": "eccentric",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNCOMMON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6510-s-c5-r3"
+        },
+        {
+          "question": "In grammar this synonym of \"uncommon\" refers to a noun pertaining to one entity\"",
+          "answer": "singular",
+          "value": 2600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNCOMMON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6510-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANIMAL NAMES WITH LEWIS & CLARK",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Lewis & Clark gave this non-canine rodent its name and even brought one back to give to Thomas Jefferson",
+          "answer": "a prairie dog",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL NAMES WITH LEWIS & CLARK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6510-d-c0-r0"
+        },
+        {
+          "question": "Though we think of it as grayish-brown, the boys called it a \"white bear\" & killed quite a few",
+          "answer": "the grizzly bear",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL NAMES WITH LEWIS & CLARK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6510-d-c0-r1"
+        },
+        {
+          "question": "Don't complain. Just name the sage type of this bird that Lewis & Clark called the heath cock",
+          "answer": "a (greater) grouse",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL NAMES WITH LEWIS & CLARK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6510-d-c0-r2"
+        },
+        {
+          "question": "Say, Meriwether, that sheep sure has large paired features on its head--you're right, William, so let's call it this",
+          "answer": "a bighorn sheep",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL NAMES WITH LEWIS & CLARK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6510-d-c0-r3"
+        },
+        {
+          "question": "Lewis noted of the Lewis' type of this bird that the pointy tail helps it stay vertical against the tree trunk it's beaking",
+          "answer": "a woodpecker",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL NAMES WITH LEWIS & CLARK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6510-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAYORS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1985 the slogan \"Cubano Vota Cubano\" led to Puerto Rico-born Mayor Maurice Ferré losing his job in this city to Xavier Suarez",
+          "answer": "Miami",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6510-d-c1-r0"
+        },
+        {
+          "question": "Before she was a nominee for vice president & a governor, she was the mayor of the small city of Wasilla",
+          "answer": "Sarah Palin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6510-d-c1-r1"
+        },
+        {
+          "question": "Norman Mineta became the first Asian-American mayor of a major U.S. city when he took over this tech town near San Francisco in 1971",
+          "answer": "San Jose",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6510-d-c1-r2"
+        },
+        {
+          "question": "In between his third & fourth terms as mayor of Washington, D.C., he served 6 months in prison on drug charges",
+          "answer": "Marion Barry",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6510-d-c1-r3"
+        },
+        {
+          "question": "Hubert Humphrey in the 1940s & George Pillsbury in the 1880s presided over this city",
+          "answer": "Minneapolis",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6510-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "O IS THE ONLY VOWEL",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's a perch for chickens to rest on at night",
+          "answer": "a roost",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6510-d-c2-r0"
+        },
+        {
+          "question": "It was the alma mater of Hugh Grant & Sir Roger Bannister",
+          "answer": "Oxford",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6510-d-c2-r1"
+        },
+        {
+          "question": "A 2018 statement from the Latter-Day Saints says not to call them these",
+          "answer": "Mormons",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6510-d-c2-r2"
+        },
+        {
+          "question": "This '50s music style is what The Turbans are saying in their song \"When You Dance\"",
+          "answer": "doo-wop",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "O IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6510-d-c2-r3"
+        },
+        {
+          "question": "Just one more thing--this Asian capital city is home to Gangaramaya Temple",
+          "answer": "Colombo",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "O IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6510-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV TITLE TOUGH GUYS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Bill Hader, since 2018",
+          "answer": "Barry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE TOUGH GUYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6510-d-c3-r0"
+        },
+        {
+          "question": "John Krasinski, since 2018",
+          "answer": "Jack Ryan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE TOUGH GUYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6510-d-c3-r1"
+        },
+        {
+          "question": "Idris Elba, 2010-2019",
+          "answer": "(John) Luther",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE TOUGH GUYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6510-d-c3-r2"
+        },
+        {
+          "question": "Liev Schreiber, since 2013",
+          "answer": "Ray Donovan",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE TOUGH GUYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6510-d-c3-r3"
+        },
+        {
+          "question": "Telly Savalas, 1973- 1978",
+          "answer": "Kojak",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE TOUGH GUYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6510-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In a 2015 cover story for Vanity Fair, she revealed her new identity & talked about her gender transition",
+          "answer": "Caitlyn Jenner",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6510-d-c4-r0"
+        },
+        {
+          "question": "Steven Spielberg called this composer \"the single most significant contributor\" to his \"success as a filmmaker\"",
+          "answer": "John Williams",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6510-d-c4-r1"
+        },
+        {
+          "question": "In 2005 this British graffiti artist installed his own works on the walls of museums in N.Y. & London",
+          "answer": "Banksy",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6510-d-c4-r2"
+        },
+        {
+          "question": "Shared last name of the two men seen here, New York's Archbishop & one of the city's sports team owners",
+          "answer": "(Timothy & James) Dolan",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6510-d-c4-r3"
+        },
+        {
+          "question": "Upon the death of Daniel Inouye, this Vermont Democrat, in office since 1975, became the longest-serving U.S. Senator",
+          "answer": "(Patrick) Leahy",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6510-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "A LITERARY NEW YEAR",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A pregnant Mrs. Woodhouse attends a strange New Year's Eve party in this devilish book by Ira Levin",
+          "answer": "Rosemary's Baby",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITERARY NEW YEAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6510-d-c5-r0"
+        },
+        {
+          "question": "This character's January 1 diary entry counts Bloody Marys as food (\"as contain Worcester sauce & tomatoes\")",
+          "answer": "Bridget Jones",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A LITERARY NEW YEAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6510-d-c5-r1"
+        },
+        {
+          "question": "He wrote of the Little Match Girl who had \"frozen to death on the last evening of the old year\"",
+          "answer": "Hans Christian Andersen",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITERARY NEW YEAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6510-d-c5-r2"
+        },
+        {
+          "question": "This author's \"Middlemarch\" includes a party hosted by Mr. Vincy on New Year's Day",
+          "answer": "George Eliot",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A LITERARY NEW YEAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6510-d-c5-r3"
+        },
+        {
+          "question": "New Year's Eve finds 4 people contemplating suicide in \"A Long Way Down\" by this man who also wrote \"About a Boy\"",
+          "answer": "Nick Hornby",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A LITERARY NEW YEAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6510-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SINGLE-NAMED PERFORMERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The last single-named actress to win an Oscar was this woman who won for her supporting role in \"Precious\"",
+          "answer": "Mo'Nique",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "SINGLE-NAMED PERFORMERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6510-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

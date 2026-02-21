@@ -1,0 +1,821 @@
+{
+  "gameId": 866,
+  "showNumber": 3257,
+  "airDate": "November 3, 1998",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WEATHER",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "16 degrees Celsius is roughly 61 degrees on this scale",
+          "answer": "Fahrenheit",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g866-s-c0-r0"
+        },
+        {
+          "question": "The name of this storm with winds over 74 mph comes from the West Indies Taino word for \"evil spirit\"",
+          "answer": "a hurricane",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g866-s-c0-r1"
+        },
+        {
+          "question": "It's the 7-letter term for the common cloud type seen here",
+          "answer": "cumulus",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g866-s-c0-r2"
+        },
+        {
+          "question": "A boundary between 2 dissimilar air masses, it may be cold, warm or stationary",
+          "answer": "Front",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g866-s-c0-r3"
+        },
+        {
+          "question": "Weather records are preserved in these, such as Mendenhall; a drill can pull out 160,000 years of data",
+          "answer": "Glaciers",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g866-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "19th CENTURY FOOD & DRINK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Joseph & Edward Tetley opened a shop to sell this product in 1837",
+          "answer": "Tea",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g866-s-c1-r0"
+        },
+        {
+          "question": "Antonin Careme created Charlotte Russe & this sour-creamed meat dish for Czar Alexander I",
+          "answer": "Beef Stroganoff",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g866-s-c1-r1"
+        },
+        {
+          "question": "This Boston company introduced its canned deviled ham in 1867",
+          "answer": "William Underwood Co.",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g866-s-c1-r2"
+        },
+        {
+          "question": "Antoine Alciatore opened his restaurant on St. Louis Street in this city in 1840",
+          "answer": "New Orleans",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g866-s-c1-r3"
+        },
+        {
+          "question": "Pair who sold the first roasted coffee in cans in 1878",
+          "answer": "Chase & Sanborn",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g866-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROCK & POP",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It was the last decade in which Cher didn't have a Top 40 hit",
+          "answer": "1950s",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROCK & POP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g866-s-c2-r0"
+        },
+        {
+          "question": "Of a steamroller, airplane or 2 U.S. cities, it was what the group Buffalo Springfield was named after",
+          "answer": "a steamroller",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK & POP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g866-s-c2-r1"
+        },
+        {
+          "question": "(Hi, I'm Melissa Joan Hart.)  My mother took my name Melissa from a song by this band featuring Duane & Gregg",
+          "answer": "The Allman Brothers Band",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROCK & POP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g866-s-c2-r2"
+        },
+        {
+          "question": "\"The Truth\" is part of his 4-CD \"Crystal Ball\" set",
+          "answer": "Prince",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK & POP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g866-s-c2-r3"
+        },
+        {
+          "question": "In 1982 it was \"Business As Usual\" for this \"Who Can It Be Now?\" group from down under",
+          "answer": "Men At Work",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK & POP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g866-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SEAS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Mosquito Gulf & the Gulf of Venezuela are among the gulfs lying along this sea",
+          "answer": "Caribbean Sea",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEAS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g866-s-c3-r0"
+        },
+        {
+          "question": "This sea was named for an ancient Roman port near Venice",
+          "answer": "Adriatic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEAS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g866-s-c3-r1"
+        },
+        {
+          "question": "The island of Taiwan separates this sea into east & south divisions",
+          "answer": "China Sea",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEAS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g866-s-c3-r2"
+        },
+        {
+          "question": "Bab El Mandeb, Arabic for \"Gate of Tears\", connects the Gulf of Aden with this colorful sea",
+          "answer": "Red Sea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEAS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g866-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "To go next to your piece of the Berlin Wall, you can buy a lump of coal from this ship that sank in 1912",
+          "answer": "Titanic",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g866-s-c4-r0"
+        },
+        {
+          "question": "In World War I, the women who had this job were known as \"Hello Girls\"",
+          "answer": "Telephone operators",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g866-s-c4-r1"
+        },
+        {
+          "question": "Before taking the Russian throne in 1762, she changed her name, her language & her religion",
+          "answer": "Catherine the Great",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g866-s-c4-r2"
+        },
+        {
+          "question": "Alessandro Alessandroni was the performer who added this to the music in \"A Fistful of Dollars\"",
+          "answer": "Whistling",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g866-s-c4-r3"
+        },
+        {
+          "question": "Though he wrote about 40 plays in all, only 11, including \"Clouds\" & \"Frogs\", survive intact",
+          "answer": "Aristophanes",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g866-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANAGRAMMED HITCHCOCK FILMS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Marine\"",
+          "answer": "\"Marnie\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED HITCHCOCK FILMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g866-s-c5-r0"
+        },
+        {
+          "question": "\"Rig Vote\"",
+          "answer": "\"Vertigo\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED HITCHCOCK FILMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g866-s-c5-r1"
+        },
+        {
+          "question": "\"Shy Cop\"",
+          "answer": "\"Psycho\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED HITCHCOCK FILMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g866-s-c5-r2"
+        },
+        {
+          "question": "\"Bed Shirt\"",
+          "answer": "\"The Birds\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED HITCHCOCK FILMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g866-s-c5-r3"
+        },
+        {
+          "question": "\"Laid From Red Rum\"",
+          "answer": "\"Dial M For Murder\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMMED HITCHCOCK FILMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g866-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MURDER, SHE WROTE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This crafter of murder mysteries seen here caused a mystery herself by vanishing for 10 days in 1926",
+          "answer": "Agatha Christie",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MURDER, SHE WROTE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g866-d-c0-r0"
+        },
+        {
+          "question": "\"A Mind for Murder\" & \"A Taste for Death\" are works by this author whose first names are Phyllis Dorothy",
+          "answer": "P.D. James",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MURDER, SHE WROTE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g866-d-c0-r1"
+        },
+        {
+          "question": "In this \"little\" Lillian Hellman play, Regina withholds Horace's medicine & coldly watches him die",
+          "answer": "\"The Little Foxes\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MURDER, SHE WROTE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g866-d-c0-r2"
+        },
+        {
+          "question": "This female P.I. investigates murder & mayhem in books by Sara Paretsky",
+          "answer": "VI Warshawski",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MURDER, SHE WROTE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g866-d-c0-r3"
+        },
+        {
+          "question": "This author seen here is famous for creating a \"monstrous\" killer",
+          "answer": "Mary Shelley (created \"Frankenstein\")",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MURDER, SHE WROTE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g866-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE JEFFERSONS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Like George Washington, Thomas Jefferson married a fetching widow with this first name",
+          "answer": "Martha",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE JEFFERSONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g866-d-c1-r0"
+        },
+        {
+          "question": "Little did Thomas' daughter Patsy know she'd be played by Gwyneth Paltrow in \"Jefferson in\" this city",
+          "answer": "Paris",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE JEFFERSONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g866-d-c1-r1"
+        },
+        {
+          "question": "Thomas' first grandchild, Anne, was born, married & buried at this hilltop home",
+          "answer": "Monticello",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE JEFFERSONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g866-d-c1-r2"
+        },
+        {
+          "question": "The 1804 death of daughter Polly led Thomas to reconciliation with this family, Abigail first",
+          "answer": "Adams",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE JEFFERSONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g866-d-c1-r3"
+        },
+        {
+          "question": "Some biographers believe Thomas fathered several children by this slave 30 years his junior",
+          "answer": "Sally Hemings",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE JEFFERSONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g866-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "DYNASTY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Capet,Valois,Bourbon",
+          "answer": "France",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DYNASTY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g866-d-c2-r0"
+        },
+        {
+          "question": "1st,15th,Ptolemaic",
+          "answer": "Egypt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DYNASTY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g866-d-c2-r1"
+        },
+        {
+          "question": "Balliol,Bruce,Stuart",
+          "answer": "Scotland",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DYNASTY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g866-d-c2-r2"
+        },
+        {
+          "question": "Tran,Ngo,Dinh",
+          "answer": "Vietnam",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DYNASTY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g866-d-c2-r3"
+        },
+        {
+          "question": "Bernadotte,Vasa,Folkung",
+          "answer": "Sweden",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DYNASTY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g866-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COACH",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Michigan football legend Glenn E. Schembechler is better known by this nickname",
+          "answer": "\"Bo\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COACH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g866-d-c3-r0"
+        },
+        {
+          "question": "SI called Pat Summitt, coach of this school's women's basketball team, \"The Wizard of Knoxville\"",
+          "answer": "the University of Tennessee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COACH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g866-d-c3-r1"
+        },
+        {
+          "question": "Former Oklahoma coach Barry Switzer moved south in 1994 to take over this pro football team",
+          "answer": "the Dallas Cowboys",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COACH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g866-d-c3-r2"
+        },
+        {
+          "question": "With the Chicago Bulls, he was the guiding force behind the best single-season record in NBA history",
+          "answer": "Phil Jackson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COACH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g866-d-c3-r3"
+        },
+        {
+          "question": "Glowering Romanian Ion Tiriac helped this German man win Wimbledon at age 17 in 1985",
+          "answer": "Boris Becker",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COACH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g866-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "JUST SHOOT ME",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Gum-chewers might know this is the weapon seen here",
+          "answer": "a bazooka",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST SHOOT ME",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g866-d-c4-r0"
+        },
+        {
+          "question": "Used by John Wilkes Booth at Ford's Theater, it's the make of pistol seen here",
+          "answer": "Derringer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST SHOOT ME",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g866-d-c4-r1"
+        },
+        {
+          "question": "Seen here, this weapon \"heats up\" the action in caves & pillboxes",
+          "answer": "a flamethrower",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST SHOOT ME",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g866-d-c4-r2"
+        },
+        {
+          "question": "The firing mechanism of this classic gun seen here gives it its name",
+          "answer": "a flintlock",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUST SHOOT ME",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g866-d-c4-r3"
+        },
+        {
+          "question": "The name of this 105mm artillery piece seen here comes from the Czech word for catapult",
+          "answer": "a howitzer",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "JUST SHOOT ME",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g866-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"GOOD\" TIMES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This unselfish guy's story is told in Luke 10",
+          "answer": "the Good Samaritan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GOOD\" TIMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g866-d-c5-r0"
+        },
+        {
+          "question": "This groovy song was a Top 10 hit for the Beach Boys in 1966",
+          "answer": "\"Good Vibrations\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GOOD\" TIMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g866-d-c5-r1"
+        },
+        {
+          "question": "One of her popular books about chimps is titled \"In The Shadow of Man\"",
+          "answer": "Jane Goodall",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GOOD\" TIMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g866-d-c5-r2"
+        },
+        {
+          "question": "It's the famous geographic feature indicated here",
+          "answer": "the Cape of Good Hope",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GOOD\" TIMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g866-d-c5-r3"
+        },
+        {
+          "question": "In Shakespeare, he's also known as Puck",
+          "answer": "Robin Goodfellow",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"GOOD\" TIMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g866-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY WOMEN",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "At this woman's April 1998 funeral, Gloria Steinem called her \"the woman we want to be after the revolution\"",
+          "answer": "Bella Abzug (former New York congresswoman)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "20th CENTURY WOMEN",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g866-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

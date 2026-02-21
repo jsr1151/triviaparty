@@ -1,0 +1,773 @@
+{
+  "gameId": 8168,
+  "showNumber": 708,
+  "airDate": "October 7, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LITERATURE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Better-known title of \"Travels into Several Remote Nations of the World, by Lemuel Gulliver\"",
+          "answer": "Gulliver's Travels",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8168-s-c0-r0"
+        },
+        {
+          "question": "In \"Uncle Tom's Cabin\", Eliza escapes to freedom in this country",
+          "answer": "Canada",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8168-s-c0-r1"
+        },
+        {
+          "question": "Feeling miserable after his daughter drowned, he wrote, \"Les Miserables\"",
+          "answer": "Victor Hugo",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8168-s-c0-r2"
+        },
+        {
+          "question": "He caused a scandal by marrying his wife's maid while he was writing \"Tom Jones\"",
+          "answer": "(Henry) Fielding",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8168-s-c0-r3"
+        },
+        {
+          "question": "Series of James Fenimore Cooper novels named for Natty Bumppo's natty deerskin leggings",
+          "answer": "Leatherstocking Tales",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8168-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FASHION",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The \"Kelly\" bag, a new handbag by designer Hermes, is named for this late princess",
+          "answer": "Grace Kelly",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8168-s-c1-r0"
+        },
+        {
+          "question": "This clothing manufacturer rode to fame on its trademark, a horse's head",
+          "answer": "Jordache",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8168-s-c1-r1"
+        },
+        {
+          "question": "In fashion, mass-produced garments are generally made for \"RTW\", which means this",
+          "answer": "ready-to-wear",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8168-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "LEADING MEN",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"Midnight Cowboy\" star who once said, \"My looks inhibit me. I can't play real people.\"",
+          "answer": "Jon Voight",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEADING MEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8168-s-c2-r0"
+        },
+        {
+          "question": "At 17, this \"Shampoo\" star worked in a theater as a ratwatcher so actors wouldn't get bitten",
+          "answer": "Warren Beatty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEADING MEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8168-s-c2-r1"
+        },
+        {
+          "question": "\"At Close Range\" you can see a wolf tattoo on this \"Bad Boy\"s arm",
+          "answer": "Sean Penn",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEADING MEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8168-s-c2-r2"
+        },
+        {
+          "question": "When Richard Dreyfuss left the cast of \"All That Jazz\", this man replaced him",
+          "answer": "Roy Scheider",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEADING MEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8168-s-c2-r3"
+        },
+        {
+          "question": "This former \"Falcon Crest\" star is the grandson of Cuban patriot Jose Marti",
+          "answer": "Cesar Romero",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LEADING MEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8168-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN WORDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This Hawaiian word means love, friendship & good feelings",
+          "answer": "aloha",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8168-s-c3-r0"
+        },
+        {
+          "question": "In a monastery a scriptorium was a room reserved for doing this",
+          "answer": "writing",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8168-s-c3-r1"
+        },
+        {
+          "question": "English name of the edible that's cece in Italian, hummus in Arabic & Hebrew, & garbanzo in Spanish",
+          "answer": "chickpea",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8168-s-c3-r2"
+        },
+        {
+          "question": "Meaning of the foreign word in title of the following song:\"Oh, let's forget about domani / Let's forget about domani / Let's forget about domani / For domani never comes...\"",
+          "answer": "tomorrow",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8168-s-c3-r3"
+        },
+        {
+          "question": "In Moslem countries, it's what you'd find behind a purdah",
+          "answer": "a woman",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8168-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "OHIO",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1921, an Ohioan was 1st to win this pageant, & in 1922, she became the only one to win 2 years in a row",
+          "answer": "Miss America",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OHIO",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8168-s-c4-r0"
+        },
+        {
+          "question": "The Cincinnati Enquirer says John Bennett of Newark, Ohio invented both the beer can & this pest masher",
+          "answer": "the fly swatter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OHIO",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8168-s-c4-r1"
+        },
+        {
+          "question": "1st Chillicothe, then Zanesville, then Chillicothe again, then Columbus",
+          "answer": "the (state) capital of Ohio",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OHIO",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8168-s-c4-r2"
+        },
+        {
+          "question": "In 1817 in Mt. Pleasant, \"Philanthropist\" began publication as the nation's 1st newspaper protesting this",
+          "answer": "slavery",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OHIO",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8168-s-c4-r3"
+        },
+        {
+          "question": "Founded in 1788, Marietta, Ohio's oldest city, was named after this queen",
+          "answer": "Marie Antoinette",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OHIO",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8168-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"MY\" SONGS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Brown paper packages tied up with string\" are a few of these",
+          "answer": "\"My Favorite Things\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MY\" SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8168-s-c5-r0"
+        },
+        {
+          "question": "Person whose mouth is \"a little weak\" & whose figure is \"less than Greek\"",
+          "answer": "\"My Funny Valentine\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"MY\" SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8168-s-c5-r1"
+        },
+        {
+          "question": "For Paul McCartney, she \"does it good\", good enough, in fact, to hit #1 in 1973",
+          "answer": "\"My Love\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"MY\" SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8168-s-c5-r2"
+        },
+        {
+          "question": "Musical invocation that worshipfully asks \"to linger with you at the end of the day\"",
+          "answer": "\"My Prayer\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"MY\" SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8168-s-c5-r3"
+        },
+        {
+          "question": "Ethnic relative who found \"her jewels & treasures... in her baby's smiles\"",
+          "answer": "\"My Yiddishe Mama\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"MY\" SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8168-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE '80s",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the only reason to call the Army hotline 1-800-CALL-SPY",
+          "answer": "to report a suspected spy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '80s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8168-d-c0-r0"
+        },
+        {
+          "question": "Of this event, Ed Koch said, \"It's going to be the party of the century. I invited the whole world.\"",
+          "answer": "Liberty Weekend (the Statue of Liberty centennial celebration)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '80s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8168-d-c0-r1"
+        },
+        {
+          "question": "Studying aerial photos of this Inca ruin, a UCLA student discovered a larger ruin nearby",
+          "answer": "Machu Picchu",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '80s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8168-d-c0-r2"
+        },
+        {
+          "question": "In 1980, Genuine Risk became the 1st of these since 1915 to win the Kentucky Derby",
+          "answer": "filly",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '80s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8168-d-c0-r3"
+        },
+        {
+          "question": "Country in which, in 1987, John Demjanjuk was prosecuted for the crimes of \"Ivan the Terrible\"",
+          "answer": "Israel",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE '80s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8168-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIRDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Tho many birds are smarter, ancient Greeks associated these \"wise\" birds with their goddess of wisdom",
+          "answer": "the owl",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8168-d-c1-r0"
+        },
+        {
+          "question": "In building their nests, crested flycatchers often use the discarded skins of these animals",
+          "answer": "snakes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8168-d-c1-r1"
+        },
+        {
+          "question": "The 2 birds which, in gangster lingo, both refer to informants or squealers",
+          "answer": "stool pigeon & canary",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8168-d-c1-r2"
+        },
+        {
+          "question": "In Australia, these birds are considered pests because they eat crops & break down sheep fences",
+          "answer": "emus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8168-d-c1-r3"
+        },
+        {
+          "question": "Hummingbirds are only found on these 2 continents",
+          "answer": "North America & South America",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8168-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIBLICAL TRIOS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Jesus instructed his disciples to baptize in these names",
+          "answer": "the Father, the Son & the Holy Ghost",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL TRIOS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8168-d-c2-r0"
+        },
+        {
+          "question": "Though the names don't appear in the Bible, legend holds they were Gaspar, Melchior & Balthasar",
+          "answer": "the Three Wise Men",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL TRIOS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8168-d-c2-r1"
+        },
+        {
+          "question": "They are called the patriarchs or founding fathers of the Jewish people",
+          "answer": "Abraham, Isaac & Jacob",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL TRIOS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8168-d-c2-r2"
+        },
+        {
+          "question": "The 3 men King Nebuchadnezzar cast into the fiery furnace",
+          "answer": "Shadrach, Meshach & Abednego",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL TRIOS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8168-d-c2-r3"
+        },
+        {
+          "question": "The only children of Adam & Eve known by name are these 3 sons",
+          "answer": "Cain, Abel & Seth",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL TRIOS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8168-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOYS & GAMES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The World Book says one can be \"hard or soft & solid or inflated\" &, oh yes, usually round",
+          "answer": "a ball",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8168-d-c3-r0"
+        },
+        {
+          "question": "In March 1987, 8000 packs of 6000 questions for this game were stolen from a storeroom in England",
+          "answer": "Trivial Pursuit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8168-d-c3-r1"
+        },
+        {
+          "question": "After settling out-of-court, Topps agreed to stop making Garbage Pail Kids that look like these toys",
+          "answer": "Cabbage Patch Kids",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8168-d-c3-r2"
+        },
+        {
+          "question": "If you're quick on the pick up, you might know this children's game evolved from \"checkstones\"",
+          "answer": "jacks",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8168-d-c3-r3"
+        },
+        {
+          "question": "In chess notation, the \"?\" is the symbol for a mistake while this is the symbol for a brilliant move",
+          "answer": "exclamation point",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8168-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD HISTORY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Great fleet destroyed in 1588 by a combination of the British & bad weather",
+          "answer": "the Armada",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8168-d-c4-r0"
+        },
+        {
+          "question": "Its charter came into force on October 24, 1945",
+          "answer": "the U.N.",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8168-d-c4-r1"
+        },
+        {
+          "question": "Leaving his job on Dec. 11, 1936, he got a new one the next day--Duke of Windsor",
+          "answer": "Edward VIII",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8168-d-c4-r2"
+        },
+        {
+          "question": "Semi-literate himself, this 9th c. emperor set up the Palace School to help others learn",
+          "answer": "Charlemagne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8168-d-c4-r3"
+        },
+        {
+          "question": "The 1815 Congress in this city restored legitimate monarchs to France, Spain & Holland",
+          "answer": "Vienna",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8168-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LETTER PERFECT",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "While on a piano it can be \"middle\", on a fruit drink it's \"Hi\"",
+          "answer": "C",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8168-d-c5-r0"
+        },
+        {
+          "question": "1st letter of the alphabet that follows a letter used as a Roman numeral but isn't a numeral itself",
+          "answer": "E",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER PERFECT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8168-d-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "THE CONSTITUTION",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Article II states that to be president a person has to have done this for 14 years",
+          "answer": "reside in the U.S.",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE CONSTITUTION",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8168-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

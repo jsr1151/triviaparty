@@ -1,0 +1,785 @@
+{
+  "gameId": 236,
+  "showNumber": 3140,
+  "airDate": "April 3, 1998",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "IN THE COOLER",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On campouts, coolers keep this treat from melting before it & a hot marshmallow are made into a s'more",
+          "answer": "a chocolate bar",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE COOLER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g236-s-c0-r0"
+        },
+        {
+          "question": "It's the total number of ounces in a standard six-pack of Pepsi",
+          "answer": "72",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE COOLER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g236-s-c0-r1"
+        },
+        {
+          "question": "Potato & macaroni salads made with this egg-based dressing are safe when kept in the cooler",
+          "answer": "mayonnaise",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE COOLER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g236-s-c0-r2"
+        },
+        {
+          "question": "This sports drink's new \"Frost\" flavors are Whitewater Splash, Glacier Freeze, and Alpine Snow",
+          "answer": "Gatorade",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE COOLER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g236-s-c0-r3"
+        },
+        {
+          "question": "It could be called solid dihydrous monoxide",
+          "answer": "(ordinary) ice",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE COOLER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g236-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ROCK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Latin for \"dug up\"; it's the term for ancient plants & animals that have been preserved in sedimentary rock",
+          "answer": "fossils",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ROCK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g236-s-c1-r0"
+        },
+        {
+          "question": "You gotta lava this rock, whose name means \"foam\"; it floats & makes a great abrasive",
+          "answer": "pumice",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ROCK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g236-s-c1-r1"
+        },
+        {
+          "question": "It's nice to know the granite-like rock pronounced \"nice\" is spelled this way",
+          "answer": "G-N-E-I-S-S",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ROCK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g236-s-c1-r2"
+        },
+        {
+          "question": "This lustrous source of radium & uranium derives its name from its tar-like appearance",
+          "answer": "pitchblende",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ROCK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g236-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "THE PENN.",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It was this cold historic site that Von Steuben reorganized our army in February 1778",
+          "answer": "Valley Forge",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PENN.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g236-s-c2-r0"
+        },
+        {
+          "question": "One of its more unimaginative nicknames is \"the capital of the Keystone State\"",
+          "answer": "Harrisburg",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PENN.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g236-s-c2-r1"
+        },
+        {
+          "question": "Pittsburgh's Civic Arena was the first public auditorium to have a retractable one of these",
+          "answer": "a dome (or roof)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PENN.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g236-s-c2-r2"
+        },
+        {
+          "question": "Philadelphia's major league teams included the Phillies, Eagles, 76ers & this hockey team",
+          "answer": "the Flyers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PENN.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g236-s-c2-r3"
+        },
+        {
+          "question": "This port city displays a reconstruction of Oliver Hazard Perry's ship, the Niagara",
+          "answer": "Erie",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PENN.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g236-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "STARS BEHIND BARS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "His high school nickname \"Bruno\" stayed with him while he was a \"Die Hard\" bartender",
+          "answer": "Bruce Willis",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS BEHIND BARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g236-s-c3-r0"
+        },
+        {
+          "question": "He tended bar & performed in coffeehouses before getting his break in \"I Spy\"",
+          "answer": "Bill Cosby",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS BEHIND BARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g236-s-c3-r1"
+        },
+        {
+          "question": "He was working as a bartender when he started performing with Dan Rowan",
+          "answer": "Dick Martin",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS BEHIND BARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g236-s-c3-r2"
+        },
+        {
+          "question": "He's gone from jobs like tennis instructor & bartender to films like \"Fletch\" & \"Foul Play\"",
+          "answer": "Chevy Chase",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS BEHIND BARS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g236-s-c3-r3"
+        },
+        {
+          "question": "Heard here, he tended bar to earn money while he wrote songs:\"You know feelin' good was good enough for me...\"",
+          "answer": "Kris Kristofferson",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS BEHIND BARS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g236-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRISON PROSE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In \"Civil Disobedience\", he called his night in Concord Jail \"novel and interesting enough\"",
+          "answer": "Thoreau",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRISON PROSE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g236-s-c4-r0"
+        },
+        {
+          "question": "Title of Sister Helen Prejean's book about death row & the Susan Sarandon film based on it",
+          "answer": "Dead Man Walking",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRISON PROSE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g236-s-c4-r1"
+        },
+        {
+          "question": "A work by Jean Genet stems from time at this type of \"school\", named for what it tries to do to youths",
+          "answer": "a reform school",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRISON PROSE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g236-s-c4-r2"
+        },
+        {
+          "question": "In 1981 jailed writer Jack Henry Abbott was sprung with the help of this \"Executioner's Song\" author",
+          "answer": "Norman Mailer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRISON PROSE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g236-s-c4-r3"
+        },
+        {
+          "question": "Hitler's chief architect, he wrote \"Spandau: The Secret Diaries\" of his time in prison for war crimes",
+          "answer": "Albert Speer",
+          "value": 1300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRISON PROSE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g236-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"CON\"s",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Rounded, like the inside of a bowl",
+          "answer": "concave",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CON\"s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g236-s-c5-r0"
+        },
+        {
+          "question": "The Southern states during the Civil War were banded together as one of these",
+          "answer": "a confederacy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CON\"s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g236-s-c5-r1"
+        },
+        {
+          "question": "A missionary, or a cable box",
+          "answer": "a converter",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CON\"s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g236-s-c5-r2"
+        },
+        {
+          "question": "A plan you have, just in case",
+          "answer": "a contingency plan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CON\"s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g236-s-c5-r3"
+        },
+        {
+          "question": "His disciples collected his sayings in \"Analects\"",
+          "answer": "Confucius",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"CON\"s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g236-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT TRAVEL GUIDE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Visit here & enjoy Mediterranean cuisine, beautiful women & a huge wooden horse donated by the Greeks",
+          "answer": "Troy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TRAVEL GUIDE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g236-d-c0-r0"
+        },
+        {
+          "question": "No bull, Crete will a-maze you as you wander through the labyrinth, this creature's lair",
+          "answer": "the Minotaur",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TRAVEL GUIDE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g236-d-c0-r1"
+        },
+        {
+          "question": "Luscious gardens hanging for your pleasure await you in this city on the Euphrates",
+          "answer": "Babylon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TRAVEL GUIDE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g236-d-c0-r2"
+        },
+        {
+          "question": "Join us in this African hot spot & we'll supply elephants & a tour of Hannibal's birthplace",
+          "answer": "Carthage",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TRAVEL GUIDE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g236-d-c0-r3"
+        },
+        {
+          "question": "Barren accommodations, but plenty of exercise & military drill in this capital of Laconia",
+          "answer": "Sparta",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TRAVEL GUIDE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g236-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZATIONS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1997, this organization celebrated the 90th anniversary of its Christmas seals",
+          "answer": "The American Lung Association",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g236-d-c1-r0"
+        },
+        {
+          "question": "In 1997, Martin Luther King III was elected president of this group, the SCLC; Dad would have been proud",
+          "answer": "the Southern Christian Leadership Conference",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g236-d-c1-r1"
+        },
+        {
+          "question": "An association in Annadale, Virginia is devoted to this man, Jefferson's vice-president",
+          "answer": "Aaron Burr",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g236-d-c1-r2"
+        },
+        {
+          "question": "It's the organization whose logo is seen here:",
+          "answer": "the World Wildlife Fund",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g236-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "MOST LIKELY TO SECEDE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Rene Levesque long led the independence movement for this province, mais tant pis, it hasn't happened yet",
+          "answer": "Quebec",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOST LIKELY TO SECEDE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g236-d-c2-r0"
+        },
+        {
+          "question": "Some want this India-Pakistan border region to be independent, & some want it united with Pakistan",
+          "answer": "Kashmir",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOST LIKELY TO SECEDE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g236-d-c2-r1"
+        },
+        {
+          "question": "Be a prince & grant independence to Cymru, the native name for this UK division",
+          "answer": "Wales",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOST LIKELY TO SECEDE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g236-d-c2-r2"
+        },
+        {
+          "question": "Despite limited indepedence in N. Spain, many in this oldest W. European group desire full autonomy",
+          "answer": "the Basques",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOST LIKELY TO SECEDE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g236-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "THEY COVERED THE BEATLES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Tiffany was just 17 when she hit the Top 10 with a reworked version of this Beatles song",
+          "answer": "\"I Saw Her Standing There\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY COVERED THE BEATLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g236-d-c3-r0"
+        },
+        {
+          "question": "This duo had only just begun when they covered \"Ticket To Ride\" in 1970",
+          "answer": "The Carpenters",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY COVERED THE BEATLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g236-d-c3-r1"
+        },
+        {
+          "question": "\"We Can Work It Out\" worked out to be one of the songs of his 1970 album \"Signed, Sealed & Delivered\"",
+          "answer": "Stevie Wonder",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY COVERED THE BEATLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g236-d-c3-r2"
+        },
+        {
+          "question": "This singer got by with a 1968 version of the Beatles song heard here:\"What would you do if I sang out of tune?...\"",
+          "answer": "Joe Cocker",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY COVERED THE BEATLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g236-d-c3-r3"
+        },
+        {
+          "question": "Written in 1966, this song was a Top 10 hit from the Beatles in 1976 & for Earth, Wind & Fire in 1978",
+          "answer": "\"Got To Get You Into My Life\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY COVERED THE BEATLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g236-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS FRIEDMANS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Stanford hired 18-year-old Harvey Friedman in 1967; he had earned his B.A. at MIT in 2 years & this degree in 1",
+          "answer": "Ph.D.",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FRIEDMANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g236-d-c4-r0"
+        },
+        {
+          "question": "Nobel economist & author of the exciting \"A Monetary History of the United States 1867-1960\"",
+          "answer": "Milton Friedman",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FRIEDMANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g236-d-c4-r1"
+        },
+        {
+          "question": "Leader of the country group The Texas Jewboys, he's also an accomplished mystery author",
+          "answer": "Kinky Friedman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FRIEDMANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g236-d-c4-r2"
+        },
+        {
+          "question": "In \"Steambath\" this author made God a steam room attendant",
+          "answer": "Bruce Jay Friedman",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FRIEDMANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g236-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "EPONYMS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This bed, raised & stored into a wall, lost its popularity when sofa convertibles came into vogue",
+          "answer": "a murphy bed",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPONYMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g236-d-c5-r0"
+        },
+        {
+          "question": "Although he led the ill-fated charge of the light brigade, this earl is best known for his sweater",
+          "answer": "Cardigan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPONYMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g236-d-c5-r1"
+        },
+        {
+          "question": "Named for a Turkish Empire, it's the stumbling block Dick Van Dyke frequently encountered",
+          "answer": "an ottoman",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EPONYMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g236-d-c5-r2"
+        },
+        {
+          "question": "A cracker is named for this dietary reformer who advocated using unsifted whole wheat flour",
+          "answer": "Dr. Sylvester Graham",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EPONYMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g236-d-c5-r3"
+        },
+        {
+          "question": "When forced into retirement, this Anglican clergyman reportedly said, \"It came as a blushing crow\"",
+          "answer": "(Reverend William Archibald) Spooner",
+          "value": 6000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EPONYMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g236-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Based on a myth, this 1913 play became a 1938 movie, a 1956 stage musical & a 1964 movie musical",
+          "answer": "Pygmalion",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "PLAYS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g236-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

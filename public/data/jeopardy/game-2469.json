@@ -1,0 +1,833 @@
+{
+  "gameId": 2469,
+  "showNumber": 5463,
+  "airDate": "May 14, 2008",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SHAKESPEARE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Desdemona's lady-in-waiting is Emilia, this man's wife",
+          "answer": "Iago",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2469-s-c0-r0"
+        },
+        {
+          "question": "Much of Act V of this play is set at Dunsinane Castle",
+          "answer": "Macbeth",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2469-s-c0-r1"
+        },
+        {
+          "question": "A shipwreck separates twin siblings Viola & Sebastian in this comedy",
+          "answer": "Twelfth Night",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2469-s-c0-r2"
+        },
+        {
+          "question": "Most of \"Hamlet\" is set in this Danish seaport",
+          "answer": "Elsinore",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2469-s-c0-r3"
+        },
+        {
+          "question": "He's described as \"The triple pillar of the world transformed into a strumpet's fool\"",
+          "answer": "Marc Antony",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2469-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP'S MUSIC",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Dad refuses to see a Guy Ritchie film because he's always had a secret crush on this \"Like A Virgin\" singer",
+          "answer": "Madonna",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP'S MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2469-s-c1-r0"
+        },
+        {
+          "question": "Dad slow dances by himself to this band's \"Stairway to Heaven\" because he's having school dance flashbacks",
+          "answer": "Led Zeppelin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP'S MUSIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2469-s-c1-r1"
+        },
+        {
+          "question": "Dad wears that dorky clock on a chain because he was into this Public Enemy before he became a VH1 reality star",
+          "answer": "Flavor Flav",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP'S MUSIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2469-s-c1-r2"
+        },
+        {
+          "question": "Dad thinks he's an O.G. because he was into these white rappers long before their album \"Ill Communication\"",
+          "answer": "the Beastie Boys",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP'S MUSIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2469-s-c1-r3"
+        },
+        {
+          "question": "Dad needs help downloading \"In Rainbows\", but he always said this Thom Yorke band was ahead of its time",
+          "answer": "Radiohead",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP'S MUSIC",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2469-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AT THE THEME PARK",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Ice cream bars shaped like this celebrity cetacean are a special treat at Sea World",
+          "answer": "Shamu",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE THEME PARK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2469-s-c2-r0"
+        },
+        {
+          "question": "You could say that this theme park in Billund, Denmark was built block by (plastic) block",
+          "answer": "Legoland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE THEME PARK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2469-s-c2-r1"
+        },
+        {
+          "question": "A highlight of Silver Dollar City in Branson is a tour of Marvel Cave, the deepest cave in this state",
+          "answer": "Missouri",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE THEME PARK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2469-s-c2-r2"
+        },
+        {
+          "question": "Uh-oh! Monsieur Cannibale wants you to ride in a cooking pot at Efteling theme park in this low country",
+          "answer": "the Netherlands",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AT THE THEME PARK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2469-s-c2-r3"
+        },
+        {
+          "question": "Can-can girls have returned to N.C.: Ghost Town in the Sky has re-opened in these \"Great\" mountains",
+          "answer": "the Great Smoky Mountains",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE THEME PARK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2469-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE RUSSIANS ARE COMING",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This \"great\" Russian czar tricked his wayward son Alexis into coming home--bad move for Alex",
+          "answer": "Peter the Great",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE RUSSIANS ARE COMING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2469-s-c3-r0"
+        },
+        {
+          "question": "Playwright who introduced us to a title uncle & later to \"Three Sisters\"",
+          "answer": "Anton Chekhov",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RUSSIANS ARE COMING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2469-s-c3-r1"
+        },
+        {
+          "question": "The only son of Nicholas II, Alexis was the last male heir born to this royal family while it ruled Russia",
+          "answer": "the Romanovs",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RUSSIANS ARE COMING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2469-s-c3-r2"
+        },
+        {
+          "question": "On April 14, 1961 this cosmonaut was awarded the honor \"Hero of the Soviet Union\"",
+          "answer": "(Yuri) Gagarin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RUSSIANS ARE COMING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2469-s-c3-r3"
+        },
+        {
+          "question": "This chemist developed the periodic table, & element 101 was later named for him",
+          "answer": "Mendeleev",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RUSSIANS ARE COMING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2469-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"OFF\" CAMPUS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Not connected to the Internet",
+          "answer": "offline",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OFF\" CAMPUS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2469-s-c4-r0"
+        },
+        {
+          "question": "An outrage to one's sensibilities or half the players on a football field",
+          "answer": "offense",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OFF\" CAMPUS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2469-s-c4-r1"
+        },
+        {
+          "question": "Non-tailored clothing bought as is",
+          "answer": "off the rack",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OFF\" CAMPUS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2469-s-c4-r2"
+        },
+        {
+          "question": "A colonel or a major, but not a sergeant",
+          "answer": "an officer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OFF\" CAMPUS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2469-s-c4-r3"
+        },
+        {
+          "question": "An unaccented unit in music, or an adjective meaning \"unusual\"",
+          "answer": "offbeat",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OFF\" CAMPUS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2469-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BREWERS, BUCKS & PACKERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A typical coffee berry contains 2 of these that are roasted, ground & brewed to make coffee",
+          "answer": "seeds (or beans)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2469-s-c5-r0"
+        },
+        {
+          "question": "Get your butt in gear & know this anatomical term for a small zippered pouch suspended from a belt",
+          "answer": "a fanny pack",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2469-s-c5-r1"
+        },
+        {
+          "question": "Heart attack survivor Kerry Packer gave $3 mil. for portable these, aka \"Packer Whackers\", to local ambulances",
+          "answer": "defibrillators",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2469-s-c5-r2"
+        },
+        {
+          "question": "On June 28, 1919 the buck stopped for Bess Wallace when she married this young man, home from WWI",
+          "answer": "(Harry) Truman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2469-s-c5-r3"
+        },
+        {
+          "question": "In 1861 a brewer with this last name gave $408,000 to the trustees at a Poughkeepsie women's college",
+          "answer": "Vassar",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2469-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. PLACE NAMES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The name of this state capital & port city is French for \"red stick\"",
+          "answer": "Baton Rouge",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PLACE NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2469-d-c0-r0"
+        },
+        {
+          "question": "One of the world's largest steel plants can be found in this Indiana city named for a chairman of U.S. Steel",
+          "answer": "Gary",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. PLACE NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2469-d-c0-r1"
+        },
+        {
+          "question": "Bartholomew Gosnold may have named this Mass. island for his daughter & for the plants he found there",
+          "answer": "Martha's Vineyard",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. PLACE NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2469-d-c0-r2"
+        },
+        {
+          "question": "Haakon County, South Dakota was named for a king of this country",
+          "answer": "Norway",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. PLACE NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2469-d-c0-r3"
+        },
+        {
+          "question": "He wrote the poem from which Pippa Passes, Kentucky took its name",
+          "answer": "Robert Browning",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. PLACE NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2469-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS COLLEGE DROPOUTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This conservative radio talk show host dropped out of SE Missouri State after flunking ballroom dancing",
+          "answer": "Rush Limbaugh",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS COLLEGE DROPOUTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2469-d-c1-r0"
+        },
+        {
+          "question": "This Russian novelist dropped out of college after 3 years & then wrote \"Anna Karenina\"",
+          "answer": "Tolstoy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS COLLEGE DROPOUTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2469-d-c1-r1"
+        },
+        {
+          "question": "She dropped out of Columbia Univ. to sign with Columbia Records & later won a Grammy for \"My Boo\"",
+          "answer": "Alicia Keys",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS COLLEGE DROPOUTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2469-d-c1-r2"
+        },
+        {
+          "question": "After dropping out of the Univ. of Maryland, he exposed the Watergate scandal with Bob Woodward",
+          "answer": "Carl Bernstein",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS COLLEGE DROPOUTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2469-d-c1-r3"
+        },
+        {
+          "question": "This inspirational TV pastor dropped out of Oral Roberts University before writing the bestseller \"Your Best Life Now\"",
+          "answer": "Joel Osteen",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS COLLEGE DROPOUTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2469-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HELLO KITTY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Turkish Angora is named for this Turkish city",
+          "answer": "Ankara",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELLO KITTY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2469-d-c2-r0"
+        },
+        {
+          "question": "The \"fold\" in the name of the Scottish Fold refers to these folded-down features",
+          "answer": "the ears",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HELLO KITTY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2469-d-c2-r1"
+        },
+        {
+          "question": "This color follows \"Russian\" in the name of a cat breed; it actually refers to various shades of gray",
+          "answer": "blue",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HELLO KITTY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2469-d-c2-r2"
+        },
+        {
+          "question": "Eugene Field's poem \"The Duel\" tells of a fight between a gingham dog & this cat, a tortoiseshell & white coat pattern",
+          "answer": "a calico",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELLO KITTY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2469-d-c2-r3"
+        },
+        {
+          "question": "The riddle of this cat breed seen here: Is it a pet, or is it art?",
+          "answer": "a Sphynx",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELLO KITTY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2469-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE NEW YORK TIMES TECH BIZ",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Times exposed memos from this company's execs who had trouble upgrading to its Vista operating system",
+          "answer": "Microsoft",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEW YORK TIMES TECH BIZ",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2469-d-c3-r0"
+        },
+        {
+          "question": "Hoping to regain its luster, this Time Warner online service is buying the no. 3 social networking site, Bebo",
+          "answer": "AOL",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEW YORK TIMES TECH BIZ",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2469-d-c3-r1"
+        },
+        {
+          "question": "The Times cites an estimate that in 2007, its 3rd year, this site used as much bandwidth as the entire Internet in 2000",
+          "answer": "YouTube",
+          "value": 3300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEW YORK TIMES TECH BIZ",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2469-d-c3-r2"
+        },
+        {
+          "question": "The Times reported Best Buy is giving $50 gift cards to buyers of this format that is on the losing end of the video battle",
+          "answer": "HD-DVD",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEW YORK TIMES TECH BIZ",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2469-d-c3-r3"
+        },
+        {
+          "question": "The David Pogue blog says the iPhone with push email is gunning for this most popular smartphone",
+          "answer": "the BlackBerry",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE NEW YORK TIMES TECH BIZ",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2469-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TAKE A LETTER",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Desmond Llewelyn played this gadget man in 17 James Bond films",
+          "answer": "Q",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A LETTER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2469-d-c4-r0"
+        },
+        {
+          "question": "In the English alphabet, it's the only polysyllabic letter",
+          "answer": "W",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A LETTER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2469-d-c4-r1"
+        },
+        {
+          "question": "Used with an apostrophe, this letter can be a contraction of had, would & did",
+          "answer": "D",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A LETTER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2469-d-c4-r2"
+        },
+        {
+          "question": "On a bowling scoresheet, a diagonal line represents a spare & this letter, a strike",
+          "answer": "an X",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A LETTER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2469-d-c4-r3"
+        },
+        {
+          "question": "All Japanese words end in a vowel or this consonant",
+          "answer": "an N",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TAKE A LETTER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2469-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BREWERS, BUCKS & PACKERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "On March 4, 2008 this Packer quarterback called it quits (probably)",
+          "answer": "Brett Favre",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2469-d-c5-r0"
+        },
+        {
+          "question": "He hit 22 of his 755 career HRs as a Brewer; he hit 398 as a Milwaukee Brave",
+          "answer": "Hank Aaron",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2469-d-c5-r1"
+        },
+        {
+          "question": "In 1970-71 this master of the skyhook averaged 31.7 ppg & led the Bucks to an NBA title",
+          "answer": "Kareem Abdul-Jabbar (or Lew Alcindor)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2469-d-c5-r2"
+        },
+        {
+          "question": "Guess winning was the only thing for him; he coached the Pack to 5 NFL titles",
+          "answer": "Lombardi",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2469-d-c5-r3"
+        },
+        {
+          "question": "\"Royal\" first name of Mr. Fielder, who hit 50 HRs for the Brewers in 2007; his first name is this, & he is funky\"",
+          "answer": "Prince",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BREWERS, BUCKS & PACKERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2469-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the last week of the John Tyler administration, this republic was offered statehood",
+          "answer": "Texas",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AMERICAN HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2469-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 3103,
+  "showNumber": 3700,
+  "airDate": "October 6, 2000",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MATH",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the square root of 81",
+          "answer": "9",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3103-s-c0-r0"
+        },
+        {
+          "question": "156 divided by 6",
+          "answer": "26",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3103-s-c0-r1"
+        },
+        {
+          "question": "5 cubed",
+          "answer": "125",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3103-s-c0-r2"
+        },
+        {
+          "question": "They're all of the factors of 8",
+          "answer": "1, 2, 4 & 8",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3103-s-c0-r3"
+        },
+        {
+          "question": "1/3 plus 1/4",
+          "answer": "7/12",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3103-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICAL INSTRUMENTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Seen here, this is a real \"hands-on\" instrument",
+          "answer": "bongo drums",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3103-s-c1-r0"
+        },
+        {
+          "question": "The name of this small guitar-like instrument popular in Hawaii is Hawaiian for \"jumping flea\"",
+          "answer": "ukulele",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3103-s-c1-r1"
+        },
+        {
+          "question": "You need a lot of hot air to play this instrument",
+          "answer": "the bagpipes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3103-s-c1-r2"
+        },
+        {
+          "question": "This orchestral giant can have up to 48 strings & measure nearly 6 feet tall",
+          "answer": "harp",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3103-s-c1-r3"
+        },
+        {
+          "question": "This string quartet instrument that's deeply pitched & slightly larger than a violin has a similar name",
+          "answer": "viola",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL INSTRUMENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3103-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOU'RE HISTORY!",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In December 1620, 3 months after leaving Plymouth, England, this ship arrived at Plymouth, Massachusetts",
+          "answer": "the Mayflower",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'RE HISTORY!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3103-s-c2-r0"
+        },
+        {
+          "question": "From the type of animal that he hunted, wild west legend William Cody was better known by this nickname",
+          "answer": "\"Buffalo Bill\" Cody",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'RE HISTORY!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3103-s-c2-r1"
+        },
+        {
+          "question": "A great gold rush in 1848 sent thousands of people rushing to this state",
+          "answer": "California",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'RE HISTORY!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3103-s-c2-r2"
+        },
+        {
+          "question": "More lives were lost in this war that began in 1939 than in any other war in history",
+          "answer": "World War II",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'RE HISTORY!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3103-s-c2-r3"
+        },
+        {
+          "question": "He was searching for the island of Bimini & the Fountain of Youth when he landed off Florida in 1513",
+          "answer": "Ponce de Leon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU'RE HISTORY!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3103-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPEAKING OF LANGUAGE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Of 270, 2,700 or 27,000, the one closest to the total number of languages in the world",
+          "answer": "2,700",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEAKING OF LANGUAGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3103-s-c3-r0"
+        },
+        {
+          "question": "1 of the 2 official languages of Israel",
+          "answer": "Hebrew (or Arabic)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEAKING OF LANGUAGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3103-s-c3-r1"
+        },
+        {
+          "question": "Ello-hay is the way to say hello in this funny form of \"Latin\"",
+          "answer": "Pig Latin",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEAKING OF LANGUAGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3103-s-c3-r2"
+        },
+        {
+          "question": "This is the universally accepted international language on international airline flights",
+          "answer": "English",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEAKING OF LANGUAGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3103-s-c3-r3"
+        },
+        {
+          "question": "Portuguese is the official language of this largest South American country",
+          "answer": "Brazil",
+          "value": 900,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPEAKING OF LANGUAGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3103-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "A COUNTRY IN EUROPE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Major cities in this country include Marseilles, Orleans & Lyon",
+          "answer": "France",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COUNTRY IN EUROPE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3103-s-c4-r0"
+        },
+        {
+          "question": "Most ruins of the civilizations of the ancient Spartans & Athenians can be found in this European nation",
+          "answer": "Greece",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COUNTRY IN EUROPE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3103-s-c4-r1"
+        },
+        {
+          "question": "The Apennines mountain chain occupies the center of this European nation's boot-like peninsula",
+          "answer": "Italy",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COUNTRY IN EUROPE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3103-s-c4-r2"
+        },
+        {
+          "question": "The University of Limerick is a leading educational institution in this European nation",
+          "answer": "Ireland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COUNTRY IN EUROPE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3103-s-c4-r3"
+        },
+        {
+          "question": "King Juan Carlos I is the reigning monarch of this European nation of about 40 million people",
+          "answer": "Spain",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COUNTRY IN EUROPE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3103-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CARTOON NETWORK",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Ranger Smith works in this park",
+          "answer": "Jellystone Park",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON NETWORK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3103-s-c5-r0"
+        },
+        {
+          "question": "He was brought into \"The Flintstones\" to give Pebbles a playmate",
+          "answer": "Bamm-Bamm",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON NETWORK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3103-s-c5-r1"
+        },
+        {
+          "question": "Daphne & Velma are the women in this dog's gang",
+          "answer": "Scooby-Doo",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON NETWORK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3103-s-c5-r2"
+        },
+        {
+          "question": "This boy genius would prefer his sister Dee Dee stay out of his laboratory",
+          "answer": "Dexter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARTOON NETWORK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3103-s-c5-r3"
+        },
+        {
+          "question": "The network's website has new adventures of this group made up of Fleegle, Bingo, Drooper & Snorky",
+          "answer": "the Banana Splits",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CARTOON NETWORK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3103-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Idaho's capital; it's the state's largest city as well",
+          "answer": "Boise",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3103-d-c0-r0"
+        },
+        {
+          "question": "The name of this U.S.-Mexico river is Spanish for \"large river\"",
+          "answer": "the Rio Grande",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3103-d-c0-r1"
+        },
+        {
+          "question": "It's both the farthest north & the farthest west of the Great Lakes",
+          "answer": "Lake Superior",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3103-d-c0-r2"
+        },
+        {
+          "question": "Sometimes called the \"Tip of the Continent\", it's the only U.S. mountain whose peak exceeds 20,000 feet",
+          "answer": "Mount McKinley",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3103-d-c0-r3"
+        },
+        {
+          "question": "This vast southern California desert is a chief source of boron, which is used in nuclear reactors",
+          "answer": "the Mojave Desert",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3103-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIRCUS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "For the Big Apple Circus, it takes a crew of 35 5 hours to set this up, & 3 hours to take it down",
+          "answer": "the (big) tent",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3103-d-c1-r0"
+        },
+        {
+          "question": "The Flying Gaonas are famous for performing on this \"flying\" apparatus",
+          "answer": "the trapeze",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3103-d-c1-r1"
+        },
+        {
+          "question": "Cirque du Soleil's Mystere show, seen here, is a highlight of the Treasure Island resort in this desert city",
+          "answer": "Las Vegas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3103-d-c1-r2"
+        },
+        {
+          "question": "You might learn to juggle or even ride an elephant at the Circus World Museum in Baraboo in this dairy state",
+          "answer": "Wisconsin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3103-d-c1-r3"
+        },
+        {
+          "question": "In a 1999 TV miniseries, Beau Bridges played this great circus showman",
+          "answer": "P.T. Barnum",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIRCUS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3103-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "A LITTLE LIGHT READING",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A popular series of books by Madeleine L'Engle kicks off with \"A Wrinkle in\" this",
+          "answer": "Time",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE LIGHT READING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3103-d-c2-r0"
+        },
+        {
+          "question": "Of ride a bike, learn the alphabet or perform open-heart surgery, what Curious George never did",
+          "answer": "perform open-heart surgery",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE LIGHT READING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3103-d-c2-r1"
+        },
+        {
+          "question": "In her \"Files\" & \"Mysteries\" she solves crimes in a format for older teens; her \"Notebooks\" are for kids",
+          "answer": "Nancy Drew",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE LIGHT READING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3103-d-c2-r2"
+        },
+        {
+          "question": "Milo meets a watchdog named Tock on his journey in this classic book",
+          "answer": "\"The Phantom Tollbooth\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE LIGHT READING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3103-d-c2-r3"
+        },
+        {
+          "question": "The Reverend Awdry's tales of this tank engine began as bedtime stories for his kids",
+          "answer": "Thomas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A LITTLE LIGHT READING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3103-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PERSON, PLACE OR THING",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The thing is a cut of beef near the neck; the person is TV host Woolery",
+          "answer": "Chuck",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3103-d-c3-r0"
+        },
+        {
+          "question": "The place is an Asian country; the thing is cups & plates made from ceramic materials",
+          "answer": "China",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3103-d-c3-r1"
+        },
+        {
+          "question": "The place is part of a city enclosed by 4 streets; the thing is a small cube kids use in building",
+          "answer": "block",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3103-d-c3-r2"
+        },
+        {
+          "question": "The person is a famous car manufacturer; the place is a spot shallow enough to cross a river",
+          "answer": "Ford",
+          "value": 2600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3103-d-c3-r3"
+        },
+        {
+          "question": "The person is a policeman in slang; the thing is a reddish-brown metal",
+          "answer": "copper",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3103-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GARDENING",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Fruit grown in a vineyard",
+          "answer": "grapes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GARDENING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3103-d-c4-r0"
+        },
+        {
+          "question": "They're defined as \"plants in the wrong place\"; ideally, they should be pulled out of your garden weekly",
+          "answer": "weeds",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GARDENING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3103-d-c4-r1"
+        },
+        {
+          "question": "Knowing that some irises start as these, not seeds, should make a light go on above your head",
+          "answer": "bulbs",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GARDENING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3103-d-c4-r2"
+        },
+        {
+          "question": "The yellow & white flower seen here; Donald might \"duck\" out to get some as a gift",
+          "answer": "daisy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GARDENING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3103-d-c4-r3"
+        },
+        {
+          "question": "It's a miniature garden in a glass container",
+          "answer": "terrarium",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GARDENING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3103-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT'S AMAZING!",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "During liftoff, these reusable spacecraft, like the Atlantis, reach speeds over 3,000 MPH",
+          "answer": "the space shuttles",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S AMAZING!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3103-d-c5-r0"
+        },
+        {
+          "question": "In 1983 a record low temperature, -128.6 degrees F., was recorded at Vostok on this icy continent",
+          "answer": "Antarctica",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S AMAZING!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3103-d-c5-r1"
+        },
+        {
+          "question": "This large bird can grow up to 8 feet tall, weigh 345 pounds & have eyeballs 2 inches in diameter",
+          "answer": "ostrich",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S AMAZING!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3103-d-c5-r2"
+        },
+        {
+          "question": "This country that has Helsinki as its capital has almost one cell phone for every 2 people",
+          "answer": "Finland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S AMAZING!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3103-d-c5-r3"
+        },
+        {
+          "question": "The Goliath bird-eating variety of this arachnid can grow up to 11 inches across",
+          "answer": "spider",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S AMAZING!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3103-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS LANDMARKS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Its nose is 4 1/2 feet long, its right arm stretches 42 feet & its torch is 21 feet tall",
+          "answer": "the Statue of Liberty",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS LANDMARKS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3103-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

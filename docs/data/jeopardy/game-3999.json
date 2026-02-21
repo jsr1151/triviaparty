@@ -1,0 +1,785 @@
+{
+  "gameId": 3999,
+  "showNumber": 6464,
+  "airDate": "October 25, 2012",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE 5 SENSES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Though it sounds like an aged building for assembling goods, this system is just the sense of smell",
+          "answer": "the olfactory system",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 5 SENSES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3999-s-c0-r0"
+        },
+        {
+          "question": "Vision occurs when an image focuses on this inner layer of the eyeball, actually an extension of the brain",
+          "answer": "the retina",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 5 SENSES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3999-s-c0-r1"
+        },
+        {
+          "question": "In humans, taste receptors are not just on the tongue but also on this, the roof of the mouth",
+          "answer": "the palate",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 5 SENSES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3999-s-c0-r2"
+        },
+        {
+          "question": "The eardrum is also called this membrane",
+          "answer": "the tympanic membrane",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 5 SENSES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3999-s-c0-r3"
+        },
+        {
+          "question": "On animals these, also known as vibrissae, act as tactile organs",
+          "answer": "whiskers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 5 SENSES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3999-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HEARING",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A removal hearing is a step toward this, sending an illegal alien back to his or her homeland",
+          "answer": "deportation",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3999-s-c1-r0"
+        },
+        {
+          "question": "In criminal cases, a Jackson-Denno hearing usually determines whether this type of statement was voluntary",
+          "answer": "confession",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3999-s-c1-r1"
+        },
+        {
+          "question": "This word that follows \"bail\" is also the type of hearing that sets the amount of a defendant's bail",
+          "answer": "bond",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HEARING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3999-s-c1-r2"
+        },
+        {
+          "question": "If you share one of these with another defendant in the same trial, a Garcia hearing makes sure you know you can trade him in",
+          "answer": "lawyer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3999-s-c1-r3"
+        },
+        {
+          "question": "This 10-letter type of hearing figures out whether someone has the mental capacity to stand trial",
+          "answer": "competence",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HEARING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3999-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SMELL",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Your nose knows it can mean a bunch of flowers as well as the characteristic smell of wines",
+          "answer": "bouquet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMELL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3999-s-c2-r0"
+        },
+        {
+          "question": "This 5-letter word for a good scent precedes \"therapy\" in a treatment using good smells",
+          "answer": "aroma",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMELL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3999-s-c2-r1"
+        },
+        {
+          "question": "The National Rotten Sneaker Contest is sponsored by the brand called this-eaters",
+          "answer": "odor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMELL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3999-s-c2-r2"
+        },
+        {
+          "question": "The Paris Hilton men collection includes this type of scent named for a German city",
+          "answer": "cologne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMELL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3999-s-c2-r3"
+        },
+        {
+          "question": "Add a letter to \"acid\" & you get this adjective for an irritating smell",
+          "answer": "acrid",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SMELL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3999-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TASTE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "I show my exquisite taste by collecting this genre of oil painting seen here",
+          "answer": "a still life",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TASTE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3999-s-c3-r0"
+        },
+        {
+          "question": "Keep your hot jazz; I prefer this opposite type, a word found in a 1957 Miles Davis album title",
+          "answer": "cool (jazz)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TASTE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3999-s-c3-r1"
+        },
+        {
+          "question": "Why yes, it is an authentic Gobelin one of these woven wall hangings (imitations are so tawdry)",
+          "answer": "tapestry",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TASTE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3999-s-c3-r2"
+        },
+        {
+          "question": "Simple yet elegant--I only drink tea from china cups made by this pottery master born in 1730",
+          "answer": "Wedgwood",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TASTE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3999-s-c3-r3"
+        },
+        {
+          "question": "No one sings the role of Norma like this Greek-American soprano who died in 1977",
+          "answer": "(Maria) Callas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TASTE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3999-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SITE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "An FAQ on this agency's .gov website asks, \"What is a split refund?\"",
+          "answer": "the IRS",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SITE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3999-s-c4-r0"
+        },
+        {
+          "question": "This news website that lets you share \"top news\" sounds like it's trying to get to China the hard way",
+          "answer": "Digg",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SITE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3999-s-c4-r1"
+        },
+        {
+          "question": "Insider content on this website can get you NBA Rumor Central or NFL draft analysis by Mel Kiper, Jr.",
+          "answer": "ESPN",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SITE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3999-s-c4-r2"
+        },
+        {
+          "question": "The front page of this \"database\", an Amazon company, lists box office tallies & tells you what's opening this week",
+          "answer": "imdb",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SITE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3999-s-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "TOUCHÉ",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In a 1998 film Antonio Banderas as this swordsman wreaks havoc on Catherine Zeta-Jones' clothing",
+          "answer": "Zorro",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUCHÉ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3999-s-c5-r0"
+        },
+        {
+          "question": "Split into two parts, this film finds the bride imploring Hattori Hanzo to make her a sword so she can get revenge",
+          "answer": "Kill Bill",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUCHÉ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3999-s-c5-r1"
+        },
+        {
+          "question": "In this 1986 film Sean Connery as Juan Sanchez Villa-Lobos Ramirez instructs Connor MacLeod in swordplay",
+          "answer": "Highlander",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TOUCHÉ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3999-s-c5-r2"
+        },
+        {
+          "question": "Swordplay in movies like 1926's \"The Black Pirate\" earned this \"senior\" actor the title \"king of the swashbucklers\"",
+          "answer": "Douglas Fairbanks, Sr.",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TOUCHÉ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3999-s-c5-r3"
+        },
+        {
+          "question": "Christopher Guest prepares to die as this actor avenges his dad's death in \"The Princess Bride\"",
+          "answer": "Mandy Patinkin",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUCHÉ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3999-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NAME THAT CENTURY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The USA's Free Soil Party peaks in popularity",
+          "answer": "the 19th century",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT CENTURY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3999-d-c0-r0"
+        },
+        {
+          "question": "Robespierre sends many to their deaths & meets his own",
+          "answer": "the 18th century",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT CENTURY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3999-d-c0-r1"
+        },
+        {
+          "question": "Gallipoli becomes an epic disaster for Britain's military",
+          "answer": "the 20th century",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT CENTURY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3999-d-c0-r2"
+        },
+        {
+          "question": "Cortez conquers the Aztecs",
+          "answer": "the 16th century",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT CENTURY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3999-d-c0-r3"
+        },
+        {
+          "question": "Muhammad's forces conquer Mecca",
+          "answer": "the 7th century",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAME THAT CENTURY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3999-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MTV VIDEO MUSIC AWARDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "1984, at the first VMAs, Best Cinematography: this group's \"Every Breath You Take\"",
+          "answer": "The Police",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MTV VIDEO MUSIC AWARDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3999-d-c1-r0"
+        },
+        {
+          "question": "2005, Best Male Video: \"Jesus Walks\" (No one interrupted his speech)",
+          "answer": "Kanye West",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MTV VIDEO MUSIC AWARDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3999-d-c1-r1"
+        },
+        {
+          "question": "2000, Best Pop Video: \"Bye Bye Bye\" (a boy band)",
+          "answer": "'N Sync",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MTV VIDEO MUSIC AWARDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3999-d-c1-r2"
+        },
+        {
+          "question": "2003, Best Group Video: \"The Scientist\" (those Brits give us chills)",
+          "answer": "Coldplay",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MTV VIDEO MUSIC AWARDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3999-d-c1-r3"
+        },
+        {
+          "question": "2011, Best Pop Video: \"Till The World Ends\" (the fans didn't leave her alone)",
+          "answer": "Britney Spears",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MTV VIDEO MUSIC AWARDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3999-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOOKS & AUTHORS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Norman Mailer was one of the founders of this alternative NYC tabloid in 1955",
+          "answer": "The Village Voice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3999-d-c2-r0"
+        },
+        {
+          "question": "To finance a move to Jamaica in 1786, this Scotsman began selling a book of his poems that became a huge hit; he didn't move",
+          "answer": "Robert Burns",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3999-d-c2-r1"
+        },
+        {
+          "question": "Margaret Wise Brown, author of this 1947 book about a bunny's bedtime, loved to hunt rabbits",
+          "answer": "Goodnight Moon",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3999-d-c2-r2"
+        },
+        {
+          "question": "The title of this E. M. Forster novel refers to a country house, not to someone's death",
+          "answer": "Howards End",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3999-d-c2-r3"
+        },
+        {
+          "question": "To disprove rumors of body-stealing after his 1778 death, his grave in Paris' Panthéon was opened in 1897; he's in there",
+          "answer": "Voltaire",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3999-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "EURO COINS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This man, the father of Spanish literature, is on Spain's 50-cent coins",
+          "answer": "Cervantes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EURO COINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3999-d-c3-r0"
+        },
+        {
+          "question": "This gate, a symbol of German division & reunification, is on Germany's 10-, 20-, & 50-cent coins",
+          "answer": "the Brandenburg Gate",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EURO COINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3999-d-c3-r1"
+        },
+        {
+          "question": "This 3-word motto of the French Republic is on France's 1- & 2-euro coins",
+          "answer": "liberté, égalité & fraternité",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EURO COINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3999-d-c3-r2"
+        },
+        {
+          "question": "This queen is seen in profile on all of the Netherlands' euro coins",
+          "answer": "Queen Beatrix",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EURO COINS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3999-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "ONE MAN, ONE BOAT",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1969 Robin Knox-Johnston sailed around the world solo & nonstop, earning a trophy called this, like an acting award",
+          "answer": "Golden Globe",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ONE MAN, ONE BOAT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3999-d-c4-r0"
+        },
+        {
+          "question": "Edward Miles took the short way around, sailing solo through this canal completed in 1869",
+          "answer": "the Suez Canal",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE MAN, ONE BOAT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3999-d-c4-r1"
+        },
+        {
+          "question": "(Sarah of the Clue Crew shows a map on the monitor.)  The Panama Canal hadn't been built in 1895, so Joshua Slocum, the first man to sail solo around the world, took the long way, passing through this strait on his three-year voyage",
+          "answer": "the Strait of Magellan",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ONE MAN, ONE BOAT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3999-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "A \"HA\"!",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Hyphenated term for an article of clothing passed on from one person who's outgrown it to the next",
+          "answer": "a hand-me-down",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A \"HA\"!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3999-d-c5-r0"
+        },
+        {
+          "question": "Something for sale at an auction is said to be \"under\" this",
+          "answer": "the hammer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A \"HA\"!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3999-d-c5-r1"
+        },
+        {
+          "question": "A shrewish woman is sometimes called this, after a mythical monster that was part woman & part vulture",
+          "answer": "a harpy",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A \"HA\"!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3999-d-c5-r2"
+        },
+        {
+          "question": "Hot enough for you? These peppers named for a Caribbean capital definitely will be",
+          "answer": "habaneros",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A \"HA\"!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3999-d-c5-r3"
+        },
+        {
+          "question": "From the 13th to the 15th centuries, commercial activity in northern Europe was dominated by this league",
+          "answer": "the Hanseatic League",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A \"HA\"!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3999-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD LANGUAGES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Of the Romance languages, it has the greatest number of native speakers in a single country",
+          "answer": "Portuguese",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WORLD LANGUAGES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3999-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

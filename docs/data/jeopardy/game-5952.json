@@ -1,0 +1,833 @@
+{
+  "gameId": 5952,
+  "showNumber": 7736,
+  "airDate": "April 9, 2018",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ROWLING ADMISSIONS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "J.K. Rowling stunned fans when she admitted this character should have married Harry Potter, not Ron",
+          "answer": "Hermione",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROWLING ADMISSIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5952-s-c0-r0"
+        },
+        {
+          "question": "Rowling said the only character her editor saw her cry over killing was Remus Lupin, who was one of these monsters",
+          "answer": "a werewolf",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROWLING ADMISSIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5952-s-c0-r1"
+        },
+        {
+          "question": "Rowling said one question she hates being asked is why this smallest ball in Quidditch is worth 150 points",
+          "answer": "the Snitch",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROWLING ADMISSIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5952-s-c0-r2"
+        },
+        {
+          "question": "Rowling revealed she created these cloaked Azkaban guards after her own battles with depression",
+          "answer": "dementors",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROWLING ADMISSIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5952-s-c0-r3"
+        },
+        {
+          "question": "After a lawyer accidentally outed her, Rowling had to admit she wrote this alliterative 2013 mystery",
+          "answer": "Cuckoo's Calling",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROWLING ADMISSIONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5952-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANDMARKS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Cave of the Winds tour provides an up-close view of these falls in upstate New York",
+          "answer": "Niagara Falls",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANDMARKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5952-s-c1-r0"
+        },
+        {
+          "question": "A legend says John Alden was the first to set foot on this slab made of Dedham granite",
+          "answer": "Plymouth Rock",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LANDMARKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5952-s-c1-r1"
+        },
+        {
+          "question": "The gardens of this palace outside of Paris are the masterwork of landscape architect Andre le Notre",
+          "answer": "Versailles",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANDMARKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5952-s-c1-r2"
+        },
+        {
+          "question": "Cherry Island is in this Scottish lake that has the largest volume of fresh water in Great Britain",
+          "answer": "Loch Ness",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANDMARKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5952-s-c1-r3"
+        },
+        {
+          "question": "You'll find the Peace Memorial or Genbaku Dome in this Asian city",
+          "answer": "Hiroshima",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LANDMARKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5952-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "DORM LIFE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Generally, colleges don't use the term dormitory; they prefer this type of \"hall\"",
+          "answer": "a residence hall",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DORM LIFE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5952-s-c2-r0"
+        },
+        {
+          "question": "You don't want to be locked out again, so get this 7-letter item used by sailors to hold your key",
+          "answer": "a lanyard",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DORM LIFE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5952-s-c2-r1"
+        },
+        {
+          "question": "You can buy kits for making these overhead bunks to free up space below",
+          "answer": "lofts (or loft beds)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DORM LIFE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5952-s-c2-r2"
+        },
+        {
+          "question": "When a bathroom is shared between 2 suites, it's named for this nursery rhyme pair",
+          "answer": "Jack & Jill",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DORM LIFE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5952-s-c2-r3"
+        },
+        {
+          "question": "Upgrade your mattress with a foam topper named for this type of crate",
+          "answer": "an egg crate",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DORM LIFE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5952-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "A STITCH IN TIME",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This 4-letter ancient Roman outer garment was draped over the shoulder & made of white wool",
+          "answer": "a toga",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A STITCH IN TIME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5952-s-c3-r0"
+        },
+        {
+          "question": "Popular in the 1960s, '70s & today, these wide-legged jeans that flare out from the knee to the ankle are also called flares",
+          "answer": "bell-bottoms",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A STITCH IN TIME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5952-s-c3-r1"
+        },
+        {
+          "question": "Until she wore a white wedding gown for her 1840 royal wedding, most women wore their best dress for their nuptials",
+          "answer": "Victoria",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A STITCH IN TIME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5952-s-c3-r2"
+        },
+        {
+          "question": "Plaid flannel shirts were a big part of this '90s style of fashion & music associated with Nirvana",
+          "answer": "grunge",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A STITCH IN TIME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5952-s-c3-r3"
+        },
+        {
+          "question": "Brr! This two-word name for a look that's recently on-trend comes from a distinct feature of the sleeve",
+          "answer": "open shoulder",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A STITCH IN TIME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5952-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAVES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Though hitter-friendly Coors Field is his home park, Greg Holland of this team tied for the 2017 NL lead in saves",
+          "answer": "the Colorado Rockies",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAVES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5952-s-c4-r0"
+        },
+        {
+          "question": "From 1976 to 2012 a Relief Man award from this antacid brand was coveted by MLB closers",
+          "answer": "Rolaids",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAVES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5952-s-c4-r1"
+        },
+        {
+          "question": "When a closer enters a close game & gives up the tying run, it's B.S., this for short",
+          "answer": "a blown save",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAVES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5952-s-c4-r2"
+        },
+        {
+          "question": "In an interleague game vs. the Mets, Yankees closer Mariano Rivera got his 500th save & 1st one of these, via a walk as a batter",
+          "answer": "RBI or run batted in",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAVES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5952-s-c4-r3"
+        },
+        {
+          "question": "Superb as a starter for this Southern team, John Smoltz moved to closer & nabbed 55 saves one year",
+          "answer": "the Atlanta Braves",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAVES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5952-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "9 (LETTER WORDS)",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's a swimming stroke as well as a type of wrestling, skiing & skating",
+          "answer": "freestyle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "9 (LETTER WORDS)",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5952-s-c5-r0"
+        },
+        {
+          "question": "In a fairy tale Jack climbs it to a magic castle in the clouds",
+          "answer": "a beanstalk",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "9 (LETTER WORDS)",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5952-s-c5-r1"
+        },
+        {
+          "question": "Types of this, which is often unleavened, include tortilla, pita & chapati",
+          "answer": "flatbread",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "9 (LETTER WORDS)",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5952-s-c5-r2"
+        },
+        {
+          "question": "This type of combatant is seen in the painting \"Thumbs Down\"",
+          "answer": "a gladiator",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "9 (LETTER WORDS)",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5952-s-c5-r3"
+        },
+        {
+          "question": "In math, it's the set of real numbers; in \"Star Trek\", the space-time one got messed with quite a bit",
+          "answer": "a continuum",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "9 (LETTER WORDS)",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5952-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRY THIS ON FOR SCIENCE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Cyanobacteria, which can occur in tide pools, hot springs & ice-covered lakes, are AKA blue-green this",
+          "answer": "algae",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRY THIS ON FOR SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5952-d-c0-r0"
+        },
+        {
+          "question": "(Kelly of the Clue Crew shows DNA bases on the monitor.) A single alteration in the sequence of bases in a DNA molecule, such as a change from thymine to cytosine, is the point type of this",
+          "answer": "mutation",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRY THIS ON FOR SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5952-d-c0-r1"
+        },
+        {
+          "question": "It's 1,836 times the mass of an electron & equal & opposite in charge",
+          "answer": "a proton",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRY THIS ON FOR SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5952-d-c0-r2"
+        },
+        {
+          "question": "There are 602 sextillion, 200 quintillion atoms in one of these standard international base units",
+          "answer": "a mole",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRY THIS ON FOR SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5952-d-c0-r3"
+        },
+        {
+          "question": "It's a watch brand & a Nissan your parents drove--oh, & a star that emits regular bursts of radio waves",
+          "answer": "a pulsar",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRY THIS ON FOR SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5952-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DUAL CITIZENS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This actress, who has Cambodian citizenship, directed \"First They Killed My Father\" there",
+          "answer": "Angelina Jolie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUAL CITIZENS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5952-d-c1-r0"
+        },
+        {
+          "question": "Spain overlooked its rules on dual citizenships with Ricky Martin & Benicio Del Toro, who are from this U.S. island",
+          "answer": "Puerto Rico",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUAL CITIZENS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5952-d-c1-r1"
+        },
+        {
+          "question": "Uncle Sam's own Olivia Wilde is also a citizen of this country & took her stage name from its famous son Oscar Wilde",
+          "answer": "Ireland",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUAL CITIZENS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5952-d-c1-r2"
+        },
+        {
+          "question": "This \"Atomic Blonde\" actress is a citizen of the USA & the Republic of South Africa",
+          "answer": "(Charlize) Theron",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUAL CITIZENS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5952-d-c1-r3"
+        },
+        {
+          "question": "This \"Green Light\" singer was born in New Zealand but also holds Croatian citizenship",
+          "answer": "Lorde",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUAL CITIZENS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5952-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOWN IN SOUTH AMERICA",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In this year our Civil War ended, South America was just beginning the War of the Triple Alliance",
+          "answer": "1865",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOWN IN SOUTH AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5952-d-c2-r0"
+        },
+        {
+          "question": "This country's Tiradentes Day honors Joaquim Xavier, who plotted against Portuguese hegemony",
+          "answer": "Brazil",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOWN IN SOUTH AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5952-d-c2-r1"
+        },
+        {
+          "question": "Chile had to pay millions after officials failed to warn coastal cities about this after a deadly 2010 earthquake",
+          "answer": "a tsunami",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOWN IN SOUTH AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5952-d-c2-r2"
+        },
+        {
+          "question": "Once capital of an empire, Cuzco in this country is now a city of more than 300,000",
+          "answer": "Peru",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOWN IN SOUTH AMERICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5952-d-c2-r3"
+        },
+        {
+          "question": "In 1830 Ecuador became independent of Gran Colombia & established its capital in this city",
+          "answer": "Quito",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOWN IN SOUTH AMERICA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5952-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN IN THE BIBLE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Anna was an aged prophet in this city who proclaimed the baby Jesus as the Messiah",
+          "answer": "Jerusalem",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN THE BIBLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5952-d-c3-r0"
+        },
+        {
+          "question": "Described as a helper in Christ, Priscilla accompanied this apostle on some of his missionary journeys",
+          "answer": "St. Paul",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN THE BIBLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5952-d-c3-r1"
+        },
+        {
+          "question": "In the book of Judges, things got hairy for Samson, who fell for this woman \"in the valley of Sorek\"",
+          "answer": "Delilah",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN THE BIBLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5952-d-c3-r2"
+        },
+        {
+          "question": "This heroine of the Purim story is depicted in a 1684 work also called \"The Jewish Bride\"",
+          "answer": "Esther",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN THE BIBLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5952-d-c3-r3"
+        },
+        {
+          "question": "In Genesis Rebecca, the wife of Isaac, gave birth to these twin sons",
+          "answer": "Jacob & Esau",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN IN THE BIBLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5952-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CORPS CURRICULUM",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Established by Uncle Sam in 1961, this organization now has volunteers in more than 60 countries",
+          "answer": "the Peace Corps",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPS CURRICULUM",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5952-d-c4-r0"
+        },
+        {
+          "question": "Representing air, land & sea, the Marine Corps emblem consists of an eagle, a globe & this naval item",
+          "answer": "an anchor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPS CURRICULUM",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5952-d-c4-r1"
+        },
+        {
+          "question": "Here's a 2017 seating chart for this corps",
+          "answer": "the press corps (at the White House)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPS CURRICULUM",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5952-d-c4-r2"
+        },
+        {
+          "question": "Pierre Charles L'Enfant was in this group that oversaw construction of the Washington Monument",
+          "answer": "the U.S. Army Corps of Engineers",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CORPS CURRICULUM",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5952-d-c4-r3"
+        },
+        {
+          "question": "This 3-word French phrase means group morale & camaraderie",
+          "answer": "esprit de corps",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CORPS CURRICULUM",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5952-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALL THE WAY FROM A TO B",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "To take in a gas or liquid",
+          "answer": "absorb",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL THE WAY FROM A TO B",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5952-d-c5-r0"
+        },
+        {
+          "question": "To say something in a speech without any preparation",
+          "answer": "ad lib",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL THE WAY FROM A TO B",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5952-d-c5-r1"
+        },
+        {
+          "question": "To \"act with\" this noun means to behave with great composure",
+          "answer": "aplomb",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALL THE WAY FROM A TO B",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5952-d-c5-r2"
+        },
+        {
+          "question": "Note the category, fill in 1 letter & you've got this white garment worn by clergy",
+          "answer": "an alb",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALL THE WAY FROM A TO B",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5952-d-c5-r3"
+        },
+        {
+          "question": "\"Have\" is this 2-word part of speech in the phrase \"we have spoken\"",
+          "answer": "an auxiliary verb",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALL THE WAY FROM A TO B",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5952-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY PRESIDENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He took the Oath of Office twice 14 months apart",
+          "answer": "Lyndon B. Johnson",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "20th CENTURY PRESIDENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5952-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

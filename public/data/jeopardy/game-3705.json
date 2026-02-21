@@ -1,0 +1,785 @@
+{
+  "gameId": 3705,
+  "showNumber": 1238,
+  "airDate": "January 10, 1990",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BIOLOGY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Term for an organism that harbors a parasite",
+          "answer": "host",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3705-s-c0-r0"
+        },
+        {
+          "question": "Some birds have patella bones, commonly called this in humans",
+          "answer": "kneecaps",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3705-s-c0-r1"
+        },
+        {
+          "question": "Adjective used to describe your 1st set of teeth & plants that shed their leaves seasonally",
+          "answer": "deciduous",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3705-s-c0-r2"
+        },
+        {
+          "question": "Oxygenated hemoglobin is this color",
+          "answer": "red",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIOLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3705-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "HODGEPODGE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "She outlived 3 husbands, was kicked out of the Society of Friends & we have our doubts about the flag",
+          "answer": "Betsy Ross",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3705-s-c1-r0"
+        },
+        {
+          "question": "Macy's claims to be the 2nd largest consumer of this gas in the U.S.; the U.S. gov't is 1st",
+          "answer": "helium",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3705-s-c1-r1"
+        },
+        {
+          "question": "Hominy is this vegetable hulled, degermed & broken up",
+          "answer": "corn",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3705-s-c1-r2"
+        },
+        {
+          "question": "Just the dance to do at a fowl ball; Rufus Thomas sang about doing it in 1970",
+          "answer": "Funky Chicken",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3705-s-c1-r3"
+        },
+        {
+          "question": "The international headquarters of the Salvation Army is in this world capital",
+          "answer": "London",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3705-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGES & UNIVERSITIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Ulysses Grant, Robert E. Lee & Jefferson Davis were graduates of this college",
+          "answer": "West Point",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3705-s-c2-r0"
+        },
+        {
+          "question": "Scholoastic achievement in this year of college allows one to join Phi Eta Sigma, an honor society",
+          "answer": "freshman year",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3705-s-c2-r1"
+        },
+        {
+          "question": "In May 1980 Washington State U. was closed for 4 days due to its proximity to this natural disaster",
+          "answer": "eruption of Mt. Saint Helens",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3705-s-c2-r2"
+        },
+        {
+          "question": "James K. Polk went to this \"tarheel university\"",
+          "answer": "University of North Carolina",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3705-s-c2-r3"
+        },
+        {
+          "question": "1 of the twin cities which together share the main campus of the University of Illinois",
+          "answer": "(1 of) Champaign or Urbana",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3705-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1787 Delaware became the 1st state in the Union; in 1860 this became the 1st state to secede",
+          "answer": "South Carolina",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3705-s-c3-r0"
+        },
+        {
+          "question": "In 1952 this territory adopted its own constitution & became a commonwealth",
+          "answer": "Puerto Rico",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3705-s-c3-r1"
+        },
+        {
+          "question": "In 1926 Lindbergh had to parachute out of planes 4 times while employed to do this",
+          "answer": "flying the mail",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3705-s-c3-r2"
+        },
+        {
+          "question": "Wilson, Harding, Coolidge & Hoover refused to recognize this country's government, but FDR did",
+          "answer": "Soviet Union",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3705-s-c3-r3"
+        },
+        {
+          "question": "This New Deal agency was symbolized by a blue eagle & used the motto, \"We do our part\"",
+          "answer": "NRA (National Recovery Administration)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3705-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCARY MOVIES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Start spreading the news; in \"Friday the 13th Part VIII\" this hockey-masked slasher \"Takes Manhattan\"",
+          "answer": "Jason",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCARY MOVIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3705-s-c4-r0"
+        },
+        {
+          "question": "Film in which Jack Nicholson uttered the immortal line, \"Heeeeeere's Johnny\"",
+          "answer": "The Shining",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCARY MOVIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3705-s-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "\"BOO\"!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Word that can precede hatch, prize or trap",
+          "answer": "booby",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3705-s-c5-r0"
+        },
+        {
+          "question": "A hiding game played with very small children, or a see-through blouse worn by grown-up women",
+          "answer": "peek-a-boo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3705-s-c5-r1"
+        },
+        {
+          "question": "From the Tagalog word for mountain, it's our word for the backwoods or \"the sticks\"",
+          "answer": "boondocks",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3705-s-c5-r2"
+        },
+        {
+          "question": "This song was written in 1947 in the U.S., not Ireland:",
+          "answer": "Clancy Lowered the Boom",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3705-s-c5-r3"
+        },
+        {
+          "question": "R. Duvall played this character who saves Scout Finch from an attacker in \"To Kill a Mockingbird\"",
+          "answer": "Boo Radley",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"BOO\"!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3705-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GENESIS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The book's Hebrew title is Bereshith, which translates to this, the book's 1st 3 words",
+          "answer": "In the beginning",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3705-d-c0-r0"
+        },
+        {
+          "question": "Cain was a farmer & Abel raised these animals",
+          "answer": "sheep",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3705-d-c0-r1"
+        },
+        {
+          "question": "The 1st creature Noah sent forth from the ark",
+          "answer": "raven",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3705-d-c0-r2"
+        },
+        {
+          "question": "1 of 2 sons of Jacob & Rachel; they were his favorites",
+          "answer": "(1 of) Joseph or Benjamin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3705-d-c0-r3"
+        },
+        {
+          "question": "Seeking a wife for Isaac, Eliezer chose her after she gave water both to him & his camels",
+          "answer": "Rebekah",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENESIS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3705-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICIANS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Alvis Edgar Owens Jr., known by this nickname, is also known for his pickin' on \"Hee Haw\"",
+          "answer": "Buck",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICIANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3705-d-c1-r0"
+        },
+        {
+          "question": "Not only Juilliard's youngest student, \"the way things were\" in 1974, he won 3 Oscars",
+          "answer": "Marvin Hamlisch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICIANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3705-d-c1-r1"
+        },
+        {
+          "question": "This composer became a British subject in 1726 & anglicized his name, losing the umlaut",
+          "answer": "(George Frideric) Handel",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICIANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3705-d-c1-r2"
+        },
+        {
+          "question": "\"The Entertainer\" became a big hit in 1973, 71 years after he wrote it",
+          "answer": "Scott Joplin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICIANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3705-d-c1-r3"
+        },
+        {
+          "question": "Songwriter who teamed with Eddie & Brian Holland to create some of Motown's biggest hits",
+          "answer": "Lamont Dozier",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSICIANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3705-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This capital city sits on the southern end of New Zealand's North Island",
+          "answer": "Wellington",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3705-d-c2-r0"
+        },
+        {
+          "question": "The Dutch named this island in the Indian Ocean for Prince Maurice of Nassau",
+          "answer": "Mauritius",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3705-d-c2-r1"
+        },
+        {
+          "question": "The Isle of Man lies in this body of water",
+          "answer": "Irish Sea",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3705-d-c2-r2"
+        },
+        {
+          "question": "It's the longest river entirely within Massachusetts",
+          "answer": "Charles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3705-d-c2-r3"
+        },
+        {
+          "question": "Smaller in area than Cleveland, this German-speaking alpine country remained neutral during WWII",
+          "answer": "Liechtenstein",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3705-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL SISTERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Southern belle whose sisters were Suellen & Carreen",
+          "answer": "Scarlett O'Hara",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL SISTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3705-d-c3-r0"
+        },
+        {
+          "question": "Alice Munro was rescued, but her sister Cora was killed by Magua in this J.F. Cooper classic",
+          "answer": "Last of the Mohicans",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL SISTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3705-d-c3-r1"
+        },
+        {
+          "question": "Meg, Jo, Beth & Amy's last name",
+          "answer": "March",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL SISTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3705-d-c3-r2"
+        },
+        {
+          "question": "She's Katherina's younger sister in Shakespeare's \"The Taming of the Shrew\"",
+          "answer": "Bianca",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL SISTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3705-d-c3-r3"
+        },
+        {
+          "question": "Comedic play in which the sweet little Brewster sisters murder people & have them buried in the basement",
+          "answer": "Arsenic and Old Lace",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL SISTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3705-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS AUSSIES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This trio who grew up in Australia made \"One\" big comeback in '89, proving they're \"Stayin' Alive\"",
+          "answer": "Bee Gees",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AUSSIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3705-d-c4-r0"
+        },
+        {
+          "question": "Set in Australia, this end-of-the-world film was based on a book by Aussie Nevil Shute",
+          "answer": "On the Beach",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AUSSIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3705-d-c4-r1"
+        },
+        {
+          "question": "Australian-born author of \"The Devil's Advocate\" & \"The Shoes of the Fisherman\"",
+          "answer": "Morris West",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AUSSIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3705-d-c4-r2"
+        },
+        {
+          "question": "Probably Australia's best-known filmmaker, he directed \"Dead Poet's Society\" & \"Gallipoli\"",
+          "answer": "Peter Weir",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AUSSIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3705-d-c4-r3"
+        },
+        {
+          "question": "A former Rhodes scholar, his image as an \"ordinary bloke\" helped him win the prime ministry in 1983",
+          "answer": "Robert (Bob) Hawke",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AUSSIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3705-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ART",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Renaissance began in this country",
+          "answer": "Italy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3705-d-c5-r0"
+        },
+        {
+          "question": "A furor erupted over a student exhibit in Chicago when 1 of these was placed on the floor",
+          "answer": "American flag",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3705-d-c5-r1"
+        },
+        {
+          "question": "His art sold well, but this Delft painter produced few works & died broke",
+          "answer": "Vermeer",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3705-d-c5-r2"
+        },
+        {
+          "question": "Painter known for his portrayal of a polio victim named Christina Olson",
+          "answer": "Andrew Wyeth",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3705-d-c5-r3"
+        },
+        {
+          "question": "At his home in Giverny, this artist created the water lily pond that inspired his paintings",
+          "answer": "(Claude) Monet",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3705-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "1949 Pulitzer Prize play in which the title character commits suicide for the insurance money",
+          "answer": "Death of a Salesman",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "PLAYS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3705-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

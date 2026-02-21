@@ -1,0 +1,785 @@
+{
+  "gameId": 6904,
+  "showNumber": 8314,
+  "airDate": "January 14, 2021",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AUTOMOBILES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1896, this automaker built his vehicle--the Quadricycle--& drove it around Detroit; it would be followed by others",
+          "answer": "Ford",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6904-s-c0-r0"
+        },
+        {
+          "question": "The 2016 model of this sporty Chevy has a 7-speed manual transmission to help handle its 650 HP engine",
+          "answer": "the Corvette",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6904-s-c0-r1"
+        },
+        {
+          "question": "The DeLorean DMC-12 was known for its stylish design, incorporating these iconic doors with an avian name",
+          "answer": "gull-wing doors",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTOMOBILES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6904-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "HISTORICALLY BAD",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1932 & '33 Stalin decimated Ukraine by exporting most of its grain, bringing on the Holodomor, or \"Great\" this",
+          "answer": "Famine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICALLY BAD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6904-s-c1-r0"
+        },
+        {
+          "question": "During the French Revolution, thousands, including Louis XVI, had the misfortune of meeting this, aka the Louisette",
+          "answer": "the guillotine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICALLY BAD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6904-s-c1-r1"
+        },
+        {
+          "question": "This began in Latin America in 1928, a little before it hit the United States",
+          "answer": "the Great Depression",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICALLY BAD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6904-s-c1-r2"
+        },
+        {
+          "question": "In 1794 a Paris factory for this military stuff exploded, devastating what's now the 15th arrondissement",
+          "answer": "gunpowder",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICALLY BAD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6904-s-c1-r3"
+        },
+        {
+          "question": "In 1258 Baghdad made the mistake of resisting these invaders who promptly sacked the city & slaughtered its inhabitants",
+          "answer": "the Mongols",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORICALLY BAD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6904-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEE-POURRI",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "So... great party... I guess I'm not great at this tiny term for chitchat",
+          "answer": "small talk",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEE-POURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6904-s-c2-r0"
+        },
+        {
+          "question": "Something ridiculously small such as an apartment may be compared to this sticky item, which is often .87 x .98 inches",
+          "answer": "a postage stamp",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEE-POURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6904-s-c2-r1"
+        },
+        {
+          "question": "The name of this dessert made with sponge cake also means \"of little importance\"",
+          "answer": "trifle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEE-POURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6904-s-c2-r2"
+        },
+        {
+          "question": "Wilhelm His is credited with the invention of the microtome, which slices thin sections of tissue for use in this instrument",
+          "answer": "a microscope",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEE-POURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6904-s-c2-r3"
+        },
+        {
+          "question": "Now owned by Mattel, they began rolling off the assembly line in the 1950s & were named for their small cardboard containers",
+          "answer": "Matchbox cars",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEE-POURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6904-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMMUNICATION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 2020 this video conferencing service founded in 2011 became the USA's No. 1 app",
+          "answer": "Zoom",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMUNICATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6904-s-c3-r0"
+        },
+        {
+          "question": "56' wide & 29' high, a digital billboard called the Broadway Spectacular is in the heart of this New York City area",
+          "answer": "Times Square",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMUNICATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6904-s-c3-r1"
+        },
+        {
+          "question": "Put your fingers in your mouth to push your tongue back if you need to make a loud one of these, like if hailing a cab in 1947",
+          "answer": "whistle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMUNICATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6904-s-c3-r2"
+        },
+        {
+          "question": "France's Robert Coulondre, who had this job, presented a futile demarche, a diplomatic note, in Berlin Sept. 1, 1939",
+          "answer": "ambassador to Germany",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMUNICATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6904-s-c3-r3"
+        },
+        {
+          "question": "It is the interpretive body part of an orchestra conductor; an 1889 book says it has 100 \"shades of delicate expression \"",
+          "answer": "his or her left hand",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COMMUNICATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6904-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "2-LETTER LIT",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This scary book mostly takes place in Derry, Maine",
+          "answer": "It",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER LIT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6904-s-c4-r0"
+        },
+        {
+          "question": "The tomboy of Alcott's March sisters, she wants to be a writer",
+          "answer": "Jo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER LIT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6904-s-c4-r1"
+        },
+        {
+          "question": "L. Frank Baum said he got the name for this after looking at his file cabinet",
+          "answer": "Oz",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER LIT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6904-s-c4-r2"
+        },
+        {
+          "question": "Surname of physician Julius, antagonist of a 1958 Fleming novel",
+          "answer": "No",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER LIT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6904-s-c4-r3"
+        },
+        {
+          "question": "Part of \"Galileo's Dream\" by Kim Stanley Robinson takes place on this moon",
+          "answer": "Io",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "2-LETTER LIT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6904-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BEST OF TIMES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 2014 Kenya's Dennis Kimetto ran one of these in 2 hours, 2 minutes & 57 seconds",
+          "answer": "a marathon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BEST OF TIMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6904-s-c5-r0"
+        },
+        {
+          "question": "Monarchos in 2001 & this horse in 1973, still the record holder, are the only horses to run the Kentucky Derby in under 2 minutes",
+          "answer": "Secretariat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BEST OF TIMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6904-s-c5-r1"
+        },
+        {
+          "question": "Hicham El Guerrouj holds the world records in the mile & this metric track distance that's just a bit shorter",
+          "answer": "1,500 meters",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BEST OF TIMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6904-s-c5-r2"
+        },
+        {
+          "question": "Rohan Dennis holds the time-trial speed record for this European event, averaging better than 34 mph in 2015",
+          "answer": "the Tour de France",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BEST OF TIMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6904-s-c5-r3"
+        },
+        {
+          "question": "In 2016, this American swimmer set an Olympic record in the women's 400-meter freestyle",
+          "answer": "Katie Ledecky",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BEST OF TIMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6904-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNICORNS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In a hit song by The Irish Rovers, frolicking unicorns fail to make it aboard this vessel",
+          "answer": "Noah's Ark",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNICORNS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6904-d-c0-r0"
+        },
+        {
+          "question": "This mammal, the male of which may sport a 10-foot-long tusk, is sometimes called the unicorn of the sea",
+          "answer": "a narwhal",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNICORNS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6904-d-c0-r1"
+        },
+        {
+          "question": "In \"Toy Story 3\" & \"4\", Jeff Garlin of \"The Goldbergs\" voices this unicorn, also the name of a yellow flower",
+          "answer": "Buttercup",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UNICORNS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6904-d-c0-r2"
+        },
+        {
+          "question": "In 1840 the Unicorn became this British line's first ship to set sail; its later ships included the Queen Mary & QE2",
+          "answer": "the Cunard Line",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UNICORNS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6904-d-c0-r3"
+        },
+        {
+          "question": "Seen here is a detail from a 6-panel tapestry, a national treasure of France, known by this 5-word title in English",
+          "answer": "\"The Lady and the Unicorn\"",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UNICORNS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6904-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BODIES OF WATER",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It cost the U.S. about $380 million to build this canal that opened to traffic in 1914",
+          "answer": "the Panama Canal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6904-d-c1-r0"
+        },
+        {
+          "question": "This river is navigable from its mouth on the North Sea to a spot near Basel on the Swiss-German border",
+          "answer": "the Rhine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6904-d-c1-r1"
+        },
+        {
+          "question": "Blooms of the algae of Trichodesmium erythraeum give this body of water its color & perhaps its name",
+          "answer": "the Red Sea",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6904-d-c1-r2"
+        },
+        {
+          "question": "Back when it was known as the Hellespont, this strait was where the mythic lovers Hero & Leander perished",
+          "answer": "the Dardanelles",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6904-d-c1-r3"
+        },
+        {
+          "question": "Sugar Loaf Mountain overlooks this bay of the Atlantic Ocean",
+          "answer": "Guanabara Bay",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6904-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "DON'T SKIP LEG DAY!",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This word has come to mean hindering someone's progress; its synonym patella-ing didn't catch on",
+          "answer": "kneecapping",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T SKIP LEG DAY!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6904-d-c2-r0"
+        },
+        {
+          "question": "You've got some nerve! This nerve, the body's thickest, which goes from the lumbar part of the spine down the back of the thigh",
+          "answer": "the sciatic nerve",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T SKIP LEG DAY!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6904-d-c2-r1"
+        },
+        {
+          "question": "Let me butt in with this Latin term for the large muscle that starts at the pelvic girdle's crest & extends the thigh",
+          "answer": "gluteus maximus",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T SKIP LEG DAY!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6904-d-c2-r2"
+        },
+        {
+          "question": "Vastus lateralis & vastus intermedius are 2 of the 4 parts of this muscle; did we mention it has 4 parts? 'Cause that's important",
+          "answer": "the quadriceps",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T SKIP LEG DAY!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6904-d-c2-r3"
+        },
+        {
+          "question": "Carrying luggage upstairs in 2018, Royals catcher Salvador Perez tore his MCL, short for this",
+          "answer": "the medial collateral ligament",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DON'T SKIP LEG DAY!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6904-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RICK'S ROLE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 2013 Rick Springfield returned to this soap opera as Dr. Noah Drake",
+          "answer": "General Hospital",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RICK'S ROLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6904-d-c3-r0"
+        },
+        {
+          "question": "Rick Rossovich plays the handsome oaf for whom Steve Martin writes exquisite letters in this \"Cyrano\"-inspired movie",
+          "answer": "Roxanne",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RICK'S ROLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6904-d-c3-r1"
+        },
+        {
+          "question": "In 2016 Ricky Gervais was back as this \"Office\" character in \"Life on the Road\"",
+          "answer": "David Brent",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RICK'S ROLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6904-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "LET'S GO TO THE ARCHIVES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The National Archives has an often-reproduced 1823 version of this document, made when the original was already fading",
+          "answer": "the Declaration of Independence",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO THE ARCHIVES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6904-d-c4-r0"
+        },
+        {
+          "question": "The United Nations Archives in this Swiss city is also where you'll find the League of Nations Archives",
+          "answer": "Geneva",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO THE ARCHIVES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6904-d-c4-r1"
+        },
+        {
+          "question": "The Vatican Apostolic (formerly \"Secret\") archives hold a 200' scroll recording the 14th century trial of these knights",
+          "answer": "the Knights Templar",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO THE ARCHIVES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6904-d-c4-r2"
+        },
+        {
+          "question": "The National Library of Israel has an archive on this unjustly accused French officer, including his marriage contract",
+          "answer": "Dreyfus",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO THE ARCHIVES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6904-d-c4-r3"
+        },
+        {
+          "question": "The Vassiliev Notebooks of information from Soviet archives show that yes, this NYC-born man executed in 1953 was an atom spy",
+          "answer": "Rosenberg",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO THE ARCHIVES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6904-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "Y IS THE ONLY VOWEL",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's another word for a pigpen",
+          "answer": "sty",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Y IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6904-d-c5-r0"
+        },
+        {
+          "question": "You can actually book a dinner in this part of London's St. Paul's Cathedral where many notables have been laid to rest",
+          "answer": "the crypt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Y IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6904-d-c5-r1"
+        },
+        {
+          "question": "In Greek mythology the Oceanids are sea types of these",
+          "answer": "nymphs",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Y IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6904-d-c5-r2"
+        },
+        {
+          "question": "It's a 5-letter word for a secret rendezvous between lovers",
+          "answer": "a tryst",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Y IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6904-d-c5-r3"
+        },
+        {
+          "question": "From Greek for \"to carve\", it's a picture or symbol that can represent a word in ancient writing systems",
+          "answer": "glyph",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "Y IS THE ONLY VOWEL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6904-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHILDREN'S BOOKS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This 1969 book was first printed in Japan because no U.S. company would then make a book with so many holes in the pages",
+          "answer": "The Very Hungry Caterpillar",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "CHILDREN'S BOOKS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6904-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

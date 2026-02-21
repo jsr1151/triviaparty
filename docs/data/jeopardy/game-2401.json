@@ -1,0 +1,785 @@
+{
+  "gameId": 2401,
+  "showNumber": 3409,
+  "airDate": "June 3, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BRITISH PRIME MINISTERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "1940-1945,1951-1955",
+          "answer": "Winston Churchill",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PRIME MINISTERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2401-s-c0-r0"
+        },
+        {
+          "question": "1990-1997",
+          "answer": "John Major",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PRIME MINISTERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2401-s-c0-r1"
+        },
+        {
+          "question": "1937-1940",
+          "answer": "Neville Chamberlain",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PRIME MINISTERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2401-s-c0-r2"
+        },
+        {
+          "question": "The Elder,1766-1768;The Younger,1783-1801,1804-1806",
+          "answer": "William Pitt",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PRIME MINISTERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2401-s-c0-r3"
+        },
+        {
+          "question": "1945-1951",
+          "answer": "Clement Attlee",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BRITISH PRIME MINISTERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2401-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTY SEATS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Hilo, I love you, you're the seat of this county that's also a \"Big Island\"",
+          "answer": "Hawaii",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2401-s-c1-r0"
+        },
+        {
+          "question": "Paris (population 8,730) is the seat of Bourbon County in this state",
+          "answer": "Kentucky",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2401-s-c1-r1"
+        },
+        {
+          "question": "This Iowa city, the seat of Black Hawk County, has a name Wellington would remember",
+          "answer": "Waterloo",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2401-s-c1-r2"
+        },
+        {
+          "question": "Quincy, Illinois is the seat of a county with this presidential name",
+          "answer": "Adams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2401-s-c1-r3"
+        },
+        {
+          "question": "As I walked out in the streets of this city, I was in the seat of Webb County, Texas",
+          "answer": "Laredo",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTY SEATS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2401-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"DREAM\"Y SONGS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "1 of 2 \"dream\"y Top 20 songs recorded by Cass Elliott with The Mamas and The Papas",
+          "answer": "\"California Dreamin'\" & \"Dream a Little Dream of Me\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"DREAM\"Y SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2401-s-c2-r0"
+        },
+        {
+          "question": "Title that follows \"When I want you in my arms, when I want you and all your charms, whenever I want you...\"",
+          "answer": "\"All I Have to Do Is Dream\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"DREAM\"Y SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2401-s-c2-r1"
+        },
+        {
+          "question": "\"Cheer up sleepy Jean, oh what can it mean to\" one of these \"and a homecoming queen\"",
+          "answer": "A daydream believer",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"DREAM\"Y SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2401-s-c2-r2"
+        },
+        {
+          "question": "In 1959 Bobby Darin wailed, \"Every night I hope and pray\", she \"will come my way\"",
+          "answer": "\"Dream Lover\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"DREAM\"Y SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2401-s-c2-r3"
+        },
+        {
+          "question": "In the 1986 film \"Blue Velvet\", Dean Stockwell performs a lip-synched rendition of this Roy Orbison hit",
+          "answer": "\"In Dreams\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"DREAM\"Y SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2401-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BILL GATES' 50 BILLION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "If his employee's price is $50.00, Bill could buy a billion of the \"98\" version of this operating system",
+          "answer": "Windows",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BILL GATES' 50 BILLION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2401-s-c3-r0"
+        },
+        {
+          "question": "In this state where he lives, Bill could pay the governor's salary for 413,000 years",
+          "answer": "Washington",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BILL GATES' 50 BILLION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2401-s-c3-r1"
+        },
+        {
+          "question": "In 1997 Americans spent about $40 billion on these, & many wanted to be in Bill's",
+          "answer": "shoes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BILL GATES' 50 BILLION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2401-s-c3-r2"
+        },
+        {
+          "question": "OK, we're not allowing for inflation, but Bill could afford over 8,000 Steve Austins, this title character",
+          "answer": "the Six Million Dollar Man (or the Bionic Man)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BILL GATES' 50 BILLION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2401-s-c3-r3"
+        },
+        {
+          "question": "Bill could easily bid on Bolivia: their GDP, this annual figure, is less than half what he's worth",
+          "answer": "Gross Domestic Product",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BILL GATES' 50 BILLION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2401-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPOUSE IN COMMON",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Elliott Gould,James Brolin",
+          "answer": "Barbra Streisand",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOUSE IN COMMON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2401-s-c4-r0"
+        },
+        {
+          "question": "Heather Locklear,Pamela Anderson",
+          "answer": "Tommy Lee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOUSE IN COMMON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2401-s-c4-r1"
+        },
+        {
+          "question": "Roger Vadim,Tom Hayden",
+          "answer": "Jane Fonda",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOUSE IN COMMON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2401-s-c4-r2"
+        },
+        {
+          "question": "Ava Gardner,Mia Farrow",
+          "answer": "Frank Sinatra",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOUSE IN COMMON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2401-s-c4-r3"
+        },
+        {
+          "question": "Ursula Andress,Linda Evans",
+          "answer": "John Derek",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPOUSE IN COMMON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2401-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GANGSTER'S DICTIONARY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "I hates it when the cops put these \"bracelets\" on me after a bust",
+          "answer": "Handcuffs",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GANGSTER'S DICTIONARY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2401-s-c5-r0"
+        },
+        {
+          "question": "You mugs, I need a \"can opener\", a tool used to open one of these, not a tin can",
+          "answer": "Safe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GANGSTER'S DICTIONARY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2401-s-c5-r1"
+        },
+        {
+          "question": "Roll out these \"bones\", boys, so we can play some games of chance",
+          "answer": "Dice",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GANGSTER'S DICTIONARY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2401-s-c5-r2"
+        },
+        {
+          "question": "One day I might go legit & get a cush job as a \"gumshoe\", a private one of these",
+          "answer": "a detective (or private eye)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GANGSTER'S DICTIONARY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2401-s-c5-r3"
+        },
+        {
+          "question": "Keep your head low... I just saw a \"salt & pepper\", one of these, go by",
+          "answer": "a police car",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GANGSTER'S DICTIONARY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2401-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CIVIL WAR LITERATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Henry Fleming shares a tent with a loud soldier & a tall soldier in this Stephen Crane novel",
+          "answer": "The Red Badge of Courage",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2401-d-c0-r0"
+        },
+        {
+          "question": "Joanna Higgins' 1998 novel \"A Soldier's Book\" tells the story of Ira Stevens, a Union P.O.W. in this notorious prison",
+          "answer": "Andersonville",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2401-d-c0-r1"
+        },
+        {
+          "question": "He drew on his wartime nursing experience for the poem \"The Wound-Dresser\"",
+          "answer": "Walt Whitman",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2401-d-c0-r2"
+        },
+        {
+          "question": "His works about the war include the essay \"What I Saw of Shiloh\" & the story \"An Occurrence at Owl Creek Bridge\"",
+          "answer": "Ambrose Bierce",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2401-d-c0-r3"
+        },
+        {
+          "question": "Jeff Shaara has written a prequel & a sequel to this 1974 novel about Gettysburg by his father Michael",
+          "answer": "The Killer Angels",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2401-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC NAMES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "His epitaph reads, \"Founder of Boys Town and Lover of Christ and Man\"",
+          "answer": "Father Flanagan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2401-d-c1-r0"
+        },
+        {
+          "question": "While rounding the tip of South America in 1520, this Portuguese explorer named Cape Virgines & Patagonia",
+          "answer": "Ferdinand Magellan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2401-d-c1-r1"
+        },
+        {
+          "question": "It's been said that the 1831 Russian capture of Warsaw inspired him to write his C minor etude",
+          "answer": "Frédéric Chopin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2401-d-c1-r2"
+        },
+        {
+          "question": "This family that once controlled Nicaragua saw 2 members killed -- the father in 1956, a son in 1980",
+          "answer": "Somoza",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2401-d-c1-r3"
+        },
+        {
+          "question": "This discoverer of Uranus thought the sun was an inhabited body with a luminous atmosphere",
+          "answer": "William Herschel",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2401-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV MINISERIES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "You could call Henry Thomas Ishmael & Patrick Stewart Ahab in this 1998 miniseries",
+          "answer": "Moby-Dick",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV MINISERIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2401-d-c2-r0"
+        },
+        {
+          "question": "Vanessa Williams played Calypso & Greta Scacchi was the long-suffering Penelope in this 1997 epic",
+          "answer": "The Odyssey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV MINISERIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2401-d-c2-r1"
+        },
+        {
+          "question": "(Hi, I'm Kristoff St. John from The Young and the Restless.)  Earlier in my career, I appeared in \"Roots: The Next Generation\", playing this author as a boy",
+          "answer": "Alex Haley",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV MINISERIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2401-d-c2-r2"
+        },
+        {
+          "question": "Robert Duvall sat tall in the saddle as Augustus McCrae in this 1989 4-part western",
+          "answer": "Lonesome Dove",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV MINISERIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2401-d-c2-r3"
+        },
+        {
+          "question": "(Hi, I'm Stephen Collins of 7th Heaven.)  In 1994 I played Ashley Wilkes in this miniseries sequel to \"Gone with the Wind\"",
+          "answer": "Scarlett",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV MINISERIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2401-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TAKE A PILL",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Bayer hailed the FDA's endorsement of this drug for use during a suspected heart attack",
+          "answer": "aspirin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE A PILL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2401-d-c3-r0"
+        }
+      ]
+    },
+    {
+      "name": "KNOTS TO YOU",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The honda is a slip knot used by cowboys to make this tool of the trade",
+          "answer": "a lasso",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KNOTS TO YOU",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2401-d-c4-r0"
+        },
+        {
+          "question": "Alexander the Great cut it with his sword after being told that whoever could undo it would rule Asia",
+          "answer": "Gordian Knot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KNOTS TO YOU",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2401-d-c4-r1"
+        },
+        {
+          "question": "It is second only to \"Gunsmoke\" as TV's longest-running primetime drama series",
+          "answer": "Knots Landing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KNOTS TO YOU",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2401-d-c4-r2"
+        },
+        {
+          "question": "This South American civilization used Quipu, a system of knots, to record dates & large sums of figures",
+          "answer": "Incas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KNOTS TO YOU",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2401-d-c4-r3"
+        },
+        {
+          "question": "From the Turkish for \"napkin\", it's the art which creates decorative items by knotting cord, rope or string",
+          "answer": "Macrame",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KNOTS TO YOU",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2401-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT'S WHAT THEY SAID",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "After her election, this British prime minister said that she owed \"everything to my father\"",
+          "answer": "Margaret Thatcher",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S WHAT THEY SAID",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2401-d-c5-r0"
+        },
+        {
+          "question": "This author's Mr. Bumble declared that \"The law is a ass, a idiot\"",
+          "answer": "Charles Dickens",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S WHAT THEY SAID",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2401-d-c5-r1"
+        },
+        {
+          "question": "In 1803 Jacques Delille wrote, \"Fate chooses our relatives, we choose\" these",
+          "answer": "our friends",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S WHAT THEY SAID",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2401-d-c5-r2"
+        },
+        {
+          "question": "\"When the one great scorer comes to write against your name, he marks -- not that you won or lost -- but\" this",
+          "answer": "how you played the game",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S WHAT THEY SAID",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2401-d-c5-r3"
+        },
+        {
+          "question": "In his 1918 poem \"Prairie\", he wrote, \"I tell you the past is a bucket of ashes\"",
+          "answer": "Carl Sandburg",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THAT'S WHAT THEY SAID",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2401-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD EVENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 3 people who did this most recently were Midori Ito, Muhammad Ali & Crown Prince Haakon of Norway",
+          "answer": "Lighting the Olympic flame at the Olympic Games",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "WORLD EVENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2401-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 8725,
+  "showNumber": 8997,
+  "airDate": "December 19, 2023",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MAMMALS IN LATIN",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Porcus",
+          "answer": "a pig",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS IN LATIN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8725-s-c0-r0"
+        },
+        {
+          "question": "Ursus",
+          "answer": "a bear",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS IN LATIN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8725-s-c0-r1"
+        },
+        {
+          "question": "Cetus",
+          "answer": "a whale",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS IN LATIN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8725-s-c0-r2"
+        },
+        {
+          "question": "Vacca",
+          "answer": "a cow",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS IN LATIN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8725-s-c0-r3"
+        },
+        {
+          "question": "Cervus",
+          "answer": "a deer",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS IN LATIN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8725-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CAUTIONARY RHYMES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "An old adage tells us, \"Red sky at night, sailors' delight. Red sky at morning, sailors take\" this",
+          "answer": "warning",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAUTIONARY RHYMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8725-s-c1-r0"
+        },
+        {
+          "question": "Scouts should know that the phrase \"leaves of three, let it be\" refers to this plant",
+          "answer": "poison ivy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAUTIONARY RHYMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8725-s-c1-r1"
+        },
+        {
+          "question": "Do this \"in white, you will have chosen all right\" but do it \"in green, ashamed to be seen\" & worse, \"in red, you'll wish yourself dead\"",
+          "answer": "marry",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAUTIONARY RHYMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8725-s-c1-r2"
+        },
+        {
+          "question": "\"Red touch yellow, kill a fellow\" refers to the lethal coral snake; \"red touch black, friend of jack\", to this harmless \"royal\" one",
+          "answer": "a king snake",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAUTIONARY RHYMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8725-s-c1-r3"
+        },
+        {
+          "question": "These 2 days of the week are rough, as day 1's \"child is full of woe\" & day 2's child \"has far to go\"",
+          "answer": "Wednesday & Thursday",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAUTIONARY RHYMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8725-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "KING'S CROSSING",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In a late 18th century National Convention vote he could not afford to lose, this French king was condemned to death, 387 to 334",
+          "answer": "Louis XVI",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KING'S CROSSING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8725-s-c2-r0"
+        },
+        {
+          "question": "Hark! the Harald angels sang in 1066 for Harald the Ruthless, king of this country, who was killed going up against Harold II",
+          "answer": "Norway",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KING'S CROSSING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8725-s-c2-r1"
+        },
+        {
+          "question": "Unhorsed! Unhorsed! On Aug. 22, 1485 he lost his kingdom & his life after getting unhorsed",
+          "answer": "Richard III",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KING'S CROSSING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8725-s-c2-r2"
+        },
+        {
+          "question": "In 1516, 11 years after losing the queen he called the \"most excellent wife king ever had\", this Castile royal left the castle",
+          "answer": "Ferdinand",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KING'S CROSSING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8725-s-c2-r3"
+        },
+        {
+          "question": "On May 31, 1740, Friedrich Wilhelm I made his royal exit in Potsdam in this German-ruled kingdom founded 39 years before",
+          "answer": "Prussia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KING'S CROSSING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8725-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALWAYS IN FASHION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This animal pattern is found in a variety of colors on everything from clothing & fashion accessories to furniture",
+          "answer": "leopard (print)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS IN FASHION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8725-s-c3-r0"
+        },
+        {
+          "question": "In 2023 Levi Strauss & Co. celebrated the 150th anniversary of these numeric jeans",
+          "answer": "501s",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS IN FASHION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8725-s-c3-r1"
+        },
+        {
+          "question": "Always in fashion is this type of coat; the name referring to the color & the hair it's traditionally made from",
+          "answer": "camel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS IN FASHION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8725-s-c3-r2"
+        },
+        {
+          "question": "Popularly associated with Ray-Ban, these were originally created to protect military pilots' eyes from glare",
+          "answer": "Aviator sunglasses",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS IN FASHION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8725-s-c3-r3"
+        },
+        {
+          "question": "This French couture designer's New Look included A-line skirts & dresses in his 1955 spring collection",
+          "answer": "Christian Dior",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALWAYS IN FASHION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8725-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNOFFICIAL TEAM NICKNAMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The 'Aints: This city's NFL squad during a 1980s lean stretch",
+          "answer": "the New Orleans Saints",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL TEAM NICKNAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8725-s-c4-r0"
+        },
+        {
+          "question": "The Peach Clobbers: The hard-hitting 2013 edition of this MLB team",
+          "answer": "the Atlanta Braves",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL TEAM NICKNAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8725-s-c4-r1"
+        },
+        {
+          "question": "The Broad Street Bullies: This NHL city's Flyers",
+          "answer": "Philadelphia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL TEAM NICKNAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8725-s-c4-r2"
+        },
+        {
+          "question": "Phi Slama Jama: The 1983 Houston Cougars, led by this \"Nigerian Nightmare\" & future Hall of Famer",
+          "answer": "Hakeem Olajuwon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL TEAM NICKNAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8725-s-c4-r3"
+        },
+        {
+          "question": "The Greatest Show on Turf: The late '90s-early 2000s edition of this team, then in St. Louis",
+          "answer": "the Rams",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL TEAM NICKNAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8725-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS LAST WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's the station at the end of a transport line, like Grand Central",
+          "answer": "terminal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS LAST WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8725-s-c5-r0"
+        },
+        {
+          "question": "Revelation contains the line \"I am Alpha &\" this, \"the beginning & the end\"",
+          "answer": "Omega",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS LAST WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8725-s-c5-r1"
+        },
+        {
+          "question": "Grammatically, this 2-word phrase refers to a period; California drivers are asked to come to one before a crosswalk",
+          "answer": "a full stop",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS LAST WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8725-s-c5-r2"
+        },
+        {
+          "question": "\"Blow of mercy\" in French, it's a finishing blow at the end of combat",
+          "answer": "a coup de grâce",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS LAST WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8725-s-c5-r3"
+        },
+        {
+          "question": "On televisions it refers to clarity of visual detail; legally, it's a verdict or final decision",
+          "answer": "a resolution",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS LAST WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8725-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM THE FRENCH",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The flying Montgolfier brothers used this word for a fabric device that slows your fall",
+          "answer": "a parachute",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8725-d-c0-r0"
+        },
+        {
+          "question": "Naturally, the French gave us this word for the year a wine was bottled",
+          "answer": "vintage",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8725-d-c0-r1"
+        },
+        {
+          "question": "Words meaning \"one-eyed\" led to this word from French for a single eyeglass",
+          "answer": "a monocle",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8725-d-c0-r2"
+        },
+        {
+          "question": "Beans are a necessity in this dish, whose name in French originally meant a dish used on the stove",
+          "answer": "cassoulet",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8725-d-c0-r3"
+        },
+        {
+          "question": "This side post of a window or doorway gets its name from Middle French for \"leg\"",
+          "answer": "a jamb",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8725-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CORNERSTONES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The cornerstone for their monument was laid atop Kill Devil Hill on December 17, 1928",
+          "answer": "the Wright brothers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8725-d-c1-r0"
+        },
+        {
+          "question": "In the cornerstone for the Thompson Memorial A.M.E. Zion Church in Auburn, N.Y., she placed a coin with a profile of John Brown",
+          "answer": "Harriet Tubman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8725-d-c1-r1"
+        },
+        {
+          "question": "The cornerstone for this U.S. school's oldest building, the Wren Building, was placed in 1695",
+          "answer": "William & Mary",
+          "value": 10600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8725-d-c1-r2"
+        },
+        {
+          "question": "In 1759 the cornerstone for the oldest synagogue in the U.S., the Touro Synagogue, was laid in this Rhode Island city",
+          "answer": "Newport",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8725-d-c1-r3"
+        },
+        {
+          "question": "At the laying of the cornerstone for the Bunker Hill Monument, the Marquis de Lafayette & this famous orator led the ceremony",
+          "answer": "Daniel Webster",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8725-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SUPER SUCCESSFUL SEQUELS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "2022: Captain Pete Mitchell is back in the cockpit",
+          "answer": "Top Gun: Maverick",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPER SUCCESSFUL SEQUELS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8725-d-c2-r0"
+        },
+        {
+          "question": "2015: A new theme park creates Indominus rex, a genetically modified dinosaur",
+          "answer": "Jurassic World",
+          "value": 799,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPER SUCCESSFUL SEQUELS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8725-d-c2-r1"
+        },
+        {
+          "question": "2009: This first \"Transformers\" sequel was No. 1 in domestic box office for the year",
+          "answer": "Revenge of the Fallen",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPER SUCCESSFUL SEQUELS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8725-d-c2-r2"
+        },
+        {
+          "question": "2010: Jeff Bridges & Bruce Boxleitner reprise their roles in a digital world",
+          "answer": "Tron: Legacy",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPER SUCCESSFUL SEQUELS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8725-d-c2-r3"
+        },
+        {
+          "question": "2020: Detectives played by Will Smith & Martin Lawrence fight drug lords in Miami",
+          "answer": "Bad Boys for Life",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUPER SUCCESSFUL SEQUELS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8725-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUSTRALIAN BOOKS & AUTHORS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Marcus Clarke's \"For the Term of His Natural Life\" is partly set on this island, then called Van Diemen's Land",
+          "answer": "Tasmania",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUSTRALIAN BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8725-d-c3-r0"
+        },
+        {
+          "question": "Patrick White's \"The Eye of the Storm\", about a matriarch & her children, has been called a Down Under version of this 1608 play",
+          "answer": "King Lear",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUSTRALIAN BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8725-d-c3-r1"
+        },
+        {
+          "question": "The title of a novel about settler/indigenous conflict is from a quote about \"a secret river of\" this in Australian history",
+          "answer": "blood",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUSTRALIAN BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8725-d-c3-r2"
+        },
+        {
+          "question": "This sweeping, multi-decade Colleen McCullough novel includes an ill-fated affair between a priest & a young woman",
+          "answer": "The Thorn Birds",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUSTRALIAN BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8725-d-c3-r3"
+        },
+        {
+          "question": "A group of Yanks & Aussies await the arrival of nuclear fallout from the Northern Hemisphere in this Nevil Shute novel",
+          "answer": "On the Beach",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUSTRALIAN BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8725-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT HAPPENED IN 2023",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Tragedy struck this island in August as wildfires ravaged the historic town of Lahaina",
+          "answer": "Maui",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED IN 2023",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8725-d-c4-r0"
+        },
+        {
+          "question": "In February, one of these, reportedly carrying spy tech from China, was shot down off the coast of South Carolina",
+          "answer": "a balloon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED IN 2023",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8725-d-c4-r1"
+        },
+        {
+          "question": "On September 15, some 13,000 members of this union went on strike against Ford, G.M. & Stellantis",
+          "answer": "the United Auto Workers",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED IN 2023",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8725-d-c4-r2"
+        },
+        {
+          "question": "When park rangers in Queensland found Toadzilla, a nearly 6-pound one of these invasive amphibians, they had first thought it was fake",
+          "answer": "a cane toad",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED IN 2023",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8725-d-c4-r3"
+        },
+        {
+          "question": "On January 8, government buildings in Brazil's capital were stormed by supporters of this ousted president",
+          "answer": "Jair Bolsonaro",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT HAPPENED IN 2023",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8725-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRIES INSIDE OTHER COUNTRY NAMES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Inside the name Somalia, you can find this other conflict-plagued land to the west",
+          "answer": "Mali",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES INSIDE OTHER COUNTRY NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8725-d-c5-r0"
+        },
+        {
+          "question": "A nation on Hispaniola carries within its name this other Caribbean island country",
+          "answer": "Dominica",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES INSIDE OTHER COUNTRY NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8725-d-c5-r1"
+        },
+        {
+          "question": "2 of the 3 countries that carry the nation of Guinea within their own names",
+          "answer": "(2 of) Papua New Guinea, Guinea-Bissau & Equatorial Guinea",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES INSIDE OTHER COUNTRY NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8725-d-c5-r2"
+        },
+        {
+          "question": "Inside the name of the most populous nation in Africa, you'll find this uranium-rich desert nation",
+          "answer": "Niger (in Nigeria)",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES INSIDE OTHER COUNTRY NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8725-d-c5-r3"
+        },
+        {
+          "question": "This Arabian Peninsula nation's name can be found within the name of a European country with a Black Sea coast",
+          "answer": "Oman (from Romania)",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES INSIDE OTHER COUNTRY NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8725-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "INVENTIONS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Invented in 1816, it takes its name from Greek for \"chest\" & \"observe\"",
+          "answer": "a stethoscope",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "INVENTIONS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8725-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

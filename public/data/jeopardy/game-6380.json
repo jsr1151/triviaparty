@@ -1,0 +1,833 @@
+{
+  "gameId": 6380,
+  "showNumber": 2238,
+  "airDate": "May 4, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FISH",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The humuhumunuku-nukuapuaa, found in this state's waters, is a triggerfish",
+          "answer": "Hawaii",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6380-s-c0-r0"
+        },
+        {
+          "question": "The \"walking\" variety of this fish was introduced into Florida from Asia in the 1960s",
+          "answer": "catfish",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6380-s-c0-r1"
+        },
+        {
+          "question": "A black type of this common fishbowl fish is called a moor",
+          "answer": "goldfish",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6380-s-c0-r2"
+        },
+        {
+          "question": "Scientists have introduced the coho species of this fish into the Great Lakes to control alewives",
+          "answer": "salmon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6380-s-c0-r3"
+        },
+        {
+          "question": "Georges Bank & the Grand Banks are the best fishing grounds for this fish, Gadus morhua",
+          "answer": "(Atlantic) cod",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FISH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6380-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "If you can \"spare\" the time in St. Louis, you might \"strike out\" & visit the hall of fame for this sport",
+          "answer": "bowling",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6380-s-c1-r0"
+        },
+        {
+          "question": "In 1992 this black tennis star was named Sportsman of the Year by Sports Illustrated",
+          "answer": "Arthur Ashe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6380-s-c1-r1"
+        },
+        {
+          "question": "In the 1994 Orange Bowl, this team won the college football title by defeating Nebraska, 18-16",
+          "answer": "Florida St.",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6380-s-c1-r2"
+        },
+        {
+          "question": "Sam Snead has won over 80 professional tournaments in this sport",
+          "answer": "golf",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6380-s-c1-r3"
+        },
+        {
+          "question": "In 1969 this New York Jets quarterback was the MVP of Super Bowl III",
+          "answer": "Joe Namath",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6380-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HINTS FROM HELOISE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "These cutters come in festive shapes, so Heloise thinks it's fun to use them as napkin rings",
+          "answer": "cookie cutters",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6380-s-c2-r0"
+        },
+        {
+          "question": "Extra! Extra! Heloise recycles these by shredding them to line hamster cages",
+          "answer": "newspapers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6380-s-c2-r1"
+        },
+        {
+          "question": "Of mayonnaise, butter or honey, the one Heloise loves to use a hair conditioner",
+          "answer": "mayonnaise",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6380-s-c2-r2"
+        },
+        {
+          "question": "Collect this in a plastic container as it falls, then mix it with cream & maple syrup for a yummy dessert",
+          "answer": "snow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6380-s-c2-r3"
+        },
+        {
+          "question": "For a restful bath Heloise uses a partially inflated plastic beach ball as this",
+          "answer": "pillow",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HINTS FROM HELOISE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6380-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This \"Red Badge of Courage\" author wrote his shipwreck story \"The Open Boat\" after surviving a shipwreck",
+          "answer": "Stephen Crane",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6380-s-c3-r0"
+        },
+        {
+          "question": "Thomas Wolfe told this author, \"'Tender is the Night’ had in it the best work you have ever done\"",
+          "answer": "(F. Scott) Fitzgerald",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6380-s-c3-r1"
+        },
+        {
+          "question": "This Daniel Defoe character may have been inspired by the notorious thief Moll King",
+          "answer": "Moll Flanders",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6380-s-c3-r2"
+        },
+        {
+          "question": "Chapter I of this George Eliot novel is entitled \"Outside Dorlcote Mill\"",
+          "answer": "The Mill on the Floss",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6380-s-c3-r3"
+        },
+        {
+          "question": "Virgil based the last 6 books of this epic on the \"Iliad\"",
+          "answer": "Aeneid",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6380-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL U.S.A.",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "While much of this residence is off limits, you can visit the Blue, Green & East Rooms",
+          "answer": "White House",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6380-s-c4-r0"
+        },
+        {
+          "question": "Wondering what a million dollars looks like? It's on display at Binion's Horseshoe Casino in this Nevada city",
+          "answer": "Las Vegas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6380-s-c4-r1"
+        },
+        {
+          "question": "The observation deck of this 605-foot landmark offers a 360-degree view of Seattle & Puget Sound",
+          "answer": "Space Needle",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6380-s-c4-r2"
+        },
+        {
+          "question": "A cog railway can take you up this highest mountain in New Hampshire",
+          "answer": "Mount Washington",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6380-s-c4-r3"
+        },
+        {
+          "question": "Of interest in & around this Minnesota city are the Mayo Clinic, Mayo Park & Mayowood",
+          "answer": "Rochester",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6380-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANAGRAMS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Willard made a sculpture of this animal out of tar",
+          "answer": "rat (from tar)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6380-s-c5-r0"
+        },
+        {
+          "question": "Horst hates to be described by this adjective—he prefers diminutive",
+          "answer": "short (from Horst)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6380-s-c5-r1"
+        },
+        {
+          "question": "Mary says it's her favorite branch of the service",
+          "answer": "Army (from Mary)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6380-s-c5-r2"
+        },
+        {
+          "question": "Carole aspires to be this kind of medium; maybe she should move to Delphi",
+          "answer": "oracle (from Carole)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6380-s-c5-r3"
+        },
+        {
+          "question": "Jay only drinks pure water from this country",
+          "answer": "Peru (from pure)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6380-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NATIVE AMERICANS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Certain Virginia families can trace their ancestry to this woman through her son Thomas Rolfe",
+          "answer": "Pocahontas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIVE AMERICANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6380-d-c0-r0"
+        },
+        {
+          "question": "This Shoshone woman saved the records of the Lewis & Clark expedition when a boat capsized",
+          "answer": "Sacajawea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIVE AMERICANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6380-d-c0-r1"
+        },
+        {
+          "question": "A city on Lake Winnebago in this state is named for Oshkosh, an American ally in the Black Hawk War",
+          "answer": "Wisconsin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIVE AMERICANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6380-d-c0-r2"
+        },
+        {
+          "question": "John Ross helped write a constitution for this tribe after it traveled the \"Trail of Tears\"",
+          "answer": "Cherokee",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIVE AMERICANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6380-d-c0-r3"
+        },
+        {
+          "question": "This Chiricahua Apache leader remained under gov't control from his capture in 1886 until his death in 1909",
+          "answer": "Geronimo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIVE AMERICANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6380-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Partly out of modesty, his sister Fanny Mendelssohn published some of her songs under his name",
+          "answer": "Felix Mendelssohn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6380-d-c1-r0"
+        },
+        {
+          "question": "This city is considered the birthplace of Dixieland jazz",
+          "answer": "New Orleans",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6380-d-c1-r1"
+        },
+        {
+          "question": "The di bravura type of this operatic solo shows off a singer's skill & emotional range",
+          "answer": "aria",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6380-d-c1-r2"
+        },
+        {
+          "question": "This Gilbert & Sullivan operetta opens on the quarter-deck of the title ship",
+          "answer": "H.M.S. Pinafore",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6380-d-c1-r3"
+        },
+        {
+          "question": "This composer's \"Hungarian Rhapsody No. 2\" includes music for a csardas, a traditional Hungarian dance",
+          "answer": "(Franz) Liszt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6380-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRUITS & VEGETABLES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The palm that produces this extremely sweet fruit may be the world's oldest cultivated plant",
+          "answer": "date",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6380-d-c2-r0"
+        },
+        {
+          "question": "This root vegetable shouldn't be peeled before cooking as the red color will leach out of it",
+          "answer": "beet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6380-d-c2-r1"
+        },
+        {
+          "question": "The name of this relative of the cabbage comes from the Latin bracchium, meaning \"arm\" or \"branch\"",
+          "answer": "broccoli",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6380-d-c2-r2"
+        },
+        {
+          "question": "Though it originated in S. America, the potato came to N. America from this European country",
+          "answer": "Ireland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6380-d-c2-r3"
+        },
+        {
+          "question": "This starchy type of banana is always eaten cooked",
+          "answer": "plantain",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS & VEGETABLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6380-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIVIL WAR",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1862 the Confederate Congress passed a bill exempting anyone owning 20 of these from military service",
+          "answer": "slaves",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6380-d-c3-r0"
+        },
+        {
+          "question": "The USS Rhode Island rescued 47 members of the crew of this ironclad when it sank Dec. 31, 1862",
+          "answer": "Monitor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6380-d-c3-r1"
+        },
+        {
+          "question": "Federal forces recaptured this South Carolina fort Feb. 18, 1865",
+          "answer": "Fort Sumter",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6380-d-c3-r2"
+        },
+        {
+          "question": "This general for whom a \"Charge\" at Gettysburg is named never forgave Lee for ordering it",
+          "answer": "Pickett",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6380-d-c3-r3"
+        },
+        {
+          "question": "Over 13,000 Union prisoners perished at this prison camp near Americus, Georgia",
+          "answer": "Andersonville",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6380-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PSYCH 101",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Neophobia is a fear of anything that's this",
+          "answer": "new",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCH 101",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6380-d-c4-r0"
+        },
+        {
+          "question": "Famed psychoanalyst who wrote \"Das Ich und das Es\"—\"The Ego and the Id\"",
+          "answer": "Freud",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCH 101",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6380-d-c4-r1"
+        },
+        {
+          "question": "Many people respond to this famous test by saying the inkblots look like bats or witches",
+          "answer": "Rorschach",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCH 101",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6380-d-c4-r2"
+        },
+        {
+          "question": "Dementia praecox is an obsolete term for this severe disorder whose name means \"splitting in the mind\"",
+          "answer": "schizophrenia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCH 101",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6380-d-c4-r3"
+        },
+        {
+          "question": "Kurt Koffka was a leader in this system of psychology whose name is German for \"form\" or \"shape\"",
+          "answer": "gestalt",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSYCH 101",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6380-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FORMER SOVIET REPUBLICS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This country contains over 3/4 of the total area of the former Soviet Union",
+          "answer": "Russia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMER SOVIET REPUBLICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6380-d-c5-r0"
+        },
+        {
+          "question": "Until 1990 Moldova had been known by this name",
+          "answer": "Moldavia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMER SOVIET REPUBLICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6380-d-c5-r1"
+        },
+        {
+          "question": "The black soil of the steppes in this country has made it the \"breadbasket\" of the C.I.S.",
+          "answer": "Ukraine",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMER SOVIET REPUBLICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6380-d-c5-r2"
+        },
+        {
+          "question": "Letts make up a little over half of this Baltic nation's population",
+          "answer": "Latvia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMER SOVIET REPUBLICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6380-d-c5-r3"
+        },
+        {
+          "question": "Muslim Azerbaijan & this Christian country each claim Nagorno Karabakh an enclave within Azerbaijan",
+          "answer": "Armenia",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORMER SOVIET REPUBLICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6380-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOVERNMENT",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the majority of the state legislatures, this person presides over the senate",
+          "answer": "lieutenant governor",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "GOVERNMENT",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6380-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

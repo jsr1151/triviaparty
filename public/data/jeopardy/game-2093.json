@@ -1,0 +1,833 @@
+{
+  "gameId": 2093,
+  "showNumber": 3639,
+  "airDate": "June 1, 2000",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "COASTAL COMMUNITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Incorporated in 1901, there's no place like this Alaskan city on Norton Sound",
+          "answer": "Nome",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COASTAL COMMUNITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2093-s-c0-r0"
+        },
+        {
+          "question": "Yale University is this city's largest employer",
+          "answer": "New Haven, Connecticut",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COASTAL COMMUNITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2093-s-c0-r1"
+        },
+        {
+          "question": "Gloucester in this state has been a fishing center for over 3 centuries",
+          "answer": "Massachusetts",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COASTAL COMMUNITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2093-s-c0-r2"
+        },
+        {
+          "question": "Hey Jack, it was the capital of Alta California from 1775 to 1846",
+          "answer": "Monterey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COASTAL COMMUNITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2093-s-c0-r3"
+        },
+        {
+          "question": "A whole lotta wood chips are shipped out of Coos Bay in this state",
+          "answer": "Oregon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COASTAL COMMUNITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2093-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS SUPERSTITIONS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "For boxers, it's unlucky to be the first to enter this area",
+          "answer": "The ring",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SUPERSTITIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2093-s-c1-r0"
+        },
+        {
+          "question": "It's bad luck in this sport for a dog to cross the diamond before the first pitch",
+          "answer": "Baseball",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SUPERSTITIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2093-s-c1-r1"
+        },
+        {
+          "question": "Avoid faults by never holding more than 2 balls when serving in this sport",
+          "answer": "Tennis",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SUPERSTITIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2093-s-c1-r2"
+        },
+        {
+          "question": "Hey hockey puck!  Don't stack this piece of equipment crossing another player's; it's bad luck",
+          "answer": "Hockey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SUPERSTITIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2093-s-c1-r3"
+        },
+        {
+          "question": "Gone fishing?  Don't reveal this until you are done for the day",
+          "answer": "Your catch/number of fish you caught",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS SUPERSTITIONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2093-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SOMEONE OF SOMEWHERE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "KInd-hearted train robber Sam Bass has been called this British outlaw \"of Texas\"",
+          "answer": "Robin Hood",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SOMEONE OF SOMEWHERE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2093-s-c2-r0"
+        },
+        {
+          "question": "Firdawsi, known for his epic \"Book of Kings\", has been called this Greek poet \"of Persia\"",
+          "answer": "Homer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOMEONE OF SOMEWHERE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2093-s-c2-r1"
+        },
+        {
+          "question": "U.S. Grant was known as \"The Hero of\" this place, where he's pictured here:",
+          "answer": "Appomattox",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOMEONE OF SOMEWHERE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2093-s-c2-r2"
+        },
+        {
+          "question": "It's what nurse Clara Barton was \"The Angel of\"",
+          "answer": "The battlefield",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SOMEONE OF SOMEWHERE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2093-s-c2-r3"
+        },
+        {
+          "question": "Ben Franklin dubbed silver-tongued Robert R. Livingston this Roman orator \"of America\"",
+          "answer": "Cicero",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SOMEONE OF SOMEWHERE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2093-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "STUPID ANSWERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1567 Pope Pius V issued a papal bull against the fighting of these",
+          "answer": "Bulls",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2093-s-c3-r0"
+        },
+        {
+          "question": "Family of trees on which you'd find pine cones",
+          "answer": "Pine trees",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2093-s-c3-r1"
+        },
+        {
+          "question": "Bangui is the capital of this central African republic",
+          "answer": "Central African Republic",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2093-s-c3-r2"
+        },
+        {
+          "question": "In the binary number system, this number would be 01",
+          "answer": "1",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2093-s-c3-r3"
+        },
+        {
+          "question": "In 1851 this yacht won the trophy that was to become the America's Cup",
+          "answer": "the America",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STUPID ANSWERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2093-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLORS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Saffron,canary,lemon",
+          "answer": "Yellow",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2093-s-c4-r0"
+        },
+        {
+          "question": "Ruby,brick,crimson",
+          "answer": "Red",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2093-s-c4-r1"
+        },
+        {
+          "question": "Lilac,lavender,puce",
+          "answer": "Purple",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2093-s-c4-r2"
+        },
+        {
+          "question": "Olive,hunter,kelly",
+          "answer": "Green",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2093-s-c4-r3"
+        },
+        {
+          "question": "Cornflower,cerulean,periwinkle",
+          "answer": "Blue",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2093-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"OO\", SORRY!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This tropical grass can shoot up to 130 feet in height",
+          "answer": "Bamboo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\", SORRY!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2093-s-c5-r0"
+        },
+        {
+          "question": "Home, sweet home, to an Inuit",
+          "answer": "Igloo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\", SORRY!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2093-s-c5-r1"
+        },
+        {
+          "question": "Now a children's toy, this musical instrument was popular in jug bands",
+          "answer": "Kazoo",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\", SORRY!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2093-s-c5-r2"
+        },
+        {
+          "question": "Carrie Fisher made her film debut in this 1975 Warren Beatty-Julie Christie movie",
+          "answer": "Shampoo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\", SORRY!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2093-s-c5-r3"
+        },
+        {
+          "question": "This Ontario city was settled by Pennsylvania Mennonites who named it for an 1815 European battle",
+          "answer": "Waterloo",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OO\", SORRY!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2093-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOVERNORS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Early in 2000 South Carolina governor Jim Hodges advocated removing this from atop the statehouse",
+          "answer": "Confederate battleflag",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2093-d-c0-r0"
+        },
+        {
+          "question": "The person heard here is the governor of this U.S. state:\"I'm a 6'4\", 250-pound ex-Navy SEAL, pro wrestler, radio personality...\"",
+          "answer": "Minnesota",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOVERNORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2093-d-c0-r1"
+        },
+        {
+          "question": "In this state's 1998 election, John Engler pulled the plug on the gubernatorial hopes of Jack Kevorkian's lawyer",
+          "answer": "Michigan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2093-d-c0-r2"
+        },
+        {
+          "question": "In 1998 this state's Jim Geringer was the only governor to win election with under 100,000 votes",
+          "answer": "Wyoming",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOVERNORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2093-d-c0-r3"
+        },
+        {
+          "question": "In 1990 she came within 2 percentage points of defeating Bill Bradley for his senate seat",
+          "answer": "Christine Todd Whitman",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2093-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CINEMA",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Johnny Depp debuted in this 1984 film & made a cameo later in the series in \"Freddy's Dead: The Final Nightmare\"",
+          "answer": "Nightmare on Elm Street",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CINEMA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2093-d-c1-r0"
+        },
+        {
+          "question": "This martial artist's 1995 film \"Hung Fan Kui\" was released in the U.S. as \"Rumble in the Bronx\"",
+          "answer": "Jackie Chan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CINEMA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2093-d-c1-r1"
+        },
+        {
+          "question": "(Hi, I'm Gil Bellows of Ally McBeal.)  In 1994 I was on the wrong side of the law as an inmate in this film that also starred Tim Robbins & Morgan Freeman",
+          "answer": "The Shawshank Redemption",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CINEMA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2093-d-c1-r2"
+        },
+        {
+          "question": "She was nominated for an Oscar for playing a role based on herself in Neil Simon's \"Chapter Two\"",
+          "answer": "Marsha Mason",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CINEMA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2093-d-c1-r3"
+        },
+        {
+          "question": "This bouncy wirehaired fox terrier shared the spotlight with William Powell & Myrna Loy in \"The Thin Man\" series",
+          "answer": "Asta",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CINEMA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2093-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE JOY OF INSECTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "One difference between crickets & these, including locusts, is crickets' longer antennae",
+          "answer": "grasshoppers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE JOY OF INSECTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2093-d-c2-r0"
+        },
+        {
+          "question": "Made of paper, the nests of these wasps are a synonym for hostility & strife",
+          "answer": "Hornets",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE JOY OF INSECTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2093-d-c2-r1"
+        },
+        {
+          "question": "A maggot represents this stage in the metamorphosis of a fly",
+          "answer": "Larval",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE JOY OF INSECTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2093-d-c2-r2"
+        },
+        {
+          "question": "The etymology of this word for the study of insects is that it comes from Greek for \"notched\"",
+          "answer": "entomology",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE JOY OF INSECTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2093-d-c2-r3"
+        },
+        {
+          "question": "There are biting & nonbiting types of this tiny insect with the name of an Archie Comics girl",
+          "answer": "a midge",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE JOY OF INSECTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2093-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TO THE MAX",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "With the creation of pancake makeup, he changed the face of Hollywood",
+          "answer": "Max Factor",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TO THE MAX",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2093-d-c3-r0"
+        },
+        {
+          "question": "This Swedish actor who tried to expel demons in \"The Exorcist\" played the devil himself in \"Needful Things\"",
+          "answer": "Max von Sydow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TO THE MAX",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2093-d-c3-r1"
+        },
+        {
+          "question": "Seen here, the stage he designed for \"Woodstock '99\" was out of this world:",
+          "answer": "Peter Max",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TO THE MAX",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2093-d-c3-r2"
+        },
+        {
+          "question": "This contemporary of Einstein won the 1918 Nobel Prize for Physics",
+          "answer": "Max Planck",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TO THE MAX",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2093-d-c3-r3"
+        },
+        {
+          "question": "He wrote the play \"Winterset\" & co-wrote \"What Price Glory?\"",
+          "answer": "Maxwell Anderson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TO THE MAX",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2093-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTOBIOGRAPHERS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A singer:\"Stand By Your Man\"",
+          "answer": "Tammy Wynette",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2093-d-c4-r0"
+        },
+        {
+          "question": "A diva:\"Bubbles: An Encore\"",
+          "answer": "Beverly Sills",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2093-d-c4-r1"
+        },
+        {
+          "question": "A Scandinavian movie director:\"The Magic Lantern\"",
+          "answer": "Ingmar Bergman",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2093-d-c4-r2"
+        },
+        {
+          "question": "A religious leader:\"Freedom in Exile\"",
+          "answer": "The Dalai Lama",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2093-d-c4-r3"
+        },
+        {
+          "question": "A former vice president:\"Standing Firm\"",
+          "answer": "Dan Quayle",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTOBIOGRAPHERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2093-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT DO YOU MEAN?",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In the E.R., doctors ask for things to be done immediately by using this 4-letter Latin abbreviation",
+          "answer": "Stat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DO YOU MEAN?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2093-d-c5-r0"
+        },
+        {
+          "question": "In restaurants this number means \"all gone\"",
+          "answer": "86",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DO YOU MEAN?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2093-d-c5-r1"
+        },
+        {
+          "question": "When used with \"up\", this type of little house is slang for living together without being married",
+          "answer": "Shack",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DO YOU MEAN?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2093-d-c5-r2"
+        },
+        {
+          "question": "From the Latin for \"chest\", it's a pen used for small animals such as rabbits",
+          "answer": "a hutch",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DO YOU MEAN?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2093-d-c5-r3"
+        },
+        {
+          "question": "Manic depression is another term for this \"disorder\" marked by mood disturbances",
+          "answer": "Bipolar disorder",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT DO YOU MEAN?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2093-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARTISTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He was born in 1864 to 2 first cousins",
+          "answer": "Henri de Toulouse-Lautrec",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ARTISTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2093-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

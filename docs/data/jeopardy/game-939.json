@@ -1,0 +1,773 @@
+{
+  "gameId": 939,
+  "showNumber": 3291,
+  "airDate": "December 21, 1998",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WY WYOMING?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Pioneer trails through South Pass included the California, Mormon & this one to the Northwest",
+          "answer": "the Oregon Trail",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WY WYOMING?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g939-s-c0-r0"
+        },
+        {
+          "question": "This large prairie animal is featured in white silhouette on the state flag",
+          "answer": "Buffalo",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WY WYOMING?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g939-s-c0-r1"
+        },
+        {
+          "question": "This chief tributary of the Columbia River rises near the Continental Divide in Yellowstone",
+          "answer": "the Snake River",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WY WYOMING?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g939-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "DOG TALES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's what Lassie was asked to do in the title of the classic 1938 Eric Knight short story",
+          "answer": "Come home",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOG TALES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g939-s-c1-r0"
+        },
+        {
+          "question": "\"Jerry Of The Islands\" is the tale of an Irish Terrier pup by this \"White Fang\" author",
+          "answer": "Jack London",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOG TALES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g939-s-c1-r1"
+        },
+        {
+          "question": "Dodie Smith's 1956 tale about Missis, a dalmatian whose litter of 15 puppies is stolen",
+          "answer": "101 Dalmatians",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOG TALES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g939-s-c1-r2"
+        },
+        {
+          "question": "\"Hound Dunnit\" is a collection of dog mysteries for kids by this \"I, Robot\" author",
+          "answer": "Isaac Asimov",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOG TALES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g939-s-c1-r3"
+        },
+        {
+          "question": "\"The Plague Dogs\" is a book from this \"Watership Down\" author",
+          "answer": "Richard Adams",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOG TALES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g939-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NONPOTENT POTABLES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This beverage is the primary source of vitamin C for most Americans",
+          "answer": "Orange juice",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g939-s-c2-r0"
+        },
+        {
+          "question": "This type of coffee is made by freeze-drying or less expensively, by spray-drying",
+          "answer": "Instant coffee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g939-s-c2-r1"
+        },
+        {
+          "question": "Made with grenadine, ginger ale & a cherry, it was named for an underage movie star",
+          "answer": "Shirley Temple",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g939-s-c2-r2"
+        },
+        {
+          "question": "Hey this man!  He started softening water in the '20s & founded his company in 1936",
+          "answer": "Emmett Culligan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g939-s-c2-r3"
+        },
+        {
+          "question": "The lapsang souchong type of this beverage is treasured for its smokey flavor & aroma",
+          "answer": "Tea",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONPOTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g939-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "OH COME ALL YE FAITHFUL",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "For years \"Arnie's Army\" has followed this golfing hero around",
+          "answer": "Arnold Palmer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH COME ALL YE FAITHFUL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g939-s-c3-r0"
+        },
+        {
+          "question": "Colorful characters like \"Andre the Giant\" & \"Gorgeous George\" were faithfully cheered in this sport",
+          "answer": "Professional wrestling",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH COME ALL YE FAITHFUL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g939-s-c3-r1"
+        },
+        {
+          "question": "Brokenhearted fans of this man gather in Memphis each August 16th",
+          "answer": "Elvis Presley",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH COME ALL YE FAITHFUL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g939-s-c3-r2"
+        },
+        {
+          "question": "A lifelong diehard fan of this college's football team is seen here",
+          "answer": "the University of Nebraska",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OH COME ALL YE FAITHFUL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g939-s-c3-r3"
+        },
+        {
+          "question": "As the Horta could tell you, fans known as Trekkies prefer to be called this similar name instead",
+          "answer": "Trekkers",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OH COME ALL YE FAITHFUL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g939-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "DECK THE \"HALL\"s",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Woody Allen won 2 Oscars for this 1977 film",
+          "answer": "Annie Hall",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DECK THE \"HALL\"s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g939-s-c4-r0"
+        },
+        {
+          "question": "I'll trade you $200 for the name of this \"Let's Make A Deal\" host",
+          "answer": "Monty Hall",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DECK THE \"HALL\"s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g939-s-c4-r1"
+        },
+        {
+          "question": "Known as \"The Storyteller\", this country music legend wrote the mega-selling hit \"Harper Valley P.T.A.\"",
+          "answer": "Tom T. Hall",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DECK THE \"HALL\"s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g939-s-c4-r2"
+        },
+        {
+          "question": "U.S. Marines sing that they will fight from this location \"To the shores of Tripoli\"",
+          "answer": "\"From the halls of Montezuma\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DECK THE \"HALL\"s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g939-s-c4-r3"
+        },
+        {
+          "question": "This secretary denied ever smuggling Iran-Contra documents in her underwear",
+          "answer": "Fawn Hall",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DECK THE \"HALL\"s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g939-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT'S PHONY!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Frank Morgan played this 1939 movie title character who is revealed as a humbug",
+          "answer": "The Wizard of Oz",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S PHONY!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g939-s-c5-r0"
+        },
+        {
+          "question": "In the '50s the Platters sang about \"The Great\" one",
+          "answer": "Pretender",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S PHONY!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g939-s-c5-r1"
+        },
+        {
+          "question": "French architectural term illustrated here that in the abstract means \"an illusion\"",
+          "answer": "façade",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THAT'S PHONY!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g939-s-c5-r2"
+        },
+        {
+          "question": "Legal term for deliberate deception; by mail, it's a federal offense",
+          "answer": "Fraud",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S PHONY!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g939-s-c5-r3"
+        },
+        {
+          "question": "This word for one who feigns principles he does not possess is from Greek meaning \"a stage actor\"",
+          "answer": "Hypocrite",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S PHONY!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g939-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY OPERA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "First performed on Helsinki Radio in 1958, Merikanto's \"Juha\" is one of this country's finest operas",
+          "answer": "Finland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY OPERA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g939-d-c0-r0"
+        },
+        {
+          "question": "In the sex-change opera \"The Breasts of Tiresias\", the husband bears 40,000 of these in a single day",
+          "answer": "Children",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY OPERA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g939-d-c0-r1"
+        },
+        {
+          "question": "Ari liked the arias of this Greek diva who was nicknamed \"La Divina\"",
+          "answer": "Maria Callas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY OPERA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g939-d-c0-r2"
+        },
+        {
+          "question": "Carlisle Floyd's opera based on this Steinbeck work has rodentia & homo sapiens in its title",
+          "answer": "Of Mice And Men",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY OPERA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g939-d-c0-r3"
+        },
+        {
+          "question": "His tragicomedy \"Six Characters In Search Of An Author\" inspired a modern opera by Hugo Weisgall",
+          "answer": "Luigi Pirandello",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY OPERA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g939-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "AFFAIRS OF STATE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Alice Glass reportedly broke off her affair with this president because she opposed the Vietnam War",
+          "answer": "Lyndon B. Johnson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFFAIRS OF STATE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g939-d-c1-r0"
+        },
+        {
+          "question": "It's out of the closet that he was in the closet with Nan Britton, a young flapper",
+          "answer": "Warren G. Harding",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AFFAIRS OF STATE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g939-d-c1-r1"
+        },
+        {
+          "question": "1884 reports that he committed his lover to an insane asylum nearly cost him the election",
+          "answer": "Grover Cleveland",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFFAIRS OF STATE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g939-d-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "STARS OF THE SILENT SCREEN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "He starred solo & directed before being paired with Oliver Hardy",
+          "answer": "Stan Laurel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS OF THE SILENT SCREEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g939-d-c2-r0"
+        },
+        {
+          "question": "John Barrymore played this role twice, silently in \"The Sea Beast\" & talking in \"Moby Dick\"",
+          "answer": "Captain Ahab",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS OF THE SILENT SCREEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g939-d-c2-r1"
+        },
+        {
+          "question": "It's reported Francis X. Bushman refused the use of a stunt double in this 1926 classic's chariot race",
+          "answer": "Ben-Hur",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS OF THE SILENT SCREEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g939-d-c2-r2"
+        },
+        {
+          "question": "Famous for his series of films with Vilma Banky, he starred as \"Beau Geste\"",
+          "answer": "Ronald Colman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARS OF THE SILENT SCREEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g939-d-c2-r3"
+        },
+        {
+          "question": "In 1914 this gem of an actress starred in the serial \"The Perils of Pauline\"",
+          "answer": "Pearl White",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARS OF THE SILENT SCREEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g939-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "IMAGINARY LAW FIRMS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In a poem by Eugene Field, Wynken, Blynken & this partner \"sailed off in a wooden shoe\"",
+          "answer": "Nod",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IMAGINARY LAW FIRMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g939-d-c3-r0"
+        },
+        {
+          "question": "This firm whose members use their first names stands for ordinary people in the street",
+          "answer": "Tom, Dick & Harry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IMAGINARY LAW FIRMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g939-d-c3-r1"
+        },
+        {
+          "question": "They're Ready's 2 partners in the firm that represents qualified buyers of real estate",
+          "answer": "Willing & Able",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IMAGINARY LAW FIRMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g939-d-c3-r2"
+        },
+        {
+          "question": "This firm with the names of 2 Kansas cities & 1 New Mexico city tells its clients, \"All Aboard!\"",
+          "answer": "Atchison, Topeka & Santa Fe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IMAGINARY LAW FIRMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g939-d-c3-r3"
+        },
+        {
+          "question": "Completes the name of the law firm of NPR's \"Car Talk\", Dewey, Cheatem & ...",
+          "answer": "Howe",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IMAGINARY LAW FIRMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g939-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE FIRST",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "His \"Murders In The Rue Morgue\" is often cited as the first detective story",
+          "answer": "Edgar Allan Poe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g939-d-c4-r0"
+        },
+        {
+          "question": "How symbolic, this magazine's first issue in 1936 featured a photo of a doctor slapping a newborn baby's behind",
+          "answer": "Life",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g939-d-c4-r1"
+        },
+        {
+          "question": "Take note, in 1957 this company with a once hyphenated name began marketing the 1st electric portable typewriters",
+          "answer": "Smith-Corona",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g939-d-c4-r2"
+        },
+        {
+          "question": "Say what?  In the first recording for his phonograph, Thomas Edison recited this nursery rhyme",
+          "answer": "\"Mary Had A Little Lamb\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FIRST",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g939-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "NOEL",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Noel Coward began his stage career as a child actor & even played one of the Lost Boys in this classic",
+          "answer": "Peter Pan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOEL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g939-d-c5-r0"
+        },
+        {
+          "question": "As a teenager, Noel appeared in this \"Birth of a Nation\" director's silent film \"Hearts of the World\" in 1918",
+          "answer": "D.W. Griffith",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOEL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g939-d-c5-r1"
+        },
+        {
+          "question": "Noel wrote the songs for the musical \"The Girl Who Came to Supper\"; it starred this \"Brady Bunch\" actress",
+          "answer": "Florence Henderson",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOEL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g939-d-c5-r2"
+        },
+        {
+          "question": "Noel, Alfred Lunt & this actress formed a menage a trois in Noel's controversial comedy \"Design for Living\"",
+          "answer": "Lynn Fontanne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOEL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g939-d-c5-r3"
+        },
+        {
+          "question": "15 years after co-starring with Noel in the film \"Boom!\", this famous couple starred in his play \"Private Lives\"",
+          "answer": "Richard Burton & Elizabeth Taylor",
+          "value": 900,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOEL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g939-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOYS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "While making a torsion meter, an engineer got the idea for this classic toy",
+          "answer": "Slinky",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "TOYS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g939-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

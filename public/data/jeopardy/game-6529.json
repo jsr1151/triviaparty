@@ -1,0 +1,785 @@
+{
+  "gameId": 6529,
+  "showNumber": 8139,
+  "airDate": "January 16, 2020",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "\"P\"ICTURE THIS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "As a symbol of American success, it dates back to the Colonial Era",
+          "answer": "a picket fence",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"ICTURE THIS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6529-s-c0-r0"
+        },
+        {
+          "question": "A sunflower provided these microscopic grains",
+          "answer": "pollen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"ICTURE THIS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6529-s-c0-r1"
+        },
+        {
+          "question": "In 1948 at age 42, he was Major League Baseball's oldest rookie ever",
+          "answer": "Satchel Paige",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"P\"ICTURE THIS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6529-s-c0-r2"
+        },
+        {
+          "question": "It's the line of reference seen here",
+          "answer": "the prime meridian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"ICTURE THIS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6529-s-c0-r3"
+        },
+        {
+          "question": "This colorful word can be applied to both the beautiful bloom & the edible gastropod seen here",
+          "answer": "periwinkle",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"ICTURE THIS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6529-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEATHER",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1937 a search party was sent for one of the goalies when a soccer game was stopped in England due to this weather condition",
+          "answer": "fog",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6529-s-c1-r0"
+        },
+        {
+          "question": "In a 2-week period in 2018, the East Coast was walloped by 3 of these storms named for the direction from which they came",
+          "answer": "nor'easters",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6529-s-c1-r1"
+        },
+        {
+          "question": "Non-fluid aneroid barometers use a partial one of these instead of mercury to measure air pressure",
+          "answer": "vacuum",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6529-s-c1-r2"
+        },
+        {
+          "question": "Doppler weather systems use this type of technology to detect weather patterns",
+          "answer": "radar",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6529-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "5-LETTER WORDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Stick held by an orchestra conductor",
+          "answer": "a baton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6529-s-c2-r0"
+        },
+        {
+          "question": "It's a group of witches",
+          "answer": "a coven",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6529-s-c2-r1"
+        },
+        {
+          "question": "The Carabao is a popular variety of this tropical fruit",
+          "answer": "mangoes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6529-s-c2-r2"
+        },
+        {
+          "question": "Unit of weight equal to 16 drams or 28.35 grams",
+          "answer": "an ounce",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6529-s-c2-r3"
+        },
+        {
+          "question": "To make amends for a past mistake",
+          "answer": "atone",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6529-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COINAGE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "(Sarah of the Clue Crew drops a coin in water.) Made of this lightweight metal, Japan's 1-yen coin weighs only a gram and can float on water",
+          "answer": "aluminum",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COINAGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6529-s-c3-r0"
+        },
+        {
+          "question": "This country chose the image of an owl from an ancient 4-drachma coin to use on its 1-euro coin",
+          "answer": "Greece",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COINAGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6529-s-c3-r1"
+        },
+        {
+          "question": "The 1792 Coinage Act named 10-dollar U.S. gold coins for this bird",
+          "answer": "the bald eagle",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COINAGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6529-s-c3-r2"
+        },
+        {
+          "question": "In 2019 the U.S. Mint issued quarters with a \"W\" mint mark for the first time, indicating they were minted at this N.Y. location",
+          "answer": "West Point",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COINAGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6529-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "PARK CITY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This city's Freedom Park was opened as part of the 1996 Summer Olympics",
+          "answer": "Atlanta",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARK CITY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6529-s-c4-r0"
+        },
+        {
+          "question": "Prospect Park in this borough was one of the sites of the Battle of Long Island in the Revolutionary War",
+          "answer": "Brooklyn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARK CITY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6529-s-c4-r1"
+        },
+        {
+          "question": "Zilker Park is home to this 3-word music festival held every fall bearing the name of Texas' capital",
+          "answer": "Austin City Limits",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARK CITY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6529-s-c4-r2"
+        },
+        {
+          "question": "This South Dakota city and its beautiful Falls Park are both named for the same landmark",
+          "answer": "Sioux Falls",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARK CITY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6529-s-c4-r3"
+        },
+        {
+          "question": "The San Diego Zoo is just part of this vast park named for a conquistador",
+          "answer": "Balboa Park",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PARK CITY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6529-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "REAL PEOPLE ON SCREEN",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A boxer: played by Terrence Howard in \"King of the World\" & Darius McCrary in \"Don King: Only in America\"",
+          "answer": "Muhammad Ali",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REAL PEOPLE ON SCREEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6529-s-c5-r0"
+        },
+        {
+          "question": "A civil rights leader: Jeffrey Wright in \"Boycott\" & Nelsan Ellis in \"The Butler\"",
+          "answer": "Martin Luther King",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REAL PEOPLE ON SCREEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6529-s-c5-r1"
+        },
+        {
+          "question": "An entrepreneur: Anthony Michael Hall in \"Pirates of Silicon Valley\" & Steve Sires in \"The Social Network\"",
+          "answer": "Bill Gates",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "REAL PEOPLE ON SCREEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6529-s-c5-r2"
+        },
+        {
+          "question": "A martial artist: Philip Ng in \"Birth of the Dragon\" & Mike Moh in \"Once Upon a Time... in Hollywood\"",
+          "answer": "Bruce Lee",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REAL PEOPLE ON SCREEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6529-s-c5-r3"
+        },
+        {
+          "question": "A rock star: Aaron Taylor-Johnson in \"Nowhere Boy\" & Ian Hart in \"Backbeat\"",
+          "answer": "John Lennon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "REAL PEOPLE ON SCREEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6529-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ONCE UPON A TIME IN AMERICA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Going to federal prison at this Calif. landmark is more fun today than when it actually held inmates from 1934 to 1963",
+          "answer": "Alcatraz",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONCE UPON A TIME IN AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6529-d-c0-r0"
+        },
+        {
+          "question": "In 1957 the integration of Central High School in this state capital became international news",
+          "answer": "Little Rock",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONCE UPON A TIME IN AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6529-d-c0-r1"
+        },
+        {
+          "question": "Organized in the 1830s, this group of lawmen merged with the Texas State Highway Patrol in 1935",
+          "answer": "the Texas Rangers",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ONCE UPON A TIME IN AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6529-d-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "ROCK OPERAS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "When this 1971 \"super\" Andrew Lloyd Webber rock opera premiered onstage, it was performed concert-style",
+          "answer": "Jesus Christ Superstar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK OPERAS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6529-d-c1-r0"
+        },
+        {
+          "question": "\"American Idiot\" made its way to Broadway 6 years after this pop-punk band released the album in 2004",
+          "answer": "Green Day",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK OPERAS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6529-d-c1-r1"
+        },
+        {
+          "question": "The title of this 1973 rock opera by The Who is partly drawn from an incorrect understanding of schizophrenia",
+          "answer": "Quadrophenia",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROCK OPERAS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6529-d-c1-r2"
+        },
+        {
+          "question": "Pink Floyd is the band & the main character in this 1979 rock opera",
+          "answer": "The Wall",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK OPERAS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6529-d-c1-r3"
+        },
+        {
+          "question": "John Cameron Mitchell wrote a 1998 rock opera about this genderqueer cabaret singer \"& the Angry Inch\"",
+          "answer": "Hedwig",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK OPERAS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6529-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATES' COMMON SURNAMES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's the most common last name in over half of the 50 states",
+          "answer": "Smith",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES' COMMON SURNAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6529-d-c2-r0"
+        },
+        {
+          "question": "Louisiana-born singers Hank Jr. & Lucinda share this surname, the state's most common",
+          "answer": "Williams",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES' COMMON SURNAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6529-d-c2-r1"
+        },
+        {
+          "question": "Garcia is the number 1 last name in 2 states--these 2 biggies",
+          "answer": "Texas & California",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES' COMMON SURNAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6529-d-c2-r2"
+        },
+        {
+          "question": "Martinez is number 1 in this state where Susana Martinez was governor from 2011 to 2019",
+          "answer": "New Mexico",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATES' COMMON SURNAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6529-d-c2-r3"
+        },
+        {
+          "question": "This 7-letter last name of 2 U.S. Presidents is particularly common in Minnesota, Nebraska, Wisconsin & both Dakotas",
+          "answer": "Johnson",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATES' COMMON SURNAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6529-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL SPELLING BEE WINNING WORDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "South-of-the-border dog breed (1967)",
+          "answer": "Chihuahua",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL SPELLING BEE WINNING WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6529-d-c3-r0"
+        },
+        {
+          "question": "Narrow-edged cutter at the front of the jaw (1975)",
+          "answer": "incisor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL SPELLING BEE WINNING WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6529-d-c3-r1"
+        },
+        {
+          "question": "It's a system of sending messages using flags (1946)",
+          "answer": "semaphore",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL SPELLING BEE WINNING WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6529-d-c3-r2"
+        },
+        {
+          "question": "French word for cherry that's also a shade of red (1926)",
+          "answer": "cerise",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL SPELLING BEE WINNING WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6529-d-c3-r3"
+        },
+        {
+          "question": "\"Sweet melody\" music maker struck with handheld hammers (1949)",
+          "answer": "dulcimer",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL SPELLING BEE WINNING WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6529-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTH IN MODERN LITERATURE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Geryon, a character in one of this hero's labors, falls in love with him in Anne Carson's \"The Autobiography of Red\"",
+          "answer": "Hercules",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTH IN MODERN LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6529-d-c4-r0"
+        },
+        {
+          "question": "W.H. Auden wrote a famous poem about a painting of him, described as \"a boy falling out of the sky\"",
+          "answer": "Icarus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTH IN MODERN LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6529-d-c4-r1"
+        },
+        {
+          "question": "In a Shelley work this fire bringer is not happy to be nailed to a \"wall of eagle-baffling mountain\"",
+          "answer": "Prometheus",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTH IN MODERN LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6529-d-c4-r2"
+        },
+        {
+          "question": "The title character of Margaret Atwood's \"The Penelopiad\" tells the story of running this kingdom while waiting for Odysseus to get back",
+          "answer": "Ithaca",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MYTH IN MODERN LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6529-d-c4-r3"
+        },
+        {
+          "question": "Dionysus is a big factor in \"The Secret History\", this author's first novel",
+          "answer": "(Donna) Tartt",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTH IN MODERN LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6529-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BLUE BY YOU",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "He chose a nice blue hat to cover the bandage over his ear for the 1889 painting seen here",
+          "answer": "van Gogh",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLUE BY YOU",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6529-d-c5-r0"
+        },
+        {
+          "question": "\"Crouching Woman\" & \"Blind Man's Meal\" are paintings from his blue period",
+          "answer": "Picasso",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLUE BY YOU",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6529-d-c5-r1"
+        },
+        {
+          "question": "Thomas Gainsborough set the tone with the portrait seen",
+          "answer": "The Blue Boy",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLUE BY YOU",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6529-d-c5-r2"
+        },
+        {
+          "question": "Ultramarine was the ultra-essential to this Dutchman's \"Woman in Blue Reading a Letter\"",
+          "answer": "Vermeer",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLUE BY YOU",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6529-d-c5-r3"
+        },
+        {
+          "question": "The Japanese artist Hokusai was adept at using the dye of blue named for this onetime European kingdom",
+          "answer": "Prussian blue",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLUE BY YOU",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6529-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WESTERN HEMISPHERE GEOGRAPHY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the easternmost capital city in Central America",
+          "answer": "Panama City",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WESTERN HEMISPHERE GEOGRAPHY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6529-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

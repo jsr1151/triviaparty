@@ -1,0 +1,725 @@
+{
+  "gameId": 3462,
+  "showNumber": 5980,
+  "airDate": "September 17, 2010",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HELLO CLEVELAND!",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "John D. Rockefeller co-founded this company in Cleveland in 1870",
+          "answer": "Standard Oil",
+          "value": 4200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELLO CLEVELAND!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3462-s-c0-r0"
+        },
+        {
+          "question": "Born in nearby Orange, this 19th c. president & assassination victim is buried in Cleveland's Lake View cemetery",
+          "answer": "Garfield",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELLO CLEVELAND!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3462-s-c0-r1"
+        },
+        {
+          "question": "Cleveland sits at the mouth of this river that caught fire in 1969; it's also the seat of the county of the same name",
+          "answer": "Cuyahoga",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELLO CLEVELAND!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3462-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "REALITY SHOWS A LA SHAKESPEARE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Heroes & villains abound! Colby, Coach & Rupert doth return to the fray but Boston Rob, the tribe hath spoken",
+          "answer": "Survivor",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALITY SHOWS A LA SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3462-s-c1-r0"
+        },
+        {
+          "question": "In truth, Rod Blagojevich, thou displeasest me mightily & thy hair scares even me... thou art fired!",
+          "answer": "The Apprentice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALITY SHOWS A LA SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3462-s-c1-r1"
+        },
+        {
+          "question": "Rudy, though thou sheddeth 213 lbs. in our 8th season, I am sorry to inform thee, thou art not...",
+          "answer": "The Biggest Loser",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALITY SHOWS A LA SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3462-s-c1-r2"
+        },
+        {
+          "question": "DJ Pauly D!  Arise from thy tanning bed!  Ronnie hath come to blows on the boardwalk!  Do not tarry!  \"The Situation\" is dire!",
+          "answer": "Jersey Shore",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALITY SHOWS A LA SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3462-s-c1-r3"
+        },
+        {
+          "question": "Rogues! Fugitives! Hear me! The Chapmans will track & capture thee from Hawaii to Colorado! This is our (A&E) quest!",
+          "answer": "Dog the Bounty Hunter",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALITY SHOWS A LA SHAKESPEARE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3462-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SEPTEMBER'S HERE ALREADY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "I'm off to London to see the spring 2011 collections shown as part of this \"week\"",
+          "answer": "Fashion",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEPTEMBER'S HERE ALREADY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3462-s-c2-r0"
+        },
+        {
+          "question": "You can still get in on the celebrations of this anniversary of Mexico's independence",
+          "answer": "200th",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEPTEMBER'S HERE ALREADY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3462-s-c2-r1"
+        },
+        {
+          "question": "You Marylanders who didn't vote in this on the 14th, don't complain about the bums who take office",
+          "answer": "primary",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SEPTEMBER'S HERE ALREADY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3462-s-c2-r2"
+        },
+        {
+          "question": "I'm 2 weeks late with my 73rd birthday gift for this L.A. Olympics organizer & ex-baseball commissioner",
+          "answer": "Peter Ueberroth",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SEPTEMBER'S HERE ALREADY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3462-s-c2-r3"
+        },
+        {
+          "question": "Remember the 25th is Mozambique's Armed Forces Day, commemorating the fight against this colonial power",
+          "answer": "Portugal",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEPTEMBER'S HERE ALREADY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3462-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SIDE EFFECTS MAY INCLUDE...",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Exploding pancreas, chronic finger loss & dermatitis from contact with this climbing vine, rhus radicans",
+          "answer": "poison ivy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SIDE EFFECTS MAY INCLUDE...",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3462-s-c3-r0"
+        },
+        {
+          "question": "Spontaneous nose inversion, foot attack & this \"fowl\" 10-letter skin disease whose incubation period averages 2-3 weeks",
+          "answer": "chicken pox",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SIDE EFFECTS MAY INCLUDE...",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3462-s-c3-r1"
+        },
+        {
+          "question": "Kidney vertigo, eyebrow singe & this, a yellow discoloring of the skin caused by too much bilirubin in the blood",
+          "answer": "jaundice",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SIDE EFFECTS MAY INCLUDE...",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3462-s-c3-r2"
+        },
+        {
+          "question": "Hip implosion, spleen shivers & this \"heliocentric\" condition, aka heat hyperpyrexia, when body temp. hits 105 degrees",
+          "answer": "sunstroke",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SIDE EFFECTS MAY INCLUDE...",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3462-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "AIRLINE CARRY ON NO-NOS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Hey, ninjas: put your shurikens or throwing these into your checked bag",
+          "answer": "throwing stars",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AIRLINE CARRY ON NO-NOS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3462-s-c4-r0"
+        },
+        {
+          "question": "Baseball bat? No. Bat for this, England's national summer sport? Also no",
+          "answer": "cricket",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AIRLINE CARRY ON NO-NOS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3462-s-c4-r1"
+        },
+        {
+          "question": "No Bruce Lee moves--this martial arts weapon, 2 sticks joined by a chain, can't go in your carry-on",
+          "answer": "nunchucks",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AIRLINE CARRY ON NO-NOS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3462-s-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "TALK LIKE A PIRATE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Among the crimes the ATF investigates be this one, from the Latin for \"to burn\"",
+          "answer": "arson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK LIKE A PIRATE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3462-s-c5-r0"
+        },
+        {
+          "question": "It be the title of the princes of the former ruling house of Austria, like Franz Ferdinand",
+          "answer": "archduke",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK LIKE A PIRATE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3462-s-c5-r1"
+        },
+        {
+          "question": "The Nebraska legislature be tree lovers & made this day, April 22, a legal holiday",
+          "answer": "Arbor Day",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK LIKE A PIRATE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3462-s-c5-r2"
+        },
+        {
+          "question": "It be the horse noted for grace & intelligence, seen here",
+          "answer": "Arabian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK LIKE A PIRATE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3462-s-c5-r3"
+        },
+        {
+          "question": "The atomic weight of this element used to fill vacuum tubes be 39.948; remember the gist o' the category, ye scurvy scalawags!",
+          "answer": "argon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALK LIKE A PIRATE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3462-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "METALS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "(Kelly of the Clue Crew demonstrates.)  When you hold ferrofluid over a magnet, it spikes & marks the lines of the magnetic field because ferrofluid contains nanoparticles of this metallic element, symbol Fe",
+          "answer": "iron",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3462-d-c0-r0"
+        },
+        {
+          "question": "Logically, it was the radioactive transuranium metal discovered right after neptunium",
+          "answer": "plutonium",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3462-d-c0-r1"
+        },
+        {
+          "question": "In 1906 G.E. produced its first light bulb using this metal as a filament; it's still used today",
+          "answer": "tungsten",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3462-d-c0-r2"
+        },
+        {
+          "question": "This plating metal is what makes stainless steel corrosion resistant & stainless",
+          "answer": "chromium",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3462-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE FICTION FILMS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Although its title is a holiday, this 1996 Will Smith film went into general release one day before that holiday",
+          "answer": "Independence Day",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE FICTION FILMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3462-d-c1-r0"
+        },
+        {
+          "question": "(Hi, I'm CCH Pounder.) You may not recognize me out of character, but one of my greatest acting experiences was playing Neytiri's mother, Moat, in this blockbuster",
+          "answer": "Avatar",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE FICTION FILMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3462-d-c1-r1"
+        },
+        {
+          "question": "A 1965 student film evolved into his first feature film as a director, 1971's \"THX-1138\"",
+          "answer": "(George) Lucas",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE FICTION FILMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3462-d-c1-r2"
+        },
+        {
+          "question": "Alan Young, who co-starred in the 1960 version of this film based on an H.G. Wells book, had a bit role in the 2002 remake",
+          "answer": "The Time Machine",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE FICTION FILMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3462-d-c1-r3"
+        },
+        {
+          "question": "Lock Martin, a 7'7\" doorman at Grauman's Chinese Theater, was cast as the robot Gort in this 1951 sci-fi film",
+          "answer": "The Day The Earth Stood Still",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE FICTION FILMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3462-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "19th CENTURY QUOTATIONS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "He once said, \"I have constructed 3,000 different theories in connection with the electric light\"",
+          "answer": "Edison",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY QUOTATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3462-d-c2-r0"
+        },
+        {
+          "question": "On Dec. 2, 1859 this abolitionist told his hangman, \"I am ready at any time.  Do not keep me waiting\"",
+          "answer": "John Brown",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY QUOTATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3462-d-c2-r1"
+        },
+        {
+          "question": "This 1848 Whig candidate: \"I will not say I would serve if the good people were imprudent enough to elect me\"",
+          "answer": "(Zachary) Taylor",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY QUOTATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3462-d-c2-r2"
+        },
+        {
+          "question": "In this 1841 essay, Ralph Waldo Emerson remarked, \"Whoso would be a man, must be a nonconformist\"",
+          "answer": "Self Reliance",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY QUOTATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3462-d-c2-r3"
+        },
+        {
+          "question": "(Alex Trebek delivers the clue from Jordan.) The color of the sandstone in this ancient city in Jordan explains why, in the 19th century, John William Burgon called it \"a rose-red city half as old as time\"",
+          "answer": "Petra",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19th CENTURY QUOTATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3462-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "YANKEE MAGAZINE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A 1983 article on this yankee-style soup says long ago it was made with salt pork, not clams",
+          "answer": "chowder",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YANKEE MAGAZINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3462-d-c3-r0"
+        },
+        {
+          "question": "An article called \"A Tip Of The Hat To Danbury\", in this state, tells how JFK helped kill an industry with his bareheaded ways",
+          "answer": "Connecticut",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YANKEE MAGAZINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3462-d-c3-r1"
+        },
+        {
+          "question": "Athletes who've been featured naturally include Bob Cousy, a star on this team from 1950 to 1963",
+          "answer": "(Boston) Celtics",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YANKEE MAGAZINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3462-d-c3-r2"
+        },
+        {
+          "question": "A travel article says Arlington, Vermont is like something he would have painted--which he did, & lived there, too",
+          "answer": "Norman Rockwell",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "YANKEE MAGAZINE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3462-d-c3-r3"
+        },
+        {
+          "question": "A 1965 article tells us \"He sowed--others reaped\" is the epitaph of Ephraim Bull, who first bred this New England grape",
+          "answer": "the Concord grape",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YANKEE MAGAZINE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3462-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE VOTES ARE IN",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1967 this colony voted to reject Spanish rule & to remain rock solid under British sovereignty",
+          "answer": "Gibraltar",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE VOTES ARE IN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3462-d-c4-r0"
+        },
+        {
+          "question": "In 1950 58% of this country voted in favor of the return from exile of King Leopold III",
+          "answer": "Belgium",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE VOTES ARE IN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3462-d-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "THE \"EYE\"s HAVE IT",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "An overnight plane flight",
+          "answer": "a red-eye",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"EYE\"s HAVE IT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3462-d-c5-r0"
+        },
+        {
+          "question": "One of the 2 James Bond films that fit the category",
+          "answer": "GoldenEye (or For Your Eyes Only)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"EYE\"s HAVE IT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3462-d-c5-r1"
+        },
+        {
+          "question": "A dilapidated old building",
+          "answer": "an eyesore",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"EYE\"s HAVE IT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3462-d-c5-r2"
+        },
+        {
+          "question": "This facial wear made Israel's Moshe Dayan instantly recognizable worldwide",
+          "answer": "an eye patch",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"EYE\"s HAVE IT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3462-d-c5-r3"
+        },
+        {
+          "question": "The last name of author Stephenie or the first name of gangster Lansky",
+          "answer": "Meyer",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"EYE\"s HAVE IT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3462-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "RIVERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "These 2 rivers, each more than 1,000 miles long, rise in the Armenian Plateau in Turkey",
+          "answer": "the Tigris & the Euphrates",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "RIVERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3462-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

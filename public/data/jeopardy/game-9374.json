@@ -1,0 +1,833 @@
+{
+  "gameId": 9374,
+  "showNumber": 9495,
+  "airDate": "February 6, 2026",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "PORTS OF CALL",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "You can take a water taxi from Marco Polo Airport to the cruise terminals at this city's port",
+          "answer": "Venice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTS OF CALL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9374-s-c0-r0"
+        },
+        {
+          "question": "It's 8 miles & about a 30-euro cab ride from Dún Laoghaire Harbor into the heart of this city",
+          "answer": "Dublin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTS OF CALL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9374-s-c0-r1"
+        },
+        {
+          "question": "A West Indies capital on the Gulf of Paria isn't Port of Trinidad or Port of Tobago but Port of this",
+          "answer": "Port of Spain",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTS OF CALL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9374-s-c0-r2"
+        },
+        {
+          "question": "The Suzhou & Huangpu Rivers flow through this, the world's busiest container port",
+          "answer": "Shanghai",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTS OF CALL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9374-s-c0-r3"
+        },
+        {
+          "question": "With a population of less than 10,000, this Southeastern Alaska port serves more than a million cruise passengers annually",
+          "answer": "Ketchikan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORTS OF CALL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9374-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NONFICTION",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"We the People\" is Jill Lepore's history of this document",
+          "answer": "the U.S. Constitution",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9374-s-c1-r0"
+        },
+        {
+          "question": "The subtitle of \"The Stolen Crown\" mentions \"The Death of\" this English dynasty that ended with Elizabeth I",
+          "answer": "Tudor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9374-s-c1-r1"
+        },
+        {
+          "question": "\"The Beast in the Clouds\" tells of 2 of Teddy Roosevelt's sons & their successful search for this animal in the Himalayas",
+          "answer": "giant panda",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9374-s-c1-r2"
+        },
+        {
+          "question": "Pyramid schemes & the business model called MLM, short for this, are exposed in \"Little Bosses Everywhere\"",
+          "answer": "multi-level marketing",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9374-s-c1-r3"
+        },
+        {
+          "question": "A modern classic, \"Quiet\" told us of \"The Power of\" these \"in a World That Can't Stop Talking\"",
+          "answer": "Introverts",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9374-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MODERN TECH",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The original limit for a tweet on Twitter was this many characters",
+          "answer": "140",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MODERN TECH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9374-s-c2-r0"
+        },
+        {
+          "question": "In 2012's U.S. v. Jones, the Supreme Court said cops need a warrant to attach one of these tracking devices to a suspect's car",
+          "answer": "a GPS",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MODERN TECH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9374-s-c2-r1"
+        },
+        {
+          "question": "Abbreviated PV, these cells convert solar into electrical energy using layers of semiconductors",
+          "answer": "photovoltaic",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MODERN TECH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9374-s-c2-r2"
+        },
+        {
+          "question": "Allan Cormack shared a Nobel Prize for co-inventing this imaging technique, many folks' intro to the word tomography",
+          "answer": "CT (CAT scan)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MODERN TECH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9374-s-c2-r3"
+        },
+        {
+          "question": "This mathematician & rear admiral in the U.S. Navy popularized the word \"bug\" to describe unexplained computer problems",
+          "answer": "(Admiral Grace) Hopper",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MODERN TECH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9374-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "____ & ____",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Meaning \"essential\" this also refers to 2 essential components of a good hash recipe",
+          "answer": "meat & potatoes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ & ____",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9374-s-c3-r0"
+        },
+        {
+          "question": "The bakers at Thomas' tout these features of their English muffins",
+          "answer": "nooks & crannies",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ & ____",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9374-s-c3-r1"
+        },
+        {
+          "question": "You're taking too long to make a decision with this phrase that mentions a clothing border",
+          "answer": "hem & haw",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ & ____",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9374-s-c3-r2"
+        },
+        {
+          "question": "Involving 2 elements of the magician's art, this idiom is used to describe a situation of deception",
+          "answer": "smoke & mirrors",
+          "value": 2800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "____ & ____",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9374-s-c3-r3"
+        },
+        {
+          "question": "Trees are knocked down & lit up in this agricultural term",
+          "answer": "slash & burn",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "____ & ____",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9374-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE HAND I'VE BEEN DEALT",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's the best Texas hold 'em call you can make here",
+          "answer": "straight",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HAND I'VE BEEN DEALT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9374-s-c4-r0"
+        },
+        {
+          "question": "I'm at the blackjack table & I've got ace-six, aka this 2-word flexible amount; hit me!",
+          "answer": "a soft 17",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HAND I'VE BEEN DEALT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9374-s-c4-r1"
+        },
+        {
+          "question": "Paddle steamers on the Mississippi were lively 19th century gambling spots, which may explain this other name for a full house",
+          "answer": "boat (full boat)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HAND I'VE BEEN DEALT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9374-s-c4-r2"
+        },
+        {
+          "question": "In Texas hold 'em this starting hand known as \"big slick\" has great potential if played correctly",
+          "answer": "ace-king",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE HAND I'VE BEEN DEALT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9374-s-c4-r3"
+        },
+        {
+          "question": "In gin rummy, after you've formed as many \"melds\" or card combos as possible, what's left in your hand is called this (like an HBO series)",
+          "answer": "deadwood",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE HAND I'VE BEEN DEALT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9374-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHIL 'ER UP!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "He's actually a natural righty, even though he plays lefty",
+          "answer": "(Phil) Mickelson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL 'ER UP!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g9374-s-c5-r0"
+        },
+        {
+          "question": "He's the pioneering talk show host seen here",
+          "answer": "(Phil) Donahue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL 'ER UP!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g9374-s-c5-r1"
+        },
+        {
+          "question": "Thanks to the Concorde, this drummer/singer was the only person to perform at both Live Aid concerts on July 13, 1985",
+          "answer": "(Phil) Collins",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL 'ER UP!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g9374-s-c5-r2"
+        },
+        {
+          "question": "This \"Miami Vice\" actor coined the acronym EGOT, hoping to achieve the feat within five years",
+          "answer": "Philip Michael Thomas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHIL 'ER UP!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g9374-s-c5-r3"
+        },
+        {
+          "question": "\"Phil 'Er Up!\" could have been the title of the series \"Somebody Feed Phil\" starring this \"Everybody Loves Raymond\" producer",
+          "answer": "Phil Rosenthal",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PHIL 'ER UP!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g9374-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRANCE IN THE 1600s",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Assassinated in 1610, Henry IV of Navarre had brought peace & prosperity to France as the first king of this dynasty",
+          "answer": "Bourbon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRANCE IN THE 1600s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9374-d-c0-r0"
+        },
+        {
+          "question": "Established in 1635 to maintain standards of literary taste, this organization led by \"The 40 Immortals\" still exists today",
+          "answer": "Académie Française (the French Academy)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRANCE IN THE 1600s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9374-d-c0-r1"
+        },
+        {
+          "question": "This saint founded charitable orders in & around Paris to help the poor as the Vincentians he inspired still do today",
+          "answer": "(Vincent) de Paul",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRANCE IN THE 1600s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9374-d-c0-r2"
+        },
+        {
+          "question": "Found on the Left Bank of the Seine, this veterans' hospital was built by architect Libéral Bruant in Baroque style",
+          "answer": "Invalides",
+          "value": 4400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRANCE IN THE 1600s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9374-d-c0-r3"
+        },
+        {
+          "question": "Following in the footsteps of Richelieu, this cardinal served as first minister to the government from 1642 to 1661",
+          "answer": "(Cardinal) Mazarin",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRANCE IN THE 1600s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9374-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CREATURES FROM MYTH",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Hercules' 12th labor involved this beast that had 3 heads per Apollodorus (but 50 according to Hesiod)",
+          "answer": "Cerberus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATURES FROM MYTH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9374-d-c1-r0"
+        },
+        {
+          "question": "\"The Thousand & One Nights\" told of the exploits of this big bird, said to be able to pick up elephants",
+          "answer": "the roc",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATURES FROM MYTH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9374-d-c1-r1"
+        },
+        {
+          "question": "An unholy union of Loki & the giantess Angrboda gave us Jörmungandr, aka the serpent of this place, what the Norse called Earth",
+          "answer": "Midgard",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATURES FROM MYTH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9374-d-c1-r2"
+        },
+        {
+          "question": "Scottish lore tells of this creature that takes the form of a seal in the water & a human on land",
+          "answer": "a selkie",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATURES FROM MYTH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9374-d-c1-r3"
+        },
+        {
+          "question": "Lightning was also a feature of this creature that figures prominently in Native American mythology",
+          "answer": "thunderbird",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATURES FROM MYTH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9374-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTABLE NAMES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "She once said, \"The fact that I could be Secretary of State as a refugee & a naturalized American was a really big deal\"",
+          "answer": "Madeleine Albright",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9374-d-c2-r0"
+        },
+        {
+          "question": "In 1921 President Harding welcomed her to America & presented her with a gram of radium for her use in research",
+          "answer": "(Marie) Curie",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9374-d-c2-r1"
+        },
+        {
+          "question": "This Methodism founder was born in 1703 to an Anglican clergyman & his wife",
+          "answer": "Wesley",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9374-d-c2-r2"
+        },
+        {
+          "question": "No baloney, this Brazilian architect designed iconic buildings in Brasília such as the National Congress Palace",
+          "answer": "(Oscar) Niemeyer",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9374-d-c2-r3"
+        },
+        {
+          "question": "Much of what we know about Italian Renaissance artists comes from his \"Lives of... Painters, Sculptors, and Architects\"",
+          "answer": "Vasari",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTABLE NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9374-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "A PERFECT 10",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Decapods, creatures with 10 limbs, include this one known to exceed 40 feet in length",
+          "answer": "a giant squid",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A PERFECT 10",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9374-d-c3-r0"
+        },
+        {
+          "question": "In 1966, Huey P. Newton & Bobby Seale founded this party & wrote its 10-point program to explain its platform",
+          "answer": "Black Panther",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A PERFECT 10",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9374-d-c3-r1"
+        },
+        {
+          "question": "In the King James Bible, the 10 Commandments prohibit making these 2 words \"or any likeness of any thing...\"",
+          "answer": "a graven image",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A PERFECT 10",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9374-d-c3-r2"
+        },
+        {
+          "question": "The tenth & highest degree in York Rite Freemasonry dubs the initiate one of these, like a member of a Crusader Army",
+          "answer": "a Knight Templar",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A PERFECT 10",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9374-d-c3-r3"
+        },
+        {
+          "question": "Involved in speech & swallowing, the tenth & longest cranial nerve also has this name, from the Latin for \"wandering\"",
+          "answer": "vagus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A PERFECT 10",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9374-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEIR LAST FILM",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Of this actor's swan song in \"Top Gun: Maverick\", the New York Times wrote, \"You can feel the weight of his legacy\"",
+          "answer": "(Val) Kilmer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEIR LAST FILM",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9374-d-c4-r0"
+        },
+        {
+          "question": "She & daughter Carrie Fisher are the subjects of the documentary \"Bright Lights\"; the close-knit pair died just 1 day apart",
+          "answer": "(Debbie) Reynolds",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEIR LAST FILM",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9374-d-c4-r1"
+        },
+        {
+          "question": "In his last role, \"90210\" star Luke Perry fulfilled a wish from his bucket list: working with Tarantino, on this film",
+          "answer": "Once Upon a Time... in Hollywood",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THEIR LAST FILM",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9374-d-c4-r2"
+        },
+        {
+          "question": "Audrey Hepburn's last role was a cameo as an angel in this often-overlooked Spielberg film about aerial firefighters",
+          "answer": "Always",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEIR LAST FILM",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9374-d-c4-r3"
+        },
+        {
+          "question": "Heath Ledger's final work was with this auteur director, playing an amnesiac in \"The Imaginarium of Doctor Parnassus\"",
+          "answer": "Gilliam",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEIR LAST FILM",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9374-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WE'RE BUILDING WORDS OVER HERE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A food initially stored in combs+satellite=this \"phase\" of harmony",
+          "answer": "honeymoon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE BUILDING WORDS OVER HERE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g9374-d-c5-r0"
+        },
+        {
+          "question": "Puget or Milford+validity exercise in math=this hushed state",
+          "answer": "soundproof",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE BUILDING WORDS OVER HERE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g9374-d-c5-r1"
+        },
+        {
+          "question": "Adjective for a short period of time+ablative in grammar=this document holder",
+          "answer": "a briefcase",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WE'RE BUILDING WORDS OVER HERE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g9374-d-c5-r2"
+        },
+        {
+          "question": "Old-timey punishment stick+Wesley Snipes' half-vampire=this pointy item",
+          "answer": "switchblade",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE BUILDING WORDS OVER HERE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g9374-d-c5-r3"
+        },
+        {
+          "question": "Location of a eustachian tube +a biblical evangelist=this targeted sort of funding",
+          "answer": "earmark",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE BUILDING WORDS OVER HERE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g9374-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ART & ARTISTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He entered the priory of San Marco in Florence in the 1430s & was commissioned to paint its altarpiece by the Medicis",
+          "answer": "Fra Angelico",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "ART & ARTISTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g9374-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

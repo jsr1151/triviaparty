@@ -1,0 +1,833 @@
+{
+  "gameId": 7510,
+  "showNumber": 8,
+  "airDate": "November 13, 2022",
+  "season": null,
+  "isSpecial": true,
+  "tournamentType": "Primetime Celebrity Jeopardy!",
+  "categories": [
+    {
+      "name": "SEE WHAT I DID THERE?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Alexander Gardner here: during this war, I took photos 2 days after Antietam, the first battlefield to be photographed so soon",
+          "answer": "the Civil War",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEE WHAT I DID THERE?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7510-s-c0-r0"
+        },
+        {
+          "question": "Cheerio!  I'm Sir Roger Bannister, the first man to run this distance in under 4 minutes, seen here on the same track 50 years later",
+          "answer": "the mile",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEE WHAT I DID THERE?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7510-s-c0-r1"
+        },
+        {
+          "question": "I'm staying anonymous, but I put my initials on a train, a form of graffiti called this",
+          "answer": "a tag (tagging)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEE WHAT I DID THERE?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7510-s-c0-r2"
+        },
+        {
+          "question": "I'm lead architect James Polshek & I kept a bridge motif in mind designing this man's presidential library in Little Rock",
+          "answer": "Bill Clinton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEE WHAT I DID THERE?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7510-s-c0-r3"
+        },
+        {
+          "question": "I'm this 1-named Renaissance sculptor & I did a bust, now in Florence, of another 1-named dude, Brutus",
+          "answer": "Michelangelo",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SEE WHAT I DID THERE?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7510-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT BOOK YOU'VE BEEN MEANING TO READ",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Physicist Stephen Hawking penned 1988's \"A Brief History of\" this--I'll get to it, briefly",
+          "answer": "Time",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT BOOK YOU'VE BEEN MEANING TO READ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7510-s-c1-r0"
+        },
+        {
+          "question": "You dug the musical with Cosette, Javert & all the sad songs; now it's time to pry open this Victor Hugo novel from 1862",
+          "answer": "Les miserables",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT BOOK YOU'VE BEEN MEANING TO READ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7510-s-c1-r1"
+        },
+        {
+          "question": "Before I can read the \"Edge of Reason\" sequel about this plucky, single British woman, I've got to read her \"Diary\"",
+          "answer": "Bridget Jones",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT BOOK YOU'VE BEEN MEANING TO READ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7510-s-c1-r2"
+        },
+        {
+          "question": "Over the years, this novel about Holden Caulfield has been frequently challenged for its sex & profanity; I'm in!",
+          "answer": "The Catcher in the Rye",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT BOOK YOU'VE BEEN MEANING TO READ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7510-s-c1-r3"
+        },
+        {
+          "question": "David Foster Wallace's weighty tome titled \"Infinite\" this; we kid you not, it took him 4 years to write it",
+          "answer": "Jest",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT BOOK YOU'VE BEEN MEANING TO READ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7510-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AT THE STORE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Customers have been known to customize their orders with 25 pumps or more of vanilla or syrup in their cinnamon dolce latte here",
+          "answer": "Starbucks",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE STORE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7510-s-c2-r0"
+        },
+        {
+          "question": "This assemble-it-yourself-at-home furnishings retailer began in Sweden & today operates more than 400 stores worldwide",
+          "answer": "IKEA",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE STORE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7510-s-c2-r1"
+        },
+        {
+          "question": "\"Fitch\" pairs with this surname in the name of a clothing store chain",
+          "answer": "Abercrombie",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE STORE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7510-s-c2-r2"
+        },
+        {
+          "question": "This convenience store took its name in 1946 from the extended hours between which its stores were open",
+          "answer": "7-Eleven",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE STORE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7510-s-c2-r3"
+        },
+        {
+          "question": "Ron Johnson, Apple's former senior VP for retail, came up with this name for the counter where you take your broken MacBook",
+          "answer": "the Genius Bar",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AT THE STORE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7510-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOING THROUGH SOME CYCLES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Washing machines use this noisy cycle to extract moisture from freshly laundered clothes",
+          "answer": "the spin cycle",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING THROUGH SOME CYCLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7510-s-c3-r0"
+        },
+        {
+          "question": "Velocipede a pedale was an Old French term for what we know today as this",
+          "answer": "a bicycle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING THROUGH SOME CYCLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7510-s-c3-r1"
+        },
+        {
+          "question": "He focused his \"ol' blue eyes\" on folk & pop songs for his 1968 album \"Cycles\"",
+          "answer": "Frank Sinatra",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING THROUGH SOME CYCLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7510-s-c3-r2"
+        },
+        {
+          "question": "Spots on this appear in 11-year cycles & can be several times the size of the Earth",
+          "answer": "the Sun",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOING THROUGH SOME CYCLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7510-s-c3-r3"
+        },
+        {
+          "question": "In 1953 sir Hans Krebs got this big prize for describing the cycle by which living cells obtain energy",
+          "answer": "the Nobel Prize in Physiology or Medicine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOING THROUGH SOME CYCLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7510-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE EDWARDIAN ERA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "If you do talk about \"Fight Club\", you can talk about how he played the narrator of that film",
+          "answer": "Edward Norton",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EDWARDIAN ERA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7510-s-c4-r0"
+        },
+        {
+          "question": "If you are \"Thinking Out Loud\", perhaps you are thinking of this singer/songwriter seen here",
+          "answer": "Ed Sheeran",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EDWARDIAN ERA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7510-s-c4-r1"
+        },
+        {
+          "question": "This saga of novels & films had fans divided into Team Edward & Team Jacob, boiling down to sparkly vampire or werewolf?",
+          "answer": "Twilight",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EDWARDIAN ERA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7510-s-c4-r2"
+        },
+        {
+          "question": "Tom Morello of Rage Against the Machine called this late guitarist \"the Mozart of our generation\"",
+          "answer": "Eddie Van Halen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE EDWARDIAN ERA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7510-s-c4-r3"
+        },
+        {
+          "question": "Vincent Price's last appearance on the big screen was this 1990 film starring Johnny Depp as the title character with unusual appendages",
+          "answer": "Edward Scissorhands",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE EDWARDIAN ERA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7510-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE \"A\" LIST",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Found in baseball box scores, it means how many people were there",
+          "answer": "attendance",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"A\" LIST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7510-s-c5-r0"
+        },
+        {
+          "question": "In 2021 fugitive Brian Laundrie ended his days in Fla.'s Myakkahatchee Creek area, home to these long & toothy critters",
+          "answer": "alligators",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"A\" LIST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7510-s-c5-r1"
+        },
+        {
+          "question": "These of Judy Garland, like on a movie still, are among the most coveted of Hollywood stars",
+          "answer": "autographs",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE \"A\" LIST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7510-s-c5-r2"
+        },
+        {
+          "question": "To avoid a libel lawsuit, news stories about someone accused of a crime use this word meaning \"accused\"",
+          "answer": "alleged",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"A\" LIST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7510-s-c5-r3"
+        },
+        {
+          "question": "Animation puts images on a screen; this longer word is the technology of lifelike motorized puppets",
+          "answer": "animatronics",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"A\" LIST",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7510-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC SHIPS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This boat that brought over the first Pilgrims reached what is today Massachusetts in November 1620",
+          "answer": "the Mayflower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC SHIPS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7510-d-c0-r0"
+        },
+        {
+          "question": "Launched in 1953, the USS Albacore was a research ship that pioneered the \"teardrop\" hull shape for this type of vessel",
+          "answer": "a submarine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC SHIPS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7510-d-c0-r1"
+        },
+        {
+          "question": "The HMS Beagle took this scientist on an 1830s voyage to South America, where the sites influenced his theories of evolution",
+          "answer": "Darwin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC SHIPS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7510-d-c0-r2"
+        },
+        {
+          "question": "Since Dec. 7, 1941 the USS Arizona has lain at the bottom of this Hawaiian location",
+          "answer": "Pearl Harbor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC SHIPS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7510-d-c0-r3"
+        },
+        {
+          "question": "This U.S. ship from the War of 1812 is nicknamed \"Old Ironsides\"",
+          "answer": "the USS Constitution",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC SHIPS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7510-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In \"the six hundred and first year\", second month, 27th day, the earth was dried & this vessel's occupants could leave it",
+          "answer": "the ark (Noah's ark)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7510-d-c1-r0"
+        },
+        {
+          "question": "Called \"kings\" in a Christmas carol, these visitors to the young Jesus brought a trio of gifts: gold, frankincense & myrrh",
+          "answer": "the magi (or the wise men)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7510-d-c1-r1"
+        },
+        {
+          "question": "There was some serious sibling rivalry with these first 2 sons of Adam & Eve",
+          "answer": "Cain & Abel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7510-d-c1-r2"
+        },
+        {
+          "question": "Matthew 5:5 says, \"Blessed are\" this group \"for they shall inherit the earth\"",
+          "answer": "the meek",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7510-d-c1-r3"
+        },
+        {
+          "question": "This 5-letter word refers to the \"bread from heaven\" eaten by the Israelites as told in the Book of Exodus",
+          "answer": "manna",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7510-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "A TRIP TO THE MUSEUM",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Spring or any other season is a lovely time to visit the Musee d'Orsay in this city",
+          "answer": "Paris",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO THE MUSEUM",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7510-d-c2-r0"
+        },
+        {
+          "question": "Prince's Cloud #2 Blue Angel electric guitar is on display at this Cleveland museum",
+          "answer": "the Rock & Roll Hall of Fame",
+          "value": 5200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO THE MUSEUM",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7510-d-c2-r1"
+        },
+        {
+          "question": "Visitors to Chicago's Field Museum can gaze upon Sue, one of these dinosaurs",
+          "answer": "a T. rex (Tyrannosaurus rex)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO THE MUSEUM",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7510-d-c2-r2"
+        },
+        {
+          "question": "The National Air & Space Museum & the National Museum of the American Indian are part of this Washington, D.C. complex",
+          "answer": "the Smithsonian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO THE MUSEUM",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7510-d-c2-r3"
+        },
+        {
+          "question": "Head to Bloomsbury in London to visit this national museum & its famous collection of mummies & other antiquities",
+          "answer": "the British Museum",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO THE MUSEUM",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7510-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BODY PART PHRASES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Brides or grooms may succumb to these, a reluctance to wed, not a case of frostbite",
+          "answer": "cold feet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PHRASES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7510-d-c3-r0"
+        },
+        {
+          "question": "To fall in love in a surprisingly complete manner is to do so this way, mentioning body parts on 2 extremes",
+          "answer": "head over heels",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PHRASES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7510-d-c3-r1"
+        },
+        {
+          "question": "When you \"keep\" someone at this distance, you're not sure of their intentions & don't want them too close to you",
+          "answer": "arm's length",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PHRASES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7510-d-c3-r2"
+        },
+        {
+          "question": "From World War II came a reminder to be careful what you say around others because these \"sink ships\"",
+          "answer": "loose lips",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PHRASES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7510-d-c3-r3"
+        },
+        {
+          "question": "When you need to concentrate on your ultimate goal, remember to \"keep\" this, a rhyming phrase involving visual organs",
+          "answer": "eyes on the prize",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODY PART PHRASES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7510-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSICAL THEATER",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In \"You're a Good Man, Charlie Brown\", this character sings \"My Blanket and Me\"",
+          "answer": "Linus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7510-d-c4-r0"
+        },
+        {
+          "question": "In September 2022 Lea Michele stepped into the role of Fanny Brice in the revival of this show",
+          "answer": "Funny Girl",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7510-d-c4-r1"
+        },
+        {
+          "question": "The Tony-winning Best Musical of 2011, it features the songs \"Two by Two\" & \"Joseph Smith American Moses\"",
+          "answer": "The Book of Mormon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7510-d-c4-r2"
+        },
+        {
+          "question": "A small Jewish village in Russia, Anatevka is the setting for this musical",
+          "answer": "Fiddler on the Roof",
+          "value": 6400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7510-d-c4-r3"
+        },
+        {
+          "question": "\"Hairspray\" & \"Cry-Baby\" are both based on movies by this cult film director",
+          "answer": "John Waters",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSICAL THEATER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7510-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DRIVING IN L.A.",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "L.A. fans are notorious for pulling out of this venue onto Vin Scully Avenue around the 7th inning to beat the traffic",
+          "answer": "Dodger Stadium",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING IN L.A.",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7510-d-c5-r0"
+        },
+        {
+          "question": "L.A. lore says when Johnny Carson asked Bette Davis how a young actress could get into here, Bette said, \"Take Fountain\"",
+          "answer": "Hollywood",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING IN L.A.",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7510-d-c5-r1"
+        },
+        {
+          "question": "You can tell \"The Big Sleep\" was written 80+ years ago--the hero drives \"through Pasadena & almost at once I was in\" groves of these",
+          "answer": "orange trees",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING IN L.A.",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7510-d-c5-r2"
+        },
+        {
+          "question": "This person who takes your keys may be a future star; Bill Paxton did that job at the Beverly Hills Hotel",
+          "answer": "a valet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING IN L.A.",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7510-d-c5-r3"
+        },
+        {
+          "question": "The 1950 movie with this title is about an hour & 50 minutes; it'll take about that long to drive the same-named 22-mile road",
+          "answer": "Sunset Boulevard",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRIVING IN L.A.",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7510-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ADVENTURE NOVELS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The villainess in this French novel kind of undercuts the title when she says, \"among these four men two only are to be feared\"",
+          "answer": "The Three Musketeers",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ADVENTURE NOVELS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7510-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

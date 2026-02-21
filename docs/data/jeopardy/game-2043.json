@@ -1,0 +1,785 @@
+{
+  "gameId": 2043,
+  "showNumber": 3455,
+  "airDate": "September 17, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LITERARY TOURISM",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Visiting Cornwall?  You'll find this wizard's cave near Tintagel Castle, the legendary site of King Arthur's birth",
+          "answer": "Merlin",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TOURISM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2043-s-c0-r0"
+        },
+        {
+          "question": "Edgar Allan Poe's room at this Charlottesville school is kept the way it was when he studied there in 1826",
+          "answer": "University of Virginia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TOURISM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2043-s-c0-r1"
+        },
+        {
+          "question": "The home of this \"Ivanhoe\" author is a tourist attraction in Abbotsford, Scotland",
+          "answer": "Sir Walter Scott",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TOURISM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2043-s-c0-r2"
+        },
+        {
+          "question": "George Bernard Shaw's recently restored birthplace is a tourist attraction in this capital city",
+          "answer": "Dublin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TOURISM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2043-s-c0-r3"
+        },
+        {
+          "question": "The museum devoted to this playwright is a short walk from the National Theatre in Oslo",
+          "answer": "Henrik Ibsen",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY TOURISM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2043-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY FOOD",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "James Welch named this candy in 1949 after a play he saw, \"Junior Miss\"",
+          "answer": "Junior Mints",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2043-s-c1-r0"
+        },
+        {
+          "question": "From 1949 to 1968 it was the only Pillsbury product you were required to use in its Bake-Offs",
+          "answer": "Flour",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2043-s-c1-r1"
+        },
+        {
+          "question": "In 1902 Nabisco introduced these under the Barnum's label",
+          "answer": "Animal crackers",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2043-s-c1-r2"
+        },
+        {
+          "question": "General Foods introduced this \"Fortunate\" cereal in 1964",
+          "answer": "Lucky Charms",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2043-s-c1-r3"
+        },
+        {
+          "question": "During WWI this side dish was known as Liberty Cabbage",
+          "answer": "Sauerkraut",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2043-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SEASHORE LIFE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "An edible type of this seaweed seen at low tide grows up to 10 feet long on the Atlantic coast",
+          "answer": "kelp",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEASHORE LIFE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2043-s-c2-r0"
+        },
+        {
+          "question": "Blubber & the tufts at the base of their densely packed feathers keep them warm while diving",
+          "answer": "penguins",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEASHORE LIFE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2043-s-c2-r1"
+        },
+        {
+          "question": "The American species of this crustacean has a 6-segmented tail",
+          "answer": "Lobster",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEASHORE LIFE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2043-s-c2-r2"
+        },
+        {
+          "question": "They hang around in bars, feed on plankton & produce those famous little spheres of nacre",
+          "answer": "Oysters",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEASHORE LIFE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2043-s-c2-r3"
+        },
+        {
+          "question": "Scallops swim for their lives when they sense these 5-armed creatures approaching",
+          "answer": "starfish",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEASHORE LIFE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2043-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC RHYME TIME",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Founding Father Franklin's writing implements",
+          "answer": "Ben's pens",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC RHYME TIME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2043-s-c3-r0"
+        },
+        {
+          "question": "Dukakis' Harleys",
+          "answer": "Mike's bikes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC RHYME TIME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2043-s-c3-r1"
+        },
+        {
+          "question": "Roman emperor Augustus' refrigeration units",
+          "answer": "Caesar's freezers",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC RHYME TIME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2043-s-c3-r2"
+        },
+        {
+          "question": "Auto industry pioneer Henry's surfing equipment",
+          "answer": "Ford's boards",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC RHYME TIME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2043-s-c3-r3"
+        },
+        {
+          "question": "Sen. LaFollette's door handles",
+          "answer": "Bob's knobs",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC RHYME TIME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2043-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAM HOUSTON",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Sam Houston's Indian \"wife\" Tiana Rogers was related to this famous humorist",
+          "answer": "Will Rogers",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAM HOUSTON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2043-s-c4-r0"
+        },
+        {
+          "question": "It took less than 20 minutes for Houston's forces to defeat this Mexican's troops at San Jacinto",
+          "answer": "Santa Anna",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAM HOUSTON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2043-s-c4-r1"
+        },
+        {
+          "question": "The highest post Sam held in the Republic of Texas",
+          "answer": "President",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAM HOUSTON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2043-s-c4-r2"
+        },
+        {
+          "question": "Of 10 years after his death, 1 year after or while he was alive, it's when Houston, Texas was named for him",
+          "answer": "While he was alive",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAM HOUSTON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2043-s-c4-r3"
+        },
+        {
+          "question": "In 1861 Houston refused to swear allegiance to this government",
+          "answer": "The Confederacy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAM HOUSTON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2043-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DALLAS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The main setting for the show was this ranch just outside Dallas",
+          "answer": "Southfork",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DALLAS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2043-s-c5-r0"
+        },
+        {
+          "question": "As Lucy Ewing, this petite star seduced her uncle Ray Krebbs, among others",
+          "answer": "Charlene Tilton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DALLAS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2043-s-c5-r1"
+        },
+        {
+          "question": "Pitched to the network before \"Dallas\", it wound up being the \"Dallas\" spin-off",
+          "answer": "Knots Landing",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DALLAS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2043-s-c5-r2"
+        },
+        {
+          "question": "1980 event that made Bobby acting head of Ewing Oil",
+          "answer": "The shooting of J.R.",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DALLAS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2043-s-c5-r3"
+        },
+        {
+          "question": "This leading lady of the \"Naked Gun\" films played Bobby's old flame Jenna Wade",
+          "answer": "Priscilla Presley",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DALLAS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2043-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSICAL MUSIC",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Premiering in 1598, \"Dafne\" was the first of these musical dramas",
+          "answer": "Operas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2043-d-c0-r0"
+        },
+        {
+          "question": "A town in Saskatchewan is named for this \"Don Giovanni\" composer & its streets for other famous composers",
+          "answer": "W.A. Mozart",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2043-d-c0-r1"
+        },
+        {
+          "question": "His \"Water Music\" is composed of 2 instrumental suites",
+          "answer": "G.F. Handel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2043-d-c0-r2"
+        },
+        {
+          "question": "He died in Bayreuth, Germany on July 31, 1886 during the festival honoring his son-in-law",
+          "answer": "Franz Liszt (his son-in-law was Wagner)",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLASSICAL MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2043-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "NOTED HISPANICS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1999 Cruz Bustamante was sworn in as this state's first Hispanic lt. gov. in over 120 years",
+          "answer": "California",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTED HISPANICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2043-d-c1-r0"
+        },
+        {
+          "question": "Actor seen here casting a vote, perhaps for himself, in Panama's 1994 presidential election:",
+          "answer": "Ruben Blades",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTED HISPANICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2043-d-c1-r1"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE & TECHNOLOGY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "George Nissen invented this, a \"bouncing table\", after seeing how circus performers bounced into safety nets",
+          "answer": "Trampoline",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2043-d-c2-r0"
+        },
+        {
+          "question": "Just after 1500 Peter Henlein built the first spring-driven one of these that fit in a pocket",
+          "answer": "Watch",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2043-d-c2-r1"
+        },
+        {
+          "question": "Using this form of propulsion, trains can travel by you at about 250 MPH & you can hardly hear them",
+          "answer": "Magnetic levitation",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2043-d-c2-r2"
+        },
+        {
+          "question": "The oldest way to refine oil, this process heats the oil until its component parts vaporize",
+          "answer": "distilling (or fractional distillation)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2043-d-c2-r3"
+        },
+        {
+          "question": "Radiation belts that surround the Earth are named for this expert on cosmic rays",
+          "answer": "James Van Allen",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & TECHNOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2043-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS STARS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "On March 13, 1999 this heavyweight fought Lennox Lewis to a controversial draw",
+          "answer": "Evander Holyfield",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2043-d-c3-r0"
+        },
+        {
+          "question": "In 1998 this L.A. Laker became the youngest NBA All-Star ever at age 19",
+          "answer": "Kobe Bryant",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2043-d-c3-r1"
+        },
+        {
+          "question": "In the 1990s both Kurt Browning & this other Canadian have won 3 men's world figure skating titles",
+          "answer": "Elvis Stojko",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2043-d-c3-r2"
+        },
+        {
+          "question": "This American won her first Wimbledon singles title in 1999, beating Steffi Graf in the final",
+          "answer": "Lindsay Davenport",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2043-d-c3-r3"
+        },
+        {
+          "question": "She tore off her shirt in excitement after scoring the goal that won the U.S. women the 1999 World Cup",
+          "answer": "Brandi Chastain",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS STARS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2043-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "'70s FASHIONS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Rolling Stones' \"Sticky Fingers\" album featured a working one of these on the cover",
+          "answer": "Zipper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'70s FASHIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2043-d-c4-r0"
+        },
+        {
+          "question": "These shoes that sometimes had a 3\" cork sole sound like they were made to be worn waiting for a train",
+          "answer": "Platform shoes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'70s FASHIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2043-d-c4-r1"
+        },
+        {
+          "question": "Disco-friendly fabric seen here:",
+          "answer": "Polyester",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'70s FASHIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2043-d-c4-r2"
+        },
+        {
+          "question": "This 1977 film popularized baggy tailored trousers, hats with upturned brims & vests for women",
+          "answer": "Annie Hall",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "'70s FASHIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2043-d-c4-r3"
+        },
+        {
+          "question": "This Welsh designer's cotton dresses based on late Victorian & Edwardian styles featured ruffles & lace",
+          "answer": "Laura Ashley",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "'70s FASHIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2043-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LETTER AFTER P",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "To denote the afternoon",
+          "answer": "M",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER AFTER P",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2043-d-c5-r0"
+        },
+        {
+          "question": "In a letter's afterthought",
+          "answer": "S",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER AFTER P",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2043-d-c5-r1"
+        },
+        {
+          "question": "In the name of a retail store on an Army installation",
+          "answer": "X",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER AFTER P",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2043-d-c5-r2"
+        },
+        {
+          "question": "In the initials of James Anthony Bailey's partner",
+          "answer": "T (P.T. Barnum)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER AFTER P",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2043-d-c5-r3"
+        },
+        {
+          "question": "In the symbol of an element used to fuel reactors -- its atomic number is 94",
+          "answer": "U (plutonium)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LETTER AFTER P",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2043-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SWAHILI PHRASES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Hillary Clinton would translate the Swahili \"Mkono mmoja haulei mwana\" to this 8-word phrase",
+          "answer": "\"It takes a village to raise a child\"",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "SWAHILI PHRASES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2043-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

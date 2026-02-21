@@ -1,0 +1,833 @@
+{
+  "gameId": 8114,
+  "showNumber": 2300,
+  "airDate": "September 9, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE 50 STATES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 2 most important crops grown in this state are sugarcane & pineapple",
+          "answer": "Hawaii",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8114-s-c0-r0"
+        },
+        {
+          "question": "With 34 stories, this state's Capitol Building in Baton Rouge is America's tallest",
+          "answer": "Louisiana",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8114-s-c0-r1"
+        },
+        {
+          "question": "The motto \"Sic Semper Tyrannis\" appears on the official seal of this state",
+          "answer": "Virginia",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8114-s-c0-r2"
+        },
+        {
+          "question": "Lava & ash from Novarupta Volcano created this state's Valley of Ten Thousand Smokes",
+          "answer": "Alaska",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8114-s-c0-r3"
+        },
+        {
+          "question": "East of the Cascades, the main population centers in this state include Bend & Klamath Falls",
+          "answer": "Oregon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8114-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "If a served tennis ball touches the net & is otherwise good, it's called this",
+          "answer": "a let",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8114-s-c1-r0"
+        },
+        {
+          "question": "This L.A. Kings player scored a record 47 points in one playoff year for Edmonton in 1985",
+          "answer": "Wayne Gretzky",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8114-s-c1-r1"
+        },
+        {
+          "question": "On Nov. 20, 1977 this Chicago Bears running back set an NFL record by rushing for 275 yards",
+          "answer": "Walter Payton",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8114-s-c1-r2"
+        },
+        {
+          "question": "On March 17, 1897, Bob Fitzsimmons won the heavyweight title from this man known as \"Gentleman Jim\"",
+          "answer": "Corbett",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8114-s-c1-r3"
+        },
+        {
+          "question": "In 1968 this Frenchman won 3 skiing gold medals in the Winter Olympics",
+          "answer": "Jean-Claude Killy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8114-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1979 this religion celebrated the 1,400th anniversary of its founding by Muhammad",
+          "answer": "Islam",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8114-s-c2-r0"
+        },
+        {
+          "question": "In the Mormon Church, this rite is performed when a child is 8",
+          "answer": "baptism",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8114-s-c2-r1"
+        },
+        {
+          "question": "A book called the Haggadah explains the rituals of this Jewish holiday's seder",
+          "answer": "Passover",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8114-s-c2-r2"
+        },
+        {
+          "question": "Latin for \"shepherd\", it's the term often used for a minister who heads a flock or congregation",
+          "answer": "the pastor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8114-s-c2-r3"
+        },
+        {
+          "question": "This order founded by St. Ignatius of Loyola was dissolved in 1773 & revived in 1814",
+          "answer": "the Jesuits",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8114-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY WOMEN",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This former first lady won the first annual Franklin D. Roosevelt Brotherhood award in 1946",
+          "answer": "Eleanor Roosevelt",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8114-s-c3-r0"
+        },
+        {
+          "question": "She became secretary- general of Israel's Mapai Party in 1966",
+          "answer": "Golda Meir",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8114-s-c3-r1"
+        },
+        {
+          "question": "She attended the Duchess of Windsor's burial 8 days after her own gala 60th birthday celebration",
+          "answer": "Queen Elizabeth II",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8114-s-c3-r2"
+        },
+        {
+          "question": "In 1971 this anthropologist co-wrote \"A Rap On Race\" with James Baldwin",
+          "answer": "Margaret Mead",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8114-s-c3-r3"
+        },
+        {
+          "question": "This woman was voted the world's leading aviatrix in 1937, the year Amelia Earhart disappeared",
+          "answer": "Jacqueline Cochran",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "20th CENTURY WOMEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8114-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRENCH CUISINE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Serve these green vegetables with butter & you have Choux de Bruxelles au beurre",
+          "answer": "Brussels sprouts",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8114-s-c4-r0"
+        },
+        {
+          "question": "The cuisine of Bordeaux features this onion relative known in France as the echalote",
+          "answer": "the shallot",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8114-s-c4-r1"
+        },
+        {
+          "question": "Roast this long-tailed game bird with truffles & voila! You have faisan truffe",
+          "answer": "pheasant",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8114-s-c4-r2"
+        },
+        {
+          "question": "The name of this type of pie that may contain ham or cheese comes from the German for \"cake\", kuchen",
+          "answer": "quiche",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8114-s-c4-r3"
+        },
+        {
+          "question": "These freshwater crustaceans are the main ingredient in ecrevisses a la bordelaise",
+          "answer": "crayfish",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8114-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"AMERICAN\" ORGANIZATIONS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "About half the blood drawn in the U.S. is collected & distributed by this organization",
+          "answer": "the American Red Cross",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AMERICAN\" ORGANIZATIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8114-s-c5-r0"
+        },
+        {
+          "question": "It publishes the reference work \"The Complete Dog Book\"",
+          "answer": "the American Kennel Club",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AMERICAN\" ORGANIZATIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8114-s-c5-r1"
+        },
+        {
+          "question": "This U.S. veterans' organization was founded in Paris by members of the AEF after World War I",
+          "answer": "the American Legion",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AMERICAN\" ORGANIZATIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8114-s-c5-r2"
+        },
+        {
+          "question": "From 1920-1950 Roger Baldwin was director of this legal group that participated in the Scopes Trial",
+          "answer": "the American Civil Liberties Union",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AMERICAN\" ORGANIZATIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8114-s-c5-r3"
+        },
+        {
+          "question": "This group was founded in 1968 by Dennis Banks & others to improve the lives of Indians in Minneapolis",
+          "answer": "the American Indian Movement",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"AMERICAN\" ORGANIZATIONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8114-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1978 the Red Brigades kidnapped this country's former premier Aldo Moro & killed him",
+          "answer": "Italy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8114-d-c0-r0"
+        },
+        {
+          "question": "This country gave up much territory to Germany under the Treaty of Brest-Litovsk, signed in 1918",
+          "answer": "Russia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8114-d-c0-r1"
+        },
+        {
+          "question": "In 1925 Reza Khan became the Shah of Iran & changed his family name to this",
+          "answer": "Pahlavi",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8114-d-c0-r2"
+        },
+        {
+          "question": "In May 1701 this pirate captain was tried at the Old Bailey & hanged for murder & acts of piracy",
+          "answer": "Captain (William) Kidd",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8114-d-c0-r3"
+        },
+        {
+          "question": "In 1867 he had Maximilian shot & was installed as president of Mexico",
+          "answer": "(Benito) Juarez",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8114-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Carib Indians developed a dugout type of this craft called a pirogue",
+          "answer": "a canoe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8114-d-c1-r0"
+        },
+        {
+          "question": "Andrew Hallidie, who invented this form of transportation, helped install the first line in San Francisco",
+          "answer": "the cable car",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8114-d-c1-r1"
+        },
+        {
+          "question": "Introduced in 1945, this car became the USA's bestselling import",
+          "answer": "the Volkswagen (Beetle)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8114-d-c1-r2"
+        },
+        {
+          "question": "A ferry across the Cook Strait connects the railways of this country's 2 main islands",
+          "answer": "New Zealand",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8114-d-c1-r3"
+        },
+        {
+          "question": "Between 1928 & 1937, this German aircraft, the LZ-127, traveled over 1 million miles",
+          "answer": "the (Graf) Zeppelin",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8114-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Karelian is closely related to this language heard in Helsinki",
+          "answer": "Finnish",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8114-d-c2-r0"
+        },
+        {
+          "question": "This language spoken in a volcanic country is also called Islenska",
+          "answer": "Icelandic",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8114-d-c2-r1"
+        },
+        {
+          "question": "Maghrebi is a major dialect of this language",
+          "answer": "Arabic",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8114-d-c2-r2"
+        },
+        {
+          "question": "The Moldavian language is written in this alphabet",
+          "answer": "the Cyrillic alphabet",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8114-d-c2-r3"
+        },
+        {
+          "question": "Khalkha is spoken widely in this Mongolian capital",
+          "answer": "Ulaanbaatar",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8114-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Ravel's \"Mother Goose\" suite includes a \"conversation between Beauty and\" this character",
+          "answer": "the Beast",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8114-d-c3-r0"
+        },
+        {
+          "question": "Scruggs-picking is a playing technique developed for this stringed instrument",
+          "answer": "the banjo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8114-d-c3-r1"
+        },
+        {
+          "question": "Although he composed a 9th symphony, his 1822 8th symphony was left unfinished",
+          "answer": "Schubert",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8114-d-c3-r2"
+        },
+        {
+          "question": "His \"Music for the Royal Fireworks\" was written originally for wind orchestra; he added the strings later",
+          "answer": "Handel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8114-d-c3-r3"
+        },
+        {
+          "question": "Czerny taught Leschetizky, who taught Paderewski this instrument",
+          "answer": "the piano",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8114-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PARKS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Covering more area than Texas, a national park on this Danish island is the world's largest",
+          "answer": "Greenland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARKS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8114-d-c4-r0"
+        },
+        {
+          "question": "This Washington city's 100-acre Riverfront Park was the site of Expo '74",
+          "answer": "Spokane",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARKS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8114-d-c4-r1"
+        },
+        {
+          "question": "In 1912 moose reached Michigan's Isle Royale Nat'l Park by crossing the frozen waters of this Great Lake",
+          "answer": "Superior",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARKS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8114-d-c4-r2"
+        },
+        {
+          "question": "The baths in this Arkansas national park are said to be helpful in the treatment of joint diseases",
+          "answer": "Hot Springs",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARKS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8114-d-c4-r3"
+        },
+        {
+          "question": "Established in 1971, Pacific Rim National Park is located in this Canadian province",
+          "answer": "British Columbia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARKS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8114-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOOKS & AUTHORS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "William Manchester subtitled his \"Portrait\" of this family \"From John D. to Nelson\"",
+          "answer": "the Rockefellers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8114-d-c5-r0"
+        },
+        {
+          "question": "Thor Heyerdahl wrote a 1975 book about \"The Art of\" this island known for its monolithic statues",
+          "answer": "Easter Island",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8114-d-c5-r1"
+        },
+        {
+          "question": "\"Dead Cert\" wasn't just his first novel but his first novel about a jockey",
+          "answer": "Dick Francis",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8114-d-c5-r2"
+        },
+        {
+          "question": "He visited airports all over the world to research his novel \"Airport\"",
+          "answer": "(Arthur) Hailey",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8114-d-c5-r3"
+        },
+        {
+          "question": "As a young man in the 1950s, this author of \"Being There\" was a ski instructor in his native Poland",
+          "answer": "Jerzy Kosinski",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS & AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8114-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANDMARKS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This barrier is situated in the British Isles about 100 miles south of the Antonine Wall",
+          "answer": "Hadrian's Wall",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "LANDMARKS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8114-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

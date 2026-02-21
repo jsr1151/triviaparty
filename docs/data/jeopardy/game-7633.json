@@ -1,0 +1,663 @@
+{
+  "gameId": 7633,
+  "showNumber": 113,
+  "airDate": "February 13, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "SCIENCE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A prototype of this taxi part was devised by a Greek around 1 B.C.",
+          "answer": "a meter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7633-s-c0-r0"
+        },
+        {
+          "question": "Every second, this body converts 657 mil. tons of hydrogen into helium",
+          "answer": "the Sun",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7633-s-c0-r1"
+        },
+        {
+          "question": "In a computer, the only 2 numbers in a bit",
+          "answer": "0 & 1",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7633-s-c0-r2"
+        },
+        {
+          "question": "A even mix of red, green & blue light makes this color",
+          "answer": "white light",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7633-s-c0-r3"
+        },
+        {
+          "question": "Till later scientists reversed his scale, he said: 0º equals boiling, 100º equals freezing",
+          "answer": "Celsius",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7633-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAGIC",
+      "round": "single",
+      "position": 1,
+      "clues": []
+    },
+    {
+      "name": "DOGS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Breed that sounds like it \"could'a been a contender\"",
+          "answer": "the boxer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7633-s-c2-r0"
+        },
+        {
+          "question": "Originally, this hunting dog would \"indicate\" game & a greyhound would run it to ground",
+          "answer": "a pointer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7633-s-c2-r1"
+        },
+        {
+          "question": "The 2 types of hounds are sight hounds & this type",
+          "answer": "scent hounds",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7633-s-c2-r2"
+        },
+        {
+          "question": "This wolfhound's name comes from Russian for \"swift\"",
+          "answer": "borzoi",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7633-s-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "SILLY SONGS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "One of his hits began, \"Hello muddah, hello faddah, here I am at camp Granada\"",
+          "answer": "Allan Sherman",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7633-s-c3-r0"
+        },
+        {
+          "question": "In Coasters' hit, the response to \"Yakety-Yak\"",
+          "answer": "don't talk back",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7633-s-c3-r1"
+        },
+        {
+          "question": "\"She was everything a Big Bad Wolf could want\"",
+          "answer": "Little Red Riding Hood",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7633-s-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "First country to have woman prime minister, it was once Ceylon",
+          "answer": "Sri Lanka",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7633-s-c4-r0"
+        },
+        {
+          "question": "This European country is world's largest exporter of cork",
+          "answer": "Portugal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7633-s-c4-r1"
+        },
+        {
+          "question": "Largest of the Society Islands, its capital is Papeete",
+          "answer": "Tahiti",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7633-s-c4-r2"
+        },
+        {
+          "question": "The 2 countries that make up the West Indies island of Hispaniola",
+          "answer": "Haiti & the Dominican Republic",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7633-s-c4-r3"
+        },
+        {
+          "question": "Westernmost country on the South American continent",
+          "answer": "Peru",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7633-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRIPLE TALK",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Precedes \"It's Fat Albert!\"",
+          "answer": "Hey, Hey, Hey",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIPLE TALK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7633-s-c5-r0"
+        },
+        {
+          "question": "This film about the attack on Pearl Harbor was one of the 1st U.S. films shown in Red China",
+          "answer": "Tora! Tora! Tora!",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIPLE TALK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7633-s-c5-r1"
+        },
+        {
+          "question": "This & \"loving you\" were all Teresa Brewer wanted",
+          "answer": "\"Music! Music! Music!\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRIPLE TALK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7633-s-c5-r2"
+        },
+        {
+          "question": "Dance done by Patsy & her commercial cat",
+          "answer": "chow-chow-chow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIPLE TALK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7633-s-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The only president born on the Fourth of July, he probably kept silent about it",
+          "answer": "Cal Coolidge",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7633-d-c0-r0"
+        },
+        {
+          "question": "With LBJ's in Austin, TX, 8 of them have now been built",
+          "answer": "Presidential libraries",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7633-d-c0-r1"
+        },
+        {
+          "question": "1st president born in the 20th century",
+          "answer": "John Kennedy",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7633-d-c0-r2"
+        },
+        {
+          "question": "4 of the 5 presidents with last names beginning with \"H\"",
+          "answer": "(4 of) Harrison, Harding, Hayes, Harrison, Hoover",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7633-d-c0-r3"
+        },
+        {
+          "question": "2nd bachelor elected pres., he was only one to marry in the White House",
+          "answer": "Grover Cleveland",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7633-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "He played the title role in \"The Story of Will Rogers\"",
+          "answer": "Will Rogers, Jr.",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7633-d-c1-r0"
+        },
+        {
+          "question": "Biblical dancer Norma Desmond wants to make her comeback as in \"Sunset Boulevard\"",
+          "answer": "Salome",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7633-d-c1-r1"
+        },
+        {
+          "question": "Musical instrument played by Montgomery Clift in \"From Here to Eternity\"",
+          "answer": "the bugle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7633-d-c1-r2"
+        },
+        {
+          "question": "Where Alfred Hitchcock made his cameo appearance in \"Lifeboat\"",
+          "answer": "in a photograph in a newspaper",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7633-d-c1-r3"
+        },
+        {
+          "question": "The words that Patricia Neal says to Gort to keep him from destroying the world",
+          "answer": "Klaatu barada nikto",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7633-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "OLD TESTAMENT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Biblical strongman believed to be the mightiest mortal",
+          "answer": "Samson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7633-d-c2-r0"
+        },
+        {
+          "question": "Nation for whom Goliath fought",
+          "answer": "the Philistines",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7633-d-c2-r1"
+        },
+        {
+          "question": "For a bowl of lentil soup, he sold his birthright to Jacob",
+          "answer": "Esau",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7633-d-c2-r2"
+        },
+        {
+          "question": "Saul's son and David's best friend",
+          "answer": "Jonathan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7633-d-c2-r3"
+        },
+        {
+          "question": "Subject of Chayefsky play, the Lord had him reduce his army from 32,000 to 300",
+          "answer": "Gideon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7633-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEDICINE",
+      "round": "double",
+      "position": 3,
+      "clues": []
+    },
+    {
+      "name": "STATE CAPITALS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Last in alphabetical order of state capitals, it's New Jersey's",
+          "answer": "Trenton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7633-d-c4-r0"
+        },
+        {
+          "question": "French found a \"red stick\" which was border between 2 Indian tribes at this state capital site",
+          "answer": "Baton Rouge",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7633-d-c4-r1"
+        },
+        {
+          "question": "State whose capital is mentioned in this song:\"They say to have her hair done, Liz flies all the way to France / And Jackie's seen in a discotheque doing a brand new dance / And the White House social season should be glittering and gay / But here in Topeka, the rain is a-falling / The faucet is a-dripping and the kids are a-bawling\"",
+          "answer": "Kansas",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7633-d-c4-r2"
+        },
+        {
+          "question": "State whose capital was first called \"La villa real de la Santa Fe de San Francisco\"",
+          "answer": "New Mexico",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7633-d-c4-r3"
+        },
+        {
+          "question": "The Susquehanna River runs through this state capital",
+          "answer": "Harrisburg",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7633-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"BLACK\" & \"WHITE\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Black musician who formed the Love Unlimited Orchestra",
+          "answer": "Barry White",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"BLACK\" & \"WHITE\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7633-d-c5-r0"
+        },
+        {
+          "question": "She got an Oscar nomination for her waitress role in \"Five Easy Pieces\"",
+          "answer": "Karen Black",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BLACK\" & \"WHITE\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7633-d-c5-r1"
+        },
+        {
+          "question": "In commercials his name tag reads \"Maytag\"",
+          "answer": "Jesse White",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BLACK\" & \"WHITE\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7633-d-c5-r2"
+        },
+        {
+          "question": "She was the U.S. Ambassador to Ghana in 1974",
+          "answer": "Shirley Temple Black",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BLACK\" & \"WHITE\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7633-d-c5-r3"
+        },
+        {
+          "question": "He told the tale of a girl, a pig & a spider",
+          "answer": "E.B. White",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"BLACK\" & \"WHITE\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7633-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CALENDAR",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 1930s were this decade of the 20th century",
+          "answer": "the 4th decade",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE CALENDAR",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7633-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

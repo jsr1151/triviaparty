@@ -1,0 +1,833 @@
+{
+  "gameId": 1533,
+  "showNumber": 3850,
+  "airDate": "May 4, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "QUAKES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In early 2001 L.A. got 14\" of rain; this city got 5\" of rain & a 6.8 jolt that trapped people in its Space Needle",
+          "answer": "Seattle",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1533-s-c0-r0"
+        },
+        {
+          "question": "In December 2000 this country felt several small quakes around Popocatepetl",
+          "answer": "Mexico",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1533-s-c0-r1"
+        },
+        {
+          "question": "The Jan. 26, 2001 quake centered in this country was felt in Bangladesh, 1,200 miles across the Bay of Bengal",
+          "answer": "India",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1533-s-c0-r2"
+        },
+        {
+          "question": "A 1964 quake in this state caused tsunamis as far away as Siberia, & Hawaii & California",
+          "answer": "Alaska",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1533-s-c0-r3"
+        },
+        {
+          "question": "On Jan. 13, 2001 a 7.6 temblor rocked this tiny Central American nation; a 6.6 quake hit exactly one month later",
+          "answer": "El Salvador",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUAKES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1533-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WB TV",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Alyson Hannigan, seen here, is one of the stars of this \"killer\" show",
+          "answer": "Buffy the Vampire Slayer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WB TV",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1533-s-c1-r0"
+        },
+        {
+          "question": "Brooke & Sam are Kennedy High students who are trying to be this, the title of their show",
+          "answer": "Popular",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WB TV",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1533-s-c1-r1"
+        },
+        {
+          "question": "Lauren Graham & Alexis Bledel are mom & daughter Lorelai & Rory, the title \"Girls\" on this drama",
+          "answer": "Gilmore Girls",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WB TV",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1533-s-c1-r2"
+        },
+        {
+          "question": "Get over yourself & name this group formed on \"Popstars\"",
+          "answer": "Eden's Crush",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WB TV",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1533-s-c1-r3"
+        },
+        {
+          "question": "Turns out that some of the teens in this title town are aliens",
+          "answer": "Roswell",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WB TV",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1533-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOYS \"R\" THESE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Read N' Play Tommy Pickles is one of the toys based on this TV series",
+          "answer": "Rugrats",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS \"R\" THESE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1533-s-c2-r0"
+        },
+        {
+          "question": "A Hungarian inventor is famous for this puzzling cube",
+          "answer": "Rubik's Cube",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS \"R\" THESE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1533-s-c2-r1"
+        },
+        {
+          "question": "Parker Bros. recently celebrated the 40th anniversary of this take-over-the-world board game",
+          "answer": "Risk",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS \"R\" THESE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1533-s-c2-r2"
+        },
+        {
+          "question": "This doll first came out way back in 1915; Andy soon followed",
+          "answer": "Raggedy Ann",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS \"R\" THESE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1533-s-c2-r3"
+        },
+        {
+          "question": "Model maker that merged with Monogram; the company sells about 50% of all the kits sold in the U.S.",
+          "answer": "Revell",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TOYS \"R\" THESE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1533-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "DATING 101",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Ask a friend to set you up with one of his acquaintances for this kind of date; a seeing-eye dog is not required",
+          "answer": "blind date",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DATING 101",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1533-s-c3-r0"
+        },
+        {
+          "question": "datesafely.com recommends if you meet someone online, your first date should be this type -- with another couple",
+          "answer": "double-date",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DATING 101",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1533-s-c3-r1"
+        },
+        {
+          "question": "Emily Post recommends you ask for a date to this senior year dance at least a month in advance",
+          "answer": "the prom",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DATING 101",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1533-s-c3-r2"
+        },
+        {
+          "question": "\"The Girl Code\" says the way your date treats this restaurant employee is how he'll treat you in 6 months",
+          "answer": "waiter/waitress",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DATING 101",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1533-s-c3-r3"
+        },
+        {
+          "question": "Title of an Ellen Fein-Sherrie Schneider book; No. 28 says not to act like a boy around a boy you like",
+          "answer": "\"The Rules\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DATING 101",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1533-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SLOW DOWN!",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In driver's training you learn this light means to slow down & be prepared to stop, not hurry up to beat the red",
+          "answer": "yellow",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOW DOWN!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1533-s-c4-r0"
+        },
+        {
+          "question": "In some classes, time goes as slowly as this sweet liquid \"in January\"",
+          "answer": "molasses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOW DOWN!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1533-s-c4-r1"
+        },
+        {
+          "question": "Mimic this gastropod's \"pace\" when walking to school & you may get there by sixth period",
+          "answer": "snail",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOW DOWN!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1533-s-c4-r2"
+        },
+        {
+          "question": "As a verb, the name of this golf club means \"to occupy yourself in a leisurely way\"",
+          "answer": "putter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOW DOWN!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1533-s-c4-r3"
+        },
+        {
+          "question": "As a verb, it's followed by \"away\" to mean slowly waste your money; as a noun, it's a deep-fried battered cake",
+          "answer": "fritter",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLOW DOWN!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1533-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOOK 'EM",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This character has dealt with a \"Goblet of Fire\", but let's see how he handles his film's producers",
+          "answer": "Harry Potter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK 'EM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1533-s-c5-r0"
+        },
+        {
+          "question": "This female WWF wrestler, the \"9th Wonder of the World\", was on the bestseller list with \"If They Only Knew\"",
+          "answer": "Chyna",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK 'EM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1533-s-c5-r1"
+        },
+        {
+          "question": "This author of legal thrillers returned to the real courtroom in '96 & won a career-best $683,500 verdict",
+          "answer": "John Grisham",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK 'EM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1533-s-c5-r2"
+        },
+        {
+          "question": "He was a chicken farmer & an axle grease salesman before writing \"The Wonderful Wizard of Oz\"",
+          "answer": "L. Frank Baum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK 'EM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1533-s-c5-r3"
+        },
+        {
+          "question": "This oldest-ever heavyweight champ knocked out a \"Knock-Out-the-Fat Barbeque and Grilling Cookbook\"",
+          "answer": "George Foreman",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOK 'EM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1533-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUAKERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Quaker received a tract of land west of the Delaware River as repayment of a debt owed to his dad by Charles II",
+          "answer": "William Penn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1533-d-c0-r0"
+        },
+        {
+          "question": "Of Quaker descent, this revolutionary pamphleteer wrote an \"Epistle to the Quakers\" in 1776",
+          "answer": "Thomas Paine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1533-d-c0-r1"
+        },
+        {
+          "question": "Roger Williams disagreed with Quaker teachings but was a friend to the Friends, providing refuge in this colony",
+          "answer": "Rhode Island",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1533-d-c0-r2"
+        },
+        {
+          "question": "Quaker printer William Bradford was acquited in a colonial trial concerning what became this First Amendment right",
+          "answer": "freedom of speech",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1533-d-c0-r3"
+        },
+        {
+          "question": "Francis, the father of this 37th U.S. president, became a Quaker after marrying Hannah Milhous",
+          "answer": "Richard Nixon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUAKERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1533-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SONGS FROM DISNEY FILMS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"The Perfect Nanny\" & \"Let's Go Fly a Kite\"",
+          "answer": "Mary Poppins",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS FROM DISNEY FILMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1533-d-c1-r0"
+        },
+        {
+          "question": "\"Son of Man\" & \"You'll Be in My Heart\"",
+          "answer": "Tarzan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS FROM DISNEY FILMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1533-d-c1-r1"
+        },
+        {
+          "question": "\"I've Got No Strings\" & \"Little Woodenhead\"",
+          "answer": "Pinocchio",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS FROM DISNEY FILMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1533-d-c1-r2"
+        },
+        {
+          "question": "\"Go the Distance\" & \"Oh Mighty Zeus\"",
+          "answer": "Hercules",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS FROM DISNEY FILMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1533-d-c1-r3"
+        },
+        {
+          "question": "\"A Girl Worth Fighting For\" & \"True to Your Heart\"",
+          "answer": "Mulan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SONGS FROM DISNEY FILMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1533-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. RIVERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Sacramento River rises near Mount Shasta & empties into the Pacific at this colorful \"Gate\"",
+          "answer": "Golden Gate",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. RIVERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1533-d-c2-r0"
+        },
+        {
+          "question": "This river forms the boundary between Arizona & California",
+          "answer": "the Colorado River",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. RIVERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1533-d-c2-r1"
+        },
+        {
+          "question": "Chief ports on this river include Sioux City, Omaha & Kansas City",
+          "answer": "the Missouri River",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. RIVERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1533-d-c2-r2"
+        },
+        {
+          "question": "It flows from Pittsburgh to Cairo, Illinois, where it empties into the Mississippi River",
+          "answer": "the Ohio River",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. RIVERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1533-d-c2-r3"
+        },
+        {
+          "question": "This chief tributary of the Columbia River is navigable inland to Lewiston, Idaho",
+          "answer": "the Snake River",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. RIVERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1533-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PARENTAL GUIDANCE SUGGESTED",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Dad says you might get burned, so don't stand close to the rim of an active one of these geologic features",
+          "answer": "volcano",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARENTAL GUIDANCE SUGGESTED",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1533-d-c3-r0"
+        },
+        {
+          "question": "Special training & equipment are required when wrestling one of these large creatures",
+          "answer": "alligator",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARENTAL GUIDANCE SUGGESTED",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1533-d-c3-r1"
+        },
+        {
+          "question": "Mom might suggest hiring a Sherpa if you're planning a yak trek across this range between India & Nepal",
+          "answer": "the Himalayas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARENTAL GUIDANCE SUGGESTED",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1533-d-c3-r2"
+        },
+        {
+          "question": "It might be a bit painful to self-apply one of these body designs whose name is from a Tahitian word",
+          "answer": "tattoo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARENTAL GUIDANCE SUGGESTED",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1533-d-c3-r3"
+        },
+        {
+          "question": "Bring a coat if launching yourself in a probe towards this planet about 318 times the mass of Earth",
+          "answer": "Jupiter",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PARENTAL GUIDANCE SUGGESTED",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1533-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANATOMY CLASS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Involved in balance, the fluid-filled semicircular canals are located in this part of the body",
+          "answer": "ears",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY CLASS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1533-d-c4-r0"
+        },
+        {
+          "question": "The term malocclusion refers to the improper meeting of these",
+          "answer": "the teeth (they don't line up properly)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY CLASS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1533-d-c4-r1"
+        },
+        {
+          "question": "As a child you have 33 of these bones that make up the spine; later some fuse together",
+          "answer": "vertebrae",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY CLASS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1533-d-c4-r2"
+        },
+        {
+          "question": "The iris, or colored part of the eye, is covered by this transparent outer layer of tissue",
+          "answer": "cornea",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY CLASS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1533-d-c4-r3"
+        },
+        {
+          "question": "Helped by axons & dendrites, nerve cells called these conduct impulses around the body",
+          "answer": "neurons",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY CLASS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1533-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PERSON, PLACE OR THING",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The place is the hometown of the Backstreet Boys; the person is the hero of \"As You Like It\"",
+          "answer": "Orlando",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1533-d-c5-r0"
+        },
+        {
+          "question": "The thing is what's cut from the object seen here; the person is the woman who sang \"Foolish Games\"",
+          "answer": "Jewel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1533-d-c5-r1"
+        },
+        {
+          "question": "The place is another word for Australia's outback; the person is the most powerful man in the world",
+          "answer": "Bush",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1533-d-c5-r2"
+        },
+        {
+          "question": "The thing is what a lumberjack leaves behind; the place is where a politician speaks",
+          "answer": "stump",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1533-d-c5-r3"
+        },
+        {
+          "question": "The place is a partly enclosed body of water; the thing is a laurel tree",
+          "answer": "bay",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PERSON, PLACE OR THING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1533-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE '90s",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1998 Andrew Thomas became the seventh & last American to live aboard this",
+          "answer": "Space Station Mir",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE '90s",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1533-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

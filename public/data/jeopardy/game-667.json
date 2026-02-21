@@ -1,0 +1,833 @@
+{
+  "gameId": 667,
+  "showNumber": 2871,
+  "airDate": "February 10, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ZOOLOGY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Burchell's species of this striped equine is found in many parts of eastern Africa",
+          "answer": "zebra",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g667-s-c0-r0"
+        },
+        {
+          "question": "The \"wolf\" type of this arachnid pounces on its victims like a wolf",
+          "answer": "spider",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g667-s-c0-r1"
+        },
+        {
+          "question": "Both the chinchilla & the chinchilla rat belong to this order of mammals",
+          "answer": "rodents",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g667-s-c0-r2"
+        },
+        {
+          "question": "This shaggy wild ox of Tibet holds its head low like the American bison",
+          "answer": "yak",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g667-s-c0-r3"
+        },
+        {
+          "question": "Among the most primitive fish are the hagfish & this other scaleless fish that looks like an eel",
+          "answer": "lamprey",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g667-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "VIDEO GAMES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "You can play \"Donkey Kong Land\" on the new smaller \"Pocket\" version of this portable device",
+          "answer": "Game Boy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VIDEO GAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g667-s-c1-r0"
+        },
+        {
+          "question": "Bugs Bunny & Foghorn Leghorn are competitors in this basketball game for the Sony PlayStation",
+          "answer": "Space Jam",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VIDEO GAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g667-s-c1-r1"
+        },
+        {
+          "question": "\"MK Trilogy\" packages all 3 versions of this game on one cartridge",
+          "answer": "Mortal Kombat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VIDEO GAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g667-s-c1-r2"
+        },
+        {
+          "question": "In just 3 days in 1996, this company sold 350,000 new N64 systems featuring Super Mario 64",
+          "answer": "Nintendo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VIDEO GAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g667-s-c1-r3"
+        },
+        {
+          "question": "\"Battlemage\" is a multi-player video game based on this collectible card game",
+          "answer": "Magic: The Gathering",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VIDEO GAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g667-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TEACHERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Micki & David Colfax sent 3 sons to Harvard after teaching them exclusively in this place",
+          "answer": "at home",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEACHERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g667-s-c2-r0"
+        },
+        {
+          "question": "Mary McLeod Bethune was a friend of this WWII first lady & advised her husband on minority affairs",
+          "answer": "Eleanor Roosevelt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEACHERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g667-s-c2-r1"
+        },
+        {
+          "question": "Like Plato, Corla Hawkins started a small, innovative school called this; hers is in Chicago's inner city",
+          "answer": "The Academy",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEACHERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g667-s-c2-r2"
+        },
+        {
+          "question": "In the 1820s Josiah Holbrook pioneered this, also called continuing education",
+          "answer": "adult education",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TEACHERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g667-s-c2-r3"
+        },
+        {
+          "question": "In Sikhism Nanak was the first teacher called this, now a term for any spiritual guide",
+          "answer": "guru",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEACHERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g667-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CINEMA SEQUELS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In the 1992 sequel to this 1990 film, Macaulay Culkin was \"Lost in New York\"",
+          "answer": "Home Alone",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CINEMA SEQUELS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g667-s-c3-r0"
+        },
+        {
+          "question": "In a 1996 sequel to this film, 2 dogs & a cat are \"Lost in San Francisco\"",
+          "answer": "Homeward Bound",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CINEMA SEQUELS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g667-s-c3-r1"
+        },
+        {
+          "question": "We'll be doggone if Charles Grodin didn't return for this 1993 sequel about a St. Bernard",
+          "answer": "Beethoven's 2nd",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CINEMA SEQUELS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g667-s-c3-r2"
+        },
+        {
+          "question": "This 1993 Whoopi Goldberg sequel was subtitled \"Back in the Habit\"",
+          "answer": "Sister Act 2",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CINEMA SEQUELS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g667-s-c3-r3"
+        },
+        {
+          "question": "The 1993 sequel to this Charlie Sheen comedy was \"Part Deux\"",
+          "answer": "Hot Shots!",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CINEMA SEQUELS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g667-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPAIN",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Beginning as a Moorish fortress that guarded Toledo to the south, it's now the capital",
+          "answer": "Madrid",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPAIN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g667-s-c4-r0"
+        },
+        {
+          "question": "The trout stream in \"The Sun Also Rises\" is above the village of Burguete in this mountain range",
+          "answer": "Pyrenees",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPAIN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g667-s-c4-r1"
+        },
+        {
+          "question": "In the Catedral de Burgos you'll find the tomb of this 11th century national hero",
+          "answer": "El Cid",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPAIN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g667-s-c4-r2"
+        },
+        {
+          "question": "After Franco's death, this city, host of the 1992 Olympics, changed its street signs from Castilian to Catalan",
+          "answer": "Barcelona",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPAIN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g667-s-c4-r3"
+        },
+        {
+          "question": "A branch of this dynasty, originally French, was restored to the throne in 1814 & again in 1874",
+          "answer": "Bourbon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPAIN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g667-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMILIAR PHRASES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A task that's nearly impossible is compared to \"looking for a needle in\" one of these",
+          "answer": "a haystack",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g667-s-c5-r0"
+        },
+        {
+          "question": "A person who's \"easy to read\" is described as \"an open\" this",
+          "answer": "book",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g667-s-c5-r1"
+        },
+        {
+          "question": "This adjective often precedes \"as a hound's tooth\" or \"as a whistle\"",
+          "answer": "clean",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g667-s-c5-r2"
+        },
+        {
+          "question": "When you're up late studying, you're said to be \"burning the midnight\" this",
+          "answer": "oil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g667-s-c5-r3"
+        },
+        {
+          "question": "When you settle a bill, you \"pay\" this person, whether or not he's \"pied\"",
+          "answer": "the piper",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMILIAR PHRASES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g667-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 1996 ELECTION",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Voters of this \"Granite State\" elected Democrat Jeanne Shaheen as the state's first woman governor",
+          "answer": "New Hampshire",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1996 ELECTION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g667-d-c0-r0"
+        },
+        {
+          "question": "Bob Dole received his highest vote margin over President Clinton, 21%, in this \"Beehive State\"",
+          "answer": "Utah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1996 ELECTION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g667-d-c0-r1"
+        },
+        {
+          "question": "This 94-year-old South Carolina Republican won his eighth term to the U.S. Senate",
+          "answer": "Strom Thurmond",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1996 ELECTION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g667-d-c0-r2"
+        },
+        {
+          "question": "This Massachusetts senator defeated Governor William Weld to retain his U.S. Senate seat",
+          "answer": "John Kerry",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1996 ELECTION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g667-d-c0-r3"
+        },
+        {
+          "question": "Voter turnout was about 49%, the lowest since 1924, when this president defeated John W. Davis",
+          "answer": "Calvin Coolidge",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1996 ELECTION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g667-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ESSAYS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Roger Ebert has recently edited a book of essays & other writings on this subject",
+          "answer": "movies",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ESSAYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g667-d-c1-r0"
+        },
+        {
+          "question": "Many of H.L. Mencken's noted essays started as newspaper columns in this Maryland city's \"Sun\"",
+          "answer": "Baltimore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ESSAYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g667-d-c1-r1"
+        },
+        {
+          "question": "He wrote his essay \"Life Without Principle\" after he returned from Walden Pond",
+          "answer": "Henry David Thoreau",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ESSAYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g667-d-c1-r2"
+        },
+        {
+          "question": "This humorist's collection of essays \"In Cyberspace\" is formatted like a computer manual",
+          "answer": "Dave Barry",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ESSAYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g667-d-c1-r3"
+        },
+        {
+          "question": "This English philosopher developed the formal style of essays in works like 1625's \"Of Beauty\"",
+          "answer": "Francis Bacon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ESSAYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g667-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIVIL WAR",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Nicknamed \"Cheese Box on a Raft\", it battled the Merrimack March 9, 1862",
+          "answer": "the Monitor",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g667-d-c2-r0"
+        },
+        {
+          "question": "On Washington's birthday, 1862 he was inaugurated president of the Confederacy",
+          "answer": "Jefferson Davis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g667-d-c2-r1"
+        },
+        {
+          "question": "At the Battle of Mobile Bay he reportedly said, \"Damn the torpedoes!  Full speed ahead!\"",
+          "answer": "Admiral David Farragut",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g667-d-c2-r2"
+        },
+        {
+          "question": "Rewards offered for the capture of this Underground Railroad conductor once totaled $40,000",
+          "answer": "Harriet Tubman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g667-d-c2-r3"
+        },
+        {
+          "question": "This September 17, 1862 Maryland battle ended with over 27,000 casualties & Lee's retreat",
+          "answer": "Antietam (or Sharpsburg)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g667-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SYMPHONIES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1983 Ellen Taaffe Zwilich's Symphony No. 1 made her the first woman to win this prize for music",
+          "answer": "the Pulitzer Prize",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPHONIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g667-d-c3-r0"
+        },
+        {
+          "question": "Shostakovich's 7th portrays the WWII siege of this city, the once & future St. Petersburg",
+          "answer": "Leningrad",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPHONIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g667-d-c3-r1"
+        },
+        {
+          "question": "For a choral symphony, Stravinsky wrote settings for the 39th, 40th & 150th of these Biblical songs",
+          "answer": "Psalms",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPHONIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g667-d-c3-r2"
+        },
+        {
+          "question": "Schubert's 7th symphony is also incomplete, but it's his 8th that bears this title",
+          "answer": "Unfinished",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPHONIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g667-d-c3-r3"
+        },
+        {
+          "question": "Symphony No. 82 by this composer called \"Papa\" is nicknamed \"The Bear\"",
+          "answer": "Franz Joseph Haydn",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPHONIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g667-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "America's chief mountain system, it forms the Continental Divide",
+          "answer": "the Rocky Mountains",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g667-d-c4-r0"
+        },
+        {
+          "question": "Laughing Whitefish is a well-known waterfall in this state's Upper Peninsula",
+          "answer": "Michigan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g667-d-c4-r1"
+        },
+        {
+          "question": "This second-largest Hawaiian island is located about 70 miles southeast of Oahu",
+          "answer": "Maui",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g667-d-c4-r2"
+        },
+        {
+          "question": "The Boston Mountains of Arkansas contain the highest peaks of these mountains",
+          "answer": "the Ozark Mountains",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g667-d-c4-r3"
+        },
+        {
+          "question": "This 'bleak\" swamp covers about 750 square miles in Virginia & North Carolina",
+          "answer": "the Great Dismal Swamp",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g667-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"V\"OCABULARY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Common term for the \"bad guy\" in a play or novel",
+          "answer": "villain",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g667-d-c5-r0"
+        },
+        {
+          "question": "This word is often used to designate a school's first-string sports team",
+          "answer": "varsity",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g667-d-c5-r1"
+        },
+        {
+          "question": "\"Discretion is the better part of\" it",
+          "answer": "valor",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g667-d-c5-r2"
+        },
+        {
+          "question": "It can refer to a boat or a bowl",
+          "answer": "vessel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g667-d-c5-r3"
+        },
+        {
+          "question": "It's a synonym for wordy",
+          "answer": "verbose",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g667-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SOLAR SYSTEM",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 2 planets that have no moons",
+          "answer": "Mercury & Venus",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE SOLAR SYSTEM",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g667-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

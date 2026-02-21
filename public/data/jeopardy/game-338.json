@@ -1,0 +1,761 @@
+{
+  "gameId": 338,
+  "showNumber": 9,
+  "airDate": "September 20, 1984",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FICTION",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Shakespeare's \"star-crossed\" lovers",
+          "answer": "Romeo and Juliet",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g338-s-c0-r0"
+        },
+        {
+          "question": "The \"lovable\" family of Peter Pan",
+          "answer": "the Darlings",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g338-s-c0-r1"
+        },
+        {
+          "question": "\"Cat on a Hot Tin Roof's\" portly patriarch",
+          "answer": "Big Daddy",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g338-s-c0-r2"
+        },
+        {
+          "question": "The Philip Roth character with a \"complaint\"",
+          "answer": "Portnoy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g338-s-c0-r3"
+        },
+        {
+          "question": "Pasternak's Moscow medic",
+          "answer": "Dr. Zhivago",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g338-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRST LADIES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "She talked to Arnold's class about drugs on TV's \"Diff'rent Strokes\"",
+          "answer": "Nancy Reagan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g338-s-c1-r0"
+        },
+        {
+          "question": "One of her early suitors was her husband's arch rival, Stephen A. Douglas",
+          "answer": "Mary Todd Lincoln",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g338-s-c1-r1"
+        },
+        {
+          "question": "Teddy's niece, her married & maiden names were the same",
+          "answer": "Eleanor Roosevelt",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g338-s-c1-r2"
+        },
+        {
+          "question": "Her tough Texas husband preferred her nickname to calling her Claudia Alta",
+          "answer": "Lady Bird Johnson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g338-s-c1-r3"
+        },
+        {
+          "question": "She was expelled from Society of Friends for marrying non-Quaker 4th president",
+          "answer": "Dolley Madison",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g338-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYSTERIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Dashiell Hammett detective played on the screen by Humphrey Bogart",
+          "answer": "Sam Spade",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTERIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g338-s-c2-r0"
+        },
+        {
+          "question": "1st cousins Dannay & Lee wrote the Ellery Queen stories under this pen name",
+          "answer": "Ellery Queen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MYSTERIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g338-s-c2-r1"
+        },
+        {
+          "question": "This agency's symbol of an unblinking eye gave birth to the phrase \"private eye\"",
+          "answer": "the Pinkerton agency",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTERIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g338-s-c2-r2"
+        },
+        {
+          "question": "She's Agatha Christie's ageless amateur detective",
+          "answer": "Miss (Jane) Marple",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTERIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g338-s-c2-r3"
+        },
+        {
+          "question": "Author of \"Burr\" who wrote chilling mysteries under the pen name Edgar Box",
+          "answer": "Gore Vidal",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYSTERIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g338-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RACY LADIES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Driving with a broken wrist, Janet Guthrie was the 1st woman to compete in this race",
+          "answer": "the Indianapolis 500",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RACY LADIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g338-s-c3-r0"
+        },
+        {
+          "question": "Though a hot prospect in '80, Beth Heiden was frozen out of gold in this Olympic sport",
+          "answer": "speed skating",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RACY LADIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g338-s-c3-r1"
+        },
+        {
+          "question": "Never has to jockey for position as Mrs. Fred Astaire",
+          "answer": "Robyn Smith",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RACY LADIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g338-s-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "ADDRESSES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The prime minister of England lives here",
+          "answer": "10 Downing Street",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADDRESSES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g338-s-c4-r0"
+        },
+        {
+          "question": "Feathered friend who lives at 123½ Sesame Street",
+          "answer": "Big Bird",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADDRESSES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g338-s-c4-r1"
+        },
+        {
+          "question": "He shared digs with John Watson at 221-B Baker Street",
+          "answer": "Sherlock Holmes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADDRESSES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g338-s-c4-r2"
+        },
+        {
+          "question": "\"Kookie\" Byrnes parked cars for Dino's Lodge",
+          "answer": "77 Sunset Strip",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADDRESSES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g338-s-c4-r3"
+        },
+        {
+          "question": "You'd find this at 1313 S. Harbor Boulevard in Anaheim, CA",
+          "answer": "Disneyland",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADDRESSES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g338-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRIVIA",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "They were formerly called the Sandwich Islands",
+          "answer": "Hawaii",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g338-s-c5-r0"
+        },
+        {
+          "question": "Number of blank tiles in a Scrabble set",
+          "answer": "2",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g338-s-c5-r1"
+        },
+        {
+          "question": "Longest river in Canada or the SCTV bros.",
+          "answer": "the Mackenzie",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g338-s-c5-r2"
+        },
+        {
+          "question": "It's whom Boris Spassky lost the chess crown to in 1972",
+          "answer": "Bobby Fischer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g338-s-c5-r3"
+        },
+        {
+          "question": "Awarded medal as \"1st woman to be killed in action\" in WWII: she was Gable's wife",
+          "answer": "Carole Lombard",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g338-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BLACK AMERICA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The first black in Big League Baseball",
+          "answer": "Jackie Robinson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g338-d-c0-r0"
+        },
+        {
+          "question": "Forced to give up crown as Miss America because of photos in \"Penthouse\"",
+          "answer": "Vanessa Williams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g338-d-c0-r1"
+        },
+        {
+          "question": "A symbol for black performers in film since the '50's, he won an Oscar as Best Actor in '63",
+          "answer": "Sidney Poitier",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g338-d-c0-r2"
+        },
+        {
+          "question": "As result of anti-slavery raid on Harper's Ferry, his \"body lies a moldering in the grave\"",
+          "answer": "John Brown",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g338-d-c0-r3"
+        },
+        {
+          "question": "Harriet Tubman, who freed over 300 slaves, was 1 of its foremost \"conductors\"",
+          "answer": "the Underground Railroad",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLACK AMERICA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g338-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "GRAMMAR",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The adverb in \"think fast\"",
+          "answer": "fast",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g338-d-c1-r0"
+        },
+        {
+          "question": "The superlative form of good",
+          "answer": "best",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g338-d-c1-r1"
+        },
+        {
+          "question": "It can be common, proper, collective or concrete",
+          "answer": "a noun",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g338-d-c1-r2"
+        },
+        {
+          "question": "3-letter ending of present participles & gerunds",
+          "answer": "-ing",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g338-d-c1-r3"
+        },
+        {
+          "question": "It comes at the end of a declarative sentence",
+          "answer": "a period",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GRAMMAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g338-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROTHERS & SISTERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "An \"easy rider\" whose sister played an easy lady in \"Klute\"",
+          "answer": "Peter Fonda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROTHERS & SISTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g338-d-c2-r0"
+        },
+        {
+          "question": "In the Bible, Aaron was this brother's mouthpiece in dealing with Pharaoh",
+          "answer": "Moses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROTHERS & SISTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g338-d-c2-r1"
+        },
+        {
+          "question": "Nursing mother who wouldn't make \"house calls\", she's Vanessa's sister",
+          "answer": "Lynn Redgrave",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROTHERS & SISTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g338-d-c2-r2"
+        },
+        {
+          "question": "Apollo's loving sister, sometimes served on the half shell",
+          "answer": "Venus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROTHERS & SISTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g338-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "GREEK MYTHOLOGY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Hilltop home of the gods",
+          "answer": "Mt. Olympus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g338-d-c3-r0"
+        },
+        {
+          "question": "He ultimately got \"fleeced\" by Medea",
+          "answer": "Jason",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g338-d-c3-r1"
+        },
+        {
+          "question": "A challenge to any optician, these giants had only one eye",
+          "answer": "cyclops",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g338-d-c3-r2"
+        },
+        {
+          "question": "A \"bull\" of a man, he lived in a labyrinth",
+          "answer": "the Minotaur",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g338-d-c3-r3"
+        },
+        {
+          "question": "First member of the \"me\" generation, this youth fell in love with his own reflection",
+          "answer": "Narcissus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREEK MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g338-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOODS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Real men\" don't eat this French custard cheese pie",
+          "answer": "quiche",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g338-d-c4-r0"
+        },
+        {
+          "question": "On the market since 1896, it wasn't until 1912 that they included prizes",
+          "answer": "Cracker Jacks",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g338-d-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "SOVIET UNION",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Largest Soviet newspaper, its name means \"Truth\"",
+          "answer": "Pravda",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g338-d-c5-r0"
+        },
+        {
+          "question": "Daughter of this Soviet ruler has been living in America since 1967",
+          "answer": "Stalin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g338-d-c5-r1"
+        },
+        {
+          "question": "Soviet republic that has same name as an American state",
+          "answer": "Georgia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g338-d-c5-r2"
+        },
+        {
+          "question": "Soviet official who advocated using gasoline-filled bottles against Nazi tanks",
+          "answer": "Molotov",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g338-d-c5-r3"
+        },
+        {
+          "question": "Kenny Ball did this jazzed up version of an old Russian folk song",
+          "answer": "\"Midnight In Moscow\"",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SOVIET UNION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g338-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The mammal that holds the record for the longest lifespan",
+          "answer": "man",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "SCIENCE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g338-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "gameId": 4860,
+  "showNumber": 7037,
+  "airDate": "March 31, 2015",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE FAULT IN OUR STATES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The San Andreas Fault",
+          "answer": "California",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAULT IN OUR STATES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4860-s-c0-r0"
+        },
+        {
+          "question": "The Denali Fault",
+          "answer": "Alaska",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAULT IN OUR STATES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4860-s-c0-r1"
+        },
+        {
+          "question": "The Teton Fault",
+          "answer": "Wyoming",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAULT IN OUR STATES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4860-s-c0-r2"
+        },
+        {
+          "question": "The Corvallis Fault",
+          "answer": "Oregon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAULT IN OUR STATES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4860-s-c0-r3"
+        },
+        {
+          "question": "The Wasatch Fault",
+          "answer": "Utah",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAULT IN OUR STATES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4860-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD & DRINK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1919 Roy Allen created the A&W recipe for this drink",
+          "answer": "root beer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4860-s-c1-r0"
+        },
+        {
+          "question": "Water buffalo milk (delicious on its own!) is used to make this cheese & Italy exports 40,000 tons a year of the stuff",
+          "answer": "mozzarella",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4860-s-c1-r1"
+        },
+        {
+          "question": "This fast food chain with more than 17,000 stores worldwide dropped its full name in 1991 & began using an abbreviation",
+          "answer": "KFC (Kentucky Fried Chicken)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4860-s-c1-r2"
+        },
+        {
+          "question": "For purists, the blue agave from Jalisco state produces the best of this product",
+          "answer": "tequila",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4860-s-c1-r3"
+        },
+        {
+          "question": "This aromatic herb essential to bearnaise sauce has a sweet flavor similar to licorice or anise",
+          "answer": "tarragon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4860-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BETTER KNOWN BY ONE NAME",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Powhatan princess was also known as Matoaka & Amonute",
+          "answer": "Pocahontas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN BY ONE NAME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4860-s-c2-r0"
+        },
+        {
+          "question": "Tiziano Vecellio is better known as this one-named painter from Venice",
+          "answer": "Titian",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN BY ONE NAME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4860-s-c2-r1"
+        },
+        {
+          "question": "\"Behind the Candelabra\" was an HBO biography of this flamboyant performer",
+          "answer": "Liberace",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN BY ONE NAME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4860-s-c2-r2"
+        },
+        {
+          "question": "Jean-Baptiste Poquelin is this French playwright of \"Tartuffe\"",
+          "answer": "Molière",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN BY ONE NAME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4860-s-c2-r3"
+        },
+        {
+          "question": "He followed Sukarno as president of Indonesia",
+          "answer": "Suharto",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BETTER KNOWN BY ONE NAME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4860-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV VIOLENCE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Titus Welliver's finger being detached was featured on this show, the CW's most \"Super\"",
+          "answer": "Supernatural",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VIOLENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4860-s-c3-r0"
+        },
+        {
+          "question": "\"Random Acts of Violence\", a 2003 episode of this William Petersen show, could have been the title of several",
+          "answer": "CSI",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VIOLENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4860-s-c3-r1"
+        },
+        {
+          "question": "On \"NYPD Blue\" Detective Andy Sipowicz, played by this actor, was not above getting physical to get a confession",
+          "answer": "Dennis Franz",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VIOLENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4860-s-c3-r2"
+        },
+        {
+          "question": "Tara is drowned & forked to death by her mother-in-law on the Season 6 finale of this motorcycle club drama",
+          "answer": "Sons of Anarchy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV VIOLENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4860-s-c3-r3"
+        },
+        {
+          "question": "This P.I. show was violent for its time--1967-1975--with Mike Connors, by one count, being knocked cold 55 times",
+          "answer": "Mannix",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV VIOLENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4860-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CAUTION, DECONSTRUCTION UNDERWAY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Motel",
+          "answer": "motor & hotel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAUTION, DECONSTRUCTION UNDERWAY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4860-s-c4-r0"
+        },
+        {
+          "question": "Digerati",
+          "answer": "digital & literati",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAUTION, DECONSTRUCTION UNDERWAY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4860-s-c4-r1"
+        },
+        {
+          "question": "Transistor",
+          "answer": "transfer & resistor",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAUTION, DECONSTRUCTION UNDERWAY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4860-s-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "INSTRUMENTAL IN SCIENCE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Jimmy of the Clue Crew, at Harvard University's Historical Scientific Instruments, holds a metal right angle with a plumb bob.)  One instrument, a geometrical & military compass, was used to find areas & volumes, & even determined how best to load & aim a cannon, thanks to this Italian astronomer, who devised it in 1597",
+          "answer": "Galileo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSTRUMENTAL IN SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4860-s-c5-r0"
+        },
+        {
+          "question": "(Sarah of the Clue Crew, at Harvard University's Historical Scientific Instruments, shows an enclosed clockwork model.) Clockmaker Joseph Pope was about halfway through his 12-year project of building a gear-driven model of the Solar System that showed the relative motion of the planets & their satellites, when in 1781, this planet was discovered, but rather than start over, he didn't include it",
+          "answer": "Uranus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSTRUMENTAL IN SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4860-s-c5-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew, at Harvard University's Historical Scientific Instruments, shows a console.)  From 1947 to 2002, this control console was at the Harvard cyclotron lab for pioneering research now used to treat cancer; the surrounding healthy tissue is relatively undamaged, but the cancer cells are destroyed by irradiation with these positive particles",
+          "answer": "protons",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSTRUMENTAL IN SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4860-s-c5-r2"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew, at Harvard University's Historical Scientific Instruments, shows a machine.)  Harvard lost most of its scientific equipment in a 1764 fire; state-of-the-art replacements, like an electricity-generating machine, were bought by this man in London on business for the colony of Pennsylvania",
+          "answer": "Benjamin Franklin",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSTRUMENTAL IN SCIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4860-s-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "NAPOLEON",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Napoleon spent the last 6 years of his life here, which he called \"this cursed rock\"",
+          "answer": "Saint Helena",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAPOLEON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4860-d-c0-r0"
+        },
+        {
+          "question": "Napoleon's father, Carlo, fought beside Pasquale Paoli for this island's independence from Genoa",
+          "answer": "Corsica",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAPOLEON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4860-d-c0-r1"
+        },
+        {
+          "question": "For his victories at the Italian border in 1796, Napoleon was nicknamed \"The Little\" this noncommissioned officer",
+          "answer": "corporal",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAPOLEON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4860-d-c0-r2"
+        },
+        {
+          "question": "In 1806 Napoleon wrote to Cardinal Joseph Fesch, \"I am\" this 9th century ruler, \"the sword of the Church\"",
+          "answer": "Charlemagne",
+          "value": 7000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAPOLEON",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4860-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "AFRICAN-AMERICAN AUTHORS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Born in Oklahoma City in 1914, he was named for the Transcendentalist author of \"Self-Reliance\"",
+          "answer": "Ralph Ellison",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4860-d-c1-r0"
+        },
+        {
+          "question": "She won a 1993 Grammy for her reading of her poem \"On the Pulse of Morning\"",
+          "answer": "Angelou",
+          "value": 7000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4860-d-c1-r1"
+        },
+        {
+          "question": "This Harlem Renaissance poet wrote 2 novels: \"Not Without Laughter\" & \"Tambourines to Glory\"",
+          "answer": "(Langston) Hughes",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4860-d-c1-r2"
+        },
+        {
+          "question": "His relationship with his minister stepfather provided the basis for his 1953 novel \"Go Tell It on the Mountain\"",
+          "answer": "James Baldwin",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4860-d-c1-r3"
+        },
+        {
+          "question": "In 2014 this former stand-up comic released his 21st novel, \"A Wanted Woman\"",
+          "answer": "Eric Jerome Dickey",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN-AMERICAN AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4860-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "GO TO HILL",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Kowloon area is known for its 8 hills & for having some of this Chinese region's best nightlife",
+          "answer": "Hong Kong",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GO TO HILL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4860-d-c2-r0"
+        },
+        {
+          "question": "In a 1999 film Hugh Grant runs a bookstore in this title London area",
+          "answer": "Notting Hill",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GO TO HILL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4860-d-c2-r1"
+        },
+        {
+          "question": "U.S. troops fought Chinese forces in the Battle of Pork Chop Hill, one of this war's last & longest",
+          "answer": "the Korean War",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GO TO HILL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4860-d-c2-r2"
+        },
+        {
+          "question": "In 1652, atop Pendle Hill in England, George Fox, leader of this Christian sect, had a vision of a religious revival",
+          "answer": "the Quakers",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GO TO HILL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4860-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "_O_O",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Early in his career, Willard Scott clowned around as this character",
+          "answer": "Bozo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "_O_O",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4860-d-c3-r0"
+        },
+        {
+          "question": "Though her real name was Gabrielle, designer Chanel went by this nickname",
+          "answer": "Coco",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "_O_O",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4860-d-c3-r1"
+        },
+        {
+          "question": "Its lofts & galleries can be found north of Canal Street between Lafayette & the Hudson River",
+          "answer": "SoHo",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "_O_O",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4860-d-c3-r2"
+        },
+        {
+          "question": "It's Spanish for \"wolf\"",
+          "answer": "lobo",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "_O_O",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4860-d-c3-r3"
+        },
+        {
+          "question": "This tasty salmon variety is also known as the silver salmon",
+          "answer": "coho",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "_O_O",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4860-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "A JOB WITH NO COMMUTE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The USA's average age for this job has been rising for 30 years, to 58.3 as of 2012--remember, it's Old MacDonald",
+          "answer": "farmer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A JOB WITH NO COMMUTE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4860-d-c4-r0"
+        },
+        {
+          "question": "A Smithsonian online spotlight on this talent includes Robert Fulton & Isaac Singer",
+          "answer": "an inventor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A JOB WITH NO COMMUTE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4860-d-c4-r1"
+        },
+        {
+          "question": "This novelist of New York society lived & wrote from 1902 to 1912 in a house she also designed",
+          "answer": "(Edith) Wharton",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A JOB WITH NO COMMUTE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4860-d-c4-r2"
+        },
+        {
+          "question": "Best Buy's Geek Squad has been called \"the most famous\" group doing this 2-word job that you can do from home",
+          "answer": "tech support",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A JOB WITH NO COMMUTE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4860-d-c4-r3"
+        },
+        {
+          "question": "In 1982 automation eliminated this lonely job at Chatham on Cape Cod",
+          "answer": "a lighthouse keeper",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A JOB WITH NO COMMUTE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4860-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WE'RE ALL JEALOUS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"It was a slap in the face how quickly I was replaced\", sang a rather upset Alanis Morissette in this tune",
+          "answer": "\"You Oughta Know\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE ALL JEALOUS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4860-d-c5-r0"
+        },
+        {
+          "question": "\"I didn't mean to hurt you / I'm sorry that I made you cry\", he sings on \"Jealous Guy\", from the 1971 album \"Imagine\"",
+          "answer": "John Lennon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE ALL JEALOUS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4860-d-c5-r1"
+        },
+        {
+          "question": "\"I just can't look, it's killing me\", moaned Killers' frontman Brandon Flowers, aka \"Mr.\" this",
+          "answer": "Brightside",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE ALL JEALOUS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4860-d-c5-r2"
+        },
+        {
+          "question": "She hit the Top 30 with \"Jealousy\" in 1996, a few years after splitting up with 9,999 other maniacs",
+          "answer": "Natalie Merchant",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE'RE ALL JEALOUS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4860-d-c5-r3"
+        },
+        {
+          "question": "In a country No. 1, Tyler Farr tells his cheating girl, \"You broke the wrong heart baby, and drove me\" this kind of crazy",
+          "answer": "redneck crazy",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WE'RE ALL JEALOUS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4860-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMEDY INSPIRATIONS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Rodney Dangerfield credited this 1972 Best Picture Oscar winner for inspiring his most famous line",
+          "answer": "The Godfather",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "COMEDY INSPIRATIONS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4860-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

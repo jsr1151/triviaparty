@@ -1,0 +1,737 @@
+{
+  "gameId": 7995,
+  "showNumber": 112,
+  "airDate": "February 12, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "7 WONDERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Dr. Livingstone named these African falls, 1 of 7 Natural Wonders of the World, for his queen",
+          "answer": "Victoria Falls",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7 WONDERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7995-s-c0-r0"
+        },
+        {
+          "question": "The ancient wonder of Olympia was a gold & ivory statue of this god",
+          "answer": "Zeus",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7 WONDERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7995-s-c0-r1"
+        },
+        {
+          "question": "90 miles from the last remaining ancient wonder, this waterway is 1 of 7 modern wonders",
+          "answer": "the Suez Canal",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7 WONDERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7995-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "TRIVIA",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Teddy Roosevelt's companions who held reunions in Las Vegas, NM until 1969",
+          "answer": "the Rough Riders",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7995-s-c1-r0"
+        },
+        {
+          "question": "Of a vitamin, Greek writing or a missile guidance system, what Linear B was",
+          "answer": "Greek writing",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7995-s-c1-r1"
+        },
+        {
+          "question": "Song Queen Liliuokalani left as her legacy to Hawaii",
+          "answer": "\"Aloha Oe\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7995-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Mail order company that's also America's largest retailer",
+          "answer": "Sears-Roebuck",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7995-s-c2-r0"
+        },
+        {
+          "question": "This Senator's grandfather, an immigrant peddler, started an Arizona department store chain",
+          "answer": "Barry Goldwater",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7995-s-c2-r1"
+        },
+        {
+          "question": "Letter featured 4 times on the Pillsbury flour logo",
+          "answer": "the letter X",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7995-s-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "PROVERBS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Familiarity breeds\" it",
+          "answer": "contempt",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7995-s-c3-r0"
+        },
+        {
+          "question": "Part of anatomy a hard worker \"puts to the wheel\"",
+          "answer": "shoulder",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7995-s-c3-r1"
+        },
+        {
+          "question": "Ben Franklin advised us to \"eat to live\" rather than this",
+          "answer": "live to eat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7995-s-c3-r2"
+        },
+        {
+          "question": "When \"poverty comes in the window\", this \"flies out the door\"",
+          "answer": "love",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7995-s-c3-r3"
+        },
+        {
+          "question": "Jesus Christ advised us not to put our lighted candles there",
+          "answer": "under a bushel",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PROVERBS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7995-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN OLDIES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Where Pat Boone wrote his \"Love Letters\"",
+          "answer": "the sand",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7995-s-c4-r0"
+        },
+        {
+          "question": "In '58, the Monotones wondered, wondered, wondered, wondered, who!, who did this",
+          "answer": "\"Who Wrote The Book Of Love\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7995-s-c4-r1"
+        },
+        {
+          "question": "Running Bear loved her with a love that couldn't die",
+          "answer": "Little White Dove",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7995-s-c4-r2"
+        },
+        {
+          "question": "U.S. President at the time of Ike and Tina Turner's 1st hit, \"A Fool in Love\"",
+          "answer": "Dwight David \"Ike\" Eisenhower",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7995-s-c4-r3"
+        },
+        {
+          "question": "\"He created woman & a lot of loving for a man\" with just this",
+          "answer": "\"A Hundred Pounds Of Clay\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLDEN OLDIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7995-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOW TO...",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Push down while twisting cap in direction of arrows",
+          "answer": "how do you open a child-proof cap",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW TO...",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7995-s-c5-r0"
+        },
+        {
+          "question": "Place the left hand on the right elbow, the right hand on the right cheek & say \"well\"",
+          "answer": "how to imitate Jack Benny",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW TO...",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7995-s-c5-r1"
+        },
+        {
+          "question": "Forget CPR, just clap your hands and think, \"I do believe in fairies\"",
+          "answer": "How do you bring Tinker Bell back to life?",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOW TO...",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7995-s-c5-r2"
+        },
+        {
+          "question": "By bridge from Brooklyn or New Jersey, or by ferry from Manhattan",
+          "answer": "how do you get to Staten Island",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOW TO...",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7995-s-c5-r3"
+        },
+        {
+          "question": "Heat the steel, quench it, reheat to a lower temperature, then let cool slowly",
+          "answer": "how do you temper steel",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW TO...",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7995-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANIMALS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A cow's rechewed food",
+          "answer": "a cud",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7995-d-c0-r0"
+        },
+        {
+          "question": "Number of wings on a bee",
+          "answer": "4",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7995-d-c0-r1"
+        },
+        {
+          "question": "Fish with cartilage, not bone, for skeleton",
+          "answer": "a shark",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7995-d-c0-r2"
+        },
+        {
+          "question": "Lemurs are the most primitive of this order of mammals",
+          "answer": "the primates",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7995-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Moslems believe the original of this, their holy book, is in heaven",
+          "answer": "the Quran",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7995-d-c1-r0"
+        },
+        {
+          "question": "From a Hebrew name for the Holy Land, it's the movement for a Jewish state there",
+          "answer": "Zionism",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7995-d-c1-r1"
+        },
+        {
+          "question": "The \"Russellites\" predict god's war of Armageddon will rid earth of all evil in this generation",
+          "answer": "the Jehovah Witnesses",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7995-d-c1-r2"
+        },
+        {
+          "question": "In Hinduism, it's the immutable law that fixes the consequences of one's acts",
+          "answer": "karma",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7995-d-c1-r3"
+        },
+        {
+          "question": "Christian movement which seeks to unite Christians worldwide",
+          "answer": "ecumenism (the Ecumenical movement)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7995-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MATHEMATICS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Mathematical symbol which resembles a period",
+          "answer": "multiplication symbol (or a decimal point)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7995-d-c2-r0"
+        },
+        {
+          "question": "A statement that two expressions are equal",
+          "answer": "an equation",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7995-d-c2-r1"
+        },
+        {
+          "question": "In your watch it's a liquid crystal diode, but in math an \"LCD\" is this",
+          "answer": "least common denominator (or lowest common denominator)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7995-d-c2-r2"
+        },
+        {
+          "question": "Branch of math named from Arabic for \"reunion of broken parts\"",
+          "answer": "algebra",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7995-d-c2-r3"
+        },
+        {
+          "question": "Common name of the radical sign",
+          "answer": "the square root sign",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7995-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. STATES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Only state with Arctic and Pacific coastlines",
+          "answer": "Alaska",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7995-d-c3-r0"
+        },
+        {
+          "question": "Center of early fur trading known as \"The Beaver State\"",
+          "answer": "Oregon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7995-d-c3-r1"
+        },
+        {
+          "question": "State with this tune as its official state song\"Way down upon the Swanee River / Far, far away...\"",
+          "answer": "Florida",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7995-d-c3-r2"
+        },
+        {
+          "question": "Only state ending in \"K\"",
+          "answer": "New York",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7995-d-c3-r3"
+        },
+        {
+          "question": "The Palmetto State, smallest in the Deep South",
+          "answer": "South Carolina",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7995-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LANGUAGES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "French, Spanish & Italian are in this branch of languages",
+          "answer": "the Romance languages",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7995-d-c4-r0"
+        },
+        {
+          "question": "Languages spoken in this country include Assamese, Gujarati, Tamil, & Punjabi",
+          "answer": "India",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7995-d-c4-r1"
+        },
+        {
+          "question": "1 of 3 Warsaw Pact countries with a non-Slavic language",
+          "answer": "(1 of) Romania, Hungary, or East Germany",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7995-d-c4-r2"
+        },
+        {
+          "question": "Gullah, spoken on some South Carolina & Georgia islands, has over 6,000 words from this continent",
+          "answer": "Africa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LANGUAGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7995-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "POLITICAL QUOTES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This Ugandan dictator sent Pres. Nixon a card wishing \"a speedy recovery from Watergate\"",
+          "answer": "Idi Amin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7995-d-c5-r0"
+        },
+        {
+          "question": "Pres. who said, \"I never gave 'em hell, I just tell the truth and they think it's hell\"",
+          "answer": "Harry Truman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7995-d-c5-r1"
+        },
+        {
+          "question": "He wrote, \"people will more easily fall victims to a big lie than a small one\"",
+          "answer": "Adolf Hitler",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7995-d-c5-r2"
+        },
+        {
+          "question": "\"No one can make you feel inferior without your consent,\" said this celebrated first lady",
+          "answer": "Eleanor Roosevelt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7995-d-c5-r3"
+        },
+        {
+          "question": "2-time pres. candidate who said, \"a free society is one where it's safe to be unpopular\"",
+          "answer": "Adlai Stevenson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7995-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAIRY TALES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Number of characters who sang the song \"Heigh Ho\" in '37 Disney film",
+          "answer": "6",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "FAIRY TALES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7995-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

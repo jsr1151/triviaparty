@@ -1,0 +1,833 @@
+{
+  "gameId": 3000,
+  "showNumber": 5687,
+  "airDate": "May 5, 2009",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ARCHAEOLOGY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1996 Franck Goddio discovered her palace underwater in the harbor of Alexandria",
+          "answer": "Cleopatra",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3000-s-c0-r0"
+        },
+        {
+          "question": "Rano Raraku, a quarry on this South Pacific island, produced about 900 moai, or statues, some over 30' tall",
+          "answer": "Easter Island",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3000-s-c0-r1"
+        },
+        {
+          "question": "In 1865 John Lubbock became the first to use this term referring to the \"Old Stone Age\"",
+          "answer": "paleolithic",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3000-s-c0-r2"
+        },
+        {
+          "question": "The Clovis people, who date back 13,000 years, were named for the town in this state where artifacts were first found",
+          "answer": "New Mexico",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3000-s-c0-r3"
+        },
+        {
+          "question": "Carved in 196 B.C., its text was written by priests to honor Ptolemy V",
+          "answer": "the Rosetta Stone",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3000-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOW MANY PLAYERS ON EACH SIDE?",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Basketball",
+          "answer": "5",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW MANY PLAYERS ON EACH SIDE?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3000-s-c1-r0"
+        },
+        {
+          "question": "Ice hockey",
+          "answer": "6",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW MANY PLAYERS ON EACH SIDE?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3000-s-c1-r1"
+        },
+        {
+          "question": "Olympic synchronized platform diving",
+          "answer": "2",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW MANY PLAYERS ON EACH SIDE?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3000-s-c1-r2"
+        },
+        {
+          "question": "Soccer",
+          "answer": "11",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOW MANY PLAYERS ON EACH SIDE?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3000-s-c1-r3"
+        },
+        {
+          "question": "Canadian football",
+          "answer": "12",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOW MANY PLAYERS ON EACH SIDE?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3000-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOU CAN'T SPELL JEOPARDY! WITHOUT PARTY!",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Our drinking game: if someone on C-SPAN says, \"Madam Speaker\", take a sip of Darjeeling this",
+          "answer": "tea",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU CAN'T SPELL JEOPARDY! WITHOUT PARTY!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3000-s-c2-r0"
+        },
+        {
+          "question": "Around 11:00 P.M., we break out the card game \"authors\"; do you have any of this man seen here?",
+          "answer": "Mark Twain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU CAN'T SPELL JEOPARDY! WITHOUT PARTY!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3000-s-c2-r1"
+        },
+        {
+          "question": "The karaoke machine is loaded with arias, like this composer's \"Celeste Aida\"",
+          "answer": "Verdi",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU CAN'T SPELL JEOPARDY! WITHOUT PARTY!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3000-s-c2-r2"
+        },
+        {
+          "question": "We get wild with the Greek crowd when our friend Christos stuffs these leaves",
+          "answer": "grape leaves",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU CAN'T SPELL JEOPARDY! WITHOUT PARTY!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3000-s-c2-r3"
+        },
+        {
+          "question": "After too much Jolt, we call MIT's Alan Guth & argue about his inflation model, which modifies this cosmic theory",
+          "answer": "the Big Bang theory",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "YOU CAN'T SPELL JEOPARDY! WITHOUT PARTY!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3000-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT ARE YOU AFRAID OF?",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Yes, there really is a name for the fear of this number--it's triskaidekaphobia",
+          "answer": "13",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3000-s-c3-r0"
+        },
+        {
+          "question": "It's the country someone with sinophobia would be least apt to visit",
+          "answer": "China",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3000-s-c3-r1"
+        },
+        {
+          "question": "Sadly, with panphobia, you're afraid of this, & this, & this & this...",
+          "answer": "everything",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3000-s-c3-r2"
+        },
+        {
+          "question": "If you're a tachophobe, you won't be feeling the need for this",
+          "answer": "speed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3000-s-c3-r3"
+        },
+        {
+          "question": "Papyrophobia is the fear of this--touching it, seeing it, being cut by it",
+          "answer": "paper",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3000-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCHOOLS NAMED AFTER PEOPLE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A merchant's 1919 bequest for music education resulted in this NYC academy's graduate school",
+          "answer": "the Juilliard School",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCHOOLS NAMED AFTER PEOPLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3000-s-c4-r0"
+        },
+        {
+          "question": "This religious leader bought a building from the Univ. of Deseret, founded a school & named it for himself",
+          "answer": "Brigham Young",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCHOOLS NAMED AFTER PEOPLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3000-s-c4-r1"
+        },
+        {
+          "question": "N.C.'s Trinity College changed its name to this after a tobacco family that gave the school millions",
+          "answer": "Duke",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCHOOLS NAMED AFTER PEOPLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3000-s-c4-r2"
+        },
+        {
+          "question": "It's no surprise that a New Hampshire university is named for this 14th president",
+          "answer": "Franklin Pierce",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCHOOLS NAMED AFTER PEOPLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3000-s-c4-r3"
+        },
+        {
+          "question": "James Bayley founded this N.J. university & named it for his aunt, the first American-born saint",
+          "answer": "Seton Hall",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCHOOLS NAMED AFTER PEOPLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3000-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOMOPHONES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Showers, or leather straps that control a horse",
+          "answer": "rains/reins",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3000-s-c5-r0"
+        },
+        {
+          "question": "A horse's harness, or pertaining to a wedding",
+          "answer": "bridle/bridal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3000-s-c5-r1"
+        },
+        {
+          "question": "To acquire through merit, or a large decorative vase",
+          "answer": "earn/urn",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3000-s-c5-r2"
+        },
+        {
+          "question": "A plant of the parsley family, or a unit to measure the fineness of gold",
+          "answer": "carrot/karat",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3000-s-c5-r3"
+        },
+        {
+          "question": "Transparently thin, or to cut wool",
+          "answer": "sheer/shear",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3000-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOGRAPHY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Kuala Lumpur is on this 5-letter peninsula",
+          "answer": "Malay",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3000-d-c0-r0"
+        },
+        {
+          "question": "Venice, Italy is the \"mistress of\" this arm of the Mediterranean",
+          "answer": "the Adriatic",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3000-d-c0-r1"
+        },
+        {
+          "question": "This desert's name is from the Mongolian",
+          "answer": "the Gobi",
+          "value": 5200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3000-d-c0-r2"
+        },
+        {
+          "question": "In 1990 it was the seat of the German federal government",
+          "answer": "Bonn",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3000-d-c0-r3"
+        },
+        {
+          "question": "Bloemfontein is the judicial capital of this nation",
+          "answer": "South Africa",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3000-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HIGH-TECH CINEMA",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A mech war on the planet Cybertron over the Allspark spills out on Earth in this 2007 film",
+          "answer": "Transformers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH-TECH CINEMA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3000-d-c1-r0"
+        },
+        {
+          "question": "Road & Track magazine reviewed the tech-laden Mach 5 of this film",
+          "answer": "Speed Racer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HIGH-TECH CINEMA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3000-d-c1-r1"
+        },
+        {
+          "question": "Shia LaBeouf is tracked & controlled with technology of everyday life in this 2008 film",
+          "answer": "Eagle Eye",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH-TECH CINEMA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3000-d-c1-r2"
+        },
+        {
+          "question": "In this Coen Brothers comedy, 2 gym employees find a disk containing the memoirs of a CIA agent",
+          "answer": "Burn After Reading",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH-TECH CINEMA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3000-d-c1-r3"
+        },
+        {
+          "question": "In \"Swordfish\" John Travolta enlists this Aussie actor to hack billions from the government",
+          "answer": "Hugh Jackman",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH-TECH CINEMA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3000-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RALLY TO THE CAUSE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's to free this land invaded by China in 1950",
+          "answer": "Tibet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RALLY TO THE CAUSE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3000-d-c2-r0"
+        },
+        {
+          "question": "We're against this--a '60s slogan says it's \"not healthy for children & other living things\"",
+          "answer": "war",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RALLY TO THE CAUSE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3000-d-c2-r1"
+        },
+        {
+          "question": "Bring candles--it's for TBTN, \"Take Back\" this",
+          "answer": "the Night",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RALLY TO THE CAUSE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3000-d-c2-r2"
+        },
+        {
+          "question": "It's organized by this lefty dot-org, motto \"Democracy in action\"",
+          "answer": "MoveOn",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RALLY TO THE CAUSE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3000-d-c2-r3"
+        },
+        {
+          "question": "It's to save equal Internet speed for all, aka \"net\" this",
+          "answer": "neutrality",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RALLY TO THE CAUSE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3000-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "LET'S GET PHYSICS-AL",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "N is the symbol for the unit of force named for him",
+          "answer": "Newton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GET PHYSICS-AL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3000-d-c3-r0"
+        },
+        {
+          "question": "It sounds like a pit crew, but it's the branch of physics concerned with motion & the action of forces on matter",
+          "answer": "mechanics",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GET PHYSICS-AL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3000-d-c3-r1"
+        },
+        {
+          "question": "(Kelly of the Clue Crew shows an animated diagram on the monitor.)  The distance x that a runner will cover from a standing start is given by the equation x = 1/2 at2, where t is time & a stands for this",
+          "answer": "acceleration",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GET PHYSICS-AL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3000-d-c3-r2"
+        },
+        {
+          "question": "It's the branch of physics that deals with the relationship between heat, work, temperature & energy",
+          "answer": "thermodynamics",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GET PHYSICS-AL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3000-d-c3-r3"
+        },
+        {
+          "question": "In classical physics, laws of conservation cover mass, energy & this, equal to mass times velocity",
+          "answer": "momentum",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GET PHYSICS-AL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3000-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LOOK WHAT YOU'VE WON!",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "For your third-place finish in the Olympic 200m butterfly, just a bit behind Michael Phelps:One of these medals",
+          "answer": "a bronze medal",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOOK WHAT YOU'VE WON!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3000-d-c4-r0"
+        },
+        {
+          "question": "For your expose of the cafeteria:One of these Columbia University journalism awards",
+          "answer": "a Pulitzer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOOK WHAT YOU'VE WON!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3000-d-c4-r1"
+        },
+        {
+          "question": "For that term paper on the DNA of mice:One of these in physiology or medicine, just like Sir Martin Evans",
+          "answer": "a Nobel Prize",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LOOK WHAT YOU'VE WON!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3000-d-c4-r2"
+        },
+        {
+          "question": "For your all-around fabness:One of these scholarships that have been sending U.S. kids to Oxford since 1904",
+          "answer": "a Rhodes Scholarship",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOOK WHAT YOU'VE WON!",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3000-d-c4-r3"
+        },
+        {
+          "question": "For your work in college radio:One of these awards given for radio excellence since 1941; TV shows win them too, now",
+          "answer": "the Peabodys",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LOOK WHAT YOU'VE WON!",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3000-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LATIN",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Tempus fugit (meaning this) when you're having fun",
+          "answer": "time flies",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3000-d-c5-r0"
+        },
+        {
+          "question": "The name of this 100-member body comes from the Latin & means \"council of elders\"",
+          "answer": "the senate",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3000-d-c5-r1"
+        },
+        {
+          "question": "We have grave concerns you'll know that requiescat in pace means \"may he\" do this",
+          "answer": "rest in peace",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3000-d-c5-r2"
+        },
+        {
+          "question": "This type of phone that you may have heard your parents talk of is from the Latin for \"wheel\"",
+          "answer": "rotary",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3000-d-c5-r3"
+        },
+        {
+          "question": "Vox dei translates to this--I hear it speaking now",
+          "answer": "the voice of God",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LATIN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3000-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON THE MOON",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the last word of the inscription on Apollo 11's plaque on the Moon & is also found in a related quotation",
+          "answer": "mankind",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ON THE MOON",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3000-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

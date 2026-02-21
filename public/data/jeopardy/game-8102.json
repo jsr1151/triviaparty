@@ -1,0 +1,833 @@
+{
+  "gameId": 8102,
+  "showNumber": 2719,
+  "airDate": "May 30, 1996",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "AGRICULTURE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This grain, threshed & unhulled, is called paddy",
+          "answer": "rice",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8102-s-c0-r0"
+        },
+        {
+          "question": "The cutting edge of this common farm implement is called a share",
+          "answer": "a plow",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8102-s-c0-r1"
+        },
+        {
+          "question": "For this crop to develop fully, each thread of the silk must receive a grain of pollen",
+          "answer": "corn",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8102-s-c0-r2"
+        },
+        {
+          "question": "Some organic wastes used as manures are compost & seabird droppings, called this",
+          "answer": "guano",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8102-s-c0-r3"
+        },
+        {
+          "question": "2,4-D, a selective one of these weedkillers, came into use in the 1940s",
+          "answer": "an herbicide",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AGRICULTURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8102-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "REPTILES & AMPHIBIANS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A jelly holds this animal's eggs together & dissolves when the tadpoles hatch",
+          "answer": "frog",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPTILES & AMPHIBIANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8102-s-c1-r0"
+        },
+        {
+          "question": "Found on different islands in the Galapagos, these great animals started Darwin thinking about evolution",
+          "answer": "turtles (tortoises)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPTILES & AMPHIBIANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8102-s-c1-r1"
+        },
+        {
+          "question": "Used to slit its shell, it falls off a baby mamba a few days after it hatches",
+          "answer": "an egg tooth",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPTILES & AMPHIBIANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8102-s-c1-r2"
+        },
+        {
+          "question": "From the Greek for \"crawling things\", it's the study of reptiles & amphibians",
+          "answer": "herpetology",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPTILES & AMPHIBIANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8102-s-c1-r3"
+        },
+        {
+          "question": "Because people thought the salamander lived in fire, this mineral became \"salamander's wool\"",
+          "answer": "asbestos",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REPTILES & AMPHIBIANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8102-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "POSTAGE STAMPS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This playwright was depicted on a 1995 U.S. stamp with a streetcar in the background",
+          "answer": "Tennessee Williams",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAGE STAMPS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8102-s-c2-r0"
+        },
+        {
+          "question": "A 1988 Israeli stamp featured this young diarist & the Amsterdam house in which she hid",
+          "answer": "Anne Frank",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAGE STAMPS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8102-s-c2-r1"
+        },
+        {
+          "question": "The island of St. Vincent honored this Texas pitcher, including his 5,000th strikeout",
+          "answer": "Nolan Ryan",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAGE STAMPS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8102-s-c2-r2"
+        },
+        {
+          "question": "For the 25th anniversary of the 1st moon landing, Bhutan issued stamps with this type of 3d image",
+          "answer": "a hologram",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAGE STAMPS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8102-s-c2-r3"
+        },
+        {
+          "question": "In 1977, the year of his death, Cyprus issued stamps of this archbishop in full vestments",
+          "answer": "Archbishop Makarios",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAGE STAMPS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8102-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD FACTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This independent state's official name is Stato Della Citta del Vaticano",
+          "answer": "Vatican City",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8102-s-c3-r0"
+        },
+        {
+          "question": "Millions of people travel by train in this country every day; some tourists take the Taj Express",
+          "answer": "India",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8102-s-c3-r1"
+        },
+        {
+          "question": "Crema Danica is a rich dessert cheese from this country",
+          "answer": "Denmark",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8102-s-c3-r2"
+        },
+        {
+          "question": "Haarlem in this country has a museum named for artist Frans Hals, who spent most of his life there",
+          "answer": "the Netherlands",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8102-s-c3-r3"
+        },
+        {
+          "question": "The joropo is considered the national dance of this country that's named for a city in Italy",
+          "answer": "Venezuela",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8102-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ADVICE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's \"the Golden Rule\"",
+          "answer": "do unto others as they would do unto you",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8102-s-c4-r0"
+        },
+        {
+          "question": "Irving Thalberg told Louis B. Mayer not to buy this book, saying, \"No Civil War picture ever made a nickel\"",
+          "answer": "Gone with the Wind",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8102-s-c4-r1"
+        },
+        {
+          "question": "His advice to people in a 1966 lecture was \"Turn on, tune in and drop out\"",
+          "answer": "Timothy Leary",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8102-s-c4-r2"
+        },
+        {
+          "question": "Samuel Butler said to \"Look before you ere you leap; for as you sow, ye are like to\" do this",
+          "answer": "reap",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8102-s-c4-r3"
+        },
+        {
+          "question": "1987 Rob Reiner film with Wallace Shawn's advice \"Never go in against a Sicilian when death is on the line\"",
+          "answer": "The Princess Bride",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ADVICE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8102-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHARACTERS IN MUSICALS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Merlyn,Mordred,Morgan Le Fey",
+          "answer": "Camelot",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN MUSICALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8102-s-c5-r0"
+        },
+        {
+          "question": "Lucy,Linus,Snoopy",
+          "answer": "You're a Good Man, Charlie Brown",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN MUSICALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8102-s-c5-r1"
+        },
+        {
+          "question": "Og,Woody Mahoney,Finian McLonergan",
+          "answer": "Finian's Rainbow",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN MUSICALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8102-s-c5-r2"
+        },
+        {
+          "question": "Marcellus Washburn,Amaryllis,Harold Hill",
+          "answer": "The Music Man",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN MUSICALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8102-s-c5-r3"
+        },
+        {
+          "question": "Georges,Noelle,Gabrielle Chanel",
+          "answer": "Coco",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN MUSICALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8102-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTORS TURNED POLITICIANS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Are you feeling lucky? Then come up with the name of this actor elected mayor of Carmel, Calif. in 1986",
+          "answer": "Clint Eastwood",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS TURNED POLITICIANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8102-d-c0-r0"
+        },
+        {
+          "question": "Alessandra, the granddaughter of this dictator, was elected to the Italian Parliament in 1992",
+          "answer": "Mussolini",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS TURNED POLITICIANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8102-d-c0-r1"
+        },
+        {
+          "question": "Silent film star Charlie Farrell was a mayor of this California city, as was Sonny Bono",
+          "answer": "Palm Springs",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS TURNED POLITICIANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8102-d-c0-r2"
+        },
+        {
+          "question": "Sioux City citizens sent this seagoing star to Congress in 1986",
+          "answer": "Fred Grandy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ACTORS TURNED POLITICIANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8102-d-c0-r3"
+        },
+        {
+          "question": "This Academy Award winner for \"Women in Love\" ran for Parliament in 1992 & won",
+          "answer": "Glenda Jackson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS TURNED POLITICIANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8102-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This doubting apostle was also called Didymus or \"twin\"",
+          "answer": "Thomas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8102-d-c1-r0"
+        },
+        {
+          "question": "In 1 Chronicles Elhanan defeated the brother of this Philistine champion slain by David",
+          "answer": "Goliath",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8102-d-c1-r1"
+        },
+        {
+          "question": "One of his rare mentions outside Genesis is in 1 Chronicles 1:1, where he begins a family tree",
+          "answer": "Adam",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8102-d-c1-r2"
+        },
+        {
+          "question": "The name of this heroine of a Biblical book is derived from a Persian word for a star",
+          "answer": "Esther",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8102-d-c1-r3"
+        },
+        {
+          "question": "Ahab, king of Israel, is known for his marriage to this Sidonian who worshiped Baal",
+          "answer": "Jezebel",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8102-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "1596",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Shakespeare comedy in which Shylock tries to claim a pound of flesh was probably written in 1596",
+          "answer": "The Merchant of Venice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1596",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8102-d-c2-r0"
+        },
+        {
+          "question": "Johannes Kepler defended this Pole's theory of the solar system in \"Cosmographic Mystery\"",
+          "answer": "Copernicus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1596",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8102-d-c2-r1"
+        },
+        {
+          "question": "The Spanish seized this French town on the Strait of Dover in 1596 & held it for 2 years",
+          "answer": "Calais",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1596",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8102-d-c2-r2"
+        },
+        {
+          "question": "This French philosopher known for his \"Discourse on Method\" was born March 31, 1596 in La Haye",
+          "answer": "Rene Descartes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1596",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8102-d-c2-r3"
+        },
+        {
+          "question": "During the year books 4-6 of his \"The Faerie Queene\" were published",
+          "answer": "(Edmund) Spenser",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1596",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8102-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ISLANDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Columbus named this Caribbean island group for St. Ursula & her 11,000 maidens",
+          "answer": "the Virgin Islands",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8102-d-c3-r0"
+        },
+        {
+          "question": "French is an official language of this British-owned group of islands off the coast of France",
+          "answer": "the Channel Islands",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8102-d-c3-r1"
+        },
+        {
+          "question": "234-square-mile Lake Taupo on North Island is this nation's largest lake",
+          "answer": "New Zealand",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8102-d-c3-r2"
+        },
+        {
+          "question": "Toronto Harbor is separated from this Great Lake by the Toronto Islands",
+          "answer": "Lake Ontario",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8102-d-c3-r3"
+        },
+        {
+          "question": "Malaysia's highest point, Mount Kinabalu, lies in the region of Sabah on this large island",
+          "answer": "Borneo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8102-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WINE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Wine shops sell a special tool to retrieve this if it's accidentally pushed into the bottle",
+          "answer": "a cork",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8102-d-c4-r0"
+        },
+        {
+          "question": "The cheaper the champagne, the lower this should be for serving",
+          "answer": "temperature",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8102-d-c4-r1"
+        },
+        {
+          "question": "The two most common ways of getting the juice out of the grapes are crushing & this",
+          "answer": "pressing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8102-d-c4-r2"
+        },
+        {
+          "question": "Name that completes Chateau Lafite & Chateau Mouton",
+          "answer": "Rothschild",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8102-d-c4-r3"
+        },
+        {
+          "question": "Used in a popular \"white\" blush wine, it's the most extensively planted red grape in California",
+          "answer": "zinfandel",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8102-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEN NAMES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Different \"Carolyn Keene\"s wrote about this girl detective, but Millie Benson was the first",
+          "answer": "Nancy Drew",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEN NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8102-d-c5-r0"
+        },
+        {
+          "question": "This Perry Mason creator's pseudonyms included Carleton Kendrake & Charles J. Kenny",
+          "answer": "Erle Stanley Gardner",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEN NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8102-d-c5-r1"
+        },
+        {
+          "question": "This author of \"Lost Horizon\" wrote the 1931 novel \"Murder at School\" under the pseudonym Glen Trevor",
+          "answer": "(James) Hilton",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEN NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8102-d-c5-r2"
+        },
+        {
+          "question": "Lute Puckett & Elmer Chubb were pseudonyms used by this \"Spoon River\" poet",
+          "answer": "Edgar Lee Masters",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEN NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8102-d-c5-r3"
+        },
+        {
+          "question": "This \"I, Claudius\" novelist published some poems under the name John Doyle",
+          "answer": "Robert Graves",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEN NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8102-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD WAR II NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 1st U.S. naval ship with a plural name honored their memory; a 2nd ship was christened in 1995",
+          "answer": "the Sullivans",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "WORLD WAR II NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8102-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

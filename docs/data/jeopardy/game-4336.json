@@ -1,0 +1,761 @@
+{
+  "gameId": 4336,
+  "showNumber": 6694,
+  "airDate": "October 24, 2013",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HOSPITAL CORNERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Center Street & 3rd Avenue SW in Rochester, Minnesota: this clinic",
+          "answer": "the Mayo Clinic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOSPITAL CORNERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4336-s-c0-r0"
+        },
+        {
+          "question": "Huron & St. Clair Streets, Chicago: Memorial Hospital of this nearby \"directional\" university",
+          "answer": "Northwestern",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOSPITAL CORNERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4336-s-c0-r1"
+        }
+      ]
+    },
+    {
+      "name": "WHAT'S ON YOUR iPOD?",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "(Hi, I'm Isaac Mizrahi.)  This dance pop diva from New York has her own sense of fashion & is all over my iPod with songs like \"Bad Romance\"",
+          "answer": "Lady Gaga",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON YOUR iPOD?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4336-s-c1-r0"
+        },
+        {
+          "question": "(Hey, there, I'm Neil Patrick Harris.) Sometimes I think about running away & joining this French-Canadian troupe, especially when I'm listening to \"Alegria\" & their other soundtracks",
+          "answer": "Cirque du Soleil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON YOUR iPOD?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4336-s-c1-r1"
+        },
+        {
+          "question": "(I'm Kelly O'Donnell of NBC News.)  Sometimes I like to go country on my iPod, listening to this trio whose hits include \"Here Comes Goodbye\" & \"Life Is a Highway\"",
+          "answer": "Rascal Flatts",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON YOUR iPOD?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4336-s-c1-r2"
+        },
+        {
+          "question": "(Hi, I'm CCH Pounder.)  My iPod's got soul--specifically, this \"Godfather of Soul\", & his 1968 Top 10 hit \"Say It Loud--I'm Black And I'm Proud\"",
+          "answer": "James Brown",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON YOUR iPOD?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4336-s-c1-r3"
+        },
+        {
+          "question": "(I'm Lewis Black.)  My iPod includes the Stones, Stevie Wonder & this First Daughter of country music whose hits include \"Seven Year Ache\"",
+          "answer": "Rosanne Cash",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT'S ON YOUR iPOD?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4336-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MATH APPEAL",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "As the bases are 90 feet apart, it's the area in square feet of a baseball infield",
+          "answer": "8,100 square feet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH APPEAL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4336-s-c2-r0"
+        },
+        {
+          "question": "In 67 divided by 22, 67 is this, also a nice check stockholders get",
+          "answer": "a dividend",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH APPEAL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4336-s-c2-r1"
+        },
+        {
+          "question": "To write one of these as a decimal, move the decimal point 2 places to the left",
+          "answer": "a percentage",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH APPEAL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4336-s-c2-r2"
+        },
+        {
+          "question": "A 2013 paper on \"twin\" these numbers shows there are infinitely many pairs of them no more than 70,000,000 apart",
+          "answer": "prime numbers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH APPEAL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4336-s-c2-r3"
+        },
+        {
+          "question": "7 x (6 x 3) = (7 x 6) x 3 is an example of this law, meaning it doesn't matter which pair you multiply first",
+          "answer": "associative",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MATH APPEAL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4336-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOODIE CALL",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Foodies swear by the Himalayan pink type of this seasoning, said to be mined from the Himalayan foothills",
+          "answer": "salt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODIE CALL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4336-s-c3-r0"
+        },
+        {
+          "question": "Dishes flavored or garnished with these fancy fungi are called a la Perigourdine",
+          "answer": "truffles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODIE CALL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4336-s-c3-r1"
+        },
+        {
+          "question": "I spy that this \"CIA\" has campuses cooking in California, New York, Texas & Singapore",
+          "answer": "the Culinary Institute of America",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODIE CALL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4336-s-c3-r2"
+        },
+        {
+          "question": "It can be a type of bivalve mollusk or a thin slice of meat made flatter by pounding",
+          "answer": "a scallop",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOODIE CALL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4336-s-c3-r3"
+        },
+        {
+          "question": "Making a reduction using this fruit that has hundreds of seeds?  Not to worry, you can buy its juice from POM Wonderful",
+          "answer": "a pomegranate",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODIE CALL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4336-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRAGILE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The object seen here helps create these fragile items",
+          "answer": "bubbles",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRAGILE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4336-s-c4-r0"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew shows a micrograph on the monitor.)  Fragile X syndrome, the most common inherited form of intellectual disability, gets its name from the appearance of the genetic mutation on the \"X\" one of these",
+          "answer": "chromosome",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRAGILE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4336-s-c4-r1"
+        },
+        {
+          "question": "This woman who won a Massachusetts Senate seat in 2013 co-wrote \"The Fragile Middle Class\"",
+          "answer": "Elizabeth Warren",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRAGILE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4336-s-c4-r2"
+        },
+        {
+          "question": "In 2011 Steve Wynn bought 4 of these for $12.8 million & sent them back to China (a good idea for a guy who once tore a Picasso)",
+          "answer": "vases",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRAGILE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4336-s-c4-r3"
+        },
+        {
+          "question": "Truces between Israel & this group that runs Gaza & intends Israel's destruction are often called fragile",
+          "answer": "Hamas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRAGILE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4336-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THIS SIDE \"UP\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Dude, you're way too this word, nervous & easily annoyed",
+          "answer": "uptight",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS SIDE \"UP\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4336-s-c5-r0"
+        },
+        {
+          "question": "This \"Saturday Night Live\" newscast title has been used since a weekend in 1975",
+          "answer": "Weekend Update",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS SIDE \"UP\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4336-s-c5-r1"
+        },
+        {
+          "question": "\"Casablanca\" begins with an order to do this to \"all suspicious characters and search them\"",
+          "answer": "round up",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THIS SIDE \"UP\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4336-s-c5-r2"
+        },
+        {
+          "question": "In summer 2013 shares of Pandora stock surged after Goldman Sachs did this to it from \"neutral\" to \"buy\"",
+          "answer": "upgrade",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS SIDE \"UP\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4336-s-c5-r3"
+        },
+        {
+          "question": "Hang gliders ride these rising currents of air to stay aloft",
+          "answer": "updrafts",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS SIDE \"UP\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4336-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "A DAY ON THE BOAT",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the May 31, 1911 launch of this ship that displaces 52,000 tons; now, its fitting-out phase begins",
+          "answer": "the Titanic",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A DAY ON THE BOAT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4336-d-c0-r0"
+        },
+        {
+          "question": "It's Dec. 25, 1492 & this ship, Columbus' flagship, has run aground off Haiti & will be lost",
+          "answer": "the Santa Maria",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A DAY ON THE BOAT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4336-d-c0-r1"
+        },
+        {
+          "question": "It's Oct. 21, 1797 & Boston sees the launch of this ship; the copper sheathing on its bottom was made by Paul Revere",
+          "answer": "the Constitution",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A DAY ON THE BOAT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4336-d-c0-r2"
+        },
+        {
+          "question": "It's Feb. 17, 1864; this sub has just sunk the Housatonic with its spar torpedo, but she's not looking so good herself",
+          "answer": "the Hunley",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A DAY ON THE BOAT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4336-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "LET IT SLIDE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "PowerPoint is often used to create this frame-by-frame presentation used by marketing & sales people",
+          "answer": "a slide show",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET IT SLIDE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4336-d-c1-r0"
+        },
+        {
+          "question": "A beach park in Brazil is home to \"Insano\", at 135 feet the world's tallest freestanding one of these",
+          "answer": "a water slide",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET IT SLIDE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4336-d-c1-r1"
+        },
+        {
+          "question": "The slider helped Sparky Lyle & Zack Greinke achieve success in this profession",
+          "answer": "(baseball) pitching",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET IT SLIDE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4336-d-c1-r2"
+        },
+        {
+          "question": "In the 1500s a sliding column was added near the mouthpiece of this instrument to adjust the pitch; it's still there",
+          "answer": "trombone",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET IT SLIDE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4336-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "OSCAR MIRE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "He had 5 nominations for Best Director, including in consecutive years for \"Lifeboat\" & \"Spellbound\"",
+          "answer": "Alfred Hitchcock",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR MIRE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4336-d-c2-r0"
+        },
+        {
+          "question": "\"The Big Chill\" is that she was nominated for 5 Oscars in the '80s: ...but no cigar",
+          "answer": "Glenn Close",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR MIRE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4336-d-c2-r1"
+        },
+        {
+          "question": "He retired in 2012; final score, 0 wins in 8 nominations, including twice as the same king, in \"Becket\" & \"The Lion in Winter\"",
+          "answer": "Peter O'Toole",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR MIRE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4336-d-c2-r2"
+        },
+        {
+          "question": "Loved by the ladies, he's been spurned by Oscar for playing a captain, a barber & a children's author",
+          "answer": "Johnny Depp",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR MIRE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4336-d-c2-r3"
+        },
+        {
+          "question": "This female producer with an alliterative name has 7 nominations from \"E.T.\" to \"War Horse\"",
+          "answer": "Kathleen Kennedy",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR MIRE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4336-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"P\"OETS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"Enough Rope\", the 1st collection by this Algonquin Round Table member, contained \"Resume\", her poem about suicide",
+          "answer": "(Dorothy) Parker",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"OETS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4336-d-c3-r0"
+        },
+        {
+          "question": "She wrote most of the poems in her collection \"Ariel\" in the winter of 1962 after Ted Hughes left",
+          "answer": "(Sylvia) Plath",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"OETS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4336-d-c3-r1"
+        },
+        {
+          "question": "His \"The Rape of the Lock\" poked fun at a quarrel between Arabella Fermor & a lord who had snipped a lock of the lady's hair",
+          "answer": "Pope",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"OETS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4336-d-c3-r2"
+        },
+        {
+          "question": "This Imagist became immersed in Fascist politics while living in Italy",
+          "answer": "(Ezra) Pound",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"OETS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4336-d-c3-r3"
+        },
+        {
+          "question": "On Easter Sunday 1341, this Italian was crowned poet laureate, the first to be named in Rome since antiquity",
+          "answer": "Petrarch",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"P\"OETS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4336-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALBERTA",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 2013 75,000 people in this most populous Alberta city were evacuated due to flooding",
+          "answer": "Calgary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALBERTA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4336-d-c4-r0"
+        },
+        {
+          "question": "In a 2012 election, Albertans gave 17 seats to an upstart party named for this wild official provincial flower",
+          "answer": "the wild rose",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALBERTA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4336-d-c4-r1"
+        },
+        {
+          "question": "One of Alberta's exports to the U.S. is this woman who wrote & sang \"Big Yellow Taxi\"",
+          "answer": "Joni Mitchell",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALBERTA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4336-d-c4-r2"
+        },
+        {
+          "question": "Alberta wildlife includes a vole named for this type of landscape; Alberta is called the same type of province",
+          "answer": "a prairie",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALBERTA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4336-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "ANAGRAM PAIRS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A coffee cup to store your Juicy Fruit",
+          "answer": "gum mug",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAM PAIRS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4336-d-c5-r0"
+        },
+        {
+          "question": "Stressed-out youngsters over the age of 12",
+          "answer": "tense teens",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAM PAIRS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4336-d-c5-r1"
+        },
+        {
+          "question": "Someone who searches out a buddy or pal",
+          "answer": "friend finder",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAM PAIRS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4336-d-c5-r2"
+        },
+        {
+          "question": "To pointlessly use up perspiration",
+          "answer": "waste sweat",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAM PAIRS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4336-d-c5-r3"
+        },
+        {
+          "question": "Seat for the queen in a hive of a type of wasp",
+          "answer": "hornet throne",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANAGRAM PAIRS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4336-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ART IN THE U.S. CAPITOL",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Members of the Hungarian, Swedish & Israeli parliaments spoke when a bust of this foreign diplomat was unveiled",
+          "answer": "Raoul Wallenberg",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "ART IN THE U.S. CAPITOL",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4336-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

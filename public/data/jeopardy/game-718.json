@@ -1,0 +1,833 @@
+{
+  "gameId": 718,
+  "showNumber": 2953,
+  "airDate": "June 4, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Carson City, the capital of this western state, is named for Kit Carson",
+          "answer": "Nevada",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g718-s-c0-r0"
+        },
+        {
+          "question": "It's Alabama's first permanent European settlement as well as its only seaport",
+          "answer": "Mobile",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g718-s-c0-r1"
+        },
+        {
+          "question": "Utah's Uinta Range is the only major range of these mountains in the contiguous 48 states that runs east & west",
+          "answer": "Rocky Mountains",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g718-s-c0-r2"
+        },
+        {
+          "question": "This state's least populous county, Grand Isle, lies mostly within Lake Champlain",
+          "answer": "Vermont",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g718-s-c0-r3"
+        },
+        {
+          "question": "Chief cities on the banks of this Hudson River tributary include Rome, Utica & Schenectady",
+          "answer": "Mohawk River",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g718-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MONEY TALK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's the regular payment made to support an ex-spouse",
+          "answer": "Alimony",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONEY TALK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g718-s-c1-r0"
+        },
+        {
+          "question": "It's the money paid for the return of a kidnap victim",
+          "answer": "Ransom",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONEY TALK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g718-s-c1-r1"
+        },
+        {
+          "question": "Of the 7 deadly sins, it's the one concerned with money",
+          "answer": "Greed (Avarice)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONEY TALK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g718-s-c1-r2"
+        },
+        {
+          "question": "It's a formal gift of funds given by, for example, a government to a scientist to \"cary\" on with research",
+          "answer": "Grant",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONEY TALK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g718-s-c1-r3"
+        },
+        {
+          "question": "From a Latin word for \"booty\", it's the payment you make to keep your booty insured",
+          "answer": "Premium",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MONEY TALK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g718-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUOTABLE WOMEN",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Sappho once wrote, \"No\" this sweet \"for me, if it comes with a bee\"",
+          "answer": "Honey",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTABLE WOMEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g718-s-c2-r0"
+        },
+        {
+          "question": "\"One cannot have too large a party\" is a line from her novel \"Emma\"",
+          "answer": "Jane Austen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTABLE WOMEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g718-s-c2-r1"
+        },
+        {
+          "question": "\"We fluctuate long between love & hatred before we can arrive at a happy tranquility\", she wrote to Abelard",
+          "answer": "Heloise",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTABLE WOMEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g718-s-c2-r2"
+        },
+        {
+          "question": "Someone spied this dancer saying, \"Life is an illusion\" as she prepared to meet the firing squad",
+          "answer": "Mata Hari",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTABLE WOMEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g718-s-c2-r3"
+        },
+        {
+          "question": "\"If you have never been hated by your child, you have never been a parent\", said this \"Now, Voyager\" star",
+          "answer": "Bette Davis",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTABLE WOMEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g718-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TALL TALES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This logger's griddle was so big it had to be greased by men skating with bacon on their feet",
+          "answer": "Paul Bunyan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALL TALES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g718-s-c3-r0"
+        },
+        {
+          "question": "Some of the tales about this Tennessee congressman were spread by his Whig allies",
+          "answer": "Davy Crockett",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALL TALES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g718-s-c3-r1"
+        },
+        {
+          "question": "Stormalong's soapy ship squeezed through the English Channel, leaving these cliffs clean & white",
+          "answer": "White Cliffs of Dover",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALL TALES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g718-s-c3-r2"
+        },
+        {
+          "question": "Annie Christmas, who unloaded boats in this Louisiana city, could carry a barrel of flour under each arm",
+          "answer": "New Orleans",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TALL TALES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g718-s-c3-r3"
+        },
+        {
+          "question": "This \"King of the Keelboatmen\" boasted of being half-horse & half-alligator",
+          "answer": "Mike Fink",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TALL TALES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g718-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CARS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This international automaker opened a U.S. plant in 1978 to build Rabbits",
+          "answer": "Volkswagen",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g718-s-c4-r0"
+        },
+        {
+          "question": "In 1949 Chrysler pioneered starting a car with one of these rather than by pushing a button",
+          "answer": "Ignition key",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g718-s-c4-r1"
+        },
+        {
+          "question": "In 1968 a U.S. postage stamp was issued commemorating this automaker's 105th birthday",
+          "answer": "Henry Ford",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g718-s-c4-r2"
+        },
+        {
+          "question": "Though the gov't considers it a truck, Motor Trend named this Dodge family vehicle 1996 \"Car of the Year\"",
+          "answer": "Caravan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g718-s-c4-r3"
+        },
+        {
+          "question": "GM division named for the son of a Swiss clockmaker",
+          "answer": "Chevrolet",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g718-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON \"MY\" TV",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Mike, Robbie & Chip to Steve Douglas",
+          "answer": "\"My Three Sons\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON \"MY\" TV",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g718-s-c5-r0"
+        },
+        {
+          "question": "In this series Staci Keanan had a pair of possible fathers played by Paul Reiser & Greg Evigan",
+          "answer": "\"My Two Dads\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON \"MY\" TV",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g718-s-c5-r1"
+        },
+        {
+          "question": "Claire Danes won high acclaim for this low-rated 1994 series",
+          "answer": "\"My So-Called Life\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON \"MY\" TV",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g718-s-c5-r2"
+        },
+        {
+          "question": "The story of a boy, Ken McLaughlin, & his horse, whose name is in the title",
+          "answer": "\"My Friend Flicka\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON \"MY\" TV",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g718-s-c5-r3"
+        },
+        {
+          "question": "Uncle Martin to Tim O'Hara",
+          "answer": "\"My Favorite Martian\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON \"MY\" TV",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g718-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "19TH CENTURY PORTUGAL",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1877, a few years before his famous tower, he built a steel arch bridge over the Douro River in Portugal",
+          "answer": "Gustave Eiffel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19TH CENTURY PORTUGAL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g718-d-c0-r0"
+        },
+        {
+          "question": "In May 1898 Portugal celebrated the 400th anniversary of this explorer's arrival in India",
+          "answer": "Vasco da Gama",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19TH CENTURY PORTUGAL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g718-d-c0-r1"
+        },
+        {
+          "question": "This British army leader put the boot to the French in Portugal in 1808",
+          "answer": "Wellington",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19TH CENTURY PORTUGAL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g718-d-c0-r2"
+        },
+        {
+          "question": "In an 1887 treaty, China recognized Portugal's sovereignty over this territory west of Hong Kong",
+          "answer": "Macao",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19TH CENTURY PORTUGAL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g718-d-c0-r3"
+        },
+        {
+          "question": "When Napoleon threatened Portugal in 1807, the royal family fled to this country",
+          "answer": "Brazil",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "19TH CENTURY PORTUGAL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g718-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FATHERLY NICKNAMES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"The Father of the Phonograph\"",
+          "answer": "Thomas Edison",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHERLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g718-d-c1-r0"
+        },
+        {
+          "question": "This Frenchman was \"The Father of Bacteriology\"",
+          "answer": "Louis Pasteur",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHERLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g718-d-c1-r1"
+        },
+        {
+          "question": "Secretaries take note:  he's \"The Father of Modern Shorthand\", not Isaac Pitman",
+          "answer": "John Robert Gregg",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHERLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g718-d-c1-r2"
+        },
+        {
+          "question": "This ancient Greek playwright is the \"Father of Comedy\"",
+          "answer": "Aristophanes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHERLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g718-d-c1-r3"
+        },
+        {
+          "question": "\"The Father of Bluegrass Music\"; he passed away in 1996",
+          "answer": "Bill Monroe",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FATHERLY NICKNAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g718-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "OPERA",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The role of Scrooge is sung by a baritone in this Thea Musgrave opera",
+          "answer": "\"A Christmas Carol\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g718-d-c2-r0"
+        },
+        {
+          "question": "This Richard Strauss comic opera is named for Octavian, a young cavalier",
+          "answer": "\"Der Rosenkavalier\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g718-d-c2-r1"
+        },
+        {
+          "question": "This Mussorgsky opera was first performed at the Met in 1913 with Adamo Didur as Boris",
+          "answer": "\"Boris Godunov\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g718-d-c2-r2"
+        },
+        {
+          "question": "Meyerbeer's \"Les Huguenots\" deals with the events around this massacre",
+          "answer": "The St. Bartholemew's Day Massacre",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g718-d-c2-r3"
+        },
+        {
+          "question": "He wrote both text & music for his 3-act opera \"Tristan And Isolde\"",
+          "answer": "Richard Wagner",
+          "value": 1400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g718-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "She taught Black Studies at Jackson State College before she wrote \"The Color Purple\"",
+          "answer": "Alice Walker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g718-d-c3-r0"
+        },
+        {
+          "question": "In 1928 Elie Wiesel was born in Sighet, a Transylvanian village in this country",
+          "answer": "Romania",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g718-d-c3-r1"
+        },
+        {
+          "question": "Published in 1915, \"The 'Genius' \" is a semi-autobiographical novel by this author of \"Sister Carrie\"",
+          "answer": "Theodore Dreiser",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g718-d-c3-r2"
+        },
+        {
+          "question": "This author of \"The Alexandria Quartet\" was the elder brother of zoologist & writer Gerald Durrell",
+          "answer": "Lawrence Durrell",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g718-d-c3-r3"
+        },
+        {
+          "question": "This author of \"The Moonstone\" was named for his father's friend Sir David Wilkie",
+          "answer": "Wilkie Collins",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g718-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Grown in the northeast U.S., the round white or Katahdin type of this tuber is excellent for boiling",
+          "answer": "Potato",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g718-d-c4-r0"
+        },
+        {
+          "question": "This computer maker's NASDAQ symbol is AAPL, not MAC",
+          "answer": "Apple",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g718-d-c4-r1"
+        },
+        {
+          "question": "Huitzilopochtli was the war & sun god of this civilization",
+          "answer": "Aztecs",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g718-d-c4-r2"
+        },
+        {
+          "question": "This president's 1961 farewell address warned of the influence of \"The Military-Industrial Complex\"",
+          "answer": "Dwight D. Eisenhower",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g718-d-c4-r3"
+        },
+        {
+          "question": "With a fan that circulates hot air, this type of oven cooks 25% faster than conventional ovens",
+          "answer": "Convection oven",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g718-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD \"C\"ITIES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Strolling on the palm-lined Promenade de la Croisette is a must in this French film festival town",
+          "answer": "Cannes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD \"C\"ITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g718-d-c5-r0"
+        },
+        {
+          "question": "The government of the state of West Bengal lives in the Raj Dhavan, or Government House, in this city",
+          "answer": "Calcutta",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD \"C\"ITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g718-d-c5-r1"
+        },
+        {
+          "question": "The Coptic Museum in this city is noted for its collection of ancient Coptic textiles",
+          "answer": "Cairo",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD \"C\"ITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g718-d-c5-r2"
+        },
+        {
+          "question": "It's the largest city in the German state of North Rhine-Westphalia",
+          "answer": "Cologne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD \"C\"ITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g718-d-c5-r3"
+        },
+        {
+          "question": "This city on South Island is named for a college at Oxford University",
+          "answer": "Christchurch",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD \"C\"ITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g718-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ENDANGERED SPECIES LIST",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Added to the list in 1997 were the Quino Checkerspot & Laguna Mountains Skipper, types of these",
+          "answer": "Butterflies",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "ENDANGERED SPECIES LIST",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g718-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 8772,
+  "showNumber": 1968,
+  "airDate": "March 10, 1993",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MEDICINE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "One of these severe headaches typically lasts from 2 hours to 2 days",
+          "answer": "a migraine",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8772-s-c0-r0"
+        },
+        {
+          "question": "In women who've given birth, a hormone called prolactin stimulates the production of this",
+          "answer": "milk",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8772-s-c0-r1"
+        },
+        {
+          "question": "When a broken bone pierces the skin, it's known as this type of fracture",
+          "answer": "a compound fracture",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8772-s-c0-r2"
+        },
+        {
+          "question": "Epistaxis is the medical term for this, & if you get one, tilt your head forward & apply pressure",
+          "answer": "a nosebleed",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8772-s-c0-r3"
+        },
+        {
+          "question": "In diabetics a missed meal or too much insulin can cause this, an abnormally low blood sugar level",
+          "answer": "hypoglycemia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8772-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This river that rises in Minnesota has lent its name to the capital of Iowa",
+          "answer": "Des Moines",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8772-s-c1-r0"
+        },
+        {
+          "question": "Followed by Beach, it's a city in California; followed by News, a city in Virginia",
+          "answer": "Newport",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8772-s-c1-r1"
+        },
+        {
+          "question": "During the late 1800s this city's Criminal District was known as the Barbary Coast",
+          "answer": "San Francisco",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8772-s-c1-r2"
+        },
+        {
+          "question": "Charles Sallier has a town & lake named for him in this state",
+          "answer": "Louisiana",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8772-s-c1-r3"
+        },
+        {
+          "question": "This second-largest Hawaiian island's main seaport is in Kahului Bay",
+          "answer": "Maui",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8772-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOLF",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In golf this is 4 1/4 inches in diameter & at least 4 inches deep",
+          "answer": "the hole",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8772-s-c2-r0"
+        },
+        {
+          "question": "These depressions on the surface of a golf ball increase its distance & accuracy",
+          "answer": "the dimples",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8772-s-c2-r1"
+        },
+        {
+          "question": "Woods are numbered 1 through 5 & these clubs 1 through 9",
+          "answer": "irons",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8772-s-c2-r2"
+        },
+        {
+          "question": "This \"Golden Bear\" took the 1991 PGA Seniors Championship by 6 strokes",
+          "answer": "Jack Nicklaus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8772-s-c2-r3"
+        },
+        {
+          "question": "A \"double\" one of these is also called an albatross",
+          "answer": "an eagle",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOLF",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8772-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "HERBS & SPICES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In the past most of the U.S. supply of this spice came from Spain, not Hungary",
+          "answer": "paprika",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8772-s-c3-r0"
+        },
+        {
+          "question": "Piper Nigrum, the vine that produces this common spice, is grown in regions near the equator",
+          "answer": "black pepper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8772-s-c3-r1"
+        },
+        {
+          "question": "A leaf of this evergreen is used to flavor stews & fish & is a requirement in pickling solutions",
+          "answer": "a bay leaf",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8772-s-c3-r2"
+        },
+        {
+          "question": "The Chinese believe this herb whose name means \"man-root\" is a cure for various illnesses",
+          "answer": "ginseng",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8772-s-c3-r3"
+        },
+        {
+          "question": "This \"wild\" member of the mint family is also known as oregano",
+          "answer": "wild marjoram",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8772-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "His friends sometimes called him \"Old Zach\"",
+          "answer": "Zachary Taylor",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8772-s-c4-r0"
+        },
+        {
+          "question": "He wore football jersey No. 48 for the Wolverines",
+          "answer": "Gerald Ford",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8772-s-c4-r1"
+        },
+        {
+          "question": "A 13¢ stamp honoring what would have been his 50th birthday was issued on May 29, 1967",
+          "answer": "John F. Kennedy",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8772-s-c4-r2"
+        },
+        {
+          "question": "He was our first Episcopalian president",
+          "answer": "George Washington",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8772-s-c4-r3"
+        },
+        {
+          "question": "He & his wife, Hannah, were distant relatives; they were both born in Kinderhook",
+          "answer": "Martin Van Buren",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8772-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS BAKERS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The popularity of its annual \"bake-off\" has produced a spin-off--a canned corn cooking contest",
+          "answer": "Pillsbury",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8772-s-c5-r0"
+        },
+        {
+          "question": "The country's top baker, Continental Baking Company, turns out Twinkies & this top-selling bread",
+          "answer": "Wonder Bread",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8772-s-c5-r1"
+        },
+        {
+          "question": "Company named for the person seen here:",
+          "answer": "Sara Lee (Lubin)",
+          "value": 900,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8772-s-c5-r2"
+        },
+        {
+          "question": "In 9 bakeries around the country, this company goes crackers turning out Triscuits, Wheat Thins & Saltines",
+          "answer": "Nabisco",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8772-s-c5-r3"
+        },
+        {
+          "question": "Campbell's \"Remembers\" the acquisition of this baker in 1961 increased their line from soup to nut bread",
+          "answer": "Pepperidge Farm",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8772-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORD ORIGINS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "We know it sounds disgusting, but this bird used to be called the maggotpie",
+          "answer": "the magpie",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8772-d-c0-r0"
+        },
+        {
+          "question": "It's the ability to make lucky discoveries by accident, named for the fairy tale \"The 3 Princes of Serendip\"",
+          "answer": "serendipity",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8772-d-c0-r1"
+        },
+        {
+          "question": "This hyphenated synonym for \"snobby\" may come from hoit, an obsolete verb meaning to romp around noisily",
+          "answer": "hoity-toity",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8772-d-c0-r2"
+        },
+        {
+          "question": "\"Kielbasa\" comes from this language, which you'll know if you know what kind of sausage it is",
+          "answer": "Polish",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8772-d-c0-r3"
+        },
+        {
+          "question": "The Russian Wolfhound is known for its swiftness, & this, its other name, is Russian for \"swift\"",
+          "answer": "the Borzoi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8772-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC NAMES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Much of this Babylonian's famous code resembles earlier Sumerian laws",
+          "answer": "the code of Hammurabi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8772-d-c1-r0"
+        },
+        {
+          "question": "Cosimo I was the first member of this famed Florentine family to be Grand Duke of Tuscany",
+          "answer": "the Medici",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8772-d-c1-r1"
+        },
+        {
+          "question": "In 217 Caracalla, emperor of this, was murdered by Macrinus, one of his officers",
+          "answer": "the Roman Empire",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8772-d-c1-r2"
+        },
+        {
+          "question": "About 1860 this Frenchman discovered that fermentation is caused by microorganisms",
+          "answer": "Pasteur",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8772-d-c1-r3"
+        },
+        {
+          "question": "This wife of Henry VIII had several children, but only Mary Tudor survived infancy",
+          "answer": "Catherine of Aragon",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8772-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CATS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Havana brown is so named because its reddish-brown colors resemble these smoking items",
+          "answer": "cigars",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8772-d-c2-r0"
+        },
+        {
+          "question": "A striped & blotched coat is popularly known as tiger, but is properly called this",
+          "answer": "a tabby vsy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8772-d-c2-r1"
+        },
+        {
+          "question": "The Tonkinese is a hybrid of the Burmese & this other Asian cat",
+          "answer": "the Siamese",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8772-d-c2-r2"
+        },
+        {
+          "question": "The first important long-haired breed in Europe was this one from the present Turkish capital",
+          "answer": "the Angora",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8772-d-c2-r3"
+        },
+        {
+          "question": "A variation of this tailless cat is the Cymric",
+          "answer": "the Manx",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8772-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS & THEIR CHARACTERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "He said the boy he based Huck Finn on grew up to become a justice of the peace in Montana",
+          "answer": "Mark Twain",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS & THEIR CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8772-d-c3-r0"
+        },
+        {
+          "question": "In 1936 she compared her suffering after publication to Scarlett's during the Siege of Atlanta",
+          "answer": "Margaret Mitchell",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS & THEIR CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8772-d-c3-r1"
+        },
+        {
+          "question": "He must have liked little characters: he created little Em'ly, Little Nell & Tiny Tim",
+          "answer": "Dickens",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS & THEIR CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8772-d-c3-r2"
+        },
+        {
+          "question": "This author had worked with migrant laborers, so he could empathize with the Joad family he invented",
+          "answer": "Steinbeck",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS & THEIR CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8772-d-c3-r3"
+        },
+        {
+          "question": "Louisa May Alcott had this many sisters, & so did her alter ego, Jo in \"Little Women\"",
+          "answer": "3",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS & THEIR CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8772-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This city is headquarters of Anheuser-Busch, the USA's largest beer- producing firm",
+          "answer": "St. Louis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8772-d-c4-r0"
+        },
+        {
+          "question": "Wisconsin's state animal is this member of the weasel family",
+          "answer": "a badger",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8772-d-c4-r1"
+        },
+        {
+          "question": "This South Texas ranch developed the 1st new breed of beef cattle in the U.S., the Santa Gertrudis",
+          "answer": "the King Ranch",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8772-d-c4-r2"
+        },
+        {
+          "question": "It's the first, widest & shortest part of the small intestine",
+          "answer": "the duodenum",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8772-d-c4-r3"
+        },
+        {
+          "question": "This Robert Burns poem contains the lines \"The best laid schemes o' mice an' men gang aft agley\"",
+          "answer": "\"To a Mouse\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8772-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS BAKERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Look up this name in the Encyclopaedia Britannica & it says \"see Monroe, Marilyn\"",
+          "answer": "Norma Jean Baker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8772-d-c5-r0"
+        },
+        {
+          "question": "Collections of his New York Times columns include \"All Things Considered\" & \"So This Is Depravity\"",
+          "answer": "Russell Baker",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8772-d-c5-r1"
+        },
+        {
+          "question": "She's credited with introducing \"le jazz hot\" to France",
+          "answer": "Josephine Baker",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8772-d-c5-r2"
+        },
+        {
+          "question": "From 1981 to 1985 he was White House Chief of Staff",
+          "answer": "James Baker",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8772-d-c5-r3"
+        },
+        {
+          "question": "From February 1987 to July 1988 he was White House Chief of Staff",
+          "answer": "Howard Baker",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS BAKERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8772-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ISLANDS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "These islands about 400 miles from Cape Horn were named for a British treasurer of the Navy",
+          "answer": "the Falklands",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "ISLANDS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8772-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "gameId": 4214,
+  "showNumber": 590,
+  "airDate": "March 13, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BUSINESS BIGGIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In per-store gross, White Castle was #1 in 1984 fast food business, edging out this huge competitor",
+          "answer": "McDonald's",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS BIGGIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4214-s-c0-r0"
+        },
+        {
+          "question": "One version says the name of this product was inspired by a picture of William Penn",
+          "answer": "Quaker Oats",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS BIGGIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4214-s-c0-r1"
+        },
+        {
+          "question": "This Texas department store's 1965 catalogue had a page \"How to Spend $1 Million\" there",
+          "answer": "Neiman Marcus",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS BIGGIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4214-s-c0-r2"
+        },
+        {
+          "question": "Cincinnati-based company that makes largest selling toothpaste, detergent, & dandruff shampoo in U.S.",
+          "answer": "Procter & Gamble",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS BIGGIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4214-s-c0-r3"
+        },
+        {
+          "question": "Big holes were 1st put in '45s to force buyers to use players \"initially\" made only by this company",
+          "answer": "RCA",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS BIGGIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4214-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOARD GAMES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The L.A. Times called this the \"sport of kings, queens & pawns\"",
+          "answer": "chess",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOARD GAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4214-s-c1-r0"
+        },
+        {
+          "question": "Guinness says Con McCarrick once played 154 games of this, also called draughts, simultaneously",
+          "answer": "checkers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BOARD GAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4214-s-c1-r1"
+        },
+        {
+          "question": "Shape of the windowed piece that players - or spirits - move around the Ouija board",
+          "answer": "heart-shaped (triangular)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BOARD GAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4214-s-c1-r2"
+        },
+        {
+          "question": "Mia Farrow used the letters in this game to decipher a witchy anagram in \"Rosemary's Baby\"",
+          "answer": "Scrabble",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOARD GAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4214-s-c1-r3"
+        },
+        {
+          "question": "In backgammon, each player starts out with this number of men on the board",
+          "answer": "15",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOARD GAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4214-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIRDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Incubation among these huge flightless birds is done by females during the day & males at night",
+          "answer": "ostriches",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4214-s-c2-r0"
+        },
+        {
+          "question": "To display his gorgeous feathers, the blue bird of paradise hangs like this while courting",
+          "answer": "upside-down",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4214-s-c2-r1"
+        },
+        {
+          "question": "To feed their newborn, a type of \"milk\" is produced by both parents of these common city birds",
+          "answer": "pigeons",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4214-s-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "6-LETTER WORDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A shelter for dogs, it's from the Latin \"canis\" meaning \"dog\"",
+          "answer": "kennel",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4214-s-c3-r0"
+        },
+        {
+          "question": "A hard or chewy candy made of brown sugar & butter",
+          "answer": "toffee",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4214-s-c3-r1"
+        },
+        {
+          "question": "On July 25, 1986, Los Angeles saw it at 7:59 p.m. PDT",
+          "answer": "sunset",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4214-s-c3-r2"
+        },
+        {
+          "question": "In Matthew, chapters 5-7, Jesus delivered one \"on the mount\"",
+          "answer": "sermon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4214-s-c3-r3"
+        },
+        {
+          "question": "This lighter-than-air element only rose to #2 on the periodic chart",
+          "answer": "helium",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4214-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SINGERS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "She convinced a judge to cut 10 years off her legal age - perhaps by saying \"coochi-coochi\"",
+          "answer": "Charo",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4214-s-c4-r0"
+        },
+        {
+          "question": "As a Future Farmer of America he raised blue-ribbon hogs, but his Farm Aid raised funds for farmers",
+          "answer": "Willie Nelson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4214-s-c4-r1"
+        },
+        {
+          "question": "Billed as \"The Other Sheena\", this singer's ex-husband impersonates her in nightclubs",
+          "answer": "Sheena Easton",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4214-s-c4-r2"
+        },
+        {
+          "question": "He not only wrote songs for Jim Henson's film \"Labyrinth\", but played the Goblin King",
+          "answer": "David Bowie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4214-s-c4-r3"
+        },
+        {
+          "question": "Maybe \"Monkee\" business kept him away: he only joined the other Monkees once on their '86 tour",
+          "answer": "Michael Nesmith",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SINGERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4214-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODDS & ENDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Experts say to avoid wrinkles around the eyes, stop smoking & wear a pair of these outside during day",
+          "answer": "sunglasses",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4214-s-c5-r0"
+        },
+        {
+          "question": "In August '86, the Air Force announced it had accidentally dropped one of these on New Mexico in '57",
+          "answer": "nuclear device",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4214-s-c5-r1"
+        },
+        {
+          "question": "Of 6%, 21%, or 53%, percentage of U.S. mail comprised of personal letters",
+          "answer": "6%",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4214-s-c5-r2"
+        },
+        {
+          "question": "While she is judged in one, Miss America is forbidden to wear one in public after winning",
+          "answer": "swimsuit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4214-s-c5-r3"
+        },
+        {
+          "question": "Among videos with this feature for hearing impaired are \"Care Bears II\" & \"Playboy Centerfold 3\"",
+          "answer": "closed captions",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODDS & ENDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4214-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE CAPITALS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The population of this capital city is about 2/3 Mormon",
+          "answer": "Salt Lake City, Utah",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4214-d-c0-r0"
+        },
+        {
+          "question": "Providence, R.I. & this large New England city are the two capitals closest to each other",
+          "answer": "Boston",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4214-d-c0-r1"
+        },
+        {
+          "question": "Not surprisingly, the state capitol building in this city was designed by Thomas Jefferson",
+          "answer": "Richmond, Virginia",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4214-d-c0-r2"
+        },
+        {
+          "question": "Dirt poor, riding a borrowed horse & carrying everything with him, Lincoln arrived here on April 15, 1837",
+          "answer": "Springfield, Illinois",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4214-d-c0-r3"
+        },
+        {
+          "question": "In the late 19th c., a branch of the U.S. Mint was operated in this capital named for a famous frontiersman",
+          "answer": "Carson City, Nevada",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4214-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRENCH CUISINE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It sounds fancier in French, but \"oeufs frits\" are merely these",
+          "answer": "fried eggs",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4214-d-c1-r0"
+        },
+        {
+          "question": "Often served a la vinaigrette, \"tete de veau\" is this part of a calf",
+          "answer": "head",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4214-d-c1-r1"
+        },
+        {
+          "question": "If your \"canard\", or duck, is \"sauvage\", it's this- or was this, before you shot it",
+          "answer": "wild",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4214-d-c1-r2"
+        },
+        {
+          "question": "Breakfast treat whose name may be derived from \"briser\", to break, & \"hocher\", to shake",
+          "answer": "brioche",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4214-d-c1-r3"
+        },
+        {
+          "question": "Some eat this \"anguille\" glazed with fish jelly & arranged in a coil",
+          "answer": "eel",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CUISINE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4214-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CIVIL WAR",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "At age 8, this Civil War era President was the only Protestant student in a Catholic school",
+          "answer": "Jefferson Davis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4214-d-c2-r0"
+        },
+        {
+          "question": "This arch-villain in \"Uncle Tom's Cabin\" was a northerner",
+          "answer": "Simon Legree",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4214-d-c2-r1"
+        },
+        {
+          "question": "Preacher H. Ward Beecher is said to have sent Sharps rifles to John Brown in crates labeled as these",
+          "answer": "Bibles",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4214-d-c2-r2"
+        },
+        {
+          "question": "In 1858 S.C. Senator James \"Mudsill\" Hammond said, \"You dare not make war on cotton.  Cotton is\" this",
+          "answer": "king",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4214-d-c2-r3"
+        },
+        {
+          "question": "While Confederate General Jackson was nicknamed \"Stonewall\", his real 1st name was this",
+          "answer": "Thomas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4214-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROADWAY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "According to Burns & Mantle's, \"Best Plays\" titles with this # of words were big during '82-83 season",
+          "answer": "one",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4214-d-c3-r0"
+        },
+        {
+          "question": "In '84-'85 season, only 3 new shows recouped costs: Whoopi Goldberg, \"Hurlyburly\" & this classic set in Siam",
+          "answer": "The King and I",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4214-d-c3-r1"
+        },
+        {
+          "question": "\"Big River\", a musical with songs by singer Roger Miller, is based on this classic American novel",
+          "answer": "The Adventures of Huckleberry Finn",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4214-d-c3-r2"
+        },
+        {
+          "question": "Musical about this red-haired doll reached Broadway in 1986 after playing Moscow 1st",
+          "answer": "Raggedy Ann",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4214-d-c3-r3"
+        },
+        {
+          "question": "This husband-wife team starred in \"Foxfire\" onstage before going into a \"Cocoon\" onscreen",
+          "answer": "Hume Cronyn & Jessica Tandy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4214-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROCKS & MINERALS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Maternal name of the principal vein of silver or gold, or so we're told",
+          "answer": "mother lode",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCKS & MINERALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4214-d-c4-r0"
+        },
+        {
+          "question": "Semiprecious stone colored deep blue by the mineral lazurite",
+          "answer": "lapis lazuli",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCKS & MINERALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4214-d-c4-r1"
+        },
+        {
+          "question": "Chalk is a form of this sedimentary rock",
+          "answer": "limestone",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCKS & MINERALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4214-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "THE FAMILY JULES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Author who sent characters \"Around the World\", \"Under the Sea\", & \"To the Center of the Earth\"",
+          "answer": "Jules Verne",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAMILY JULES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4214-d-c5-r0"
+        },
+        {
+          "question": "Thousands of game show contestants have departed with this man's watches on their wrists",
+          "answer": "Jules Jurgensen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAMILY JULES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4214-d-c5-r1"
+        },
+        {
+          "question": "Paul Mazursky's 1980 film \"Willie & Phil\" was based in part on this classic 1961 Truffaut film",
+          "answer": "Jules and Jim",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAMILY JULES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4214-d-c5-r2"
+        },
+        {
+          "question": "French equivalent of Sherlock Holmes introduced in 1931 by Georges Simenon",
+          "answer": "Inspector Jules Maigret",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE FAMILY JULES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4214-d-c5-r3"
+        },
+        {
+          "question": "This Village Voice cartoonist could have his black-leotarded dancer do a dance to Jeopardy!",
+          "answer": "Jules Feiffer",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FAMILY JULES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4214-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MONARCHS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Eng. king who saved his country from conquest & promoted learning is the only 1 called \"the Great\"",
+          "answer": "Alfred",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MONARCHS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4214-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

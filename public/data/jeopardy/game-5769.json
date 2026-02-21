@@ -1,0 +1,785 @@
+{
+  "gameId": 5769,
+  "showNumber": 1414,
+  "airDate": "October 25, 1990",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE CIVIL WAR",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1975 Congress restored this Confederate general's U.S. citizenship",
+          "answer": "Robert E. Lee",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5769-s-c0-r0"
+        },
+        {
+          "question": "It was the first Union fort taken by the Confederates in the Civil War",
+          "answer": "Fort Sumter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5769-s-c0-r1"
+        },
+        {
+          "question": "The North usually named battles after the nearest body of water, the South after these",
+          "answer": "settlements",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5769-s-c0-r2"
+        },
+        {
+          "question": "This ex-slave, known as the \"Moses of Her People\", helped more than 300 slaves escape to freedom",
+          "answer": "Harriet Tubman",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5769-s-c0-r3"
+        },
+        {
+          "question": "Although only 11 states actually joined the Confederacy, its flag had this many stars",
+          "answer": "13",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CIVIL WAR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5769-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRENCH CLASS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "French for \"evening\", it now refers to a party held in the evening",
+          "answer": "soirée",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CLASS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5769-s-c1-r0"
+        },
+        {
+          "question": "When the French cook with champignons, they're adding these to the dish",
+          "answer": "mushrooms",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CLASS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5769-s-c1-r1"
+        },
+        {
+          "question": "From \"chanter\", to sing, it's a female singer",
+          "answer": "chanteuse",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CLASS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5769-s-c1-r2"
+        },
+        {
+          "question": "When you ask someone to \"Fermez la bouche\", you want him to do this",
+          "answer": "shut his mouth",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CLASS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5769-s-c1-r3"
+        },
+        {
+          "question": "The 2-word phrase meaning \"by airplane\" often found on int'l air mail envelopes",
+          "answer": "par avion",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH CLASS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5769-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FACTS & FIGURES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This southernmost New England state has an 8% state sales tax, the highest in the U.S.",
+          "answer": "Connecticut",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5769-s-c2-r0"
+        },
+        {
+          "question": "In 1989 Kohlberg Kravis Roberts acquired this company for $32 billion",
+          "answer": "RJR Nabisco",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FACTS & FIGURES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5769-s-c2-r1"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRY SONGS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Merle Haggard was \"proud to be an Okie from\" this town, \"a place where even squares can have a ball\"",
+          "answer": "Muskogee",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5769-s-c3-r0"
+        },
+        {
+          "question": "Heard here, it was the first country song to win a Grammy: \"One night a wild young cowboy came in / Wild as the West Texas wind\"",
+          "answer": "\"El Paso\"",
+          "value": 200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5769-s-c3-r1"
+        },
+        {
+          "question": "In this song Roger Miller told us, \"They oughta take a rope & hang me high from the highest tree\"",
+          "answer": "\"Dang Me\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5769-s-c3-r2"
+        },
+        {
+          "question": "It begins \"The old home town looks the same as I step down from the train\"",
+          "answer": "\"Green, Green Grass of Home\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5769-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "TOYS & GAMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Aztecs played with bouncing balls made of this material long before Europeans did",
+          "answer": "rubber",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5769-s-c4-r0"
+        },
+        {
+          "question": "Also called lotto, this game is often legal for church groups in states that outlaw most gambling",
+          "answer": "bingo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5769-s-c4-r1"
+        },
+        {
+          "question": "These originated in England as teaching devices for geography & are named for the way they were cut",
+          "answer": "jigsaw puzzles",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5769-s-c4-r2"
+        },
+        {
+          "question": "Card game that uses a 48-card deck with 2 of each card from 9s to aces",
+          "answer": "pinochle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5769-s-c4-r3"
+        },
+        {
+          "question": "Alfred M. Butts called his game \"Criss Cross\", but it was redesigned in 1948 & sold under this name",
+          "answer": "Scrabble",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5769-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S QUESTIONABLE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In the 1940 cartoon \"A Wild Hare\", Bugs Bunny said this tag line for the first time",
+          "answer": "What's up doc?",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S QUESTIONABLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5769-s-c5-r0"
+        },
+        {
+          "question": "Today's the catcher & Tomorrow's the pitcher in this routine by Abbott & Costello",
+          "answer": "\"Who's on First?\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S QUESTIONABLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5769-s-c5-r1"
+        },
+        {
+          "question": "It was Cain's response when the Lord asked him, \"Where is thy brother Abel?\"",
+          "answer": "Am I my brother's keeper?",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S QUESTIONABLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5769-s-c5-r2"
+        },
+        {
+          "question": "In 1965 Ronald Reagan published this book of memoirs",
+          "answer": "Where's the Rest of Me?",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IT'S QUESTIONABLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5769-s-c5-r3"
+        },
+        {
+          "question": "Richard Dreyfuss played a paralyzed sculptor in this 1981 film",
+          "answer": "Whose Life Is It Anyway?",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S QUESTIONABLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5769-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN THE NEWS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The House Banking Comm. recently heard testimony from this Bush on the collapse of Silverado S & L",
+          "answer": "Neil Bush",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5769-d-c0-r0"
+        },
+        {
+          "question": "While Gorbachev was headed for Washington, this man was elected President of the Russian Republic",
+          "answer": "Boris Yeltsin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5769-d-c0-r1"
+        },
+        {
+          "question": "A gun battle erupted over a gambling casino on this tribe's reservation on the New York-Canada border",
+          "answer": "Mohawk",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5769-d-c0-r2"
+        },
+        {
+          "question": "In 1990, 14,000 people each held only 1 share in this company, due to the nude on the certificate",
+          "answer": "Playboy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5769-d-c0-r3"
+        },
+        {
+          "question": "Despite his communist background, this man won a landslide victory in Romania in May 1990",
+          "answer": "Iliescu",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5769-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRIES OF THE WORLD",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This country was originally formed out of the Turkish provinces of Basra, Mosul & Baghdad",
+          "answer": "Iraq",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES OF THE WORLD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5769-d-c1-r0"
+        },
+        {
+          "question": "Most of its people are descended from Slavic tribes that settled on the Vistula & Warta Rivers",
+          "answer": "Poland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES OF THE WORLD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5769-d-c1-r1"
+        },
+        {
+          "question": "This country's state emblem shows the Gate of Heavenly Peace framed by grains of wheat and rice",
+          "answer": "China",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES OF THE WORLD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5769-d-c1-r2"
+        },
+        {
+          "question": "Until 1957 the area that is now Malaysia was ruled by this western power",
+          "answer": "Britain",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES OF THE WORLD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5769-d-c1-r3"
+        },
+        {
+          "question": "The name of this neighbor to Mexico is Mayan from \"land of many trees\"",
+          "answer": "Guatemala",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES OF THE WORLD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5769-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "She was the first female regular news anchor on network TV",
+          "answer": "Barbara Walters",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5769-d-c2-r0"
+        },
+        {
+          "question": "This American painter had her first one-woman show in the U.S. in 1940, when she was 80 years old",
+          "answer": "Grandma Moses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5769-d-c2-r1"
+        },
+        {
+          "question": "In 1981 this actress-turned-politician became Greece's Minister of Culture",
+          "answer": "Melina Mercouri",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5769-d-c2-r2"
+        },
+        {
+          "question": "Lines from her poem \"The New Colossus\" are inscribed on the Statue of Liberty's pedestal",
+          "answer": "Emma Lazarus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5769-d-c2-r3"
+        },
+        {
+          "question": "With Dick Rutan she copiloted the Voyager on its historic nonstop flight around the world",
+          "answer": "(Jeana) Yeager",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5769-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHYSICAL SCIENCE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This is the force that hold a galaxy together",
+          "answer": "gravity",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICAL SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5769-d-c3-r0"
+        },
+        {
+          "question": "Submarines raise these optical instruments to see the ocean's surface",
+          "answer": "periscope",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICAL SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5769-d-c3-r1"
+        },
+        {
+          "question": "Solid carbon dioxide",
+          "answer": "dry ice",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICAL SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5769-d-c3-r2"
+        },
+        {
+          "question": "It is this phenomenon which causes white light to break into colors in a prism",
+          "answer": "refraction",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICAL SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5769-d-c3-r3"
+        },
+        {
+          "question": "During an eclipse, the area thrown into total darkness is called this",
+          "answer": "umbra",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICAL SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5769-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Lew Wallace novel subtitled \"A Tale of the Christ\"",
+          "answer": "Ben-Hur",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5769-d-c4-r0"
+        },
+        {
+          "question": "Last name of American poets Laura, William Rose & Stephen Vincent",
+          "answer": "Benét",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5769-d-c4-r1"
+        },
+        {
+          "question": "In an essay titled \"The Philosophy of Composition\", Poe tells how he wrote this, his best-known poem",
+          "answer": "\"The Raven\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5769-d-c4-r2"
+        },
+        {
+          "question": "Tho many called his \"The Age of Reason\" the \"Atheist's Bible\", it states, \"I believe in one God\"",
+          "answer": "Thomas Paine",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5769-d-c4-r3"
+        },
+        {
+          "question": "He wrote \"The Day Christ Died\", \"The Day Lincoln was Shot\" & \"The Day Kennedy was Shot\"",
+          "answer": "Jim Bishop",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5769-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS HOMES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Graceland in Memphis, Tennessee",
+          "answer": "Elvis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS HOMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5769-d-c5-r0"
+        },
+        {
+          "question": "Pilaster House in Hannibal, Missouri",
+          "answer": "Mark Twain (Samuel Clemens)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS HOMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5769-d-c5-r1"
+        },
+        {
+          "question": "The Oaks in Tuskegee, Alabama",
+          "answer": "Booker T. Washington",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS HOMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5769-d-c5-r2"
+        },
+        {
+          "question": "Hatchet Hall in Eureka Springs, Arkansas",
+          "answer": "Carry Nation",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS HOMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5769-d-c5-r3"
+        },
+        {
+          "question": "Rowan Oak in Oxford, Mississippi",
+          "answer": "William Faulkner",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS HOMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5769-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It was the first elected legislative body in the New World",
+          "answer": "House of Burgesses",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5769-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

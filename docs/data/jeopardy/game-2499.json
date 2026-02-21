@@ -1,0 +1,724 @@
+{
+  "gameId": 2499,
+  "showNumber": 3497,
+  "airDate": "November 16, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LET'S GET BIBLICAL",
+      "round": "single",
+      "position": 0,
+      "clues": []
+    },
+    {
+      "name": "LAST NAME'S THE SAME",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Kurt,Rosalind,Nipsey",
+          "answer": "Russell",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST NAME'S THE SAME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2499-s-c1-r0"
+        },
+        {
+          "question": "Eddie,Dinah,Pauly",
+          "answer": "Shore",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST NAME'S THE SAME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2499-s-c1-r1"
+        },
+        {
+          "question": "Glen,Naomi,Neve",
+          "answer": "Campbell",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST NAME'S THE SAME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2499-s-c1-r2"
+        },
+        {
+          "question": "Don,Abigail,Ansel",
+          "answer": "Adams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST NAME'S THE SAME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2499-s-c1-r3"
+        },
+        {
+          "question": "Michael,Cindy,Christina",
+          "answer": "Crawford",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST NAME'S THE SAME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2499-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AROUND NEW YORK STATE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Legend says that \"The love of those who honeymoon here will last as long as the falls themselves\"",
+          "answer": "Niagara Falls",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND NEW YORK STATE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2499-s-c2-r0"
+        },
+        {
+          "question": "Just 25 miles N. of Manhattan, this \"Sleepy\" village is the place \"where the Headless Horseman rode\"",
+          "answer": "Sleepy Hollow",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND NEW YORK STATE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2499-s-c2-r1"
+        },
+        {
+          "question": "It's believed that blazes lit to lure ships gave this resort island its name",
+          "answer": "Fire Island",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND NEW YORK STATE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2499-s-c2-r2"
+        },
+        {
+          "question": "The Bisons of baseball's International League play their home games in this city",
+          "answer": "Buffalo",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND NEW YORK STATE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2499-s-c2-r3"
+        },
+        {
+          "question": "Now at Elmira College, this author's study was made to look like a Mississippi riverboat's pilothouse",
+          "answer": "Mark Twain",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AROUND NEW YORK STATE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2499-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHILE YOU'RE ON HOLD",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "On hold with a dating service, you might hear this Sinatra classic",
+          "answer": "\"Strangers In The Night\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHILE YOU'RE ON HOLD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2499-s-c3-r0"
+        },
+        {
+          "question": "A bad gardener's hold music could be this song",
+          "answer": "\"Where Have All The Flowers Gone?\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHILE YOU'RE ON HOLD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2499-s-c3-r1"
+        },
+        {
+          "question": "Worry if your cardiologist's hold music is this song",
+          "answer": "\"Achy Breaky Heart\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHILE YOU'RE ON HOLD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2499-s-c3-r2"
+        },
+        {
+          "question": "Hearing this song while on hold might give you a mysterious itch",
+          "answer": "\"Poison Ivy\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHILE YOU'RE ON HOLD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2499-s-c3-r3"
+        },
+        {
+          "question": "Maybe you'll hear this song if you call after business hours",
+          "answer": "\"It's Too Late\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHILE YOU'RE ON HOLD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2499-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LET'S GO SHOPPING!",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Donald knows this \"Tower\" at 725 Fifth Avenue boasts a six-story shopping atrium",
+          "answer": "Trump Tower",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO SHOPPING!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2499-s-c4-r0"
+        },
+        {
+          "question": "Murder Ink doesn't sell poison for your poison pen; it's this kind of store",
+          "answer": "Bookstore",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO SHOPPING!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2499-s-c4-r1"
+        },
+        {
+          "question": "The initials in the name of this world-famous toy store stand for Frederick August Otto",
+          "answer": "FAO Schwarz",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO SHOPPING!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2499-s-c4-r2"
+        },
+        {
+          "question": "This famous food shop at Broadway & 80th Street is perfect for a file under \"Z\" category",
+          "answer": "Zabar's",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO SHOPPING!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2499-s-c4-r3"
+        },
+        {
+          "question": "This department store takes up an entire city block on 59th Street between Lexington & 3rd",
+          "answer": "Bloomingdale's",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO SHOPPING!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2499-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THAT'S SO CLICHE!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Someone's in a bad way seriously ill if he has \"one foot\" here",
+          "answer": "In the grave",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S SO CLICHE!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2499-s-c5-r0"
+        },
+        {
+          "question": "If you depart in defeat it's \"with your tail\" here",
+          "answer": "Between your legs",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S SO CLICHE!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2499-s-c5-r1"
+        },
+        {
+          "question": "You're consuming more than I can sustain if \"you're eating me out of\" these 2 things",
+          "answer": "House and home",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S SO CLICHE!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2499-s-c5-r2"
+        },
+        {
+          "question": "Like a colt or calf, those who are innocent & naive are said to be \"wet\" here",
+          "answer": "Behind the ears",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S SO CLICHE!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2499-s-c5-r3"
+        },
+        {
+          "question": "If you match the desired of quality, you're \"up to\" this tobacco product",
+          "answer": "Snuff",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THAT'S SO CLICHE!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2499-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY MANHATTAN",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This bard's plays are performed \"In the Park\" near a garden named for him",
+          "answer": "Shakespeare",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MANHATTAN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2499-d-c0-r0"
+        },
+        {
+          "question": "Hope you were invited to the famous Black & White Ball this \"In Cold Blood\" author gave at the Plaza Hotel",
+          "answer": "Truman Capote",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MANHATTAN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2499-d-c0-r1"
+        },
+        {
+          "question": "This suicidal poet once stayed at the Barbizon, which she fictionalized as the Amazon in \"The Bell Jar\"",
+          "answer": "Sylvia Plath",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MANHATTAN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2499-d-c0-r2"
+        },
+        {
+          "question": "This \"Moby Dick\" author wrote \"Billy Budd\" while living at 104 East 26th Street",
+          "answer": "Melville",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MANHATTAN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2499-d-c0-r3"
+        },
+        {
+          "question": "This \"Blithe Spirit\" playwright is among the artistes who resided at the Hotel des Artistes",
+          "answer": "Noël Coward",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY MANHATTAN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2499-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CRIMINAL NICKNAMES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Syndicate leader Charles Luciano",
+          "answer": "\"Lucky\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIMINAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2499-d-c1-r0"
+        },
+        {
+          "question": "1930s bank robber George Kelly",
+          "answer": "\"Machine Gun\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIMINAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2499-d-c1-r1"
+        },
+        {
+          "question": "Public enemy Charles Floyd",
+          "answer": "\"Pretty Boy\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIMINAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2499-d-c1-r2"
+        },
+        {
+          "question": "1920s racketeer Jack Diamond",
+          "answer": "\"Legs\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIMINAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2499-d-c1-r3"
+        },
+        {
+          "question": "Underworld boss Arthur Flegenheimer (aka Schultz)",
+          "answer": "Dutch",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIMINAL NICKNAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2499-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WISH I'D SEEN THAT MUSICAL!",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This multi-talented entertainer wrote the songs for \"Sophie\", a musical bio of Sophie Tucker",
+          "answer": "Steve Allen",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WISH I'D SEEN THAT MUSICAL!",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2499-d-c2-r0"
+        },
+        {
+          "question": "Of Toad, Rat or Mole, the one Nathan Lane played in \"Wind in the Willows\"",
+          "answer": "Toad",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WISH I'D SEEN THAT MUSICAL!",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2499-d-c2-r1"
+        },
+        {
+          "question": "This future first lady made her Broadway debut in 1946's \"Lute Song\" with Mary Martin",
+          "answer": "Nancy Reagan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WISH I'D SEEN THAT MUSICAL!",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2499-d-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "THE 900s A.D.",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's the colorful nickname of the Viking Eric, who established a colony on Greenland in 985",
+          "answer": "\"the Red\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 900s A.D.",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2499-d-c3-r0"
+        },
+        {
+          "question": "During the 900s the Chinese added these \"key\" devices to canals",
+          "answer": "locks",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 900s A.D.",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2499-d-c3-r1"
+        },
+        {
+          "question": "Around 957 English king Edgar made the monk Dunstan bishop of London; in 959 he made him archbishop of this",
+          "answer": "Canterbury",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 900s A.D.",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2499-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A special flower for April, it can be oxeye or shasta",
+          "answer": "Daisy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2499-d-c4-r0"
+        },
+        {
+          "question": "(Hi, I'm Vanna White at Christian Dior in New York City.)  This actress was wearing a Dior gown when she won her first Oscar for \"BUtterfield 8\"",
+          "answer": "Elizabeth Taylor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2499-d-c4-r1"
+        },
+        {
+          "question": "If your computer has this kind of \"base\", you should know it's the plural of \"datum\"",
+          "answer": "data",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2499-d-c4-r2"
+        },
+        {
+          "question": "The original \"Calamity\" in her life may have been her parents' death while settling Salt Lake City",
+          "answer": "Calamity Jane",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2499-d-c4-r3"
+        },
+        {
+          "question": "His Ninth Symphony includes the \"Ode to Joy\"; his opera \"Fidelio\" includes \"O Nameless Joy\"",
+          "answer": "Beethoven",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2499-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"B\" YOURSELF",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1944 Allied soldiers & some of their heavy friends fought \"The Battle of\" this type of protrusion",
+          "answer": "the Bulge",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" YOURSELF",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2499-d-c5-r0"
+        },
+        {
+          "question": "(Yo-Yo Ma gives the clue and performs a cello solo.)  Are you ready?  This \"B\" of classical music wrote the piece I'm about to perform",
+          "answer": "Johann Sebastian Bach",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"B\" YOURSELF",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2499-d-c5-r1"
+        },
+        {
+          "question": "11-letter word for one who supports a family, perhaps with whole wheat or sourdough",
+          "answer": "breadwinner",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" YOURSELF",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2499-d-c5-r2"
+        },
+        {
+          "question": "Georgiana Drew was the maiden name of the mother of John, Ethel & Lionel of this acting family",
+          "answer": "Barrymore",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" YOURSELF",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2499-d-c5-r3"
+        },
+        {
+          "question": "Tick-Licker was the favorite rifle of this 18th century Kentucky frontiersman",
+          "answer": "Daniel Boone",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"B\" YOURSELF",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2499-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "DIRECTORS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Appropriately, the 100th anniversary of this director's birth was on a Friday the 13th -- August 13, 1999",
+          "answer": "Alfred Hitchcock",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "DIRECTORS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2499-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "gameId": 1337,
+  "showNumber": 619,
+  "airDate": "April 23, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "EUROPE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Louis the Stubborn, Louis the Do-Nothing, & Louis from Overseas were all kings of this country",
+          "answer": "France",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1337-s-c0-r0"
+        },
+        {
+          "question": "European capital that contains the Lenin Library, the Lenin Stadium & the Lenin Mausoleum",
+          "answer": "Moscow",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1337-s-c0-r1"
+        },
+        {
+          "question": "Country whose capital was formerly called Koebnannehavn, meaning \"Merchants' Harbor\"",
+          "answer": "Denmark",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1337-s-c0-r2"
+        },
+        {
+          "question": "This low country's oldest university is the State University of Leiden, founded in 1575",
+          "answer": "the Netherlands",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1337-s-c0-r3"
+        },
+        {
+          "question": "Affair with Magda Lupescu kept Carol II from assuming the throne of this country for 3 years",
+          "answer": "Romania",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1337-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This offshoot of soccer is named for a school in England",
+          "answer": "rugby",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1337-s-c1-r0"
+        },
+        {
+          "question": "The overarm \"crawl\" swimming stroke was introduced to England in 1902 from this country",
+          "answer": "Australia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1337-s-c1-r1"
+        },
+        {
+          "question": "Springfield, Massachusetts is site of this sport's Hall of Fame",
+          "answer": "basketball",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1337-s-c1-r2"
+        },
+        {
+          "question": "Marks which distinguish Wilson footballs used in college games from the ones they make for the pros",
+          "answer": "(white) stripes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1337-s-c1-r3"
+        },
+        {
+          "question": "When he KO'd Ingemar Johansson, 6/20/60, he became 1st man to regain heavyweight championship",
+          "answer": "Floyd Patterson",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1337-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FASHION",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Last name of designers Calvin & Anne, II",
+          "answer": "Klein",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1337-s-c2-r0"
+        },
+        {
+          "question": "Playboy okays wearing both suspenders & this, but only if trying out for nerd of the year",
+          "answer": "a belt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1337-s-c2-r1"
+        },
+        {
+          "question": "He helped dress fake troops to fool the Germans in WWII, but didn't put a \"BB\" on the uniforms",
+          "answer": "Bill Blass",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1337-s-c2-r2"
+        },
+        {
+          "question": "Newsweek joked a museum for this apparel invented in 1946 might consist of 2 domes & a pyramid",
+          "answer": "the bikini",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1337-s-c2-r3"
+        },
+        {
+          "question": "They probably got their name from the fact they were 4\" longer than ordinary knickerbockers",
+          "answer": "plus fours",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1337-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOLIDAYS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's the 1st U.S. federal holiday of the year",
+          "answer": "January 1st (New Year's Day)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1337-s-c3-r0"
+        },
+        {
+          "question": "Flower most associated with Memorial Day",
+          "answer": "poppies",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1337-s-c3-r1"
+        },
+        {
+          "question": "In 1987, this holiday will be observed for the 212th time",
+          "answer": "July 4th (Independence Day)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1337-s-c3-r2"
+        },
+        {
+          "question": "Wintertime Jewish holiday that's mentioned in the New Testament but not in the Jewish Bible",
+          "answer": "Hanukkah",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1337-s-c3-r3"
+        },
+        {
+          "question": "Flag Day is a legal holiday only in this state, where Betsy Ross worked as a seamstress",
+          "answer": "Pennsylvania",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLIDAYS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1337-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LYRICS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Who can take a sunrise, sprinkle it with dew, cover it in choc'late & a miracle or two?\"",
+          "answer": "\"The Candy Man\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LYRICS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1337-s-c4-r0"
+        },
+        {
+          "question": "\"He rocks in the tree-top all day long\"",
+          "answer": "\"Rockin' Robin\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LYRICS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1337-s-c4-r1"
+        },
+        {
+          "question": "\"Wider than a mile; I'm crossin' you in style some day\"",
+          "answer": "\"Moon River\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LYRICS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1337-s-c4-r2"
+        },
+        {
+          "question": "\"Doesn't have a point of view, knows not where he's going to, isn't he a bit like you & me?\"",
+          "answer": "\"Nowhere Man\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LYRICS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1337-s-c4-r3"
+        },
+        {
+          "question": "\"'Cause I can't explain the tears that I shed over you, over you\"",
+          "answer": "\"Goin' Out Of My Head\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LYRICS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1337-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE MAIN INGREDIENT",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It tops the other 7 juices in V-8",
+          "answer": "tomato juice",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN INGREDIENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1337-s-c5-r0"
+        },
+        {
+          "question": "This main ingredient in S.O.S. pads helps you scour out scum",
+          "answer": "steel wool",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN INGREDIENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1337-s-c5-r1"
+        },
+        {
+          "question": "It tops the list on the Fritos bag",
+          "answer": "corn",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN INGREDIENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1337-s-c5-r2"
+        },
+        {
+          "question": "In Jell-O, it's sugar, but in sugar-free Jell-O, the main ingredient is this",
+          "answer": "gelatin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN INGREDIENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1337-s-c5-r3"
+        },
+        {
+          "question": "It's the #1 ingredient in A.1. steak sauce & Johnson's baby shampoo, too",
+          "answer": "water",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN INGREDIENT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1337-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN RIVERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Longest American river east of the Mississippi is this tributary of the Mississippi",
+          "answer": "the Ohio",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RIVERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1337-d-c0-r0"
+        },
+        {
+          "question": "State in which you'll find the Chicasawhay, Pascagoula & Yazoo Rivers",
+          "answer": "Mississippi",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RIVERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1337-d-c0-r1"
+        },
+        {
+          "question": "Much of this main tributary of the Hudson, named for an Indian tribe, is part of the Erie Canal",
+          "answer": "the Mohawk River",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RIVERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1337-d-c0-r2"
+        },
+        {
+          "question": "North America's deepest chasm, Hells Canyon, is formed by this twisting river",
+          "answer": "the Snake River",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RIVERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1337-d-c0-r3"
+        },
+        {
+          "question": "Ironically, this West Virginia river is believed to be the oldest in North America",
+          "answer": "the New River",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN RIVERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1337-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CONSTELLATIONS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The word constellation is from Latin meaning these \"together\"",
+          "answer": "stars",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1337-d-c1-r0"
+        },
+        {
+          "question": "Myth says Orion was put on opposite side of sky from this creature which had stung him to death",
+          "answer": "Scorpio",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1337-d-c1-r1"
+        },
+        {
+          "question": "1 of the 5 constellations which are portrayed as all or part horse",
+          "answer": "the Centaur (or Sagittarius, Pegasus, Unicorn, or Little Horse)",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1337-d-c1-r2"
+        },
+        {
+          "question": "In legend, it's the part of Berenice, an Egyptian princess, that became a constellation",
+          "answer": "her hair",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1337-d-c1-r3"
+        },
+        {
+          "question": "When a constellation \"culminates\", it has reached this",
+          "answer": "the highest point in the sky",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CONSTELLATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1337-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BODY HUMAN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "An ECG is used to detect arrhythmias in this organ",
+          "answer": "the heart",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1337-d-c2-r0"
+        },
+        {
+          "question": "The floor of the nasal cavity is also the roof of this",
+          "answer": "the mouth",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1337-d-c2-r1"
+        },
+        {
+          "question": "The most prominent muscle on the anterior aspect of the arm",
+          "answer": "the biceps",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1337-d-c2-r2"
+        },
+        {
+          "question": "Its cone-shaped bony socket is called the \"orbit\"",
+          "answer": "the eye",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1337-d-c2-r3"
+        },
+        {
+          "question": "They are contained in the right & left pleural sacs",
+          "answer": "the lungs",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BODY HUMAN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1337-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEIGHBORHOODS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Back Bay has been described as this New England's city's \"Yuppieville\"",
+          "answer": "Boston",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEIGHBORHOODS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1337-d-c3-r0"
+        },
+        {
+          "question": "You can visit the Martin Luther King, Jr. historic district in this city",
+          "answer": "Atlanta",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEIGHBORHOODS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1337-d-c3-r1"
+        },
+        {
+          "question": "City whose North Beach neighborhood no longer has a beach",
+          "answer": "San Francisco",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NEIGHBORHOODS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1337-d-c3-r2"
+        },
+        {
+          "question": "Neighborhood mentioned in title of this tune, Mike Hammer's TV theme:",
+          "answer": "Harlem",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NEIGHBORHOODS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1337-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "STARTS WITH \"C\"",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Italian for \"small house\", it usually contains one-armed bandits & blackjacks",
+          "answer": "a casino",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"C\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1337-d-c4-r0"
+        },
+        {
+          "question": "Property accepted as security on a loan, it also can mean running side by side",
+          "answer": "collateral",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"C\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1337-d-c4-r1"
+        },
+        {
+          "question": "The burnt, dark-brown liquid obtained by heating sugar",
+          "answer": "caramel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"C\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1337-d-c4-r2"
+        },
+        {
+          "question": "In the 1st line of her radio show theme, Little Orphan Annie was described as 1 of these",
+          "answer": "a chatterbox",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"C\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1337-d-c4-r3"
+        },
+        {
+          "question": "Branches of this evergreen tree are used as a symbol of mourning",
+          "answer": "cypress",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"C\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1337-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTORS & ROLE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Errol Flynn, Doug Fairbanks, & Sean Connery have all been this nemesis of the Sheriff of Nottingham",
+          "answer": "Robin Hood",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ROLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1337-d-c5-r0"
+        },
+        {
+          "question": "Walter Huston, Henry Fonda, Raymond Massey & Hal Holbrook all played this Kentucky-born president",
+          "answer": "Abraham Lincoln",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ROLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1337-d-c5-r1"
+        },
+        {
+          "question": "Doctor portrayed on film by Elliott Gould & on TV by Wayne Rogers & Pernell Roberts",
+          "answer": "Trapper John",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ROLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1337-d-c5-r2"
+        },
+        {
+          "question": "C. Laughton, T. Howard & A. Hopkins were all adrift playing this part",
+          "answer": "Captain Bligh",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS & ROLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1337-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "GAY '90s",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "By 1897, as many as half of Seattle's police & firemen had left the city to go there",
+          "answer": "the Yukon",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "GAY '90s",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1337-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

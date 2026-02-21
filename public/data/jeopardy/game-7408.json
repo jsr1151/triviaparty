@@ -1,0 +1,785 @@
+{
+  "gameId": 7408,
+  "showNumber": 324,
+  "airDate": "December 5, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE PLANETS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's often called Earth's twin",
+          "answer": "Venus",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7408-s-c0-r0"
+        },
+        {
+          "question": "Averaging 30 miles a second on its orbit, it's a very fast planet",
+          "answer": "Mercury",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7408-s-c0-r1"
+        },
+        {
+          "question": "In a 1964 Christmas film, Pia Zadora played Girmar, a kid from this planet",
+          "answer": "Mars",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7408-s-c0-r2"
+        },
+        {
+          "question": "Only for a 20-year period every 248 years is this planet closer to the Sun than Neptune",
+          "answer": "Pluto",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7408-s-c0-r3"
+        },
+        {
+          "question": "Planet traveled to in film whose theme was the following:[Also sprach Zarathustra plays]",
+          "answer": "Jupiter",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7408-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NAMES IN THE NEWS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's who spokesman Larry Speakes speaks for",
+          "answer": "the president",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES IN THE NEWS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7408-s-c1-r0"
+        },
+        {
+          "question": "Chapter on St. Vitus' dance has been dropped from 40th anniv. edition of his \"Baby & Child Care\"",
+          "answer": "Dr. Spock",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES IN THE NEWS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7408-s-c1-r1"
+        },
+        {
+          "question": "His cocaine bust in London put Mike Hammer in the slammer",
+          "answer": "Stacy Keach",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES IN THE NEWS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7408-s-c1-r2"
+        },
+        {
+          "question": "He's managed Minnesota, Detroit, Texas, N.Y., N.Y., Oakland, N.Y. & N.Y. in that order",
+          "answer": "Billy Martin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NAMES IN THE NEWS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7408-s-c1-r3"
+        },
+        {
+          "question": "2 Senators, William Cohen & this former presidential candidate, have teamed to write a spy thriller",
+          "answer": "Gary Hart",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NAMES IN THE NEWS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7408-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"WIND\" WORDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The largest one is in Hawaii, not Holland",
+          "answer": "a windmill",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WIND\" WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7408-s-c2-r0"
+        },
+        {
+          "question": "This knot usually is wider than the 4-in-hand",
+          "answer": "a windsor knot",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WIND\" WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7408-s-c2-r1"
+        },
+        {
+          "question": "The tractor to convey Saturn rockets at Cape Canaveral has largest set of these squeegees",
+          "answer": "windshield wipers",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WIND\" WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7408-s-c2-r2"
+        },
+        {
+          "question": "President Carter proposed that oil companies would have to pay taxes on these",
+          "answer": "windfall profits",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WIND\" WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7408-s-c2-r3"
+        },
+        {
+          "question": "The British call them windcheaters",
+          "answer": "windbreakers",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"WIND\" WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7408-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BOTTOMS UP",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "100 years ago, Madeira wine was used as ballast in these",
+          "answer": "(sailing) ships",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOTTOMS UP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7408-s-c3-r0"
+        },
+        {
+          "question": "When Jumbo the Elephant was crossing the ocean to join P.T. Barnum, he was soothed with this brew",
+          "answer": "beer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOTTOMS UP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7408-s-c3-r1"
+        },
+        {
+          "question": "From German for \"squirt\", this drink is white wine & a squirt of seltzer",
+          "answer": "a spritzer",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOTTOMS UP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7408-s-c3-r2"
+        },
+        {
+          "question": "In France, a big \"brut\" is usually this, not Mark Gastineau",
+          "answer": "a bottle of champagne",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BOTTOMS UP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7408-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "ROCK 'N ROLL",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Follows Righteous, Doobie, & Everly",
+          "answer": "Brothers",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7408-s-c4-r0"
+        },
+        {
+          "question": "Peter & Gordon's hit, \"World Without Love\", was written by this Beatle pair",
+          "answer": "Lennon & McCartney",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7408-s-c4-r1"
+        },
+        {
+          "question": "This Bill Haley classic has sold over 20 million singles",
+          "answer": "\"Rock Around The Clock\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7408-s-c4-r2"
+        },
+        {
+          "question": "Robb Royer, James Griffin, & David Gates made a lot of \"dough\" as this 1970's group",
+          "answer": "Bread",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7408-s-c4-r3"
+        },
+        {
+          "question": "She liked to spend \"Midnight At The Oasis\"",
+          "answer": "Maria Muldaur",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROCK 'N ROLL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7408-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SUDDEN DEATH",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In U.S. prisons, about 2000 volts does it",
+          "answer": "the electric chair",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7408-s-c5-r0"
+        },
+        {
+          "question": "Their \"Book of the Dead\" had hints for passing the tests of Osiris, god of the underworld",
+          "answer": "the Egyptians",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7408-s-c5-r1"
+        },
+        {
+          "question": "Appropriate personification of death that came to take Cyrus McCormick in 1884",
+          "answer": "the (grim) reaper",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7408-s-c5-r2"
+        },
+        {
+          "question": "Well-named newspaper office where reporters would find file information for an obituary",
+          "answer": "the morgue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7408-s-c5-r3"
+        },
+        {
+          "question": "The death of this pair was just the beginning of their life with Topper",
+          "answer": "George & Marion Kirby",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SUDDEN DEATH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7408-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "OREGON",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Oregon product named for Tillamook Indians",
+          "answer": "tea",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OREGON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7408-d-c0-r0"
+        },
+        {
+          "question": "By winning a coin toss in 1845, F. Pettygrove got this city named after his hometown in Maine",
+          "answer": "Portland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OREGON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7408-d-c0-r1"
+        },
+        {
+          "question": "Paul Bunyan supposedly created it by shoveling blue snow into an old volcano",
+          "answer": "Crater Lake",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OREGON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7408-d-c0-r2"
+        },
+        {
+          "question": "Highest mountain in Oregon, it's named for a British admiral, not a gangster",
+          "answer": "Mount Hood",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OREGON",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7408-d-c0-r3"
+        },
+        {
+          "question": "Said to be the richest man of his day, in 1811 he founded 1st permanent settlement in Oregon",
+          "answer": "(John Jacob) Astor",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OREGON",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7408-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE '70s",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Full name of Patty Hearst's kidnappers, the S.L.A.",
+          "answer": "the Symbionese Liberation Army",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7408-d-c1-r0"
+        },
+        {
+          "question": "The Tasadays, a tribe unchanged since this age of man, were discovered living in the Philippines",
+          "answer": "the stone age",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7408-d-c1-r1"
+        },
+        {
+          "question": "Completed in 1977, it runs from Prudhoe Bay to Valdez",
+          "answer": "the Alaska Pipeline",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7408-d-c1-r2"
+        },
+        {
+          "question": "When the Cleveland Indians named him chief in 1974, he became 1st Black Major League manager",
+          "answer": "(Frank) Robinson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7408-d-c1-r3"
+        },
+        {
+          "question": "In 1975 Agatha Christie killed off the hero in this final, appropriately titled, Hercule Poirot novel",
+          "answer": "Curtain",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE '70s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7408-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE QUOTES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In this film, Anthony Perkins asserts, \"A boy's best friend is his mother\"",
+          "answer": "Psycho",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7408-d-c2-r0"
+        },
+        {
+          "question": "Streisand's \"Funny Girl\" who said she was \"a bagel on a plate of onion rolls\"",
+          "answer": "Fanny Brice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7408-d-c2-r1"
+        },
+        {
+          "question": "\"Midnight Cowboy\" who \"ain't a real cowboy, but I am one helluva stud\"",
+          "answer": "Jon Voight (Joe Buck)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7408-d-c2-r2"
+        },
+        {
+          "question": "Carries the Bette Davis warning: \"Fasten your seat belts; it's going to be a bumpy night\"",
+          "answer": "All About Eve",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7408-d-c2-r3"
+        },
+        {
+          "question": "In \"How to Marry a Millionaire\" she said,\"That old guy in 'The African Queen', I'm crazy about him\"",
+          "answer": "Lauren Bacall",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7408-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GOVERNMENT",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Pair of national offices indirectly elected by voters",
+          "answer": "president & vice president",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7408-d-c3-r0"
+        },
+        {
+          "question": "Until 1862, the Department of Agriculture was part of this \"inventive\" government office",
+          "answer": "the Patent Office",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7408-d-c3-r1"
+        },
+        {
+          "question": "The F.B.I. is under the jurisdiction of this department",
+          "answer": "Department of Justice",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7408-d-c3-r2"
+        },
+        {
+          "question": "Executive dept. in charge of the Bureau of the Census & U.S. Travel and Tourism Administration",
+          "answer": "the Department of Commerce",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7408-d-c3-r3"
+        },
+        {
+          "question": "Number of articles in the body of the Constitution",
+          "answer": "7",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GOVERNMENT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7408-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANATOMY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Equaling 1/10 of body weight, this fluid is 78% water & 22% solid",
+          "answer": "the blood",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7408-d-c4-r0"
+        },
+        {
+          "question": "The 4 types of it are bristle, long scalp, downy, & sexual",
+          "answer": "hair",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7408-d-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "TRIVIA",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Plural of \"mongoose\"",
+          "answer": "mongooses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7408-d-c5-r0"
+        },
+        {
+          "question": "It's done in all states except Arizona & Hawaii on the last Sunday in April",
+          "answer": "daylights savings time (move the clocks forward)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7408-d-c5-r1"
+        },
+        {
+          "question": "As of June 1985 Mike Wittkowski, an Illinois printer, held this record at $40 million",
+          "answer": "a lottery winner (the largest amount won by a man in a lottery)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7408-d-c5-r2"
+        },
+        {
+          "question": "Comedian Jack Benny's response when a robber demanded \"Your money or your life\"",
+          "answer": "Well, what is I'm thinking about it",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7408-d-c5-r3"
+        },
+        {
+          "question": "Priscilla, who saved an 11-year-old Texas boy from drowning & got an award for valor, is this",
+          "answer": "a 22-pound piglet",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7408-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MONEY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Smallest U.S. denomination, it appears on no coins, just trading stamps, & tax notices",
+          "answer": "1 mill (1/10 of a cent)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "MONEY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7408-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

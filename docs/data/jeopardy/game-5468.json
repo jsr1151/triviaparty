@@ -1,0 +1,797 @@
+{
+  "gameId": 5468,
+  "showNumber": 7412,
+  "airDate": "November 29, 2016",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WINNING!",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 1977 World Series-- thanks, Reggie!",
+          "answer": "the Yankees",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINNING!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5468-s-c0-r0"
+        },
+        {
+          "question": "The World Chess Championship, 1972-- do svidaniya, Boris!",
+          "answer": "(Bobby) Fischer",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINNING!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5468-s-c0-r1"
+        },
+        {
+          "question": "The Wimbledon women's singles title, every year from 1982 to 1987-- take that, Chrissie!",
+          "answer": "Navratilova",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINNING!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5468-s-c0-r2"
+        },
+        {
+          "question": "(I'm NASCAR driver Jimmie Johnson.) In 2004 & 2012 I won the Darlington 500 in this Southern state",
+          "answer": "South Carolina",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WINNING!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5468-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "KIDS' BOOKS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Huckleberry Finn first shows up in this novel",
+          "answer": "Tom Sawyer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KIDS' BOOKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5468-s-c1-r0"
+        },
+        {
+          "question": "Book 4 of \"Percy Jackson & the Olympians\" is \"The Battle of\" this mythological maze",
+          "answer": "the labyrinth",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KIDS' BOOKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5468-s-c1-r1"
+        },
+        {
+          "question": "In the original story by Felix Salten, this character is born in a thicket & has cousins named Gobo & Faline",
+          "answer": "Bambi",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KIDS' BOOKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5468-s-c1-r2"
+        },
+        {
+          "question": "This 1982 Roald Dahl work about a large fellow became a 2016 film",
+          "answer": "BFG",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KIDS' BOOKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5468-s-c1-r3"
+        },
+        {
+          "question": "The title page of the first edition of this 1877 novel claims it was \"translated from the original equine\"",
+          "answer": "Black Beauty",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KIDS' BOOKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5468-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RHYME TIME",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Perhaps this egg-shaped nursery rhyme character shouldn't have been sitting where he sat",
+          "answer": "Humpty Dumpty",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5468-s-c2-r0"
+        },
+        {
+          "question": "It's essentially a Wi-Fi access point that provides network or internet access to mobile devices like laptops",
+          "answer": "hot spot",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5468-s-c2-r1"
+        },
+        {
+          "question": "\"Even at this ____ ____\" means past the time when something should have happened",
+          "answer": "late date",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5468-s-c2-r2"
+        },
+        {
+          "question": "Danny Elfman, formerly of this rock band, sang the part of Jack the Pumpkin King in \"The Nightmare Before Christmas\"",
+          "answer": "Oingo Boingo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RHYME TIME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5468-s-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "OCTOPI-POURRI",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Dr. Octopus is an adversary of this \"friendly neighborhood\" Marvel superhero",
+          "answer": "Spiderman",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OCTOPI-POURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5468-s-c3-r0"
+        },
+        {
+          "question": "In this Verne novel Conseil says he remembers seeing \"A large vessel drawn under the waves by an octopus's arm\"",
+          "answer": "20,000 Leagues Under the Sea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OCTOPI-POURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5468-s-c3-r1"
+        },
+        {
+          "question": "Ed O'Neill voices Hank the octopus (technically a septopus, since he lost an arm) in this 2016 film",
+          "answer": "Finding Dory",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OCTOPI-POURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5468-s-c3-r2"
+        },
+        {
+          "question": "A typical one of these Spanish appetizers is octopus in paprika sauce",
+          "answer": "tapas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OCTOPI-POURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5468-s-c3-r3"
+        },
+        {
+          "question": "Octopi are members of this class whose name is from the Greek for \"head\" & \"foot\"",
+          "answer": "cephalopods",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OCTOPI-POURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5468-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CORNERSTONES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A time capsule originally placed in a cornerstone by Samuel Adams & this silversmith was uncovered in Boston in 2014",
+          "answer": "Paul Revere",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5468-s-c4-r0"
+        },
+        {
+          "question": "Pope Julius II laid the cornerstone of this basilica on April 18, 1506",
+          "answer": "St. Peter's",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5468-s-c4-r1"
+        },
+        {
+          "question": "In 1841 he placed the original manuscript for his Book of Mormon in the cornerstone of the Nauvoo House in Illinois",
+          "answer": "Joseph Smith",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5468-s-c4-r2"
+        },
+        {
+          "question": "On a return visit to the U.S. in the 1820s, he visited all 24 states & laid the cornerstone for the Bunker Hill monument",
+          "answer": "(Marquis de) Lafayette",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5468-s-c4-r3"
+        },
+        {
+          "question": "In 1770 statesman & merchant John Brown laid the cornerstone for this state's oldest university",
+          "answer": "Rhode Island",
+          "value": 4400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CORNERSTONES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5468-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TAKE THE \"A\" TRAINING",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "NYU's Stern School of Business offers a Ph.D. in this financial record-keeping specialty",
+          "answer": "accounting",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE \"A\" TRAINING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5468-s-c5-r0"
+        },
+        {
+          "question": "A degree in broadcasting will help prepare you for a career as one of these, like Al Michaels",
+          "answer": "an announcer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE \"A\" TRAINING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5468-s-c5-r1"
+        },
+        {
+          "question": "In L.A. you can study the Meisner technique at the Elizabeth Mestnik Studio of this",
+          "answer": "acting",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE \"A\" TRAINING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5468-s-c5-r2"
+        },
+        {
+          "question": "Take classes like \"Ornament Theory and Design\" & \"Building Technology\" at Yale's School of this",
+          "answer": "architecture",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE \"A\" TRAINING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5468-s-c5-r3"
+        },
+        {
+          "question": "Study dispute resolution to become one of these & decide if Ryan Howard gets $7 million or $10 million",
+          "answer": "an arbitrator",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAKE THE \"A\" TRAINING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5468-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LEANING CONSERVATIVE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1904 this future British P.M. left the Conservatives & joined the Liberals; in 1924 he switched back",
+          "answer": "Churchill",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEANING CONSERVATIVE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5468-d-c0-r0"
+        },
+        {
+          "question": "In 1964 he galvanized young conservatives with his convention acceptance speech\"Extremism in the defense of liberty is no vice.\"",
+          "answer": "Goldwater",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEANING CONSERVATIVE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5468-d-c0-r1"
+        },
+        {
+          "question": "A 2015 biography of this former pro quarterback & GOP running mate called him a \"bleeding-heart conservative\"",
+          "answer": "Kemp",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEANING CONSERVATIVE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5468-d-c0-r2"
+        },
+        {
+          "question": "(I'm political commentator S.E. Cupp.) Though I'm politically conservative, I support same-sex marriage as part of a group of Republicans dating from 1977 & named for this structure",
+          "answer": "the Log Cabin Republicans",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LEANING CONSERVATIVE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5468-d-c0-r3"
+        },
+        {
+          "question": "It's clear that he's the founder & editor the conservative magazine The Weekly Standard",
+          "answer": "(Bill) Kristol",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEANING CONSERVATIVE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5468-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "OSCAR-WINNING SHORTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Seal Island\" & \"Bear Country\" were 2 Oscar winners from this studio's true-life adventure series",
+          "answer": "Disney",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SHORTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5468-d-c1-r0"
+        },
+        {
+          "question": "2011 winner \"Saving Face\" is about women disfigured by attacks in this country & the doctor who helps them",
+          "answer": "Pakistan",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SHORTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5468-d-c1-r1"
+        },
+        {
+          "question": "Actor & art collector Vincent Price narrated the 1963 Oscar-winning short about this Vitebsk-born Jewish painter",
+          "answer": "Marc Chagall",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SHORTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5468-d-c1-r2"
+        },
+        {
+          "question": "This director of \"Fort Apache\" was wounded while filming the 1942 Oscar-winning short \"The Battle of Midway\"",
+          "answer": "John Ford",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR-WINNING SHORTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5468-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "1960s COMPUTING",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "(Sarah of the Clue Crew gives the clue from the Computer History Museum in Mountain View, California.) Developed by MIT, the guidance computer for this NASA program that got the first men to the moon and back again had only 72 kilobytes of memory",
+          "answer": "the Apollo program",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960s COMPUTING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5468-d-c2-r0"
+        },
+        {
+          "question": "E.A. Johnson came up with this tactile idea in a 1965 article subtitled \"A Novel Input/Output Device\"",
+          "answer": "a touchscreen",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960s COMPUTING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5468-d-c2-r1"
+        },
+        {
+          "question": "Programming was \"women's work\"; in a 1967 issue of this mag for worldly women, Grace Hopper said it's like making dinner",
+          "answer": "Cosmopolitan",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960s COMPUTING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5468-d-c2-r2"
+        },
+        {
+          "question": "On Dec. 9, 1968 in San Francisco, \"the mother of all demos\" introduced the mouse, GUI & this linking, the H in HTTP",
+          "answer": "hypertext",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960s COMPUTING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5468-d-c2-r3"
+        },
+        {
+          "question": "Bob Bemer was \"Father of\" the 5-letter standard by which computers read keystrokes & he later had it as his license plate",
+          "answer": "ASCII",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1960s COMPUTING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5468-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM \"T\" TO SHINING \"T\"",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Chubby Checker reached the Top 40 5 times with songs about this dance",
+          "answer": "the twist",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"T\" TO SHINING \"T\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5468-d-c3-r0"
+        },
+        {
+          "question": "This term for one who traitorously switches allegiance dates form the mid-16th century",
+          "answer": "a turncoat",
+          "value": 5200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"T\" TO SHINING \"T\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5468-d-c3-r1"
+        },
+        {
+          "question": "It's an arranged meeting between lovers",
+          "answer": "a tryst",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"T\" TO SHINING \"T\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5468-d-c3-r2"
+        },
+        {
+          "question": "This metal stand with short feet is used to support a hot dish on a table",
+          "answer": "a trivet",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"T\" TO SHINING \"T\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5468-d-c3-r3"
+        },
+        {
+          "question": "From the Latin for \"to hold\", it's a belief or doctrine held as being true by a person or organization",
+          "answer": "a tenet",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM \"T\" TO SHINING \"T\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5468-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "HELL",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In Norse mythology, Hel, daughter of this troublesome god, ruled Niflheim, where sinners were tormented",
+          "answer": "Loki",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5468-d-c4-r0"
+        },
+        {
+          "question": "Delacroix depicted this Roman poet guiding Dante across the River Styx",
+          "answer": "Virgil",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5468-d-c4-r1"
+        },
+        {
+          "question": "Milton used this word for the capital of hell; now it means wild confusion",
+          "answer": "pandemonium",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5468-d-c4-r2"
+        },
+        {
+          "question": "You don't want to open this 4-word Rodin work seen here",
+          "answer": "The Gates of Hell",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5468-d-c4-r3"
+        },
+        {
+          "question": "In Greek mythology the gods consigned their enemies to this lowest region of Hades",
+          "answer": "Tartarus",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HELL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5468-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DAM NATION",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Ataturk Dam",
+          "answer": "Turkey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DAM NATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5468-d-c5-r0"
+        },
+        {
+          "question": "Aswan High Dam",
+          "answer": "Egypt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DAM NATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5468-d-c5-r1"
+        },
+        {
+          "question": "Farahnaz Pahlavi Dam",
+          "answer": "Iran",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DAM NATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5468-d-c5-r2"
+        },
+        {
+          "question": "Three Gorges Dam",
+          "answer": "China",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DAM NATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5468-d-c5-r3"
+        },
+        {
+          "question": "Gatun Dam",
+          "answer": "Panama",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DAM NATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5468-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 2009 Amazon remotely deleted unauthorized copies of this 1949 novel from some customers' Kindles",
+          "answer": "1984",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "LITERATURE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5468-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

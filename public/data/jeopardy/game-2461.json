@@ -1,0 +1,833 @@
+{
+  "gameId": 2461,
+  "showNumber": 3342,
+  "airDate": "March 2, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATE CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Over 10 interstate & U.S. highways funnel into this Indiana capital; thus its nickname, the \"Crossroads of America\"",
+          "answer": "Indianapolis",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2461-s-c0-r0"
+        },
+        {
+          "question": "Although Delaware's capital since 1777, it wasn't incorporated as a city until 1929",
+          "answer": "Dover",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2461-s-c0-r1"
+        },
+        {
+          "question": "Now a museum, the old Governor's Mansion in this capital was constructed by Huey P. Long in 1930",
+          "answer": "Baton Rouge",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2461-s-c0-r2"
+        },
+        {
+          "question": "In the 1860s, it became the last of 4 capitals to be named for a U.S. president",
+          "answer": "Lincoln",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2461-s-c0-r3"
+        },
+        {
+          "question": "Its newspapers include the Globe, the Herald & the Christian Science Monitor",
+          "answer": "Boston",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2461-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SING IT, SISTER",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This French-Canadian had only spoken English for about a year when she cut her 1990 English debut album \"Unison\"",
+          "answer": "Celine Dion",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SING IT, SISTER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2461-s-c1-r0"
+        },
+        {
+          "question": "Whitney Houston & this pop diva joined voices on \"When You Believe\", a duet from \"The Prince of Egypt\"",
+          "answer": "Mariah Carey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SING IT, SISTER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2461-s-c1-r1"
+        },
+        {
+          "question": "In 1998 she showed her \"Spirit\" singing \"My hands are small, I know, but they're not yours they are my own\"",
+          "answer": "Jewel",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SING IT, SISTER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2461-s-c1-r2"
+        },
+        {
+          "question": "Her hits include \"Miss You Much\", \"Escapade\" & \"The Pleasure Principle\"",
+          "answer": "Janet Jackson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SING IT, SISTER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2461-s-c1-r3"
+        },
+        {
+          "question": "She took the name of her band \"Nine Stories\" from a J.D. Salinger work",
+          "answer": "Lisa Loeb",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SING IT, SISTER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2461-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRENCH MENU",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Escargots",
+          "answer": "Snails",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH MENU",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2461-s-c2-r0"
+        },
+        {
+          "question": "Eau minerale",
+          "answer": "Mineral water",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH MENU",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2461-s-c2-r1"
+        },
+        {
+          "question": "Bifteck",
+          "answer": "Steak",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH MENU",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2461-s-c2-r2"
+        },
+        {
+          "question": "Soupe de poisson",
+          "answer": "Fish soup",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH MENU",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2461-s-c2-r3"
+        },
+        {
+          "question": "Riz",
+          "answer": "Rice",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRENCH MENU",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2461-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOU DO THE MATH",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Number of sides on a rhombus divided by the number of original TV Teenage Mutant Ninja Turtles",
+          "answer": "1 (4/4)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU DO THE MATH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2461-s-c3-r0"
+        },
+        {
+          "question": "The number of U.S. states times the number of U.S. senators",
+          "answer": "5,000 (50 X 100)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU DO THE MATH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2461-s-c3-r1"
+        },
+        {
+          "question": "Number of playing cards in a standard deck without jokers divided by the number of suits",
+          "answer": "13 (52/4)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU DO THE MATH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2461-s-c3-r2"
+        },
+        {
+          "question": "The sum of all the whole numbers from 1 through 5",
+          "answer": "15",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU DO THE MATH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2461-s-c3-r3"
+        },
+        {
+          "question": "In MLB, the number of bases (including home plate) times the number of innings in a standard game",
+          "answer": "36 (4 X 9)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOU DO THE MATH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2461-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "6-LETTER WORDS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A record from years ago that's still worth listening to is an oldie but this",
+          "answer": "Goodie",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2461-s-c4-r0"
+        },
+        {
+          "question": "A nervous laugh: 3 of its 6 letters are \"G\"s",
+          "answer": "Giggle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2461-s-c4-r1"
+        },
+        {
+          "question": "Wooden box where a vampire \"saws logs\"",
+          "answer": "Coffin",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2461-s-c4-r2"
+        },
+        {
+          "question": "From the Latin for \"lake\", it's a shallow body of water near the sea; Brooke Shields lived by a blue one",
+          "answer": "Lagoon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2461-s-c4-r3"
+        },
+        {
+          "question": "You'll find caramel & this sweet filling inside a Milky Way candy bar",
+          "answer": "Nougat",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2461-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SABRINA'S WITCH HANDBOOK",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Hi, I'm Melissa Joan Hart)  The traditional number of witches in this group is 13; a leader & 12 followers",
+          "answer": "Coven",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SABRINA'S WITCH HANDBOOK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2461-s-c5-r0"
+        },
+        {
+          "question": "(Hi, I'm Caroline Rhea)  Like many modern witches, the Spellmans use an upright vacuum cleaner to do this, as well as to clean (not that we ever clean!)",
+          "answer": "Fly",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SABRINA'S WITCH HANDBOOK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2461-s-c5-r1"
+        },
+        {
+          "question": "(Hi, I'm Nate Richert)  On Halloween these lighted objects are intended to frighten away evil spirits",
+          "answer": "Jack-o'-lanterns",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SABRINA'S WITCH HANDBOOK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2461-s-c5-r2"
+        },
+        {
+          "question": "(Salem here!)  Well-known term for a low-ranking demon who aids a witch & assumes an original form, like a cat (Ohhh...I know this one!)",
+          "answer": "Familiar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SABRINA'S WITCH HANDBOOK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2461-s-c5-r3"
+        },
+        {
+          "question": "(Hi, I'm Beth Broderick)  You leave your body as a spirit replica in this form of travel, and go anywhere",
+          "answer": "Astroprojection",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SABRINA'S WITCH HANDBOOK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2461-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"WORLD\" DOMINATION",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The 1999 version of this encyclopedia on CD-ROM includes the San Diego Zoo's Cyber Safari",
+          "answer": "World Book Encyclopedia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" DOMINATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2461-d-c0-r0"
+        },
+        {
+          "question": "Internet surfers know www stands for this",
+          "answer": "World Wide Web",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" DOMINATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2461-d-c0-r1"
+        },
+        {
+          "question": "Based in Washington, it commonly makes $100 million loans, but won't give you a second mortgage",
+          "answer": "World Bank",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" DOMINATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2461-d-c0-r2"
+        },
+        {
+          "question": "Louis Armstrong sang, \"I see trees of green, red roses too...and I think to myself\" this",
+          "answer": "\"What a Wonderful World\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" DOMINATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2461-d-c0-r3"
+        },
+        {
+          "question": "The 2 current daytime TV network soaps that fit the category",
+          "answer": "Another World & As the World Turns",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"WORLD\" DOMINATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2461-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "RIVERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's still working at deepening the Grand Canyon",
+          "answer": "Colorado River",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2461-d-c1-r0"
+        },
+        {
+          "question": "This river featured on the state flag of Nebraska bears the name of another state",
+          "answer": "Missouri",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2461-d-c1-r1"
+        },
+        {
+          "question": "Called the mother of Canada, it includes Lake St. Louis & Lac St.-Pierre",
+          "answer": "St. Lawrence",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2461-d-c1-r2"
+        },
+        {
+          "question": "It falls in altitude over 16,000 feet over its first 600 miles & only another 800 feet over the last 3,600 miles",
+          "answer": "Amazon",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2461-d-c1-r3"
+        },
+        {
+          "question": "2 of the 3 rivers that surround the island of Manhattan",
+          "answer": "East, Harlem, Hudson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RIVERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2461-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE REMAKES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Ads for the 1998 remake of this 1960 film said, \"Check in.  Relax.  Take a shower.\"",
+          "answer": "Psycho",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REMAKES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2461-d-c2-r0"
+        },
+        {
+          "question": "One reviewer was \"bored to death\" by this 1998 Brad Pitt epic, a remake of 1934's \"Death Takes a Holiday\"",
+          "answer": "Meet Joe Black",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REMAKES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2461-d-c2-r1"
+        },
+        {
+          "question": "1940's \"The Shop Around the Corner\" was the basis for this 1998 Meg Ryan-Tom Hanks romantic comedy",
+          "answer": "You've Got Mail",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REMAKES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2461-d-c2-r2"
+        },
+        {
+          "question": "Lindsay Lohan pulled double duty as twins in the 1998 remake of this 1961 Hayley Mills comedy",
+          "answer": "The Parent Trap",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REMAKES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2461-d-c2-r3"
+        },
+        {
+          "question": "Terry Moore, who starred in this 1949 gorilla film, has a cameo in the 1998 version",
+          "answer": "Mighty Joe Young",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE REMAKES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2461-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL GEOGRAPHIC",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Bechti, a 1-year-old member of this ape species, poses here with her mommy",
+          "answer": "Orangutan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL GEOGRAPHIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2461-d-c3-r0"
+        },
+        {
+          "question": "Type of \"derby\" in progress here",
+          "answer": "Demolition derby",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL GEOGRAPHIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2461-d-c3-r1"
+        },
+        {
+          "question": "It's the fish seen here in silhouette swimming with the humans",
+          "answer": "Manta ray",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL GEOGRAPHIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2461-d-c3-r2"
+        },
+        {
+          "question": "Take a close look, but don't let this insect \"bite\"",
+          "answer": "Bedbug",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL GEOGRAPHIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2461-d-c3-r3"
+        },
+        {
+          "question": "The dry valleys offer some unusual views of this continent",
+          "answer": "Antarctica",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONAL GEOGRAPHIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2461-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN THE BEGINNING",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"You don't know about me, without you have read a book by the name of 'The Adventures of Tom Sawyer'\"",
+          "answer": "\"Huckleberry Finn\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE BEGINNING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2461-d-c4-r0"
+        },
+        {
+          "question": "\"In a certain village in La Mancha, which I do not wish to name, there lived not long ago a gentleman\"",
+          "answer": "\"Don Quixote\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE BEGINNING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2461-d-c4-r1"
+        },
+        {
+          "question": "'When Mrs...Little's second son arrived, everybody noticed that he was not much bigger than a mouse\"",
+          "answer": "\"Stuart Little\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE BEGINNING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2461-d-c4-r2"
+        },
+        {
+          "question": "\"As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed... into a gigantic insect\"",
+          "answer": "\"Metamorphosis\" (by Franz Kafka)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE BEGINNING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2461-d-c4-r3"
+        },
+        {
+          "question": "\"Once upon a time there was a Martian named Valentine Michael Smith\"",
+          "answer": "\"Stranger in a Strange Land\" (by Robert Heinlein)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE BEGINNING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2461-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE DAY THEY DIED",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A French queen:October 16, 1793",
+          "answer": "Marie Antoinette",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DAY THEY DIED",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2461-d-c5-r0"
+        },
+        {
+          "question": "A U.S. president:April 22, 1994",
+          "answer": "Richard M. Nixon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DAY THEY DIED",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2461-d-c5-r1"
+        },
+        {
+          "question": "A peasant girl:May 30, 1431",
+          "answer": "Joan of Arc",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE DAY THEY DIED",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2461-d-c5-r2"
+        },
+        {
+          "question": "A movie \"rebel\":September 30, 1955",
+          "answer": "James Dean",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DAY THEY DIED",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2461-d-c5-r3"
+        },
+        {
+          "question": "A Russian royal family:July 16, 1918",
+          "answer": "the Romanovs",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE DAY THEY DIED",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2461-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CORPORATE AMERICA",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Vermont food company's 1995 CEO search was an essay contest with the topic \"Yo!  I Want to be Your CEO\"",
+          "answer": "Ben & Jerry's",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "CORPORATE AMERICA",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2461-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

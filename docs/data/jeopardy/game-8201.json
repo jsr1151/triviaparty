@@ -1,0 +1,821 @@
+{
+  "gameId": 8201,
+  "showNumber": 2200,
+  "airDate": "March 11, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ANIMALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The part of the shell that covers this reptile's back is the carapace; the plastron covers the belly",
+          "answer": "a turtle",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8201-s-c0-r0"
+        },
+        {
+          "question": "Types of this animal include skinks, geckos & the six-lined racerunner",
+          "answer": "lizards",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8201-s-c0-r1"
+        },
+        {
+          "question": "This largest seal may grow to a length of 20 feet & weigh up to 8,000 pounds",
+          "answer": "the elephant seal",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8201-s-c0-r2"
+        },
+        {
+          "question": "Related to the hamster, the Mongolian species of this rodent is a popular pet",
+          "answer": "a gerbil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8201-s-c0-r3"
+        },
+        {
+          "question": "This smallest of the apes inhabits the forests of Southeast Asia",
+          "answer": "a gibbon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8201-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEMORIALS & MONUMENTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1938 FDR dedicated the Eternal Light Memorial on this Pennsylvania battlefield",
+          "answer": "Gettysburg",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEMORIALS & MONUMENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8201-s-c1-r0"
+        },
+        {
+          "question": "In Atchison, Kansas one of the original depots from this early railroad now stands as a monument to it",
+          "answer": "the Atchison, Topeka & Santa Fe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEMORIALS & MONUMENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8201-s-c1-r1"
+        },
+        {
+          "question": "A bronze statue in New Rumley, Ohio marks the birthplace of this \"Boy General\"",
+          "answer": "George Armstrong Custer",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MEMORIALS & MONUMENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8201-s-c1-r2"
+        },
+        {
+          "question": "A monument in Richmond, Va. honors this native son who danced with Shirley Temple in several films",
+          "answer": "Bill \"Bojangles\" Robinson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEMORIALS & MONUMENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8201-s-c1-r3"
+        },
+        {
+          "question": "The 4 states whose seals appear on the Four Corners Monument in the western U.S.",
+          "answer": "New Mexico, Arizona, Colorado & Utah",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEMORIALS & MONUMENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8201-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CRIME & PUNISHMENT",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Mohammed Salameh was arrested when he asked for his $400 deposit on the van used in this 2/93 bombing",
+          "answer": "the World Trade Center bombing",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8201-s-c2-r0"
+        },
+        {
+          "question": "Someone dishonest may pull a con on you, con being short for this",
+          "answer": "confidence (game)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8201-s-c2-r1"
+        },
+        {
+          "question": "A 7-member armed task force is currently going after ex-convicts in Kansas who violate this",
+          "answer": "parole",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8201-s-c2-r2"
+        },
+        {
+          "question": "Oops! One of these was found in 1920 on the farm of Senator Morris Sheppard, who wrote the 18th Amendment",
+          "answer": "a still",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8201-s-c2-r3"
+        },
+        {
+          "question": "These include loan sharking, gambling, narcotics, tennis; the last isn't illegal, just a clue",
+          "answer": "rackets",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRIME & PUNISHMENT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8201-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CARIBBEAN",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Barbados is renowned for making a dark type of this liquor",
+          "answer": "rum",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CARIBBEAN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8201-s-c3-r0"
+        },
+        {
+          "question": "It's the basic unit of currency on Martinique",
+          "answer": "the franc",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CARIBBEAN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8201-s-c3-r1"
+        },
+        {
+          "question": "Doctor's Cave is the most famous beach in this Jamaican area nicknamed Mo' Bay",
+          "answer": "Montego",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CARIBBEAN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8201-s-c3-r2"
+        },
+        {
+          "question": "Many exotic birds live on this, Trinidad's sister island",
+          "answer": "Tobago",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CARIBBEAN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8201-s-c3-r3"
+        },
+        {
+          "question": "This person appoints the governor of the Turks & Caicos Islands",
+          "answer": "her majesty the Queen of England (Elizabeth II)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CARIBBEAN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8201-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SEWING",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This Scottish skirt traditionally closes at the waist with a buckle",
+          "answer": "a kilt",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8201-s-c4-r0"
+        },
+        {
+          "question": "Gimp is an upholstery trim or a heavy type of this sewing supply used for strength",
+          "answer": "thread",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8201-s-c4-r1"
+        },
+        {
+          "question": "For Miss Figure types, this measurement is taken 7-9 inches below the waist",
+          "answer": "the hips",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8201-s-c4-r2"
+        },
+        {
+          "question": "\"Anatomical\" term for the sewing machine part that holds fabric in place while sewing",
+          "answer": "the foot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8201-s-c4-r3"
+        },
+        {
+          "question": "Colors that run together in the washing of a fabric are said to do this",
+          "answer": "bleed",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SEWING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8201-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "3-LETTER WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "At a restaurant 15% of the bill is standard for this",
+          "answer": "a tip",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8201-s-c5-r0"
+        },
+        {
+          "question": "In \"Great Expectations\", it's Philip Pirrip's nickname",
+          "answer": "Pip",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8201-s-c5-r1"
+        },
+        {
+          "question": "A synonym for sass, or the open spout on a pitcher",
+          "answer": "lip",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8201-s-c5-r2"
+        },
+        {
+          "question": "A small pinch, or tuck's partner",
+          "answer": "nip",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8201-s-c5-r3"
+        },
+        {
+          "question": "It's the basic monetary unit of Laos, or British for a bed",
+          "answer": "kip",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "3-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8201-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE FRENCH REVOLUTION",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "After taking arms from the Invalides on July 14, 1789, the mob stormed this prison",
+          "answer": "the Bastille",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH REVOLUTION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8201-d-c0-r0"
+        },
+        {
+          "question": "On Oct. 5, 1789 the National Guard, led by Lafayette, & thousands of women headed to this palace",
+          "answer": "Versailles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH REVOLUTION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8201-d-c0-r1"
+        },
+        {
+          "question": "In August 1789 the new National Assembly gave this king the title \"Restorer of French Liberty\"",
+          "answer": "Louis XVI",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH REVOLUTION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8201-d-c0-r2"
+        },
+        {
+          "question": "Robespierre found his goose, not his lobster, was cooked on the 10th of this new month",
+          "answer": "Thermidor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH REVOLUTION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8201-d-c0-r3"
+        },
+        {
+          "question": "In 1790 Paris was divided into 48 sections & the country was divided into 83 of these",
+          "answer": "departments",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH REVOLUTION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8201-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGES & UNIVERSITIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "City in which you'd find Rockefeller, Fordham & St. John's universities",
+          "answer": "New York City",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8201-d-c1-r0"
+        },
+        {
+          "question": "In 1820 this military academy was the only U.S. school with an engineering program",
+          "answer": "West Point",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8201-d-c1-r1"
+        },
+        {
+          "question": "This Atlanta Technical Institute's school of textile engineering helped design NASA's space suits",
+          "answer": "Georgia Tech",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8201-d-c1-r2"
+        },
+        {
+          "question": "It's the nickname of the University of Colorado's athletic teams",
+          "answer": "the Buffaloes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8201-d-c1-r3"
+        },
+        {
+          "question": "Its Fayetteville campus is the site of the Fulbright Institute of International Relations",
+          "answer": "the University of Arkansas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8201-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOUNTAINS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1852 a government survey of India established that it was the highest point on Earth",
+          "answer": "Everest",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8201-d-c2-r0"
+        },
+        {
+          "question": "In Alaska, 17,400-foot Mount Foraker is considered the sister peak of this mountain",
+          "answer": "McKinley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8201-d-c2-r1"
+        },
+        {
+          "question": "Snowdon in Gwynedd County is the highest mountain in this part of the U.K.",
+          "answer": "Wales",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8201-d-c2-r2"
+        },
+        {
+          "question": "These mountains extend from Cape Dra in Morocco to Cape Bon in Tunisia",
+          "answer": "the Atlas Mountains",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8201-d-c2-r3"
+        },
+        {
+          "question": "This mountain comprises 3 principal extinct volcanoes: Kibo, Mawenzi & Shira",
+          "answer": "Kilimanjaro",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOUNTAINS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8201-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In the 1980s Johnson & Johnson introduced Acuvue, a disposable type of these",
+          "answer": "contact lenses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8201-d-c3-r0"
+        },
+        {
+          "question": "K Mart Corporation is based in Troy in this state",
+          "answer": "Michigan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8201-d-c3-r1"
+        },
+        {
+          "question": "In 1974 Knight Newspapers merged with this company",
+          "answer": "Ridder",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8201-d-c3-r2"
+        },
+        {
+          "question": "KPMG Peat Marwick is the largest of the \"Big Six\" firms in this business",
+          "answer": "public accounting",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8201-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS NAMES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1896 he coined the term psychoanalysis",
+          "answer": "Sigmund Freud",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8201-d-c4-r0"
+        },
+        {
+          "question": "2 of his compositions were adopted as the state songs of Kentucky & Florida",
+          "answer": "Stephen Foster",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8201-d-c4-r1"
+        },
+        {
+          "question": "Diaghilev dismissed this dancer in 1913 after he married another dancer, Romola de Pulszky",
+          "answer": "Nijinsky",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8201-d-c4-r2"
+        },
+        {
+          "question": "In 1900 he was appointed head of the U.S. Army Yellow Fever Commission",
+          "answer": "Walter Reed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8201-d-c4-r3"
+        },
+        {
+          "question": "While publisher of The World, he was indicted for libeling Theodore Roosevelt & J.P. Morgan, among others",
+          "answer": "Joseph Pulitzer",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8201-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ACTORS PLAYING AUTHORS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This was Frank Langella's stage role in \"A Cry of Players\"; Anne Bancroft played Anne Hathaway",
+          "answer": "Shakespeare",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS PLAYING AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8201-d-c5-r0"
+        },
+        {
+          "question": "Helen Hayes played this renowned antislavery novelist in a 1943 play",
+          "answer": "Harriet Beecher Stowe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS PLAYING AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8201-d-c5-r1"
+        },
+        {
+          "question": "Sydney Greenstreet appeared as Thackeray in \"Devotion\", a 1946 film about these British literary sisters",
+          "answer": "the Brontes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS PLAYING AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8201-d-c5-r2"
+        },
+        {
+          "question": "Glenda Jackson portrayed this British poet onstage & on film in \"Stevie\"",
+          "answer": "Stevie Smith",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS PLAYING AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8201-d-c5-r3"
+        },
+        {
+          "question": "John Carradine played this author of \"The Outcasts of Poker Flat\" in a 1944 film about Mark Twain",
+          "answer": "Bret Harte",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ACTORS PLAYING AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8201-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE WINTER OLYMPICS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In some events of this competition, each miss requires a 150-meter penalty lap",
+          "answer": "the biathlon",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE WINTER OLYMPICS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8201-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

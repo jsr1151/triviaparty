@@ -1,0 +1,797 @@
+{
+  "gameId": 8400,
+  "showNumber": 2439,
+  "airDate": "March 23, 1995",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "1950",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In a publicity move, this agency issued its first list of the \"Ten Most Wanted Fugitives\"",
+          "answer": "the FBI",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1950",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8400-s-c0-r0"
+        },
+        {
+          "question": "This increased from 40¢ to 75¢ an hour",
+          "answer": "minimum wages",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1950",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8400-s-c0-r1"
+        },
+        {
+          "question": "In one of the biggest heists in history, over $2 million was stolen from this armored car company",
+          "answer": "Brink's",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1950",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8400-s-c0-r2"
+        },
+        {
+          "question": "This 89-year-old woman's artwork was exhibited in Europe for the first time",
+          "answer": "Grandma Moses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1950",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8400-s-c0-r3"
+        },
+        {
+          "question": "After 6 years in exile, this country's King Leopold III returned, only to abdicate a week later",
+          "answer": "Belgium",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "1950",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8400-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This weapon appears on the logo of the Atlanta Braves",
+          "answer": "tomahawk",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8400-s-c1-r0"
+        },
+        {
+          "question": "Cheryl Miller is the only 3-time female winner of the Naismith Trophy for top college athlete in this sport",
+          "answer": "basketball",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8400-s-c1-r1"
+        },
+        {
+          "question": "The oldest major golf tournament is this one now run by the Royal & Ancient Golf Club of St. Andrews",
+          "answer": "the British Open",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8400-s-c1-r2"
+        },
+        {
+          "question": "This heptathlete was named for Mrs. John F. Kennedy",
+          "answer": "Jackie Joyner-Kersee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8400-s-c1-r3"
+        },
+        {
+          "question": "1 of 2 men to have their uniform numbers retired by 2 different National Hockey League teams",
+          "answer": "Gordie Howe (or Bobby Hull)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8400-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Named for their resemblance to a gem, these tiny onions are often served in a cream sauce",
+          "answer": "pearl onions",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8400-s-c2-r0"
+        },
+        {
+          "question": "In the German dish Lachs gebraten am Stuck, this pink-fleshed fish is braised in butter",
+          "answer": "salmon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8400-s-c2-r1"
+        },
+        {
+          "question": "It's the \"feminine\" name for a light, delicate sponge cake shaped like a part of your hand",
+          "answer": "ladyfingers",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8400-s-c2-r2"
+        },
+        {
+          "question": "These nuts are a traditional ingredient in Italian pesto sauce",
+          "answer": "pine nuts",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8400-s-c2-r3"
+        },
+        {
+          "question": "The peel of the bergamot type of this fruit is sometimes candied",
+          "answer": "the orange",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8400-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD FACTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "You'll find the central university of this country in Caracas",
+          "answer": "Venezuela",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8400-s-c3-r0"
+        },
+        {
+          "question": "Yugoslavia's is \"Hej Sloveni\", which means \"Hey Slavs\"",
+          "answer": "its national anthem",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8400-s-c3-r1"
+        },
+        {
+          "question": "The World Almanac lists Italian & Latin as the languages of this country",
+          "answer": "Vatican City",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8400-s-c3-r2"
+        },
+        {
+          "question": "It was capital of the Northwest Territories from 1883 to 1905; now it's the capital of Saskatchewan",
+          "answer": "Regina",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8400-s-c3-r3"
+        },
+        {
+          "question": "This Ukrainian capital lies on both sides of the Dnieper River",
+          "answer": "Kiev",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD FACTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8400-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRST NAMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Colleen, a popular girl's name in the 1960s, means \"girl\" in this language",
+          "answer": "Irish",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8400-s-c4-r0"
+        },
+        {
+          "question": "2 Empresses of Russia & 3 of Henry VIII's wives shared this name, one of the oldest on record",
+          "answer": "Catherine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8400-s-c4-r1"
+        },
+        {
+          "question": "Ilsa is a German form of this common English name",
+          "answer": "Elizabeth",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8400-s-c4-r2"
+        },
+        {
+          "question": "It's the Italian equivalent of Guy",
+          "answer": "Guido",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRST NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8400-s-c4-r3"
+        },
+        {
+          "question": "Its use as a first name began after Australian opera star Helen Mitchell adopted it as her last name",
+          "answer": "Melba",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRST NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8400-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUOTATIONS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Ralph Waldo Emerson said, \"Every ship that comes to America got its chart from\" this man",
+          "answer": "Christopher Columbus",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8400-s-c5-r0"
+        },
+        {
+          "question": "According to Robert Frost, it's \"twelve persons chosen to decide who has the better lawyer\"",
+          "answer": "a jury",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8400-s-c5-r1"
+        },
+        {
+          "question": "In 1986 she said, \"Say 'Yes' to life.  And when it comes to drugs and alcohol, just say 'No.'\"",
+          "answer": "Nancy Reagan",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8400-s-c5-r2"
+        },
+        {
+          "question": "In a 1925 speech Calvin Coolidge said, \"The chief business of America is\" this",
+          "answer": "business",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8400-s-c5-r3"
+        },
+        {
+          "question": "About this honeymoon destination, Oscar Wilde said, \"Every American bride is taken there\"",
+          "answer": "Niagara Falls",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8400-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE IN HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Elected in 1522, Adrian VI was the only Dutchman who held this high religious office",
+          "answer": "pope",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8400-d-c0-r0"
+        },
+        {
+          "question": "The familiar legend that this outlaw killed 21 men by the time he was 21 probably isn't true",
+          "answer": "Billy the Kid",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8400-d-c0-r1"
+        },
+        {
+          "question": "The great military hero Alexander Nevsky took the name \"Nevsky\" after winning a battle at this river",
+          "answer": "the Neva River",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8400-d-c0-r2"
+        },
+        {
+          "question": "This conquistador's enemies accused him of murdering his 1st wife, Catalina Xuarez",
+          "answer": "Cortés",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8400-d-c0-r3"
+        },
+        {
+          "question": "Gustavus Adolphus was just 16 when he became king of this country in 1611",
+          "answer": "Sweden",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE IN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8400-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS WOMEN",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "With a reported gross of $13.5 million, her 1993/94 New Year's Concerts in Las Vegas set a U.S. record",
+          "answer": "Barbra Streisand",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS WOMEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8400-d-c1-r0"
+        },
+        {
+          "question": "It was the nickname of French fashion designer Marie Nielli Ricci",
+          "answer": "Nina (Ricci)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS WOMEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8400-d-c1-r1"
+        },
+        {
+          "question": "She operated a riding school & studied horse training in Argentina before becoming an expert on dogs",
+          "answer": "Barbara Woodhouse",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS WOMEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8400-d-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "BOOKS OF THE BIBLE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Chapter 6, verse 8 of this book says, \"Noah found grace in the eyes of the Lord\"",
+          "answer": "Genesis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS OF THE BIBLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8400-d-c2-r0"
+        },
+        {
+          "question": "This book of praises is the longest in the Bible with 150 \"songs\"",
+          "answer": "the Psalms",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS OF THE BIBLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8400-d-c2-r1"
+        },
+        {
+          "question": "Chapter 20 of this book contains prophecies about the millennium",
+          "answer": "Revelation",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BOOKS OF THE BIBLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8400-d-c2-r2"
+        },
+        {
+          "question": "Luke begins this book where he left off in his own gospel",
+          "answer": "the Acts of the Apostles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BOOKS OF THE BIBLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8400-d-c2-r3"
+        },
+        {
+          "question": "Chapter 1 of this book reports there were 603,550 of the children of Israel",
+          "answer": "Numbers",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BOOKS OF THE BIBLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8400-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ASTRONOMY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Our solar system is in the Orion arm of this galaxy",
+          "answer": "the Milky Way",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8400-d-c3-r0"
+        },
+        {
+          "question": "The moon nearest a planet in our solar system is Phobos, 5,800 miles away from this planet",
+          "answer": "Mars",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8400-d-c3-r1"
+        },
+        {
+          "question": "Just before it was a nebula, the Crab Nebula was one of these",
+          "answer": "a supernova (or an exploding star)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8400-d-c3-r2"
+        },
+        {
+          "question": "For a solar eclipse to occur, the Moon must be in this phase",
+          "answer": "new",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8400-d-c3-r3"
+        },
+        {
+          "question": "Number of stars often visible in the Pleiades, hence its \"sisterly\" other name",
+          "answer": "7",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASTRONOMY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8400-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL & TOURISM",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This NYC landmark figured prominently in the 1957 Cary Grant film \"An Affair to Remember\"",
+          "answer": "the Empire State Building",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8400-d-c4-r0"
+        },
+        {
+          "question": "His home in Galena, Ill., given to him after the Civil War, is now a state historic site",
+          "answer": "U.S. Grant",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8400-d-c4-r1"
+        },
+        {
+          "question": "This Caribbean island's Piarco International Airport is located about 15 miles from Port of Spain",
+          "answer": "Trinidad",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8400-d-c4-r2"
+        },
+        {
+          "question": "This Italian city's Scuola Grande di San Rocco features 56 works by Tintoretto",
+          "answer": "Venice",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8400-d-c4-r3"
+        },
+        {
+          "question": "The Tossa de Mar is one of the beaches along this, Spanish for \"rugged coast\"",
+          "answer": "the Costa Brava",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8400-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This author's 1841 whaling voyage inspired his 1847 adventure novel \"Omoo\"",
+          "answer": "Herman Melville",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8400-d-c5-r0"
+        },
+        {
+          "question": "This Flaubert heroine's maiden name is Emma Rouault",
+          "answer": "Madame Bovary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8400-d-c5-r1"
+        },
+        {
+          "question": "In an 1894 novel, Trilby leaves her fiance, Little Billee Bagot, & falls under the spell of this musician",
+          "answer": "Svengali",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8400-d-c5-r2"
+        },
+        {
+          "question": "\"The Triumph of the Egg\" is a collection of short stories by this author of \"Winesburg, Ohio\"",
+          "answer": "Sherwood Anderson",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8400-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "U.S. CITIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Florida city is named for a man born in Tagaste, Numidia November 13, 354",
+          "answer": "St. Augustine",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. CITIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8400-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

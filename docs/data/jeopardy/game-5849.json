@@ -1,0 +1,797 @@
+{
+  "gameId": 5849,
+  "showNumber": 7647,
+  "airDate": "December 5, 2017",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HALLS OF FAME",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Wade Boggs, Satchel Paige",
+          "answer": "baseball",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5849-s-c0-r0"
+        },
+        {
+          "question": "Samuel Morse,Elisha Otis",
+          "answer": "inventors",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5849-s-c0-r1"
+        },
+        {
+          "question": "Robert Johnson, Blind Willie McTell",
+          "answer": "blues",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5849-s-c0-r2"
+        },
+        {
+          "question": "Jacks,stick",
+          "answer": "the Toy Hall of Fame",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5849-s-c0-r3"
+        },
+        {
+          "question": "Abigail Adams,Dorothea Dix",
+          "answer": "the Women's Hall of Fame",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5849-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COOKBOOKS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "4-time Olympian Shalane Flanagan provides nourishing recipes for athletes in \"Run Fast. Eat\" this way",
+          "answer": "Run Fast. Eat Slow.",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COOKBOOKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5849-s-c1-r0"
+        },
+        {
+          "question": "Part cookbook, part travel guide, \"Rice, Noodle, Fish\" is Matt Goulding's experience of the food culture of this country",
+          "answer": "Japan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COOKBOOKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5849-s-c1-r1"
+        },
+        {
+          "question": "For her fans, this actress wrote \"My Prairie Cookbook: Memories and Frontier Food From My Little House to Yours\"",
+          "answer": "Melissa Gilbert",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COOKBOOKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5849-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "WAR IS OVER",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Syria agrees to a cease-fire, June 1967",
+          "answer": "the Six Days War",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR IS OVER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5849-s-c2-r0"
+        },
+        {
+          "question": "George H.W. Bush calls a halt on February 28, 1991",
+          "answer": "the Gulf War",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR IS OVER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5849-s-c2-r1"
+        },
+        {
+          "question": "To some historians--Gen. E. Kirby Smith surrenders the Trans-Mississippi Department",
+          "answer": "the U.S. Civil War",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WAR IS OVER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5849-s-c2-r2"
+        },
+        {
+          "question": "Bordeaux falls to the French, 1453",
+          "answer": "the Hundred Years' War",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WAR IS OVER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5849-s-c2-r3"
+        },
+        {
+          "question": "A treaty is signed March 30, 1856",
+          "answer": "the Crimean War",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WAR IS OVER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5849-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "9-LETTER WORDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's the old-timey mustache seen here",
+          "answer": "a handlebar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "9-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5849-s-c3-r0"
+        },
+        {
+          "question": "Got milk? One of Wisconsin's nicknames is \"America's\" this",
+          "answer": "Dairyland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "9-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5849-s-c3-r1"
+        },
+        {
+          "question": "It's the branch of astronomy that studies the origin & structure of the universe",
+          "answer": "cosmology",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "9-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5849-s-c3-r2"
+        },
+        {
+          "question": "A crime similar to kidnapping, or, medically, the movement of a limb away from the midline of the body",
+          "answer": "abduction",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "9-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5849-s-c3-r3"
+        },
+        {
+          "question": "According to Genesis, on the second day God created this, which he called heaven",
+          "answer": "the firmament",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "9-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5849-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"U\" LOVE MUSIC",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Jesus, Take The Wheel\" drove this woman all the way to No. 1 on the country charts",
+          "answer": "Carrie Underwood",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"U\" LOVE MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5849-s-c4-r0"
+        },
+        {
+          "question": "\"Don't believe me just watch\"--there's an exclamation point on the title of this 2015 smash hit",
+          "answer": "\"Uptown Funk!\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"U\" LOVE MUSIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5849-s-c4-r1"
+        },
+        {
+          "question": "Made for the category, this R&B singer gave us \"U Remind Me\", \"U Got It Bad\" & \"U Don't Have To Call\"",
+          "answer": "Usher",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"U\" LOVE MUSIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5849-s-c4-r2"
+        },
+        {
+          "question": "This '60s hit tells us, \"On a blanket with my baby is where I'll be\"",
+          "answer": "\"Under The Boardwalk\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"U\" LOVE MUSIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5849-s-c4-r3"
+        },
+        {
+          "question": "This '80s reggae group took their name from a British unemployment form & now you got them, babe",
+          "answer": "UB40",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"U\" LOVE MUSIC",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5849-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "A TRIP TO ITALY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Italy's longest river, the Po flows 405 miles east to this sea",
+          "answer": "the Adriatic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO ITALY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5849-s-c5-r0"
+        },
+        {
+          "question": "On Via Port'Alba in Naples you can visit this type of restaurant that opened in 1830--the ovens are still going",
+          "answer": "a pizzeria",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO ITALY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5849-s-c5-r1"
+        },
+        {
+          "question": "2.8 million Romans make Rome Italy's most populous city; this northern city is second with about 1.4 million",
+          "answer": "Milan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO ITALY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5849-s-c5-r2"
+        },
+        {
+          "question": "Lists of the great builders of history leave out Giovanni di Simone, chief engineer of this structure in the 1270s",
+          "answer": "the Leaning Tower of Pisa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO ITALY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5849-s-c5-r3"
+        },
+        {
+          "question": "You'll do lots of climbing just walking the streets of Positano on this coast on the Gulf of Salerno",
+          "answer": "Amalfi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A TRIP TO ITALY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5849-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "HALLS OF FAME",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "J.C. Hall co-founded this greeting card company that has a Hall of Fame all its own",
+          "answer": "Hallmark",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5849-d-c0-r0"
+        },
+        {
+          "question": "It's automatic--19th c. physiologist Marshall Hall explained these responses to stimuli",
+          "answer": "reflexes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5849-d-c0-r1"
+        },
+        {
+          "question": "Electronic music and animal rights are among the passions of Richard Melville Hall, better known as this",
+          "answer": "Moby",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5849-d-c0-r2"
+        },
+        {
+          "question": "In 1976 Gus Hall, General Secretary of the CPUSA, this party, got nearly 60,000 votes for president",
+          "answer": "the Communist Party",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5849-d-c0-r3"
+        },
+        {
+          "question": "James Norman Hall from the Midwest moved to Tahiti & co-wrote the book about this British ship that sailed to Tahiti",
+          "answer": "the Bounty",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HALLS OF FAME",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5849-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FEELING YOUR OATHS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It mentions that the swearer will \"preserve, protect and defend the Constitution of the United States\"",
+          "answer": "the president of the United States (or presidential oath)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEELING YOUR OATHS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5849-d-c1-r0"
+        },
+        {
+          "question": "\"On my honor\" this oath says to \"help other people at all times\"",
+          "answer": "the Boy Scout Oath",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEELING YOUR OATHS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5849-d-c1-r1"
+        },
+        {
+          "question": "In 1920 those taking this oath vowed \"a spirit of chivalry for the honor of our country & for the glory of sport\"",
+          "answer": "the Olympic Oath",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEELING YOUR OATHS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5849-d-c1-r2"
+        },
+        {
+          "question": "This oath involves swearing to \"Asclepius, Hygieia, Panacea & all the gods & goddesses\"",
+          "answer": "the Hippocratic Oath",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEELING YOUR OATHS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5849-d-c1-r3"
+        },
+        {
+          "question": "Financial advisors may take this type of oath that also starts with \"fi\" stating they will act in good faith",
+          "answer": "fiduciary",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FEELING YOUR OATHS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5849-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ELEMENT NAMED FOR...",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The seventh planet from the sun",
+          "answer": "uranium",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENT NAMED FOR...",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5849-d-c2-r0"
+        },
+        {
+          "question": "A married couple with some Nobel Prizes between them",
+          "answer": "curium",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENT NAMED FOR...",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5849-d-c2-r1"
+        },
+        {
+          "question": "The sun",
+          "answer": "helium",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENT NAMED FOR...",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5849-d-c2-r2"
+        },
+        {
+          "question": "An Italian-American physicist",
+          "answer": "fermium",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENT NAMED FOR...",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5849-d-c2-r3"
+        },
+        {
+          "question": "The rainbow",
+          "answer": "iridium",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ELEMENT NAMED FOR...",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5849-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNESCO CITIES OF LITERATURE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Named by UNESCO in 2004, this city is the literary & literal capital of Scotland",
+          "answer": "Edinburgh",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNESCO CITIES OF LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5849-d-c3-r0"
+        },
+        {
+          "question": "This major city is recognized for its excellence in publishing both Spanish & Catalan literature",
+          "answer": "Barcelona",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNESCO CITIES OF LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5849-d-c3-r1"
+        },
+        {
+          "question": "Thanks to its pioneering writers' program, the only American city honored is in this Midwest state",
+          "answer": "Iowa",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNESCO CITIES OF LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5849-d-c3-r2"
+        },
+        {
+          "question": "Literature about this Pampas cowboy helped get Montevideo recognized",
+          "answer": "the gaucho",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UNESCO CITIES OF LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5849-d-c3-r3"
+        },
+        {
+          "question": "Thomas Bracken & Janet Frame are 2 authors from Dunedin in this country who bring that city to the forefront",
+          "answer": "New Zealand",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "UNESCO CITIES OF LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5849-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP CULTURE 2000",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "(I'm Neil deGrasse Tyson.) I was flattered to be named \"Sexiest Astrophysicist Alive\" by this magazine back in 2000, but I'm inclined to wonder, who was I up against?",
+          "answer": "People",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2000",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5849-d-c4-r0"
+        },
+        {
+          "question": "This primetime game show was the USA's most watched TV program",
+          "answer": "Who Wants to be a Millionaire?",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2000",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5849-d-c4-r1"
+        },
+        {
+          "question": "Long before he took us to \"Manchester by the Sea\", he made his feature directing debut with \"You Can Count on Me\"",
+          "answer": "Kenneth Lonergan",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2000",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5849-d-c4-r2"
+        },
+        {
+          "question": "Her acclaimed album \"Mama's Gun\" featured the protest song \"A.D. 2000\"",
+          "answer": "Erykah Badu",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE 2000",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5849-d-c4-r3"
+        }
+      ]
+    },
+    {
+      "name": "\"G\" STRING",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "An alphabetical list of terms from one specific field of knowledge",
+          "answer": "a glossary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G\" STRING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5849-d-c5-r0"
+        },
+        {
+          "question": "The width of the business end of a firearm; a shotgun's might be 12",
+          "answer": "gauge",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G\" STRING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5849-d-c5-r1"
+        },
+        {
+          "question": "An embarrassing mistake made in public",
+          "answer": "a gaffe",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G\" STRING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5849-d-c5-r2"
+        },
+        {
+          "question": "A butcher may trim away this unpleasantly chewy part of meat",
+          "answer": "gristle",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"G\" STRING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5849-d-c5-r3"
+        },
+        {
+          "question": "There are about 20 different varieties of this large, Australian monitor",
+          "answer": "goanna",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"G\" STRING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5849-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "19th CENTURY EUROPE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This 1814-1815 gathering of leaders prompted Beethoven to compose the cantata \"The Glorious Moment\"",
+          "answer": "the Congress of Vienna",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "19th CENTURY EUROPE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5849-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

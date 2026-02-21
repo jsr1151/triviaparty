@@ -1,0 +1,809 @@
+{
+  "gameId": 5669,
+  "showNumber": 1020,
+  "airDate": "January 27, 1989",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FAMOUS FAMILIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This member of the Reagan family is co-chairman of the Republican National Committee",
+          "answer": "Maureen Reagan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FAMILIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5669-s-c0-r0"
+        },
+        {
+          "question": "Starting in the 18th century, this Jewish family became the most famous of all European banking dynasties",
+          "answer": "Rothschild",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FAMILIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5669-s-c0-r1"
+        },
+        {
+          "question": "The 2 famous daughters of Shakespearean actor Sir Michael Redgrave",
+          "answer": "Vanessa & Lynn",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FAMILIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5669-s-c0-r2"
+        },
+        {
+          "question": "A member of this Corsican family was U.S. Attorney General from 1906-1909",
+          "answer": "Bonaparte",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FAMILIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5669-s-c0-r3"
+        },
+        {
+          "question": "This wealthy Delaware family's name used to be longer, with \"de Nemours\" tacked on to the end",
+          "answer": "Duponts",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS FAMILIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5669-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIRDS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Birds are plumose, meaning they have these",
+          "answer": "feathers",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5669-s-c1-r0"
+        },
+        {
+          "question": "Birds lost these early in their evolution, perhaps due to the development of the moveable upper jaw",
+          "answer": "teeth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5669-s-c1-r1"
+        },
+        {
+          "question": "Associated with love as far back as ancient Greece it has since become a symbol of peace",
+          "answer": "dove",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5669-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "SONGS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"Summertime\" is when \"the livin' is easy &\" this crop \"is high\"",
+          "answer": "cotton",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5669-s-c2-r0"
+        },
+        {
+          "question": "2 of Survivor's Top 10 hits, \"Burning Heart\" & \"Eye of the Tiger\", were from films featuring this character",
+          "answer": "Rocky",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5669-s-c2-r1"
+        },
+        {
+          "question": "1 of 2 drinks mentioned in Billy Joel's \"Piano Man\"",
+          "answer": "(1 of) tonic & gin (or beer)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5669-s-c2-r2"
+        },
+        {
+          "question": "In 1976 Johnny Cash was building one of these \"one piece at a time\"",
+          "answer": "Cadillac",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5669-s-c2-r3"
+        },
+        {
+          "question": "In the title of a 1976 hit, Lou Rawls said, \"You'll never find\" this",
+          "answer": "another love like mine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5669-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This sport was played indoors in 1905 at New York's Madison Square Garden, long before the MISL",
+          "answer": "soccer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5669-s-c3-r0"
+        },
+        {
+          "question": "On July 4, 1981 John McEnroe stopped his attempt at a 6th consecutive Wimbledon championship",
+          "answer": "Björn Borg",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5669-s-c3-r1"
+        },
+        {
+          "question": "This A.L. team recently purchased Arlington Stadium from the city of Arlington, Texas",
+          "answer": "Texas Rangers",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5669-s-c3-r2"
+        },
+        {
+          "question": "In '84 this N.Y. Jet, known for his \"sack dance\", set a season record with 22 sacks",
+          "answer": "Mark Gastineau",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5669-s-c3-r3"
+        },
+        {
+          "question": "In 1977 at age 17, he became the 1st jockey to ride mounts winning $6 million in 1 year",
+          "answer": "Steve Cauthen",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5669-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "COSMETICS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Adrien Arpel sells a freeze-dried protein peel for people who have laugh lines around this",
+          "answer": "mouth",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COSMETICS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5669-s-c4-r0"
+        },
+        {
+          "question": "For women who hate \"raccoon eyes\", Max Factor makes a special mascara without this",
+          "answer": "color",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COSMETICS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5669-s-c4-r1"
+        },
+        {
+          "question": "Princess M. Borghese's \"Fango\" is a type of this, made to be packed on the face, body & even the hair",
+          "answer": "mud",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COSMETICS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5669-s-c4-r2"
+        },
+        {
+          "question": "This ingredient in Mink Difference hair spray actually comes from minks",
+          "answer": "mink oil",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COSMETICS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5669-s-c4-r3"
+        },
+        {
+          "question": "Ancient Egyptians blackened their eyelids, lashes & eyebrows with this, made from a sulfide",
+          "answer": "kohl",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COSMETICS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5669-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "VOCABULARY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A preparation for public performance whether or not you \"dress\"",
+          "answer": "rehearsal",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOCABULARY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5669-s-c5-r0"
+        },
+        {
+          "question": "As Quincy could tell you, a necropsy is more commonly called this",
+          "answer": "autopsy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOCABULARY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5669-s-c5-r1"
+        },
+        {
+          "question": "Louis XIV might have told you this French phrase means \"nobility obligates\"",
+          "answer": "noblesse oblige",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOCABULARY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5669-s-c5-r2"
+        },
+        {
+          "question": "From the French for \"purse\", it's the official in charge of funds at a college",
+          "answer": "bursar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOCABULARY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5669-s-c5-r3"
+        },
+        {
+          "question": "Shame on you if you don't know that a shaman is one of these",
+          "answer": "witch doctor",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VOCABULARY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5669-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "EUROPEAN HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1096 Peter the Hermit's preaching aroused public support for the 1st of these expeditions",
+          "answer": "the Crusades",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5669-d-c0-r0"
+        },
+        {
+          "question": "King John accepted it June 15, 1215",
+          "answer": "Magna Carta",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5669-d-c0-r1"
+        },
+        {
+          "question": "In the 16th & 17th centuries this royal family ruled Spain was well as Austria",
+          "answer": "Hapsburgs",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5669-d-c0-r2"
+        },
+        {
+          "question": "2 years after becoming Kaiser in 1888, Germany's Wilhelm II dismissed this famous chancellor",
+          "answer": "Bismarck",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5669-d-c0-r3"
+        },
+        {
+          "question": "Forces from this duchy conquered Southern Italy as well as England in the 11th century",
+          "answer": "Normandy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5669-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DRAMA",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Medieval mystery plays often dealt with events taken from this book",
+          "answer": "the Bible",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5669-d-c1-r0"
+        },
+        {
+          "question": "After finding his wife dead, Oedipus did this to himself with her brooches",
+          "answer": "blind himself",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5669-d-c1-r1"
+        },
+        {
+          "question": "Author of \"Cyrano de Bergerac\", Edmond Rostand wrote at least 3 plays for this French actress",
+          "answer": "Sarah Bernhardt",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5669-d-c1-r2"
+        },
+        {
+          "question": "Act II of this Shaw play opens at a Salvation Army shelter",
+          "answer": "Major Barbara",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5669-d-c1-r3"
+        },
+        {
+          "question": "Noted for \"The Ghost Sonata\", A. Strindberg has been called this country's greatest dramatist",
+          "answer": "Sweden",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5669-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ISLANDS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The 1st Communist state in the Western Hemisphere",
+          "answer": "Cuba",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5669-d-c2-r0"
+        },
+        {
+          "question": "In 1953 it was declared an integral part of Denmark",
+          "answer": "Greenland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5669-d-c2-r1"
+        },
+        {
+          "question": "Island country where you'll find the Maoris speaking Maori",
+          "answer": "New Zealand",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5669-d-c2-r2"
+        },
+        {
+          "question": "While Little Diomede belongs to the U.S., Big Diomede belongs to this country",
+          "answer": "Soviet Union",
+          "value": 1800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5669-d-c2-r3"
+        },
+        {
+          "question": "Japan's largest city, highest mountain & largest lake are located on this, its largest island",
+          "answer": "Honshu",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ISLANDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5669-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAINTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This large Midwestern city is named for a greatly admired saint & king of France",
+          "answer": "St. Louis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5669-d-c3-r0"
+        },
+        {
+          "question": "Legendary dragon slayer & rescuer of damsels in distress, he's the patron saint of England",
+          "answer": "St. George",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5669-d-c3-r1"
+        },
+        {
+          "question": "The patron saint of Czechoslovakia, we sing a song about this king at Christmastime",
+          "answer": "Wenceslas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5669-d-c3-r2"
+        },
+        {
+          "question": "Lord Chancellor of England in the 16th c., he didn't attain sainthood until 1935",
+          "answer": "Thomas More",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5669-d-c3-r3"
+        },
+        {
+          "question": "Two of the saints with this name were from Thebes, Egypt & Padua, Italy",
+          "answer": "St. Anthony",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5669-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOTHER GOOSE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Old Mother Goose, when she wanted to wander, would ride through the air on a very fine\" one of these",
+          "answer": "gander",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOTHER GOOSE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5669-d-c4-r0"
+        },
+        {
+          "question": "Not Horatio but this character was a horn blower--when awake, that is",
+          "answer": "Little Boy Blue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOTHER GOOSE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5669-d-c4-r1"
+        },
+        {
+          "question": "The 2 groups that failed in their attempt to reassemble Humpty Dumpty",
+          "answer": "all the king's horses & all the king's men",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOTHER GOOSE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5669-d-c4-r2"
+        },
+        {
+          "question": "Simple Simon went fishing in a pail to catch one of these",
+          "answer": "whale",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOTHER GOOSE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5669-d-c4-r3"
+        },
+        {
+          "question": "In the 2nd verse of \"Sing a Song of Sixpence\", the king was here, totalling his assets",
+          "answer": "counting house",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOTHER GOOSE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5669-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTS' WHEELS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "He was the 1st president to ride in an electric automobile; it may have been a \"rough ride\"",
+          "answer": "Teddy Roosevelt",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS' WHEELS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5669-d-c5-r0"
+        },
+        {
+          "question": "The 1st presidential limo with complete air conditioning was a 1961 Lincoln he ordered",
+          "answer": "John F. Kennedy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS' WHEELS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5669-d-c5-r1"
+        },
+        {
+          "question": "The 1st president to join this road service organization was Woodrow Wilson",
+          "answer": "Automobile Association of America",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS' WHEELS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5669-d-c5-r2"
+        },
+        {
+          "question": "Called the most careful driver of all presidents, he drove \"silently\" & never went over 16 m.p.h.",
+          "answer": "Coolidge",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS' WHEELS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5669-d-c5-r3"
+        },
+        {
+          "question": "In 1909 he ordered the White House stables converted into a garage",
+          "answer": "William Howard Taft",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS' WHEELS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5669-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE CAPITALS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Of the state capitals, this one has the busiest airport",
+          "answer": "Atlanta",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "STATE CAPITALS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5669-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

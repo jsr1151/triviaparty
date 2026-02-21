@@ -1,0 +1,688 @@
+{
+  "gameId": 8071,
+  "showNumber": 147,
+  "airDate": "April 2, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "NATURE",
+      "round": "single",
+      "position": 0,
+      "clues": []
+    },
+    {
+      "name": "COLORS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Donovan found it \"mellow\"",
+          "answer": "yellow",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8071-s-c1-r0"
+        },
+        {
+          "question": "The 5th or little finger",
+          "answer": "the pinky",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8071-s-c1-r1"
+        },
+        {
+          "question": "This \"is the color of my true love's hair\"",
+          "answer": "black",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8071-s-c1-r2"
+        },
+        {
+          "question": "Hand color of someone caught \"in flagrante delicto\"",
+          "answer": "red-handed",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8071-s-c1-r3"
+        },
+        {
+          "question": "Tie color at the most formal affairs",
+          "answer": "white",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8071-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP MUSIC",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Of Simon & Garfunkel, the one known as a songwriter",
+          "answer": "Paul Simon",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8071-s-c2-r0"
+        },
+        {
+          "question": "Though of Irish-Italian ancestry, this New Jersey boy was indeed \"Born in the U.S.A.\"",
+          "answer": "Bruce Springsteen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8071-s-c2-r1"
+        },
+        {
+          "question": "Title tune of his new album, \"L.A. Is My Lady\" is contender for that city's song",
+          "answer": "Frank Sinatra",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8071-s-c2-r2"
+        },
+        {
+          "question": "Sexy soul singer who asks #1 musical question, \"What's Love Got To Do With it?\"",
+          "answer": "Tina Turner",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8071-s-c2-r3"
+        },
+        {
+          "question": "Elvis' rank at the time of his discharge",
+          "answer": "a sergeant",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP MUSIC",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8071-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "EXPLORERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Danish captain hired by Russia who made a \"strait\" line to Alaska",
+          "answer": "(Vitus) Bering",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8071-s-c3-r0"
+        }
+      ]
+    },
+    {
+      "name": "TRIOS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "According to Christian dogma, the unity of the father, son & Holy Spirit",
+          "answer": "a trinity",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIOS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8071-s-c4-r0"
+        },
+        {
+          "question": "\"That's what little girls are made of\"",
+          "answer": "sugar and spice and everything nice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIOS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8071-s-c4-r1"
+        },
+        {
+          "question": "\"One night\" they \"sailed off in a wooden shoe\"",
+          "answer": "Wynken, Blynken, and Nod",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRIOS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8071-s-c4-r2"
+        },
+        {
+          "question": "Gaspar, Melchior & Balthasar",
+          "answer": "three kings of the Orient (three wise men, three magi)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIOS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8071-s-c4-r3"
+        },
+        {
+          "question": "The 3 warnings on the care & feeding of Gremlins",
+          "answer": "do not get them wet, do not feed after midnight, and keep out of bright light",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRIOS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8071-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WARNINGS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Warning found on all mattresses, pillows and cushions sold in the U.S.",
+          "answer": "\"do not remove under penalty of law\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WARNINGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8071-s-c5-r0"
+        },
+        {
+          "question": "Follows \"Be sure brain is engaged before...\"",
+          "answer": "putting your mouth in gear",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WARNINGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8071-s-c5-r1"
+        },
+        {
+          "question": "When you remove your money from a 30 year IRA account after 2 years, you incur this",
+          "answer": "a penalty (for early withdrawal)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WARNINGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8071-s-c5-r2"
+        },
+        {
+          "question": "Warning on the handling of IBM cards",
+          "answer": "\"do not fold, spindle, or mutilate\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WARNINGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8071-s-c5-r3"
+        },
+        {
+          "question": "Contest rule meaning you can't play it in certain places",
+          "answer": "void where prohibited by law",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WARNINGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8071-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "POLITICAL QUOTES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "President about whom Mort Sahl supposedly asked \"would you buy a used car from this man?\"",
+          "answer": "Richard Nixon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8071-d-c0-r0"
+        },
+        {
+          "question": "Karl Marx said it's \"the opium of the people\"",
+          "answer": "religion",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8071-d-c0-r1"
+        },
+        {
+          "question": "He said, \"I took the Canal Zone & let Congress debate & while the debate goes on, the canal does too\"",
+          "answer": "Teddy Roosevelt",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8071-d-c0-r2"
+        },
+        {
+          "question": "In 1939, he called Russia \"a riddle wrapped in a mystery inside an enigma\"",
+          "answer": "Winston Churchill",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POLITICAL QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8071-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "MEDICINE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "2-letter \"factor\" inherited in red blood cells",
+          "answer": "the Rh factor",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8071-d-c1-r0"
+        },
+        {
+          "question": "The Frenchman Laennec invented this instrument to listen for sounds inside a body",
+          "answer": "the stethoscope",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8071-d-c1-r1"
+        },
+        {
+          "question": "Muslims use a red crescent, Israel a red star of David to symbolize their versions of this health org.",
+          "answer": "the Red Cross",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8071-d-c1-r2"
+        },
+        {
+          "question": "The \"sunshine vitamin\"",
+          "answer": "vitamin D",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8071-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "DRAMA",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Kind of play where \"Oliver\" sings for his supper",
+          "answer": "a musical",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8071-d-c2-r0"
+        },
+        {
+          "question": "Eugene O'Neill's \"Strange Interlude\" is divided into 9 of these",
+          "answer": "acts",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8071-d-c2-r1"
+        },
+        {
+          "question": "Civic location of Ireland's Abbey Theatre",
+          "answer": "Dublin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8071-d-c2-r2"
+        },
+        {
+          "question": "The women in \"Lysistrata\" swear to be celibate until this is brought to an end",
+          "answer": "the Peloponnesian Wars",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8071-d-c2-r3"
+        },
+        {
+          "question": "He wrote \"Private Lives\" in just 2 weeks",
+          "answer": "Noel Coward",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8071-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AFRICA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Africa's only permanently frozen peak, Hemingway wrote of its snows",
+          "answer": "Mount Kilimanjaro",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8071-d-c3-r0"
+        },
+        {
+          "question": "For over 50 yrs. he operated a jungle hospital in Lambarene, Gabon",
+          "answer": "Dr. (Albert) Schweitzer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8071-d-c3-r1"
+        },
+        {
+          "question": "In 1822, freed American slaves named this country's capital Monrovia, after U.S. pres.",
+          "answer": "Liberia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8071-d-c3-r2"
+        },
+        {
+          "question": "The celebrated South African folksinger who is probably best known for this song:\"Igqirhha lendlela nguqo ngqothwane / Igqirhha lendlela kuthwa nguqo ngqothwane / Igqirha lendlela kuthwa nguqo ngqothwane\"",
+          "answer": "Miriam Makeba",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8071-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "GEOMETRY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Any flat, level surface, like a runway or a carrier deck",
+          "answer": "a plane",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8071-d-c4-r0"
+        },
+        {
+          "question": "Schoolchild's instrument used for measuring & constructing angles",
+          "answer": "a protractor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8071-d-c4-r1"
+        },
+        {
+          "question": "A closed curve in which every point is equidistant from the center",
+          "answer": "a circle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8071-d-c4-r2"
+        },
+        {
+          "question": "An equilateral, equiangular tetrahedron",
+          "answer": "a square",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8071-d-c4-r3"
+        },
+        {
+          "question": "His \"Elements\" is the basis for the modern science of geometry",
+          "answer": "Euclid",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOMETRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8071-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"BREAK\" IT UP",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Bad luck for a skier, good luck for an actor",
+          "answer": "\"break a leg\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BREAK\" IT UP",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8071-d-c5-r0"
+        },
+        {
+          "question": "In legal terms, forcing unauthorized entry into another's home",
+          "answer": "breaking and entering",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BREAK\" IT UP",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8071-d-c5-r1"
+        },
+        {
+          "question": "A Bert Parks game show, or what you want to do in Monte Carlo",
+          "answer": "Break the Bank",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BREAK\" IT UP",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8071-d-c5-r2"
+        },
+        {
+          "question": "A '79 Best Film nominee about a biking boy who wanted to be Italian",
+          "answer": "Breaking Away",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"BREAK\" IT UP",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8071-d-c5-r3"
+        },
+        {
+          "question": "Flatt & Scruggs' blue grass theme song for the film \"Bonnie & Clyde\"",
+          "answer": "\"Foggy Mountain Breakdown\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"BREAK\" IT UP",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8071-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN IN SPORTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Only Olympic events in which women compete directly with men",
+          "answer": "equestrian",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WOMEN IN SPORTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8071-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

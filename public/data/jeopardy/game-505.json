@@ -1,0 +1,821 @@
+{
+  "gameId": 505,
+  "showNumber": 1291,
+  "airDate": "March 26, 1990",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE UNIVERSE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This planet's atmosphere is 99% nitrogen & oxygen",
+          "answer": "Earth",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g505-s-c0-r0"
+        },
+        {
+          "question": "It wasn't until 1959 that the \"far side\" of this body was seen",
+          "answer": "The Moon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g505-s-c0-r1"
+        },
+        {
+          "question": "William Herschel thought he saw these around Uranus in 1787; in 1977 they were really seen",
+          "answer": "Rings",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g505-s-c0-r2"
+        },
+        {
+          "question": "It's known for its prominences which are clouds, tubes & tongues of gasses",
+          "answer": "The Sun",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNIVERSE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g505-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "11-LETTER WORDS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Diaphanous or sheer, as in clothing, or flimsy & obvious, as in a lie",
+          "answer": "Transparent",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "11-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g505-s-c1-r0"
+        },
+        {
+          "question": "Breathing in & out",
+          "answer": "Respiration",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "11-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g505-s-c1-r1"
+        },
+        {
+          "question": "The scientific study of birds",
+          "answer": "Ornithology",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "11-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g505-s-c1-r2"
+        },
+        {
+          "question": "A fashion or fad maker",
+          "answer": "Trendsetter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "11-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g505-s-c1-r3"
+        },
+        {
+          "question": "British weight system based on a pound equal to 453.59 grams or 16 ounces",
+          "answer": "Avoirdupois",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "11-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g505-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD FACTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The name of this meat is from the Latin \"venatus\", hunt",
+          "answer": "Venison",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD FACTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g505-s-c2-r0"
+        },
+        {
+          "question": "Known botanically as \"citrullus lanatus\", this huge fruit grows on vines as long as 15 ft.",
+          "answer": "Watermelon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD FACTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g505-s-c2-r1"
+        },
+        {
+          "question": "Veal cutlets dipped in bread crumbs & cheese, then fried & covered with tomato sauce",
+          "answer": "Veal Parmigiana",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD FACTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g505-s-c2-r2"
+        },
+        {
+          "question": "German sausage named for the crackling sound the skin of the sausage makes when bitten into",
+          "answer": "Knockwurst",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD FACTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g505-s-c2-r3"
+        },
+        {
+          "question": "The Atlantic variety of this popular fish is the largest of all flatfish",
+          "answer": "Halibut",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD FACTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g505-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BASEBALL",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Though he's had 5 no-hitters & the most career strikeouts of any pitcher, he's never won the Cy Young Award",
+          "answer": "Nolan Ryan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g505-s-c3-r0"
+        },
+        {
+          "question": "The \"Black Sox\" team that threw the 1919 World Series lost to this Ohio team",
+          "answer": "Cincinnati Reds",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g505-s-c3-r1"
+        },
+        {
+          "question": "In Los Angeles, the Dodgers have had only these 2 managers",
+          "answer": "Walter Alston & Tommy Lasorda",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g505-s-c3-r2"
+        },
+        {
+          "question": "In 1961 owner Calvin Griffith moved this team to Minneapolis where it became the Minnesota Twins",
+          "answer": "Washington Senators",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g505-s-c3-r3"
+        },
+        {
+          "question": "In 1972 owner Bob Short moved this team to Arlington, TX . where it became the Texas Rangers",
+          "answer": "Washington Senators",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BASEBALL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g505-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE MUSICALS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "As the master of ceremonies, this actor was the only one to reprise his stage role in 1972's \"Cabaret\"",
+          "answer": "Joel Grey",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g505-s-c4-r0"
+        },
+        {
+          "question": "Actor who sang \"If I Only Had The Nerve\" & \"If I Were King Of The Forest\" in \"The Wizard Of Oz\"",
+          "answer": "Bert Lahr",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g505-s-c4-r1"
+        },
+        {
+          "question": "The only Ginger Rogers-Fred Astaire film for which these 2 brothers wrote songs was 1937's \"Shall We Dance\"",
+          "answer": "George & Ira Gershwin",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g505-s-c4-r2"
+        },
+        {
+          "question": "This actress who played Mary Stone on \"The Donna Reed Show\" was the only 1 to co-star in 3 Elvis films",
+          "answer": "Shelley Fabares",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g505-s-c4-r3"
+        },
+        {
+          "question": "This Russian composer was portrayed by Jean-Pierre Aumont in 1947's \"Song Of Scheherazade\"",
+          "answer": "Rimsky-Korsakov",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE MUSICALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g505-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DON'T TRY THIS AT HOME",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Elizabeth I reportedly whitened this with a mixture of eggshell, poppy seeds, borax & lead",
+          "answer": "Her Complexion",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TRY THIS AT HOME",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g505-s-c5-r0"
+        },
+        {
+          "question": "Houdini was famous for hanging upside-down wearing one of these restrictive overgarments",
+          "answer": "Straitjacket",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TRY THIS AT HOME",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g505-s-c5-r1"
+        },
+        {
+          "question": "You have to have permission to do this in a barrel since someone died doing it in 1951",
+          "answer": "Going over Niagara Falls",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TRY THIS AT HOME",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g505-s-c5-r2"
+        },
+        {
+          "question": "Icarus could have told you it's not a good idea to fly if your wings are held together with this",
+          "answer": "Wax",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DON'T TRY THIS AT HOME",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g505-s-c5-r3"
+        },
+        {
+          "question": "This late, great circus star once performed an act with 40 -- count 'em, 40 -- lions & tigers",
+          "answer": "Clyde Beatty",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DON'T TRY THIS AT HOME",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g505-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE RENAISSANCE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The name of this musical form probably came from the Latin \"matricale\", meaning in the mother tongue",
+          "answer": "Madrigal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g505-d-c0-r0"
+        },
+        {
+          "question": "The ruthless Cesare Borgia was the model for this book by Machiavelli",
+          "answer": "\"The Prince\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g505-d-c0-r1"
+        },
+        {
+          "question": "In his notebooks this Renaissance artist claimed, \"The Medici created and destroyed me\"",
+          "answer": "Leonardo Da Vinci",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g505-d-c0-r2"
+        },
+        {
+          "question": "Plays were either comedies, tragedies or these love tales about woodland goddesses & shepherds",
+          "answer": "Pastorals",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g505-d-c0-r3"
+        },
+        {
+          "question": "Boccaccio work narrated by 3 men & 7 women fleeing the plague in Florence",
+          "answer": "The Decameron",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE RENAISSANCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g505-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "She got into the advice business before her twin sister, Dear Abby",
+          "answer": "Ann Landers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g505-d-c1-r0"
+        },
+        {
+          "question": "Evicted from his Oregon ashram, he now lives in Bombay & is called \"Zorba The Buddha\"",
+          "answer": "Bhagwan Shree Rajneesh",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g505-d-c1-r1"
+        },
+        {
+          "question": "Herbert Ross, who directed the film \"Steel Magnolias\", is married to this sister of Jackie Onassis",
+          "answer": "Lee Radziwill",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g505-d-c1-r2"
+        },
+        {
+          "question": "William J. McCarthy is president of this union",
+          "answer": "Teamsters",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g505-d-c1-r3"
+        },
+        {
+          "question": "This historian & former Librarian of Congress was teaching history at Harvard while studying law at Yale",
+          "answer": "Daniel Boorstein",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g505-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLANTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Britannica defines it as \"any plant growing where it is not wanted\"",
+          "answer": "Weed",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g505-d-c2-r0"
+        },
+        {
+          "question": "A member of the sundew family, it requires about 10 days to fully digest an insect",
+          "answer": "Venus Flytrap",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g505-d-c2-r1"
+        },
+        {
+          "question": "Plant whose twigs are used for dowsing & whose leaves & bark are used to make an astringent",
+          "answer": "Witch Hazel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g505-d-c2-r2"
+        },
+        {
+          "question": "Name for a low, enclosed bed covered with glass or plastic for starting plants before the season",
+          "answer": "Cold Frame",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g505-d-c2-r3"
+        },
+        {
+          "question": "This climbing tropical shrub was named for a French South Seas explorer",
+          "answer": "Bougainvillea",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLANTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g505-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZATIONS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1987 Molly Yard replaced Eleanor Smeal as president of this organization",
+          "answer": "National Organization for Women (NOW)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g505-d-c3-r0"
+        },
+        {
+          "question": "Int'l club that \"promotes putting off until later those things that needn't be done today\"",
+          "answer": "Procrastinator's Club",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g505-d-c3-r1"
+        },
+        {
+          "question": "One must be a member of this fraternal group in order to belong to the Shriners",
+          "answer": "Masons",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g505-d-c3-r2"
+        },
+        {
+          "question": "Arm of Al-Anon that's specifically for young people between the ages of 12 & 20",
+          "answer": "Al-Ateen",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g505-d-c3-r3"
+        },
+        {
+          "question": "Social welfare organization founded in the 19th century, whose bimonthly publication is \"The War Cry\"",
+          "answer": "The Salvation Army",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ORGANIZATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g505-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The U.S. borders these 3 oceans",
+          "answer": "Arctic, Atlantic & Pacific",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g505-d-c4-r0"
+        },
+        {
+          "question": "There's a national park on the island of St. John in this U.S. possession",
+          "answer": "U.S. Virgin Islands",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g505-d-c4-r1"
+        },
+        {
+          "question": "North Dakota has its Devils Lake & Wyoming its Devils one of these",
+          "answer": "Devils Tower",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g505-d-c4-r2"
+        },
+        {
+          "question": "The Raritan is the longest river wholly within this state",
+          "answer": "New Jersey",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g505-d-c4-r3"
+        },
+        {
+          "question": "One of the largest of these shallow channels in the U.S. is the Bartholomew in N. Louisiana",
+          "answer": "Bayou",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g505-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY QUOTES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Terence, a Roman poet-playwright who lived in the second century B.C., said, \"Charity begins\" here",
+          "answer": "At Home",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g505-d-c5-r0"
+        },
+        {
+          "question": "Robert Louis Stevenson said, \"Marriage is ..... a field of battle, and not a bed of\" these",
+          "answer": "Roses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g505-d-c5-r1"
+        },
+        {
+          "question": "In \"A Study in Scarlet\" this author called London \"that great cesspool\"",
+          "answer": "Arthur Conan Doyle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g505-d-c5-r2"
+        },
+        {
+          "question": "Poet who wrote, \"The woods are lovely, dark & deep, but I have promises to keep...\"",
+          "answer": "Robert Frost",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g505-d-c5-r3"
+        },
+        {
+          "question": "\"Always do right.\" he wrote; \"This will gratify some people and astonish the rest\"",
+          "answer": "Mark Twain",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY QUOTES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g505-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRIES OF THE WORLD",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The world's most populous democracy",
+          "answer": "India",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "COUNTRIES OF THE WORLD",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g505-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

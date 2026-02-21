@@ -1,0 +1,833 @@
+{
+  "gameId": 4010,
+  "showNumber": 6474,
+  "airDate": "November 8, 2012",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WHERE'S THAT?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Rockefeller Center:The borough",
+          "answer": "Manhattan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE'S THAT?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4010-s-c0-r0"
+        },
+        {
+          "question": "Chicago:The county",
+          "answer": "Cook",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE'S THAT?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4010-s-c0-r1"
+        },
+        {
+          "question": "Petco Park Major League Baseball stadium:The city",
+          "answer": "San Diego",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE'S THAT?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4010-s-c0-r2"
+        },
+        {
+          "question": "Mount McKinley:The national park",
+          "answer": "Denali",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE'S THAT?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4010-s-c0-r3"
+        },
+        {
+          "question": "Holiday Inn Bratislava:The country",
+          "answer": "Slovakia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE'S THAT?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4010-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FILL IN THE QUOTE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Patrick Henry:\"Give me ____ or give me death!\"",
+          "answer": "liberty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILL IN THE QUOTE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4010-s-c1-r0"
+        },
+        {
+          "question": "Benjamin Franklin:\"There never was a ____  ____ or a bad peace\"",
+          "answer": "good war",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILL IN THE QUOTE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4010-s-c1-r1"
+        },
+        {
+          "question": "Huey P. Long:\"I looked around at the little fishes present, and said, 'I'm the ____'\"",
+          "answer": "kingfish",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILL IN THE QUOTE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4010-s-c1-r2"
+        },
+        {
+          "question": "Richard Nixon:\"It is time for the great ____  ____ of Americans to stand up and be counted\"",
+          "answer": "silent majority",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILL IN THE QUOTE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4010-s-c1-r3"
+        },
+        {
+          "question": "Margaret Sanger:\"No woman can call herself free until she can choose... whether she will or will not be a ____\"",
+          "answer": "mother",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FILL IN THE QUOTE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4010-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "JEOPARDY! ENNUI",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Ennui means this; Schopenhauer calls it the feeling of the emptiness of existence, & I feel it when I read Schopenhauer",
+          "answer": "boredom",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEOPARDY! ENNUI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4010-s-c2-r0"
+        },
+        {
+          "question": "20,000 times a day these paired organs expand & contract, in & out; how tedious",
+          "answer": "lungs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEOPARDY! ENNUI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4010-s-c2-r1"
+        },
+        {
+          "question": "I tire of the rows & columns of this Microsoft spreadsheet program introduced in 1985",
+          "answer": "Excel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEOPARDY! ENNUI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4010-s-c2-r2"
+        },
+        {
+          "question": "Calling sit-ups & push-ups by this word from the Greek for \"beautiful\" doesn't make them interesting",
+          "answer": "calisthenics",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEOPARDY! ENNUI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4010-s-c2-r3"
+        },
+        {
+          "question": "This government agency with a lightning bolt logo says sunshine all next week; will it never end?",
+          "answer": "the National Weather Service",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "JEOPARDY! ENNUI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4010-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "50 YEARS OF JAMES BOND FILMS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The franchise started in 1962 with James Bond facing off against this title villain",
+          "answer": "Dr. No",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "50 YEARS OF JAMES BOND FILMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4010-s-c3-r0"
+        },
+        {
+          "question": "Oddjob painted Jill Masterson's entire body, resulting in a memorable scene in this film",
+          "answer": "Goldfinger",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "50 YEARS OF JAMES BOND FILMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4010-s-c3-r1"
+        },
+        {
+          "question": "\"Skyfall\", the 23rd film in the franchise, marks this actor's third outing as Bond, James Bond",
+          "answer": "Daniel Craig",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "50 YEARS OF JAMES BOND FILMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4010-s-c3-r2"
+        },
+        {
+          "question": "The title of the 16th Bond film, it's also what's denoted by the \"00\" prefix",
+          "answer": "Licence to Kill",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "50 YEARS OF JAMES BOND FILMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4010-s-c3-r3"
+        },
+        {
+          "question": "George Lazenby played 007 just once, in this film where Bond fell in love & got married",
+          "answer": "On Her Majesty's Secret Service",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "50 YEARS OF JAMES BOND FILMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4010-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS IS GOOD",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 2012 this 2-named energy company reported a quarterly profit of nearly $16 bil., the highest ever for a U.S. corp.",
+          "answer": "Exxon Mobil",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS IS GOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4010-s-c4-r0"
+        },
+        {
+          "question": "In January 2009 a share in this tech co. was $82.33; In August 2012, after a court victory over Samsung, it opened at $680",
+          "answer": "Apple",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS IS GOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4010-s-c4-r1"
+        },
+        {
+          "question": "In 1999 this \"colorful\" airline took delivery of its 1st airbus A320--in 2011 it boasted 100 daily flights at Logan Airport",
+          "answer": "JetBlue",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS IS GOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4010-s-c4-r2"
+        },
+        {
+          "question": "O-ho, this bank's wagon is a-comin' down the street & it's filled with money; it's No. 26 on the 2012 Fortune 500",
+          "answer": "Wells Fargo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS IS GOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4010-s-c4-r3"
+        },
+        {
+          "question": "Don Fisher \"couldn't find a pair of jeans that fit\"; the result was this store, clothing us since 1969",
+          "answer": "Gap",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS IS GOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4010-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"RE\"-CESS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Light is focused by a concave mirror in this type of telescope",
+          "answer": "a reflecting telescope",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"RE\"-CESS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4010-s-c5-r0"
+        },
+        {
+          "question": "This condensed compendium is one of the 10 most popular magazines in America",
+          "answer": "Reader's Digest",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RE\"-CESS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4010-s-c5-r1"
+        },
+        {
+          "question": "It's the \"R\" in RSV, a 1952 version of the Bible",
+          "answer": "revised",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RE\"-CESS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4010-s-c5-r2"
+        },
+        {
+          "question": "It's the \"R\" in RV when the \"V\" is a spacecraft",
+          "answer": "reentry",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"RE\"-CESS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4010-s-c5-r3"
+        },
+        {
+          "question": "From the Latin for \"beat back\", it means to resound in a succession of echoes",
+          "answer": "reverberate",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"RE\"-CESS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4010-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIZZ ED",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Carbonation is the phenomenon in which this gas is suspended in liquid, creating small bubbles or fizz",
+          "answer": "carbon dioxide",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIZZ ED",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4010-d-c0-r0"
+        },
+        {
+          "question": "Beer has natural carbonation as a byproduct of this process involving yeast & sugar that produces the alcohol",
+          "answer": "fermentation",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIZZ ED",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4010-d-c0-r1"
+        },
+        {
+          "question": "Soda on top of ice cream makes an ice cream soda; put the ice cream on top & it's called this, like a root beer one",
+          "answer": "a float",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIZZ ED",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4010-d-c0-r2"
+        },
+        {
+          "question": "New studies show chemical carbonation in magma may fizz up these hardest gems from within the earth",
+          "answer": "diamonds",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIZZ ED",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4010-d-c0-r3"
+        },
+        {
+          "question": "The first artificially carbonated beverage was invented by this English discoverer of oxygen",
+          "answer": "Joseph Priestley",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIZZ ED",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4010-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE-TALK NAMES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"The Starter Wife\" is by Ms. Levangie Grazer, who has this first name",
+          "answer": "Gigi",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-TALK NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4010-d-c1-r0"
+        },
+        {
+          "question": "In kids' books, the gang at Tarrytown Airport includes this jet plane",
+          "answer": "Jay Jay",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-TALK NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4010-d-c1-r1"
+        },
+        {
+          "question": "Nickname of the Olympian seen here",
+          "answer": "Lolo (Jones)",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-TALK NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4010-d-c1-r2"
+        },
+        {
+          "question": "Completes the title of a spin-off from \"Toddlers & Tiaras\", \"Here Comes Honey...\"",
+          "answer": "Boo Boo",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-TALK NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4010-d-c1-r3"
+        },
+        {
+          "question": "It's the Hawaiian name of the goose seen here",
+          "answer": "a nene",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-TALK NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4010-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLEOPATRA",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Shakespeare is among those who say Cleopatra killed herself with one of these, a symbol of divine royalty",
+          "answer": "an asp",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLEOPATRA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4010-d-c2-r0"
+        },
+        {
+          "question": "The Ptolemies, Cleo's dynasty, put these lion/human statues in front of temples to show a pharaoh's brains & brawn",
+          "answer": "a sphinx",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLEOPATRA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4010-d-c2-r1"
+        },
+        {
+          "question": "When she took the throne of Egypt, Cleopatra claimed to be the living embodiment of this Egyptian goddess",
+          "answer": "Isis",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLEOPATRA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4010-d-c2-r2"
+        },
+        {
+          "question": "Cleopatra's royal residence was in this Egyptian port city; many artifacts have been recovered from its waters",
+          "answer": "Alexandria",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLEOPATRA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4010-d-c2-r3"
+        },
+        {
+          "question": "A head from the exhibit Cleopatra: The Search for the Last Queen of Egypt is thought to depict this son of Cleopatra",
+          "answer": "Caesarion or Ptolemy XV",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLEOPATRA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4010-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOUGH 2-LETTER WORDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In this language Pe is the first letter of Pesach, meaning Passover",
+          "answer": "Hebrew",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH 2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4010-d-c3-r0"
+        },
+        {
+          "question": "Os is a technical name for one of these in the body",
+          "answer": "a bone",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH 2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4010-d-c3-r1"
+        },
+        {
+          "question": "French for \"from\"",
+          "answer": "de",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH 2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4010-d-c3-r2"
+        },
+        {
+          "question": "Spanish for \"I\"",
+          "answer": "yo",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH 2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4010-d-c3-r3"
+        },
+        {
+          "question": "Ut is a version of the musical note also known by the word do & by this letter",
+          "answer": "C",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOUGH 2-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4010-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "RUSSIAN NOVELISTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1965 Mikhail Sholokhov won this prestigious award & traveled to Stockholm to receive it",
+          "answer": "the Nobel Prize",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN NOVELISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4010-d-c4-r0"
+        },
+        {
+          "question": "This author began writing \"Crime and Punishment\" in the form of a confession but later abandoned that idea",
+          "answer": "Dostoyevsky",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN NOVELISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4010-d-c4-r1"
+        },
+        {
+          "question": "This count's first published work was \"Childhood\", a fictionalized account of his early years",
+          "answer": "Tolstoy",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN NOVELISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4010-d-c4-r2"
+        },
+        {
+          "question": "From 1945 to 1953 he was imprisoned in labor camps for writing a letter critical of Stalin",
+          "answer": "Solzhenitsyn",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN NOVELISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4010-d-c4-r3"
+        },
+        {
+          "question": "Hostile reaction to his novel \"Fathers and Sons\" prompted him to leave Russia in 1863",
+          "answer": "(Ivan) Turgenev",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RUSSIAN NOVELISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4010-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEIRDPODGE",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Gary Larson says that when this comic first hit papers, \"weird\" was the word people most often used to describe it",
+          "answer": "The Far Side",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIRDPODGE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4010-d-c5-r0"
+        },
+        {
+          "question": "From 1879 to 1931 this was the most any item cost at Woolworth's",
+          "answer": "ten cents",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIRDPODGE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4010-d-c5-r1"
+        },
+        {
+          "question": "Swiss writers of this language generally ignore the weird \"B\" that sometimes replaces a double \"S\"",
+          "answer": "German",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIRDPODGE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4010-d-c5-r2"
+        },
+        {
+          "question": "Bill Paxton offers up a \"greasy pork sandwich served in a dirty ashtray\" in this film",
+          "answer": "Weird Science",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WEIRDPODGE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4010-d-c5-r3"
+        },
+        {
+          "question": "The Azores & St. Helena are actually among the highest peaks of this mountain \"ridge\"",
+          "answer": "Mid-Atlantic Ridge",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WEIRDPODGE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4010-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. CITIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The seal of this historic New England city has the phrase \"What a glorious morning for America\" & the date \"April 19\"",
+          "answer": "Lexington",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "U.S. CITIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4010-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

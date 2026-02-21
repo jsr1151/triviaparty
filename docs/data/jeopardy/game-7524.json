@@ -1,0 +1,809 @@
+{
+  "gameId": 7524,
+  "showNumber": 1487,
+  "airDate": "February 5, 1991",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "REVOLUTIONARY WAR HEROES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "After the war, this marquis returned to France with enough American soil in which to be buried",
+          "answer": "the Marquis de Lafayette",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REVOLUTIONARY WAR HEROES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7524-s-c0-r0"
+        },
+        {
+          "question": "He fought well as a major general for the Americans & a brigadier general for the British",
+          "answer": "Benedict Arnold",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REVOLUTIONARY WAR HEROES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7524-s-c0-r1"
+        },
+        {
+          "question": "Because he hadn't \"begun to fight\", he continued his career in Russia's navy",
+          "answer": "John Paul Jones",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REVOLUTIONARY WAR HEROES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7524-s-c0-r2"
+        },
+        {
+          "question": "Ethan Allen led this fighting group in Vermont",
+          "answer": "the Green Mountain Boys",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REVOLUTIONARY WAR HEROES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7524-s-c0-r3"
+        },
+        {
+          "question": "He served as Washington's aide-de-camp for 4 years before leading New York troops at Yorktown",
+          "answer": "Alexander Hamilton",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "REVOLUTIONARY WAR HEROES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7524-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS QUOTES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "When sentenced on July 19, 1990, he said, \"I lost my dignity... I lost some dear fans\"",
+          "answer": "Pete Rose",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS QUOTES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7524-s-c1-r0"
+        },
+        {
+          "question": "When asked if he deserved making more than Pres. Hoover, this Yankee said, \"Why not?  I had a better year\"",
+          "answer": "Babe Ruth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS QUOTES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7524-s-c1-r1"
+        },
+        {
+          "question": "Before leading the Jets to victory in Super Bowl III, this quarterback said, \"I guarantee it\"",
+          "answer": "Joe Namath",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS QUOTES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7524-s-c1-r2"
+        }
+      ]
+    },
+    {
+      "name": "CHILDREN'S LITERATURE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Before Dorothy & friends entered here, they were given green spectacles to wear for protection",
+          "answer": "the Emerald City",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHILDREN'S LITERATURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7524-s-c2-r0"
+        },
+        {
+          "question": "Ludwig Bemelmans' Madeline attends a boarding school in this city",
+          "answer": "Paris",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHILDREN'S LITERATURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7524-s-c2-r1"
+        },
+        {
+          "question": "Munro Leaf's bull who'd rather smell the flowers than fight",
+          "answer": "Ferdinand",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHILDREN'S LITERATURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7524-s-c2-r2"
+        },
+        {
+          "question": "Margery Williams' story of a toy brought to life by love; it's a hare-raising tale",
+          "answer": "The Velveteen Rabbit",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHILDREN'S LITERATURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7524-s-c2-r3"
+        },
+        {
+          "question": "You might say he wrote the book on nonsense, since he's the author of \"The Book of Nonsense\"",
+          "answer": "Edward Lear",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHILDREN'S LITERATURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7524-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "8-LETTER WORDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Crude writing or drawing on a wall, \"Kilroy was here\" for example",
+          "answer": "graffiti",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7524-s-c3-r0"
+        },
+        {
+          "question": "A cowboy who tends saddle horses, or the brand of jeans he might wear doing it",
+          "answer": "a wrangler",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7524-s-c3-r1"
+        },
+        {
+          "question": "A list of specialized words & their meanings, often found at the end of a book",
+          "answer": "a glossary",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7524-s-c3-r2"
+        },
+        {
+          "question": "From the Latin \"frangere\", to break, it's a broken or detached part",
+          "answer": "a fragment",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7524-s-c3-r3"
+        },
+        {
+          "question": "Iced rum & lime juice cocktail named for a place in Cuba",
+          "answer": "a daiquiri",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "8-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7524-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FASHION HISTORY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A chesterfield, which usually has a velvet collar, is one of these",
+          "answer": "an overcoat (a topcoat)",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7524-s-c4-r0"
+        },
+        {
+          "question": "In the 1770s these were extremely high & so starched & powdered they attracted vermin",
+          "answer": "wigs (or hairstyles)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7524-s-c4-r1"
+        },
+        {
+          "question": "A porkpie, which is one of these, was named for its resemblance to a pork pie",
+          "answer": "a hat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7524-s-c4-r2"
+        },
+        {
+          "question": "Portraits of Elizabeth I often show her wearing one of these large collars popular in the 1500s",
+          "answer": "a ruff",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7524-s-c4-r3"
+        },
+        {
+          "question": "This ancient civilization's rulers & chief military officers wore cloaks called paludamenta",
+          "answer": "the Roman civilization",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7524-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TAXI",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "His girlfriend, Zena, was played by Rhea Perlman",
+          "answer": "Louie",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAXI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7524-s-c5-r0"
+        },
+        {
+          "question": "After turning from boxing to acting in real life, he went back for 1 more match in 1979 in Madison Square Garden",
+          "answer": "Tony Danza",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAXI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7524-s-c5-r1"
+        },
+        {
+          "question": "Before becoming a regular he appeared once as the minister planning to officiate at Latka's wedding",
+          "answer": "Reverend Jim (Ignatowski)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TAXI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7524-s-c5-r2"
+        },
+        {
+          "question": "This cabdriver has 2 kids, Jason & Jennifer",
+          "answer": "Elaine Nardo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TAXI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7524-s-c5-r3"
+        },
+        {
+          "question": "This ex-wife of Woody Allen played Alex Reiger's ex-wife Phyllis",
+          "answer": "Louise Lasser",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TAXI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7524-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "GREAT DISASTERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Guinness says when this volcano erupted in 1980, it caused the largest avalanche ever in the U.S.",
+          "answer": "Mount St. Helens",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT DISASTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7524-d-c0-r0"
+        },
+        {
+          "question": "The 1889 river flood at this Pennsylvania town took more U.S. lives than any other",
+          "answer": "Johnstown",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT DISASTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7524-d-c0-r1"
+        },
+        {
+          "question": "About 5,000 were trampled in the stampede for free beer at the coronation of this czar in 1896",
+          "answer": "Nicholas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT DISASTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7524-d-c0-r2"
+        },
+        {
+          "question": "Few remember it was the Stockholm, a Swedish liner, that collided with this Italian liner in 1956",
+          "answer": "the Andrea Doria",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT DISASTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7524-d-c0-r3"
+        },
+        {
+          "question": "It took 20 years for this country to admit that 25 million died of famine there in 1961",
+          "answer": "China",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GREAT DISASTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7524-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM THE FRENCH",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "To strut conspicuously, it's from the French \"chasse\", referring to a gliding dance step",
+          "answer": "sashay",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7524-d-c1-r0"
+        },
+        {
+          "question": "This word for a diplomatic agent is from the French for \"to send\"",
+          "answer": "an envoy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7524-d-c1-r1"
+        },
+        {
+          "question": "A group of people surrounding an important person, derived from the French for \"to surround\"",
+          "answer": "an entourage",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7524-d-c1-r2"
+        },
+        {
+          "question": "From the French meaning \"novel with a key\", it's a novel with thinly disguised depictions of real people",
+          "answer": "a roman à clef",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7524-d-c1-r3"
+        },
+        {
+          "question": "This word for a subtle distinction is French for shade or hue",
+          "answer": "a nuance",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM THE FRENCH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7524-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PLANETS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Circling the Sun every 88 days, it is the fastest planet",
+          "answer": "Mercury",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7524-d-c2-r0"
+        },
+        {
+          "question": "In 1610 he looked through his telescope & discovered the 4 large moons of Jupiter",
+          "answer": "Galileo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7524-d-c2-r1"
+        },
+        {
+          "question": "This planet, tho not nearest the Sun, is hottest because of a greenhouse effect",
+          "answer": "Venus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7524-d-c2-r2"
+        },
+        {
+          "question": "Because it is smallest & lightest, some astronomers think it should be considered an asteroid",
+          "answer": "Pluto",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7524-d-c2-r3"
+        },
+        {
+          "question": "In 1986 Voyager II discovered this planet has 15 moons & 11 rings",
+          "answer": "Uranus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7524-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYWRIGHTS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Like his niece Grace Kelly, playwright George Kelly was born in this Pennsylvania city",
+          "answer": "Philadelphia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7524-d-c3-r0"
+        },
+        {
+          "question": "In 1947 Bertolt Brecht returned to Europe after testifying before this committee",
+          "answer": "the House Un-American Activities Committee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7524-d-c3-r1"
+        },
+        {
+          "question": "William Gibson called his book about the making of this play \"The Seesaw Log\"",
+          "answer": "Two for the Seesaw",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7524-d-c3-r2"
+        },
+        {
+          "question": "He wrote \"That Championship Season\" while acting in \"The Odd Couple\" at a Fort Worth dinner theatre",
+          "answer": "Jason Miller",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7524-d-c3-r3"
+        },
+        {
+          "question": "He dedicated \"The Plough and the Stars\" to \"the gay laugh of my mother at the gate of the grave\"",
+          "answer": "Seán O'Casey",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLAYWRIGHTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7524-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PACIFIC",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This line zigzags, so the Wallis Islands are to the west of it & Western Samoa to the east",
+          "answer": "the International Date Line",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PACIFIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7524-d-c4-r0"
+        },
+        {
+          "question": "The largest of the 3 main groups of islands, its name means \"many islands\"",
+          "answer": "Polynesia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PACIFIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7524-d-c4-r1"
+        },
+        {
+          "question": "He found the Pacific in 1513 but couldn't sail it then because he left his ship on the other side of Panama",
+          "answer": "Balboa",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PACIFIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7524-d-c4-r2"
+        },
+        {
+          "question": "The S. Equatorial Current splits near Chile; part goes around Cape Horn, the rest heads north as this",
+          "answer": "the Humboldt Current",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PACIFIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7524-d-c4-r3"
+        },
+        {
+          "question": "The Pacific is bounded by the Ross Sea to the south & this sea to the north",
+          "answer": "the Bering Sea",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PACIFIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7524-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CREATION ACCOUNTS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The West African Dogon tribe believed a cosmic one of these came first, not a chicken",
+          "answer": "an egg",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATION ACCOUNTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7524-d-c5-r0"
+        },
+        {
+          "question": "The Kalahari Bushmen believe all the animals were created by Cagn, whose symbol is this praying insect",
+          "answer": "a mantis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATION ACCOUNTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7524-d-c5-r1"
+        },
+        {
+          "question": "Some creation accounts fall under the category creatio ex nihilo, creation from this",
+          "answer": "nothing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATION ACCOUNTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7524-d-c5-r2"
+        },
+        {
+          "question": "The Koran states that Allah created heaven & earth in this number of days or periods",
+          "answer": "6",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATION ACCOUNTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7524-d-c5-r3"
+        },
+        {
+          "question": "In this civilization's legend, when Khepri came into being so did being itself",
+          "answer": "the Egyptian civilization",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CREATION ACCOUNTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7524-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Prior to Ronald Reagan, he was the only president who served past the age of 70",
+          "answer": "Dwight David Eisenhower",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "PRESIDENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7524-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

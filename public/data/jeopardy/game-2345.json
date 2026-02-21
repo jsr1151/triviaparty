@@ -1,0 +1,833 @@
+{
+  "gameId": 2345,
+  "showNumber": 5403,
+  "airDate": "February 20, 2008",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HIGH SCHOOL",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The friendship of this rock band's Anthony Kiedis & Flea began at L.A.'s Fairfax High",
+          "answer": "the Red Hot Chili Peppers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH SCHOOL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2345-s-c0-r0"
+        },
+        {
+          "question": "French, Spanish & Italian are in this branch of languages",
+          "answer": "Romance languages",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH SCHOOL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2345-s-c0-r1"
+        },
+        {
+          "question": "\"Unlock\" the future by joining this public service club, a member of the Kiwanis International family",
+          "answer": "a Key Club",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH SCHOOL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2345-s-c0-r2"
+        },
+        {
+          "question": "In Lewiston, Idaho there's a college named for Lewis & Clark & a junior high named for this Indian guide",
+          "answer": "Sacagawea",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH SCHOOL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2345-s-c0-r3"
+        },
+        {
+          "question": "From the Latin for \"to call\", this type of high school is for those who plan to enter a trade, not college",
+          "answer": "a vocational high school",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HIGH SCHOOL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2345-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE LIBRARY",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This Upton Sinclair expose of the meatpacking industry helped lead to the 1906 Pure Food & Drug Act",
+          "answer": "The Jungle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2345-s-c1-r0"
+        },
+        {
+          "question": "Sethe, a former slave, is haunted by the ghost of her daughter, whom she killed, in this Toni Morrison novel",
+          "answer": "Beloved",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2345-s-c1-r1"
+        },
+        {
+          "question": "Check out this man's \"I, Robot\", or have an android bring it to you",
+          "answer": "Asimov",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2345-s-c1-r2"
+        },
+        {
+          "question": "For some really deep reading, grab this ancient Greek philosopher's \"Physics\" or \"Metaphysics\"",
+          "answer": "Aristotle",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2345-s-c1-r3"
+        },
+        {
+          "question": "It'll take more than a moment to read this 1988 bestseller by British physicist Stephen Hawking",
+          "answer": "A Brief History of Time",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LIBRARY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2345-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE GYM",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The first World Championship in this gymnastic sport bounced into view in 1964",
+          "answer": "the trampoline",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE GYM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2345-s-c2-r0"
+        },
+        {
+          "question": "The pommels on your gym's pommel horse refer to these on the structure",
+          "answer": "the handles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GYM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2345-s-c2-r1"
+        },
+        {
+          "question": "From the Greek for \"beautiful strength\", these light exercises that help promote fitness are often part of gym class",
+          "answer": "calisthenics",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GYM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2345-s-c2-r2"
+        },
+        {
+          "question": "Now no longer in the Games, an early Olympic gymnastic event was the speed climbing of one of these",
+          "answer": "a rope",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GYM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2345-s-c2-r3"
+        },
+        {
+          "question": "In this type of gymnastics, competitors may use a stick with a satin ribbon that's 7 meters long",
+          "answer": "rhythmic gymnastics",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE GYM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2345-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SCIENCE LAB",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "(Sarah of the Clue Crew holds a magnet to a lamp bulb.)  When lit, the filament becomes a magnet; using another magnet, we can see it move, showing this type of electricity that reverses directions & continuously switches the filament's magnetic poles",
+          "answer": "alternating current",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SCIENCE LAB",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2345-s-c3-r0"
+        },
+        {
+          "question": "While he invented spectroscopy with Gustav Kirchhoff, he didn't invent the burner that's named for him",
+          "answer": "(Robert) Bunsen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SCIENCE LAB",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2345-s-c3-r1"
+        },
+        {
+          "question": "This piece of lab equipment used to develop plate cultures was named for a 1920s German bacteriologist",
+          "answer": "a Petri dish",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SCIENCE LAB",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2345-s-c3-r2"
+        },
+        {
+          "question": "In 1935 the Russian government built him a new lab to continue his work on conditioned reflexes",
+          "answer": "(Ivan) Pavlov",
+          "value": 1400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SCIENCE LAB",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2345-s-c3-r3"
+        },
+        {
+          "question": "Through his experiments with pea plants, he discovered the basic principles of heredity",
+          "answer": "Mendel",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SCIENCE LAB",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2345-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CAFETERIA",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Good, I'm not too late for the breakfast one of these--bacon, eggs & cheese wrapped in a flour tortilla",
+          "answer": "a burrito",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAFETERIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2345-s-c4-r0"
+        },
+        {
+          "question": "Uh-oh, food fight!  Kids are flinging this food from Kraft; \"It's the cheesiest!\"",
+          "answer": "macaroni & cheese",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAFETERIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2345-s-c4-r1"
+        },
+        {
+          "question": "Caesar salad--great!  As long as it doesn't include pieces of these small salty fish, like last time",
+          "answer": "anchovies",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAFETERIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2345-s-c4-r2"
+        },
+        {
+          "question": "It's a good day to warm up with a bowl of this thick hearty vegetable soup, from the Italian for \"something served\"",
+          "answer": "minestrone",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAFETERIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2345-s-c4-r3"
+        },
+        {
+          "question": "I've decided to go meatless, so I'll have one of this 4-letter brand's soy-based burgers or Chik'n Patties",
+          "answer": "Boca",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAFETERIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2345-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"AFTER\" CLASS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A small earthquake or tremor that occurs following a major one",
+          "answer": "an aftershock",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AFTER\" CLASS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2345-s-c5-r0"
+        },
+        {
+          "question": "In the familiar spelling rule, \"I\" comes before \"E\" except in this case",
+          "answer": "after \"C\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AFTER\" CLASS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2345-s-c5-r1"
+        },
+        {
+          "question": "To increase a jet plane's thrust, turn on these that feed fuel into the hot exhaust gases",
+          "answer": "afterburners",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AFTER\" CLASS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2345-s-c5-r2"
+        },
+        {
+          "question": "An epilogue",
+          "answer": "an afterword",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AFTER\" CLASS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2345-s-c5-r3"
+        },
+        {
+          "question": "Reconsideration upon an act's completion, or something added that wasn't in the original plan",
+          "answer": "an afterthought",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"AFTER\" CLASS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2345-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE STAMP ACT",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A 17-cent stamp issued in 2007 featured the bighorn type of this sure-footed creature",
+          "answer": "a bighorn sheep",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STAMP ACT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2345-d-c0-r0"
+        },
+        {
+          "question": "The Pollination stamps show a butterfly, a bat, bees & this small nectar-sipping bird",
+          "answer": "a hummingbird",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STAMP ACT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2345-d-c0-r1"
+        },
+        {
+          "question": "The stamp promoting this civic duty says \"Serve With Pride\" & shows 12 colorful people in silhouette",
+          "answer": "jury duty",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE STAMP ACT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2345-d-c0-r2"
+        },
+        {
+          "question": "The Art of Disney: Magic series includes a stamp of Mickey Mouse in this role from \"Fantasia\"",
+          "answer": "the Sorcerer's Apprentice",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STAMP ACT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2345-d-c0-r3"
+        },
+        {
+          "question": "The stamp depicting Hagatna Bay honors this U.S. territory, the largest of the Marianas",
+          "answer": "Guam",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STAMP ACT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2345-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "THIS & THAT",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Greek god Dionysus gave this king of Phrygia the power to turn all he touched into gold",
+          "answer": "Midas",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2345-d-c1-r0"
+        },
+        {
+          "question": "From the Old French for \"container\", it's the container in which an archer carries his arrows",
+          "answer": "a quiver",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2345-d-c1-r1"
+        },
+        {
+          "question": "In the Bible, Jacob's gift of this to his son Joseph aroused the envy of Joseph's brothers",
+          "answer": "a coat of many colors",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2345-d-c1-r2"
+        },
+        {
+          "question": "In German, it means \"until we see each other again\"",
+          "answer": "auf wiedersehen",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2345-d-c1-r3"
+        },
+        {
+          "question": "These were the names of \"The Three Musketeers\"--d'Artagnan joined later",
+          "answer": "Athos, Porthos & Aramis",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THIS & THAT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2345-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "3 CHEERS FOR CHEERLEADERS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "She was a cheerleader--& class president--at Bedford High, as you could read on her website, hallewood.com",
+          "answer": "Halle Berry",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3 CHEERS FOR CHEERLEADERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2345-d-c2-r0"
+        },
+        {
+          "question": "She looked quite angelic as a cheerleader at Long Beach Poly years before she became a move Angel",
+          "answer": "Cameron Diaz",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3 CHEERS FOR CHEERLEADERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2345-d-c2-r1"
+        },
+        {
+          "question": "She led cheers at her New Jersey high school before acting in \"Brothers & Sisters\"",
+          "answer": "Calista Flockhart",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "3 CHEERS FOR CHEERLEADERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2345-d-c2-r2"
+        },
+        {
+          "question": "You can't \"Miss\" her \"Congeniality\", which must have helped her as a cheerleader at Washington Lee High",
+          "answer": "Sandra Bullock",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3 CHEERS FOR CHEERLEADERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2345-d-c2-r3"
+        },
+        {
+          "question": "I'd \"Walk the Line\" back to Nashville to see this Oscar winner cheer at her alma mater, Harpeth Hall",
+          "answer": "(Reese) Witherspoon",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "3 CHEERS FOR CHEERLEADERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2345-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WO\"RR\"DS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This imperfect duplication of Superman with a childish brain lived on Planet Htrae (Earth backwards)",
+          "answer": "Bizarro",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WO\"RR\"DS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2345-d-c3-r0"
+        },
+        {
+          "question": "Kerry Blue, Airedale & Sealhyam are breeds of this dog group",
+          "answer": "terriers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WO\"RR\"DS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2345-d-c3-r1"
+        },
+        {
+          "question": "Line 525 of Alexander Pope's \"Essay on Criticism\" says \"To\" do this \"is human, to forgive, divine\"",
+          "answer": "to err",
+          "value": 1800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WO\"RR\"DS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2345-d-c3-r2"
+        },
+        {
+          "question": "The diocese of Urgel shares control of this country wedged between France & Spain",
+          "answer": "Andorra",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WO\"RR\"DS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2345-d-c3-r3"
+        },
+        {
+          "question": "This Spanish word taken from the vulgar Latin for \"gold mine\" refers to a deep gully cut by a stream",
+          "answer": "an arroyo",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WO\"RR\"DS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2345-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LET'S GO TO OHIO",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Churchill called this largest city on the Ohio River \"the most beautiful of the inland cities of the Union\"",
+          "answer": "Cincinnati",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO OHIO",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2345-d-c4-r0"
+        },
+        {
+          "question": "Check out the McKinley National Memorial & the Pro Football Hall of Fame (which are 2 totally different things) in this city",
+          "answer": "Canton",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO OHIO",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2345-d-c4-r1"
+        },
+        {
+          "question": "In 1812 the state legislature chose this name for its capital city, though many wanted to name it Ohio City",
+          "answer": "Columbus",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO OHIO",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2345-d-c4-r2"
+        },
+        {
+          "question": "The Goodyear Tire & Rubber Company has its main office in this city, named after a Greek word for \"high point\"",
+          "answer": "Akron",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO OHIO",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2345-d-c4-r3"
+        },
+        {
+          "question": "In 1969 this river running through Cleveland actually caught fire",
+          "answer": "the Cuyahoga",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LET'S GO TO OHIO",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2345-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "NO, I'M GOING TO THE ZOO",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This primate of Indonesia is the only ape whose name begins with an \"O\"",
+          "answer": "an orangutan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NO, I'M GOING TO THE ZOO",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2345-d-c5-r0"
+        },
+        {
+          "question": "Step up to \"bat\" & name this Down Under denizen seen here",
+          "answer": "a wombat",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NO, I'M GOING TO THE ZOO",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2345-d-c5-r1"
+        },
+        {
+          "question": "Seen here is the desert variety of this, a word referring only to land-dwelling animals",
+          "answer": "a tortoise",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NO, I'M GOING TO THE ZOO",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2345-d-c5-r2"
+        },
+        {
+          "question": "The pangolin of Asia, seen here, is also known as the \"scaly\" one of these insectivores",
+          "answer": "an anteater",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NO, I'M GOING TO THE ZOO",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2345-d-c5-r3"
+        },
+        {
+          "question": "It's the marsupial-inspired name of the desert rat seen here",
+          "answer": "the kangaroo rat",
+          "value": 2700,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NO, I'M GOING TO THE ZOO",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2345-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTABLE NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "At his death in April 1955, his brain was preserved & his ashes scattered in the Delaware River",
+          "answer": "Albert Einstein",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "NOTABLE NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2345-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,821 @@
+{
+  "gameId": 3522,
+  "showNumber": 6036,
+  "airDate": "December 6, 2010",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "HAPPY TRAILS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "An important commercial route, this trail to New Mexico was started in 1821",
+          "answer": "the Santa Fe Trail",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY TRAILS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3522-s-c0-r0"
+        },
+        {
+          "question": "Completed in 1937, this 2,000-mile hiking trail passes through 14 states",
+          "answer": "the Appalachian Trail",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY TRAILS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3522-s-c0-r1"
+        },
+        {
+          "question": "Starting in this state, the Chisholm Trail was the principal route to take Longhorn cattle to Kansas",
+          "answer": "Texas",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY TRAILS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3522-s-c0-r2"
+        },
+        {
+          "question": "California's Highway 101 follows El Camino Real, which linked 4 presidios with 21 of these",
+          "answer": "missions",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY TRAILS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3522-s-c0-r3"
+        },
+        {
+          "question": "The Bozeman Trail was closed in 1868 by a treaty with this Indian nation",
+          "answer": "the Sioux",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HAPPY TRAILS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3522-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE VERBS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Featured some soccer moms: \"____ it Like Beckham\"",
+          "answer": "bend",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE VERBS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3522-s-c1-r0"
+        },
+        {
+          "question": "Kevin Costner on the range: \"____ With Wolves\"",
+          "answer": "dances",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE VERBS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3522-s-c1-r1"
+        },
+        {
+          "question": "A 1950s classic: \"How to ____ a Millionaire\"",
+          "answer": "How to Marry a Millionaire",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE VERBS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3522-s-c1-r2"
+        },
+        {
+          "question": "Bogart pulled no punches: \"The Harder They ____\"",
+          "answer": "fall",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE VERBS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3522-s-c1-r3"
+        },
+        {
+          "question": "Warren Beatty as a Rams QB: \"Heaven ____ ____\"",
+          "answer": "can wait",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE VERBS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3522-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WELL, I NEVER!",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "I never wrote the biography \"Mr. Playboy:\" this man \"and the American Dream\"; the research would've killed me",
+          "answer": "Hugh Hefner",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELL, I NEVER!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3522-s-c2-r0"
+        },
+        {
+          "question": "I never blasted off on Apollo this number on April 11, 1970; its Aquarius lunar module never touched down",
+          "answer": "Apollo 13",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELL, I NEVER!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3522-s-c2-r1"
+        },
+        {
+          "question": "I never dressed like this 7-letter type of unconventional 1920s lady (I think our graphics guy and I are gonna have a talk)",
+          "answer": "a flapper",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELL, I NEVER!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3522-s-c2-r2"
+        },
+        {
+          "question": "It may be the Univ. of Michigan's mascot, but I never had this animal as a pet; it attacks reindeer, caribou & almost anything",
+          "answer": "the wolverine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELL, I NEVER!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3522-s-c2-r3"
+        },
+        {
+          "question": "Dennis Hastert, Champ Clark & Tip O'Neill all held this leadership post in congress but I never did...yet!",
+          "answer": "Speaker of the House",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WELL, I NEVER!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3522-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "RACCOONS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This part has 4 to 10 black rings; counting them won't tell you the raccoon's age",
+          "answer": "the tail",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RACCOONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3522-s-c3-r0"
+        },
+        {
+          "question": "The NYC health dept. suggests using the Cayenne type of this on raccoons-- to keep them out, not to season them",
+          "answer": "pepper",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RACCOONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3522-s-c3-r1"
+        },
+        {
+          "question": "In 1997 raccoons passed skunks as the most frequent vector of this disease",
+          "answer": "rabies",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RACCOONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3522-s-c3-r2"
+        },
+        {
+          "question": "A small type of raccoon with a light coat is found only on Cozumel, an island off this peninsula",
+          "answer": "the Yucatán peninsula",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RACCOONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3522-s-c3-r3"
+        },
+        {
+          "question": "Raccoons' fur may be silver-tipped, like the fur that gives this North American animal its name",
+          "answer": "the grizzly bear",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "RACCOONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3522-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT THE \"H\"",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Feature shared by camels, Quasimodo & certain whales",
+          "answer": "a hump",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT THE \"H\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3522-s-c4-r0"
+        },
+        {
+          "question": "An ace in golf",
+          "answer": "a hole in one",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT THE \"H\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3522-s-c4-r1"
+        },
+        {
+          "question": "Break out the bagpipes; it's time for this lively Scottish folk dance",
+          "answer": "the Highland Fling",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT THE \"H\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3522-s-c4-r2"
+        },
+        {
+          "question": "This U.K. government \"office\" is responsible for domestic affairs",
+          "answer": "the Home Office",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT THE \"H\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3522-s-c4-r3"
+        },
+        {
+          "question": "Namaste is a greeting in this official language of India",
+          "answer": "Hindi",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT THE \"H\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3522-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE ANHEUSER- BUSCH BREWERY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Jimmy of the Clue Crew stands in front of a large tank at the Anheuser-Busch Brewery.)  Malt & water are mixed in these big cooking pots known as mash tanks; this process turns the simple sugars inside into CO2 & alcohol",
+          "answer": "fermentation",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANHEUSER- BUSCH BREWERY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3522-s-c5-r0"
+        },
+        {
+          "question": "(Kelly of the Clue Crew reports from the brewery.)  Always at the forefront of innovation, Anheuser-Busch was among the first to use artificial refrigeration & this heating process that kills pathogenic microorganisms",
+          "answer": "pasteurization",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANHEUSER- BUSCH BREWERY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3522-s-c5-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew holds the reins to a Clydesdale horse.)  A symbol for over 75 years, the Budweiser Clydesdales were formally introduced on April 7, 1933 to honor the end of this 13-year period in American history",
+          "answer": "Prohibition",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANHEUSER- BUSCH BREWERY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3522-s-c5-r2"
+        },
+        {
+          "question": "(Kelly of the Clue Crew stands by a brew kettle.)  One of the most important additions to the brew kettles are these blossoms that release the oil & resins that give the beer its great flavor",
+          "answer": "hops",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE ANHEUSER- BUSCH BREWERY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3522-s-c5-r3"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew holds small pieces of wood.)  To complete the maturation process of lagering, Anheuser-Busch uses wood chips from this timber tree to assure a mellow blend",
+          "answer": "beech",
+          "value": 2400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE ANHEUSER- BUSCH BREWERY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3522-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PAINTERS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the early 19th century, this Spaniard painted \"The Clothed Maja\"",
+          "answer": "Goya",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3522-d-c0-r0"
+        },
+        {
+          "question": "This female Impressionist helped Americans collect art, like the Havemeyers, whose collection went to the Met",
+          "answer": "Mary Cassatt",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3522-d-c0-r1"
+        },
+        {
+          "question": "This family of painters from Augsburg, Germany included Hans the Elder, Sigmund, Ambrosius & Hans the Younger",
+          "answer": "Holbein",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3522-d-c0-r2"
+        },
+        {
+          "question": "A dynasty of Flemish artists with this last name included Pieter the Elder, Pieter the Younger & Jan (aka Velvet)",
+          "answer": "Bruegel",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3522-d-c0-r3"
+        },
+        {
+          "question": "The influence of \"Las Meninas\" is apparent in \"The Daughters of Edward Darley Boit\" by this three-named artist",
+          "answer": "John Singer Sargent",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3522-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAYOR PLAYER",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Jeffrey Tambor was Mayor Augustus Maywho in this 2000 Dr. Seuss holiday tale",
+          "answer": "How the Grinch Stole Christmas!",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYOR PLAYER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3522-d-c1-r0"
+        },
+        {
+          "question": "James Woods received an Emmy nomination for portraying this mayor, his rise to power & his response to 9/11",
+          "answer": "Giuliani",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYOR PLAYER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3522-d-c1-r1"
+        },
+        {
+          "question": "David Margulies played mayor Lenny in this sci-fi comedy & its sequel--who ya gonna call?",
+          "answer": "Ghostbusters",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYOR PLAYER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3522-d-c1-r2"
+        },
+        {
+          "question": "On the David Lynch TV series, Dwayne Milford, played by John Boylan, was mayor of this northwest town",
+          "answer": "Twin Peaks",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYOR PLAYER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3522-d-c1-r3"
+        },
+        {
+          "question": "In \"Milk\", Victor Garber portrayed this slain San Francisco mayor",
+          "answer": "George Moscone",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAYOR PLAYER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3522-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE FRONTIER STOREKEEPER",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Got plenty of sugar & this other essential seasoning to make country-cured ham",
+          "answer": "salt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRONTIER STOREKEEPER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3522-d-c2-r0"
+        },
+        {
+          "question": "You're lucky--this is my last tin of McCann's steel-cut Irish this food",
+          "answer": "oatmeal",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRONTIER STOREKEEPER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3522-d-c2-r1"
+        },
+        {
+          "question": "I've got a sideline in bridles, saddles & other horse equipment, known by this 4-letter name",
+          "answer": "tack",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRONTIER STOREKEEPER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3522-d-c2-r2"
+        },
+        {
+          "question": "Totally morphine-free, it's Sutton's Ague Drops, one of these cures that sounds like it's government protected",
+          "answer": "a patent medicine",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRONTIER STOREKEEPER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3522-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "CHRIS & TELL",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In a Christopher Moore tale, Christmas is thrown into chaos by Raziel, \"the stupidest\" of these winged beings",
+          "answer": "angels",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRIS & TELL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3522-d-c3-r0"
+        },
+        {
+          "question": "\"Thank You for Smoking\" & \"No Way to Treat a First Lady\" are books by this political satirist",
+          "answer": "Christopher Buckley",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHRIS & TELL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3522-d-c3-r1"
+        },
+        {
+          "question": "Christopher Lasch critiqued our society of self-lovers in the 1979 bestseller \"The Culture of\" this -ism",
+          "answer": "Narcissism",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHRIS & TELL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3522-d-c3-r2"
+        },
+        {
+          "question": "The films \"Zathura\" & \"Jumanji\" are based on books by this Chris",
+          "answer": "Chris Van Allsburg",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHRIS & TELL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3522-d-c3-r3"
+        },
+        {
+          "question": "The film \"Chris & Don: A Love Story\" is about painter Don Bachardy & this author of \"Goodbye to Berlin\"",
+          "answer": "Christopher Isherwood",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CHRIS & TELL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3522-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "NATIONS' FOUNDING FATHERS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Dr. Sun Yat-Sen",
+          "answer": "China",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NATIONS' FOUNDING FATHERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3522-d-c4-r0"
+        },
+        {
+          "question": "Ex-slave Pierre Francois Dominique Toussaint L'Ouverture",
+          "answer": "Haiti",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONS' FOUNDING FATHERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3522-d-c4-r1"
+        },
+        {
+          "question": "Marshal Jozef Pilsudski",
+          "answer": "Poland",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONS' FOUNDING FATHERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3522-d-c4-r2"
+        },
+        {
+          "question": "Prince William I of Orange",
+          "answer": "the Netherlands",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NATIONS' FOUNDING FATHERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3522-d-c4-r3"
+        },
+        {
+          "question": "Lawyer Muhammad Ali Jinnah",
+          "answer": "Pakistan",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NATIONS' FOUNDING FATHERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3522-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT HAPPENED TO THE \"MOTHER\"s?",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The main circuitry of a computer is found here",
+          "answer": "the motherboard",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT HAPPENED TO THE \"MOTHER\"s?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3522-d-c5-r0"
+        },
+        {
+          "question": "Oyster shell lining prized in jewelry making",
+          "answer": "mother-of-pearl",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT HAPPENED TO THE \"MOTHER\"s?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3522-d-c5-r1"
+        },
+        {
+          "question": "The Missionaries of Charity copyrighted her name in 2003 in order to protect it",
+          "answer": "Mother Teresa",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT HAPPENED TO THE \"MOTHER\"s?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3522-d-c5-r2"
+        },
+        {
+          "question": "It's a larger vessel that guards & supplies smaller ones",
+          "answer": "a mother ship",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT HAPPENED TO THE \"MOTHER\"s?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3522-d-c5-r3"
+        },
+        {
+          "question": "Mary Wollstonecraft was this to Percy Shelley",
+          "answer": "mother-in-law",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT HAPPENED TO THE \"MOTHER\"s?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3522-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This happens several times, as in I Kings 17 & Acts 20; the most famous time, it's done by Jesus in John 11",
+          "answer": "raising the dead",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE BIBLE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3522-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

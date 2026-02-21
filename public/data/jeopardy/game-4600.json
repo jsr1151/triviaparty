@@ -1,0 +1,797 @@
+{
+  "gameId": 4600,
+  "showNumber": 875,
+  "airDate": "May 27, 1988",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Only U.S. state above 54° 40' north",
+          "answer": "Alaska",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4600-s-c0-r0"
+        },
+        {
+          "question": "At 5 feet below sea level, this city is the lowest point in Louisiana",
+          "answer": "New Orleans",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4600-s-c0-r1"
+        },
+        {
+          "question": "State in which you'll find the Carson River, Carson Lake & Carson Sink",
+          "answer": "Nevada",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4600-s-c0-r2"
+        },
+        {
+          "question": "Originally called Eddy, this New Mexico city known for its caverns was named for a spa town in Europe",
+          "answer": "Carlsbad",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4600-s-c0-r3"
+        },
+        {
+          "question": "Conventioneers, take note: this city has 100,000 hotel rooms",
+          "answer": "New York City",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4600-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV RERUNS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Christmas Snow, better known as Chrissy, was 1 of a trio of roommates on this show",
+          "answer": "Three's Company",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV RERUNS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4600-s-c1-r0"
+        },
+        {
+          "question": "Though given the option, Jim Phelps never turned down an assignment on this show",
+          "answer": "Mission: Impossible",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV RERUNS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4600-s-c1-r1"
+        },
+        {
+          "question": "This show's theme heard here, played on 168 1st-run episodes & again & again on countless reruns:\"How will you make it on your own? /This world is awfully big /And girl this time you're all alone\"",
+          "answer": "The Mary Tyler Moore Show",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV RERUNS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4600-s-c1-r2"
+        },
+        {
+          "question": "This was the 1st show on which Polly Holliday played Flo Castleberry",
+          "answer": "Alice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV RERUNS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4600-s-c1-r3"
+        },
+        {
+          "question": "1 of 2 TV series in which Fred Berry played a character named Rerun",
+          "answer": "What's Happening!! (or What's Happening Now!!)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV RERUNS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4600-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "IN THE NEWS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Time magazine Man of the Year for 1987",
+          "answer": "Gorbachev",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4600-s-c2-r0"
+        },
+        {
+          "question": "A new winery in this California wine region will soon be making an amusing domestic sake",
+          "answer": "Napa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4600-s-c2-r1"
+        },
+        {
+          "question": "Of 3, 7, or 11 months, the longest time one person has spent in space",
+          "answer": "11 months",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4600-s-c2-r2"
+        },
+        {
+          "question": "An oil spill on this Pennsylvania river on Jan. 2, 1980 forced thousands to melt snow for drinking water",
+          "answer": "Monongahela",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4600-s-c2-r3"
+        },
+        {
+          "question": "Sony announced that after 12 years of saying \"No way\", they will begin to market these in 1988",
+          "answer": "VHS style video cassette recorder",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IN THE NEWS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4600-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRUITS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Types of this fruit include duke, Windsor, & Bing",
+          "answer": "cherries",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4600-s-c3-r0"
+        },
+        {
+          "question": "Only the U.S. grows more lemons than this country in Europe where they put the peel in caffe espresso",
+          "answer": "Italy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRUITS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4600-s-c3-r1"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC NAMES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Circa 67 A.D. Linus followed Peter to become 2nd to hold this position",
+          "answer": "pope",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4600-s-c4-r0"
+        },
+        {
+          "question": "Prime minister born at Blenheim Palace, seat of the Duke of Marlborough, in 1874",
+          "answer": "Churchill",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4600-s-c4-r1"
+        },
+        {
+          "question": "This future emperor conquered Egypt in 1798",
+          "answer": "Napoleon",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4600-s-c4-r2"
+        },
+        {
+          "question": "She was forbidden to appear in public with Adolf Hitler",
+          "answer": "Eva Braun",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4600-s-c4-r3"
+        },
+        {
+          "question": "He was the 1st U.S. Vice President who did not go on to become President",
+          "answer": "Aaron Burr",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC NAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4600-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODD ROCK WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In the title of the Bobby Darin classic, this word preceded \"Splash\"",
+          "answer": "Splish",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD ROCK WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4600-s-c5-r0"
+        },
+        {
+          "question": "In a 1985 hit title, Aretha Franklin asked \"Who's\" doing this to \"Who\"",
+          "answer": "Zoomin'",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD ROCK WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4600-s-c5-r1"
+        },
+        {
+          "question": "Their album \"Zenyatta Mondata\" featured the single \"De Do Do Do, De Da Da Da\"",
+          "answer": "The Police",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD ROCK WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4600-s-c5-r2"
+        },
+        {
+          "question": "In various titles, this word precedes \"Judge\", \"Broadway\", \"Street\", \"Worm\", \"Town\" & \"Nassau\"",
+          "answer": "Funky",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ODD ROCK WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4600-s-c5-r3"
+        },
+        {
+          "question": "Odd word which, when repeated, formed the title of a 1987 Billy Idol hit",
+          "answer": "Mony",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD ROCK WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4600-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CONSTITUTION",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Constitutional term for bringing charges against a public official, not removing one from office",
+          "answer": "impeachment",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CONSTITUTION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4600-d-c0-r0"
+        },
+        {
+          "question": "Article I, Section 3 states it's the only time the Vice President can cast a vote in the Senate",
+          "answer": "in the case of a tie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CONSTITUTION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4600-d-c0-r1"
+        },
+        {
+          "question": "The 23rd Amendment gives it as many electoral votes as the least populous state",
+          "answer": "Washington, D.C.",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CONSTITUTION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4600-d-c0-r2"
+        },
+        {
+          "question": "The last article of the Constitution calls for 9 states to do this",
+          "answer": "ratify the Constitution",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE CONSTITUTION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4600-d-c0-r3"
+        },
+        {
+          "question": "Banned by the Constitution, it's a law that would come into effect retroactively",
+          "answer": "ex post facto",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE CONSTITUTION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4600-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANATOMY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Acute bunions are a form of this inflamation of the bursae",
+          "answer": "bursitis",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4600-d-c1-r0"
+        },
+        {
+          "question": "The external jugular veins originate in these glands involved with eating",
+          "answer": "salivary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4600-d-c1-r1"
+        },
+        {
+          "question": "Organ in which you'd find the renal pyramids",
+          "answer": "kidneys",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4600-d-c1-r2"
+        },
+        {
+          "question": "A typical one of these has dendrites & an axon extending from it",
+          "answer": "nerve",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4600-d-c1-r3"
+        },
+        {
+          "question": "Technical term for the tailbone",
+          "answer": "coccyx",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANATOMY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4600-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SKIING & SKATING",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "An ice skater's compulsory, or school, figures are designs based on this numeral",
+          "answer": "8",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SKIING & SKATING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4600-d-c2-r0"
+        },
+        {
+          "question": "The 2 basic types of clocked \"races\" that usually make up an alpine skiing competition",
+          "answer": "downhill & slalom",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SKIING & SKATING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4600-d-c2-r1"
+        },
+        {
+          "question": "1 method of learning to ski that became popular in the '60s was the \"GLM\" method, which means this",
+          "answer": "graduated length method",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SKIING & SKATING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4600-d-c2-r2"
+        },
+        {
+          "question": "The back of a hockey skate is higher than the front in order to protect this vulnerable ankle spot",
+          "answer": "Achilles tendon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SKIING & SKATING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4600-d-c2-r3"
+        },
+        {
+          "question": "Botanical name for the grainy snow that skiers like, which results from constant thawing & refreezing",
+          "answer": "corn snow",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SKIING & SKATING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4600-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AFRICA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1987, an African woman made medical history by giving birth to implanted triplets from this relative",
+          "answer": "daughter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4600-d-c3-r0"
+        },
+        {
+          "question": "Cameroon is the only mainland African country that has both French & this as official languages",
+          "answer": "English",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4600-d-c3-r1"
+        },
+        {
+          "question": "Burkina Faso, meaning \"country of honest men\", was formerly named for the \"upper\" part of this river",
+          "answer": "Volta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4600-d-c3-r2"
+        },
+        {
+          "question": "Country which has almost half of all the telephones on the continent",
+          "answer": "South Africa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4600-d-c3-r3"
+        },
+        {
+          "question": "France considered this an actual part of France, not a colony, until it gained independence in '62",
+          "answer": "Algeria",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4600-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FIRST NOVELS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "\"Uncle Tom's Cabin\"",
+          "answer": "Harriet Beecher Stowe",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4600-d-c4-r0"
+        },
+        {
+          "question": "\"Treasure Island\"",
+          "answer": "Robert Louis Stevenson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4600-d-c4-r1"
+        },
+        {
+          "question": "\"Wuthering Heights\"",
+          "answer": "Emily Brontë",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4600-d-c4-r2"
+        },
+        {
+          "question": "\"The Big Sleep\"",
+          "answer": "Raymond Chandler",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4600-d-c4-r3"
+        },
+        {
+          "question": "\"Appointment in Samarra\"",
+          "answer": "John O'Hara",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FIRST NOVELS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4600-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "STARTS & ENDS WITH \"A\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In Hawaii this word can start & end a conversation",
+          "answer": "aloha",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS & ENDS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4600-d-c5-r0"
+        },
+        {
+          "question": "One dictionary defines it as an \"interjection used to express surprise, triumph, or pleasure\"",
+          "answer": "aha!",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS & ENDS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4600-d-c5-r1"
+        },
+        {
+          "question": "A type of 2-dimensional measurement or 3-number code",
+          "answer": "area",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS & ENDS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4600-d-c5-r2"
+        },
+        {
+          "question": "Pennsylvania city founded in 1849 as a base for the railway line across the Alleghenies",
+          "answer": "Altoona",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS & ENDS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4600-d-c5-r3"
+        },
+        {
+          "question": "Gum Arabic, used as a thickener in candy, is from trees in this genus",
+          "answer": "acacia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS & ENDS WITH \"A\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4600-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the order in which it appears in most versions, it is the 1st book of the Bible named for its hero",
+          "answer": "Joshua",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE BIBLE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4600-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

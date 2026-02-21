@@ -1,0 +1,785 @@
+{
+  "gameId": 2907,
+  "showNumber": 4471,
+  "airDate": "February 2, 2004",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATES' LOWEST POINTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This Great Lake is Minnesota's lowest point at an elevation of 602 feet above sea level",
+          "answer": "Lake Superior",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES' LOWEST POINTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2907-s-c0-r0"
+        },
+        {
+          "question": "At 282 feet below sea level, it's California's, and the USA's, lowest point",
+          "answer": "Death Valley",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATES' LOWEST POINTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2907-s-c0-r1"
+        },
+        {
+          "question": "The highest lowest point of the 50 states is 3,350 feet above sea level in Yuma County in this state",
+          "answer": "Colorado",
+          "value": 1400,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATES' LOWEST POINTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2907-s-c0-r2"
+        },
+        {
+          "question": "Idaho's lowest point lies in Nez Perce County along this river",
+          "answer": "the Snake River",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATES' LOWEST POINTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2907-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "TV PILOTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This TV superhero flies in an invisible plane, but how does she find it?",
+          "answer": "Wonder Woman",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PILOTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2907-s-c1-r0"
+        },
+        {
+          "question": "On this series test pilot Steve Austin is critically injured in a plane crash",
+          "answer": "The Six Million Dollar Man",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PILOTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2907-s-c1-r1"
+        },
+        {
+          "question": "Howling Mad Murdock could fly anything from a crop duster to a 747 for this title group",
+          "answer": "the A-Team",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PILOTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2907-s-c1-r2"
+        },
+        {
+          "question": "Timothy Daly & Steven Weber played brothers & airline pilots on this sitcom",
+          "answer": "Wings",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PILOTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2907-s-c1-r3"
+        },
+        {
+          "question": "Janine Turner played feisty air taxi pilot Maggie on this quirky series",
+          "answer": "Northern Exposure",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV PILOTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2907-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "EQUIVALENTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "8 furlongs equals 1 _____",
+          "answer": "a mile",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2907-s-c2-r0"
+        },
+        {
+          "question": "4,840 square yards equals 1 _____",
+          "answer": "acre",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2907-s-c2-r1"
+        },
+        {
+          "question": "2 bottles of champagne equals 1 _____",
+          "answer": "a magnum",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2907-s-c2-r2"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew stands in front of an oil pumpjack in Oklahoma City.)  The pumpjack has to pump 42 gallons of oil out of the ground to equal one of these units",
+          "answer": "a barrel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EQUIVALENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2907-s-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "ANIMAL QUOTES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"I had a little\" one of these, \"his name was Dapple Gray; I lent him to a lady to ride a mile away\"",
+          "answer": "a pony",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL QUOTES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2907-s-c3-r0"
+        },
+        {
+          "question": "Mark Twin said, \"It's not the size of\" this animal\" in the fight, \"it's the size of the fight in\" this animal",
+          "answer": "a dog",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL QUOTES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2907-s-c3-r1"
+        },
+        {
+          "question": "The Book of Judges reports Samson's riddle concerning \"A swarm of bees and honey in a carcase of\" this",
+          "answer": "a lion",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL QUOTES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2907-s-c3-r2"
+        },
+        {
+          "question": "This Hans Christian Andersen bird \"had come to sing of comfort & hope, as he sang, the phantoms grew pale\"",
+          "answer": "the nightingale",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL QUOTES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2907-s-c3-r3"
+        },
+        {
+          "question": "John Donne called it \"Nature's great masterpiece... the only harmless great thing; the giant of beasts\"",
+          "answer": "an elephant",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMAL QUOTES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2907-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "POSTAL MATTERS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In a short-lived in Belgium in 1879, these house pets were used to carry bundles of mail",
+          "answer": "cats",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAL MATTERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2907-s-c4-r0"
+        },
+        {
+          "question": "One of the first non-heads of state to appear on a stamp was this American on the U.S. 5-cent stamp in 1847",
+          "answer": "Benjamin Franklin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAL MATTERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2907-s-c4-r1"
+        },
+        {
+          "question": "The first known air mail service took place in Paris in 1870 by this conveyance",
+          "answer": "hot-air balloon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAL MATTERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2907-s-c4-r2"
+        },
+        {
+          "question": "Postal markings dating back to this civilization in 3000 B.C. translate as, \"In the name of the living king, speed!\"",
+          "answer": "Egyptians (Egypt)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POSTAL MATTERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2907-s-c4-r3"
+        },
+        {
+          "question": "This country doesn't have its name on its stamps; usually it has the king or queen's head",
+          "answer": "the United Kingdom",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POSTAL MATTERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2907-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE Cs",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's the pedal \"put to the metal\" (by professional drivers under controlled conditions)",
+          "answer": "accelerator",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE Cs",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2907-s-c5-r0"
+        },
+        {
+          "question": "It's the antonym of oriental",
+          "answer": "occidental",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE Cs",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2907-s-c5-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew cooks something up in the kitchen.)  Before baking, sprinkle this Italian bread with olio, sale & rosmarino--oil, salt & rosemary",
+          "answer": "focaccia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE Cs",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2907-s-c5-r2"
+        },
+        {
+          "question": "In southern Europe, sometimes it's a dry, dusty wind from Africa, sometimes a warm, sultry wind with rain",
+          "answer": "sirocco",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE Cs",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2907-s-c5-r3"
+        },
+        {
+          "question": "It's Bach to basics for this type of piece",
+          "answer": "toccata",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE Cs",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2907-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHO'S SPEAKING IN SHAKESPEARE?",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"Be but sworn, my love, and I'll no longer be a Capulet\"",
+          "answer": "Juliet",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S SPEAKING IN SHAKESPEARE?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2907-d-c0-r0"
+        },
+        {
+          "question": "\"A horse! A horse! My kingdom for a horse!\"",
+          "answer": "Richard III",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S SPEAKING IN SHAKESPEARE?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2907-d-c0-r1"
+        },
+        {
+          "question": "\"Out, damned spot! Out, I say!\"",
+          "answer": "Lady Macbeth",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S SPEAKING IN SHAKESPEARE?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2907-d-c0-r2"
+        },
+        {
+          "question": "\"For I am he am born to tame you, Kate\"",
+          "answer": "Petruchio",
+          "value": 3600,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S SPEAKING IN SHAKESPEARE?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2907-d-c0-r3"
+        },
+        {
+          "question": "\"I am a man more sinned against than sinning\"",
+          "answer": "King Lear",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO'S SPEAKING IN SHAKESPEARE?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2907-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP CULTURE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Every August Elvis Presley fans gather at this Memphis mansion for a week-long celebration of his life",
+          "answer": "Graceland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2907-d-c1-r0"
+        },
+        {
+          "question": "Its Frappuccino beverage was named one of \"the best new products of 1996\"",
+          "answer": "Starbucks",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2907-d-c1-r1"
+        },
+        {
+          "question": "She's so outrageous that in 2002 she got her own TV show",
+          "answer": "Anna Nicole Smith",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2907-d-c1-r2"
+        },
+        {
+          "question": "Neil Diamond's 1982 hit \"Heartlight\" was inspired by this movie",
+          "answer": "E.T.",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2907-d-c1-r3"
+        },
+        {
+          "question": "He's the beloved comic strip character seen here with his friend Albert, back in 1948",
+          "answer": "Pogo",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP CULTURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2907-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTED BLACK AMERICANS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "(Jimmy of the Clue Crew is holding an aluminum bat.)  The first national winner of Hillerich & Bradsby's Silver Bat Award in 1949 was this Dodger second baseman",
+          "answer": "Jackie Robinson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTED BLACK AMERICANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2907-d-c2-r0"
+        },
+        {
+          "question": "On Dec. 1st, 1955, 4 blacks were asked to move to the back of the bus in Montgomery; 3 did, she didn't",
+          "answer": "Rosa Parks",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTED BLACK AMERICANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2907-d-c2-r1"
+        },
+        {
+          "question": "This big band leader won 3 Grammys for his work on the 1959 courtroom drama \"Anatomy of a Murder\"",
+          "answer": "Duke Ellington",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTED BLACK AMERICANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2907-d-c2-r2"
+        },
+        {
+          "question": "The publisher of such abolitionist papers as North Star & New National Era, he later became a marshall in D.C.",
+          "answer": "Frederick Douglass",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTED BLACK AMERICANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2907-d-c2-r3"
+        },
+        {
+          "question": "A junior high school in Harvey, Illinois is named for this \"In the Mecca\" poet",
+          "answer": "Gwendolyn Brooks",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NOTED BLACK AMERICANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2907-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN WORDS & PHRASES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This 2-word Latin phrase means \"by the fact itself\"",
+          "answer": "ipso facto",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2907-d-c3-r0"
+        },
+        {
+          "question": "When a roulette croupier says \"faites vous jeux\", he's asking players to do this",
+          "answer": "place your bets",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2907-d-c3-r1"
+        },
+        {
+          "question": "It's not bubble gum, it's a Greek stringed instrument that's like a lute",
+          "answer": "a bouzouki",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2907-d-c3-r2"
+        },
+        {
+          "question": "Term for the mrs. of a maharajah",
+          "answer": "maharani",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN WORDS & PHRASES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2907-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS CEMETERIES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The USA's official observance of Veteran's Day takes place at this cemetery",
+          "answer": "Arlington",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS CEMETERIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2907-d-c4-r0"
+        },
+        {
+          "question": "Karl Marx & Michael Faraday are both buried in this city's Highgate Cemetery",
+          "answer": "London",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS CEMETERIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2907-d-c4-r1"
+        },
+        {
+          "question": "Appropriately, New York state's Sleepy Hollow Cemetery is where you'll find this author's grave",
+          "answer": "Washington Irving",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS CEMETERIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2907-d-c4-r2"
+        },
+        {
+          "question": "This city's Lafayette Cemetery appears in several of Anne Rice's Vampire novels",
+          "answer": "New Orleans",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS CEMETERIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2907-d-c4-r3"
+        },
+        {
+          "question": "This noted cemetery in Paris is named after the Jesuit father who was the confessor of King Louis XIV",
+          "answer": "the Pere (Father) Lachaise Cemetery",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS CEMETERIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2907-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"D\" COMPOSING",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Based on a 17th century satire, this tone poem from composer Richard Strauss features a viola as Sancho Panza",
+          "answer": "Don Quixote",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"D\" COMPOSING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2907-d-c5-r0"
+        },
+        {
+          "question": "Heard here is some suite stuff by this composer",
+          "answer": "Debussy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"D\" COMPOSING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2907-d-c5-r1"
+        },
+        {
+          "question": "Death plays the violin at midnight while skeletons cavort in this Saint-Saens composition",
+          "answer": "Danse macabre",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"D\" COMPOSING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2907-d-c5-r2"
+        },
+        {
+          "question": "\"The Pig-Headed Peasants\" is one of the lesser-known works of this late 19th century Czech composer",
+          "answer": "Dvorak",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"D\" COMPOSING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2907-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "BASEBALL HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On August 10th, 2003, Rafael Furcal of the Braves became only the 12th man in MLB history to perform this single-handedly",
+          "answer": "a triple play",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BASEBALL HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2907-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

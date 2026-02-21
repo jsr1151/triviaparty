@@ -1,0 +1,773 @@
+{
+  "gameId": 5871,
+  "showNumber": 7667,
+  "airDate": "January 2, 2018",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE '80s: WHO SAID IT?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"Mr. Gorbachev, tear down this wall!\"",
+          "answer": "Reagan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '80s: WHO SAID IT?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5871-s-c0-r0"
+        },
+        {
+          "question": "A feminist: \"Some of us are becoming the men we wanted to marry\"",
+          "answer": "Gloria Steinem",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '80s: WHO SAID IT?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5871-s-c0-r1"
+        },
+        {
+          "question": "At the Oscars: \"I can't deny the fact that you like me, right now, you like me!\"",
+          "answer": "Sally Field",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '80s: WHO SAID IT?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5871-s-c0-r2"
+        },
+        {
+          "question": "Before a wedding:\"I suppose Charles and I can't go wrong if he's there with me\"",
+          "answer": "Princess Diana",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE '80s: WHO SAID IT?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5871-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "SYMPTOMS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This pain that radiates from the lower back to the foot is named for the longest nerve in the body",
+          "answer": "sciatica",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPTOMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5871-s-c1-r0"
+        },
+        {
+          "question": "Speech difficulty & double vision are symptoms of a transient ischemic attack, considered a \"mini\" one of these",
+          "answer": "a stroke",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPTOMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5871-s-c1-r1"
+        },
+        {
+          "question": "Numb fingers are a symptom of this syndrome caused by the ligaments of the wrist pressing against the median nerve",
+          "answer": "carpal tunnel syndrome",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPTOMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5871-s-c1-r2"
+        },
+        {
+          "question": "Vague pain around the navel that intensifies can be a symptom of this; apply pressure to McBurney's point to diagnose",
+          "answer": "appendicitis",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SYMPTOMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5871-s-c1-r3"
+        },
+        {
+          "question": "Chronic fatigue & sensitivity to cold are symptoms that this endocrine gland in the neck is underactive",
+          "answer": "the thyroid gland",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMPTOMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5871-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALL-AMERICAN FOOD",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "You'll cover several food groups dining on this city's lettuce, baked beans & cream pie",
+          "answer": "Boston",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL-AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5871-s-c2-r0"
+        },
+        {
+          "question": "The Anchor Bar says it's the home of the original this deep-fried chicken dish with hot sauce & bleu-cheese dressing",
+          "answer": "buffalo wings",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL-AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5871-s-c2-r1"
+        },
+        {
+          "question": "See the avocado peeking out of this sushi staple, said to have been created by chef Hidekazu Tojo",
+          "answer": "a California roll",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL-AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5871-s-c2-r2"
+        },
+        {
+          "question": "Kraft's no-bake cheesecake is made with 2 8-oz. packages of this Kraft brand, softened",
+          "answer": "Philadelphia cream cheese",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL-AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5871-s-c2-r3"
+        },
+        {
+          "question": "This city's signature dish has ham, green peppers, onion &, of course, scrambled eggs",
+          "answer": "a Denver omelet",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALL-AMERICAN FOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5871-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANSWER THE HOMOPHONE!",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Having a scratchy throat, & the equine you rode in on",
+          "answer": "hoarse/horse",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANSWER THE HOMOPHONE!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5871-s-c3-r0"
+        },
+        {
+          "question": "Multiple beers, & the minor injury you got when you fell after multiple beers",
+          "answer": "brews/bruise",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANSWER THE HOMOPHONE!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5871-s-c3-r1"
+        },
+        {
+          "question": "The act of aiding, & the personal errand runners for a movie star",
+          "answer": "assistance/assistants",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANSWER THE HOMOPHONE!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5871-s-c3-r2"
+        },
+        {
+          "question": "To construct, & what the contractor did to the customer after construction was completed",
+          "answer": "build/billed",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANSWER THE HOMOPHONE!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5871-s-c3-r3"
+        },
+        {
+          "question": "To cause to be disconcerted, & a stage in a process of development",
+          "answer": "faze/phase",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANSWER THE HOMOPHONE!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5871-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHORT STORIES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In an 1863 tale Philip Nolan wishes to never hear of the U.S. again & becomes \"The Man Without\" this",
+          "answer": "a country",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT STORIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5871-s-c4-r0"
+        },
+        {
+          "question": "He wrote about a \"Red Badge\" & switched colors for the story \"The Bride Comes to Yellow Sky\"",
+          "answer": "Stephen Crane",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT STORIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5871-s-c4-r1"
+        },
+        {
+          "question": "Dashiell Hammett also wrote stories bout this detective, including \"Too Many Have Lived\"",
+          "answer": "Sam Spade",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT STORIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5871-s-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "\"LIGHT\" MUSIC",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In a song title The Doors wanted you to do this",
+          "answer": "\"Light My Fire\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LIGHT\" MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5871-s-c5-r0"
+        },
+        {
+          "question": "It was Debby Boone's only major hit & the biggest hit of the 1970s",
+          "answer": "\"You Light Up My Life\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LIGHT\" MUSIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5871-s-c5-r1"
+        },
+        {
+          "question": "Madonna went electronica in this 1998 album",
+          "answer": "Ray of Light",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"LIGHT\" MUSIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5871-s-c5-r2"
+        },
+        {
+          "question": "Manfred Mann topped the charts with this Bruce Springsteen-penned song",
+          "answer": "\"Blinded By The Light\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LIGHT\" MUSIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5871-s-c5-r3"
+        },
+        {
+          "question": "Turn on this Neil Diamond song inspired by the movie \"E.T.\"",
+          "answer": "\"Turn On Your Heartlight\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LIGHT\" MUSIC",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5871-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S HISTORICAL ARRESTED DEVELOPMENT",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1791 this queen thought a disguise would work in fleeing Paris (it didn't. Also her husband's face was on the coins)",
+          "answer": "Marie Antoinette",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S HISTORICAL ARRESTED DEVELOPMENT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5871-d-c0-r0"
+        },
+        {
+          "question": "With big hopes, Ford put $250 mil. in development into this model that debuted in 1957 (the hopes & the model were gone by '59)",
+          "answer": "the Edsel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S HISTORICAL ARRESTED DEVELOPMENT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5871-d-c0-r1"
+        },
+        {
+          "question": "This PM said a 1938 pact with Germany brought \"peace for our time\" (it didn't. Czech. soon got annexed, & he lost his job)",
+          "answer": "(Neville) Chamberlain",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S HISTORICAL ARRESTED DEVELOPMENT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5871-d-c0-r2"
+        },
+        {
+          "question": "In 1954 Senator McCarthy turned his anti-Red drive on this institution (but in confronting Joe Welch, he made a huge mistake)",
+          "answer": "the U.S. Army",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IT'S HISTORICAL ARRESTED DEVELOPMENT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5871-d-c0-r3"
+        },
+        {
+          "question": "On July 3, 1863 someone thought a \"Charge\" of this general's division would be a good idea (it wasn't. It really wasn't)",
+          "answer": "(George) Pickett",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S HISTORICAL ARRESTED DEVELOPMENT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5871-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "CANINE COMPANIONS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Every dog that has portrayed this female collie created by Eric Knight has actually been male",
+          "answer": "Lassie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANINE COMPANIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5871-d-c1-r0"
+        },
+        {
+          "question": "All Broadway productions of this musical have featured real-life shelter dogs as Sandy",
+          "answer": "Annie",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANINE COMPANIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5871-d-c1-r1"
+        },
+        {
+          "question": "Billy West voiced Stimpson J. Cat & later in the series, this canine companion",
+          "answer": "Ren",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANINE COMPANIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5871-d-c1-r2"
+        },
+        {
+          "question": "This dog has feet of clay, loves to read the paper & is Wallace's canine companion",
+          "answer": "Gromit",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANINE COMPANIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5871-d-c1-r3"
+        },
+        {
+          "question": "He was the Jetsons' family dog",
+          "answer": "Astro",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CANINE COMPANIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5871-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "OLD TESTAMENT TRANSPORTATION",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Abraham sends a servant across the desert on one of these beasts to fetch a wife for Isaac",
+          "answer": "a camel",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5871-d-c2-r0"
+        },
+        {
+          "question": "In 1 Samuel, these \"uneducated\" enemies return the ark of the covenant to the Hebrews on a cart pulled by cattle",
+          "answer": "the Philistines",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5871-d-c2-r1"
+        },
+        {
+          "question": "This prophet gets no refund when he's thrown overboard while trying to flee to Tarshish by ship",
+          "answer": "Jonah",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5871-d-c2-r2"
+        },
+        {
+          "question": "In Numbers 7 this priestly tribe is given 6 covered wagons to transport the tabernacle & its furnishings",
+          "answer": "the Levites",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5871-d-c2-r3"
+        },
+        {
+          "question": "The prophet Elijah as a grand exit featuring this flaming vehicle",
+          "answer": "a chariot (of fire)",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OLD TESTAMENT TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5871-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE \"O\" 7-LETTER WORDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "According to the Chinese zodiac, 2017 is the year of this barnyard animal",
+          "answer": "a rooster",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"O\" 7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5871-d-c3-r0"
+        },
+        {
+          "question": "It's another name for a solarium",
+          "answer": "a sunroom",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"O\" 7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5871-d-c3-r1"
+        },
+        {
+          "question": "It's slang for a police informant",
+          "answer": "a stoolie",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"O\" 7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5871-d-c3-r2"
+        },
+        {
+          "question": "A portable rocket launcher, or a brand of bubble gum",
+          "answer": "bazooka",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"O\" 7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5871-d-c3-r3"
+        },
+        {
+          "question": "An incompetent prizefighter, or boxer Joe of comic strip fame who hung up his gloves in 1984",
+          "answer": "a palooka",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE \"O\" 7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5871-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AFRICAN ISLANDS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "(Kelly of the Clue Crew shows a map of Africa.) The protected southwest remains mostly arid from January to March, when monsoons typically hit the east and northeast of this nation",
+          "answer": "Madagascar",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN ISLANDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5871-d-c4-r0"
+        },
+        {
+          "question": "Smell the sweet air of the clove-producing island of Pemba in this country's Zanzibar archipelago",
+          "answer": "Tanzania",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN ISLANDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5871-d-c4-r1"
+        },
+        {
+          "question": "Uganda's Bugaba Island in this large lake is a home of the African grey parrot",
+          "answer": "Lake Victoria",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN ISLANDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5871-d-c4-r2"
+        },
+        {
+          "question": "Tunisia's Djerba Island has mosques, a cathedral & the El Ghriba this house of worship, said to be Africa's oldest",
+          "answer": "a synagogue",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN ISLANDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5871-d-c4-r3"
+        },
+        {
+          "question": "When Sao Tome & this neighbor 90 miles to the N.E. were discovered by the Portuguese in the 1470s, they were uninhabited",
+          "answer": "Principe",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AFRICAN ISLANDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5871-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "A BARREL FULL OF COOPERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "James Fenimore Cooper's most famous novel, it was the first prequel to \"The Pioneers\"",
+          "answer": "The Last of the Mohicans",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A BARREL FULL OF COOPERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5871-d-c5-r0"
+        },
+        {
+          "question": "This actor's first Oscar nomination was for his role in \"Silver Linings Playbook\"",
+          "answer": "Bradley Cooper",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A BARREL FULL OF COOPERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5871-d-c5-r1"
+        },
+        {
+          "question": "It's the name of the fabled hijacker who parachuted out of a Northwest Orient Airlines jet in November 1971",
+          "answer": "D.B. Cooper",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A BARREL FULL OF COOPERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5871-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "NOVELISTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A 2015 BBC list of the 25 greatest British novels included 12 by women, 3 of them by this woman who died in 1941",
+          "answer": "Virginia Woolf",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "NOVELISTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5871-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

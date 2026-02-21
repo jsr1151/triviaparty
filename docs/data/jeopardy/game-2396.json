@@ -1,0 +1,833 @@
+{
+  "gameId": 2396,
+  "showNumber": 3405,
+  "airDate": "May 28, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This river's delta covers more than 12,000 square miles in Louisiana",
+          "answer": "Mississippi River",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2396-s-c0-r0"
+        },
+        {
+          "question": "This mountain system stretches from New Mexico to the Brooks Range north of the Arctic Circle",
+          "answer": "Rocky Mountains",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2396-s-c0-r1"
+        },
+        {
+          "question": "The Wichita Mountains are not in Kansas but in this state on its southern border",
+          "answer": "Oklahoma",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2396-s-c0-r2"
+        },
+        {
+          "question": "Although a mile wide in some places, this principal river of Nebraska is too shallow to be navigable",
+          "answer": "Platte River",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2396-s-c0-r3"
+        },
+        {
+          "question": "This state capital is known for a variety of oysters found primarily in Puget Sound",
+          "answer": "Olympia",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. GEOGRAPHY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2396-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL LAST WORDS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "1945:\"I have a terrible headache\"",
+          "answer": "Franklin D. Roosevelt",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LAST WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2396-s-c1-r0"
+        },
+        {
+          "question": "1799:\"It is well\"",
+          "answer": "George Washington",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LAST WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2396-s-c1-r1"
+        },
+        {
+          "question": "1885:\"Water!\"",
+          "answer": "Ulysses S. Grant",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LAST WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2396-s-c1-r2"
+        },
+        {
+          "question": "1969:\"I have always loved my country\"",
+          "answer": "Dwight D. Eisenhower",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LAST WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2396-s-c1-r3"
+        },
+        {
+          "question": "1893:\"I know that I am going to where Lucy is\"",
+          "answer": "Rutherford B. Hayes",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL LAST WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2396-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WE LOVE LUCY",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Lucy & Ricky's New York landlords",
+          "answer": "Fred & Ethel Mertz",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE LOVE LUCY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2396-s-c2-r0"
+        },
+        {
+          "question": "Lucy Ricardo's maiden name reflected her fictional ancestry in this country",
+          "answer": "Scotland",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE LOVE LUCY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2396-s-c2-r1"
+        },
+        {
+          "question": "Of 1950, 1953 or 1956, the year of Little Ricky's \"birth\" & Desi Arnaz Jr.'s birth",
+          "answer": "1953",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE LOVE LUCY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2396-s-c2-r2"
+        },
+        {
+          "question": "In one episode Lucy tries to steal the cement block with this actor's footprints in it as a souvenir",
+          "answer": "John Wayne",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE LOVE LUCY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2396-s-c2-r3"
+        },
+        {
+          "question": "One of the 2 names of the nightclubs where Ricky Ricardo was a bandleader",
+          "answer": "Babalu or Tropicana",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE LOVE LUCY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2396-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRY DANCING",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Lindy Hop",
+          "answer": "United States",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY DANCING",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2396-s-c3-r0"
+        },
+        {
+          "question": "The Gavotte",
+          "answer": "France",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY DANCING",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2396-s-c3-r1"
+        },
+        {
+          "question": "The Sevillanas",
+          "answer": "Spain",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY DANCING",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2396-s-c3-r2"
+        },
+        {
+          "question": "The Habanera",
+          "answer": "Cuba",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY DANCING",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2396-s-c3-r3"
+        },
+        {
+          "question": "The Czardas",
+          "answer": "Hungary",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY DANCING",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2396-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE COCKTAIL HOUR",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The classic version is 1 1/2 oz. gin, 3/4 oz. dry vermouth, lemon twist or olive",
+          "answer": "martini",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE COCKTAIL HOUR",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2396-s-c4-r0"
+        },
+        {
+          "question": "Last name of Tom, made with the juice of 1/2 a lemon, 1 tsp. powdered sugar & 2 oz. gin",
+          "answer": "Collins",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE COCKTAIL HOUR",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2396-s-c4-r1"
+        },
+        {
+          "question": "\"If you like\" these, make them with 2 oz. light rum, 2 oz, cream of coconut & 4 oz. pineapple juice",
+          "answer": "Pina coladas",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE COCKTAIL HOUR",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2396-s-c4-r2"
+        },
+        {
+          "question": "1 oz. vodka, 4 oz. orange juice, 1/2 oz. Galliano give you this somewhat violent gent",
+          "answer": "Harvey Wallbanger",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE COCKTAIL HOUR",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2396-s-c4-r3"
+        },
+        {
+          "question": "Drink this, made with 1 oz. lime juice, 1 oz. triple sec & 1 oz. vodka, & you may be ready for a suicide mission",
+          "answer": "Kamikaze",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE COCKTAIL HOUR",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2396-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOLLYWOODSPEAK",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The popular films of this genre can be known as \"oaters\" or \"horse operas\"",
+          "answer": "westerns",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLYWOODSPEAK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2396-s-c5-r0"
+        },
+        {
+          "question": "Also known as a \"tenpercenter\", a good one of these can open doors in Tinseltown",
+          "answer": "agent",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLYWOODSPEAK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2396-s-c5-r1"
+        },
+        {
+          "question": "Erica Kane could tell you it's the dramatic form known as a \"sudser\" in Hollywood",
+          "answer": "soap opera",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLYWOODSPEAK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2396-s-c5-r2"
+        },
+        {
+          "question": "This TV network is \"The Eye Web\"",
+          "answer": "CBS",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLYWOODSPEAK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2396-s-c5-r3"
+        },
+        {
+          "question": "In the lingo of Variety, a \"diskery\" is a company that produces these",
+          "answer": "records",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOLLYWOODSPEAK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2396-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ECOLOGY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1998 the Makah Indians of Washington resumed hunting these after a 70-year respite",
+          "answer": "gray whales",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ECOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2396-d-c0-r0"
+        },
+        {
+          "question": "The 440-pound males of these jungle creatures are so heavy they usually don't climb trees like their relatives",
+          "answer": "gorillas",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2396-d-c0-r1"
+        },
+        {
+          "question": "Ras Mohammed National Park at the southern tip of the Sinai Peninsula is known for these marine constructions",
+          "answer": "coral reefs",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ECOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2396-d-c0-r2"
+        },
+        {
+          "question": "We'd like to catch red-handed those responsible for making the black-footed species of this endangered",
+          "answer": "ferret",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ECOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2396-d-c0-r3"
+        },
+        {
+          "question": "The lack of this bird on Mauritius almost caused the extinction of a nut tree there",
+          "answer": "dodo",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ECOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2396-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE FLOWERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This state flower of Massachusetts shares its name with the ship that brought the Pilgrims to the New World",
+          "answer": "Mayflower",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FLOWERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2396-d-c1-r0"
+        },
+        {
+          "question": "Its state flower is the Rocky Mountain Columbine",
+          "answer": "Colorado",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FLOWERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2396-d-c1-r1"
+        },
+        {
+          "question": "Interestingly, this fruit's blossom is the state flower of Delaware, but not of Georgia",
+          "answer": "peach",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FLOWERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2396-d-c1-r2"
+        },
+        {
+          "question": "This desert shrub is so abundant in Nevada that it gave the state one of its nicknames",
+          "answer": "sagebrush",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FLOWERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2396-d-c1-r3"
+        },
+        {
+          "question": "The fragrant light purple variety of this shrub is New Hampshire's state flower",
+          "answer": "lilac",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE FLOWERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2396-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIBLICAL MADNESS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Forced from this kingdom, Nebuchadnezzar ate grass & grew his hair until his reason returned",
+          "answer": "Babylon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL MADNESS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2396-d-c2-r0"
+        },
+        {
+          "question": "This king is credited with writing in Ecclesiastes, \"I gave my heart to know wisdom, and to know madness\"",
+          "answer": "Solomon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL MADNESS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2396-d-c2-r1"
+        },
+        {
+          "question": "When Balaam went astray, he got into an argument with one of these animals",
+          "answer": "donkey/ass",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL MADNESS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2396-d-c2-r2"
+        },
+        {
+          "question": "This man's diet of locusts & wild honey led some to think he was possessed",
+          "answer": "John the Baptist",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL MADNESS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2396-d-c2-r3"
+        },
+        {
+          "question": "This future king escaped from vengeful Philistines by pretending to be a drooling madman",
+          "answer": "King David",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL MADNESS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2396-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "OSCAR WINNING ROLES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Jake La Motta",
+          "answer": "Robert De Niro",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR WINNING ROLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2396-d-c3-r0"
+        },
+        {
+          "question": "Elmer Gantry",
+          "answer": "Burt Lancaster",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR WINNING ROLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2396-d-c3-r1"
+        },
+        {
+          "question": "Blind Lt. Col. Frank Slade (Ret.)",
+          "answer": "Al Pacino",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OSCAR WINNING ROLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2396-d-c3-r2"
+        },
+        {
+          "question": "Terry Malloy",
+          "answer": "Marlon Brando",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR WINNING ROLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2396-d-c3-r3"
+        },
+        {
+          "question": "Mammy",
+          "answer": "Hattie McDaniel",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OSCAR WINNING ROLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2396-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FROM RUSSIA",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The second M in MGM, this Russian immigrant created the star system as one of the heads of that company",
+          "answer": "Louis B. Mayer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM RUSSIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2396-d-c4-r0"
+        },
+        {
+          "question": "This immigrant was a longtime president of RCA & rose to brigadier general during WWII",
+          "answer": "David Sarnoff",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM RUSSIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2396-d-c4-r1"
+        },
+        {
+          "question": "In the 1940s he & Lincoln Kirstein founded the New York City Ballet",
+          "answer": "George Balanchine",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM RUSSIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2396-d-c4-r2"
+        },
+        {
+          "question": "The craft seen here [helicopter] bears the name of this Russian-born engineer",
+          "answer": "Igor Sikorsky",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM RUSSIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2396-d-c4-r3"
+        },
+        {
+          "question": "The story of this woman who wrote \"The Story of Civilization\" with husband Will began in Russia in 1898",
+          "answer": "Ariel Durant",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FROM RUSSIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2396-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WITH \"LOVE\"",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1834 Xavier Jouvin's \"hand\"y cutting device allowed mass production of these fashion accessories",
+          "answer": "gloves",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WITH \"LOVE\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2396-d-c5-r0"
+        },
+        {
+          "question": "Things went smoother for him aboard Apollo 8 in '68 than Apollo 13 in '70",
+          "answer": "Jim Lovell",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WITH \"LOVE\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2396-d-c5-r1"
+        },
+        {
+          "question": "Despite it's suicidal name, you'll feel exalted at this site on Lookout Mountain near Chattanooga, Tennessee",
+          "answer": "Lover's Leap",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WITH \"LOVE\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2396-d-c5-r2"
+        },
+        {
+          "question": "Completes the title of Alan Paton's acclaimed novel \"Cry, The...\"",
+          "answer": "Beloved Country",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WITH \"LOVE\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2396-d-c5-r3"
+        },
+        {
+          "question": "Endangered shorebird seen here",
+          "answer": "plover",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WITH \"LOVE\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2396-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "'90s TRENDS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This adornment has been seen on Cher, Dennis Rodman & the 5,000-year-old \"Iceman\" found in 1991",
+          "answer": "tattoos",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "'90s TRENDS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2396-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

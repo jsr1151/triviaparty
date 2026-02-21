@@ -1,0 +1,833 @@
+{
+  "gameId": 3652,
+  "showNumber": 6158,
+  "airDate": "May 25, 2011",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WHERE AM I?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "(Kelly of the Clue Crew stands by a fountain.)  I'm on the University of Wisconsin campus in this city, which opened in 1849 with 17 students & now has 40,000",
+          "answer": "Madison",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE AM I?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3652-s-c0-r0"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew walks through a parklike area with numerous white headstones.)  I'm at this 600-acre site that was home to Robert E. Lee until the start of the Civil War",
+          "answer": "Arlington (National Cemetery)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE AM I?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3652-s-c0-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew walks down a long corridor.)  I'm in one of the longest buildings in the world at SLAC, the Linear Accelerator Center of this California university",
+          "answer": "Stanford",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE AM I?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3652-s-c0-r2"
+        },
+        {
+          "question": "(Kelly of the Clue Crew stands on the lawn of a neoclassical building.)  I'm at this famous home which in 1987 was named to the World Heritage Sites list along with the nearby University of Virginia",
+          "answer": "Monticello",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE AM I?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3652-s-c0-r3"
+        },
+        {
+          "question": "(Sarah of the Clue Crew stand on a naval dock.)  I'm here on San Diego Bay at the Naval Amphibious Base that bears the name of this Spanish explorer, whose men discovered the Grand Canyon",
+          "answer": "(Francisco Vasquez de) Coronado",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE AM I?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3652-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPANISH PHRASE BOOK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Helpful phrases: \"llame a la policia\" (call the police) or \"llame a los bomberos\" (call these emergency workers)",
+          "answer": "firefighters",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPANISH PHRASE BOOK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3652-s-c1-r0"
+        },
+        {
+          "question": "Shortly after \"¿Donde esta el baño?\", you might have to ask, \"¿Tienes mas papel higienico?\" do you have more of this?",
+          "answer": "toilet paper",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPANISH PHRASE BOOK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3652-s-c1-r1"
+        },
+        {
+          "question": "\"Tengo mucha hambre. Por favor deme espagueti y albondigas\" means \"I'm hungry\" & requests this dish",
+          "answer": "spaghetti and meatballs",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPANISH PHRASE BOOK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3652-s-c1-r2"
+        },
+        {
+          "question": "En una iglesia, you might hear, \"Bendiceme, padre, porque he pecado\", this confessional phrase",
+          "answer": "Bless me, Father, for I have sinned",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPANISH PHRASE BOOK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3652-s-c1-r3"
+        },
+        {
+          "question": "Shopping vocabulary es muy importante: \"¿Cuanto cuesta esta cadena de oro?\" How much does this cost?",
+          "answer": "a gold chain",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPANISH PHRASE BOOK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3652-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HODGEPODGE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It \"makes the man\" & \"makes the pot boil\"; love of it is also \"the root of all evil\"",
+          "answer": "money",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3652-s-c2-r0"
+        },
+        {
+          "question": "A shiro-maku is a simple, white one of these robes worn by a Japanese bride at her wedding",
+          "answer": "a kimono",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3652-s-c2-r1"
+        },
+        {
+          "question": "The 5th generation of this iPod included a built-in video camera, FM radio & a pedometer",
+          "answer": "iPod Nano",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3652-s-c2-r2"
+        },
+        {
+          "question": "A specialty of New Orleans, a muffuletta is one of these",
+          "answer": "a sandwich",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3652-s-c2-r3"
+        },
+        {
+          "question": "In Judaism, it's a scroll with verses from Deuteronomy inserted in a small case & attached to a doorpost",
+          "answer": "a mezuzah",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HODGEPODGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3652-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MILITARY NICKNAMES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The \"Little Corporal\" of the 19th century",
+          "answer": "Napoleon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MILITARY NICKNAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3652-s-c3-r0"
+        },
+        {
+          "question": "\"Stormin' Norman\" of the 1990s",
+          "answer": "Schwarzkopf",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MILITARY NICKNAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3652-s-c3-r1"
+        },
+        {
+          "question": "The high-flying \"Red Baron\" of World War I",
+          "answer": "von Richthofen",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MILITARY NICKNAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3652-s-c3-r2"
+        },
+        {
+          "question": "Mr. \"Unconditional Surrender\" of the Civil War",
+          "answer": "Grant",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MILITARY NICKNAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3652-s-c3-r3"
+        },
+        {
+          "question": "The \"Desert Fox\" of Afrika",
+          "answer": "Rommel",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MILITARY NICKNAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3652-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE MAIN VEGETABLE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Coleslaw",
+          "answer": "cabbage",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN VEGETABLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3652-s-c4-r0"
+        },
+        {
+          "question": "Hominy grits",
+          "answer": "corn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN VEGETABLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3652-s-c4-r1"
+        },
+        {
+          "question": "Moussaka",
+          "answer": "eggplant",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN VEGETABLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3652-s-c4-r2"
+        },
+        {
+          "question": "Gratin dauphinois",
+          "answer": "potatoes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN VEGETABLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3652-s-c4-r3"
+        },
+        {
+          "question": "Chana masala",
+          "answer": "chickpeas",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MAIN VEGETABLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3652-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAY THAT 3 TIMES FAST!",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "From \"Seinfeld\": \"Marcy comes over & she tells me... her ex-boyfriend was over... last night &\" this this this \"I'm really tired today\"",
+          "answer": "yada yada yada",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAY THAT 3 TIMES FAST!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g3652-s-c5-r0"
+        },
+        {
+          "question": "This *NSYNC song hit the top 5 in 2000; see ya!",
+          "answer": "\"Bye Bye Bye\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAY THAT 3 TIMES FAST!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g3652-s-c5-r1"
+        },
+        {
+          "question": "It precedes \"voom\" in an Art Carney TV catchphrase",
+          "answer": "va va va",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAY THAT 3 TIMES FAST!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g3652-s-c5-r2"
+        },
+        {
+          "question": "In 1983 Paul McCartney & Michael Jackson spent 6 weeks at No. 1 with this hit",
+          "answer": "\"Say Say Say\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAY THAT 3 TIMES FAST!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g3652-s-c5-r3"
+        },
+        {
+          "question": "Give the full name of this \"Catch-22\" officer; if you add his rank you'll be saying it 4 times fast",
+          "answer": "Major Major Major",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAY THAT 3 TIMES FAST!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g3652-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "REMEMBER THE 2000s?",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "November 25, 2002:This new cabinet department was created, so we can all feel safe now",
+          "answer": "the Department of Homeland Security",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMEMBER THE 2000s?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3652-d-c0-r0"
+        },
+        {
+          "question": "January 1, 2002:Adieu, franc!  Bonjour, this!",
+          "answer": "the euro",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMEMBER THE 2000s?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3652-d-c0-r1"
+        },
+        {
+          "question": "March 23, 2001:It said dasvidaniya & plunged hundreds of miles into the Pacific",
+          "answer": "Mir",
+          "value": 1800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "REMEMBER THE 2000s?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3652-d-c0-r2"
+        },
+        {
+          "question": "September 15, 2008:Say it ain't so, bro! This overleveraged investment bank went underwater",
+          "answer": "Lehman Brothers",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMEMBER THE 2000s?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3652-d-c0-r3"
+        },
+        {
+          "question": "May 1st, this year:The controversial photo seen here was taken",
+          "answer": "2003",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REMEMBER THE 2000s?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3652-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NFL TEAM MASCOTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A Minuteman named Pat",
+          "answer": "the Patriots",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NFL TEAM MASCOTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3652-d-c1-r0"
+        },
+        {
+          "question": "Formerly Edgar, Allan & Poe: now just Poe",
+          "answer": "the Baltimore Ravens",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NFL TEAM MASCOTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3652-d-c1-r1"
+        },
+        {
+          "question": "Gumbo the dog",
+          "answer": "the (New Orleans) Saints",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NFL TEAM MASCOTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3652-d-c1-r2"
+        },
+        {
+          "question": "Sourdough Sam",
+          "answer": "49ers",
+          "value": 2200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NFL TEAM MASCOTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3652-d-c1-r3"
+        },
+        {
+          "question": "Miles the horse",
+          "answer": "the Denver Broncos",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NFL TEAM MASCOTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3652-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "LIKE A VIRGIN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In ancient Rome the 6 priestesses who tended the goddess of the hearth were collectively known as these",
+          "answer": "Vestal Virgins",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIKE A VIRGIN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3652-d-c2-r0"
+        },
+        {
+          "question": "The \"virgin\" this is the traditional Christian doctrine that Jesus Christ had no natural father",
+          "answer": "Virgin Birth",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIKE A VIRGIN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3652-d-c2-r1"
+        },
+        {
+          "question": "2 of these dedicated to virgin St. Agnes of Rome are blessed each year & their wool is used to make sacred garments",
+          "answer": "lambs",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIKE A VIRGIN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3652-d-c2-r2"
+        },
+        {
+          "question": "The virgin Lucy, whose name comes from the Latin for \"light\", is the patron saint of those afflicted with this",
+          "answer": "blindness",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIKE A VIRGIN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3652-d-c2-r3"
+        },
+        {
+          "question": "The pope declared the \"Virgin of\" this Mexican place to be patroness of the Americas",
+          "answer": "Guadalupe",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIKE A VIRGIN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3652-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CAMERAS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "These 2 verbs go together to describe cameras that don't make you fiddle with focus",
+          "answer": "point and shoot",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAMERAS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3652-d-c3-r0"
+        },
+        {
+          "question": "A small type of camera that may be dashboard-mounted is named for this makeup item",
+          "answer": "lipstick",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAMERAS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3652-d-c3-r1"
+        },
+        {
+          "question": "A UV type of this accessory improves contrast, reduces haze & protects the lens",
+          "answer": "a filter",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAMERAS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3652-d-c3-r2"
+        },
+        {
+          "question": "Using an iPhone app, you can shake the phone to make your picture come out faster, like pictures taken with this co.'s cameras",
+          "answer": "Polaroid",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAMERAS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3652-d-c3-r3"
+        },
+        {
+          "question": "Use a tripod to prevent camera shake if this speed is slow, meaning a long exposure",
+          "answer": "shutter speed",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAMERAS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3652-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHADES OF ZANE GREY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Appropriately, Zane Grey was born in Zanesville in this state in 1872",
+          "answer": "Ohio",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHADES OF ZANE GREY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3652-d-c4-r0"
+        },
+        {
+          "question": "Zane Grey's first book, \"Betty Zane\", was a fictionalized account of his ancestors fighting the British during this war",
+          "answer": "the Revolutionary",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHADES OF ZANE GREY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3652-d-c4-r1"
+        },
+        {
+          "question": "Like the Old West's Doc Holliday, Zane Grey was a practicing one of these in NYC before becoming a novelist",
+          "answer": "a dentist",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHADES OF ZANE GREY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3652-d-c4-r2"
+        },
+        {
+          "question": "An active outdoorsman, Zane Grey wrote several nonfiction works on this activity, including off Tahiti",
+          "answer": "fishing",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHADES OF ZANE GREY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3652-d-c4-r3"
+        },
+        {
+          "question": "Selling over 13 million books in his lifetime, Zane Grey is best remembered for this colorful 1912 western",
+          "answer": "The Riders of the Purple Sage",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHADES OF ZANE GREY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3652-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"POT\"s & \"PAN\"s",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Guymon is the largest city in this narrow region of Oklahoma",
+          "answer": "the panhandle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"POT\"s & \"PAN\"s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g3652-d-c5-r0"
+        },
+        {
+          "question": "Isolated by Sir Humphry Davy, this second-lightest metal could make you go bananas",
+          "answer": "potassium",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"POT\"s & \"PAN\"s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g3652-d-c5-r1"
+        },
+        {
+          "question": "This Olympics-like sports event for Western Hemisphere countries was first held in Argentina in 1951",
+          "answer": "the Panamerican Games",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"POT\"s & \"PAN\"s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g3652-d-c5-r2"
+        },
+        {
+          "question": "A company called Rival trademarked this slow cooker in 1971",
+          "answer": "a Crockpot",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"POT\"s & \"PAN\"s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g3652-d-c5-r3"
+        },
+        {
+          "question": "He's Candide's optimistic mentor",
+          "answer": "Pangloss",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"POT\"s & \"PAN\"s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g3652-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FEMALE SINGERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "She's tied with Mariah Carey for most No. 1 hits by a female with 18: 12 as a member of a group & 6 as a solo act",
+          "answer": "Diana Ross",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FEMALE SINGERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g3652-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

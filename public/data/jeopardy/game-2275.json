@@ -1,0 +1,833 @@
+{
+  "gameId": 2275,
+  "showNumber": 3775,
+  "airDate": "January 19, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE AFI's 100 GREATEST AMERICAN MOVIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He directed 5 of the movies on the list including No. 9, \"Schindler's List\"",
+          "answer": "Steven Spielberg",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AFI's 100 GREATEST AMERICAN MOVIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2275-s-c0-r0"
+        },
+        {
+          "question": "1 of only 2 animated films on the list",
+          "answer": "Fantasia (or Snow White)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AFI's 100 GREATEST AMERICAN MOVIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2275-s-c0-r1"
+        },
+        {
+          "question": "This classic seen here is planted firmly at No. 21",
+          "answer": "The Grapes of Wrath",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE AFI's 100 GREATEST AMERICAN MOVIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2275-s-c0-r2"
+        },
+        {
+          "question": "This Oscar-winning western from 1992 rode in at No. 98 on the list",
+          "answer": "Unforgiven",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AFI's 100 GREATEST AMERICAN MOVIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2275-s-c0-r3"
+        },
+        {
+          "question": "This 1972 movie is No. 3 on the list; its sequel is No. 32",
+          "answer": "The Godfather",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AFI's 100 GREATEST AMERICAN MOVIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2275-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNET SHORTHAND",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "FYI",
+          "answer": "For Your Information",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNET SHORTHAND",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2275-s-c1-r0"
+        },
+        {
+          "question": "PLS",
+          "answer": "Please",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNET SHORTHAND",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2275-s-c1-r1"
+        },
+        {
+          "question": "OTOH",
+          "answer": "On the other hand",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNET SHORTHAND",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2275-s-c1-r2"
+        },
+        {
+          "question": "FCOL",
+          "answer": "For cryin' out loud",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNET SHORTHAND",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2275-s-c1-r3"
+        },
+        {
+          "question": "GG",
+          "answer": "Got to go",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INTERNET SHORTHAND",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2275-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BAG LADIES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Judith Leiber makes tiny evening bags from the skin of this largest bird",
+          "answer": "Ostrich",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BAG LADIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2275-s-c2-r0"
+        },
+        {
+          "question": "Hermes named a popular bag after this '50s film star turned princess",
+          "answer": "Grace Kelly",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BAG LADIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2275-s-c2-r1"
+        },
+        {
+          "question": "A bag owned by this woman who \"handbagged\" British political foes was purchased in 2000 for $150,000",
+          "answer": "Margaret Thatcher",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BAG LADIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2275-s-c2-r2"
+        },
+        {
+          "question": "These bags as sold by Karen Millen are more chic than those given away on PBS pledge drives",
+          "answer": "Tote bags",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BAG LADIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2275-s-c2-r3"
+        },
+        {
+          "question": "Stars like Julianne Moore have advertised leather bags for this company whose name is a type of transport",
+          "answer": "Coach",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BAG LADIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2275-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"W\"ORDS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The vernal equinox signals the end of this in the Northern Hemisphere",
+          "answer": "Winter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"W\"ORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2275-s-c3-r0"
+        },
+        {
+          "question": "Walk like a duck",
+          "answer": "Waddle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"W\"ORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2275-s-c3-r1"
+        },
+        {
+          "question": "They might be giants, but in Don Quixote's case, he was tilting at these",
+          "answer": "Windmills",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"W\"ORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2275-s-c3-r2"
+        },
+        {
+          "question": "Ah-one & ah-two, it's the marine snail in the photo looking at you",
+          "answer": "Whelk",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"W\"ORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2275-s-c3-r3"
+        },
+        {
+          "question": "Don't let dull knives dampen your spirit, use one of these abrasive items to sharpen them",
+          "answer": "Whetstone",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"W\"ORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2275-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TEMPERATURE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "When taken orally, it's the average body temperature of a healthy human at rest",
+          "answer": "98.6 F.",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEMPERATURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2275-s-c4-r0"
+        },
+        {
+          "question": "On the Fahrenheit scale, water freezes at 32 degrees & boils at this temperature",
+          "answer": "212",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEMPERATURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2275-s-c4-r1"
+        },
+        {
+          "question": "Term for the increase in the Earth's average temperature; by 2100, the Earth may be 3 to 8 degrees hotter",
+          "answer": "Global warming",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEMPERATURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2275-s-c4-r2"
+        },
+        {
+          "question": "At 136 degrees F., the hottest place ever recorded on Earth was near Tripoli in this country in 1922",
+          "answer": "Libya",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEMPERATURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2275-s-c4-r3"
+        },
+        {
+          "question": "In 1971 Prospect Creek in this state reached a record low temperature in the U.S. of -80 degrees F.",
+          "answer": "Alaska",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TEMPERATURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2275-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLIMB IT",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "You can climb to the crown of this NYC landmark but you have to take the stairs, all 354 of them!",
+          "answer": "Statue of Liberty",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLIMB IT",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2275-s-c5-r0"
+        },
+        {
+          "question": "The Hillary Step, a 40-foot spur of snow & ice, is the last obstacle you must climb before reaching its summit",
+          "answer": "Mount Everest",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLIMB IT",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2275-s-c5-r1"
+        },
+        {
+          "question": "When attempting this African mountain, use the Marangu Route; you'll find it's the easiest & most comfortable",
+          "answer": "Mount Kilimanjaro",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLIMB IT",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2275-s-c5-r2"
+        },
+        {
+          "question": "You might follow in astronaut James Irwin's footsteps up this mountain in search of Noah's Ark",
+          "answer": "Mount Ararat",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLIMB IT",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2275-s-c5-r3"
+        },
+        {
+          "question": "You'll see some Inca ruins during the 1-hour climb to the top of Huayna Picchu in this country",
+          "answer": "Peru",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLIMB IT",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2275-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY RELATIVES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He was born in Dublin, the son of noted Irish painter John Butler Yeats",
+          "answer": "William Butler Yeats",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY RELATIVES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2275-d-c0-r0"
+        },
+        {
+          "question": "These brothers known for their 1857 collection of \"fairy tales\" shared the middle name Karl",
+          "answer": "Grimm brothers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY RELATIVES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2275-d-c0-r1"
+        },
+        {
+          "question": "This \"Fahrenheit 451\" author's ancestors include a woman who was tried for witchcraft in Salem, Mass.",
+          "answer": "Ray Bradbury",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY RELATIVES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2275-d-c0-r2"
+        },
+        {
+          "question": "When Elinor Wylie married William Rose Benet, she became the sister-in-law of this poet & novelist",
+          "answer": "Stephen Vincent Benet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY RELATIVES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2275-d-c0-r3"
+        },
+        {
+          "question": "This author of \"The Virginian\" was the grandson of famed 19th century British actress Fanny Kemble",
+          "answer": "Owen Wister",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY RELATIVES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2275-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "INTERNATIONAL ATHLETES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "At the 1998 Winter Olympics, \"Happy\" Harada helped this home team win gold in ski jumping",
+          "answer": "Japan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL ATHLETES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2275-d-c1-r0"
+        },
+        {
+          "question": "Byron & Wayne Black are tennis stars from this country that wasn't kind to blacks when it was Rhodesia",
+          "answer": "Zimbabwe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL ATHLETES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2275-d-c1-r1"
+        },
+        {
+          "question": "Spanish golfing phenom Sergio Garcia has this \"weathered\" nickname meaning \"The Boy Child\"",
+          "answer": "\"El Nino\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL ATHLETES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2275-d-c1-r2"
+        },
+        {
+          "question": "7'2\" Dikembe Mutombo led the NBA in this defensive move 3 straight years, 1994-1996",
+          "answer": "Blocked shots",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL ATHLETES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2275-d-c1-r3"
+        },
+        {
+          "question": "Boxer Roberto Duran became a national hero in this, his native country",
+          "answer": "Panama",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INTERNATIONAL ATHLETES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2275-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT PLACES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Greek city didn't allow deformed children to live & boys began military training at age 7",
+          "answer": "Sparta",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT PLACES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2275-d-c2-r0"
+        },
+        {
+          "question": "Around 480 B.C. this north African city-state was not so Puny-c;, it controlled most of the western Mediterranean",
+          "answer": "Carthage",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT PLACES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2275-d-c2-r1"
+        },
+        {
+          "question": "This first capital of ancient Egypt was at the apex of the Nile delta",
+          "answer": "Memphis",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT PLACES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2275-d-c2-r2"
+        },
+        {
+          "question": "Lycia, like Nicaea, was in what's now this Eurasian country",
+          "answer": "Turkey",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT PLACES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2275-d-c2-r3"
+        },
+        {
+          "question": "Not to inflate its importance, but this top city in Phoenicia was trading with Spain by 800 B.C.",
+          "answer": "Tyre",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT PLACES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2275-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "GEOLOGY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "One of these struck Boston in 1755, Missouri in 1811 & Charleston in 1886, so it's not west coast-specific",
+          "answer": "Earthquake",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2275-d-c3-r0"
+        },
+        {
+          "question": "Of the 3 main classes of rock, this one accounts for about 75% of all the exposed rocks on land",
+          "answer": "Sedimentary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2275-d-c3-r1"
+        },
+        {
+          "question": "From the Greek kryos, \"ice\", it's the shape a mineral grows into when unrestricted",
+          "answer": "Crystal",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2275-d-c3-r2"
+        },
+        {
+          "question": "Term for a plate pulling apart; a great valley in Africa has been formed by & named for it",
+          "answer": "Rift/rifting",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2275-d-c3-r3"
+        },
+        {
+          "question": "1 of the 3 minerals on the Mohs scale that can be scratched with a copper penny",
+          "answer": "Calcite, gypsum or talc",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2275-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ART & ARTISTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Gauguin collected art by painters of this movement, like Pissarro & Monet & exhibited with them from 1880 to 1882",
+          "answer": "Impressionism",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART & ARTISTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2275-d-c4-r0"
+        },
+        {
+          "question": "Bernini designed the colonnade around the piazza at this basilica to represent the church's embrace",
+          "answer": "St. Peter's Basilica",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART & ARTISTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2275-d-c4-r1"
+        },
+        {
+          "question": "A landscape by this \"elder\" Flemish painter is seen here",
+          "answer": "Pieter Bruegel the Elder",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ART & ARTISTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2275-d-c4-r2"
+        },
+        {
+          "question": "This Belgian surrealist painted a pipe & the words \"Ceci n'est pas une pipe\" (\"This is not a pipe\")",
+          "answer": "Rene Magritte",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART & ARTISTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2275-d-c4-r3"
+        },
+        {
+          "question": "Around 1884 Edgar Degas painted the portrait seen here of this fellow impressionist",
+          "answer": "Mary Cassatt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ART & ARTISTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2275-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LETTER DROP",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "From a winning finish in a race, drop this letter to get a closed hand",
+          "answer": "R (first/fist)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER DROP",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2275-d-c5-r0"
+        },
+        {
+          "question": "From a 2-wheeled horse-drawn vehicle, drop this letter to get a 4-wheeled power vehicle",
+          "answer": "T (cart/car)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LETTER DROP",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2275-d-c5-r1"
+        },
+        {
+          "question": "Drop this letter from 30 days to get a lepidopteran",
+          "answer": "N (month/moth)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER DROP",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2275-d-c5-r2"
+        },
+        {
+          "question": "From darkness or depression, drop this letter to get a weaving apparatus",
+          "answer": "G (gloom/loom)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER DROP",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2275-d-c5-r3"
+        },
+        {
+          "question": "Drop this letter from quick & active to get a Jewish circumcision",
+          "answer": "K (brisk/bris)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LETTER DROP",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2275-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLET",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Russian, Chinese, Arabian & Spanish dances are highlights of this ballet that premiered December 18, 1892",
+          "answer": "The Nutcracker",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BALLET",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2275-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 1711,
+  "showNumber": 3465,
+  "airDate": "October 1, 1999",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LITTLE ROCK",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Little Rock is this state's capital",
+          "answer": "Arkansas",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE ROCK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1711-s-c0-r0"
+        },
+        {
+          "question": "In 1979, at age 32, he moved into the governor's mansion in Little Rock",
+          "answer": "Bill Clinton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE ROCK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1711-s-c0-r1"
+        },
+        {
+          "question": "In 1957 Gov. Faubus tried to prevent this in Little Rock's Central High",
+          "answer": "Integration",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE ROCK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1711-s-c0-r2"
+        },
+        {
+          "question": "This national frozen yogurt chain was founded in Little Rock & has a big tower there",
+          "answer": "TCBY (The Country's Best Yogurt)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITTLE ROCK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1711-s-c0-r3"
+        },
+        {
+          "question": "The old mill at Lakeshore Dr. & Fairway Ave. was used in the opening of this 1939 film",
+          "answer": "Gone with the Wind",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE ROCK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1711-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FLAGS OF THE WORLD",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The night sky on Brazil's flag represents the one seen from this city",
+          "answer": "Rio de Janeiro",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLAGS OF THE WORLD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1711-s-c1-r0"
+        },
+        {
+          "question": "In 1984 Egypt replaced the hawk on its flag with this other bird of prey",
+          "answer": "Eagle of Saladin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FLAGS OF THE WORLD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1711-s-c1-r1"
+        },
+        {
+          "question": "Afghanistan's flag has a mosque in a wreath made of stalks of this grain",
+          "answer": "Wheat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLAGS OF THE WORLD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1711-s-c1-r2"
+        },
+        {
+          "question": "\"Wat\"'s new for this country?  Its flag seen here, adopted in 1993",
+          "answer": "Cambodia",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FLAGS OF THE WORLD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1711-s-c1-r3"
+        },
+        {
+          "question": "The blue & red in the flags of Chad & Andorra are from this country's blue-white-red flag",
+          "answer": "France",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLAGS OF THE WORLD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1711-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIC LEADERS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "He was just 3 years old when he was proclaimed Grand Prince of Moscow in 1533 -- hmm, not so \"terrible\"",
+          "answer": "Ivan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC LEADERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1711-s-c2-r0"
+        },
+        {
+          "question": "Andrea Dandolo was the doge of this city when it was devastated by the plague in 1348",
+          "answer": "Venice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC LEADERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1711-s-c2-r1"
+        },
+        {
+          "question": "Holy Roman Emperor Charles V was the grandson of this Spanish royal pair",
+          "answer": "Ferdinand & Isabella",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC LEADERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1711-s-c2-r2"
+        },
+        {
+          "question": "Born around 1849, this leader of the Oglala Sioux was praised even by his enemies as a military strategist",
+          "answer": "Crazy Horse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC LEADERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1711-s-c2-r3"
+        },
+        {
+          "question": "He became Kenya's first prime minister in 1963 & its first president in 1964",
+          "answer": "Jomo Kenyatta",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORIC LEADERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1711-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERATURE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In \"A Study in Scarlet\", he told Holmes, \"I have all the facts in my journal, and the public shall know them\"",
+          "answer": "Watson",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1711-s-c3-r0"
+        },
+        {
+          "question": "In 1823 James Fenimore Cooper wrote \"The Pioneers\", the first in the series of these \"tales\"",
+          "answer": "Leatherstocking Tales",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1711-s-c3-r1"
+        },
+        {
+          "question": "\"I must go, Cathy\", said Heathcliff, seeking to extricate himself from his companion's arms in this novel",
+          "answer": "\"Wuthering Heights\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1711-s-c3-r2"
+        },
+        {
+          "question": "George Du Maurier introduced this evil hypnotist in his 1894 novel \"Trilby\"",
+          "answer": "Svengali",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1711-s-c3-r3"
+        },
+        {
+          "question": "Wilkins is the first name of this \"David Copperfield\" character who's always waiting \"in case anything turned up\"",
+          "answer": "Mr. Micawber",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERATURE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1711-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S A DRAG (MOVIE)",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "1993, starring Robin Williams",
+          "answer": "Mrs. Doubtfire",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A DRAG (MOVIE)",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1711-s-c4-r0"
+        },
+        {
+          "question": "1960, starring Anthony Perkins",
+          "answer": "Psycho",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A DRAG (MOVIE)",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1711-s-c4-r1"
+        },
+        {
+          "question": "1959, starring Lemmon & Curtis",
+          "answer": "Some Like It Hot",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A DRAG (MOVIE)",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1711-s-c4-r2"
+        },
+        {
+          "question": "1982, starring Dustin Hoffman",
+          "answer": "Tootsie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A DRAG (MOVIE)",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1711-s-c4-r3"
+        },
+        {
+          "question": "1992, starring Jaye Davidson",
+          "answer": "The Crying Game",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S A DRAG (MOVIE)",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1711-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "4-LETTER WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Dr. Spock wrote, you don't have to teach a child to do this at 12-15 months; \"you won't be able to stop him\"",
+          "answer": "walk",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1711-s-c5-r0"
+        },
+        {
+          "question": "It means food, especially a \"mein\" course",
+          "answer": "Chow",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1711-s-c5-r1"
+        },
+        {
+          "question": "A spot of light on a radar screen, perhaps denoting an incoming plane",
+          "answer": "Blip",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1711-s-c5-r2"
+        },
+        {
+          "question": "In Major League Baseball, you're out if you do this with 2 strikes & the ball goes foul",
+          "answer": "Bunt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1711-s-c5-r3"
+        },
+        {
+          "question": "A promise in God's name, or an expression that takes God's name in vain",
+          "answer": "Oath",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "4-LETTER WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1711-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"LITTLE\" ROCK",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's how Ringo Starr wailed he'd get by",
+          "answer": "\"With A Little Help From My Friends\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LITTLE\" ROCK",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1711-d-c0-r0"
+        },
+        {
+          "question": "The 1996 Grammy Album of the Year was this Morissette masterpiece",
+          "answer": "Jagged Little Pill",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LITTLE\" ROCK",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1711-d-c0-r1"
+        },
+        {
+          "question": "The moment Dionne Warwick woke up, before she put on her makeup, she did this",
+          "answer": "\"I Say A Little Prayer For You\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LITTLE\" ROCK",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1711-d-c0-r2"
+        },
+        {
+          "question": "Freddie Mercury said he thought up this, Queen's first No. 1 hit, while lounging in a tub",
+          "answer": "\"Crazy Little Thing Called Love\"",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LITTLE\" ROCK",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1711-d-c0-r3"
+        },
+        {
+          "question": "It's what Otis Redding in 1967 & Three Dog Night in 1969 wanted you to \"try\"",
+          "answer": "\"Try A Little Tenderness\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LITTLE\" ROCK",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1711-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD MYTH",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This Greek goddess of wisdom sprang fully armed from the head of her father Zeus",
+          "answer": "Athena",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD MYTH",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1711-d-c1-r0"
+        },
+        {
+          "question": "Utu, the Sumerian god of this celestial body, judges the dead in the underworld at the end of the day",
+          "answer": "the Sun",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD MYTH",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1711-d-c1-r1"
+        },
+        {
+          "question": "False face societies cured illnesses among the tribes of this Native American group, the Six Nations",
+          "answer": "Iroquois",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD MYTH",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1711-d-c1-r2"
+        },
+        {
+          "question": "Heimdall guarded the Bifrost rainbow bridge which led to this realm, the home of Valhalla",
+          "answer": "Asgard",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD MYTH",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1711-d-c1-r3"
+        },
+        {
+          "question": "The Tuatha de Danann, early inhabitants of this island, are said to live in the hills with faeries",
+          "answer": "Ireland",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD MYTH",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1711-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESSMEN",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In the 1920s businessman Marcus Loew combined 3 movie production companies to form this one",
+          "answer": "MGM (Metro-Goldwyn-Mayer)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSMEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1711-d-c2-r0"
+        },
+        {
+          "question": "His first mail order catalog in 1872 was 1 page thick",
+          "answer": "Montgomery Ward",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSMEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1711-d-c2-r1"
+        },
+        {
+          "question": "In 1983 he sold his discount brokerage company to Bankamerica & in 1987 he bought it back again",
+          "answer": "Charles Schwab",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSMEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1711-d-c2-r2"
+        },
+        {
+          "question": "At age 19 in 1984 he founded PCs Limited, selling souped-up IBMs from his dorm room",
+          "answer": "Michael Dell",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSMEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1711-d-c2-r3"
+        },
+        {
+          "question": "The Mirage was the first resort venture he built in Las Vegas; Treasure Island, his second",
+          "answer": "Steve Wynn",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESSMEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1711-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ELEMENT NAMES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "She named polonium & had an element named after her & her husband",
+          "answer": "Marie Curie",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1711-d-c3-r0"
+        },
+        {
+          "question": "It was named after the elder gods of Greece",
+          "answer": "Titanium",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1711-d-c3-r1"
+        },
+        {
+          "question": "Holmium was named for this city",
+          "answer": "Stockholm",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1711-d-c3-r2"
+        },
+        {
+          "question": "Silver is from an Anglo-Saxon word; this element's name is from the Spanish for \"silver\"",
+          "answer": "platinum",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1711-d-c3-r3"
+        },
+        {
+          "question": "The element symbolized Fm was named for a scientist, Fermi; Am was named for this",
+          "answer": "America",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ELEMENT NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1711-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CAPITAL (CITY) PUNISHMENT",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Sofia",
+          "answer": "Bulgaria",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL (CITY) PUNISHMENT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1711-d-c4-r0"
+        },
+        {
+          "question": "Skopje",
+          "answer": "Macedonia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL (CITY) PUNISHMENT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1711-d-c4-r1"
+        },
+        {
+          "question": "Vaduz",
+          "answer": "Liechtenstein",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL (CITY) PUNISHMENT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1711-d-c4-r2"
+        },
+        {
+          "question": "Tashkent",
+          "answer": "Uzbekistan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL (CITY) PUNISHMENT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1711-d-c4-r3"
+        },
+        {
+          "question": "Abuja",
+          "answer": "Nigeria",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CAPITAL (CITY) PUNISHMENT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1711-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUOTATIONS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"I am in the presence of the Ghost of Christmas Yet to Come?\" said he",
+          "answer": "Ebenezer Scrooge",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1711-d-c5-r0"
+        },
+        {
+          "question": "Twain novel containing the line, \"You feel mighty free and easy and comfortable on a raft\"",
+          "answer": "Huckleberry Finn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1711-d-c5-r1"
+        },
+        {
+          "question": "L. Frank Baum wrote, \"The road to the city of emeralds is paved with\" this",
+          "answer": "Yellow bricks",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1711-d-c5-r2"
+        },
+        {
+          "question": "\"When we perish we turn into mere foam on the sea\" is a line from this Hans Christian Andersen tale",
+          "answer": "\"The Little Mermaid\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1711-d-c5-r3"
+        },
+        {
+          "question": "In this poem Robert Browning wrote, \"Rats!  They fought the dogs and killed the cats\"",
+          "answer": "\"The Pied Piper of Hamelin\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1711-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1995 a library at the Glasgow Veterinary School was named in his honor",
+          "answer": "James Herriot",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AUTHORS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1711-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

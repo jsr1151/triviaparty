@@ -1,0 +1,833 @@
+{
+  "gameId": 4185,
+  "showNumber": 6609,
+  "airDate": "May 16, 2013",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WHERE IS IT?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The yellow oval room: in this building",
+          "answer": "The White House",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE IS IT?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4185-s-c0-r0"
+        },
+        {
+          "question": "Lenin's tomb: in this 800,000-square-foot expanse",
+          "answer": "Red Square",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE IS IT?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4185-s-c0-r1"
+        },
+        {
+          "question": "Edo Castle: in this city",
+          "answer": "Tokyo",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE IS IT?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4185-s-c0-r2"
+        },
+        {
+          "question": "Saskatoon: in this province",
+          "answer": "Saskatchewan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE IS IT?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4185-s-c0-r3"
+        },
+        {
+          "question": "Moldova: on this continent",
+          "answer": "Europe",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE IS IT?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4185-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SYMBOLS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Renaissance artists used an ear of this as a symbol of the harvest",
+          "answer": "corn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4185-s-c1-r0"
+        },
+        {
+          "question": "The 5 interlaced rings that symbolize it represent the 5 parts of the world brought together by it",
+          "answer": "the Olympics",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4185-s-c1-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew presents the clue.)  Used for centuries, the astronomical symbol of this planet depicts a head, a winged cap & a staff",
+          "answer": "Mercury",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4185-s-c1-r2"
+        },
+        {
+          "question": "When you're drawing a family medical history, circles stand for these",
+          "answer": "women",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4185-s-c1-r3"
+        },
+        {
+          "question": "The phoenix rising from the ashes is the symbol of this southern capital that arose from the ashes",
+          "answer": "Atlanta",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SYMBOLS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4185-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHORT & TWEET",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "@JLo (a former TV show judge)",
+          "answer": "Jennifer Lopez",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT & TWEET",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4185-s-c2-r0"
+        },
+        {
+          "question": "@KingJames(he's been known to dribble)",
+          "answer": "LeBron James",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT & TWEET",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4185-s-c2-r1"
+        },
+        {
+          "question": "@Pontifex(he's new in the job)",
+          "answer": "Pope Francis",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT & TWEET",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4185-s-c2-r2"
+        },
+        {
+          "question": "@aplusk(a TV sitcom man)",
+          "answer": "Ashton Kutcher",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHORT & TWEET",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4185-s-c2-r3"
+        },
+        {
+          "question": "@wilw(he's boldly gone)",
+          "answer": "Wil Wheaton",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHORT & TWEET",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4185-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "NONFICTION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "After killing this outlaw, Pat Garrett co-wrote the first biography of him",
+          "answer": "Billy the Kid",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4185-s-c3-r0"
+        },
+        {
+          "question": "Alex Haley wrote much of \"The Autobiography of\" this 1960s African-American leader",
+          "answer": "Malcolm X",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4185-s-c3-r1"
+        },
+        {
+          "question": "\"The Virtue of Selfishness\", a 1964 collection of essays by this woman, is a favorite of young conservatives",
+          "answer": "Ayn Rand",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4185-s-c3-r2"
+        },
+        {
+          "question": "Elaine Pagels explored \"Lost\" books of the New Testament in \"The Gnostic\" these",
+          "answer": "gospels",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4185-s-c3-r3"
+        },
+        {
+          "question": "\"The Doors of Perception\" were opened for this novelist in 1953 when he wrote a true account of his drug use",
+          "answer": "(Aldous) Huxley",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NONFICTION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4185-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TECH STUFF",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Wi-Fi technology uses these waves that brought us \"The Chase & Sanborn Hour\" in the 1930s",
+          "answer": "radio waves",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4185-s-c4-r0"
+        },
+        {
+          "question": "Reddit is known for hosting online interviews where you can AMA, short for this",
+          "answer": "ask me anything",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4185-s-c4-r1"
+        },
+        {
+          "question": "This type of \"net\" developed by Xerox has helped local area networks communicate since the 1970s",
+          "answer": "ethernet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4185-s-c4-r2"
+        },
+        {
+          "question": "We're gonna go old school and use keyboard characters to translate my image into this computing code",
+          "answer": "ASCII",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4185-s-c4-r3"
+        },
+        {
+          "question": "It's a big smartphone, it's a small iPad, it's this 7-letter hybrid word",
+          "answer": "phablet",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TECH STUFF",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4185-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "YES \"WAY\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Eliminating static is one way to tame hair that's described as this 7-letter synonym for windblown",
+          "answer": "flyaway",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YES \"WAY\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4185-s-c5-r0"
+        },
+        {
+          "question": "It's the nickname for the highway that encircles the Washington, D.C. area",
+          "answer": "beltway",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YES \"WAY\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4185-s-c5-r1"
+        },
+        {
+          "question": "The name of these iconic sunglasses from Ray-Ban means \"traveler\"",
+          "answer": "Wayfarers",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YES \"WAY\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4185-s-c5-r2"
+        },
+        {
+          "question": "Michigan congressman Dave Camp chairs this House committee",
+          "answer": "Ways and Means",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YES \"WAY\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4185-s-c5-r3"
+        },
+        {
+          "question": "The largest Gaelic-speaking population of Ireland is in this county",
+          "answer": "Galway",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YES \"WAY\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4185-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEW IN OXFORD",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A meep is a type of this, perhaps made by a kitten or groundhog",
+          "answer": "a sound",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW IN OXFORD",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4185-d-c0-r0"
+        },
+        {
+          "question": "It's the 11-letter word for the elucidating picture seen here",
+          "answer": "infographic",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW IN OXFORD",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4185-d-c0-r1"
+        },
+        {
+          "question": "A \"savior sibling\" is a child conceived in vitro in the hope that he or she may do this specific act",
+          "answer": "donate an organ",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW IN OXFORD",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4185-d-c0-r2"
+        },
+        {
+          "question": "2-word alliterative movement that asks ISPs to allow access to all content equally",
+          "answer": "net neutrality",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW IN OXFORD",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4185-d-c0-r3"
+        },
+        {
+          "question": "It's someone who's basically a vegetarian but doesn't rule out the occasional burger",
+          "answer": "flexitarian",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW IN OXFORD",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4185-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "USING ALGEBRA AFTER HIGH SCHOOL",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "5/4 = 30/x;x = this",
+          "answer": "24",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "USING ALGEBRA AFTER HIGH SCHOOL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4185-d-c1-r0"
+        },
+        {
+          "question": "Solve for x:5x + 2x = 14",
+          "answer": "2",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "USING ALGEBRA AFTER HIGH SCHOOL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4185-d-c1-r1"
+        },
+        {
+          "question": "Solve for x in the math problem seen here",
+          "answer": "1/3",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "USING ALGEBRA AFTER HIGH SCHOOL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4185-d-c1-r2"
+        },
+        {
+          "question": "The stadium holds 4,500 seats;80%, this many, are filled",
+          "answer": "3600",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "USING ALGEBRA AFTER HIGH SCHOOL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4185-d-c1-r3"
+        },
+        {
+          "question": "3x - y = 82x + y = 7;solve forx & y",
+          "answer": "x = 3; y = 1",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "USING ALGEBRA AFTER HIGH SCHOOL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4185-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC OF TODAY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "She co-wrote the Miley Cyrus hit \"Party in the U.S.A.\" & co-wrote her own hit heard here",
+          "answer": "Jessie J",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC OF TODAY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4185-d-c2-r0"
+        },
+        {
+          "question": "The singer of \"Locked Out of Heaven\" chose this stage name partly because \"people say I'm out of this world\"",
+          "answer": "Bruno Mars",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC OF TODAY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4185-d-c2-r1"
+        },
+        {
+          "question": "Modern rock band heard here",
+          "answer": "The Killers",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC OF TODAY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4185-d-c2-r2"
+        },
+        {
+          "question": "The Black Keys \"got a love that keeps me waiting\" in this song",
+          "answer": "\"Lonely Boy\"",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUSIC OF TODAY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4185-d-c2-r3"
+        },
+        {
+          "question": "She got to sing for the newlywed Duke & Duchess of Cambridge",
+          "answer": "Ellie Goulding",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC OF TODAY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4185-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CLASSIC TOYS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Originally the safety-bake oven, its name was changed when TV broadcasters weren't convinced of its safety",
+          "answer": "Easy-Bake Oven",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC TOYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4185-d-c3-r0"
+        },
+        {
+          "question": "This Wham-O product is made of compressed \"zectron\"; drop it from 10 feet & it'll bounce 9 feet high",
+          "answer": "Super Ball",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC TOYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4185-d-c3-r1"
+        },
+        {
+          "question": "In 1987 he lost his pipe & became the official spokespud for the American Cancer Society's Great American Smokeout",
+          "answer": "Mr. Potato Head",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC TOYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4185-d-c3-r2"
+        },
+        {
+          "question": "The original name of this toy invented by Frenchman Andre Cassagnes was L'Ecran Magique, \"magic screen\"",
+          "answer": "Etch A Sketch",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC TOYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4185-d-c3-r3"
+        },
+        {
+          "question": "The creator of this toy was inspired by watching workers build the Imperial Hotel in Tokyo, which was designed by his father",
+          "answer": "Lincoln Logs",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CLASSIC TOYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4185-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEATER",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's the musical in which Fantine sings \"I Dreamed a Dream\"",
+          "answer": "Les Misérables",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4185-d-c4-r0"
+        },
+        {
+          "question": "This Jonathan Larson musical was loosely based on the opera \"La Boheme\"",
+          "answer": "Rent",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4185-d-c4-r1"
+        },
+        {
+          "question": "In 2013 Scarlett Johansson starred on Broadway as Maggie in this playwright's \"Cat on a Hot Tin Roof\"",
+          "answer": "Tennessee Williams",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4185-d-c4-r2"
+        },
+        {
+          "question": "\"The Laramie Project\" is a docudrama-style play about the brutal 1998 murder of this gay college student",
+          "answer": "(Matthew) Shepard",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4185-d-c4-r3"
+        },
+        {
+          "question": "Everyone on stage is a suspect in the musical based on Charles Dickens' unfinished tale \"The Mystery of\" this man",
+          "answer": "Edwin Drood",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEATER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4185-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "GETTING MEDIEVAL ON YOU",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A trencher was a plate made of metal, wood or a (probably stale) slice of this",
+          "answer": "bread",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GETTING MEDIEVAL ON YOU",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4185-d-c5-r0"
+        },
+        {
+          "question": "A medieval date might've included taking in a \"mystery play\" depicting stories like the Genesis 4:8 murder of this man",
+          "answer": "Abel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GETTING MEDIEVAL ON YOU",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4185-d-c5-r1"
+        },
+        {
+          "question": "In clothing, a chaperon was a hood, as in the French title of this children's story, \"Le Petit Chaperon Rouge\"",
+          "answer": "\"Little Red Riding Hood\"",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GETTING MEDIEVAL ON YOU",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4185-d-c5-r2"
+        },
+        {
+          "question": "Knights fought for fun in mock battles called this, now a term for the contest you're in",
+          "answer": "tournament",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GETTING MEDIEVAL ON YOU",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4185-d-c5-r3"
+        },
+        {
+          "question": "The 12th c. \"Song\" of this vassal of Charlemagne tells of his heroic death in a Saracen ambush",
+          "answer": "Roland",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GETTING MEDIEVAL ON YOU",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4185-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "20th CENTURY PRESIDENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "These 2 men followed each other consecutively as vice president & later, in reverse order, as president",
+          "answer": "Richard Nixon & LBJ",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "20th CENTURY PRESIDENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4185-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

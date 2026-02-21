@@ -1,0 +1,833 @@
+{
+  "gameId": 4300,
+  "showNumber": 1709,
+  "airDate": "January 23, 1992",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "NEW YORK CITY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Though it's won over 60 Pulitzer Prizes, it's never had a comics section",
+          "answer": "The New York Times",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK CITY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4300-s-c0-r0"
+        },
+        {
+          "question": "Its full name ends with Astor, Lenox & Tilden Foundations; Carnegie paid for its first 39 branches",
+          "answer": "New York City Library",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK CITY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4300-s-c0-r1"
+        },
+        {
+          "question": "This section of Central Park contains a mosaic with the word \"Imagine\"",
+          "answer": "Strawberry Fields",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK CITY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4300-s-c0-r2"
+        },
+        {
+          "question": "It's New York City's Ivy League school",
+          "answer": "Columbia (University)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK CITY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4300-s-c0-r3"
+        },
+        {
+          "question": "The interior of this memorial is based on Les Invalides in Paris",
+          "answer": "Grant's Tomb",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEW YORK CITY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4300-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANNUAL EVENTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Though Armed Forces Day is in May, this corps celebrates its birthday on November 10",
+          "answer": "Marine Corps",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4300-s-c1-r0"
+        },
+        {
+          "question": "This French holiday is also known as Fete Nationale",
+          "answer": "Bastille Day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4300-s-c1-r1"
+        },
+        {
+          "question": "This Jewish holiday when unleavened bread is eaten can start between March 26 & April 28",
+          "answer": "Passover",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4300-s-c1-r2"
+        },
+        {
+          "question": "This was first celebrated as a legal holiday in January 1986",
+          "answer": "Martin Luther King Day",
+          "value": 700,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4300-s-c1-r3"
+        },
+        {
+          "question": "England observes one of these holidays in August; FDR declared one that began March 6, 1933",
+          "answer": "bank holiday",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4300-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "She canceled her June 1991 wedding to Kiefer Sutherland & flew to Europe",
+          "answer": "Julia Roberts",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4300-s-c2-r0"
+        },
+        {
+          "question": "On her album \"Unforgettable\" she recorded 22 songs previously sung by her father, Nat",
+          "answer": "Natalie Cole",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4300-s-c2-r1"
+        },
+        {
+          "question": "This British royal consort became a septuagenarian June 10, 1991",
+          "answer": "Prince Philip",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4300-s-c2-r2"
+        },
+        {
+          "question": "Banished by Gorbachev from the Politburo in 1988, he was elected president of Russia in 1991",
+          "answer": "Boris Yeltsin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4300-s-c2-r3"
+        },
+        {
+          "question": "On May 13, 1991 this South African woman was found guilty of the 1988 kidnapping of 4 youths",
+          "answer": "Winnie Mandela",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4300-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Some of these vehicles survived a 1906 earthquake & are still in use on the Powell Street line today",
+          "answer": "(San Francisco) cable cars",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4300-s-c3-r0"
+        },
+        {
+          "question": "Charioteers sometimes tied these around their waists to leave their hands free to hurl weapons",
+          "answer": "the reins",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4300-s-c3-r1"
+        },
+        {
+          "question": "The Geoffreymobile was built to carry this toy company's trademark giraffes in parades",
+          "answer": "Toys R Us",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4300-s-c3-r2"
+        },
+        {
+          "question": "The slanted front frames on old trains weren't called \"bovine apprehenders\" but these",
+          "answer": "cow catchers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4300-s-c3-r3"
+        },
+        {
+          "question": "A wheeless vehicle that's carried; it's name is a synonym for trash",
+          "answer": "litter",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4300-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOBBIES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In ancient times these sharp items were made of bone, ivory & horn; today sewers use ones made of steel",
+          "answer": "needles",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOBBIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4300-s-c4-r0"
+        },
+        {
+          "question": "If this is your hobby, you're not into cutting hair but singing 4-part harmony",
+          "answer": "barbershop quartet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOBBIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4300-s-c4-r1"
+        },
+        {
+          "question": "The word hobby is a shortened form of this 16th century kids plaything",
+          "answer": "hobby horse",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOBBIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4300-s-c4-r2"
+        },
+        {
+          "question": "It's a glass-sided box with a removable lid that houses land animals & plants",
+          "answer": "terrarium",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOBBIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4300-s-c4-r3"
+        },
+        {
+          "question": "If you're into vexillology, you'll know the U.N. recently added some new ones of these out front",
+          "answer": "flags",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOBBIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4300-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"TOP\"s",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Take My Breath Away\" was the Oscar-winning song from this 1986 film",
+          "answer": "Top Gun",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TOP\"s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4300-s-c5-r0"
+        },
+        {
+          "question": "In an utter state of confusion, or upside-down",
+          "answer": "topsy-turvy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TOP\"s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4300-s-c5-r1"
+        },
+        {
+          "question": "3 types of these are beaver, opera & silk",
+          "answer": "top hats",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TOP\"s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4300-s-c5-r2"
+        },
+        {
+          "question": "In 1964 fashion designer Rudi Gernreich introduced this, gaining him worldwide notoriety",
+          "answer": "topless bathing suit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TOP\"s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4300-s-c5-r3"
+        },
+        {
+          "question": "In vaudeville & burlesque, he was the leading comedian",
+          "answer": "top banana",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"TOP\"s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4300-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 20th CENTURY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On July 22, 1977 the \"Gang of Four\" was expelled from this country's Communist party",
+          "answer": "China",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 20th CENTURY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4300-d-c0-r0"
+        },
+        {
+          "question": "On Nov. 15, 1935 Manuel Quezon y Malina was inaugurated as the 1st pres. of this U.S. commonwealth",
+          "answer": "the Philippines",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 20th CENTURY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4300-d-c0-r1"
+        },
+        {
+          "question": "In 1971 defense analyst Daniel Ellsberg released these classified documents to the press",
+          "answer": "the Pentagon Papers",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 20th CENTURY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4300-d-c0-r2"
+        },
+        {
+          "question": "North Korea seized this U.S. Navy ship on January 23, 1968, holding the 83 on board as spies",
+          "answer": "Pueblo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 20th CENTURY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4300-d-c0-r3"
+        },
+        {
+          "question": "In December 1989 Ion Iliescu became president of this European country",
+          "answer": "Romania",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 20th CENTURY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4300-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BODIES OF WATER",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Marne is the longest tributary of this French river",
+          "answer": "Seine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4300-d-c1-r0"
+        },
+        {
+          "question": "The Arabian Sea & the Bay of Bengal are considered arms of this ocean",
+          "answer": "Indian Ocean",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4300-d-c1-r1"
+        },
+        {
+          "question": "Though second in size of the Great Lakes, it has the longest shoreline of any of them",
+          "answer": "Lake Huron",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4300-d-c1-r2"
+        },
+        {
+          "question": "Bordering Spain & France, this bay is also called the Gulf of Gascony",
+          "answer": "Bay of Biscay",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4300-d-c1-r3"
+        },
+        {
+          "question": "Istanbul lies on both sides of the Bosporus at its junction with this sea",
+          "answer": "the Sea of Marmara",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4300-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEN OF SCIENCE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This Italian astronomer who died in 1642 said that no man had seen more than he",
+          "answer": "Galileo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEN OF SCIENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4300-d-c2-r0"
+        },
+        {
+          "question": "About 1910 this German scientist introduced the 1st successful device to detect & measure radioactivity",
+          "answer": "Geiger",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEN OF SCIENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4300-d-c2-r1"
+        },
+        {
+          "question": "During WWII, he was in charge of Germany's rocket program",
+          "answer": "Wernher von Braun",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEN OF SCIENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4300-d-c2-r2"
+        },
+        {
+          "question": "Using a giant pendulum, this French physicist proved that the Earth rotates on its axis",
+          "answer": "Jean Foucault",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MEN OF SCIENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4300-d-c2-r3"
+        },
+        {
+          "question": "William Herschel earned a pension from King George III after discovering this planet in 1781",
+          "answer": "Uranus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MEN OF SCIENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4300-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FLOWERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "For medicinal purposes, the most important species of this flower is the opium",
+          "answer": "poppy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4300-d-c3-r0"
+        },
+        {
+          "question": "The national flower of Egypt, or a yoga position",
+          "answer": "lotus",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4300-d-c3-r1"
+        },
+        {
+          "question": "Popularly used for corsages, Cattleya is a variety of this flower",
+          "answer": "orchid",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4300-d-c3-r2"
+        },
+        {
+          "question": "Saffron is derived from this flower whose name is Latin for \"saffron\"",
+          "answer": "crocus",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4300-d-c3-r3"
+        },
+        {
+          "question": "The Arabian variety of this flower is used to scent & flavor Oriental tea",
+          "answer": "jasmine",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FLOWERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4300-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHILOSOPHY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Protagoras said, \"There are\" this many \"sides to every question\"",
+          "answer": "2",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4300-d-c4-r0"
+        },
+        {
+          "question": "This famous Rene said, \"It is not enough to have a good mind.  The main thing is to use it well\"",
+          "answer": "Descartes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4300-d-c4-r1"
+        },
+        {
+          "question": "The Baron de Montesquieu said, \"A man should be mourned at\" this event, \"not at his death\"",
+          "answer": "his birth",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4300-d-c4-r2"
+        },
+        {
+          "question": "This future leader of existentialism graduated from the Ecole Normale Superieure in 1929",
+          "answer": "Jean-Paul Sartre",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4300-d-c4-r3"
+        },
+        {
+          "question": "17th century Dutch Jewish philosopher who said, \"Peace is not an absence of war, it is a virtue\"",
+          "answer": "Spinoza",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHILOSOPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4300-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD CAPITALS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This Swedish capital is built on 14 islands that are connected by about 50 bridges",
+          "answer": "Stockholm",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4300-d-c5-r0"
+        },
+        {
+          "question": "Many of the \"Arabian Nights\" tales are set in this city, now the capital of Iraq",
+          "answer": "Baghdad",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4300-d-c5-r1"
+        },
+        {
+          "question": "The name of this capital on the Molonglo River comes from an Aboriginal term for \"meeting place\"",
+          "answer": "Canberra",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4300-d-c5-r2"
+        },
+        {
+          "question": "It was home to composers Bedrich Smetana & Antonin Dvorak",
+          "answer": "Prague",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4300-d-c5-r3"
+        },
+        {
+          "question": "As a Roman colony, it was called Julia Augusta Felix Berytus, for Augustus' daughter",
+          "answer": "Beirut",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4300-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN AUTHORS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1901 she published what has become the best-selling children's book of all time",
+          "answer": "Beatrix Potter",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "WOMEN AUTHORS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4300-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

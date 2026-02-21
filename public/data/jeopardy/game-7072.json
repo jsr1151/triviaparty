@@ -1,0 +1,663 @@
+{
+  "gameId": 7072,
+  "showNumber": 165,
+  "airDate": "April 26, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "U.S. CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It recently moved ahead of Chicago to become our 2nd largest",
+          "answer": "Los Angeles",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7072-s-c0-r0"
+        },
+        {
+          "question": "There's no evidence that bison ever grazed in vicinity of this second largest NY city",
+          "answer": "Buffalo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7072-s-c0-r1"
+        },
+        {
+          "question": "It has more Italians than Venice, more Irish than Dublin & more Jews than Jerusalem",
+          "answer": "New York City",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7072-s-c0-r2"
+        },
+        {
+          "question": "Florida's largest city, it's named after our 7th president",
+          "answer": "Jacksonville",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7072-s-c0-r3"
+        },
+        {
+          "question": "The mapmakers' lines which divide Washington, D.C. into 4 sections converge at this building",
+          "answer": "the Capitol",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7072-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRIVIA",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1796, this Frenchman confessed, \"When I see an empty throne I feel the urge to sit on it\"",
+          "answer": "Napoleon",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7072-s-c1-r0"
+        },
+        {
+          "question": "Made of metal, they consist of a point, a shank & a head, & are measured in pennies or inches",
+          "answer": "nails",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7072-s-c1-r1"
+        },
+        {
+          "question": "Country whose people all get their last names from the 438 words in the poem \"Po-Chia-Hsing\"",
+          "answer": "the Chinese",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7072-s-c1-r2"
+        },
+        {
+          "question": "Only chess piece which can become a queen",
+          "answer": "the pawn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7072-s-c1-r3"
+        },
+        {
+          "question": "What the letters in the name of the cable channel \"ESPN\" stand for",
+          "answer": "the Entertainment Sports Programming Network",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7072-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HUNTING",
+      "round": "single",
+      "position": 2,
+      "clues": []
+    },
+    {
+      "name": "HISTORY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "13,000 houses were destroyed, but no one died in this city's \"Great Fire\" of 1666",
+          "answer": "London",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7072-s-c3-r0"
+        },
+        {
+          "question": "East Jerusalem was part of this country from 1948-67",
+          "answer": "Jordan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7072-s-c3-r1"
+        },
+        {
+          "question": "War with which this song was associated:\"Over there /Over there /Send the word, send the word, over there! /Because the Yanks are coming /The Yanks are coming /The drums rum tumming everywhere...\"",
+          "answer": "World War I",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7072-s-c3-r2"
+        },
+        {
+          "question": "From 1937-45, Chiang-Kai-shek & Mao Tse-tung joined forces to fight these invaders",
+          "answer": "the Japanese",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7072-s-c3-r3"
+        },
+        {
+          "question": "In 1844, this country gained its independence from Haiti",
+          "answer": "the Dominican Republic",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7072-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTOMOBILES",
+      "round": "single",
+      "position": 4,
+      "clues": []
+    },
+    {
+      "name": "SILLY SONGS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This itsy bitsy creature \"climbed up a waterspout\"",
+          "answer": "the spider",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7072-s-c5-r0"
+        },
+        {
+          "question": "Jimmy does it, but \"I don't care\"",
+          "answer": "crack corn",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7072-s-c5-r1"
+        },
+        {
+          "question": "The 3 R's are taught to this tune in \"School Days\"",
+          "answer": "the tune of a hickory stick",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7072-s-c5-r2"
+        },
+        {
+          "question": "Size shoe worn by \"My Darling Clementine\"",
+          "answer": "No. 9",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7072-s-c5-r3"
+        },
+        {
+          "question": "Where K-K-K-Katy will be waiting",
+          "answer": "at the k-k-k-kitchen door",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7072-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ARCHITECTURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "English style which developed during the reigns of Georges I, II, III & IV",
+          "answer": "Georgian",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7072-d-c0-r0"
+        },
+        {
+          "question": "From French meaning \"face\", it's the face of a building '",
+          "answer": "the façade",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7072-d-c0-r1"
+        },
+        {
+          "question": "German school of architecture mentioned in Tom Wolfe title, \"From Our House to...\"",
+          "answer": "Bauhaus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7072-d-c0-r2"
+        },
+        {
+          "question": "Two of the three Greek orders of architecture",
+          "answer": "(2 of) Doric, Corinthian & Ionic",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARCHITECTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7072-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In \"My Story\", Judith Campbell Exner describes her affair with this '60s president",
+          "answer": "John Kennedy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7072-d-c1-r0"
+        },
+        {
+          "question": "In 1928 he said, \"I do not choose to run\"",
+          "answer": "Calvin Coolidge",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7072-d-c1-r1"
+        },
+        {
+          "question": "Called \"His Accidency\" he was first vice-president to replace a president who died in office",
+          "answer": "John Tyler",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7072-d-c1-r2"
+        },
+        {
+          "question": "\"Old Rough & Ready\", this 12th president & Mexican War hero is said to have never voted",
+          "answer": "Zachary Taylor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7072-d-c1-r3"
+        },
+        {
+          "question": "First president who was a college graduate",
+          "answer": "John Adams",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7072-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CARDS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Type of bridge that sounds as if it might be played by a bored bride and groom",
+          "answer": "honeymoon",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7072-d-c2-r0"
+        },
+        {
+          "question": "2 aces, 2 eights & a queen, named for Wild Bill Hickok, who was shot holding them",
+          "answer": "a dead man's hand",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7072-d-c2-r1"
+        },
+        {
+          "question": "\"Going out\" after you've \"melded\" is part of this game whose name means \"basket\" in Spanish",
+          "answer": "canasta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CARDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7072-d-c2-r2"
+        },
+        {
+          "question": "D.L. Coburn's Pulitzer Prize-winning play, based on 2 old people & a deck of cards",
+          "answer": "The Gin Game",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CARDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7072-d-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "INDONESIA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In \"South Pacific\" this island was \"Ha'i\"; in Indonesia, it's just this",
+          "answer": "Bali",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7072-d-c3-r0"
+        },
+        {
+          "question": "Famous Indonesian process of making fabrics by waxing & dyeing cloth",
+          "answer": "batik",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7072-d-c3-r1"
+        },
+        {
+          "question": "The Indonesian flag is identical to the flag of this European principality",
+          "answer": "Monaco",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7072-d-c3-r2"
+        },
+        {
+          "question": "Indonesia includes parts of these two islands, 2nd & 3rd largest in world",
+          "answer": "New Guinea & Borneo",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7072-d-c3-r3"
+        },
+        {
+          "question": "In '66, he took over government from Sukarno, & brought Indonesia back into the United Nations",
+          "answer": "(General) Suharto",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INDONESIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7072-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEDICINE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "As of Jan.1. 1985, California health plans must cover this ancient Chinese treatment",
+          "answer": "acupuncture",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7072-d-c4-r0"
+        },
+        {
+          "question": "This implanted organ regulator became atomic powered in the '70s",
+          "answer": "a heart pacemaker",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7072-d-c4-r1"
+        },
+        {
+          "question": "Affecting both people & animals, it was the 1st   germ linked to disease",
+          "answer": "anthrax",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MEDICINE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7072-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "LITTLE BIG MEN",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Randy Newman sang this song to the disdain of little folk everywhere",
+          "answer": "\"Short People\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE BIG MEN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7072-d-c5-r0"
+        },
+        {
+          "question": "Early in his career, his short stature gave him title, \"Le petit caporal,\" \"the Little Corporal\"",
+          "answer": "Napoleon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE BIG MEN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7072-d-c5-r1"
+        },
+        {
+          "question": "At 5'6½\", this little man was well-suited to play \"Little Big Man\"",
+          "answer": "Dustin Hoffman",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE BIG MEN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7072-d-c5-r2"
+        },
+        {
+          "question": "Barnum's circus' midget whose stage name combined a military title & a fairy tale name",
+          "answer": "General Tom Thumb",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE BIG MEN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7072-d-c5-r3"
+        },
+        {
+          "question": "Diminutive actor who stood on a box to kiss Sophia Loren in \"Boy on a Dolphin\"",
+          "answer": "Alan Ladd",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITTLE BIG MEN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7072-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAIRY TALES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Worldwide, this fairy tale has been subject of 58 films, more than any other story",
+          "answer": "Cinderella",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "FAIRY TALES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7072-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

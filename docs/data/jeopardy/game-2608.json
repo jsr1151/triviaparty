@@ -1,0 +1,713 @@
+{
+  "gameId": 2608,
+  "showNumber": 4545,
+  "airDate": "May 14, 2004",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MEET THE PRESS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1971 Daniel Ellsberg leaked the Pentagon Papers to this newspaper's Neil Sheehan",
+          "answer": "The New York Times",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PRESS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2608-s-c0-r0"
+        },
+        {
+          "question": "This 108-year-old magazine that covers hunting & fishing is \"The soul of the American outdoors\"",
+          "answer": "Field & Stream",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PRESS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2608-s-c0-r1"
+        },
+        {
+          "question": "The logo of this humorous newspaper is seen here",
+          "answer": "The Onion",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PRESS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2608-s-c0-r2"
+        },
+        {
+          "question": "This magazine has been giving its seal of approval since 1909",
+          "answer": "Good Housekeeping",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PRESS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2608-s-c0-r3"
+        },
+        {
+          "question": "It calls itself \"The newspaper of Capitol Hill since 1955\"",
+          "answer": "Roll Call",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PRESS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2608-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"D.C.\"",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This Dickens character is the first full name mentioned in J.D. Salinger's \"Catcher in the Rye\"",
+          "answer": "David Copperfield",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"D.C.\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2608-s-c1-r0"
+        },
+        {
+          "question": "This legendary frontiersman's motto was \"Be always sure you're right--then go ahead!\"",
+          "answer": "Davy Crockett",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"D.C.\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2608-s-c1-r1"
+        },
+        {
+          "question": "In terms of electricity, it flows steadily in one direction",
+          "answer": "direct current",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"D.C.\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2608-s-c1-r2"
+        },
+        {
+          "question": "This epic poem by Dante is divided into 3 sections: the Inferno, the Purgatorio & the Paradiso",
+          "answer": "the Divine Comedy",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"D.C.\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2608-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "CURRENT EVENTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The ocean current named for this most populous state flows south at a slow, you might also say mellow, pace",
+          "answer": "California",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2608-s-c2-r0"
+        },
+        {
+          "question": "Blend the north & south equatorial currents, add a splash from west of Florida & you've got this \"stream\"",
+          "answer": "the Gulf Stream",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2608-s-c2-r1"
+        },
+        {
+          "question": "A dip in the Arctic current named for this, the world's largest island, would certainly be invigorating",
+          "answer": "Greenland",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2608-s-c2-r2"
+        },
+        {
+          "question": "Spanish for \"the child\", it's the warm back eddy of the chilly Peru Current",
+          "answer": "El Niño",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2608-s-c2-r3"
+        },
+        {
+          "question": "The Falkland Current flows for hundreds of miles up the east coast of this country",
+          "answer": "Argentina",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CURRENT EVENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2608-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "IT'S THE ECONOMY, STUPID!",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Of $3.75, $5.15 or $7.25, the current federal minimum hourly wage",
+          "answer": "$5.15",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S THE ECONOMY, STUPID!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2608-s-c3-r0"
+        },
+        {
+          "question": "The value of all goods & services produced within a country during a year makes up this, the GDP",
+          "answer": "the gross domestic product",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S THE ECONOMY, STUPID!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2608-s-c3-r1"
+        },
+        {
+          "question": "Created in 1914, this agency issues cease & desist orders against firms engaging in unlawful practices",
+          "answer": "the Federal Trade Commission",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S THE ECONOMY, STUPID!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2608-s-c3-r2"
+        },
+        {
+          "question": "Its past chairmen have included Thomas McCabe, Arthur Burns & Paul Volcker",
+          "answer": "the Federal Reserve",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "IT'S THE ECONOMY, STUPID!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2608-s-c3-r3"
+        },
+        {
+          "question": "The full title of Adam Smith's monumental 1776 work is \"An Inquiry into the Nature and Causes of\" this",
+          "answer": "the Wealth of Nations",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "IT'S THE ECONOMY, STUPID!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2608-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WAAAAAAH!",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This 4th century B.C. Macedonian king supposedly \"wept, for there were no more worlds to conquer\"",
+          "answer": "Alexander the Great",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WAAAAAAH!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2608-s-c4-r0"
+        },
+        {
+          "question": "In 1949 this country legend sang, \"The midnight train is whining low, I'm so lonesome I could cry\"",
+          "answer": "Hank Williams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WAAAAAAH!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2608-s-c4-r1"
+        }
+      ]
+    },
+    {
+      "name": "I WANT MY ______E",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "You might've noticed this 132-room building on an 18-acre plot a few doors down",
+          "answer": "the White House",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I WANT MY ______E",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2608-s-c5-r0"
+        },
+        {
+          "question": "\"Earthy\" term for an overwhelming election victory",
+          "answer": "landslide",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "I WANT MY ______E",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2608-s-c5-r1"
+        }
+      ]
+    },
+    {
+      "name": "MEET THE PREZ",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In California, February 6, 2004 was proclaimed this president's \"Day\" in honor of his 93rd birthday",
+          "answer": "Ronald Reagan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PREZ",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2608-d-c0-r0"
+        },
+        {
+          "question": "He was the fifth Harvard grad to become president, & the first Roman Catholic",
+          "answer": "John Fitzgerald Kennedy",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PREZ",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2608-d-c0-r1"
+        },
+        {
+          "question": "His presidential library sells aprons with the motto \"If you can't stand the heat, get out of the kitchen\"",
+          "answer": "Harry Truman",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PREZ",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2608-d-c0-r2"
+        },
+        {
+          "question": "At over 330 pounds, you might say this Wilson predecessor had a huge impact on the presidency",
+          "answer": "Howard Taft",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PREZ",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2608-d-c0-r3"
+        },
+        {
+          "question": "Of the first 5 U.S. presidents, he was the only one who wasn't born in Virginia",
+          "answer": "Adams",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE PREZ",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2608-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT EXIT ARE YA FROM?",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Exit 61B: I may be conservative on the Supreme Court but take me hunting & I shoot liberally",
+          "answer": "Justice Scalia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT EXIT ARE YA FROM?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2608-d-c1-r0"
+        },
+        {
+          "question": "I'm on first, Exit 102.  What's on second?  My partner Costello, Exit 155P",
+          "answer": "Abbott",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT EXIT ARE YA FROM?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2608-d-c1-r1"
+        },
+        {
+          "question": "Born off the Ohio Pike:I invented so much stuff in N.J. they named a township for me (take Exit 10 & 287)",
+          "answer": "(Thomas) Edison",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT EXIT ARE YA FROM?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2608-d-c1-r2"
+        },
+        {
+          "question": "Exit 100B down the shore: You're in for a beat-down if you don't know I'm the male actor with the most Oscar nominations",
+          "answer": "Jack Nicholson",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHAT EXIT ARE YA FROM?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2608-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "THE \"HOT\" SEAT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Sexy nickname of Major Margaret Houlihan on \"M*A*S*H\"",
+          "answer": "\"Hot Lips\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"HOT\" SEAT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2608-d-c2-r0"
+        },
+        {
+          "question": "When business is good, things are \"selling like\" these pan-fried foods",
+          "answer": "hotcakes",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"HOT\" SEAT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2608-d-c2-r1"
+        },
+        {
+          "question": "As a verb, it means to perform difficult stunts; as a noun, it's something you eat at the ballpark",
+          "answer": "hot dog",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"HOT\" SEAT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2608-d-c2-r2"
+        },
+        {
+          "question": "To start a car by short-circuiting the ignition",
+          "answer": "hotwire",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"HOT\" SEAT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2608-d-c2-r3"
+        },
+        {
+          "question": "A heated building usually with glass walls where delicate plants are raised",
+          "answer": "the hot house",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"HOT\" SEAT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2608-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "FORBES' BILLIONAIRES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Poised to unseat Bill Gates as numero uno is this Berkshire Hathaway man, now ranked No. 2",
+          "answer": "Warren Buffett",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORBES' BILLIONAIRES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2608-d-c3-r0"
+        },
+        {
+          "question": "The Donald tied for No. 205 with the Steven--this director",
+          "answer": "Steven Spielberg",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORBES' BILLIONAIRES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2608-d-c3-r1"
+        },
+        {
+          "question": "5 members of this retail family made the Top 10, including Jim & John (shouldn't that be Jim-Bob & John-Boy?)",
+          "answer": "the Waltons",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORBES' BILLIONAIRES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2608-d-c3-r2"
+        },
+        {
+          "question": "Ironically, Dhanin Chearavanont made a fortune with this kind of \"feed\", slang for a small amount of money",
+          "answer": "chicken feed",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FORBES' BILLIONAIRES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2608-d-c3-r3"
+        },
+        {
+          "question": "There's no potter's field in the future for this creator of Harry Potter; she's No. 552",
+          "answer": "J.K. Rowling",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FORBES' BILLIONAIRES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2608-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHAT ARE YOU AFRAID OF?",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "If you're genuphobic, you're afraid of these lower body parts that bend",
+          "answer": "knees",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2608-d-c4-r0"
+        },
+        {
+          "question": "If you've got musophobia, you may yell \"Eek!\" on seeing one of these small animals",
+          "answer": "mice",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2608-d-c4-r1"
+        },
+        {
+          "question": "Gephyrophobia is a fear of crossing these structures & we'll do it when we come to it",
+          "answer": "a bridge",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2608-d-c4-r2"
+        },
+        {
+          "question": "If you've got dendrophobia, a fear of these, you probably can't see the forest for them",
+          "answer": "trees",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2608-d-c4-r3"
+        },
+        {
+          "question": "Hopefully Noah didn't have antlophobia, a fear of these natural disasters",
+          "answer": "floods",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHAT ARE YOU AFRAID OF?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2608-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "NUCLEAR PHYSICS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1905 at his house in Switzerland, this German physicist wrote his theory of relativity",
+          "answer": "Einstein",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUCLEAR PHYSICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2608-d-c5-r0"
+        },
+        {
+          "question": "Splitting atoms to release energy is called fission; combining atoms to release energy is called this",
+          "answer": "fusion",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUCLEAR PHYSICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2608-d-c5-r1"
+        },
+        {
+          "question": "Chemical symbol U, this metallic element is used as a fuel in nuclear reactors & weapons",
+          "answer": "uranium",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NUCLEAR PHYSICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2608-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "THE U.S. SENATE",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the year 1958, the U.S. Senate was made up of this many members",
+          "answer": "96",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "THE U.S. SENATE",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2608-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

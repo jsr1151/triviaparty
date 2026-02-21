@@ -1,0 +1,833 @@
+{
+  "gameId": 5520,
+  "showNumber": 7464,
+  "airDate": "February 9, 2017",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "COUNTRIES' NEWSPAPERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Hindustan Times",
+          "answer": "India",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES' NEWSPAPERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5520-s-c0-r0"
+        },
+        {
+          "question": "The Guadalajara Reporter",
+          "answer": "Mexico",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES' NEWSPAPERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5520-s-c0-r1"
+        },
+        {
+          "question": "The Hamilton Spectator",
+          "answer": "Canada",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES' NEWSPAPERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5520-s-c0-r2"
+        },
+        {
+          "question": "The Cape Argus",
+          "answer": "South Africa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES' NEWSPAPERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5520-s-c0-r3"
+        },
+        {
+          "question": "Muscat Daily",
+          "answer": "Oman",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRIES' NEWSPAPERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5520-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTENT POTABLES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "To make a sea breeze, mix 2 parts vodka, 3 parts grapefruit juice & 1 part this juice--for the red color",
+          "answer": "cranberry juice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5520-s-c1-r0"
+        },
+        {
+          "question": "The name of this Scandinavian spirit derived from grain or potatoes is a shortening of the Latin for \"water of life\"",
+          "answer": "aquavit",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5520-s-c1-r1"
+        },
+        {
+          "question": "You might croon like Elvis, or maybe not, after having a Blue Hawaii made with this blue liqueur",
+          "answer": "Curaçao",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5520-s-c1-r2"
+        },
+        {
+          "question": "(Sarah of the Clue Crew demonstrates.)  a snifter of this clear anise liqueur may be served con la mosca, meaning \"with the fly\"; each fly is really one of the three espresso beans",
+          "answer": "sambuca",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5520-s-c1-r3"
+        },
+        {
+          "question": "Tuborg Pilsner has been brewed in this country since 1880",
+          "answer": "Denmark",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "POTENT POTABLES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5520-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAN VS. BEAST",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Since the dawn of camping, man has tried to keep food from this beast; a product called the Ursack says it's the answer",
+          "answer": "bears",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAN VS. BEAST",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5520-s-c2-r0"
+        },
+        {
+          "question": "In 1763 an early one of these, from the Latin for \"plague\", was made from tobacco to kill aphids",
+          "answer": "a pesticide",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAN VS. BEAST",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5520-s-c2-r1"
+        },
+        {
+          "question": "This legendary alliterative guy terminates Hamelin's vermin with extreme prejudice",
+          "answer": "the Pied Piper",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAN VS. BEAST",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5520-s-c2-r2"
+        },
+        {
+          "question": "In a Hawthorne story, a witch makes one of these to protect her corn, then brings him to life",
+          "answer": "a scarecrow",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAN VS. BEAST",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5520-s-c2-r3"
+        },
+        {
+          "question": "New South Wales' webpage on the control of these animals includes fences, as in the title of a 2002 movie",
+          "answer": "rabbits",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAN VS. BEAST",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5520-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYING TRIBUTE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Hell's Belles is an all-female tribute to this all-male band",
+          "answer": "AC/DC",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING TRIBUTE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5520-s-c3-r0"
+        },
+        {
+          "question": "Who's Bad bills itself as \"an unrivaled celebration of pop music's one true king\"-- this man",
+          "answer": "Michael Jackson",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING TRIBUTE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5520-s-c3-r1"
+        },
+        {
+          "question": "It's not just hearsay--L.A. & Liverpool both have bands named for this 1977 Fleetwood Mac album",
+          "answer": "Rumours",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING TRIBUTE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5520-s-c3-r2"
+        },
+        {
+          "question": "The Fillers & Hot Fuss are U.K. bands that pay tribute to this Las Vegas quartet",
+          "answer": "The Killers",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYING TRIBUTE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5520-s-c3-r3"
+        },
+        {
+          "question": "Candy-O revs up the hits from these rockers",
+          "answer": "The Cars",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PLAYING TRIBUTE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5520-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"V\"OCABULARY",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It can mean the judgment of history as well as a decision in a court case",
+          "answer": "a verdict",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5520-s-c4-r0"
+        },
+        {
+          "question": "From the Latin for \"entrance\", it's a large reception area at the main door of a building",
+          "answer": "a vestibule",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5520-s-c4-r1"
+        },
+        {
+          "question": "This jazz instrument is seen & heard here",
+          "answer": "a vibraphone",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5520-s-c4-r2"
+        },
+        {
+          "question": "Foxy adjective",
+          "answer": "vulpine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5520-s-c4-r3"
+        },
+        {
+          "question": "The scientific study of ultramicroscopic infectious agents",
+          "answer": "virology",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"V\"OCABULARY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5520-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "SLAMILTON",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This \"pen of the revolution\" is a \"man of profound ambition & violent passions\"",
+          "answer": "Jefferson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLAMILTON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5520-s-c5-r0"
+        },
+        {
+          "question": "\"I take it he is for or against nothing but as it suits his interest or ambition... I feel it a religious duty to oppose his career\"",
+          "answer": "Aaron Burr",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLAMILTON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5520-s-c5-r1"
+        },
+        {
+          "question": "Hamilton deemed the views of this once \"Federalist Papers\" pal to be \"dangerous to the Union\"",
+          "answer": "James Madison",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLAMILTON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5520-s-c5-r2"
+        },
+        {
+          "question": "\"As wicked as he is mad\", this vice president got people \"alarmed by appearances of some eccentric tendencies\"",
+          "answer": "John Adams",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLAMILTON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5520-s-c5-r3"
+        },
+        {
+          "question": "This first N.Y. gov., also a VP with a presidential last name, has \"narrow views, a prejudiced and contracted disposition\"",
+          "answer": "Clinton",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SLAMILTON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5520-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "LOVE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Secretly in love with Roxane, this title play character with a huge nose helps his inarticulate rival with love letters",
+          "answer": "Cyrano de Bergerac",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5520-d-c0-r0"
+        },
+        {
+          "question": "L'amour is the raison d'etre of this character who does \"zee woo-ing\" in cartoons like \"For Scent-imental Reasons\"",
+          "answer": "Pepé le Pew",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5520-d-c0-r1"
+        },
+        {
+          "question": "From the Greek for \"carry\", these scents are released by some insects to attract members of the opposite sex",
+          "answer": "pheromones",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5520-d-c0-r2"
+        },
+        {
+          "question": "This Old Testament book, an 8-chapter love poem, has lines like \"Behold, thou art fair, my love...thou hast doves' eyes\"",
+          "answer": "the Song of Solomon",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5520-d-c0-r3"
+        },
+        {
+          "question": "One of Gustav Klimt's most famous works portrays a pair of embracing lovers, united by this, the title of the work",
+          "answer": "The Kiss",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LOVE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5520-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV NICKNAMES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On \"Gilligan's Island\", the skipper often called Gilligan his \"little\" this",
+          "answer": "little buddy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV NICKNAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5520-d-c1-r0"
+        },
+        {
+          "question": "In season 5 of \"Entourage\", it was revealed that Sal was the actual first name of this character",
+          "answer": "Turtle",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NICKNAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5520-d-c1-r1"
+        },
+        {
+          "question": "On the BBC's \"Sherlock\", this character is sometimes called \"Mike\", though he abhors it",
+          "answer": "Mycroft Holmes",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV NICKNAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5520-d-c1-r2"
+        },
+        {
+          "question": "British actress Millie Bobby Brown got this numeric nickname on \"Stranger Things\"",
+          "answer": "Eleven",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NICKNAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5520-d-c1-r3"
+        },
+        {
+          "question": "In the 1950s Theodore was the real name of this son of Ward & June",
+          "answer": "the Beaver",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV NICKNAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5520-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE OED, FROM POISE TO QUELT",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"A period (orig. of forty days) during which persons who might serve to spread a contagious disease are kept isolated\"",
+          "answer": "a quarantine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OED, FROM POISE TO QUELT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5520-d-c2-r0"
+        },
+        {
+          "question": "\"Situated behind\" or \"the hinder part or back side\"",
+          "answer": "posterior",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OED, FROM POISE TO QUELT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5520-d-c2-r1"
+        },
+        {
+          "question": "\"One who practices the art of boxing\"",
+          "answer": "a pugilist",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OED, FROM POISE TO QUELT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5520-d-c2-r2"
+        },
+        {
+          "question": "\"Condensation and deposition of moisture... esp. in the formation of dew, rain\"",
+          "answer": "precipitation",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OED, FROM POISE TO QUELT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5520-d-c2-r3"
+        },
+        {
+          "question": "\"To drink (liquor) copiously\"",
+          "answer": "quaff",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OED, FROM POISE TO QUELT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5520-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUNICIPAL LITERATURE",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"London!--that great place!--Nobody--not even Mr. Bumble--could ever find him there!\" thinks this poor Dickens lad",
+          "answer": "Oliver Twist",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUNICIPAL LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5520-d-c3-r0"
+        },
+        {
+          "question": "The canals are frozen over as Det. Lotte Meerman tries to solve a really cold case in \"A Cold Death in\" this European city",
+          "answer": "Amsterdam",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUNICIPAL LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5520-d-c3-r1"
+        },
+        {
+          "question": "Willa Cather's 1931 novel \"Shadows on the Rock\" details the lives of French colonists in the \"rock\" that is this Canadian city",
+          "answer": "Quebec City",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUNICIPAL LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5520-d-c3-r2"
+        },
+        {
+          "question": "Herbert Asbury's \"The Barbary Coast\" is an informal history of the underworld of this West Coast city",
+          "answer": "San Francisco",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUNICIPAL LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5520-d-c3-r3"
+        },
+        {
+          "question": "This writer from Lowell portrayed small-town Mass. & big New York City in his first novel, 1950's \"The Town and the City\"",
+          "answer": "Jack Kerouac",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MUNICIPAL LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5520-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "-OLOGIES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "For a B.S. degree in this -ology, you have to take courses like weather forecasting & climate dynamics",
+          "answer": "meteorology",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5520-d-c4-r0"
+        },
+        {
+          "question": "It's the -ology associated with the symbol seen here that was created back in the '60s",
+          "answer": "ecology",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5520-d-c4-r1"
+        },
+        {
+          "question": "Piscatology is the art or science of this activity",
+          "answer": "fishing",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5520-d-c4-r2"
+        },
+        {
+          "question": "From a Greek word for \"creeping\", it's the branch of zoology that deals with snakes & other reptiles",
+          "answer": "herpetology",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5520-d-c4-r3"
+        },
+        {
+          "question": "It's the 11-letter name for the study of how extremely low temperatures affect living organisms",
+          "answer": "cryobiology",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5520-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALPHANUMERICALLY YOURS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Traditional, simple & safe harbor are 3 types of these retirement plans",
+          "answer": "a 401(k)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHANUMERICALLY YOURS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5520-d-c5-r0"
+        },
+        {
+          "question": "The first attempt to reach the summit of this mountain came in 1902; the first success? 1954",
+          "answer": "K2",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHANUMERICALLY YOURS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5520-d-c5-r1"
+        },
+        {
+          "question": "HB2 is this state's controversial 2016 Public Facilities Privacy & Security Act, AKA the bathroom bill",
+          "answer": "North Carolina",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHANUMERICALLY YOURS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5520-d-c5-r2"
+        },
+        {
+          "question": "In 1989 this group hit No. 3 with \"Love Shack\", baby",
+          "answer": "the B-52s",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALPHANUMERICALLY YOURS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5520-d-c5-r3"
+        },
+        {
+          "question": "Niacin",
+          "answer": "B3",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ALPHANUMERICALLY YOURS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5520-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE OSCARS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Since \"The Godfather Part II\", this film has been the only sequel to win Best Picture",
+          "answer": "Lord of the Rings: Return of the King",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "THE OSCARS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5520-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

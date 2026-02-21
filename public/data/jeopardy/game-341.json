@@ -1,0 +1,785 @@
+{
+  "gameId": 341,
+  "showNumber": 12,
+  "airDate": "September 25, 1984",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Costa Rican capital people might know the way to",
+          "answer": "San Jose",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g341-s-c0-r0"
+        },
+        {
+          "question": "It's divided into the Kanda, Marunoucki, Asakusa & Ginza districts",
+          "answer": "Tokyo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g341-s-c0-r1"
+        },
+        {
+          "question": "Home to NATO & little green sprouts",
+          "answer": "Brussels",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g341-s-c0-r2"
+        },
+        {
+          "question": "This capital's street signs are in English, Arabic & Hebrew",
+          "answer": "Jerusalem",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g341-s-c0-r3"
+        },
+        {
+          "question": "If the other twin had founded it, it might have been called \"Reme\"",
+          "answer": "Rome",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g341-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOODS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Southern specialty & America's favorite main dish",
+          "answer": "southern fried chicken",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g341-s-c1-r0"
+        },
+        {
+          "question": "Deli delight, from Yiddish for Ring",
+          "answer": "a bagel",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g341-s-c1-r1"
+        },
+        {
+          "question": "Pickle men, not doctors, do this for bacon & ham",
+          "answer": "cure",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g341-s-c1-r2"
+        },
+        {
+          "question": "East Indians who never ask \"Where's the beef?\"",
+          "answer": "Hindus",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOODS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g341-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Sport which uses epees, foils & sabres",
+          "answer": "fencing",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g341-s-c2-r0"
+        },
+        {
+          "question": "Name given to annual competition among U.S. amateur boxers",
+          "answer": "the Golden Gloves",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g341-s-c2-r1"
+        },
+        {
+          "question": "Number of downs allowed in Canadian football to advance the ball 10 yards",
+          "answer": "3",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g341-s-c2-r2"
+        },
+        {
+          "question": "Because of WWII, these 2 NFL teams combined squads in '43 to become the \"Stegles\"",
+          "answer": "the Steelers & Eagles",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g341-s-c2-r3"
+        },
+        {
+          "question": "Ex-Boston Celtics' star who has refused induction into Basketball Hall of Fame",
+          "answer": "Bill Russell",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g341-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "INVENTIONS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "He invented the Franklin stove",
+          "answer": "Ben Franklin",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g341-s-c3-r0"
+        },
+        {
+          "question": "Detection of gamma rays was 1 of the uses for this 1947 instant picture taker",
+          "answer": "a Polaroid-Land camera",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g341-s-c3-r1"
+        },
+        {
+          "question": "2,160 people at a time could ride on this at the 1893 Chicago World's Fair",
+          "answer": "a Ferris wheel",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g341-s-c3-r2"
+        },
+        {
+          "question": "Edison suggested it be used to record phone calls & make clocks talk",
+          "answer": "the phonograph",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g341-s-c3-r3"
+        },
+        {
+          "question": "The first patent pool was for this invention by Howe, Hunt & Singer",
+          "answer": "the sewing machine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INVENTIONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g341-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAMMALS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Romans called this African beast a \"tiger horse\"",
+          "answer": "a zebra",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g341-s-c4-r0"
+        },
+        {
+          "question": "The only flying mammal",
+          "answer": "a bat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g341-s-c4-r1"
+        },
+        {
+          "question": "A black panther is really the black version of this cat",
+          "answer": "a leopard",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g341-s-c4-r2"
+        },
+        {
+          "question": "Plays dead to escape predators, but one was close friends with an alligator",
+          "answer": "an opossum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g341-s-c4-r3"
+        },
+        {
+          "question": "Weighing 1½ tons per foot, this mammal generates up to 500 H.P. with its tail",
+          "answer": "the blue whale",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g341-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEGINS WITH \"L\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Erich Segal's \"story\"",
+          "answer": "Love Story",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH \"L\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g341-s-c5-r0"
+        },
+        {
+          "question": "An air bubble tells a carpenter if he's on it",
+          "answer": "a level",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH \"L\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g341-s-c5-r1"
+        },
+        {
+          "question": "The L in L.P.G.A.",
+          "answer": "Ladies'",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH \"L\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g341-s-c5-r2"
+        },
+        {
+          "question": "A, B, M, P, or Z, for example",
+          "answer": "letters",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH \"L\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g341-s-c5-r3"
+        },
+        {
+          "question": "It's what bread has & matzo hasn't",
+          "answer": "leaven",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEGINS WITH \"L\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g341-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. STATES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Its Morman founders called it Deseret",
+          "answer": "Utah",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g341-d-c0-r0"
+        },
+        {
+          "question": "The only state beginning with \"A\" that does not end in \"A\"",
+          "answer": "Arkansas",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g341-d-c0-r1"
+        },
+        {
+          "question": "The only state to touch 4 of the Great Lakes",
+          "answer": "Michigan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g341-d-c0-r2"
+        },
+        {
+          "question": "1 of 4 states that's officially a commonwealth",
+          "answer": "(1 of) Massachusetts, Kentucky, Pennsylvania, Virginia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. STATES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g341-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "5-LETTER WORDS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Used by a carpenter, a master sergeant, & a dentist",
+          "answer": "a drill",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g341-d-c1-r0"
+        },
+        {
+          "question": "A lady's handbag or something done to lips before a kiss",
+          "answer": "purse",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g341-d-c1-r1"
+        },
+        {
+          "question": "A police wagon, a rice field, or author Chayefsky",
+          "answer": "\"paddy\"s",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g341-d-c1-r2"
+        },
+        {
+          "question": "To Hamlet, \"Frailty, thy name is\" this",
+          "answer": "woman",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g341-d-c1-r3"
+        },
+        {
+          "question": "In Czech, it's herec; in German, schauspieler; & in Hollywood, usually unemployed",
+          "answer": "an actor",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g341-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "4th note of the musical scale or \"a long, long way to run\"",
+          "answer": "fa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g341-d-c2-r0"
+        },
+        {
+          "question": "Piano style sprung from the blues, it describes Bette's \"Bugle Boy\"",
+          "answer": "boogie-woogie",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g341-d-c2-r1"
+        },
+        {
+          "question": "Tyrolean trick of moving the voice from natural to falsetto",
+          "answer": "yodeling",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g341-d-c2-r2"
+        },
+        {
+          "question": "\"I dream of Jeanie with the light brown hair /Borne, like a vapor...\"What we call this singing sans accompaniment:",
+          "answer": "a capella",
+          "value": 1900,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g341-d-c2-r3"
+        },
+        {
+          "question": "Italian for \"first lady\", the leading opera singer in a company",
+          "answer": "a prima donna",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g341-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAW",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A second prosecution for the same offense, or this round",
+          "answer": "double jeopardy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAW",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g341-d-c3-r0"
+        },
+        {
+          "question": "To avoid litigation, this type of insurance or divorce avoids affixing blame",
+          "answer": "no-fault",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAW",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g341-d-c3-r1"
+        },
+        {
+          "question": "While a summons asks nicely, this demands your appearance in court",
+          "answer": "a subpoena",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAW",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g341-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "WEATHER",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Condition associated with London & pea soup",
+          "answer": "fog",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g341-d-c4-r0"
+        },
+        {
+          "question": "Mt. Waialeale in Hawaii gets the most, while Calama, Chile, usually gets none",
+          "answer": "rain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g341-d-c4-r1"
+        },
+        {
+          "question": "Its winds can reach 400 MPH",
+          "answer": "a tornado",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g341-d-c4-r2"
+        },
+        {
+          "question": "Some hygrometers use a human hair to measure this",
+          "answer": "(relative) humidity",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g341-d-c4-r3"
+        },
+        {
+          "question": "Region near Equator that took the wind out of Sinbad's sails",
+          "answer": "the doldrums",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g341-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE TRIVIA",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Actress who spoke the immortal line, \"Love is never having to say you're sorry\"",
+          "answer": "Ali MacGraw",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g341-d-c5-r0"
+        },
+        {
+          "question": "Mary Poppins' magical, musical tongue-twister",
+          "answer": "supercalifragilisticexpialidocious",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g341-d-c5-r1"
+        },
+        {
+          "question": "Actor who captained \"the mean machine\" in \"The Longest Yard\"",
+          "answer": "Burt Reynolds",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g341-d-c5-r2"
+        },
+        {
+          "question": "Movie whose sequel was \"Class of '44\"",
+          "answer": "The Summer of '42",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g341-d-c5-r3"
+        },
+        {
+          "question": "This gimmick introduced for the film \"Scent of Mystery\" was something to be sniffed at",
+          "answer": "Smell-O-Vision",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE TRIVIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g341-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "RIVERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It carries more water than the longest rivers in Asia, Africa & No. America combined",
+          "answer": "the Amazon",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "RIVERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g341-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

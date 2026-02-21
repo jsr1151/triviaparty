@@ -1,0 +1,833 @@
+{
+  "gameId": 6084,
+  "showNumber": 657,
+  "airDate": "June 16, 1987",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "INSECTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "All insects hatch from these",
+          "answer": "eggs",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6084-s-c0-r0"
+        },
+        {
+          "question": "Mayflies live for a very short time because adult mayflies can't do this",
+          "answer": "eat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6084-s-c0-r1"
+        },
+        {
+          "question": "When male moths lose these sensory appendages, they lose all interest in female moths",
+          "answer": "antennae",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6084-s-c0-r2"
+        },
+        {
+          "question": "These wasps are called the 1st papermakers because they build paper nests",
+          "answer": "hornets (yellowjackets)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6084-s-c0-r3"
+        },
+        {
+          "question": "An immature insect, or a lesser forest goddess",
+          "answer": "nymph",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSECTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6084-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD & DRINK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "An old name for a strong ale, now it's usually preceded by \"egg\"",
+          "answer": "nog",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6084-s-c1-r0"
+        },
+        {
+          "question": "During WWII, some Dutch reportedly avoided starvation by eating the flowers & bulbs of this plant",
+          "answer": "the tulip",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6084-s-c1-r1"
+        },
+        {
+          "question": "From Italian for \"salt\", this type of sausage often uses meat that's seasoned with red wine",
+          "answer": "salami",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6084-s-c1-r2"
+        },
+        {
+          "question": "Most Parisians wouldn't have the \"Gaul\" to serve this bread dish for breakfast",
+          "answer": "French toast",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6084-s-c1-r3"
+        },
+        {
+          "question": "Flavor of cake used in making a sachertorte",
+          "answer": "chocolate",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6084-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COMMON BONDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Busby, borsalino, boater",
+          "answer": "hats",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6084-s-c2-r0"
+        },
+        {
+          "question": "Carter, Day George, Bird Johnson Robb",
+          "answer": "Lindas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6084-s-c2-r1"
+        },
+        {
+          "question": "Bridget, Bonaventure, Boniface",
+          "answer": "saints",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6084-s-c2-r2"
+        },
+        {
+          "question": "Essex, Franklin, Pierce-Arrow",
+          "answer": "old automobiles no longer in production",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6084-s-c2-r3"
+        },
+        {
+          "question": "A ship, a violin, a nose",
+          "answer": "things that have a bridge",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COMMON BONDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6084-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "METROPOLITAN OPERA",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A 1965 Met performance of \"Il Trovatore\" had to be cancelled due to this famous power problem",
+          "answer": "the blackout in New York City",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METROPOLITAN OPERA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6084-s-c3-r0"
+        },
+        {
+          "question": "While on a 1906 West Coast tour, the company survived this legendary disaster",
+          "answer": "San Francisco earthquake (and fire)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METROPOLITAN OPERA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6084-s-c3-r1"
+        },
+        {
+          "question": "In 1940, this \"star-studded\" oil co. began its Saturday sponsorship of Met radio broadcasts",
+          "answer": "Texaco",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METROPOLITAN OPERA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6084-s-c3-r2"
+        },
+        {
+          "question": "Two great Italian tenors debuted at the Met on November 23, Pavarotti in 1968 & this singer in 1903",
+          "answer": "Caruso",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METROPOLITAN OPERA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6084-s-c3-r3"
+        },
+        {
+          "question": "Including \"Lohengrin\", all Met operas in the 1st season were sung in these 2 Romance languages",
+          "answer": "Italian & French",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "METROPOLITAN OPERA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6084-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPINOFFS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Though inspired by 'The Six Million Dollar Man\", it wasn't called \"The Six Million Dollar Woman\"",
+          "answer": "The Bionic Woman",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPINOFFS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6084-s-c4-r0"
+        },
+        {
+          "question": "\"Good Times\" was a spinoff from \"Maude\", which was a spinoff from this show",
+          "answer": "All in the Family",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPINOFFS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6084-s-c4-r1"
+        },
+        {
+          "question": "Before they became sitcoms, Phyllis & Rhoda were characters on this series",
+          "answer": "Mary Tyler Moore",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPINOFFS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6084-s-c4-r2"
+        },
+        {
+          "question": "Before moving to their own show, \"The Ropers\" were the landlords on this sitcom",
+          "answer": "Three's Company",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPINOFFS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6084-s-c4-r3"
+        },
+        {
+          "question": "With a twitch of her nose, she left \"Bewitched\" & got a show named after her",
+          "answer": "Tabitha",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPINOFFS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6084-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"OUT\" WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A type of boat motor",
+          "answer": "outboard motor",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OUT\" WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6084-s-c5-r0"
+        },
+        {
+          "question": "What you'd have to do to beat the fastest gun or best artist in the West",
+          "answer": "outdraw him or her",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OUT\" WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6084-s-c5-r1"
+        },
+        {
+          "question": "You can plug your lava lite into it",
+          "answer": "an outlet",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OUT\" WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6084-s-c5-r2"
+        },
+        {
+          "question": "A pariah",
+          "answer": "an outcast",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OUT\" WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6084-s-c5-r3"
+        },
+        {
+          "question": "Frank, as one who calls a pariah a \"pariah\"",
+          "answer": "outspoken",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OUT\" WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6084-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. HISTORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1818, Congress ordered these cut back from 15 to 13, and they've stayed that way since",
+          "answer": "stripes on the flag",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6084-d-c0-r0"
+        },
+        {
+          "question": "On Sept. 4, 1886, U.S. troops captured this Apache leader & deported him--to Florida",
+          "answer": "Geronimo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6084-d-c0-r1"
+        },
+        {
+          "question": "On July 27, 1909, he set a world record by staying aloft for 1 hour, 1 minute & 40 seconds",
+          "answer": "Orville Wright",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6084-d-c0-r2"
+        },
+        {
+          "question": "In August 1958, the Nautilus made the 1st undersea crossing of this",
+          "answer": "North Pole",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6084-d-c0-r3"
+        },
+        {
+          "question": "On May 15, 1972, he was shot in a Laurel, Maryland shopping center",
+          "answer": "George Wallace",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6084-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY FLOWERS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Robert Louis Stevenson wrote \"Marriage...is a field of battle, not a bed of\" these",
+          "answer": "roses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FLOWERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6084-d-c1-r0"
+        },
+        {
+          "question": "The \"live flowers\" in Lewis Carroll's \"Through the Looking Glass\" have this amazing ability",
+          "answer": "ability to talk",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FLOWERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6084-d-c1-r1"
+        },
+        {
+          "question": "In \"Hamlet\", shortly after saying, \"There is pansies, that's for thoughts\", she drowns herself",
+          "answer": "Ophelia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FLOWERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6084-d-c1-r2"
+        },
+        {
+          "question": "In a 1974 film, Cyblll Shepherd played this florally-named Henry James heroine",
+          "answer": "Daisy Miller",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FLOWERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6084-d-c1-r3"
+        },
+        {
+          "question": "Walt Whitman mourned Lincoln in his poem \"When\" these \"Last in the Dooryard Bloom'd\"",
+          "answer": "Lilacs",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY FLOWERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6084-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "JAZZ",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Louis Armstrong was born in this city which was the 1st center for what would be called jazz",
+          "answer": "New Orleans",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6084-d-c2-r0"
+        },
+        {
+          "question": "Nickname shared by jazz greats Webb & Corea",
+          "answer": "Chick",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6084-d-c2-r1"
+        },
+        {
+          "question": "He brought jazz into a new era with his song \"It Don't Mean a Thing If It Ain't Got That Swing\"",
+          "answer": "Duke Ellington",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6084-d-c2-r2"
+        },
+        {
+          "question": "It's whom you'd expect to see on TV if you heard the following Vince Guaraldi jazz theme: [Instrumental \"Linus and Lucy\" plays]",
+          "answer": "Peanuts & Charlie Brown (characters from the television show, Peanuts)",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6084-d-c2-r3"
+        },
+        {
+          "question": "Playboy called this trumpeter's \"Kind of Blue\" the best jazz album of all time",
+          "answer": "Miles Davis",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "JAZZ",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6084-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PSEUDONYMS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "First name in pseudonyms of 19th century female authors \"Sand\" & \"Eliot\"",
+          "answer": "George",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSEUDONYMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6084-d-c3-r0"
+        },
+        {
+          "question": "40 inches tall, 19th c. entertainer Charles Sherwood Stratton was best known by this name",
+          "answer": "General Tom Thumb",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSEUDONYMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6084-d-c3-r1"
+        },
+        {
+          "question": "His acting career ruined by a sex scandal, this rotund silent comic directed using name Will B. Goodrich",
+          "answer": "(Roscoe) \"Fatty\" Arbuckle",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PSEUDONYMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6084-d-c3-r2"
+        },
+        {
+          "question": "Born Helen Louise Leonard, she was famous for singing & her 40 yr. relationship with Diamond Jim Brady",
+          "answer": "Lillian Russell",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PSEUDONYMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6084-d-c3-r3"
+        },
+        {
+          "question": "Born Harry Gerguson in New York, this flamboyant L.A. restaurateur passed as a Russian prince",
+          "answer": "Mike Romanoff",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PSEUDONYMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6084-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL & TOURISM",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Whether buying a Singapore sling in Singapore, or a Manhattan in Manhattan, you'd use bills called this",
+          "answer": "dollars",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6084-d-c4-r0"
+        },
+        {
+          "question": "The \"Indrailpass\" lets you use all this country's trains, including the Rajdhani Express",
+          "answer": "India",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6084-d-c4-r1"
+        },
+        {
+          "question": "Fodor's says this is Mexico's #1 resort for international visitors & numero uno for Mexicans too",
+          "answer": "Acapulco",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6084-d-c4-r2"
+        },
+        {
+          "question": "If you ask a waiter in Beijing \"Qing gei wo yidiar cha\" he'll bring you this",
+          "answer": "tea",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6084-d-c4-r3"
+        },
+        {
+          "question": "The National Museum of Science & Technology in Milan is named after this man",
+          "answer": "(Leonardo) Da Vinci",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL & TOURISM",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6084-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"IN\" WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"You're ugly & your mother dresses you funny,\" for example",
+          "answer": "insult",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"IN\" WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6084-d-c5-r0"
+        },
+        {
+          "question": "An egghead",
+          "answer": "intellectual",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"IN\" WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6084-d-c5-r1"
+        },
+        {
+          "question": "What you become when you drink far too much",
+          "answer": "intoxicated or inebriated",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"IN\" WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6084-d-c5-r2"
+        },
+        {
+          "question": "What you might get when you eat far too much",
+          "answer": "indigestion",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"IN\" WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6084-d-c5-r3"
+        },
+        {
+          "question": "Impalpable, it's that vague something you can't quite put your finger on",
+          "answer": "intangible",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"IN\" WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6084-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE CONTINENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Besides Antarctica, the other 2 continents that have no communist countries",
+          "answer": "Australia & South America",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE CONTINENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6084-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

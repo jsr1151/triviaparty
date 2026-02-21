@@ -1,0 +1,761 @@
+{
+  "gameId": 7991,
+  "showNumber": 107,
+  "airDate": "February 5, 1985",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LONDON",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Color of London transport's double-decker buses",
+          "answer": "red",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7991-s-c0-r0"
+        },
+        {
+          "question": "Officially Collegiate Church of St. Peter, British monarchs are crowned there",
+          "answer": "Westminster Abbey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7991-s-c0-r1"
+        },
+        {
+          "question": "Fleet Street is the center of this industry",
+          "answer": "the newspaper industry",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7991-s-c0-r2"
+        },
+        {
+          "question": "Locale where you'd find Elgin Marbles from the Parthenon & the Rosetta Stone",
+          "answer": "the British Museum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7991-s-c0-r3"
+        },
+        {
+          "question": "Those born within the sound of the bells of St. Mary-le-Bow are called this",
+          "answer": "Cockneys",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LONDON",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7991-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WEATHER",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "A Russian experimenter was killed by lightning in 1753 trying to match this inventor's 1752 feat",
+          "answer": "Benjamin Franklin",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7991-s-c1-r0"
+        },
+        {
+          "question": "It measures air pressure & is either aneroid or mercury",
+          "answer": "a barometer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7991-s-c1-r1"
+        },
+        {
+          "question": "Most are mainly water droplets, but cirrus & cirrostratus are formed of ice crystals",
+          "answer": "clouds",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7991-s-c1-r2"
+        },
+        {
+          "question": "Layered pellets of ice & snow that might be named Alan or Alan, Jr.",
+          "answer": "hail",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7991-s-c1-r3"
+        },
+        {
+          "question": "Winds blowing almost steadily from N.E., they helped speed westward travel for sailors",
+          "answer": "the trade winds",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEATHER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7991-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "State which raises the most beef cattle",
+          "answer": "Texas",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7991-s-c2-r0"
+        },
+        {
+          "question": "Candy bar named for President Cleveland's White House-born daughter, not a ballplayer",
+          "answer": "Baby Ruth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7991-s-c2-r1"
+        },
+        {
+          "question": "Related in fact to the peach, this nut resembles a peach pit",
+          "answer": "an almond",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7991-s-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "WORD ORIGINS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "From African word \"nguba\", common southern term for \"peanut\"",
+          "answer": "a goober pea",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7991-s-c3-r0"
+        },
+        {
+          "question": "This trademark brand has become the common term for petroleum jelly",
+          "answer": "Vaseline",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7991-s-c3-r1"
+        },
+        {
+          "question": "Type of print which means \"Italian\"",
+          "answer": "italic",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7991-s-c3-r2"
+        },
+        {
+          "question": "Drunk czarist officers were the 1st to challenge one another to this dangerous game",
+          "answer": "Russian roulette",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7991-s-c3-r3"
+        },
+        {
+          "question": "Cheap cigars favored by Conestoga wagon drivers",
+          "answer": "stogies",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORD ORIGINS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7991-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CATS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Prehistoric cats with enlarged canine teeth",
+          "answer": "a saber-toothed tiger",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7991-s-c4-r0"
+        },
+        {
+          "question": "Distinguished from leopards by its spots within spots, it's largest wildcat in W. Hemisphere",
+          "answer": "jaguar",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7991-s-c4-r1"
+        },
+        {
+          "question": "Vibrations in wall of blood vessels in the chest are believed to cause this phenomenon",
+          "answer": "purring",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7991-s-c4-r2"
+        },
+        {
+          "question": "The Himalayan gets its long hair from the Persian & its color points from this breed",
+          "answer": "a Siamese",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7991-s-c4-r3"
+        },
+        {
+          "question": "From German for \"wailing tomcat\", it's the harsh feline cry of mating season",
+          "answer": "a caterwaul",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CATS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7991-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRIVIA",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Interior sec'y Watt barred this singing group from D.C. July 4th shindig",
+          "answer": "the Beach Boys",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7991-s-c5-r0"
+        },
+        {
+          "question": "One of their ads read, \"Don't take a curve, at 60 per, we hate to lose, a customer\"",
+          "answer": "Burma-Shave",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7991-s-c5-r1"
+        },
+        {
+          "question": "Baseball star referred to in this song:\"Dee dee dee dee dee dee dee dee dee dee dee dee dee\"",
+          "answer": "Joe DiMaggio",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7991-s-c5-r2"
+        },
+        {
+          "question": "Theme song of Leonard Slye & Frances Octavia Smith",
+          "answer": "\"Happy Trails To You\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7991-s-c5-r3"
+        },
+        {
+          "question": "In a single year she \"played\" for the Brooklyn Dodgers, NY Knicks & NY Rangers",
+          "answer": "the organist (Gladys Gooding)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRIVIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7991-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CIVIL WAR",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Sherman's March to the Sea was across this state",
+          "answer": "Georgia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7991-d-c0-r0"
+        },
+        {
+          "question": "The Confederates renamed this ironclad the \"Virginia\"",
+          "answer": "the Merrimack",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7991-d-c0-r1"
+        },
+        {
+          "question": "Union General, his name was synonymous with \"sideburns\"",
+          "answer": "(General Ambrose) Burnside",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7991-d-c0-r2"
+        },
+        {
+          "question": "The Youngers & Jesse James began their infamous careers with this Confederate guerrilla leader",
+          "answer": "Quantrill",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7991-d-c0-r3"
+        },
+        {
+          "question": "Creole general who led confederate attack on Ft. Sumter",
+          "answer": "(Pierre G. T.) Beauregard",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CIVIL WAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7991-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD POLITICS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Country officially called the German Democratic Republic",
+          "answer": "East Germany",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD POLITICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7991-d-c1-r0"
+        },
+        {
+          "question": "Headquarters city of European common market",
+          "answer": "Brussels",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD POLITICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7991-d-c1-r1"
+        },
+        {
+          "question": "It's the legislature of Japan",
+          "answer": "the Diet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD POLITICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7991-d-c1-r2"
+        },
+        {
+          "question": "Soviet ally in East Africa that has formally turned Communist",
+          "answer": "Ethiopia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD POLITICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7991-d-c1-r3"
+        },
+        {
+          "question": "Name of \"ANZUS\" treaty is an acronym for these three signatory countries",
+          "answer": "the United States, Australia, and New Zealand",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD POLITICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7991-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MYTHOLOGY",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Animal symbolizing healing, because Asclepius, god of healing, had one coiled around his staff",
+          "answer": "a snake",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7991-d-c2-r0"
+        },
+        {
+          "question": "Underworld god whose name became synonymous with Hell",
+          "answer": "Hades",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7991-d-c2-r1"
+        },
+        {
+          "question": "Nine goddesses of the arts that artists commune with",
+          "answer": "the Muses",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7991-d-c2-r2"
+        },
+        {
+          "question": "The play within a play in \"A Midsummer Night's Dream\"",
+          "answer": "\"Pyramus and Thisbe\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7991-d-c2-r3"
+        },
+        {
+          "question": "Jupiter made the 1st one for his brothers to punish them for stealing fire from heaven",
+          "answer": "woman",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MYTHOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7991-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS MOVIES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Sport featured in \"Ice Castles\"",
+          "answer": "ice skating",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS MOVIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7991-d-c3-r0"
+        },
+        {
+          "question": "Robert Redford takes on snow, not movie moguls",
+          "answer": "Downhill Racer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS MOVIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7991-d-c3-r1"
+        },
+        {
+          "question": "1940 movie where Pat O'Brien told the team to \"Go in there & win one for the Gipper\"",
+          "answer": "Knute Rockne, All-American",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SPORTS MOVIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7991-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "PHYSICS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In electricity, what \"AC\" stands for",
+          "answer": "alternating current",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7991-d-c4-r0"
+        },
+        {
+          "question": "Newton's 3rd law states for every action this is equal and opposite",
+          "answer": "a reaction",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7991-d-c4-r1"
+        },
+        {
+          "question": "He made \"relativistic corrections\" in Newton's theories which made atomic theory workable",
+          "answer": "Einstein",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7991-d-c4-r2"
+        },
+        {
+          "question": "Branch of physics dealing with light",
+          "answer": "optics",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7991-d-c4-r3"
+        },
+        {
+          "question": "Term for the amount of twist that a force exerts on an object",
+          "answer": "torque",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHYSICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7991-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "6-LETTER WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Describes the age in Europe between 500 & 1450 A.D.",
+          "answer": "middle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7991-d-c5-r0"
+        },
+        {
+          "question": "It \"barks\" out Bach in your stereo",
+          "answer": "a woofer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7991-d-c5-r1"
+        },
+        {
+          "question": "A trite or hackneyed expression, in Mad magazine it can be \"horrifying\"",
+          "answer": "a cliché",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "6-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7991-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "SHOW BUSINESS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Only actress to win an Oscar, a Tony, a Grammy & an Emmy",
+          "answer": "Rita Moreno",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "SHOW BUSINESS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7991-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

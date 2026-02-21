@@ -1,0 +1,821 @@
+{
+  "gameId": 4701,
+  "showNumber": 6922,
+  "airDate": "October 21, 2014",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "LIBROS EN ESPAÑOL",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A classic animal tale:\"Belleza Negra\"",
+          "answer": "Black Beauty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBROS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4701-s-c0-r0"
+        },
+        {
+          "question": "Shel Silverstein:\"El Arbol Generoso\"",
+          "answer": "The Giving Tree",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBROS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4701-s-c0-r1"
+        },
+        {
+          "question": "The first in a series:\"El Leon, la Bruja y el Ropera\"",
+          "answer": "The Lion, the Witch and the Wardrobe",
+          "value": 1800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBROS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4701-s-c0-r2"
+        },
+        {
+          "question": "An American classic:\"Por Quien Doblan las Campanas\"",
+          "answer": "For Whom the Bell Tolls",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBROS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4701-s-c0-r3"
+        },
+        {
+          "question": "Stevenson:\"Secuestrado\"",
+          "answer": "Kidnapped",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBROS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4701-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MLB ALL-TIME LEADERS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "At-bats, games played, hits, Hall of Fame arguments",
+          "answer": "Pete Rose",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MLB ALL-TIME LEADERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4701-s-c1-r0"
+        },
+        {
+          "question": "Consecutive games (once), grand slams (once), biopic starring Gary Cooper",
+          "answer": "Lou Gehrig",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MLB ALL-TIME LEADERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4701-s-c1-r1"
+        },
+        {
+          "question": "Among pitchers: strikeouts, walks (win some, lose some)",
+          "answer": "Nolan Ryan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MLB ALL-TIME LEADERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4701-s-c1-r2"
+        },
+        {
+          "question": "Times caught stealing (win some, lose some)",
+          "answer": "Rickey Henderson",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MLB ALL-TIME LEADERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4701-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "BEASTLY POSSESSIVES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "You heard it directly from here, meaning the most reliable source",
+          "answer": "the horse's mouth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY POSSESSIVES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4701-s-c2-r0"
+        },
+        {
+          "question": "It's worth 50 points in darts",
+          "answer": "the bull's-eye",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY POSSESSIVES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4701-s-c2-r1"
+        },
+        {
+          "question": "It's the broken or jagged fabric pattern seen here",
+          "answer": "houndstooth",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY POSSESSIVES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4701-s-c2-r2"
+        },
+        {
+          "question": "\"In\" this beastly body part means very unlikely to happen if at all",
+          "answer": "a pig's eye",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY POSSESSIVES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4701-s-c2-r3"
+        },
+        {
+          "question": "Vonnegut volume about a possibly world-ending form of water called ice-nine",
+          "answer": "Cat's Cradle",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEASTLY POSSESSIVES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4701-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "POTPOURRI",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's spoken by lawyers to alert the court to improper evidence or procedure",
+          "answer": "an objection",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4701-s-c3-r0"
+        },
+        {
+          "question": "Stevie Nicks sang about the white-winged this, & here it is",
+          "answer": "a dove",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4701-s-c3-r1"
+        },
+        {
+          "question": "Located between 85th & 96th, the Jacqueline Kennedy Onassis Reservoir is found in this landmark",
+          "answer": "Central Park",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4701-s-c3-r2"
+        },
+        {
+          "question": "In one legend, Juno condemned this nymph, saying, \"You shall still have the last word, but no power to speak first\"",
+          "answer": "Echo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4701-s-c3-r3"
+        },
+        {
+          "question": "\"The Lost Colony\" that landed on this island in 1587 had about 17 women, 9 kids & 90 men",
+          "answer": "Roanoke",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POTPOURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4701-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE STEAKS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This steak sauce was created in the 1820s by the chef to England's King George IV",
+          "answer": "A.1.",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STEAKS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4701-s-c4-r0"
+        },
+        {
+          "question": "Sometimes wrapped in bacon, this choice cut of boneless steak with a French name is from the end of the loin",
+          "answer": "filet mignon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STEAKS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4701-s-c4-r1"
+        },
+        {
+          "question": "Found in the bottom sirloin & on the Sizzler's menu is this cut whose name comes from its geometry",
+          "answer": "tri-tip",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE STEAKS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4701-s-c4-r2"
+        },
+        {
+          "question": "This trendy steak cut of recent origin sounds like something you'd use to press your clothes",
+          "answer": "a flat iron",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STEAKS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4701-s-c4-r3"
+        },
+        {
+          "question": "A 19th century doctor invented this oval beef patty \"steak\" served in brown sauce & prescribed it to ward off gout",
+          "answer": "Salisbury steak (hamburger)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE STEAKS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4701-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEVER BEEN HIGHER",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In 1975 Junko Tabei became the first woman to reach its summit",
+          "answer": "Mount Everest",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEVER BEEN HIGHER",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4701-s-c5-r0"
+        },
+        {
+          "question": "The farthest humans have ever been from Earth is 248,655 miles, when this ill-fated craft rounded the Moon in 1970",
+          "answer": "Apollo 13",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEVER BEEN HIGHER",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4701-s-c5-r1"
+        },
+        {
+          "question": "In 2005 former Mumbai sheriff Vijaypat Singhania reached 68,986 feet in one of these",
+          "answer": "a balloon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEVER BEEN HIGHER",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4701-s-c5-r2"
+        },
+        {
+          "question": "The Nurek one of these in Tajikistan is 984 feet high plus 52 more feet of concrete under the river",
+          "answer": "a dam",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEVER BEEN HIGHER",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4701-s-c5-r3"
+        },
+        {
+          "question": "In 2012 this \"happy\" Austrian set a record, parachuting from 24 miles up for more than 9 min. back to Earth",
+          "answer": "Felix Baumgartner",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NEVER BEEN HIGHER",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4701-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE LAST KING OF SCOTLAND",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "...named this was killed in 1094 at the instigation of his uncle Donald Bane, not murdered by Macbeth",
+          "answer": "Duncan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE LAST KING OF SCOTLAND",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4701-d-c0-r0"
+        },
+        {
+          "question": "...of this house whose monarchs included Mary, Queen of Scots was William of Orange",
+          "answer": "the Stewart",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LAST KING OF SCOTLAND",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4701-d-c0-r1"
+        },
+        {
+          "question": "...to die in battle was killed at the 1513 Battle of Flodden Field by the forces of this English king",
+          "answer": "Henry VIII",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LAST KING OF SCOTLAND",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4701-d-c0-r2"
+        },
+        {
+          "question": "...of this house was David II, son of Robert",
+          "answer": "the Bruce",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LAST KING OF SCOTLAND",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4701-d-c0-r3"
+        },
+        {
+          "question": "...who wasn't also king of England was the V of this name, reigning from 1513 to 1542",
+          "answer": "James",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE LAST KING OF SCOTLAND",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4701-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "INITIALLY MEDICAL",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "You can treat it with diet & lifestyle changes as well as drugs:HBP",
+          "answer": "high blood pressure",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INITIALLY MEDICAL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4701-d-c1-r0"
+        },
+        {
+          "question": "A shot for the young, it's a triple treater:MMR",
+          "answer": "measles, mumps & rubella",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INITIALLY MEDICAL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4701-d-c1-r1"
+        },
+        {
+          "question": "For a cardiologist or a DJ:BPM",
+          "answer": "beats per minute",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INITIALLY MEDICAL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4701-d-c1-r2"
+        },
+        {
+          "question": "Pioneered in the 1950s by Dr. Sabin:OPV",
+          "answer": "the oral polio vaccine",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INITIALLY MEDICAL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4701-d-c1-r3"
+        },
+        {
+          "question": "A small pressurized can for delivering asthma medication:MDI",
+          "answer": "metered-dose inhaler",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "INITIALLY MEDICAL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4701-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"UV\" EXPOSURE",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "An arrangement of overlapping slats that can be used to control airflow",
+          "answer": "louver",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"UV\" EXPOSURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4701-d-c2-r0"
+        },
+        {
+          "question": "From a country south of Ecuador",
+          "answer": "Peruvian",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"UV\" EXPOSURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4701-d-c2-r1"
+        },
+        {
+          "question": "A clever movement, or a training exercise for troops",
+          "answer": "maneuver",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"UV\" EXPOSURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4701-d-c2-r2"
+        },
+        {
+          "question": "Viens ici, mon cher--snuggle with me in bed under this",
+          "answer": "duvet",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"UV\" EXPOSURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4701-d-c2-r3"
+        },
+        {
+          "question": "Existing before the flood",
+          "answer": "antediluvian",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"UV\" EXPOSURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4701-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROLE REVERSAL",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This actor played a Nazi in \"Marathon Man\" & a Nazi hunter in \"The Boys from Brazil\"",
+          "answer": "Laurence Olivier",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROLE REVERSAL",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4701-d-c3-r0"
+        },
+        {
+          "question": "In 1994's \"Junior\", this macho action superstar got in touch with his feminine side as a pregnant male research subject",
+          "answer": "Schwarzenegger",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROLE REVERSAL",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4701-d-c3-r1"
+        },
+        {
+          "question": "She entranced us as a proper little witch but then cast a spell as a Valley Girl party animal in \"The Bling Ring\"",
+          "answer": "Emma Watson",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROLE REVERSAL",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4701-d-c3-r2"
+        },
+        {
+          "question": "Say hello to my little friend!  He was a gangster in \"Scarface\", then put on a badge as a dedicated cop in \"Heat\"",
+          "answer": "Al Pacino",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROLE REVERSAL",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4701-d-c3-r3"
+        },
+        {
+          "question": "\"I didn't kill my wife!\" he exclaimed in one of his many hero roles, but in \"What Lies Beneath\", he was a murderer",
+          "answer": "Harrison Ford",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROLE REVERSAL",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4701-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCULPTURE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Buonarroti is the surname of this sculptor & painter who gave us \"David\"",
+          "answer": "Michelangelo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4701-d-c4-r0"
+        },
+        {
+          "question": "These decorative waterspouts of the Middle Ages were designed to prevent rainwater from running down masonry walls",
+          "answer": "gargoyles",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4701-d-c4-r1"
+        },
+        {
+          "question": "In a sculpture by Giambologna, Nessus, one of these creatures, horses around with Deianira, Hercules' wife",
+          "answer": "a Centaur",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4701-d-c4-r2"
+        },
+        {
+          "question": "Naturally, Degas knew his ballet terms; the sculpture seen here is called \"Large\" this",
+          "answer": "Arabesque",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4701-d-c4-r3"
+        },
+        {
+          "question": "In 1915 this goofy Frenchman exhibited a snow shovel on which he wrote, \"In Advance of the Broken Arm\"",
+          "answer": "Marcel Duchamp",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCULPTURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4701-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE FESTIVE CARIBBEAN",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "On January 6, children in this U.S. commonwealth place grass in a shoe box for the Magi's camels",
+          "answer": "Puerto Rico",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FESTIVE CARIBBEAN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4701-d-c5-r0"
+        },
+        {
+          "question": "Barbados' Crop Over Festival celebrates the harvest of this crop; of course, it's followed later by a rum fest",
+          "answer": "sugarcane",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FESTIVE CARIBBEAN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4701-d-c5-r1"
+        },
+        {
+          "question": "Reggae Sumfest, the world's premier reggae festival, is held each July in this resort city on Jamaica's NW coast",
+          "answer": "Montego Bay",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FESTIVE CARIBBEAN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4701-d-c5-r2"
+        },
+        {
+          "question": "The Cayman Islands' Carnival Batabano is named for the tracks left in the sand by these reptiles as they crawl to nest",
+          "answer": "sea turtles",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FESTIVE CARIBBEAN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4701-d-c5-r3"
+        },
+        {
+          "question": "The Shakespeare Mas in this \"Spice Isle\" country is a battle of wits using only lines from the Bard's plays",
+          "answer": "Grenada",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE FESTIVE CARIBBEAN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4701-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 18th CENTURY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Losses in this event included 12 chests of souchong",
+          "answer": "the Boston Tea Party",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "THE 18th CENTURY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4701-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

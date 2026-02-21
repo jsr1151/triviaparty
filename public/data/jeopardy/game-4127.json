@@ -1,0 +1,809 @@
+{
+  "gameId": 4127,
+  "showNumber": 1839,
+  "airDate": "September 10, 1992",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WEIGHTS & MEASURES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A long ton is 2,240 pounds & a short ton is this many pounds",
+          "answer": "2,000",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4127-s-c0-r0"
+        },
+        {
+          "question": "If you require a quire, you need 24 or 25 sheets of this",
+          "answer": "paper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4127-s-c0-r1"
+        },
+        {
+          "question": "Of a cup, 1/2 pint, or 12 ounces, the one not equal to either of the other 2",
+          "answer": "12 ounces",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4127-s-c0-r2"
+        },
+        {
+          "question": "The quarter in quarter horse stands for this",
+          "answer": "quarter mile",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4127-s-c0-r3"
+        },
+        {
+          "question": "At the speed of 1 knot, you travel 1 nautical mile in this length of time",
+          "answer": "an hour",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WEIGHTS & MEASURES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4127-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAYORS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Jim Whelan is mayor of this New Jersey gambling resort",
+          "answer": "Atlantic City",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4127-s-c1-r0"
+        },
+        {
+          "question": "In the 1989 Democratic primary, current NYC mayor David Dinkins defeated this 3-term mayor",
+          "answer": "Ed Koch",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4127-s-c1-r1"
+        },
+        {
+          "question": "Willy Brandt was mayor of this city before becoming chancellor of West Germany",
+          "answer": "Berlin",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4127-s-c1-r2"
+        },
+        {
+          "question": "In 1945 Hubert Humphrey was elected mayor of this Minnesota city",
+          "answer": "Minneapolis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4127-s-c1-r3"
+        },
+        {
+          "question": "The first Mexican-American mayor of a major U.S. city, Henry Cisneros was mayor of this Texas city 1981-89",
+          "answer": "San Antonio",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAYORS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4127-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV GUIDE SAYS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "\"Charles plans revenge on the colonel who sent him to Korea\"",
+          "answer": "\"M*A*S*H\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4127-s-c2-r0"
+        },
+        {
+          "question": "\"Belker forgets his mother's birthday and she's steaming\"",
+          "answer": "\"Hill Street Blues\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4127-s-c2-r1"
+        },
+        {
+          "question": "\"In Spain, Kelly and Scott are led a merry chase by Agent Double-O Cross (Peter Lawford)\"",
+          "answer": "\"I, Spy\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4127-s-c2-r2"
+        },
+        {
+          "question": "\"Ritchie claims he was attacked by a giant woodpecker\"",
+          "answer": "\"The Dick Van Dyke Show\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4127-s-c2-r3"
+        },
+        {
+          "question": "\"Jim must survive an incompetency meeting before he can inherit $3 million\"",
+          "answer": "\"Taxi\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV GUIDE SAYS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4127-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "DRAMA",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Maxwell Anderson's play \"Valley Forge\" is set during this war",
+          "answer": "the Revolutionary War",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4127-s-c3-r0"
+        },
+        {
+          "question": "\"A Bequest to the Nation\" covers the last months of this admiral's life & his affair with Lady Hamilton",
+          "answer": "Lord (Horatio) Nelson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4127-s-c3-r1"
+        },
+        {
+          "question": "Thornton Wilder's \"The Matchmaker\" was the basis for this musical",
+          "answer": "\"Hello, Dolly!\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4127-s-c3-r2"
+        },
+        {
+          "question": "Joshua Logan's \"The Wisteria Trees\", set on a southern plantation, is an adaptation of this Chekhov play",
+          "answer": "\"The Cherry Orchard\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4127-s-c3-r3"
+        },
+        {
+          "question": "In 1989 actress Pauline Collins won Olivier & Tony awards for this one-woman show",
+          "answer": "\"Shirley Valentine\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DRAMA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4127-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN FOLKLORE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "John Henry died with one of these tools in his hand",
+          "answer": "a hammer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4127-s-c4-r0"
+        },
+        {
+          "question": "This \"Coonskin Congressman\" wasn't above making up a few tales about himself",
+          "answer": "Davy Crockett",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4127-s-c4-r1"
+        },
+        {
+          "question": "His stories of a 20-year sleeper & a ghost rider were inspired by German folktales",
+          "answer": "Washington Irving",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4127-s-c4-r2"
+        },
+        {
+          "question": "New Hampshirites turned this speechwriter into a folk hero, calling him \"Dan'l\"",
+          "answer": "Daniel Webster",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4127-s-c4-r3"
+        },
+        {
+          "question": "Old Stormalong soaped his ships to squeeze through the English Channel; the soap scraped off on these cliffs",
+          "answer": "(white) cliffs of Dover",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AMERICAN FOLKLORE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4127-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"K\" ON THE MAP",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "If you want to attend the University of Nairobi, you have to go to this country",
+          "answer": "Kenya",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" ON THE MAP",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g4127-s-c5-r0"
+        },
+        {
+          "question": "Great Britain gained control of most of this  famous pass after the second Afghan War",
+          "answer": "the Khyber Pass",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" ON THE MAP",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g4127-s-c5-r1"
+        },
+        {
+          "question": "One of the world's largest man-made lakes, it shares its name with a state",
+          "answer": "(Lake) Kentucky",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" ON THE MAP",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g4127-s-c5-r2"
+        },
+        {
+          "question": "At 6,880 square miles, this Arab country is a little smaller than New Jersey",
+          "answer": "Kuwait",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" ON THE MAP",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g4127-s-c5-r3"
+        },
+        {
+          "question": "This Japanese city was modeled on \"Cha'ng-an\", the T'ang Dynasty's  Chinese capital",
+          "answer": "Kyoto",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"K\" ON THE MAP",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g4127-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This \"Animal Farm\" author is buried at All Saints Church in Sutton Courtenay, Berkshire",
+          "answer": "George Orwell",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4127-d-c0-r0"
+        },
+        {
+          "question": "In 1986 Wole Soyinka became the first African to win this award for literature",
+          "answer": "the Nobel Prize",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4127-d-c0-r1"
+        },
+        {
+          "question": "This American novelist was descended from Ebenezer Zane, founder of Zanesville, Ohio",
+          "answer": "Zane Gray/Grey",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4127-d-c0-r2"
+        },
+        {
+          "question": "This author won the Pulitzer Prize for \"The Making of the President 1960\"",
+          "answer": "Theodore White",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4127-d-c0-r3"
+        },
+        {
+          "question": "His son, Alistair, or Mouse, for whom he wrote \"The Wind in the Willows\", died at age 20",
+          "answer": "(Kenneth) Grahame",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4127-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "-OLOGIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Santa Claus might be interested in pogonology, which deals with this facial hair",
+          "answer": "a beard",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4127-d-c1-r0"
+        },
+        {
+          "question": "It's the type of insect studied in apiology",
+          "answer": "bees",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4127-d-c1-r1"
+        },
+        {
+          "question": "Campanology is the art of doing this, as Quasimodo could tell you",
+          "answer": "bell-ringing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4127-d-c1-r2"
+        },
+        {
+          "question": "An expert in nephrology would know a lot about this bodily organ",
+          "answer": "the kidney",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4127-d-c1-r3"
+        },
+        {
+          "question": "In the architectural sense, ecclesiology deals with the building of these",
+          "answer": "churches",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "-OLOGIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4127-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 50 STATES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Among its nicknames are \"The Breadbasket of America\" & \"The Sunflower State\"",
+          "answer": "Kansas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4127-d-c2-r0"
+        },
+        {
+          "question": "The top half of this state separates Quebec, Canada on the west from New Brunswick on the east",
+          "answer": "Maine",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4127-d-c2-r1"
+        },
+        {
+          "question": "Its coastline is longer than any other state's except Alaska",
+          "answer": "Florida",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4127-d-c2-r2"
+        },
+        {
+          "question": "Of the more than 8,500 lakes in this state, Winnebago is the largest",
+          "answer": "Wisconsin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4127-d-c2-r3"
+        },
+        {
+          "question": "In 1811 John Jacob Astor set up a Pacific Fur Co. Trading post for in what is now Astoria in this state",
+          "answer": "Oregon",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 50 STATES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4127-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANCIENT TIMES",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The ancient city of Ubar, trade center for this fragrant gift for the Baby Jesus, was discovered in 1991",
+          "answer": "frankincense",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TIMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4127-d-c3-r0"
+        },
+        {
+          "question": "The Greeks added a set of this to the Phoenician alphabet & it didn't cost them $250 each to do it",
+          "answer": "vowels",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TIMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4127-d-c3-r1"
+        },
+        {
+          "question": "The Mycenaeans flourished during the age of this metal & probably imported tin from Britain to make it",
+          "answer": "bronze",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TIMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4127-d-c3-r2"
+        },
+        {
+          "question": "Some sources say this ancient wonder was built by Semiramis, a legendary queen of Assyria",
+          "answer": "the hanging garden of Babylon",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TIMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4127-d-c3-r3"
+        },
+        {
+          "question": "The Lydians used to mint gold coins about 560 B.C. under the reign of this rich king",
+          "answer": "(King) Croesus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANCIENT TIMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4127-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PLANETS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Oxidized iron in this planet's surface material gives it its reddish color",
+          "answer": "Mars",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4127-d-c4-r0"
+        },
+        {
+          "question": "Even the Hubble Space Telescope can't reveal the surface features of this outer, smallest planet",
+          "answer": "Pluto",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4127-d-c4-r1"
+        },
+        {
+          "question": "In 1990 the Magellan spacecraft discovered lava flows over 100 miles long on this planet",
+          "answer": "Venus",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4127-d-c4-r2"
+        },
+        {
+          "question": "Titan, a moon of this planet, is larger than 2 of the planets",
+          "answer": "Saturn",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g4127-d-c4-r3"
+        },
+        {
+          "question": "This seventh planet is twice as far from the Sun as the sixth",
+          "answer": "Uranus",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLANETS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g4127-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "YOUNG ABE LINCOLN",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "While working in New Salem, Abe earned the respect of the Clary's Grove Boys by beating one in this sport",
+          "answer": "wrestling",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "YOUNG ABE LINCOLN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g4127-d-c5-r0"
+        },
+        {
+          "question": "One of the books we know he read was Mason Weems' life of this President",
+          "answer": "(George) Washington",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOUNG ABE LINCOLN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g4127-d-c5-r1"
+        },
+        {
+          "question": "Although he enlisted in this 1832 Indian war, he saw no fighting",
+          "answer": "the Black Hawk war",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YOUNG ABE LINCOLN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g4127-d-c5-r2"
+        }
+      ]
+    },
+    {
+      "name": "SHIPS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This British navy ship left Devenport Dec. 27, 1831 & went around the world on a 5-year survey mission",
+          "answer": "the HMS Beagle",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "SHIPS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g4127-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

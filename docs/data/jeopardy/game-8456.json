@@ -1,0 +1,833 @@
+{
+  "gameId": 8456,
+  "showNumber": 2452,
+  "airDate": "April 11, 1995",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE UNITED STATES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "To the people of this state, a tourist is a malihini, which means \"newcomer\"",
+          "answer": "Hawaii",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNITED STATES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8456-s-c0-r0"
+        },
+        {
+          "question": "Minnesota is famous for having \"10,000\" of these but it actually has about 15,000",
+          "answer": "lakes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNITED STATES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8456-s-c0-r1"
+        },
+        {
+          "question": "Runners flock to the \"Follow the Swallow\" 10-K run in this California city",
+          "answer": "(San Juan) Capistrano",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNITED STATES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8456-s-c0-r2"
+        },
+        {
+          "question": "The Concord Monitor & Foster's Daily Democrat are 2 of this state's leading newspapers",
+          "answer": "New Hampshire",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE UNITED STATES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8456-s-c0-r3"
+        },
+        {
+          "question": "The Willa Cather Memorial Prairie in this state preserves native grasslands as Willa Cather knew them",
+          "answer": "Nebraska",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE UNITED STATES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8456-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SONGS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In a Roger Miller song, this title line follows \"I'm a man of means by no means\"",
+          "answer": "\"King Of The Road\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8456-s-c1-r0"
+        },
+        {
+          "question": "The famous song about \"The Sweetheart of\" this fraternity was written by 2 Alpha Pis",
+          "answer": "Sigma Chi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8456-s-c1-r1"
+        },
+        {
+          "question": "Pat Boone wrote the English lyrics for this song whose title is Italian for \"when, when, when\"",
+          "answer": "\"Quando, Quando, Quando\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8456-s-c1-r2"
+        },
+        {
+          "question": "In \"My Fair Lady\", Freddy sings, \"Let the time go by, I won't care if I can be here on\" this",
+          "answer": "\"the street where you live\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8456-s-c1-r3"
+        },
+        {
+          "question": "The 1926 song \"There's a New Star in Heaven Tonight\" was inspired by the death of this silent film idol",
+          "answer": "Rudolph Valentino",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8456-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WOMEN",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On May 23, 1994 she was buried beside an eternal flame in Arlington National Cemetery",
+          "answer": "Jackie Kennedy Onassis",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8456-s-c2-r0"
+        },
+        {
+          "question": "Wildlife biologist Cynthia Moss tells elephants apart by these body parts",
+          "answer": "their ears",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8456-s-c2-r1"
+        },
+        {
+          "question": "In December 1994 President Clinton asked this Surgeon General to resign",
+          "answer": "Joycelyn Elders",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8456-s-c2-r2"
+        },
+        {
+          "question": "For the August 1992 Vanity Fair cover, she covered her body with a painted-on suit",
+          "answer": "Demi Moore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8456-s-c2-r3"
+        },
+        {
+          "question": "Since 1982 her book \"Entertaining\" has gone through over 20 printings",
+          "answer": "Martha Stewart",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WOMEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8456-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "SICKNESS & HEALTH",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Stress is a leading cause of bruxism, the habit of grinding these",
+          "answer": "grinding the teeth",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8456-s-c3-r0"
+        },
+        {
+          "question": "First aid books say you should not induce this if a person has swallowed a petroleum product",
+          "answer": "vomiting",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8456-s-c3-r1"
+        },
+        {
+          "question": "Sydenham's chorea, which affects children, is also known as this \"dance\"",
+          "answer": "St. Vitus",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8456-s-c3-r2"
+        },
+        {
+          "question": "If your septum curves into one of your nostril chambers, it's said to be this",
+          "answer": "deviated",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8456-s-c3-r3"
+        },
+        {
+          "question": "This disorder is characterized by uncontrollable episodes of falling asleep several times a day",
+          "answer": "narcolepsy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SICKNESS & HEALTH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8456-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "CORPORATE SYMBOLS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Item of jewelry worn by Mr. Clean",
+          "answer": "an earring",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPORATE SYMBOLS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8456-s-c4-r0"
+        },
+        {
+          "question": "This candy company's box & logo suggest a needlepoint \"sampler\"",
+          "answer": "Whitman",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPORATE SYMBOLS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8456-s-c4-r1"
+        },
+        {
+          "question": "This company's \"Tire Man\", Bib, goes back to 1898",
+          "answer": "Michelin",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPORATE SYMBOLS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8456-s-c4-r2"
+        },
+        {
+          "question": "This jean company's trademark is a brand featuring its name",
+          "answer": "Lee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPORATE SYMBOLS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8456-s-c4-r3"
+        },
+        {
+          "question": "The \"A\" in RCA used to form one of these; the \"Z\" in Zenith still does",
+          "answer": "a lightning bolt",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CORPORATE SYMBOLS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8456-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ODD WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "If you're a quadrigamist, you've been married this many times",
+          "answer": "four",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8456-s-c5-r0"
+        },
+        {
+          "question": "It's what you'd buy or store in a vintry",
+          "answer": "wine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8456-s-c5-r1"
+        },
+        {
+          "question": "Before buying a quiver, you might consult a fletcher, a person who makes these",
+          "answer": "arrows",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8456-s-c5-r2"
+        },
+        {
+          "question": "From Afrikaans, schlenter, meaning fake, is used especially to refer to an imitation one of these gems",
+          "answer": "diamonds",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8456-s-c5-r3"
+        },
+        {
+          "question": "Something nummular is shaped like this; makes cents",
+          "answer": "a penny (round, a coin)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ODD WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8456-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE SUPREME COURT",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "New York Times Co. v. United States was the case dealing with these Vietnam War documents",
+          "answer": "the Pentagon Papers",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8456-d-c0-r0"
+        },
+        {
+          "question": "William H. Moody, who prosecuted her for ax murdering her parents, served on the Supreme Court 1906-1910",
+          "answer": "Lizzie Borden",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8456-d-c0-r1"
+        },
+        {
+          "question": "In 1917 the beginning of the court's term was changed from the 2nd to the 1st Monday in this month",
+          "answer": "October",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8456-d-c0-r2"
+        },
+        {
+          "question": "Benjamin Cardozo was related to this poet who wrote, \"Give me your tired...\" etc.",
+          "answer": "Emma Lazarus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8456-d-c0-r3"
+        },
+        {
+          "question": "This author of Roe v. Wade was appointed after the failed nominations of Carswell & Haynsworth",
+          "answer": "Harry Blackmun",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE SUPREME COURT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8456-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ZOOLOGY",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This black & white forest dweller of China eats about 80 pounds of bamboo shoots daily",
+          "answer": "a panda bear",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8456-d-c1-r0"
+        },
+        {
+          "question": "Outweighing 20 elephants, it's the largest & heaviest animal that ever lived",
+          "answer": "a blue whale",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8456-d-c1-r1"
+        },
+        {
+          "question": "The sewellel or mountain beaver is the most primitive member of this order of mammals",
+          "answer": "a rodent",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8456-d-c1-r2"
+        },
+        {
+          "question": "The siamang, found in Malaysia & Sumatra, is the largest of these small apes",
+          "answer": "a gibbon",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8456-d-c1-r3"
+        },
+        {
+          "question": "In Peru this smallest member of the camel family is protected by law",
+          "answer": "vicuna",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8456-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTORIOUS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "On Nov. 22, 1963 he also murdered Dallas police officer J.D. Tippit",
+          "answer": "Oswald",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8456-d-c2-r0"
+        },
+        {
+          "question": "In 1890, at Auburn Prison, William Kemmler became the first American executed in this device",
+          "answer": "the electric chair",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8456-d-c2-r1"
+        },
+        {
+          "question": "Bob Ford, who killed this outlaw, was himself killed by Edward O. Kelly 10 years later",
+          "answer": "Jesse James",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8456-d-c2-r2"
+        },
+        {
+          "question": "The early leaders of this notorious organization in the U.S. were called \"Mustache Petes\"",
+          "answer": "the Mafia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8456-d-c2-r3"
+        },
+        {
+          "question": "According to Alvin Karpis, she was no criminal mastermind; she was just taking care of her boys",
+          "answer": "Ma Barker",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NOTORIOUS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8456-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 14th CENTURY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Around 1318 Oderico da Pordenone retraced this man's route to China, to verify his stories",
+          "answer": "Marco Polo",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 14th CENTURY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8456-d-c3-r0"
+        },
+        {
+          "question": "In 1345 this cathedral on the Ile de la Cite in the Seine was finished after 182 years of construction",
+          "answer": "Notre Dame",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 14th CENTURY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8456-d-c3-r1"
+        },
+        {
+          "question": "This world capital had its beginnings with a city founded on an island in Lake Texcoco",
+          "answer": "Mexico City",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 14th CENTURY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8456-d-c3-r2"
+        },
+        {
+          "question": "This merchant, the cat's meow, was made Lord Mayor of London in 1397",
+          "answer": "Dick Whittington",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE 14th CENTURY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8456-d-c3-r3"
+        },
+        {
+          "question": "This league that included the towns of Hamburg & Bremen reached its height of power around 1370",
+          "answer": "the Hanseatic League",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 14th CENTURY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8456-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BODIES OF WATER",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Barents, Beaufort & East Siberian seas are different sections of this ocean",
+          "answer": "the Arctic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8456-d-c4-r0"
+        },
+        {
+          "question": "Named for its reef formations, this sea merges with the Solomon Sea to the north & the Tasman Sea to the south",
+          "answer": "the Coral Sea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8456-d-c4-r1"
+        },
+        {
+          "question": "The Strait of Dover connects the English Channel with this sea",
+          "answer": "the North Sea",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8456-d-c4-r2"
+        },
+        {
+          "question": "This trench near Guam contains the deepest point in the Pacific",
+          "answer": "the Marianas",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8456-d-c4-r3"
+        },
+        {
+          "question": "The Gulf of Finland, which freezes over for several months during winter, is an arm of this sea",
+          "answer": "the Baltic",
+          "value": 1400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BODIES OF WATER",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8456-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTION",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "His \"Dolores Claiborne\" was the bestselling hardcover novel of 1992",
+          "answer": "Stephen King",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8456-d-c5-r0"
+        },
+        {
+          "question": "This \"Jurassic Park\" author originally published \"A Case of Need\" under the name Jeffery Hudson",
+          "answer": "(Michael) Crichton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8456-d-c5-r1"
+        },
+        {
+          "question": "Barbara Taylor Bradford wrote several books on interior design before turning to fiction with \"A Woman of\" this",
+          "answer": "Substance",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8456-d-c5-r2"
+        },
+        {
+          "question": "This bestseller by Thomas Tryon tells of twin brothers Niles & Holland Perry, one of whom is dead",
+          "answer": "The Other",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8456-d-c5-r3"
+        },
+        {
+          "question": "\"Brain\" & \"Coma\" are 2 of this author's early medical thrillers",
+          "answer": "Robin Cook",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8456-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD CITIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the capital of South Africa located in the geographic center of the country",
+          "answer": "Bloemfontein",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "WORLD CITIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8456-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

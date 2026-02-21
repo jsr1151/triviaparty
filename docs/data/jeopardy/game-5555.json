@@ -1,0 +1,773 @@
+{
+  "gameId": 5555,
+  "showNumber": 1220,
+  "airDate": "December 15, 1989",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Visa's new ads ask \"Why is this card green?\" & give the answer \"Envy\"",
+          "answer": "American Express",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5555-s-c0-r0"
+        },
+        {
+          "question": "General Mills is letting the health-conscious public know the \"O\" in Cheerios stands for this",
+          "answer": "oats",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5555-s-c0-r1"
+        },
+        {
+          "question": "You can order these desert items with your own message inside from the Peking Noodle Company in L.A.",
+          "answer": "fortune cookies",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5555-s-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "ASIA",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This eastern region of the Soviet Union is larger than Europe in area",
+          "answer": "Siberia",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5555-s-c1-r0"
+        },
+        {
+          "question": "This desert covering much of Mongolia is the coldest desert in the world",
+          "answer": "Gobi",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5555-s-c1-r1"
+        },
+        {
+          "question": "This city on the Huangpu River is Asia's most populous",
+          "answer": "Shanghai",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5555-s-c1-r2"
+        },
+        {
+          "question": "Hanoi & Haiphong are located in this region of Vietnam famous for its gulf",
+          "answer": "Tonkin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ASIA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5555-s-c1-r3"
+        },
+        {
+          "question": "Israel annexed this area of Syria in 1981 after having won it in the 6-Day war 14 years earlier",
+          "answer": "Golan Heights",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASIA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5555-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SONGS OF THE '60s",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1967 the Rascals were doing this \"on a Sunday afternoon\"",
+          "answer": "\"Groovin'\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS OF THE '60s",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5555-s-c2-r0"
+        },
+        {
+          "question": "It's her turn to cry, it's her turn to cry, it's her turn to cry, \"'cause Johnny's come back to me\"",
+          "answer": "Judy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS OF THE '60s",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5555-s-c2-r1"
+        },
+        {
+          "question": "Song containing the words \"Shirley, Shirley Boberley, Bonana Fanna, Foferly, fee fi Momerley, Shirley!\"",
+          "answer": "\"The Name Game\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS OF THE '60s",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5555-s-c2-r2"
+        },
+        {
+          "question": "This dance was \"a graveyard smash\" & \"caught on in a flash\" in 1962 & again in 1973",
+          "answer": "\"Monster Mash\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS OF THE '60s",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5555-s-c2-r3"
+        },
+        {
+          "question": "Title of a 1961 hit, it's what Lonnie Donegan might have asked of Mr. Wrigley, had they met",
+          "answer": "\"Does Your Chewing Gum Lose Its Flavour (On the Bedpost Overnight?)\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SONGS OF THE '60s",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5555-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TOYS & GAMES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Barbara Handler Segal was the prototype for this doll invented by her mother",
+          "answer": "Barbie",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5555-s-c3-r0"
+        },
+        {
+          "question": "Type of poker in which the 1st & often the last cards are dealt face down & the others face up",
+          "answer": "stud poker",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5555-s-c3-r1"
+        },
+        {
+          "question": "\"The Complete Book of Games\" says this type of battle can be held on a bed",
+          "answer": "pillow fight",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5555-s-c3-r2"
+        },
+        {
+          "question": "When this toy was introduced in 1957, it was called a \"Pluto Platter\" or \"Flying Saucer\"",
+          "answer": "frisbee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TOYS & GAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5555-s-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "A little harder than talc, but not as hard as calcite, gypsum is this number on the Mohs scale",
+          "answer": "2",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5555-s-c4-r0"
+        },
+        {
+          "question": "Precambrian time began with this & continued until the 1st appearances of life on Earth",
+          "answer": "the creation of Earth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5555-s-c4-r1"
+        },
+        {
+          "question": "Warning!  Warning!  Your litmus paper has just turned red, indicating this type of solution",
+          "answer": "acid",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5555-s-c4-r2"
+        },
+        {
+          "question": "The Dewey Decimal System is based on the number 10 & the duodecimal system on this number",
+          "answer": "12",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5555-s-c4-r3"
+        },
+        {
+          "question": "Formerly used in making film, it was the 1st commercial synthetic plastic",
+          "answer": "celluloid",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5555-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOMOPHONIC PAIRS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Host Alistair's chefs",
+          "answer": "Cook's cooks",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONIC PAIRS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5555-s-c5-r0"
+        },
+        {
+          "question": "Pamphleteer Thomas' aches",
+          "answer": "Paine's pains",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONIC PAIRS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5555-s-c5-r1"
+        },
+        {
+          "question": "Old nursery rhyme king's briquettes",
+          "answer": "Cole's coals",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONIC PAIRS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5555-s-c5-r2"
+        },
+        {
+          "question": "Tennis star Steffi's pie charts",
+          "answer": "Graf's graphs",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONIC PAIRS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5555-s-c5-r3"
+        },
+        {
+          "question": "Nebraska governor Kay's paddles",
+          "answer": "Orr's oars",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOMOPHONIC PAIRS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5555-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "STARTS WITH \"TR\"",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Method of fishing in which a lure or bait is pulled behind a boat at various speeds",
+          "answer": "trawling",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"TR\"",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5555-d-c0-r0"
+        },
+        {
+          "question": "London landmark named for Lord Nelson's 1805 naval victory",
+          "answer": "Trafalgar Square",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"TR\"",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5555-d-c0-r1"
+        },
+        {
+          "question": "It's often called the windpipe",
+          "answer": "trachea",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"TR\"",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5555-d-c0-r2"
+        },
+        {
+          "question": "Not all of these medieval poet musicians were strolling; some were attached to a court",
+          "answer": "troubadours",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"TR\"",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5555-d-c0-r3"
+        },
+        {
+          "question": "Maharishi Mahesh Yogi founded this movement that uses a Sanskrit mantra to find deeper consciousness",
+          "answer": "Transcendental Meditation",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STARTS WITH \"TR\"",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5555-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BRITISH NOVELS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"A Study in Scarlet\" was this famous sleuth's 1st published adventure",
+          "answer": "Sherlock Holmes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH NOVELS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5555-d-c1-r0"
+        },
+        {
+          "question": "This Defoe character spent 28 yrs., 2 mo. & 19 days on an unknown island off the coast of South America",
+          "answer": "Robinson Crusoe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH NOVELS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5555-d-c1-r1"
+        },
+        {
+          "question": "This Calcutta-born English novelist not only wrote \"Vanity Fair\", he illustrated it as well",
+          "answer": "William (Makepeace) Thackeray",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH NOVELS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5555-d-c1-r2"
+        },
+        {
+          "question": "This Dickens hero quits his job as a tutor, takes the half-wit Smike with him & becomes an actor",
+          "answer": "Nicholas Nickleby",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH NOVELS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5555-d-c1-r3"
+        },
+        {
+          "question": "In her novel, two sisters, Elinor & Marianne Dashwood, represent \"Sense & Sensibility\"",
+          "answer": "Jane Austen",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BRITISH NOVELS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5555-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Only president inaugurated on April 30; this year marked the 200th anniversary of that event",
+          "answer": "George Washington",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5555-d-c2-r0"
+        },
+        {
+          "question": "His mother was the former Phoebe Millard",
+          "answer": "Millard Fillmore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5555-d-c2-r1"
+        },
+        {
+          "question": "Richard Nixon in the election of 1972 & Ronald Reagan in 1984 each carried this number of states",
+          "answer": "49",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5555-d-c2-r2"
+        },
+        {
+          "question": "As gov. of Mass., he called out the National Guard when Boston police went on strike in 1919",
+          "answer": "Calvin Coolidge",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5555-d-c2-r3"
+        },
+        {
+          "question": "He was the 8th president & the first born in the United States",
+          "answer": "Martin Van Buren",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5555-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "OPERA",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "At the end of this fairy tale opera, the witch's gingerbread victims turn back into children",
+          "answer": "\"Hansel and Gretel\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5555-d-c3-r0"
+        },
+        {
+          "question": "This Verdi opera was commissioned by Ismail Pasha, khedive of Egypt, & premiered in Cairo in 1871",
+          "answer": "\"Aida\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5555-d-c3-r1"
+        },
+        {
+          "question": "When this man managed the Metropolitan Opera, he fired Maria Callas & wouldn't hire Beverly Sills",
+          "answer": "Rudolf Bing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5555-d-c3-r2"
+        },
+        {
+          "question": "This composer of \"Babes in Toyland\" also wrote the operas \"Madeleine\" & \"Natoma\" & helped found ASCAP",
+          "answer": "Victor Herbert",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OPERA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5555-d-c3-r3"
+        }
+      ]
+    },
+    {
+      "name": "GEMS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Guinness says the largest one of these was made by an abalone & is 349.41 carats",
+          "answer": "pearl",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5555-d-c4-r0"
+        },
+        {
+          "question": "The peridot, also known as precious olivine, is almost always this color",
+          "answer": "green",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5555-d-c4-r1"
+        },
+        {
+          "question": "The Hope Diamond was cut from a larger diamond that was part of this country's crown jewels, stolen in 1792",
+          "answer": "France",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5555-d-c4-r2"
+        },
+        {
+          "question": "This gemstone gets its beautiful deep blue color from a rare mineral called lazurite",
+          "answer": "lapis lazuli",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5555-d-c4-r3"
+        },
+        {
+          "question": "The diamond known as the \"Star of\" this continent is set in the British royal scepter",
+          "answer": "Africa",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GEMS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5555-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE VIKINGS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Vikings referred to this side of a ship as \"stjornbordi\"",
+          "answer": "starboard",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE VIKINGS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5555-d-c5-r0"
+        },
+        {
+          "question": "Noticing steamy hot springs, Iceland's 1st settler gave this city its name which means \"smoke bay\"",
+          "answer": "Reykjavik",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE VIKINGS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5555-d-c5-r1"
+        },
+        {
+          "question": "Viking ships had sails made of linen or this coarse woven fabric",
+          "answer": "wool",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE VIKINGS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5555-d-c5-r2"
+        },
+        {
+          "question": "The Vikings were the 1st to use this type of trial for settling lawsuits",
+          "answer": "by jury",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE VIKINGS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5555-d-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "U.S. GEOGRAPHY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the smallest state in land area of those not in the original 13 colonies",
+          "answer": "Hawaii (6,423 sq. mi.)",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "U.S. GEOGRAPHY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5555-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 396,
+  "showNumber": 3190,
+  "airDate": "June 12, 1998",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ANIMATION",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Character seen here:(\"----- ----- a-doop!\")",
+          "answer": "Betty Boop",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g396-s-c0-r0"
+        },
+        {
+          "question": "Yogi Bear stole pic-a-nic baskets fron vacationers at this national park",
+          "answer": "Jellystone",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g396-s-c0-r1"
+        },
+        {
+          "question": "\"Whenever he gets in a fix, he reaches into his bag of tricks\"",
+          "answer": "Felix the Cat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g396-s-c0-r2"
+        },
+        {
+          "question": "Kenny gets killed on nearly every episode of this Comedy Central cartoon",
+          "answer": "South Park",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g396-s-c0-r3"
+        },
+        {
+          "question": "Scooby-Doo, Shaggy, Freddy, Daphne & Velma traveled around in a van with this name",
+          "answer": "The Mystery Machine",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g396-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "EXPLORATION",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The famous greeting \"Dr. Livingstone, I presume?\" is attributed to him",
+          "answer": "Henry Stanley",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g396-s-c1-r0"
+        },
+        {
+          "question": "A city in what is now this state was named to honor Julien Dubuque, 23 years after his death",
+          "answer": "Iowa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g396-s-c1-r1"
+        },
+        {
+          "question": "This man, whose expedition was second to the South Pole, joined the Royal Navy in 1880, the year he turned 12",
+          "answer": "Robert Scott",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g396-s-c1-r2"
+        },
+        {
+          "question": "In 1498, this Portuguese explorer recruited a pilot in east Africa to help him find India",
+          "answer": "Vasco da Gama",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g396-s-c1-r3"
+        },
+        {
+          "question": "Gonzalo Jimenez de Quesada founded Bogota between 2 trips to find this mythical golden city",
+          "answer": "El Dorado",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g396-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CONSERVATION",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's the most abundant fossil fuel on Earth & at current use may run out in 200-300 years",
+          "answer": "coal",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSERVATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g396-s-c2-r0"
+        },
+        {
+          "question": "The Marine Mammal Protection Act bars the import of ivory from the tusks of these",
+          "answer": "walruses",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSERVATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g396-s-c2-r1"
+        },
+        {
+          "question": "(Hi, I'm environmental lawyer Robert F. Kennedy, Jr.)  In 1970 it was this president who established the Environmental Protection Agency",
+          "answer": "Richard Nixon",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSERVATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g396-s-c2-r2"
+        },
+        {
+          "question": "TCDD is the dioxin in this herbicide used during the Vietnam War",
+          "answer": "Agent Orange",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSERVATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g396-s-c2-r3"
+        },
+        {
+          "question": "After escaping from a lab in Massachusetts, this European moth spread & damaged trees in the Northeast",
+          "answer": "the gypsy moth",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CONSERVATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g396-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This alliterative term for a car with low fuel efficiency became common in the 1970s",
+          "answer": "a gas guzzler",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g396-s-c3-r0"
+        },
+        {
+          "question": "Found on many sport utility vehicles, it's a system where both axles provide propulsion",
+          "answer": "4-wheel drive (or all-wheel drive)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g396-s-c3-r1"
+        },
+        {
+          "question": "Transport that helped the Finns in the 1939-40 Winter War & helped Finn Matti Nykaenen finnish with Olympic gold",
+          "answer": "skis",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g396-s-c3-r2"
+        },
+        {
+          "question": "This device increases a jet plane's thrust by burning exhaust gases",
+          "answer": "afterburners",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g396-s-c3-r3"
+        },
+        {
+          "question": "It's the high-speed train that runs between NYC & Washington, D.C.",
+          "answer": "the Metroliner",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g396-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "APPROBATION",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1982 Lenny Skutnick rescued a passenger on a crashed 737 from this D.C. river",
+          "answer": "Potomac",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APPROBATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g396-s-c4-r0"
+        },
+        {
+          "question": "Fittingly, CNN broke the news in 1997 when this man decided to give $1 billion to the U.N.",
+          "answer": "Ted Turner",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APPROBATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g396-s-c4-r1"
+        },
+        {
+          "question": "Jody Williams won a 1997 Nobel Peace Prize for her efforts to ban these weapons",
+          "answer": "land mines",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APPROBATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g396-s-c4-r2"
+        },
+        {
+          "question": "In 1997, 5 decades late, 7 black soldiers received this highest award for bravery during WWII",
+          "answer": "the Congressional Medal of Honor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "APPROBATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g396-s-c4-r3"
+        },
+        {
+          "question": "Japanese consul Chiune Sugihara, who saved hundreds of Jews in WWII, bears the title \"Righteous\" this",
+          "answer": "Gentile",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "APPROBATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g396-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "VILIFICATION",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Rossini said of this \"Ring\" leader, \"He has lovely moments but awful quarters of an hour\"",
+          "answer": "Richard Wagner",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VILIFICATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g396-s-c5-r0"
+        },
+        {
+          "question": "Mario Puzo wrote that one of these men \"with his briefcase can steal more than a hundred men with guns\"",
+          "answer": "a lawyer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VILIFICATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g396-s-c5-r1"
+        },
+        {
+          "question": "In 1984 Barbara Bush said of this woman, \"I can't say it, but it rhymes with rich\"; she later apologized",
+          "answer": "Geraldine Ferraro",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VILIFICATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g396-s-c5-r2"
+        },
+        {
+          "question": "Dorothy Parker's comment on this actress, \"She runs the gamut of emotions from A to B\", was a joke",
+          "answer": "Katharine Hepburn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VILIFICATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g396-s-c5-r3"
+        },
+        {
+          "question": "Herman Mankiewicz said of this director, \"There, but for the grace of God, goes God\"",
+          "answer": "Orson Welles",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VILIFICATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g396-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "CELEBRATIONS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "November 3 is the national day to celebrate this, be it tuna fish or peanut butter & jelly",
+          "answer": "Sandwich Day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g396-d-c0-r0"
+        },
+        {
+          "question": "Confederate Heroes Day is celebrated January 19, the birthday of this general",
+          "answer": "Robert E. Lee",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g396-d-c0-r1"
+        },
+        {
+          "question": "Appropriately, National Stress Awareness Day is observed on this date, one day after \"Tax Day\"",
+          "answer": "April 16",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g396-d-c0-r2"
+        },
+        {
+          "question": "Dictionary Day, October 16, celebrates the birthday of this American lexicographer;look it up!",
+          "answer": "Noah Webster",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CELEBRATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g396-d-c0-r3"
+        },
+        {
+          "question": "This date on which WWII ended in Europe is a legal holiday in France",
+          "answer": "May 8, 1945",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CELEBRATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g396-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "LIBATIONS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's the most famous cocktail we know with Singapore in its name",
+          "answer": "a Singapore Sling",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g396-d-c1-r0"
+        },
+        {
+          "question": "To make a Canadian cocktail, add curacao, bitters & powdered sugar to this Canadian liquor",
+          "answer": "Canadian Whiskey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g396-d-c1-r1"
+        },
+        {
+          "question": "According to Alexis Lichine, this Orwellian year was not a vintage year for champagne",
+          "answer": "1984",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g396-d-c1-r2"
+        },
+        {
+          "question": "Pour gin or vodka over ice in a salt-rimmed glass & add grapefruit juice to make this \"canine\" drink",
+          "answer": "a salty dog",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LIBATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g396-d-c1-r3"
+        },
+        {
+          "question": "This yellow, anise-flavored liqueur is an essential ingredient in a Harvey Wallbanger",
+          "answer": "Galliano",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LIBATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g396-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ASSASSINATIONS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "James Garfield died of a gunshot wound in September 1881, as did this president in September 1901",
+          "answer": "William McKinley",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASSASSINATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g396-d-c2-r0"
+        },
+        {
+          "question": "Executed in 1918, this czar has since been made a saint by the Russian Orthodox Church abroad",
+          "answer": "Nicholas II",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASSASSINATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g396-d-c2-r1"
+        },
+        {
+          "question": "U.S. flags flew at half staff after this Israeli prime minister was slain in 1995",
+          "answer": "Yitzhak Rabin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASSASSINATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g396-d-c2-r2"
+        },
+        {
+          "question": "Confirming this rebel's death in 1967, Fidel Castro said it was \"sadly true\"",
+          "answer": "Ernesto \"Che\" Guevara",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASSASSINATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g396-d-c2-r3"
+        },
+        {
+          "question": "A Praetorian guard had enough of this insane Roman emperor & murdered him in 41 A.D.",
+          "answer": "Caligula",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ASSASSINATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g396-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "CREATIONS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In Chicago in 1885, William Jenney rose to new heights when he built the first structure called this",
+          "answer": "the skyscraper",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g396-d-c3-r0"
+        },
+        {
+          "question": "In 1843 Samuel Morse & Alfred Vail received $30,000 to build this between Baltimore & Washington, D.C.",
+          "answer": "a telegraph line",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g396-d-c3-r1"
+        },
+        {
+          "question": "In the early 1900s, Frank Fleer first introduced this, under the name Blibber-Blubber",
+          "answer": "bubble gum",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g396-d-c3-r2"
+        },
+        {
+          "question": "In 1975, 30 years after introducing the Bic pen, Baron Marcel Bich introduced this disposable item",
+          "answer": "the disposable razor",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g396-d-c3-r3"
+        },
+        {
+          "question": "Lasers are used to read this type of musical album first sold in Japan in 1982... sure beats a needle",
+          "answer": "the compact disc",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CREATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g396-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ADAPTATIONS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The 2-word title of this Carl Hiaasen novel became one word when Demi Moore disrobed on film",
+          "answer": "Strip Tease",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADAPTATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g396-d-c4-r0"
+        },
+        {
+          "question": "This Bogart-Bergman film is better remembered than its source, the play \"Everybody Comes to Rick's\"",
+          "answer": "Casablanca",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADAPTATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g396-d-c4-r1"
+        },
+        {
+          "question": "Kevin Kline & Joan Allen were moody indeed in this 1997 drama from a Rick Moody novel",
+          "answer": "The Ice Storm",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADAPTATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g396-d-c4-r2"
+        },
+        {
+          "question": "This film about a dying catcher, based on a Mark Harris novel, took its title from \"The Streets of Laredo\"",
+          "answer": "Bang the Drum Slowly",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ADAPTATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g396-d-c4-r3"
+        },
+        {
+          "question": "1951's \"A Place in the Sun\" adapts this classic \"American\" novel by Theodore Dreiser",
+          "answer": "An American Tragedy",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ADAPTATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g396-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CRUSTACEANS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The peneid type of this is the one most often served in the U.S.; have a cocktail",
+          "answer": "shrimp",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRUSTACEANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g396-d-c5-r0"
+        },
+        {
+          "question": "Watch out for the goose type of these; they may grow attached to the hull of your ship",
+          "answer": "barnacles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRUSTACEANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g396-d-c5-r1"
+        },
+        {
+          "question": "Crustacean that's the title of the 1979 song heard here:\"Everybody had...\"",
+          "answer": "\"Rock Lobster\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRUSTACEANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g396-d-c5-r2"
+        },
+        {
+          "question": "The ghost type of this crustacean burrows in the sand by day & scavenges on the beach at night",
+          "answer": "the crab",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRUSTACEANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g396-d-c5-r3"
+        },
+        {
+          "question": "Blue whales eat tons of these tiny crustaceans whose name is from the Norwegian for a fish's young",
+          "answer": "krill",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CRUSTACEANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g396-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ORGANIZATIONS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This women's organization founded in 1890 was chartered by Congress in 1896",
+          "answer": "the Daughters of the American Revolution",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "ORGANIZATIONS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g396-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 7773,
+  "showNumber": 2376,
+  "airDate": "December 26, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "BIRDS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Ornithologists say that during courtship the male of this bird transfixes the female with dozens of \"eyes\"",
+          "answer": "the peacock",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7773-s-c0-r0"
+        },
+        {
+          "question": "These birds are grouped by eating habits; pintails are dabblers & canvasbacks are divers",
+          "answer": "ducks",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7773-s-c0-r1"
+        },
+        {
+          "question": "One of these birds may be laughing or herring",
+          "answer": "a gull",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7773-s-c0-r2"
+        },
+        {
+          "question": "The largest of the passerines are these black birds",
+          "answer": "ravens",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7773-s-c0-r3"
+        },
+        {
+          "question": "Named for a building in which they're found, this group of owls has its own family—tytonidae",
+          "answer": "barn owls",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7773-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TELEVISION",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 1960 Howard K. Smith moderated the first debate between these presidential candidates",
+          "answer": "Nixon & Kennedy",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7773-s-c1-r0"
+        },
+        {
+          "question": "The first of these television awards were given out Jan. 25, 1949 at the Hollywood Athletic Club",
+          "answer": "the Emmys",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7773-s-c1-r1"
+        },
+        {
+          "question": "In 1978 this pair of film critics began their PBS show \"Sneak Previews\"",
+          "answer": "Siskel & Ebert",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7773-s-c1-r2"
+        },
+        {
+          "question": "This discussion series hosted by William F. Buckley started on WOR-TV in 1966",
+          "answer": "Firing Line",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7773-s-c1-r3"
+        },
+        {
+          "question": "This daily syndicated show starring chef Graham Kerr first ran from 1968-1971",
+          "answer": "The Galloping Gourmet",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TELEVISION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7773-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HERBS & SPICES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This onion relative & baked potato topper is a classic ingredient of fines herbes",
+          "answer": "chives",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7773-s-c2-r0"
+        },
+        {
+          "question": "According to a myth, Venus created marjoram to heal a wound caused by his love arrow",
+          "answer": "Cupid",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7773-s-c2-r1"
+        },
+        {
+          "question": "This herb whose name means \"dragon\" was once thought to cure venomous bites",
+          "answer": "tarragon",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7773-s-c2-r2"
+        },
+        {
+          "question": "This spice, originally from the West Indies, tastes like a blend of cinnamon, nutmeg & cloves",
+          "answer": "allspice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7773-s-c2-r3"
+        },
+        {
+          "question": "The price of this wild root of China has reportedly been as high as $23,000 per ounce",
+          "answer": "ginseng",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7773-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNOFFICIAL STATE NICKNAMES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "It's the \"Creole State\", though Cajuns might prefer to call it the \"Cajun State\"",
+          "answer": "Louisiana",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL STATE NICKNAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7773-s-c3-r0"
+        },
+        {
+          "question": "Some folks call it \"Hoosierdom\"",
+          "answer": "Indiana",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL STATE NICKNAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7773-s-c3-r1"
+        },
+        {
+          "question": "Nevada is the \"Battle-Born State\" because it was admitted to the Union during this war",
+          "answer": "the Civil War",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL STATE NICKNAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7773-s-c3-r2"
+        },
+        {
+          "question": "It's the \"Lady of the Lakes\"—the Great Lakes, because it touches 4 of them",
+          "answer": "Michigan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL STATE NICKNAMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7773-s-c3-r3"
+        },
+        {
+          "question": "This \"Swamp State\" was the home of Francis Marion, the \"Swamp Fox\"",
+          "answer": "South Carolina",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNOFFICIAL STATE NICKNAMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7773-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "INSURANCE",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Insurance companies refer to catastrophic events that come from natural causes as \"acts of\" this",
+          "answer": "God",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSURANCE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7773-s-c4-r0"
+        },
+        {
+          "question": "This type of car insurance covers the loss regardless of which party is responsible",
+          "answer": "no-fault",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSURANCE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7773-s-c4-r1"
+        },
+        {
+          "question": "It's the part of a loss paid by the insured party, not by the insurer",
+          "answer": "the deductible",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSURANCE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7773-s-c4-r2"
+        },
+        {
+          "question": "The payment for an insured loss, a clause may \"double\" it",
+          "answer": "indemnity",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSURANCE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7773-s-c4-r3"
+        },
+        {
+          "question": "This term refers to the person eligible to receive insurance payments",
+          "answer": "the beneficiary",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "INSURANCE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7773-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"H\"ODGEPODGE",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Cicero reminded us, \"There were poets before\" this author of \"The Iliad\"",
+          "answer": "Homer",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H\"ODGEPODGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g7773-s-c5-r0"
+        },
+        {
+          "question": "Will Rogers said it's \"the only place you can get into without having baggage\"—\"sick\" humor",
+          "answer": "a hospital",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H\"ODGEPODGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g7773-s-c5-r1"
+        },
+        {
+          "question": "Hippology is the study of these animals",
+          "answer": "horses",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H\"ODGEPODGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g7773-s-c5-r2"
+        },
+        {
+          "question": "This word most often refers to a large cushion used as a footstool, but can also mean a clump of grass",
+          "answer": "a hassock",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H\"ODGEPODGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g7773-s-c5-r3"
+        },
+        {
+          "question": "The J. Paul Getty Museum was modeled on the Villa dei Papiri near this city destroyed by Mount Vesuvius",
+          "answer": "Herculaneum",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"H\"ODGEPODGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g7773-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "1920",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Saar region, now part of this country, was turned over to the League of Nations in February",
+          "answer": "Germany",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1920",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7773-d-c0-r0"
+        },
+        {
+          "question": "In August this country led by Pilsudski defeated the Soviets at the Battle of the Vistula",
+          "answer": "Poland",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1920",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7773-d-c0-r1"
+        },
+        {
+          "question": "In November he captured 404 electoral votes to Democrat James Cox' 127",
+          "answer": "Harding",
+          "value": 2500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1920",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7773-d-c0-r2"
+        },
+        {
+          "question": "This legendary tenor's last performance was in \"La Juive\" at the Met on Christmas Eve",
+          "answer": "Caruso",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1920",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7773-d-c0-r3"
+        },
+        {
+          "question": "Helen Keller was one of the people who founded this constitutional rights organization in 1920",
+          "answer": "the American Civil Liberties Union",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "1920",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7773-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGES & UNIVERSITIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Stanford University maintains the Hopkins Marine Station in Pacific Grove in this state",
+          "answer": "California",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7773-d-c1-r0"
+        },
+        {
+          "question": "Don't remain silent if you know that Amherst College was this president's alma mater",
+          "answer": "Coolidge",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7773-d-c1-r1"
+        },
+        {
+          "question": "In 1993 a court upheld   Boston University's claim to 83.000 of this civil rights leader's papers",
+          "answer": "Martin Luther King",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7773-d-c1-r2"
+        },
+        {
+          "question": "HHS Secretary Donna Shalala was formerly chancellor of this Midwest university based in Madison",
+          "answer": "Wisconsin",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7773-d-c1-r3"
+        },
+        {
+          "question": "Duquesne University occupies about 40 acres in the downtown area of this Pennsylvania city",
+          "answer": "Pittsburgh",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7773-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "PLAYS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "A bright, cockney womanizer is \"what\" this Bill Naughton play is \"all about\"",
+          "answer": "Alfie",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7773-d-c2-r0"
+        },
+        {
+          "question": "This playwright's \"Ah, Wilderness!\" concerns Richard Miller & his love for Muriel McComber",
+          "answer": "Eugene O'Neill",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7773-d-c2-r1"
+        },
+        {
+          "question": "This Robert Bolt play is a reconstruction of the events leading to Thomas More's 1535 execution",
+          "answer": "A Man For All Seasons",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7773-d-c2-r2"
+        },
+        {
+          "question": "At the end of this Joseph Kesselring play, the Brewster sisters offer Mr. Witherspoon some elderberry wine",
+          "answer": "Arsenic and Old Lace",
+          "value": 2100,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7773-d-c2-r3"
+        },
+        {
+          "question": "This modern playwright's \"American Buffalo\" revolves around the sale of a rare buffalo nickel",
+          "answer": "David Mamet",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PLAYS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7773-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD GEOGRAPHY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "At 9,888 feet, Pico da Neblina is the tallest peak in this largest South American country",
+          "answer": "Brazil",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7773-d-c3-r0"
+        },
+        {
+          "question": "Named for a queen, it's Australia's smallest mainland state",
+          "answer": "Victoria",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7773-d-c3-r1"
+        },
+        {
+          "question": "France’s Somme River rises near the Belgian border & flows northwest to this waterway",
+          "answer": "the English Channel",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7773-d-c3-r2"
+        },
+        {
+          "question": "The Limpopo & Molopo Rivers provide part of this country's northern border with Botswana",
+          "answer": "South Africa",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7773-d-c3-r3"
+        },
+        {
+          "question": "This volcanic peak 40 miles east of Portland, Oregon last erupted in 1865",
+          "answer": "Mt. Hood",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD GEOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7773-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1988 this Pennsylvania company passed Mars. Inc. as the biggest U.S. candy maker",
+          "answer": "Hershey",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7773-d-c4-r0"
+        },
+        {
+          "question": "This store moved 6th Avenue & 14th Street to New York's Herald Square in 1902",
+          "answer": "Macy's",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7773-d-c4-r1"
+        },
+        {
+          "question": "This company is headquartered at Checkerboard Square, St. Louis, Missouri",
+          "answer": "Ralston Purina",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7773-d-c4-r2"
+        },
+        {
+          "question": "In 1986 this Memphis-based overnight delivery company lost more than $300 million on its Zapmail service",
+          "answer": "Federal Express",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7773-d-c4-r3"
+        },
+        {
+          "question": "In 1979 Allegheny Airlines changed its name to this",
+          "answer": "U.S. Air",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7773-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MEET THE MITCHELLS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "He managed to get sent to jail after he managed Nixon's reelection campaign",
+          "answer": "John Mitchell",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE MITCHELLS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g7773-d-c5-r0"
+        },
+        {
+          "question": "The book she published in 1936 sold over 2,000,000 copies in the U.S. by 1939",
+          "answer": "Margaret Mitchell",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE MITCHELLS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g7773-d-c5-r1"
+        },
+        {
+          "question": "Edgar Mitchell spent over 33 hours on the Moon with this first American in space",
+          "answer": "Alan Shepard",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE MITCHELLS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g7773-d-c5-r2"
+        },
+        {
+          "question": "Born Roberta Anderson in Can., this singer-songwriter parked a big yellow taxi on the charts",
+          "answer": "Joni Mitchell",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE MITCHELLS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g7773-d-c5-r3"
+        },
+        {
+          "question": "His complaint about the Navy losing a dirigible in a storm was one reason for his 1925 court-martial",
+          "answer": "Billy Mitchell",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MEET THE MITCHELLS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g7773-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "NOTABLE WOMEN",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1957, at age 90, author & scholar Edith Hamilton was made an honorary citizen of this city",
+          "answer": "Athens",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "NOTABLE WOMEN",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g7773-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "gameId": 638,
+  "showNumber": 2853,
+  "airDate": "January 15, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "ARCHAEOLOGY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The remains of the Rose Theater & this one also associated with Shakespeare were uncovered in London in 1989",
+          "answer": "Globe Theater",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g638-s-c0-r0"
+        },
+        {
+          "question": "The tomb of Han king Liu Wu yielded his body & a shroud made of this green gemstone",
+          "answer": "Jade",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g638-s-c0-r1"
+        },
+        {
+          "question": "A recent study suggests that this 3.2-million-year-old skeleton of a female is actually a male",
+          "answer": "\"Lucy\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g638-s-c0-r2"
+        },
+        {
+          "question": "The palace of this king who ordered the massacre of the innocents was discovered at Masada in 1955",
+          "answer": "Herod The Great",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ARCHAEOLOGY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g638-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "WINES & SPIRITS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Popular in China, shaoxing is a wine made from this grain",
+          "answer": "Rice",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINES & SPIRITS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g638-s-c1-r0"
+        },
+        {
+          "question": "Amontillado, a type of this fortified wine, has a distinctively nutty flavor",
+          "answer": "Sherry",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINES & SPIRITS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g638-s-c1-r1"
+        },
+        {
+          "question": "Like calvados, Swiss batzi is a brandy made from this fruit",
+          "answer": "Apples",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINES & SPIRITS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g638-s-c1-r2"
+        },
+        {
+          "question": "This cocktail contains vodka, gin, rum, tequila, lemon juice & cola, but no Lipton's",
+          "answer": "Long Island Iced Tea",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WINES & SPIRITS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g638-s-c1-r3"
+        },
+        {
+          "question": "First produced in 1801, this \"royal\" brand is \"Scotland's Prince of Whiskies\"",
+          "answer": "Chivas Regal",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WINES & SPIRITS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g638-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIRDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The weaverbird was named for its habit of weaving these from plant fibers",
+          "answer": "Nests",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g638-s-c2-r0"
+        },
+        {
+          "question": "The Australian budgerigar is the bird usually sold as this in pet stores",
+          "answer": "Parakeet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g638-s-c2-r1"
+        },
+        {
+          "question": "Gymnogyps Californianus is the scientific name of this largest North American vulture",
+          "answer": "California Condor",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIRDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g638-s-c2-r2"
+        }
+      ]
+    },
+    {
+      "name": "U.S. MOUNTAINS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Most geographers define the northern terminus of the Blue Ridge Mountains as Harpers Ferry in this state",
+          "answer": "West Virginia",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MOUNTAINS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g638-s-c3-r0"
+        },
+        {
+          "question": "The Bitterroot Range of this mountain chain extends more than 300 miles along the Idaho-Montana border",
+          "answer": "Rockies",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MOUNTAINS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g638-s-c3-r1"
+        },
+        {
+          "question": "Mount St. Elias is the second-highest mountain in this state & in the U.S.",
+          "answer": "Alaska",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MOUNTAINS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g638-s-c3-r2"
+        },
+        {
+          "question": "Rising from the ocean floor, this most massive mountain in the world lies south of Mauna Kea",
+          "answer": "Mauna Loa",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MOUNTAINS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g638-s-c3-r3"
+        },
+        {
+          "question": "This river carved a \"water gap\" in the Kittatinny Mountains between New Jersey & Pennsylvania",
+          "answer": "Delaware River",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MOUNTAINS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g638-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SILLY SONGS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In an Oscar-winning Disney song, this nonsense phrase precedes \"My, oh my, what a wonderful day\"",
+          "answer": "\"Zip-a-dee-doo-dah\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g638-s-c4-r0"
+        },
+        {
+          "question": "Of \"De Do Do Do, De Da Da Da\", \"Goo Goo\", & \"Nee Nee Na Na Na Na Nu Nu\", the one never a Top 40 hit",
+          "answer": "\"Goo Goo\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g638-s-c4-r1"
+        },
+        {
+          "question": "According to the title of a Roger Miller song, it's what you can't do \"In a buffalo herd\"",
+          "answer": "Roller skate",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g638-s-c4-r2"
+        },
+        {
+          "question": "Syllables that follow \"It don't mean a thing, if you ain't got that swing\"",
+          "answer": "\"Doo wop, Doo wop\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g638-s-c4-r3"
+        },
+        {
+          "question": "1971 Top 10 hit from Daddy Dewdrop; \"Don't Ya Jes' Love It\"",
+          "answer": "\"Chick-a-Boom, Chick-a-Boom\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SILLY SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g638-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"FUN\" WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This amusement park attraction contains devices to surprise, frighten, bewilder or amuse",
+          "answer": "Funhouse",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FUN\" WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g638-s-c5-r0"
+        },
+        {
+          "question": "This type of popular music combines elements of jazz, soul & blues",
+          "answer": "Funk",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"FUN\" WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g638-s-c5-r1"
+        },
+        {
+          "question": "This Protestant movement was organized in opposition to liberalism & secularism",
+          "answer": "Fundamentalism",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FUN\" WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g638-s-c5-r2"
+        },
+        {
+          "question": "Any person who holds a particular office or trust",
+          "answer": "Functionary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "\"FUN\" WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g638-s-c5-r3"
+        },
+        {
+          "question": "On this type of railway, ascending & descending cars may counterbalance each other",
+          "answer": "Funicular",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"FUN\" WORDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g638-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ONE-MAN SHOWS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Len Cariou, Broadway's original Sweeney Todd, plays this author in the one-man show \"Papa\"",
+          "answer": "Ernest Hemingway",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-MAN SHOWS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g638-d-c0-r0"
+        },
+        {
+          "question": "You could call Nicol Williamson's recent one-man show a \"Great Profile\" of this great stage actor",
+          "answer": "John Barrymore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-MAN SHOWS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g638-d-c0-r1"
+        },
+        {
+          "question": "A category on Famous Andreas might include this \"SCTV\" actress who stars in \"Nude, Nude, Totally Nude\"",
+          "answer": "Andrea Martin",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ONE-MAN SHOWS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g638-d-c0-r2"
+        },
+        {
+          "question": "This comic, once a rabbi, calls his newest solo show \"Love Thy Neighbor\"",
+          "answer": "Jackie Mason",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE-MAN SHOWS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g638-d-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "THE AMERICAN REVOLUTION",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This patriot was the first to sign the Declaration of Independence",
+          "answer": "John Hancock",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g638-d-c1-r0"
+        },
+        {
+          "question": "On November 15, 1777, Congress adopted this constitution",
+          "answer": "Articles of Confederation",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g638-d-c1-r1"
+        },
+        {
+          "question": "Americans lost this June 17, 1775 battle at Charlestown, Massachusetts because they ran out of ammunition",
+          "answer": "Bunker Hill",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g638-d-c1-r2"
+        },
+        {
+          "question": "In this 1783 treaty, America pledged to restore property to loyalists",
+          "answer": "Treaty of Paris",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g638-d-c1-r3"
+        },
+        {
+          "question": "British general Howe's September 1777 victory at this Pennsylvania creek led to the occupation of Philadelphia",
+          "answer": "Brandywine",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE AMERICAN REVOLUTION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g638-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "MAGAZINES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Annie Leibovitz was 23 when she became chief photographer for this music magazine in 1973",
+          "answer": "Rolling Stone",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g638-d-c2-r0"
+        },
+        {
+          "question": "Grace Mirabella edited this magazine for 17 years before launching her own in 1989",
+          "answer": "Vogue",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g638-d-c2-r1"
+        },
+        {
+          "question": "In 1996 this children's magazine that features Goofus & Gallant celebrated its 50th anniversary",
+          "answer": "Highlights",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g638-d-c2-r2"
+        },
+        {
+          "question": "Published by Conde Nast, it's \"America's Food and Entertaining Magazine\"",
+          "answer": "Bon Appetit",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g638-d-c2-r3"
+        },
+        {
+          "question": "Founded in 1857, this Boston-based magazine was named by Oliver Wendell Holmes",
+          "answer": "Atlantic",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAGAZINES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g638-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD CAPITALS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This Dutch city has more than 400 bridges linking its approximately 90 islands",
+          "answer": "Amsterdam",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g638-d-c3-r0"
+        },
+        {
+          "question": "Capital in which the following was minted:",
+          "answer": "Ottawa",
+          "value": 600,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g638-d-c3-r1"
+        },
+        {
+          "question": "This South American capital was founded in 1538 close to a Chibcha Indian center called Bacata",
+          "answer": "Bogota, Colombia",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g638-d-c3-r2"
+        },
+        {
+          "question": "The Islamic University of Imam Muhammad Ibn Saud & the Abdulaziz Military Academy are in this city",
+          "answer": "Riyadh",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g638-d-c3-r3"
+        },
+        {
+          "question": "In 1768 the Gurkhas captured this city & made it their capital",
+          "answer": "Kathmandu, Nepal",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD CAPITALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g638-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "SAINTS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "He's sometimes referred to as the \"Apostle of Ireland\"",
+          "answer": "St. Patrick",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g638-d-c4-r0"
+        },
+        {
+          "question": "This saint of Assisi was baptized Giovanni; his name was changed by his father",
+          "answer": "Francis",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g638-d-c4-r1"
+        },
+        {
+          "question": "A cathedral in Salerno, Italy is said to contain the crypt of this saint & author of the 1st gospel",
+          "answer": "Matthew",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g638-d-c4-r2"
+        },
+        {
+          "question": "Mother of the Virgin Mary, she's the patron saint of pregnant women",
+          "answer": "Anne",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g638-d-c4-r3"
+        },
+        {
+          "question": "In 1970 this saint of Avila became the first woman named a doctor of the Roman Catholic Church",
+          "answer": "Teresa",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SAINTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g638-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "FICTIONAL CHARACTERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Lewis Carroll based this title girl on a daughter of the dean of Oxford's Christ Church College",
+          "answer": "Alice",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g638-d-c5-r0"
+        },
+        {
+          "question": "Fortunato is the unfortunate victim in this author's famous horror story \"The Cask Of Amontillado\"",
+          "answer": "Edgar Allan Poe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g638-d-c5-r1"
+        },
+        {
+          "question": "This Anne Rice vampire has very white skin \"that has to be powdered down for cameras of any kind\"",
+          "answer": "Lestat",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g638-d-c5-r2"
+        },
+        {
+          "question": "Montague Tigg uses the rather obvious alias Tigg Montague in his novel \"Martin Chuzzlewit\"",
+          "answer": "Charles Dickens",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g638-d-c5-r3"
+        },
+        {
+          "question": "In a 1766 novel Squire Thornhill abducts Sophia Primrose, whose father is \"The Vicar Of\" this",
+          "answer": "Wakefield",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FICTIONAL CHARACTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g638-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS NAMES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Before achieving fame in Hollywood, he was a cosmetician to the Russian royal court",
+          "answer": "Max Factor",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS NAMES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g638-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

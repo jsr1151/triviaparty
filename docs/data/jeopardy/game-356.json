@@ -1,0 +1,665 @@
+{
+  "gameId": 356,
+  "showNumber": 63,
+  "airDate": "December 5, 1984",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "FIRST LADIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "She 1st met husband while complaining to S.A.G. about unwanted Communist literature",
+          "answer": "Nancy Reagan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g356-s-c0-r0"
+        },
+        {
+          "question": "After 1st breaking the engagement, Lincoln went on to marry her",
+          "answer": "Mary Todd Lincoln",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g356-s-c0-r1"
+        },
+        {
+          "question": "Virginia Governor Charles Robb's mother-in-law",
+          "answer": "Lady Bird Johnson",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g356-s-c0-r2"
+        },
+        {
+          "question": "In '62 Adlai Stevenson eulogized: \"She would rather light candles than curse the darkness\"",
+          "answer": "Eleanor Roosevelt",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g356-s-c0-r3"
+        },
+        {
+          "question": "Only wife of 1 president & mother of another",
+          "answer": "Abigail Adams",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FIRST LADIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g356-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "It's where relief pitchers, not matadors, warm up",
+          "answer": "the bullpen",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g356-s-c1-r0"
+        },
+        {
+          "question": "Because of this rule, no horse has ever won the Kentucky Derby twice",
+          "answer": "(only) a 3-year old (can run)",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g356-s-c1-r1"
+        },
+        {
+          "question": "These 2 former Olympic athletes became movie Tarzans",
+          "answer": "Buster Crabbe and Johnny Weissmuller",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g356-s-c1-r2"
+        },
+        {
+          "question": "He shouts the commands in crew racing",
+          "answer": "coxswain",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g356-s-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "FOREIGN CUISINE",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The Middle East's popular pocket bread",
+          "answer": "a pita",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CUISINE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g356-s-c2-r0"
+        },
+        {
+          "question": "16th century development of a pig muzzle was a landmark in harvesting this fungus",
+          "answer": "truffles",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CUISINE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g356-s-c2-r1"
+        },
+        {
+          "question": "A small Oriental orange or a division of Chinese cuisine",
+          "answer": "Mandarin",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CUISINE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g356-s-c2-r2"
+        },
+        {
+          "question": "City Wiener Schnitzel is named for",
+          "answer": "Vienna",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOREIGN CUISINE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g356-s-c2-r3"
+        }
+      ]
+    },
+    {
+      "name": "LAKES & RIVERS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A German river or the wine grown on its banks",
+          "answer": "the Rhine",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g356-s-c3-r0"
+        },
+        {
+          "question": "The end of a river that empties into a lake or ocean",
+          "answer": "the mouth",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g356-s-c3-r1"
+        },
+        {
+          "question": "Sam Rayburn Reservoir is this state's largest lake",
+          "answer": "Texas",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g356-s-c3-r2"
+        },
+        {
+          "question": "Located in Oregon, it's the deepest lake in North America",
+          "answer": "Crater Lake",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g356-s-c3-r3"
+        },
+        {
+          "question": "Either of 2 Marilyn Monroe films with \"watery\" titles",
+          "answer": "(1 of) Niagara and the River of No Return",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAKES & RIVERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g356-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOLK MUSIC",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "What the farmer's wife did to 3 unlucky mice",
+          "answer": "cut off their tails with a carving knife",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOLK MUSIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g356-s-c4-r0"
+        }
+      ]
+    },
+    {
+      "name": "HATS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This western topper actually holds only about 3 quarts",
+          "answer": "a ten-gallon hat",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HATS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g356-s-c5-r0"
+        },
+        {
+          "question": "Slang for a construction worker",
+          "answer": "a hardhat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HATS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g356-s-c5-r1"
+        },
+        {
+          "question": "'50s fuzzy frontier fad",
+          "answer": "a Davy Crockett coonskin hat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HATS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g356-s-c5-r2"
+        },
+        {
+          "question": "Graduate's cap, it sounds like a plasterer's tool",
+          "answer": "a mortarboard",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HATS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g356-s-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "ZOOLOGY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Finned on fish, scaly on lizards, nonexistent on humans & manx cats",
+          "answer": "tails",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g356-d-c0-r0"
+        },
+        {
+          "question": "From Latin \"to gnaw\", there are more of this group than all other mammals combined",
+          "answer": "rodents",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g356-d-c0-r1"
+        },
+        {
+          "question": "In mammals, trait determined by presence or absence of Y-chromosome",
+          "answer": "sex",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ZOOLOGY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g356-d-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "EUROPE",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"The Eternal City\"",
+          "answer": "Rome",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g356-d-c1-r0"
+        },
+        {
+          "question": "Hitler said this Polish capital \"must cease to exist; level it\"",
+          "answer": "Warsaw",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g356-d-c1-r1"
+        },
+        {
+          "question": "Moscow park that was scene of murders investigated in recent best-seller & film",
+          "answer": "Gorky Park",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g356-d-c1-r2"
+        },
+        {
+          "question": "Since 300 A.D., this region of N.E. France has been traded 7 times by Germany and France",
+          "answer": "Alsace-Lorraine",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g356-d-c1-r3"
+        },
+        {
+          "question": "Bavarian village famous for its passion play",
+          "answer": "Oberammergau",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EUROPE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g356-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "RELIGION",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1978, this pope reigned for only 34 days",
+          "answer": "Pope John Paul I",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g356-d-c2-r0"
+        },
+        {
+          "question": "Colonial Maryland was founded as haven for members of this church",
+          "answer": "the (Roman) Catholic Church",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "RELIGION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g356-d-c2-r1"
+        }
+      ]
+    },
+    {
+      "name": "MATHEMATICS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Number of degrees in a circle",
+          "answer": "360",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g356-d-c3-r0"
+        },
+        {
+          "question": "Mathematical function people in the Bible were always going forth & doing",
+          "answer": "multiplying",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g356-d-c3-r1"
+        },
+        {
+          "question": "Logarithmic tool outmoded by the calculator",
+          "answer": "a slide rule",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g356-d-c3-r2"
+        },
+        {
+          "question": "Total meters in a hectometer",
+          "answer": "100",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g356-d-c3-r3"
+        },
+        {
+          "question": "The formula for its volume is V equals pi r²h",
+          "answer": "a cylinder",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MATHEMATICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g356-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. HISTORY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The 1st permanent English settlement in America",
+          "answer": "Jamestown",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g356-d-c4-r0"
+        },
+        {
+          "question": "\"Reconstruction\" was the 13-year period following this",
+          "answer": "the Civil War",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g356-d-c4-r1"
+        },
+        {
+          "question": "Only U.S. civilians ever executed in America for espionage",
+          "answer": "Julius and Ethel Rosenberg",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g356-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "HOTEL NAMES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Liz's Nicky",
+          "answer": "Hilton",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTEL NAMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g356-d-c5-r0"
+        },
+        {
+          "question": "The film in which Bing sang about a white Christmas & an Easter parade",
+          "answer": "Holiday Inn",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTEL NAMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g356-d-c5-r1"
+        },
+        {
+          "question": "According to Andy Griffith, \"Everything's good that sits on\" this cracker",
+          "answer": "a Ritz",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTEL NAMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g356-d-c5-r2"
+        },
+        {
+          "question": "In 1959, \"Maverick\" won the Emmy for this category, only year it was given",
+          "answer": "Best Western",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTEL NAMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g356-d-c5-r3"
+        },
+        {
+          "question": "Muppets commenting from the balcony in the following\"That was wonderful!\"\"Bravo!\"\"I loved it!\"\"Ah, it was great!\"\"Well, it was pretty good.\"\"Well, it wasn't bad...\"\"Uh, there were parts of it that weren't very good though.\"\"It could have been a lot better.\"\"I didn't really like it.\"\"It was pretty terrible.\"\"It was bad.\"\"It was awful!\"\"It was terrible!\"\"Take 'em away!\"\"Hey, boo!\"\"Boo!\"",
+          "answer": "Statler and Waldorf",
+          "value": 1300,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "HOTEL NAMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g356-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHOW BUSINESS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Barrymore, Rathbone, Roger Moore & Larry Hagman are among 61 actors to play this character",
+          "answer": "Sherlock Holmes",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "SHOW BUSINESS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g356-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

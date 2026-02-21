@@ -1,0 +1,833 @@
+{
+  "gameId": 8316,
+  "showNumber": 2211,
+  "airDate": "March 28, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STATE CAPITALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the \"City of Baked Beans\"",
+          "answer": "Boston",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8316-s-c0-r0"
+        },
+        {
+          "question": "The name of this capital means \"holy sacrament\" & was taken from the name of a nearby river",
+          "answer": "Sacramento",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8316-s-c0-r1"
+        },
+        {
+          "question": "The site of this Oregon capital was called Chemeketa, or \"place of rest\", by the Indians",
+          "answer": "Salem",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8316-s-c0-r2"
+        },
+        {
+          "question": "This Southwestern city is the oldest serving as a state capital",
+          "answer": "Santa Fe (New Mexico)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8316-s-c0-r3"
+        },
+        {
+          "question": "This state capital is located just south of the Tropic of Cancer",
+          "answer": "Honolulu",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE CAPITALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8316-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "She's the first first lady to have earned a postgraduate degree--a Yale law degree",
+          "answer": "Hillary Clinton",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8316-s-c1-r0"
+        },
+        {
+          "question": "In his 61st & last TV ad for Chrysler, he introduced the company's new LH cars",
+          "answer": "Lee Iacocca",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8316-s-c1-r1"
+        },
+        {
+          "question": "In a 1992 rematch of sorts, he beat Boris Spassky in chess 10 games to 5 for $3.35 million",
+          "answer": "Bobby Fischer",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8316-s-c1-r2"
+        },
+        {
+          "question": "Talk show host Jerry Springer was once mayor of this Ohio city dubbed the \"Queen City of the West\"",
+          "answer": "Cincinnati",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8316-s-c1-r3"
+        },
+        {
+          "question": "Naomi Judd's younger daughter Ashley plays Swoosie Kurtz' daughter on this TV series",
+          "answer": "Sisters",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PEOPLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8316-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "HERBS & SPICES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "The white kind of this spice is made by removing the outer coating from ripe \"corns\"",
+          "answer": "pepper",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8316-s-c2-r0"
+        },
+        {
+          "question": "This herb contains a large amount of thymol, a powerful antiseptic",
+          "answer": "thyme",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8316-s-c2-r1"
+        },
+        {
+          "question": "The Germans call this herb Basilienkraut",
+          "answer": "basil",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8316-s-c2-r2"
+        },
+        {
+          "question": "The name of this herb comes from the Latin ros marinus, meaning \"sea dew\"",
+          "answer": "rosemary",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8316-s-c2-r3"
+        },
+        {
+          "question": "It takes 5 pounds of nutmeg kernels to make 1 pound of this related spice",
+          "answer": "mace",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HERBS & SPICES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8316-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "TITLE OBJECTS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Dickens' was \"Bleak\"",
+          "answer": "a house",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TITLE OBJECTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8316-s-c3-r0"
+        },
+        {
+          "question": "This title object worn by Hester Prynne is an \"A\"",
+          "answer": "the scarlet letter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TITLE OBJECTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8316-s-c3-r1"
+        },
+        {
+          "question": "Sauron made one of these Tolkien title objects that controlled the others",
+          "answer": "a ring",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TITLE OBJECTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8316-s-c3-r2"
+        },
+        {
+          "question": "This object, half the title of an 1842 Poe story, swings during the Spanish Inquisition",
+          "answer": "a pendulum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TITLE OBJECTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8316-s-c3-r3"
+        },
+        {
+          "question": "The 2 objects mentioned in this Somerset Maugham title are a satellite & a coin",
+          "answer": "the Moon & sixpence",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TITLE OBJECTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8316-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Blue Train, one of the most luxurious in the world, runs between Pretoria & Cape Town in this country",
+          "answer": "South Africa",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8316-s-c4-r0"
+        },
+        {
+          "question": "The Sting-Ray, which peaked in popularity in the 1960s, is Schwinn's bestselling make of this",
+          "answer": "a bicycle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8316-s-c4-r1"
+        },
+        {
+          "question": "From the Russian word for three, it's a carriage or sleigh pulled by 3 horses",
+          "answer": "a troika",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8316-s-c4-r2"
+        },
+        {
+          "question": "In 1927 the Model A Ford debuted in America & this Swedish car debuted in Europe",
+          "answer": "a Volvo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8316-s-c4-r3"
+        },
+        {
+          "question": "Nicknamed the \"Grand Old Lady of the Atlantic\", this sister ship of the Lusitania made her maiden voyage in 1907",
+          "answer": "the Mauretania",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8316-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "DUCK POTPOURRI",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's the correct term for a male duck",
+          "answer": "a drake",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUCK POTPOURRI",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8316-s-c5-r0"
+        },
+        {
+          "question": "This duck feature is so highly specialized that it's called \"the perfect sieve\"",
+          "answer": "the bill",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUCK POTPOURRI",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8316-s-c5-r1"
+        },
+        {
+          "question": "Ducks are classified in separate groups called these, a term often associated with American Indians",
+          "answer": "tribes",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUCK POTPOURRI",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8316-s-c5-r2"
+        },
+        {
+          "question": "The Cayuga duck has the same name as a lake in this state",
+          "answer": "New York",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DUCK POTPOURRI",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8316-s-c5-r3"
+        },
+        {
+          "question": "Not all of these ducks are greenish-blue like the color; some are cinnamon-red",
+          "answer": "a teal",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DUCK POTPOURRI",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8316-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 1880s",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This structure spanning New York's East River opened May 24, 1883",
+          "answer": "the Brooklyn Bridge",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1880s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8316-d-c0-r0"
+        },
+        {
+          "question": "In 1882 she became president of the American Red Cross, a job she held until 1904",
+          "answer": "Clara Barton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1880s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8316-d-c0-r1"
+        },
+        {
+          "question": "He became emperor of Germany in June 1888",
+          "answer": "Kaiser Wilhelm",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1880s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8316-d-c0-r2"
+        },
+        {
+          "question": "In 1885 followers of the Mahdi killed General Gordon at this Sudanese city",
+          "answer": "Khartoum",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1880s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8316-d-c0-r3"
+        },
+        {
+          "question": "In 1884 Edward L. Trudeau opened the USA's first sanitarium for this disease in Saranac Lake, New York",
+          "answer": "tuberculosis",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1880s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8316-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BALLET",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The final scene of this ballet takes place in the Capulets' burial vault",
+          "answer": "Romeo and Juliet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8316-d-c1-r0"
+        },
+        {
+          "question": "French for \"thrown\", it's a small or \"grand\" leap from one foot to the other",
+          "answer": "a jeté",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8316-d-c1-r1"
+        },
+        {
+          "question": "This ballet choreographed by Agnes De Mille is subtitled \"The Courting at Burnt Ranch\"",
+          "answer": "Rodeo",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8316-d-c1-r2"
+        },
+        {
+          "question": "Jerome Robbins' ballet \"The Goldberg Variations\" is set to the music of this composer",
+          "answer": "(Johann Sebastian) Bach",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8316-d-c1-r3"
+        },
+        {
+          "question": "George Balanchine created many roles for this ballerina to whom he was married 1946-1952",
+          "answer": "Maria Tallchief",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "BALLET",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8316-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLLEGES & UNIVERSITIES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In 1767 this NYC university founded its school of medicine",
+          "answer": "Columbia",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8316-d-c2-r0"
+        },
+        {
+          "question": "This state university was founded in 1831 in Tuscaloosa",
+          "answer": "the University of Alabama",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8316-d-c2-r1"
+        },
+        {
+          "question": "Of Bates, Bard or Beloit College, the one located in Annandale-on-Hudson, New York",
+          "answer": "Bard College",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8316-d-c2-r2"
+        },
+        {
+          "question": "A Tacoma, Wash. university is named for this inland waterway",
+          "answer": "Puget Sound",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8316-d-c2-r3"
+        },
+        {
+          "question": "This New Orleans university has an important school of tropical medicine",
+          "answer": "Tulane",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLLEGES & UNIVERSITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8316-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD LEADERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1993 this king celebrated 40 years on Jordan's throne",
+          "answer": "King Hussein",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8316-d-c3-r0"
+        },
+        {
+          "question": "At President Carter's urging, these 2 world leaders met for peace talks at Camp David in 1978",
+          "answer": "Sadat & Begin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8316-d-c3-r1"
+        },
+        {
+          "question": "Alberto Fujimori, the 1st person of Japanese descent to lead a Latin American nation, leads this one",
+          "answer": "Peru",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8316-d-c3-r2"
+        },
+        {
+          "question": "In 1991 Carl Bildt became this Scandinavian country's youngest PM in over 150 years",
+          "answer": "Sweden",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8316-d-c3-r3"
+        },
+        {
+          "question": "In March 1993 he was elected to a sixth consecutive term as president of Indonesia",
+          "answer": "Suharto",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8316-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PHOTOGRAPHY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1880 this photography pioneer founded a dry plate company in Rochester",
+          "answer": "(George) Eastman",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHOTOGRAPHY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8316-d-c4-r0"
+        },
+        {
+          "question": "Color film contains 3 emulsions sensitized to red, blue & this color",
+          "answer": "green",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHOTOGRAPHY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8316-d-c4-r1"
+        },
+        {
+          "question": "As the aperture gets smaller, this figure gets higher",
+          "answer": "the F-stop",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHOTOGRAPHY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8316-d-c4-r2"
+        },
+        {
+          "question": "The name of this earliest, crude type of camera is Latin for \"dark chamber\"",
+          "answer": "camera obscura",
+          "value": 500,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PHOTOGRAPHY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8316-d-c4-r3"
+        },
+        {
+          "question": "In 1930 the first issue of Fortune magazine featured her photographs",
+          "answer": "Margaret Bourke-White",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PHOTOGRAPHY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8316-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "QUOTATIONS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Frost wrote they're \"lovely, dark and deep. But I have promises to keep\"",
+          "answer": "the woods",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8316-d-c5-r0"
+        },
+        {
+          "question": "Completes David Everett's \"Large streams from little fountains flow, tall oaks...\"",
+          "answer": "from little acorns grow",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8316-d-c5-r1"
+        },
+        {
+          "question": "Alexander Pope said, \"Blessed is he who expects nothing, for he shall never be\" this",
+          "answer": "disappointed",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8316-d-c5-r2"
+        },
+        {
+          "question": "It's said Martin Luther wrote, \"Who loves not\" these 3 things \"remains a fool his whole life long\"",
+          "answer": "wine, women & song",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8316-d-c5-r3"
+        },
+        {
+          "question": "\"'Tis better to have loved and lost, than never to have lost at all\", he wrote in \"The Way of All Flesh\"",
+          "answer": "Samuel Butler",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "QUOTATIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8316-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUSTRALIA",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In the 1800s many dangerous felons were sent here, now Australia's southernmost state",
+          "answer": "Tasmania",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AUSTRALIA",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8316-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

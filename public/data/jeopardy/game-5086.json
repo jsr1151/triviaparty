@@ -1,0 +1,797 @@
+{
+  "gameId": 5086,
+  "showNumber": 2166,
+  "airDate": "January 24, 1994",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MATH",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the inverse operation of addition",
+          "answer": "subtraction",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5086-s-c0-r0"
+        },
+        {
+          "question": "It's the formula for the area of a circle",
+          "answer": "πr2",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5086-s-c0-r1"
+        },
+        {
+          "question": "Multiply 103 by 106 & you get 10 to this power",
+          "answer": "the 9th power",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5086-s-c0-r2"
+        },
+        {
+          "question": "If 2 of the interior angles of a triangle are 90o & 60o, the third one will measure this",
+          "answer": "30o",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5086-s-c0-r3"
+        },
+        {
+          "question": "Counting up from 1, it's the first whole number that's not a factor of 12",
+          "answer": "5",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MATH",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5086-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROADWAY SONGS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Rogers & Hammerstein wrote that \"it's where the wind comes sweepin' down the plain\"",
+          "answer": "\"Oklahoma!\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5086-s-c1-r0"
+        },
+        {
+          "question": "It's when \"you may see a stranger across a crowded room\"",
+          "answer": "\"Some Enchanted Evening\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5086-s-c1-r1"
+        },
+        {
+          "question": "A song in \"Peter Pan\" says, \"Look at me way up high, suddenly here am I\" doing this",
+          "answer": "flying",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5086-s-c1-r2"
+        },
+        {
+          "question": "The one referred to in the line \"You're looks are laughable, un-photographable\"",
+          "answer": "\"My Funny Valentine\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5086-s-c1-r3"
+        },
+        {
+          "question": "\"She's got the banjoes strummin' and plunkin' out a tune to beat the band\"",
+          "answer": "Mame",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BROADWAY SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5086-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANNUAL EVENTS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This organization begins its annual Christmas bird count in mid-December",
+          "answer": "the Audubon Society",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5086-s-c2-r0"
+        },
+        {
+          "question": "Sadie Hawkins Day, held in November, was created by cartoonist Al Capp in this comic strip",
+          "answer": "Li'l Abner",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5086-s-c2-r1"
+        },
+        {
+          "question": "Marylanders celebrate Defender's Day in September with a mock bombardment of this fort",
+          "answer": "Fort McHenry",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5086-s-c2-r2"
+        },
+        {
+          "question": "Each August this U.S. city hosts the Three Rivers Regatta",
+          "answer": "Pittsburgh",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5086-s-c2-r3"
+        },
+        {
+          "question": "A midieval fair is held each March in Sarasota, Florida to raise funds for this art museum",
+          "answer": "the Ringling Museum of Art",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANNUAL EVENTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5086-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE BIBLE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "\"The Lord set about a mark upon\" this son of Adam \"lest any finding him should kill him\"",
+          "answer": "Cain",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5086-s-c3-r0"
+        },
+        {
+          "question": "The publicans that Luke refers to aren't innkeepers, but collectors of these",
+          "answer": "taxes",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5086-s-c3-r1"
+        },
+        {
+          "question": "David was afraid to handle this object after God smote Uzza for touching it",
+          "answer": "the Ark of the Covenant",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5086-s-c3-r2"
+        },
+        {
+          "question": "1 & 2 Corinthians both begin with this, their author's name",
+          "answer": "Paul",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5086-s-c3-r3"
+        },
+        {
+          "question": "Naomi's Maobite daughter-in-law who traveled to Bethlehem with her",
+          "answer": "Ruth",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5086-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD & DRINK",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The \"pot\" type of this is very similar to the \"cottage\" type",
+          "answer": "cheese",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5086-s-c4-r0"
+        },
+        {
+          "question": "The amount of this stimulant in tea leaves is about 3%",
+          "answer": "caffeine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5086-s-c4-r1"
+        },
+        {
+          "question": "Of all the slings, this one with a geographical name is probably the best known",
+          "answer": "a Singapore Sling",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5086-s-c4-r2"
+        },
+        {
+          "question": "Creme de menthe & creme de cacao both come in this \"color\"",
+          "answer": "clear (or white)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5086-s-c4-r3"
+        },
+        {
+          "question": "This leafy green vegetable is one of the many ingredients in spanakopita, a tasty Greek pie",
+          "answer": "spinach",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5086-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "HOTELS BY CITY",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Mirage,Excalibur,Caesar's Palace",
+          "answer": "Las Vegas",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTELS BY CITY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g5086-s-c5-r0"
+        },
+        {
+          "question": "Meridien Montparnasse,Balzac,George V",
+          "answer": "Paris",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTELS BY CITY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g5086-s-c5-r1"
+        },
+        {
+          "question": "Dorchester,Connaught,Cadogan",
+          "answer": "London",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTELS BY CITY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g5086-s-c5-r2"
+        },
+        {
+          "question": "Brunelleschi,Monna Lisa,Villa Medici",
+          "answer": "Florence",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTELS BY CITY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g5086-s-c5-r3"
+        },
+        {
+          "question": "Metropol,Rossiya,Intourist",
+          "answer": "Moscow",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HOTELS BY CITY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g5086-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PATTON",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He went to Mexico in 1916 as an aide to this general nicknamed \"Black Jack\"",
+          "answer": "Pershing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PATTON",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5086-d-c0-r0"
+        },
+        {
+          "question": "While a teacher at the Mounted Service School at Ft. Riley, he wrote the manual for this curved sword",
+          "answer": "saber",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PATTON",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5086-d-c0-r1"
+        },
+        {
+          "question": "In 1917 he was sent to France, where he set up a school to teach soldiers to drive these vehicles",
+          "answer": "tanks",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PATTON",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5086-d-c0-r2"
+        }
+      ]
+    },
+    {
+      "name": "BLOOD & GUTS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "O can be a donor to all of these 3 other major blood groups",
+          "answer": "A, B & AB",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLOOD & GUTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5086-d-c1-r0"
+        },
+        {
+          "question": "The esophagus leads into this organ; the duodenum leads out",
+          "answer": "the stomach",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLOOD & GUTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5086-d-c1-r1"
+        },
+        {
+          "question": "It may be dangerous for a woman without this antigen factor to have a baby with a man who has it",
+          "answer": "the Rh factor",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLOOD & GUTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5086-d-c1-r2"
+        },
+        {
+          "question": "When ruptured, this heart-sized organ that destroys old red blood cells has to be removed",
+          "answer": "the spleen",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BLOOD & GUTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5086-d-c1-r3"
+        }
+      ]
+    },
+    {
+      "name": "THE OLYMPICS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "At the 1992 Summer Games, Summer Sanders won 3 medals in this sport",
+          "answer": "swimming",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5086-d-c2-r0"
+        },
+        {
+          "question": "Part of the Winter Olympics since 1924, it's steered by ropes or a steering wheel",
+          "answer": "a bobsled",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5086-d-c2-r1"
+        },
+        {
+          "question": "The first of the Olympic fencing weapons to be \"electrified\", it has no invalid target",
+          "answer": "the épée",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5086-d-c2-r2"
+        },
+        {
+          "question": "This British pair's routine to \"Bolero\" won them the ice dancing gold in 1984",
+          "answer": "Torvill & Dean",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5086-d-c2-r3"
+        },
+        {
+          "question": "Bart Conner (1984) & George Eyser (1904) are the only Americans to win gold on this apparatus",
+          "answer": "parallel bars",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE OLYMPICS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5086-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "PAINTERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "You can see his painting of \"The Starry Night\" at New York City's Museum of Modern Art",
+          "answer": "van Gogh",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5086-d-c3-r0"
+        },
+        {
+          "question": "In 1962 his filmmaker son Jean published a memoir about him",
+          "answer": "Renoir",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5086-d-c3-r1"
+        },
+        {
+          "question": "After she moved to New Mexico, bare bones & desert flowers became frequent motifs in her paintings",
+          "answer": "Georgia O'Keeffe",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5086-d-c3-r2"
+        },
+        {
+          "question": "He was born December 2, 1859 in Paris, if you get the \"point\"",
+          "answer": "Seurat",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5086-d-c3-r3"
+        },
+        {
+          "question": "James Boswell dedicated his \"Life of Samuel Johnson\" to this British rival of Gainsborough",
+          "answer": "Sir Joshua Reynolds",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "PAINTERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5086-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FASHION HISTORY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This jacket named for an Indian prime minister had a mandarin-style collar",
+          "answer": "a Nehru jacket",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5086-d-c4-r0"
+        },
+        {
+          "question": "Some fashionable 19th century women wore the leg-of-mutton style of these",
+          "answer": "sleeves",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5086-d-c4-r1"
+        },
+        {
+          "question": "In the 1700s, La Camargo, who was this type of dancer, set fashion trends in shoes & coiffures",
+          "answer": "ballet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5086-d-c4-r2"
+        },
+        {
+          "question": "This bulky knot used  to tie four-in-hand neckties was named for an English duke",
+          "answer": "a Windsor knot",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5086-d-c4-r3"
+        },
+        {
+          "question": "This couturier's \"new look\" of 1947 featured narrow waistlines & padded hips",
+          "answer": "Christian Dior",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FASHION HISTORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5086-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "'70s BESTSELLERS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "James Clavell subtitled this 1975 bestseller \"A Novel of Japan\"",
+          "answer": "Shogun",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'70s BESTSELLERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g5086-d-c5-r0"
+        },
+        {
+          "question": "The book so possessed its readers that it was the bestselling horror novel of the decade",
+          "answer": "The Exorcist",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'70s BESTSELLERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g5086-d-c5-r1"
+        },
+        {
+          "question": "James Michener captured the history of Maryland's Eastern Shore in this 1978 bestseller",
+          "answer": "Chesapeake",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'70s BESTSELLERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g5086-d-c5-r2"
+        },
+        {
+          "question": "Dr. Herman Tarnower made the bestseller lists in 1979 with his book featuring this diet",
+          "answer": "the Scarsdale diet",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'70s BESTSELLERS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g5086-d-c5-r3"
+        },
+        {
+          "question": "This author dedicated his 1972 bestseller \"to the real Jonathan Seagull, who lives within us all\"",
+          "answer": "(Richard) Bach",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "'70s BESTSELLERS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g5086-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS PAIRS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "On radio, this pair was played by the creator's daughter, Joan Burroughs, & her husband",
+          "answer": "Tarzan & Jane",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "FAMOUS PAIRS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g5086-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

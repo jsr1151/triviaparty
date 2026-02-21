@@ -1,0 +1,785 @@
+{
+  "gameId": 6543,
+  "showNumber": 8153,
+  "airDate": "February 5, 2020",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "WORLD LEADERS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "He reigned from 1066 to 1087 & one of those years should really help you",
+          "answer": "William the Conqueror",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6543-s-c0-r0"
+        },
+        {
+          "question": "In 2003 it all came crashing down around him, including his statue on April 9",
+          "answer": "Saddam Hussein",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6543-s-c0-r1"
+        },
+        {
+          "question": "He led from 1799 to 1814, took an unwanted vacation, returned & then was gone for good in 1815",
+          "answer": "Napoleon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6543-s-c0-r2"
+        },
+        {
+          "question": "Nicknamed \"Uncle\", this Communist was a leader in Vietnam from 1945 to 1969",
+          "answer": "Ho Chi Minh",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6543-s-c0-r3"
+        },
+        {
+          "question": "Popular in 37 A.D., this man whose name means \"little boot\" was sent walking 4 years later",
+          "answer": "Caligula",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WORLD LEADERS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6543-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "NEWSPAPERS & MAGAZINES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "In 2007 Rupert Murdoch bought this newspaper that was started by Charles Dow in the 19th century",
+          "answer": "The Wall Street Journal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEWSPAPERS & MAGAZINES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6543-s-c1-r0"
+        },
+        {
+          "question": "Marca, a Spanish sports daily, reports on this sport in particular",
+          "answer": "soccer",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NEWSPAPERS & MAGAZINES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6543-s-c1-r1"
+        },
+        {
+          "question": "MT for short, this magazine for car enthusiasts celebrated its 70th anniversary in 2019",
+          "answer": "Motor Trend",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEWSPAPERS & MAGAZINES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6543-s-c1-r2"
+        },
+        {
+          "question": "In 2010 this mayoral name began appearing above \"Businessweek\" on a magazine that's been around since 1929",
+          "answer": "Bloomberg",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEWSPAPERS & MAGAZINES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6543-s-c1-r3"
+        },
+        {
+          "question": "Atlanta's top newspaper has this hyphenated name",
+          "answer": "Journal-Constitution",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NEWSPAPERS & MAGAZINES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6543-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "STATE SONGS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Its state folk song is \"Roll On, Columbia, Roll On\"",
+          "answer": "Washington",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6543-s-c2-r0"
+        },
+        {
+          "question": "Appropriately, it has a state bluegrass song, \"Blue Moon of\" itself",
+          "answer": "Kentucky",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6543-s-c2-r1"
+        },
+        {
+          "question": "Maryland's state song \"Maryland, My Maryland\" is sung to the tune of this Christmas song",
+          "answer": "\"O Tannenbaum\"",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6543-s-c2-r2"
+        },
+        {
+          "question": "In the lyrics of Vermont's state song, \"these\" title lofty peaks \"are my home\"",
+          "answer": "the Green Mountains",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6543-s-c2-r3"
+        },
+        {
+          "question": "Wyoming's second state song, official since 2018, mentions this 4-letter river named for strong gusts in the area",
+          "answer": "Wind",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "STATE SONGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6543-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "NICKNAMES",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In the 1980s a Californian won the contest to nickname Seattle, with this entry out of Oz",
+          "answer": "the Emerald City",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NICKNAMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6543-s-c3-r0"
+        },
+        {
+          "question": "The grand scale of Mozart's Symphony No. 41 in C Major earned it this nickname, after the chief Roman god",
+          "answer": "Jupiter",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NICKNAMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6543-s-c3-r1"
+        },
+        {
+          "question": "This matinee idol and grandfather of actress Drew had good looks and an aquiline nose, which got him the nickname \"The Great Profile\"",
+          "answer": "John Barrymore",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NICKNAMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6543-s-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "TEXTING ABBREV.",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "F2F: let's get together this way",
+          "answer": "face-to-face",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXTING ABBREV.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6543-s-c4-r0"
+        },
+        {
+          "question": "JK: only a joke",
+          "answer": "just kidding",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXTING ABBREV.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6543-s-c4-r1"
+        },
+        {
+          "question": "ROTFL: you've made me hysterical",
+          "answer": "rolling on the floor laughing",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXTING ABBREV.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6543-s-c4-r2"
+        },
+        {
+          "question": "OT: not pertaining to the issue at hand",
+          "answer": "off-topic",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TEXTING ABBREV.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6543-s-c4-r3"
+        },
+        {
+          "question": "YBS: I'm trying to warn you",
+          "answer": "you'll be sorry",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TEXTING ABBREV.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6543-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIES ACROSS AMERICA",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "(Hi, I'm Bill Ritter from New York's ABC7 [He presents from Queens, NY].) Philip Johnson designed the soaring towers of the New York State Pavilion at the 1964 World's Fair in the futuristic Googie style which fit perfectly in this 1997 film that featured them",
+          "answer": "Men in Black",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES ACROSS AMERICA",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g6543-s-c5-r0"
+        },
+        {
+          "question": "(I'm Anne Elise Park with TXA21. [She presents from the George W. Bush Presidential Library in Dallas, Texas].) George W. Bush's Oval Office is one setting for the movie \"W.\", directed by this man who entered Yale the same year as Bush",
+          "answer": "Oliver Stone",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES ACROSS AMERICA",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g6543-s-c5-r1"
+        },
+        {
+          "question": "(Hi, I'm Betty Davis from Local 10 [She presents from Miami, FL].) Miami Beach's Carlyle Hotel was a setting for this 1996 comedy starring Robin Williams & Nathan Lane",
+          "answer": "The Birdcage",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES ACROSS AMERICA",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g6543-s-c5-r2"
+        },
+        {
+          "question": "(I'm Robert Hadlock from KXAN [He presents from Austin, TX].) The state capitol appears in 1982's \"The Best Little Whorehouse in Texas\" which starred this late actor as Sheriff Ed Earl Dodd",
+          "answer": "Burt Reynolds",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES ACROSS AMERICA",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g6543-s-c5-r3"
+        },
+        {
+          "question": "(Hi, I'm Chris Tanaka from Cleveland 19.) In \"A Christmas Story\", the huge box marked \"fra-jee-lay\" (actually, that's \"fragile\") contains this alliterative 2-word award",
+          "answer": "the leg lamp",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIES ACROSS AMERICA",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g6543-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "A COLORFUL CATEGORY",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Avoid the sting of this creature named for its coloration",
+          "answer": "yellowjacket",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COLORFUL CATEGORY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6543-d-c0-r0"
+        },
+        {
+          "question": "These sea discolorations that can be caused by Karenia brevis can kill fish & be toxic to humans",
+          "answer": "red algae (red tides)",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COLORFUL CATEGORY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6543-d-c0-r1"
+        },
+        {
+          "question": "Hurricanes and Dolphins both played home games in this now-demolished venue",
+          "answer": "the Orange Bowl",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COLORFUL CATEGORY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6543-d-c0-r2"
+        },
+        {
+          "question": "Formed in 1952, the U.S. Army's special forces are also known by this name",
+          "answer": "Green Berets",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "A COLORFUL CATEGORY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6543-d-c0-r3"
+        },
+        {
+          "question": "Here's this mountain range mentioned in the opening of \"Take Me Home, Country Roads\"",
+          "answer": "the Blue Ridge Mountains",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "A COLORFUL CATEGORY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6543-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "ON THE MEDITERRANEAN",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Politically, this country is divided into 14 provinces, including the city of Damascus, which is considered its own province",
+          "answer": "Syria",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MEDITERRANEAN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6543-d-c1-r0"
+        },
+        {
+          "question": "Listen, sweetheart, Casablanca in this country isn't on the Mediterranean, but Nador is",
+          "answer": "Morocco",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MEDITERRANEAN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6543-d-c1-r1"
+        },
+        {
+          "question": "This island that boasts Messina but not Loggins is always getting the boot",
+          "answer": "Sicily",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MEDITERRANEAN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6543-d-c1-r2"
+        },
+        {
+          "question": "The ancient city of Carthage is in this country that borders Algeria & the Mediterranean",
+          "answer": "Tunisia",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON THE MEDITERRANEAN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6543-d-c1-r3"
+        },
+        {
+          "question": "60 miles up the coast from Tel Aviv is this city, Israel's main port",
+          "answer": "Haifa",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON THE MEDITERRANEAN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6543-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SHOW TUNE RHYMES",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In \"The Music Man\" there were \"copper bottom tympani in horse platoons... double bell euphoniums & big\" these instruments",
+          "answer": "bassoons",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOW TUNE RHYMES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6543-d-c2-r0"
+        },
+        {
+          "question": "Evita rhymes, \"All through my wild days, my mad existence, I kept my promise, don't keep your\" this",
+          "answer": "distance",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOW TUNE RHYMES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6543-d-c2-r1"
+        },
+        {
+          "question": "In \"Cats\", \"Every streetlamp seems to beat a fatalistic warning, someone mutters & the street lamp gutters, & soon it will be\" this",
+          "answer": "morning",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOW TUNE RHYMES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6543-d-c2-r2"
+        },
+        {
+          "question": "In \"Spamalot\" the Lady of the Lake sings, \"Do not fail, find your\" this one word",
+          "answer": "grail",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SHOW TUNE RHYMES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6543-d-c2-r3"
+        },
+        {
+          "question": "In \"it's The Hard-Knock Life\", Annie laments, \"No one cares for you a smidge, when you're in\" this place",
+          "answer": "an orphanage",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SHOW TUNE RHYMES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6543-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE \"IDE\"S OF FEBRUARY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "On February 24, 2019 hundreds of bicyclists showed up for Portland, Oregon's \"Worst Day of the Year\" this",
+          "answer": "Ride",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"IDE\"S OF FEBRUARY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6543-d-c3-r0"
+        },
+        {
+          "question": "Spike Lee was among the stars sitting here at the February 17, 2019 NBA All-Star Game in Charlotte",
+          "answer": "courtside",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"IDE\"S OF FEBRUARY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6543-d-c3-r1"
+        },
+        {
+          "question": "On Feb. 3, 2019 the slogan \"There's enough money when no one steals\" gave Nayib Bukele this type of win in El Salvador's election",
+          "answer": "a landslide",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"IDE\"S OF FEBRUARY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6543-d-c3-r2"
+        },
+        {
+          "question": "Port Townsend, Washington experienced a king one of these on February 23, 2019",
+          "answer": "the tide",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"IDE\"S OF FEBRUARY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6543-d-c3-r3"
+        },
+        {
+          "question": "Because it took the life of Portugal's king & his heir apparent, a February 1908 assassination is known as the \"Lisbon\" this",
+          "answer": "Regicide",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE \"IDE\"S OF FEBRUARY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6543-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "GENETIC DISORDERS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Unusual bleeding after vaccinations & swelling & warmth in joints are symptoms of this blood-clotting disorder",
+          "answer": "hemophilia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENETIC DISORDERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6543-d-c4-r0"
+        },
+        {
+          "question": "Treatment for this tremor-causing malady first described in 1817 may include freezing small areas of the brain",
+          "answer": "Parkinson's",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENETIC DISORDERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6543-d-c4-r1"
+        },
+        {
+          "question": "Duchenne MD--MD short for this--is an inherited disorder that affects about 1 in 3,500 male births around the world",
+          "answer": "muscular dystrophy",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "GENETIC DISORDERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6543-d-c4-r2"
+        }
+      ]
+    },
+    {
+      "name": "AUTHORS' NAME CHANGES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Joanne is her first name; she has no middle name but Kathleen was added for literary purposes in honor of her grandmother",
+          "answer": "J.K. Rowling",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS' NAME CHANGES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g6543-d-c5-r0"
+        },
+        {
+          "question": "Perhaps in an act of \"Civil Disobedience\", this transcendentalist reversed the order of his first & middle names",
+          "answer": "Thoreau",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS' NAME CHANGES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g6543-d-c5-r1"
+        },
+        {
+          "question": "This author who grew up in Oxford, Mississippi added the letter \"U\" to his last name",
+          "answer": "Faulkner",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS' NAME CHANGES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g6543-d-c5-r2"
+        },
+        {
+          "question": "Marguerite Johnson was a singer when she took this stage name & used it when she wrote poems like \"Still I Rise\"",
+          "answer": "Maya Angelou",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS' NAME CHANGES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g6543-d-c5-r3"
+        },
+        {
+          "question": "New Yorker Nathan Weinstein fittingly changed his name to this & eventually moved out to Hollywood",
+          "answer": "Nathanael West",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "AUTHORS' NAME CHANGES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g6543-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN HISTORY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "At Harpers Ferry, John Brown & his rebels were defeated by troops commanded by this man who 2 years later led a rebel army himself",
+          "answer": "Robert E. Lee",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AMERICAN HISTORY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g6543-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "gameId": 1003,
+  "showNumber": 3938,
+  "airDate": "October 17, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "MAMMALS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "(Cheryl of the Clue Crew is at Sea World in San Diego.)  Here comes the Asian small-clawed type of this, which is smaller than the river type of North America",
+          "answer": "otter",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1003-s-c0-r0"
+        },
+        {
+          "question": "The Malayan flying fox, with a wingspan of over 5 feet, is really one of these mammals",
+          "answer": "bat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1003-s-c0-r1"
+        },
+        {
+          "question": "(Jimmy of the Clue Crew is at the San Diego Zoo.)  The pacarana, which had an ancestor the size of a rhinoceros, is one of the largest of this order of mammals",
+          "answer": "rodent",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1003-s-c0-r2"
+        },
+        {
+          "question": "What we call a moose is known in Europe by this 3-letter name",
+          "answer": "elk",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1003-s-c0-r3"
+        },
+        {
+          "question": "One of these monkeys used in medical research was also the first mammal to go into space",
+          "answer": "rhesus monkey",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MAMMALS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1003-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "POP STARS A.K.A.",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "R&B legend William Robinson",
+          "answer": "Smokey Robinson",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP STARS A.K.A.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1003-s-c1-r0"
+        },
+        {
+          "question": "Drummer Richard Starkey",
+          "answer": "Ringo Starr",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP STARS A.K.A.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1003-s-c1-r1"
+        },
+        {
+          "question": "Folk rocker Robert Zimmerman",
+          "answer": "Bob Dylan",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP STARS A.K.A.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1003-s-c1-r2"
+        },
+        {
+          "question": "Airplane flyer Grace Wing",
+          "answer": "Grace Slick",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP STARS A.K.A.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1003-s-c1-r3"
+        },
+        {
+          "question": "Youthful-looking singer-songwriter Kenneth Edmonds",
+          "answer": "Babyface",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "POP STARS A.K.A.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1003-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "AWARENESS MONTHS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "November is the national month for this condition, both insulin-dependent & non-",
+          "answer": "diabetes",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARENESS MONTHS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1003-s-c2-r0"
+        },
+        {
+          "question": "Like the month of October, the stamp seen here promotes awareness of this disease",
+          "answer": "breast cancer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARENESS MONTHS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1003-s-c2-r1"
+        },
+        {
+          "question": "It's National Stress-Free Family Holidays Month",
+          "answer": "December",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARENESS MONTHS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1003-s-c2-r2"
+        },
+        {
+          "question": "This association whose symbol is seen here sponsors Breathe Easy Month each May",
+          "answer": "American Lung Association",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARENESS MONTHS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1003-s-c2-r3"
+        },
+        {
+          "question": "November has been picked to increase knowledge of these donors who help leukemia patients",
+          "answer": "bone marrow donors",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AWARENESS MONTHS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1003-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "AUNTIQUITY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In the 15th century B.C. Hatshepsut ruled this country as regent for her nephew Thutmose",
+          "answer": "Egypt",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUNTIQUITY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1003-s-c3-r0"
+        },
+        {
+          "question": "Eurynoe, a Macedonian princess of the 300s B.C., had this great nephew -- not great-nephew, great nephew",
+          "answer": "Alexander the Great",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUNTIQUITY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1003-s-c3-r1"
+        },
+        {
+          "question": "Under Shotoku & his aunt Suiko, Japan established relations with the Sui dynasty in this country",
+          "answer": "China",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUNTIQUITY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1003-s-c3-r2"
+        },
+        {
+          "question": "In Celtic myth, Furbaidhe kills his aunt Medb by shooting a hard piece of this dairy food from a slingshot",
+          "answer": "cheese",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUNTIQUITY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1003-s-c3-r3"
+        },
+        {
+          "question": "As Abraham's wife, the biblical Sarah was the aunt of this man who settled in Sodom",
+          "answer": "Lot",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "AUNTIQUITY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1003-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "BEANS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Also called butter beans, these beans have been cultivated in Peru for thousands of years",
+          "answer": "lima beans",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1003-s-c4-r0"
+        },
+        {
+          "question": "A certain military branch has served this bean as a staple since the mid-1800s, hence its name",
+          "answer": "navy bean",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1003-s-c4-r1"
+        },
+        {
+          "question": "This bean is named for the sound it makes when broken in half",
+          "answer": "snap bean",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1003-s-c4-r2"
+        },
+        {
+          "question": "The name of this bean is Spanish for \"painted\"",
+          "answer": "pinto bean",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1003-s-c4-r3"
+        },
+        {
+          "question": "Products made from this legume include tofu & miso",
+          "answer": "soybeans",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BEANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1003-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"OLD\" RHYMES",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "In the movie, it's \"The Treasure of the Sierra Madre\"",
+          "answer": "gold",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" RHYMES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1003-s-c5-r0"
+        },
+        {
+          "question": "A story relegated to the bottom half of a newspaper page is \"below\" this",
+          "answer": "the fold",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" RHYMES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1003-s-c5-r1"
+        },
+        {
+          "question": "We think THIS FACE should be familiar to you",
+          "answer": "bold",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" RHYMES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1003-s-c5-r2"
+        },
+        {
+          "question": "It often follows \"Going once, going twice...\"",
+          "answer": "Sold!",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" RHYMES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1003-s-c5-r3"
+        },
+        {
+          "question": "To chide or reprimand, or a person who constantly does so",
+          "answer": "scold",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OLD\" RHYMES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1003-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. MEMORIALS",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A memorial to this day was dedicated June 6, 2001 in Bedford, Virginia",
+          "answer": "D-Day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MEMORIALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1003-d-c0-r0"
+        },
+        {
+          "question": "A memorial to him, seen here, is at the National Academy of Sciences",
+          "answer": "Albert Einstein",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MEMORIALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1003-d-c0-r1"
+        },
+        {
+          "question": "A memorial named for this fictional woman, symbol of WWII laborers, is at a former shipyard in Richmond, Calif.",
+          "answer": "Rosie the Riveter",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "U.S. MEMORIALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1003-d-c0-r2"
+        },
+        {
+          "question": "The fisherman's memorial seen here is in this Massachusetts city",
+          "answer": "Gloucester",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MEMORIALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1003-d-c0-r3"
+        },
+        {
+          "question": "Part of the new national memorial, in this state capital, is seen here",
+          "answer": "Oklahoma City",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "U.S. MEMORIALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1003-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPORTS PEOPLE WHO ARE PLACES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "If he blows a last second shot for the N.Y. Knicks, they'd say this guard we have a problem",
+          "answer": "Allan Houston",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS PEOPLE WHO ARE PLACES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1003-d-c1-r0"
+        },
+        {
+          "question": "He's the Laker phenom whom opponents might wish played in Japan",
+          "answer": "Kobe Bryant",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS PEOPLE WHO ARE PLACES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1003-d-c1-r1"
+        },
+        {
+          "question": "This ex-49er QB kindly helped out Ronnie Lott's painful itching in a parody TV ad",
+          "answer": "Joe Montana",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS PEOPLE WHO ARE PLACES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1003-d-c1-r2"
+        },
+        {
+          "question": "Drew Carey knows Hall of Fame pitcher Grover Alexander's middle name is this",
+          "answer": "Cleveland",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS PEOPLE WHO ARE PLACES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1003-d-c1-r3"
+        },
+        {
+          "question": "Geographic nickname of boxer Joe Walcott, shown what exit to take when he was KO'd in '52 by Rocky Marciano",
+          "answer": "Jersey Joe Walcott",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPORTS PEOPLE WHO ARE PLACES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1003-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "CROSS-EXAMINING THE WITS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "According to Mr. Boswell's statement, you & he first met in 1763.  Is that correct?",
+          "answer": "Samuel Johnson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSS-EXAMINING THE WITS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1003-d-c2-r0"
+        },
+        {
+          "question": "\"A cynic...knows the price of everything and the value of nothing.\"  Tell the court what you meant",
+          "answer": "Oscar Wilde",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CROSS-EXAMINING THE WITS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1003-d-c2-r1"
+        },
+        {
+          "question": "Did you or did you not write, in \"Man and Superman\", \"Liberty means responsibility.  That is why most men dread it\"",
+          "answer": "George Bernard Shaw",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CROSS-EXAMINING THE WITS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1003-d-c2-r2"
+        },
+        {
+          "question": "So you, a humble Baltimore writer, called Puritanism \"The haunting fear that someone, somewhere, may be happy\"",
+          "answer": "H.L. Mencken",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CROSS-EXAMINING THE WITS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1003-d-c2-r3"
+        },
+        {
+          "question": "You said of your shared office with Dorothy Parker, \"One cubic foot less and it would have constituted adultery\"",
+          "answer": "Robert Benchley",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CROSS-EXAMINING THE WITS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1003-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE-VOWEL WORDS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "A tiny wrinkle at the corner of the eye is called a crow's this",
+          "answer": "foot",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-VOWEL WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1003-d-c3-r0"
+        },
+        {
+          "question": "(Cheryl of the Clue Crew is at the Santa Monica Pier.)  This character sometimes dreams that he's a World War I flying ace, battling the Red Baron",
+          "answer": "Snoopy",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-VOWEL WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1003-d-c3-r1"
+        },
+        {
+          "question": "An uninterrupted series or extent, like the space-time one",
+          "answer": "continuum",
+          "value": 1200,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-VOWEL WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1003-d-c3-r2"
+        },
+        {
+          "question": "A Mideastern marketplace, or a charity sale",
+          "answer": "bazaar",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-VOWEL WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1003-d-c3-r3"
+        },
+        {
+          "question": "In 79 A.D. this city could have used the Imperial Emergency Management Agency",
+          "answer": "Pompeii",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DOUBLE-VOWEL WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1003-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAWRENCE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Running for almost 3 decades, this bandleader's TV show premiered in 1955",
+          "answer": "Lawrence Welk",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAWRENCE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1003-d-c4-r0"
+        },
+        {
+          "question": "This linebacker broke Joe Theismann's leg on \"Monday Night Football\"",
+          "answer": "Lawrence Taylor",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAWRENCE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1003-d-c4-r1"
+        },
+        {
+          "question": "He privately published \"Lady Chatterley's Lover\" in 1928",
+          "answer": "D.H. Lawrence",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAWRENCE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1003-d-c4-r2"
+        },
+        {
+          "question": "In \"Romeo & Juliet\", he marries Romeo & Juliet",
+          "answer": "Friar Lawrence",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAWRENCE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1003-d-c4-r3"
+        },
+        {
+          "question": "This beat poet penned \"A Coney Island of the Mind\"",
+          "answer": "Lawrence Ferlinghetti",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAWRENCE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1003-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "OF ARABIA",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "When this waterway opened in 1869, it brought Arabia into much closer touch with the outside world",
+          "answer": "Suez Canal",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "OF ARABIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1003-d-c5-r0"
+        },
+        {
+          "question": "One of the earliest Arab kingdoms was Saba, which may be identical with this one mentioned in the Bible",
+          "answer": "Sheba",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OF ARABIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1003-d-c5-r1"
+        },
+        {
+          "question": "The Arabs of Arabia look upon themselves as the descendants of this son of Noah",
+          "answer": "Shem",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OF ARABIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1003-d-c5-r2"
+        },
+        {
+          "question": "Once divided into a North & South, it's the second-largest nation on the peninsula",
+          "answer": "Yemen",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OF ARABIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1003-d-c5-r3"
+        },
+        {
+          "question": "By population, it's the largest city on the Arabian Peninsula",
+          "answer": "Riyadh",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "OF ARABIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1003-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC & THE MOVIES",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The soundtrack of this 1992 film is the bestselling movie soundtrack of the 1990s",
+          "answer": "The Bodyguard",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "MUSIC & THE MOVIES",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1003-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

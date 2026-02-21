@@ -1,0 +1,833 @@
+{
+  "gameId": 2146,
+  "showNumber": 5321,
+  "airDate": "October 29, 2007",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "JEPOETRY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "John Keats:\"A thing of Jeopardy! is a joy forever\"",
+          "answer": "beauty",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEPOETRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2146-s-c0-r0"
+        },
+        {
+          "question": "Percy Bysshe Shelley:\"If winter comes, can Jeopardy! be far behind?\"",
+          "answer": "spring",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEPOETRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2146-s-c0-r1"
+        },
+        {
+          "question": "Carl Sandburg:\"The Jeopardy! comes on little cat feet\"",
+          "answer": "fog",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEPOETRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2146-s-c0-r2"
+        },
+        {
+          "question": "Lewis Carroll:\"'Twas Jeopardy!, and the slithy toves did gyre and gimble in the wabe\"",
+          "answer": "brillig",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEPOETRY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2146-s-c0-r3"
+        },
+        {
+          "question": "Ernest L. Thayer:\"The outlook wasn't brilliant for the Jeopardy! nine that day\"",
+          "answer": "Mudville",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JEPOETRY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2146-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV MDs",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Drs. Cristina Yang & Miranda Bailey practice on this McDreamy series",
+          "answer": "Grey's Anatomy",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV MDs",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2146-s-c1-r0"
+        },
+        {
+          "question": "Maria Bello & Sherry Stringfield are among the many who doctored up this long-running NBC show",
+          "answer": "ER",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV MDs",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2146-s-c1-r1"
+        },
+        {
+          "question": "Drs. Lisa Cuddy & Allison Cameron have roamed Princeton-Plainsboro Hospital with this acerbic title doc",
+          "answer": "Gregory House",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV MDs",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2146-s-c1-r2"
+        },
+        {
+          "question": "Dr. Cavanaugh (the first name would give things away) was a Boston M.E. with a checkered past on this drama",
+          "answer": "Crossing Jordan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV MDs",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2146-s-c1-r3"
+        },
+        {
+          "question": "We dig forensic anthropologist Dr. Temperance Brennan on this Fox drama",
+          "answer": "Bones",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV MDs",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2146-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "VAMPIRES",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "In the Slavic countries, this pungent bulb was used to detect vampires as well as to prevent their attacks",
+          "answer": "garlic",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VAMPIRES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2146-s-c2-r0"
+        },
+        {
+          "question": "Depending on local customs, these, used to kill vampires, may be made of iron or local woods",
+          "answer": "stakes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VAMPIRES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2146-s-c2-r1"
+        },
+        {
+          "question": "Bela Lugosi didn't wear a set of these as Dracula, but Christopher Lee did, fixing the image of a vampire for successors",
+          "answer": "fangs (or pointy teeth)",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VAMPIRES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2146-s-c2-r2"
+        },
+        {
+          "question": "Meaning \"the land beyond the forest\", it's the area in which vamps camp",
+          "answer": "Transylvania",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "VAMPIRES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2146-s-c2-r3"
+        },
+        {
+          "question": "Though never explicitly stated, this 3-named English poet's \"Christabel\" is thought to be about vampires",
+          "answer": "Samuel Taylor Coleridge",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "VAMPIRES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2146-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "BIBLICAL ABOMINATIONS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Leviticus 11 says most insects that creep or fly are an abomination, but this 8th plague is kosher",
+          "answer": "locusts",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL ABOMINATIONS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2146-s-c3-r0"
+        },
+        {
+          "question": "Leviticus 11:13 declares that this bird of prey, later a symbol of Roman legions, is an abomination",
+          "answer": "an eagle",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL ABOMINATIONS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2146-s-c3-r1"
+        },
+        {
+          "question": "Potpourri is not mentioned, but this burning perfume is an abomination according to Isaiah 1:13",
+          "answer": "incense",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL ABOMINATIONS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2146-s-c3-r2"
+        },
+        {
+          "question": "Leviticus 11:10 says \"all that have not fins and\" these \"in the seas\" shall be an abomination",
+          "answer": "scales",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL ABOMINATIONS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2146-s-c3-r3"
+        },
+        {
+          "question": "In Genesis 46:34, every shepherd is an abomination unto this kingdom that was known as Kemet",
+          "answer": "Egypt",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "BIBLICAL ABOMINATIONS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2146-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "THEY COME IN THREES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Jack Tripper, Chrissy Snow & Janet Wood were the original housemates on this TV show",
+          "answer": "Three's Company",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY COME IN THREES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2146-s-c4-r0"
+        },
+        {
+          "question": "This famous literary trio shows up again in Dumas' novel \"Le Vicomte de Bragelonne\"",
+          "answer": "The Three Musketeers",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY COME IN THREES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2146-s-c4-r1"
+        },
+        {
+          "question": "The 3 members of ancient Rome's First Triumvirate in 60 B.C. were Crassus, Pompey & him",
+          "answer": "Julius Caesar",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THEY COME IN THREES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2146-s-c4-r2"
+        },
+        {
+          "question": "The 3 main regions that make up this country are Norrland, Svealand & Gotaland",
+          "answer": "Sweden",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THEY COME IN THREES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2146-s-c4-r3"
+        },
+        {
+          "question": "Aradus, Sidon & Tyre were 3 principal cities of this ancient civilization",
+          "answer": "Phoenicia",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THEY COME IN THREES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2146-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"OK\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Bowl-shaped Chinese pan used for stir-frying",
+          "answer": "a wok",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OK\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2146-s-c5-r0"
+        },
+        {
+          "question": "Tasty treat seen here.  Pass the butter",
+          "answer": "an artichoke",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OK\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2146-s-c5-r1"
+        },
+        {
+          "question": "This visage is useful when playing 5-card stud",
+          "answer": "a poker face",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OK\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2146-s-c5-r2"
+        },
+        {
+          "question": "\"Lost colony\" of 1580s North Carolina",
+          "answer": "Roanoke",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OK\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2146-s-c5-r3"
+        },
+        {
+          "question": "Thai one on in this Asian capital on the banks of the Chao Phraya River",
+          "answer": "Bangkok",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"OK\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2146-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE ADJECTIVES",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "\"Atomic\" & this word describing the central region of an atom are both found before \"power\" & \"fission\"",
+          "answer": "nuclear",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE ADJECTIVES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2146-d-c0-r0"
+        },
+        {
+          "question": "Because they're most active after dark, opossums are described by this adjective",
+          "answer": "nocturnal",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE ADJECTIVES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2146-d-c0-r1"
+        },
+        {
+          "question": "(Cheryl makes some stone soup.) Pumice, which floats on water because of little air pockets is described as this, meaning \"full of holes\" and derives from the Greek for \"passage\"",
+          "answer": "porous",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE ADJECTIVES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2146-d-c0-r2"
+        },
+        {
+          "question": "A medical condition that was present at birth is described by this 10-letter adjective",
+          "answer": "congenital",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE ADJECTIVES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2146-d-c0-r3"
+        },
+        {
+          "question": "Sarcasm aside, this word from the Greek for \"burning\" describes a substance that causes corrosion",
+          "answer": "caustic",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE ADJECTIVES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2146-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRY MUSIC",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "On winning top female vocalist at the 2007 ACM Awards, she thanked God, her fans & \"American Idol\"",
+          "answer": "Carrie Underwood",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2146-d-c1-r0"
+        },
+        {
+          "question": "This Dolly Parton song recently topped CMT's list of the 100 greatest love songs of country music",
+          "answer": "\"I Will Always Love You\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2146-d-c1-r1"
+        },
+        {
+          "question": "His first No. 1 country hit & first Top 40 pop hit was 1975's \"Blue Eyes Crying in the Rain\"",
+          "answer": "Willie Nelson",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2146-d-c1-r2"
+        },
+        {
+          "question": "At his wedding reception in 2006, he serenaded his movie star bride with the song \"Making Memories of Us\"",
+          "answer": "Keith Urban",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2146-d-c1-r3"
+        },
+        {
+          "question": "It's never too early for happy hour in this \"timely\" tune by Alan Jackson & Jimmy Buffett",
+          "answer": "\"It's Five O'Clock Somewhere\"",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRY MUSIC",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2146-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE 1920s",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Chicago gangster Dion O'Banion had this civilian trade & started the practice of lavish arrangements at mob funerals",
+          "answer": "a florist",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1920s",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2146-d-c2-r0"
+        },
+        {
+          "question": "Competition from the new Chevrolet spurred Henry Ford to introduce this new model in 1927",
+          "answer": "the Model A",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1920s",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2146-d-c2-r1"
+        },
+        {
+          "question": "In the 1923 photo seen here, a woman lights her stove with cash due to rampaging inflation in this country",
+          "answer": "Germany",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE 1920s",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2146-d-c2-r2"
+        },
+        {
+          "question": "On Jan. 7, 1927 transatlantic phone service began as the president of this company called London",
+          "answer": "AT&T",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE 1920s",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2146-d-c2-r3"
+        },
+        {
+          "question": "This evangelist made plenty of headlines in the 1920s, like in 1926 when she claimed to have been kidnapped",
+          "answer": "Aimee Semple McPherson",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE 1920s",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2146-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ALONG E-90",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "We'll start our trip east on Route E-90 in this chief seaport of Portugal",
+          "answer": "Lisbon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALONG E-90",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2146-d-c3-r0"
+        },
+        {
+          "question": "Let's head to this Spanish coastal city to shop along its Rambla de Catalunya",
+          "answer": "Barcelona",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALONG E-90",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2146-d-c3-r1"
+        },
+        {
+          "question": "My cat wants me to look up its relatives in this capital of Turkey",
+          "answer": "Ankara",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALONG E-90",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2146-d-c3-r2"
+        },
+        {
+          "question": "Hope our stop in Thessaloniki goes better than Greece's George I in 1913; this happened to him there",
+          "answer": "assassination",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALONG E-90",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2146-d-c3-r3"
+        },
+        {
+          "question": "E-90 goes through Brindisi; this famous ancient Roman road ended there",
+          "answer": "the Appian Way",
+          "value": 6000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ALONG E-90",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2146-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "PORK & MINDY",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Mindy's up on her slang & knows you can \"bring home\" this porky term -- or if you're in trouble, you can \"save\" yours",
+          "answer": "bacon",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORK & MINDY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2146-d-c4-r0"
+        },
+        {
+          "question": "Mindy's not overacting but is livin' on this meat from the hind leg of the hog; it's rich in thiamine & iron",
+          "answer": "ham",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORK & MINDY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2146-d-c4-r1"
+        },
+        {
+          "question": "On vacation, Mindy saw a '95 film about this title porker, known in Taiwan as \"I am not Stupid, I have Something to Say\"",
+          "answer": "Babe",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORK & MINDY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2146-d-c4-r2"
+        },
+        {
+          "question": "Multi-tasking Mindy knows this term for a type of pig can also apply to a stove",
+          "answer": "potbelly",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORK & MINDY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2146-d-c4-r3"
+        },
+        {
+          "question": "Mindy goes semiwild hog with the Arkansas football team to name this type of pig",
+          "answer": "the razorbacks",
+          "value": 2000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PORK & MINDY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2146-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "5-LETTER WORDS",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's a ballroom dance or the music for the dance, like the \"Blue Danube\" one",
+          "answer": "a waltz",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2146-d-c5-r0"
+        },
+        {
+          "question": "It can be a braid or plait of hair worn hanging down one's back",
+          "answer": "a queue",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2146-d-c5-r1"
+        },
+        {
+          "question": "It's the organic material, such as straw or compost, on the ground around plants used to enrich the soil",
+          "answer": "mulch",
+          "value": 1200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2146-d-c5-r2"
+        },
+        {
+          "question": "(Kelly is at the blue board with a Spanish lesson.)  In Spanish spelling, this mark above the \"N\" means that rather than \"oona\", the word should be pronounced \"oon-ya\"",
+          "answer": "a tilde",
+          "value": 1600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2146-d-c5-r3"
+        },
+        {
+          "question": "A follower of the philosopher Diogenes was called this, from the Greek for \"doglike\"",
+          "answer": "a cynic",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "5-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2146-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "AFRICAN GEOGRAPHY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "From 1889 until 1961, this mountain's highest point was known as Kaiser-Wilhelm-Spitze",
+          "answer": "Mount Kilimanjaro",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "AFRICAN GEOGRAPHY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2146-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

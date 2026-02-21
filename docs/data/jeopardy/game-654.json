@@ -1,0 +1,833 @@
+{
+  "gameId": 654,
+  "showNumber": 2863,
+  "airDate": "January 29, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "CHEMISTRY",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Dmitry Mendeleyev & Julius Meyer independently proposed a principle that led to this table",
+          "answer": "the periodic table of elements",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g654-s-c0-r0"
+        },
+        {
+          "question": "Brimstone is another name for this light yellow nonmetallic element",
+          "answer": "sulphur",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g654-s-c0-r1"
+        },
+        {
+          "question": "It's the branch of chemistry that studies compounds containing carbon",
+          "answer": "organic chemistry",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g654-s-c0-r2"
+        },
+        {
+          "question": "Chemists use this whirling device to separate solids from liquids or one liquid from another",
+          "answer": "a centrifuge",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g654-s-c0-r3"
+        },
+        {
+          "question": "It's 1 or 2 or more atoms of the same element that differ in atomic weight",
+          "answer": "an isotope",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHEMISTRY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g654-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "FOOD & DRINK",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The 3 primary wine-growing regions of this state are Columbia Valley, Yakima Valley & Walla Walla",
+          "answer": "Washington",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g654-s-c1-r0"
+        },
+        {
+          "question": "By U.S. law this spread must be at least 80% milkfat; the rest is water & milk solids",
+          "answer": "butter",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g654-s-c1-r1"
+        },
+        {
+          "question": "In China, this dish of fried egg & vegetable patties is never served with sauce",
+          "answer": "egg foo yung",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g654-s-c1-r2"
+        },
+        {
+          "question": "This lunch meat is named for the Italian city that's also home to mortadella",
+          "answer": "bologna",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g654-s-c1-r3"
+        },
+        {
+          "question": "Sogrape, this country's largest wine company, produces Mateus Rose & Ferreira Port",
+          "answer": "Portugal",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FOOD & DRINK",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g654-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRAVEL U.S.A.",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Wicker furniture maker Harry Shill built the rolling chairs used on this city's Boardwalk",
+          "answer": "Atlantic City",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g654-s-c2-r0"
+        },
+        {
+          "question": "This Lake Havasu City landmark had to be trimmed 53 feet from its original length",
+          "answer": "the London Bridge",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g654-s-c2-r1"
+        },
+        {
+          "question": "In Arkansas you can visit the Daisy International Air Gun Museum in Rogers & Daisy Mae in this Al Capp theme park",
+          "answer": "Dogpatch USA",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g654-s-c2-r2"
+        },
+        {
+          "question": "Houses you can visit in this city include Babe Ruth's & H.L. Mencken's",
+          "answer": "Baltimore",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g654-s-c2-r3"
+        },
+        {
+          "question": "At his birthplace at 224 S. 2nd St., Winterset, Iowa, you can see the eye patch he wore in a 1969 film",
+          "answer": "John Wayne (as Rooster Cogburn)",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRAVEL U.S.A.",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g654-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "HISTORY",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The third of these military expeditions was led by Frederick I Barbarossa, Philip II & Richard the Lion-Hearted",
+          "answer": "the Crusades",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g654-s-c3-r0"
+        },
+        {
+          "question": "In 1513 he reached & named Florida",
+          "answer": "Ponce de León",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g654-s-c3-r1"
+        },
+        {
+          "question": "In 1718 the British tracked down & killed this \"dark\" pirate in a North Carolina inlet",
+          "answer": "Blackbeard",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g654-s-c3-r2"
+        },
+        {
+          "question": "In 1946 the Ivory Coast was made an overseas territory of this country; in 1960 it gained its independence",
+          "answer": "France",
+          "value": 300,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g654-s-c3-r3"
+        },
+        {
+          "question": "The treaty that ended the Russo-Japanese War in 1905 was named for this New Hampshire city",
+          "answer": "Portsmouth",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HISTORY",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g654-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOST STRESSFUL JOBS",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Police officers rank No. 8; this occupation \"heats up\" at No. 2",
+          "answer": "fireman",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOST STRESSFUL JOBS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g654-s-c4-r0"
+        },
+        {
+          "question": "No. 9 on the list is this profession; no wonder Joe Greene was so mean",
+          "answer": "football player",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOST STRESSFUL JOBS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g654-s-c4-r1"
+        },
+        {
+          "question": "It's ranked as America's most stressful job; only one person at a time holds it",
+          "answer": "President of the U.S.",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOST STRESSFUL JOBS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g654-s-c4-r2"
+        },
+        {
+          "question": "No. 7 is this job that's been held by a Cooper, a Shepard & a Schweickart",
+          "answer": "astronaut",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "MOST STRESSFUL JOBS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g654-s-c4-r3"
+        },
+        {
+          "question": "At No. 10 the list takes off with these airport personnel",
+          "answer": "air traffic controllers",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOST STRESSFUL JOBS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g654-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "CHARACTERS IN DISNEY FILMS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "The Grand Duke,Prince Charming,the Fairy Godmother",
+          "answer": "Cinderella",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN DISNEY FILMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g654-s-c5-r0"
+        },
+        {
+          "question": "Nana,the crocodile,Mr. Smee",
+          "answer": "Peter Pan",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN DISNEY FILMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g654-s-c5-r1"
+        },
+        {
+          "question": "Governor Ratcliffe,Kocoum,Nakoma",
+          "answer": "Pocahontas",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN DISNEY FILMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g654-s-c5-r2"
+        },
+        {
+          "question": "Flora,Prince Philip,Princess Aurora",
+          "answer": "Sleeping Beauty",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN DISNEY FILMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g654-s-c5-r3"
+        },
+        {
+          "question": "Nala,Mufasa,Scar",
+          "answer": "The Lion King",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CHARACTERS IN DISNEY FILMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g654-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "17TH C. LIT",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1604 this king appointed 54 scholars, including Sir Henry Savile, to retranslate the Bible",
+          "answer": "James I",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "17TH C. LIT",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g654-d-c0-r0"
+        },
+        {
+          "question": "In 1667 Jonathan Swift was born & this poet published \"Paradise Lost\"",
+          "answer": "John Milton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "17TH C. LIT",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g654-d-c0-r1"
+        },
+        {
+          "question": "His \"Compleat Angler\" went through 5 editions during the 17th century",
+          "answer": "Izaak Walton",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "17TH C. LIT",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g654-d-c0-r2"
+        },
+        {
+          "question": "In 1680 this \"Pilgrims Progress\" author published \"The Life And Death of Mr. Badman\"",
+          "answer": "John Bunyan",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "17TH C. LIT",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g654-d-c0-r3"
+        },
+        {
+          "question": "The first classical work translated in Colonial America was this Ovid work by George Sandys in 1626",
+          "answer": "\"Metamorphoses\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "17TH C. LIT",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g654-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "EUROPEAN CITIES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "This capital is the home of the Bourbon Palace, the meeting place of the French National Assembly",
+          "answer": "Paris",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g654-d-c1-r0"
+        },
+        {
+          "question": "Once the chief town of the Ligurian tribe of the Taurini, it was Italy's first capital, 1861-65",
+          "answer": "Turin",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g654-d-c1-r1"
+        },
+        {
+          "question": "The Gothic cathedral in this southern Polish city was once the site of the coronation of Polish kings",
+          "answer": "Krakow",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g654-d-c1-r2"
+        },
+        {
+          "question": "This capital of Liechtenstein has a postal museum & a museum of the royal family's art collection",
+          "answer": "Vaduz",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g654-d-c1-r3"
+        },
+        {
+          "question": "It's the hub of the British metal goods industry",
+          "answer": "Birmingham",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EUROPEAN CITIES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g654-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "ANIMALS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "If a weasel pops by for lunch in the cold winter, you'll notice its coat is this color",
+          "answer": "White",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g654-d-c2-r0"
+        },
+        {
+          "question": "Dabbling types of these include the pintail & teal",
+          "answer": "Ducks",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g654-d-c2-r1"
+        },
+        {
+          "question": "The word mouse is from a Sanskrit word for this, because they stole people's food",
+          "answer": "Thief",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g654-d-c2-r2"
+        },
+        {
+          "question": "If you spot several servals slinking south of the Sahara, you'll see slender types of these animals",
+          "answer": "Cats",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g654-d-c2-r3"
+        },
+        {
+          "question": "Found in all oceans, they have the widest distribution of any whale & use echolocation to hunt",
+          "answer": "Orcas/Killer Whales",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ANIMALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g654-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "HAPPY BIRTHDAY",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "This star of \"Born On The Fourth of July\" was actually born on the third of July in 1962",
+          "answer": "Tom Cruise",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY BIRTHDAY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g654-d-c3-r0"
+        },
+        {
+          "question": "This country singer could serve his sausage to Rosanna Arquette on their mutual birthday, August 10",
+          "answer": "Jimmy Dean",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY BIRTHDAY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g654-d-c3-r1"
+        },
+        {
+          "question": "On March 7, 2034 he can wish himself a happy 100th birthday:",
+          "answer": "Willard Scott",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY BIRTHDAY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g654-d-c3-r2"
+        },
+        {
+          "question": "She celebrates her \"official\" birthday in June; her real birthday is April 21",
+          "answer": "Queen Elizabeth II",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY BIRTHDAY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g654-d-c3-r3"
+        },
+        {
+          "question": "This actor who played Bobby Ewing on \"Dallas\" was born on St. Patrick's Day",
+          "answer": "Patrick Duffy",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HAPPY BIRTHDAY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g654-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS AMERICANS",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "In 1728 this Philadelphian & partner Hugh Meredith bought a printing press",
+          "answer": "Benjamin Franklin",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g654-d-c4-r0"
+        },
+        {
+          "question": "This Naval hero helped outfit the Alfred, the first ship bought by the Continental Congress",
+          "answer": "John Paul Jones",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g654-d-c4-r1"
+        },
+        {
+          "question": "This man, \"Old Tippecanoe\", was elected the Northwest Territory's delegate to Congress in 1799",
+          "answer": "William Henry Harrison",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g654-d-c4-r2"
+        },
+        {
+          "question": "Although called the \"Great Dissenter\", this jurist's dissents numbered only about 3% of some 6,000 cases",
+          "answer": "Oliver Wendell Holmes",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g654-d-c4-r3"
+        },
+        {
+          "question": "In 1887 this future Democratic presidential nominee moved to Lincoln, Nebraska",
+          "answer": "William Jennings Bryan",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FAMOUS AMERICANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g654-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE PLAY'S THE THING",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "10 years after its 1956 debut, it was reworked into a musical & its title was shortened to \"Mame\"",
+          "answer": "\"Auntie Mame\"",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLAY'S THE THING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g654-d-c5-r0"
+        },
+        {
+          "question": "The 1974 musical \"Mack And Mabel\" was about this Keystone Kops director & star Mabel Normand",
+          "answer": "Mack Sennett",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLAY'S THE THING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g654-d-c5-r1"
+        },
+        {
+          "question": "In a Christopher Marlowe play, Barabas is \"The Jew Of\" this island",
+          "answer": "Malta",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLAY'S THE THING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g654-d-c5-r2"
+        },
+        {
+          "question": "Hot Dog!  He's the villain of \"The Rocky Horror Show\"",
+          "answer": "Frank N. Furter",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE PLAY'S THE THING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g654-d-c5-r3"
+        },
+        {
+          "question": "The starting team of the Chicago Bulls could fill the cast of this 1972 Jason Miller play; it only has 5 parts",
+          "answer": "\"That Championship Season\"",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE PLAY'S THE THING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g654-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "U.S. PRESIDENTS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "2 of the 5 U.S. presidents who played football for their college teams",
+          "answer": "(2 of) Eisenhower, Kennedy, Nixon, Ford & Reagan",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "U.S. PRESIDENTS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g654-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

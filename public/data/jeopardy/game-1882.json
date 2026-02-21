@@ -1,0 +1,785 @@
+{
+  "gameId": 1882,
+  "showNumber": 3051,
+  "airDate": "December 1, 1997",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "THE BIBLE",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This boy escaped Pharaoh's order to kill all male Hebrew babies",
+          "answer": "Moses",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1882-s-c0-r0"
+        },
+        {
+          "question": "Because he was short, Zacchaeus climbed one of these to see Jesus over the crowd around him",
+          "answer": "a sycamore tree",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1882-s-c0-r1"
+        },
+        {
+          "question": "Herod had this apostle, the brother of John, killed with a sword",
+          "answer": "James",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1882-s-c0-r2"
+        },
+        {
+          "question": "David & this prince became good friends after routing the Philistines",
+          "answer": "Jonathan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE BIBLE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1882-s-c0-r3"
+        }
+      ]
+    },
+    {
+      "name": "ON STAGE",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Whoopee for Whoopi Goldberg, who took over Nathan Lane's role as Pseudolus in this musical",
+          "answer": "A Funny Thing Happened on the Way to the Forum",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON STAGE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1882-s-c1-r0"
+        },
+        {
+          "question": "\"Long Day's Journey Into Night\" was the first of his plays produced on Broadway after his death",
+          "answer": "Eugene O'Neill",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON STAGE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1882-s-c1-r1"
+        },
+        {
+          "question": "International troupe seen here in a performance at Radio City Music Hall",
+          "answer": "Riverdance",
+          "value": 800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON STAGE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1882-s-c1-r2"
+        },
+        {
+          "question": "In 1996 Fiona Shaw made her N.Y. debut in a theatrical rendering of this lengthy T.S. Eliot poem",
+          "answer": "The Waste Land",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ON STAGE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1882-s-c1-r3"
+        },
+        {
+          "question": "In 1982 Harvey Fierstein wrote & starred in this Tony-winning 3-part comedy",
+          "answer": "Torch Song Trilogy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ON STAGE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1882-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "EVERYONE'S A CRITIC",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "As \"The Couch Critic\", Jeff Jarvis airs his views in this magazine",
+          "answer": "TV Guide",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EVERYONE'S A CRITIC",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1882-s-c2-r0"
+        },
+        {
+          "question": "In 1974 critic Jon Landau called this man \"Rock & Roll's Future\", & later co-produced \"Born to Run\" with him",
+          "answer": "Bruce Springsteen",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EVERYONE'S A CRITIC",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1882-s-c2-r1"
+        },
+        {
+          "question": "This Cowardly Lion actor's son & biographer, John, writes on comedy for The New Yorker",
+          "answer": "Bert Lahr",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EVERYONE'S A CRITIC",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1882-s-c2-r2"
+        },
+        {
+          "question": "Movie critics heavily influenced by her work have been dubbed \"Paulettes\"",
+          "answer": "Pauline Kael",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EVERYONE'S A CRITIC",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1882-s-c2-r3"
+        },
+        {
+          "question": "This novelist reviewed films from 1935 to 1940 & later wrote the script for \"The Third Man\"",
+          "answer": "Graham Greene",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "EVERYONE'S A CRITIC",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1882-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "DINING OUT IN EUROPE",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Diners enjoy Baroque era cuisine while listening to Baroque music at Barokk in this Hungarian capital",
+          "answer": "Budapest",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DINING OUT IN EUROPE",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1882-s-c3-r0"
+        },
+        {
+          "question": "As you can tell from its name, Paris' Au Pied de Cochon specializes in these porcine extremities",
+          "answer": "Pig's feet",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DINING OUT IN EUROPE",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1882-s-c3-r1"
+        },
+        {
+          "question": "The Ubiquitous Chip in this largest Scottish city features fine Scottish cuisine",
+          "answer": "Glasgow",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DINING OUT IN EUROPE",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1882-s-c3-r2"
+        },
+        {
+          "question": "Quadri on this city's Piazza San Marco opened in 1775; its neighbor, Caffe Florian, is even older",
+          "answer": "Venice",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "DINING OUT IN EUROPE",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1882-s-c3-r3"
+        },
+        {
+          "question": "This town, a playwright's birthplace, has dining spots called Arden & Mistress Quickly",
+          "answer": "Stratford-on-Avon",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DINING OUT IN EUROPE",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1882-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "HORRORS!",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Despite its title, this 1980 film had enough box office luck to produce 7 sequels by 1989",
+          "answer": "Friday the 13th",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORRORS!",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1882-s-c4-r0"
+        },
+        {
+          "question": "John Larroquette narrated this 1974 film in which lumbering tools are put to new use",
+          "answer": "The Texas Chainsaw Massacre",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORRORS!",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1882-s-c4-r1"
+        },
+        {
+          "question": "This 1960 Hitchcock classic was partly based on real-life murderer Ed Gein, who skinned his victims",
+          "answer": "Psycho",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORRORS!",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1882-s-c4-r2"
+        },
+        {
+          "question": "He's the monstrous doll in the 3 \"Child's Play\" movies",
+          "answer": "Chucky",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORRORS!",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1882-s-c4-r3"
+        },
+        {
+          "question": "You won't find this hook-handed slasher of a 1992 film taking a sunrise & sprinkling it with dew",
+          "answer": "The Candyman",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "HORRORS!",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g1882-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LAST WORDS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "\"Crito, I owe a cock to Aesculapius; do not forget to pay it\"",
+          "answer": "Socrates",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g1882-s-c5-r0"
+        },
+        {
+          "question": "\"How were the circus receipts...at Madison Square Garden?\"",
+          "answer": "P.T. Barnum",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g1882-s-c5-r1"
+        },
+        {
+          "question": "\"What is the answer?\"  (Alice B. Toklas was silent.)  \"In that case, what is the question?\"",
+          "answer": "Gertrude Stein",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g1882-s-c5-r2"
+        },
+        {
+          "question": "July 4, 1826:\"Thomas Jefferson still survives\"",
+          "answer": "John Adams",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LAST WORDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g1882-s-c5-r3"
+        }
+      ]
+    },
+    {
+      "name": "LITERARY POTPOURRI",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In \"Sir Gawain and the Green Knight\", Sir Gawain is this king's nephew & feasts with him at Camelot",
+          "answer": "King Arthur",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY POTPOURRI",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1882-d-c0-r0"
+        },
+        {
+          "question": "This fictional place was known as Sansculottia until a man named Utopos gave it a new name",
+          "answer": "Utopia",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY POTPOURRI",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1882-d-c0-r1"
+        },
+        {
+          "question": "The meter for his poem \"The Song of Hiawatha\" was inspired by the great Finnish epic \"Kalevala\"",
+          "answer": "Henry Wadsworth Longfellow",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY POTPOURRI",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1882-d-c0-r2"
+        },
+        {
+          "question": "The narrator of his 1983 novel \"Ancient Evenings\" is reborn as a harem master & a grave robber",
+          "answer": "Norman Mailer",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LITERARY POTPOURRI",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1882-d-c0-r3"
+        },
+        {
+          "question": "This Mississippi-born novelist published his 2nd & last book of poems, \"A Green Bough\", in 1933",
+          "answer": "William Faulkner",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LITERARY POTPOURRI",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1882-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Accommodating 3,000 passengers, this \"Festive\" company's new cruise ship Destiny is the world's largest",
+          "answer": "Carnival Cruise Lines",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1882-d-c1-r0"
+        },
+        {
+          "question": "The Natural Gasser II, this type of car, can travel a quarter-mile in 8.9 seconds on natural gas fuel",
+          "answer": "Dragster",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1882-d-c1-r1"
+        },
+        {
+          "question": "In August 1995 this company introduced the Outback, a hybrid station wagon & sport utility vehicle",
+          "answer": "Subaru",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1882-d-c1-r2"
+        },
+        {
+          "question": "This military vehicle got its name from a British codeword when \"Landship\" never caught on",
+          "answer": "a tank",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1882-d-c1-r3"
+        },
+        {
+          "question": "Arab ships called dhows are lateen rigged, meaning their sails are roughly this shape",
+          "answer": "triangular",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TRANSPORTATION",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1882-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WE ARE THE CHAMPIONS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "Brett Hull led the U.S. to victory over this country, his birthplace, in the 1996 World Cup of Hockey",
+          "answer": "Canada",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE ARE THE CHAMPIONS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1882-d-c2-r0"
+        },
+        {
+          "question": "Led by Bill Tilden, the U.S. won this trophy a record 7 straight times from 1920 to 1926",
+          "answer": "the Davis Cup (tennis)",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WE ARE THE CHAMPIONS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1882-d-c2-r1"
+        },
+        {
+          "question": "In 1994 a penalty kick goal by Dunga gave this country its fourth World Cup",
+          "answer": "Brazil",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE ARE THE CHAMPIONS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1882-d-c2-r2"
+        },
+        {
+          "question": "Led by Isiah Thomas, this team's \"Bad Boys\" won the NBA title in 1989 & 1990",
+          "answer": "Detroit Pistons",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WE ARE THE CHAMPIONS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1882-d-c2-r3"
+        },
+        {
+          "question": "In 1979 this team's theme song was \"We Are Family\" & Willie Stargell, known as Pops, was their hero",
+          "answer": "Pittsburgh Pirates",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WE ARE THE CHAMPIONS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1882-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "EXPLORERS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "In 1820 Fabian von Bellingshausen may have become the first to see this continent that he thought was just ice",
+          "answer": "Antarctica",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1882-d-c3-r0"
+        },
+        {
+          "question": "In 1853 Richard Burton -- the other one -- visited this city in disguise & made a sketch of the Kaaba",
+          "answer": "Mecca",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1882-d-c3-r1"
+        },
+        {
+          "question": "In 1770 this British sea captain nearly wrecked the Endeavour on the Great Barrier Reef",
+          "answer": "Captain James Cook",
+          "value": 1500,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "EXPLORERS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1882-d-c3-r2"
+        }
+      ]
+    },
+    {
+      "name": "WHERE ARE WE?",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "The Woodland Park Zoo,The Rainier Brewery,The Space Needle Lounge",
+          "answer": "Seattle",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ARE WE?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1882-d-c4-r0"
+        },
+        {
+          "question": "Vermont College,The Vermont Historical Society Museum,The Vermont Supreme Court Building",
+          "answer": "Montpelier",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ARE WE?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1882-d-c4-r1"
+        },
+        {
+          "question": "Marble Arch,Mayfair,Madame Tussaud's",
+          "answer": "London",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ARE WE?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1882-d-c4-r2"
+        },
+        {
+          "question": "Goethe House,Fort Tryon Park,The Fulton Fish Market",
+          "answer": "New York City",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ARE WE?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1882-d-c4-r3"
+        },
+        {
+          "question": "The Museum Van Loon,The Zuiderkerk,Dam Square",
+          "answer": "Amsterdam",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "WHERE ARE WE?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1882-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE \"END\" IS NEAR",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "It's to hang by a support from above, or bar a student from school",
+          "answer": "Suspend",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"END\" IS NEAR",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g1882-d-c5-r0"
+        },
+        {
+          "question": "Make-believe",
+          "answer": "Pretend",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"END\" IS NEAR",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g1882-d-c5-r1"
+        },
+        {
+          "question": "Fight back or protect one's turf",
+          "answer": "Defend",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"END\" IS NEAR",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g1882-d-c5-r2"
+        },
+        {
+          "question": "Nab or grab a suspect",
+          "answer": "Apprehend",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"END\" IS NEAR",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g1882-d-c5-r3"
+        },
+        {
+          "question": "Worthy title for a member of the clergy",
+          "answer": "Reverend",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE \"END\" IS NEAR",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g1882-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "POLITICAL ANAGRAMS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "20th century world leader whose name is an anagram of \"THAT GREAT CHARMER\"",
+          "answer": "Margaret Thatcher",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "POLITICAL ANAGRAMS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g1882-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

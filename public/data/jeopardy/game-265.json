@@ -1,0 +1,833 @@
+{
+  "gameId": 265,
+  "showNumber": 1240,
+  "airDate": "January 12, 1990",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "CALIFORNIA CITIES",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The world's largest known almond processing center as well as the governor's mansion are in this city",
+          "answer": "Sacramento",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALIFORNIA CITIES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g265-s-c0-r0"
+        },
+        {
+          "question": "The oldest city in California that was founded by the Spanish; it's named for St. Joseph",
+          "answer": "San Jose",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALIFORNIA CITIES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g265-s-c0-r1"
+        },
+        {
+          "question": "This city's zoo, located in Balboa Park, is one of the largest in the world",
+          "answer": "San Diego",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALIFORNIA CITIES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g265-s-c0-r2"
+        },
+        {
+          "question": "Its name comes from the Santa Ana River & the German word for home",
+          "answer": "Anaheim",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "CALIFORNIA CITIES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g265-s-c0-r3"
+        },
+        {
+          "question": "This town got its name from the pointed peaks seen 15 miles away in Arizona",
+          "answer": "Needles",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "CALIFORNIA CITIES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g265-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV BLONDES",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Prior to Sawyer & Donaldson, Sam & Diane referred to characters played by Ted Danson & her",
+          "answer": "Shelley Long",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV BLONDES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g265-s-c1-r0"
+        },
+        {
+          "question": "FYI, Faith Ford plays ex-beauty queen turned reporter Corky Sherwood on this series",
+          "answer": "Murphy Brown",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV BLONDES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g265-s-c1-r1"
+        },
+        {
+          "question": "On this show Bud might say anywhere his blonde sister Kelly sits is an easy chair",
+          "answer": "Married... with Children",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV BLONDES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g265-s-c1-r2"
+        },
+        {
+          "question": "As Jamie, young blonde Nicole Eggert has Scott Baio governing her life on this sitcom",
+          "answer": "Charles In Charge",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV BLONDES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g265-s-c1-r3"
+        },
+        {
+          "question": "She's gone from Partridge to prosecutor",
+          "answer": "Susan Dey",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV BLONDES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g265-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "JOURNALISM",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "As a free-lance reporter, Seymour M. Hersh broke the story in 1969 about the massacre in this village",
+          "answer": "My Lai",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOURNALISM",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g265-s-c2-r0"
+        },
+        {
+          "question": "In 1990 the American press celebrates this anniversary of the 1st newspaper in the colonies",
+          "answer": "the 300th",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "JOURNALISM",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g265-s-c2-r1"
+        },
+        {
+          "question": "For most of his career in journalism, H.L. Mencken wrote for this city's Sun",
+          "answer": "Baltimore",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOURNALISM",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g265-s-c2-r2"
+        },
+        {
+          "question": "1 of the 2 books Woodward & Bernstein wrote on the Watergate scandal",
+          "answer": "All The President's Men & The Final Days",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JOURNALISM",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g265-s-c2-r3"
+        },
+        {
+          "question": "Time, Inc. produced this monthly series of movie shorts that ran from 1935-51",
+          "answer": "The March of Time",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "JOURNALISM",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g265-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "JUNE 1969",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "J. Edgar Hoover said RFK authorized the FBI to tap this black leader's phone",
+          "answer": "Dr. Martin Luther King, Jr.",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUNE 1969",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g265-s-c3-r0"
+        },
+        {
+          "question": "Riots that followed games in this sport set off a war between El Salvador & Honduras",
+          "answer": "soccer/football",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUNE 1969",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g265-s-c3-r1"
+        },
+        {
+          "question": "The U.N. security council voted to keep peace-keeping forces on this island near Turkey another 6 months",
+          "answer": "Cyprus",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUNE 1969",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g265-s-c3-r2"
+        },
+        {
+          "question": "Nixon became the 1st president to address the Supreme Court when this chief justice was sworn in",
+          "answer": "Warren Burger",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUNE 1969",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g265-s-c3-r3"
+        },
+        {
+          "question": "This president emeritus of the United Mine Workers \"kicked the coal bucket\"",
+          "answer": "John L. Lewis",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "JUNE 1969",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g265-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "ONE   SONG",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "1-word title of the following, David & Jonathan were the only group to have a Top 40 hit with it:",
+          "answer": "\"Michelle\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE   SONG",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g265-s-c4-r0"
+        },
+        {
+          "question": "When it was \"Song of the Year\" in 1966, these 2 people received Grammys",
+          "answer": "John Lennon & Paul McCartney",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE   SONG",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g265-s-c4-r1"
+        },
+        {
+          "question": "These \"words that go together well\" with the title aren't referring to the phone company",
+          "answer": "\"Ma Belle\"",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE   SONG",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g265-s-c4-r2"
+        },
+        {
+          "question": "This singer known for his stylish rendition of the \"Love Boat\" theme has the song on his \"Best Of\" album",
+          "answer": "Jack Jones",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE   SONG",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g265-s-c4-r3"
+        },
+        {
+          "question": "The song made its debut on this album whose title sounds \"bouncy\" & metaphysical",
+          "answer": "\"Rubber Soul\"",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ONE   SONG",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g265-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "UNDER WOOD",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "Of fife, flute, or flugelhorn, the one not listed under \"woodwind\" in Funk & Wagnalls",
+          "answer": "flugelhorn",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNDER WOOD",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g265-s-c5-r0"
+        },
+        {
+          "question": "Honus Wagner signed a contract Sept. 1, 1905 making him the 1st to have his signature etched into these",
+          "answer": "baseball bats",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNDER WOOD",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g265-s-c5-r1"
+        },
+        {
+          "question": "The state gemstone of Washington: it's no longer wood but a stony replica",
+          "answer": "petrified wood",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNDER WOOD",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g265-s-c5-r2"
+        },
+        {
+          "question": "Listed under \"wood\" in Collier's Ency. index, early ones of these were called \"Lucifers\"",
+          "answer": "matches",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNDER WOOD",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g265-s-c5-r3"
+        },
+        {
+          "question": "Research center for marine science on Cape Cod; you could also list it under water",
+          "answer": "Wood's Hole Oceanographic Institute",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "UNDER WOOD",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g265-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "PRESIDENTIAL TRIVIA",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Chronologically, the 1st of the 8 presidents whose last name ends in \"son\"",
+          "answer": "Thomas Jefferson",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g265-d-c0-r0"
+        },
+        {
+          "question": "In 1872 Grant signed a bill creating this 1st national park",
+          "answer": "Yellowstone",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g265-d-c0-r1"
+        },
+        {
+          "question": "The only president who never married, he was also the only president born in Pennsylvania",
+          "answer": "James Buchanan",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g265-d-c0-r2"
+        },
+        {
+          "question": "The last president whose public inaugural was held on Monday, January 21",
+          "answer": "Ronald Reagan (1985)",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g265-d-c0-r3"
+        },
+        {
+          "question": "George Bush's father, Prescott Sheldon Bush, was a U.S. senator from this state",
+          "answer": "Connecticut",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "PRESIDENTIAL TRIVIA",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g265-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "MOVIE DIRECTORS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "Yo!  He directed \"Staying Alive\", the sequel to \"Saturday Night Fever\"",
+          "answer": "Sylvester Stallone",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g265-d-c1-r0"
+        },
+        {
+          "question": "John Ford said he played one of the Ku Klux Klan members in this D.W. Griffith film",
+          "answer": "Birth of a Nation",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g265-d-c1-r1"
+        },
+        {
+          "question": "First name shared by French directors Chabrol & Lelouch",
+          "answer": "Claude",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g265-d-c1-r2"
+        },
+        {
+          "question": "This bald director played the cold-blooded camp commandant in \"Stalag 17\"",
+          "answer": "Otto Preminger",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g265-d-c1-r3"
+        },
+        {
+          "question": "This comedienne directed the 1978 film \"Rabbit Test\" about the world's 1st pregnant man",
+          "answer": "Joan Rivers",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "MOVIE DIRECTORS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g265-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "7-LETTER WORDS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It's a baby's bedroom, not an R.N.'s",
+          "answer": "nursery",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g265-d-c2-r0"
+        },
+        {
+          "question": "This word for a group of people traveling with pack animals is derived from Persian",
+          "answer": "caravan",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g265-d-c2-r1"
+        },
+        {
+          "question": "A person born within the sound of bow bells is said to be a true one of these",
+          "answer": "Cockney",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g265-d-c2-r2"
+        },
+        {
+          "question": "When you stick this \"sweet potato\" in your mouth, you should play it, not eat it",
+          "answer": "ocarina",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g265-d-c2-r3"
+        },
+        {
+          "question": "This adjective meaning rustic or pastoral comes from the Greek word for cowherd",
+          "answer": "bucolic",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "7-LETTER WORDS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g265-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "COLD-BLOODED ANIMALS",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "When a tadpole becomes an adult frog this anatomical feature is absorbed by its body",
+          "answer": "tail",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLD-BLOODED ANIMALS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g265-d-c3-r0"
+        },
+        {
+          "question": "2 of the 3 families in the order Crocodylia",
+          "answer": "Crocodiles, Alligators, & Gavials",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLD-BLOODED ANIMALS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g265-d-c3-r1"
+        },
+        {
+          "question": "Most of these sold as pets, until banned by the FDA in 1975, were of the slider or cooter varieties",
+          "answer": "turtles",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COLD-BLOODED ANIMALS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g265-d-c3-r2"
+        },
+        {
+          "question": "Harmless king snakes, such as the one seen here, are often mistaken for this venomous snake:",
+          "answer": "(red) coral snake",
+          "value": 4000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLD-BLOODED ANIMALS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g265-d-c3-r3"
+        },
+        {
+          "question": "The mud puppy, or water dog, is a large American variety of this amphibian",
+          "answer": "salamander",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COLD-BLOODED ANIMALS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g265-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORLD LITERATURE",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "Dostoevski novel in which Raskolnikov, a young student, kills an old woman pawnbroker",
+          "answer": "Crime And Punishment",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LITERATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g265-d-c4-r0"
+        },
+        {
+          "question": "After offending both sides in a religious dispute, this \"Moll Flanders\" author was sentenced to the pillory",
+          "answer": "Daniel Defoe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LITERATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g265-d-c4-r1"
+        },
+        {
+          "question": "In 1967 Gabriel Garcia Marquez became world famous in publication of his \"One Hundred Years of\" this",
+          "answer": "Solitude",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LITERATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g265-d-c4-r2"
+        },
+        {
+          "question": "Irish-born Samuel Beckett & Romanian-born Eugene Ionesco both wrote absurdist plays in this language",
+          "answer": "French",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LITERATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g265-d-c4-r3"
+        },
+        {
+          "question": "The Polish-born author of \"The Painted Bird\", set in Europe & \"Being There\", set in Washington, D.C.",
+          "answer": "Jerzy Kozinski",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORLD LITERATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g265-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROSES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "This Latin term for \"confidentially\" literally means \"under the rose\"",
+          "answer": "sub rosa",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROSES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g265-d-c5-r0"
+        },
+        {
+          "question": "An overly optimistic person is said to view life through these",
+          "answer": "rose-colored glasses",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROSES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g265-d-c5-r1"
+        },
+        {
+          "question": "This Greek island was named for either the roses or the snakes that proliferated there in ancient times",
+          "answer": "Rhodes",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROSES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g265-d-c5-r2"
+        },
+        {
+          "question": "In 1955 Mitch Miller knocked out \"Rock Around the Clock\" from the No. 1 spot with this song",
+          "answer": "\"Yellow Rose of Texas\"",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROSES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g265-d-c5-r3"
+        },
+        {
+          "question": "The \"centifolia\", or hundred petals rose, is better known by this \"vegetable\" name",
+          "answer": "cabbage rose",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROSES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g265-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS & INDUSTRY",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "The Welch's Company has its corporate headquarters in this Mass. town",
+          "answer": "Concord",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "BUSINESS & INDUSTRY",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g265-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

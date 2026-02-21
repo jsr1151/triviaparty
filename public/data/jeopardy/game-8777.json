@@ -1,0 +1,833 @@
+{
+  "gameId": 8777,
+  "showNumber": 25,
+  "airDate": "January 16, 2024",
+  "season": null,
+  "isSpecial": true,
+  "tournamentType": "Primetime Celebrity Jeopardy!",
+  "categories": [
+    {
+      "name": "WHO CAME FIRST?",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "John Quincy Adams,John F. Kennedy,Jon Bon Jovi",
+          "answer": "John Quincy Adams",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO CAME FIRST?",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8777-s-c0-r0"
+        },
+        {
+          "question": "Sally Ride,Coretta Scott King,Florence Nightingale",
+          "answer": "Florence Nightingale",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO CAME FIRST?",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8777-s-c0-r1"
+        },
+        {
+          "question": "Ferdinand Magellan,Marco Polo,Christopher Columbus",
+          "answer": "Marco Polo",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO CAME FIRST?",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8777-s-c0-r2"
+        },
+        {
+          "question": "Coco Chanel,Frida Kahlo,Jane Austen",
+          "answer": "Jane Austen",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO CAME FIRST?",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8777-s-c0-r3"
+        },
+        {
+          "question": "Alexander the Great,Attila the Hun,Genghis Khan",
+          "answer": "Alexander the Great",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHO CAME FIRST?",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8777-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DR. SEUSS EN ESPAÑOL",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Huevos Verdes con Jamón\"",
+          "answer": "Green Eggs and Ham",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DR. SEUSS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8777-s-c1-r0"
+        },
+        {
+          "question": "\"¡Cómo el Grinch Robó la Navidad!\"",
+          "answer": "How the Grinch Stole Christmas",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DR. SEUSS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8777-s-c1-r1"
+        },
+        {
+          "question": "\"El Gato Ensombrerado\"",
+          "answer": "The Cat in the Hat",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DR. SEUSS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8777-s-c1-r2"
+        },
+        {
+          "question": "\"¡Horton Escucha a Quién!\"",
+          "answer": "Horton Hears a Who",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DR. SEUSS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8777-s-c1-r3"
+        },
+        {
+          "question": "\"Un Pez, Dos Peces, Pez Rojo, Pez Azul\"",
+          "answer": "One Fish, Two Fish, Red Fish, Blue Fish",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DR. SEUSS EN ESPAÑOL",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8777-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "SPELLING BIZ",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "This beverage brand debuted in 1876; you can't spell it without spelling...B _ _ _ E _ _ E R",
+          "answer": "Budweiser",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING BIZ",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8777-s-c2-r0"
+        },
+        {
+          "question": "This gasoline brand merged with Exxon in 1999; you can't spell it without spelling..._ O _ I L",
+          "answer": "Mobil",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING BIZ",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8777-s-c2-r1"
+        },
+        {
+          "question": "Toyota debuted this model in the US in 1983; you can't spell it without spelling...C A _ R _",
+          "answer": "Camry",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING BIZ",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8777-s-c2-r2"
+        },
+        {
+          "question": "Bronies know this plaything debuted in 1983; you can't spell it without spelling..._ __ _ T _ _ __ O _ Y",
+          "answer": "My Little Pony",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING BIZ",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8777-s-c2-r3"
+        },
+        {
+          "question": "In 1972, this brand debuted Red Zinger and Sleepy Time; you can't spell it without spelling..._ _ _ _ _ T _ _ __ E A _ _ _ _ _ _ _",
+          "answer": "Celestial Seasonings",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SPELLING BIZ",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8777-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "KURT RUSSELL FILMS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Kurt & this funny lady were already a couple when they starred in the 1987 amnesia comedy \"Overboard\"",
+          "answer": "Goldie Hawn",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KURT RUSSELL FILMS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8777-s-c3-r0"
+        },
+        {
+          "question": "A sudden reintroduction of oxygen to an enclosed fire can cause this, also the title of a Kurt Russell film",
+          "answer": "Backdraft",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KURT RUSSELL FILMS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8777-s-c3-r1"
+        },
+        {
+          "question": "Rumor has it that Russell was secretly directing the 1993 western \"Tombstone\" while portraying this legendary lawman",
+          "answer": "Wyatt Earp",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KURT RUSSELL FILMS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8777-s-c3-r2"
+        },
+        {
+          "question": "Kurt Russell's Santa is the gift that keeps on giving! He even speaks a fake language called \"Elvish\" in this holiday romp",
+          "answer": "The Christmas Chronicles",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "KURT RUSSELL FILMS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8777-s-c3-r3"
+        },
+        {
+          "question": "Kurt has said that his most iconic character is \"Snake\" Plissken, the antihero of this film set in a dystopian Big Apple",
+          "answer": "Escape from New York",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "KURT RUSSELL FILMS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8777-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "TREES",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This South American rainforest is said to be home to roughly 390 billion trees",
+          "answer": "the Amazon",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8777-s-c4-r0"
+        },
+        {
+          "question": "In the 1984 film \"The Karate Kid\", Daniel asks Mr. Miyagi \"How'd they get so small?\" when he sees Mr. Miyagi trimming these trees",
+          "answer": "bonsai",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8777-s-c4-r1"
+        },
+        {
+          "question": "This Bay Area city has a tree on its official flag (it's the type of tree featured in the city's name)",
+          "answer": "Oakland",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8777-s-c4-r2"
+        },
+        {
+          "question": "Balsa, magnolia or sequoia: it's the tree that becomes the name of another tree when you add an \"M\" to its end",
+          "answer": "balsa (balsam accepted)",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8777-s-c4-r3"
+        },
+        {
+          "question": "Meaning \"to fall off\" in Latin, it's the word used to describe non-evergreen trees & baby teeth",
+          "answer": "deciduous",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TREES",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8777-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"LOL\"",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "An oldie but goodie, this 1958 Chordettes hit features the line, \"sweeter than candy on a stick\"",
+          "answer": "\"Lollipop\"",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOL\"",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g8777-s-c5-r0"
+        },
+        {
+          "question": "Jane's Addiction singer Perry Farrell got the name for this Chicago music festival from the Three Stooges",
+          "answer": "Lollapalooza",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOL\"",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g8777-s-c5-r1"
+        },
+        {
+          "question": "This word meaning \"dawdle\" is almost as much fun to say as \"dillydally\" & \"shilly-shally\", two of its other synonyms",
+          "answer": "lollygag",
+          "value": 400,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOL\"",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g8777-s-c5-r2"
+        },
+        {
+          "question": "In 1955, a U.K. Sunday Express editor declared this novel by Vladimir Nabokov \"the filthiest book I have ever read\"",
+          "answer": "Lolita",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOL\"",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g8777-s-c5-r3"
+        },
+        {
+          "question": "This 1998 German crowd-pleaser is 80 minutes long; for most of that time, Franka Potente is out of breath",
+          "answer": "Run Lola Run",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"LOL\"",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g8777-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE FRENCH HORN",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "A French horn's name is technically just \"horn\"-- & the modern version was born not in France, but in this land of Oktoberfest",
+          "answer": "Germany",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH HORN",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8777-d-c0-r0"
+        },
+        {
+          "question": "A French horn & choir comprise the iconic intro of this Rolling Stones song, in which Mick assures us, \"you get what you need\"",
+          "answer": "\"You Can't Always Get What You Want\"",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH HORN",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8777-d-c0-r1"
+        },
+        {
+          "question": "In one of the least alluring rituals of horn maintenance, players must invert their instruments routinely to drain them of this",
+          "answer": "spit",
+          "value": 2000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH HORN",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8777-d-c0-r2"
+        },
+        {
+          "question": "After the 2014 finale, the iconic blue French horn from the set of this TV comedy went home with actor Josh Radnor",
+          "answer": "How I Met Your Mother",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH HORN",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8777-d-c0-r3"
+        },
+        {
+          "question": "This part of the horn where a player inserts their hand can be detached on some instruments to make carrying easier",
+          "answer": "the bell",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "THE FRENCH HORN",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8777-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "SISTERHOODS",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The beloved March sisters--Meg, Jo, Beth & Amy--are the heroines of this classic novel",
+          "answer": "Little Women",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SISTERHOODS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8777-d-c1-r0"
+        },
+        {
+          "question": "Grammy-winning sisters Ruth, Anita, Bonnie & June kept fans so excited performing as this foursome",
+          "answer": "the Pointer Sisters",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SISTERHOODS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8777-d-c1-r1"
+        },
+        {
+          "question": "Carmen, Lena, Tibby, Bridget, & a pair of secondhand Levi's in a 2005 film",
+          "answer": "Sisterhood of the Traveling Pants",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SISTERHOODS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8777-d-c1-r2"
+        },
+        {
+          "question": "Not everyone on \"Keeping up with the Kardashians\" was a Kardashian; these three were the only sisters to boast TV's splashiest name",
+          "answer": "Kourtney, Kim & Khloe",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SISTERHOODS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8777-d-c1-r3"
+        },
+        {
+          "question": "Fans of this 1996 bestseller have formed dozens of female bonding clubs worldwide; not all require campfire initiation rituals",
+          "answer": "Divine Secrets of the Ya-Ya Sisterhood",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SISTERHOODS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8777-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "WORDS THAT MAKE DOGS GO NUTS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "It goes hand in hand with \"trick\" on All Hallows' Eve",
+          "answer": "treat",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS THAT MAKE DOGS GO NUTS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8777-d-c2-r0"
+        },
+        {
+          "question": "A large, lavish party with dancing; once upon a time Cinderella attended one",
+          "answer": "ball",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS THAT MAKE DOGS GO NUTS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8777-d-c2-r1"
+        },
+        {
+          "question": "It's the \"P\" in the automotive acronym PRNDL",
+          "answer": "park",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS THAT MAKE DOGS GO NUTS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8777-d-c2-r2"
+        },
+        {
+          "question": "In the \"Ice Age\" films, the acorn-obsessed Scrat is a fictional saber-toothed species of this rodent",
+          "answer": "a squirrel",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS THAT MAKE DOGS GO NUTS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8777-d-c2-r3"
+        },
+        {
+          "question": "In \"Mean Girls\", Gretchen Wieners tries to make this word happen to no avail",
+          "answer": "fetch",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WORDS THAT MAKE DOGS GO NUTS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8777-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "THE MOUNT RUSHMORE OF...",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Will Ferrell films: \"Old School\", \"Anchorman\", \"Step Brothers\" & this comedy set in the Big Apple & the North Pole",
+          "answer": "Elf",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOUNT RUSHMORE OF...",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8777-d-c3-r0"
+        },
+        {
+          "question": "U.S. gymnasts: Simone Biles, Gabby Douglas, Kerri Strug & this gold medalist who became America's Sweetheart in 1984",
+          "answer": "Mary Lou Retton",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOUNT RUSHMORE OF...",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8777-d-c3-r1"
+        },
+        {
+          "question": "Celebrity chefs: Wolfgang Puck, Julia Child, Anthony Bourdain & this N'awlins legend known for his catchphrase \"Bam!\"",
+          "answer": "Emeril Lagasse",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOUNT RUSHMORE OF...",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8777-d-c3-r2"
+        },
+        {
+          "question": "Masterpieces: \"Mona Lisa\", \"The Last Supper\", \"the starry night\" & this Botticelli work of a goddess standing in a scallop shell",
+          "answer": "(The) Birth of Venus",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOUNT RUSHMORE OF...",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8777-d-c3-r3"
+        },
+        {
+          "question": "Rock drummers: Neil Peart, Ginger Baker, Keith Moon & this legendary Led Zeppelin beat keeper",
+          "answer": "John Bonham",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "THE MOUNT RUSHMORE OF...",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8777-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "WHERE ART THOU?",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "You're snapping a selfie at this museum's main entrance, a glass pyramid designed by architect I.M. Pei",
+          "answer": "the Louvre",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ART THOU?",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8777-d-c4-r0"
+        },
+        {
+          "question": "You're taking a dip in one of the world's most photographed swimming pools, Bondi Icebergs, in this city Down Under",
+          "answer": "Sydney",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ART THOU?",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8777-d-c4-r1"
+        },
+        {
+          "question": "You're hiking up the Yoshida Trail, the most popular route to the summit of this sacred peak in Japan",
+          "answer": "Mount Fuji",
+          "value": 3000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ART THOU?",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8777-d-c4-r2"
+        },
+        {
+          "question": "You're geeking out on a \"Game of Thrones\" tour of Dubrovnik, an ancient port city in this country",
+          "answer": "Croatia",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ART THOU?",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8777-d-c4-r3"
+        },
+        {
+          "question": "You're paddling through the heart of Budapest on a kayaking trip down this river",
+          "answer": "the Danube",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "WHERE ART THOU?",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8777-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "YUP, IT'S A PORT-A-POTTY",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "A family-owned port-a-potty business since 2003, its name is \"yes yes\" in French",
+          "answer": "Oui Oui",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YUP, IT'S A PORT-A-POTTY",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g8777-d-c5-r0"
+        },
+        {
+          "question": "A port-a-potty business for over 30 years, it's also a poker hand consisting of the five highest cards of one suit",
+          "answer": "Royal Flush",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YUP, IT'S A PORT-A-POTTY",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g8777-d-c5-r1"
+        },
+        {
+          "question": "Finally, I've been holding it in forever; it's what the WC stands for on this port-a-potty",
+          "answer": "water closet",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YUP, IT'S A PORT-A-POTTY",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g8777-d-c5-r2"
+        },
+        {
+          "question": "A break at the Indy 500, it's also the name of public toilets used in San Francisco since 2014",
+          "answer": "Pit Stop",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "YUP, IT'S A PORT-A-POTTY",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g8777-d-c5-r3"
+        },
+        {
+          "question": "Based in Eau Claire, WI, this port-a-potty company shares its name with the target where a skydiver lands",
+          "answer": "Drop Zone",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "YUP, IT'S A PORT-A-POTTY",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g8777-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "ICONIC DESIGNERS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "Once married to a publishing heir who owned citrus groves, her brightly printed dresses were originally designed to hide juice stains",
+          "answer": "Lilly Pulitzer",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": true,
+          "category": "ICONIC DESIGNERS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g8777-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}

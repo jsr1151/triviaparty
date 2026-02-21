@@ -1,0 +1,833 @@
+{
+  "gameId": 2247,
+  "showNumber": 3763,
+  "airDate": "January 3, 2001",
+  "season": null,
+  "isSpecial": false,
+  "tournamentType": null,
+  "categories": [
+    {
+      "name": "STREET SMARTS",
+      "round": "single",
+      "position": 0,
+      "clues": [
+        {
+          "question": "It's the stately street where the U.S. president lives",
+          "answer": "Pennsylvania Avenue",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STREET SMARTS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2247-s-c0-r0"
+        },
+        {
+          "question": "In this European city the locals call the Boulevard Saint-Michel the \"Boul' Miche\" for short",
+          "answer": "Paris",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STREET SMARTS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2247-s-c0-r1"
+        },
+        {
+          "question": "This Manhattan avenue has long been synonymous with the advertising industry",
+          "answer": "Madison Avenue",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STREET SMARTS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2247-s-c0-r2"
+        },
+        {
+          "question": "The Garden State Parkway passes by Paramus & Passaic in this state",
+          "answer": "New Jersey",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STREET SMARTS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2247-s-c0-r3"
+        },
+        {
+          "question": "In 1775 Daniel Boone blazed this road through the Cumberland Gap",
+          "answer": "Wilderness Road",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "STREET SMARTS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2247-s-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "DRUGS",
+      "round": "single",
+      "position": 1,
+      "clues": [
+        {
+          "question": "The Salk vaccine prevents this crippling disease",
+          "answer": "Polio",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2247-s-c1-r0"
+        },
+        {
+          "question": "This drug first synthesized in 1905 is now less common as a dental anesthetic than lidocaine",
+          "answer": "Novocaine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2247-s-c1-r1"
+        },
+        {
+          "question": "The administration of drugs was made much easier by this 1853 invention seen here",
+          "answer": "Hypodermic needle",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2247-s-c1-r2"
+        },
+        {
+          "question": "From the Latin for \"I shall please\", it's a fake drug given in place of a real one",
+          "answer": "Placebo",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2247-s-c1-r3"
+        },
+        {
+          "question": "AKA Zidovudine, the drug with this 3-letter abbreviation was approved in 1987 to fight the AIDS virus",
+          "answer": "AZT",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "DRUGS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2247-s-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "FRIENDS",
+      "round": "single",
+      "position": 2,
+      "clues": [
+        {
+          "question": "These 2 friends are credited with the lyric \"Oh I get by with a little help from my friends\"",
+          "answer": "John Lennon & Paul McCartney",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRIENDS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2247-s-c2-r0"
+        },
+        {
+          "question": "According to a classic song title, these \"Are A Girl's Best Friend\"",
+          "answer": "Diamonds",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRIENDS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2247-s-c2-r1"
+        },
+        {
+          "question": "In a Shakespeare play, he says \"Friends, Romans, Countrymen, lend me your ears\"",
+          "answer": "Mark Antony (after the death of Caesar)",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRIENDS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2247-s-c2-r2"
+        },
+        {
+          "question": "Movie in which Billy Crystal told Meg Ryan that a man & a woman can never truly be friends",
+          "answer": "When Harry Met Sally...",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRIENDS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2247-s-c2-r3"
+        },
+        {
+          "question": "Her novel \"Circle of Friends\" became a movie starring Minnie Driver",
+          "answer": "Maeve Binchy",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FRIENDS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2247-s-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "ROMANS",
+      "round": "single",
+      "position": 3,
+      "clues": [
+        {
+          "question": "The Romans didn't usually use these vehicles in battle; they were reserved for the victory parades",
+          "answer": "Chariots",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROMANS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2247-s-c3-r0"
+        },
+        {
+          "question": "Commit the crime & you may have had to do the time in one of these schools to learn fighting for the games",
+          "answer": "Gladiator school",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROMANS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2247-s-c3-r1"
+        },
+        {
+          "question": "The Romans celebrated Anna Perenna, sort of a New Year's Day festival, on the 15th or ides of this month",
+          "answer": "March",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROMANS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2247-s-c3-r2"
+        },
+        {
+          "question": "A funny thing might have happened on the way to this chief marketplace of Rome",
+          "answer": "The Forum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "ROMANS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2247-s-c3-r3"
+        },
+        {
+          "question": "From the Latin for \"mob\", it was the term for the Latin spoken by the mobs of uneducated Romans",
+          "answer": "Vulgar Latin",
+          "value": 900,
+          "dailyDouble": true,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "ROMANS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2247-s-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "COUNTRYMEN",
+      "round": "single",
+      "position": 4,
+      "clues": [
+        {
+          "question": "This basketball great is sometimes called \"His Airness\"",
+          "answer": "Michael Jordan",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRYMEN",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2247-s-c4-r0"
+        },
+        {
+          "question": "As Rod Tidwell in \"Jerry Maguire\", he popularized the phrase \"Show me the money!\"",
+          "answer": "Cuba Gooding, Jr.",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRYMEN",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2247-s-c4-r1"
+        },
+        {
+          "question": "This supermodel known for her swimsuit issue covers was born in Santa Barbara, not in Dublin",
+          "answer": "Kathy Ireland",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRYMEN",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2247-s-c4-r2"
+        },
+        {
+          "question": "This younger brother of Rob is married to Hilary Swank",
+          "answer": "Chad Lowe",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "COUNTRYMEN",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2247-s-c4-r3"
+        },
+        {
+          "question": "Nobel Prize-winning novelist Anatole, or the country of his birth",
+          "answer": "France",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "COUNTRYMEN",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2247-s-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "LEND ME YOUR MOUSEKETEER EARS",
+      "round": "single",
+      "position": 5,
+      "clues": [
+        {
+          "question": "She's probably America's favorite Mouseketeer & QVC sells her collectible bears",
+          "answer": "Annette Funicello",
+          "value": 100,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEND ME YOUR MOUSEKETEER EARS",
+          "round": "single",
+          "rowIndex": 0,
+          "clueId": "g2247-s-c5-r0"
+        },
+        {
+          "question": "From 1991 to 1993 this future \"Felicity\" star was in the house with Mickey Mouse",
+          "answer": "Keri Russell",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEND ME YOUR MOUSEKETEER EARS",
+          "round": "single",
+          "rowIndex": 1,
+          "clueId": "g2247-s-c5-r1"
+        },
+        {
+          "question": "Platinum albums, an exercise video, touring & writing a book have kept this teen from Plantwood, Louisiana busy",
+          "answer": "Britney Spears",
+          "value": 300,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEND ME YOUR MOUSEKETEER EARS",
+          "round": "single",
+          "rowIndex": 2,
+          "clueId": "g2247-s-c5-r2"
+        },
+        {
+          "question": "'50s club member Cubby O'Brien continued to play this instrument as an adult for the Carpenters & Bernadette Peters",
+          "answer": "Drums",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "LEND ME YOUR MOUSEKETEER EARS",
+          "round": "single",
+          "rowIndex": 3,
+          "clueId": "g2247-s-c5-r3"
+        },
+        {
+          "question": "The former Mouseketeer & \"Facts of Life\" star seen here, she's now a mom who home-schools her 3 kids",
+          "answer": "Lisa Whelchel",
+          "value": 500,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "LEND ME YOUR MOUSEKETEER EARS",
+          "round": "single",
+          "rowIndex": 4,
+          "clueId": "g2247-s-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "SCIENCE & NATURE",
+      "round": "double",
+      "position": 0,
+      "clues": [
+        {
+          "question": "This African carnivore famous for its \"laugh\" also emits a piercing howl",
+          "answer": "Hyena",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2247-d-c0-r0"
+        },
+        {
+          "question": "They're considered the 3 precious metals",
+          "answer": "Gold, silver & platinum",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2247-d-c0-r1"
+        },
+        {
+          "question": "The name of this noble gas might remind you of a \"Warrior Princess\"",
+          "answer": "Xenon",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2247-d-c0-r2"
+        },
+        {
+          "question": "This main male sex hormone is also produced in small amounts by the female ovaries",
+          "answer": "Testosterone",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2247-d-c0-r3"
+        },
+        {
+          "question": "Boyle's Law says that at constant temperature, the volume of a gas varies inversely with this",
+          "answer": "Pressure (exerted on it)",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "SCIENCE & NATURE",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2247-d-c0-r4"
+        }
+      ]
+    },
+    {
+      "name": "TV TITLE ROLES",
+      "round": "double",
+      "position": 1,
+      "clues": [
+        {
+          "question": "\"Frasier\"",
+          "answer": "Kelsey Grammer",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE ROLES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2247-d-c1-r0"
+        },
+        {
+          "question": "\"Norm\"",
+          "answer": "Norm Macdonald",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE ROLES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2247-d-c1-r1"
+        },
+        {
+          "question": "\"Sabrina the Teenage Witch\"",
+          "answer": "Melissa Joan Hart",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE ROLES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2247-d-c1-r2"
+        },
+        {
+          "question": "\"Boy Meets World\"",
+          "answer": "Ben Savage",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE ROLES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2247-d-c1-r3"
+        },
+        {
+          "question": "\"Jesse\"",
+          "answer": "Christina Applegate",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "TV TITLE ROLES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2247-d-c1-r4"
+        }
+      ]
+    },
+    {
+      "name": "NORTHWESTERN INDIANS",
+      "round": "double",
+      "position": 2,
+      "clues": [
+        {
+          "question": "These 50-foot-tall cedarwood creations have been called \"The Hallmark of Northwest Coastal Art\"",
+          "answer": "Totem poles",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NORTHWESTERN INDIANS",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2247-d-c2-r0"
+        },
+        {
+          "question": "Sails were added to these 50-foot-long cedarwood creations after contact with Europeans",
+          "answer": "Canoes",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NORTHWESTERN INDIANS",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2247-d-c2-r1"
+        },
+        {
+          "question": "The Nootka were expert at this activity of which New Bedford became the world's center",
+          "answer": "Whaling",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NORTHWESTERN INDIANS",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2247-d-c2-r2"
+        },
+        {
+          "question": "\"Y\" tribes include the Yurok, Yokuts & this one that gave their name to a Washington city of 55,000",
+          "answer": "Yakima",
+          "value": 1800,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "NORTHWESTERN INDIANS",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2247-d-c2-r3"
+        },
+        {
+          "question": "Meaning \"to give\", it's a ceremony at which the host gives gifts & might destroy his own property",
+          "answer": "Potlatch",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "NORTHWESTERN INDIANS",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2247-d-c2-r4"
+        }
+      ]
+    },
+    {
+      "name": "\"N\" TICING",
+      "round": "double",
+      "position": 3,
+      "clues": [
+        {
+          "question": "Also used as an insecticide, it's a toxic alkaloid found in tobacco",
+          "answer": "Nicotine",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"N\" TICING",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2247-d-c3-r0"
+        },
+        {
+          "question": "It's the deadly type of necktie seen here",
+          "answer": "Noose",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"N\" TICING",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2247-d-c3-r1"
+        },
+        {
+          "question": "This warm-water species of shark shares its name with someone who might be registered or practical",
+          "answer": "Nurse shark",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"N\" TICING",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2247-d-c3-r2"
+        },
+        {
+          "question": "It's showing favoritism by someone in power to family members or friends",
+          "answer": "Nepotism",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"N\" TICING",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2247-d-c3-r3"
+        },
+        {
+          "question": "This city of 350,000 on Honshu Island hosted the Winter Olympics in 1998",
+          "answer": "Nagano",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "\"N\" TICING",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2247-d-c3-r4"
+        }
+      ]
+    },
+    {
+      "name": "FUN DATES",
+      "round": "double",
+      "position": 4,
+      "clues": [
+        {
+          "question": "It's been said that birds choose their mates on this holiday",
+          "answer": "Valentine's Day",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": false,
+          "category": "FUN DATES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2247-d-c4-r0"
+        },
+        {
+          "question": "Legend says that this symbol of St. Patrick's Day was used by St. Patrick to illustrate the Holy Trinity",
+          "answer": "Shamrock",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN DATES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2247-d-c4-r1"
+        },
+        {
+          "question": "This federal holiday can fall on any date from February 15 to February 21",
+          "answer": "Presidents' Day/Washington's Birthday",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN DATES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2247-d-c4-r2"
+        },
+        {
+          "question": "Day on which Mexico's Battle of Puebla is celebrated",
+          "answer": "Cinco de Mayo",
+          "value": 800,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN DATES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2247-d-c4-r3"
+        },
+        {
+          "question": "Cities can earn the designation \"Tree City USA\" from the foundation for this holiday in Nebraska",
+          "answer": "Arbor Day",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "FUN DATES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2247-d-c4-r4"
+        }
+      ]
+    },
+    {
+      "name": "REALLY BAD DATES",
+      "round": "double",
+      "position": 5,
+      "clues": [
+        {
+          "question": "An Aug. 5, 1861 act by Congress imposed a tax on this, at a rate of 3% for anything over $800",
+          "answer": "Income tax",
+          "value": 200,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALLY BAD DATES",
+          "round": "double",
+          "rowIndex": 0,
+          "clueId": "g2247-d-c5-r0"
+        },
+        {
+          "question": "A New Mexico community & this national lab were ravaged by a fire that began as a controlled burn on May 4, 2000",
+          "answer": "Los Alamos",
+          "value": 400,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALLY BAD DATES",
+          "round": "double",
+          "rowIndex": 1,
+          "clueId": "g2247-d-c5-r1"
+        },
+        {
+          "question": "The Love Canal in this state, a toxic waste dump site in the '40s & '50s, was declared a disaster area on Aug. 7, 1978",
+          "answer": "New York",
+          "value": 600,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALLY BAD DATES",
+          "round": "double",
+          "rowIndex": 2,
+          "clueId": "g2247-d-c5-r2"
+        },
+        {
+          "question": "On March 9, 1916 Mexican soldiers & this revolutionary general attacked the town of Columbus, New Mexico, killing 15",
+          "answer": "Pancho Villa",
+          "value": 1000,
+          "dailyDouble": true,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALLY BAD DATES",
+          "round": "double",
+          "rowIndex": 3,
+          "clueId": "g2247-d-c5-r3"
+        },
+        {
+          "question": "On June 19, 1756 146 British prisoners were packed into the dungeon in India that was given this nickname",
+          "answer": "Black Hole of Calcutta",
+          "value": 1000,
+          "dailyDouble": false,
+          "tripleStumper": false,
+          "isFinalJeopardy": false,
+          "category": "REALLY BAD DATES",
+          "round": "double",
+          "rowIndex": 4,
+          "clueId": "g2247-d-c5-r4"
+        }
+      ]
+    },
+    {
+      "name": "BROADWAY MUSICALS",
+      "round": "final",
+      "position": 0,
+      "clues": [
+        {
+          "question": "In 1949 this Shakespeare-based show won the 1st Tony for Best Musical; in 2000 it won for Best Musical Revival",
+          "answer": "Kiss Me, Kate",
+          "value": null,
+          "dailyDouble": false,
+          "tripleStumper": true,
+          "isFinalJeopardy": true,
+          "category": "BROADWAY MUSICALS",
+          "round": "final",
+          "rowIndex": 0,
+          "clueId": "g2247-f-c0-r0"
+        }
+      ]
+    }
+  ]
+}
