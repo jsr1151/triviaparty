@@ -1,23 +1,8 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import type {
-  JeopardyClueData,
-  JeopardyFilter,
-  JeopardyGameData,
-  JeopardyIndexEntry,
-} from '@/types/jeopardy';
-import { buildCustomBoard, buildRandomBoard, searchClues, getClueUserData } from '@/lib/clue-store';
-import {
-  ensureUser,
-  getActiveUsername,
-  getLearnClues,
-  getUserStats,
-  listUsers,
-  recordClueOutcome,
-  recordGameCompleted,
-  setActiveUsername,
-} from '@/lib/stats-store';
+import type { JeopardyClueData, JeopardyFilter, JeopardyGameData, JeopardyIndexEntry } from '@/types/jeopardy';
+import { buildCustomBoard, buildRandomBoard, getClueUserData, searchClues } from '@/lib/clue-store';
 import ClueModal from './components/ClueModal';
 
 interface JeopardyClue extends JeopardyClueData {
@@ -27,7 +12,7 @@ interface JeopardyClue extends JeopardyClueData {
 interface JeopardyCategory {
   id: string;
   name: string;
-  round: 'single' | 'double' | 'final';
+  round: 'single' | 'double' | 'triple' | 'final';
   position: number;
   clues: JeopardyClue[];
 }
@@ -44,21 +29,44 @@ interface JeopardyGame {
   categories: JeopardyCategory[];
 }
 
-type Round = 'single' | 'double' | 'final';
+type Round = 'single' | 'double' | 'triple' | 'final';
 type JeopardyMethod = 'replay' | 'random' | 'custom' | 'learn';
 type SessionType = 'competition' | 'practice';
+type TeamScore = { name: string; score: number };
 type Cell = { revealed: boolean; clue: JeopardyClue };
 type Board = Record<string, Record<number, Cell>>;
-type TeamScore = { name: string; score: number };
+
+type AuthUser = { id: string; email: string; username: string };
+type UserStats = {
+  gamesPlayed: number;
+  averageEndMoney: number;
+  episodesCompleted: number;
+  correctAnswers: number;
+  incorrectAnswers: number;
+  skippedQuestions: number;
+};
+
+type LearnClue = {
+  clueId: string;
+  question: string;
+  answer: string;
+  value: number | null;
+  dailyDouble: boolean;
+  tripleStumper: boolean;
+  isFinalJeopardy: boolean;
+  category: string;
+  round: string;
+};
 
 const VALUES_SINGLE = [200, 400, 600, 800, 1000];
 const VALUES_DOUBLE = [400, 800, 1200, 1600, 2000];
+const VALUES_TRIPLE = [600, 1200, 1800, 2400, 3000];
 
 function normaliseApiGame(g: Record<string, unknown>): JeopardyGame {
   const cats = ((g.categories as Record<string, unknown>[]) ?? []).map(cat => ({
     id: String(cat.id ?? Math.random()),
     name: String(cat.name ?? ''),
-    round: String(cat.round ?? 'single') as Round,
+    round: String(cat.round ?? 'single') as 'single' | 'double' | 'final',
     position: Number(cat.position ?? 0),
     clues: ((cat.clues as Record<string, unknown>[]) ?? []).map((cl, i) => ({
       id: String(cl.id ?? cl.clueId ?? Math.random()),
@@ -70,10 +78,11 @@ function normaliseApiGame(g: Record<string, unknown>): JeopardyGame {
       tripleStumper: Boolean(cl.tripleStumper),
       isFinalJeopardy: String(cat.round) === 'final',
       category: String(cat.name ?? ''),
-      round: String(cat.round ?? 'single') as Round,
+      round: (String(cat.round ?? 'single') as 'single' | 'double' | 'final'),
       rowIndex: Number(cl.rowIndex ?? i),
     })),
   }));
+
   return {
     id: String(g.id ?? Math.random()),
     gameId: g.gameId != null ? Number(g.gameId) : undefined,
@@ -82,7 +91,7 @@ function normaliseApiGame(g: Record<string, unknown>): JeopardyGame {
     season: g.season != null ? Number(g.season) : null,
     isSpecial: Boolean(g.isSpecial),
     tournamentType: g.tournamentType != null ? String(g.tournamentType) : null,
-    categories: cats,
+    categories: cats as JeopardyCategory[],
   };
 }
 
@@ -102,8 +111,21 @@ function normaliseJsonGame(g: JeopardyGameData, file?: string): JeopardyGame {
       round: cat.round,
       position: cat.position,
       clues: cat.clues.map((cl, li) => ({ ...cl, id: cl.clueId || `${g.gameId}-${ci}-${li}` })),
-    })),
+    })) as JeopardyCategory[],
   };
+}
+
+async function postJson(url: string, payload: unknown) {
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error(body.error || 'Request failed');
+  }
+  return res.json().catch(() => ({}));
 }
 
 export default function JeopardyPage() {
@@ -112,10 +134,12 @@ export default function JeopardyPage() {
   const [displayGames, setDisplayGames] = useState<JeopardyGame[]>([]);
   const [indexEntries, setIndexEntries] = useState<JeopardyIndexEntry[]>([]);
   const [allGames, setAllGames] = useState<JeopardyGameData[]>([]);
-  const [loadingAllGames, setLoadingAllGames] = useState(false);
+  const [loadingLibrary, setLoadingLibrary] = useState(false);
+  const [libraryProgress, setLibraryProgress] = useState({ loaded: 0, total: 0 });
 
   const [sessionType, setSessionType] = useState<SessionType>('competition');
   const [method, setMethod] = useState<JeopardyMethod>('replay');
+  const [showSettings, setShowSettings] = useState(false);
 
   const [selectedGame, setSelectedGame] = useState<JeopardyGame | null>(null);
   const [currentRound, setCurrentRound] = useState<Round>('single');
@@ -128,42 +152,52 @@ export default function JeopardyPage() {
   const [activeTeamIndex, setActiveTeamIndex] = useState(0);
 
   const [normalizeTripleStumperColor, setNormalizeTripleStumperColor] = useState(false);
-  const [customFilter, setCustomFilter] = useState<JeopardyFilter>({});
-  const [customSearch, setCustomSearch] = useState('');
-  const [customBuilding, setCustomBuilding] = useState(false);
 
   const [randomCategoryCount, setRandomCategoryCount] = useState(6);
   const [randomIncludeDouble, setRandomIncludeDouble] = useState(true);
+  const [randomIncludeTriple, setRandomIncludeTriple] = useState(false);
   const [randomIncludeFinal, setRandomIncludeFinal] = useState(true);
-  const [randomTripleStumperOnly, setRandomTripleStumperOnly] = useState(false);
 
-  const [randomSeasonMin, setRandomSeasonMin] = useState('');
-  const [randomSeasonMax, setRandomSeasonMax] = useState('');
-  const [randomIncludeSpecials, setRandomIncludeSpecials] = useState(true);
+  const [customSearch, setCustomSearch] = useState('');
+  const [customFilter, setCustomFilter] = useState<JeopardyFilter>({});
+  const [customBuilding, setCustomBuilding] = useState(false);
 
-  const [loginInput, setLoginInput] = useState('');
-  const [activeUsername, setActiveUsernameState] = useState<string | null>(null);
-  const [savedUsers, setSavedUsers] = useState<string[]>([]);
+  const [selectedSeasons, setSelectedSeasons] = useState<number[]>([]);
+  const [includeRegularEpisodes, setIncludeRegularEpisodes] = useState(true);
+  const [selectedSpecialTypes, setSelectedSpecialTypes] = useState<string[]>([]);
 
-  const userStats = useMemo(
-    () => (activeUsername ? getUserStats(activeUsername) : null),
-    [activeUsername],
-  );
+  const [authUser, setAuthUser] = useState<AuthUser | null>(null);
+  const [userStats, setUserStats] = useState<UserStats | null>(null);
 
   useEffect(() => {
-    const active = getActiveUsername();
-    setActiveUsernameState(active);
-    setSavedUsers(listUsers().map(u => u.username));
+    if (typeof window === 'undefined') return;
+    const requested = new URLSearchParams(window.location.search).get('method');
+    if (requested && ['replay', 'random', 'custom', 'learn'].includes(requested)) {
+      setMethod(requested as JeopardyMethod);
+    }
   }, []);
 
   useEffect(() => {
-    async function load() {
+    (async () => {
+      try {
+        const res = await fetch('/api/auth/me');
+        if (!res.ok) return;
+        const data = await res.json();
+        setAuthUser(data.user ?? null);
+        setUserStats(data.stats ?? null);
+      } catch {
+      }
+    })();
+  }, []);
+
+  useEffect(() => {
+    async function loadGames() {
       const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
       try {
-        const res = await fetch('/api/jeopardy?limit=200');
+        const res = await fetch('/api/jeopardy?limit=300');
         const data = await res.json();
-        const apiGames: JeopardyGame[] = (data.games ?? []).map(normaliseApiGame);
+        const apiGames = (data.games ?? []).map(normaliseApiGame);
         if (apiGames.length > 0) {
           setDisplayGames(apiGames);
           setDataSource('api');
@@ -202,70 +236,90 @@ export default function JeopardyPage() {
       setLoading(false);
     }
 
-    load();
+    loadGames();
   }, []);
 
   async function ensureAllGamesLoaded(): Promise<JeopardyGameData[]> {
     if (allGames.length > 0) return allGames;
-    setLoadingAllGames(true);
+
+    if (dataSource === 'api') {
+      const converted: JeopardyGameData[] = displayGames.map(game => ({
+        gameId: game.gameId ?? 0,
+        showNumber: game.showNumber,
+        airDate: game.airDate,
+        season: game.season,
+        isSpecial: game.isSpecial,
+        tournamentType: game.tournamentType,
+        categories: game.categories.map(cat => ({
+          name: cat.name,
+          round: cat.round === 'triple' ? 'double' : cat.round,
+          position: cat.position,
+          clues: cat.clues,
+        })) as JeopardyGameData['categories'],
+      }));
+      setAllGames(converted);
+      return converted;
+    }
+
+    setLoadingLibrary(true);
+    setLibraryProgress({ loaded: 0, total: indexEntries.length });
+
     const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
     const games: JeopardyGameData[] = [];
-    for (const entry of indexEntries) {
-      const res = await fetch(`${base}/data/jeopardy/${entry.file}`);
-      games.push(await res.json());
+
+    const batchSize = 12;
+    for (let start = 0; start < indexEntries.length; start += batchSize) {
+      const batch = indexEntries.slice(start, start + batchSize);
+      const batchResults = await Promise.all(
+        batch.map(async entry => {
+          const res = await fetch(`${base}/data/jeopardy/${entry.file}`);
+          const game = (await res.json()) as JeopardyGameData;
+          return game;
+        }),
+      );
+      games.push(...batchResults);
+      setLibraryProgress(prev => ({ ...prev, loaded: Math.min(indexEntries.length, prev.loaded + batchResults.length) }));
     }
+
     setAllGames(games);
-    setLoadingAllGames(false);
+    setLoadingLibrary(false);
     return games;
   }
 
   function parsedTeams(): TeamScore[] {
-    const names = teamNamesInput
-      .split(',')
-      .map(name => name.trim())
-      .filter(Boolean)
-      .slice(0, 8);
-    if (names.length === 0) return [{ name: 'Team 1', score: 0 }, { name: 'Team 2', score: 0 }];
+    const names = teamNamesInput.split(',').map(n => n.trim()).filter(Boolean).slice(0, 8);
+    if (!names.length) return [{ name: 'Team 1', score: 0 }, { name: 'Team 2', score: 0 }];
     return names.map(name => ({ name, score: 0 }));
   }
 
   function buildBoard(game: JeopardyGame, round: Round) {
     const cats = game.categories.filter(c => c.round === round);
-    const vals = round === 'double' ? VALUES_DOUBLE : round === 'final' ? [0] : VALUES_SINGLE;
-    const newBoard: Board = {};
+    const values = round === 'double' ? VALUES_DOUBLE : round === 'triple' ? VALUES_TRIPLE : round === 'final' ? [0] : VALUES_SINGLE;
+    const nextBoard: Board = {};
 
     cats.forEach(cat => {
-      newBoard[cat.id] = {};
+      nextBoard[cat.id] = {};
       cat.clues.forEach((clue, idx) => {
-        const value = round === 'final' ? 0 : vals[idx] ?? (idx + 1) * (round === 'double' ? 400 : 200);
-        newBoard[cat.id][value] = { revealed: false, clue };
+        const value = round === 'final' ? 0 : values[idx] ?? (idx + 1) * 200;
+        nextBoard[cat.id][value] = { revealed: false, clue };
       });
     });
 
-    setBoard(newBoard);
+    setBoard(nextBoard);
     setCurrentRound(round);
-    setActiveClue(null);
-  }
-
-  function finishGameAndBack() {
-    if (activeUsername) {
-      recordGameCompleted(activeUsername, { endMoney: sessionType === 'competition' ? 0 : score, showNumber: selectedGame?.showNumber ?? null });
-    }
-    setSelectedGame(null);
     setActiveClue(null);
   }
 
   async function startReplay(game: JeopardyGame) {
     let resolvedGame = game;
-
     if (dataSource === 'files-index' && game.categories.length === 0 && game.sourceFile) {
       const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
       const res = await fetch(`${base}/data/jeopardy/${game.sourceFile}`);
-      const raw: JeopardyGameData = await res.json();
+      const raw = (await res.json()) as JeopardyGameData;
       resolvedGame = normaliseJsonGame(raw, game.sourceFile);
     }
 
-    if (resolvedGame.categories.length === 0) return;
+    if (!resolvedGame.categories.length) return;
 
     setSelectedGame(resolvedGame);
     setScore(0);
@@ -274,183 +328,98 @@ export default function JeopardyPage() {
     buildBoard(resolvedGame, 'single');
   }
 
+  const availableSpecialTypes = useMemo(
+    () => Array.from(new Set(displayGames.filter(g => g.isSpecial).map(g => g.tournamentType || 'Other Special'))).sort(),
+    [displayGames],
+  );
+
+  function toggleSeason(season: number) {
+    setSelectedSeasons(prev => prev.includes(season) ? prev.filter(s => s !== season) : [...prev, season].sort((a, b) => a - b));
+  }
+
+  function toggleSpecialType(type: string) {
+    setSelectedSpecialTypes(prev => prev.includes(type) ? prev.filter(s => s !== type) : [...prev, type]);
+  }
+
   function filteredReplayGames() {
-    const min = randomSeasonMin ? Number(randomSeasonMin) : null;
-    const max = randomSeasonMax ? Number(randomSeasonMax) : null;
     return displayGames.filter(game => {
-      if (!randomIncludeSpecials && game.isSpecial) return false;
-      if (min != null && (game.season == null || game.season < min)) return false;
-      if (max != null && (game.season == null || game.season > max)) return false;
+      if (selectedSeasons.length > 0 && (game.season == null || !selectedSeasons.includes(game.season))) return false;
+
+      if (game.isSpecial) {
+        const specialType = game.tournamentType || 'Other Special';
+        if (selectedSpecialTypes.length > 0 && !selectedSpecialTypes.includes(specialType)) return false;
+        if (!includeRegularEpisodes && selectedSpecialTypes.length === 0) return true;
+      }
+
+      if (!game.isSpecial && !includeRegularEpisodes) return false;
       return true;
     });
   }
 
   async function startRandomReplayFromFilters() {
     const pool = filteredReplayGames();
-    if (pool.length === 0) {
-      alert('No episodes match those replay filters.');
+    if (!pool.length) {
+      alert('No episodes match your replay filters.');
       return;
     }
-    const pick = pool[Math.floor(Math.random() * pool.length)];
-    await startReplay(pick);
+
+    const index = Math.floor(Math.random() * pool.length);
+    await startReplay(pool[index]);
   }
 
   async function startRandom() {
-    const sourceGames = dataSource === 'api' ? displayGames.map(g => ({
-      gameId: g.gameId ?? 0,
-      showNumber: g.showNumber,
-      airDate: g.airDate,
-      season: g.season,
-      isSpecial: g.isSpecial,
-      tournamentType: g.tournamentType,
-      categories: g.categories.map(c => ({ name: c.name, round: c.round, position: c.position, clues: c.clues })),
-    })) : await ensureAllGamesLoaded();
-
+    const sourceGames = await ensureAllGamesLoaded();
     if (!sourceGames.length) return;
 
-    const rounds: JeopardyCategory[] = [];
-    const single = buildRandomBoard(sourceGames as JeopardyGameData[], randomCategoryCount, 5, 'single')
-      .map((cat, ci) => ({
-        id: `rnd-s-${ci}`,
-        name: cat.name,
-        round: 'single' as const,
-        position: ci,
-        clues: cat.clues
-          .filter(cl => (randomTripleStumperOnly ? cl.tripleStumper : true))
-          .map((cl, li) => ({ ...cl, id: cl.clueId || `rnd-s-${ci}-${li}` })),
-      }));
+    const categories: JeopardyCategory[] = [];
 
-    rounds.push(...single);
+    const single = buildRandomBoard(sourceGames, randomCategoryCount, 5, 'single').map((cat, i) => ({
+      id: `rnd-s-${i}`,
+      name: cat.name,
+      round: 'single' as const,
+      position: i,
+      clues: cat.clues.map((cl, j) => ({ ...cl, id: cl.clueId || `rnd-s-${i}-${j}` })),
+    }));
+    categories.push(...single);
 
     if (randomIncludeDouble) {
-      const doubles = buildRandomBoard(sourceGames as JeopardyGameData[], randomCategoryCount, 5, 'double')
-        .map((cat, ci) => ({
-          id: `rnd-d-${ci}`,
-          name: cat.name,
-          round: 'double' as const,
-          position: ci,
-          clues: cat.clues
-            .filter(cl => (randomTripleStumperOnly ? cl.tripleStumper : true))
-            .map((cl, li) => ({ ...cl, id: cl.clueId || `rnd-d-${ci}-${li}` })),
-        }));
-      rounds.push(...doubles);
+      const doubles = buildRandomBoard(sourceGames, randomCategoryCount, 5, 'double').map((cat, i) => ({
+        id: `rnd-d-${i}`,
+        name: cat.name,
+        round: 'double' as const,
+        position: i,
+        clues: cat.clues.map((cl, j) => ({ ...cl, id: cl.clueId || `rnd-d-${i}-${j}` })),
+      }));
+      categories.push(...doubles);
+    }
+
+    if (randomIncludeTriple) {
+      const triples = buildRandomBoard(sourceGames, randomCategoryCount, 5, 'double').map((cat, i) => ({
+        id: `rnd-t-${i}`,
+        name: cat.name,
+        round: 'triple' as const,
+        position: i,
+        clues: cat.clues.map((cl, j) => ({ ...cl, id: cl.clueId || `rnd-t-${i}-${j}` })),
+      }));
+      categories.push(...triples);
     }
 
     if (randomIncludeFinal) {
-      const finalClues = (sourceGames as JeopardyGameData[])
-        .flatMap(g => g.categories)
-        .filter(c => c.round === 'final')
-        .flatMap(c => c.clues);
-
-      if (finalClues.length > 0) {
-        const clue = finalClues[Math.floor(Math.random() * finalClues.length)];
-        rounds.push({
-          id: 'rnd-final',
+      const finalPool = sourceGames.flatMap(g => g.categories).filter(c => c.round === 'final').flatMap(c => c.clues);
+      if (finalPool.length > 0) {
+        const clue = finalPool[Math.floor(Math.random() * finalPool.length)];
+        categories.push({
+          id: 'rnd-final-0',
           name: clue.category || 'Final Jeopardy',
           round: 'final',
           position: 0,
-          clues: [{ ...clue, id: clue.clueId || 'rnd-final-0' }],
+          clues: [{ ...clue, id: clue.clueId || 'rnd-final-clue' }],
         });
       }
     }
 
-    const fakeGame: JeopardyGame = {
-      id: `random-${Date.now()}`,
-      showNumber: 0,
-      airDate: '',
-      season: null,
-      isSpecial: false,
-      tournamentType: null,
-      categories: rounds,
-    };
-
-    setSelectedGame(fakeGame);
-    setScore(0);
-    setTeamScores(sessionType === 'competition' ? parsedTeams() : []);
-    setActiveTeamIndex(0);
-    buildBoard(fakeGame, 'single');
-  }
-
-  async function startCustom() {
-    setCustomBuilding(true);
-    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
-    const filter: JeopardyFilter = { ...customFilter, search: customSearch || undefined };
-    try {
-      const results = await searchClues(base, filter, 300);
-      const rawCats = buildCustomBoard(results, randomCategoryCount, 5);
-      if (rawCats.length === 0) {
-        alert('No clues matched your custom filter.');
-        setCustomBuilding(false);
-        return;
-      }
-      const fakeGame: JeopardyGame = {
-        id: `custom-${Date.now()}`,
-        showNumber: 0,
-        airDate: '',
-        season: null,
-        isSpecial: false,
-        tournamentType: null,
-        categories: rawCats.map((cat, ci) => ({
-          id: `cst-${ci}`,
-          name: cat.name,
-          round: cat.round,
-          position: cat.position,
-          clues: cat.clues.map((cl, li) => ({ ...cl, id: cl.clueId || `cst-${ci}-${li}` })),
-        })),
-      };
-      setSelectedGame(fakeGame);
-      setScore(0);
-      setTeamScores(sessionType === 'competition' ? parsedTeams() : []);
-      setActiveTeamIndex(0);
-      buildBoard(fakeGame, 'single');
-    } catch {
-      alert('Error building custom game.');
-    }
-    setCustomBuilding(false);
-  }
-
-  function startLearnMode() {
-    if (!activeUsername) {
-      alert('Log in first to use Learn mode.');
-      return;
-    }
-
-    const learn = getLearnClues(activeUsername);
-    if (learn.length === 0) {
-      alert('No missed clues yet. Miss or skip clues in play to build your Learn deck.');
-      return;
-    }
-
-    const grouped = new Map<string, JeopardyClue[]>();
-    for (const item of learn) {
-      if (!grouped.has(item.category)) grouped.set(item.category, []);
-      grouped.get(item.category)!.push({
-        id: item.clueId,
-        clueId: item.clueId,
-        question: item.question,
-        answer: item.answer,
-        value: item.value,
-        dailyDouble: item.dailyDouble,
-        tripleStumper: item.tripleStumper,
-        isFinalJeopardy: item.isFinalJeopardy,
-        category: item.category,
-        round: 'single',
-        rowIndex: 0,
-      });
-    }
-
-    const categories: JeopardyCategory[] = [...grouped.entries()]
-      .slice(0, randomCategoryCount)
-      .map(([name, clues], index) => ({
-        id: `learn-${index}`,
-        name,
-        round: 'single',
-        position: index,
-        clues: clues.slice(0, 5).map((cl, rowIndex) => ({ ...cl, rowIndex })),
-      }));
-
     const game: JeopardyGame = {
-      id: `learn-${Date.now()}`,
+      id: `random-${Date.now()}`,
       showNumber: 0,
       airDate: '',
       season: null,
@@ -461,18 +430,122 @@ export default function JeopardyPage() {
 
     setSelectedGame(game);
     setScore(0);
-    setTeamScores([]);
+    setTeamScores(sessionType === 'competition' ? parsedTeams() : []);
+    setActiveTeamIndex(0);
     buildBoard(game, 'single');
   }
 
-  function selectClue(clue: JeopardyClue, catId: string, value: number) {
-    let resolvedValue = value;
-    if (clue.dailyDouble && currentRound !== 'final') {
-      const wagerInput = window.prompt('Daily Double! Enter your wager:', String(Math.max(200, value)));
-      const parsed = wagerInput ? Number(wagerInput.replace(/[^\d]/g, '')) : NaN;
-      if (!Number.isNaN(parsed) && parsed > 0) resolvedValue = parsed;
+  async function startCustom() {
+    setCustomBuilding(true);
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+    const filter: JeopardyFilter = { ...customFilter, search: customSearch || undefined };
+
+    try {
+      const results = await searchClues(base, filter, 300);
+      const rawCats = buildCustomBoard(results, randomCategoryCount, 5);
+      if (!rawCats.length) {
+        alert('No clues matched your custom filters.');
+        setCustomBuilding(false);
+        return;
+      }
+
+      const game: JeopardyGame = {
+        id: `custom-${Date.now()}`,
+        showNumber: 0,
+        airDate: '',
+        season: null,
+        isSpecial: false,
+        tournamentType: null,
+        categories: rawCats.map((cat, i) => ({
+          id: `custom-${i}`,
+          name: cat.name,
+          round: cat.round,
+          position: cat.position,
+          clues: cat.clues.map((cl, j) => ({ ...cl, id: cl.clueId || `custom-${i}-${j}` })),
+        })) as JeopardyCategory[],
+      };
+
+      setSelectedGame(game);
+      setScore(0);
+      setTeamScores(sessionType === 'competition' ? parsedTeams() : []);
+      setActiveTeamIndex(0);
+      buildBoard(game, 'single');
+    } catch {
+      alert('Error building custom game.');
     }
-    setActiveClue({ clue, catId, value: resolvedValue });
+
+    setCustomBuilding(false);
+  }
+
+  async function startLearnMode() {
+    if (!authUser) {
+      alert('Please sign in on the home page first.');
+      return;
+    }
+
+    try {
+      const res = await fetch('/api/user/learn');
+      const data = await res.json();
+      const learn: LearnClue[] = data.clues ?? [];
+
+      if (!learn.length) {
+        alert('No missed clues yet. Miss or skip clues first, then come back to Learn mode.');
+        return;
+      }
+
+      const grouped = new Map<string, JeopardyClue[]>();
+      learn.forEach(item => {
+        if (!grouped.has(item.category)) grouped.set(item.category, []);
+        grouped.get(item.category)!.push({
+          id: item.clueId,
+          clueId: item.clueId,
+          question: item.question,
+          answer: item.answer,
+          value: item.value,
+          dailyDouble: item.dailyDouble,
+          tripleStumper: item.tripleStumper,
+          isFinalJeopardy: item.isFinalJeopardy,
+          category: item.category,
+          round: 'single',
+          rowIndex: 0,
+        });
+      });
+
+      const categories: JeopardyCategory[] = [...grouped.entries()].slice(0, randomCategoryCount).map(([name, clues], i) => ({
+        id: `learn-${i}`,
+        name,
+        round: 'single',
+        position: i,
+        clues: clues.slice(0, 5).map((clue, rowIndex) => ({ ...clue, rowIndex })),
+      }));
+
+      const game: JeopardyGame = {
+        id: `learn-${Date.now()}`,
+        showNumber: 0,
+        airDate: '',
+        season: null,
+        isSpecial: false,
+        tournamentType: null,
+        categories,
+      };
+
+      setSelectedGame(game);
+      setScore(0);
+      setTeamScores([]);
+      buildBoard(game, 'single');
+    } catch {
+      alert('Could not load your Learn clues.');
+    }
+  }
+
+  function selectClue(clue: JeopardyClue, catId: string, value: number) {
+    let wageredValue = value;
+    if (clue.dailyDouble && currentRound !== 'final') {
+      const input = window.prompt('Daily Double! Enter wager:', String(Math.max(200, value)));
+      const parsed = input ? Number(input.replace(/[^\d]/g, '')) : NaN;
+      if (!Number.isNaN(parsed) && parsed > 0) wageredValue = parsed;
+    }
+    setActiveClue({ clue, catId, value: wageredValue });
   }
 
   function revealClue() {
@@ -481,7 +554,10 @@ export default function JeopardyPage() {
       ...prev,
       [activeClue.catId]: {
         ...prev[activeClue.catId],
-        [activeClue.value]: { ...prev[activeClue.catId][activeClue.value], revealed: true },
+        [activeClue.value]: {
+          ...prev[activeClue.catId][activeClue.value],
+          revealed: true,
+        },
       },
     }));
     setActiveClue(null);
@@ -495,30 +571,75 @@ export default function JeopardyPage() {
     setScore(prev => prev + delta);
   }
 
-  function handleCorrect() {
+  async function recordOutcome(outcome: 'correct' | 'incorrect' | 'skip') {
+    if (!activeClue || !authUser) return;
+    try {
+      await postJson('/api/user/progress', {
+        outcome,
+        clue: {
+          clueId: activeClue.clue.clueId,
+          question: activeClue.clue.question,
+          answer: activeClue.clue.answer,
+          value: activeClue.clue.value,
+          dailyDouble: activeClue.clue.dailyDouble,
+          tripleStumper: activeClue.clue.tripleStumper,
+          isFinalJeopardy: activeClue.clue.isFinalJeopardy,
+          category: activeClue.clue.category,
+          round: activeClue.clue.round,
+        },
+      });
+      const meRes = await fetch('/api/auth/me');
+      if (meRes.ok) {
+        const me = await meRes.json();
+        setUserStats(me.stats ?? null);
+      }
+    } catch {
+    }
+  }
+
+  async function handleCorrect() {
     if (!activeClue) return;
-    if (activeUsername) recordClueOutcome(activeUsername, activeClue.clue, 'correct');
+    await recordOutcome('correct');
     applyScore(activeClue.value);
     revealClue();
   }
 
-  function handleIncorrect() {
+  async function handleIncorrect() {
     if (!activeClue) return;
-    if (activeUsername) recordClueOutcome(activeUsername, activeClue.clue, 'incorrect');
+    await recordOutcome('incorrect');
     applyScore(-activeClue.value);
     revealClue();
   }
 
-  function handleSkip() {
-    if (!activeClue) return;
-    if (activeUsername) recordClueOutcome(activeUsername, activeClue.clue, 'skip');
+  async function handleSkip() {
+    await recordOutcome('skip');
     revealClue();
+  }
+
+  async function finishGameAndBack() {
+    if (authUser) {
+      try {
+        await postJson('/api/user/game-complete', {
+          endMoney: sessionType === 'competition' ? 0 : score,
+          showNumber: selectedGame?.showNumber ?? null,
+        });
+        const meRes = await fetch('/api/auth/me');
+        if (meRes.ok) {
+          const me = await meRes.json();
+          setUserStats(me.stats ?? null);
+        }
+      } catch {
+      }
+    }
+
+    setSelectedGame(null);
+    setActiveClue(null);
   }
 
   function renderBoard() {
     if (!selectedGame) return null;
     const roundCats = selectedGame.categories.filter(c => c.round === currentRound);
-    const vals = currentRound === 'double' ? VALUES_DOUBLE : currentRound === 'final' ? [0] : VALUES_SINGLE;
+    const values = currentRound === 'double' ? VALUES_DOUBLE : currentRound === 'triple' ? VALUES_TRIPLE : currentRound === 'final' ? [0] : VALUES_SINGLE;
 
     return (
       <div className="overflow-x-auto">
@@ -526,43 +647,37 @@ export default function JeopardyPage() {
           <thead>
             <tr>
               {roundCats.map(cat => (
-                <th key={cat.id} className="bg-blue-800 p-3 text-center text-sm font-bold uppercase border border-blue-900">
-                  {cat.name}
-                </th>
+                <th key={cat.id} className="bg-blue-800 p-3 text-center text-sm font-bold uppercase border border-blue-900">{cat.name}</th>
               ))}
             </tr>
           </thead>
           <tbody>
-            {vals.map(val => (
-              <tr key={val}>
+            {values.map(value => (
+              <tr key={value}>
                 {roundCats.map(cat => {
-                  const cell = board[cat.id]?.[val];
+                  const cell = board[cat.id]?.[value];
                   if (!cell) {
-                    return (
-                      <td key={cat.id} className="border border-blue-900 p-1">
-                        <div className="w-full h-16 bg-blue-900 rounded" />
-                      </td>
-                    );
+                    return <td key={cat.id} className="border border-blue-900 p-1"><div className="w-full h-16 bg-blue-900 rounded" /></td>;
                   }
-                  const ud = cell.clue.clueId ? getClueUserData(cell.clue.clueId) : null;
-                  const isFlagged = ud?.flagged;
-                  const isMediaFlagged = ud?.mediaFlag;
+
+                  const userData = cell.clue.clueId ? getClueUserData(cell.clue.clueId) : null;
                   const tripleClass = normalizeTripleStumperColor
                     ? 'bg-blue-700 hover:bg-blue-600 text-yellow-400'
                     : 'bg-orange-800 hover:bg-orange-700 text-yellow-400';
+
                   return (
                     <td key={cat.id} className="border border-blue-900 p-1">
                       {!cell.revealed ? (
                         <button
-                          onClick={() => selectClue(cell.clue, cat.id, val)}
+                          onClick={() => selectClue(cell.clue, cat.id, value)}
                           className={`w-full h-16 font-bold text-xl rounded transition-colors relative ${
                             cell.clue.tripleStumper ? tripleClass : 'bg-blue-700 hover:bg-blue-600 text-yellow-400'
                           }`}>
-                          {currentRound === 'final' ? 'FINAL' : `$${val}`}
-                          {(isFlagged || isMediaFlagged) && (
+                          {currentRound === 'final' ? 'FINAL' : `$${value}`}
+                          {(userData?.flagged || userData?.mediaFlag) && (
                             <span className="absolute top-1 right-1 text-xs">
-                              {isFlagged ? '🚩' : ''}
-                              {isMediaFlagged ? '🎬' : ''}
+                              {userData.flagged ? '🚩' : ''}
+                              {userData.mediaFlag ? '🎬' : ''}
                             </span>
                           )}
                         </button>
@@ -580,40 +695,27 @@ export default function JeopardyPage() {
     );
   }
 
-  function login(username: string) {
-    const clean = username.trim();
-    if (!clean) return;
-    ensureUser(clean);
-    setActiveUsername(clean);
-    setActiveUsernameState(clean);
-    setSavedUsers(listUsers().map(u => u.username));
-    setLoginInput('');
-  }
-
   if (loading) {
     return <div className="min-h-screen bg-blue-950 flex items-center justify-center text-white text-2xl">Loading…</div>;
   }
 
   if (selectedGame) {
-    const hasFinal = selectedGame.categories.some(c => c.round === 'final');
     const hasDouble = selectedGame.categories.some(c => c.round === 'double');
+    const hasTriple = selectedGame.categories.some(c => c.round === 'triple');
+    const hasFinal = selectedGame.categories.some(c => c.round === 'final');
 
     return (
       <div className="min-h-screen bg-blue-950 text-white p-4">
         <div className="flex justify-between items-center mb-4 gap-3">
-          <button onClick={finishGameAndBack} className="text-yellow-400 hover:underline">
-            ← Back
-          </button>
+          <button onClick={finishGameAndBack} className="text-yellow-400 hover:underline">← Back</button>
           <div className="text-center">
-            <h1 className="text-2xl font-bold text-yellow-400">
-              {selectedGame.showNumber ? `Show #${selectedGame.showNumber}` : 'Jeopardy'}
-            </h1>
+            <h1 className="text-2xl font-bold text-yellow-400">{selectedGame.showNumber ? `Show #${selectedGame.showNumber}` : 'Jeopardy'}</h1>
             <div className="text-sm text-gray-300">{sessionType === 'competition' ? 'Competition' : 'Practice'} mode</div>
           </div>
           {sessionType === 'competition' ? (
             <div className="text-right">
-              {teamScores.map((team, i) => (
-                <div key={team.name} className={`text-sm ${i === activeTeamIndex ? 'text-yellow-300 font-bold' : 'text-white'}`}>
+              {teamScores.map((team, index) => (
+                <div key={`${team.name}-${index}`} className={`text-sm ${index === activeTeamIndex ? 'text-yellow-300 font-bold' : 'text-white'}`}>
                   {team.name}: ${team.score.toLocaleString()}
                 </div>
               ))}
@@ -626,39 +728,19 @@ export default function JeopardyPage() {
         {sessionType === 'competition' && teamScores.length > 0 && (
           <div className="mb-4 flex items-center gap-3">
             <label className="text-sm text-blue-300">Responding team:</label>
-            <select
-              value={activeTeamIndex}
-              onChange={e => setActiveTeamIndex(Number(e.target.value))}
-              className="bg-blue-800 border border-blue-600 rounded px-2 py-1 text-sm">
-              {teamScores.map((team, i) => (
-                <option key={team.name + i} value={i}>
-                  {team.name}
-                </option>
+            <select value={activeTeamIndex} onChange={e => setActiveTeamIndex(Number(e.target.value))} className="bg-blue-800 border border-blue-600 rounded px-2 py-1 text-sm">
+              {teamScores.map((team, index) => (
+                <option key={`${team.name}-${index}`} value={index}>{team.name}</option>
               ))}
             </select>
           </div>
         )}
 
         <div className="flex gap-2 mb-4 flex-wrap">
-          <button
-            onClick={() => buildBoard(selectedGame, 'single')}
-            className={`px-4 py-2 rounded-lg font-bold ${currentRound === 'single' ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800'}`}>
-            Jeopardy!
-          </button>
-          {hasDouble && (
-            <button
-              onClick={() => buildBoard(selectedGame, 'double')}
-              className={`px-4 py-2 rounded-lg font-bold ${currentRound === 'double' ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800'}`}>
-              Double Jeopardy!
-            </button>
-          )}
-          {hasFinal && (
-            <button
-              onClick={() => buildBoard(selectedGame, 'final')}
-              className={`px-4 py-2 rounded-lg font-bold ${currentRound === 'final' ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800'}`}>
-              Final Jeopardy
-            </button>
-          )}
+          <button onClick={() => buildBoard(selectedGame, 'single')} className={`px-4 py-2 rounded-lg font-bold ${currentRound === 'single' ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800'}`}>Jeopardy!</button>
+          {hasDouble && <button onClick={() => buildBoard(selectedGame, 'double')} className={`px-4 py-2 rounded-lg font-bold ${currentRound === 'double' ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800'}`}>Double Jeopardy!</button>}
+          {hasTriple && <button onClick={() => buildBoard(selectedGame, 'triple')} className={`px-4 py-2 rounded-lg font-bold ${currentRound === 'triple' ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800'}`}>Triple Jeopardy!</button>}
+          {hasFinal && <button onClick={() => buildBoard(selectedGame, 'final')} className={`px-4 py-2 rounded-lg font-bold ${currentRound === 'final' ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800'}`}>Final Jeopardy</button>}
         </div>
 
         {activeClue && (
@@ -668,7 +750,7 @@ export default function JeopardyPage() {
             onCorrect={handleCorrect}
             onIncorrect={handleIncorrect}
             onSkip={handleSkip}
-            respondentLabel={sessionType === 'competition' ? teamScores[activeTeamIndex]?.name ?? undefined : undefined}
+            respondentLabel={sessionType === 'competition' ? teamScores[activeTeamIndex]?.name : undefined}
           />
         )}
 
@@ -681,104 +763,91 @@ export default function JeopardyPage() {
     <div className="min-h-screen bg-blue-950 text-white p-8">
       <h1 className="text-4xl font-bold text-yellow-400 mb-2 text-center">Jeopardy!</h1>
 
-      <div className="max-w-4xl mx-auto bg-blue-900 rounded-xl p-4 mb-6">
-        <div className="flex flex-wrap items-center gap-2">
-          <input
-            type="text"
-            value={loginInput}
-            onChange={e => setLoginInput(e.target.value)}
-            placeholder="Enter username"
-            className="bg-blue-800 border border-blue-600 rounded px-3 py-2 text-sm flex-1"
-          />
-          <button onClick={() => login(loginInput)} className="bg-yellow-400 text-blue-950 font-bold px-4 py-2 rounded">
-            Log In
-          </button>
-          {savedUsers.map(name => (
-            <button key={name} onClick={() => login(name)} className="bg-blue-800 hover:bg-blue-700 text-sm px-3 py-2 rounded">
-              {name}
-            </button>
-          ))}
-        </div>
-        {activeUsername && userStats && (
-          <div className="mt-3 text-sm text-blue-200 grid grid-cols-2 md:grid-cols-4 gap-2">
-            <div>User: <span className="text-yellow-300 font-bold">{activeUsername}</span></div>
-            <div>Games: {userStats.gamesPlayed}</div>
-            <div>Avg end money: ${userStats.averageEndMoney.toLocaleString()}</div>
-            <div>Episodes done: {userStats.episodesCompleted}</div>
-            <div>Correct: {userStats.correctAnswers}</div>
-            <div>Wrong: {userStats.incorrectAnswers}</div>
-            <div>Skipped: {userStats.skippedQuestions}</div>
+      <div className="max-w-5xl mx-auto bg-blue-900 rounded-xl p-4 mb-5 text-sm">
+        {authUser ? (
+          <div className="grid md:grid-cols-2 gap-3 items-center">
+            <div>Signed in as <span className="text-yellow-300 font-bold">{authUser.username}</span></div>
+            {userStats && (
+              <div className="grid grid-cols-3 gap-2 text-blue-200 text-xs md:text-sm">
+                <div>Games: {userStats.gamesPlayed}</div>
+                <div>Avg $: {userStats.averageEndMoney}</div>
+                <div>Episodes: {userStats.episodesCompleted}</div>
+              </div>
+            )}
           </div>
+        ) : (
+          <div className="text-blue-200">Sign in on the home page to sync stats and Learn mode across devices.</div>
         )}
       </div>
 
       <div className="flex justify-center gap-2 mb-4">
         {(['competition', 'practice'] as SessionType[]).map(type => (
-          <button
-            key={type}
-            onClick={() => setSessionType(type)}
-            className={`px-5 py-2 rounded-lg font-bold capitalize ${sessionType === type ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>
-            {type}
-          </button>
+          <button key={type} onClick={() => setSessionType(type)} className={`px-5 py-2 rounded-lg font-bold capitalize ${sessionType === type ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>{type}</button>
         ))}
       </div>
 
       {sessionType === 'competition' && (
-        <div className="max-w-3xl mx-auto bg-blue-900 rounded-xl p-4 mb-6">
+        <div className="max-w-3xl mx-auto bg-blue-900 rounded-xl p-4 mb-5">
           <label className="block text-sm font-bold text-blue-300 mb-1">Players/teams (comma separated)</label>
-          <input
-            value={teamNamesInput}
-            onChange={e => setTeamNamesInput(e.target.value)}
-            placeholder="Team 1, Team 2"
-            className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2"
-          />
+          <input value={teamNamesInput} onChange={e => setTeamNamesInput(e.target.value)} className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2" placeholder="Team 1, Team 2" />
         </div>
       )}
 
-      <div className="max-w-3xl mx-auto flex items-center justify-center gap-2 mb-5 flex-wrap">
+      <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 mb-5 flex-wrap">
         {(['replay', 'random', 'custom', 'learn'] as JeopardyMethod[]).map(m => (
-          <button
-            key={m}
-            onClick={() => setMethod(m)}
-            className={`px-4 py-2 rounded-lg font-bold capitalize ${method === m ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>
-            {m}
-          </button>
+          <button key={m} onClick={() => setMethod(m)} className={`px-4 py-2 rounded-lg font-bold capitalize ${method === m ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>{m}</button>
         ))}
-        <label className="text-sm text-blue-300 flex items-center gap-2 ml-3">
-          <input type="checkbox" checked={normalizeTripleStumperColor} onChange={e => setNormalizeTripleStumperColor(e.target.checked)} />
-          Triple Stumper as blue
-        </label>
+        <button onClick={() => setShowSettings(prev => !prev)} className="px-4 py-2 rounded-lg font-bold bg-blue-800 hover:bg-blue-700">Settings</button>
       </div>
 
+      {showSettings && (
+        <div className="max-w-3xl mx-auto bg-blue-900 rounded-xl p-4 mb-5">
+          <label className="text-sm text-blue-200 flex items-center gap-2">
+            <input type="checkbox" checked={normalizeTripleStumperColor} onChange={e => setNormalizeTripleStumperColor(e.target.checked)} />
+            Triple stumper as blue
+          </label>
+        </div>
+      )}
+
       {method === 'replay' && (
-        <div className="max-w-5xl mx-auto">
-          <div className="bg-blue-900 rounded-xl p-4 mb-4 grid md:grid-cols-4 gap-3">
-            <input
-              value={randomSeasonMin}
-              onChange={e => setRandomSeasonMin(e.target.value)}
-              placeholder="Min season"
-              className="bg-blue-800 border border-blue-600 rounded px-3 py-2 text-sm"
-            />
-            <input
-              value={randomSeasonMax}
-              onChange={e => setRandomSeasonMax(e.target.value)}
-              placeholder="Max season"
-              className="bg-blue-800 border border-blue-600 rounded px-3 py-2 text-sm"
-            />
-            <label className="text-sm flex items-center gap-2">
-              <input type="checkbox" checked={randomIncludeSpecials} onChange={e => setRandomIncludeSpecials(e.target.checked)} />
-              Include specials
-            </label>
-            <button onClick={startRandomReplayFromFilters} className="bg-yellow-400 text-blue-950 font-bold rounded px-3 py-2">
-              Random replay episode
-            </button>
+        <div className="max-w-6xl mx-auto space-y-4">
+          <div className="bg-blue-900 rounded-xl p-4">
+            <div className="text-sm text-blue-200 mb-2">Seasons</div>
+            <div className="flex flex-wrap gap-1 mb-3">
+              {Array.from({ length: 42 }).map((_, i) => {
+                const season = i + 1;
+                const active = selectedSeasons.includes(season);
+                return (
+                  <button key={season} onClick={() => toggleSeason(season)} className={`px-2 py-1 rounded text-xs font-bold ${active ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>
+                    {season}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="text-sm text-blue-200 mb-2">Episode type</div>
+            <div className="flex flex-wrap gap-2 mb-3">
+              <label className="flex items-center gap-2 text-sm">
+                <input type="checkbox" checked={includeRegularEpisodes} onChange={e => setIncludeRegularEpisodes(e.target.checked)} />
+                Regular episodes
+              </label>
+              {availableSpecialTypes.map(type => (
+                <button key={type} onClick={() => toggleSpecialType(type)} className={`px-3 py-1 rounded text-xs font-bold ${selectedSpecialTypes.includes(type) ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>
+                  {type}
+                </button>
+              ))}
+            </div>
+
+            <button onClick={startRandomReplayFromFilters} className="bg-yellow-400 text-blue-950 font-bold rounded px-4 py-2">Random replay episode</button>
           </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {displayGames.map(game => (
+            {filteredReplayGames().map(game => (
               <button key={game.id} onClick={() => startReplay(game)} className="bg-blue-800 hover:bg-blue-700 rounded-xl p-6 text-left">
                 <div className="text-xl font-bold">Show #{game.showNumber}</div>
                 <div className="text-sm text-blue-300">{game.airDate}</div>
                 {game.season && <div className="text-sm text-blue-300">Season {game.season}</div>}
+                {game.isSpecial && <div className="text-xs mt-1 text-yellow-300">{game.tournamentType || 'Other Special'}</div>}
               </button>
             ))}
           </div>
@@ -788,50 +857,33 @@ export default function JeopardyPage() {
       {method === 'random' && (
         <div className="max-w-xl mx-auto bg-blue-900 rounded-xl p-6 space-y-3">
           <label className="block text-sm text-blue-300">Number of categories</label>
-          <input
-            type="number"
-            min={2}
-            max={8}
-            value={randomCategoryCount}
-            onChange={e => setRandomCategoryCount(Math.max(2, Math.min(8, Number(e.target.value) || 6)))}
-            className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2"
-          />
+          <input type="number" min={2} max={8} value={randomCategoryCount} onChange={e => setRandomCategoryCount(Math.max(2, Math.min(8, Number(e.target.value) || 6)))} className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2" />
           <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={randomIncludeDouble} onChange={e => setRandomIncludeDouble(e.target.checked)} /> Enable Double Jeopardy</label>
-          <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={randomTripleStumperOnly} onChange={e => setRandomTripleStumperOnly(e.target.checked)} /> Triple Jeopardy (triple stumpers only)</label>
+          <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={randomIncludeTriple} onChange={e => setRandomIncludeTriple(e.target.checked)} /> Enable Triple Jeopardy (third board)</label>
           <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={randomIncludeFinal} onChange={e => setRandomIncludeFinal(e.target.checked)} /> Add Final Jeopardy</label>
-          <button onClick={startRandom} disabled={loadingAllGames} className="w-full bg-yellow-400 text-blue-950 font-bold py-3 rounded-xl disabled:opacity-60">
-            {loadingAllGames ? 'Loading clue library…' : 'Build Random Game'}
+          <button onClick={startRandom} disabled={loadingLibrary} className="w-full bg-yellow-400 text-blue-950 font-bold py-3 rounded-xl disabled:opacity-60">
+            {loadingLibrary ? `Loading clue library… ${libraryProgress.loaded}/${libraryProgress.total}` : 'Build Random Game'}
           </button>
         </div>
       )}
 
       {method === 'custom' && (
         <div className="max-w-2xl mx-auto bg-blue-900 rounded-xl p-6 space-y-4">
-          <input
-            type="text"
-            value={customSearch}
-            onChange={e => setCustomSearch(e.target.value)}
-            placeholder="Search clues, answers, categories"
-            className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2"
-          />
+          <input type="text" value={customSearch} onChange={e => setCustomSearch(e.target.value)} placeholder="Search clues, answers, categories" className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2" />
           <div className="grid md:grid-cols-2 gap-3">
-            <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={Boolean(customFilter.dailyDoublesOnly)} onChange={e => setCustomFilter(f => ({ ...f, dailyDoublesOnly: e.target.checked || undefined }))} /> Daily Doubles only</label>
-            <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={Boolean(customFilter.tripleStumpersOnly)} onChange={e => setCustomFilter(f => ({ ...f, tripleStumpersOnly: e.target.checked || undefined }))} /> Triple stumpers only</label>
-            <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={Boolean(customFilter.finalOnly)} onChange={e => setCustomFilter(f => ({ ...f, finalOnly: e.target.checked || undefined }))} /> Final only</label>
-            <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={Boolean(customFilter.flaggedOnly)} onChange={e => setCustomFilter(f => ({ ...f, flaggedOnly: e.target.checked || undefined }))} /> Flagged only</label>
+            <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={Boolean(customFilter.dailyDoublesOnly)} onChange={e => setCustomFilter(prev => ({ ...prev, dailyDoublesOnly: e.target.checked || undefined }))} /> Daily Doubles only</label>
+            <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={Boolean(customFilter.tripleStumpersOnly)} onChange={e => setCustomFilter(prev => ({ ...prev, tripleStumpersOnly: e.target.checked || undefined }))} /> Triple stumpers only</label>
+            <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={Boolean(customFilter.finalOnly)} onChange={e => setCustomFilter(prev => ({ ...prev, finalOnly: e.target.checked || undefined }))} /> Final only</label>
+            <label className="text-sm flex items-center gap-2"><input type="checkbox" checked={Boolean(customFilter.flaggedOnly)} onChange={e => setCustomFilter(prev => ({ ...prev, flaggedOnly: e.target.checked || undefined }))} /> Flagged only</label>
           </div>
-          <button onClick={startCustom} disabled={customBuilding} className="w-full bg-yellow-400 text-blue-950 font-bold py-3 rounded-xl disabled:opacity-60">
-            {customBuilding ? 'Building…' : 'Build Custom Game'}
-          </button>
+          <button onClick={startCustom} disabled={customBuilding} className="w-full bg-yellow-400 text-blue-950 font-bold py-3 rounded-xl disabled:opacity-60">{customBuilding ? 'Building…' : 'Build Custom Game'}</button>
         </div>
       )}
 
       {method === 'learn' && (
         <div className="max-w-xl mx-auto text-center bg-blue-900 rounded-xl p-6">
-          <p className="text-blue-200 mb-4">Study from your missed and skipped clues.</p>
-          <button onClick={startLearnMode} className="bg-yellow-400 text-blue-950 px-8 py-3 rounded-xl font-bold">
-            Start Learn Game
-          </button>
+          <p className="text-blue-200 mb-4">Study your missed and skipped clues from your account history.</p>
+          <button onClick={startLearnMode} className="bg-yellow-400 text-blue-950 px-8 py-3 rounded-xl font-bold">Start Learn Game</button>
         </div>
       )}
 

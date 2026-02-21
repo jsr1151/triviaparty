@@ -156,3 +156,68 @@ model Game {
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 }
+
+model User {
+  id           String             @id @default(cuid())
+  email        String             @unique
+  username     String             @unique
+  passwordHash String
+  passwordSalt String
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+  sessions     UserSession[]
+  stats        UserStats?
+  clueProgress UserClueProgress[]
+}
+
+model UserSession {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model UserStats {
+  id               String   @id @default(cuid())
+  userId           String   @unique
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  gamesPlayed      Int      @default(0)
+  totalEndMoney    Int      @default(0)
+  averageEndMoney  Int      @default(0)
+  episodesCompleted Int     @default(0)
+  correctAnswers   Int      @default(0)
+  incorrectAnswers Int      @default(0)
+  skippedQuestions Int      @default(0)
+  completedEpisodes Json    @default("[]")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model UserClueProgress {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  clueId          String
+  question        String
+  answer          String
+  value           Int?
+  dailyDouble     Boolean  @default(false)
+  tripleStumper   Boolean  @default(false)
+  isFinalJeopardy Boolean  @default(false)
+  category        String
+  round           String
+  correctCount    Int      @default(0)
+  incorrectCount  Int      @default(0)
+  skipCount       Int      @default(0)
+  lastOutcome     String   @default("skip")
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@unique([userId, clueId])
+  @@index([userId, updatedAt])
+}

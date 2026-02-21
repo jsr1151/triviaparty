@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import HomeAuthPanel from '@/components/HomeAuthPanel';
 
 const gameModes = [
   {
@@ -25,6 +26,14 @@ const gameModes = [
     href: '/play/random',
     color: 'from-green-600 to-teal-600',
   },
+  {
+    id: 'learn',
+    title: 'Learn Mode',
+    description: 'Review missed Jeopardy clues tied to your account progress across devices.',
+    icon: '🧠',
+    href: '/play/learn',
+    color: 'from-amber-500 to-orange-700',
+  },
 ];
 
 export default function Home() {
@@ -40,7 +49,9 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
+        <HomeAuthPanel />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-16">
           {gameModes.map((mode) => (
             <Link key={mode.id} href={mode.href}>
               <div className={`bg-gradient-to-br ${mode.color} rounded-2xl p-8 cursor-pointer hover:scale-105 transition-transform duration-200 shadow-xl`}>
