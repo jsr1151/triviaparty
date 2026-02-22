@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 interface ListQuestionProps {
-  question: { id: string };
+  question: { id?: string; answers?: string[]; minRequired?: number };
   onAnswer: (correct: boolean) => void;
 }
 
@@ -22,11 +22,21 @@ export default function ListQuestion({ question, onAnswer }: ListQuestionProps) 
     setInput('');
     setFound([]);
     setSubmitted(false);
+    if (Array.isArray(question.answers)) {
+      setData({
+        answers: question.answers,
+        minRequired: question.minRequired || 1,
+      });
+      return;
+    }
+
+    if (!question.id) return;
+
     fetch(`/api/questions/details?id=${question.id}&type=list`)
       .then(r => r.json())
       .then(setData)
       .catch(() => {});
-  }, [question.id]);
+  }, [question.id, question.answers, question.minRequired]);
 
   if (!data) return <div className="text-gray-400">Loading...</div>;
 

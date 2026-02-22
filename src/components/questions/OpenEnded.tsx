@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 interface OpenEndedProps {
-  question: { id: string };
+  question: { id?: string; answer?: string; acceptedAnswers?: string[] };
   onAnswer: (correct: boolean) => void;
 }
 
@@ -20,11 +20,21 @@ export default function OpenEnded({ question, onAnswer }: OpenEndedProps) {
     setData(null);
     setInput('');
     setSubmitted(false);
+    if (typeof question.answer === 'string') {
+      setData({
+        answer: question.answer,
+        acceptedAnswers: Array.isArray(question.acceptedAnswers) ? question.acceptedAnswers : [],
+      });
+      return;
+    }
+
+    if (!question.id) return;
+
     fetch(`/api/questions/details?id=${question.id}&type=open_ended`)
       .then(r => r.json())
       .then(setData)
       .catch(() => {});
-  }, [question.id]);
+  }, [question.id, question.answer, question.acceptedAnswers]);
 
   if (!data) return <div className="text-gray-400">Loading...</div>;
 

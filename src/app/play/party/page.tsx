@@ -5,11 +5,17 @@ import OpenEnded from '@/components/questions/OpenEnded';
 import ListQuestion from '@/components/questions/ListQuestion';
 
 interface Question {
-  id: string;
+  id?: string;
   type: string;
   question: string;
   difficulty: string;
-  category?: { name: string };
+  category?: { name: string } | string;
+  options?: string[];
+  correctAnswer?: string;
+  answer?: string;
+  acceptedAnswers?: string[];
+  answers?: string[];
+  minRequired?: number;
 }
 
 export default function PartyPage() {
@@ -20,10 +26,38 @@ export default function PartyPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/questions?limit=20')
-      .then(r => r.json())
-      .then(data => { setQuestions(data.questions || []); setLoading(false); })
-      .catch(() => setLoading(false));
+    const load = async () => {
+      try {
+        const apiRes = await fetch('/api/questions?limit=20');
+        if (apiRes.ok) {
+          const data = await apiRes.json();
+          if (Array.isArray(data.questions) && data.questions.length > 0) {
+            setQuestions(data.questions);
+            return;
+          }
+        }
+
+        const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
+        const staticRes = await fetch(`${base}/data/questions/sheets-import-questions.json`);
+        if (!staticRes.ok) {
+          setQuestions([]);
+          return;
+        }
+        const staticData = await staticRes.json();
+        const all = (Array.isArray(staticData?.questions) ? staticData.questions : []).map((q: Question, index: number) => ({
+          ...q,
+          id: q.id || `static-${index}`,
+        }));
+        const shuffled = [...all].sort(() => Math.random() - 0.5).slice(0, 20);
+        setQuestions(shuffled);
+      } catch {
+        setQuestions([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    load();
   }, []);
 
   function handleAnswer(correct: boolean) {
@@ -67,6 +101,7 @@ export default function PartyPage() {
   }
 
   const q = questions[current];
+  const categoryLabel = (typeof q.category === 'string' ? q.category : q.category?.name) || q.type;
 
   return (
     <div className="min-h-screen bg-gray-950 text-white p-8">
@@ -76,7 +111,7 @@ export default function PartyPage() {
           <span className="text-yellow-400 font-bold">Score: {score}</span>
         </div>
         <div className="bg-gray-800 rounded-2xl p-8">
-          <div className="text-sm text-purple-400 mb-2 uppercase">{q.category?.name || q.type}</div>
+          <div className="text-sm text-purple-400 mb-2 uppercase">{categoryLabel}</div>
           <div className="text-xl font-bold mb-6">{q.question}</div>
           {q.type === 'multiple_choice' && <MultipleChoice question={q} onAnswer={handleAnswer} />}
           {q.type === 'open_ended' && <OpenEnded question={q} onAnswer={handleAnswer} />}

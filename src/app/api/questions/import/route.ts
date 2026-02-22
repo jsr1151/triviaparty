@@ -35,7 +35,8 @@ export async function GET() {
           // For this_or_that:
           categoryA: 'Category A name',
           categoryB: 'Category B name',
-          // items: [{ text: 'item', answer: 'A' | 'B' }]
+          categoryC: 'Category C name (optional)',
+          // items: [{ text: 'item', answer: 'A' | 'B' | 'C' }]
           // For ranking:
           criteria: 'Sort by year, ascending',
           // items: [{ text: 'item', rank: 1 }]
@@ -81,6 +82,18 @@ export async function POST(req: NextRequest) {
         continue;
       }
 
+      const normalizedType = String(type);
+      const normalizedQuestion = String(question).trim();
+      const normalizedDifficulty = (difficulty as string) || 'medium';
+      const normalizedExplanation =
+        typeof explanation === 'string' && explanation.trim().length > 0 ? explanation.trim() : null;
+
+      if (!normalizedQuestion) {
+        results.skipped++;
+        results.errors.push(`[${i}] Skipped: "question" must be non-empty`);
+        continue;
+      }
+
       // Resolve or create the category
       let categoryId: string | undefined;
       if (categorySlug && typeof categorySlug === 'string') {
@@ -100,12 +113,29 @@ export async function POST(req: NextRequest) {
         }
       }
 
+      const duplicate = await prisma.question.findFirst({
+        where: {
+          type: normalizedType,
+          question: normalizedQuestion,
+          difficulty: normalizedDifficulty,
+          categoryId: categoryId ?? null,
+          explanation: normalizedExplanation,
+        },
+        select: { id: true },
+      });
+
+      if (duplicate) {
+        results.skipped++;
+        results.errors.push(`[${i}] Skipped duplicate question`);
+        continue;
+      }
+
       const base = await prisma.question.create({
         data: {
-          type: type as string,
-          question: question as string,
-          difficulty: (difficulty as string) || 'medium',
-          explanation: explanation as string | undefined,
+          type: normalizedType,
+          question: normalizedQuestion,
+          difficulty: normalizedDifficulty,
+          explanation: normalizedExplanation,
           categoryId,
         },
       });
@@ -174,7 +204,7 @@ export async function POST(req: NextRequest) {
           break;
         }
         case 'this_or_that': {
-          const { categoryA, categoryB, items } = rest;
+          const { categoryA, categoryB, categoryC, items } = rest;
           if (!categoryA || !categoryB || !items) {
             results.errors.push(`[${i}] Warning: this_or_that missing categoryA/categoryB/items`);
             break;
@@ -184,6 +214,7 @@ export async function POST(req: NextRequest) {
               questionId: base.id,
               categoryA: categoryA as string,
               categoryB: categoryB as string,
+              categoryC: (categoryC as string | undefined) || null,
               items: JSON.stringify(items),
             },
           });

@@ -12,7 +12,9 @@
     "db:generate": "prisma generate",
     "postinstall": "prisma generate",
     "scrape": "ts-node --project tsconfig.scripts.json scripts/scrape-to-json.ts",
-    "import": "ts-node --project tsconfig.scripts.json scripts/import-questions.ts"
+    "import": "ts-node --project tsconfig.scripts.json scripts/import-questions.ts",
+    "import:sheets": "ts-node --project tsconfig.scripts.json scripts/import-sheets.ts",
+    "build:question-index": "ts-node --project tsconfig.scripts.json scripts/build-static-question-index.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.17.0",
@@ -23,7 +25,8 @@
     "next": "^15.5.12",
     "prisma": "^7.4.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.35",

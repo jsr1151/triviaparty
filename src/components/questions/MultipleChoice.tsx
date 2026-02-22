@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 interface MultipleChoiceProps {
-  question: { id: string };
+  question: { id?: string; options?: string[]; correctAnswer?: string };
   onAnswer: (correct: boolean) => void;
 }
 
@@ -18,11 +18,21 @@ export default function MultipleChoice({ question, onAnswer }: MultipleChoicePro
   useEffect(() => {
     setData(null);
     setSelected(null);
+    if (Array.isArray(question.options) && typeof question.correctAnswer === 'string') {
+      setData({
+        options: question.options,
+        correctAnswer: question.correctAnswer,
+      });
+      return;
+    }
+
+    if (!question.id) return;
+
     fetch(`/api/questions/details?id=${question.id}&type=multiple_choice`)
       .then(r => r.json())
       .then(setData)
       .catch(() => {});
-  }, [question.id]);
+  }, [question.id, question.options, question.correctAnswer]);
 
   if (!data) return <div className="text-gray-400">Loading options...</div>;
 
