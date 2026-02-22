@@ -42,6 +42,14 @@ const gameModes = [
     href: '/play/stats',
     color: 'from-cyan-600 to-blue-700',
   },
+  {
+    id: 'media-audit',
+    title: 'Media Audit',
+    description: 'Review flagged media questions and mismatches for cleanup.',
+    icon: '🛠️',
+    href: '/play/media-audit',
+    color: 'from-rose-600 to-red-700',
+  },
 ];
 
 export default function Home() {
@@ -59,7 +67,7 @@ export default function Home() {
 
         <HomeAuthPanel />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 max-w-7xl mx-auto mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 max-w-7xl mx-auto mb-16">
           {gameModes.map((mode) => (
             <Link key={mode.id} href={mode.href}>
               <div className={`bg-gradient-to-br ${mode.color} rounded-2xl p-8 cursor-pointer hover:scale-105 transition-transform duration-200 shadow-xl`}>
