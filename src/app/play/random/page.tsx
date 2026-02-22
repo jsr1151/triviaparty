@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
-import QuestionRenderer from '@/components/questions/QuestionRenderer';
+import QuestionRenderer, { type AnswerResult } from '@/components/questions/QuestionRenderer';
 import type { AnyQuestion, Difficulty } from '@/types/questions';
 
 const TYPES = ['multiple_choice', 'open_ended', 'list', 'grouping', 'this_or_that', 'ranking', 'media', 'prompt'];
@@ -14,6 +14,9 @@ export default function RandomPage() {
   const [difficulty, setDifficulty] = useState('');
   const [loading, setLoading] = useState(false);
   const [answered, setAnswered] = useState<boolean | null>(null);
+  const [pointsEarned, setPointsEarned] = useState(0);
+  const [pointsPossible, setPointsPossible] = useState(0);
+  const [typePoints, setTypePoints] = useState<Record<string, { earned: number; possible: number }>>({});
 
   async function fetchStaticBank(): Promise<AnyQuestion[]> {
     const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -64,6 +67,20 @@ export default function RandomPage() {
     setAnswered(null);
   }
 
+  function handleAnswer(result: AnswerResult) {
+    if (answered !== null) return;
+    setAnswered(result.correct);
+    setPointsEarned((p) => p + result.pointsEarned);
+    setPointsPossible((p) => p + result.pointsPossible);
+    setTypePoints((prev) => ({
+      ...prev,
+      [result.type]: {
+        earned: (prev[result.type]?.earned || 0) + result.pointsEarned,
+        possible: (prev[result.type]?.possible || 0) + result.pointsPossible,
+      },
+    }));
+  }
+
   const categoryLabel = question
     ? (typeof question.category === 'string' ? question.category : question.category?.name) || question.type
     : '';
@@ -101,18 +118,30 @@ export default function RandomPage() {
         </div>
         {question && (
           <div className="bg-gray-800 rounded-2xl p-8">
+            <div className="text-sm text-yellow-300 mb-2">Points: {pointsEarned}/{pointsPossible}</div>
             <div className="text-sm text-green-400 mb-2 uppercase">{categoryLabel} • {question.difficulty}</div>
             <div className="text-xl font-bold mb-6">{question.question}</div>
             <QuestionRenderer
               question={question}
-              onAnswer={({ correct }) => {
-                if (answered === null) setAnswered(correct);
-              }}
+              onAnswer={handleAnswer}
               onRerollPrompt={rerollPrompt}
             />
             {answered !== null && (
               <div className={`mt-4 text-center font-bold ${answered ? 'text-green-300' : 'text-red-300'}`}>
                 {answered ? '✓ Correct' : '✗ Incorrect'}
+              </div>
+            )}
+            {!!Object.keys(typePoints).length && (
+              <div className="mt-6 bg-gray-900 rounded-lg p-3">
+                <div className="text-xs text-gray-400 mb-2 uppercase">By question type</div>
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  {Object.entries(typePoints).map(([key, value]) => (
+                    <div key={key} className="flex justify-between bg-gray-800 rounded px-2 py-1">
+                      <span>{key.replace(/_/g, ' ')}</span>
+                      <span className="text-yellow-300">{value.earned}/{value.possible}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
           </div>

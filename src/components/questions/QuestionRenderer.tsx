@@ -1,10 +1,16 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import Image from 'next/image';
+import Image, { type ImageLoaderProps } from 'next/image';
 import type { AnyQuestion } from '@/types/questions';
+import { getQuestionPossiblePoints, getRankingPromptText, inferRankingDirection } from '@/lib/question-utils';
 
-type AnswerResult = { correct: boolean };
+export type AnswerResult = {
+  correct: boolean;
+  pointsEarned: number;
+  pointsPossible: number;
+  type: AnyQuestion['type'];
+};
 
 type Props = {
   question: AnyQuestion;
@@ -38,29 +44,56 @@ function levenshtein(a: string, b: string): number {
   return dp[a.length][b.length];
 }
 
+function tokens(text: string): string[] {
+  return normalize(text).split(' ').filter(Boolean);
+}
+
 function isCloseMatch(input: string, target: string): boolean {
   const a = normalize(input);
   const b = normalize(target);
   if (!a || !b) return false;
   if (a === b) return true;
-  if (a.includes(b) || b.includes(a)) return true;
-  const dist = levenshtein(a, b);
-  const maxLen = Math.max(a.length, b.length);
-  if (maxLen <= 5) return dist <= 1;
-  if (maxLen <= 10) return dist <= 2;
-  return dist <= 3;
+
+  if (a.length < 2) return false;
+
+  const aTokens = tokens(a);
+  const bTokens = tokens(b);
+
+  if (aTokens.length === 1 && bTokens.includes(aTokens[0]) && aTokens[0].length >= 3) return true;
+
+  if (a.length >= 3 && b.length >= 3) {
+    const dist = levenshtein(a, b);
+    const maxLen = Math.max(a.length, b.length);
+    const threshold = maxLen <= 6 ? 1 : maxLen <= 12 ? 2 : 3;
+    if (dist <= threshold) return true;
+  }
+
+  if (aTokens.length >= 2) {
+    const overlap = aTokens.filter((t) => bTokens.includes(t)).length;
+    if (overlap >= Math.min(2, aTokens.length)) return true;
+  }
+
+  return false;
 }
 
 function parseYouTubeEmbed(url: string): string | null {
   try {
     const parsed = new URL(url);
     if (parsed.hostname.includes('youtu.be')) {
-      const id = parsed.pathname.replace('/', '');
-      return id ? `https://www.youtube.com/embed/${id}` : null;
+      const id = parsed.pathname.replace('/', '').split('?')[0];
+      return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1` : null;
     }
-    if (parsed.hostname.includes('youtube.com')) {
+    if (parsed.hostname.includes('youtube.com') || parsed.hostname.includes('youtube-nocookie.com')) {
+      if (parsed.pathname.startsWith('/shorts/')) {
+        const id = parsed.pathname.replace('/shorts/', '').split('/')[0];
+        return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1` : null;
+      }
+      if (parsed.pathname.startsWith('/embed/')) {
+        const id = parsed.pathname.replace('/embed/', '').split('/')[0];
+        return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1` : null;
+      }
       const id = parsed.searchParams.get('v');
-      return id ? `https://www.youtube.com/embed/${id}` : null;
+      return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1` : null;
     }
     return null;
   } catch {
@@ -68,11 +101,37 @@ function parseYouTubeEmbed(url: string): string | null {
   }
 }
 
+function passthroughImageLoader({ src }: ImageLoaderProps): string {
+  return src;
+}
+
+function finalizeOnce(
+  locked: boolean,
+  setLocked: (v: boolean) => void,
+  onAnswer: Props['onAnswer'],
+  question: AnyQuestion,
+  pointsEarned: number,
+  pointsPossible: number,
+  correct: boolean,
+) {
+  if (locked) return;
+  setLocked(true);
+  onAnswer({
+    correct,
+    pointsEarned,
+    pointsPossible,
+    type: question.type,
+  });
+}
+
 function MultipleChoiceView({ question, onAnswer }: Props) {
   const q = question.type === 'multiple_choice' ? question : null;
   const [options, setOptions] = useState<string[]>([]);
   const [selected, setSelected] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [locked, setLocked] = useState(false);
+
+  const pointsPossible = getQuestionPossiblePoints(question);
 
   const correctAnswer = useMemo(() => {
     if (!q) return '';
@@ -85,11 +144,14 @@ function MultipleChoiceView({ question, onAnswer }: Props) {
 
   useEffect(() => {
     if (!q) return;
-    const cleaned = (q.options || []).map((option) => option.replace(/^\*+\s*/, '').replace(/\s*\*+$/, '').trim()).filter(Boolean);
+    const cleaned = (q.options || [])
+      .map((option) => option.replace(/^\*+\s*/, '').replace(/\s*\*+$/, '').trim())
+      .filter(Boolean);
     setOptions(shuffle(cleaned));
     setSelected('');
     setSubmitted(false);
-  }, [q?.id, q?.question, q]);
+    setLocked(false);
+  }, [q]);
 
   if (!q) return null;
 
@@ -99,12 +161,32 @@ function MultipleChoiceView({ question, onAnswer }: Props) {
         const isCorrect = submitted && opt === correctAnswer;
         const isIncorrectChoice = submitted && selected === opt && opt !== correctAnswer;
         return (
-          <button key={opt} onClick={() => !submitted && setSelected(opt)} className={`w-full text-left p-3 rounded-lg border ${isCorrect ? 'bg-green-800 border-green-500' : isIncorrectChoice ? 'bg-red-800 border-red-500' : selected === opt ? 'bg-blue-700 border-blue-400' : 'bg-gray-700 border-gray-600 hover:bg-gray-600'}`}>
+          <button
+            key={opt}
+            onClick={() => !submitted && setSelected(opt)}
+            className={`w-full text-left p-3 rounded-lg border ${
+              isCorrect
+                ? 'bg-green-800 border-green-500'
+                : isIncorrectChoice
+                  ? 'bg-red-800 border-red-500'
+                  : selected === opt
+                    ? 'bg-blue-700 border-blue-400'
+                    : 'bg-gray-700 border-gray-600 hover:bg-gray-600'
+            }`}
+          >
             {opt}
           </button>
         );
       })}
-      <button disabled={!selected || submitted} onClick={() => { setSubmitted(true); onAnswer({ correct: selected === correctAnswer }); }} className="w-full bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold">
+      <button
+        disabled={!selected || submitted}
+        onClick={() => {
+          setSubmitted(true);
+          const correct = selected === correctAnswer;
+          finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+        }}
+        className="w-full bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+      >
         Submit
       </button>
     </div>
@@ -116,11 +198,15 @@ function OpenEndedView({ question, onAnswer }: Props) {
   const [input, setInput] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [locked, setLocked] = useState(false);
+
+  const pointsPossible = getQuestionPossiblePoints(question);
 
   useEffect(() => {
     setInput('');
     setSubmitted(false);
     setShowAnswer(false);
+    setLocked(false);
   }, [q?.id, q?.question]);
 
   if (!q) return null;
@@ -130,8 +216,28 @@ function OpenEndedView({ question, onAnswer }: Props) {
     <div className="space-y-3">
       <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
       <div className="grid grid-cols-2 gap-2">
-        <button disabled={submitted || !input.trim()} onClick={() => { const correct = accepted.some((ans) => isCloseMatch(input, ans)); setSubmitted(true); onAnswer({ correct }); }} className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold">Submit</button>
-        <button onClick={() => { setShowAnswer(true); if (!submitted) onAnswer({ correct: false }); }} className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold">Reveal Answer</button>
+        <button
+          disabled={submitted || !input.trim()}
+          onClick={() => {
+            const correct = accepted.some((ans) => isCloseMatch(input, ans));
+            setSubmitted(true);
+            finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+          }}
+          className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+        >
+          Submit
+        </button>
+        <button
+          onClick={() => {
+            setShowAnswer(true);
+            if (!submitted) {
+              finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
+            }
+          }}
+          className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
+        >
+          Reveal Answer
+        </button>
       </div>
       {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
     </div>
@@ -146,6 +252,13 @@ function ListView({ question, onAnswer }: Props) {
   const [finished, setFinished] = useState(false);
   const [showAnswers, setShowAnswers] = useState(false);
   const [search, setSearch] = useState('');
+  const [mode, setMode] = useState<'timed' | 'strikes' | 'unlimited'>('timed');
+  const [scoringMode, setScoringMode] = useState<'target' | 'as_many'>('target');
+  const [timeLeft, setTimeLeft] = useState(30);
+  const [strikes, setStrikes] = useState(0);
+  const [locked, setLocked] = useState(false);
+
+  const pointsPossible = getQuestionPossiblePoints(question);
 
   useEffect(() => {
     setInput('');
@@ -154,12 +267,54 @@ function ListView({ question, onAnswer }: Props) {
     setFinished(false);
     setShowAnswers(false);
     setSearch('');
-  }, [q?.id, q?.question]);
+    setMode('timed');
+    setScoringMode('target');
+    setLocked(false);
+    const hard = q?.difficulty === 'hard' || q?.difficulty === 'very_hard';
+    setTimeLeft(hard ? 60 : 30);
+    setStrikes(0);
+  }, [q]);
+
+  useEffect(() => {
+    if (mode !== 'timed' || finished) return;
+    if (timeLeft <= 0) {
+      setFinished(true);
+      const foundCount = found.length;
+      const minRequired = q?.minRequired || 1;
+      const points = scoringMode === 'as_many'
+        ? { earned: Math.min(pointsPossible, foundCount), correct: foundCount > 0 }
+        : {
+            earned: Math.round(pointsPossible * Math.min(1, foundCount / Math.max(1, minRequired))),
+            correct: foundCount >= minRequired,
+          };
+      finalizeOnce(locked, setLocked, onAnswer, question, points.earned, pointsPossible, points.correct);
+      return;
+    }
+    const timer = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
+    return () => clearTimeout(timer);
+  }, [mode, finished, timeLeft, found.length, locked, onAnswer, pointsPossible, question, scoringMode, q?.minRequired]);
 
   if (!q) return null;
 
   const answers = Array.isArray(q.answers) ? q.answers : [];
   const minRequired = q.minRequired || 1;
+
+  function calcPoints(foundCount: number): { earned: number; correct: boolean } {
+    if (scoringMode === 'as_many') {
+      const earned = Math.min(pointsPossible, foundCount);
+      return { earned, correct: foundCount > 0 };
+    }
+    const ratio = Math.min(1, foundCount / Math.max(1, minRequired));
+    const earned = Math.round(pointsPossible * ratio);
+    return { earned, correct: foundCount >= minRequired };
+  }
+
+  function finalize() {
+    if (finished) return;
+    setFinished(true);
+    const points = calcPoints(found.length);
+    finalizeOnce(locked, setLocked, onAnswer, question, points.earned, pointsPossible, points.correct);
+  }
 
   function tryAdd() {
     const raw = input.trim();
@@ -168,6 +323,16 @@ function ListView({ question, onAnswer }: Props) {
     const canonical = match || raw;
     const correct = Boolean(match) && !found.includes(canonical);
     if (correct) setFound((prev) => [...prev, canonical]);
+    else if (mode === 'strikes') {
+      const nextStrikes = strikes + 1;
+      setStrikes(nextStrikes);
+      if (nextStrikes >= 3) {
+        setAttempts((prev) => [...prev, { text: raw, correct }]);
+        setInput('');
+        finalize();
+        return;
+      }
+    }
     setAttempts((prev) => [...prev, { text: raw, correct }]);
     setInput('');
   }
@@ -176,23 +341,62 @@ function ListView({ question, onAnswer }: Props) {
 
   return (
     <div className="space-y-3">
-      <div className="text-sm text-gray-300">Find at least {minRequired} answers.</div>
+      <div className="grid grid-cols-2 gap-2">
+        <select value={mode} onChange={(e) => setMode(e.target.value as 'timed' | 'strikes' | 'unlimited')} disabled={attempts.length > 0} className="bg-gray-700 rounded-lg p-2 text-sm disabled:opacity-50">
+          <option value="timed">Timed</option>
+          <option value="strikes">3 Strikes</option>
+          <option value="unlimited">Unlimited</option>
+        </select>
+        <select value={scoringMode} onChange={(e) => setScoringMode(e.target.value as 'target' | 'as_many')} disabled={attempts.length > 0} className="bg-gray-700 rounded-lg p-2 text-sm disabled:opacity-50">
+          <option value="target">Target (meet minimum)</option>
+          <option value="as_many">Name as many</option>
+        </select>
+      </div>
+
+      <div className="text-sm text-gray-300">
+        {scoringMode === 'target' ? `Find at least ${minRequired} answers.` : 'Name as many answers as you can.'}
+        {mode === 'timed' ? ` Time left: ${timeLeft}s` : ''}
+        {mode === 'strikes' ? ` Strikes: ${strikes}/3` : ''}
+      </div>
+
       <div className="flex gap-2">
         <input value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && tryAdd()} disabled={finished} className="flex-1 bg-gray-700 rounded-lg p-3" placeholder="Type an item" />
         <button onClick={tryAdd} disabled={finished} className="px-4 bg-purple-600 hover:bg-purple-500 rounded-lg font-bold">Check</button>
       </div>
-      <div className="flex flex-wrap gap-2">
-        {attempts.slice(-8).map((attempt, index) => <span key={`${attempt.text}-${index}`} className={`px-2 py-1 rounded text-xs ${attempt.correct ? 'bg-green-700' : 'bg-red-700'}`}>{attempt.correct ? '✓' : '✗'} {attempt.text}</span>)}
+
+      <div className="rounded-lg bg-gray-900 p-2 max-h-28 overflow-y-auto">
+        <div className="text-xs text-gray-400 mb-1">Guessed so far</div>
+        <div className="space-y-1">
+          {attempts.map((attempt, index) => (
+            <div key={`${attempt.text}-${index}`} className={`text-xs ${attempt.correct ? 'text-green-300' : 'text-red-300'}`}>
+              {attempt.correct ? '✓' : '✗'} {attempt.text}
+            </div>
+          ))}
+        </div>
       </div>
+
       <div className="text-sm">Found: <span className="text-green-300 font-bold">{found.length}</span> / {answers.length}</div>
       <div className="grid grid-cols-2 gap-2">
-        <button disabled={finished} onClick={() => { setFinished(true); onAnswer({ correct: found.length >= minRequired }); }} className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold">Submit List</button>
-        <button onClick={() => { setShowAnswers(true); if (!finished) { setFinished(true); onAnswer({ correct: found.length >= minRequired }); } }} className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold">Reveal Answers</button>
+        <button disabled={finished} onClick={finalize} className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold">Submit List</button>
+        <button
+          onClick={() => {
+            setShowAnswers(true);
+            if (!finished) finalize();
+          }}
+          className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
+        >
+          Reveal Answers
+        </button>
       </div>
+
       {showAnswers && (
         <div className="bg-gray-900 rounded-lg p-3 space-y-2">
           <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search answers" className="w-full bg-gray-700 rounded-lg p-2" />
-          <div className="max-h-40 overflow-y-auto text-sm space-y-1">{filteredAnswers.map((ans) => <div key={ans} className={`${found.includes(ans) ? 'text-green-300' : 'text-gray-200'}`}>{ans}</div>)}</div>
+          <div className="max-h-40 overflow-y-auto text-sm space-y-1">
+            {filteredAnswers.map((ans) => (
+              <div key={ans} className={`${found.includes(ans) ? 'text-green-300' : 'text-gray-200'}`}>{ans}</div>
+            ))}
+          </div>
         </div>
       )}
     </div>
@@ -205,6 +409,9 @@ function GroupingView({ question, onAnswer }: Props) {
   const [gridItems, setGridItems] = useState<string[]>([]);
   const [selected, setSelected] = useState<string[]>([]);
   const [ended, setEnded] = useState(false);
+  const [locked, setLocked] = useState(false);
+
+  const pointsPossible = getQuestionPossiblePoints(question);
 
   useEffect(() => {
     if (!q) return;
@@ -219,12 +426,21 @@ function GroupingView({ question, onAnswer }: Props) {
     setSelected([]);
     setEnded(false);
     setMode('elimination');
-  }, [q?.id, q?.question, q]);
+    setLocked(false);
+  }, [q]);
 
   if (!q) return null;
 
   const correctSet = new Set(Array.isArray(q.correctItems) ? q.correctItems : []);
   const displayedCorrectCount = gridItems.filter((item) => correctSet.has(item)).length;
+
+  function finish(nextSelected = selected) {
+    if (ended) return;
+    const correctChosen = nextSelected.filter((x) => correctSet.has(x)).length;
+    const earned = Math.round((pointsPossible * correctChosen) / Math.max(1, displayedCorrectCount));
+    setEnded(true);
+    finalizeOnce(locked, setLocked, onAnswer, question, earned, pointsPossible, correctChosen === displayedCorrectCount);
+  }
 
   function pick(item: string) {
     if (ended || selected.includes(item)) return;
@@ -232,14 +448,11 @@ function GroupingView({ question, onAnswer }: Props) {
     const next = [...selected, item];
     setSelected(next);
     if (mode === 'elimination' && !isCorrect) {
-      setEnded(true);
-      onAnswer({ correct: false });
+      finish(next);
       return;
     }
     if (mode === 'continuous' && next.length >= Math.max(1, displayedCorrectCount)) {
-      const correctChosen = next.filter((x) => correctSet.has(x)).length;
-      setEnded(true);
-      onAnswer({ correct: correctChosen === displayedCorrectCount });
+      finish(next);
     }
   }
 
@@ -253,22 +466,41 @@ function GroupingView({ question, onAnswer }: Props) {
         {gridItems.map((item) => {
           const chosen = selected.includes(item);
           const isCorrect = correctSet.has(item);
-          const className = ended ? isCorrect ? 'bg-green-800 border-green-500' : chosen ? 'bg-red-800 border-red-500' : 'bg-gray-700 border-gray-600 opacity-70' : chosen ? 'bg-blue-700 border-blue-400' : 'bg-gray-700 border-gray-600 hover:bg-gray-600';
-          return <button key={item} onClick={() => pick(item)} className={`p-2 text-sm rounded border ${className}`}>{item}</button>;
+          const className = ended
+            ? isCorrect
+              ? chosen
+                ? 'bg-green-700 border-yellow-300'
+                : 'bg-green-900 border-green-500'
+              : chosen
+                ? 'bg-red-800 border-red-500'
+                : 'bg-gray-700 border-gray-600 opacity-60'
+            : chosen
+              ? 'bg-blue-700 border-blue-400'
+              : 'bg-gray-700 border-gray-600 hover:bg-gray-600';
+          return (
+            <button key={item} onClick={() => pick(item)} className={`p-2 text-sm rounded border ${className}`}>
+              {item}
+              {ended && chosen && <span className="ml-1 text-xs">(picked)</span>}
+            </button>
+          );
         })}
       </div>
       {!ended && mode === 'continuous' && <div className="text-sm text-gray-300">Pick {displayedCorrectCount} items. Chosen: {selected.length}</div>}
-      {!ended && <button onClick={() => { setEnded(true); const allChosenCorrect = selected.every((x) => correctSet.has(x)); const targetMet = mode === 'continuous' ? selected.length === displayedCorrectCount : allChosenCorrect; onAnswer({ correct: allChosenCorrect && targetMet }); }} className="w-full bg-purple-600 hover:bg-purple-500 py-2 rounded-lg font-bold">Finish</button>}
+      {!ended && <button onClick={() => finish()} className="w-full bg-purple-600 hover:bg-purple-500 py-2 rounded-lg font-bold">Finish</button>}
     </div>
   );
 }
 
 function ThisOrThatView({ question, onAnswer }: Props) {
   const q = question.type === 'this_or_that' ? question : null;
+  const [mode, setMode] = useState<'standard' | 'elimination'>('standard');
   const [index, setIndex] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
   const [selected, setSelected] = useState<'A' | 'B' | 'C' | null>(null);
   const [items, setItems] = useState<Array<{ text: string; answer: 'A' | 'B' | 'C' }>>([]);
+  const [locked, setLocked] = useState(false);
+
+  const pointsPossible = getQuestionPossiblePoints(question);
 
   useEffect(() => {
     if (!q) return;
@@ -277,7 +509,9 @@ function ThisOrThatView({ question, onAnswer }: Props) {
     setIndex(0);
     setCorrectCount(0);
     setSelected(null);
-  }, [q?.id, q?.question, q]);
+    setMode('standard');
+    setLocked(false);
+  }, [q]);
 
   if (!q) return null;
 
@@ -288,21 +522,34 @@ function ThisOrThatView({ question, onAnswer }: Props) {
   function choose(answer: 'A' | 'B' | 'C') {
     if (selected) return;
     setSelected(answer);
-    if (answer === current.answer) setCorrectCount((x) => x + 1);
+    const right = answer === current.answer;
+    if (mode === 'elimination' && !right) {
+      const earned = Math.round((pointsPossible * correctCount) / Math.max(1, items.length));
+      finalizeOnce(locked, setLocked, onAnswer, question, earned, pointsPossible, false);
+    }
   }
 
   function next() {
-    if (index + 1 >= items.length) {
-      const finalScore = correctCount + (selected === current.answer ? 1 : 0);
-      onAnswer({ correct: finalScore >= Math.ceil(items.length / 2) });
+    const answeredCorrect = selected === current.answer ? 1 : 0;
+    const runningCorrect = correctCount + answeredCorrect;
+    setCorrectCount(runningCorrect);
+    if (index + 1 >= items.length || (mode === 'elimination' && selected !== current.answer)) {
+      const earned = Math.round((pointsPossible * runningCorrect) / Math.max(1, items.length));
+      finalizeOnce(locked, setLocked, onAnswer, question, earned, pointsPossible, runningCorrect > 0);
       return;
     }
     setIndex((x) => x + 1);
     setSelected(null);
   }
 
+  const buttonColors = ['bg-blue-700 hover:bg-blue-600', 'bg-emerald-700 hover:bg-emerald-600', 'bg-violet-700 hover:bg-violet-600'];
+
   return (
     <div className="space-y-3">
+      <div className="flex gap-2">
+        <button disabled={index > 0} onClick={() => setMode('standard')} className={`px-3 py-1 rounded ${mode === 'standard' ? 'bg-purple-600' : 'bg-gray-700'} disabled:opacity-50`}>Standard</button>
+        <button disabled={index > 0} onClick={() => setMode('elimination')} className={`px-3 py-1 rounded ${mode === 'elimination' ? 'bg-purple-600' : 'bg-gray-700'} disabled:opacity-50`}>Elimination</button>
+      </div>
       <div className="text-sm text-gray-300">{index + 1} / {items.length} • Correct: {correctCount}</div>
       <div className="p-3 bg-gray-700 rounded-lg">{current.text.replace(/^[-\s]+/, '')}</div>
       <div className={`grid gap-2 ${categories.length >= 3 ? 'grid-cols-3' : 'grid-cols-2'}`}>
@@ -310,7 +557,16 @@ function ThisOrThatView({ question, onAnswer }: Props) {
           const answerKey = (idx === 0 ? 'A' : idx === 1 ? 'B' : 'C') as 'A' | 'B' | 'C';
           const isCorrect = selected && current.answer === answerKey;
           const isWrongChoice = selected === answerKey && current.answer !== answerKey;
-          return <button key={label} onClick={() => choose(answerKey)} disabled={Boolean(selected)} className={`p-2 rounded-lg border ${isCorrect ? 'bg-green-800 border-green-500' : isWrongChoice ? 'bg-red-800 border-red-500' : 'bg-gray-700 border-gray-600 hover:bg-gray-600'} disabled:opacity-90`}>{label}</button>;
+          return (
+            <button
+              key={label}
+              onClick={() => choose(answerKey)}
+              disabled={Boolean(selected)}
+              className={`p-4 text-lg font-bold rounded-xl border ${isCorrect ? 'bg-green-800 border-green-500' : isWrongChoice ? 'bg-red-800 border-red-500' : `${buttonColors[idx] || 'bg-gray-700 hover:bg-gray-600'} border-transparent`} disabled:opacity-90`}
+            >
+              {label}
+            </button>
+          );
         })}
       </div>
       {selected && <button onClick={next} className="w-full bg-purple-600 hover:bg-purple-500 py-2 rounded-lg font-bold">{index + 1 >= items.length ? 'Finish' : 'Next'}</button>}
@@ -325,6 +581,11 @@ function RankingView({ question, onAnswer }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [order, setOrder] = useState<string[]>([]);
   const [dragIndex, setDragIndex] = useState<number | null>(null);
+  const [lockedIndices, setLockedIndices] = useState<Set<number>>(new Set());
+  const [showSolution, setShowSolution] = useState(false);
+  const [locked, setLocked] = useState(false);
+
+  const pointsPossible = getQuestionPossiblePoints(question);
 
   const parsedFromQuestion = useMemo(() => {
     if (!q) return [] as string[];
@@ -333,11 +594,18 @@ function RankingView({ question, onAnswer }: Props) {
     return parts.slice(1).join(':').split(',').map((x) => x.trim()).filter(Boolean);
   }, [q]);
 
+  const sortedItems = useMemo(() => {
+    if (!q || !Array.isArray(q.items)) return [] as Array<{ text: string; rank: number; value?: string }>;
+    return [...q.items].sort((a, b) => a.rank - b.rank);
+  }, [q]);
+
   const correctOrder = useMemo(() => {
-    if (!q) return [] as string[];
-    if (Array.isArray(q.items) && q.items.length) return [...q.items].sort((a, b) => a.rank - b.rank).map((item) => item.text).filter(Boolean);
+    if (sortedItems.length) return sortedItems.map((item) => item.text).filter(Boolean);
     return parsedFromQuestion;
-  }, [parsedFromQuestion, q]);
+  }, [parsedFromQuestion, sortedItems]);
+
+  const promptText = useMemo(() => getRankingPromptText(q?.question || ''), [q?.question]);
+  const direction = useMemo(() => inferRankingDirection(promptText), [promptText]);
 
   useEffect(() => {
     const start = parsedFromQuestion.length ? parsedFromQuestion : correctOrder;
@@ -346,12 +614,16 @@ function RankingView({ question, onAnswer }: Props) {
     setSubmitted(false);
     setMode('one_shot');
     setDragIndex(null);
+    setLockedIndices(new Set());
+    setShowSolution(false);
+    setLocked(false);
   }, [q?.id, q?.question, parsedFromQuestion, correctOrder]);
 
   if (!q) return null;
 
   function onDrop(targetIndex: number) {
     if (dragIndex == null || dragIndex === targetIndex) return;
+    if (lockedIndices.has(dragIndex) || lockedIndices.has(targetIndex)) return;
     setOrder((prev) => {
       const next = [...prev];
       const [moved] = next.splice(dragIndex, 1);
@@ -362,25 +634,86 @@ function RankingView({ question, onAnswer }: Props) {
   }
 
   function submitOrder() {
-    const exact = order.join('||') === correctOrder.join('||');
-    setAttempts((x) => x + 1);
-    if (mode === 'one_shot' || exact) {
+    const correctPositions = order.reduce((count, item, index) => (item === correctOrder[index] ? count + 1 : count), 0);
+    const nextAttempts = attempts + 1;
+    setAttempts(nextAttempts);
+
+    if (mode === 'one_shot') {
+      const earned = Math.round((pointsPossible * correctPositions) / Math.max(1, correctOrder.length));
       setSubmitted(true);
-      onAnswer({ correct: exact });
+      setShowSolution(true);
+      finalizeOnce(locked, setLocked, onAnswer, question, earned, pointsPossible, correctPositions === correctOrder.length);
+      return;
+    }
+
+    const nextLocks = new Set<number>();
+    order.forEach((item, index) => {
+      if (item === correctOrder[index]) nextLocks.add(index);
+    });
+    setLockedIndices(nextLocks);
+
+    if (nextLocks.size === correctOrder.length) {
+      const earned = Math.max(0, pointsPossible - (nextAttempts - 1));
+      setSubmitted(true);
+      setShowSolution(true);
+      finalizeOnce(locked, setLocked, onAnswer, question, earned, pointsPossible, true);
     }
   }
 
   return (
     <div className="space-y-3">
+      <div className="text-sm text-gray-300">
+        <div className="font-bold text-gray-200">{promptText}</div>
+        <div>{direction.topLabel}</div>
+        <div>{direction.bottomLabel}</div>
+      </div>
+
       <div className="flex gap-2">
-        <button onClick={() => setMode('one_shot')} className={`px-3 py-1 rounded ${mode === 'one_shot' ? 'bg-purple-600' : 'bg-gray-700'}`}>One-Shot</button>
-        <button onClick={() => setMode('anchor_adjust')} className={`px-3 py-1 rounded ${mode === 'anchor_adjust' ? 'bg-purple-600' : 'bg-gray-700'}`}>Anchor/Adjust</button>
+        <button onClick={() => setMode('one_shot')} disabled={attempts > 0} className={`px-3 py-1 rounded ${mode === 'one_shot' ? 'bg-purple-600' : 'bg-gray-700'} disabled:opacity-50`}>One-Shot</button>
+        <button onClick={() => setMode('anchor_adjust')} disabled={attempts > 0} className={`px-3 py-1 rounded ${mode === 'anchor_adjust' ? 'bg-purple-600' : 'bg-gray-700'} disabled:opacity-50`}>Anchor/Adjust</button>
       </div>
+
       <div className="space-y-2">
-        {order.map((item, index) => <button key={`${item}-${index}`} draggable={!submitted} onDragStart={() => setDragIndex(index)} onDragOver={(e) => e.preventDefault()} onDrop={() => onDrop(index)} className={`w-full text-left p-2 rounded border ${submitted ? (correctOrder[index] === item ? 'bg-green-800 border-green-500' : 'bg-red-800 border-red-500') : 'bg-gray-700 border-gray-600'}`}>{index + 1}. {item}</button>)}
+        {order.map((item, index) => {
+          const isLocked = lockedIndices.has(index);
+          const correct = submitted && item === correctOrder[index];
+          const incorrect = submitted && item !== correctOrder[index];
+          return (
+            <button
+              key={`${item}-${index}`}
+              draggable={!submitted && !isLocked}
+              onDragStart={() => setDragIndex(index)}
+              onDragOver={(e) => e.preventDefault()}
+              onDrop={() => onDrop(index)}
+              className={`w-full text-left p-2 rounded border cursor-grab active:cursor-grabbing ${
+                isLocked ? 'bg-green-900 border-green-500' : correct ? 'bg-green-800 border-green-500' : incorrect ? 'bg-red-800 border-red-500' : 'bg-gray-700 border-gray-600'
+              }`}
+            >
+              {index + 1}. {item} {isLocked && mode === 'anchor_adjust' ? '🔒' : '↕'}
+            </button>
+          );
+        })}
       </div>
+
       {!submitted && <button onClick={submitOrder} className="w-full bg-purple-600 hover:bg-purple-500 py-2 rounded-lg font-bold">Submit Ranking</button>}
-      {mode === 'anchor_adjust' && <div className="text-sm text-gray-300">Attempts: {attempts}</div>}
+
+      {mode === 'anchor_adjust' && <div className="text-sm text-gray-300">Attempts: {attempts} • Locked: {lockedIndices.size}/{correctOrder.length} • Current score: {Math.max(0, pointsPossible - Math.max(0, attempts - 1))}</div>}
+
+      {(showSolution || submitted) && (
+        <div className="bg-gray-900 rounded-lg p-3">
+          <div className="text-sm text-gray-300 mb-1">Correct order:</div>
+          <div className="space-y-1 text-sm">
+            {correctOrder.map((item, index) => {
+              const value = sortedItems[index]?.value;
+              return (
+                <div key={`${item}-${index}`}>
+                  {index + 1}. {item}{value ? ` (${value})` : ''}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -391,12 +724,16 @@ function MediaView({ question, onAnswer }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
   const [obscure, setObscure] = useState(false);
+  const [locked, setLocked] = useState(false);
+
+  const pointsPossible = getQuestionPossiblePoints(question);
 
   useEffect(() => {
     setInput('');
     setSubmitted(false);
     setShowAnswer(false);
     setObscure(false);
+    setLocked(false);
   }, [q?.id, q?.question]);
 
   if (!q) return null;
@@ -409,26 +746,57 @@ function MediaView({ question, onAnswer }: Props) {
 
   return (
     <div className="space-y-3">
-      <div className="rounded-lg bg-black aspect-video flex items-center justify-center overflow-hidden">
+      <div className="rounded-lg bg-black aspect-video flex items-center justify-center overflow-hidden relative">
         {isImage && mediaUrl && (
           <Image
+            loader={passthroughImageLoader}
+            unoptimized
             src={mediaUrl}
             alt="Question media"
             width={1280}
             height={720}
-            unoptimized
-            className={`max-w-full max-h-full object-contain ${obscure ? 'blur-xl brightness-0' : ''}`}
+            className={`max-w-full max-h-full object-contain ${obscure ? 'opacity-30' : ''}`}
           />
         )}
-        {isVideo && embedUrl && <iframe src={embedUrl} title="Question media video" className={`w-full h-full ${obscure ? 'blur-xl brightness-50' : ''}`} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />}
-        {isVideo && !embedUrl && mediaUrl && <video src={mediaUrl} controls className={`w-full h-full object-contain ${obscure ? 'blur-xl brightness-50' : ''}`} />}
+        {isVideo && embedUrl && (
+          <iframe
+            src={embedUrl}
+            title="Question media video"
+            className="w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        )}
+        {isVideo && !embedUrl && mediaUrl && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
+        {obscure && <div className="absolute inset-0 bg-black/85 pointer-events-none" />}
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
       </div>
       <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={obscure} onChange={(e) => setObscure(e.target.checked)} />Obscure media</label>
       <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
       <div className="grid grid-cols-2 gap-2">
-        <button disabled={!input.trim() || submitted} onClick={() => { const correct = accepted.some((ans) => isCloseMatch(input, ans)); setSubmitted(true); onAnswer({ correct }); }} className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold">Submit</button>
-        <button onClick={() => { setShowAnswer(true); if (!submitted) onAnswer({ correct: false }); }} className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold">Reveal Answer</button>
+        <button
+          disabled={!input.trim() || submitted}
+          onClick={() => {
+            const correct = accepted.some((ans) => isCloseMatch(input, ans));
+            setSubmitted(true);
+            finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+          }}
+          className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+        >
+          Submit
+        </button>
+        <button
+          onClick={() => {
+            setShowAnswer(true);
+            if (!submitted) {
+              finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
+            }
+          }}
+          className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
+        >
+          Reveal Answer
+        </button>
       </div>
       {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
     </div>
@@ -440,11 +808,15 @@ function PromptView({ question, onAnswer, onRerollPrompt }: Props) {
   const [input, setInput] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [locked, setLocked] = useState(false);
+
+  const pointsPossible = getQuestionPossiblePoints(question);
 
   useEffect(() => {
     setInput('');
     setSubmitted(false);
     setShowAnswer(false);
+    setLocked(false);
   }, [q?.id, q?.question, q?.prompt]);
 
   if (!q) return null;
@@ -459,8 +831,26 @@ function PromptView({ question, onAnswer, onRerollPrompt }: Props) {
       </div>
       <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
       <div className="grid grid-cols-3 gap-2">
-        <button disabled={!input.trim() || submitted} onClick={() => { const correct = accepted.some((ans) => isCloseMatch(input, ans)); setSubmitted(true); onAnswer({ correct }); }} className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold">Submit</button>
-        <button onClick={() => { setShowAnswer(true); if (!submitted) onAnswer({ correct: false }); }} className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold">Reveal</button>
+        <button
+          disabled={!input.trim() || submitted}
+          onClick={() => {
+            const correct = accepted.some((ans) => isCloseMatch(input, ans));
+            setSubmitted(true);
+            finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+          }}
+          className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+        >
+          Submit
+        </button>
+        <button
+          onClick={() => {
+            setShowAnswer(true);
+            if (!submitted) finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
+          }}
+          className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
+        >
+          Reveal
+        </button>
         <button onClick={() => q.prompt && onRerollPrompt?.(q.prompt)} disabled={!q.prompt || !onRerollPrompt} className="bg-indigo-700 hover:bg-indigo-600 disabled:bg-gray-600 py-2 rounded-lg font-bold">Reroll Prompt</button>
       </div>
       {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
@@ -477,6 +867,5 @@ export default function QuestionRenderer(props: Props) {
   if (props.question.type === 'ranking') return <RankingView {...props} />;
   if (props.question.type === 'media') return <MediaView {...props} />;
   if (props.question.type === 'prompt') return <PromptView {...props} />;
-  const unknown = props.question as unknown as { type?: string };
-  return <div className="text-gray-400 italic">Unsupported question type: {unknown.type || 'unknown'}</div>;
+  return <div className="text-gray-400 italic">Unsupported question type.</div>;
 }
