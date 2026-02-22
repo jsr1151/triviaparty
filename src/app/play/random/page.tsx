@@ -10,6 +10,7 @@ const DIFFICULTIES: Difficulty[] = ['very_easy', 'easy', 'medium', 'hard', 'very
 export default function RandomPage() {
   const [question, setQuestion] = useState<AnyQuestion | null>(null);
   const [questionBank, setQuestionBank] = useState<AnyQuestion[] | null>(null);
+  const [includeFlaggedMedia, setIncludeFlaggedMedia] = useState(false);
   const [type, setType] = useState('');
   const [difficulty, setDifficulty] = useState('');
   const [loading, setLoading] = useState(false);
@@ -27,6 +28,7 @@ export default function RandomPage() {
     return questions
       .filter((q: AnyQuestion) => {
         if (q.type !== 'media') return true;
+        if (includeFlaggedMedia) return true;
         const mediaQuestion = q as AnyQuestion & { mediaUrl?: string; needsMediaReview?: boolean };
         const mediaUrl = mediaQuestion.mediaUrl || '';
         if (mediaQuestion.needsMediaReview) return false;
@@ -36,6 +38,13 @@ export default function RandomPage() {
       ...q,
       id: q.id || `static-${index}`,
       }));
+  }
+
+  function onToggleIncludeFlaggedMedia() {
+    setIncludeFlaggedMedia((prev) => !prev);
+    setQuestionBank(null);
+    setQuestion(null);
+    setAnswered(null);
   }
 
   async function loadBankIfNeeded(): Promise<AnyQuestion[]> {
@@ -120,6 +129,15 @@ export default function RandomPage() {
               </select>
             </div>
           </div>
+          <label className="flex items-center gap-2 mb-4 text-sm text-gray-300">
+            <input
+              type="checkbox"
+              checked={includeFlaggedMedia}
+              onChange={onToggleIncludeFlaggedMedia}
+              className="h-4 w-4"
+            />
+            Include flagged clip media (testing)
+          </label>
           <button onClick={fetchRandom} disabled={loading}
             className="w-full bg-green-600 hover:bg-green-500 disabled:bg-gray-600 py-3 rounded-xl font-bold text-xl">
             {loading ? 'Loading...' : 'Get Random Question'}
