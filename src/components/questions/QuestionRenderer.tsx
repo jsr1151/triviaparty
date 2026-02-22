@@ -80,7 +80,8 @@ function parseYouTubeEmbed(url: string): string | null {
   try {
     const parsed = new URL(url);
     if (parsed.pathname.startsWith('/clip/')) {
-      return null;
+      const clipId = parsed.pathname.replace('/clip/', '').split('/')[0];
+      return clipId ? `https://www.youtube.com/embed?clip=${encodeURIComponent(clipId)}&rel=0&modestbranding=1` : null;
     }
     if (parsed.hostname.includes('youtu.be')) {
       const id = parsed.pathname.replace('/', '').split('?')[0];
@@ -797,7 +798,6 @@ function MediaView({ question, onAnswer }: Props) {
         {isVideo && !embedUrl && mediaUrl && !isYouTubeClip && isDirectVideoFile && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
         {obscure && <div className="absolute inset-0 bg-black/85 pointer-events-none" />}
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
-        {isYouTubeClip && <div className="text-gray-300 text-center px-4">YouTube clips cannot be embedded here.</div>}
       </div>
       {isYouTubeClip && (
         <a href={mediaUrl} target="_blank" rel="noreferrer" className="text-sm text-blue-300 underline">
