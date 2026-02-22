@@ -79,9 +79,14 @@ function isCloseMatch(input: string, target: string): boolean {
 function parseYouTubeEmbed(url: string): string | null {
   try {
     const parsed = new URL(url);
+    if (parsed.pathname.startsWith('/clip/')) {
+      return url;
+    }
     if (parsed.hostname.includes('youtu.be')) {
       const id = parsed.pathname.replace('/', '').split('?')[0];
-      return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1` : null;
+      const start = parsed.searchParams.get('t') || parsed.searchParams.get('start');
+      const startValue = start ? start.replace(/s$/, '') : '';
+      return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1${startValue ? `&start=${encodeURIComponent(startValue)}` : ''}` : null;
     }
     if (parsed.hostname.includes('youtube.com') || parsed.hostname.includes('youtube-nocookie.com')) {
       if (parsed.pathname.startsWith('/shorts/')) {
@@ -281,25 +286,40 @@ function ListView({ question, onAnswer }: Props) {
       setFinished(true);
       const foundCount = found.length;
       const minRequired = q?.minRequired || 1;
+      const selfScore = (Array.isArray(q?.answers) ? q.answers : []).some((ans) => /self\s*-?\s*score/i.test(ans)) || /self\s*-?\s*score/i.test(q?.question || '');
       const points = scoringMode === 'as_many'
-        ? { earned: Math.min(pointsPossible, foundCount), correct: foundCount > 0 }
+        ? { earned: selfScore ? 0 : Math.min(pointsPossible, foundCount), correct: selfScore ? false : foundCount > 0 }
         : {
-            earned: Math.round(pointsPossible * Math.min(1, foundCount / Math.max(1, minRequired))),
-            correct: foundCount >= minRequired,
+            earned: selfScore ? 0 : Math.round(pointsPossible * Math.min(1, foundCount / Math.max(1, minRequired))),
+            correct: selfScore ? false : foundCount >= minRequired,
           };
       finalizeOnce(locked, setLocked, onAnswer, question, points.earned, pointsPossible, points.correct);
       return;
     }
     const timer = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
     return () => clearTimeout(timer);
-  }, [mode, finished, timeLeft, found.length, locked, onAnswer, pointsPossible, question, scoringMode, q?.minRequired]);
+  }, [mode, finished, timeLeft, found.length, locked, onAnswer, pointsPossible, question, scoringMode, q]);
 
   if (!q) return null;
 
-  const answers = Array.isArray(q.answers) ? q.answers : [];
+  const parsedFromQuestion = q.question.includes(':')
+    ? q.question
+        .split(':')
+        .slice(1)
+        .join(':')
+        .split(/[;,]/)
+        .map((item) => item.trim())
+        .filter(Boolean)
+    : [];
+  const answers = Array.from(new Set([...(Array.isArray(q.answers) ? q.answers : []), ...parsedFromQuestion]));
   const minRequired = q.minRequired || 1;
+  const isSelfScore = answers.some((ans) => /self\s*-?\s*score/i.test(ans)) || /self\s*-?\s*score/i.test(q.question);
+  const expectsDoubleO = /two\s+o'?s|double\s+o|\boo\b|side\s*by\s*side/i.test(q.question.toLowerCase());
 
   function calcPoints(foundCount: number): { earned: number; correct: boolean } {
+    if (isSelfScore) {
+      return { earned: 0, correct: false };
+    }
     if (scoringMode === 'as_many') {
       const earned = Math.min(pointsPossible, foundCount);
       return { earned, correct: foundCount > 0 };
@@ -319,7 +339,8 @@ function ListView({ question, onAnswer }: Props) {
   function tryAdd() {
     const raw = input.trim();
     if (!raw || finished) return;
-    const match = answers.find((ans) => isCloseMatch(raw, ans));
+    const generatedMatch = expectsDoubleO && /oo/i.test(raw) ? raw : null;
+    const match = answers.find((ans) => isCloseMatch(raw, ans)) || generatedMatch;
     const canonical = match || raw;
     const correct = Boolean(match) && !found.includes(canonical);
     if (correct) setFound((prev) => [...prev, canonical]);
@@ -355,6 +376,7 @@ function ListView({ question, onAnswer }: Props) {
 
       <div className="text-sm text-gray-300">
         {scoringMode === 'target' ? `Find at least ${minRequired} answers.` : 'Name as many answers as you can.'}
+        {isSelfScore ? ' Self-score round: no points awarded.' : ''}
         {mode === 'timed' ? ` Time left: ${timeLeft}s` : ''}
         {mode === 'strikes' ? ` Strikes: ${strikes}/3` : ''}
       </div>
@@ -741,6 +763,7 @@ function MediaView({ question, onAnswer }: Props) {
   const accepted = [q.answer || '', ...(q.acceptedAnswers || [])].filter(Boolean);
   const mediaUrl = q.mediaUrl || '';
   const embedUrl = parseYouTubeEmbed(mediaUrl);
+  const isYouTubeClip = /youtube\.com\/clip\//i.test(mediaUrl);
   const isImage = (q.mediaType || '').toLowerCase() === 'image' || /\.(png|jpg|jpeg|gif|webp)(\?|$)/i.test(mediaUrl);
   const isVideo = (q.mediaType || '').toLowerCase() === 'video' || Boolean(embedUrl) || /\.(mp4|webm|ogg)(\?|$)/i.test(mediaUrl);
 
@@ -772,6 +795,11 @@ function MediaView({ question, onAnswer }: Props) {
         {obscure && <div className="absolute inset-0 bg-black/85 pointer-events-none" />}
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
       </div>
+      {isYouTubeClip && (
+        <a href={mediaUrl} target="_blank" rel="noreferrer" className="text-sm text-blue-300 underline">
+          Open YouTube clip in new tab (fallback)
+        </a>
+      )}
       <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={obscure} onChange={(e) => setObscure(e.target.checked)} />Obscure media</label>
       <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
       <div className="grid grid-cols-2 gap-2">

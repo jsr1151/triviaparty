@@ -31,20 +31,22 @@ export function getRankingPromptText(questionText: string): string {
 }
 
 export function inferRankingDirection(prompt: string): { topLabel: string; bottomLabel: string } {
-  const text = prompt.toLowerCase();
-  const descendingHints = ['most', 'largest', 'highest', 'newest', 'latest', 'longest', 'biggest', 'strongest', 'hottest', 'fastest'];
-  const ascendingHints = ['least', 'smallest', 'lowest', 'oldest', 'earliest', 'shortest', 'fewest', 'lightest'];
+  const text = ` ${prompt.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim()} `;
 
-  if (descendingHints.some((hint) => text.includes(hint))) {
-    return { topLabel: '1 = highest / most', bottomLabel: 'N = lowest / least' };
+  const hasAny = (terms: string[]) => terms.some((term) => text.includes(` ${term} `));
+
+  if (hasAny(['earliest', 'oldest', 'first'])) {
+    return { topLabel: '1 = earliest', bottomLabel: 'N = latest' };
   }
-  if (ascendingHints.some((hint) => text.includes(hint))) {
-    return { topLabel: '1 = lowest / least', bottomLabel: 'N = highest / most' };
+  if (hasAny(['latest', 'newest', 'most recent', 'recent'])) {
+    return { topLabel: '1 = latest', bottomLabel: 'N = earliest' };
+  }
+  if (hasAny(['highest', 'largest', 'biggest', 'longest', 'fastest', 'strongest', 'most', 'greatest'])) {
+    return { topLabel: '1 = greatest / most', bottomLabel: 'N = least / lowest' };
+  }
+  if (hasAny(['lowest', 'smallest', 'shortest', 'slowest', 'weakest', 'least', 'fewest'])) {
+    return { topLabel: '1 = least / lowest', bottomLabel: 'N = greatest / most' };
   }
 
-  if (text.includes('first')) {
-    return { topLabel: '1 = first', bottomLabel: 'N = last' };
-  }
-
-  return { topLabel: '1 = top rank', bottomLabel: 'N = bottom rank' };
+  return { topLabel: '1 = best fit for the prompt', bottomLabel: 'N = least fit for the prompt' };
 }

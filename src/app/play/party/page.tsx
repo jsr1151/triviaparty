@@ -120,6 +120,7 @@ export default function PartyPage() {
 
   const q = questions[current];
   const categoryLabel = (typeof q.category === 'string' ? q.category : q.category?.name) || q.type;
+  const displayQuestionText = q.type === 'ranking' ? '' : q.question;
 
   return (
     <div className="min-h-screen bg-gray-950 text-white p-8">
@@ -134,7 +135,7 @@ export default function PartyPage() {
         <div className="bg-gray-800 rounded-2xl p-8">
             <div className="text-sm text-yellow-300 mb-2">Points: {pointsEarned}/{pointsPossible}</div>
           <div className="text-sm text-purple-400 mb-2 uppercase">{categoryLabel}</div>
-          <div className="text-xl font-bold mb-6">{q.question}</div>
+          {displayQuestionText && <div className="text-xl font-bold mb-6">{displayQuestionText}</div>}
           <QuestionRenderer question={q} onAnswer={handleAnswer} onRerollPrompt={rerollPrompt} />
           {answered !== null && (
             <div className={`mt-4 text-center text-xl font-bold ${answered ? 'text-green-400' : 'text-red-400'}`}>

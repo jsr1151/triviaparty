@@ -84,6 +84,7 @@ export default function RandomPage() {
   const categoryLabel = question
     ? (typeof question.category === 'string' ? question.category : question.category?.name) || question.type
     : '';
+  const displayQuestionText = question && question.type === 'ranking' ? '' : (question?.question || '');
 
   return (
     <div className="min-h-screen bg-gray-950 text-white p-8">
@@ -120,7 +121,7 @@ export default function RandomPage() {
           <div className="bg-gray-800 rounded-2xl p-8">
             <div className="text-sm text-yellow-300 mb-2">Points: {pointsEarned}/{pointsPossible}</div>
             <div className="text-sm text-green-400 mb-2 uppercase">{categoryLabel} • {question.difficulty}</div>
-            <div className="text-xl font-bold mb-6">{question.question}</div>
+            {displayQuestionText && <div className="text-xl font-bold mb-6">{displayQuestionText}</div>}
             <QuestionRenderer
               question={question}
               onAnswer={handleAnswer}
