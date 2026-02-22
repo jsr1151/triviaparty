@@ -80,10 +80,7 @@ function parseYouTubeEmbed(url: string): string | null {
   try {
     const parsed = new URL(url);
     if (parsed.pathname.startsWith('/clip/')) {
-      const clipId = parsed.pathname.replace('/clip/', '').split('/')[0];
-      return clipId
-        ? `https://www.youtube.com/embed?clip=${encodeURIComponent(clipId)}&rel=0&modestbranding=1`
-        : null;
+      return null;
     }
     if (parsed.hostname.includes('youtu.be')) {
       const id = parsed.pathname.replace('/', '').split('?')[0];
@@ -798,6 +795,7 @@ function MediaView({ question, onAnswer }: Props) {
   const mcCorrectAnswer = hasStarredMultipleChoice ? (mcParsed.find((item) => item.starred)?.text || '') : '';
   const mediaUrl = q.mediaUrl || '';
   const embedUrl = parseYouTubeEmbed(mediaUrl);
+  const isYouTubeClip = /youtube\.com\/clip\//i.test(mediaUrl);
   const isImage = (q.mediaType || '').toLowerCase() === 'image' || /\.(png|jpg|jpeg|gif|webp)(\?|$)/i.test(mediaUrl);
   const isDirectVideoFile = /\.(mp4|webm|ogg)(\?|$)/i.test(mediaUrl);
   const isVideo = (q.mediaType || '').toLowerCase() === 'video' || Boolean(embedUrl) || isDirectVideoFile;
@@ -827,6 +825,19 @@ function MediaView({ question, onAnswer }: Props) {
           />
         )}
         {isVideo && !embedUrl && mediaUrl && isDirectVideoFile && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
+        {isVideo && isYouTubeClip && !embedUrl && (
+          <div className="text-center px-4">
+            <div className="text-yellow-300 font-semibold mb-2">YouTube blocks this clip in embedded playback.</div>
+            <a
+              href={mediaUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-lg font-bold"
+            >
+              Open Clip on YouTube
+            </a>
+          </div>
+        )}
         {obscure && <div className="absolute inset-0 bg-black pointer-events-none" />}
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
       </div>
