@@ -903,7 +903,10 @@ export default function JeopardyPage() {
         )}
 
         <div className="flex justify-between items-center mb-4 gap-3">
-          <button onClick={finishGameAndBack} className="text-yellow-400 hover:underline">← Back</button>
+            <div className="flex items-center gap-3">
+              <button onClick={finishGameAndBack} className="text-yellow-400 hover:underline">← Back</button>
+              <Link href="/" className="text-blue-300 hover:text-blue-200 font-bold">Main Menu</Link>
+            </div>
           <div className="text-center">
             <h1 className="text-2xl font-bold text-yellow-400">{selectedGame.showNumber ? `Show #${selectedGame.showNumber}` : 'Jeopardy'}</h1>
             <div className="text-sm text-gray-300">{sessionType === 'competition' ? 'Competition' : 'Practice'} mode</div>
@@ -983,6 +986,9 @@ export default function JeopardyPage() {
 
   return (
     <div className="min-h-screen bg-blue-950 text-white p-8">
+      <div className="max-w-5xl mx-auto mb-3">
+        <Link href="/" className="text-blue-300 hover:text-blue-200 font-bold">← Main Menu</Link>
+      </div>
       <h1 className="text-4xl font-bold text-yellow-400 mb-2 text-center">Jeopardy!</h1>
 
       <div className="max-w-5xl mx-auto bg-blue-900 rounded-xl p-4 mb-5 text-sm">
