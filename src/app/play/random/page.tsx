@@ -24,10 +24,16 @@ export default function RandomPage() {
     if (!res.ok) return [];
     const data = await res.json();
     const questions = Array.isArray(data?.questions) ? data.questions : [];
-    return questions.map((q: AnyQuestion, index: number) => ({
+    return questions
+      .filter((q: AnyQuestion) => {
+        if (q.type !== 'media') return true;
+        const mediaUrl = (q as AnyQuestion & { mediaUrl?: string }).mediaUrl || '';
+        return !/youtube\.com\/clip\//i.test(mediaUrl);
+      })
+      .map((q: AnyQuestion, index: number) => ({
       ...q,
       id: q.id || `static-${index}`,
-    }));
+      }));
   }
 
   async function loadBankIfNeeded(): Promise<AnyQuestion[]> {

@@ -24,10 +24,16 @@ export default function PartyPage() {
           return;
         }
         const staticData = await staticRes.json();
-        const all = (Array.isArray(staticData?.questions) ? staticData.questions : []).map((q: AnyQuestion, index: number) => ({
-          ...q,
-          id: q.id || `static-${index}`,
-        }));
+        const all = (Array.isArray(staticData?.questions) ? staticData.questions : [])
+          .filter((q: AnyQuestion) => {
+            if (q.type !== 'media') return true;
+            const mediaUrl = (q as AnyQuestion & { mediaUrl?: string }).mediaUrl || '';
+            return !/youtube\.com\/clip\//i.test(mediaUrl);
+          })
+          .map((q: AnyQuestion, index: number) => ({
+            ...q,
+            id: q.id || `static-${index}`,
+          }));
         const shuffled = [...all].sort(() => Math.random() - 0.5).slice(0, 20);
         setQuestions(shuffled);
       } catch {
