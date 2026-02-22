@@ -80,8 +80,7 @@ function parseYouTubeEmbed(url: string): string | null {
   try {
     const parsed = new URL(url);
     if (parsed.pathname.startsWith('/clip/')) {
-      const clipId = parsed.pathname.replace('/clip/', '').split('/')[0];
-      return clipId ? `https://www.youtube.com/embed?clip=${encodeURIComponent(clipId)}&rel=0&modestbranding=1` : null;
+      return null;
     }
     if (parsed.hostname.includes('youtu.be')) {
       const id = parsed.pathname.replace('/', '').split('?')[0];
@@ -785,7 +784,7 @@ function MediaView({ question, onAnswer }: Props) {
             className={`max-w-full max-h-full object-contain ${obscure ? 'opacity-30' : ''}`}
           />
         )}
-        {isVideo && embedUrl && (
+        {isVideo && embedUrl && !isYouTubeClip && (
           <iframe
             src={embedUrl}
             title="Question media video"
@@ -796,12 +795,24 @@ function MediaView({ question, onAnswer }: Props) {
           />
         )}
         {isVideo && !embedUrl && mediaUrl && !isYouTubeClip && isDirectVideoFile && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
+        {isYouTubeClip && (
+          <div className="flex h-full w-full items-center justify-center p-4">
+            <a
+              href={mediaUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-lg bg-red-600 px-4 py-2 font-bold text-white hover:bg-red-500"
+            >
+              Play Clip on YouTube
+            </a>
+          </div>
+        )}
         {obscure && <div className="absolute inset-0 bg-black/85 pointer-events-none" />}
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
       </div>
       {isYouTubeClip && (
         <a href={mediaUrl} target="_blank" rel="noreferrer" className="text-sm text-blue-300 underline">
-          Open YouTube clip in new tab (fallback)
+          Open YouTube clip in new tab
         </a>
       )}
       <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={obscure} onChange={(e) => setObscure(e.target.checked)} />Obscure media</label>
