@@ -20,12 +20,6 @@ type FlaggedPayload = {
   items: FlaggedItem[];
 };
 
-const UNVERIFIED_REASONS = new Set([
-  'unresolved_youtube_clip',
-  'potentially_mismatched_converted_clip_url',
-  'low_confidence_video_match',
-]);
-
 export default function MediaAuditPage() {
   const [payload, setPayload] = useState<FlaggedPayload>({ count: 0, items: [] });
   const [loading, setLoading] = useState(true);
@@ -146,8 +140,6 @@ export default function MediaAuditPage() {
           <div className="space-y-3">
             {filtered.map((item, index) => {
               const categoryText = typeof item.category === 'string' ? item.category : item.category?.name || 'uncategorized';
-              const isUnverified = UNVERIFIED_REASONS.has(item.reason);
-              const searchHref = `https://www.youtube.com/results?search_query=${encodeURIComponent(item.question)}`;
               return (
                 <div key={`${item.question}-${index}`} className="bg-gray-900 border border-gray-800 rounded-xl p-4">
                   <div className="text-sm text-purple-300 mb-1">{categoryText}</div>
@@ -161,18 +153,9 @@ export default function MediaAuditPage() {
                       )}
                     </div>
                   )}
-                  {isUnverified ? (
-                    <div className="space-y-2">
-                      <div className="text-xs text-yellow-300">Unverified media URL hidden (known mismatch risk).</div>
-                      <a href={searchHref} target="_blank" rel="noreferrer" className="text-sm text-blue-300 underline break-all">
-                        Search this clue on YouTube
-                      </a>
-                    </div>
-                  ) : (
-                    <a href={item.mediaUrl} target="_blank" rel="noreferrer" className="text-sm text-blue-300 underline break-all">
-                      {item.mediaUrl}
-                    </a>
-                  )}
+                  <a href={item.mediaUrl} target="_blank" rel="noreferrer" className="text-sm text-blue-300 underline break-all">
+                    {item.mediaUrl}
+                  </a>
                 </div>
               );
             })}
