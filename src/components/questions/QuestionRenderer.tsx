@@ -80,7 +80,7 @@ function parseYouTubeEmbed(url: string): string | null {
   try {
     const parsed = new URL(url);
     if (parsed.pathname.startsWith('/clip/')) {
-      return url;
+      return null;
     }
     if (parsed.hostname.includes('youtu.be')) {
       const id = parsed.pathname.replace('/', '').split('?')[0];
@@ -628,6 +628,8 @@ function RankingView({ question, onAnswer }: Props) {
 
   const promptText = useMemo(() => getRankingPromptText(q?.question || ''), [q?.question]);
   const direction = useMemo(() => inferRankingDirection(promptText), [promptText]);
+  const topLabel = useMemo(() => direction.topLabel.replace(/\bN\b/g, String(correctOrder.length || 1)), [direction.topLabel, correctOrder.length]);
+  const bottomLabel = useMemo(() => direction.bottomLabel.replace(/\bN\b/g, String(correctOrder.length || 1)), [direction.bottomLabel, correctOrder.length]);
 
   useEffect(() => {
     const start = parsedFromQuestion.length ? parsedFromQuestion : correctOrder;
@@ -686,8 +688,8 @@ function RankingView({ question, onAnswer }: Props) {
     <div className="space-y-3">
       <div className="text-sm text-gray-300">
         <div className="font-bold text-gray-200">{promptText}</div>
-        <div>{direction.topLabel}</div>
-        <div>{direction.bottomLabel}</div>
+        <div>{topLabel}</div>
+        <div>{bottomLabel}</div>
       </div>
 
       <div className="flex gap-2">
@@ -765,7 +767,8 @@ function MediaView({ question, onAnswer }: Props) {
   const embedUrl = parseYouTubeEmbed(mediaUrl);
   const isYouTubeClip = /youtube\.com\/clip\//i.test(mediaUrl);
   const isImage = (q.mediaType || '').toLowerCase() === 'image' || /\.(png|jpg|jpeg|gif|webp)(\?|$)/i.test(mediaUrl);
-  const isVideo = (q.mediaType || '').toLowerCase() === 'video' || Boolean(embedUrl) || /\.(mp4|webm|ogg)(\?|$)/i.test(mediaUrl);
+  const isDirectVideoFile = /\.(mp4|webm|ogg)(\?|$)/i.test(mediaUrl);
+  const isVideo = (q.mediaType || '').toLowerCase() === 'video' || Boolean(embedUrl) || isDirectVideoFile;
 
   return (
     <div className="space-y-3">
@@ -791,9 +794,10 @@ function MediaView({ question, onAnswer }: Props) {
             allowFullScreen
           />
         )}
-        {isVideo && !embedUrl && mediaUrl && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
+        {isVideo && !embedUrl && mediaUrl && !isYouTubeClip && isDirectVideoFile && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
         {obscure && <div className="absolute inset-0 bg-black/85 pointer-events-none" />}
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
+        {isYouTubeClip && <div className="text-gray-300 text-center px-4">YouTube clips cannot be embedded here.</div>}
       </div>
       {isYouTubeClip && (
         <a href={mediaUrl} target="_blank" rel="noreferrer" className="text-sm text-blue-300 underline">
