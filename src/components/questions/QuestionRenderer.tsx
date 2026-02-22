@@ -792,7 +792,7 @@ function MediaView({ question, onAnswer }: Props) {
             alt="Question media"
             width={1280}
             height={720}
-            className={`max-w-full max-h-full object-contain ${obscure ? 'opacity-30' : ''}`}
+            className="max-w-full max-h-full object-contain"
           />
         )}
         {isVideo && embedUrl && (
@@ -806,7 +806,7 @@ function MediaView({ question, onAnswer }: Props) {
           />
         )}
         {isVideo && !embedUrl && mediaUrl && isDirectVideoFile && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
-        {obscure && <div className="absolute inset-0 bg-black/85 pointer-events-none" />}
+        {obscure && <div className="absolute inset-0 bg-black pointer-events-none" />}
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
       </div>
       <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={obscure} onChange={(e) => setObscure(e.target.checked)} />Obscure media</label>
