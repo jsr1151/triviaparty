@@ -85,8 +85,11 @@ function parseYouTubeEmbed(url: string): string | null {
     if (parsed.hostname.includes('youtu.be')) {
       const id = parsed.pathname.replace('/', '').split('?')[0];
       const start = parsed.searchParams.get('t') || parsed.searchParams.get('start');
+      const end = parsed.searchParams.get('end');
       const startValue = start ? start.replace(/s$/, '') : '';
-      return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1${startValue ? `&start=${encodeURIComponent(startValue)}` : ''}` : null;
+      return id
+        ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1${startValue ? `&start=${encodeURIComponent(startValue)}` : ''}${end ? `&end=${encodeURIComponent(end)}` : ''}`
+        : null;
     }
     if (parsed.hostname.includes('youtube.com') || parsed.hostname.includes('youtube-nocookie.com')) {
       if (parsed.pathname.startsWith('/shorts/')) {
@@ -95,10 +98,19 @@ function parseYouTubeEmbed(url: string): string | null {
       }
       if (parsed.pathname.startsWith('/embed/')) {
         const id = parsed.pathname.replace('/embed/', '').split('/')[0];
-        return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1` : null;
+        const start = parsed.searchParams.get('start');
+        const end = parsed.searchParams.get('end');
+        return id
+          ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1${start ? `&start=${encodeURIComponent(start)}` : ''}${end ? `&end=${encodeURIComponent(end)}` : ''}`
+          : null;
       }
       const id = parsed.searchParams.get('v');
-      return id ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1` : null;
+      const start = parsed.searchParams.get('t') || parsed.searchParams.get('start');
+      const end = parsed.searchParams.get('end');
+      const startValue = start ? start.replace(/s$/, '') : '';
+      return id
+        ? `https://www.youtube.com/embed/${id}?rel=0&modestbranding=1${startValue ? `&start=${encodeURIComponent(startValue)}` : ''}${end ? `&end=${encodeURIComponent(end)}` : ''}`
+        : null;
     }
     return null;
   } catch {
@@ -765,7 +777,6 @@ function MediaView({ question, onAnswer }: Props) {
   const accepted = [q.answer || '', ...(q.acceptedAnswers || [])].filter(Boolean);
   const mediaUrl = q.mediaUrl || '';
   const embedUrl = parseYouTubeEmbed(mediaUrl);
-  const isYouTubeClip = /youtube\.com\/clip\//i.test(mediaUrl);
   const isImage = (q.mediaType || '').toLowerCase() === 'image' || /\.(png|jpg|jpeg|gif|webp)(\?|$)/i.test(mediaUrl);
   const isDirectVideoFile = /\.(mp4|webm|ogg)(\?|$)/i.test(mediaUrl);
   const isVideo = (q.mediaType || '').toLowerCase() === 'video' || Boolean(embedUrl) || isDirectVideoFile;
@@ -784,7 +795,7 @@ function MediaView({ question, onAnswer }: Props) {
             className={`max-w-full max-h-full object-contain ${obscure ? 'opacity-30' : ''}`}
           />
         )}
-        {isVideo && embedUrl && !isYouTubeClip && (
+        {isVideo && embedUrl && (
           <iframe
             src={embedUrl}
             title="Question media video"
@@ -794,27 +805,10 @@ function MediaView({ question, onAnswer }: Props) {
             allowFullScreen
           />
         )}
-        {isVideo && !embedUrl && mediaUrl && !isYouTubeClip && isDirectVideoFile && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
-        {isYouTubeClip && (
-          <div className="flex h-full w-full items-center justify-center p-4">
-            <a
-              href={mediaUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg bg-red-600 px-4 py-2 font-bold text-white hover:bg-red-500"
-            >
-              Play Clip on YouTube
-            </a>
-          </div>
-        )}
+        {isVideo && !embedUrl && mediaUrl && isDirectVideoFile && <video src={mediaUrl} controls className="w-full h-full object-contain" />}
         {obscure && <div className="absolute inset-0 bg-black/85 pointer-events-none" />}
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
       </div>
-      {isYouTubeClip && (
-        <a href={mediaUrl} target="_blank" rel="noreferrer" className="text-sm text-blue-300 underline">
-          Open YouTube clip in new tab
-        </a>
-      )}
       <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={obscure} onChange={(e) => setObscure(e.target.checked)} />Obscure media</label>
       <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
       <div className="grid grid-cols-2 gap-2">
