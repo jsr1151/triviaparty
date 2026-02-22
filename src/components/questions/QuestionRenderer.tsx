@@ -80,7 +80,10 @@ function parseYouTubeEmbed(url: string): string | null {
   try {
     const parsed = new URL(url);
     if (parsed.pathname.startsWith('/clip/')) {
-      return null;
+      const clipId = parsed.pathname.replace('/clip/', '').split('/')[0];
+      return clipId
+        ? `https://www.youtube.com/embed?clip=${encodeURIComponent(clipId)}&rel=0&modestbranding=1`
+        : null;
     }
     if (parsed.hostname.includes('youtu.be')) {
       const id = parsed.pathname.replace('/', '').split('?')[0];
