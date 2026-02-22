@@ -27,7 +27,9 @@ export default function RandomPage() {
     return questions
       .filter((q: AnyQuestion) => {
         if (q.type !== 'media') return true;
-        const mediaUrl = (q as AnyQuestion & { mediaUrl?: string }).mediaUrl || '';
+        const mediaQuestion = q as AnyQuestion & { mediaUrl?: string; needsMediaReview?: boolean };
+        const mediaUrl = mediaQuestion.mediaUrl || '';
+        if (mediaQuestion.needsMediaReview) return false;
         return !/youtube\.com\/clip\//i.test(mediaUrl);
       })
       .map((q: AnyQuestion, index: number) => ({
