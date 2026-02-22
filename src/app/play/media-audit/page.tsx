@@ -23,23 +23,44 @@ type FlaggedPayload = {
 export default function MediaAuditPage() {
   const [payload, setPayload] = useState<FlaggedPayload>({ count: 0, items: [] });
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [search, setSearch] = useState('');
   const [reason, setReason] = useState('all');
 
   useEffect(() => {
     const load = async () => {
+      setLoadError(null);
       try {
         const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
-        const res = await fetch(`${base}/data/questions/flagged-media-questions.json`);
-        if (!res.ok) {
-          setPayload({ count: 0, items: [] });
-          return;
+        const candidates = Array.from(new Set([
+          `${base}/data/questions/flagged-media-questions.json`,
+          '/triviaparty/data/questions/flagged-media-questions.json',
+          '/data/questions/flagged-media-questions.json',
+        ]));
+
+        let loaded = false;
+        let lastFailure = '';
+
+        for (const url of candidates) {
+          const res = await fetch(url);
+          if (!res.ok) {
+            lastFailure = `${url} -> ${res.status}`;
+            continue;
+          }
+
+          const data = await res.json();
+          setPayload({
+            count: Number(data?.count || 0),
+            items: Array.isArray(data?.items) ? data.items : [],
+          });
+          loaded = true;
+          break;
         }
-        const data = await res.json();
-        setPayload({
-          count: Number(data?.count || 0),
-          items: Array.isArray(data?.items) ? data.items : [],
-        });
+
+        if (!loaded) {
+          setPayload({ count: 0, items: [] });
+          setLoadError(lastFailure || 'No valid audit dataset endpoint responded.');
+        }
       } finally {
         setLoading(false);
       }
@@ -111,6 +132,8 @@ export default function MediaAuditPage() {
 
         {loading ? (
           <div className="text-gray-400">Loading audit list…</div>
+        ) : loadError ? (
+          <div className="text-red-300">Could not load audit items: {loadError}</div>
         ) : filtered.length === 0 ? (
           <div className="text-gray-400">No flagged items for this filter.</div>
         ) : (
