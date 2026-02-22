@@ -6,7 +6,6 @@ import type { AnyQuestion } from '@/types/questions';
 
 export default function PartyPage() {
   const [questions, setQuestions] = useState<AnyQuestion[]>([]);
-  const [includeFlaggedMedia, setIncludeFlaggedMedia] = useState(false);
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
   const [pointsEarned, setPointsEarned] = useState(0);
@@ -28,7 +27,6 @@ export default function PartyPage() {
         const all = (Array.isArray(staticData?.questions) ? staticData.questions : [])
           .filter((q: AnyQuestion) => {
             if (q.type !== 'media') return true;
-            if (includeFlaggedMedia) return true;
             const mediaQuestion = q as AnyQuestion & { mediaUrl?: string; needsMediaReview?: boolean };
             const mediaUrl = mediaQuestion.mediaUrl || '';
             if (mediaQuestion.needsMediaReview) return false;
@@ -48,7 +46,7 @@ export default function PartyPage() {
     };
 
     load();
-  }, [includeFlaggedMedia]);
+  }, []);
 
   function handleAnswer(result: AnswerResult) {
     if (answered !== null) return;
@@ -142,23 +140,6 @@ export default function PartyPage() {
           <span className="text-gray-400">{current + 1}/{questions.length}</span>
           <span className="text-yellow-400 font-bold">Score: {score}</span>
         </div>
-        <label className="flex items-center gap-2 mb-4 text-sm text-gray-300">
-          <input
-            type="checkbox"
-            checked={includeFlaggedMedia}
-            onChange={() => {
-              setIncludeFlaggedMedia((prev) => !prev);
-              setCurrent(0);
-              setScore(0);
-              setPointsEarned(0);
-              setPointsPossible(0);
-              setTypePoints({});
-              setAnswered(null);
-            }}
-            className="h-4 w-4"
-          />
-          Include flagged clip media (testing)
-        </label>
         <div className="bg-gray-800 rounded-2xl p-8">
             <div className="text-sm text-yellow-300 mb-2">Points: {pointsEarned}/{pointsPossible}</div>
           <div className="text-sm text-purple-400 mb-2 uppercase">{categoryLabel}</div>
