@@ -757,6 +757,8 @@ function RankingView({ question, onAnswer }: Props) {
 function MediaView({ question, onAnswer }: Props) {
   const q = question.type === 'media' ? question : null;
   const [input, setInput] = useState('');
+  const [selectedOption, setSelectedOption] = useState('');
+  const [choiceSubmitted, setChoiceSubmitted] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
   const [obscure, setObscure] = useState(false);
@@ -766,6 +768,8 @@ function MediaView({ question, onAnswer }: Props) {
 
   useEffect(() => {
     setInput('');
+    setSelectedOption('');
+    setChoiceSubmitted(false);
     setSubmitted(false);
     setShowAnswer(false);
     setObscure(false);
@@ -775,6 +779,20 @@ function MediaView({ question, onAnswer }: Props) {
   if (!q) return null;
 
   const accepted = [q.answer || '', ...(q.acceptedAnswers || [])].filter(Boolean);
+  const multilineAnswerLines = (q.answer || '')
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  const hasStarredMultipleChoice = multilineAnswerLines.length >= 2 && multilineAnswerLines.some((line) => /\*/.test(line));
+  const mcParsed = multilineAnswerLines
+    .map((line) => {
+      const starred = /^\*+\s*|\s*\*+$/.test(line) || line.includes('*');
+      const text = line.replace(/^\*+\s*/, '').replace(/\s*\*+$/, '').replace(/\*/g, '').trim();
+      return { text, starred };
+    })
+    .filter((item) => item.text);
+  const mcOptions = hasStarredMultipleChoice ? shuffle(Array.from(new Set(mcParsed.map((item) => item.text)))) : [];
+  const mcCorrectAnswer = hasStarredMultipleChoice ? (mcParsed.find((item) => item.starred)?.text || '') : '';
   const mediaUrl = q.mediaUrl || '';
   const embedUrl = parseYouTubeEmbed(mediaUrl);
   const isImage = (q.mediaType || '').toLowerCase() === 'image' || /\.(png|jpg|jpeg|gif|webp)(\?|$)/i.test(mediaUrl);
@@ -810,32 +828,88 @@ function MediaView({ question, onAnswer }: Props) {
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
       </div>
       <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={obscure} onChange={(e) => setObscure(e.target.checked)} />Obscure media</label>
-      <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
-      <div className="grid grid-cols-2 gap-2">
-        <button
-          disabled={!input.trim() || submitted}
-          onClick={() => {
-            const correct = accepted.some((ans) => isCloseMatch(input, ans));
-            setSubmitted(true);
-            finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
-          }}
-          className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
-        >
-          Submit
-        </button>
-        <button
-          onClick={() => {
-            setShowAnswer(true);
-            if (!submitted) {
-              finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
-            }
-          }}
-          className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
-        >
-          Reveal Answer
-        </button>
-      </div>
-      {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
+      {hasStarredMultipleChoice ? (
+        <>
+          <div className="space-y-2">
+            {mcOptions.map((option) => {
+              const isCorrect = choiceSubmitted && option === mcCorrectAnswer;
+              const isWrongChoice = choiceSubmitted && selectedOption === option && option !== mcCorrectAnswer;
+              return (
+                <button
+                  key={option}
+                  onClick={() => !choiceSubmitted && setSelectedOption(option)}
+                  className={`w-full text-left p-3 rounded-lg border ${
+                    isCorrect
+                      ? 'bg-green-800 border-green-500'
+                      : isWrongChoice
+                        ? 'bg-red-800 border-red-500'
+                        : selectedOption === option
+                          ? 'bg-blue-700 border-blue-400'
+                          : 'bg-gray-700 border-gray-600 hover:bg-gray-600'
+                  }`}
+                >
+                  {option}
+                </button>
+              );
+            })}
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            <button
+              disabled={!selectedOption || choiceSubmitted}
+              onClick={() => {
+                setChoiceSubmitted(true);
+                const correct = selectedOption === mcCorrectAnswer;
+                finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+              }}
+              className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+            >
+              Submit
+            </button>
+            <button
+              onClick={() => {
+                setShowAnswer(true);
+                if (!choiceSubmitted) {
+                  setChoiceSubmitted(true);
+                  finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
+                }
+              }}
+              className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
+            >
+              Reveal Answer
+            </button>
+          </div>
+          {showAnswer && <div className="text-yellow-300 font-bold">Answer: {mcCorrectAnswer || q.answer}</div>}
+        </>
+      ) : (
+        <>
+          <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
+          <div className="grid grid-cols-2 gap-2">
+            <button
+              disabled={!input.trim() || submitted}
+              onClick={() => {
+                const correct = accepted.some((ans) => isCloseMatch(input, ans));
+                setSubmitted(true);
+                finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+              }}
+              className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+            >
+              Submit
+            </button>
+            <button
+              onClick={() => {
+                setShowAnswer(true);
+                if (!submitted) {
+                  finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
+                }
+              }}
+              className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
+            >
+              Reveal Answer
+            </button>
+          </div>
+          {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
+        </>
+      )}
     </div>
   );
 }
