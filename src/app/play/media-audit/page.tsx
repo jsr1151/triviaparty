@@ -145,7 +145,7 @@ export default function MediaAuditPage() {
                   <div className="text-sm text-purple-300 mb-1">{categoryText}</div>
                   <div className="font-bold mb-2">{item.question}</div>
                   <div className="text-xs text-red-300 mb-2">{item.reason}</div>
-                  {item.audit?.title && (
+                  {item.reason !== 'low_confidence_video_match' && item.audit?.title && (
                     <div className="text-xs text-gray-300 mb-2">
                       Current video title: <span className="text-gray-100">{item.audit.title}</span>
                       {typeof item.audit.overlapRatio === 'number' && (
