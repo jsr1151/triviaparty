@@ -779,6 +779,11 @@ function MediaView({ question, onAnswer }: Props) {
   if (!q) return null;
 
   const accepted = [q.answer || '', ...(q.acceptedAnswers || [])].filter(Boolean);
+  const explicitMediaOptions = (q.options || [])
+    .map((option) => option.trim())
+    .filter(Boolean);
+  const explicitMediaCorrect = (q.correctAnswer || '').trim();
+  const hasExplicitMultipleChoice = explicitMediaOptions.length >= 2 && explicitMediaCorrect.length > 0;
   const multilineAnswerLines = (q.answer || '')
     .split(/\r?\n/)
     .map((line) => line.trim())
@@ -791,8 +796,11 @@ function MediaView({ question, onAnswer }: Props) {
       return { text, starred };
     })
     .filter((item) => item.text);
-  const mcOptions = hasStarredMultipleChoice ? shuffle(Array.from(new Set(mcParsed.map((item) => item.text)))) : [];
-  const mcCorrectAnswer = hasStarredMultipleChoice ? (mcParsed.find((item) => item.starred)?.text || '') : '';
+  const legacyMcOptions = hasStarredMultipleChoice ? Array.from(new Set(mcParsed.map((item) => item.text))) : [];
+  const legacyMcCorrectAnswer = hasStarredMultipleChoice ? (mcParsed.find((item) => item.starred)?.text || '') : '';
+  const mcOptions = hasExplicitMultipleChoice ? shuffle(explicitMediaOptions) : shuffle(legacyMcOptions);
+  const mcCorrectAnswer = hasExplicitMultipleChoice ? explicitMediaCorrect : legacyMcCorrectAnswer;
+  const showMultipleChoice = hasExplicitMultipleChoice || hasStarredMultipleChoice;
   const mediaUrl = q.mediaUrl || '';
   const embedUrl = parseYouTubeEmbed(mediaUrl);
   const isYouTubeClip = /youtube\.com\/clip\//i.test(mediaUrl);
@@ -842,7 +850,7 @@ function MediaView({ question, onAnswer }: Props) {
         {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
       </div>
       <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={obscure} onChange={(e) => setObscure(e.target.checked)} />Obscure media</label>
-      {hasStarredMultipleChoice ? (
+      {showMultipleChoice ? (
         <>
           <div className="space-y-2">
             {mcOptions.map((option) => {

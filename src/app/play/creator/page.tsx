@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import type { AnyQuestion, Difficulty } from '@/types/questions';
+import type { JeopardyGameData, JeopardyCategoryData, JeopardyClueData } from '@/types/jeopardy';
 
 /* ─── constants ─── */
 const QUESTION_TYPES = [
@@ -118,29 +119,110 @@ function PillInput({
   );
 }
 
+function buildJeopardyClueId(gameId: number, round: 'single' | 'double' | 'final', categoryPosition: number, rowIndex: number) {
+  const roundKey = round === 'single' ? 's' : round === 'double' ? 'd' : 'f';
+  return `g${gameId}-${roundKey}-c${categoryPosition}-r${rowIndex}`;
+}
+
+function defaultJeopardyCategory(
+  gameId: number,
+  round: 'single' | 'double' | 'final',
+  position: number,
+): JeopardyCategoryData {
+  const clueCount = round === 'final' ? 1 : 5;
+  const valueScale = round === 'double' ? 400 : 200;
+  const clues: JeopardyClueData[] = Array.from({ length: clueCount }).map((_, rowIndex) => {
+    const isFinal = round === 'final';
+    return {
+      clueId: buildJeopardyClueId(gameId, round, position, rowIndex),
+      question: '',
+      answer: '',
+      value: isFinal ? null : valueScale * (rowIndex + 1),
+      dailyDouble: false,
+      tripleStumper: false,
+      isFinalJeopardy: isFinal,
+      category: '',
+      round,
+      rowIndex,
+    };
+  });
+
+  return {
+    name: round === 'final' ? 'FINAL JEOPARDY' : `CATEGORY ${position + 1}`,
+    round,
+    position,
+    clues,
+  };
+}
+
+function blankJeopardyGame(): JeopardyGameData {
+  const gameId = Date.now();
+  return {
+    gameId,
+    showNumber: gameId,
+    airDate: new Date().toISOString().slice(0, 10),
+    season: null,
+    isSpecial: false,
+    tournamentType: null,
+    categories: [
+      ...Array.from({ length: 6 }).map((_, i) => defaultJeopardyCategory(gameId, 'single', i)),
+      ...Array.from({ length: 6 }).map((_, i) => defaultJeopardyCategory(gameId, 'double', i)),
+      defaultJeopardyCategory(gameId, 'final', 0),
+    ],
+  };
+}
+
+function updateQuestionOption(
+  question: AnyQuestion & { type: 'multiple_choice' },
+  optionIndex: number,
+  optionText: string,
+): AnyQuestion & { type: 'multiple_choice' } {
+  const options = [...(question.options || [])];
+  const previous = options[optionIndex] || '';
+  options[optionIndex] = optionText;
+
+  return {
+    ...question,
+    options,
+    correctAnswer: question.correctAnswer === previous ? optionText : question.correctAnswer,
+  };
+}
+
+function updateMediaOption(
+  question: AnyQuestion & { type: 'media'; options?: string[]; correctAnswer?: string },
+  optionIndex: number,
+  optionText: string,
+): AnyQuestion & { type: 'media'; options?: string[]; correctAnswer?: string } {
+  const options = [...(question.options || [])];
+  const previous = options[optionIndex] || '';
+  options[optionIndex] = optionText;
+
+  return {
+    ...question,
+    options,
+    correctAnswer: question.correctAnswer === previous ? optionText : question.correctAnswer,
+  };
+}
+
 /* ─── per-type editors ─── */
 function MultipleChoiceEditor({ q, set }: { q: AnyQuestion & { type: 'multiple_choice' }; set: (q: AnyQuestion) => void }) {
   const options = q.options || ['', '', '', ''];
-  const setOpt = (i: number, v: string) => {
-    const next = [...options];
-    next[i] = v;
-    set({ ...q, options: next });
-  };
   return (
     <div className="space-y-3">
-      <label className="block text-sm text-gray-400">Options (mark the correct one with the radio button)</label>
+      <label className="block text-sm text-gray-400">Options (click the left dot to mark the correct answer)</label>
       {options.map((opt, i) => (
         <div key={i} className="flex items-center gap-2">
-          <input
-            type="radio"
-            name="correctAnswer"
-            checked={q.correctAnswer === opt && opt !== ''}
-            onChange={() => set({ ...q, correctAnswer: opt })}
-            className="accent-green-500"
-          />
+          <button
+            type="button"
+            onClick={() => set({ ...q, correctAnswer: opt })}
+            className="w-6 h-6 rounded-full border border-gray-400 flex items-center justify-center hover:border-green-400"
+            title="Mark as correct"
+          >
+            <span className={`w-3 h-3 rounded-full ${q.correctAnswer === opt && opt.trim() ? 'bg-green-500' : 'bg-transparent'}`} />
+          </button>
           <input
             value={opt}
-            onChange={(e) => { setOpt(i, e.target.value); if (q.correctAnswer === opt) set({ ...q, options: (() => { const n = [...options]; n[i] = e.target.value; return n; })(), correctAnswer: e.target.value }); }}
+            onChange={(e) => set(updateQuestionOption(q, i, e.target.value))}
             placeholder={`Option ${i + 1}`}
             className="flex-1 bg-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-500 outline-none focus:ring-2 focus:ring-purple-500"
           />
@@ -306,6 +388,10 @@ function RankingEditor({ q, set }: { q: AnyQuestion & { type: 'ranking' }; set: 
 }
 
 function MediaEditor({ q, set }: { q: AnyQuestion & { type: 'media' }; set: (q: AnyQuestion) => void }) {
+  const mediaQuestion = q as AnyQuestion & { type: 'media'; options?: string[]; correctAnswer?: string };
+  const mediaChoices = mediaQuestion.options || ['', '', '', ''];
+  const usingMultipleChoice = mediaChoices.some((option) => option.trim().length > 0) || Boolean(mediaQuestion.correctAnswer?.trim());
+
   return (
     <div className="space-y-3">
       <div className="grid grid-cols-2 gap-3">
@@ -340,17 +426,77 @@ function MediaEditor({ q, set }: { q: AnyQuestion & { type: 'media' }; set: (q: 
         </div>
       )}
       <div>
-        <label className="block text-sm text-gray-400 mb-1">Answer</label>
-        <input value={q.answer || ''} onChange={(e) => set({ ...q, answer: e.target.value })}
-          className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-500 outline-none focus:ring-2 focus:ring-purple-500"
-          placeholder="Primary answer" />
+        <label className="block text-sm text-gray-400 mb-2">Answer Format</label>
+        <div className="flex gap-2">
+          <button
+            type="button"
+            onClick={() => set({ ...mediaQuestion, options: undefined, correctAnswer: undefined })}
+            className={`px-3 py-1.5 rounded-lg text-sm ${!usingMultipleChoice ? 'bg-purple-600 text-white' : 'bg-gray-700 hover:bg-gray-600'}`}
+          >
+            Open Ended
+          </button>
+          <button
+            type="button"
+            onClick={() => set({ ...mediaQuestion, options: mediaQuestion.options?.length ? mediaQuestion.options : ['', '', '', ''], correctAnswer: mediaQuestion.correctAnswer || '' })}
+            className={`px-3 py-1.5 rounded-lg text-sm ${usingMultipleChoice ? 'bg-purple-600 text-white' : 'bg-gray-700 hover:bg-gray-600'}`}
+          >
+            Multiple Choice
+          </button>
+        </div>
       </div>
-      <PillInput
-        items={q.acceptedAnswers || []}
-        onChange={(acceptedAnswers) => set({ ...q, acceptedAnswers })}
-        label="Accepted Answers (alternatives)"
-        placeholder="Type an alternative answer…"
-      />
+      {usingMultipleChoice ? (
+        <div className="space-y-3">
+          <label className="block text-sm text-gray-400">Choices (click the left dot to mark correct)</label>
+          {mediaChoices.map((opt, i) => (
+            <div key={i} className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => set({ ...mediaQuestion, correctAnswer: opt })}
+                className="w-6 h-6 rounded-full border border-gray-400 flex items-center justify-center hover:border-green-400"
+                title="Mark as correct"
+              >
+                <span className={`w-3 h-3 rounded-full ${mediaQuestion.correctAnswer === opt && opt.trim() ? 'bg-green-500' : 'bg-transparent'}`} />
+              </button>
+              <input
+                value={opt}
+                onChange={(e) => set(updateMediaOption(mediaQuestion, i, e.target.value))}
+                placeholder={`Option ${i + 1}`}
+                className="flex-1 bg-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-500 outline-none focus:ring-2 focus:ring-purple-500"
+              />
+              {mediaChoices.length > 2 && (
+                <button
+                  onClick={() => {
+                    const next = mediaChoices.filter((_, j) => j !== i);
+                    set({ ...mediaQuestion, options: next, correctAnswer: mediaQuestion.correctAnswer === opt ? '' : mediaQuestion.correctAnswer });
+                  }}
+                  className="text-red-400 hover:text-red-300 text-sm"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+          ))}
+          {mediaChoices.length < 8 && (
+            <button onClick={() => set({ ...mediaQuestion, options: [...mediaChoices, ''] })}
+              className="text-purple-400 hover:text-purple-300 text-sm">+ Add Option</button>
+          )}
+        </div>
+      ) : (
+        <>
+          <div>
+            <label className="block text-sm text-gray-400 mb-1">Answer</label>
+            <input value={q.answer || ''} onChange={(e) => set({ ...q, answer: e.target.value })}
+              className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-500 outline-none focus:ring-2 focus:ring-purple-500"
+              placeholder="Primary answer" />
+          </div>
+          <PillInput
+            items={q.acceptedAnswers || []}
+            onChange={(acceptedAnswers) => set({ ...q, acceptedAnswers })}
+            label="Accepted Answers (alternatives)"
+            placeholder="Type an alternative answer…"
+          />
+        </>
+      )}
     </div>
   );
 }
@@ -436,9 +582,16 @@ function validate(q: AnyQuestion): string[] {
       break;
     }
     case 'media': {
-      const md = q as AnyQuestion & { type: 'media' };
+      const md = q as AnyQuestion & { type: 'media'; options?: string[]; correctAnswer?: string };
+      const hasMediaChoices = (md.options || []).some((opt) => opt.trim().length > 0) || Boolean(md.correctAnswer?.trim());
       if (!md.mediaUrl?.trim()) errors.push('Media URL is required');
-      if (!md.answer?.trim()) errors.push('Answer is required');
+      if (hasMediaChoices) {
+        const filledOptions = (md.options || []).filter((opt) => opt.trim().length > 0);
+        if (filledOptions.length < 2) errors.push('Media multiple choice needs at least 2 options');
+        if (!md.correctAnswer?.trim()) errors.push('Select the correct media option');
+      } else if (!md.answer?.trim()) {
+        errors.push('Answer is required');
+      }
       break;
     }
     case 'prompt': {
@@ -526,6 +679,8 @@ export default function CreatorPage() {
   const [showImport, setShowImport] = useState(false);
   const [toast, setToast] = useState('');
   const [categories, setCategories] = useState<string[]>([]);
+  const [mode, setMode] = useState<'questions' | 'jeopardy'>('questions');
+  const [jeopardyGame, setJeopardyGame] = useState<JeopardyGameData>(() => blankJeopardyGame());
 
   // Load saved questions and categories on mount
   useEffect(() => {
@@ -585,6 +740,51 @@ export default function CreatorPage() {
     showToast(`Exported ${questions.length} questions`);
   }
 
+  function exportJeopardyGame() {
+    const normalized: JeopardyGameData = {
+      ...jeopardyGame,
+      categories: jeopardyGame.categories.map((category) => ({
+        ...category,
+        clues: category.clues.map((clue, rowIndex) => ({
+          ...clue,
+          clueId: buildJeopardyClueId(jeopardyGame.gameId, category.round, category.position, rowIndex),
+          rowIndex,
+          category: category.name,
+          round: category.round,
+          isFinalJeopardy: category.round === 'final',
+          value: category.round === 'final' ? null : clue.value,
+        })),
+      })),
+    };
+
+    const gameBlob = new Blob([JSON.stringify(normalized, null, 2)], { type: 'application/json' });
+    const gameUrl = URL.createObjectURL(gameBlob);
+    const gameAnchor = document.createElement('a');
+    gameAnchor.href = gameUrl;
+    gameAnchor.download = `game-${jeopardyGame.gameId}.json`;
+    gameAnchor.click();
+    URL.revokeObjectURL(gameUrl);
+
+    const indexEntry = {
+      gameId: normalized.gameId,
+      showNumber: normalized.showNumber,
+      airDate: normalized.airDate,
+      season: normalized.season,
+      isSpecial: normalized.isSpecial,
+      tournamentType: normalized.tournamentType,
+      file: `game-${normalized.gameId}.json`,
+    };
+    const indexBlob = new Blob([JSON.stringify(indexEntry, null, 2)], { type: 'application/json' });
+    const indexUrl = URL.createObjectURL(indexBlob);
+    const indexAnchor = document.createElement('a');
+    indexAnchor.href = indexUrl;
+    indexAnchor.download = `game-${normalized.gameId}.index-entry.json`;
+    indexAnchor.click();
+    URL.revokeObjectURL(indexUrl);
+
+    showToast('Exported Jeopardy game + index entry');
+  }
+
   function clearAll() {
     if (!confirm('Delete all questions? This cannot be undone.')) return;
     setQuestions([]);
@@ -616,22 +816,48 @@ export default function CreatorPage() {
           <div className="flex items-center gap-4">
             <Link href="/" className="text-purple-300 hover:text-purple-200 font-bold">← Menu</Link>
             <h1 className="text-xl font-bold">✏️ Creator</h1>
-            <span className="text-sm text-gray-400">{questions.length} question{questions.length !== 1 ? 's' : ''}</span>
+            <div className="flex gap-2">
+              <button
+                onClick={() => setMode('questions')}
+                className={`px-3 py-1 rounded-lg text-sm ${mode === 'questions' ? 'bg-purple-600' : 'bg-gray-700 hover:bg-gray-600'}`}
+              >
+                Questions
+              </button>
+              <button
+                onClick={() => setMode('jeopardy')}
+                className={`px-3 py-1 rounded-lg text-sm ${mode === 'jeopardy' ? 'bg-purple-600' : 'bg-gray-700 hover:bg-gray-600'}`}
+              >
+                Jeopardy Game
+              </button>
+            </div>
+            {mode === 'questions' && <span className="text-sm text-gray-400">{questions.length} question{questions.length !== 1 ? 's' : ''}</span>}
           </div>
           <div className="flex items-center gap-2">
-            <button onClick={() => setShowImport(true)}
-              className="px-3 py-1.5 rounded-lg bg-gray-700 hover:bg-gray-600 text-sm font-medium">Import</button>
-            <button onClick={exportAll}
-              className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export JSON</button>
-            {questions.length > 0 && (
-              <button onClick={clearAll}
-                className="px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-600 text-sm font-medium">Clear All</button>
+            {mode === 'questions' ? (
+              <>
+                <button onClick={() => setShowImport(true)}
+                  className="px-3 py-1.5 rounded-lg bg-gray-700 hover:bg-gray-600 text-sm font-medium">Import</button>
+                <button onClick={exportAll}
+                  className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export JSON</button>
+                {questions.length > 0 && (
+                  <button onClick={clearAll}
+                    className="px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-600 text-sm font-medium">Clear All</button>
+                )}
+              </>
+            ) : (
+              <>
+                <button onClick={() => setJeopardyGame(blankJeopardyGame())}
+                  className="px-3 py-1.5 rounded-lg bg-gray-700 hover:bg-gray-600 text-sm font-medium">New Game</button>
+                <button onClick={exportJeopardyGame}
+                  className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export Game JSON</button>
+              </>
             )}
           </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 py-6 flex gap-6" style={{ minHeight: 'calc(100vh - 60px)' }}>
+      {mode === 'questions' ? (
+        <div className="max-w-7xl mx-auto px-4 py-6 flex gap-6" style={{ minHeight: 'calc(100vh - 60px)' }}>
         {/* Sidebar — question list */}
         <div className="w-80 shrink-0">
           <div className="sticky top-20">
@@ -785,6 +1011,239 @@ export default function CreatorPage() {
           )}
         </div>
       </div>
+      ) : (
+        <div className="max-w-7xl mx-auto px-4 py-6">
+          <div className="bg-gray-900 rounded-2xl border border-gray-800 p-6 space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div>
+                <label className="block text-sm text-gray-400 mb-1">Game ID</label>
+                <input
+                  type="number"
+                  value={jeopardyGame.gameId}
+                  onChange={(e) => {
+                    const nextGameId = Number(e.target.value) || jeopardyGame.gameId;
+                    setJeopardyGame((prev) => ({
+                      ...prev,
+                      gameId: nextGameId,
+                      categories: prev.categories.map((category) => ({
+                        ...category,
+                        clues: category.clues.map((clue, rowIndex) => ({
+                          ...clue,
+                          clueId: buildJeopardyClueId(nextGameId, category.round, category.position, rowIndex),
+                        })),
+                      })),
+                    }));
+                  }}
+                  className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+                />
+              </div>
+              <div>
+                <label className="block text-sm text-gray-400 mb-1">Show Number</label>
+                <input
+                  type="number"
+                  value={jeopardyGame.showNumber}
+                  onChange={(e) => setJeopardyGame((prev) => ({ ...prev, showNumber: Number(e.target.value) || 0 }))}
+                  className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+                />
+              </div>
+              <div>
+                <label className="block text-sm text-gray-400 mb-1">Air Date</label>
+                <input
+                  value={jeopardyGame.airDate}
+                  onChange={(e) => setJeopardyGame((prev) => ({ ...prev, airDate: e.target.value }))}
+                  className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+                  placeholder="YYYY-MM-DD or long date"
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div>
+                <label className="block text-sm text-gray-400 mb-1">Season (optional)</label>
+                <input
+                  type="number"
+                  value={jeopardyGame.season ?? ''}
+                  onChange={(e) => {
+                    const next = e.target.value.trim();
+                    setJeopardyGame((prev) => ({ ...prev, season: next ? Number(next) : null }));
+                  }}
+                  className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+                />
+              </div>
+              <div>
+                <label className="block text-sm text-gray-400 mb-1">Tournament Type (optional)</label>
+                <input
+                  value={jeopardyGame.tournamentType || ''}
+                  onChange={(e) => setJeopardyGame((prev) => ({ ...prev, tournamentType: e.target.value || null }))}
+                  className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+                />
+              </div>
+              <div className="flex items-end">
+                <label className="flex items-center gap-2 text-sm text-gray-300">
+                  <input
+                    type="checkbox"
+                    checked={jeopardyGame.isSpecial}
+                    onChange={(e) => setJeopardyGame((prev) => ({ ...prev, isSpecial: e.target.checked }))}
+                  />
+                  Special Episode
+                </label>
+              </div>
+            </div>
+
+            {(['single', 'double', 'final'] as const).map((round) => {
+              const roundCategories = jeopardyGame.categories
+                .filter((category) => category.round === round)
+                .sort((left, right) => left.position - right.position);
+
+              return (
+                <div key={round} className="space-y-4">
+                  <h3 className="text-lg font-bold capitalize">{round} Round</h3>
+                  {roundCategories.map((category) => (
+                    <div key={`${round}-${category.position}`} className="bg-gray-800 rounded-xl p-4 space-y-3 border border-gray-700">
+                      <div className="flex items-center gap-3">
+                        <span className="text-xs uppercase text-gray-400">Category {category.position + 1}</span>
+                        <input
+                          value={category.name}
+                          onChange={(e) => {
+                            const name = e.target.value;
+                            setJeopardyGame((prev) => ({
+                              ...prev,
+                              categories: prev.categories.map((item) => {
+                                if (item.round !== round || item.position !== category.position) return item;
+                                return {
+                                  ...item,
+                                  name,
+                                  clues: item.clues.map((clue) => ({ ...clue, category: name })),
+                                };
+                              }),
+                            }));
+                          }}
+                          className="flex-1 bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+                          placeholder="Category name"
+                        />
+                      </div>
+
+                      {category.clues.map((clue, rowIndex) => (
+                        <div key={clue.clueId} className="grid grid-cols-1 md:grid-cols-12 gap-2 items-start">
+                          {round !== 'final' && (
+                            <input
+                              type="number"
+                              value={clue.value ?? 0}
+                              onChange={(e) => {
+                                const value = Number(e.target.value) || 0;
+                                setJeopardyGame((prev) => ({
+                                  ...prev,
+                                  categories: prev.categories.map((item) => {
+                                    if (item.round !== round || item.position !== category.position) return item;
+                                    return {
+                                      ...item,
+                                      clues: item.clues.map((existingClue, index) =>
+                                        index === rowIndex ? { ...existingClue, value } : existingClue,
+                                      ),
+                                    };
+                                  }),
+                                }));
+                              }}
+                              className="md:col-span-2 bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+                            />
+                          )}
+                          <textarea
+                            value={clue.question}
+                            onChange={(e) => {
+                              const questionText = e.target.value;
+                              setJeopardyGame((prev) => ({
+                                ...prev,
+                                categories: prev.categories.map((item) => {
+                                  if (item.round !== round || item.position !== category.position) return item;
+                                  return {
+                                    ...item,
+                                    clues: item.clues.map((existingClue, index) =>
+                                      index === rowIndex ? { ...existingClue, question: questionText } : existingClue,
+                                    ),
+                                  };
+                                }),
+                              }));
+                            }}
+                            rows={2}
+                            className={`${round === 'final' ? 'md:col-span-8' : 'md:col-span-6'} bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500`}
+                            placeholder="Clue question"
+                          />
+                          <input
+                            value={clue.answer}
+                            onChange={(e) => {
+                              const answerText = e.target.value;
+                              setJeopardyGame((prev) => ({
+                                ...prev,
+                                categories: prev.categories.map((item) => {
+                                  if (item.round !== round || item.position !== category.position) return item;
+                                  return {
+                                    ...item,
+                                    clues: item.clues.map((existingClue, index) =>
+                                      index === rowIndex ? { ...existingClue, answer: answerText } : existingClue,
+                                    ),
+                                  };
+                                }),
+                              }));
+                            }}
+                            className="md:col-span-4 bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+                            placeholder="Correct answer"
+                          />
+                          <label className="md:col-span-12 flex flex-wrap gap-4 text-sm text-gray-300">
+                            <span className="flex items-center gap-1">
+                              <input
+                                type="checkbox"
+                                checked={clue.dailyDouble}
+                                onChange={(e) => {
+                                  const dailyDouble = e.target.checked;
+                                  setJeopardyGame((prev) => ({
+                                    ...prev,
+                                    categories: prev.categories.map((item) => {
+                                      if (item.round !== round || item.position !== category.position) return item;
+                                      return {
+                                        ...item,
+                                        clues: item.clues.map((existingClue, index) =>
+                                          index === rowIndex ? { ...existingClue, dailyDouble } : existingClue,
+                                        ),
+                                      };
+                                    }),
+                                  }));
+                                }}
+                              />
+                              Daily Double
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <input
+                                type="checkbox"
+                                checked={clue.tripleStumper}
+                                onChange={(e) => {
+                                  const tripleStumper = e.target.checked;
+                                  setJeopardyGame((prev) => ({
+                                    ...prev,
+                                    categories: prev.categories.map((item) => {
+                                      if (item.round !== round || item.position !== category.position) return item;
+                                      return {
+                                        ...item,
+                                        clues: item.clues.map((existingClue, index) =>
+                                          index === rowIndex ? { ...existingClue, tripleStumper } : existingClue,
+                                        ),
+                                      };
+                                    }),
+                                  }));
+                                }}
+                              />
+                              Triple Stumper
+                            </span>
+                          </label>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -53,6 +53,8 @@ export type MediaQuestion = BaseQuestion & {
   mediaUrl?: string;
   answer?: string;
   acceptedAnswers?: string[];
+  options?: string[];
+  correctAnswer?: string;
 };
 
 export type PromptQuestion = BaseQuestion & {
