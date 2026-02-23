@@ -285,7 +285,7 @@ function defaultJeopardyCategory(
 }
 
 function blankJeopardyGame(): JeopardyGameData {
-  const gameId = Date.now();
+  const gameId = 0;
   return {
     gameId,
     showNumber: gameId,
@@ -1284,7 +1284,7 @@ export default function CreatorPage() {
         })),
       };
       await commitJeopardyGame(config, normalized as unknown as Record<string, unknown>);
-      showToast(`Pushed game ${normalized.gameId} to GitHub`);
+      showToast(`Pushed game ${normalized.gameId} (show #${normalized.showNumber}) to GitHub`);
     } catch (error) {
       showToast(error instanceof Error ? error.message : 'Failed to push Jeopardy game');
     } finally {
@@ -1626,7 +1626,21 @@ export default function CreatorPage() {
                 <input
                   type="number"
                   value={jeopardyGame.showNumber}
-                  onChange={(e) => setJeopardyGame((prev) => ({ ...prev, showNumber: Number(e.target.value) || 0 }))}
+                  onChange={(e) => {
+                    const nextShow = Number(e.target.value) || 0;
+                    setJeopardyGame((prev) => ({
+                      ...prev,
+                      showNumber: nextShow,
+                      gameId: nextShow,
+                      categories: prev.categories.map((cat) => ({
+                        ...cat,
+                        clues: cat.clues.map((clue, ri) => ({
+                          ...clue,
+                          clueId: buildJeopardyClueId(nextShow, cat.round, cat.position, ri),
+                        })),
+                      })),
+                    }));
+                  }}
                   className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
                 />
               </div>
