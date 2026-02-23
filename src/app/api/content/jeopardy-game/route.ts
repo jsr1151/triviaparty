@@ -4,7 +4,7 @@ import path from 'node:path';
 import type { JeopardyGameData, JeopardyIndexEntry } from '@/types/jeopardy';
 
 export const runtime = 'nodejs';
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 function clueId(gameId: number, round: 'single' | 'double' | 'final', categoryPosition: number, rowIndex: number) {
   const roundKey = round === 'single' ? 's' : round === 'double' ? 'd' : 'f';

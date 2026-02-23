@@ -4,7 +4,7 @@ import path from 'node:path';
 import type { AnyQuestion } from '@/types/questions';
 
 export const runtime = 'nodejs';
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 interface QuestionFilePayload {
   questions: AnyQuestion[];

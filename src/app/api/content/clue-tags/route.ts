@@ -4,7 +4,7 @@ import path from 'node:path';
 import type { JeopardyGameData } from '@/types/jeopardy';
 
 export const runtime = 'nodejs';
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 function normalizeTags(tags: unknown): string[] {
   if (!Array.isArray(tags)) return [];
