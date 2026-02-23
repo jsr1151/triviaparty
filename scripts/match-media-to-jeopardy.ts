@@ -1,11 +1,14 @@
 /**
  * match-media-to-jeopardy.ts
  *
- * Scans all Jeopardy game files and the media questions pool to find
- * clues whose text matches a media question. When a match is found,
- * the clue gets mediaUrl, mediaType, mediaStart, mediaEnd injected.
+ * Scans all Jeopardy game files and finds clues whose question text
+ * matches a media question. Simple normalized text lookup — the media
+ * questions were sourced from these episodes so text is essentially identical.
  *
- * Usage: npx tsx scripts/match-media-to-jeopardy.ts [--dry-run]
+ * Usage:
+ *   npx tsx scripts/match-media-to-jeopardy.ts              # apply matches
+ *   npx tsx scripts/match-media-to-jeopardy.ts --dry-run     # preview only
+ *   npx tsx scripts/match-media-to-jeopardy.ts --clean       # strip all media
  */
 
 import * as fs from 'fs';
@@ -14,14 +17,24 @@ import * as path from 'path';
 const GAMES_DIR = path.join(__dirname, '..', 'public', 'data', 'jeopardy');
 const QUESTIONS_FILE = path.join(__dirname, '..', 'data', 'sheets-import-questions.json');
 
+// Video game categories — these won't appear in Jeopardy episodes
+const SKIP_CATEGORIES = new Set([
+  'retroarcade-games', 'adventureplatformers', 'racing-games',
+  'rpgs-and-open-worlds', 'horror-games', 'simulation-games',
+  'fighting-games', 'all-games-in-between', 'all-pokemon', 'consoles',
+  'actionshooter-games-vghis-mix', 'sports-games-vgsports-mix',
+  'party-games-vgent-mix', 'musicrhythm-games-vgarts-mix',
+  'puzzle-games-vgsci-mix', 'mobile-games-vggeo-mix',
+  'recreational-and-tabletop',
+]);
+
 interface MediaQuestion {
   type: string;
   question: string;
   answer: string;
+  category?: string;
   mediaUrl?: string;
   mediaType?: string;
-  category?: string;
-  acceptedAnswers?: string[];
 }
 
 interface JeopardyClue {
@@ -30,9 +43,6 @@ interface JeopardyClue {
   answer: string;
   mediaUrl?: string;
   mediaType?: string;
-  mediaStart?: number;
-  mediaEnd?: number;
-  obscureMedia?: boolean;
   [key: string]: unknown;
 }
 
@@ -49,7 +59,7 @@ interface JeopardyGame {
   [key: string]: unknown;
 }
 
-/** Normalize text for comparison: lowercase, strip punctuation, collapse whitespace */
+/** Normalize text for matching: lowercase, strip punctuation, collapse whitespace */
 function normalize(text: string): string {
   return text
     .toLowerCase()
@@ -58,47 +68,78 @@ function normalize(text: string): string {
     .trim();
 }
 
-/** Compute word-level Jaccard similarity */
-function wordJaccard(a: string, b: string): number {
-  const setA = new Set(a.split(' ').filter(Boolean));
-  const setB = new Set(b.split(' ').filter(Boolean));
-  const intersection = new Set([...setA].filter(x => setB.has(x)));
-  const union = new Set([...setA, ...setB]);
-  return union.size === 0 ? 0 : intersection.size / union.size;
+/** Strip leading article (the/a/an) for a secondary lookup */
+function stripArticle(text: string): string {
+  return text.replace(/^(the|a|an)\s+/, '');
+}
+
+function cleanAllMedia(index: { file: string }[]) {
+  let cleaned = 0;
+  for (const entry of index) {
+    const gamePath = path.join(GAMES_DIR, entry.file);
+    if (!fs.existsSync(gamePath)) continue;
+    const game: JeopardyGame = JSON.parse(fs.readFileSync(gamePath, 'utf8'));
+    let modified = false;
+    for (const cat of game.categories) {
+      for (const clue of cat.clues) {
+        if (clue.mediaUrl) {
+          delete clue.mediaUrl;
+          delete clue.mediaType;
+          delete (clue as Record<string, unknown>).mediaStart;
+          delete (clue as Record<string, unknown>).mediaEnd;
+          delete (clue as Record<string, unknown>).obscureMedia;
+          modified = true;
+          cleaned++;
+        }
+      }
+    }
+    if (modified) {
+      const content = JSON.stringify(game, null, 2) + '\n';
+      fs.writeFileSync(gamePath, content);
+      const docsPath = path.join(__dirname, '..', 'docs', 'data', 'jeopardy', entry.file);
+      if (fs.existsSync(path.dirname(docsPath))) {
+        fs.writeFileSync(docsPath, content);
+      }
+    }
+  }
+  console.log(`Cleaned media from ${cleaned} clues`);
 }
 
 function main() {
   const dryRun = process.argv.includes('--dry-run');
+  const index: { file: string; showNumber: number }[] = JSON.parse(
+    fs.readFileSync(path.join(GAMES_DIR, 'index.json'), 'utf8'),
+  );
 
-  // Load media questions
-  console.log('Loading media questions…');
+  if (process.argv.includes('--clean')) {
+    cleanAllMedia(index);
+    return;
+  }
+
+  // Load media questions, skip video game categories
+  console.log('Loading media questions...');
   const questionsData = JSON.parse(fs.readFileSync(QUESTIONS_FILE, 'utf8'));
   const mediaQuestions: MediaQuestion[] = (questionsData.questions || []).filter(
-    (q: MediaQuestion) => q.type === 'media' && q.mediaUrl && q.question,
+    (q: MediaQuestion) =>
+      q.type === 'media' && q.mediaUrl && q.question && !SKIP_CATEGORIES.has(q.category || ''),
   );
-  console.log(`Found ${mediaQuestions.length} media questions with URLs`);
+  console.log(`Found ${mediaQuestions.length} media questions (excluding video game trivia)`);
 
-  // Build a lookup map: normalized question text → media question
-  const mediaByNorm = new Map<string, MediaQuestion>();
-  const mediaByAnswer = new Map<string, MediaQuestion[]>();
+  // Build maps: normalized question text -> media question
+  // Primary: exact normalized text. Secondary: with leading article stripped.
+  const mediaByText = new Map<string, MediaQuestion>();
+  const mediaByStripped = new Map<string, MediaQuestion>();
   for (const mq of mediaQuestions) {
-    const norm = normalize(mq.question);
-    if (norm.length >= 10) {
-      mediaByNorm.set(norm, mq);
-    }
-    const normA = normalize(mq.answer);
-    if (normA.length >= 2) {
-      if (!mediaByAnswer.has(normA)) mediaByAnswer.set(normA, []);
-      mediaByAnswer.get(normA)!.push(mq);
+    const key = normalize(mq.question);
+    if (key.length >= 5) {
+      mediaByText.set(key, mq);
+      mediaByStripped.set(stripArticle(key), mq);
     }
   }
-  console.log(`Index: ${mediaByNorm.size} by question text, ${mediaByAnswer.size} by answer`);
+  console.log(`Index: ${mediaByText.size} unique normalized question texts`);
 
-  // Scan all game files
-  const index = JSON.parse(fs.readFileSync(path.join(GAMES_DIR, 'index.json'), 'utf8'));
   let gamesModified = 0;
   let cluesMatched = 0;
-  let cluesAlreadyHaveMedia = 0;
 
   for (const entry of index) {
     const gamePath = path.join(GAMES_DIR, entry.file);
@@ -109,40 +150,19 @@ function main() {
 
     for (const cat of game.categories) {
       for (const clue of cat.clues) {
-        if (!clue.question) continue;
-        if (clue.mediaUrl) {
-          cluesAlreadyHaveMedia++;
-          continue;
-        }
+        if (!clue.question || clue.mediaUrl) continue;
 
-        const normQ = normalize(clue.question);
-        const normA = normalize(clue.answer);
-
-        // Strategy 1: Exact question text match
-        let match = mediaByNorm.get(normQ);
-
-        // Strategy 2: Same answer + high question overlap (Jaccard ≥ 0.5)
-        if (!match && normA.length >= 3) {
-          const candidates = mediaByAnswer.get(normA) || [];
-          for (const cand of candidates) {
-            const candNorm = normalize(cand.question);
-            const similarity = wordJaccard(normQ, candNorm);
-            if (similarity >= 0.5) {
-              match = cand;
-              break;
-            }
-          }
-        }
+        const key = normalize(clue.question);
+        const match = mediaByText.get(key) || mediaByStripped.get(stripArticle(key));
 
         if (match) {
           clue.mediaUrl = match.mediaUrl;
           clue.mediaType = (match.mediaType as 'image' | 'video' | 'audio') || 'image';
-          // Don't set start/end — the URL may already contain timestamp params
           modified = true;
           cluesMatched++;
-          if (cluesMatched <= 20) {
-            console.log(`  MATCH [game ${game.showNumber}]: "${clue.question.slice(0, 50)}" → ${match.mediaType} ${match.mediaUrl?.slice(0, 60)}`);
-          }
+          console.log(
+            `  MATCH [show ${game.showNumber}]: "${clue.question.slice(0, 60)}" -> ${match.mediaType} ${(match.mediaUrl || '').slice(0, 70)}`,
+          );
         }
       }
     }
@@ -150,7 +170,6 @@ function main() {
     if (modified) {
       gamesModified++;
       if (!dryRun) {
-        // Write back to both public/ and docs/
         const content = JSON.stringify(game, null, 2) + '\n';
         fs.writeFileSync(gamePath, content);
         const docsPath = path.join(__dirname, '..', 'docs', 'data', 'jeopardy', entry.file);
@@ -161,16 +180,12 @@ function main() {
     }
   }
 
-  console.log('\n── Results ──');
+  console.log('\n-- Results --');
   console.log(`Games scanned: ${index.length}`);
-  console.log(`Clues already with media: ${cluesAlreadyHaveMedia}`);
-  console.log(`New matches found: ${cluesMatched}`);
+  console.log(`Matches found: ${cluesMatched}`);
   console.log(`Games modified: ${gamesModified}`);
-  if (dryRun) {
-    console.log('(dry run — no files written)');
-  } else {
-    console.log('Files updated in public/ and docs/');
-  }
+  if (dryRun) console.log('(dry run -- no files written)');
+  else console.log('Files updated in public/ and docs/');
 }
 
 main();
