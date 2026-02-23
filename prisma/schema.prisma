@@ -111,6 +111,7 @@ model ThisOrThatQuestion {
   question   Question @relation(fields: [questionId], references: [id])
   categoryA  String
   categoryB  String
+  categoryC  String?
   items      Json
   createdAt  DateTime @default(now())
 }
