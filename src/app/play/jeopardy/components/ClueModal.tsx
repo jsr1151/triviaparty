@@ -13,6 +13,11 @@ import {
   guessQuestionTagsForClue,
   isKnownQuestionTag,
 } from '@/lib/question-tags';
+import {
+  getGitHubConfig,
+  isGitHubConfigured,
+  commitClueTags,
+} from '@/lib/github-commit';
 
 interface Props {
   clue: JeopardyClueData & { id: string };
@@ -122,26 +127,15 @@ export default function ClueModal({
     if (!clue.clueId) return;
     setPersistingTags(true);
     try {
-      const response = await fetch('/api/content/clue-tags', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ clueId: clue.clueId, tags: topicTags }),
-      });
-      const raw = await response.text();
-      let payload: { error?: string } = {};
-      try {
-        payload = raw ? (JSON.parse(raw) as { error?: string }) : {};
-      } catch {
-        if (!response.ok) {
-          throw new Error('Save API is unavailable here. Run locally with `npm run dev` to persist tags.');
-        }
+      const config = getGitHubConfig();
+      if (!config) {
+        window.alert('GitHub not connected. Go to Creator → Connect GitHub to set up your token.');
+        return;
       }
-      if (!response.ok) {
-        throw new Error(payload?.error || 'Failed to persist tags');
-      }
-      window.alert('Saved clue tags to app files. Commit and push to publish.');
+      await commitClueTags(config, clue.clueId, topicTags);
+      window.alert('Tags pushed to GitHub! Changes will be live after GitHub Pages redeploys.');
     } catch (error) {
-      window.alert(error instanceof Error ? error.message : 'Failed to persist tags');
+      window.alert(error instanceof Error ? error.message : 'Failed to push tags to GitHub');
     } finally {
       setPersistingTags(false);
     }
@@ -345,9 +339,9 @@ export default function ClueModal({
             </button>
             <button
               onClick={persistTagsToAppFiles}
-              disabled={persistingTags}
+              disabled={persistingTags || !isGitHubConfigured()}
               className="flex items-center gap-1 text-sm px-3 py-2 rounded-lg font-bold transition-colors bg-emerald-700 text-white hover:bg-emerald-600 disabled:opacity-60">
-              💾 {persistingTags ? 'Saving…' : 'Save Tags to App Files'}
+              💾 {persistingTags ? 'Pushing…' : isGitHubConfigured() ? 'Push Tags to GitHub' : 'Connect GitHub in Creator'}
             </button>
           </div>
         </div>

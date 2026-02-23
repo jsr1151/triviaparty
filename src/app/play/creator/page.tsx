@@ -4,6 +4,15 @@ import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import type { AnyQuestion, Difficulty } from '@/types/questions';
 import type { JeopardyGameData, JeopardyCategoryData, JeopardyClueData, JeopardyIndexEntry } from '@/types/jeopardy';
+import {
+  getGitHubConfig,
+  saveGitHubConfig,
+  clearGitHubConfig,
+  isGitHubConfigured,
+  testGitHubConnection,
+  commitQuestions,
+  commitJeopardyGame,
+} from '@/lib/github-commit';
 
 /* ─── constants ─── */
 const QUESTION_TYPES = [
@@ -79,20 +88,94 @@ function questionSignature(questionText: string, category: AnyQuestion['category
   return `${normalizeText(questionText)}|${normalizeText(categoryName(category))}`;
 }
 
-async function readApiPayload(response: Response): Promise<Record<string, unknown>> {
-  const raw = await response.text();
-  if (!raw) return {};
+/* ─── GitHub Settings Modal ─── */
+function GitHubSettingsModal({
+  onClose,
+  onSaved,
+}: {
+  onClose: () => void;
+  onSaved: () => void;
+}) {
+  const existing = getGitHubConfig();
+  const [token, setToken] = useState(existing?.token || '');
+  const [owner, setOwner] = useState(existing?.owner || 'jsr1151');
+  const [repo, setRepo] = useState(existing?.repo || 'triviaparty');
+  const [testing, setTesting] = useState(false);
+  const [status, setStatus] = useState('');
 
-  try {
-    return JSON.parse(raw) as Record<string, unknown>;
-  } catch {
-    if (!response.ok) {
-      throw new Error(
-        'Save API is unavailable here. Run the app locally with `npm run dev` and use Save to App Files there.',
-      );
-    }
-    throw new Error('Unexpected non-JSON API response');
+  async function handleTest() {
+    if (!token.trim()) { setStatus('Token is required'); return; }
+    setTesting(true);
+    setStatus('Testing connection…');
+    const ok = await testGitHubConnection({ token: token.trim(), owner: owner.trim(), repo: repo.trim() });
+    setTesting(false);
+    setStatus(ok ? '✅ Connected successfully!' : '❌ Cannot access repo. Check token/permissions.');
   }
+
+  function handleSave() {
+    if (!token.trim()) { setStatus('Token is required'); return; }
+    saveGitHubConfig({ token: token.trim(), owner: owner.trim(), repo: repo.trim() });
+    onSaved();
+    onClose();
+  }
+
+  function handleDisconnect() {
+    clearGitHubConfig();
+    setToken('');
+    setStatus('Disconnected');
+    onSaved();
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4" onClick={onClose}>
+      <div className="bg-gray-800 rounded-2xl p-6 max-w-md w-full" onClick={(e) => e.stopPropagation()}>
+        <h3 className="text-xl font-bold mb-4">GitHub Connection</h3>
+        <p className="text-sm text-gray-400 mb-4">
+          Connect to GitHub to save questions and games directly to your repo from any device.
+          Create a <a href="https://github.com/settings/tokens/new?scopes=repo&description=TriviaParty+Creator" target="_blank" rel="noopener" className="text-purple-400 underline">Personal Access Token</a> with <code className="bg-gray-700 px-1 rounded">repo</code> scope.
+        </p>
+        <div className="space-y-3">
+          <div>
+            <label className="block text-sm text-gray-400 mb-1">Personal Access Token</label>
+            <input
+              type="password"
+              value={token}
+              onChange={(e) => setToken(e.target.value)}
+              placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+              className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-500 outline-none focus:ring-2 focus:ring-purple-500 font-mono text-sm"
+            />
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-sm text-gray-400 mb-1">Owner</label>
+              <input
+                value={owner}
+                onChange={(e) => setOwner(e.target.value)}
+                className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500 text-sm"
+              />
+            </div>
+            <div>
+              <label className="block text-sm text-gray-400 mb-1">Repo</label>
+              <input
+                value={repo}
+                onChange={(e) => setRepo(e.target.value)}
+                className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500 text-sm"
+              />
+            </div>
+          </div>
+        </div>
+        {status && <p className={`text-sm mt-3 ${status.startsWith('✅') ? 'text-green-400' : status.startsWith('❌') ? 'text-red-400' : 'text-gray-300'}`}>{status}</p>}
+        <div className="flex justify-between mt-5">
+          <button onClick={handleDisconnect} className="px-3 py-2 rounded-lg bg-red-800 hover:bg-red-700 text-sm font-medium">Disconnect</button>
+          <div className="flex gap-2">
+            <button onClick={handleTest} disabled={testing} className="px-3 py-2 rounded-lg bg-gray-600 hover:bg-gray-500 text-sm font-medium disabled:opacity-50">{testing ? 'Testing…' : 'Test'}</button>
+            <button onClick={onClose} className="px-3 py-2 rounded-lg bg-gray-600 hover:bg-gray-500 text-sm font-medium">Cancel</button>
+            <button onClick={handleSave} className="px-3 py-2 rounded-lg bg-purple-600 hover:bg-purple-500 text-sm font-bold">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 /* ─── blank question factories ─── */
@@ -1083,10 +1166,18 @@ export default function CreatorPage() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [showImport, setShowImport] = useState(false);
   const [showLoader, setShowLoader] = useState(false);
+  const [showGitHub, setShowGitHub] = useState(false);
+  const [ghConnected, setGhConnected] = useState(false);
   const [toast, setToast] = useState('');
   const [categories, setCategories] = useState<string[]>([]);
   const [mode, setMode] = useState<'questions' | 'jeopardy'>('questions');
   const [jeopardyGame, setJeopardyGame] = useState<JeopardyGameData>(() => blankJeopardyGame());
+  const [saving, setSaving] = useState(false);
+
+  // Check GitHub connection on mount
+  useEffect(() => {
+    setGhConnected(isGitHubConfigured());
+  }, []);
 
   // Load saved questions and categories on mount
   useEffect(() => {
@@ -1146,33 +1237,36 @@ export default function CreatorPage() {
     showToast(`Exported ${questions.length} questions`);
   }
 
-  async function saveQuestionsToAppFiles() {
+  async function saveQuestionsToRepo() {
     if (!questions.length) {
       showToast('No questions to save');
       return;
     }
-
+    const config = getGitHubConfig();
+    if (!config) {
+      setShowGitHub(true);
+      showToast('Connect to GitHub first');
+      return;
+    }
+    setSaving(true);
     try {
-      const response = await fetch('/api/content/questions-file', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ questions }),
-      });
-
-      const payload = await readApiPayload(response);
-      if (!response.ok) {
-        throw new Error(typeof payload.error === 'string' ? payload.error : 'Failed to save questions');
-      }
-
-      const added = typeof payload.added === 'number' ? payload.added : 0;
-      const skipped = typeof payload.skipped === 'number' ? payload.skipped : 0;
-      showToast(`Saved to app files: +${added}, skipped ${skipped}`);
+      const result = await commitQuestions(config, questions);
+      showToast(`Pushed to GitHub: +${result.added} added, ${result.skipped} skipped`);
     } catch (error) {
-      showToast(error instanceof Error ? error.message : 'Failed to save to app files');
+      showToast(error instanceof Error ? error.message : 'Failed to push to GitHub');
+    } finally {
+      setSaving(false);
     }
   }
 
-  async function saveJeopardyGameToAppFiles() {
+  async function saveJeopardyGameToRepo() {
+    const config = getGitHubConfig();
+    if (!config) {
+      setShowGitHub(true);
+      showToast('Connect to GitHub first');
+      return;
+    }
+    setSaving(true);
     try {
       const normalized: JeopardyGameData = {
         ...jeopardyGame,
@@ -1189,21 +1283,12 @@ export default function CreatorPage() {
           })),
         })),
       };
-
-      const response = await fetch('/api/content/jeopardy-game', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ game: normalized }),
-      });
-
-      const payload = await readApiPayload(response);
-      if (!response.ok) {
-        throw new Error(typeof payload.error === 'string' ? payload.error : 'Failed to save Jeopardy game');
-      }
-
-      showToast(`Saved game ${normalized.gameId} to app files`);
+      await commitJeopardyGame(config, normalized as unknown as Record<string, unknown>);
+      showToast(`Pushed game ${normalized.gameId} to GitHub`);
     } catch (error) {
-      showToast(error instanceof Error ? error.message : 'Failed to save Jeopardy game');
+      showToast(error instanceof Error ? error.message : 'Failed to push Jeopardy game');
+    } finally {
+      setSaving(false);
     }
   }
 
@@ -1274,8 +1359,14 @@ export default function CreatorPage() {
         </div>
       )}
 
-      {/* Import Modal */}
+      {/* Modals */}
       {showImport && <ImportModal onImport={handleImport} onClose={() => setShowImport(false)} />}
+      {showGitHub && (
+        <GitHubSettingsModal
+          onClose={() => setShowGitHub(false)}
+          onSaved={() => setGhConnected(isGitHubConfigured())}
+        />
+      )}
       {showLoader && (
         <ExistingLoaderModal
           onClose={() => setShowLoader(false)}
@@ -1315,6 +1406,9 @@ export default function CreatorPage() {
             {mode === 'questions' && <span className="text-sm text-gray-400">{questions.length} question{questions.length !== 1 ? 's' : ''}</span>}
           </div>
           <div className="flex items-center gap-2">
+            <button onClick={() => setShowGitHub(true)}
+              className={`px-3 py-1.5 rounded-lg text-sm font-medium ${ghConnected ? 'bg-green-700 hover:bg-green-600' : 'bg-yellow-700 hover:bg-yellow-600'}`}
+            >{ghConnected ? '🔗 GitHub Connected' : '⚙️ Connect GitHub'}</button>
             {mode === 'questions' ? (
               <>
                 <button onClick={() => setShowImport(true)}
@@ -1323,8 +1417,8 @@ export default function CreatorPage() {
                   className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-medium">Load Existing</button>
                 <button onClick={exportAll}
                   className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export JSON</button>
-                <button onClick={saveQuestionsToAppFiles}
-                  className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-medium">Save to App Files</button>
+                <button onClick={saveQuestionsToRepo} disabled={saving}
+                  className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-sm font-medium">{saving ? 'Pushing…' : 'Push to GitHub'}</button>
                 {questions.length > 0 && (
                   <button onClick={clearAll}
                     className="px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-600 text-sm font-medium">Clear All</button>
@@ -1338,8 +1432,8 @@ export default function CreatorPage() {
                   className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-medium">Load Existing</button>
                 <button onClick={exportJeopardyGame}
                   className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export Game JSON</button>
-                <button onClick={saveJeopardyGameToAppFiles}
-                  className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-medium">Save Game to App Files</button>
+                <button onClick={saveJeopardyGameToRepo} disabled={saving}
+                  className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-sm font-medium">{saving ? 'Pushing…' : 'Push Game to GitHub'}</button>
               </>
             )}
           </div>
