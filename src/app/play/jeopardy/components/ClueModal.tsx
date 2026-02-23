@@ -63,7 +63,13 @@ export default function ClueModal({
   const [allTags, setAllTags] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>(['science', 'arts']);
   const [persistingTags, setPersistingTags] = useState(false);
-  const [obscureMedia, setObscureMedia] = useState(clue.obscureMedia ?? false);
+  const isVideoClue = useCallback((c: JeopardyClueData) => {
+    if (c.mediaType === 'image' || c.mediaType === 'audio') return false;
+    if (c.mediaType === 'video') return true;
+    const url = c.mediaUrl || '';
+    return /youtube\.com|youtu\.be/i.test(url) || isDirectVideoFile(url);
+  }, []);
+  const [obscureMedia, setObscureMedia] = useState(clue.obscureMedia ?? isVideoClue(clue));
 
   const predefinedGroups = useMemo(() => getQuestionTagGroups(), []);
   const autoTagSuggestions = useMemo(
@@ -84,8 +90,8 @@ export default function ClueModal({
     setShowTagger(false);
     setTagInput('');
     setExpandedGroups(['science', 'arts']);
-    setObscureMedia(clue.obscureMedia ?? false);
-  }, [clue.clueId, clue.topicTags, clue.obscureMedia]);
+    setObscureMedia(clue.obscureMedia ?? isVideoClue(clue));
+  }, [clue.clueId, clue.topicTags, clue.obscureMedia, isVideoClue]);
 
   const saveFlags = useCallback(
     (f: boolean, m: boolean) => {
