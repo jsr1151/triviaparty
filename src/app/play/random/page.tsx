@@ -25,6 +25,13 @@ export default function RandomPage() {
     const data = await res.json();
     const questions = Array.isArray(data?.questions) ? data.questions : [];
     return questions
+      .filter((q: AnyQuestion) => {
+        if (q.type !== 'media') return true;
+        const mediaQuestion = q as AnyQuestion & { mediaUrl?: string; needsMediaReview?: boolean };
+        const mediaUrl = mediaQuestion.mediaUrl || '';
+        if (mediaQuestion.needsMediaReview) return false;
+        return !/youtube\.com\/clip\//i.test(mediaUrl);
+      })
       .map((q: AnyQuestion, index: number) => ({
       ...q,
       id: q.id || `static-${index}`,
