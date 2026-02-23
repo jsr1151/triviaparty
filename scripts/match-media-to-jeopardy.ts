@@ -15,7 +15,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 const GAMES_DIR = path.join(__dirname, '..', 'public', 'data', 'jeopardy');
-const QUESTIONS_FILE = path.join(__dirname, '..', 'data', 'sheets-import-questions.json');
+const QUESTIONS_FILE = path.join(__dirname, '..', 'public', 'data', 'questions', 'sheets-import-questions.json');
 
 // Video game categories — these won't appear in Jeopardy episodes
 const SKIP_CATEGORIES = new Set([
