@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import type { AnyQuestion, Difficulty } from '@/types/questions';
-import type { JeopardyGameData, JeopardyCategoryData, JeopardyClueData } from '@/types/jeopardy';
+import type { JeopardyGameData, JeopardyCategoryData, JeopardyClueData, JeopardyIndexEntry } from '@/types/jeopardy';
 
 /* ─── constants ─── */
 const QUESTION_TYPES = [
@@ -47,6 +47,36 @@ function downloadJson(questions: AnyQuestion[], filename: string) {
   a.download = filename;
   a.click();
   URL.revokeObjectURL(url);
+}
+
+function parseNumberList(input: string): Set<number> {
+  return new Set(
+    input
+      .split(/[\s,]+/)
+      .map((token) => Number(token.trim()))
+      .filter((value) => Number.isFinite(value) && value > 0),
+  );
+}
+
+function parseStringList(input: string): string[] {
+  return input
+    .split(/[\s,]+/)
+    .map((value) => value.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+function normalizeText(value: string): string {
+  return value.toLowerCase().trim();
+}
+
+function categoryName(value: AnyQuestion['category'] | string | undefined): string {
+  if (!value) return '';
+  if (typeof value === 'string') return value;
+  return value.name || '';
+}
+
+function questionSignature(questionText: string, category: AnyQuestion['category'] | string | undefined): string {
+  return `${normalizeText(questionText)}|${normalizeText(categoryName(category))}`;
 }
 
 /* ─── blank question factories ─── */
@@ -672,11 +702,371 @@ function ImportModal({ onImport, onClose }: { onImport: (qs: AnyQuestion[]) => v
   );
 }
 
+type LoaderSource = 'pool' | 'jeopardy';
+
+type LoaderResult = {
+  key: string;
+  question: AnyQuestion;
+  questionIdLabel: string;
+  source: LoaderSource;
+  flagged?: boolean;
+  tags?: string[];
+  episode?: string;
+};
+
+function ExistingLoaderModal({
+  onClose,
+  onImportQuestions,
+  onLoadJeopardyGame,
+}: {
+  onClose: () => void;
+  onImportQuestions: (qs: AnyQuestion[]) => void;
+  onLoadJeopardyGame: (game: JeopardyGameData) => void;
+}) {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const [source, setSource] = useState<LoaderSource>('pool');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  const [results, setResults] = useState<LoaderResult[]>([]);
+  const [selectedKeys, setSelectedKeys] = useState<Set<string>>(new Set());
+
+  const [poolQuery, setPoolQuery] = useState('');
+  const [poolIds, setPoolIds] = useState('');
+  const [poolFlaggedOnly, setPoolFlaggedOnly] = useState(false);
+
+  const [episodeQuery, setEpisodeQuery] = useState('');
+  const [tagQuery, setTagQuery] = useState('');
+  const [clueIdQuery, setClueIdQuery] = useState('');
+
+  const [episodes, setEpisodes] = useState<JeopardyIndexEntry[]>([]);
+
+  async function loadPoolQuestions() {
+    setLoading(true);
+    setError('');
+    try {
+      const [response, flaggedResponse] = await Promise.all([
+        fetch(`${base}/data/questions/sheets-import-questions.json`),
+        fetch(`${base}/data/questions/flagged-media-questions.json`),
+      ]);
+      if (!response.ok) throw new Error('Failed to load question pool');
+      const payload = await response.json();
+      const allQuestions = Array.isArray(payload?.questions) ? payload.questions : [];
+
+      const flaggedPayload = flaggedResponse.ok ? await flaggedResponse.json() : { items: [] };
+      const flaggedItems = Array.isArray(flaggedPayload?.items) ? flaggedPayload.items : [];
+      const flaggedSignatures = new Set<string>(
+        flaggedItems
+          .map((item: { question?: string; category?: string }) =>
+            questionSignature(item.question || '', item.category || ''),
+          )
+          .filter((signature: string) => signature !== '|'),
+      );
+
+      const ids = parseNumberList(poolIds);
+      const query = normalizeText(poolQuery);
+
+      const nextResults: LoaderResult[] = allQuestions
+        .map((question: AnyQuestion & { needsMediaReview?: boolean }, index: number) => ({
+          key: `pool-${index + 1}`,
+          question,
+          questionIdLabel: `Q${index + 1}`,
+          source: 'pool' as const,
+          flagged:
+            question.needsMediaReview === true ||
+            flaggedSignatures.has(questionSignature(question.question || '', question.category)),
+        }))
+        .filter((entry: LoaderResult) => {
+          if (poolFlaggedOnly && !entry.flagged) return false;
+          if (ids.size > 0) {
+            const numericId = Number(entry.questionIdLabel.replace('Q', ''));
+            if (!ids.has(numericId)) return false;
+          }
+          if (query) {
+            const blob = JSON.stringify(entry.question).toLowerCase();
+            if (!blob.includes(query)) return false;
+          }
+          return true;
+        })
+        .slice(0, 500);
+
+      setResults(nextResults);
+      setSelectedKeys(new Set());
+      setEpisodes([]);
+    } catch (loadError) {
+      setError(loadError instanceof Error ? loadError.message : 'Failed to load questions');
+      setResults([]);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function loadJeopardyClues() {
+    setLoading(true);
+    setError('');
+    try {
+      const indexResponse = await fetch(`${base}/data/jeopardy/index.json`);
+      if (!indexResponse.ok) throw new Error('Failed to load Jeopardy index');
+      const indexPayload = (await indexResponse.json()) as JeopardyIndexEntry[];
+
+      const episodeTokens = parseStringList(episodeQuery);
+      const tagTokens = parseStringList(tagQuery);
+      const clueTokens = parseStringList(clueIdQuery);
+
+      const matchingEpisodes = indexPayload.filter((entry) => {
+        if (episodeTokens.length === 0) return true;
+        const gameIdText = String(entry.gameId).toLowerCase();
+        const showNumberText = String(entry.showNumber).toLowerCase();
+        const airDateText = (entry.airDate || '').toLowerCase();
+        return episodeTokens.some((token) =>
+          gameIdText.includes(token) || showNumberText.includes(token) || airDateText.includes(token),
+        );
+      });
+
+      const cappedEpisodes = matchingEpisodes.slice(0, 30);
+      const nextResults: LoaderResult[] = [];
+
+      for (const episode of cappedEpisodes) {
+        const gameResponse = await fetch(`${base}/data/jeopardy/${episode.file}`);
+        if (!gameResponse.ok) continue;
+        const game = (await gameResponse.json()) as JeopardyGameData;
+
+        for (const category of game.categories) {
+          for (const clue of category.clues) {
+            const tags = (clue.topicTags || []).map((tag) => tag.toLowerCase());
+            if (tagTokens.length && !tagTokens.every((tag) => tags.includes(tag))) continue;
+            if (clueTokens.length) {
+              const clueIdText = (clue.clueId || '').toLowerCase();
+              if (!clueTokens.some((token) => clueIdText.includes(token))) continue;
+            }
+
+            const converted: AnyQuestion = {
+              type: 'open_ended',
+              question: clue.question,
+              difficulty: 'medium',
+              category: category.name,
+              answer: clue.answer,
+              acceptedAnswers: clue.answer ? [clue.answer] : [],
+            };
+
+            nextResults.push({
+              key: `clue-${clue.clueId}`,
+              question: converted,
+              questionIdLabel: clue.clueId,
+              source: 'jeopardy',
+              tags: clue.topicTags || [],
+              episode: `Game ${game.gameId} · Show ${game.showNumber} · ${game.airDate}`,
+            });
+          }
+        }
+      }
+
+      setEpisodes(cappedEpisodes);
+      setResults(nextResults.slice(0, 500));
+      setSelectedKeys(new Set());
+    } catch (loadError) {
+      setError(loadError instanceof Error ? loadError.message : 'Failed to load Jeopardy clues');
+      setResults([]);
+      setEpisodes([]);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function loadEpisodeIntoJeopardy(entry: JeopardyIndexEntry) {
+    setLoading(true);
+    setError('');
+    try {
+      const gameResponse = await fetch(`${base}/data/jeopardy/${entry.file}`);
+      if (!gameResponse.ok) throw new Error(`Failed to load ${entry.file}`);
+      const game = (await gameResponse.json()) as JeopardyGameData;
+      onLoadJeopardyGame(game);
+      onClose();
+    } catch (loadError) {
+      setError(loadError instanceof Error ? loadError.message : 'Failed to load Jeopardy episode');
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function toggleSelected(key: string) {
+    setSelectedKeys((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
+
+  function loadSelectedQuestions() {
+    const selected = results.filter((entry) => selectedKeys.has(entry.key)).map((entry) => entry.question);
+    if (!selected.length) return;
+    onImportQuestions(selected);
+    onClose();
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4" onClick={onClose}>
+      <div className="bg-gray-800 rounded-2xl p-6 max-w-5xl w-full max-h-[88vh] overflow-auto" onClick={(e) => e.stopPropagation()}>
+        <div className="flex items-center justify-between mb-4 gap-3">
+          <h3 className="text-xl font-bold">Load Existing Questions</h3>
+          <div className="flex gap-2">
+            <button
+              onClick={() => {
+                setSource('pool');
+                setResults([]);
+                setSelectedKeys(new Set());
+              }}
+              className={`px-3 py-1 rounded-lg text-sm ${source === 'pool' ? 'bg-purple-600' : 'bg-gray-700 hover:bg-gray-600'}`}
+            >
+              Question Pool
+            </button>
+            <button
+              onClick={() => {
+                setSource('jeopardy');
+                setResults([]);
+                setSelectedKeys(new Set());
+              }}
+              className={`px-3 py-1 rounded-lg text-sm ${source === 'jeopardy' ? 'bg-purple-600' : 'bg-gray-700 hover:bg-gray-600'}`}
+            >
+              Jeopardy
+            </button>
+          </div>
+        </div>
+
+        {source === 'pool' ? (
+          <div className="space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              <input
+                value={poolQuery}
+                onChange={(e) => setPoolQuery(e.target.value)}
+                placeholder="Search text"
+                className="bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+              />
+              <input
+                value={poolIds}
+                onChange={(e) => setPoolIds(e.target.value)}
+                placeholder="Question IDs (e.g. 12, 51, 90)"
+                className="bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+              />
+              <label className="flex items-center gap-2 text-sm text-gray-200">
+                <input
+                  type="checkbox"
+                  checked={poolFlaggedOnly}
+                  onChange={(e) => setPoolFlaggedOnly(e.target.checked)}
+                />
+                Flagged only
+              </label>
+            </div>
+            <button
+              onClick={loadPoolQuestions}
+              disabled={loading}
+              className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 text-sm font-medium"
+            >
+              {loading ? 'Loading…' : 'Search'}
+            </button>
+          </div>
+        ) : (
+          <div className="space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              <input
+                value={episodeQuery}
+                onChange={(e) => setEpisodeQuery(e.target.value)}
+                placeholder="Episodes: gameId/show#/date (e.g. 1001, 9180)"
+                className="bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+              />
+              <input
+                value={tagQuery}
+                onChange={(e) => setTagQuery(e.target.value)}
+                placeholder="Tags (comma-separated)"
+                className="bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+              />
+              <input
+                value={clueIdQuery}
+                onChange={(e) => setClueIdQuery(e.target.value)}
+                placeholder="Question IDs (clueId, e.g. g1001-s-c0-r0)"
+                className="bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
+              />
+            </div>
+            <button
+              onClick={loadJeopardyClues}
+              disabled={loading}
+              className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 text-sm font-medium"
+            >
+              {loading ? 'Loading…' : 'Search'}
+            </button>
+
+            {episodes.length > 0 && (
+              <div className="bg-gray-900 border border-gray-700 rounded-lg p-3 space-y-2">
+                <p className="text-sm text-gray-300">Load full episode into Jeopardy Creator:</p>
+                <div className="flex flex-wrap gap-2">
+                  {episodes.slice(0, 12).map((episode) => (
+                    <button
+                      key={episode.file}
+                      onClick={() => loadEpisodeIntoJeopardy(episode)}
+                      className="px-2.5 py-1 rounded bg-emerald-700 hover:bg-emerald-600 text-xs"
+                    >
+                      {`Game ${episode.gameId} · Show ${episode.showNumber}`}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {error && <p className="text-red-400 text-sm mt-3">{error}</p>}
+
+        <div className="mt-4 border border-gray-700 rounded-xl max-h-[45vh] overflow-auto">
+          {results.length === 0 ? (
+            <div className="p-4 text-sm text-gray-400">No results yet. Run a search above.</div>
+          ) : (
+            <div className="divide-y divide-gray-700">
+              {results.map((entry) => {
+                const checked = selectedKeys.has(entry.key);
+                return (
+                  <label key={entry.key} className="block p-3 hover:bg-gray-750 cursor-pointer">
+                    <div className="flex items-start gap-3">
+                      <input type="checkbox" checked={checked} onChange={() => toggleSelected(entry.key)} className="mt-1" />
+                      <div className="min-w-0 flex-1">
+                        <div className="text-sm font-semibold text-gray-100 truncate">{entry.question.question}</div>
+                        <div className="text-xs text-gray-400 mt-1 flex flex-wrap gap-x-3 gap-y-1">
+                          <span>{entry.questionIdLabel}</span>
+                          <span>{entry.question.type}</span>
+                          <span>{typeof entry.question.category === 'string' ? entry.question.category : entry.question.category?.name || 'no-category'}</span>
+                          {entry.flagged && <span className="text-amber-300">flagged</span>}
+                          {entry.episode && <span>{entry.episode}</span>}
+                          {entry.tags && entry.tags.length > 0 && <span>{`tags: ${entry.tags.join(', ')}`}</span>}
+                        </div>
+                      </div>
+                    </div>
+                  </label>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        <div className="flex justify-end gap-2 mt-4">
+          <button onClick={onClose} className="px-4 py-2 rounded-lg bg-gray-600 hover:bg-gray-500 text-sm font-medium">Close</button>
+          <button
+            onClick={loadSelectedQuestions}
+            disabled={selectedKeys.size === 0}
+            className="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 text-sm font-medium"
+          >
+            Load Selected ({selectedKeys.size})
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ─── main page ─── */
 export default function CreatorPage() {
   const [questions, setQuestions] = useState<AnyQuestion[]>([]);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [showImport, setShowImport] = useState(false);
+  const [showLoader, setShowLoader] = useState(false);
   const [toast, setToast] = useState('');
   const [categories, setCategories] = useState<string[]>([]);
   const [mode, setMode] = useState<'questions' | 'jeopardy'>('questions');
@@ -738,6 +1128,30 @@ export default function CreatorPage() {
     if (!questions.length) { showToast('No questions to export'); return; }
     downloadJson(questions, `triviaparty-questions-${new Date().toISOString().slice(0, 10)}.json`);
     showToast(`Exported ${questions.length} questions`);
+  }
+
+  async function saveQuestionsToAppFiles() {
+    if (!questions.length) {
+      showToast('No questions to save');
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/content/questions-file', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ questions }),
+      });
+
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload?.error || 'Failed to save questions');
+      }
+
+      showToast(`Saved to app files: +${payload.added}, skipped ${payload.skipped}`);
+    } catch (error) {
+      showToast(error instanceof Error ? error.message : 'Failed to save to app files');
+    }
   }
 
   function exportJeopardyGame() {
@@ -809,6 +1223,21 @@ export default function CreatorPage() {
 
       {/* Import Modal */}
       {showImport && <ImportModal onImport={handleImport} onClose={() => setShowImport(false)} />}
+      {showLoader && (
+        <ExistingLoaderModal
+          onClose={() => setShowLoader(false)}
+          onImportQuestions={(loadedQuestions) => {
+            setQuestions((prev) => [...prev, ...loadedQuestions]);
+            setMode('questions');
+            showToast(`Loaded ${loadedQuestions.length} question${loadedQuestions.length === 1 ? '' : 's'}`);
+          }}
+          onLoadJeopardyGame={(game) => {
+            setJeopardyGame(game);
+            setMode('jeopardy');
+            showToast(`Loaded Jeopardy episode ${game.gameId}`);
+          }}
+        />
+      )}
 
       {/* Header */}
       <div className="border-b border-gray-800 bg-gray-900/80 backdrop-blur sticky top-0 z-40">
@@ -837,8 +1266,12 @@ export default function CreatorPage() {
               <>
                 <button onClick={() => setShowImport(true)}
                   className="px-3 py-1.5 rounded-lg bg-gray-700 hover:bg-gray-600 text-sm font-medium">Import</button>
+                <button onClick={() => setShowLoader(true)}
+                  className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-medium">Load Existing</button>
                 <button onClick={exportAll}
                   className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export JSON</button>
+                <button onClick={saveQuestionsToAppFiles}
+                  className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-medium">Save to App Files</button>
                 {questions.length > 0 && (
                   <button onClick={clearAll}
                     className="px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-600 text-sm font-medium">Clear All</button>
@@ -848,6 +1281,8 @@ export default function CreatorPage() {
               <>
                 <button onClick={() => setJeopardyGame(blankJeopardyGame())}
                   className="px-3 py-1.5 rounded-lg bg-gray-700 hover:bg-gray-600 text-sm font-medium">New Game</button>
+                <button onClick={() => setShowLoader(true)}
+                  className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-medium">Load Existing</button>
                 <button onClick={exportJeopardyGame}
                   className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export Game JSON</button>
               </>

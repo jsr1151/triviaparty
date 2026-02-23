@@ -23,6 +23,8 @@ export interface JeopardyClueData {
   round: 'single' | 'double' | 'final';
   /** Row index within the category (0 = cheapest / first clue) */
   rowIndex: number;
+  /** Optional repository-persisted topic tags shared across users */
+  topicTags?: string[];
 }
 
 export interface JeopardyCategoryData {

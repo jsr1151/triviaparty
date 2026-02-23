@@ -141,7 +141,8 @@ export async function searchClues(
         if (filter.flaggedOnly && !userData.flagged) continue;
         if (filter.mediaFlaggedOnly && !userData.mediaFlag) continue;
         if (filter.topicTags?.length) {
-          const hasAll = filter.topicTags.every(t => userData.topicTags.includes(t));
+          const mergedTags = Array.from(new Set([...(clue.topicTags ?? []), ...(userData.topicTags ?? [])]));
+          const hasAll = filter.topicTags.every(t => mergedTags.includes(t));
           if (!hasAll) continue;
         }
 

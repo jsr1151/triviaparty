@@ -47,6 +47,7 @@ export default function ClueModal({
   const [tagInput, setTagInput] = useState('');
   const [allTags, setAllTags] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>(['science', 'arts']);
+  const [persistingTags, setPersistingTags] = useState(false);
 
   const predefinedGroups = useMemo(() => getQuestionTagGroups(), []);
   const autoTagSuggestions = useMemo(
@@ -58,15 +59,16 @@ export default function ClueModal({
   useEffect(() => {
     if (!clue.clueId) return;
     const ud = getClueUserData(clue.clueId);
+    const mergedTags = Array.from(new Set([...(clue.topicTags ?? []), ...(ud.topicTags ?? [])]));
     setFlagged(ud.flagged);
     setMediaFlag(ud.mediaFlag);
-    setTopicTags(ud.topicTags);
-    setAllTags(getAllTags());
+    setTopicTags(mergedTags);
+    setAllTags(Array.from(new Set([...getAllTags(), ...(clue.topicTags ?? [])])));
     setShowAnswer(false);
     setShowTagger(false);
     setTagInput('');
     setExpandedGroups(['science', 'arts']);
-  }, [clue.clueId]);
+  }, [clue.clueId, clue.topicTags]);
 
   const saveFlags = useCallback(
     (f: boolean, m: boolean) => {
@@ -114,6 +116,27 @@ export default function ClueModal({
 
   function removeTag(tag: string) {
     saveTags(topicTags.filter(t => t !== tag));
+  }
+
+  async function persistTagsToAppFiles() {
+    if (!clue.clueId) return;
+    setPersistingTags(true);
+    try {
+      const response = await fetch('/api/content/clue-tags', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ clueId: clue.clueId, tags: topicTags }),
+      });
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload?.error || 'Failed to persist tags');
+      }
+      window.alert('Saved clue tags to app files. Commit and push to publish.');
+    } catch (error) {
+      window.alert(error instanceof Error ? error.message : 'Failed to persist tags');
+    } finally {
+      setPersistingTags(false);
+    }
   }
 
   const suggestions = allTags.filter(
@@ -311,6 +334,12 @@ export default function ClueModal({
                 mediaFlag ? 'bg-gray-400 text-blue-950' : 'bg-blue-800 text-blue-200 hover:bg-blue-700'
               }`}>
               🎬 {mediaFlag ? 'Media Flagged' : 'Media Flag'}
+            </button>
+            <button
+              onClick={persistTagsToAppFiles}
+              disabled={persistingTags}
+              className="flex items-center gap-1 text-sm px-3 py-2 rounded-lg font-bold transition-colors bg-emerald-700 text-white hover:bg-emerald-600 disabled:opacity-60">
+              💾 {persistingTags ? 'Saving…' : 'Save Tags to App Files'}
             </button>
           </div>
         </div>
