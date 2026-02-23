@@ -79,6 +79,22 @@ function questionSignature(questionText: string, category: AnyQuestion['category
   return `${normalizeText(questionText)}|${normalizeText(categoryName(category))}`;
 }
 
+async function readApiPayload(response: Response): Promise<Record<string, unknown>> {
+  const raw = await response.text();
+  if (!raw) return {};
+
+  try {
+    return JSON.parse(raw) as Record<string, unknown>;
+  } catch {
+    if (!response.ok) {
+      throw new Error(
+        'Save API is unavailable here. Run the app locally with `npm run dev` and use Save to App Files there.',
+      );
+    }
+    throw new Error('Unexpected non-JSON API response');
+  }
+}
+
 /* ─── blank question factories ─── */
 type QType = (typeof QUESTION_TYPES)[number]['value'];
 
@@ -1143,14 +1159,51 @@ export default function CreatorPage() {
         body: JSON.stringify({ questions }),
       });
 
-      const payload = await response.json();
+      const payload = await readApiPayload(response);
       if (!response.ok) {
-        throw new Error(payload?.error || 'Failed to save questions');
+        throw new Error(typeof payload.error === 'string' ? payload.error : 'Failed to save questions');
       }
 
-      showToast(`Saved to app files: +${payload.added}, skipped ${payload.skipped}`);
+      const added = typeof payload.added === 'number' ? payload.added : 0;
+      const skipped = typeof payload.skipped === 'number' ? payload.skipped : 0;
+      showToast(`Saved to app files: +${added}, skipped ${skipped}`);
     } catch (error) {
       showToast(error instanceof Error ? error.message : 'Failed to save to app files');
+    }
+  }
+
+  async function saveJeopardyGameToAppFiles() {
+    try {
+      const normalized: JeopardyGameData = {
+        ...jeopardyGame,
+        categories: jeopardyGame.categories.map((category) => ({
+          ...category,
+          clues: category.clues.map((clue, rowIndex) => ({
+            ...clue,
+            clueId: buildJeopardyClueId(jeopardyGame.gameId, category.round, category.position, rowIndex),
+            rowIndex,
+            category: category.name,
+            round: category.round,
+            isFinalJeopardy: category.round === 'final',
+            value: category.round === 'final' ? null : clue.value,
+          })),
+        })),
+      };
+
+      const response = await fetch('/api/content/jeopardy-game', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ game: normalized }),
+      });
+
+      const payload = await readApiPayload(response);
+      if (!response.ok) {
+        throw new Error(typeof payload.error === 'string' ? payload.error : 'Failed to save Jeopardy game');
+      }
+
+      showToast(`Saved game ${normalized.gameId} to app files`);
+    } catch (error) {
+      showToast(error instanceof Error ? error.message : 'Failed to save Jeopardy game');
     }
   }
 
@@ -1285,6 +1338,8 @@ export default function CreatorPage() {
                   className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-medium">Load Existing</button>
                 <button onClick={exportJeopardyGame}
                   className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export Game JSON</button>
+                <button onClick={saveJeopardyGameToAppFiles}
+                  className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-medium">Save Game to App Files</button>
               </>
             )}
           </div>

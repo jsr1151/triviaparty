@@ -3,7 +3,8 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import type { AnyQuestion } from '@/types/questions';
 
-export const dynamic = 'force-static';
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 interface QuestionFilePayload {
   questions: AnyQuestion[];

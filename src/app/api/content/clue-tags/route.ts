@@ -3,7 +3,8 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import type { JeopardyGameData } from '@/types/jeopardy';
 
-export const dynamic = 'force-static';
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 function normalizeTags(tags: unknown): string[] {
   if (!Array.isArray(tags)) return [];

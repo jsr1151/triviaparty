@@ -127,7 +127,15 @@ export default function ClueModal({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ clueId: clue.clueId, tags: topicTags }),
       });
-      const payload = await response.json();
+      const raw = await response.text();
+      let payload: { error?: string } = {};
+      try {
+        payload = raw ? (JSON.parse(raw) as { error?: string }) : {};
+      } catch {
+        if (!response.ok) {
+          throw new Error('Save API is unavailable here. Run locally with `npm run dev` to persist tags.');
+        }
+      }
       if (!response.ok) {
         throw new Error(payload?.error || 'Failed to persist tags');
       }
