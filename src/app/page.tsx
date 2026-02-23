@@ -43,6 +43,14 @@ const gameModes = [
     color: 'from-cyan-600 to-blue-700',
   },
   {
+    id: 'creator',
+    title: 'Creator',
+    description: 'Create new trivia questions for all game types with a visual editor.',
+    icon: '✏️',
+    href: '/play/creator',
+    color: 'from-emerald-600 to-green-700',
+  },
+  {
     id: 'media-audit',
     title: 'Media Audit',
     description: 'Review flagged media questions and mismatches for cleanup.',
