@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect, useCallback, useMemo } from 'react';
+import Image from 'next/image';
 import type { JeopardyClueData } from '@/types/jeopardy';
 import {
   getClueUserData,
@@ -18,6 +19,15 @@ import {
   isGitHubConfigured,
   commitClueTags,
 } from '@/lib/github-commit';
+import {
+  parseYouTubeEmbed,
+  isYouTubeClipUrl,
+  isDirectVideoFile,
+} from '@/lib/media-utils';
+
+function passthroughImageLoader({ src }: { src: string }): string {
+  return src;
+}
 
 interface Props {
   clue: JeopardyClueData & { id: string };
@@ -53,6 +63,7 @@ export default function ClueModal({
   const [allTags, setAllTags] = useState<string[]>([]);
   const [expandedGroups, setExpandedGroups] = useState<string[]>(['science', 'arts']);
   const [persistingTags, setPersistingTags] = useState(false);
+  const [obscureMedia, setObscureMedia] = useState(clue.obscureMedia ?? false);
 
   const predefinedGroups = useMemo(() => getQuestionTagGroups(), []);
   const autoTagSuggestions = useMemo(
@@ -73,7 +84,8 @@ export default function ClueModal({
     setShowTagger(false);
     setTagInput('');
     setExpandedGroups(['science', 'arts']);
-  }, [clue.clueId, clue.topicTags]);
+    setObscureMedia(clue.obscureMedia ?? false);
+  }, [clue.clueId, clue.topicTags, clue.obscureMedia]);
 
   const saveFlags = useCallback(
     (f: boolean, m: boolean) => {
@@ -190,6 +202,69 @@ export default function ClueModal({
       <div className="text-white text-2xl md:text-3xl text-center font-bold max-w-3xl mb-6 leading-snug">
         {clue.question}
       </div>
+
+      {/* ── Media display ── */}
+      {clue.mediaUrl && (() => {
+        const mediaUrl = clue.mediaUrl || '';
+        const embedUrl = parseYouTubeEmbed(mediaUrl, clue.mediaStart, clue.mediaEnd);
+        const isClip = isYouTubeClipUrl(mediaUrl);
+        const isDirect = isDirectVideoFile(mediaUrl);
+        const isImage = (clue.mediaType || '').toLowerCase() === 'image' || /\.(png|jpg|jpeg|gif|webp)(\?|$)/i.test(mediaUrl);
+        const isVideo = (clue.mediaType || '').toLowerCase() === 'video' || Boolean(embedUrl) || isDirect;
+        const isAudio = (clue.mediaType || '').toLowerCase() === 'audio' || /\.(mp3|wav|ogg|flac|aac|m4a)(\?|$)/i.test(mediaUrl);
+        return (
+          <div className="w-full max-w-2xl mb-4 space-y-2">
+            <div className="rounded-lg bg-black aspect-video flex items-center justify-center overflow-hidden relative">
+              {isImage && mediaUrl && (
+                <Image
+                  loader={passthroughImageLoader}
+                  unoptimized
+                  src={mediaUrl}
+                  alt="Clue media"
+                  width={1280}
+                  height={720}
+                  className="max-w-full max-h-full object-contain"
+                />
+              )}
+              {isVideo && embedUrl && (
+                <iframe
+                  src={embedUrl}
+                  title="Clue media video"
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+              )}
+              {isVideo && !embedUrl && isDirect && (
+                <video src={mediaUrl} controls className="w-full h-full object-contain" />
+              )}
+              {isVideo && isClip && !embedUrl && (
+                <div className="text-center px-4">
+                  <div className="text-yellow-300 font-semibold mb-2">YouTube blocks this clip in embedded playback.</div>
+                  <a
+                    href={mediaUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-block bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-lg font-bold"
+                  >
+                    Open Clip on YouTube
+                  </a>
+                </div>
+              )}
+              {isAudio && (
+                <audio src={mediaUrl} controls className="mx-auto" />
+              )}
+              {obscureMedia && <div className="absolute inset-0 bg-black pointer-events-none" />}
+              {!mediaUrl && <div className="text-gray-400">No media URL found.</div>}
+            </div>
+            <label className="flex items-center gap-2 text-sm text-blue-200">
+              <input type="checkbox" checked={obscureMedia} onChange={(e) => setObscureMedia(e.target.checked)} />
+              Obscure media
+            </label>
+          </div>
+        );
+      })()}
 
       {respondentLabel && (
         <div className="text-blue-200 text-sm md:text-base mb-4">

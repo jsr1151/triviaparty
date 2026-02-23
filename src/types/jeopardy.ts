@@ -25,6 +25,18 @@ export interface JeopardyClueData {
   rowIndex: number;
   /** Optional repository-persisted topic tags shared across users */
   topicTags?: string[];
+
+  /* ── Optional media attachment ── */
+  /** URL to image, YouTube video, or audio clip */
+  mediaUrl?: string;
+  /** Type of media: image, video, or audio */
+  mediaType?: 'image' | 'video' | 'audio';
+  /** For video: start time in seconds */
+  mediaStart?: number;
+  /** For video: end time in seconds */
+  mediaEnd?: number;
+  /** If true, media is hidden behind an overlay until the user reveals it */
+  obscureMedia?: boolean;
 }
 
 export interface JeopardyCategoryData {

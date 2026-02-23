@@ -13,6 +13,7 @@ import {
   commitQuestions,
   commitJeopardyGame,
 } from '@/lib/github-commit';
+import { detectMediaType } from '@/lib/media-utils';
 
 /* ─── constants ─── */
 const QUESTION_TYPES = [
@@ -1721,119 +1722,145 @@ export default function CreatorPage() {
                         />
                       </div>
 
-                      {category.clues.map((clue, rowIndex) => (
-                        <div key={clue.clueId} className="grid grid-cols-1 md:grid-cols-12 gap-2 items-start">
+
+                      {category.clues.map((clue, rowIndex) => {
+                        const updateClue = (patch: Partial<JeopardyClueData>) => {
+                          setJeopardyGame((prev) => ({
+                            ...prev,
+                            categories: prev.categories.map((item) => {
+                              if (item.round !== round || item.position !== category.position) return item;
+                              return {
+                                ...item,
+                                clues: item.clues.map((existingClue, index) =>
+                                  index === rowIndex ? { ...existingClue, ...patch } : existingClue,
+                                ),
+                              };
+                            }),
+                          }));
+                        };
+                        const hasMedia = Boolean(clue.mediaUrl);
+                        return (
+                        <div key={clue.clueId} className="space-y-1">
+                          <div className="grid grid-cols-1 md:grid-cols-12 gap-2 items-start">
                           {round !== 'final' && (
                             <input
                               type="number"
                               value={clue.value ?? 0}
-                              onChange={(e) => {
-                                const value = Number(e.target.value) || 0;
-                                setJeopardyGame((prev) => ({
-                                  ...prev,
-                                  categories: prev.categories.map((item) => {
-                                    if (item.round !== round || item.position !== category.position) return item;
-                                    return {
-                                      ...item,
-                                      clues: item.clues.map((existingClue, index) =>
-                                        index === rowIndex ? { ...existingClue, value } : existingClue,
-                                      ),
-                                    };
-                                  }),
-                                }));
-                              }}
+                              onChange={(e) => updateClue({ value: Number(e.target.value) || 0 })}
                               className="md:col-span-2 bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
                             />
                           )}
                           <textarea
                             value={clue.question}
-                            onChange={(e) => {
-                              const questionText = e.target.value;
-                              setJeopardyGame((prev) => ({
-                                ...prev,
-                                categories: prev.categories.map((item) => {
-                                  if (item.round !== round || item.position !== category.position) return item;
-                                  return {
-                                    ...item,
-                                    clues: item.clues.map((existingClue, index) =>
-                                      index === rowIndex ? { ...existingClue, question: questionText } : existingClue,
-                                    ),
-                                  };
-                                }),
-                              }));
-                            }}
+                            onChange={(e) => updateClue({ question: e.target.value })}
                             rows={2}
                             className={`${round === 'final' ? 'md:col-span-8' : 'md:col-span-6'} bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500`}
                             placeholder="Clue question"
                           />
                           <input
                             value={clue.answer}
-                            onChange={(e) => {
-                              const answerText = e.target.value;
-                              setJeopardyGame((prev) => ({
-                                ...prev,
-                                categories: prev.categories.map((item) => {
-                                  if (item.round !== round || item.position !== category.position) return item;
-                                  return {
-                                    ...item,
-                                    clues: item.clues.map((existingClue, index) =>
-                                      index === rowIndex ? { ...existingClue, answer: answerText } : existingClue,
-                                    ),
-                                  };
-                                }),
-                              }));
-                            }}
+                            onChange={(e) => updateClue({ answer: e.target.value })}
                             className="md:col-span-4 bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500"
                             placeholder="Correct answer"
                           />
-                          <label className="md:col-span-12 flex flex-wrap gap-4 text-sm text-gray-300">
-                            <span className="flex items-center gap-1">
-                              <input
-                                type="checkbox"
-                                checked={clue.dailyDouble}
-                                onChange={(e) => {
-                                  const dailyDouble = e.target.checked;
-                                  setJeopardyGame((prev) => ({
-                                    ...prev,
-                                    categories: prev.categories.map((item) => {
-                                      if (item.round !== round || item.position !== category.position) return item;
-                                      return {
-                                        ...item,
-                                        clues: item.clues.map((existingClue, index) =>
-                                          index === rowIndex ? { ...existingClue, dailyDouble } : existingClue,
-                                        ),
-                                      };
-                                    }),
-                                  }));
-                                }}
-                              />
+                          <div className="md:col-span-12 flex flex-wrap gap-4 text-sm text-gray-300">
+                            <label className="flex items-center gap-1">
+                              <input type="checkbox" checked={clue.dailyDouble}
+                                onChange={(e) => updateClue({ dailyDouble: e.target.checked })} />
                               Daily Double
-                            </span>
-                            <span className="flex items-center gap-1">
-                              <input
-                                type="checkbox"
-                                checked={clue.tripleStumper}
-                                onChange={(e) => {
-                                  const tripleStumper = e.target.checked;
-                                  setJeopardyGame((prev) => ({
-                                    ...prev,
-                                    categories: prev.categories.map((item) => {
-                                      if (item.round !== round || item.position !== category.position) return item;
-                                      return {
-                                        ...item,
-                                        clues: item.clues.map((existingClue, index) =>
-                                          index === rowIndex ? { ...existingClue, tripleStumper } : existingClue,
-                                        ),
-                                      };
-                                    }),
-                                  }));
-                                }}
-                              />
+                            </label>
+                            <label className="flex items-center gap-1">
+                              <input type="checkbox" checked={clue.tripleStumper}
+                                onChange={(e) => updateClue({ tripleStumper: e.target.checked })} />
                               Triple Stumper
-                            </span>
-                          </label>
+                            </label>
+                            <label className="flex items-center gap-1">
+                              <input type="checkbox" checked={hasMedia}
+                                onChange={(e) => {
+                                  if (e.target.checked) {
+                                    updateClue({ mediaUrl: '', mediaType: 'image', obscureMedia: false });
+                                  } else {
+                                    updateClue({ mediaUrl: undefined, mediaType: undefined, mediaStart: undefined, mediaEnd: undefined, obscureMedia: undefined });
+                                  }
+                                }} />
+                              🖼️ Media
+                            </label>
+                          </div>
+                          </div>
+
+                          {/* ── Media controls (expanded when media is toggled on) ── */}
+                          {hasMedia !== undefined && clue.mediaUrl !== undefined && (
+                            <div className="bg-gray-900 border border-gray-700 rounded-lg p-3 ml-4 space-y-2">
+                              <div className="grid grid-cols-1 md:grid-cols-12 gap-2">
+                                <select
+                                  value={clue.mediaType || 'image'}
+                                  onChange={(e) => updateClue({ mediaType: e.target.value as 'image' | 'video' | 'audio' })}
+                                  className="md:col-span-2 bg-gray-700 rounded-lg px-3 py-2 text-white text-sm outline-none focus:ring-2 focus:ring-purple-500"
+                                >
+                                  <option value="image">🖼️ Image</option>
+                                  <option value="video">🎬 Video</option>
+                                  <option value="audio">🔊 Audio</option>
+                                </select>
+                                <input
+                                  value={clue.mediaUrl || ''}
+                                  onChange={(e) => {
+                                    const url = e.target.value;
+                                    const autoType = url ? detectMediaType(url) : (clue.mediaType || 'image');
+                                    updateClue({ mediaUrl: url, mediaType: autoType });
+                                  }}
+                                  className="md:col-span-7 bg-gray-700 rounded-lg px-3 py-2 text-white text-sm placeholder-gray-500 outline-none focus:ring-2 focus:ring-purple-500"
+                                  placeholder="Media URL (image, YouTube, audio…)"
+                                />
+                                <label className="md:col-span-3 flex items-center gap-2 text-sm text-gray-300">
+                                  <input type="checkbox" checked={clue.obscureMedia || false}
+                                    onChange={(e) => updateClue({ obscureMedia: e.target.checked })} />
+                                  Obscure media
+                                </label>
+                              </div>
+                              {(clue.mediaType === 'video') && (
+                                <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                                  <div>
+                                    <label className="block text-xs text-gray-500 mb-1">Start (sec)</label>
+                                    <input
+                                      type="number"
+                                      value={clue.mediaStart ?? ''}
+                                      onChange={(e) => updateClue({ mediaStart: e.target.value ? Number(e.target.value) : undefined })}
+                                      className="w-full bg-gray-700 rounded-lg px-3 py-1.5 text-white text-sm outline-none focus:ring-2 focus:ring-purple-500"
+                                      placeholder="0"
+                                    />
+                                  </div>
+                                  <div>
+                                    <label className="block text-xs text-gray-500 mb-1">End (sec)</label>
+                                    <input
+                                      type="number"
+                                      value={clue.mediaEnd ?? ''}
+                                      onChange={(e) => updateClue({ mediaEnd: e.target.value ? Number(e.target.value) : undefined })}
+                                      className="w-full bg-gray-700 rounded-lg px-3 py-1.5 text-white text-sm outline-none focus:ring-2 focus:ring-purple-500"
+                                      placeholder="∞"
+                                    />
+                                  </div>
+                                </div>
+                              )}
+                              {/* Preview */}
+                              {clue.mediaUrl && (
+                                <div className="bg-black rounded-lg overflow-hidden max-h-32 flex items-center justify-center">
+                                  {clue.mediaType === 'image' && (
+                                    // eslint-disable-next-line @next/next/no-img-element
+                                    <img src={clue.mediaUrl} alt="Preview" className="max-h-32 mx-auto rounded" />
+                                  )}
+                                  {clue.mediaType === 'video' && (
+                                    <span className="text-gray-400 text-xs py-4">🎬 Video preview available in-game</span>
+                                  )}
+                                  {clue.mediaType === 'audio' && (
+                                    <audio src={clue.mediaUrl} controls className="mx-auto my-2" />
+                                  )}
+                                </div>
+                              )}
+                            </div>
+                          )}
                         </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   ))}
                 </div>
