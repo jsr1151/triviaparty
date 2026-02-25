@@ -234,44 +234,69 @@ export default function JeopardyPage() {
       const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
       const isStaticPages = Boolean(base);
 
+      let apiGames: JeopardyGame[] = [];
+      let index: JeopardyIndexEntry[] = [];
+
       if (!isStaticPages) {
         try {
           const res = await fetch('/api/jeopardy?limit=300');
           const data = await res.json();
-          const apiGames = (data.games ?? []).map(normaliseApiGame);
-          if (apiGames.length > 0) {
-            setDisplayGames(apiGames);
-            setDataSource('api');
-            setLoading(false);
-            return;
-          }
+          apiGames = (data.games ?? []).map(normaliseApiGame);
         } catch {
         }
       }
 
       try {
         const idxRes = await fetch(`${base}/data/jeopardy/index.json`);
-        const index: JeopardyIndexEntry[] = await idxRes.json();
+        index = await idxRes.json();
+      } catch {
+      }
+
+      const indexedGames = index.map(entry => ({
+        id: String(entry.gameId),
+        gameId: entry.gameId,
+        showNumber: entry.showNumber,
+        airDate: entry.airDate,
+        season: entry.season,
+        isSpecial: entry.isSpecial,
+        tournamentType: entry.tournamentType,
+        sourceFile: entry.file,
+        categories: [],
+      } as JeopardyGame));
+
+      const merged = new Map<string, JeopardyGame>();
+      const upsertGame = (game: JeopardyGame) => {
+        const key = game.gameId != null ? `gid:${game.gameId}` : `show:${game.showNumber}|${game.airDate}`;
+        const existing = merged.get(key);
+        if (!existing || (existing.categories.length === 0 && game.categories.length > 0)) {
+          merged.set(key, game);
+        }
+      };
+
+      indexedGames.forEach(upsertGame);
+      apiGames.forEach(upsertGame);
+
+      const mergedGames = Array.from(merged.values()).sort((left, right) => {
+        const showDiff = right.showNumber - left.showNumber;
+        if (showDiff !== 0) return showDiff;
+        const leftTime = new Date(left.airDate).getTime();
+        const rightTime = new Date(right.airDate).getTime();
+        if (!Number.isNaN(leftTime) && !Number.isNaN(rightTime) && rightTime !== leftTime) {
+          return rightTime - leftTime;
+        }
+        return String(right.id).localeCompare(String(left.id));
+      });
+
+      if (mergedGames.length > 0) {
+        setDisplayGames(mergedGames);
         if (index.length > 0) {
           setIndexEntries(index);
-          setDisplayGames(
-            index.map(entry => ({
-              id: String(entry.gameId),
-              gameId: entry.gameId,
-              showNumber: entry.showNumber,
-              airDate: entry.airDate,
-              season: entry.season,
-              isSpecial: entry.isSpecial,
-              tournamentType: entry.tournamentType,
-              sourceFile: entry.file,
-              categories: [],
-            })),
-          );
           setDataSource('files-index');
-          setLoading(false);
-          return;
+        } else {
+          setDataSource('api');
         }
-      } catch {
+        setLoading(false);
+        return;
       }
 
       setDataSource('empty');
