@@ -49,6 +49,13 @@ interface GitHubFileInfo {
   content: string; // base64
 }
 
+interface GitHubContentResponse {
+  sha?: string;
+  content?: string;
+  git_url?: string;
+  size?: number;
+}
+
 const API = 'https://api.github.com';
 
 function headers(token: string): Record<string, string> {
@@ -71,8 +78,32 @@ async function getFile(
     const body = await res.text();
     throw new Error(`GitHub API error fetching ${filePath}: ${res.status} ${body}`);
   }
-  const data = await res.json();
-  return { sha: data.sha, content: data.content };
+  const data = await res.json() as GitHubContentResponse;
+
+  if (!data.sha) {
+    throw new Error(`GitHub API response for ${filePath} is missing SHA`);
+  }
+
+  let content = typeof data.content === 'string' ? data.content : '';
+
+  if (!content && data.git_url) {
+    const blobRes = await fetch(data.git_url, { headers: headers(config.token) });
+    if (!blobRes.ok) {
+      const blobBody = await blobRes.text();
+      throw new Error(`GitHub blob API error fetching ${filePath}: ${blobRes.status} ${blobBody}`);
+    }
+    const blobData = await blobRes.json() as GitHubContentResponse;
+    content = typeof blobData.content === 'string' ? blobData.content : '';
+  }
+
+  if (!content) {
+    throw new Error(
+      `GitHub did not return file content for ${filePath} (size=${data.size ?? 'unknown'}). ` +
+      'Aborting to prevent accidental overwrite of existing data.',
+    );
+  }
+
+  return { sha: data.sha, content };
 }
 
 /** Decode base64 content from GitHub API (handles unicode). */
@@ -147,7 +178,7 @@ export async function commitJsonUpdate<T>(
     try {
       currentData = JSON.parse(decodeContent(existing.content)) as T;
     } catch {
-      currentData = null;
+      throw new Error(`Failed to parse existing JSON at ${pubPath}. Aborting update to avoid data loss.`);
     }
   }
 
