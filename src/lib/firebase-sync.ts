@@ -2,7 +2,7 @@
 
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { db, isFirebaseConfigured } from '@/lib/firebase';
-import { getSyncCode } from '@/lib/sync-code';
+import { getSyncCode, normalizeSyncCode } from '@/lib/sync-code';
 
 const USERS_KEY = 'triviaparty:users';
 const ACTIVE_USER_KEY = 'triviaparty:active-user';
@@ -64,10 +64,6 @@ function collectUserRecords() {
 
 function warnConfigMissing() {
   console.warn('[sync] Firebase env vars are not set. Skipping cloud sync.');
-}
-
-function normalizeSyncCode(syncCode: string) {
-  return syncCode.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8);
 }
 
 function buildPayload(): SyncedProgressDoc {
@@ -169,7 +165,6 @@ export async function pullProgressFromFirestore(syncCode: string) {
 
     if (changed) {
       window.dispatchEvent(new Event('triviaparty:sync-updated'));
-      window.location.reload();
     }
   } catch (error) {
     console.warn('[sync] Failed to pull progress from Firestore.', error);

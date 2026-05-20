@@ -10,8 +10,15 @@ export default function StatsPage() {
   const [episodes, setEpisodes] = useState(listEpisodeStats());
 
   useEffect(() => {
-    setOverall(getOverallStats());
-    setEpisodes(listEpisodeStats());
+    const refresh = () => {
+      setOverall(getOverallStats());
+      setEpisodes(listEpisodeStats());
+    };
+    refresh();
+    window.addEventListener('triviaparty:sync-updated', refresh);
+    return () => {
+      window.removeEventListener('triviaparty:sync-updated', refresh);
+    };
   }, []);
 
   return (

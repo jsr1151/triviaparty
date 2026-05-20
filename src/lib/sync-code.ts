@@ -8,7 +8,7 @@ function canUseStorage() {
   return typeof window !== 'undefined';
 }
 
-function normalizeCode(code: string) {
+export function normalizeSyncCode(code: string) {
   return code.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, CODE_LENGTH);
 }
 
@@ -33,9 +33,13 @@ export function generateSyncCode() {
 
 export function getSyncCode() {
   if (!canUseStorage()) return generateSyncCode();
-  const existing = normalizeCode(window.localStorage.getItem(SYNC_CODE_KEY) ?? '');
+  const raw = window.localStorage.getItem(SYNC_CODE_KEY);
+  const existing = normalizeSyncCode(raw ?? '');
   if (existing.length === CODE_LENGTH) {
     return existing;
+  }
+  if (raw) {
+    console.warn('[sync] Invalid local sync code found. Creating a new code.');
   }
   const generated = generateSyncCode();
   window.localStorage.setItem(SYNC_CODE_KEY, generated);
@@ -43,7 +47,7 @@ export function getSyncCode() {
 }
 
 export function setSyncCode(code: string) {
-  const normalized = normalizeCode(code);
+  const normalized = normalizeSyncCode(code);
   if (!canUseStorage() || normalized.length !== CODE_LENGTH) return null;
   window.localStorage.setItem(SYNC_CODE_KEY, normalized);
   return normalized;
