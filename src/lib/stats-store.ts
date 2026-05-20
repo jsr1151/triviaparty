@@ -56,6 +56,15 @@ function canUseStorage() {
   return typeof window !== 'undefined';
 }
 
+function scheduleCloudSync() {
+  if (!canUseStorage()) return;
+  void import('@/lib/firebase-sync')
+    .then(({ scheduleProgressPush }) => {
+      scheduleProgressPush();
+    })
+    .catch(() => {});
+}
+
 function getUserKey(username: string) {
   return `triviaparty:user:${username.toLowerCase()}`;
 }
@@ -171,6 +180,7 @@ export function recordClueOutcome(username: string, clue: JeopardyClueData, outc
   if (outcome === 'skip') user.stats.skippedQuestions += 1;
 
   saveUser(username, user);
+  scheduleCloudSync();
 }
 
 export function recordGameCompleted(
@@ -188,6 +198,7 @@ export function recordGameCompleted(
   }
 
   saveUser(username, user);
+  scheduleCloudSync();
 }
 
 export function getLearnClues(username: string): Array<StoredClueProgress> {

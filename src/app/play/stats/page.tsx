@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import SyncCodePanel from '@/components/SyncCodePanel';
 import { getOverallStats, listEpisodeStats } from '@/lib/local-tracker';
 
 export default function StatsPage() {
@@ -9,8 +10,15 @@ export default function StatsPage() {
   const [episodes, setEpisodes] = useState(listEpisodeStats());
 
   useEffect(() => {
-    setOverall(getOverallStats());
-    setEpisodes(listEpisodeStats());
+    const refresh = () => {
+      setOverall(getOverallStats());
+      setEpisodes(listEpisodeStats());
+    };
+    refresh();
+    window.addEventListener('triviaparty:sync-updated', refresh);
+    return () => {
+      window.removeEventListener('triviaparty:sync-updated', refresh);
+    };
   }, []);
 
   return (
@@ -27,6 +35,10 @@ export default function StatsPage() {
           <Stat label="Correct" value={overall.correctAnswers} />
           <Stat label="Wrong" value={overall.incorrectAnswers} />
           <Stat label="Skipped" value={overall.skippedQuestions} />
+        </div>
+
+        <div className="mb-6">
+          <SyncCodePanel />
         </div>
 
         <div className="bg-blue-900 rounded-xl p-4">

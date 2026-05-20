@@ -48,6 +48,15 @@ function canUseStorage() {
   return typeof window !== 'undefined';
 }
 
+function scheduleCloudSync() {
+  if (!canUseStorage()) return;
+  void import('@/lib/firebase-sync')
+    .then(({ scheduleProgressPush }) => {
+      scheduleProgressPush();
+    })
+    .catch(() => {});
+}
+
 function readJson<T>(key: string, fallback: T): T {
   if (!canUseStorage()) return fallback;
   try {
@@ -164,6 +173,8 @@ export function recordEpisodeOutcome(params: {
     };
     writeJson(CLUES_KEY, clueMap);
   }
+
+  scheduleCloudSync();
 }
 
 export function markEpisodeCompleted(episodeKey: string) {
@@ -179,6 +190,8 @@ export function markEpisodeCompleted(episodeKey: string) {
   overall.gamesPlayed += 1;
   overall.episodesCompleted += 1;
   saveOverallStats(overall);
+
+  scheduleCloudSync();
 }
 
 export function getLearnCluesLocal() {
