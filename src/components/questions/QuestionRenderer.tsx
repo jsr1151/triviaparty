@@ -3,13 +3,20 @@
 import { useEffect, useMemo, useState } from 'react';
 import Image, { type ImageLoaderProps } from 'next/image';
 import type { AnyQuestion } from '@/types/questions';
-import { getQuestionPossiblePoints, getRankingPromptText, inferRankingDirection } from '@/lib/question-utils';
+import { getQuestionPossiblePoints, getRankingPromptText, inferRankingDirection, stripListLeadingCount, buildThisOrThatPrompt } from '@/lib/question-utils';
+import {
+  addListAcceptedAnswer,
+  addOpenEndedAcceptedAnswer,
+  getListAcceptedAnswers,
+  getOpenEndedAcceptedAnswers,
+} from '@/lib/question-session-store';
 
 export type AnswerResult = {
   correct: boolean;
   pointsEarned: number;
   pointsPossible: number;
   type: AnyQuestion['type'];
+  override?: boolean;
 };
 
 type Props = {
@@ -215,6 +222,9 @@ function OpenEndedView({ question, onAnswer }: Props) {
   const [input, setInput] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [wasWrong, setWasWrong] = useState(false);
+  const [overrideApplied, setOverrideApplied] = useState(false);
+  const [addAsAccepted, setAddAsAccepted] = useState(true);
   const [locked, setLocked] = useState(false);
 
   const pointsPossible = getQuestionPossiblePoints(question);
@@ -223,21 +233,39 @@ function OpenEndedView({ question, onAnswer }: Props) {
     setInput('');
     setSubmitted(false);
     setShowAnswer(false);
+    setWasWrong(false);
+    setOverrideApplied(false);
+    setAddAsAccepted(true);
     setLocked(false);
   }, [q?.id, q?.question]);
 
   if (!q) return null;
-  const accepted = [q.answer || '', ...(q.acceptedAnswers || [])].filter(Boolean);
+  const accepted = [q.answer || '', ...(q.acceptedAnswers || []), ...getOpenEndedAcceptedAnswers(q)].filter(Boolean);
 
   return (
     <div className="space-y-3">
-      <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
+      <input
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key !== 'Enter' || submitted || !input.trim()) return;
+          e.preventDefault();
+          const correct = accepted.some((ans) => isCloseMatch(input, ans));
+          setSubmitted(true);
+          setWasWrong(!correct);
+          finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+        }}
+        disabled={submitted}
+        placeholder="Type your answer"
+        className="w-full bg-gray-700 rounded-lg p-3"
+      />
       <div className="grid grid-cols-2 gap-2">
         <button
           disabled={submitted || !input.trim()}
           onClick={() => {
             const correct = accepted.some((ans) => isCloseMatch(input, ans));
             setSubmitted(true);
+            setWasWrong(!correct);
             finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
           }}
           className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
@@ -256,6 +284,32 @@ function OpenEndedView({ question, onAnswer }: Props) {
           Reveal Answer
         </button>
       </div>
+      {wasWrong && !overrideApplied && (
+        <div className="bg-gray-900 rounded-lg p-3 space-y-2">
+          <label className="flex items-center gap-2 text-sm text-gray-300">
+            <input type="checkbox" checked={addAsAccepted} onChange={(e) => setAddAsAccepted(e.target.checked)} />
+            Add this as an acceptable answer for future rounds
+          </label>
+          <button
+            onClick={() => {
+              if (addAsAccepted) addOpenEndedAcceptedAnswer(q, input);
+              setOverrideApplied(true);
+              setWasWrong(false);
+              setShowAnswer(true);
+              onAnswer({
+                correct: true,
+                pointsEarned: pointsPossible,
+                pointsPossible: 0,
+                type: question.type,
+                override: true,
+              });
+            }}
+            className="w-full bg-emerald-700 hover:bg-emerald-600 py-2 rounded-lg font-bold"
+          >
+            Override as Correct
+          </button>
+        </div>
+      )}
       {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
     </div>
   );
@@ -273,6 +327,11 @@ function ListView({ question, onAnswer }: Props) {
   const [scoringMode, setScoringMode] = useState<'target' | 'as_many'>('target');
   const [timeLeft, setTimeLeft] = useState(30);
   const [strikes, setStrikes] = useState(0);
+  const [resultCorrect, setResultCorrect] = useState<boolean | null>(null);
+  const [resultEarned, setResultEarned] = useState(0);
+  const [overrideApplied, setOverrideApplied] = useState(false);
+  const [addAsAccepted, setAddAsAccepted] = useState(true);
+  const [overrideAnswer, setOverrideAnswer] = useState('');
   const [locked, setLocked] = useState(false);
 
   const pointsPossible = getQuestionPossiblePoints(question);
@@ -286,9 +345,29 @@ function ListView({ question, onAnswer }: Props) {
     setSearch('');
     setMode('timed');
     setScoringMode('target');
+    const randomListMode = (q as AnyQuestion & { partyListMode?: 'timed' | 'strikes' | 'unlimited' | 'random' })?.partyListMode;
+    if (randomListMode === 'random') {
+      const listModes: Array<'timed' | 'strikes' | 'unlimited'> = ['timed', 'strikes', 'unlimited'];
+      setMode(listModes[Math.floor(Math.random() * listModes.length)]);
+    } else if (randomListMode) {
+      setMode(randomListMode);
+    }
+    const randomScoringMode = (q as AnyQuestion & { partyListScoring?: 'target' | 'as_many' | 'random' })?.partyListScoring;
+    if (randomScoringMode === 'random') {
+      const scoringModes: Array<'target' | 'as_many'> = ['target', 'as_many'];
+      setScoringMode(scoringModes[Math.floor(Math.random() * scoringModes.length)]);
+    } else if (randomScoringMode) {
+      setScoringMode(randomScoringMode);
+    }
     setLocked(false);
+    setResultCorrect(null);
+    setResultEarned(0);
+    setOverrideApplied(false);
+    setAddAsAccepted(true);
+    setOverrideAnswer('');
     const hard = q?.difficulty === 'hard' || q?.difficulty === 'very_hard';
-    setTimeLeft(hard ? 60 : 30);
+    const configuredTime = (q as AnyQuestion & { partyTimeLimitSec?: number })?.partyTimeLimitSec;
+    setTimeLeft(configuredTime && configuredTime > 0 ? configuredTime : hard ? 60 : 30);
     setStrikes(0);
   }, [q]);
 
@@ -305,12 +384,15 @@ function ListView({ question, onAnswer }: Props) {
             earned: selfScore ? 0 : Math.round(pointsPossible * Math.min(1, foundCount / Math.max(1, minRequired))),
             correct: selfScore ? false : foundCount >= minRequired,
           };
+      setResultCorrect(points.correct);
+      setResultEarned(points.earned);
+      setOverrideAnswer((prev) => prev || attempts.filter((attempt) => !attempt.correct).at(-1)?.text || input.trim());
       finalizeOnce(locked, setLocked, onAnswer, question, points.earned, pointsPossible, points.correct);
       return;
     }
     const timer = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
     return () => clearTimeout(timer);
-  }, [mode, finished, timeLeft, found.length, locked, onAnswer, pointsPossible, question, scoringMode, q]);
+  }, [mode, finished, timeLeft, found.length, locked, onAnswer, pointsPossible, question, scoringMode, q, attempts, input]);
 
   if (!q) return null;
 
@@ -323,7 +405,7 @@ function ListView({ question, onAnswer }: Props) {
         .map((item) => item.trim())
         .filter(Boolean)
     : [];
-  const answers = Array.from(new Set([...(Array.isArray(q.answers) ? q.answers : []), ...parsedFromQuestion]));
+  const answers = Array.from(new Set([...(Array.isArray(q.answers) ? q.answers : []), ...parsedFromQuestion, ...getListAcceptedAnswers(q)]));
   const minRequired = q.minRequired || 1;
   const isSelfScore = answers.some((ans) => /self\s*-?\s*score/i.test(ans)) || /self\s*-?\s*score/i.test(q.question);
   const expectsDoubleO = /two\s+o'?s|double\s+o|\boo\b|side\s*by\s*side/i.test(q.question.toLowerCase());
@@ -345,6 +427,9 @@ function ListView({ question, onAnswer }: Props) {
     if (finished) return;
     setFinished(true);
     const points = calcPoints(found.length);
+    setResultCorrect(points.correct);
+    setResultEarned(points.earned);
+    setOverrideAnswer((prev) => prev || attempts.filter((attempt) => !attempt.correct).at(-1)?.text || input.trim());
     finalizeOnce(locked, setLocked, onAnswer, question, points.earned, pointsPossible, points.correct);
   }
 
@@ -374,6 +459,9 @@ function ListView({ question, onAnswer }: Props) {
 
   return (
     <div className="space-y-3">
+      <div className="font-semibold text-gray-100">
+        {scoringMode === 'as_many' ? stripListLeadingCount(q.question) : q.question}
+      </div>
       <div className="grid grid-cols-2 gap-2">
         <select value={mode} onChange={(e) => setMode(e.target.value as 'timed' | 'strikes' | 'unlimited')} disabled={attempts.length > 0} className="bg-gray-700 rounded-lg p-2 text-sm disabled:opacity-50">
           <option value="timed">Timed</option>
@@ -431,6 +519,37 @@ function ListView({ question, onAnswer }: Props) {
               <div key={ans} className={`${found.includes(ans) ? 'text-green-300' : 'text-gray-200'}`}>{ans}</div>
             ))}
           </div>
+        </div>
+      )}
+      {resultCorrect === false && !overrideApplied && (
+        <div className="bg-gray-900 rounded-lg p-3 space-y-2">
+          <input
+            value={overrideAnswer}
+            onChange={(e) => setOverrideAnswer(e.target.value)}
+            placeholder="Answer to add as acceptable"
+            className="w-full bg-gray-700 rounded-lg p-2"
+          />
+          <label className="flex items-center gap-2 text-sm text-gray-300">
+            <input type="checkbox" checked={addAsAccepted} onChange={(e) => setAddAsAccepted(e.target.checked)} />
+            Add as acceptable answer for future rounds
+          </label>
+          <button
+            onClick={() => {
+              if (addAsAccepted && overrideAnswer.trim()) addListAcceptedAnswer(q, overrideAnswer);
+              setOverrideApplied(true);
+              setResultCorrect(true);
+              onAnswer({
+                correct: true,
+                pointsEarned: Math.max(0, pointsPossible - resultEarned),
+                pointsPossible: 0,
+                type: question.type,
+                override: true,
+              });
+            }}
+            className="w-full bg-emerald-700 hover:bg-emerald-600 py-2 rounded-lg font-bold"
+          >
+            Override as Correct
+          </button>
         </div>
       )}
     </div>
@@ -550,6 +669,7 @@ function ThisOrThatView({ question, onAnswer }: Props) {
   if (!q) return null;
 
   const categories = [q.categoryA, q.categoryB, q.categoryC].filter(Boolean) as string[];
+  const prompt = buildThisOrThatPrompt(categories);
   const current = items[index];
   if (!current) return <div className="text-gray-400">No this-or-that items available.</div>;
 
@@ -584,6 +704,7 @@ function ThisOrThatView({ question, onAnswer }: Props) {
         <button disabled={index > 0} onClick={() => setMode('standard')} className={`px-3 py-1 rounded ${mode === 'standard' ? 'bg-purple-600' : 'bg-gray-700'} disabled:opacity-50`}>Standard</button>
         <button disabled={index > 0} onClick={() => setMode('elimination')} className={`px-3 py-1 rounded ${mode === 'elimination' ? 'bg-purple-600' : 'bg-gray-700'} disabled:opacity-50`}>Elimination</button>
       </div>
+      <div className="text-sm text-gray-200">{prompt}</div>
       <div className="text-sm text-gray-300">{index + 1} / {items.length} • Correct: {correctCount}</div>
       <div className="p-3 bg-gray-700 rounded-lg">{current.text.replace(/^[-\s]+/, '')}</div>
       <div className={`grid gap-2 ${categories.length >= 3 ? 'grid-cols-3' : 'grid-cols-2'}`}>
@@ -615,6 +736,7 @@ function RankingView({ question, onAnswer }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [order, setOrder] = useState<string[]>([]);
   const [dragIndex, setDragIndex] = useState<number | null>(null);
+  const [dropIndex, setDropIndex] = useState<number | null>(null);
   const [lockedIndices, setLockedIndices] = useState<Set<number>>(new Set());
   const [showSolution, setShowSolution] = useState(false);
   const [locked, setLocked] = useState(false);
@@ -650,6 +772,7 @@ function RankingView({ question, onAnswer }: Props) {
     setSubmitted(false);
     setMode('one_shot');
     setDragIndex(null);
+    setDropIndex(null);
     setLockedIndices(new Set());
     setShowSolution(false);
     setLocked(false);
@@ -657,16 +780,24 @@ function RankingView({ question, onAnswer }: Props) {
 
   if (!q) return null;
 
-  function onDrop(targetIndex: number) {
-    if (dragIndex == null || dragIndex === targetIndex) return;
-    if (lockedIndices.has(dragIndex) || lockedIndices.has(targetIndex)) return;
+  function moveItem(fromIndex: number, targetIndex: number) {
+    if (fromIndex === targetIndex) return;
+    if (targetIndex < 0 || targetIndex >= order.length) return;
+    if (lockedIndices.has(fromIndex) || lockedIndices.has(targetIndex)) return;
     setOrder((prev) => {
       const next = [...prev];
-      const [moved] = next.splice(dragIndex, 1);
+      const [moved] = next.splice(fromIndex, 1);
       next.splice(targetIndex, 0, moved);
       return next;
     });
+  }
+
+  function onDrop(targetIndex: number) {
+    if (dragIndex == null || dragIndex === targetIndex) return;
+    if (lockedIndices.has(dragIndex) || lockedIndices.has(targetIndex)) return;
+    moveItem(dragIndex, targetIndex);
     setDragIndex(null);
+    setDropIndex(null);
   }
 
   function submitOrder() {
@@ -709,26 +840,59 @@ function RankingView({ question, onAnswer }: Props) {
         <button onClick={() => setMode('anchor_adjust')} disabled={attempts > 0} className={`px-3 py-1 rounded ${mode === 'anchor_adjust' ? 'bg-purple-600' : 'bg-gray-700'} disabled:opacity-50`}>Anchor/Adjust</button>
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-2" onDragOver={(e) => e.preventDefault()}>
+        {dropIndex === 0 && dragIndex != null && <div className="h-1 rounded bg-purple-400 animate-pulse" />}
         {order.map((item, index) => {
           const isLocked = lockedIndices.has(index);
           const correct = submitted && item === correctOrder[index];
           const incorrect = submitted && item !== correctOrder[index];
           return (
-            <button
-              key={`${item}-${index}`}
-              draggable={!submitted && !isLocked}
-              onDragStart={() => setDragIndex(index)}
-              onDragOver={(e) => e.preventDefault()}
-              onDrop={() => onDrop(index)}
-              className={`w-full text-left p-2 rounded border cursor-grab active:cursor-grabbing ${
-                isLocked ? 'bg-green-900 border-green-500' : correct ? 'bg-green-800 border-green-500' : incorrect ? 'bg-red-800 border-red-500' : 'bg-gray-700 border-gray-600'
-              }`}
-            >
-              {index + 1}. {item} {isLocked && mode === 'anchor_adjust' ? '🔒' : '↕'}
-            </button>
+            <div key={`${item}-${index}`} className="space-y-2">
+              {dropIndex === index && dragIndex !== null && dragIndex !== index && (
+                <div className="h-1 rounded bg-purple-400 animate-pulse" />
+              )}
+              <div
+                draggable={!submitted && !isLocked}
+                onDragStart={() => setDragIndex(index)}
+                onDragEnd={() => {
+                  setDragIndex(null);
+                  setDropIndex(null);
+                }}
+                onDragOver={(e) => {
+                  e.preventDefault();
+                  setDropIndex(index);
+                }}
+                onDrop={() => onDrop(index)}
+                className={`w-full text-left p-2 rounded border transition-all duration-150 ${
+                  isLocked ? 'bg-green-900 border-green-500' : correct ? 'bg-green-800 border-green-500' : incorrect ? 'bg-red-800 border-red-500' : 'bg-gray-700 border-gray-600'
+                } ${submitted || isLocked ? 'cursor-default' : 'cursor-grab active:cursor-grabbing'}`}
+              >
+                <div className="flex items-center justify-between gap-2">
+                  <span>{index + 1}. {item} {isLocked && mode === 'anchor_adjust' ? '🔒' : '↕'}</span>
+                  {!submitted && !isLocked && (
+                    <span className="flex items-center gap-1">
+                      <button
+                        onClick={() => moveItem(index, index - 1)}
+                        disabled={index === 0}
+                        className="bg-gray-800 hover:bg-gray-700 disabled:opacity-40 rounded px-2 py-1 text-xs"
+                      >
+                        ↑
+                      </button>
+                      <button
+                        onClick={() => moveItem(index, index + 1)}
+                        disabled={index === order.length - 1}
+                        className="bg-gray-800 hover:bg-gray-700 disabled:opacity-40 rounded px-2 py-1 text-xs"
+                      >
+                        ↓
+                      </button>
+                    </span>
+                  )}
+                </div>
+              </div>
+            </div>
           );
         })}
+        {dropIndex === order.length && dragIndex != null && <div className="h-1 rounded bg-purple-400 animate-pulse" />}
       </div>
 
       {!submitted && <button onClick={submitOrder} className="w-full bg-purple-600 hover:bg-purple-500 py-2 rounded-lg font-bold">Submit Ranking</button>}
@@ -904,7 +1068,20 @@ function MediaView({ question, onAnswer }: Props) {
         </>
       ) : (
         <>
-          <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
+          <input
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key !== 'Enter' || submitted || !input.trim()) return;
+              e.preventDefault();
+              const correct = accepted.some((ans) => isCloseMatch(input, ans));
+              setSubmitted(true);
+              finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+            }}
+            disabled={submitted}
+            placeholder="Type your answer"
+            className="w-full bg-gray-700 rounded-lg p-3"
+          />
           <div className="grid grid-cols-2 gap-2">
             <button
               disabled={!input.trim() || submitted}
@@ -962,7 +1139,20 @@ function PromptView({ question, onAnswer, onRerollPrompt }: Props) {
         <div className="text-xs text-gray-300 uppercase mb-1">Prompt</div>
         <div className="text-lg">{q.prompt || 'No prompt available.'}</div>
       </div>
-      <input value={input} onChange={(e) => setInput(e.target.value)} disabled={submitted} placeholder="Type your answer" className="w-full bg-gray-700 rounded-lg p-3" />
+      <input
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key !== 'Enter' || submitted || !input.trim()) return;
+          e.preventDefault();
+          const correct = accepted.some((ans) => isCloseMatch(input, ans));
+          setSubmitted(true);
+          finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+        }}
+        disabled={submitted}
+        placeholder="Type your answer"
+        className="w-full bg-gray-700 rounded-lg p-3"
+      />
       <div className="grid grid-cols-3 gap-2">
         <button
           disabled={!input.trim() || submitted}
