@@ -21,7 +21,7 @@ type SavedPreset = {
 };
 
 const LOCAL_PRESETS_KEY = 'triviaparty:party-presets';
-const DEFAULT_SLOT_CATEGORY_STRATEGY = 'any';
+const DEFAULT_SLOT_CATEGORY_STRATEGY = 'any' as const;
 const DEFAULT_GROUPING_MODE = 'elimination';
 const DEFAULT_RANKING_MODE = 'anchor_adjust';
 
@@ -37,7 +37,7 @@ function createDefaultConfiguredSlot(id: string, count: number) {
     order: 'fixed' as const,
     listMode: 'timed' as const,
     listScoring: 'target' as const,
-    categoryStrategy: DEFAULT_SLOT_CATEGORY_STRATEGY as const,
+    categoryStrategy: DEFAULT_SLOT_CATEGORY_STRATEGY,
   };
 }
 
