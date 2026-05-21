@@ -75,10 +75,11 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   let roomStatus = room.status;
   let pushPayload: Record<string, unknown> = { roomCode };
   let scoresToBroadcast: Record<string, number> | null = null;
+  const answerWindowMs = resolveAnswerWindowMs(room.gameConfig);
 
   function getCurrentQuestion(): AnyQuestion | null {
-    const q = updatedState.currentQuestion;
-    return q && typeof q === 'object' ? q as AnyQuestion : null;
+    const question = updatedState.currentQuestion;
+    return question && typeof question === 'object' ? question as AnyQuestion : null;
   }
 
   function getScores(): Record<string, number> {
@@ -240,13 +241,12 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       if (correct) {
         if (!correctOrder.includes(playerId)) correctOrder.push(playerId);
         const elapsedMs = elapsedMsSince(updatedState.questionStartedAt || now);
-        const totalWindowMs = resolveAnswerWindowMs(room.gameConfig);
         const streak = Number(streaks[playerId] || 0) + 1;
         const points = computeAwardedPoints({
           question,
           scoreMode,
           elapsedMs,
-          totalWindowMs,
+          totalWindowMs: answerWindowMs,
           correctPosition: correctOrder.length,
           streak,
         });
@@ -304,13 +304,12 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     if (correct) {
       if (!correctOrder.includes(playerId)) correctOrder.push(playerId);
       const elapsedMs = elapsedMsSince(updatedState.questionStartedAt || now);
-      const totalWindowMs = resolveAnswerWindowMs(room.gameConfig);
       const streak = Number(streaks[playerId] || 0) + 1;
       const points = computeAwardedPoints({
         question,
         scoreMode,
         elapsedMs,
-        totalWindowMs,
+        totalWindowMs: answerWindowMs,
         correctPosition: correctOrder.length,
         streak,
       });

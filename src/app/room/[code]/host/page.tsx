@@ -31,7 +31,7 @@ function getQuestionId(question: AnyQuestion | null): string {
   return String(question.id || `${question.type}-question`);
 }
 
-function renderQuestion(question: AnyQuestion | null) {
+function renderQuestionDisplay(question: AnyQuestion | null) {
   if (!question) return <div className="text-gray-400">No question loaded yet.</div>;
   if (question.type === 'multiple_choice') {
     return (
@@ -269,7 +269,7 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
 
           <div className="bg-gray-850 rounded-lg border border-gray-700 p-4 space-y-2">
             <div className="text-xs uppercase tracking-wide text-purple-300">{currentQuestion?.type || 'question'}</div>
-            {renderQuestion(currentQuestion)}
+            {renderQuestionDisplay(currentQuestion)}
             {Boolean(state.answerRevealed) && currentQuestion && (
                 <div className="text-yellow-300 font-semibold">
                 {currentQuestion.type === 'multiple_choice' && `Answer: ${extractMultipleChoiceCorrectAnswer(currentQuestion) || '—'}`}

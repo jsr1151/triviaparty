@@ -18,9 +18,10 @@ export type PlayerAnswerEntry = {
 
 export function resolveMultiplayerScoreMode(gameConfig: unknown): MultiplayerScoreMode {
   if (!gameConfig || typeof gameConfig !== 'object') return 'standard';
+  const config = gameConfig as { scoringMode?: unknown; multiplayerScoringMode?: unknown };
   const raw = String(
-    (gameConfig as { scoringMode?: unknown; multiplayerScoringMode?: unknown }).scoringMode
-      || (gameConfig as { scoringMode?: unknown; multiplayerScoringMode?: unknown }).multiplayerScoringMode
+    config.scoringMode
+      || config.multiplayerScoringMode
       || 'standard',
   )
     .trim()

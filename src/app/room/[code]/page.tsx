@@ -228,6 +228,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
                     onChange={(event) => setTextAnswer(event.target.value)}
                     onKeyDown={(event) => {
                       if (event.key !== 'Enter') return;
+                      if (event.currentTarget.disabled || event.currentTarget.readOnly) return;
                       event.preventDefault();
                       void submitTextAnswer(textAnswer);
                     }}
@@ -274,7 +275,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
 
               {currentQuestion.type === 'grouping' && (
                 <div className="space-y-3">
-                  <div className="text-sm text-gray-300">Tap tiles to assign to &quot;{currentQuestion.groupName || 'Group'}&quot;</div>
+                  <div className="text-sm text-gray-300">Select tiles to assign to &quot;{currentQuestion.groupName || 'Group'}&quot;</div>
                   <div className="grid grid-cols-2 gap-2">
                     {(currentQuestion.items || []).map((item) => {
                       const selected = groupingSelected.includes(item);
