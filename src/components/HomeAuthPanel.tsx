@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 type AuthUser = {
   id: string;
@@ -28,6 +28,35 @@ async function postJson(url: string, payload: unknown) {
   return data;
 }
 
+/** Collect all local progress from localStorage for one-time import. */
+function gatherLocalProgress() {
+  if (typeof window === 'undefined') return null;
+  try {
+    const rawClues = window.localStorage.getItem('triviaparty:local:clues');
+    const rawOverall = window.localStorage.getItem('triviaparty:local:overall');
+    const clues = rawClues ? Object.values(JSON.parse(rawClues)) : [];
+    const overall = rawOverall ? JSON.parse(rawOverall) : null;
+    return { clues, overall };
+  } catch {
+    return null;
+  }
+}
+
+/** Returns true if there is meaningful local progress worth importing. */
+function hasLocalProgress(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    const raw = window.localStorage.getItem('triviaparty:local:overall');
+    if (!raw) return false;
+    const overall = JSON.parse(raw);
+    return (overall?.correctAnswers ?? 0) + (overall?.incorrectAnswers ?? 0) + (overall?.skippedQuestions ?? 0) > 0;
+  } catch {
+    return false;
+  }
+}
+
+const IMPORT_DONE_KEY = 'triviaparty:local:imported';
+
 export default function HomeAuthPanel() {
   const isStaticHost = typeof window !== 'undefined' && window.location.hostname.endsWith('github.io');
   const [mode, setMode] = useState<'signin' | 'signup'>('signin');
@@ -35,10 +64,14 @@ export default function HomeAuthPanel() {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [stats, setStats] = useState<UserStats | null>(null);
   const [error, setError] = useState('');
+  const [importMsg, setImportMsg] = useState('');
 
-  const [email, setEmail] = useState('');
+  const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
+
+  const didAutoImport = useRef(false);
 
   useEffect(() => {
     (async () => {
@@ -46,12 +79,40 @@ export default function HomeAuthPanel() {
         const res = await fetch('/api/auth/me');
         if (!res.ok) return;
         const data = await res.json();
-        setUser(data.user ?? null);
-        setStats(data.stats ?? null);
+        if (data.user) {
+          setUser(data.user);
+          setStats(data.stats ?? null);
+        }
       } catch {
       }
     })();
   }, []);
+
+  /** Attempt to silently import local progress once after sign-in. */
+  async function tryImportLocal() {
+    if (didAutoImport.current) return;
+    const alreadyDone = typeof window !== 'undefined' && window.localStorage.getItem(IMPORT_DONE_KEY) === '1';
+    if (alreadyDone || !hasLocalProgress()) return;
+    didAutoImport.current = true;
+
+    try {
+      const progress = gatherLocalProgress();
+      if (!progress) return;
+      const result = await postJson('/api/user/import-local', progress);
+      if ((result.imported ?? 0) > 0) {
+        setImportMsg(`✅ Imported ${result.imported} local clue(s) into your account.`);
+        window.localStorage.setItem(IMPORT_DONE_KEY, '1');
+        // Refresh stats
+        const meRes = await fetch('/api/auth/me');
+        if (meRes.ok) {
+          const me = await meRes.json();
+          setStats(me.stats ?? null);
+        }
+      }
+    } catch {
+      // Non-fatal; local progress remains in localStorage
+    }
+  }
 
   async function submit() {
     if (isStaticHost) {
@@ -63,15 +124,17 @@ export default function HomeAuthPanel() {
     setLoading(true);
     try {
       if (mode === 'signin') {
-        const data = await postJson('/api/auth/login', { email, password });
+        const data = await postJson('/api/auth/login', { login, password });
         setUser(data.user);
         setStats(data.stats ?? null);
+        await tryImportLocal();
       } else {
-        await postJson('/api/auth/signup', { email, password, username });
+        await postJson('/api/auth/signup', { email, username, password });
         const meRes = await fetch('/api/auth/me');
         const me = await meRes.json();
         setUser(me.user ?? null);
         setStats(me.stats ?? null);
+        await tryImportLocal();
       }
       setPassword('');
     } catch (err) {
@@ -83,6 +146,7 @@ export default function HomeAuthPanel() {
   async function logout() {
     setLoading(true);
     setError('');
+    setImportMsg('');
     try {
       await postJson('/api/auth/logout', {});
       setUser(null);
@@ -106,6 +170,7 @@ export default function HomeAuthPanel() {
             Sign out
           </button>
         </div>
+        {importMsg && <div className="text-green-400 text-sm mt-3">{importMsg}</div>}
         {stats && (
           <div className="mt-4 grid grid-cols-2 md:grid-cols-6 gap-2 text-xs text-gray-300">
             <div>Games: {stats.gamesPlayed}</div>
@@ -131,13 +196,55 @@ export default function HomeAuthPanel() {
         </button>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-3">
-        <input value={email} onChange={e => setEmail(e.target.value)} placeholder="Email" className="bg-gray-800 border border-gray-700 rounded px-3 py-2" />
-        {mode === 'signup' && (
-          <input value={username} onChange={e => setUsername(e.target.value)} placeholder="Username" className="bg-gray-800 border border-gray-700 rounded px-3 py-2" />
-        )}
-        <input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Password" className="bg-gray-800 border border-gray-700 rounded px-3 py-2" />
-      </div>
+      {mode === 'signin' ? (
+        <div className="grid md:grid-cols-2 gap-3">
+          <input
+            aria-label="Username or email"
+            autoComplete="username"
+            value={login}
+            onChange={e => setLogin(e.target.value)}
+            placeholder="Username or email"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
+          <input
+            type="password"
+            aria-label="Password"
+            autoComplete="current-password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            placeholder="Password"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
+        </div>
+      ) : (
+        <div className="grid md:grid-cols-3 gap-3">
+          <input
+            aria-label="Email"
+            autoComplete="email"
+            value={email}
+            onChange={e => setEmail(e.target.value)}
+            placeholder="Email"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
+          <input
+            aria-label="Username"
+            autoComplete="username"
+            value={username}
+            onChange={e => setUsername(e.target.value)}
+            placeholder="Username"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
+          <input
+            type="password"
+            aria-label="Password"
+            autoComplete="new-password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            placeholder="Password (min 6 chars)"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
+        </div>
+      )}
 
       {error && <div className="text-red-400 text-sm mt-3">{error}</div>}
 
