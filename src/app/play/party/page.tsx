@@ -593,7 +593,7 @@ function PartySettingsModal({
                 {round.mode === 'configured' && (
                   <div className="space-y-2">
                     {round.slots.map((slot, slotIndex) => (
-                      <div key={slot.id} className="grid md:grid-cols-9 gap-2">
+                      <div key={slot.id} className="grid md:grid-cols-8 gap-2">
                         <select value={slot.type} onChange={(e) => {
                           const rounds = [...settings.rounds];
                           const slots = [...round.slots];

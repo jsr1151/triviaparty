@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { readFileSync } from 'fs';
+import { readFile } from 'fs/promises';
 import { join } from 'path';
 import type { Prisma } from '@/generated/prisma/client';
 import { prisma } from '@/lib/prisma';
@@ -46,7 +46,8 @@ const HOST_ONLY_EVENTS = new Set([
   'state-updated',
 ]);
 const DEFAULT_ANSWER_WINDOW_MS = 15000;
-const STATIC_QUESTIONS_FILE_PATH = join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+const STATIC_QUESTIONS_FILE_PATH = process.env.MULTIPLAYER_PARTY_QUESTIONS_FILE
+  || join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
 
 type StaticMediaQuestion = AnyQuestion & {
   mediaUrl?: string;
@@ -136,7 +137,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
 
       if (!availableQuestions.length) {
         try {
-          const raw = JSON.parse(readFileSync(STATIC_QUESTIONS_FILE_PATH, 'utf-8'));
+          const raw = JSON.parse(await readFile(STATIC_QUESTIONS_FILE_PATH, 'utf-8'));
           availableQuestions = (Array.isArray(raw?.questions) ? raw.questions : [])
             .filter((q: AnyQuestion) => {
               if (q.type !== 'media') return true;
