@@ -71,5 +71,9 @@ describe('jeopardy stats aggregation', () => {
 
     expect(stats.last5Games.gameCount).toBe(2);
     expect(stats.last5Games.uniqueCluesAnswered).toBe(2);
+    expect(stats.last5Games.averageCorrectPercent).toBe(50);
+    expect(stats.performanceOverTime).toHaveLength(2);
+    expect(stats.performanceOverTime[0].label).toBe('#9506');
+    expect(stats.performanceOverTime[1].label).toBe('#9507');
   });
 });

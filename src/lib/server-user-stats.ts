@@ -1,6 +1,7 @@
 import { prisma } from '@/lib/prisma';
 
 export type ClueOutcome = 'correct' | 'incorrect' | 'skip';
+export type JeopardyTrackingMode = 'practice' | 'competition' | 'learn' | 'unknown';
 
 interface CluePayload {
   clueId: string;
@@ -25,7 +26,12 @@ export async function ensureUserStats(userId: string) {
   });
 }
 
-export async function recordClueOutcomeServer(userId: string, clue: CluePayload, outcome: ClueOutcome) {
+export async function recordClueOutcomeServer(
+  userId: string,
+  clue: CluePayload,
+  outcome: ClueOutcome,
+  mode: JeopardyTrackingMode = 'unknown',
+) {
   await ensureUserStats(userId);
 
   const existing = await prisma.userClueProgress.findUnique({
@@ -47,6 +53,10 @@ export async function recordClueOutcomeServer(userId: string, clue: CluePayload,
         correctCount: outcome === 'correct' ? existing.correctCount + 1 : existing.correctCount,
         incorrectCount: outcome === 'incorrect' ? existing.incorrectCount + 1 : existing.incorrectCount,
         skipCount: outcome === 'skip' ? existing.skipCount + 1 : existing.skipCount,
+        practiceMissCount:
+          mode === 'practice' && (outcome === 'incorrect' || outcome === 'skip')
+            ? existing.practiceMissCount + 1
+            : existing.practiceMissCount,
         lastOutcome: outcome,
       },
     });
@@ -66,6 +76,7 @@ export async function recordClueOutcomeServer(userId: string, clue: CluePayload,
         correctCount: outcome === 'correct' ? 1 : 0,
         incorrectCount: outcome === 'incorrect' ? 1 : 0,
         skipCount: outcome === 'skip' ? 1 : 0,
+        practiceMissCount: mode === 'practice' && (outcome === 'incorrect' || outcome === 'skip') ? 1 : 0,
         lastOutcome: outcome,
       },
     });
@@ -105,4 +116,36 @@ export async function recordGameCompletedServer(userId: string, endMoney: number
       episodesCompleted: completedEpisodes.length,
     },
   });
+}
+
+export async function resetUserTrackedProgress(userId: string) {
+  await prisma.$transaction([
+    prisma.userClueProgress.deleteMany({ where: { userId } }),
+    prisma.userJeopardyEpisodeProgress.deleteMany({ where: { userId } }),
+    prisma.userStudyItem.deleteMany({ where: { userId } }),
+    prisma.userStats.upsert({
+      where: { userId },
+      update: {
+        gamesPlayed: 0,
+        totalEndMoney: 0,
+        averageEndMoney: 0,
+        episodesCompleted: 0,
+        correctAnswers: 0,
+        incorrectAnswers: 0,
+        skippedQuestions: 0,
+        completedEpisodes: [],
+      },
+      create: {
+        userId,
+        gamesPlayed: 0,
+        totalEndMoney: 0,
+        averageEndMoney: 0,
+        episodesCompleted: 0,
+        correctAnswers: 0,
+        incorrectAnswers: 0,
+        skippedQuestions: 0,
+        completedEpisodes: [],
+      },
+    }),
+  ]);
 }

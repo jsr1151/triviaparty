@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 type JeopardyStatsSnapshot = {
   gamesCompleted: number;
@@ -21,6 +21,15 @@ type JeopardyStats = {
   bySeason: Array<JeopardyStatsSnapshot & { season: number | null; label: string }>;
   last5Games: JeopardyStatsSnapshot & { gameCount: number };
   modeSplits: Array<{ mode: 'practice' | 'competition' | 'learn'; gamesCompleted: number; unfinishedGames: number }>;
+  performanceOverTime: Array<{
+    episodeKey: string;
+    showNumber: number | null;
+    mode: 'practice' | 'competition' | 'learn';
+    playedAt: string;
+    label: string;
+    correctPercent: number;
+    averageCorrectPercent: number;
+  }>;
 };
 
 type LegacyStats = {
@@ -50,26 +59,56 @@ export default function StatsPage() {
   const [signedIn, setSignedIn] = useState(false);
   const [jeopardyStats, setJeopardyStats] = useState<JeopardyStats | null>(null);
   const [legacyStats, setLegacyStats] = useState<LegacyStats | null>(null);
+  const [graphGamesToShow, setGraphGamesToShow] = useState(10);
+  const [resetting, setResetting] = useState(false);
+
+  async function loadStats() {
+    try {
+      const res = await fetch('/api/auth/me');
+      if (!res.ok) {
+        setSignedIn(false);
+        return;
+      }
+      const data = await res.json();
+      setSignedIn(Boolean(data.user));
+      setJeopardyStats(data.jeopardyStats ?? null);
+      setLegacyStats(data.stats ?? null);
+    } catch {
+      setSignedIn(false);
+    } finally {
+      setLoading(false);
+    }
+  }
 
   useEffect(() => {
     (async () => {
-      try {
-        const res = await fetch('/api/auth/me');
-        if (!res.ok) {
-          setSignedIn(false);
-          return;
-        }
-        const data = await res.json();
-        setSignedIn(Boolean(data.user));
-        setJeopardyStats(data.jeopardyStats ?? null);
-        setLegacyStats(data.stats ?? null);
-      } catch {
-        setSignedIn(false);
-      } finally {
-        setLoading(false);
-      }
+      await loadStats();
     })();
   }, []);
+
+  const graphData = useMemo(() => {
+    const all = jeopardyStats?.performanceOverTime ?? [];
+    const start = Math.max(0, all.length - graphGamesToShow);
+    return all.slice(start);
+  }, [graphGamesToShow, jeopardyStats?.performanceOverTime]);
+
+  async function handleResetStats() {
+    if (resetting) return;
+    const ok = window.confirm(
+      'Reset Jeopardy stats and learning progress for this profile? This cannot be undone.',
+    );
+    if (!ok) return;
+    setResetting(true);
+    try {
+      const res = await fetch('/api/user/stats/reset', { method: 'POST' });
+      if (!res.ok) throw new Error('reset-failed');
+      await loadStats();
+    } catch {
+      window.alert('Failed to reset stats.');
+    } finally {
+      setResetting(false);
+    }
+  }
 
   return (
     <main className="min-h-screen bg-blue-950 text-white p-8">
@@ -107,12 +146,43 @@ export default function StatsPage() {
                   </div>
                 ))}
               </div>
+              <div className="mt-4 pt-4 border-t border-blue-800">
+                <button
+                  onClick={() => void handleResetStats()}
+                  disabled={resetting}
+                  className="bg-red-700 hover:bg-red-600 disabled:opacity-60 px-4 py-2 rounded-lg font-bold text-sm"
+                >
+                  {resetting ? 'Resetting…' : 'Reset Jeopardy stats + learn progress'}
+                </button>
+              </div>
             </section>
 
             <section className="bg-blue-900 rounded-xl p-4">
               <h2 className="text-lg font-bold mb-3 text-yellow-300">Last 5 Games</h2>
               <div className="text-sm text-blue-200 mb-2">Games included: {jeopardyStats?.last5Games.gameCount ?? 0}</div>
+              <div className="text-sm text-blue-200 mb-2">
+                Average Correct % (last 5): {(jeopardyStats?.last5Games.averageCorrectPercent ?? 0).toFixed(1)}%
+              </div>
               <SnapshotGrid snapshot={jeopardyStats?.last5Games ?? { ...emptySnapshot, gameCount: 0 }} />
+            </section>
+
+            <section className="bg-blue-900 rounded-xl p-4">
+              <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
+                <h2 className="text-lg font-bold text-yellow-300">Performance Over Time</h2>
+                <label className="text-sm text-blue-200 flex items-center gap-2">
+                  Show last
+                  <select
+                    value={graphGamesToShow}
+                    onChange={(e) => setGraphGamesToShow(Number(e.target.value) || 10)}
+                    className="bg-blue-800 border border-blue-700 rounded px-2 py-1"
+                  >
+                    {[5, 10, 20, 50].map((value) => (
+                      <option key={value} value={value}>{value} games</option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+              <PerformanceChart points={graphData} />
             </section>
 
             <section className="bg-blue-900 rounded-xl p-4">
@@ -183,6 +253,49 @@ function Stat({ label, value }: { label: string; value: number | string }) {
     <div className="bg-blue-950/60 rounded-xl p-3">
       <div className="text-xs text-blue-300">{label}</div>
       <div className="text-2xl font-bold text-yellow-300">{typeof value === 'number' ? value.toLocaleString() : value}</div>
+    </div>
+  );
+}
+
+function PerformanceChart({
+  points,
+}: {
+  points: Array<{ label: string; correctPercent: number; averageCorrectPercent: number; playedAt: string }>;
+}) {
+  if (points.length === 0) {
+    return <div className="text-sm text-blue-300">No Jeopardy game history yet.</div>;
+  }
+
+  const width = 760;
+  const height = 240;
+  const left = 36;
+  const top = 16;
+  const chartWidth = width - left - 10;
+  const chartHeight = height - top - 30;
+  const average = points.reduce((sum, point) => sum + point.correctPercent, 0) / points.length;
+  const toX = (index: number) => left + (points.length === 1 ? chartWidth / 2 : (index / (points.length - 1)) * chartWidth);
+  const toY = (value: number) => top + chartHeight - (Math.max(0, Math.min(100, value)) / 100) * chartHeight;
+  const polyline = points.map((point, index) => `${toX(index)},${toY(point.correctPercent)}`).join(' ');
+  const avgY = toY(average);
+
+  return (
+    <div className="space-y-2">
+      <svg viewBox={`0 0 ${width} ${height}`} className="w-full bg-blue-950/60 rounded-lg border border-blue-800">
+        {[0, 25, 50, 75, 100].map((value) => (
+          <g key={value}>
+            <line x1={left} x2={width - 10} y1={toY(value)} y2={toY(value)} stroke="#1e3a8a" strokeWidth="1" />
+            <text x={4} y={toY(value) + 4} fill="#93c5fd" fontSize="10">{value}%</text>
+          </g>
+        ))}
+        <line x1={left} x2={width - 10} y1={avgY} y2={avgY} stroke="#facc15" strokeWidth="1.5" strokeDasharray="5 4" />
+        <polyline fill="none" stroke="#22d3ee" strokeWidth="3" points={polyline} />
+        {points.map((point, index) => (
+          <circle key={`${point.playedAt}-${index}`} cx={toX(index)} cy={toY(point.correctPercent)} r="3.5" fill="#22d3ee" />
+        ))}
+      </svg>
+      <div className="text-xs text-blue-300">
+        Dotted line: selected-range average ({average.toFixed(1)}%).
+      </div>
     </div>
   );
 }
