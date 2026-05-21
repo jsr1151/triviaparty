@@ -137,7 +137,7 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
     });
     channel.bind('player-buzzed', (payload: { playerName?: string; playerId?: string }) => {
       setRoom((prev) => (prev ? { ...prev, gameState: { ...(prev.gameState || {}), buzz: payload } } : prev));
-      setMessage(payload.playerName ? `${payload.playerName} buzzed in first` : 'Buzz-in received');
+      setMessage(payload.playerName ? `${payload.playerName} buzzed in` : 'Buzz-in received');
     });
     channel.bind('player-answered', (payload: { answer?: PlayerAnswerEntry }) => {
       const answer = payload?.answer;

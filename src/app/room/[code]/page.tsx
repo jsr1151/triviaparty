@@ -325,7 +325,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
                         onDragStart={() => setDragIndex(index)}
                         onDragOver={(event) => event.preventDefault()}
                         onDrop={() => {
-                          if (dragIndex == null) return;
+                          if (dragIndex === null) return;
                           moveRanking(dragIndex, index);
                           setDragIndex(null);
                         }}

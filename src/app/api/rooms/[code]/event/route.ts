@@ -33,6 +33,16 @@ const ALLOWED_EVENTS = new Set([
   'buzz-in',
   'wager-submitted',
 ]);
+const DEFAULT_ANSWER_WINDOW_MS = 15000;
+
+function resolveAnswerWindowMs(gameConfig: unknown): number {
+  const configured = Number((gameConfig as { answerWindowMs?: unknown } | null)?.answerWindowMs || DEFAULT_ANSWER_WINDOW_MS);
+  return Number.isFinite(configured) && configured > 0 ? configured : DEFAULT_ANSWER_WINDOW_MS;
+}
+
+function elapsedMsSince(startedAt: unknown): number {
+  return Math.max(0, Date.now() - new Date(String(startedAt || new Date().toISOString())).getTime());
+}
 
 export async function POST(req: NextRequest, { params }: { params: Promise<{ code: string }> }) {
   const { code } = await params;
@@ -225,14 +235,14 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       const correct = isSelectionCorrect(question, selection || rawAnswer, selectionKey);
       if (correct) {
         if (!correctOrder.includes(playerId)) correctOrder.push(playerId);
-        const elapsedMs = Math.max(0, Date.now() - new Date(String(updatedState.questionStartedAt || now)).getTime());
-        const totalWindowMs = Number((room.gameConfig as { answerWindowMs?: unknown })?.answerWindowMs || 15000);
+        const elapsedMs = elapsedMsSince(updatedState.questionStartedAt || now);
+        const totalWindowMs = resolveAnswerWindowMs(room.gameConfig);
         const streak = Number(streaks[playerId] || 0) + 1;
         const points = computeAwardedPoints({
           question,
           scoreMode,
           elapsedMs,
-          totalWindowMs: Number.isFinite(totalWindowMs) && totalWindowMs > 0 ? totalWindowMs : 15000,
+          totalWindowMs,
           correctPosition: correctOrder.length,
           streak,
         });
@@ -292,14 +302,14 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     const nextEntry = { ...existingForQuestion[answerIndex] };
     if (correct) {
       if (!correctOrder.includes(playerId)) correctOrder.push(playerId);
-      const elapsedMs = Math.max(0, Date.now() - new Date(String(updatedState.questionStartedAt || now)).getTime());
-      const totalWindowMs = Number((room.gameConfig as { answerWindowMs?: unknown })?.answerWindowMs || 15000);
+      const elapsedMs = elapsedMsSince(updatedState.questionStartedAt || now);
+      const totalWindowMs = resolveAnswerWindowMs(room.gameConfig);
       const streak = Number(streaks[playerId] || 0) + 1;
       const points = computeAwardedPoints({
         question,
         scoreMode,
         elapsedMs,
-        totalWindowMs: Number.isFinite(totalWindowMs) && totalWindowMs > 0 ? totalWindowMs : 15000,
+        totalWindowMs,
         correctPosition: correctOrder.length,
         streak,
       });
