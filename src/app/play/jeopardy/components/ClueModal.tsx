@@ -42,6 +42,7 @@ interface Props {
   onCompetitionCorrect?: (teamIndex: number) => void;
   onCompetitionIncorrect?: (teamIndex: number) => void;
   onCompetitionTripleStumper?: () => void;
+  onCompetitionScoreChange?: (teamIndex: number, nextScore: number) => void;
   finalWagers?: number[];
   finalWagersLocked?: boolean;
   finalResults?: Array<'correct' | 'incorrect' | null>;
@@ -67,6 +68,7 @@ export default function ClueModal({
   onCompetitionCorrect,
   onCompetitionIncorrect,
   onCompetitionTripleStumper,
+  onCompetitionScoreChange,
   finalWagers,
   finalWagersLocked,
   finalResults,
@@ -96,6 +98,16 @@ export default function ClueModal({
     return /youtube\.com|youtu\.be/i.test(url) || isDirectVideoFile(url);
   }, []);
   const [obscureMedia, setObscureMedia] = useState(clue.obscureMedia ?? isVideoClue(clue));
+  const [showDailyDoubleFanfare, setShowDailyDoubleFanfare] = useState(false);
+  const confettiPieces = useMemo(() => (
+    Array.from({ length: 22 }, (_, index) => ({
+      id: index,
+      left: `${(index / 22) * 100}%`,
+      delay: `${(index % 6) * 60}ms`,
+      color: ['#facc15', '#60a5fa', '#f472b6', '#34d399', '#f97316'][index % 5],
+      drift: `${(index % 2 === 0 ? -1 : 1) * (10 + (index % 5) * 4)}px`,
+    }))
+  ), []);
 
   const predefinedGroups = useMemo(() => getQuestionTagGroups(), []);
   const autoTagSuggestions = useMemo(
@@ -117,7 +129,14 @@ export default function ClueModal({
     setTagInput('');
     setExpandedGroups(['science', 'arts']);
     setObscureMedia(clue.obscureMedia ?? isVideoClue(clue));
+    setShowDailyDoubleFanfare(Boolean(clue.dailyDouble && !clue.isFinalJeopardy));
   }, [clue.clueId, clue.topicTags, clue.obscureMedia, isVideoClue]);
+
+  useEffect(() => {
+    if (!showDailyDoubleFanfare) return;
+    const timer = window.setTimeout(() => setShowDailyDoubleFanfare(false), 1200);
+    return () => window.clearTimeout(timer);
+  }, [showDailyDoubleFanfare]);
 
   const saveFlags = useCallback(
     (f: boolean, m: boolean) => {
@@ -191,6 +210,26 @@ export default function ClueModal({
 
   return (
     <div className="fixed inset-0 bg-blue-950 flex flex-col items-center justify-center z-50 p-6 overflow-y-auto">
+      {showDailyDoubleFanfare && (
+        <div className="pointer-events-none absolute inset-0 overflow-hidden">
+          {confettiPieces.map((piece) => (
+            <span
+              key={piece.id}
+              className="absolute top-0 w-2 h-3 rounded-sm opacity-90"
+              style={{
+                left: piece.left,
+                backgroundColor: piece.color,
+                animationName: 'daily-double-confetti',
+                animationDuration: '900ms',
+                animationTimingFunction: 'ease-out',
+                animationFillMode: 'forwards',
+                animationDelay: piece.delay,
+                ['--drift' as string]: piece.drift,
+              }}
+            />
+          ))}
+        </div>
+      )}
       {/* Category + value header */}
       <div className="text-yellow-400 text-lg mb-2 uppercase tracking-wide text-center">
         {clue.category} — ${value}
@@ -506,6 +545,18 @@ export default function ClueModal({
                     <div className="text-sm text-blue-200">
                       Max wager: ${maxWager.toLocaleString()}
                     </div>
+                    <div>
+                      <label className="text-xs text-blue-200 block mb-1">Edit score</label>
+                      <input
+                        type="number"
+                        value={team.score}
+                        onChange={(event) => {
+                          const parsed = Number(event.target.value);
+                          onCompetitionScoreChange?.(index, Number.isFinite(parsed) ? Math.floor(parsed) : 0);
+                        }}
+                        className="w-full bg-blue-800 border border-blue-600 rounded px-2 py-1 text-sm"
+                      />
+                    </div>
                     <input
                       type="number"
                       min={0}
@@ -551,6 +602,18 @@ export default function ClueModal({
                       {team.name}
                     </div>
                     <div className="text-yellow-300 font-bold">${team.score.toLocaleString()}</div>
+                  </div>
+                  <div className="mb-3">
+                    <label className="text-xs text-blue-200 block mb-1">Edit score</label>
+                    <input
+                      type="number"
+                      value={team.score}
+                      onChange={(event) => {
+                        const parsed = Number(event.target.value);
+                        onCompetitionScoreChange?.(index, Number.isFinite(parsed) ? Math.floor(parsed) : 0);
+                      }}
+                      className="w-full bg-blue-800 border border-blue-600 rounded px-2 py-1 text-sm"
+                    />
                   </div>
                   <div className="flex gap-2">
                     <button
@@ -605,6 +668,12 @@ export default function ClueModal({
           )}
         </div>
       )}
+      <style jsx>{`
+        @keyframes daily-double-confetti {
+          0% { transform: translate3d(0, -16px, 0) rotate(0deg); opacity: 1; }
+          100% { transform: translate3d(var(--drift, 0), 180px, 0) rotate(540deg); opacity: 0; }
+        }
+      `}</style>
     </div>
   );
 }

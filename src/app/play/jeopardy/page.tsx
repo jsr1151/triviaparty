@@ -1133,6 +1133,27 @@ export default function JeopardyPage() {
     await persistCompetitionSessionState(teamScores, chooserTeamIndex, nextFinalState);
   }
 
+  async function handleTeamScoreEdit(teamIndex: number, nextScore: number) {
+    if (sessionType !== 'competition' || !teamScores[teamIndex]) return;
+    const safeScore = Number.isFinite(nextScore) ? Math.floor(nextScore) : 0;
+    const nextTeams = teamScores.map((team, index) => (
+      index === teamIndex ? { ...team, score: safeScore } : team
+    ));
+    const nextFinalState = finalJeopardyState
+      ? {
+          ...finalJeopardyState,
+          wagers: finalJeopardyState.wagers.map((wager, index) => (
+            clampFinalJeopardyWager(nextTeams[index]?.score ?? 0, wager)
+          )),
+        }
+      : finalJeopardyState;
+    setTeamScores(nextTeams);
+    if (nextFinalState) {
+      setFinalJeopardyState(nextFinalState);
+    }
+    await persistCompetitionSessionState(nextTeams, chooserTeamIndex, nextFinalState);
+  }
+
   async function handleLockFinalWagers() {
     if (!finalJeopardyState) return;
     const nextFinalState: JeopardyFinalJeopardyState = {
@@ -1349,7 +1370,8 @@ export default function JeopardyPage() {
         )}
 
         {sessionType === 'competition' && teamScores.length > 0 && (
-          <div className="mb-4 flex items-center gap-3">
+          <div className="mb-4 space-y-3">
+            <div className="flex items-center gap-3">
             <label className="text-sm text-blue-300">Category chooser:</label>
             <select
               value={chooserTeamIndex}
@@ -1363,6 +1385,26 @@ export default function JeopardyPage() {
                 <option key={`${team.name}-${index}`} value={index}>{team.name}</option>
               ))}
             </select>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2">
+              {teamScores.map((team, index) => (
+                <label key={`score-edit-${team.name}-${index}`} className="bg-blue-900/70 border border-blue-700 rounded-lg px-3 py-2 text-sm flex items-center justify-between gap-3">
+                  <span className="flex items-center gap-2">
+                    <span className="inline-block w-2.5 h-2.5 rounded-full" style={{ backgroundColor: team.color }} />
+                    {team.name}
+                  </span>
+                  <input
+                    type="number"
+                    value={team.score}
+                    onChange={(event) => {
+                      const parsed = Number(event.target.value);
+                      void handleTeamScoreEdit(index, Number.isFinite(parsed) ? parsed : 0);
+                    }}
+                    className="w-28 bg-blue-800 border border-blue-600 rounded px-2 py-1 text-right"
+                  />
+                </label>
+              ))}
+            </div>
           </div>
         )}
 
@@ -1385,6 +1427,7 @@ export default function JeopardyPage() {
             onCompetitionCorrect={sessionType === 'competition' ? (index) => void handleCompetitionCorrect(index) : undefined}
             onCompetitionIncorrect={sessionType === 'competition' ? (index) => void handleCompetitionIncorrect(index) : undefined}
             onCompetitionTripleStumper={sessionType === 'competition' && !activeClue.clue.isFinalJeopardy ? () => void handleCompetitionTripleStumper() : undefined}
+            onCompetitionScoreChange={sessionType === 'competition' ? (index, scoreValue) => void handleTeamScoreEdit(index, scoreValue) : undefined}
             finalWagers={sessionType === 'competition' ? finalJeopardyState?.wagers : undefined}
             finalWagersLocked={sessionType === 'competition' ? finalJeopardyState?.locked : undefined}
             finalResults={sessionType === 'competition' ? finalJeopardyState?.results : undefined}

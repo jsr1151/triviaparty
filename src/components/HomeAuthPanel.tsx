@@ -17,6 +17,15 @@ type UserStats = {
   skippedQuestions: number;
 };
 
+type JeopardyStats = {
+  overall: {
+    gamesCompleted: number;
+    unfinishedGames: number;
+    uniqueCluesAnswered: number;
+    averageCorrectPercent: number;
+  };
+};
+
 async function postJson(url: string, payload: unknown) {
   const res = await fetch(url, {
     method: 'POST',
@@ -63,6 +72,7 @@ export default function HomeAuthPanel() {
   const [loading, setLoading] = useState(false);
   const [user, setUser] = useState<AuthUser | null>(null);
   const [stats, setStats] = useState<UserStats | null>(null);
+  const [jeopardyStats, setJeopardyStats] = useState<JeopardyStats | null>(null);
   const [error, setError] = useState('');
   const [importMsg, setImportMsg] = useState('');
 
@@ -82,6 +92,7 @@ export default function HomeAuthPanel() {
         if (data.user) {
           setUser(data.user);
           setStats(data.stats ?? null);
+          setJeopardyStats(data.jeopardyStats ?? null);
         }
       } catch {
       }
@@ -107,6 +118,7 @@ export default function HomeAuthPanel() {
         if (meRes.ok) {
           const me = await meRes.json();
           setStats(me.stats ?? null);
+          setJeopardyStats(me.jeopardyStats ?? null);
         }
       }
     } catch {
@@ -127,6 +139,7 @@ export default function HomeAuthPanel() {
         const data = await postJson('/api/auth/login', { login, password });
         setUser(data.user);
         setStats(data.stats ?? null);
+        setJeopardyStats(data.jeopardyStats ?? null);
         await tryImportLocal();
       } else {
         await postJson('/api/auth/signup', { email, username, password });
@@ -134,6 +147,7 @@ export default function HomeAuthPanel() {
         const me = await meRes.json();
         setUser(me.user ?? null);
         setStats(me.stats ?? null);
+        setJeopardyStats(me.jeopardyStats ?? null);
         await tryImportLocal();
       }
       setPassword('');
@@ -151,6 +165,7 @@ export default function HomeAuthPanel() {
       await postJson('/api/auth/logout', {});
       setUser(null);
       setStats(null);
+      setJeopardyStats(null);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Logout failed');
     }
@@ -171,16 +186,26 @@ export default function HomeAuthPanel() {
           </button>
         </div>
         {importMsg && <div className="text-green-400 text-sm mt-3">{importMsg}</div>}
-        {stats && (
-          <div className="mt-4 grid grid-cols-2 md:grid-cols-6 gap-2 text-xs text-gray-300">
-            <div>Games: {stats.gamesPlayed}</div>
-            <div>Avg $: {stats.averageEndMoney}</div>
-            <div>Episodes: {stats.episodesCompleted}</div>
-            <div>Correct: {stats.correctAnswers}</div>
-            <div>Wrong: {stats.incorrectAnswers}</div>
-            <div>Skipped: {stats.skippedQuestions}</div>
-          </div>
-        )}
+        <div className="mt-4 space-y-3 text-xs text-gray-300">
+          {jeopardyStats && (
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+              <div>Jeopardy Completed: {jeopardyStats.overall.gamesCompleted}</div>
+              <div>Jeopardy Unfinished: {jeopardyStats.overall.unfinishedGames}</div>
+              <div>Unique Clues: {jeopardyStats.overall.uniqueCluesAnswered}</div>
+              <div>Correct %: {jeopardyStats.overall.averageCorrectPercent.toFixed(1)}%</div>
+            </div>
+          )}
+          {stats && (
+            <div className="grid grid-cols-2 md:grid-cols-6 gap-2 text-[11px] text-gray-400">
+              <div>Legacy Games: {stats.gamesPlayed}</div>
+              <div>Avg $: {stats.averageEndMoney}</div>
+              <div>Episodes: {stats.episodesCompleted}</div>
+              <div>Correct: {stats.correctAnswers}</div>
+              <div>Wrong: {stats.incorrectAnswers}</div>
+              <div>Skipped: {stats.skippedQuestions}</div>
+            </div>
+          )}
+        </div>
       </div>
     );
   }
