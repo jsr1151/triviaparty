@@ -44,7 +44,7 @@ export function extractMultipleChoiceCorrectAnswer(question: AnyQuestion): strin
     return options[0] || '';
   }
   if (question.type === 'media') {
-    if (question.correctAnswer?.trim()) return question.correctAnswer.trim();
+    if (question.answer?.trim()) return question.answer.trim();
     return '';
   }
   return '';

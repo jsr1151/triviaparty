@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { getPusherClient } from '@/lib/pusher-client';
+import { extractMultipleChoiceCorrectAnswer } from '@/lib/multiplayer-game';
 import type { AnyQuestion } from '@/types/questions';
 
 type HostRoom = {
@@ -270,8 +271,8 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
             <div className="text-xs uppercase tracking-wide text-purple-300">{currentQuestion?.type || 'question'}</div>
             {renderQuestion(currentQuestion)}
             {Boolean(state.answerRevealed) && currentQuestion && (
-              <div className="text-yellow-300 font-semibold">
-                {currentQuestion.type === 'multiple_choice' && `Answer: ${currentQuestion.correctAnswer || (currentQuestion.options || []).find((option) => option.includes('*'))?.replace(/\*/g, '').trim() || '—'}`}
+                <div className="text-yellow-300 font-semibold">
+                {currentQuestion.type === 'multiple_choice' && `Answer: ${extractMultipleChoiceCorrectAnswer(currentQuestion) || '—'}`}
                 {(currentQuestion.type === 'open_ended' || currentQuestion.type === 'prompt' || currentQuestion.type === 'media') && `Answer: ${currentQuestion.answer || '—'}`}
                 {currentQuestion.type === 'list' && `Answers: ${(currentQuestion.answers || []).join(', ') || '—'}`}
                 {currentQuestion.type === 'grouping' && `Correct items: ${(currentQuestion.correctItems || []).join(', ') || '—'}`}

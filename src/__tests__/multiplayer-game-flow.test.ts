@@ -56,6 +56,21 @@ describe('multiplayer game flow helpers', () => {
       categoryB: 'That',
       items: [{ text: 'One', answer: 'A' }],
     }, 'This', 'A')).toBe(true);
+    expect(isSelectionCorrect({
+      type: 'multiple_choice',
+      question: 'Test',
+      difficulty: 'medium',
+      options: ['A', 'B', 'C', 'D'],
+      correctAnswer: 'B',
+    }, 'A')).toBe(false);
+    expect(isSelectionCorrect({
+      type: 'this_or_that',
+      question: 'Pick',
+      difficulty: 'medium',
+      categoryA: 'This',
+      categoryB: 'That',
+      items: [{ text: 'One', answer: 'A' }],
+    }, 'That', 'B')).toBe(false);
   });
 
   it('awards points using the selected scoring mode', () => {

@@ -74,6 +74,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   const now = new Date().toISOString();
   let roomStatus = room.status;
   let pushPayload: Record<string, unknown> = { roomCode };
+  let scoresToBroadcast: Record<string, number> | null = null;
 
   function getCurrentQuestion(): AnyQuestion | null {
     const q = updatedState.currentQuestion;
@@ -164,6 +165,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   } else if (resolvedEvent === 'answer-revealed') {
     updatedState.answerRevealed = true;
     updatedState.answerRevealedAt = now;
+    if (updatedState.buzz && typeof updatedState.buzz === 'object') {
+      updatedState.buzz = { ...(updatedState.buzz as Record<string, unknown>), resolved: true, resolvedAt: now };
+    }
     const question = getCurrentQuestion();
     pushPayload = {
       ...pushPayload,
@@ -258,10 +262,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       updatedState.streaks = streaks;
       updatedState.correctOrderByQuestion = correctOrderByQuestion;
       pushPayload = { ...pushPayload, scores };
-      await pusherServer.trigger(`game-${roomCode}`, 'score-updated', {
-        roomCode,
-        scores,
-      });
+      scoresToBroadcast = scores;
     }
     const mergedForQuestion = upsertPlayerAnswer(existingForQuestion, nextEntry);
     playerAnswers[questionId] = mergedForQuestion;
@@ -324,6 +325,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       nextEntry.points = 0;
       nextEntry.judged = true;
     }
+    if (updatedState.buzz && typeof updatedState.buzz === 'object') {
+      updatedState.buzz = { ...(updatedState.buzz as Record<string, unknown>), resolved: true, resolvedAt: now };
+    }
     existingForQuestion[answerIndex] = nextEntry;
     playerAnswers[questionId] = existingForQuestion;
     correctOrderByQuestion[questionId] = correctOrder;
@@ -332,10 +336,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     updatedState.streaks = streaks;
     updatedState.scores = scores;
     pushPayload = { ...pushPayload, questionId, answer: nextEntry, scores };
-    await pusherServer.trigger(`game-${roomCode}`, 'score-updated', {
-      roomCode,
-      scores,
-    });
+    scoresToBroadcast = scores;
   } else if (resolvedEvent === 'score-updated' && payload && typeof payload === 'object') {
     updatedState.scores = (payload as { scores?: unknown }).scores ?? getScores();
   } else if (resolvedEvent === 'state-updated' && payload && typeof payload === 'object') {
@@ -357,6 +358,12 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   await pusherServer.trigger(`game-${roomCode}`, resolvedEvent, {
     ...pushPayload,
   });
+  if (scoresToBroadcast) {
+    await pusherServer.trigger(`game-${roomCode}`, 'score-updated', {
+      roomCode,
+      scores: scoresToBroadcast,
+    });
+  }
 
   return NextResponse.json({ ok: true });
 }

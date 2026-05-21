@@ -71,9 +71,11 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       const res = await fetch(`/api/rooms/${code}`);
       const data = await res.json().catch(() => ({}));
       if (res.ok) {
-        setRoom(data.room);
-        if (!profile && data?.room?.players?.length) {
-          const fallback = data.room.players.find((player: { name: string; id: string }) => player.name !== 'Host');
+        const loadedRoom = data.room as RoomPayload | undefined;
+        if (!loadedRoom) return;
+        setRoom(loadedRoom);
+        if (!profile && loadedRoom.players?.length) {
+          const fallback = loadedRoom.players.find((player) => player.name !== 'Host');
           if (fallback) setProfile((prev) => prev || { playerId: fallback.id, playerName: fallback.name });
         }
       }
