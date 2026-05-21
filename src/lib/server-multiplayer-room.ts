@@ -186,18 +186,15 @@ export function mapDbQuestionToAnyQuestion(question: DbQuestion): AnyQuestion | 
 }
 
 export function buildPartyQuestionsFromRoomConfig(
-  questions: DbQuestion[],
+  questions: AnyQuestion[],
   gameConfig: unknown,
 ): PartyBuildResult {
-  const mapped = questions
-    .map(mapDbQuestionToAnyQuestion)
-    .filter((question): question is AnyQuestion => Boolean(question));
   const settings = normalizePartySettings(gameConfig);
-  const planned = buildPartyQuestions(mapped, settings);
+  const planned = buildPartyQuestions(questions, settings);
   if (planned.length) {
     return { questions: planned, fallbackApplied: false, failureHint: null };
   }
-  const broader = buildPartyQuestions(mapped, broadenPartySettings(settings));
+  const broader = buildPartyQuestions(questions, broadenPartySettings(settings));
   if (broader.length) {
     return { questions: broader, fallbackApplied: true, failureHint: null };
   }

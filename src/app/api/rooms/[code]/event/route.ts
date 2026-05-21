@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { readFile } from 'fs/promises';
+import { join } from 'path';
 import type { Prisma } from '@/generated/prisma/client';
 import { prisma } from '@/lib/prisma';
 import { getUserFromRequest } from '@/lib/auth';
@@ -12,7 +14,7 @@ import {
   upsertPlayerAnswer,
   type PlayerAnswerEntry,
 } from '@/lib/multiplayer-game';
-import { buildPartyQuestionsFromRoomConfig } from '@/lib/server-multiplayer-room';
+import { buildPartyQuestionsFromRoomConfig, mapDbQuestionToAnyQuestion } from '@/lib/server-multiplayer-room';
 import { pusherServer } from '@/lib/pusher';
 import type { AnyQuestion } from '@/types/questions';
 
@@ -44,6 +46,13 @@ const HOST_ONLY_EVENTS = new Set([
   'state-updated',
 ]);
 const DEFAULT_ANSWER_WINDOW_MS = 15000;
+const STATIC_QUESTIONS_FILE_PATH = process.env.MULTIPLAYER_PARTY_QUESTIONS_FILE
+  ?? join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+
+type StaticMediaQuestion = AnyQuestion & {
+  mediaUrl?: string;
+  needsMediaReview?: boolean;
+};
 
 function resolveAnswerWindowMs(gameConfig: unknown): number {
   const configured = Number((gameConfig as { answerWindowMs?: unknown } | null)?.answerWindowMs || DEFAULT_ANSWER_WINDOW_MS);
@@ -103,24 +112,57 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
 
   if (resolvedEvent === 'game-started') {
     if (room.mode === 'party') {
-      const allQuestions = await prisma.question.findMany({
-        include: {
-          category: true,
-          multipleChoice: true,
-          openEnded: true,
-          listQuestion: true,
-          groupingQuestion: true,
-          thisOrThat: true,
-          rankingQuestion: true,
-          mediaQuestion: true,
-          promptQuestion: true,
-        },
-      });
-      const built = buildPartyQuestionsFromRoomConfig(allQuestions, room.gameConfig);
+      let dbQuestionsWithRelations: Array<Parameters<typeof mapDbQuestionToAnyQuestion>[0]> = [];
+      let databaseSourceFailed = false;
+      let staticSourceFailed = false;
+      try {
+        dbQuestionsWithRelations = await prisma.question.findMany({
+          include: {
+            category: true,
+            multipleChoice: true,
+            openEnded: true,
+            listQuestion: true,
+            groupingQuestion: true,
+            thisOrThat: true,
+            rankingQuestion: true,
+            mediaQuestion: true,
+            promptQuestion: true,
+          },
+        });
+      } catch {
+        databaseSourceFailed = true;
+        dbQuestionsWithRelations = [];
+      }
+
+      let availableQuestions: AnyQuestion[] = dbQuestionsWithRelations
+        .map(mapDbQuestionToAnyQuestion)
+        .filter((question): question is AnyQuestion => Boolean(question));
+
+      if (!availableQuestions.length) {
+        try {
+          const raw = JSON.parse(await readFile(STATIC_QUESTIONS_FILE_PATH, 'utf-8'));
+          availableQuestions = (Array.isArray(raw?.questions) ? raw.questions : [])
+            .filter((q: AnyQuestion) => {
+              if (q.type !== 'media') return true;
+              const mediaQuestion = q as StaticMediaQuestion;
+              if (mediaQuestion.needsMediaReview) return false;
+              return !/youtube\.com\/clip\//i.test(mediaQuestion.mediaUrl || '');
+            })
+            .map((q: AnyQuestion, index: number) => ({ ...q, id: q.id || `static-${index}` }));
+        } catch (error) {
+          staticSourceFailed = true;
+          console.error('Failed to load static multiplayer questions fallback:', error);
+          availableQuestions = [];
+        }
+      }
+
+      const built = buildPartyQuestionsFromRoomConfig(availableQuestions, room.gameConfig);
       const plannedQuestions = built.questions;
       if (!plannedQuestions.length) {
-        const error = !allQuestions.length
-          ? 'No questions found in the database. Please add questions via the Question Creator before starting a multiplayer game.'
+        const error = !availableQuestions.length
+          ? databaseSourceFailed || staticSourceFailed
+            ? 'No questions available from either source. Please add questions via the Question Creator or contact an administrator.'
+            : 'No questions available. Please add questions via the Question Creator.'
           : built.failureHint
           ? `No questions matched current filters (${built.failureHint}). Try using mixed difficulty or random categories for the round.`
           : 'No questions available for this room configuration. Try broadening difficulty/category filters or adding more question types.';
