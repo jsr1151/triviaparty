@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import QuestionRenderer, { type AnswerResult } from '@/components/questions/QuestionRenderer';
 import type { AnyQuestion, Difficulty } from '@/types/questions';
+import { isQuestionFlagged, setQuestionFlagged } from '@/lib/question-session-store';
 
 const TYPES = ['multiple_choice', 'open_ended', 'list', 'grouping', 'this_or_that', 'ranking', 'media', 'prompt'];
 const DIFFICULTIES: Difficulty[] = ['very_easy', 'easy', 'medium', 'hard', 'very_hard'];
@@ -14,6 +15,8 @@ export default function RandomPage() {
   const [difficulty, setDifficulty] = useState('');
   const [loading, setLoading] = useState(false);
   const [answered, setAnswered] = useState<boolean | null>(null);
+  const [flagged, setFlagged] = useState(false);
+  const [currentResult, setCurrentResult] = useState<{ earned: number; possible: number } | null>(null);
   const [pointsEarned, setPointsEarned] = useState(0);
   const [pointsPossible, setPointsPossible] = useState(0);
   const [typePoints, setTypePoints] = useState<Record<string, { earned: number; possible: number }>>({});
@@ -59,8 +62,11 @@ export default function RandomPage() {
     setLoading(true);
     try {
       const bank = await loadBankIfNeeded();
-      setQuestion(pickRandom(bank));
+      const nextQuestion = pickRandom(bank);
+      setQuestion(nextQuestion);
+      setFlagged(Boolean(nextQuestion && isQuestionFlagged(nextQuestion)));
       setAnswered(null);
+      setCurrentResult(null);
     } finally {
       setLoading(false);
     }
@@ -72,12 +78,30 @@ export default function RandomPage() {
     if (!pool.length) return;
     const pick = pool[Math.floor(Math.random() * pool.length)];
     setQuestion(pick);
+    setFlagged(isQuestionFlagged(pick));
     setAnswered(null);
+    setCurrentResult(null);
   }
 
   function handleAnswer(result: AnswerResult) {
+    if (result.override && answered === false) {
+      const previous = currentResult || { earned: 0, possible: 0 };
+      const earnedDelta = Math.max(0, result.pointsEarned - previous.earned);
+      setAnswered(true);
+      setPointsEarned((p) => p + earnedDelta);
+      setCurrentResult({ earned: result.pointsEarned, possible: result.pointsPossible });
+      setTypePoints((prev) => ({
+        ...prev,
+        [result.type]: {
+          earned: (prev[result.type]?.earned || 0) + earnedDelta,
+          possible: (prev[result.type]?.possible || 0),
+        },
+      }));
+      return;
+    }
     if (answered !== null) return;
     setAnswered(result.correct);
+    setCurrentResult({ earned: result.pointsEarned, possible: result.pointsPossible });
     setPointsEarned((p) => p + result.pointsEarned);
     setPointsPossible((p) => p + result.pointsPossible);
     setTypePoints((prev) => ({
@@ -92,7 +116,7 @@ export default function RandomPage() {
   const categoryLabel = question
     ? (typeof question.category === 'string' ? question.category : question.category?.name) || question.type
     : '';
-  const displayQuestionText = question && question.type === 'ranking' ? '' : (question?.question || '');
+  const displayQuestionText = question && (question.type === 'ranking' || question.type === 'list' || question.type === 'this_or_that') ? '' : (question?.question || '');
 
   return (
     <div className="min-h-screen bg-gray-950 text-white p-8">
@@ -129,6 +153,16 @@ export default function RandomPage() {
           <div className="bg-gray-800 rounded-2xl p-8">
             <div className="text-sm text-yellow-300 mb-2">Points: {pointsEarned}/{pointsPossible}</div>
             <div className="text-sm text-green-400 mb-2 uppercase">{categoryLabel} • {question.difficulty}</div>
+            <button
+              onClick={() => {
+                const next = !flagged;
+                setFlagged(next);
+                setQuestionFlagged(question, next);
+              }}
+              className={`mb-3 px-3 py-1 rounded-lg text-sm font-bold ${flagged ? 'bg-yellow-500 text-gray-900' : 'bg-gray-700 hover:bg-gray-600 text-yellow-300'}`}
+            >
+              🚩 {flagged ? 'Flagged' : 'Flag'}
+            </button>
             {displayQuestionText && <div className="text-xl font-bold mb-6">{displayQuestionText}</div>}
             <QuestionRenderer
               question={question}

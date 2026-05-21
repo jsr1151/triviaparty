@@ -50,3 +50,15 @@ export function inferRankingDirection(prompt: string): { topLabel: string; botto
 
   return { topLabel: '1 = best fit for the prompt', bottomLabel: 'N = least fit for the prompt' };
 }
+
+export function stripListLeadingCount(prompt: string): string {
+  return prompt.replace(/^(\s*list)\s+\d+\s+/i, '$1 ').trim();
+}
+
+export function buildThisOrThatPrompt(categories: string[]): string {
+  const clean = categories.map((value) => value.trim()).filter(Boolean);
+  if (clean.length <= 1) return 'Is it this or that?';
+  if (clean.length === 2) return `Is it ${clean[0]} or ${clean[1]}?`;
+  const head = clean.slice(0, -1).join(', ');
+  return `Is it ${head}, or ${clean[clean.length - 1]}?`;
+}

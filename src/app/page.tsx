@@ -51,6 +51,14 @@ const gameModes = [
     color: 'from-emerald-600 to-green-700',
   },
   {
+    id: 'flagged-questions',
+    title: 'Flagged Questions',
+    description: 'Review and manage gameplay questions you flagged for follow-up.',
+    icon: '🚩',
+    href: '/play/flagged',
+    color: 'from-yellow-600 to-amber-700',
+  },
+  {
     id: 'media-audit',
     title: 'Media Audit',
     description: 'Review flagged media questions and mismatches for cleanup.',
