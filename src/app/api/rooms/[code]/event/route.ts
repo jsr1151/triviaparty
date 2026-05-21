@@ -113,6 +113,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   if (resolvedEvent === 'game-started') {
     if (room.mode === 'party') {
       let dbQuestionsWithRelations: Array<Parameters<typeof mapDbQuestionToAnyQuestion>[0]> = [];
+      let databaseSourceFailed = false;
+      let staticSourceFailed = false;
       try {
         dbQuestionsWithRelations = await prisma.question.findMany({
           include: {
@@ -128,6 +130,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
           },
         });
       } catch {
+        databaseSourceFailed = true;
         dbQuestionsWithRelations = [];
       }
 
@@ -146,7 +149,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
               return !/youtube\.com\/clip\//i.test(mediaQuestion.mediaUrl || '');
             })
             .map((q: AnyQuestion, index: number) => ({ ...q, id: q.id || `static-${index}` }));
-        } catch {
+        } catch (error) {
+          staticSourceFailed = true;
+          console.error('Failed to load static multiplayer questions fallback:', error);
           availableQuestions = [];
         }
       }
@@ -155,7 +160,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       const plannedQuestions = built.questions;
       if (!plannedQuestions.length) {
         const error = !availableQuestions.length
-          ? 'No questions available. Please add questions via the Question Creator. If this persists, contact an administrator.'
+          ? databaseSourceFailed || staticSourceFailed
+            ? 'No questions available from either source. Please add questions via the Question Creator or contact an administrator.'
+            : 'No questions available. Please add questions via the Question Creator.'
           : built.failureHint
           ? `No questions matched current filters (${built.failureHint}). Try using mixed difficulty or random categories for the round.`
           : 'No questions available for this room configuration. Try broadening difficulty/category filters or adding more question types.';

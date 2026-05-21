@@ -25,6 +25,10 @@ const DEFAULT_SLOT_CATEGORY_STRATEGY = 'any';
 const DEFAULT_GROUPING_MODE = 'elimination';
 const DEFAULT_RANKING_MODE = 'anchor_adjust';
 
+function getSlotGridColumns(slotType: AnyQuestion['type']): string {
+  return slotType === 'list' ? 'md:grid-cols-8' : 'md:grid-cols-7';
+}
+
 export default function PartyPage() {
   const [allQuestions, setAllQuestions] = useState<AnyQuestion[]>([]);
   const [questions, setQuestions] = useState<AnyQuestion[]>([]);
@@ -593,7 +597,7 @@ function PartySettingsModal({
                 {round.mode === 'configured' && (
                   <div className="space-y-2">
                     {round.slots.map((slot, slotIndex) => (
-                      <div key={slot.id} className={`grid gap-2 ${slot.type === 'list' ? 'md:grid-cols-8' : 'md:grid-cols-7'}`}>
+                      <div key={slot.id} className={`grid gap-2 ${getSlotGridColumns(slot.type)}`}>
                         <select value={slot.type} onChange={(e) => {
                           const rounds = [...settings.rounds];
                           const slots = [...round.slots];
