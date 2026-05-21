@@ -19,6 +19,16 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_BASE_PATH: isGitHubPages ? '/triviaparty' : '',
   },
+  // Prevent large static data directories from being bundled into
+  // serverless functions, which would exceed Vercel's 250 MB limit.
+  experimental: {
+    outputFileTracingExcludes: {
+      '*': [
+        './docs/data/jeopardy/**',
+        './public/data/jeopardy/**',
+      ],
+    },
+  },
 };
 
 export default nextConfig;
