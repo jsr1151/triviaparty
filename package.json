@@ -17,8 +17,6 @@
     "build:question-index": "ts-node --project tsconfig.scripts.json scripts/build-static-question-index.ts"
   },
   "dependencies": {
-    "@libsql/client": "^0.17.0",
-    "@prisma/adapter-libsql": "^7.4.1",
     "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.4.1",
     "axios": "^1.13.5",
