@@ -198,14 +198,51 @@ export default function HomeAuthPanel() {
 
       {mode === 'signin' ? (
         <div className="grid md:grid-cols-2 gap-3">
-          <input value={login} onChange={e => setLogin(e.target.value)} placeholder="Username or email" className="bg-gray-800 border border-gray-700 rounded px-3 py-2" />
-          <input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Password" className="bg-gray-800 border border-gray-700 rounded px-3 py-2" />
+          <input
+            aria-label="Username or email"
+            autoComplete="username"
+            value={login}
+            onChange={e => setLogin(e.target.value)}
+            placeholder="Username or email"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
+          <input
+            type="password"
+            aria-label="Password"
+            autoComplete="current-password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            placeholder="Password"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
         </div>
       ) : (
         <div className="grid md:grid-cols-3 gap-3">
-          <input value={email} onChange={e => setEmail(e.target.value)} placeholder="Email" className="bg-gray-800 border border-gray-700 rounded px-3 py-2" />
-          <input value={username} onChange={e => setUsername(e.target.value)} placeholder="Username" className="bg-gray-800 border border-gray-700 rounded px-3 py-2" />
-          <input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Password (min 6 chars)" className="bg-gray-800 border border-gray-700 rounded px-3 py-2" />
+          <input
+            aria-label="Email"
+            autoComplete="email"
+            value={email}
+            onChange={e => setEmail(e.target.value)}
+            placeholder="Email"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
+          <input
+            aria-label="Username"
+            autoComplete="username"
+            value={username}
+            onChange={e => setUsername(e.target.value)}
+            placeholder="Username"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
+          <input
+            type="password"
+            aria-label="Password"
+            autoComplete="new-password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            placeholder="Password (min 6 chars)"
+            className="bg-gray-800 border border-gray-700 rounded px-3 py-2"
+          />
         </div>
       )}
 
