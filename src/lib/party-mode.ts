@@ -143,7 +143,6 @@ function takeOne(
   desiredCategory: string | null,
   desiredPrompt: string | null,
 ): number {
-  const hasAnyQuestionOfType = type ? pool.some((question) => question.type === type) : true;
   const candidates = pool
     .map((question, index) => ({ question, index }))
     .filter((entry) => !usedIndices.has(entry.index))
@@ -157,6 +156,7 @@ function takeOne(
       .filter((entry) => !usedIndices.has(entry.index))
       .filter((entry) => (type ? entry.question.type === type : true));
     if (typeOnly.length) return typeOnly[Math.floor(Math.random() * typeOnly.length)].index;
+    const hasAnyQuestionOfType = type ? pool.some((question) => question.type === type) : true;
     if (hasAnyQuestionOfType) return -1;
     const anyAvailable = pool
       .map((question, index) => ({ question, index }))
