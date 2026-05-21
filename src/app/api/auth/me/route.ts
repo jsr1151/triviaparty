@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getUserFromRequest, sanitizeAuthUser } from '@/lib/auth';
 import { ensureUserStats } from '@/lib/server-user-stats';
+import { getJeopardyStatsForUser } from '@/lib/server-jeopardy-stats';
 
 export const dynamic = 'force-dynamic';
 
@@ -14,10 +15,14 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ user: null }, { status: 401 });
   }
 
-  const stats = await ensureUserStats(user.id);
+  const [stats, jeopardyStats] = await Promise.all([
+    ensureUserStats(user.id),
+    getJeopardyStatsForUser(user.id),
+  ]);
 
   return NextResponse.json({
     user: sanitizeAuthUser(user),
     stats,
+    jeopardyStats,
   });
 }
