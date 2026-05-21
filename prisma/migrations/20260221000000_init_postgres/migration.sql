@@ -303,7 +303,7 @@ ALTER TABLE "OpenEndedQuestion" ADD CONSTRAINT "OpenEndedQuestion_questionId_fke
 ALTER TABLE "ListQuestion" ADD CONSTRAINT "ListQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "GroupingQuestion" ADD CONSTRAINT "GroupingQuestion_questionId_fkey" FOREIGN KEY ("groupId") REFERENCES "Question"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "GroupingQuestion" ADD CONSTRAINT "GroupingQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "ThisOrThatQuestion" ADD CONSTRAINT "ThisOrThatQuestion_questionId_fkey" FOREIGN KEY ("questionId") REFERENCES "Question"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
