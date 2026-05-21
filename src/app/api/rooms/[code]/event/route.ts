@@ -111,9 +111,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
 
   if (resolvedEvent === 'game-started') {
     if (room.mode === 'party') {
-      let rawDbQuestions: Array<Parameters<typeof mapDbQuestionToAnyQuestion>[0]> = [];
+      let dbQuestionsWithRelations: Array<Parameters<typeof mapDbQuestionToAnyQuestion>[0]> = [];
       try {
-        rawDbQuestions = await prisma.question.findMany({
+        dbQuestionsWithRelations = await prisma.question.findMany({
           include: {
             category: true,
             multipleChoice: true,
@@ -127,17 +127,17 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
           },
         });
       } catch {
-        rawDbQuestions = [];
+        dbQuestionsWithRelations = [];
       }
 
-      let allQuestionsForGame: AnyQuestion[] = rawDbQuestions
+      let availableQuestions: AnyQuestion[] = dbQuestionsWithRelations
         .map(mapDbQuestionToAnyQuestion)
         .filter((question): question is AnyQuestion => Boolean(question));
 
-      if (!allQuestionsForGame.length) {
+      if (!availableQuestions.length) {
         try {
           const raw = JSON.parse(readFileSync(STATIC_QUESTIONS_FILE_PATH, 'utf-8'));
-          allQuestionsForGame = (Array.isArray(raw?.questions) ? raw.questions : [])
+          availableQuestions = (Array.isArray(raw?.questions) ? raw.questions : [])
             .filter((q: AnyQuestion) => {
               if (q.type !== 'media') return true;
               const mediaQuestion = q as StaticMediaQuestion;
@@ -146,15 +146,15 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
             })
             .map((q: AnyQuestion, index: number) => ({ ...q, id: q.id || `static-${index}` }));
         } catch {
-          allQuestionsForGame = [];
+          availableQuestions = [];
         }
       }
 
-      const built = buildPartyQuestionsFromRoomConfig(allQuestionsForGame, room.gameConfig);
+      const built = buildPartyQuestionsFromRoomConfig(availableQuestions, room.gameConfig);
       const plannedQuestions = built.questions;
       if (!plannedQuestions.length) {
-        const error = !allQuestionsForGame.length
-          ? 'No questions found from the database or static question file. Please add questions via the Question Creator or verify public/data/questions/sheets-import-questions.json exists and is valid.'
+        const error = !availableQuestions.length
+          ? 'No questions available. Please add questions via the Question Creator or contact an administrator.'
           : built.failureHint
           ? `No questions matched current filters (${built.failureHint}). Try using mixed difficulty or random categories for the round.`
           : 'No questions available for this room configuration. Try broadening difficulty/category filters or adding more question types.';
