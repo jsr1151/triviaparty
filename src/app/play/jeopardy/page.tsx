@@ -83,6 +83,7 @@ type LearnClue = {
 const VALUES_SINGLE = [200, 400, 600, 800, 1000];
 const VALUES_DOUBLE = [400, 800, 1200, 1600, 2000];
 const VALUES_TRIPLE = [600, 1200, 1800, 2400, 3000];
+const MAX_COMPETITION_TEAMS = 10;
 
 function normaliseApiGame(g: Record<string, unknown>): JeopardyGame {
   const cats = ((g.categories as Record<string, unknown>[]) ?? []).map(cat => ({
@@ -410,7 +411,7 @@ export default function JeopardyPage() {
   }
 
   function parsedTeams(): TeamScore[] {
-    const names = teamNamesInput.split(',').map(n => n.trim()).filter(Boolean).slice(0, 10);
+    const names = teamNamesInput.split(',').map(n => n.trim()).filter(Boolean).slice(0, MAX_COMPETITION_TEAMS);
     if (!names.length) return [{ name: 'Team 1', score: 0 }, { name: 'Team 2', score: 0 }];
     return names.map(name => ({ name, score: 0 }));
   }
@@ -1227,7 +1228,7 @@ export default function JeopardyPage() {
 
       {method !== 'replay' && sessionType === 'competition' && (
         <div className="max-w-3xl mx-auto bg-blue-900 rounded-xl p-4 mb-5">
-          <label className="block text-sm font-bold text-blue-300 mb-1">Players/teams (comma separated)</label>
+          <label className="block text-sm font-bold text-blue-300 mb-1">Players/teams (comma separated, max {MAX_COMPETITION_TEAMS})</label>
           <input value={teamNamesInput} onChange={e => setTeamNamesInput(e.target.value)} className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2" placeholder="Team 1, Team 2" />
         </div>
       )}
@@ -1423,7 +1424,7 @@ export default function JeopardyPage() {
 
             {setupMode === 'competition' && (
               <div>
-                <label className="block text-sm font-bold text-blue-300 mb-1">Teams (comma-separated, max 10)</label>
+                <label className="block text-sm font-bold text-blue-300 mb-1">Teams (comma-separated, max {MAX_COMPETITION_TEAMS})</label>
                 <input
                   value={teamNamesInput}
                   onChange={e => setTeamNamesInput(e.target.value)}
