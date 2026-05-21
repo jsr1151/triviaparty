@@ -29,6 +29,18 @@ function getSlotGridColumns(slotType: AnyQuestion['type']): string {
   return slotType === 'list' ? 'md:grid-cols-8' : 'md:grid-cols-7';
 }
 
+function createDefaultConfiguredSlot(id: string, count: number) {
+  return {
+    id,
+    type: 'multiple_choice' as const,
+    count,
+    order: 'fixed' as const,
+    listMode: 'timed' as const,
+    listScoring: 'target' as const,
+    categoryStrategy: DEFAULT_SLOT_CATEGORY_STRATEGY as const,
+  };
+}
+
 export default function PartyPage() {
   const [allQuestions, setAllQuestions] = useState<AnyQuestion[]>([]);
   const [questions, setQuestions] = useState<AnyQuestion[]>([]);
@@ -711,15 +723,7 @@ function PartySettingsModal({
                         ...round,
                         slots: [
                           ...round.slots,
-                          {
-                            id: `${round.id}-slot-${round.slots.length + 1}`,
-                            type: 'multiple_choice',
-                            count: 1,
-                            order: 'fixed',
-                            listMode: 'timed',
-                            listScoring: 'target',
-                            categoryStrategy: DEFAULT_SLOT_CATEGORY_STRATEGY,
-                          },
+                          createDefaultConfiguredSlot(`${round.id}-slot-${round.slots.length + 1}`, 1),
                         ],
                       };
                       setSettings({ ...settings, rounds });
@@ -745,7 +749,7 @@ function PartySettingsModal({
                       mode: 'configured',
                       order: 'fixed',
                       questionCount: 10,
-                      slots: [{ id: `round-${settings.rounds.length + 1}-slot-1`, type: 'multiple_choice', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: DEFAULT_SLOT_CATEGORY_STRATEGY }],
+                      slots: [createDefaultConfiguredSlot(`round-${settings.rounds.length + 1}-slot-1`, 10)],
                       options: ['multiple_choice', 'open_ended', 'list'],
                       difficulty: 'mixed',
                       categoryMode: 'random',
