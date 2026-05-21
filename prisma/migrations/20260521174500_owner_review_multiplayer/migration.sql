@@ -47,6 +47,3 @@ CREATE TABLE "MultiplayerRoom" (
 
 -- CreateIndex
 CREATE UNIQUE INDEX "MultiplayerRoom_code_key" ON "MultiplayerRoom"("code");
-
--- Data migration
-UPDATE "User" SET "isOwner" = true WHERE LOWER("username") = 'jsr1151';

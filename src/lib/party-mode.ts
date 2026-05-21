@@ -183,8 +183,6 @@ export function createDefaultSettings(): PartySettings {
 export function createPresetSettings(name: string): PartySettings {
   const base = createDefaultSettings();
   if (name === 'pursuit-short') {
-    const grabBagMode = Math.random() < 0.5 ? 'elimination' : 'continuous';
-    const closeCallMode = Math.random() < 0.5 ? 'anchor_adjust' : 'one_shot';
     return {
       ...base,
       rounds: [
@@ -195,17 +193,17 @@ export function createPresetSettings(name: string): PartySettings {
           questionCount: 5,
           slots: [
             { id: 'quickstarter-mc', type: 'multiple_choice', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'same_round' },
-            { id: 'quickstarter-open-media', type: Math.random() < 0.5 ? 'open_ended' : 'media', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice' },
+            { id: 'quickstarter-open-media', type: 'open_ended', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice' },
           ],
         },
         {
           ...base.rounds[0],
           id: 'round-2',
-          name: `Round 2: ${grabBagMode === 'continuous' ? 'Grab Bag Blitz' : 'Grab Bag'}`,
+          name: 'Round 2: Grab Bag',
           questionCount: 4,
           slots: [
-            { id: 'grabbag-random', type: 'grouping', count: 3, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'any', groupingMode: grabBagMode },
-            { id: 'grabbag-choice', type: 'grouping', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice', groupingMode: grabBagMode },
+            { id: 'grabbag-random', type: 'grouping', count: 3, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'any', groupingMode: 'elimination' },
+            { id: 'grabbag-choice', type: 'grouping', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice', groupingMode: 'elimination' },
           ],
         },
         {
@@ -215,17 +213,17 @@ export function createPresetSettings(name: string): PartySettings {
           questionCount: 5,
           slots: [
             { id: 'switchagories-mc', type: 'multiple_choice', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' },
-            { id: 'switchagories-open-media', type: Math.random() < 0.5 ? 'open_ended' : 'media', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' },
+            { id: 'switchagories-open-media', type: 'open_ended', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' },
           ],
         },
         {
           ...base.rounds[0],
           id: 'round-4',
-          name: `Round 4: ${closeCallMode === 'one_shot' ? 'Close Call Blitz' : 'Close Call'}`,
+          name: 'Round 4: Close Call',
           questionCount: 5,
           slots: [
-            { id: 'closecall-shared', type: 'ranking', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'same_round', rankingMode: closeCallMode },
-            { id: 'closecall-choice', type: 'ranking', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice', rankingMode: closeCallMode },
+            { id: 'closecall-shared', type: 'ranking', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'same_round', rankingMode: 'anchor_adjust' },
+            { id: 'closecall-choice', type: 'ranking', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice', rankingMode: 'anchor_adjust' },
           ],
         },
         {
@@ -243,9 +241,6 @@ export function createPresetSettings(name: string): PartySettings {
   }
   if (name === 'pursuit-long') {
     const short = createPresetSettings('pursuit-short');
-    const brainstormTimed = Math.random() < 0.5;
-    const quickWitsMaster = Math.random() < 0.5;
-    const promptCount = quickWitsMaster ? Math.floor(Math.random() * 5) + 3 : 10;
     return {
       ...short,
       rounds: [
@@ -253,20 +248,20 @@ export function createPresetSettings(name: string): PartySettings {
         {
           ...base.rounds[0],
           id: 'round-6',
-          name: `Round 6: ${brainstormTimed ? 'Brainstorm Blitz' : 'Brainstorm'}`,
+          name: 'Round 6: Brainstorm',
           questionCount: 3,
           slots: [
-            { id: 'brainstorm-random', type: 'list', count: 2, order: 'fixed', listMode: brainstormTimed ? 'timed' : 'strikes', listScoring: brainstormTimed ? 'target' : 'as_many', categoryStrategy: 'any' },
-            { id: 'brainstorm-choice', type: 'list', count: 1, order: 'fixed', listMode: brainstormTimed ? 'timed' : 'strikes', listScoring: brainstormTimed ? 'target' : 'as_many', categoryStrategy: 'player_choice' },
+            { id: 'brainstorm-random', type: 'list', count: 2, order: 'fixed', listMode: 'strikes', listScoring: 'as_many', categoryStrategy: 'any' },
+            { id: 'brainstorm-choice', type: 'list', count: 1, order: 'fixed', listMode: 'strikes', listScoring: 'as_many', categoryStrategy: 'player_choice' },
           ],
         },
         {
           ...base.rounds[0],
           id: 'round-7',
-          name: `Round 7: ${quickWitsMaster ? 'Quick Wits Master' : 'Quick Wits'}`,
-          questionCount: promptCount,
-          slots: [{ id: 'quick-wits', type: 'prompt', count: promptCount, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: quickWitsMaster ? 'same_round' : 'unique_round' }],
-          promptVariant: quickWitsMaster ? 'master' : 'standard',
+          name: 'Round 7: Quick Wits',
+          questionCount: 10,
+          slots: [{ id: 'quick-wits', type: 'prompt', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' }],
+          promptVariant: 'standard',
         },
       ],
       difficultyMode: 'scaling_incremental',
