@@ -1,6 +1,7 @@
 import type { AnyQuestion, Difficulty } from '@/types/questions';
 
 export const PARTY_TYPES: AnyQuestion['type'][] = ['multiple_choice', 'open_ended', 'list', 'grouping', 'this_or_that', 'ranking', 'media', 'prompt'];
+const MAX_LIGHTNING_SLOTS = 8;
 
 export type RoundMode = 'configured' | 'fully_random' | 'player_choice' | 'random_from_options';
 
@@ -205,7 +206,7 @@ export function createPresetSettings(name: string): PartySettings {
       listMode: 'timed' as const,
       listScoring: 'as_many' as const,
       timeLimitSec: 20,
-    })).slice(0, 8) as RoundSlot[];
+    })).slice(0, MAX_LIGHTNING_SLOTS) as RoundSlot[];
     return {
       ...base,
       rounds: [{ ...base.rounds[0], questionCount: 15, slots: lightningSlots }],
@@ -253,6 +254,11 @@ export function buildPartyQuestions(allQuestions: AnyQuestion[], settings: Party
       }
     } else if (round.mode === 'fully_random') {
       for (let i = 0; i < Math.max(1, round.questionCount); i++) roundSlots.push({ type: PARTY_TYPES[Math.floor(Math.random() * PARTY_TYPES.length)] });
+    } else if (round.mode === 'player_choice') {
+      const options = round.options.length ? round.options : PARTY_TYPES;
+      for (let i = 0; i < Math.max(1, round.questionCount); i++) {
+        roundSlots.push({ type: options[i % options.length] });
+      }
     } else {
       const options = round.options.length ? round.options : PARTY_TYPES;
       for (let i = 0; i < Math.max(1, round.questionCount); i++) {

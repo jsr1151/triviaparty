@@ -34,7 +34,11 @@ function categoryName(category: AnyQuestion['category']): string {
 }
 
 export function questionSignature(question: AnyQuestion): string {
-  return `${question.type}|${normalize(categoryName(question.category))}|${normalize(question.question || '')}`;
+  const preferredId = typeof question.id === 'string' ? question.id.trim() : '';
+  if (preferredId) return `id:${preferredId}`;
+  const openEndedSeed = question.type === 'open_ended' ? normalize(question.answer || '') : '';
+  const listSeed = question.type === 'list' ? normalize((question.answers || []).join('|')) : '';
+  return `${question.type}|${normalize(categoryName(question.category))}|${normalize(question.question || '')}|${openEndedSeed}|${listSeed}`;
 }
 
 function readState(): StoredState {

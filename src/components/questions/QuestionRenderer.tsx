@@ -299,7 +299,7 @@ function OpenEndedView({ question, onAnswer }: Props) {
               onAnswer({
                 correct: true,
                 pointsEarned: pointsPossible,
-                pointsPossible: 0,
+                pointsPossible,
                 type: question.type,
                 override: true,
               });
@@ -328,7 +328,6 @@ function ListView({ question, onAnswer }: Props) {
   const [timeLeft, setTimeLeft] = useState(30);
   const [strikes, setStrikes] = useState(0);
   const [resultCorrect, setResultCorrect] = useState<boolean | null>(null);
-  const [resultEarned, setResultEarned] = useState(0);
   const [overrideApplied, setOverrideApplied] = useState(false);
   const [addAsAccepted, setAddAsAccepted] = useState(true);
   const [overrideAnswer, setOverrideAnswer] = useState('');
@@ -361,7 +360,6 @@ function ListView({ question, onAnswer }: Props) {
     }
     setLocked(false);
     setResultCorrect(null);
-    setResultEarned(0);
     setOverrideApplied(false);
     setAddAsAccepted(true);
     setOverrideAnswer('');
@@ -385,7 +383,6 @@ function ListView({ question, onAnswer }: Props) {
             correct: selfScore ? false : foundCount >= minRequired,
           };
       setResultCorrect(points.correct);
-      setResultEarned(points.earned);
       setOverrideAnswer((prev) => prev || attempts.filter((attempt) => !attempt.correct).at(-1)?.text || input.trim());
       finalizeOnce(locked, setLocked, onAnswer, question, points.earned, pointsPossible, points.correct);
       return;
@@ -428,7 +425,6 @@ function ListView({ question, onAnswer }: Props) {
     setFinished(true);
     const points = calcPoints(found.length);
     setResultCorrect(points.correct);
-    setResultEarned(points.earned);
     setOverrideAnswer((prev) => prev || attempts.filter((attempt) => !attempt.correct).at(-1)?.text || input.trim());
     finalizeOnce(locked, setLocked, onAnswer, question, points.earned, pointsPossible, points.correct);
   }
@@ -540,8 +536,8 @@ function ListView({ question, onAnswer }: Props) {
               setResultCorrect(true);
               onAnswer({
                 correct: true,
-                pointsEarned: Math.max(0, pointsPossible - resultEarned),
-                pointsPossible: 0,
+                pointsEarned: pointsPossible,
+                pointsPossible,
                 type: question.type,
                 override: true,
               });

@@ -23,6 +23,7 @@ export default function PartyPage() {
   const [pointsPossible, setPointsPossible] = useState(0);
   const [typePoints, setTypePoints] = useState<Record<string, { earned: number; possible: number }>>({});
   const [answered, setAnswered] = useState<boolean | null>(null);
+  const [currentResult, setCurrentResult] = useState<{ earned: number; possible: number } | null>(null);
   const [loading, setLoading] = useState(true);
   const [flagged, setFlagged] = useState(false);
 
@@ -78,25 +79,30 @@ export default function PartyPage() {
     setPointsPossible(0);
     setTypePoints({});
     setAnswered(null);
+    setCurrentResult(null);
     setShowSettings(false);
   }
 
   function handleAnswer(result: AnswerResult) {
     if (result.override && answered === false) {
+      const previous = currentResult || { earned: 0, possible: 0 };
+      const earnedDelta = Math.max(0, result.pointsEarned - previous.earned);
       setAnswered(true);
       setScore((s) => s + 1);
-      setPointsEarned((p) => p + result.pointsEarned);
+      setPointsEarned((p) => p + earnedDelta);
+      setCurrentResult({ earned: result.pointsEarned, possible: result.pointsPossible });
       setTypePoints((prev) => ({
         ...prev,
         [result.type]: {
-          earned: (prev[result.type]?.earned || 0) + result.pointsEarned,
-          possible: (prev[result.type]?.possible || 0) + result.pointsPossible,
+          earned: (prev[result.type]?.earned || 0) + earnedDelta,
+          possible: (prev[result.type]?.possible || 0),
         },
       }));
       return;
     }
     if (answered !== null) return;
     setAnswered(result.correct);
+    setCurrentResult({ earned: result.pointsEarned, possible: result.pointsPossible });
     if (result.correct) setScore((s) => s + 1);
     setPointsEarned((p) => p + result.pointsEarned);
     setPointsPossible((p) => p + result.pointsPossible);
@@ -115,11 +121,13 @@ export default function PartyPage() {
     const pick = pool[Math.floor(Math.random() * pool.length)];
     setQuestions((prev) => prev.map((q, idx) => (idx === current ? pick : q)));
     setAnswered(null);
+    setCurrentResult(null);
   }
 
   function nextQuestion() {
     setCurrent((c) => c + 1);
     setAnswered(null);
+    setCurrentResult(null);
   }
 
   if (loading) return (

@@ -16,6 +16,7 @@ export default function RandomPage() {
   const [loading, setLoading] = useState(false);
   const [answered, setAnswered] = useState<boolean | null>(null);
   const [flagged, setFlagged] = useState(false);
+  const [currentResult, setCurrentResult] = useState<{ earned: number; possible: number } | null>(null);
   const [pointsEarned, setPointsEarned] = useState(0);
   const [pointsPossible, setPointsPossible] = useState(0);
   const [typePoints, setTypePoints] = useState<Record<string, { earned: number; possible: number }>>({});
@@ -65,6 +66,7 @@ export default function RandomPage() {
       setQuestion(nextQuestion);
       setFlagged(Boolean(nextQuestion && isQuestionFlagged(nextQuestion)));
       setAnswered(null);
+      setCurrentResult(null);
     } finally {
       setLoading(false);
     }
@@ -78,23 +80,28 @@ export default function RandomPage() {
     setQuestion(pick);
     setFlagged(isQuestionFlagged(pick));
     setAnswered(null);
+    setCurrentResult(null);
   }
 
   function handleAnswer(result: AnswerResult) {
     if (result.override && answered === false) {
+      const previous = currentResult || { earned: 0, possible: 0 };
+      const earnedDelta = Math.max(0, result.pointsEarned - previous.earned);
       setAnswered(true);
-      setPointsEarned((p) => p + result.pointsEarned);
+      setPointsEarned((p) => p + earnedDelta);
+      setCurrentResult({ earned: result.pointsEarned, possible: result.pointsPossible });
       setTypePoints((prev) => ({
         ...prev,
         [result.type]: {
-          earned: (prev[result.type]?.earned || 0) + result.pointsEarned,
-          possible: (prev[result.type]?.possible || 0) + result.pointsPossible,
+          earned: (prev[result.type]?.earned || 0) + earnedDelta,
+          possible: (prev[result.type]?.possible || 0),
         },
       }));
       return;
     }
     if (answered !== null) return;
     setAnswered(result.correct);
+    setCurrentResult({ earned: result.pointsEarned, possible: result.pointsPossible });
     setPointsEarned((p) => p + result.pointsEarned);
     setPointsPossible((p) => p + result.pointsPossible);
     setTypePoints((prev) => ({
