@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import type { JeopardyClueData, JeopardyFilter, JeopardyGameData, JeopardyIndexEntry } from '@/types/jeopardy';
 import { buildCustomBoard, buildRandomBoard, getClueUserData, searchClues } from '@/lib/clue-store';
@@ -12,6 +12,18 @@ import {
   markEpisodeCompleted,
   recordEpisodeOutcome,
 } from '@/lib/local-tracker';
+import {
+  completeLocalEpisodeProgress,
+  getEpisodeProgressStatus,
+  getLocalEpisodeProgressList,
+  matchesEpisodeFilter,
+  restartLocalEpisodeProgress,
+  revealLocalEpisodeClue,
+  startLocalEpisodeProgress,
+  type JeopardyEpisodeFilter,
+  type JeopardyEpisodeMode,
+  type JeopardyEpisodeProgress,
+} from '@/lib/jeopardy-episode-progress';
 import ClueModal from './components/ClueModal';
 
 interface JeopardyClue extends JeopardyClueData {
@@ -71,6 +83,7 @@ type LearnClue = {
 const VALUES_SINGLE = [200, 400, 600, 800, 1000];
 const VALUES_DOUBLE = [400, 800, 1200, 1600, 2000];
 const VALUES_TRIPLE = [600, 1200, 1800, 2400, 3000];
+const MAX_COMPETITION_TEAMS = 10;
 
 function normaliseApiGame(g: Record<string, unknown>): JeopardyGame {
   const cats = ((g.categories as Record<string, unknown>[]) ?? []).map(cat => ({
@@ -158,9 +171,16 @@ export default function JeopardyPage() {
   const [loadingLibrary, setLoadingLibrary] = useState(false);
   const [libraryProgress, setLibraryProgress] = useState({ loaded: 0, total: 0 });
 
-  const [sessionType, setSessionType] = useState<SessionType>('competition');
+  const [sessionType, setSessionType] = useState<SessionType>('practice');
+  const [activeReplayMode, setActiveReplayMode] = useState<JeopardyEpisodeMode>('practice');
   const [method, setMethod] = useState<JeopardyMethod>('replay');
   const [showSettings, setShowSettings] = useState(false);
+  const [showEpisodeSetupModal, setShowEpisodeSetupModal] = useState(false);
+  const [setupGame, setSetupGame] = useState<JeopardyGame | null>(null);
+  const [setupMode, setSetupMode] = useState<JeopardyEpisodeMode>('practice');
+  const [episodeStatusFilter, setEpisodeStatusFilter] = useState<JeopardyEpisodeFilter>('all');
+  const [episodeStatusMode, setEpisodeStatusMode] = useState<JeopardyEpisodeMode>('practice');
+  const [episodeProgressList, setEpisodeProgressList] = useState<JeopardyEpisodeProgress[]>([]);
 
   const [selectedGame, setSelectedGame] = useState<JeopardyGame | null>(null);
   const [selectedGameKind, setSelectedGameKind] = useState<GameKind | null>(null);
@@ -176,6 +196,7 @@ export default function JeopardyPage() {
   } | null>(null);
 
   const [episodeKey, setEpisodeKey] = useState<string | null>(null);
+  const completionReportedRef = useRef(false);
   const [showWinScreen, setShowWinScreen] = useState(false);
   const revealedClueIdsRef = useRef<Set<string>>(new Set());
 
@@ -204,6 +225,25 @@ export default function JeopardyPage() {
   const [localOverallStats, setLocalOverallStats] = useState(getOverallStats());
   const [localEpisodeStats, setLocalEpisodeStats] = useState<ReturnType<typeof getEpisodeStats> | null>(null);
 
+  const refreshEpisodeProgress = useCallback(async (currentUser: AuthUser | null) => {
+    if (currentUser) {
+      try {
+        const res = await fetch('/api/jeopardy/progress');
+        if (!res.ok) {
+          setEpisodeProgressList([]);
+          return;
+        }
+        const data = await res.json();
+        setEpisodeProgressList(Array.isArray(data.progress) ? data.progress : []);
+      } catch {
+        setEpisodeProgressList([]);
+      }
+      return;
+    }
+
+    setEpisodeProgressList(getLocalEpisodeProgressList());
+  }, []);
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const requested = new URLSearchParams(window.location.search).get('method');
@@ -216,18 +256,35 @@ export default function JeopardyPage() {
     (async () => {
       try {
         const res = await fetch('/api/auth/me');
-        if (!res.ok) return;
+        if (!res.ok) {
+          await refreshEpisodeProgress(null);
+          return;
+        }
         const data = await res.json();
-        setAuthUser(data.user ?? null);
+        const nextUser = data.user ?? null;
+        setAuthUser(nextUser);
         setUserStats(data.stats ?? null);
+        await refreshEpisodeProgress(nextUser);
       } catch {
+        await refreshEpisodeProgress(null);
       }
     })();
-  }, []);
+  }, [refreshEpisodeProgress]);
 
   useEffect(() => {
     setLocalOverallStats(getOverallStats());
   }, []);
+
+  function getEpisodeProgress(episode: JeopardyGame, mode: JeopardyEpisodeMode) {
+    const key = `replay:${episode.showNumber || episode.id}`;
+    return episodeProgressList.find((entry) => entry.episodeKey === key && entry.mode === mode) ?? null;
+  }
+
+  const lastUnfinishedEpisode = useMemo(() => {
+    return episodeProgressList
+      .filter((entry) => entry.mode === episodeStatusMode && entry.status === 'unfinished')
+      .sort((a, b) => b.lastPlayedAt.localeCompare(a.lastPlayedAt))[0] ?? null;
+  }, [episodeProgressList, episodeStatusMode]);
 
   useEffect(() => {
     async function loadGames() {
@@ -354,12 +411,12 @@ export default function JeopardyPage() {
   }
 
   function parsedTeams(): TeamScore[] {
-    const names = teamNamesInput.split(',').map(n => n.trim()).filter(Boolean).slice(0, 8);
+    const names = teamNamesInput.split(',').map(n => n.trim()).filter(Boolean).slice(0, MAX_COMPETITION_TEAMS);
     if (!names.length) return [{ name: 'Team 1', score: 0 }, { name: 'Team 2', score: 0 }];
     return names.map(name => ({ name, score: 0 }));
   }
 
-  function buildBoard(game: JeopardyGame, round: Round) {
+  function buildBoard(game: JeopardyGame, round: Round, revealedIds: Set<string> = revealedClueIdsRef.current) {
     const cats = game.categories.filter(c => c.round === round);
     const values = round === 'double' ? VALUES_DOUBLE : round === 'triple' ? VALUES_TRIPLE : round === 'final' ? [0] : VALUES_SINGLE;
     const nextBoard: Board = {};
@@ -368,7 +425,8 @@ export default function JeopardyPage() {
       nextBoard[cat.id] = {};
       cat.clues.forEach((clue, idx) => {
         const value = round === 'final' ? 0 : values[idx] ?? (idx + 1) * 200;
-        nextBoard[cat.id][value] = { revealed: false, clue };
+        const clueKey = clue.clueId || clue.id;
+        nextBoard[cat.id][value] = { revealed: revealedIds.has(clueKey), clue };
       });
     });
 
@@ -377,7 +435,61 @@ export default function JeopardyPage() {
     setActiveClue(null);
   }
 
-  async function startReplay(game: JeopardyGame) {
+  async function saveEpisodeProgressAction(payload: Record<string, unknown>) {
+    if (authUser) {
+      await postJson('/api/jeopardy/progress', payload);
+      await refreshEpisodeProgress(authUser);
+      return;
+    }
+
+    const action = String(payload.action ?? '');
+    if (action === 'start') {
+      startLocalEpisodeProgress({
+        episodeKey: String(payload.episodeKey),
+        showNumber: payload.showNumber != null ? Number(payload.showNumber) : null,
+        mode: payload.mode as JeopardyEpisodeMode,
+        totalClues: Number(payload.totalClues ?? 0),
+      });
+      setEpisodeProgressList(getLocalEpisodeProgressList());
+      return;
+    }
+    if (action === 'restart') {
+      restartLocalEpisodeProgress({
+        episodeKey: String(payload.episodeKey),
+        showNumber: payload.showNumber != null ? Number(payload.showNumber) : null,
+        mode: payload.mode as JeopardyEpisodeMode,
+        totalClues: Number(payload.totalClues ?? 0),
+      });
+      setEpisodeProgressList(getLocalEpisodeProgressList());
+      return;
+    }
+    if (action === 'reveal') {
+      revealLocalEpisodeClue({
+        episodeKey: String(payload.episodeKey),
+        mode: payload.mode as JeopardyEpisodeMode,
+        clueId: String(payload.clueId ?? ''),
+      });
+      setEpisodeProgressList(getLocalEpisodeProgressList());
+      return;
+    }
+    if (action === 'complete') {
+      completeLocalEpisodeProgress({
+        episodeKey: String(payload.episodeKey),
+        mode: payload.mode as JeopardyEpisodeMode,
+        totalClues: Number(payload.totalClues ?? 0),
+      });
+      setEpisodeProgressList(getLocalEpisodeProgressList());
+    }
+  }
+
+  async function startReplay(
+    game: JeopardyGame,
+    options: {
+      mode: JeopardyEpisodeMode;
+      action: 'start' | 'restart' | 'resume';
+      resumeProgress?: JeopardyEpisodeProgress | null;
+    },
+  ) {
     let resolvedGame = game;
     if (dataSource === 'files-index' && game.categories.length === 0 && game.sourceFile) {
       const base = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
@@ -388,25 +500,44 @@ export default function JeopardyPage() {
 
     if (!resolvedGame.categories.length) return;
 
+    const replaySessionType: SessionType = options.mode === 'competition' ? 'competition' : 'practice';
+    setSessionType(replaySessionType);
+    setActiveReplayMode(options.mode);
     setSelectedGame(resolvedGame);
     setSelectedGameKind('replay');
     setScore(0);
-    setTeamScores(sessionType === 'competition' ? parsedTeams() : []);
+    setTeamScores(replaySessionType === 'competition' ? parsedTeams() : []);
     setChooserTeamIndex(0);
     setShowWinScreen(false);
-    revealedClueIdsRef.current = new Set();
+    completionReportedRef.current = false;
 
     const key = `replay:${resolvedGame.showNumber || resolvedGame.id}`;
     setEpisodeKey(key);
     const totalClues = resolvedGame.categories.reduce((sum, c) => sum + c.clues.length, 0);
+    const resumedIds = options.action === 'resume'
+      ? (options.resumeProgress?.revealedClueIds ?? [])
+      : [];
+    const revealedIds = new Set(resumedIds);
+    revealedClueIdsRef.current = revealedIds;
+
+    if (options.action !== 'resume') {
+      await saveEpisodeProgressAction({
+        action: options.action,
+        episodeKey: key,
+        showNumber: resolvedGame.showNumber || null,
+        mode: options.mode,
+        totalClues,
+      });
+    }
+
     initEpisodeStats({
       episodeKey: key,
       showNumber: resolvedGame.showNumber || null,
-      mode: sessionType,
+      mode: options.mode,
       totalClues,
     });
     setLocalEpisodeStats(getEpisodeStats(key));
-    buildBoard(resolvedGame, 'single');
+    buildBoard(resolvedGame, 'single', revealedIds);
   }
 
   const availableSpecialTypes = useMemo(
@@ -446,7 +577,7 @@ export default function JeopardyPage() {
     }
 
     const index = Math.floor(Math.random() * pool.length);
-    await startReplay(pool[index]);
+    await startReplay(pool[index], { mode: episodeStatusMode, action: 'start' });
   }
 
   async function replayNextEpisode() {
@@ -454,10 +585,42 @@ export default function JeopardyPage() {
     const ordered = [...filteredReplayGames()].sort((a, b) => a.showNumber - b.showNumber);
     const idx = ordered.findIndex(g => g.showNumber === selectedGame.showNumber);
     if (idx >= 0 && idx < ordered.length - 1) {
-      await startReplay(ordered[idx + 1]);
+      await startReplay(ordered[idx + 1], { mode: activeReplayMode, action: 'start' });
     } else {
       alert('No next episode in current filter.');
     }
+  }
+
+  function openEpisodeSetup(game: JeopardyGame) {
+    setSetupGame(game);
+    setSetupMode(episodeStatusMode);
+    setShowEpisodeSetupModal(true);
+  }
+
+  async function startFromSetup(action: 'start' | 'resume' | 'restart') {
+    if (!setupGame) return;
+    const progress = getEpisodeProgress(setupGame, setupMode);
+    await startReplay(setupGame, {
+      mode: setupMode,
+      action,
+      resumeProgress: action === 'resume' ? progress : null,
+    });
+    setShowEpisodeSetupModal(false);
+    setSetupGame(null);
+  }
+
+  async function continueLastUnfinished() {
+    if (!lastUnfinishedEpisode) return;
+    const game = filteredReplayGames().find((entry) => `replay:${entry.showNumber || entry.id}` === lastUnfinishedEpisode.episodeKey);
+    if (!game) {
+      alert('The last unfinished episode is not available in the current filter set.');
+      return;
+    }
+    await startReplay(game, {
+      mode: lastUnfinishedEpisode.mode,
+      action: 'resume',
+      resumeProgress: lastUnfinishedEpisode,
+    });
   }
 
   async function startRandom() {
@@ -677,7 +840,24 @@ export default function JeopardyPage() {
     });
   }
 
-  function revealClue() {
+  async function reportCompletedEpisode(game: JeopardyGame) {
+    if (completionReportedRef.current || !authUser) return;
+    completionReportedRef.current = true;
+    try {
+      await postJson('/api/user/game-complete', {
+        endMoney: sessionType === 'competition' ? 0 : score,
+        showNumber: game.showNumber ?? null,
+      });
+      const meRes = await fetch('/api/auth/me');
+      if (meRes.ok) {
+        const me = await meRes.json();
+        setUserStats(me.stats ?? null);
+      }
+    } catch {
+    }
+  }
+
+  async function revealClue() {
     if (!activeClue) return;
     setBoard(prev => ({
       ...prev,
@@ -694,13 +874,31 @@ export default function JeopardyPage() {
 
     if (!selectedGame) return;
     const totalClues = selectedGame.categories.reduce((sum, c) => sum + c.clues.length, 0);
-    revealedClueIdsRef.current.add(activeClue.clue.id);
+    const clueKey = activeClue.clue.clueId || activeClue.clue.id;
+    revealedClueIdsRef.current.add(clueKey);
+    if (episodeKey && selectedGameKind === 'replay') {
+      await saveEpisodeProgressAction({
+        action: 'reveal',
+        episodeKey,
+        mode: activeReplayMode,
+        clueId: clueKey,
+      });
+    }
     if (revealedClueIdsRef.current.size >= totalClues) {
       if (episodeKey) {
         markEpisodeCompleted(episodeKey);
+        if (selectedGameKind === 'replay') {
+          await saveEpisodeProgressAction({
+            action: 'complete',
+            episodeKey,
+            mode: activeReplayMode,
+            totalClues,
+          });
+        }
         setLocalEpisodeStats(getEpisodeStats(episodeKey));
         setLocalOverallStats(getOverallStats());
       }
+      await reportCompletedEpisode(selectedGame);
       setShowWinScreen(true);
     }
   }
@@ -760,7 +958,7 @@ export default function JeopardyPage() {
     if (sessionType === 'competition' && responder != null) {
       setChooserTeamIndex(responder);
     }
-    revealClue();
+    await revealClue();
   }
 
   async function handleIncorrect() {
@@ -768,30 +966,15 @@ export default function JeopardyPage() {
     const responder = activeClue.respondentTeamIndex;
     await recordOutcome('incorrect');
     applyScore(-activeClue.scoreValue, responder);
-    revealClue();
+    await revealClue();
   }
 
   async function handleSkip() {
     await recordOutcome('skip');
-    revealClue();
+    await revealClue();
   }
 
-  async function finishGameAndBack() {
-    if (authUser) {
-      try {
-        await postJson('/api/user/game-complete', {
-          endMoney: sessionType === 'competition' ? 0 : score,
-          showNumber: selectedGame?.showNumber ?? null,
-        });
-        const meRes = await fetch('/api/auth/me');
-        if (meRes.ok) {
-          const me = await meRes.json();
-          setUserStats(me.stats ?? null);
-        }
-      } catch {
-      }
-    }
-
+  function finishGameAndBack() {
     setSelectedGame(null);
     setSelectedGameKind(null);
     setActiveClue(null);
@@ -866,6 +1049,8 @@ export default function JeopardyPage() {
     );
   }
 
+  const setupProgress = setupGame ? getEpisodeProgress(setupGame, setupMode) : null;
+
   if (loading) {
     return <div className="min-h-screen bg-blue-950 flex items-center justify-center text-white text-2xl">Loading…</div>;
   }
@@ -934,7 +1119,7 @@ export default function JeopardyPage() {
             </div>
           <div className="text-center">
             <h1 className="text-2xl font-bold text-yellow-400">{selectedGame.showNumber ? `Show #${selectedGame.showNumber}` : 'Jeopardy'}</h1>
-            <div className="text-sm text-gray-300">{sessionType === 'competition' ? 'Competition' : 'Practice'} mode</div>
+            <div className="text-sm text-gray-300">{selectedGameKind === 'replay' ? `${activeReplayMode[0].toUpperCase()}${activeReplayMode.slice(1)}` : sessionType === 'competition' ? 'Competition' : 'Practice'} mode</div>
           </div>
           {sessionType === 'competition' ? (
             <div className="text-right">
@@ -1033,15 +1218,17 @@ export default function JeopardyPage() {
         )}
       </div>
 
-      <div className="flex justify-center gap-2 mb-4">
-        {(['competition', 'practice'] as SessionType[]).map(type => (
-          <button key={type} onClick={() => setSessionType(type)} className={`px-5 py-2 rounded-lg font-bold capitalize ${sessionType === type ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>{type}</button>
-        ))}
-      </div>
+      {method !== 'replay' && (
+        <div className="flex justify-center gap-2 mb-4">
+          {(['competition', 'practice'] as SessionType[]).map(type => (
+            <button key={type} onClick={() => setSessionType(type)} className={`px-5 py-2 rounded-lg font-bold capitalize ${sessionType === type ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>{type}</button>
+          ))}
+        </div>
+      )}
 
-      {sessionType === 'competition' && (
+      {method !== 'replay' && sessionType === 'competition' && (
         <div className="max-w-3xl mx-auto bg-blue-900 rounded-xl p-4 mb-5">
-          <label className="block text-sm font-bold text-blue-300 mb-1">Players/teams (comma separated)</label>
+          <label className="block text-sm font-bold text-blue-300 mb-1">Players/teams (comma separated, max {MAX_COMPETITION_TEAMS})</label>
           <input value={teamNamesInput} onChange={e => setTeamNamesInput(e.target.value)} className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2" placeholder="Team 1, Team 2" />
         </div>
       )}
@@ -1103,18 +1290,69 @@ export default function JeopardyPage() {
               ))}
             </div>
 
-            <button onClick={startRandomReplayFromFilters} className="bg-yellow-400 text-blue-950 font-bold rounded px-4 py-2">Random replay episode</button>
+            <div className="text-sm text-blue-200 mb-2">Progress markers</div>
+            <div className="flex flex-wrap gap-2 mb-2">
+              {(['practice', 'competition', 'learn'] as JeopardyEpisodeMode[]).map((mode) => (
+                <button
+                  key={mode}
+                  onClick={() => {
+                    setEpisodeStatusMode(mode);
+                    setSetupMode(mode);
+                  }}
+                  className={`px-3 py-1 rounded text-xs font-bold capitalize ${episodeStatusMode === mode ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>
+                  {mode}
+                </button>
+              ))}
+            </div>
+            <div className="flex flex-wrap gap-2 mb-3">
+              {(['all', 'completed', 'unfinished', 'unstarted'] as JeopardyEpisodeFilter[]).map((filterValue) => (
+                <button
+                  key={filterValue}
+                  onClick={() => setEpisodeStatusFilter(filterValue)}
+                  className={`px-3 py-1 rounded text-xs font-bold capitalize ${episodeStatusFilter === filterValue ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>
+                  {filterValue}
+                </button>
+              ))}
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              <button onClick={startRandomReplayFromFilters} className="bg-yellow-400 text-blue-950 font-bold rounded px-4 py-2">Random replay episode</button>
+              {lastUnfinishedEpisode && (
+                <button onClick={continueLastUnfinished} className="bg-blue-700 hover:bg-blue-600 font-bold rounded px-4 py-2">
+                  Continue last unfinished ({lastUnfinishedEpisode.mode})
+                </button>
+              )}
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {filteredReplayGames().map(game => (
-              <button key={game.id} onClick={() => startReplay(game)} className="bg-blue-800 hover:bg-blue-700 rounded-xl p-6 text-left">
-                <div className="text-xl font-bold">Show #{game.showNumber}</div>
+            {filteredReplayGames()
+              .filter((game) => {
+                const status = getEpisodeProgressStatus(getEpisodeProgress(game, episodeStatusMode));
+                return matchesEpisodeFilter(status, episodeStatusFilter);
+              })
+              .map(game => {
+                const status = getEpisodeProgressStatus(getEpisodeProgress(game, episodeStatusMode));
+                return (
+              <button key={game.id} onClick={() => openEpisodeSetup(game)} className="bg-blue-800 hover:bg-blue-700 rounded-xl p-6 text-left">
+                <div className="flex items-center justify-between gap-2">
+                  <div className="text-xl font-bold">Show #{game.showNumber}</div>
+                  <span className={`text-xs font-bold px-2 py-1 rounded ${
+                    status === 'completed'
+                      ? 'bg-green-600 text-white'
+                      : status === 'unfinished'
+                        ? 'bg-amber-500 text-blue-950'
+                        : 'bg-blue-900 text-blue-200'
+                  }`}>
+                    {status === 'completed' ? '✅ Completed' : status === 'unfinished' ? '⏳ Unfinished' : '○ Unstarted'}
+                  </span>
+                </div>
                 <div className="text-sm text-blue-300">{game.airDate}</div>
                 {getEffectiveSeason(game) && <div className="text-sm text-blue-300">Season {getEffectiveSeason(game)}</div>}
                 {game.isSpecial && <div className="text-xs mt-1 text-yellow-300">{game.tournamentType || 'Other Special'}</div>}
               </button>
-            ))}
+              );
+            })}
           </div>
         </div>
       )}
@@ -1149,6 +1387,67 @@ export default function JeopardyPage() {
         <div className="max-w-xl mx-auto text-center bg-blue-900 rounded-xl p-6">
           <p className="text-blue-200 mb-4">Study your missed and skipped clues from your local tracker history.</p>
           <button onClick={startLearnMode} className="bg-yellow-400 text-blue-950 px-8 py-3 rounded-xl font-bold">Start Learn Game</button>
+        </div>
+      )}
+
+      {showEpisodeSetupModal && setupGame && (
+        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4" onClick={() => setShowEpisodeSetupModal(false)}>
+          <div className="w-full max-w-xl bg-blue-900 border border-blue-700 rounded-2xl p-6 space-y-4" onClick={(e) => e.stopPropagation()}>
+            <h2 className="text-2xl font-bold text-yellow-300">Show #{setupGame.showNumber}</h2>
+            <p className="text-sm text-blue-200">{setupGame.airDate}</p>
+
+            <div>
+              <div className="text-sm text-blue-200 mb-2">Mode</div>
+              <div className="flex gap-2 flex-wrap">
+                {(['practice', 'competition', 'learn'] as JeopardyEpisodeMode[]).map((mode) => (
+                  <button
+                    key={mode}
+                    onClick={() => setSetupMode(mode)}
+                    className={`px-4 py-2 rounded-lg font-bold capitalize ${setupMode === mode ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>
+                    {mode}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <label className="text-sm text-blue-200 flex items-center gap-2">
+              <input type="checkbox" checked={normalizeTripleStumperColor} onChange={e => setNormalizeTripleStumperColor(e.target.checked)} />
+              Triple stumper as blue
+            </label>
+
+            {setupProgress?.status === 'unfinished' && (
+              <div className="text-sm bg-blue-950/60 rounded-lg p-3 border border-blue-700">
+                <div className="text-yellow-300 font-bold mb-1">Unfinished game found</div>
+                <div className="text-blue-200">Revealed clues: {setupProgress.revealedCount}/{setupProgress.totalClues}</div>
+              </div>
+            )}
+
+            {setupMode === 'competition' && (
+              <div>
+                <label className="block text-sm font-bold text-blue-300 mb-1">Teams (comma-separated, max {MAX_COMPETITION_TEAMS})</label>
+                <input
+                  value={teamNamesInput}
+                  onChange={e => setTeamNamesInput(e.target.value)}
+                  className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2"
+                  placeholder="Team 1, Team 2"
+                />
+              </div>
+            )}
+
+            <div className="flex flex-wrap gap-2 pt-2">
+              {setupProgress?.status === 'unfinished' ? (
+                <>
+                  <button onClick={() => void startFromSetup('resume')} className="bg-yellow-400 text-blue-950 font-bold rounded px-4 py-2">Resume</button>
+                  <button onClick={() => void startFromSetup('restart')} className="bg-red-600 hover:bg-red-500 font-bold rounded px-4 py-2">Restart</button>
+                </>
+              ) : (
+                <button onClick={() => void startFromSetup('start')} className="bg-yellow-400 text-blue-950 font-bold rounded px-4 py-2">
+                  {setupProgress?.status === 'completed' ? 'Start again' : 'Start'}
+                </button>
+              )}
+              <button onClick={() => setShowEpisodeSetupModal(false)} className="bg-blue-700 hover:bg-blue-600 font-bold rounded px-4 py-2">Cancel</button>
+            </div>
+          </div>
         </div>
       )}
 

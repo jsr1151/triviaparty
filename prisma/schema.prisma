@@ -169,6 +169,7 @@ model User {
   sessions     UserSession[]
   stats        UserStats?
   clueProgress UserClueProgress[]
+  jeopardyEpisodeProgress UserJeopardyEpisodeProgress[]
 }
 
 model UserSession {
@@ -221,4 +222,26 @@ model UserClueProgress {
 
   @@unique([userId, clueId])
   @@index([userId, updatedAt])
+}
+
+model UserJeopardyEpisodeProgress {
+  id                 String   @id @default(cuid())
+  userId             String
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  episodeKey         String
+  showNumber         Int?
+  mode               String
+  status             String   @default("unfinished")
+  totalClues         Int      @default(0)
+  revealedClueIds    Json     @default("[]")
+  revealedCount      Int      @default(0)
+  uniqueCluesAnswered Int     @default(0)
+  startedAt          DateTime @default(now())
+  lastPlayedAt       DateTime @default(now())
+  completedAt        DateTime?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@unique([userId, episodeKey, mode])
+  @@index([userId, status, lastPlayedAt])
 }
