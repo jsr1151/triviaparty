@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 import type { Prisma } from '@/generated/prisma/client';
 import { prisma } from '@/lib/prisma';
 import { getUserFromRequest } from '@/lib/auth';
@@ -12,7 +14,7 @@ import {
   upsertPlayerAnswer,
   type PlayerAnswerEntry,
 } from '@/lib/multiplayer-game';
-import { buildPartyQuestionsFromRoomConfig } from '@/lib/server-multiplayer-room';
+import { buildPartyQuestionsFromRoomConfig, mapDbQuestionToAnyQuestion } from '@/lib/server-multiplayer-room';
 import { pusherServer } from '@/lib/pusher';
 import type { AnyQuestion } from '@/types/questions';
 
@@ -103,24 +105,51 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
 
   if (resolvedEvent === 'game-started') {
     if (room.mode === 'party') {
-      const allQuestions = await prisma.question.findMany({
-        include: {
-          category: true,
-          multipleChoice: true,
-          openEnded: true,
-          listQuestion: true,
-          groupingQuestion: true,
-          thisOrThat: true,
-          rankingQuestion: true,
-          mediaQuestion: true,
-          promptQuestion: true,
-        },
-      });
-      const built = buildPartyQuestionsFromRoomConfig(allQuestions, room.gameConfig);
+      let rawDbQuestions: Array<Parameters<typeof mapDbQuestionToAnyQuestion>[0]> = [];
+      try {
+        rawDbQuestions = await prisma.question.findMany({
+          include: {
+            category: true,
+            multipleChoice: true,
+            openEnded: true,
+            listQuestion: true,
+            groupingQuestion: true,
+            thisOrThat: true,
+            rankingQuestion: true,
+            mediaQuestion: true,
+            promptQuestion: true,
+          },
+        });
+      } catch {
+        rawDbQuestions = [];
+      }
+
+      let allQuestionsForGame: AnyQuestion[] = rawDbQuestions
+        .map(mapDbQuestionToAnyQuestion)
+        .filter((question): question is AnyQuestion => Boolean(question));
+
+      if (!allQuestionsForGame.length) {
+        try {
+          const filePath = join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+          const raw = JSON.parse(readFileSync(filePath, 'utf-8'));
+          allQuestionsForGame = (Array.isArray(raw?.questions) ? raw.questions : [])
+            .filter((q: AnyQuestion) => {
+              if (q.type !== 'media') return true;
+              const mediaQuestion = q as AnyQuestion & { mediaUrl?: string; needsMediaReview?: boolean };
+              if (mediaQuestion.needsMediaReview) return false;
+              return !/youtube\.com\/clip\//i.test(mediaQuestion.mediaUrl || '');
+            })
+            .map((q: AnyQuestion, index: number) => ({ ...q, id: q.id || `static-${index}` }));
+        } catch {
+          allQuestionsForGame = [];
+        }
+      }
+
+      const built = buildPartyQuestionsFromRoomConfig(allQuestionsForGame, room.gameConfig);
       const plannedQuestions = built.questions;
       if (!plannedQuestions.length) {
-        const error = !allQuestions.length
-          ? 'No questions found in the database. Please add questions via the Question Creator before starting a multiplayer game.'
+        const error = !allQuestionsForGame.length
+          ? 'No questions found in the database or static question file. Please add questions via the Question Creator before starting a multiplayer game.'
           : built.failureHint
           ? `No questions matched current filters (${built.failureHint}). Try using mixed difficulty or random categories for the round.`
           : 'No questions available for this room configuration. Try broadening difficulty/category filters or adding more question types.';

@@ -590,7 +590,7 @@ function PartySettingsModal({
                 {round.mode === 'configured' && (
                   <div className="space-y-2">
                     {round.slots.map((slot, slotIndex) => (
-                      <div key={slot.id} className="grid md:grid-cols-7 gap-2">
+                      <div key={slot.id} className="grid md:grid-cols-9 gap-2">
                         <select value={slot.type} onChange={(e) => {
                           const rounds = [...settings.rounds];
                           const slots = [...round.slots];
@@ -617,28 +617,69 @@ function PartySettingsModal({
                           <option value="fixed">Fixed</option>
                           <option value="randomized">Randomized</option>
                         </select>
-                        <select value={slot.listMode} onChange={(e) => {
+                        {slot.type === 'list' && (
+                          <>
+                            <select value={slot.listMode} onChange={(e) => {
+                              const rounds = [...settings.rounds];
+                              const slots = [...round.slots];
+                              slots[slotIndex] = { ...slot, listMode: e.target.value as typeof slot.listMode };
+                              rounds[roundIndex] = { ...round, slots };
+                              setSettings({ ...settings, rounds });
+                            }} className="bg-gray-700 rounded p-2">
+                              <option value="timed">List: Timed</option>
+                              <option value="strikes">List: 3 Strikes</option>
+                              <option value="unlimited">List: Unlimited</option>
+                              <option value="random">List: Random</option>
+                            </select>
+                            <select value={slot.listScoring} onChange={(e) => {
+                              const rounds = [...settings.rounds];
+                              const slots = [...round.slots];
+                              slots[slotIndex] = { ...slot, listScoring: e.target.value as typeof slot.listScoring };
+                              rounds[roundIndex] = { ...round, slots };
+                              setSettings({ ...settings, rounds });
+                            }} className="bg-gray-700 rounded p-2">
+                              <option value="target">Goal: Target</option>
+                              <option value="as_many">Goal: Name as Many</option>
+                              <option value="random">Goal: Random</option>
+                            </select>
+                          </>
+                        )}
+                        {slot.type === 'grouping' && (
+                          <select value={slot.groupingMode || 'elimination'} onChange={(e) => {
+                            const rounds = [...settings.rounds];
+                            const slots = [...round.slots];
+                            slots[slotIndex] = { ...slot, groupingMode: e.target.value as NonNullable<typeof slot.groupingMode> };
+                            rounds[roundIndex] = { ...round, slots };
+                            setSettings({ ...settings, rounds });
+                          }} className="bg-gray-700 rounded p-2">
+                            <option value="elimination">Grouping: Elimination</option>
+                            <option value="continuous">Grouping: Continuous</option>
+                          </select>
+                        )}
+                        {slot.type === 'ranking' && (
+                          <select value={slot.rankingMode || 'anchor_adjust'} onChange={(e) => {
+                            const rounds = [...settings.rounds];
+                            const slots = [...round.slots];
+                            slots[slotIndex] = { ...slot, rankingMode: e.target.value as NonNullable<typeof slot.rankingMode> };
+                            rounds[roundIndex] = { ...round, slots };
+                            setSettings({ ...settings, rounds });
+                          }} className="bg-gray-700 rounded p-2">
+                            <option value="anchor_adjust">Ranking: Anchor Adjust</option>
+                            <option value="one_shot">Ranking: One Shot</option>
+                          </select>
+                        )}
+                        <select value={slot.categoryStrategy || 'any'} onChange={(e) => {
                           const rounds = [...settings.rounds];
                           const slots = [...round.slots];
-                          slots[slotIndex] = { ...slot, listMode: e.target.value as typeof slot.listMode };
+                          slots[slotIndex] = { ...slot, categoryStrategy: e.target.value as NonNullable<typeof slot.categoryStrategy> };
                           rounds[roundIndex] = { ...round, slots };
                           setSettings({ ...settings, rounds });
                         }} className="bg-gray-700 rounded p-2">
-                          <option value="timed">List: Timed</option>
-                          <option value="strikes">List: 3 Strikes</option>
-                          <option value="unlimited">List: Unlimited</option>
-                          <option value="random">List: Random</option>
-                        </select>
-                        <select value={slot.listScoring} onChange={(e) => {
-                          const rounds = [...settings.rounds];
-                          const slots = [...round.slots];
-                          slots[slotIndex] = { ...slot, listScoring: e.target.value as typeof slot.listScoring };
-                          rounds[roundIndex] = { ...round, slots };
-                          setSettings({ ...settings, rounds });
-                        }} className="bg-gray-700 rounded p-2">
-                          <option value="target">Goal: Target</option>
-                          <option value="as_many">Goal: Name as Many</option>
-                          <option value="random">Goal: Random</option>
+                          <option value="any">Category: Any</option>
+                          <option value="same_round">Category: Same as Round</option>
+                          <option value="unique_round">Category: Unique per Round</option>
+                          <option value="rotate_round">Category: Rotate</option>
+                          <option value="player_choice">Category: Player Chooses</option>
                         </select>
                         <input type="number" min={0} max={300} value={slot.timeLimitSec || 0} onChange={(e) => {
                           const rounds = [...settings.rounds];
@@ -670,6 +711,7 @@ function PartySettingsModal({
                             order: 'fixed',
                             listMode: 'timed',
                             listScoring: 'target',
+                            categoryStrategy: 'any',
                           },
                         ],
                       };
@@ -696,7 +738,7 @@ function PartySettingsModal({
                       mode: 'configured',
                       order: 'fixed',
                       questionCount: 10,
-                      slots: [{ id: `round-${settings.rounds.length + 1}-slot-1`, type: 'multiple_choice', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target' }],
+                      slots: [{ id: `round-${settings.rounds.length + 1}-slot-1`, type: 'multiple_choice', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'any' }],
                       options: ['multiple_choice', 'open_ended', 'list'],
                       difficulty: 'mixed',
                       categoryMode: 'random',
