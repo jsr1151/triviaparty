@@ -42,6 +42,15 @@ export interface JeopardyStatsView {
   bySeason: JeopardySeasonStats[];
   last5Games: JeopardyStatsSnapshot & { gameCount: number };
   modeSplits: Array<{ mode: JeopardyEpisodeMode; gamesCompleted: number; unfinishedGames: number }>;
+  performanceOverTime: Array<{
+    episodeKey: string;
+    showNumber: number | null;
+    mode: JeopardyEpisodeMode;
+    playedAt: string;
+    label: string;
+    correctPercent: number;
+    averageCorrectPercent: number;
+  }>;
 }
 
 interface BuildStatsParams {
@@ -191,10 +200,38 @@ export function buildJeopardyStatsView(params: BuildStatsParams): JeopardyStatsV
     gameCount: last5Episodes.length,
   };
 
+  const performanceOverTime = [...replayEpisodes]
+    .sort((a, b) => {
+      const aTime = a.completedAt ?? a.lastPlayedAt;
+      const bTime = b.completedAt ?? b.lastPlayedAt;
+      return aTime.localeCompare(bTime);
+    })
+    .map((episode) => {
+      const gameId = episode.showNumber != null
+        ? (params.showNumberToGameId.get(episode.showNumber) ?? episode.showNumber)
+        : null;
+      const gameClues = params.clues.filter((clue) => {
+        if (gameId == null) return false;
+        return parseGameId(clue.clueId) === gameId;
+      });
+      const correct = gameClues.reduce((sum, clue) => sum + clue.correctCount, 0);
+      const incorrect = gameClues.reduce((sum, clue) => sum + clue.incorrectCount, 0);
+      return {
+        episodeKey: episode.episodeKey,
+        showNumber: episode.showNumber,
+        mode: episode.mode,
+        playedAt: episode.completedAt ?? episode.lastPlayedAt,
+        label: episode.showNumber != null ? `#${episode.showNumber}` : episode.episodeKey,
+        correctPercent: toPercent(correct, incorrect),
+        averageCorrectPercent: overall.averageCorrectPercent,
+      };
+    });
+
   return {
     overall,
     bySeason,
     last5Games,
     modeSplits,
+    performanceOverTime,
   };
 }

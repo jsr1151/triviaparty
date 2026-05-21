@@ -1024,8 +1024,15 @@ export default function JeopardyPage() {
 
     if (!authUser) return;
     try {
+      const trackingMode =
+        selectedGameKind === 'replay'
+          ? activeReplayMode
+          : selectedGameKind === 'learn'
+            ? 'learn'
+            : sessionType;
       await postJson('/api/user/progress', {
         outcome,
+        mode: trackingMode,
         clue: {
           clueId: activeClue.clue.clueId,
           question: activeClue.clue.question,

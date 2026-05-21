@@ -170,6 +170,7 @@ model User {
   stats        UserStats?
   clueProgress UserClueProgress[]
   jeopardyEpisodeProgress UserJeopardyEpisodeProgress[]
+  studyItems   UserStudyItem[]
 }
 
 model UserSession {
@@ -216,12 +217,39 @@ model UserClueProgress {
   correctCount    Int      @default(0)
   incorrectCount  Int      @default(0)
   skipCount       Int      @default(0)
+  practiceMissCount Int    @default(0)
   lastOutcome     String   @default("skip")
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
   @@unique([userId, clueId])
   @@index([userId, updatedAt])
+}
+
+model UserStudyItem {
+  id                 String   @id @default(cuid())
+  userId             String
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sourceType         String
+  sourceId           String
+  prompt             String
+  answer             String
+  category           String?
+  reviewCount        Int      @default(0)
+  lapseCount         Int      @default(0)
+  consecutiveCorrect Int      @default(0)
+  easeFactor         Float    @default(2.5)
+  intervalDays       Int      @default(0)
+  nextDueAt          DateTime @default(now())
+  lastReviewedAt     DateTime?
+  lastOutcome        String   @default("new")
+  masteredAt         DateTime?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@unique([userId, sourceType, sourceId])
+  @@index([userId, nextDueAt])
+  @@index([userId, sourceType, nextDueAt])
 }
 
 model UserJeopardyEpisodeProgress {
