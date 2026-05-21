@@ -31,6 +31,13 @@ export default function JoinRoomPage() {
       setError(data?.error || 'Unable to join room.');
       return;
     }
+    if (typeof window !== 'undefined' && data?.playerId) {
+      window.localStorage.setItem(`triviaparty:room:${roomCode}:player`, JSON.stringify({
+        playerId: data.playerId,
+        playerName: displayName.trim(),
+        team: team.trim() || undefined,
+      }));
+    }
     router.push(`/room/${roomCode}`);
   }
 
