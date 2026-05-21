@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import type { Prisma } from '@/generated/prisma/client';
 import { prisma } from '@/lib/prisma';
+import { getUserFromRequest } from '@/lib/auth';
 import { parsePlayers } from '@/lib/multiplayer';
 import {
   computeAwardedPoints,
@@ -33,6 +34,15 @@ const ALLOWED_EVENTS = new Set([
   'buzz-in',
   'wager-submitted',
 ]);
+const HOST_ONLY_EVENTS = new Set([
+  'game-started',
+  'question-changed',
+  'answer-revealed',
+  'game-finished',
+  'answer-judged',
+  'score-updated',
+  'state-updated',
+]);
 const DEFAULT_ANSWER_WINDOW_MS = 15000;
 
 function resolveAnswerWindowMs(gameConfig: unknown): number {
@@ -57,16 +67,19 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   if (!ALLOWED_EVENTS.has(event)) {
     return NextResponse.json({ error: 'Unsupported event.' }, { status: 400 });
   }
-
-  if (!pusherServer) {
-    return NextResponse.json({ error: 'Pusher is not configured.' }, { status: 503 });
-  }
-
+  const user = process.env.GITHUB_PAGES === 'true' ? null : await getUserFromRequest(req);
   const resolvedEvent = event === 'answer-submitted'
     ? 'player-answered'
     : event === 'buzz-in'
       ? 'player-buzzed'
       : event;
+  if (HOST_ONLY_EVENTS.has(resolvedEvent) && room.hostUserId && room.hostUserId !== user?.id) {
+    return NextResponse.json({ error: 'Only the host can perform this action.' }, { status: 403 });
+  }
+
+  if (!pusherServer) {
+    return NextResponse.json({ error: 'Pusher is not configured.' }, { status: 503 });
+  }
 
   const players = parsePlayers(room.players);
   const currentState = (room.gameState && typeof room.gameState === 'object') ? room.gameState as Record<string, unknown> : {};

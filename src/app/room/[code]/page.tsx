@@ -9,7 +9,7 @@ type RoomPayload = {
   code: string;
   mode: 'party' | 'jeopardy' | string;
   status: string;
-  players: Array<{ id: string; name: string; team?: string }>;
+  players: Array<{ id: string; name: string; team?: string; isHost?: boolean }>;
   gameState: Record<string, unknown>;
 };
 
@@ -75,7 +75,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
         if (!loadedRoom) return;
         setRoom(loadedRoom);
         if (!profile && loadedRoom.players?.length) {
-          const fallback = loadedRoom.players.find((player) => player.name !== 'Host');
+          const fallback = loadedRoom.players.find((player) => !player.isHost);
           if (fallback) setProfile((prev) => prev || { playerId: fallback.id, playerName: fallback.name });
         }
       }
