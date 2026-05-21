@@ -39,4 +39,57 @@ describe('party-mode builder', () => {
     expect(settings.rounds[5].name).toContain('Brainstorm');
     expect(settings.rounds[6].name).toContain('Quick Wits');
   });
+
+  it('applies default round difficulty/category values for built-in presets', () => {
+    const pursuitShort = createPresetSettings('pursuit-short');
+    pursuitShort.rounds.forEach((round) => {
+      expect(round.difficulty).toBe('mixed');
+      expect(round.categoryMode).toBe('random');
+    });
+
+    const pursuitLong = createPresetSettings('pursuit-long');
+    pursuitLong.rounds.slice(0, 5).forEach((round) => {
+      expect(round.difficulty).toBe('mixed');
+      expect(round.categoryMode).toBe('random');
+    });
+    pursuitLong.rounds.slice(5).forEach((round) => {
+      expect(round.difficulty).toBe('medium');
+      expect(round.categoryMode).toBe('random');
+    });
+
+    const lightning = createPresetSettings('lightning-round');
+    expect(lightning.rounds[0].difficulty).toBe('easy');
+    expect(lightning.rounds[0].categoryMode).toBe('random');
+
+    const variety = createPresetSettings('variety-pack');
+    expect(variety.rounds[0].difficulty).toBe('mixed');
+    expect(variety.rounds[0].categoryMode).toBe('balanced');
+
+    const expert = createPresetSettings('expert-challenge');
+    expect(expert.rounds[0].difficulty).toBe('hard');
+    expect(expert.rounds[0].categoryMode).toBe('random');
+  });
+
+  it('treats mixed or unset round filtering as unfiltered', () => {
+    const settings = createDefaultSettings();
+    settings.difficultyScope = 'round';
+    settings.categoryScope = 'round';
+    settings.rounds[0] = {
+      ...settings.rounds[0],
+      questionCount: 2,
+      slots: [
+        { id: 's1', type: 'multiple_choice', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target' },
+        { id: 's2', type: 'open_ended', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target' },
+      ],
+      difficulty: 'mixed',
+      categoryMode: 'random',
+      category: '',
+    };
+    const built = buildPartyQuestions(sampleQuestions, settings);
+    expect(built).toHaveLength(2);
+
+    settings.rounds[0] = { ...settings.rounds[0], difficulty: undefined, categoryMode: undefined, category: undefined };
+    const builtWithUnset = buildPartyQuestions(sampleQuestions, settings);
+    expect(builtWithUnset.length).toBeGreaterThan(0);
+  });
 });
