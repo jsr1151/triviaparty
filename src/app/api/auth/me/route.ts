@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getUserFromRequest, sanitizeAuthUser } from '@/lib/auth';
 import { ensureUserStats } from '@/lib/server-user-stats';
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
 
 export async function GET(req: NextRequest) {
   if (process.env.GITHUB_PAGES === 'true') {
