@@ -42,18 +42,22 @@ describe('party-mode builder', () => {
 
   it('applies default round difficulty/category values for built-in presets', () => {
     const pursuitShort = createPresetSettings('pursuit-short');
+    expect(pursuitShort.difficultyScope).toBe('game');
+    expect(pursuitShort.difficultyMode).toBe('random');
+    expect(pursuitShort.categoryScope).toBe('round');
+    expect(pursuitShort.categoryMode).toBe('random');
     pursuitShort.rounds.forEach((round) => {
       expect(round.difficulty).toBe('mixed');
       expect(round.categoryMode).toBe('random');
     });
 
     const pursuitLong = createPresetSettings('pursuit-long');
-    pursuitLong.rounds.slice(0, 5).forEach((round) => {
+    expect(pursuitLong.difficultyScope).toBe('game');
+    expect(pursuitLong.difficultyMode).toBe('random');
+    expect(pursuitLong.categoryScope).toBe('round');
+    expect(pursuitLong.categoryMode).toBe('random');
+    pursuitLong.rounds.forEach((round) => {
       expect(round.difficulty).toBe('mixed');
-      expect(round.categoryMode).toBe('random');
-    });
-    pursuitLong.rounds.slice(5).forEach((round) => {
-      expect(round.difficulty).toBe('medium');
       expect(round.categoryMode).toBe('random');
     });
 
@@ -91,5 +95,36 @@ describe('party-mode builder', () => {
     settings.rounds[0] = { ...settings.rounds[0], difficulty: undefined, categoryMode: undefined, category: undefined };
     const builtWithUnset = buildPartyQuestions(sampleQuestions, settings);
     expect(builtWithUnset.length).toBeGreaterThan(0);
+  });
+
+  it('falls back to any available type when a slot type is absent from the question pool', () => {
+    const settings = createDefaultSettings();
+    settings.rounds[0] = {
+      ...settings.rounds[0],
+      questionCount: 1,
+      slots: [{ id: 'ranking-only', type: 'ranking', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target' }],
+      difficulty: 'mixed',
+      categoryMode: 'random',
+    };
+    const built = buildPartyQuestions(sampleQuestions, settings);
+    expect(built).toHaveLength(1);
+  });
+
+  it('does not fall back to other types when requested type exists but has no unused questions left', () => {
+    const settings = createDefaultSettings();
+    settings.rounds[0] = {
+      ...settings.rounds[0],
+      questionCount: 2,
+      slots: [{ id: 'ranking-only', type: 'ranking', count: 2, order: 'fixed', listMode: 'timed', listScoring: 'target' }],
+      difficulty: 'mixed',
+      categoryMode: 'random',
+    };
+    const rankingPool: AnyQuestion[] = [
+      { id: 'ranking-1', type: 'ranking', question: 'Rank these', difficulty: 'medium', category: 'science', criteria: 'ascending', items: [{ text: 'A', rank: 1 }] },
+      { id: 'mc-1', type: 'multiple_choice', question: 'Fallback candidate', difficulty: 'easy', category: 'science', options: ['A', 'B'] },
+    ];
+    const built = buildPartyQuestions(rankingPool, settings);
+    expect(built).toHaveLength(1);
+    expect(built[0].type).toBe('ranking');
   });
 });
