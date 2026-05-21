@@ -46,6 +46,12 @@ const HOST_ONLY_EVENTS = new Set([
   'state-updated',
 ]);
 const DEFAULT_ANSWER_WINDOW_MS = 15000;
+const STATIC_QUESTIONS_FILE_PATH = join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+
+type StaticMediaQuestion = AnyQuestion & {
+  mediaUrl?: string;
+  needsMediaReview?: boolean;
+};
 
 function resolveAnswerWindowMs(gameConfig: unknown): number {
   const configured = Number((gameConfig as { answerWindowMs?: unknown } | null)?.answerWindowMs || DEFAULT_ANSWER_WINDOW_MS);
@@ -130,12 +136,11 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
 
       if (!allQuestionsForGame.length) {
         try {
-          const filePath = join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
-          const raw = JSON.parse(readFileSync(filePath, 'utf-8'));
+          const raw = JSON.parse(readFileSync(STATIC_QUESTIONS_FILE_PATH, 'utf-8'));
           allQuestionsForGame = (Array.isArray(raw?.questions) ? raw.questions : [])
             .filter((q: AnyQuestion) => {
               if (q.type !== 'media') return true;
-              const mediaQuestion = q as AnyQuestion & { mediaUrl?: string; needsMediaReview?: boolean };
+              const mediaQuestion = q as StaticMediaQuestion;
               if (mediaQuestion.needsMediaReview) return false;
               return !/youtube\.com\/clip\//i.test(mediaQuestion.mediaUrl || '');
             })
