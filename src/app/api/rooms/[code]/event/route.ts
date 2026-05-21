@@ -47,7 +47,7 @@ const HOST_ONLY_EVENTS = new Set([
 ]);
 const DEFAULT_ANSWER_WINDOW_MS = 15000;
 const STATIC_QUESTIONS_FILE_PATH = process.env.MULTIPLAYER_PARTY_QUESTIONS_FILE
-  || join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+  ?? join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
 
 type StaticMediaQuestion = AnyQuestion & {
   mediaUrl?: string;
@@ -155,7 +155,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       const plannedQuestions = built.questions;
       if (!plannedQuestions.length) {
         const error = !availableQuestions.length
-          ? 'No questions available. Please add questions via the Question Creator or contact an administrator.'
+          ? 'No questions available. Please add questions via the Question Creator. If this persists, contact an administrator.'
           : built.failureHint
           ? `No questions matched current filters (${built.failureHint}). Try using mixed difficulty or random categories for the round.`
           : 'No questions available for this room configuration. Try broadening difficulty/category filters or adding more question types.';

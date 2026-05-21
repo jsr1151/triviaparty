@@ -593,7 +593,7 @@ function PartySettingsModal({
                 {round.mode === 'configured' && (
                   <div className="space-y-2">
                     {round.slots.map((slot, slotIndex) => (
-                      <div key={slot.id} className="grid md:grid-cols-8 gap-2">
+                      <div key={slot.id} className={`grid gap-2 ${slot.type === 'list' ? 'md:grid-cols-8' : 'md:grid-cols-7'}`}>
                         <select value={slot.type} onChange={(e) => {
                           const rounds = [...settings.rounds];
                           const slots = [...round.slots];
@@ -648,7 +648,7 @@ function PartySettingsModal({
                           </>
                         )}
                         {slot.type === 'grouping' && (
-                          <select value={slot.groupingMode || DEFAULT_GROUPING_MODE} onChange={(e) => {
+                          <select value={slot.groupingMode ?? DEFAULT_GROUPING_MODE} onChange={(e) => {
                             const rounds = [...settings.rounds];
                             const slots = [...round.slots];
                             slots[slotIndex] = { ...slot, groupingMode: e.target.value as NonNullable<typeof slot.groupingMode> };
@@ -660,7 +660,7 @@ function PartySettingsModal({
                           </select>
                         )}
                         {slot.type === 'ranking' && (
-                          <select value={slot.rankingMode || DEFAULT_RANKING_MODE} onChange={(e) => {
+                          <select value={slot.rankingMode ?? DEFAULT_RANKING_MODE} onChange={(e) => {
                             const rounds = [...settings.rounds];
                             const slots = [...round.slots];
                             slots[slotIndex] = { ...slot, rankingMode: e.target.value as NonNullable<typeof slot.rankingMode> };
@@ -671,7 +671,7 @@ function PartySettingsModal({
                             <option value="one_shot">Ranking: One Shot</option>
                           </select>
                         )}
-                        <select value={slot.categoryStrategy || DEFAULT_SLOT_CATEGORY_STRATEGY} onChange={(e) => {
+                        <select value={slot.categoryStrategy ?? DEFAULT_SLOT_CATEGORY_STRATEGY} onChange={(e) => {
                           const rounds = [...settings.rounds];
                           const slots = [...round.slots];
                           slots[slotIndex] = { ...slot, categoryStrategy: e.target.value as NonNullable<typeof slot.categoryStrategy> };
