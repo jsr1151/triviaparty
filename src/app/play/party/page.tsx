@@ -12,6 +12,16 @@ import {
 } from '@/lib/party-mode';
 import { isQuestionFlagged, setQuestionFlagged } from '@/lib/question-session-store';
 
+type SavedPreset = {
+  id: string;
+  name: string;
+  description?: string;
+  config: PartySettings;
+  source: 'global' | 'local';
+};
+
+const LOCAL_PRESETS_KEY = 'triviaparty:party-presets';
+
 export default function PartyPage() {
   const [allQuestions, setAllQuestions] = useState<AnyQuestion[]>([]);
   const [questions, setQuestions] = useState<AnyQuestion[]>([]);
@@ -26,6 +36,8 @@ export default function PartyPage() {
   const [currentResult, setCurrentResult] = useState<{ earned: number; possible: number } | null>(null);
   const [loading, setLoading] = useState(true);
   const [flagged, setFlagged] = useState(false);
+  const [savedPresets, setSavedPresets] = useState<SavedPreset[]>([]);
+  const [isOwner, setIsOwner] = useState(false);
 
   useEffect(() => {
     const load = async () => {
@@ -64,6 +76,51 @@ export default function PartyPage() {
     const question = questions[current];
     setFlagged(Boolean(question && isQuestionFlagged(question)));
   }, [questions, current]);
+
+  useEffect(() => {
+    const loadMeta = async () => {
+      try {
+        const [meRes, presetsRes] = await Promise.all([
+          fetch('/api/auth/me'),
+          fetch('/api/party-presets'),
+        ]);
+
+        if (meRes.ok) {
+          const mePayload = await meRes.json();
+          setIsOwner(Boolean(mePayload?.user?.isOwner));
+        }
+
+        const globalPresets: SavedPreset[] = presetsRes.ok
+          ? ((await presetsRes.json())?.presets || []).map((preset: { id: string; name: string; description?: string; config: PartySettings }) => ({
+              id: preset.id,
+              name: preset.name,
+              description: preset.description || undefined,
+              config: preset.config,
+              source: 'global' as const,
+            }))
+          : [];
+
+        const localPresets = typeof window === 'undefined'
+          ? []
+          : (() => {
+              try {
+                const raw = window.localStorage.getItem(LOCAL_PRESETS_KEY);
+                return raw ? JSON.parse(raw) : [];
+              } catch {
+                return [];
+              }
+            })();
+        const localMapped = Array.isArray(localPresets)
+          ? localPresets.map((preset: { id: string; name: string; description?: string; config: PartySettings }) => ({ ...preset, source: 'local' as const }))
+          : [];
+
+        setSavedPresets([...globalPresets, ...localMapped]);
+      } catch {
+        setSavedPresets([]);
+      }
+    };
+    loadMeta();
+  }, []);
 
   const roundLabel = useMemo(() => {
     const q = questions[current] as AnyQuestion & { partyRound?: number } | undefined;
@@ -130,6 +187,52 @@ export default function PartyPage() {
     setCurrentResult(null);
   }
 
+  async function saveCurrentPreset(name: string, description: string) {
+    const trimmedName = name.trim();
+    if (!trimmedName) return;
+
+    const payload = {
+      id: `local-${Date.now()}`,
+      name: trimmedName,
+      description: description.trim(),
+      config: settings,
+    };
+
+    if (isOwner) {
+      const res = await fetch('/api/party-presets', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setSavedPresets((prev) => [{ ...data.preset, source: 'global' as const }, ...prev.filter((item) => item.id !== data.preset.id)]);
+        return;
+      }
+    }
+
+    const localOnly = savedPresets.filter((preset) => preset.source === 'local');
+    const nextLocal = [{ ...payload, source: 'local' as const }, ...localOnly];
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(LOCAL_PRESETS_KEY, JSON.stringify(nextLocal.map((item) => {
+        const { source, ...rest } = item;
+        return source ? rest : rest;
+      })));
+    }
+    setSavedPresets((prev) => [...prev.filter((preset) => preset.source === 'global'), ...nextLocal]);
+  }
+
+  async function startMultiplayerHost() {
+    const res = await fetch('/api/rooms', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ mode: 'party', gameConfig: settings }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || !data?.room?.code) return;
+    window.location.href = `/room/${data.room.code}/host`;
+  }
+
   if (loading) return (
     <div className="min-h-screen bg-gray-950 p-8 text-white">
       <Link href="/" className="text-purple-300 hover:text-purple-200 font-bold">← Main Menu</Link>
@@ -143,6 +246,11 @@ export default function PartyPage() {
         settings={settings}
         setSettings={setSettings}
         startGame={startPartyGame}
+        startMultiplayerHost={startMultiplayerHost}
+        savePreset={saveCurrentPreset}
+        loadPreset={(preset) => setSettings(preset.config)}
+        savedPresets={savedPresets}
+        isOwner={isOwner}
         hasQuestions={allQuestions.length > 0}
       />
     );
@@ -252,14 +360,26 @@ function PartySettingsModal({
   settings,
   setSettings,
   startGame,
+  startMultiplayerHost,
+  savePreset,
+  loadPreset,
+  savedPresets,
+  isOwner,
   hasQuestions,
 }: {
   settings: PartySettings;
   setSettings: (value: PartySettings) => void;
   startGame: () => void;
+  startMultiplayerHost: () => void;
+  savePreset: (name: string, description: string) => Promise<void>;
+  loadPreset: (preset: SavedPreset) => void;
+  savedPresets: SavedPreset[];
+  isOwner: boolean;
   hasQuestions: boolean;
 }) {
   const totalQuestions = settings.rounds.reduce((sum, round) => sum + Math.max(1, round.questionCount), 0);
+  const [presetName, setPresetName] = useState('');
+  const [presetDescription, setPresetDescription] = useState('');
 
   return (
     <div className="min-h-screen bg-gray-950 text-white p-6">
@@ -282,6 +402,36 @@ function PartySettingsModal({
                 {label}
               </button>
             ))}
+            <button onClick={() => setSettings(createDefaultSettings())} className="bg-sky-700 hover:bg-sky-600 px-3 py-2 rounded-lg text-sm font-bold">
+              Custom Game
+            </button>
+          </div>
+
+          <div className="bg-gray-900 rounded-lg p-3 space-y-2">
+            <div className="text-sm font-bold text-purple-300">Saved Presets ({isOwner ? 'global save enabled' : 'saved locally'})</div>
+            <div className="grid md:grid-cols-[1fr_1fr_auto] gap-2">
+              <input value={presetName} onChange={(e) => setPresetName(e.target.value)} placeholder="Preset name" className="bg-gray-700 rounded p-2" />
+              <input value={presetDescription} onChange={(e) => setPresetDescription(e.target.value)} placeholder="Description (optional)" className="bg-gray-700 rounded p-2" />
+              <button
+                onClick={async () => {
+                  await savePreset(presetName, presetDescription);
+                  setPresetName('');
+                  setPresetDescription('');
+                }}
+                className="bg-emerald-700 hover:bg-emerald-600 px-3 py-2 rounded-lg text-sm font-bold"
+              >
+                Save
+              </button>
+            </div>
+            {!!savedPresets.length && (
+              <div className="flex flex-wrap gap-2">
+                {savedPresets.map((preset) => (
+                  <button key={`${preset.source}-${preset.id}`} onClick={() => loadPreset(preset)} className="bg-gray-700 hover:bg-gray-600 px-3 py-2 rounded-lg text-xs">
+                    {preset.name} <span className="text-gray-400">({preset.source})</span>
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           <div className="grid md:grid-cols-2 gap-3">
@@ -523,6 +673,13 @@ function PartySettingsModal({
               className="bg-green-700 hover:bg-green-600 disabled:bg-gray-700 px-4 py-2 rounded-lg font-bold"
             >
               Start Party ({totalQuestions} planned)
+            </button>
+            <button
+              onClick={startMultiplayerHost}
+              disabled={!hasQuestions}
+              className="bg-cyan-700 hover:bg-cyan-600 disabled:bg-gray-700 px-4 py-2 rounded-lg font-bold"
+            >
+              Host Multiplayer (Room Code)
             </button>
           </div>
         </div>

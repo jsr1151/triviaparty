@@ -24,4 +24,19 @@ describe('party-mode builder', () => {
     const built = buildPartyQuestions(sampleQuestions, settings);
     expect(built.length).toBeGreaterThan(0);
   });
+
+  it('builds pursuit short with expected round count and names', () => {
+    const settings = createPresetSettings('pursuit-short');
+    expect(settings.rounds).toHaveLength(5);
+    expect(settings.rounds[0].name).toContain('Quickstarter');
+    expect(settings.rounds[2].name).toContain('Switchagories');
+    expect(settings.rounds[4].name).toContain('Rapid Fire');
+  });
+
+  it('builds pursuit long with additional rounds', () => {
+    const settings = createPresetSettings('pursuit-long');
+    expect(settings.rounds).toHaveLength(7);
+    expect(settings.rounds[5].name).toContain('Brainstorm');
+    expect(settings.rounds[6].name).toContain('Quick Wits');
+  });
 });

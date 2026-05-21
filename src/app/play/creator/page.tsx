@@ -1161,12 +1161,76 @@ function ExistingLoaderModal({
   );
 }
 
+function QuestionArchiveModal({ onClose }: { onClose: () => void }) {
+  const [q, setQ] = useState('');
+  const [type, setType] = useState('');
+  const [category, setCategory] = useState('');
+  const [difficulty, setDifficulty] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [results, setResults] = useState<Array<{ id: string; type: string; category: string; difficulty: string; preview: string }>>([]);
+
+  async function search() {
+    setLoading(true);
+    try {
+      const params = new URLSearchParams();
+      if (q.trim()) params.set('q', q.trim());
+      if (type) params.set('type', type);
+      if (category.trim()) params.set('category', category.trim());
+      if (difficulty) params.set('difficulty', difficulty);
+      params.set('limit', '60');
+      const res = await fetch(`/api/questions/search?${params.toString()}`);
+      const payload = await res.json().catch(() => ({}));
+      setResults(Array.isArray(payload?.results) ? payload.results : []);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4" onClick={onClose}>
+      <div className="bg-gray-800 rounded-2xl p-6 max-w-5xl w-full max-h-[88vh] overflow-auto" onClick={(e) => e.stopPropagation()}>
+        <div className="flex items-center justify-between">
+          <h3 className="text-xl font-bold">Question Archive Search</h3>
+          <button onClick={onClose} className="px-3 py-1 rounded bg-gray-700 hover:bg-gray-600 text-sm">Close</button>
+        </div>
+        <div className="grid md:grid-cols-4 gap-2 mt-4">
+          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search question text" className="bg-gray-700 rounded-lg p-2" />
+          <input value={category} onChange={(e) => setCategory(e.target.value)} placeholder="Category" className="bg-gray-700 rounded-lg p-2" />
+          <select value={type} onChange={(e) => setType(e.target.value)} className="bg-gray-700 rounded-lg p-2">
+            <option value="">All types</option>
+            {QUESTION_TYPES.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}
+          </select>
+          <select value={difficulty} onChange={(e) => setDifficulty(e.target.value)} className="bg-gray-700 rounded-lg p-2">
+            <option value="">All difficulties</option>
+            {DIFFICULTIES.map((item) => <option key={item} value={item}>{item}</option>)}
+          </select>
+        </div>
+        <button onClick={search} disabled={loading} className="mt-3 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 disabled:bg-gray-600 text-sm font-bold">{loading ? 'Searching…' : 'Search archive'}</button>
+
+        <div className="mt-4 border border-gray-700 rounded-xl divide-y divide-gray-700 max-h-[50vh] overflow-auto">
+          {!results.length ? (
+            <div className="p-4 text-sm text-gray-400">No results yet. Run a search to browse existing questions.</div>
+          ) : (
+            results.map((item) => (
+              <div key={item.id} className="p-3">
+                <div className="text-xs text-gray-400">{item.type} · {item.category || 'uncategorized'} · {item.difficulty}</div>
+                <div className="text-sm text-gray-100">{item.preview}</div>
+              </div>
+            ))
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ─── main page ─── */
 export default function CreatorPage() {
   const [questions, setQuestions] = useState<AnyQuestion[]>([]);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [showImport, setShowImport] = useState(false);
   const [showLoader, setShowLoader] = useState(false);
+  const [showArchive, setShowArchive] = useState(false);
   const [showGitHub, setShowGitHub] = useState(false);
   const [ghConnected, setGhConnected] = useState(false);
   const [toast, setToast] = useState('');
@@ -1383,6 +1447,7 @@ export default function CreatorPage() {
           }}
         />
       )}
+      {showArchive && <QuestionArchiveModal onClose={() => setShowArchive(false)} />}
 
       {/* Header */}
       <div className="border-b border-gray-800 bg-gray-900/80 backdrop-blur sticky top-0 z-40">
@@ -1416,6 +1481,8 @@ export default function CreatorPage() {
                   className="px-3 py-1.5 rounded-lg bg-gray-700 hover:bg-gray-600 text-sm font-medium">Import</button>
                 <button onClick={() => setShowLoader(true)}
                   className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-medium">Load Existing</button>
+                <button onClick={() => setShowArchive(true)}
+                  className="px-3 py-1.5 rounded-lg bg-violet-600 hover:bg-violet-500 text-sm font-medium">Archive Search</button>
                 <button onClick={exportAll}
                   className="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-sm font-medium">Export JSON</button>
                 <button onClick={saveQuestionsToRepo} disabled={saving}

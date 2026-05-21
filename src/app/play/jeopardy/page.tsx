@@ -181,6 +181,7 @@ export default function JeopardyPage() {
   const [activeReplayMode, setActiveReplayMode] = useState<JeopardyEpisodeMode>('practice');
   const [method, setMethod] = useState<JeopardyMethod>('replay');
   const [showSettings, setShowSettings] = useState(false);
+  const [multiplayerMsg, setMultiplayerMsg] = useState('');
   const [showEpisodeSetupModal, setShowEpisodeSetupModal] = useState(false);
   const [setupGame, setSetupGame] = useState<JeopardyGame | null>(null);
   const [setupMode, setSetupMode] = useState<JeopardyEpisodeMode>('practice');
@@ -1457,6 +1458,31 @@ export default function JeopardyPage() {
     );
   }
 
+  async function hostJeopardyMultiplayerRoom() {
+    try {
+      const res = await fetch('/api/rooms', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          mode: 'jeopardy',
+          gameConfig: {
+            method,
+            sessionType,
+            teams: teamNamesInput.split(',').map((name) => name.trim()).filter(Boolean),
+          },
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data?.room?.code) {
+        setMultiplayerMsg(data?.error || 'Failed to create room.');
+        return;
+      }
+      window.location.href = `/room/${data.room.code}/host`;
+    } catch {
+      setMultiplayerMsg('Failed to create room.');
+    }
+  }
+
   return (
     <div className="min-h-screen bg-blue-950 text-white p-8">
       <div className="max-w-5xl mx-auto mb-3">
@@ -1501,7 +1527,9 @@ export default function JeopardyPage() {
           <button key={m} onClick={() => setMethod(m)} className={`px-4 py-2 rounded-lg font-bold capitalize ${method === m ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>{m}</button>
         ))}
         <button onClick={() => setShowSettings(prev => !prev)} className="px-4 py-2 rounded-lg font-bold bg-blue-800 hover:bg-blue-700">Settings</button>
+        <button onClick={hostJeopardyMultiplayerRoom} className="px-4 py-2 rounded-lg font-bold bg-cyan-700 hover:bg-cyan-600">Host Multiplayer Room</button>
       </div>
+      {multiplayerMsg && <div className="max-w-3xl mx-auto text-center text-cyan-200 text-sm mb-4">{multiplayerMsg}</div>}
 
       {showSettings && (
         <div className="max-w-3xl mx-auto bg-blue-900 rounded-xl p-4 mb-5">
