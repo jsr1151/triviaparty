@@ -21,6 +21,9 @@ type SavedPreset = {
 };
 
 const LOCAL_PRESETS_KEY = 'triviaparty:party-presets';
+const DEFAULT_SLOT_CATEGORY_STRATEGY = 'any';
+const DEFAULT_GROUPING_MODE = 'elimination';
+const DEFAULT_RANKING_MODE = 'anchor_adjust';
 
 export default function PartyPage() {
   const [allQuestions, setAllQuestions] = useState<AnyQuestion[]>([]);
@@ -645,7 +648,7 @@ function PartySettingsModal({
                           </>
                         )}
                         {slot.type === 'grouping' && (
-                          <select value={slot.groupingMode || 'elimination'} onChange={(e) => {
+                          <select value={slot.groupingMode || DEFAULT_GROUPING_MODE} onChange={(e) => {
                             const rounds = [...settings.rounds];
                             const slots = [...round.slots];
                             slots[slotIndex] = { ...slot, groupingMode: e.target.value as NonNullable<typeof slot.groupingMode> };
@@ -657,7 +660,7 @@ function PartySettingsModal({
                           </select>
                         )}
                         {slot.type === 'ranking' && (
-                          <select value={slot.rankingMode || 'anchor_adjust'} onChange={(e) => {
+                          <select value={slot.rankingMode || DEFAULT_RANKING_MODE} onChange={(e) => {
                             const rounds = [...settings.rounds];
                             const slots = [...round.slots];
                             slots[slotIndex] = { ...slot, rankingMode: e.target.value as NonNullable<typeof slot.rankingMode> };
@@ -668,7 +671,7 @@ function PartySettingsModal({
                             <option value="one_shot">Ranking: One Shot</option>
                           </select>
                         )}
-                        <select value={slot.categoryStrategy || 'any'} onChange={(e) => {
+                        <select value={slot.categoryStrategy || DEFAULT_SLOT_CATEGORY_STRATEGY} onChange={(e) => {
                           const rounds = [...settings.rounds];
                           const slots = [...round.slots];
                           slots[slotIndex] = { ...slot, categoryStrategy: e.target.value as NonNullable<typeof slot.categoryStrategy> };
@@ -711,7 +714,7 @@ function PartySettingsModal({
                             order: 'fixed',
                             listMode: 'timed',
                             listScoring: 'target',
-                            categoryStrategy: 'any',
+                            categoryStrategy: DEFAULT_SLOT_CATEGORY_STRATEGY,
                           },
                         ],
                       };
@@ -738,7 +741,7 @@ function PartySettingsModal({
                       mode: 'configured',
                       order: 'fixed',
                       questionCount: 10,
-                      slots: [{ id: `round-${settings.rounds.length + 1}-slot-1`, type: 'multiple_choice', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'any' }],
+                      slots: [{ id: `round-${settings.rounds.length + 1}-slot-1`, type: 'multiple_choice', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: DEFAULT_SLOT_CATEGORY_STRATEGY }],
                       options: ['multiple_choice', 'open_ended', 'list'],
                       difficulty: 'mixed',
                       categoryMode: 'random',
