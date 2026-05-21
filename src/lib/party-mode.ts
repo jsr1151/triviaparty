@@ -143,6 +143,7 @@ function takeOne(
   desiredCategory: string | null,
   desiredPrompt: string | null,
 ): number {
+  const hasAnyQuestionOfType = type ? pool.some((question) => question.type === type) : true;
   const candidates = pool
     .map((question, index) => ({ question, index }))
     .filter((entry) => !usedIndices.has(entry.index))
@@ -151,12 +152,17 @@ function takeOne(
     .filter((entry) => (desiredCategory ? normalize(getCategoryName(entry.question)) === desiredCategory : true))
     .filter((entry) => (desiredPrompt ? ((entry.question as AnyQuestion & { prompt?: string }).prompt || '').trim().toLowerCase() === desiredPrompt : true));
   if (!candidates.length) {
-    const fallback = pool
+    const typeOnly = pool
       .map((question, index) => ({ question, index }))
       .filter((entry) => !usedIndices.has(entry.index))
       .filter((entry) => (type ? entry.question.type === type : true));
-    if (!fallback.length) return -1;
-    return fallback[Math.floor(Math.random() * fallback.length)].index;
+    if (typeOnly.length) return typeOnly[Math.floor(Math.random() * typeOnly.length)].index;
+    if (hasAnyQuestionOfType) return -1;
+    const anyAvailable = pool
+      .map((question, index) => ({ question, index }))
+      .filter((entry) => !usedIndices.has(entry.index));
+    if (anyAvailable.length) return anyAvailable[Math.floor(Math.random() * anyAvailable.length)].index;
+    return -1;
   }
   return candidates[Math.floor(Math.random() * candidates.length)].index;
 }
@@ -263,14 +269,14 @@ export function createPresetSettings(name: string): PartySettings {
     return {
       ...base,
       rounds: rounds.map((round) => ({ ...round, difficulty: 'mixed', categoryMode: 'random' })),
-      difficultyMode: 'set',
-      fixedDifficulty: 'medium',
-      categoryMode: 'cycle',
+      difficultyScope: 'game',
+      difficultyMode: 'random',
+      categoryScope: 'round',
+      categoryMode: 'random',
     };
   }
   if (name === 'pursuit-long') {
     const short = createPresetSettings('pursuit-short');
-    const shortRoundIds = new Set(short.rounds.map((round) => round.id));
     const pursuitLongRounds = [
       ...short.rounds,
       {
@@ -296,11 +302,13 @@ export function createPresetSettings(name: string): PartySettings {
       ...short,
       rounds: pursuitLongRounds.map((round) => ({
         ...round,
-        difficulty: shortRoundIds.has(round.id) ? 'mixed' : 'medium',
+        difficulty: 'mixed',
         categoryMode: 'random',
       })),
-      difficultyMode: 'scaling_incremental',
-      categoryMode: 'balanced',
+      difficultyScope: 'game',
+      difficultyMode: 'random',
+      categoryScope: 'round',
+      categoryMode: 'random',
     };
   }
   if (name === 'lightning-round') {

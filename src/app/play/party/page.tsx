@@ -436,7 +436,7 @@ function PartySettingsModal({
 
           <div className="grid md:grid-cols-2 gap-3">
             <div className="bg-gray-900 rounded-lg p-3 space-y-2">
-              <div className="font-bold text-purple-300">Difficulty</div>
+              <div className="font-bold text-purple-300">Difficulty: Game Level / Per Round</div>
               <div className="grid grid-cols-2 gap-2">
                 <select value={settings.difficultyScope} onChange={(e) => setSettings({ ...settings, difficultyScope: e.target.value as 'game' | 'round' })} className="bg-gray-700 rounded p-2">
                   <option value="game">Game level</option>
@@ -460,7 +460,7 @@ function PartySettingsModal({
               )}
             </div>
             <div className="bg-gray-900 rounded-lg p-3 space-y-2">
-              <div className="font-bold text-purple-300">Categories</div>
+              <div className="font-bold text-purple-300">Categories: Game Level / Per Round</div>
               <div className="grid grid-cols-2 gap-2">
                 <select value={settings.categoryScope} onChange={(e) => setSettings({ ...settings, categoryScope: e.target.value as 'game' | 'round' })} className="bg-gray-700 rounded p-2">
                   <option value="game">Game level</option>
@@ -533,6 +533,45 @@ function PartySettingsModal({
                     Remove
                   </button>
                 </div>
+
+                {(settings.difficultyScope === 'round' || settings.categoryScope === 'round') && (
+                  <div className="grid md:grid-cols-2 gap-2">
+                    {settings.difficultyScope === 'round' && (
+                      <select
+                        value={round.difficulty || 'mixed'}
+                        onChange={(e) => {
+                          const next = [...settings.rounds];
+                          next[roundIndex] = { ...round, difficulty: e.target.value as typeof round.difficulty };
+                          setSettings({ ...settings, rounds: next });
+                        }}
+                        className="bg-gray-700 rounded p-2"
+                      >
+                        <option value="mixed">Round difficulty: Mixed</option>
+                        <option value="very_easy">Round difficulty: Very Easy</option>
+                        <option value="easy">Round difficulty: Easy</option>
+                        <option value="medium">Round difficulty: Medium</option>
+                        <option value="hard">Round difficulty: Hard</option>
+                        <option value="very_hard">Round difficulty: Very Hard</option>
+                      </select>
+                    )}
+                    {settings.categoryScope === 'round' && (
+                      <select
+                        value={round.categoryMode || 'random'}
+                        onChange={(e) => {
+                          const next = [...settings.rounds];
+                          next[roundIndex] = { ...round, categoryMode: e.target.value as PartySettings['categoryMode'] };
+                          setSettings({ ...settings, rounds: next });
+                        }}
+                        className="bg-gray-700 rounded p-2"
+                      >
+                        <option value="balanced">Round categories: Balanced</option>
+                        <option value="cycle">Round categories: Cycle</option>
+                        <option value="random">Round categories: Random</option>
+                        <option value="choice">Round categories: Choice</option>
+                      </select>
+                    )}
+                  </div>
+                )}
 
                 {(round.mode === 'player_choice' || round.mode === 'random_from_options') && (
                   <input

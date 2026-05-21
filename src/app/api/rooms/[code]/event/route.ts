@@ -119,7 +119,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       const built = buildPartyQuestionsFromRoomConfig(allQuestions, room.gameConfig);
       const plannedQuestions = built.questions;
       if (!plannedQuestions.length) {
-        const error = built.failureHint
+        const error = !allQuestions.length
+          ? 'No questions found in the database. Please add questions via the Question Creator before starting a multiplayer game.'
+          : built.failureHint
           ? `No questions matched current filters (${built.failureHint}). Try using mixed difficulty or random categories for the round.`
           : 'No questions available for this room configuration. Try broadening difficulty/category filters or adding more question types.';
         return NextResponse.json({ error }, { status: 400 });
