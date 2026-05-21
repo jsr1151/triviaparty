@@ -7,6 +7,7 @@ import {
   restartEpisodeProgress,
   revealEpisodeClue,
   startEpisodeProgress,
+  updateEpisodeSessionState,
 } from '@/lib/server-jeopardy-progress';
 
 export const dynamic = 'force-dynamic';
@@ -50,6 +51,16 @@ export async function POST(req: NextRequest) {
       const clueId = String(body.clueId ?? '');
       if (!clueId) return NextResponse.json({ error: 'clueId is required.' }, { status: 400 });
       const progress = await revealEpisodeClue({ userId: user.id, episodeKey, mode, clueId });
+      return NextResponse.json({ progress });
+    }
+
+    if (action === 'state') {
+      const progress = await updateEpisodeSessionState({
+        userId: user.id,
+        episodeKey,
+        mode,
+        sessionState: body.sessionState && typeof body.sessionState === 'object' ? body.sessionState : {},
+      });
       return NextResponse.json({ progress });
     }
 

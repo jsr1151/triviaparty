@@ -1,9 +1,24 @@
 import { prisma } from '@/lib/prisma';
-import type { JeopardyEpisodeMode, JeopardyEpisodeProgress, JeopardyEpisodeStatus } from '@/lib/jeopardy-episode-progress';
+import { Prisma } from '@/generated/prisma/client';
+import type {
+  JeopardyEpisodeMode,
+  JeopardyEpisodeProgress,
+  JeopardyEpisodeSessionState,
+  JeopardyEpisodeStatus,
+} from '@/lib/jeopardy-episode-progress';
 
 function toStringArray(value: unknown): string[] {
   if (!Array.isArray(value)) return [];
   return value.filter((item): item is string => typeof item === 'string');
+}
+
+function toSessionState(value: unknown): JeopardyEpisodeSessionState {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return {};
+  return value as JeopardyEpisodeSessionState;
+}
+
+function toPrismaSessionState(value: JeopardyEpisodeSessionState): Prisma.InputJsonValue {
+  return value as Prisma.InputJsonValue;
 }
 
 function serialiseProgress(progress: {
@@ -18,6 +33,7 @@ function serialiseProgress(progress: {
   startedAt: Date;
   lastPlayedAt: Date;
   completedAt: Date | null;
+  sessionState: unknown;
 }): JeopardyEpisodeProgress {
   return {
     episodeKey: progress.episodeKey,
@@ -31,6 +47,7 @@ function serialiseProgress(progress: {
     startedAt: progress.startedAt.toISOString(),
     lastPlayedAt: progress.lastPlayedAt.toISOString(),
     completedAt: progress.completedAt ? progress.completedAt.toISOString() : null,
+    sessionState: toSessionState(progress.sessionState),
   };
 }
 
@@ -71,6 +88,7 @@ export async function startEpisodeProgress(params: {
       startedAt: now,
       lastPlayedAt: now,
       completedAt: null,
+      sessionState: toPrismaSessionState({}),
     },
     update: {
       showNumber: params.showNumber,
@@ -82,6 +100,7 @@ export async function startEpisodeProgress(params: {
       startedAt: now,
       lastPlayedAt: now,
       completedAt: null,
+      sessionState: toPrismaSessionState({}),
     },
   });
   return serialiseProgress(row);
@@ -159,6 +178,33 @@ export async function completeEpisodeProgress(params: {
       uniqueCluesAnswered: revealed.length,
       completedAt: now,
       lastPlayedAt: now,
+    },
+  });
+  return serialiseProgress(row);
+}
+
+export async function updateEpisodeSessionState(params: {
+  userId: string;
+  episodeKey: string;
+  mode: JeopardyEpisodeMode;
+  sessionState: JeopardyEpisodeSessionState;
+}) {
+  const existing = await prisma.userJeopardyEpisodeProgress.findUnique({
+    where: {
+      userId_episodeKey_mode: {
+        userId: params.userId,
+        episodeKey: params.episodeKey,
+        mode: params.mode,
+      },
+    },
+  });
+  if (!existing) return null;
+
+  const row = await prisma.userJeopardyEpisodeProgress.update({
+    where: { id: existing.id },
+    data: {
+      sessionState: toPrismaSessionState(params.sessionState),
+      lastPlayedAt: new Date(),
     },
   });
   return serialiseProgress(row);
