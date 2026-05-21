@@ -659,6 +659,8 @@ function PartySettingsModal({
                       questionCount: 10,
                       slots: [{ id: `round-${settings.rounds.length + 1}-slot-1`, type: 'multiple_choice', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target' }],
                       options: ['multiple_choice', 'open_ended', 'list'],
+                      difficulty: 'mixed',
+                      categoryMode: 'random',
                     },
                   ],
                 });

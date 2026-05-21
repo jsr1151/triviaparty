@@ -116,9 +116,13 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
           promptQuestion: true,
         },
       });
-      const plannedQuestions = buildPartyQuestionsFromRoomConfig(allQuestions, room.gameConfig);
+      const built = buildPartyQuestionsFromRoomConfig(allQuestions, room.gameConfig);
+      const plannedQuestions = built.questions;
       if (!plannedQuestions.length) {
-        return NextResponse.json({ error: 'No questions available for this room configuration.' }, { status: 400 });
+        const error = built.failureHint
+          ? `No questions matched current filters (${built.failureHint}). Try using mixed difficulty or random categories for the round.`
+          : 'No questions available for this room configuration. Try broadening difficulty/category filters or adding more question types.';
+        return NextResponse.json({ error }, { status: 400 });
       }
       const initialScores = players.reduce<Record<string, number>>((acc, player) => {
         acc[player.id] = Number(getScores()[player.id] || 0);

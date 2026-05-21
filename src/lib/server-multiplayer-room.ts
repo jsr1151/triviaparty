@@ -24,6 +24,82 @@ function isPartySettings(value: unknown): value is PartySettings {
   return Boolean(value && typeof value === 'object' && Array.isArray((value as PartySettings).rounds));
 }
 
+function asString(value: unknown): string {
+  return typeof value === 'string' ? value : '';
+}
+
+function asStringArrayLoose(value: unknown): string[] {
+  return Array.isArray(value) ? value.filter((item): item is string => typeof item === 'string') : [];
+}
+
+function normalizePartySettings(value: unknown): PartySettings {
+  const defaults = createDefaultSettings();
+  if (!isPartySettings(value)) return defaults;
+  const incoming = value as Partial<PartySettings>;
+  const rounds = Array.isArray(incoming.rounds) && incoming.rounds.length
+    ? incoming.rounds.map((round, index) => ({
+      ...defaults.rounds[0],
+      ...round,
+      id: typeof round.id === 'string' && round.id ? round.id : `round-${index + 1}`,
+      name: typeof round.name === 'string' && round.name ? round.name : `Round ${index + 1}`,
+      categoryTheme: asString(round.categoryTheme),
+      categoryOptions: asStringArrayLoose(round.categoryOptions),
+    }))
+    : defaults.rounds;
+  return {
+    ...defaults,
+    ...incoming,
+    rounds,
+    categoryTheme: asString(incoming.categoryTheme),
+    categoryOptions: asStringArrayLoose(incoming.categoryOptions),
+    excludedCategories: asStringArrayLoose(incoming.excludedCategories),
+  };
+}
+
+function broadenPartySettings(settings: PartySettings): PartySettings {
+  return {
+    ...settings,
+    difficultyScope: 'game',
+    difficultyMode: 'random',
+    categoryScope: 'game',
+    categoryMode: 'random',
+    categoryTheme: '',
+    categoryOptions: [],
+    rounds: settings.rounds.map((round) => ({
+      ...round,
+      difficulty: 'mixed',
+      categoryMode: 'random',
+      category: '',
+      categoryTheme: '',
+      categoryOptions: [],
+    })),
+  };
+}
+
+/**
+ * Builds a concise, human-readable summary of round-level difficulty/category filters
+ * to include in host-facing "no questions matched" error responses.
+ */
+function buildFilterHint(settings: PartySettings): string | null {
+  const roundHints = settings.rounds
+    .map((round, index) => {
+      const details: string[] = [];
+      if (round.difficulty && round.difficulty !== 'mixed') details.push(`difficulty "${round.difficulty}"`);
+      const trimmedCategory = typeof round.category === 'string' ? round.category.trim() : '';
+      if (trimmedCategory) details.push(`category "${trimmedCategory}"`);
+      if (typeof round.categoryTheme === 'string' && round.categoryTheme.trim()) details.push(`theme "${round.categoryTheme.trim()}"`);
+      return details.length ? `Round ${index + 1}: ${details.join(', ')}` : null;
+    })
+    .filter((hint): hint is string => Boolean(hint));
+  return roundHints.length ? roundHints.join(' | ') : null;
+}
+
+export type PartyBuildResult = {
+  questions: AnyQuestion[];
+  fallbackApplied: boolean;
+  failureHint: string | null;
+};
+
 export function mapDbQuestionToAnyQuestion(question: DbQuestion): AnyQuestion | null {
   const base = {
     id: question.id,
@@ -112,10 +188,18 @@ export function mapDbQuestionToAnyQuestion(question: DbQuestion): AnyQuestion | 
 export function buildPartyQuestionsFromRoomConfig(
   questions: DbQuestion[],
   gameConfig: unknown,
-): AnyQuestion[] {
+): PartyBuildResult {
   const mapped = questions
     .map(mapDbQuestionToAnyQuestion)
     .filter((question): question is AnyQuestion => Boolean(question));
-  const settings = isPartySettings(gameConfig) ? gameConfig : createDefaultSettings();
-  return buildPartyQuestions(mapped, settings);
+  const settings = normalizePartySettings(gameConfig);
+  const planned = buildPartyQuestions(mapped, settings);
+  if (planned.length) {
+    return { questions: planned, fallbackApplied: false, failureHint: null };
+  }
+  const broader = buildPartyQuestions(mapped, broadenPartySettings(settings));
+  if (broader.length) {
+    return { questions: broader, fallbackApplied: true, failureHint: null };
+  }
+  return { questions: [], fallbackApplied: true, failureHint: buildFilterHint(settings) };
 }

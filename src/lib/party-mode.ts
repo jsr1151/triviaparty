@@ -23,6 +23,8 @@ export type RoundSlot = {
 
 export type DifficultyMode = 'set' | 'scaling_incremental' | 'scaling_performance' | 'random';
 export type CategoryMode = 'balanced' | 'cycle' | 'random' | 'choice';
+// 'mixed' means "do not filter by difficulty for this round".
+export type RoundDifficulty = Difficulty | 'mixed';
 
 export type RoundConfig = {
   id: string;
@@ -34,7 +36,9 @@ export type RoundConfig = {
   options: AnyQuestion['type'][];
   difficultyMode?: DifficultyMode;
   fixedDifficulty?: Difficulty;
+  difficulty?: RoundDifficulty;
   categoryMode?: CategoryMode;
+  category?: string;
   categoryTheme?: string;
   categoryOptions?: string[];
   promptVariant?: 'standard' | 'master';
@@ -99,15 +103,16 @@ function pickDifficulty(mode: DifficultyMode, fixedDifficulty: Difficulty, index
 
 function pickCategory(
   questions: AnyQuestion[],
-  mode: CategoryMode,
+  mode: CategoryMode | null | undefined,
   categoryOptions: string[],
-  categoryTheme: string,
+  categoryTheme: string | null | undefined,
   usedCounts: Record<string, number>,
   index: number,
 ): string | null {
   const options = categoryOptions.map(normalize).filter(Boolean);
   const allCategories = uniqueCategories(questions);
-  if (categoryTheme.trim()) return normalize(categoryTheme);
+  const theme = typeof categoryTheme === 'string' ? categoryTheme.trim() : '';
+  if (theme) return normalize(theme);
   if (mode === 'choice' && options.length) return options[index % options.length];
   if (mode === 'cycle' && allCategories.length) return allCategories[index % allCategories.length];
   if (mode === 'balanced') {
@@ -156,6 +161,27 @@ function takeOne(
   return candidates[Math.floor(Math.random() * candidates.length)].index;
 }
 
+function resolveDifficultyForSlot(
+  settings: PartySettings,
+  round: RoundConfig,
+  slotIndex: number,
+  absoluteIndex: number,
+  orderedSlotsLength: number,
+  totalTarget: number,
+): Difficulty | null {
+  if (round.difficulty === 'mixed') return null;
+  if (round.difficulty) return round.difficulty;
+  const difficultyScopeRound = settings.difficultyScope === 'round';
+  const activeDifficultyMode = difficultyScopeRound ? (round.difficultyMode || settings.difficultyMode) : settings.difficultyMode;
+  const activeFixedDifficulty = difficultyScopeRound ? (round.fixedDifficulty || settings.fixedDifficulty) : settings.fixedDifficulty;
+  return pickDifficulty(
+    activeDifficultyMode,
+    activeFixedDifficulty,
+    difficultyScopeRound ? slotIndex : absoluteIndex,
+    difficultyScopeRound ? orderedSlotsLength : totalTarget,
+  );
+}
+
 export function createDefaultSettings(): PartySettings {
   return {
     rounds: [
@@ -167,6 +193,8 @@ export function createDefaultSettings(): PartySettings {
         questionCount: 10,
         slots: [{ id: 'slot-1', type: 'multiple_choice', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target' }],
         options: ['multiple_choice', 'open_ended', 'list'],
+        difficulty: 'mixed',
+        categoryMode: 'random',
       },
     ],
     difficultyScope: 'game',
@@ -183,57 +211,58 @@ export function createDefaultSettings(): PartySettings {
 export function createPresetSettings(name: string): PartySettings {
   const base = createDefaultSettings();
   if (name === 'pursuit-short') {
+    const rounds: RoundConfig[] = [
+      {
+        ...base.rounds[0],
+        id: 'round-1',
+        name: 'Round 1: Quickstarter',
+        questionCount: 5,
+        slots: [
+          { id: 'quickstarter-mc', type: 'multiple_choice', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'same_round' },
+          { id: 'quickstarter-open-media', type: 'open_ended', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice' },
+        ],
+      },
+      {
+        ...base.rounds[0],
+        id: 'round-2',
+        name: 'Round 2: Grab Bag',
+        questionCount: 4,
+        slots: [
+          { id: 'grabbag-random', type: 'grouping', count: 3, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'any', groupingMode: 'elimination' },
+          { id: 'grabbag-choice', type: 'grouping', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice', groupingMode: 'elimination' },
+        ],
+      },
+      {
+        ...base.rounds[0],
+        id: 'round-3',
+        name: 'Round 3: Switchagories',
+        questionCount: 5,
+        slots: [
+          { id: 'switchagories-mc', type: 'multiple_choice', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' },
+          { id: 'switchagories-open-media', type: 'open_ended', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' },
+        ],
+      },
+      {
+        ...base.rounds[0],
+        id: 'round-4',
+        name: 'Round 4: Close Call',
+        questionCount: 5,
+        slots: [
+          { id: 'closecall-shared', type: 'ranking', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'same_round', rankingMode: 'anchor_adjust' },
+          { id: 'closecall-choice', type: 'ranking', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice', rankingMode: 'anchor_adjust' },
+        ],
+      },
+      {
+        ...base.rounds[0],
+        id: 'round-5',
+        name: 'Round 5: Rapid Fire',
+        questionCount: 5,
+        slots: [{ id: 'rapid-fire', type: 'this_or_that', count: 5, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'rotate_round' }],
+      },
+    ];
     return {
       ...base,
-      rounds: [
-        {
-          ...base.rounds[0],
-          id: 'round-1',
-          name: 'Round 1: Quickstarter',
-          questionCount: 5,
-          slots: [
-            { id: 'quickstarter-mc', type: 'multiple_choice', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'same_round' },
-            { id: 'quickstarter-open-media', type: 'open_ended', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice' },
-          ],
-        },
-        {
-          ...base.rounds[0],
-          id: 'round-2',
-          name: 'Round 2: Grab Bag',
-          questionCount: 4,
-          slots: [
-            { id: 'grabbag-random', type: 'grouping', count: 3, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'any', groupingMode: 'elimination' },
-            { id: 'grabbag-choice', type: 'grouping', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice', groupingMode: 'elimination' },
-          ],
-        },
-        {
-          ...base.rounds[0],
-          id: 'round-3',
-          name: 'Round 3: Switchagories',
-          questionCount: 5,
-          slots: [
-            { id: 'switchagories-mc', type: 'multiple_choice', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' },
-            { id: 'switchagories-open-media', type: 'open_ended', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' },
-          ],
-        },
-        {
-          ...base.rounds[0],
-          id: 'round-4',
-          name: 'Round 4: Close Call',
-          questionCount: 5,
-          slots: [
-            { id: 'closecall-shared', type: 'ranking', count: 4, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'same_round', rankingMode: 'anchor_adjust' },
-            { id: 'closecall-choice', type: 'ranking', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'player_choice', rankingMode: 'anchor_adjust' },
-          ],
-        },
-        {
-          ...base.rounds[0],
-          id: 'round-5',
-          name: 'Round 5: Rapid Fire',
-          questionCount: 5,
-          slots: [{ id: 'rapid-fire', type: 'this_or_that', count: 5, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'rotate_round' }],
-        },
-      ],
+      rounds: rounds.map((round) => ({ ...round, difficulty: 'mixed', categoryMode: 'random' })),
       difficultyMode: 'set',
       fixedDifficulty: 'medium',
       categoryMode: 'cycle',
@@ -241,29 +270,35 @@ export function createPresetSettings(name: string): PartySettings {
   }
   if (name === 'pursuit-long') {
     const short = createPresetSettings('pursuit-short');
+    const shortRoundIds = new Set(short.rounds.map((round) => round.id));
+    const pursuitLongRounds = [
+      ...short.rounds,
+      {
+        ...base.rounds[0],
+        id: 'round-6',
+        name: 'Round 6: Brainstorm',
+        questionCount: 3,
+        slots: [
+          { id: 'brainstorm-random', type: 'list', count: 2, order: 'fixed', listMode: 'strikes', listScoring: 'as_many', categoryStrategy: 'any' },
+          { id: 'brainstorm-choice', type: 'list', count: 1, order: 'fixed', listMode: 'strikes', listScoring: 'as_many', categoryStrategy: 'player_choice' },
+        ],
+      },
+      {
+        ...base.rounds[0],
+        id: 'round-7',
+        name: 'Round 7: Quick Wits',
+        questionCount: 10,
+        slots: [{ id: 'quick-wits', type: 'prompt', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' }],
+        promptVariant: 'standard',
+      },
+    ] satisfies RoundConfig[];
     return {
       ...short,
-      rounds: [
-        ...short.rounds,
-        {
-          ...base.rounds[0],
-          id: 'round-6',
-          name: 'Round 6: Brainstorm',
-          questionCount: 3,
-          slots: [
-            { id: 'brainstorm-random', type: 'list', count: 2, order: 'fixed', listMode: 'strikes', listScoring: 'as_many', categoryStrategy: 'any' },
-            { id: 'brainstorm-choice', type: 'list', count: 1, order: 'fixed', listMode: 'strikes', listScoring: 'as_many', categoryStrategy: 'player_choice' },
-          ],
-        },
-        {
-          ...base.rounds[0],
-          id: 'round-7',
-          name: 'Round 7: Quick Wits',
-          questionCount: 10,
-          slots: [{ id: 'quick-wits', type: 'prompt', count: 10, order: 'fixed', listMode: 'timed', listScoring: 'target', categoryStrategy: 'unique_round' }],
-          promptVariant: 'standard',
-        },
-      ],
+      rounds: pursuitLongRounds.map((round) => ({
+        ...round,
+        difficulty: shortRoundIds.has(round.id) ? 'mixed' : 'medium',
+        categoryMode: 'random',
+      })),
       difficultyMode: 'scaling_incremental',
       categoryMode: 'balanced',
     };
@@ -280,7 +315,7 @@ export function createPresetSettings(name: string): PartySettings {
     })).slice(0, MAX_LIGHTNING_SLOTS) as RoundSlot[];
     return {
       ...base,
-      rounds: [{ ...base.rounds[0], questionCount: 15, slots: lightningSlots }],
+      rounds: [{ ...base.rounds[0], questionCount: 15, slots: lightningSlots, difficulty: 'easy', categoryMode: 'random' }],
       difficultyMode: 'random',
       categoryMode: 'random',
     };
@@ -288,7 +323,7 @@ export function createPresetSettings(name: string): PartySettings {
   if (name === 'variety-pack') {
     return {
       ...base,
-      rounds: [{ ...base.rounds[0], mode: 'random_from_options', options: PARTY_TYPES, questionCount: 20, slots: [] }],
+      rounds: [{ ...base.rounds[0], mode: 'random_from_options', options: PARTY_TYPES, questionCount: 20, slots: [], difficulty: 'mixed', categoryMode: 'balanced' }],
       difficultyMode: 'random',
       categoryMode: 'balanced',
     };
@@ -296,7 +331,7 @@ export function createPresetSettings(name: string): PartySettings {
   if (name === 'expert-challenge') {
     return {
       ...base,
-      rounds: [{ ...base.rounds[0], mode: 'fully_random', questionCount: 15, slots: [] }],
+      rounds: [{ ...base.rounds[0], mode: 'fully_random', questionCount: 15, slots: [], difficulty: 'hard', categoryMode: 'random' }],
       difficultyMode: 'set',
       fixedDifficulty: 'very_hard',
       categoryMode: 'random',
@@ -356,20 +391,16 @@ export function buildPartyQuestions(allQuestions: AnyQuestion[], settings: Party
     const orderedSlots = round.order === 'randomized' ? shuffle(roundSlots) : roundSlots;
     orderedSlots.forEach(({ slot, type }, slotIndex) => {
       const absoluteIndex = plan.length;
-      const difficultyScopeRound = settings.difficultyScope === 'round';
-      const activeDifficultyMode = difficultyScopeRound ? (round.difficultyMode || settings.difficultyMode) : settings.difficultyMode;
-      const activeFixedDifficulty = difficultyScopeRound ? (round.fixedDifficulty || settings.fixedDifficulty) : settings.fixedDifficulty;
-      const difficulty = pickDifficulty(
-        activeDifficultyMode,
-        activeFixedDifficulty,
-        difficultyScopeRound ? slotIndex : absoluteIndex,
-        difficultyScopeRound ? orderedSlots.length : totalTarget,
-      );
+      const difficulty = resolveDifficultyForSlot(settings, round, slotIndex, absoluteIndex, orderedSlots.length, totalTarget);
       const categoryScopeRound = settings.categoryScope === 'round';
-      const activeCategoryMode = categoryScopeRound ? (round.categoryMode || settings.categoryMode) : settings.categoryMode;
+      const activeCategoryMode = round.categoryMode || settings.categoryMode;
       const activeCategoryTheme = categoryScopeRound ? (round.categoryTheme || settings.categoryTheme) : settings.categoryTheme;
       const activeCategoryOptions = categoryScopeRound ? (round.categoryOptions || settings.categoryOptions) : settings.categoryOptions;
-      const desiredCategory = pickCategory(pool, activeCategoryMode, activeCategoryOptions, activeCategoryTheme, usedCategoryCounts, absoluteIndex);
+      const desiredCategory = round.category
+        ? normalize(round.category)
+        : activeCategoryMode === 'random' || !activeCategoryMode
+          ? null
+          : pickCategory(pool, activeCategoryMode, activeCategoryOptions, activeCategoryTheme, usedCategoryCounts, absoluteIndex);
       let slotDesiredCategory = desiredCategory;
       const strategy = slot?.categoryStrategy || 'any';
       if (strategy === 'same_round') {
