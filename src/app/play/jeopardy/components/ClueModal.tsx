@@ -29,12 +29,26 @@ function passthroughImageLoader({ src }: { src: string }): string {
   return src;
 }
 
+const DEFAULT_TEAM_COLOR = '#facc15';
+
 interface Props {
   clue: JeopardyClueData & { id: string };
   value: number;
   onCorrect: () => void;
   onIncorrect: () => void;
   onSkip: () => void;
+  isCompetition?: boolean;
+  competitionTeams?: Array<{ name: string; score: number; color?: string }>;
+  onCompetitionCorrect?: (teamIndex: number) => void;
+  onCompetitionIncorrect?: (teamIndex: number) => void;
+  onCompetitionTripleStumper?: () => void;
+  finalWagers?: number[];
+  finalWagersLocked?: boolean;
+  finalResults?: Array<'correct' | 'incorrect' | null>;
+  onFinalWagerChange?: (teamIndex: number, wager: number) => void;
+  onLockFinalWagers?: () => void;
+  onFinalizeFinal?: () => void;
+  canFinalizeFinal?: boolean;
   respondentLabel?: string;
   teamOptions?: string[];
   respondentIndex?: number | null;
@@ -48,6 +62,18 @@ export default function ClueModal({
   onCorrect,
   onIncorrect,
   onSkip,
+  isCompetition,
+  competitionTeams,
+  onCompetitionCorrect,
+  onCompetitionIncorrect,
+  onCompetitionTripleStumper,
+  finalWagers,
+  finalWagersLocked,
+  finalResults,
+  onFinalWagerChange,
+  onLockFinalWagers,
+  onFinalizeFinal,
+  canFinalizeFinal,
   respondentLabel,
   teamOptions,
   respondentIndex,
@@ -278,7 +304,7 @@ export default function ClueModal({
         </div>
       )}
 
-      {showAnswer && teamOptions && teamOptions.length > 0 && onRespondentChange && (
+      {showAnswer && !isCompetition && teamOptions && teamOptions.length > 0 && onRespondentChange && (
         <div className="mb-4 w-full max-w-sm">
           <label className="block text-sm text-blue-200 mb-1">Who buzzed in?</label>
           <select
@@ -429,41 +455,156 @@ export default function ClueModal({
       )}
 
       {/* Action buttons */}
-      <div className="flex flex-wrap gap-3 justify-center">
-        {!showAnswer ? (
-          <>
-            <button onClick={() => setShowAnswer(true)}
-              className="bg-yellow-400 text-blue-950 px-8 py-3 rounded-xl font-bold text-xl">
-              Show Answer
+      {isCompetition && competitionTeams && competitionTeams.length > 0 ? (
+        <div className="w-full max-w-5xl mt-2">
+          <div className="flex flex-wrap gap-3 justify-center mb-4">
+            <button onClick={() => setShowAnswer(prev => !prev)}
+              className="bg-yellow-400 text-blue-950 px-6 py-3 rounded-xl font-bold text-base">
+              {showAnswer ? 'Hide Answer' : 'Reveal Official Response'}
             </button>
+            {!clue.isFinalJeopardy && (
+              <button onClick={onCompetitionTripleStumper}
+                className="bg-blue-700 hover:bg-blue-600 text-white px-6 py-3 rounded-xl font-bold text-base">
+                Close as Triple Stumper
+              </button>
+            )}
+            {clue.isFinalJeopardy && !finalWagersLocked && (
+              <button onClick={onLockFinalWagers}
+                className="bg-purple-700 hover:bg-purple-600 text-white px-6 py-3 rounded-xl font-bold text-base">
+                Lock Wagers
+              </button>
+            )}
+            {clue.isFinalJeopardy && finalWagersLocked && (
+              <button
+                onClick={onFinalizeFinal}
+                disabled={!canFinalizeFinal}
+                className="bg-blue-700 hover:bg-blue-600 disabled:opacity-50 text-white px-6 py-3 rounded-xl font-bold text-base">
+                Close Final Jeopardy
+              </button>
+            )}
             <button onClick={() => setShowTagger(s => !s)}
               className="bg-blue-700 hover:bg-blue-600 text-white px-4 py-3 rounded-xl font-bold text-sm">
               🏷️ Tags
             </button>
-          </>
-        ) : (
-          <>
-            <button onClick={onCorrect}
-              disabled={teamOptions && teamOptions.length > 0 && respondentIndex == null}
-              className="bg-green-600 hover:bg-green-500 px-8 py-3 rounded-xl font-bold text-xl">
-              ✓ Correct
-            </button>
-            <button onClick={onIncorrect}
-              disabled={teamOptions && teamOptions.length > 0 && respondentIndex == null}
-              className="bg-red-600 hover:bg-red-500 px-8 py-3 rounded-xl font-bold text-xl">
-              ✗ Wrong
-            </button>
-            <button onClick={onSkip}
-              className="bg-gray-600 hover:bg-gray-500 px-8 py-3 rounded-xl font-bold text-xl">
-              Skip
-            </button>
-            <button onClick={() => setShowTagger(s => !s)}
-              className="bg-blue-700 hover:bg-blue-600 text-white px-4 py-3 rounded-xl font-bold text-sm">
-              🏷️ Tags
-            </button>
-          </>
-        )}
-      </div>
+          </div>
+
+          {clue.isFinalJeopardy ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {competitionTeams.map((team, index) => {
+                const maxWager = team.score > 0 ? team.score : 0;
+                const wager = Math.max(0, finalWagers?.[index] ?? 0);
+                const result = finalResults?.[index] ?? null;
+                return (
+                  <div key={`${team.name}-${index}`} className="rounded-xl border border-blue-700 bg-blue-900/90 p-4 space-y-2">
+                    <div className="flex items-center justify-between gap-2">
+                      <div className="font-bold flex items-center gap-2">
+                        <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: team.color || DEFAULT_TEAM_COLOR }} />
+                        {team.name}
+                      </div>
+                      <div className="text-yellow-300 font-bold">${team.score.toLocaleString()}</div>
+                    </div>
+                    <div className="text-sm text-blue-200">
+                      Max wager: ${maxWager.toLocaleString()}
+                    </div>
+                    <input
+                      type="number"
+                      min={0}
+                      max={maxWager}
+                      value={wager}
+                      disabled={Boolean(finalWagersLocked) || maxWager <= 0}
+                      onChange={(event) => {
+                        const parsed = Number(event.target.value);
+                        const safe = Number.isFinite(parsed) ? Math.max(0, Math.min(maxWager, Math.floor(parsed))) : 0;
+                        onFinalWagerChange?.(index, safe);
+                      }}
+                      className="w-full bg-blue-800 border border-blue-600 rounded px-3 py-2 text-sm"
+                    />
+                    {finalWagersLocked && (
+                      <div className="flex gap-2">
+                        <button
+                          disabled={result !== null}
+                          onClick={() => onCompetitionCorrect?.(index)}
+                          className="flex-1 bg-green-600 hover:bg-green-500 disabled:opacity-50 px-4 py-2 rounded-lg font-bold">
+                          ✓ Correct
+                        </button>
+                        <button
+                          disabled={result !== null}
+                          onClick={() => onCompetitionIncorrect?.(index)}
+                          className="flex-1 bg-red-600 hover:bg-red-500 disabled:opacity-50 px-4 py-2 rounded-lg font-bold">
+                          ✗ Wrong
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+              {competitionTeams.map((team, index) => {
+                const teamLockedOut = Boolean(lockRespondent) && respondentIndex != null && index !== respondentIndex;
+                return (
+                <div key={`${team.name}-${index}`} className="rounded-xl border border-blue-700 bg-blue-900/90 p-4">
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <div className="font-bold flex items-center gap-2">
+                      <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: team.color || DEFAULT_TEAM_COLOR }} />
+                      {team.name}
+                    </div>
+                    <div className="text-yellow-300 font-bold">${team.score.toLocaleString()}</div>
+                  </div>
+                  <div className="flex gap-2">
+                    <button
+                      disabled={teamLockedOut}
+                      onClick={() => onCompetitionCorrect?.(index)}
+                      className="flex-1 bg-green-600 hover:bg-green-500 disabled:opacity-50 px-3 py-2 rounded-lg font-bold">✓ Right</button>
+                    <button
+                      disabled={teamLockedOut}
+                      onClick={() => onCompetitionIncorrect?.(index)}
+                      className="flex-1 bg-red-600 hover:bg-red-500 disabled:opacity-50 px-3 py-2 rounded-lg font-bold">✗ Wrong</button>
+                  </div>
+                </div>
+              );
+            })}
+            </div>
+          )}
+        </div>
+      ) : (
+        <div className="flex flex-wrap gap-3 justify-center">
+          {!showAnswer ? (
+            <>
+              <button onClick={() => setShowAnswer(true)}
+                className="bg-yellow-400 text-blue-950 px-8 py-3 rounded-xl font-bold text-xl">
+                Show Answer
+              </button>
+              <button onClick={() => setShowTagger(s => !s)}
+                className="bg-blue-700 hover:bg-blue-600 text-white px-4 py-3 rounded-xl font-bold text-sm">
+                🏷️ Tags
+              </button>
+            </>
+          ) : (
+            <>
+              <button onClick={onCorrect}
+                disabled={teamOptions && teamOptions.length > 0 && respondentIndex == null}
+                className="bg-green-600 hover:bg-green-500 px-8 py-3 rounded-xl font-bold text-xl">
+                ✓ Correct
+              </button>
+              <button onClick={onIncorrect}
+                disabled={teamOptions && teamOptions.length > 0 && respondentIndex == null}
+                className="bg-red-600 hover:bg-red-500 px-8 py-3 rounded-xl font-bold text-xl">
+                ✗ Wrong
+              </button>
+              <button onClick={onSkip}
+                className="bg-gray-600 hover:bg-gray-500 px-8 py-3 rounded-xl font-bold text-xl">
+                Skip
+              </button>
+              <button onClick={() => setShowTagger(s => !s)}
+                className="bg-blue-700 hover:bg-blue-600 text-white px-4 py-3 rounded-xl font-bold text-sm">
+                🏷️ Tags
+              </button>
+            </>
+          )}
+        </div>
+      )}
     </div>
   );
 }

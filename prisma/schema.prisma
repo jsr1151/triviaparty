@@ -236,6 +236,7 @@ model UserJeopardyEpisodeProgress {
   revealedClueIds    Json     @default("[]")
   revealedCount      Int      @default(0)
   uniqueCluesAnswered Int     @default(0)
+  sessionState       Json     @default("{}")
   startedAt          DateTime @default(now())
   lastPlayedAt       DateTime @default(now())
   completedAt        DateTime?

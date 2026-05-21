@@ -1,4 +1,5 @@
 import {
+  clampFinalJeopardyWager,
   getEpisodeProgressStatus,
   matchesEpisodeFilter,
   type JeopardyEpisodeProgress,
@@ -23,6 +24,7 @@ describe('jeopardy episode progress helpers', () => {
       startedAt: new Date().toISOString(),
       lastPlayedAt: new Date().toISOString(),
       completedAt: new Date().toISOString(),
+      sessionState: {},
     };
     expect(getEpisodeProgressStatus(progress)).toBe('completed');
   });
@@ -31,5 +33,12 @@ describe('jeopardy episode progress helpers', () => {
     expect(matchesEpisodeFilter('unfinished', 'all')).toBe(true);
     expect(matchesEpisodeFilter('unfinished', 'unfinished')).toBe(true);
     expect(matchesEpisodeFilter('unstarted', 'unfinished')).toBe(false);
+  });
+
+  it('clamps final jeopardy wagers to valid ranges', () => {
+    expect(clampFinalJeopardyWager(1000, 1200)).toBe(1000);
+    expect(clampFinalJeopardyWager(1000, 450.7)).toBe(450);
+    expect(clampFinalJeopardyWager(0, 500)).toBe(0);
+    expect(clampFinalJeopardyWager(-100, 500)).toBe(0);
   });
 });

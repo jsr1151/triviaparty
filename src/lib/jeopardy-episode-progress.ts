@@ -2,6 +2,25 @@ export type JeopardyEpisodeMode = 'practice' | 'competition' | 'learn';
 export type JeopardyEpisodeStatus = 'unfinished' | 'completed';
 export type JeopardyEpisodeFilter = 'all' | 'completed' | 'unfinished' | 'unstarted';
 
+export interface JeopardyCompetitionTeamState {
+  name: string;
+  score: number;
+  color?: string;
+}
+
+export interface JeopardyFinalJeopardyState {
+  wagers: number[];
+  locked: boolean;
+  results: Array<'correct' | 'incorrect' | null>;
+  resolved: boolean;
+}
+
+export interface JeopardyEpisodeSessionState {
+  teams?: JeopardyCompetitionTeamState[];
+  chooserTeamIndex?: number;
+  finalJeopardy?: JeopardyFinalJeopardyState;
+}
+
 export interface JeopardyEpisodeProgress {
   episodeKey: string;
   showNumber: number | null;
@@ -14,6 +33,13 @@ export interface JeopardyEpisodeProgress {
   startedAt: string;
   lastPlayedAt: string;
   completedAt: string | null;
+  sessionState: JeopardyEpisodeSessionState;
+}
+
+export function clampFinalJeopardyWager(score: number, wager: number): number {
+  if (!Number.isFinite(score) || score <= 0) return 0;
+  if (!Number.isFinite(wager)) return 0;
+  return Math.max(0, Math.min(score, Math.floor(wager)));
 }
 
 const LOCAL_PROGRESS_KEY = 'triviaparty:local:jeopardy-episode-progress';
@@ -26,7 +52,16 @@ function readLocalProgressMap(): Record<string, JeopardyEpisodeProgress> {
   if (!canUseStorage()) return {};
   try {
     const raw = window.localStorage.getItem(LOCAL_PROGRESS_KEY);
-    return raw ? (JSON.parse(raw) as Record<string, JeopardyEpisodeProgress>) : {};
+    const parsed = raw ? (JSON.parse(raw) as Record<string, JeopardyEpisodeProgress>) : {};
+    return Object.fromEntries(
+      Object.entries(parsed).map(([key, progress]) => [
+        key,
+        {
+          ...progress,
+          sessionState: progress?.sessionState ?? {},
+        },
+      ]),
+    );
   } catch {
     return {};
   }
@@ -66,6 +101,7 @@ export function startLocalEpisodeProgress(params: {
     startedAt: now,
     lastPlayedAt: now,
     completedAt: null,
+    sessionState: {},
   };
   writeLocalProgressMap(map);
   return map[key];
@@ -102,6 +138,28 @@ export function revealLocalEpisodeClue(params: {
     uniqueCluesAnswered: revealed.size,
     lastPlayedAt: now,
     completedAt: null,
+  };
+  map[key] = next;
+  writeLocalProgressMap(map);
+  return next;
+}
+
+export function updateLocalEpisodeSessionState(params: {
+  episodeKey: string;
+  mode: JeopardyEpisodeMode;
+  sessionState: JeopardyEpisodeSessionState;
+}) {
+  const map = readLocalProgressMap();
+  const key = progressMapKey(params.episodeKey, params.mode);
+  const existing = map[key];
+  if (!existing) return null;
+
+  const now = new Date().toISOString();
+  const next: JeopardyEpisodeProgress = {
+    ...existing,
+    status: existing.status === 'completed' ? 'completed' : 'unfinished',
+    sessionState: params.sessionState,
+    lastPlayedAt: now,
   };
   map[key] = next;
   writeLocalProgressMap(map);
