@@ -29,6 +29,8 @@ function passthroughImageLoader({ src }: { src: string }): string {
   return src;
 }
 
+const DEFAULT_TEAM_COLOR = '#facc15';
+
 interface Props {
   clue: JeopardyClueData & { id: string };
   value: number;
@@ -496,7 +498,7 @@ export default function ClueModal({
                   <div key={`${team.name}-${index}`} className="rounded-xl border border-blue-700 bg-blue-900/90 p-4 space-y-2">
                     <div className="flex items-center justify-between gap-2">
                       <div className="font-bold flex items-center gap-2">
-                        <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: team.color || '#facc15' }} />
+                        <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: team.color || DEFAULT_TEAM_COLOR }} />
                         {team.name}
                       </div>
                       <div className="text-yellow-300 font-bold">${team.score.toLocaleString()}</div>
@@ -545,7 +547,7 @@ export default function ClueModal({
                 <div key={`${team.name}-${index}`} className="rounded-xl border border-blue-700 bg-blue-900/90 p-4">
                   <div className="flex items-center justify-between gap-2 mb-3">
                     <div className="font-bold flex items-center gap-2">
-                      <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: team.color || '#facc15' }} />
+                      <span className="inline-block w-3 h-3 rounded-full" style={{ backgroundColor: team.color || DEFAULT_TEAM_COLOR }} />
                       {team.name}
                     </div>
                     <div className="text-yellow-300 font-bold">${team.score.toLocaleString()}</div>

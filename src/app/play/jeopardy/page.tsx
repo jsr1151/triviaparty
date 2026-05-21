@@ -89,6 +89,7 @@ const VALUES_DOUBLE = [400, 800, 1200, 1600, 2000];
 const VALUES_TRIPLE = [600, 1200, 1800, 2400, 3000];
 const MAX_COMPETITION_TEAMS = 10;
 const TEAM_COLORS = ['#f97316', '#22c55e', '#38bdf8', '#facc15', '#a78bfa', '#f43f5e', '#14b8a6', '#eab308', '#f59e0b', '#60a5fa'];
+const DEFAULT_TEAM_NAMES = ['Team 1', 'Team 2'];
 
 function normaliseApiGame(g: Record<string, unknown>): JeopardyGame {
   const cats = ((g.categories as Record<string, unknown>[]) ?? []).map(cat => ({
@@ -418,8 +419,7 @@ export default function JeopardyPage() {
 
   function parsedTeams(): TeamScore[] {
     const names = teamNamesInput.split(',').map(n => n.trim()).filter(Boolean).slice(0, MAX_COMPETITION_TEAMS);
-    const fallback = ['Team 1', 'Team 2'];
-    const resolved = names.length ? names : fallback;
+    const resolved = names.length ? names : DEFAULT_TEAM_NAMES;
     return resolved.map((name, index) => ({
       name,
       score: 0,
