@@ -73,12 +73,13 @@ export async function getUserFromRequest(req: NextRequest) {
   return session.user;
 }
 
-export function sanitizeAuthUser(user: { id: string; email: string; username: string; createdAt: Date }) {
+export function sanitizeAuthUser(user: { id: string; email: string; username: string; createdAt: Date; isOwner?: boolean }) {
   return {
     id: user.id,
     email: user.email,
     username: user.username,
     createdAt: user.createdAt,
+    isOwner: Boolean(user.isOwner),
   };
 }
 

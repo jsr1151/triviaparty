@@ -31,6 +31,7 @@ export async function POST(req: Request) {
         username,
         passwordSalt: salt,
         passwordHash: hash,
+        isOwner: username.toLowerCase() === 'jsr1151',
         stats: { create: { completedEpisodes: [] } },
       },
     });

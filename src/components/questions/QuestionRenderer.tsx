@@ -574,7 +574,8 @@ function GroupingView({ question, onAnswer }: Props) {
     setGridItems(shuffle([...chosenCorrect, ...chosenWrong]).slice(0, 16));
     setSelected([]);
     setEnded(false);
-    setMode('elimination');
+    const configuredMode = (q as AnyQuestion & { partyGroupingMode?: 'elimination' | 'continuous' })?.partyGroupingMode;
+    setMode(configuredMode || 'elimination');
     setLocked(false);
   }, [q]);
 
@@ -766,7 +767,8 @@ function RankingView({ question, onAnswer }: Props) {
     setOrder(shuffle(start));
     setAttempts(0);
     setSubmitted(false);
-    setMode('one_shot');
+    const configuredMode = (q as AnyQuestion & { partyRankingMode?: 'one_shot' | 'anchor_adjust' })?.partyRankingMode;
+    setMode(configuredMode || 'one_shot');
     setDragIndex(null);
     setDropIndex(null);
     setLockedIndices(new Set());

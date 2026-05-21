@@ -1,7 +1,10 @@
+'use client';
+
 import Link from 'next/link';
+import { useEffect, useMemo, useState } from 'react';
 import HomeAuthPanel from '@/components/HomeAuthPanel';
 
-const gameModes = [
+const baseGameModes = [
   {
     id: 'jeopardy',
     title: 'Jeopardy',
@@ -51,24 +54,54 @@ const gameModes = [
     color: 'from-emerald-600 to-green-700',
   },
   {
-    id: 'flagged-questions',
-    title: 'Flagged Questions',
-    description: 'Review and manage gameplay questions you flagged for follow-up.',
-    icon: '🚩',
-    href: '/play/flagged',
-    color: 'from-yellow-600 to-amber-700',
-  },
-  {
-    id: 'media-audit',
-    title: 'Media Audit',
-    description: 'Review flagged media questions and mismatches for cleanup.',
-    icon: '🛠️',
-    href: '/play/media-audit',
-    color: 'from-rose-600 to-red-700',
+    id: 'join-game',
+    title: 'Join Game',
+    description: 'Join a room with a 6-character code for live multiplayer play.',
+    icon: '🔗',
+    href: '/room/join',
+    color: 'from-cyan-600 to-sky-700',
   },
 ];
 
 export default function Home() {
+  const [isOwner, setIsOwner] = useState(false);
+
+  useEffect(() => {
+    const load = async () => {
+      try {
+        const res = await fetch('/api/auth/me');
+        if (!res.ok) return;
+        const data = await res.json();
+        setIsOwner(Boolean(data?.user?.isOwner));
+      } catch {
+      }
+    };
+    load();
+  }, []);
+
+  const gameModes = useMemo(() => {
+    if (!isOwner) return baseGameModes;
+    return [
+      ...baseGameModes,
+      {
+        id: 'review-center',
+        title: 'Review Center',
+        description: 'Owner tools for flagged gameplay questions and media audit cleanup.',
+        icon: '🧭',
+        href: '/play/review-center',
+        color: 'from-yellow-600 to-amber-700',
+      },
+      {
+        id: 'owner-panel',
+        title: 'Owner Panel',
+        description: 'Manage users and owner privileges.',
+        icon: '👑',
+        href: '/play/owner',
+        color: 'from-indigo-600 to-violet-700',
+      },
+    ];
+  }, [isOwner]);
+
   return (
     <main className="min-h-screen bg-gray-950 text-white">
       <div className="container mx-auto px-4 py-16">

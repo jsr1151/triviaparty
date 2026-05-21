@@ -164,6 +164,7 @@ model User {
   username     String             @unique
   passwordHash String
   passwordSalt String
+  isOwner      Boolean            @default(false)
   createdAt    DateTime           @default(now())
   updatedAt    DateTime           @updatedAt
   sessions     UserSession[]
@@ -273,4 +274,39 @@ model UserJeopardyEpisodeProgress {
 
   @@unique([userId, episodeKey, mode])
   @@index([userId, status, lastPlayedAt])
+}
+
+model PartyModePreset {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  config      Json
+  isBuiltIn   Boolean  @default(false)
+  createdBy   String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model FlaggedItem {
+  id         String   @id @default(cuid())
+  questionId String
+  reason     String?
+  flaggedBy  String?
+  type       String   @default("question")
+  status     String   @default("pending")
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model MultiplayerRoom {
+  id         String   @id @default(cuid())
+  code       String   @unique
+  hostUserId String?
+  mode       String
+  status     String   @default("lobby")
+  gameConfig Json
+  players    Json     @default("[]")
+  gameState  Json     @default("{}")
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
 }
