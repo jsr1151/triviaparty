@@ -51,12 +51,17 @@ type JeopardyLobbySettings = {
   teams: string[];
 };
 
+const REVEAL_DELAY_MS = 2000;
+const TRANSITION_DELAY_MS = 2000;
+const INTERMEDIATE_RESET_DELAY_MS = REVEAL_DELAY_MS + 200;
+const FULL_ADVANCE_RESET_DELAY_MS = REVEAL_DELAY_MS + TRANSITION_DELAY_MS + 500;
+
 function getQuestionId(question: AnyQuestion | null): string {
   if (!question) return 'unknown-question';
   return String(question.id || `${question.type}-question`);
 }
 
-function getPromptLabel(question: AnyQuestion | null): string {
+function getQuestionLabel(question: AnyQuestion | null): string {
   if (!question) return '';
   if (question.type === 'prompt') return question.prompt || 'Prompt';
   if (question.type === 'this_or_that') return question.question || 'This or That';
@@ -133,7 +138,7 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
       } : prev));
       if (payload.transition?.type === 'scoreboard') {
         setTransitionVisible(true);
-        window.setTimeout(() => setTransitionVisible(false), Number(payload.transition.durationMs || 2000));
+        window.setTimeout(() => setTransitionVisible(false), Number(payload.transition.durationMs || TRANSITION_DELAY_MS));
       }
     });
     channel.bind('player-joined', (payload: { players: HostRoom['players'] }) => {
@@ -166,7 +171,7 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
     });
     channel.bind('transition-started', (payload: { transition?: TransitionState }) => {
       setTransitionVisible(true);
-      const duration = Number(payload?.transition?.durationMs || 2000);
+      const duration = Number(payload?.transition?.durationMs || TRANSITION_DELAY_MS);
       window.setTimeout(() => setTransitionVisible(false), duration);
     });
     channel.bind('score-updated', (payload: { scores?: Record<string, number> }) => {
@@ -213,7 +218,7 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
   const currentTurnPlayer = currentQuestion?.type === 'grouping'
     ? (room?.players || [])[Number(groupingTurnByQuestion[questionId] || 0)] || null
     : null;
-  const questionPromptLabel = getPromptLabel(currentQuestion);
+  const questionPromptLabel = getQuestionLabel(currentQuestion);
   const questionText = getQuestionText(currentQuestion, thisOrThatItemIndex);
 
   useEffect(() => {
@@ -314,20 +319,20 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
         const revealed = await submitEvent('answer-revealed');
         if (!revealed) return;
       }
-      await new Promise((resolve) => window.setTimeout(resolve, 2000));
+      await new Promise((resolve) => window.setTimeout(resolve, REVEAL_DELAY_MS));
       if (isIntermediateThisOrThat) {
         await submitEvent('question-changed', { direction: 'next' });
         return;
       }
-      const started = await submitEvent('transition-started', { durationMs: 2000 });
+      const started = await submitEvent('transition-started', { durationMs: TRANSITION_DELAY_MS });
       if (!started) return;
       window.setTimeout(() => {
         void submitEvent('question-changed', { direction: 'next' });
-      }, 2000);
+      }, TRANSITION_DELAY_MS);
     } finally {
       window.setTimeout(() => {
         advanceInProgressRef.current = false;
-      }, isIntermediateThisOrThat ? 2200 : 4500);
+      }, isIntermediateThisOrThat ? INTERMEDIATE_RESET_DELAY_MS : FULL_ADVANCE_RESET_DELAY_MS);
     }
   }
 

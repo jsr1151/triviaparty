@@ -47,7 +47,7 @@ function getQuestionId(question: AnyQuestion | null): string {
   return String(question.id || `${question.type}-question`);
 }
 
-function getPromptLabel(question: AnyQuestion | null): string {
+function getQuestionLabel(question: AnyQuestion | null): string {
   if (!question) return '';
   if (question.type === 'prompt') return question.prompt || 'Prompt';
   if (question.type === 'this_or_that') return question.question || 'This or That';
@@ -199,7 +199,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
     ? [currentQuestion.categoryA, currentQuestion.categoryB, currentQuestion.categoryC].filter(Boolean) as string[]
     : [];
   const thisOrThatCorrect = thisOrThatItem?.answer ? thisOrThatLabels[(thisOrThatItem.answer === 'A' ? 0 : thisOrThatItem.answer === 'B' ? 1 : 2)] : '';
-  const questionPromptLabel = getPromptLabel(currentQuestion);
+  const questionPromptLabel = getQuestionLabel(currentQuestion);
   const questionText = getQuestionText(currentQuestion, thisOrThatItemIndex);
   const groupingMode = getGroupingMode(currentQuestion);
   const groupingEliminatedItems = getGroupedState<string[]>(state, 'groupingEliminatedItems')[currentQuestionId] || [];
