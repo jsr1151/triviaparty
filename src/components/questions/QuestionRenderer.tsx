@@ -23,6 +23,7 @@ type Props = {
   question: AnyQuestion;
   onAnswer: (result: AnswerResult) => void;
   onRerollPrompt?: (prompt: string) => void;
+  forceReveal?: boolean;
 };
 
 function shuffle<T>(items: T[]): T[] {
@@ -217,11 +218,10 @@ function MultipleChoiceView({ question, onAnswer }: Props) {
   );
 }
 
-function OpenEndedView({ question, onAnswer }: Props) {
+function OpenEndedView({ question, onAnswer, forceReveal }: Props) {
   const q = question.type === 'open_ended' ? question : null;
   const [input, setInput] = useState('');
   const [submitted, setSubmitted] = useState(false);
-  const [showAnswer, setShowAnswer] = useState(false);
   const [wasWrong, setWasWrong] = useState(false);
   const [overrideApplied, setOverrideApplied] = useState(false);
   const [addAsAccepted, setAddAsAccepted] = useState(true);
@@ -232,7 +232,6 @@ function OpenEndedView({ question, onAnswer }: Props) {
   useEffect(() => {
     setInput('');
     setSubmitted(false);
-    setShowAnswer(false);
     setWasWrong(false);
     setOverrideApplied(false);
     setAddAsAccepted(true);
@@ -259,31 +258,18 @@ function OpenEndedView({ question, onAnswer }: Props) {
         placeholder="Type your answer"
         className="w-full bg-gray-700 rounded-lg p-3"
       />
-      <div className="grid grid-cols-2 gap-2">
-        <button
-          disabled={submitted || !input.trim()}
-          onClick={() => {
-            const correct = accepted.some((ans) => isCloseMatch(input, ans));
-            setSubmitted(true);
-            setWasWrong(!correct);
-            finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
-          }}
-          className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
-        >
-          Submit
-        </button>
-        <button
-          onClick={() => {
-            setShowAnswer(true);
-            if (!submitted) {
-              finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
-            }
-          }}
-          className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
-        >
-          Reveal Answer
-        </button>
-      </div>
+      <button
+        disabled={submitted || !input.trim()}
+        onClick={() => {
+          const correct = accepted.some((ans) => isCloseMatch(input, ans));
+          setSubmitted(true);
+          setWasWrong(!correct);
+          finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+        }}
+        className="w-full bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+      >
+        Submit
+      </button>
       {wasWrong && !overrideApplied && (
         <div className="bg-gray-900 rounded-lg p-3 space-y-2">
           <label className="flex items-center gap-2 text-sm text-gray-300">
@@ -295,7 +281,6 @@ function OpenEndedView({ question, onAnswer }: Props) {
               if (addAsAccepted) addOpenEndedAcceptedAnswer(q, input);
               setOverrideApplied(true);
               setWasWrong(false);
-              setShowAnswer(true);
               onAnswer({
                 correct: true,
                 pointsEarned: pointsPossible,
@@ -310,7 +295,7 @@ function OpenEndedView({ question, onAnswer }: Props) {
           </button>
         </div>
       )}
-      {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
+      {(submitted || forceReveal) && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
     </div>
   );
 }
@@ -916,13 +901,12 @@ function RankingView({ question, onAnswer }: Props) {
   );
 }
 
-function MediaView({ question, onAnswer }: Props) {
+function MediaView({ question, onAnswer, forceReveal }: Props) {
   const q = question.type === 'media' ? question : null;
   const [input, setInput] = useState('');
   const [selectedOption, setSelectedOption] = useState('');
   const [choiceSubmitted, setChoiceSubmitted] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [showAnswer, setShowAnswer] = useState(false);
   const [obscure, setObscure] = useState(false);
   const [locked, setLocked] = useState(false);
 
@@ -933,7 +917,6 @@ function MediaView({ question, onAnswer }: Props) {
     setSelectedOption('');
     setChoiceSubmitted(false);
     setSubmitted(false);
-    setShowAnswer(false);
     setObscure(false);
     setLocked(false);
   }, [q?.id, q?.question]);
@@ -1037,32 +1020,18 @@ function MediaView({ question, onAnswer }: Props) {
               );
             })}
           </div>
-          <div className="grid grid-cols-2 gap-2">
-            <button
-              disabled={!selectedOption || choiceSubmitted}
-              onClick={() => {
-                setChoiceSubmitted(true);
-                const correct = selectedOption === mcCorrectAnswer;
-                finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
-              }}
-              className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
-            >
-              Submit
-            </button>
-            <button
-              onClick={() => {
-                setShowAnswer(true);
-                if (!choiceSubmitted) {
-                  setChoiceSubmitted(true);
-                  finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
-                }
-              }}
-              className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
-            >
-              Reveal Answer
-            </button>
-          </div>
-          {showAnswer && <div className="text-yellow-300 font-bold">Answer: {mcCorrectAnswer || q.answer}</div>}
+          <button
+            disabled={!selectedOption || choiceSubmitted}
+            onClick={() => {
+              setChoiceSubmitted(true);
+              const correct = selectedOption === mcCorrectAnswer;
+              finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+            }}
+            className="w-full bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+          >
+            Submit
+          </button>
+          {(choiceSubmitted || forceReveal) && <div className="text-yellow-300 font-bold">Answer: {mcCorrectAnswer || q.answer}</div>}
         </>
       ) : (
         <>
@@ -1080,42 +1049,28 @@ function MediaView({ question, onAnswer }: Props) {
             placeholder="Type your answer"
             className="w-full bg-gray-700 rounded-lg p-3"
           />
-          <div className="grid grid-cols-2 gap-2">
-            <button
-              disabled={!input.trim() || submitted}
-              onClick={() => {
-                const correct = accepted.some((ans) => isCloseMatch(input, ans));
-                setSubmitted(true);
-                finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
-              }}
-              className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
-            >
-              Submit
-            </button>
-            <button
-              onClick={() => {
-                setShowAnswer(true);
-                if (!submitted) {
-                  finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
-                }
-              }}
-              className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
-            >
-              Reveal Answer
-            </button>
-          </div>
-          {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
+          <button
+            disabled={!input.trim() || submitted}
+            onClick={() => {
+              const correct = accepted.some((ans) => isCloseMatch(input, ans));
+              setSubmitted(true);
+              finalizeOnce(locked, setLocked, onAnswer, question, correct ? pointsPossible : 0, pointsPossible, correct);
+            }}
+            className="w-full bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 py-2 rounded-lg font-bold"
+          >
+            Submit
+          </button>
+          {(submitted || forceReveal) && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
         </>
       )}
     </div>
   );
 }
 
-function PromptView({ question, onAnswer, onRerollPrompt }: Props) {
+function PromptView({ question, onAnswer, onRerollPrompt, forceReveal }: Props) {
   const q = question.type === 'prompt' ? question : null;
   const [input, setInput] = useState('');
   const [submitted, setSubmitted] = useState(false);
-  const [showAnswer, setShowAnswer] = useState(false);
   const [locked, setLocked] = useState(false);
 
   const pointsPossible = getQuestionPossiblePoints(question);
@@ -1123,7 +1078,6 @@ function PromptView({ question, onAnswer, onRerollPrompt }: Props) {
   useEffect(() => {
     setInput('');
     setSubmitted(false);
-    setShowAnswer(false);
     setLocked(false);
   }, [q?.id, q?.question, q?.prompt]);
 
@@ -1151,7 +1105,7 @@ function PromptView({ question, onAnswer, onRerollPrompt }: Props) {
         placeholder="Type your answer"
         className="w-full bg-gray-700 rounded-lg p-3"
       />
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-2 gap-2">
         <button
           disabled={!input.trim() || submitted}
           onClick={() => {
@@ -1163,18 +1117,9 @@ function PromptView({ question, onAnswer, onRerollPrompt }: Props) {
         >
           Submit
         </button>
-        <button
-          onClick={() => {
-            setShowAnswer(true);
-            if (!submitted) finalizeOnce(locked, setLocked, onAnswer, question, 0, pointsPossible, false);
-          }}
-          className="bg-blue-700 hover:bg-blue-600 py-2 rounded-lg font-bold"
-        >
-          Reveal
-        </button>
         <button onClick={() => q.prompt && onRerollPrompt?.(q.prompt)} disabled={!q.prompt || !onRerollPrompt} className="bg-indigo-700 hover:bg-indigo-600 disabled:bg-gray-600 py-2 rounded-lg font-bold">Reroll Prompt</button>
       </div>
-      {showAnswer && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
+      {(submitted || forceReveal) && <div className="text-yellow-300 font-bold">Answer: {q.answer}</div>}
     </div>
   );
 }

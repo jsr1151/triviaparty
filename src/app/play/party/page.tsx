@@ -1,5 +1,5 @@
 'use client';
-import { useMemo, useState, useEffect } from 'react';
+import { useMemo, useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import QuestionRenderer, { type AnswerResult } from '@/components/questions/QuestionRenderer';
 import type { AnyQuestion } from '@/types/questions';
@@ -8,6 +8,7 @@ import {
   createDefaultSettings,
   type PartySettings,
 } from '@/lib/party-mode';
+import { getQuestionPossiblePoints } from '@/lib/question-utils';
 import { isQuestionFlagged, setQuestionFlagged } from '@/lib/question-session-store';
 import { PartySettingsModal, type SavedPreset } from '@/components/party/PartySettingsModal';
 
@@ -28,6 +29,7 @@ export default function PartyPage() {
   const [flagged, setFlagged] = useState(false);
   const [savedPresets, setSavedPresets] = useState<SavedPreset[]>([]);
   const [isOwner, setIsOwner] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(30);
 
   useEffect(() => {
     const load = async () => {
@@ -66,6 +68,32 @@ export default function PartyPage() {
     const question = questions[current];
     setFlagged(Boolean(question && isQuestionFlagged(question)));
   }, [questions, current]);
+
+  const handleTimerExpiry = useCallback(() => {
+    const q = questions[current];
+    if (!q || answered !== null) return;
+    const possible = getQuestionPossiblePoints(q);
+    setAnswered(false);
+    setCurrentResult({ earned: 0, possible });
+    setPointsPossible((p) => p + possible);
+    setTypePoints((prev) => ({
+      ...prev,
+      [q.type]: {
+        earned: (prev[q.type]?.earned || 0),
+        possible: (prev[q.type]?.possible || 0) + possible,
+      },
+    }));
+  }, [questions, current, answered]);
+
+  useEffect(() => {
+    if (showSettings || answered !== null) return;
+    if (timeLeft <= 0) {
+      handleTimerExpiry();
+      return;
+    }
+    const timer = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
+    return () => clearTimeout(timer);
+  }, [timeLeft, answered, showSettings, handleTimerExpiry]);
 
   useEffect(() => {
     const loadMeta = async () => {
@@ -117,6 +145,11 @@ export default function PartyPage() {
     return q?.partyRound ? `Round ${q.partyRound}` : 'Round';
   }, [questions, current]);
 
+  function getTimeLimitForQuestion(q: AnyQuestion | undefined): number {
+    const configured = (q as AnyQuestion & { partyTimeLimitSec?: number })?.partyTimeLimitSec;
+    return configured && configured > 0 ? configured : 30;
+  }
+
   function startPartyGame() {
     const planned = buildPartyQuestions(allQuestions, settings);
     setQuestions(planned);
@@ -128,6 +161,7 @@ export default function PartyPage() {
     setAnswered(null);
     setCurrentResult(null);
     setShowSettings(false);
+    setTimeLeft(getTimeLimitForQuestion(planned[0]));
   }
 
   function handleAnswer(result: AnswerResult) {
@@ -172,9 +206,11 @@ export default function PartyPage() {
   }
 
   function nextQuestion() {
-    setCurrent((c) => c + 1);
+    const nextIdx = current + 1;
+    setCurrent(nextIdx);
     setAnswered(null);
     setCurrentResult(null);
+    setTimeLeft(getTimeLimitForQuestion(questions[nextIdx]));
   }
 
   async function saveCurrentPreset(name: string, description: string) {
@@ -300,7 +336,14 @@ export default function PartyPage() {
         </div>
         <div className="flex justify-between items-center mb-8">
           <span className="text-gray-400">{current + 1}/{questions.length} • {roundLabel}</span>
-          <span className="text-yellow-400 font-bold">Score: {score}</span>
+          <div className="flex items-center gap-4">
+            {answered === null && (
+              <span className={`font-bold tabular-nums ${timeLeft <= 5 ? 'text-red-400' : timeLeft <= 10 ? 'text-yellow-400' : 'text-gray-300'}`}>
+                ⏱ {timeLeft}s
+              </span>
+            )}
+            <span className="text-yellow-400 font-bold">Score: {score}</span>
+          </div>
         </div>
         <div className="bg-gray-800 rounded-2xl p-8">
           <div className="text-sm text-yellow-300 mb-2">Points: {pointsEarned}/{pointsPossible}</div>
@@ -316,7 +359,7 @@ export default function PartyPage() {
             🚩 {flagged ? 'Flagged' : 'Flag'}
           </button>
           {displayQuestionText && <div className="text-xl font-bold mb-6">{displayQuestionText}</div>}
-          <QuestionRenderer question={q} onAnswer={handleAnswer} onRerollPrompt={rerollPrompt} />
+          <QuestionRenderer key={current} question={q} onAnswer={handleAnswer} onRerollPrompt={rerollPrompt} forceReveal={answered !== null} />
           {answered !== null && (
             <div className={`mt-4 text-center text-xl font-bold ${answered ? 'text-green-400' : 'text-red-400'}`}>
               {answered ? '✓ Correct!' : '✗ Incorrect'}
