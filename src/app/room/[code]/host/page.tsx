@@ -101,6 +101,8 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
   const [countdownMs, setCountdownMs] = useState(0);
   const [partySettings, setPartySettings] = useState<PartySettings>(normalizePartySettings(null));
   const [jeopardySettings, setJeopardySettings] = useState<JeopardyLobbySettings>({ method: 'random', sessionType: 'competition', teams: [] });
+  const [partySettingsOpen, setPartySettingsOpen] = useState(false);
+  const [jeopardySettingsOpen, setJeopardySettingsOpen] = useState(false);
   const revealRequestedRef = useRef(false);
   const advanceInProgressRef = useRef(false);
 
@@ -309,10 +311,42 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
     const data = await res.json().catch(() => ({}));
     if (!res.ok) {
       setMessage(data?.error || 'Failed to update settings.');
-      return;
+      return false;
     }
     setRoom(data.room);
     setMessage('Lobby settings saved.');
+    return true;
+  }
+
+  async function startPartyGame() {
+    const saveRes = await fetch(`/api/rooms/${code}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ gameConfig: partySettings }),
+    });
+    const saveData = await saveRes.json().catch(() => ({}));
+    if (!saveRes.ok) {
+      setMessage(saveData?.error || 'Failed to save settings.');
+      return;
+    }
+    setRoom(saveData.room);
+    const ok = await submitEvent('game-started');
+    if (ok) {
+      const res = await fetch(`/api/rooms/${code}`);
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data?.room) setRoom(data.room);
+    }
+  }
+
+  async function startJeopardyGame() {
+    const saved = await saveJeopardyLobbySettings();
+    if (!saved) return;
+    const ok = await submitEvent('game-started');
+    if (ok) {
+      const res = await fetch(`/api/rooms/${code}`);
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data?.room) setRoom(data.room);
+    }
   }
 
   async function advanceQuestionFlow() {
@@ -373,35 +407,72 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
 
   if (phase === 'lobby' && room?.mode === 'party') {
     return (
-      <PartySettingsModal
-        settings={partySettings}
-        setSettings={setPartySettings}
-        startGame={() => { void submitEvent('game-started'); }}
-        startMultiplayerHost={() => undefined}
-        savePreset={async () => undefined}
-        loadPreset={() => undefined}
-        savedPresets={[]}
-        isOwner={false}
-        hasQuestions
-        title={`🎉 Lobby Settings · Room ${code}`}
-        backHref={`/room/${code}/host`}
-        showPresetControls={false}
-        hideDefaultActionButtons
-        footerContent={(
-          <>
-            <label className="bg-gray-900 rounded-lg border border-gray-700 px-4 py-2 flex items-center gap-2 text-sm">
+      <main className="min-h-screen bg-gray-950 text-white p-6">
+        <div className="max-w-5xl mx-auto space-y-4">
+          <div className="flex items-center justify-between gap-3">
+            <Link href="/" className="text-purple-300 hover:text-purple-200 font-bold">← Main Menu</Link>
+            <div className="text-sm text-gray-300">Room code <span className="font-mono tracking-[0.25em]">{code}</span></div>
+          </div>
+
+          <div className="bg-gray-900 border border-gray-800 rounded-xl p-4 space-y-3">
+            <div className="flex items-center justify-between">
+              <h1 className="text-2xl font-bold text-purple-300">🎉 Party Lobby</h1>
+              <div className="text-sm text-gray-400">{(room?.players || []).length} player{(room?.players || []).length !== 1 ? 's' : ''}</div>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {(room?.players || []).map((player) => (
+                <span key={player.id} className={`px-3 py-1 rounded-full text-sm ${player.isHost ? 'bg-purple-800 text-purple-100' : 'bg-gray-800 text-gray-200'}`}>
+                  {player.name}{player.isHost ? ' (host)' : ''}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-gray-900 border border-gray-800 rounded-xl overflow-hidden">
+            <button
+              onClick={() => setPartySettingsOpen((prev) => !prev)}
+              className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-gray-800 transition-colors"
+            >
+              <span className="font-semibold text-purple-300">⚙ Game Settings</span>
+              <span className="text-gray-400 text-sm">{partySettingsOpen ? '▲ Hide' : '▼ Show'}</span>
+            </button>
+            {partySettingsOpen && (
+              <div className="border-t border-gray-800 p-4">
+                <PartySettingsModal
+                  inline
+                  settings={partySettings}
+                  setSettings={setPartySettings}
+                  startGame={() => { void startPartyGame(); }}
+                  startMultiplayerHost={() => undefined}
+                  savePreset={async () => undefined}
+                  loadPreset={() => undefined}
+                  savedPresets={[]}
+                  isOwner={false}
+                  hasQuestions
+                  showPresetControls={false}
+                  hideDefaultActionButtons
+                />
+              </div>
+            )}
+          </div>
+
+          <div className="bg-gray-900 border border-gray-800 rounded-xl p-4 space-y-3">
+            <label className="flex items-center gap-2 text-sm">
               <input type="checkbox" checked={playAsParticipant} onChange={(event) => setPlayAsParticipant(event.target.checked)} />
-              Play as participant
+              Play as participant (host joins as a player)
             </label>
-            <button onClick={() => void savePartyLobbySettings()} className="bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-lg font-bold">
-              Save Settings
-            </button>
-            <button onClick={() => void submitEvent('game-started')} className="bg-emerald-700 hover:bg-emerald-600 px-4 py-2 rounded-lg font-bold">
-              Start Game
-            </button>
-          </>
-        )}
-      />
+            <div className="flex flex-wrap gap-2">
+              <button onClick={() => void savePartyLobbySettings()} className="bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-lg font-bold">
+                Save Settings
+              </button>
+              <button onClick={() => void startPartyGame()} className="bg-emerald-700 hover:bg-emerald-600 px-4 py-2 rounded-lg font-bold">
+                Start Game
+              </button>
+            </div>
+            {message && <div className="text-sm text-rose-300">{message}</div>}
+          </div>
+        </div>
+      </main>
     );
   }
 
@@ -413,48 +484,72 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
             <Link href="/" className="text-cyan-300 hover:text-cyan-200 font-bold">← Main Menu</Link>
             <div className="text-sm text-blue-200">Room code <span className="font-mono tracking-[0.25em]">{code}</span></div>
           </div>
-          <div className="bg-blue-900 border border-blue-700 rounded-xl p-6 space-y-4">
-            <div>
-              <h1 className="text-3xl font-bold text-yellow-300">Jeopardy Lobby Settings</h1>
-              <p className="text-sm text-blue-200">Update the same multiplayer settings you chose when creating the room, then start when everyone is ready.</p>
+
+          <div className="bg-blue-900 border border-blue-700 rounded-xl p-4 space-y-3">
+            <div className="flex items-center justify-between">
+              <h1 className="text-2xl font-bold text-yellow-300">📺 Jeopardy Lobby</h1>
+              <div className="text-sm text-blue-300">{(room?.players || []).length} player{(room?.players || []).length !== 1 ? 's' : ''}</div>
             </div>
-            <div className="grid md:grid-cols-2 gap-4">
-              <label className="space-y-2 text-sm">
-                <span className="text-blue-200">Show selection</span>
-                <select value={jeopardySettings.method} onChange={(event) => setJeopardySettings((prev) => ({ ...prev, method: event.target.value }))} className="w-full bg-blue-800 border border-blue-600 rounded-lg px-3 py-2">
-                  <option value="random">Random</option>
-                  <option value="replay">Replay selected show</option>
-                </select>
-              </label>
-              <label className="space-y-2 text-sm">
-                <span className="text-blue-200">Session type</span>
-                <select value={jeopardySettings.sessionType} onChange={(event) => setJeopardySettings((prev) => ({ ...prev, sessionType: event.target.value }))} className="w-full bg-blue-800 border border-blue-600 rounded-lg px-3 py-2">
-                  <option value="competition">Competition</option>
-                  <option value="practice">Practice</option>
-                </select>
-              </label>
-            </div>
-            <label className="space-y-2 text-sm block">
-              <span className="text-blue-200">Teams (comma separated)</span>
-              <input
-                value={jeopardySettings.teams.join(', ')}
-                onChange={(event) => setJeopardySettings((prev) => ({
-                  ...prev,
-                  teams: event.target.value.split(',').map((team) => team.trim()).filter(Boolean),
-                }))}
-                className="w-full bg-blue-800 border border-blue-600 rounded-lg px-3 py-2"
-                placeholder="Team 1, Team 2"
-              />
-            </label>
-            <label className="bg-blue-950/70 rounded-lg border border-blue-700 px-4 py-2 flex items-center gap-2 text-sm w-fit">
-              <input type="checkbox" checked={playAsParticipant} onChange={(event) => setPlayAsParticipant(event.target.checked)} />
-              Play as participant
-            </label>
             <div className="flex flex-wrap gap-2">
-              <button onClick={() => void saveJeopardyLobbySettings()} className="bg-cyan-700 hover:bg-cyan-600 px-4 py-2 rounded-lg font-bold">Save Settings</button>
-              <button onClick={() => void submitEvent('game-started')} className="bg-emerald-700 hover:bg-emerald-600 px-4 py-2 rounded-lg font-bold">Start Game</button>
+              {(room?.players || []).map((player) => (
+                <span key={player.id} className={`px-3 py-1 rounded-full text-sm ${player.isHost ? 'bg-yellow-800 text-yellow-100' : 'bg-blue-800 text-blue-100'}`}>
+                  {player.name}{player.isHost ? ' (host)' : ''}
+                </span>
+              ))}
             </div>
-            {message && <div className="text-cyan-200 text-sm">{message}</div>}
+          </div>
+
+          <div className="bg-blue-900 border border-blue-700 rounded-xl overflow-hidden">
+            <button
+              onClick={() => setJeopardySettingsOpen((prev) => !prev)}
+              className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-blue-800 transition-colors"
+            >
+              <span className="font-semibold text-yellow-300">⚙ Game Settings</span>
+              <span className="text-blue-300 text-sm">{jeopardySettingsOpen ? '▲ Hide' : '▼ Show'}</span>
+            </button>
+            {jeopardySettingsOpen && (
+              <div className="border-t border-blue-700 p-4 space-y-4">
+                <p className="text-sm text-blue-200">Update the same multiplayer settings you chose when creating the room.</p>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <label className="space-y-2 text-sm">
+                    <span className="text-blue-200">Show selection</span>
+                    <select value={jeopardySettings.method} onChange={(event) => setJeopardySettings((prev) => ({ ...prev, method: event.target.value }))} className="w-full bg-blue-800 border border-blue-600 rounded-lg px-3 py-2">
+                      <option value="random">Random</option>
+                      <option value="replay">Replay selected show</option>
+                    </select>
+                  </label>
+                  <label className="space-y-2 text-sm">
+                    <span className="text-blue-200">Session type</span>
+                    <select value={jeopardySettings.sessionType} onChange={(event) => setJeopardySettings((prev) => ({ ...prev, sessionType: event.target.value }))} className="w-full bg-blue-800 border border-blue-600 rounded-lg px-3 py-2">
+                      <option value="competition">Competition</option>
+                      <option value="practice">Practice</option>
+                    </select>
+                  </label>
+                </div>
+                <label className="space-y-2 text-sm block">
+                  <span className="text-blue-200">Teams (comma separated)</span>
+                  <input
+                    value={jeopardySettings.teams.join(', ')}
+                    onChange={(event) => setJeopardySettings((prev) => ({
+                      ...prev,
+                      teams: event.target.value.split(',').map((team) => team.trim()).filter(Boolean),
+                    }))}
+                    className="w-full bg-blue-800 border border-blue-600 rounded-lg px-3 py-2"
+                    placeholder="Team 1, Team 2"
+                  />
+                </label>
+                <button onClick={() => void saveJeopardyLobbySettings()} className="bg-cyan-700 hover:bg-cyan-600 px-4 py-2 rounded-lg font-bold">Save Settings</button>
+              </div>
+            )}
+          </div>
+
+          <div className="bg-blue-900 border border-blue-700 rounded-xl p-4 space-y-3">
+            <label className="flex items-center gap-2 text-sm">
+              <input type="checkbox" checked={playAsParticipant} onChange={(event) => setPlayAsParticipant(event.target.checked)} />
+              Play as participant (host joins as a player)
+            </label>
+            <button onClick={() => void startJeopardyGame()} className="bg-emerald-700 hover:bg-emerald-600 px-4 py-2 rounded-lg font-bold">Start Game</button>
+            {message && <div className="text-rose-300 text-sm">{message}</div>}
           </div>
         </div>
       </main>
