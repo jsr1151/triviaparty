@@ -104,13 +104,17 @@ export function calculateRemainingTimeMs(
   nowMs = Date.now(),
 ): number {
   const totalWindowMs = resolveQuestionAnswerWindowMs(question, gameConfig);
-  const startedAtMs = Date.parse(String(questionStartedAt || ''));
+  const startedAtValue = typeof questionStartedAt === 'string' || questionStartedAt instanceof Date
+    ? String(questionStartedAt)
+    : '';
+  const startedAtMs = Date.parse(startedAtValue);
   if (!Number.isFinite(startedAtMs)) return totalWindowMs;
   return Math.max(0, startedAtMs + totalWindowMs - nowMs);
 }
 
 export function computePerItemPoints(question: AnyQuestion, totalItems: number): number {
-  return Math.max(1, Math.round(basePointsForDifficulty(question.difficulty) / Math.max(1, totalItems)));
+  const safeTotalItems = Number.isFinite(totalItems) && totalItems > 0 ? totalItems : 1;
+  return Math.max(1, Math.round(basePointsForDifficulty(question.difficulty) / safeTotalItems));
 }
 
 export function countMatchingItems(selected: string[], expected: string[]): number {

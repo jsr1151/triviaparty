@@ -51,9 +51,13 @@ type JeopardyLobbySettings = {
   teams: string[];
 };
 
+// Wait briefly after revealing the answer before moving to the next host-controlled step.
 const REVEAL_DELAY_MS = 2000;
+// Show the scoreboard transition between full questions.
 const TRANSITION_DELAY_MS = 2000;
+// Reset the flow guard after a short This or That item-to-item handoff.
 const INTERMEDIATE_RESET_DELAY_MS = REVEAL_DELAY_MS + 200;
+// Reset the flow guard after reveal + scoreboard transition + a small safety buffer.
 const FULL_ADVANCE_RESET_DELAY_MS = REVEAL_DELAY_MS + TRANSITION_DELAY_MS + 500;
 
 function getQuestionId(question: AnyQuestion | null): string {
@@ -311,10 +315,11 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
 
   async function advanceQuestionFlow() {
     if (!currentQuestion || advanceInProgressRef.current) return;
-    advanceInProgressRef.current = true;
-    const items = currentQuestion.type === 'this_or_that' && Array.isArray(currentQuestion.items) ? currentQuestion.items : [];
-    const isIntermediateThisOrThat = currentQuestion.type === 'this_or_that' && thisOrThatItemIndex < Math.max(0, items.length - 1);
+    let isIntermediateThisOrThat = false;
     try {
+      advanceInProgressRef.current = true;
+      const items = currentQuestion.type === 'this_or_that' && Array.isArray(currentQuestion.items) ? currentQuestion.items : [];
+      isIntermediateThisOrThat = currentQuestion.type === 'this_or_that' && thisOrThatItemIndex < Math.max(0, items.length - 1);
       if (!answerRevealed) {
         const revealed = await submitEvent('answer-revealed');
         if (!revealed) return;

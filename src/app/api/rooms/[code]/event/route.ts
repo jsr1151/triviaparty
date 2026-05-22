@@ -79,6 +79,17 @@ function getGroupedState<T>(state: Record<string, unknown>, key: string): Record
   return value && typeof value === 'object' ? { ...(value as Record<string, T>) } : {};
 }
 
+function parseGroupingSelection(payload: Record<string, unknown>, rawAnswer: string, selection: string): string[] {
+  const explicitSelection = payload.groupingSelection;
+  if (Array.isArray(explicitSelection)) {
+    return explicitSelection.map((item) => String(item).trim()).filter(Boolean);
+  }
+  return (rawAnswer || selection)
+    .split('|')
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
 export async function POST(req: NextRequest, { params }: { params: Promise<{ code: string }> }) {
   const { code } = await params;
   const roomCode = code.toUpperCase();
@@ -447,9 +458,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     const rawAnswer = String((payload as { answer?: unknown }).answer || '');
     const selection = String((payload as { selection?: unknown }).selection || '');
     const selectionKey = ((payload as { selectionKey?: unknown }).selectionKey || undefined) as 'A' | 'B' | 'C' | undefined;
-    const groupingSelection = Array.isArray((payload as { groupingSelection?: unknown }).groupingSelection)
-      ? ((payload as { groupingSelection?: string[] }).groupingSelection || []).filter(Boolean)
-      : [];
+    const groupingSelection = parseGroupingSelection(payload as Record<string, unknown>, rawAnswer, selection);
 
     const playerAnswers = (updatedState.playerAnswers && typeof updatedState.playerAnswers === 'object')
       ? { ...(updatedState.playerAnswers as Record<string, PlayerAnswerEntry[]>) }
@@ -479,15 +488,14 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
 
     let nextEntry = baseEntry;
     if (question?.type === 'grouping') {
-      const submittedItems = Array.from(new Set((groupingSelection.length ? groupingSelection : (rawAnswer || selection).split('|'))
-        .map((item) => String(item).trim())
-        .filter(Boolean)));
+      const submittedItems = Array.from(new Set(groupingSelection));
       if (!submittedItems.length) {
         return NextResponse.json({ ok: true, ignored: 'empty-grouping-selection' });
       }
       const mode = groupingModeForQuestion(question);
       const priorSelections = Array.from(new Set(playerEntries.flatMap((entry) => entry.groupingSelection || [])));
       let acceptedItems = submittedItems.filter((item) => !priorSelections.includes(item));
+      // Turns and blitz are single-pick modes, so only the first fresh item can be processed per submission.
       if (mode === 'turns' || mode === 'blitz') acceptedItems = acceptedItems.slice(0, 1);
       if (!acceptedItems.length) {
         return NextResponse.json({ ok: true, ignored: 'duplicate-grouping-selection' });

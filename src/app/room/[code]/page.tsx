@@ -42,6 +42,8 @@ type PlayerAnswerEntry = {
   questionItemIndex?: number;
 };
 
+const DEFAULT_TRANSITION_DURATION_MS = 2000;
+
 function getQuestionId(question: AnyQuestion | null): string {
   if (!question) return 'unknown-question';
   return String(question.id || `${question.type}-question`);
@@ -134,7 +136,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       setRoom((prev) => (prev ? { ...prev, gameState: payload.gameState, status: payload.status } : prev));
       if (payload.transition?.type === 'scoreboard') {
         setTransitionVisible(true);
-        window.setTimeout(() => setTransitionVisible(false), Number(payload.transition.durationMs || 2000));
+        window.setTimeout(() => setTransitionVisible(false), Number(payload.transition.durationMs || DEFAULT_TRANSITION_DURATION_MS));
       }
     });
     channel.bind('player-joined', (payload: { players: RoomPayload['players'] }) => {
@@ -160,7 +162,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
     });
     channel.bind('transition-started', (payload: { transition?: { durationMs?: number } }) => {
       setTransitionVisible(true);
-      window.setTimeout(() => setTransitionVisible(false), Number(payload?.transition?.durationMs || 2000));
+      window.setTimeout(() => setTransitionVisible(false), Number(payload?.transition?.durationMs || DEFAULT_TRANSITION_DURATION_MS));
     });
     channel.bind('score-updated', (payload: { scores?: Record<string, number> }) => {
       if (!payload?.scores) return;
