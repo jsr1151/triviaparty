@@ -727,7 +727,6 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
                 <button onClick={setLobby} className="w-full bg-gray-700 hover:bg-gray-600 px-3 py-2 rounded-lg">Set to Lobby</button>
                 <button onClick={() => void submitEvent('question-changed', { direction: 'previous' })} className="w-full bg-blue-700 hover:bg-blue-600 px-3 py-2 rounded-lg">Previous</button>
                 <button onClick={() => void advanceQuestionFlow()} className="w-full bg-blue-700 hover:bg-blue-600 px-3 py-2 rounded-lg">Next</button>
-                <button onClick={() => void submitEvent('answer-revealed')} className="w-full bg-violet-700 hover:bg-violet-600 px-3 py-2 rounded-lg text-sm">Reveal only</button>
                 <button onClick={() => void submitEvent('game-finished')} className="w-full bg-rose-700 hover:bg-rose-600 px-3 py-2 rounded-lg">Finish</button>
               </div>
 

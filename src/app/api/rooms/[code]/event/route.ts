@@ -303,6 +303,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
         currentQuestion: plannedQuestions[0],
         currentQuestionIndex: 0,
         totalQuestions: plannedQuestions.length,
+        questionStartedAt: now,
+        answerRevealed: false,
         scores: initialScores,
       };
     } else {
@@ -342,6 +344,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
           currentQuestionIndex: currentIndex,
           thisOrThatItemIndex: nextItemIndex,
           totalQuestions: questions.length,
+          questionStartedAt: now,
+          answerRevealed: false,
           scores: getScores(),
         };
         handledThisOrThatItemAdvance = true;
@@ -368,6 +372,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       currentQuestion: nextQuestion,
       currentQuestionIndex: nextIndex,
       totalQuestions: questions.length,
+      questionStartedAt: now,
+      answerRevealed: false,
       scores: getScores(),
     };
     }
