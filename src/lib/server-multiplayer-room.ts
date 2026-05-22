@@ -1,5 +1,5 @@
 import type { Prisma } from '@/generated/prisma/client';
-import { buildPartyQuestions, createDefaultSettings, type PartySettings } from '@/lib/party-mode';
+import { buildPartyQuestions, normalizePartySettings, type PartySettings } from '@/lib/party-mode';
 import type { AnyQuestion } from '@/types/questions';
 
 type DbQuestion = Prisma.QuestionGetPayload<{
@@ -18,42 +18,6 @@ type DbQuestion = Prisma.QuestionGetPayload<{
 
 function asStringArray(value: unknown): string[] {
   return Array.isArray(value) ? value.filter((item): item is string => typeof item === 'string') : [];
-}
-
-function isPartySettings(value: unknown): value is PartySettings {
-  return Boolean(value && typeof value === 'object' && Array.isArray((value as PartySettings).rounds));
-}
-
-function asString(value: unknown): string {
-  return typeof value === 'string' ? value : '';
-}
-
-function asStringArrayLoose(value: unknown): string[] {
-  return Array.isArray(value) ? value.filter((item): item is string => typeof item === 'string') : [];
-}
-
-function normalizePartySettings(value: unknown): PartySettings {
-  const defaults = createDefaultSettings();
-  if (!isPartySettings(value)) return defaults;
-  const incoming = value as Partial<PartySettings>;
-  const rounds = Array.isArray(incoming.rounds) && incoming.rounds.length
-    ? incoming.rounds.map((round, index) => ({
-      ...defaults.rounds[0],
-      ...round,
-      id: typeof round.id === 'string' && round.id ? round.id : `round-${index + 1}`,
-      name: typeof round.name === 'string' && round.name ? round.name : `Round ${index + 1}`,
-      categoryTheme: asString(round.categoryTheme),
-      categoryOptions: asStringArrayLoose(round.categoryOptions),
-    }))
-    : defaults.rounds;
-  return {
-    ...defaults,
-    ...incoming,
-    rounds,
-    categoryTheme: asString(incoming.categoryTheme),
-    categoryOptions: asStringArrayLoose(incoming.categoryOptions),
-    excludedCategories: asStringArrayLoose(incoming.excludedCategories),
-  };
 }
 
 function broadenPartySettings(settings: PartySettings): PartySettings {

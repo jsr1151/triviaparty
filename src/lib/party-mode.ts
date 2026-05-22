@@ -63,6 +63,14 @@ export type PlannedQuestion = AnyQuestion & {
   partyListScoring?: ListScoringSetting;
 };
 
+function asString(value: unknown): string {
+  return typeof value === 'string' ? value : '';
+}
+
+function asStringArrayLoose(value: unknown): string[] {
+  return Array.isArray(value) ? value.filter((item): item is string => typeof item === 'string') : [];
+}
+
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items];
   for (let i = copy.length - 1; i > 0; i--) {
@@ -211,6 +219,34 @@ export function createDefaultSettings(): PartySettings {
     categoryTheme: '',
     categoryOptions: [],
     excludedCategories: [],
+  };
+}
+
+function isPartySettings(value: unknown): value is PartySettings {
+  return Boolean(value && typeof value === 'object' && Array.isArray((value as PartySettings).rounds));
+}
+
+export function normalizePartySettings(value: unknown): PartySettings {
+  const defaults = createDefaultSettings();
+  if (!isPartySettings(value)) return defaults;
+  const incoming = value as Partial<PartySettings>;
+  const rounds = Array.isArray(incoming.rounds) && incoming.rounds.length
+    ? incoming.rounds.map((round, index) => ({
+      ...defaults.rounds[0],
+      ...round,
+      id: typeof round.id === 'string' && round.id ? round.id : `round-${index + 1}`,
+      name: typeof round.name === 'string' && round.name ? round.name : `Round ${index + 1}`,
+      categoryTheme: asString(round.categoryTheme),
+      categoryOptions: asStringArrayLoose(round.categoryOptions),
+    }))
+    : defaults.rounds;
+  return {
+    ...defaults,
+    ...incoming,
+    rounds,
+    categoryTheme: asString(incoming.categoryTheme),
+    categoryOptions: asStringArrayLoose(incoming.categoryOptions),
+    excludedCategories: asStringArrayLoose(incoming.excludedCategories),
   };
 }
 

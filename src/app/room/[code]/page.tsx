@@ -3,7 +3,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { getPusherClient } from '@/lib/pusher-client';
-import { extractMultipleChoiceCorrectAnswer } from '@/lib/multiplayer-game';
+import {
+  calculateRemainingTimeMs,
+  extractMultipleChoiceCorrectAnswer,
+  getThisOrThatItem,
+} from '@/lib/multiplayer-game';
 import type { AnyQuestion } from '@/types/questions';
 
 type RoomPayload = {
@@ -11,6 +15,7 @@ type RoomPayload = {
   mode: 'party' | 'jeopardy' | string;
   status: string;
   players: Array<{ id: string; name: string; team?: string; isHost?: boolean }>;
+  gameConfig?: Record<string, unknown>;
   gameState: Record<string, unknown>;
 };
 
@@ -26,6 +31,7 @@ type PlayerAnswerEntry = {
   questionId: string;
   answer?: string;
   selection?: string;
+  groupingSelection?: string[];
   submittedAt: string;
   judged?: boolean;
   correct?: boolean;
@@ -33,6 +39,7 @@ type PlayerAnswerEntry = {
   challenged?: boolean;
   gaveUp?: boolean;
   strikeCount?: number;
+  questionItemIndex?: number;
 };
 
 function getQuestionId(question: AnyQuestion | null): string {
@@ -40,27 +47,27 @@ function getQuestionId(question: AnyQuestion | null): string {
   return String(question.id || `${question.type}-question`);
 }
 
-function getThisOrThatItem(question: AnyQuestion | null, index: number) {
-  if (!question || question.type !== 'this_or_that') return null;
-  const items = Array.isArray(question.items) ? question.items : [];
-  if (!items.length) return null;
-  return items[Math.max(0, Math.min(items.length - 1, index))] || null;
+function getPromptLabel(question: AnyQuestion | null): string {
+  if (!question) return '';
+  if (question.type === 'prompt') return question.prompt || 'Prompt';
+  if (question.type === 'this_or_that') return question.question || 'This or That';
+  return '';
 }
 
-function displayPrompt(question: AnyQuestion | null, thisOrThatItemIndex: number): string {
+function getQuestionText(question: AnyQuestion | null, thisOrThatItemIndex: number): string {
   if (!question) return '';
-  if (question.type === 'prompt') return question.prompt || question.question;
-  if (question.type === 'this_or_that') {
-    const item = getThisOrThatItem(question, thisOrThatItemIndex);
-    return item?.text || question.question;
-  }
+  if (question.type === 'prompt') return question.question;
+  if (question.type === 'this_or_that') return getThisOrThatItem(question, thisOrThatItemIndex)?.text || question.question;
   return question.question;
 }
 
-function answerWindowMs(question: AnyQuestion | null): number {
-  const partyLimit = Number((question as { partyTimeLimitSec?: unknown } | null)?.partyTimeLimitSec || 0);
-  if (Number.isFinite(partyLimit) && partyLimit > 0) return partyLimit * 1000;
-  return 15000;
+function getGroupedState<T>(state: Record<string, unknown>, key: string): Record<string, T> {
+  const value = state[key];
+  return value && typeof value === 'object' ? value as Record<string, T> : {};
+}
+
+function getGroupingMode(question: AnyQuestion | null): string {
+  return String((question as { partyGroupingMode?: unknown } | null)?.partyGroupingMode || 'elimination');
 }
 
 export default function RoomPlayerPage({ params }: { params: Promise<{ code: string }> }) {
@@ -71,7 +78,6 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
   const [textAnswer, setTextAnswer] = useState('');
   const [listItem, setListItem] = useState('');
   const [groupingSelected, setGroupingSelected] = useState<string[]>([]);
-  const [eliminatedItems, setEliminatedItems] = useState<string[]>([]);
   const [selection, setSelection] = useState<string | null>(null);
   const [countdownMs, setCountdownMs] = useState(0);
   const [transitionVisible, setTransitionVisible] = useState(false);
@@ -128,7 +134,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       setRoom((prev) => (prev ? { ...prev, gameState: payload.gameState, status: payload.status } : prev));
       if (payload.transition?.type === 'scoreboard') {
         setTransitionVisible(true);
-        window.setTimeout(() => setTransitionVisible(false), Number(payload.transition.durationMs || 3000));
+        window.setTimeout(() => setTransitionVisible(false), Number(payload.transition.durationMs || 2000));
       }
     });
     channel.bind('player-joined', (payload: { players: RoomPayload['players'] }) => {
@@ -139,6 +145,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       setSelection(null);
       setTextAnswer('');
       setListItem('');
+      setGroupingSelected([]);
     });
     channel.bind('question-changed', (payload: Record<string, unknown>) => {
       setRoom((prev) => (prev ? { ...prev, gameState: { ...(prev.gameState || {}), ...payload, currentQuestion: payload.currentQuestion || payload.question, currentQuestionIndex: payload.currentQuestionIndex ?? payload.questionIndex, phase: 'active' } } : prev));
@@ -146,7 +153,6 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       setListItem('');
       setSelection(null);
       setGroupingSelected([]);
-      setEliminatedItems([]);
       setTransitionVisible(false);
     });
     channel.bind('answer-revealed', (payload: Record<string, unknown>) => {
@@ -154,7 +160,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
     });
     channel.bind('transition-started', (payload: { transition?: { durationMs?: number } }) => {
       setTransitionVisible(true);
-      window.setTimeout(() => setTransitionVisible(false), Number(payload?.transition?.durationMs || 3000));
+      window.setTimeout(() => setTransitionVisible(false), Number(payload?.transition?.durationMs || 2000));
     });
     channel.bind('score-updated', (payload: { scores?: Record<string, number> }) => {
       if (!payload?.scores) return;
@@ -176,9 +182,10 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
     return base;
   }, [currentQuestion, thisOrThatItemIndex]);
   const scores = (state.scores && typeof state.scores === 'object') ? state.scores as Record<string, number> : {};
-  const playerAnswers = (state.playerAnswers && typeof state.playerAnswers === 'object') ? state.playerAnswers as Record<string, PlayerAnswerEntry[]> : {};
+  const playerAnswers = getGroupedState<PlayerAnswerEntry[]>(state, 'playerAnswers');
   const answersForQuestion = Array.isArray(playerAnswers[currentQuestionId]) ? playerAnswers[currentQuestionId] : [];
-  const myAnswer = profile ? answersForQuestion.find((entry) => entry.playerId === profile.playerId) : null;
+  const myAnswers = profile ? answersForQuestion.filter((entry) => entry.playerId === profile.playerId) : [];
+  const myLatestAnswer = myAnswers[myAnswers.length - 1] || null;
   const answeredByPlayer = new Set(answersForQuestion.map((entry) => entry.playerId));
   const answerRevealed = Boolean(state.answerRevealed) && String(state.answerRevealedQuestionId || '') === currentQuestionId;
   const questionIndex = Number(state.currentQuestionIndex || 0);
@@ -186,8 +193,38 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
   const isJeopardyRoom = room?.mode === 'jeopardy';
   const buzz = (state.buzz && typeof state.buzz === 'object') ? state.buzz as { playerId?: string; playerName?: string } : null;
   const buzzLocked = Boolean(isJeopardyRoom && buzz?.playerId && buzz.playerId !== profile?.playerId);
-
   const sortedPlayers = [...(room?.players || [])].sort((a, b) => Number(scores[b.id] || 0) - Number(scores[a.id] || 0));
+  const thisOrThatItem = getThisOrThatItem(currentQuestion, thisOrThatItemIndex);
+  const thisOrThatLabels = currentQuestion?.type === 'this_or_that'
+    ? [currentQuestion.categoryA, currentQuestion.categoryB, currentQuestion.categoryC].filter(Boolean) as string[]
+    : [];
+  const thisOrThatCorrect = thisOrThatItem?.answer ? thisOrThatLabels[(thisOrThatItem.answer === 'A' ? 0 : thisOrThatItem.answer === 'B' ? 1 : 2)] : '';
+  const questionPromptLabel = getPromptLabel(currentQuestion);
+  const questionText = getQuestionText(currentQuestion, thisOrThatItemIndex);
+  const groupingMode = getGroupingMode(currentQuestion);
+  const groupingEliminatedItems = getGroupedState<string[]>(state, 'groupingEliminatedItems')[currentQuestionId] || [];
+  const groupingClaimedItems = getGroupedState<Record<string, string>>(state, 'groupingClaimedItems')[currentQuestionId] || {};
+  const groupingTurnByQuestion = getGroupedState<number>(state, 'groupingTurnByQuestion');
+  const currentTurnPlayer = currentQuestion?.type === 'grouping'
+    ? (room?.players || [])[Number(groupingTurnByQuestion[currentQuestionId] || 0)] || null
+    : null;
+  const myGroupingSelections = Array.from(new Set(myAnswers.flatMap((entry) => entry.groupingSelection || [])));
+  const myListAnswers = myAnswers.filter((entry) => Boolean(entry.answer || entry.selection));
+  const myListGaveUp = myAnswers.some((entry) => entry.gaveUp);
+  const myStrikeCount = myAnswers.reduce((highest, entry) => Math.max(highest, Number(entry.strikeCount || 0)), 0);
+  const myOpenEndedSubmitted = Boolean(currentQuestion?.type === 'open_ended' && myLatestAnswer);
+  const groupingItems = currentQuestion?.type === 'grouping'
+    ? (currentQuestion.items || []).filter((item) => !groupingEliminatedItems.includes(item))
+    : [];
+  const canInteractWithGrouping = Boolean(
+    currentQuestion?.type === 'grouping'
+      && profile
+      && !answerRevealed
+      && (
+        groupingMode !== 'turns'
+          || currentTurnPlayer?.id === profile.playerId
+      ),
+  );
 
   useEffect(() => {
     if (!currentQuestion || phase !== 'active' || answerRevealed) {
@@ -195,17 +232,16 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       return;
     }
     const tick = () => {
-      const startedAt = new Date(String(state.questionStartedAt || new Date().toISOString())).getTime();
-      const remaining = Math.max(0, startedAt + answerWindowMs(currentQuestion) - Date.now());
+      const remaining = calculateRemainingTimeMs(state.questionStartedAt, currentQuestion, room?.gameConfig);
       setCountdownMs(remaining);
     };
     tick();
     const timer = window.setInterval(tick, 250);
     return () => window.clearInterval(timer);
-  }, [currentQuestion, state.questionStartedAt, phase, answerRevealed]);
+  }, [answerRevealed, currentQuestion, phase, room?.gameConfig, state.questionStartedAt, thisOrThatItemIndex]);
 
   async function submitEvent(event: string, payload: Record<string, unknown>) {
-    if (!code || !profile) return;
+    if (!code || !profile) return false;
     const res = await fetch(`/api/rooms/${code}/event`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -213,18 +249,23 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
     });
     const data = await res.json().catch(() => ({}));
     setStatus(res.ok ? 'Submitted.' : data?.error || 'Failed to submit.');
+    return res.ok;
   }
 
   async function submitTextAnswer(value: string) {
     if (!value.trim() || !profile) return;
-    await submitEvent('player-answered', {
+    if (currentQuestion?.type === 'open_ended' && myOpenEndedSubmitted) {
+      setStatus('Answer already submitted.');
+      return;
+    }
+    const submitted = await submitEvent('player-answered', {
       playerId: profile.playerId,
       playerName: profile.playerName,
       questionId: currentQuestionId,
       answer: value.trim(),
       submittedAt: new Date().toISOString(),
     });
-    setTextAnswer('');
+    if (submitted) setTextAnswer('');
   }
 
   async function submitSelection(nextSelection: string, selectionKey?: 'A' | 'B' | 'C') {
@@ -240,15 +281,20 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
     });
   }
 
-  const thisOrThatItem = getThisOrThatItem(currentQuestion, thisOrThatItemIndex);
-  const thisOrThatLabels = currentQuestion?.type === 'this_or_that'
-    ? [currentQuestion.categoryA, currentQuestion.categoryB, currentQuestion.categoryC].filter(Boolean) as string[]
-    : [];
-  const thisOrThatCorrect = thisOrThatItem?.answer ? thisOrThatLabels[(thisOrThatItem.answer === 'A' ? 0 : thisOrThatItem.answer === 'B' ? 1 : 2)] : '';
-
-  const groupingItems = currentQuestion?.type === 'grouping'
-    ? (currentQuestion.items || []).filter((item) => !eliminatedItems.includes(item))
-    : [];
+  async function submitGroupingSelection(selectionItems: string[]) {
+    if (!profile || !selectionItems.length) return;
+    const submitted = await submitEvent('player-answered', {
+      playerId: profile.playerId,
+      playerName: profile.playerName,
+      questionId: currentQuestionId,
+      answer: selectionItems.join(' | '),
+      groupingSelection: selectionItems,
+      submittedAt: new Date().toISOString(),
+    });
+    if (submitted && groupingMode !== 'continuous') {
+      setGroupingSelected([]);
+    }
+  }
 
   return (
     <main className="min-h-screen bg-gray-950 text-white p-6">
@@ -275,7 +321,8 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
           {phase === 'active' && currentQuestion && !transitionVisible && (
             <div className="space-y-3">
               <div className="text-xs uppercase tracking-wide text-purple-300">{currentQuestion.type.replace(/_/g, ' ')}</div>
-              <div className="text-2xl font-bold">{displayPrompt(currentQuestion, thisOrThatItemIndex)}</div>
+              {questionPromptLabel && <div className="text-sm uppercase tracking-wide text-yellow-300">{questionPromptLabel}</div>}
+              <div className="text-2xl font-bold">{questionText}</div>
               <div className="text-xl font-bold text-amber-300">⏱ {Math.ceil(countdownMs / 1000)}s</div>
 
               {currentQuestion.type === 'multiple_choice' && (
@@ -303,14 +350,16 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
                       void submitTextAnswer(textAnswer);
                     }}
                     placeholder="Type your answer"
-                    className="w-full bg-gray-800 rounded-lg px-3 py-2"
+                    disabled={myOpenEndedSubmitted}
+                    className="w-full bg-gray-800 rounded-lg px-3 py-2 disabled:opacity-60"
                   />
-                  <button onClick={() => void submitTextAnswer(textAnswer)} className="w-full bg-emerald-700 hover:bg-emerald-600 py-2 rounded-lg font-bold">Submit Answer</button>
+                  <button onClick={() => void submitTextAnswer(textAnswer)} disabled={myOpenEndedSubmitted} className="w-full bg-emerald-700 hover:bg-emerald-600 disabled:bg-gray-700 py-2 rounded-lg font-bold">Submit Answer</button>
+                  {myOpenEndedSubmitted && <div className="text-emerald-300 font-semibold">Answer submitted</div>}
                 </div>
               )}
 
               {currentQuestion.type === 'list' && (
-                <div className="space-y-2">
+                <div className="space-y-3">
                   <div className="flex gap-2">
                     <input
                       value={listItem}
@@ -323,7 +372,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
                         setListItem('');
                       }}
                       placeholder="Submit one list item"
-                      disabled={Boolean(myAnswer?.gaveUp)}
+                      disabled={myListGaveUp}
                       className="flex-1 bg-gray-800 rounded-lg px-3 py-2 disabled:opacity-60"
                     />
                     <button
@@ -333,7 +382,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
                         setListItem('');
                       }}
                       className="bg-emerald-700 hover:bg-emerald-600 px-4 rounded-lg"
-                      disabled={Boolean(myAnswer?.gaveUp)}
+                      disabled={myListGaveUp}
                     >
                       Add
                     </button>
@@ -352,45 +401,87 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
                   >
                     Give Up
                   </button>
-                  {myAnswer?.gaveUp && <div className="text-rose-300 font-semibold">You&apos;re out!</div>}
+                  {myListGaveUp && <div className="text-rose-300 font-semibold">You&apos;re out!</div>}
+                  {!!myListAnswers.length && (
+                    <div className="rounded-lg bg-gray-900/70 border border-gray-700 p-3 space-y-2">
+                      <div className="text-sm font-semibold text-purple-200">Your submitted items</div>
+                      <div className="grid gap-2">
+                        {myListAnswers.map((entry, index) => (
+                          <div key={`${entry.playerId}-${index}`} className="bg-gray-800 rounded px-3 py-2 text-sm flex justify-between gap-3">
+                            <span>{entry.answer || entry.selection}</span>
+                            <span className={entry.correct ? 'text-emerald-300' : entry.judged ? 'text-rose-300' : 'text-gray-400'}>
+                              {entry.judged ? (entry.correct ? `+${entry.points || 0}` : '0') : 'Pending'}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                      {myStrikeCount > 0 && <div className="text-xs text-rose-300">Strikes: {myStrikeCount}</div>}
+                    </div>
+                  )}
                 </div>
               )}
 
               {currentQuestion.type === 'grouping' && (
                 <div className="space-y-3">
                   <div className="text-sm text-gray-300">Select items that belong to &quot;{currentQuestion.groupName || 'Group'}&quot;</div>
+                  {groupingMode === 'turns' && currentTurnPlayer && (
+                    <div className={`text-sm font-semibold ${currentTurnPlayer.id === profile?.playerId ? 'text-yellow-300' : 'text-gray-300'}`}>
+                      Current turn: {currentTurnPlayer.name}
+                    </div>
+                  )}
+                  {!!myGroupingSelections.length && (
+                    <div className="text-sm text-cyan-300">Locked in: {myGroupingSelections.join(', ')}</div>
+                  )}
                   <div className="grid grid-cols-2 gap-2">
                     {groupingItems.map((item) => {
-                      const selected = groupingSelected.includes(item);
+                      const selected = groupingSelected.includes(item) || myGroupingSelections.includes(item);
+                      const claimedByPlayerId = groupingClaimedItems[item];
+                      const claimedBy = claimedByPlayerId ? room?.players.find((player) => player.id === claimedByPlayerId)?.name : '';
+                      const isClaimedByMe = claimedByPlayerId === profile?.playerId;
+                      const isDisabled = !canInteractWithGrouping || myGroupingSelections.includes(item) || Boolean(claimedByPlayerId && !isClaimedByMe);
                       return (
                         <button
                           key={item}
                           onClick={() => {
+                            if (groupingMode === 'blitz') {
+                              void submitGroupingSelection([item]);
+                              return;
+                            }
+                            if (groupingMode === 'turns') {
+                              setGroupingSelected([item]);
+                              return;
+                            }
                             setGroupingSelected((prev) => prev.includes(item) ? prev.filter((value) => value !== item) : [...prev, item]);
                           }}
-                          className={`px-3 py-2 rounded-lg border ${selected ? 'bg-blue-700 border-blue-400' : 'bg-gray-800 border-gray-700 hover:bg-gray-700'}`}
+                          disabled={isDisabled}
+                          className={`px-3 py-3 rounded-lg border text-left ${claimedByPlayerId ? 'bg-emerald-900/60 border-emerald-600' : selected ? 'bg-blue-700 border-blue-400' : 'bg-gray-800 border-gray-700 hover:bg-gray-700'} disabled:opacity-60`}
                         >
-                          {item}
+                          <div>{item}</div>
+                          {claimedBy && <div className="text-xs text-emerald-200">Claimed by {claimedBy}</div>}
                         </button>
                       );
                     })}
                   </div>
-                  <button onClick={() => {
-                    const correct = new Set(currentQuestion.correctItems || []);
-                    const incorrectSelected = groupingSelected.filter((item) => !correct.has(item));
-                    if (String((currentQuestion as { partyGroupingMode?: unknown }).partyGroupingMode || '') === 'elimination') {
-                      setEliminatedItems((prev) => Array.from(new Set([...prev, ...incorrectSelected])));
-                    }
-                    void submitTextAnswer(groupingSelected.join(' | '));
-                  }} className="w-full bg-emerald-700 hover:bg-emerald-600 py-2 rounded-lg font-bold">
-                    Confirm Selection
-                  </button>
+                  {groupingMode !== 'blitz' && (
+                    <button onClick={() => void submitGroupingSelection(groupingSelected)} disabled={!groupingSelected.length || !canInteractWithGrouping} className="w-full bg-emerald-700 hover:bg-emerald-600 disabled:bg-gray-700 py-2 rounded-lg font-bold">
+                      Confirm Selection
+                    </button>
+                  )}
+                </div>
+              )}
+
+              {currentQuestion.type === 'ranking' && (
+                <div className="space-y-2 rounded-lg bg-gray-900/70 border border-gray-700 p-4">
+                  <div className="text-sm font-semibold text-purple-200">Items to rank</div>
+                  {(currentQuestion.items || []).map((item, index) => (
+                    <div key={`${item.text}-${index}`} className="bg-gray-800 rounded px-3 py-2 text-sm">{item.text}</div>
+                  ))}
                 </div>
               )}
 
               {currentQuestion.type === 'this_or_that' && (
                 <div className="space-y-2">
-                  <div className="grid gap-2">
+                  <div className="grid gap-3">
                     {thisOrThatLabels.map((category, index) => {
                       const key = index === 0 ? 'A' : index === 1 ? 'B' : 'C';
                       const isCorrect = answerRevealed && category === thisOrThatCorrect;
@@ -398,7 +489,7 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
                         <button
                           key={category}
                           onClick={() => void submitSelection(category || '', key)}
-                          className={`px-3 py-2 rounded-lg ${isCorrect ? 'bg-emerald-700' : selection === category ? 'bg-indigo-500' : 'bg-indigo-700 hover:bg-indigo-600'}`}
+                          className={`w-full px-4 py-4 rounded-xl text-xl font-bold ${isCorrect ? 'bg-emerald-700' : selection === category ? 'bg-indigo-500' : 'bg-indigo-700 hover:bg-indigo-600'}`}
                         >
                           {category}
                         </button>
@@ -422,11 +513,11 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
 
               {Boolean(answerRevealed) && (
                 <div className="rounded-lg bg-violet-900/60 border border-violet-500 px-3 py-2 text-violet-100">
-                  Host has revealed the answer.
+                  {currentQuestion.type === 'this_or_that' ? `Correct answer: ${thisOrThatCorrect || '—'}` : 'Host has revealed the answer.'}
                 </div>
               )}
 
-              {!!myAnswer && (currentQuestion.type === 'open_ended' || currentQuestion.type === 'list' || currentQuestion.type === 'prompt') && (
+              {!!myLatestAnswer && (currentQuestion.type === 'open_ended' || currentQuestion.type === 'list' || currentQuestion.type === 'prompt') && (
                 <button
                   onClick={() => {
                     if (!profile) return;
@@ -467,12 +558,12 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
             ))}
           </div>
 
-          {myAnswer && (
+          {myLatestAnswer && (
             <div className="text-sm text-cyan-300">
-              Last submission: {myAnswer.answer || myAnswer.selection || '(empty)'}
-              {myAnswer.judged ? ` · ${myAnswer.correct ? `Correct (+${myAnswer.points || 0})` : 'Wrong'}` : ' · Pending review'}
-              {myAnswer.challenged ? ' · Challenge sent' : ''}
-              {typeof myAnswer.strikeCount === 'number' && myAnswer.strikeCount > 0 ? ` · Strikes: ${myAnswer.strikeCount}` : ''}
+              Last submission: {myLatestAnswer.groupingSelection?.length ? myLatestAnswer.groupingSelection.join(', ') : myLatestAnswer.answer || myLatestAnswer.selection || '(empty)'}
+              {myLatestAnswer.judged ? ` · ${myLatestAnswer.correct ? `Correct (+${myLatestAnswer.points || 0})` : 'Wrong'}` : ' · Pending review'}
+              {myLatestAnswer.challenged ? ' · Challenge sent' : ''}
+              {typeof myLatestAnswer.strikeCount === 'number' && myLatestAnswer.strikeCount > 0 ? ` · Strikes: ${myLatestAnswer.strikeCount}` : ''}
             </div>
           )}
           {status && <div className="text-sm text-cyan-300">{status}</div>}

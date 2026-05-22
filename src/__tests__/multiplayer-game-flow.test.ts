@@ -1,6 +1,11 @@
 import {
+  calculateRemainingTimeMs,
+  computePerItemPoints,
   computeAwardedPoints,
+  countMatchingItems,
+  getThisOrThatItem,
   isSelectionCorrect,
+  resolveQuestionAnswerWindowMs,
   resolveMultiplayerScoreMode,
   tallySelections,
   upsertPlayerAnswer,
@@ -73,6 +78,45 @@ describe('multiplayer game flow helpers', () => {
     }, 'That', 'B')).toBe(false);
   });
 
+  it('resolves question timers from room config and per-question settings', () => {
+    expect(resolveQuestionAnswerWindowMs(null, { answerWindowMs: 9000 })).toBe(9000);
+    expect(resolveQuestionAnswerWindowMs({
+      type: 'list',
+      question: 'Name one',
+      difficulty: 'easy',
+      answers: ['A'],
+      partyListMode: 'timed',
+      partyTimeLimitSec: 12,
+    } as never, { answerWindowMs: 9000 })).toBe(12000);
+    expect(resolveQuestionAnswerWindowMs({
+      type: 'list',
+      question: 'Name one',
+      difficulty: 'easy',
+      answers: ['A'],
+      partyListMode: 'strikes',
+      partyTimeLimitSec: 12,
+    } as never, { answerWindowMs: 9000 })).toBe(9000);
+    expect(calculateRemainingTimeMs('2026-01-01T00:00:00.000Z', {
+      type: 'multiple_choice',
+      question: 'Test',
+      difficulty: 'medium',
+      options: ['A', 'B'],
+    }, { answerWindowMs: 15000 }, new Date('2026-01-01T00:00:10.000Z').getTime())).toBe(5000);
+  });
+
+  it('returns exact this-or-that items without clamping out-of-range indices', () => {
+    const question = {
+      type: 'this_or_that' as const,
+      question: 'Pick one',
+      difficulty: 'easy' as const,
+      categoryA: 'This',
+      categoryB: 'That',
+      items: [{ text: 'One', answer: 'A' as const }, { text: 'Two', answer: 'B' as const }],
+    };
+    expect(getThisOrThatItem(question, 1)?.text).toBe('Two');
+    expect(getThisOrThatItem(question, 2)).toBeNull();
+  });
+
   it('normalizes text for open-ended and list auto-scoring', () => {
     expect(isSelectionCorrect({
       type: 'open_ended',
@@ -88,6 +132,17 @@ describe('multiplayer game flow helpers', () => {
       difficulty: 'easy',
       answers: ['Mount Everest', 'K2'],
     }, 'mount   everest')).toBe(true);
+  });
+
+  it('counts matching grouping/list items and computes per-item points', () => {
+    expect(countMatchingItems(['Mercury', 'venus'], ['venus', 'Mars'])).toBe(1);
+    expect(computePerItemPoints({
+      type: 'grouping',
+      question: 'Pick planets',
+      difficulty: 'medium',
+      items: ['Mercury', 'Venus', 'Mars'],
+      correctItems: ['Mercury', 'Venus'],
+    }, 4)).toBe(50);
   });
 
   it('awards points using the selected scoring mode', () => {

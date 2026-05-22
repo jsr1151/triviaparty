@@ -6,9 +6,13 @@ import { prisma } from '@/lib/prisma';
 import { getUserFromRequest } from '@/lib/auth';
 import { parsePlayers } from '@/lib/multiplayer';
 import {
+  computePerItemPoints,
   computeAwardedPoints,
+  countMatchingItems,
   getQuestionId,
+  getThisOrThatItem,
   isSelectionCorrect,
+  resolveQuestionAnswerWindowMs,
   resolveMultiplayerScoreMode,
   tallySelections,
   upsertPlayerAnswer,
@@ -49,7 +53,6 @@ const HOST_ONLY_EVENTS = new Set([
   'state-updated',
   'transition-started',
 ]);
-const DEFAULT_ANSWER_WINDOW_MS = 15000;
 const STATIC_QUESTIONS_FILE_PATH = process.env.MULTIPLAYER_PARTY_QUESTIONS_FILE
   ?? join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
 const MAX_LIST_STRIKES = 3;
@@ -59,25 +62,21 @@ type StaticMediaQuestion = AnyQuestion & {
   needsMediaReview?: boolean;
 };
 
-function resolveAnswerWindowMs(gameConfig: unknown): number {
-  const configured = Number((gameConfig as { answerWindowMs?: unknown } | null)?.answerWindowMs || DEFAULT_ANSWER_WINDOW_MS);
-  return Number.isFinite(configured) && configured > 0 ? configured : DEFAULT_ANSWER_WINDOW_MS;
-}
-
-function resolveQuestionWindowMs(question: AnyQuestion | null, gameConfig: unknown): number {
-  const perQuestionLimit = Number((question as { partyTimeLimitSec?: unknown } | null)?.partyTimeLimitSec || 0);
-  if (Number.isFinite(perQuestionLimit) && perQuestionLimit > 0) {
-    return Math.max(1000, perQuestionLimit * 1000);
-  }
-  return resolveAnswerWindowMs(gameConfig);
-}
-
 function elapsedMsSince(startedAt: unknown): number {
   return Math.max(0, Date.now() - new Date(String(startedAt || new Date().toISOString())).getTime());
 }
 
 function listModeForQuestion(question: AnyQuestion | null): string {
   return String((question as { partyListMode?: unknown } | null)?.partyListMode || '').toLowerCase();
+}
+
+function groupingModeForQuestion(question: AnyQuestion | null): string {
+  return String((question as { partyGroupingMode?: unknown } | null)?.partyGroupingMode || 'elimination').toLowerCase();
+}
+
+function getGroupedState<T>(state: Record<string, unknown>, key: string): Record<string, T> {
+  const value = state[key];
+  return value && typeof value === 'object' ? { ...(value as Record<string, T>) } : {};
 }
 
 export async function POST(req: NextRequest, { params }: { params: Promise<{ code: string }> }) {
@@ -127,11 +126,29 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     return { ...(scores as Record<string, number>) };
   }
 
+  function awardPointsToPlayer(playerId: string, points: number): Record<string, number> {
+    const scores = getScores();
+    if (points !== 0) {
+      scores[playerId] = Number(scores[playerId] || 0) + points;
+      updatedState.scores = scores;
+    }
+    return scores;
+  }
+
+  function updateGroupingTurn(questionId: string) {
+    const nextTurnState = getGroupedState<number>(updatedState, 'groupingTurnByQuestion');
+    if (!players.length) return nextTurnState;
+    const currentTurnIndex = Number(nextTurnState[questionId] || 0);
+    nextTurnState[questionId] = (currentTurnIndex + 1) % players.length;
+    updatedState.groupingTurnByQuestion = nextTurnState;
+    return nextTurnState;
+  }
+
   function canAcceptSubmission(question: AnyQuestion | null): boolean {
     if (!question) return false;
     if (Boolean(updatedState.answerRevealed)) return false;
     const elapsed = elapsedMsSince(updatedState.questionStartedAt || now);
-    return elapsed <= resolveQuestionWindowMs(question, roomGameConfig);
+    return elapsed <= resolveQuestionAnswerWindowMs(question, roomGameConfig);
   }
 
   function scoreEntry(args: {
@@ -164,7 +181,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
         question: args.question,
         scoreMode,
         elapsedMs,
-        totalWindowMs: resolveQuestionWindowMs(args.question, roomGameConfig),
+        totalWindowMs: resolveQuestionAnswerWindowMs(args.question, roomGameConfig),
         correctPosition: correctOrder.length,
         streak,
       });
@@ -257,6 +274,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       updatedState.selectionTallies = {};
       updatedState.correctOrderByQuestion = {};
       updatedState.listStrikesByQuestion = {};
+      updatedState.groupingEliminatedItems = {};
+      updatedState.groupingClaimedItems = {};
+      updatedState.groupingTurnByQuestion = {};
       updatedState.thisOrThatItemIndex = 0;
       updatedState.streaks = {};
       updatedState.buzz = null;
@@ -299,6 +319,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
         updatedState.questionStartedAt = now;
         updatedState.answerRevealed = false;
         updatedState.answerRevealedQuestionId = null;
+        updatedState.phase = 'active';
+        updatedState.transition = null;
         pushPayload = {
           ...pushPayload,
           question: currentQuestion,
@@ -324,6 +346,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     updatedState.answerRevealedQuestionId = null;
     updatedState.thisOrThatItemIndex = 0;
     updatedState.buzz = null;
+    updatedState.phase = 'active';
+    updatedState.transition = null;
     pushPayload = {
       ...pushPayload,
       question: nextQuestion,
@@ -353,8 +377,9 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       const existingForQuestion = Array.isArray(playerAnswers[currentQuestionId]) ? [...playerAnswers[currentQuestionId]] : [];
       const shouldScoreOnReveal = question.type === 'multiple_choice' || question.type === 'this_or_that';
       if (shouldScoreOnReveal && existingForQuestion.length) {
+        const currentItem = getThisOrThatItem(question, thisOrThatItemIndex);
         const scoringQuestion = question.type === 'this_or_that'
-          ? { ...question, items: Array.isArray(question.items) ? [question.items[thisOrThatItemIndex]].filter(Boolean) : [] }
+          ? { ...question, items: currentItem ? [currentItem] : [] }
           : question;
         const rescored = existingForQuestion.map((entry) => {
           if (!entry.selection && !entry.answer) return entry;
@@ -422,14 +447,21 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     const rawAnswer = String((payload as { answer?: unknown }).answer || '');
     const selection = String((payload as { selection?: unknown }).selection || '');
     const selectionKey = ((payload as { selectionKey?: unknown }).selectionKey || undefined) as 'A' | 'B' | 'C' | undefined;
+    const groupingSelection = Array.isArray((payload as { groupingSelection?: unknown }).groupingSelection)
+      ? ((payload as { groupingSelection?: string[] }).groupingSelection || []).filter(Boolean)
+      : [];
 
     const playerAnswers = (updatedState.playerAnswers && typeof updatedState.playerAnswers === 'object')
       ? { ...(updatedState.playerAnswers as Record<string, PlayerAnswerEntry[]>) }
       : {};
-    const existingForQuestion = Array.isArray(playerAnswers[questionId]) ? playerAnswers[questionId] : [];
-    const priorEntry = existingForQuestion.find((entry) => entry.playerId === playerId);
-    if (priorEntry?.gaveUp) {
+    const existingForQuestion = Array.isArray(playerAnswers[questionId]) ? [...playerAnswers[questionId]] : [];
+    const playerEntries = existingForQuestion.filter((entry) => entry.playerId === playerId);
+    const priorEntry = [...playerEntries].reverse().find(Boolean);
+    if (playerEntries.some((entry) => entry.gaveUp)) {
       return NextResponse.json({ ok: true, ignored: 'player-gave-up' });
+    }
+    if (question?.type === 'open_ended' && playerEntries.length) {
+      return NextResponse.json({ ok: true, ignored: 'already-submitted' });
     }
     const baseEntry: PlayerAnswerEntry = {
       playerId,
@@ -438,14 +470,109 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       answer: rawAnswer || selection || undefined,
       selection: selection || undefined,
       selectionKey,
+      groupingSelection: groupingSelection.length ? groupingSelection : undefined,
       questionItemIndex: question?.type === 'this_or_that' ? thisOrThatItemIndex : undefined,
       challenged: priorEntry?.challenged || false,
       strikeCount: priorEntry?.strikeCount || 0,
       submittedAt,
     };
+
     let nextEntry = baseEntry;
-    const shouldScoreNow = Boolean(question && (question.type === 'open_ended' || question.type === 'prompt' || question.type === 'list' || question.type === 'media'));
-    if (question && shouldScoreNow && (selection || rawAnswer)) {
+    if (question?.type === 'grouping') {
+      const submittedItems = Array.from(new Set((groupingSelection.length ? groupingSelection : (rawAnswer || selection).split('|'))
+        .map((item) => String(item).trim())
+        .filter(Boolean)));
+      if (!submittedItems.length) {
+        return NextResponse.json({ ok: true, ignored: 'empty-grouping-selection' });
+      }
+      const mode = groupingModeForQuestion(question);
+      const priorSelections = Array.from(new Set(playerEntries.flatMap((entry) => entry.groupingSelection || [])));
+      let acceptedItems = submittedItems.filter((item) => !priorSelections.includes(item));
+      if (mode === 'turns' || mode === 'blitz') acceptedItems = acceptedItems.slice(0, 1);
+      if (!acceptedItems.length) {
+        return NextResponse.json({ ok: true, ignored: 'duplicate-grouping-selection' });
+      }
+      if (mode === 'turns') {
+        const groupingTurns = getGroupedState<number>(updatedState, 'groupingTurnByQuestion');
+        const activeTurnIndex = Number(groupingTurns[questionId] || 0);
+        const activePlayer = players[activeTurnIndex];
+        if (activePlayer?.id && activePlayer.id !== playerId) {
+          return NextResponse.json({ ok: true, ignored: 'not-player-turn' });
+        }
+      }
+
+      const correctItems = Array.isArray(question.correctItems) ? question.correctItems : [];
+      let newlyCorrect = acceptedItems.filter((item) => countMatchingItems([item], correctItems) > 0);
+      if (mode === 'blitz') {
+        const claimedState = getGroupedState<Record<string, string>>(updatedState, 'groupingClaimedItems');
+        const claimedForQuestion = { ...(claimedState[questionId] || {}) };
+        newlyCorrect = newlyCorrect.filter((item) => !claimedForQuestion[item]);
+        newlyCorrect.forEach((item) => {
+          claimedForQuestion[item] = playerId;
+        });
+        claimedState[questionId] = claimedForQuestion;
+        updatedState.groupingClaimedItems = claimedState;
+      }
+
+      if (mode === 'elimination') {
+        const eliminatedState = getGroupedState<string[]>(updatedState, 'groupingEliminatedItems');
+        const incorrectItems = acceptedItems.filter((item) => countMatchingItems([item], correctItems) === 0);
+        eliminatedState[questionId] = Array.from(new Set([...(eliminatedState[questionId] || []), ...incorrectItems]));
+        updatedState.groupingEliminatedItems = eliminatedState;
+      }
+
+      if (mode === 'turns') {
+        updateGroupingTurn(questionId);
+      }
+
+      const allSelections = Array.from(new Set([...priorSelections, ...acceptedItems]));
+      const awardedPoints = newlyCorrect.length * computePerItemPoints(question, Math.max(1, correctItems.length));
+      if (awardedPoints > 0) {
+        scoresToBroadcast = awardPointsToPlayer(playerId, awardedPoints);
+        pushPayload = { ...pushPayload, scores: scoresToBroadcast };
+      }
+      nextEntry = {
+        ...baseEntry,
+        answer: allSelections.join(' | '),
+        groupingSelection: allSelections,
+        judged: awardedPoints > 0 || Boolean(priorEntry?.judged),
+        correct: awardedPoints > 0 || Boolean(priorEntry?.correct),
+        points: Number(priorEntry?.points || 0) + awardedPoints,
+      };
+      playerAnswers[questionId] = upsertPlayerAnswer(existingForQuestion, nextEntry);
+      updatedState.playerAnswers = playerAnswers;
+      pushPayload = { ...pushPayload, questionId, answer: nextEntry };
+    } else if (question?.type === 'list') {
+      const priorAnswers = playerEntries.map((entry) => entry.answer || entry.selection || '');
+      const submittedValue = selection || rawAnswer;
+      if (!submittedValue.trim()) {
+        return NextResponse.json({ ok: true, ignored: 'empty-list-answer' });
+      }
+      if (countMatchingItems([submittedValue], priorAnswers) > 0) {
+        return NextResponse.json({ ok: true, ignored: 'duplicate-list-answer' });
+      }
+      const correct = countMatchingItems([submittedValue], question.answers || []) > 0;
+      const priorStrikeCount = playerEntries.reduce((highest, entry) => Math.max(highest, Number(entry.strikeCount || 0)), 0);
+      const strikes = listModeForQuestion(question) === 'strikes' && !correct ? priorStrikeCount + 1 : priorStrikeCount;
+      const awardedPoints = correct ? computePerItemPoints(question, Math.max(1, (question.answers || []).length)) : 0;
+      if (awardedPoints > 0) {
+        scoresToBroadcast = awardPointsToPlayer(playerId, awardedPoints);
+        pushPayload = { ...pushPayload, scores: scoresToBroadcast };
+      }
+      nextEntry = {
+        ...baseEntry,
+        judged: true,
+        correct,
+        points: awardedPoints,
+        strikeCount: strikes,
+        gaveUp: strikes >= MAX_LIST_STRIKES,
+      };
+      playerAnswers[questionId] = [...existingForQuestion, nextEntry];
+      updatedState.playerAnswers = playerAnswers;
+      pushPayload = { ...pushPayload, questionId, answer: nextEntry };
+    } else {
+      const shouldScoreNow = Boolean(question && (question.type === 'open_ended' || question.type === 'prompt' || question.type === 'media'));
+      if (question && shouldScoreNow && (selection || rawAnswer)) {
       const scored = scoreEntry({
         question,
         questionId,
@@ -458,31 +585,27 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       nextEntry = scored.entry;
       scoresToBroadcast = scored.scores;
       pushPayload = { ...pushPayload, scores: scored.scores };
-      if (question.type === 'list' && listModeForQuestion(question) === 'strikes' && !nextEntry.correct) {
-        const strikes = Math.max(0, Number(priorEntry?.strikeCount || 0) + 1);
-        nextEntry.strikeCount = strikes;
-        nextEntry.gaveUp = strikes >= MAX_LIST_STRIKES;
-      }
-    } else if (priorEntry?.judged || priorEntry?.correct !== undefined) {
+      } else if (priorEntry?.judged || priorEntry?.correct !== undefined) {
       nextEntry = {
         ...nextEntry,
         judged: priorEntry.judged,
         correct: priorEntry.correct,
         points: priorEntry.points,
       };
+      }
+      const mergedForQuestion = upsertPlayerAnswer(existingForQuestion, nextEntry);
+      playerAnswers[questionId] = mergedForQuestion;
+      updatedState.playerAnswers = playerAnswers;
+      if (resolvedEvent === 'player-selected') {
+        const selectionTallies = (updatedState.selectionTallies && typeof updatedState.selectionTallies === 'object')
+          ? { ...(updatedState.selectionTallies as Record<string, Record<string, number>>) }
+          : {};
+        selectionTallies[questionId] = tallySelections(mergedForQuestion);
+        updatedState.selectionTallies = selectionTallies;
+        pushPayload = { ...pushPayload, tally: selectionTallies[questionId] };
+      }
+      pushPayload = { ...pushPayload, questionId, answer: nextEntry };
     }
-    const mergedForQuestion = upsertPlayerAnswer(existingForQuestion, nextEntry);
-    playerAnswers[questionId] = mergedForQuestion;
-    updatedState.playerAnswers = playerAnswers;
-    if (resolvedEvent === 'player-selected') {
-      const selectionTallies = (updatedState.selectionTallies && typeof updatedState.selectionTallies === 'object')
-        ? { ...(updatedState.selectionTallies as Record<string, Record<string, number>>) }
-        : {};
-      selectionTallies[questionId] = tallySelections(mergedForQuestion);
-      updatedState.selectionTallies = selectionTallies;
-      pushPayload = { ...pushPayload, tally: selectionTallies[questionId] };
-    }
-    pushPayload = { ...pushPayload, questionId, answer: nextEntry };
   } else if (resolvedEvent === 'answer-judged') {
     const question = getCurrentQuestion();
     const questionId = String((payload as { questionId?: unknown }).questionId || getQuestionId(question));
@@ -584,6 +707,14 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
 
   await pusherServer.trigger(`game-${roomCode}`, resolvedEvent, {
     ...pushPayload,
+  });
+  await pusherServer.trigger(`game-${roomCode}`, 'state-updated', {
+    roomCode,
+    status: roomStatus,
+    gameState: updatedState,
+    transition: (updatedState.transition && typeof updatedState.transition === 'object')
+      ? updatedState.transition
+      : undefined,
   });
   if (scoresToBroadcast) {
     await pusherServer.trigger(`game-${roomCode}`, 'score-updated', {
