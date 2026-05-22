@@ -210,7 +210,10 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
   const currentTurnPlayer = currentQuestion?.type === 'grouping'
     ? (room?.players || [])[Number(groupingTurnByQuestion[currentQuestionId] || 0)] || null
     : null;
-  const myGroupingSelections = Array.from(new Set(myAnswers.flatMap((entry) => entry.groupingSelection || [])));
+  const myGroupingSelections = useMemo(
+    () => Array.from(new Set(myAnswers.flatMap((entry) => entry.groupingSelection || []))),
+    [myAnswers],
+  );
   const myListAnswers = myAnswers.filter((entry) => Boolean(entry.answer || entry.selection));
   const myListGaveUp = myAnswers.some((entry) => entry.gaveUp);
   const myStrikeCount = myAnswers.reduce((highest, entry) => Math.max(highest, Number(entry.strikeCount || 0)), 0);

@@ -496,7 +496,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       const mode = groupingModeForQuestion(question);
       const priorSelections = Array.from(new Set(playerEntries.flatMap((entry) => entry.groupingSelection || [])));
       let acceptedItems = submittedItems.filter((item) => !priorSelections.includes(item));
-      // Turns and blitz are single-pick modes, so only the first fresh item up to SINGLE_PICK_LIMIT is processed.
+      // Turns and blitz intentionally resolve one pick at a time, so only the first fresh item up to
+      // SINGLE_PICK_LIMIT is processed for each submission.
       if (mode === 'turns' || mode === 'blitz') acceptedItems = acceptedItems.slice(0, SINGLE_PICK_LIMIT);
       if (!acceptedItems.length) {
         return NextResponse.json({ ok: true, ignored: 'duplicate-grouping-selection' });

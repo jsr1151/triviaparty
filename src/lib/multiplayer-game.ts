@@ -45,7 +45,7 @@ export function getThisOrThatItem(question: AnyQuestion | null | undefined, inde
   if (!question || question.type !== 'this_or_that') return null;
   const items = Array.isArray(question.items) ? question.items : [];
   if (index < 0 || index >= items.length) return null;
-  return items[index] || null;
+  return items[index] ?? null;
 }
 
 export function extractMultipleChoiceCorrectAnswer(question: AnyQuestion): string {
