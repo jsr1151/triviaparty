@@ -83,6 +83,7 @@ export function resolveAnswerWindowMs(gameConfig: unknown): number {
 }
 
 export function resolveQuestionAnswerWindowMs(question: AnyQuestion | null | undefined, gameConfig: unknown): number {
+  // A missing or zero-valued per-question limit falls back to the room-level answer window.
   const partyLimitSec = Number((question as { partyTimeLimitSec?: unknown } | null)?.partyTimeLimitSec || 0);
   if (question?.type === 'list') {
     const listMode = String((question as { partyListMode?: unknown } | null)?.partyListMode || '').toLowerCase();

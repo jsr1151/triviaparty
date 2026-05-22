@@ -373,7 +373,7 @@ export function PartySettingsModal({
                           <option value="rotate_round">Category: Rotate</option>
                           <option value="player_choice">Category: Player Chooses</option>
                         </select>
-                        <input type="number" min={0} max={300} value={slot.timeLimitSec || 0} onChange={(e) => {
+                        <input type="number" min={0} max={300} value={slot.timeLimitSec ?? ''} onChange={(e) => {
                           const rounds = [...settings.rounds];
                           const slots = [...round.slots];
                           const parsed = Number(e.target.value || 0);

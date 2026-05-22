@@ -316,12 +316,16 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
   }
 
   async function advanceQuestionFlow() {
-    if (!currentQuestion || advanceInProgressRef.current) return;
+    if (!currentQuestion) return;
+    if (advanceInProgressRef.current) {
+      setMessage('Advance already in progress.');
+      return;
+    }
     let isIntermediateThisOrThat = false;
     try {
       advanceInProgressRef.current = true;
       const items = currentQuestion.type === 'this_or_that' && Array.isArray(currentQuestion.items) ? currentQuestion.items : [];
-      isIntermediateThisOrThat = currentQuestion.type === 'this_or_that' && thisOrThatItemIndex < Math.max(0, items.length - 1);
+      isIntermediateThisOrThat = currentQuestion.type === 'this_or_that' && thisOrThatItemIndex < items.length - 1;
       if (!answerRevealed) {
         const revealed = await submitEvent('answer-revealed');
         if (!revealed) return;
