@@ -55,17 +55,19 @@ type JeopardyLobbySettings = {
 const REVEAL_DELAY_MS = 2000;
 // Show the scoreboard transition between full questions.
 const TRANSITION_DELAY_MS = 2000;
+const HANDOFF_BUFFER_MS = 200;
+const SAFETY_BUFFER_MS = 500;
 // Reset the flow guard after a short This or That item-to-item handoff.
-const INTERMEDIATE_RESET_DELAY_MS = REVEAL_DELAY_MS + 200;
+const INTERMEDIATE_RESET_DELAY_MS = REVEAL_DELAY_MS + HANDOFF_BUFFER_MS;
 // Reset the flow guard after reveal + scoreboard transition + a small safety buffer.
-const FULL_ADVANCE_RESET_DELAY_MS = REVEAL_DELAY_MS + TRANSITION_DELAY_MS + 500;
+const FULL_ADVANCE_RESET_DELAY_MS = REVEAL_DELAY_MS + TRANSITION_DELAY_MS + SAFETY_BUFFER_MS;
 
 function getQuestionId(question: AnyQuestion | null): string {
   if (!question) return 'unknown-question';
   return String(question.id || `${question.type}-question`);
 }
 
-function getQuestionLabel(question: AnyQuestion | null): string {
+function getQuestionCategoryLabel(question: AnyQuestion | null): string {
   if (!question) return '';
   if (question.type === 'prompt') return question.prompt || 'Prompt';
   if (question.type === 'this_or_that') return question.question || 'This or That';
@@ -222,7 +224,7 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
   const currentTurnPlayer = currentQuestion?.type === 'grouping'
     ? (room?.players || [])[Number(groupingTurnByQuestion[questionId] || 0)] || null
     : null;
-  const questionPromptLabel = getQuestionLabel(currentQuestion);
+  const questionPromptLabel = getQuestionCategoryLabel(currentQuestion);
   const questionText = getQuestionText(currentQuestion, thisOrThatItemIndex);
 
   useEffect(() => {

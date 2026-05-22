@@ -56,6 +56,7 @@ const HOST_ONLY_EVENTS = new Set([
 const STATIC_QUESTIONS_FILE_PATH = process.env.MULTIPLAYER_PARTY_QUESTIONS_FILE
   ?? join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
 const MAX_LIST_STRIKES = 3;
+const SINGLE_PICK_LIMIT = 1;
 
 type StaticMediaQuestion = AnyQuestion & {
   mediaUrl?: string;
@@ -496,7 +497,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       const priorSelections = Array.from(new Set(playerEntries.flatMap((entry) => entry.groupingSelection || [])));
       let acceptedItems = submittedItems.filter((item) => !priorSelections.includes(item));
       // Turns and blitz are single-pick modes, so only the first fresh item can be processed per submission.
-      if (mode === 'turns' || mode === 'blitz') acceptedItems = acceptedItems.slice(0, 1);
+      if (mode === 'turns' || mode === 'blitz') acceptedItems = acceptedItems.slice(0, SINGLE_PICK_LIMIT);
       if (!acceptedItems.length) {
         return NextResponse.json({ ok: true, ignored: 'duplicate-grouping-selection' });
       }
