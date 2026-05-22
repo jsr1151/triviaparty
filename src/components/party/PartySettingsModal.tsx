@@ -47,6 +47,7 @@ export function PartySettingsModal({
   showPresetControls = true,
   footerContent,
   hideDefaultActionButtons = false,
+  inline = false,
 }: {
   settings: PartySettings;
   setSettings: (value: PartySettings) => void;
@@ -62,20 +63,14 @@ export function PartySettingsModal({
   showPresetControls?: boolean;
   footerContent?: ReactNode;
   hideDefaultActionButtons?: boolean;
+  inline?: boolean;
 }) {
   const totalQuestions = settings.rounds.reduce((sum, round) => sum + Math.max(1, round.questionCount), 0);
   const [presetName, setPresetName] = useState('');
   const [presetDescription, setPresetDescription] = useState('');
 
-  return (
-    <div className="min-h-screen bg-gray-950 text-white p-6">
-      <div className="max-w-5xl mx-auto space-y-4">
-        <div className="flex items-center justify-between">
-          <h1 className="text-3xl font-bold text-purple-300">{title}</h1>
-          <Link href={backHref} className="text-purple-300 hover:text-purple-200 font-bold">← Main Menu</Link>
-        </div>
-
-        <div className="bg-gray-800 rounded-2xl p-4 space-y-4">
+  const settingsContent = (
+    <div className="bg-gray-800 rounded-2xl p-4 space-y-4">
           <div className="flex flex-wrap gap-2">
             {[
               ['Pursuit (Short)', 'pursuit-short'],
@@ -460,6 +455,20 @@ export function PartySettingsModal({
             {footerContent}
           </div>
         </div>
+  );
+
+  if (inline) {
+    return settingsContent;
+  }
+
+  return (
+    <div className="min-h-screen bg-gray-950 text-white p-6">
+      <div className="max-w-5xl mx-auto space-y-4">
+        <div className="flex items-center justify-between">
+          <h1 className="text-3xl font-bold text-purple-300">{title}</h1>
+          <Link href={backHref} className="text-purple-300 hover:text-purple-200 font-bold">← Main Menu</Link>
+        </div>
+        {settingsContent}
       </div>
     </div>
   );

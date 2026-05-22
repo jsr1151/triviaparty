@@ -297,6 +297,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       pushPayload = {
         ...pushPayload,
         status: roomStatus,
+        phase: 'active',
         question: plannedQuestions[0],
         questionIndex: 0,
         currentQuestion: plannedQuestions[0],
