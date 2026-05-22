@@ -145,6 +145,11 @@ export default function PartyPage() {
     return q?.partyRound ? `Round ${q.partyRound}` : 'Round';
   }, [questions, current]);
 
+  function getTimeLimitForQuestion(q: AnyQuestion | undefined): number {
+    const configured = (q as AnyQuestion & { partyTimeLimitSec?: number })?.partyTimeLimitSec;
+    return configured && configured > 0 ? configured : 30;
+  }
+
   function startPartyGame() {
     const planned = buildPartyQuestions(allQuestions, settings);
     setQuestions(planned);
@@ -156,8 +161,7 @@ export default function PartyPage() {
     setAnswered(null);
     setCurrentResult(null);
     setShowSettings(false);
-    const firstQ = planned[0] as AnyQuestion & { partyTimeLimitSec?: number };
-    setTimeLeft((firstQ?.partyTimeLimitSec && firstQ.partyTimeLimitSec > 0) ? firstQ.partyTimeLimitSec : 30);
+    setTimeLeft(getTimeLimitForQuestion(planned[0]));
   }
 
   function handleAnswer(result: AnswerResult) {
@@ -203,12 +207,10 @@ export default function PartyPage() {
 
   function nextQuestion() {
     const nextIdx = current + 1;
-    const nextQ = questions[nextIdx] as AnyQuestion & { partyTimeLimitSec?: number };
-    const nextTime = (nextQ?.partyTimeLimitSec && nextQ.partyTimeLimitSec > 0) ? nextQ.partyTimeLimitSec : 30;
     setCurrent(nextIdx);
     setAnswered(null);
     setCurrentResult(null);
-    setTimeLeft(nextTime);
+    setTimeLeft(getTimeLimitForQuestion(questions[nextIdx]));
   }
 
   async function saveCurrentPreset(name: string, description: string) {
