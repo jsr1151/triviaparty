@@ -319,7 +319,15 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
           {transitionVisible && (
             <div className="rounded-lg bg-gray-850 border border-gray-700 p-6 text-center space-y-2">
               <div className="text-3xl font-bold text-yellow-300">Scoreboard</div>
-              <div className="text-sm text-gray-300">Next question is loading…</div>
+              <div className="text-sm text-gray-300">{phase === 'finished' ? 'Game over!' : 'Next question is loading…'}</div>
+            </div>
+          )}
+
+          {phase === 'finished' && !transitionVisible && (
+            <div className="rounded-lg bg-gray-850 border border-gray-700 p-8 text-center space-y-3">
+              <div className="text-5xl">🏆</div>
+              <div className="text-2xl font-bold text-yellow-300">Game Over!</div>
+              <div className="text-gray-300 text-sm">Final scores are shown below.</div>
             </div>
           )}
 

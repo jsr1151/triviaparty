@@ -144,6 +144,10 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
         gameState: payload.gameState,
         status: payload.status || prev.status,
       } : prev));
+      if (payload.gameState?.phase === 'finished' || payload.status === 'finished') {
+        revealRequestedRef.current = false;
+        advanceInProgressRef.current = false;
+      }
       if (payload.transition?.type === 'scoreboard') {
         setTransitionVisible(true);
         window.setTimeout(() => setTransitionVisible(false), Number(payload.transition.durationMs || TRANSITION_DELAY_MS));
@@ -369,10 +373,12 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
         await submitEvent('question-changed', { direction: 'next' });
         return;
       }
+      // If this is the last question, end the game after the scoreboard transition.
+      const isLastQuestion = totalQuestions > 0 && currentIndex + 1 >= totalQuestions;
       const started = await submitEvent('transition-started', { durationMs: TRANSITION_DELAY_MS });
       if (!started) return;
       window.setTimeout(() => {
-        void submitEvent('question-changed', { direction: 'next' });
+        void submitEvent(isLastQuestion ? 'game-finished' : 'question-changed', isLastQuestion ? {} : { direction: 'next' });
       }, TRANSITION_DELAY_MS);
     } finally {
       window.setTimeout(() => {
@@ -385,11 +391,17 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
     if (!hostPlayer || !currentQuestion) return;
     if (currentQuestion.type === 'multiple_choice' || currentQuestion.type === 'this_or_that') {
       if (!selectedChoice) return;
+      // For This-or-That, include the selectionKey so server scoring can use the authoritative key
+      // comparison path rather than the text-label fallback.
+      const selectionKeyMap: Record<number, 'A' | 'B' | 'C'> = { 0: 'A', 1: 'B', 2: 'C' };
+      const selectionIdx = currentQuestion.type === 'this_or_that' ? thisOrThatLabels.indexOf(selectedChoice) : -1;
+      const selectionKey = selectionIdx >= 0 ? selectionKeyMap[selectionIdx] : undefined;
       await submitEvent('player-selected', {
         playerId: hostPlayer.id,
         playerName: hostPlayer.name,
         questionId,
         selection: selectedChoice,
+        ...(selectionKey ? { selectionKey } : {}),
         submittedAt: new Date().toISOString(),
       });
       return;
@@ -572,7 +584,15 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
               {phase !== 'lobby' && transitionVisible && (
                 <div className="bg-gray-850 rounded-lg border border-gray-700 p-6 text-center space-y-2">
                   <div className="text-3xl font-bold text-yellow-300">Scoreboard</div>
-                  <div className="text-sm text-gray-300">Next question is loading…</div>
+                  <div className="text-sm text-gray-300">{phase === 'finished' ? 'Game over!' : 'Next question is loading…'}</div>
+                </div>
+              )}
+
+              {phase === 'finished' && !transitionVisible && (
+                <div className="bg-gray-850 rounded-lg border border-gray-700 p-8 text-center space-y-3">
+                  <div className="text-5xl">🏆</div>
+                  <div className="text-2xl font-bold text-yellow-300">Game Over!</div>
+                  <div className="text-gray-300 text-sm">Final scores are in the leaderboard. Use &ldquo;Set to Lobby&rdquo; to play again.</div>
                 </div>
               )}
 
