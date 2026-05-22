@@ -32,6 +32,7 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ co
     data: {
       status: body?.status || room.status,
       gameState: body?.gameState ?? room.gameState,
+      gameConfig: body?.gameConfig && room.status === 'lobby' ? body.gameConfig : room.gameConfig,
     },
   });
 

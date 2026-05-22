@@ -1363,6 +1363,9 @@ export default function JeopardyPage() {
 
         <div className="mb-3 flex gap-2">
           <button onClick={() => setShowSettings(prev => !prev)} className="px-3 py-2 rounded-lg bg-blue-800 hover:bg-blue-700 text-sm font-bold">Settings</button>
+          {selectedGameKind === 'replay' && (
+            <button onClick={hostJeopardyMultiplayerRoom} className="px-3 py-2 rounded-lg text-sm font-bold bg-cyan-700 hover:bg-cyan-600">Host Multiplayer Room</button>
+          )}
           {sessionType === 'competition' && teamScores[chooserTeamIndex] && (
             <div className="text-sm text-blue-200 py-2">Category control: <span className="text-yellow-300 font-bold">{teamScores[chooserTeamIndex].name}</span></div>
           )}
@@ -1527,7 +1530,6 @@ export default function JeopardyPage() {
           <button key={m} onClick={() => setMethod(m)} className={`px-4 py-2 rounded-lg font-bold capitalize ${method === m ? 'bg-yellow-400 text-blue-950' : 'bg-blue-800 hover:bg-blue-700'}`}>{m}</button>
         ))}
         <button onClick={() => setShowSettings(prev => !prev)} className="px-4 py-2 rounded-lg font-bold bg-blue-800 hover:bg-blue-700">Settings</button>
-        <button onClick={hostJeopardyMultiplayerRoom} className="px-4 py-2 rounded-lg font-bold bg-cyan-700 hover:bg-cyan-600">Host Multiplayer Room</button>
       </div>
       {multiplayerMsg && <div className="max-w-3xl mx-auto text-center text-cyan-200 text-sm mb-4">{multiplayerMsg}</div>}
 

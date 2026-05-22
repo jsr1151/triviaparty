@@ -673,6 +673,8 @@ function PartySettingsModal({
                           }} className="bg-gray-700 rounded p-2">
                             <option value="elimination">Grouping: Elimination</option>
                             <option value="continuous">Grouping: Continuous</option>
+                            <option value="turns">Grouping: Turns</option>
+                            <option value="blitz">Grouping: Blitz</option>
                           </select>
                         )}
                         {slot.type === 'ranking' && (
@@ -685,6 +687,8 @@ function PartySettingsModal({
                           }} className="bg-gray-700 rounded p-2">
                             <option value="anchor_adjust">Ranking: Anchor Adjust</option>
                             <option value="one_shot">Ranking: One Shot</option>
+                            <option value="turns">Ranking: Turns</option>
+                            <option value="blitz">Ranking: Blitz</option>
                           </select>
                         )}
                         <select value={slot.categoryStrategy ?? DEFAULT_SLOT_CATEGORY_STRATEGY} onChange={(e) => {
@@ -708,6 +712,11 @@ function PartySettingsModal({
                           rounds[roundIndex] = { ...round, slots };
                           setSettings({ ...settings, rounds });
                         }} placeholder="Time (sec)" className="bg-gray-700 rounded p-2" />
+                        {slot.type === 'this_or_that' && (
+                          <div className="text-xs text-blue-200 md:col-span-2">
+                            For This or That, this time limit applies to each item.
+                          </div>
+                        )}
                         <button onClick={() => {
                           const rounds = [...settings.rounds];
                           rounds[roundIndex] = { ...round, slots: round.slots.filter((_, i) => i !== slotIndex) };
