@@ -10,6 +10,10 @@ export type PlayerAnswerEntry = {
   answer?: string;
   selection?: string;
   selectionKey?: 'A' | 'B' | 'C';
+  challenged?: boolean;
+  gaveUp?: boolean;
+  strikeCount?: number;
+  questionItemIndex?: number;
   submittedAt: string;
   correct?: boolean;
   judged?: boolean;
@@ -51,10 +55,24 @@ export function extractMultipleChoiceCorrectAnswer(question: AnyQuestion): strin
   return '';
 }
 
+function normalizeAnswerValue(value: string): string {
+  return value
+    .toLowerCase()
+    .trim()
+    .replace(/[^\p{L}\p{N}\s]/gu, '')
+    .replace(/\s+/g, ' ');
+}
+
+function answerMatchesAny(input: string, expected: string[]): boolean {
+  const normalizedInput = normalizeAnswerValue(input);
+  if (!normalizedInput) return false;
+  return expected.some((value) => normalizeAnswerValue(value) === normalizedInput);
+}
+
 export function isSelectionCorrect(question: AnyQuestion, selection: string, selectionKey?: 'A' | 'B' | 'C'): boolean {
   if (question.type === 'multiple_choice' || question.type === 'media') {
     const expected = extractMultipleChoiceCorrectAnswer(question);
-    return Boolean(expected) && expected.trim() === selection.trim();
+    return Boolean(expected) && normalizeAnswerValue(expected) === normalizeAnswerValue(selection);
   }
   if (question.type === 'this_or_that') {
     if (!selection && !selectionKey) return false;
@@ -66,6 +84,14 @@ export function isSelectionCorrect(question: AnyQuestion, selection: string, sel
     const index = categories.findIndex((label) => (label || '').trim() === selection.trim());
     const mapped = index === 0 ? 'A' : index === 1 ? 'B' : index === 2 ? 'C' : null;
     return mapped ? expected === mapped : false;
+  }
+  if (question.type === 'open_ended' || question.type === 'prompt') {
+    const expected = [question.answer || '', ...(question.acceptedAnswers || [])].filter(Boolean);
+    return answerMatchesAny(selection, expected);
+  }
+  if (question.type === 'list') {
+    const expected = (question.answers || []).filter(Boolean);
+    return answerMatchesAny(selection, expected);
   }
   return false;
 }

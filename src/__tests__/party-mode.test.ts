@@ -33,6 +33,17 @@ describe('party-mode builder', () => {
     expect(settings.rounds[4].name).toContain('Rapid Fire');
   });
 
+  it('supports turns/blitz mode values on grouping and ranking slots', () => {
+    const settings = createDefaultSettings();
+    settings.rounds[0].slots = [
+      { id: 'g1', type: 'grouping', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', groupingMode: 'turns' },
+      { id: 'r1', type: 'ranking', count: 1, order: 'fixed', listMode: 'timed', listScoring: 'target', rankingMode: 'blitz' },
+    ];
+    settings.rounds[0].questionCount = 2;
+    const built = buildPartyQuestions(sampleQuestions, settings);
+    expect(built.length).toBeGreaterThan(0);
+  });
+
   it('builds pursuit long with additional rounds', () => {
     const settings = createPresetSettings('pursuit-long');
     expect(settings.rounds).toHaveLength(7);

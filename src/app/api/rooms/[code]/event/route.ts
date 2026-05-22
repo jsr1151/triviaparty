@@ -33,6 +33,9 @@ const ALLOWED_EVENTS = new Set([
   'score-updated',
   'state-updated',
   'answer-submitted',
+  'answer-challenged',
+  'player-gave-up',
+  'transition-started',
   'buzz-in',
   'wager-submitted',
 ]);
@@ -44,10 +47,12 @@ const HOST_ONLY_EVENTS = new Set([
   'answer-judged',
   'score-updated',
   'state-updated',
+  'transition-started',
 ]);
 const DEFAULT_ANSWER_WINDOW_MS = 15000;
 const STATIC_QUESTIONS_FILE_PATH = process.env.MULTIPLAYER_PARTY_QUESTIONS_FILE
   ?? join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+const MAX_LIST_STRIKES = 3;
 
 type StaticMediaQuestion = AnyQuestion & {
   mediaUrl?: string;
@@ -59,8 +64,20 @@ function resolveAnswerWindowMs(gameConfig: unknown): number {
   return Number.isFinite(configured) && configured > 0 ? configured : DEFAULT_ANSWER_WINDOW_MS;
 }
 
+function resolveQuestionWindowMs(question: AnyQuestion | null, gameConfig: unknown): number {
+  const perQuestionLimit = Number((question as { partyTimeLimitSec?: unknown } | null)?.partyTimeLimitSec || 0);
+  if (Number.isFinite(perQuestionLimit) && perQuestionLimit > 0) {
+    return Math.max(1000, perQuestionLimit * 1000);
+  }
+  return resolveAnswerWindowMs(gameConfig);
+}
+
 function elapsedMsSince(startedAt: unknown): number {
   return Math.max(0, Date.now() - new Date(String(startedAt || new Date().toISOString())).getTime());
+}
+
+function listModeForQuestion(question: AnyQuestion | null): string {
+  return String((question as { partyListMode?: unknown } | null)?.partyListMode || '').toLowerCase();
 }
 
 export async function POST(req: NextRequest, { params }: { params: Promise<{ code: string }> }) {
@@ -68,6 +85,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   const roomCode = code.toUpperCase();
   const room = await prisma.multiplayerRoom.findUnique({ where: { code: roomCode } });
   if (!room) return NextResponse.json({ error: 'Room not found.' }, { status: 404 });
+  const roomGameConfig = room.gameConfig;
 
   const body = await req.json().catch(() => ({}));
   const event = String(body?.event || '').trim();
@@ -97,7 +115,6 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   let roomStatus = room.status;
   let pushPayload: Record<string, unknown> = { roomCode };
   let scoresToBroadcast: Record<string, number> | null = null;
-  const answerWindowMs = resolveAnswerWindowMs(room.gameConfig);
 
   function getCurrentQuestion(): AnyQuestion | null {
     const question = updatedState.currentQuestion;
@@ -108,6 +125,62 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     const scores = updatedState.scores;
     if (!scores || typeof scores !== 'object') return {};
     return { ...(scores as Record<string, number>) };
+  }
+
+  function canAcceptSubmission(question: AnyQuestion | null): boolean {
+    if (!question) return false;
+    if (Boolean(updatedState.answerRevealed)) return false;
+    const elapsed = elapsedMsSince(updatedState.questionStartedAt || now);
+    return elapsed <= resolveQuestionWindowMs(question, roomGameConfig);
+  }
+
+  function scoreEntry(args: {
+    question: AnyQuestion;
+    questionId: string;
+    playerId: string;
+    selection: string;
+    selectionKey?: 'A' | 'B' | 'C';
+    baseEntry: PlayerAnswerEntry;
+    priorEntry?: PlayerAnswerEntry;
+  }): { entry: PlayerAnswerEntry; scores: Record<string, number> } {
+    const scores = getScores();
+    if (args.priorEntry?.judged && Number(args.priorEntry.points || 0) !== 0) {
+      scores[args.playerId] = Number(scores[args.playerId] || 0) - Number(args.priorEntry.points || 0);
+    }
+    const scoreMode = resolveMultiplayerScoreMode(roomGameConfig);
+    const streaks = (updatedState.streaks && typeof updatedState.streaks === 'object')
+      ? { ...(updatedState.streaks as Record<string, number>) }
+      : {};
+    const correctOrderByQuestion = (updatedState.correctOrderByQuestion && typeof updatedState.correctOrderByQuestion === 'object')
+      ? { ...(updatedState.correctOrderByQuestion as Record<string, string[]>) }
+      : {};
+    const correctOrder = Array.isArray(correctOrderByQuestion[args.questionId]) ? [...correctOrderByQuestion[args.questionId]] : [];
+    const correct = isSelectionCorrect(args.question, args.selection, args.selectionKey);
+    if (correct) {
+      if (!correctOrder.includes(args.playerId)) correctOrder.push(args.playerId);
+      const elapsedMs = elapsedMsSince(updatedState.questionStartedAt || now);
+      const streak = Number(streaks[args.playerId] || 0) + 1;
+      const points = computeAwardedPoints({
+        question: args.question,
+        scoreMode,
+        elapsedMs,
+        totalWindowMs: resolveQuestionWindowMs(args.question, roomGameConfig),
+        correctPosition: correctOrder.length,
+        streak,
+      });
+      scores[args.playerId] = Number(scores[args.playerId] || 0) + points;
+      streaks[args.playerId] = streak;
+      correctOrderByQuestion[args.questionId] = correctOrder;
+      updatedState.streaks = streaks;
+      updatedState.correctOrderByQuestion = correctOrderByQuestion;
+      updatedState.scores = scores;
+      return { entry: { ...args.baseEntry, correct: true, judged: true, points }, scores };
+    }
+    streaks[args.playerId] = 0;
+    updatedState.streaks = streaks;
+    updatedState.correctOrderByQuestion = correctOrderByQuestion;
+    updatedState.scores = scores;
+    return { entry: { ...args.baseEntry, correct: false, judged: true, points: 0 }, scores };
   }
 
   if (resolvedEvent === 'game-started') {
@@ -156,7 +229,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
         }
       }
 
-      const built = buildPartyQuestionsFromRoomConfig(availableQuestions, room.gameConfig);
+      const built = buildPartyQuestionsFromRoomConfig(availableQuestions, roomGameConfig);
       const plannedQuestions = built.questions;
       if (!plannedQuestions.length) {
         const error = !availableQuestions.length
@@ -178,10 +251,13 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       updatedState.totalQuestions = plannedQuestions.length;
       updatedState.questionStartedAt = now;
       updatedState.answerRevealed = false;
+      updatedState.answerRevealedQuestionId = null;
       updatedState.phase = 'active';
       updatedState.playerAnswers = {};
       updatedState.selectionTallies = {};
       updatedState.correctOrderByQuestion = {};
+      updatedState.listStrikesByQuestion = {};
+      updatedState.thisOrThatItemIndex = 0;
       updatedState.streaks = {};
       updatedState.buzz = null;
       updatedState.scores = initialScores;
@@ -191,6 +267,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
         status: roomStatus,
         question: plannedQuestions[0],
         questionIndex: 0,
+        currentQuestion: plannedQuestions[0],
+        currentQuestionIndex: 0,
         totalQuestions: plannedQuestions.length,
         scores: initialScores,
       };
@@ -208,6 +286,33 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     const currentIndex = Number(updatedState.currentQuestionIndex || 0);
     const requestedIndex = Number((payload as { index?: unknown }).index);
     const direction = String((payload as { direction?: unknown }).direction || 'next').toLowerCase();
+    const currentQuestion = questions[currentIndex];
+    const currentItemIndex = Number(updatedState.thisOrThatItemIndex || 0);
+    let handledThisOrThatItemAdvance = false;
+    if (!Number.isFinite(requestedIndex) && direction === 'next' && currentQuestion?.type === 'this_or_that') {
+      const totalItems = Array.isArray(currentQuestion.items) ? currentQuestion.items.length : 0;
+      if (currentItemIndex < Math.max(0, totalItems - 1)) {
+        const nextItemIndex = currentItemIndex + 1;
+        updatedState.thisOrThatItemIndex = nextItemIndex;
+        updatedState.currentQuestionIndex = currentIndex;
+        updatedState.currentQuestion = currentQuestion;
+        updatedState.questionStartedAt = now;
+        updatedState.answerRevealed = false;
+        updatedState.answerRevealedQuestionId = null;
+        pushPayload = {
+          ...pushPayload,
+          question: currentQuestion,
+          questionIndex: currentIndex,
+          currentQuestion: currentQuestion,
+          currentQuestionIndex: currentIndex,
+          thisOrThatItemIndex: nextItemIndex,
+          totalQuestions: questions.length,
+          scores: getScores(),
+        };
+        handledThisOrThatItemAdvance = true;
+      }
+    }
+    if (!handledThisOrThatItemAdvance) {
     let nextIndex = Number.isFinite(requestedIndex) ? requestedIndex : currentIndex + (direction === 'previous' ? -1 : 1);
     nextIndex = Math.max(0, Math.min(questions.length - 1, nextIndex));
     const nextQuestion = questions[nextIndex];
@@ -216,24 +321,62 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     updatedState.totalQuestions = questions.length;
     updatedState.questionStartedAt = now;
     updatedState.answerRevealed = false;
+    updatedState.answerRevealedQuestionId = null;
+    updatedState.thisOrThatItemIndex = 0;
     updatedState.buzz = null;
     pushPayload = {
       ...pushPayload,
       question: nextQuestion,
       questionIndex: nextIndex,
+      currentQuestion: nextQuestion,
+      currentQuestionIndex: nextIndex,
       totalQuestions: questions.length,
       scores: getScores(),
     };
+    }
   } else if (resolvedEvent === 'answer-revealed') {
+    const question = getCurrentQuestion();
+    const thisOrThatItemIndex = Number(updatedState.thisOrThatItemIndex || 0);
+    const currentQuestionId = question?.type === 'this_or_that'
+      ? `${getQuestionId(question)}#${thisOrThatItemIndex}`
+      : getQuestionId(question);
     updatedState.answerRevealed = true;
+    updatedState.answerRevealedQuestionId = currentQuestionId;
     updatedState.answerRevealedAt = now;
     if (updatedState.buzz && typeof updatedState.buzz === 'object') {
       updatedState.buzz = { ...(updatedState.buzz as Record<string, unknown>), resolved: true, resolvedAt: now };
     }
-    const question = getCurrentQuestion();
+    if (question) {
+      const playerAnswers = (updatedState.playerAnswers && typeof updatedState.playerAnswers === 'object')
+        ? { ...(updatedState.playerAnswers as Record<string, PlayerAnswerEntry[]>) }
+        : {};
+      const existingForQuestion = Array.isArray(playerAnswers[currentQuestionId]) ? [...playerAnswers[currentQuestionId]] : [];
+      const shouldScoreOnReveal = question.type === 'multiple_choice' || question.type === 'this_or_that';
+      if (shouldScoreOnReveal && existingForQuestion.length) {
+        const scoringQuestion = question.type === 'this_or_that'
+          ? { ...question, items: Array.isArray(question.items) ? [question.items[thisOrThatItemIndex]].filter(Boolean) : [] }
+          : question;
+        const rescored = existingForQuestion.map((entry) => {
+          if (!entry.selection && !entry.answer) return entry;
+          const scored = scoreEntry({
+            question: scoringQuestion,
+            questionId: currentQuestionId,
+            playerId: entry.playerId,
+            selection: entry.selection || entry.answer || '',
+            selectionKey: entry.selectionKey,
+            baseEntry: { ...entry, submittedAt: entry.submittedAt || now },
+            priorEntry: entry,
+          });
+          scoresToBroadcast = scored.scores;
+          return scored.entry;
+        });
+        playerAnswers[currentQuestionId] = rescored;
+        updatedState.playerAnswers = playerAnswers;
+      }
+    }
     pushPayload = {
       ...pushPayload,
-      questionId: getQuestionId(question),
+      questionId: currentQuestionId,
       question,
       revealedAt: now,
     };
@@ -260,7 +403,16 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     pushPayload = { ...pushPayload, ...buzzPayload };
   } else if (resolvedEvent === 'player-answered' || resolvedEvent === 'player-selected') {
     const question = getCurrentQuestion();
-    const questionId = String((payload as { questionId?: unknown }).questionId || getQuestionId(question));
+    if (!canAcceptSubmission(question)) {
+      return NextResponse.json({ ok: true, ignored: 'question-closed' });
+    }
+    const thisOrThatItemIndex = Number(updatedState.thisOrThatItemIndex || 0);
+    const baseQuestionId = getQuestionId(question);
+    const questionId = String((payload as { questionId?: unknown }).questionId || (
+      question?.type === 'this_or_that'
+        ? `${baseQuestionId}#${thisOrThatItemIndex}`
+        : baseQuestionId
+    ));
     const requestedPlayerId = String((payload as { playerId?: unknown }).playerId || '');
     const fallbackName = String((payload as { playerName?: unknown }).playerName || 'Player');
     const player = players.find((entry) => entry.id === requestedPlayerId || entry.name === fallbackName);
@@ -275,6 +427,10 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       ? { ...(updatedState.playerAnswers as Record<string, PlayerAnswerEntry[]>) }
       : {};
     const existingForQuestion = Array.isArray(playerAnswers[questionId]) ? playerAnswers[questionId] : [];
+    const priorEntry = existingForQuestion.find((entry) => entry.playerId === playerId);
+    if (priorEntry?.gaveUp) {
+      return NextResponse.json({ ok: true, ignored: 'player-gave-up' });
+    }
     const baseEntry: PlayerAnswerEntry = {
       playerId,
       playerName,
@@ -282,48 +438,38 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       answer: rawAnswer || selection || undefined,
       selection: selection || undefined,
       selectionKey,
+      questionItemIndex: question?.type === 'this_or_that' ? thisOrThatItemIndex : undefined,
+      challenged: priorEntry?.challenged || false,
+      strikeCount: priorEntry?.strikeCount || 0,
       submittedAt,
     };
     let nextEntry = baseEntry;
-    const scoreMode = resolveMultiplayerScoreMode(room.gameConfig);
-    const isAutoScored = Boolean(question && (question.type === 'multiple_choice' || question.type === 'this_or_that' || question.type === 'media'));
-
-    const scores = getScores();
-    const streaks = (updatedState.streaks && typeof updatedState.streaks === 'object')
-      ? { ...(updatedState.streaks as Record<string, number>) }
-      : {};
-    const correctOrderByQuestion = (updatedState.correctOrderByQuestion && typeof updatedState.correctOrderByQuestion === 'object')
-      ? { ...(updatedState.correctOrderByQuestion as Record<string, string[]>) }
-      : {};
-    const correctOrder = Array.isArray(correctOrderByQuestion[questionId]) ? [...correctOrderByQuestion[questionId]] : [];
-
-    if (question && isAutoScored && (resolvedEvent === 'player-selected' || selection || rawAnswer)) {
-      const correct = isSelectionCorrect(question, selection || rawAnswer, selectionKey);
-      if (correct) {
-        if (!correctOrder.includes(playerId)) correctOrder.push(playerId);
-        const elapsedMs = elapsedMsSince(updatedState.questionStartedAt || now);
-        const streak = Number(streaks[playerId] || 0) + 1;
-        const points = computeAwardedPoints({
-          question,
-          scoreMode,
-          elapsedMs,
-          totalWindowMs: answerWindowMs,
-          correctPosition: correctOrder.length,
-          streak,
-        });
-        scores[playerId] = Number(scores[playerId] || 0) + points;
-        streaks[playerId] = streak;
-        nextEntry = { ...baseEntry, correct: true, judged: true, points };
-      } else {
-        streaks[playerId] = 0;
-        nextEntry = { ...baseEntry, correct: false, judged: true, points: 0 };
+    const shouldScoreNow = Boolean(question && (question.type === 'open_ended' || question.type === 'prompt' || question.type === 'list' || question.type === 'media'));
+    if (question && shouldScoreNow && (selection || rawAnswer)) {
+      const scored = scoreEntry({
+        question,
+        questionId,
+        playerId,
+        selection: selection || rawAnswer,
+        selectionKey,
+        baseEntry,
+        priorEntry,
+      });
+      nextEntry = scored.entry;
+      scoresToBroadcast = scored.scores;
+      pushPayload = { ...pushPayload, scores: scored.scores };
+      if (question.type === 'list' && listModeForQuestion(question) === 'strikes' && !nextEntry.correct) {
+        const strikes = Math.max(0, Number(priorEntry?.strikeCount || 0) + 1);
+        nextEntry.strikeCount = strikes;
+        nextEntry.gaveUp = strikes >= MAX_LIST_STRIKES;
       }
-      correctOrderByQuestion[questionId] = correctOrder;
-      updatedState.scores = scores;
-      updatedState.streaks = streaks;
-      updatedState.correctOrderByQuestion = correctOrderByQuestion;
-      pushPayload = { ...pushPayload, scores };
-      scoresToBroadcast = scores;
+    } else if (priorEntry?.judged || priorEntry?.correct !== undefined) {
+      nextEntry = {
+        ...nextEntry,
+        judged: priorEntry.judged,
+        correct: priorEntry.correct,
+        points: priorEntry.points,
+      };
     }
     const mergedForQuestion = upsertPlayerAnswer(existingForQuestion, nextEntry);
     playerAnswers[questionId] = mergedForQuestion;
@@ -351,52 +497,73 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       return NextResponse.json({ error: 'Answer not found for player.' }, { status: 404 });
     }
 
-    const scores = getScores();
-    const streaks = (updatedState.streaks && typeof updatedState.streaks === 'object')
-      ? { ...(updatedState.streaks as Record<string, number>) }
-      : {};
-    const scoreMode = resolveMultiplayerScoreMode(room.gameConfig);
-    const correctOrderByQuestion = (updatedState.correctOrderByQuestion && typeof updatedState.correctOrderByQuestion === 'object')
-      ? { ...(updatedState.correctOrderByQuestion as Record<string, string[]>) }
-      : {};
-    const correctOrder = Array.isArray(correctOrderByQuestion[questionId]) ? [...correctOrderByQuestion[questionId]] : [];
-
     const nextEntry = { ...existingForQuestion[answerIndex] };
-    if (correct) {
-      if (!correctOrder.includes(playerId)) correctOrder.push(playerId);
-      const elapsedMs = elapsedMsSince(updatedState.questionStartedAt || now);
-      const streak = Number(streaks[playerId] || 0) + 1;
-      const points = computeAwardedPoints({
+    const scored = correct
+      ? scoreEntry({
         question,
-        scoreMode,
-        elapsedMs,
-        totalWindowMs: answerWindowMs,
-        correctPosition: correctOrder.length,
-        streak,
-      });
-      scores[playerId] = Number(scores[playerId] || 0) + points;
-      streaks[playerId] = streak;
-      nextEntry.correct = true;
-      nextEntry.points = points;
-      nextEntry.judged = true;
-    } else {
-      streaks[playerId] = 0;
-      nextEntry.correct = false;
-      nextEntry.points = 0;
-      nextEntry.judged = true;
+        questionId,
+        playerId,
+        selection: nextEntry.selection || nextEntry.answer || '',
+        selectionKey: nextEntry.selectionKey,
+        baseEntry: nextEntry,
+        priorEntry: nextEntry,
+      })
+      : { entry: { ...nextEntry, correct: false, points: 0, judged: true }, scores: getScores() };
+    if (!correct && nextEntry.judged && Number(nextEntry.points || 0) !== 0) {
+      scored.scores[playerId] = Number(scored.scores[playerId] || 0) - Number(nextEntry.points || 0);
+      updatedState.scores = scored.scores;
     }
     if (updatedState.buzz && typeof updatedState.buzz === 'object') {
       updatedState.buzz = { ...(updatedState.buzz as Record<string, unknown>), resolved: true, resolvedAt: now };
     }
-    existingForQuestion[answerIndex] = nextEntry;
+    existingForQuestion[answerIndex] = scored.entry;
     playerAnswers[questionId] = existingForQuestion;
-    correctOrderByQuestion[questionId] = correctOrder;
     updatedState.playerAnswers = playerAnswers;
-    updatedState.correctOrderByQuestion = correctOrderByQuestion;
-    updatedState.streaks = streaks;
-    updatedState.scores = scores;
-    pushPayload = { ...pushPayload, questionId, answer: nextEntry, scores };
-    scoresToBroadcast = scores;
+    pushPayload = { ...pushPayload, questionId, answer: scored.entry, scores: scored.scores };
+    scoresToBroadcast = scored.scores;
+  } else if (resolvedEvent === 'answer-challenged') {
+    const question = getCurrentQuestion();
+    const questionId = String((payload as { questionId?: unknown }).questionId || getQuestionId(question));
+    const playerId = String((payload as { playerId?: unknown }).playerId || '');
+    const playerAnswers = (updatedState.playerAnswers && typeof updatedState.playerAnswers === 'object')
+      ? { ...(updatedState.playerAnswers as Record<string, PlayerAnswerEntry[]>) }
+      : {};
+    const existingForQuestion = Array.isArray(playerAnswers[questionId]) ? [...playerAnswers[questionId]] : [];
+    const index = existingForQuestion.findIndex((entry) => entry.playerId === playerId);
+    if (index >= 0) {
+      existingForQuestion[index] = { ...existingForQuestion[index], challenged: true };
+      playerAnswers[questionId] = existingForQuestion;
+      updatedState.playerAnswers = playerAnswers;
+      pushPayload = { ...pushPayload, questionId, answer: existingForQuestion[index] };
+    }
+  } else if (resolvedEvent === 'player-gave-up') {
+    const question = getCurrentQuestion();
+    if (!question) return NextResponse.json({ error: 'No active question.' }, { status: 400 });
+    const questionId = String((payload as { questionId?: unknown }).questionId || getQuestionId(question));
+    const playerId = String((payload as { playerId?: unknown }).playerId || '');
+    const playerName = String((payload as { playerName?: unknown }).playerName || 'Player');
+    const playerAnswers = (updatedState.playerAnswers && typeof updatedState.playerAnswers === 'object')
+      ? { ...(updatedState.playerAnswers as Record<string, PlayerAnswerEntry[]>) }
+      : {};
+    const existingForQuestion = Array.isArray(playerAnswers[questionId]) ? playerAnswers[questionId] : [];
+    const mergedForQuestion = upsertPlayerAnswer(existingForQuestion, {
+      playerId,
+      playerName,
+      questionId,
+      gaveUp: true,
+      judged: true,
+      correct: false,
+      points: 0,
+      submittedAt: now,
+    });
+    playerAnswers[questionId] = mergedForQuestion;
+    updatedState.playerAnswers = playerAnswers;
+    pushPayload = { ...pushPayload, questionId, answer: mergedForQuestion.find((entry) => entry.playerId === playerId) };
+  } else if (resolvedEvent === 'transition-started') {
+    const durationMs = Number((payload as { durationMs?: unknown }).durationMs || 3000);
+    updatedState.phase = 'transition';
+    updatedState.transition = { type: 'scoreboard', startedAt: now, durationMs };
+    pushPayload = { ...pushPayload, transition: updatedState.transition };
   } else if (resolvedEvent === 'score-updated' && payload && typeof payload === 'object') {
     updatedState.scores = (payload as { scores?: unknown }).scores ?? getScores();
   } else if (resolvedEvent === 'state-updated' && payload && typeof payload === 'object') {

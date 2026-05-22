@@ -17,8 +17,8 @@ export type RoundSlot = {
   listScoring: ListScoringSetting;
   timeLimitSec?: number;
   categoryStrategy?: 'any' | 'same_round' | 'unique_round' | 'rotate_round' | 'player_choice';
-  groupingMode?: 'elimination' | 'continuous';
-  rankingMode?: 'anchor_adjust' | 'one_shot';
+  groupingMode?: 'elimination' | 'continuous' | 'turns' | 'blitz';
+  rankingMode?: 'anchor_adjust' | 'one_shot' | 'turns' | 'blitz';
 };
 
 export type DifficultyMode = 'set' | 'scaling_incremental' | 'scaling_performance' | 'random';

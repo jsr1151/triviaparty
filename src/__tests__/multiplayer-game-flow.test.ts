@@ -73,6 +73,23 @@ describe('multiplayer game flow helpers', () => {
     }, 'That', 'B')).toBe(false);
   });
 
+  it('normalizes text for open-ended and list auto-scoring', () => {
+    expect(isSelectionCorrect({
+      type: 'open_ended',
+      question: 'Answer me',
+      difficulty: 'medium',
+      answer: 'New York',
+      acceptedAnswers: ['NYC'],
+    }, 'new york!')).toBe(true);
+
+    expect(isSelectionCorrect({
+      type: 'list',
+      question: 'Name one',
+      difficulty: 'easy',
+      answers: ['Mount Everest', 'K2'],
+    }, 'mount   everest')).toBe(true);
+  });
+
   it('awards points using the selected scoring mode', () => {
     const question = {
       type: 'open_ended' as const,
