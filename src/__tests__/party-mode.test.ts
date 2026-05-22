@@ -1,4 +1,4 @@
-import { buildPartyQuestions, createDefaultSettings, createPresetSettings } from '@/lib/party-mode';
+import { buildPartyQuestions, createDefaultSettings, createPresetSettings, normalizePartySettings } from '@/lib/party-mode';
 import type { AnyQuestion } from '@/types/questions';
 
 const sampleQuestions: AnyQuestion[] = [
@@ -17,6 +17,16 @@ describe('party-mode builder', () => {
     const built = buildPartyQuestions(sampleQuestions, settings);
     expect(built).toHaveLength(1);
     expect(built[0].partyRound).toBe(1);
+  });
+
+  it('normalizes partial room config into valid party settings', () => {
+    const normalized = normalizePartySettings({
+      rounds: [{ name: 'Round X', slots: [] }],
+      categoryOptions: ['science', 123, 'history'],
+    });
+    expect(normalized.rounds[0].name).toBe('Round X');
+    expect(normalized.rounds[0].id).toBe('round-1');
+    expect(normalized.categoryOptions).toEqual(['science', 'history']);
   });
 
   it('builds a valid preset configuration', () => {

@@ -10,6 +10,7 @@ export type PlayerAnswerEntry = {
   answer?: string;
   selection?: string;
   selectionKey?: 'A' | 'B' | 'C';
+  groupingSelection?: string[];
   challenged?: boolean;
   gaveUp?: boolean;
   strikeCount?: number;
@@ -40,6 +41,13 @@ export function getQuestionId(question: AnyQuestion | null | undefined): string 
   return String(question.id || `question-${question.type}`);
 }
 
+export function getThisOrThatItem(question: AnyQuestion | null | undefined, index: number) {
+  if (!question || question.type !== 'this_or_that') return null;
+  const items = Array.isArray(question.items) ? question.items : [];
+  if (index < 0 || index >= items.length) return null;
+  return items[index] ?? null;
+}
+
 export function extractMultipleChoiceCorrectAnswer(question: AnyQuestion): string {
   if (question.type === 'multiple_choice') {
     const options = (question.options || []).map((option) => option.replace(/^\*+\s*/, '').replace(/\s*\*+$/, '').trim());
@@ -67,6 +75,54 @@ function answerMatchesAny(input: string, expected: string[]): boolean {
   const normalizedInput = normalizeAnswerValue(input);
   if (!normalizedInput) return false;
   return expected.some((value) => normalizeAnswerValue(value) === normalizedInput);
+}
+
+export function resolveAnswerWindowMs(gameConfig: unknown): number {
+  const configured = Number((gameConfig as { answerWindowMs?: unknown } | null)?.answerWindowMs || 15000);
+  return Number.isFinite(configured) && configured > 0 ? configured : 15000;
+}
+
+export function resolveQuestionAnswerWindowMs(question: AnyQuestion | null | undefined, gameConfig: unknown): number {
+  // A missing or zero-valued per-question limit falls back to the room-level answer window.
+  const partyLimitSec = Number((question as { partyTimeLimitSec?: unknown } | null)?.partyTimeLimitSec || 0);
+  if (question?.type === 'list') {
+    const listMode = String((question as { partyListMode?: unknown } | null)?.partyListMode || '').toLowerCase();
+    if (listMode === 'timed' && Number.isFinite(partyLimitSec) && partyLimitSec > 0) {
+      return Math.max(1000, partyLimitSec * 1000);
+    }
+    return resolveAnswerWindowMs(gameConfig);
+  }
+  if (Number.isFinite(partyLimitSec) && partyLimitSec > 0) {
+    return Math.max(1000, partyLimitSec * 1000);
+  }
+  return resolveAnswerWindowMs(gameConfig);
+}
+
+export function calculateRemainingTimeMs(
+  questionStartedAt: unknown,
+  question: AnyQuestion | null | undefined,
+  gameConfig: unknown,
+  nowMs = Date.now(),
+): number {
+  const totalWindowMs = resolveQuestionAnswerWindowMs(question, gameConfig);
+  const startedAtValue = typeof questionStartedAt === 'string' || questionStartedAt instanceof Date
+    ? String(questionStartedAt)
+    : '';
+  const startedAtMs = Date.parse(startedAtValue);
+  if (!Number.isFinite(startedAtMs)) return totalWindowMs;
+  return Math.max(0, startedAtMs + totalWindowMs - nowMs);
+}
+
+export function computePerItemPoints(question: AnyQuestion, totalItems: number): number {
+  const safeTotalItems = Number.isFinite(totalItems) && totalItems > 0 ? totalItems : 1;
+  return Math.max(1, Math.round(basePointsForDifficulty(question.difficulty) / safeTotalItems));
+}
+
+export function countMatchingItems(selected: string[], expected: string[]): number {
+  const expectedValues = new Set(expected.map((value) => normalizeAnswerValue(value)).filter(Boolean));
+  return Array.from(new Set(selected.map((value) => normalizeAnswerValue(value)).filter(Boolean)))
+    .filter((value) => expectedValues.has(value))
+    .length;
 }
 
 export function isSelectionCorrect(question: AnyQuestion, selection: string, selectionKey?: 'A' | 'B' | 'C'): boolean {
