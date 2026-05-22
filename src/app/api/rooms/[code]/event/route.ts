@@ -52,6 +52,7 @@ const HOST_ONLY_EVENTS = new Set([
 const DEFAULT_ANSWER_WINDOW_MS = 15000;
 const STATIC_QUESTIONS_FILE_PATH = process.env.MULTIPLAYER_PARTY_QUESTIONS_FILE
   ?? join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+const MAX_LIST_STRIKES = 3;
 
 type StaticMediaQuestion = AnyQuestion & {
   mediaUrl?: string;
@@ -311,9 +312,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
         handledThisOrThatItemAdvance = true;
       }
     }
-    if (handledThisOrThatItemAdvance) {
-      // noop branch marker handled below
-    } else {
+    if (!handledThisOrThatItemAdvance) {
     let nextIndex = Number.isFinite(requestedIndex) ? requestedIndex : currentIndex + (direction === 'previous' ? -1 : 1);
     nextIndex = Math.max(0, Math.min(questions.length - 1, nextIndex));
     const nextQuestion = questions[nextIndex];
@@ -462,7 +461,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
       if (question.type === 'list' && listModeForQuestion(question) === 'strikes' && !nextEntry.correct) {
         const strikes = Math.max(0, Number(priorEntry?.strikeCount || 0) + 1);
         nextEntry.strikeCount = strikes;
-        nextEntry.gaveUp = strikes >= 3;
+        nextEntry.gaveUp = strikes >= MAX_LIST_STRIKES;
       }
     } else if (priorEntry?.judged || priorEntry?.correct !== undefined) {
       nextEntry = {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { getPusherClient } from '@/lib/pusher-client';
 import { extractMultipleChoiceCorrectAnswer } from '@/lib/multiplayer-game';
@@ -76,7 +76,6 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
   const [countdownMs, setCountdownMs] = useState(0);
   const [transitionVisible, setTransitionVisible] = useState(false);
   const [reloadTick, setReloadTick] = useState(0);
-  const autoRevealRef = useRef(false);
 
   useEffect(() => {
     params.then((value) => setCode(value.code.toUpperCase()));
@@ -140,7 +139,6 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       setSelection(null);
       setTextAnswer('');
       setListItem('');
-      autoRevealRef.current = false;
     });
     channel.bind('question-changed', (payload: Record<string, unknown>) => {
       setRoom((prev) => (prev ? { ...prev, gameState: { ...(prev.gameState || {}), ...payload, currentQuestion: payload.currentQuestion || payload.question, currentQuestionIndex: payload.currentQuestionIndex ?? payload.questionIndex, phase: 'active' } } : prev));
@@ -149,7 +147,6 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       setSelection(null);
       setGroupingSelected([]);
       setEliminatedItems([]);
-      autoRevealRef.current = false;
       setTransitionVisible(false);
     });
     channel.bind('answer-revealed', (payload: Record<string, unknown>) => {
@@ -201,9 +198,6 @@ export default function RoomPlayerPage({ params }: { params: Promise<{ code: str
       const startedAt = new Date(String(state.questionStartedAt || new Date().toISOString())).getTime();
       const remaining = Math.max(0, startedAt + answerWindowMs(currentQuestion) - Date.now());
       setCountdownMs(remaining);
-      if (remaining <= 0 && !autoRevealRef.current) {
-        autoRevealRef.current = true;
-      }
     };
     tick();
     const timer = window.setInterval(tick, 250);

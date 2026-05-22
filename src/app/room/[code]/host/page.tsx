@@ -397,8 +397,8 @@ export default function HostRoomPage({ params }: { params: Promise<{ code: strin
                       {typeof entry.strikeCount === 'number' && entry.strikeCount > 0 && <div className="text-xs text-rose-300">Strikes: {entry.strikeCount}</div>}
                       {(currentQuestion?.type === 'open_ended' || currentQuestion?.type === 'list' || currentQuestion?.type === 'prompt') && (
                         <div className="flex gap-2">
-                          <button onClick={() => submitEvent('answer-judged', { questionId: entry.questionId, playerId: entry.playerId, correct: true })} className="bg-emerald-700 hover:bg-emerald-600 px-2 py-1 rounded text-sm">✓</button>
-                          <button onClick={() => submitEvent('answer-judged', { questionId: entry.questionId, playerId: entry.playerId, correct: false })} className="bg-rose-700 hover:bg-rose-600 px-2 py-1 rounded text-sm">✗</button>
+                          <button aria-label="Mark as correct" onClick={() => submitEvent('answer-judged', { questionId: entry.questionId, playerId: entry.playerId, correct: true })} className="bg-emerald-700 hover:bg-emerald-600 px-2 py-1 rounded text-sm">✓</button>
+                          <button aria-label="Mark as incorrect" onClick={() => submitEvent('answer-judged', { questionId: entry.questionId, playerId: entry.playerId, correct: false })} className="bg-rose-700 hover:bg-rose-600 px-2 py-1 rounded text-sm">✗</button>
                         </div>
                       )}
                     </div>
