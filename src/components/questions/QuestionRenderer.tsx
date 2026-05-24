@@ -1085,8 +1085,43 @@ function PromptView({ question, onAnswer, onRerollPrompt, forceReveal }: Props) 
 
   const accepted = [q.answer || '', ...(q.acceptedAnswers || [])].filter(Boolean);
 
+  const mediaUrl = q.mediaUrl || '';
+  const embedUrl = mediaUrl ? parseYouTubeEmbed(mediaUrl) : null;
+  const isImage = (q.mediaType || '').toLowerCase() === 'image' || /\.(png|jpg|jpeg|gif|webp)(\?|$)/i.test(mediaUrl);
+  const isDirectVideoFile = /\.(mp4|webm|ogg)(\?|$)/i.test(mediaUrl);
+  const isVideo = (q.mediaType || '').toLowerCase() === 'video' || Boolean(embedUrl) || isDirectVideoFile;
+  const isAudio = (q.mediaType || '').toLowerCase() === 'audio';
+  const hasMedia = Boolean(mediaUrl);
+
   return (
     <div className="space-y-3">
+      {hasMedia && (
+        <div className="rounded-lg bg-black flex items-center justify-center overflow-hidden">
+          {isImage && (
+            <Image
+              loader={passthroughImageLoader}
+              unoptimized
+              src={mediaUrl}
+              alt="Question media"
+              width={1280}
+              height={720}
+              className="max-w-full max-h-64 object-contain"
+            />
+          )}
+          {isVideo && embedUrl && (
+            <iframe
+              src={embedUrl}
+              title="Question media video"
+              className="w-full aspect-video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          )}
+          {isVideo && !embedUrl && isDirectVideoFile && <video src={mediaUrl} controls className="w-full max-h-64 object-contain" />}
+          {isAudio && <audio src={mediaUrl} controls className="w-full mx-2 my-2" />}
+        </div>
+      )}
       <div className="bg-gray-700 rounded-lg p-3">
         <div className="text-xs text-gray-300 uppercase mb-1">Prompt</div>
         <div className="text-lg">{q.prompt || 'No prompt available.'}</div>

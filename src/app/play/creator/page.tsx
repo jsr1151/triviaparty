@@ -652,6 +652,41 @@ function PromptEditor({ q, set }: { q: AnyQuestion & { type: 'prompt' }; set: (q
         label="Accepted Answers (alternatives)"
         placeholder="Type an alternative answer…"
       />
+      <div>
+        <label className="block text-sm text-gray-400 mb-2">Media (optional)</label>
+        <div className="grid grid-cols-2 gap-3">
+          <div>
+            <label className="block text-xs text-gray-500 mb-1">Media Type</label>
+            <select value={q.mediaType || ''} onChange={(e) => set({ ...q, mediaType: e.target.value || undefined })}
+              className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white outline-none focus:ring-2 focus:ring-purple-500">
+              <option value="">None</option>
+              <option value="image">Image</option>
+              <option value="video">Video</option>
+              <option value="audio">Audio</option>
+            </select>
+          </div>
+          <div>
+            <label className="block text-xs text-gray-500 mb-1">Media URL</label>
+            <input value={q.mediaUrl || ''} onChange={(e) => set({ ...q, mediaUrl: e.target.value || undefined })}
+              className="w-full bg-gray-700 rounded-lg px-3 py-2 text-white placeholder-gray-500 outline-none focus:ring-2 focus:ring-purple-500"
+              placeholder="https://…" />
+          </div>
+        </div>
+        {q.mediaUrl && (
+          <div className="mt-2 bg-gray-800 rounded-lg p-2 text-center">
+            {(q.mediaType === 'image' || !q.mediaType) && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={q.mediaUrl} alt="Preview" className="max-h-40 mx-auto rounded" />
+            )}
+            {q.mediaType === 'video' && (
+              <video src={q.mediaUrl} controls className="max-h-40 mx-auto rounded" />
+            )}
+            {q.mediaType === 'audio' && (
+              <audio src={q.mediaUrl} controls className="mx-auto" />
+            )}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
@@ -1161,13 +1196,14 @@ function ExistingLoaderModal({
   );
 }
 
-function QuestionArchiveModal({ onClose }: { onClose: () => void }) {
+function QuestionArchiveModal({ onClose, onLoadQuestion }: { onClose: () => void; onLoadQuestion?: (q: AnyQuestion) => void }) {
   const [q, setQ] = useState('');
   const [type, setType] = useState('');
   const [category, setCategory] = useState('');
   const [difficulty, setDifficulty] = useState('');
   const [loading, setLoading] = useState(false);
-  const [results, setResults] = useState<Array<{ id: string; type: string; category: string; difficulty: string; preview: string }>>([]);
+  const [loadingId, setLoadingId] = useState<string | null>(null);
+  const [results, setResults] = useState<Array<{ id: string; type: string; category: string; difficulty: string; question: string; preview: string }>>([]);
 
   async function search() {
     setLoading(true);
@@ -1186,6 +1222,50 @@ function QuestionArchiveModal({ onClose }: { onClose: () => void }) {
     }
   }
 
+  async function handleResultClick(item: { id: string; type: string; category: string; difficulty: string; question: string }) {
+    if (!onLoadQuestion) return;
+
+    function buildFallback(): AnyQuestion {
+      // Start from a blank question of the correct type to ensure required fields are present,
+      // then overlay the fields we do have from the search result.
+      const base = blankQuestion(item.type as QType);
+      return { ...base, id: item.id, question: item.question, difficulty: item.difficulty as AnyQuestion['difficulty'], category: item.category };
+    }
+
+    // For static questions (generated id), construct from defaults + available fields
+    if (item.id.startsWith('static-')) {
+      onLoadQuestion(buildFallback());
+      onClose();
+      return;
+    }
+
+    // For DB questions, fetch full type-specific details
+    setLoadingId(item.id);
+    try {
+      const res = await fetch(`/api/questions/details?id=${encodeURIComponent(item.id)}&type=${encodeURIComponent(item.type)}`);
+      if (res.ok) {
+        const details = await res.json();
+        onLoadQuestion({ ...details, type: item.type } as AnyQuestion);
+      } else {
+        onLoadQuestion(buildFallback());
+        setLoadingId(null);
+        alert('Could not load full question details — partial data loaded. Fill in the missing fields before saving.');
+        onClose();
+        return;
+      }
+      onClose();
+    } catch {
+      onLoadQuestion(buildFallback());
+      setLoadingId(null);
+      alert('Could not load full question details — partial data loaded. Fill in the missing fields before saving.');
+      onClose();
+    } finally {
+      setLoadingId(null);
+    }
+  }
+
+  const canClick = Boolean(onLoadQuestion);
+
   return (
     <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4" onClick={onClose}>
       <div className="bg-gray-800 rounded-2xl p-6 max-w-5xl w-full max-h-[88vh] overflow-auto" onClick={(e) => e.stopPropagation()}>
@@ -1193,8 +1273,9 @@ function QuestionArchiveModal({ onClose }: { onClose: () => void }) {
           <h3 className="text-xl font-bold">Question Archive Search</h3>
           <button onClick={onClose} className="px-3 py-1 rounded bg-gray-700 hover:bg-gray-600 text-sm">Close</button>
         </div>
+        {canClick && <p className="text-xs text-gray-400 mt-1">Click a result to load it into the editor.</p>}
         <div className="grid md:grid-cols-4 gap-2 mt-4">
-          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search question text" className="bg-gray-700 rounded-lg p-2" />
+          <input value={q} onChange={(e) => setQ(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') search(); }} placeholder="Search question text" className="bg-gray-700 rounded-lg p-2" />
           <input value={category} onChange={(e) => setCategory(e.target.value)} placeholder="Category" className="bg-gray-700 rounded-lg p-2" />
           <select value={type} onChange={(e) => setType(e.target.value)} className="bg-gray-700 rounded-lg p-2">
             <option value="">All types</option>
@@ -1212,9 +1293,15 @@ function QuestionArchiveModal({ onClose }: { onClose: () => void }) {
             <div className="p-4 text-sm text-gray-400">No results yet. Run a search to browse existing questions.</div>
           ) : (
             results.map((item) => (
-              <div key={item.id} className="p-3">
+              <div
+                key={item.id}
+                className={`p-3 ${canClick ? 'cursor-pointer hover:bg-gray-700 transition-colors' : ''} ${loadingId === item.id ? 'opacity-50' : ''}`}
+                onClick={() => canClick && handleResultClick(item)}
+                title={canClick ? 'Click to load into editor' : undefined}
+              >
                 <div className="text-xs text-gray-400">{item.type} · {item.category || 'uncategorized'} · {item.difficulty}</div>
                 <div className="text-sm text-gray-100">{item.preview}</div>
+                {loadingId === item.id && <div className="text-xs text-purple-400 mt-1">Loading…</div>}
               </div>
             ))
           )}
@@ -1447,7 +1534,12 @@ export default function CreatorPage() {
           }}
         />
       )}
-      {showArchive && <QuestionArchiveModal onClose={() => setShowArchive(false)} />}
+      {showArchive && <QuestionArchiveModal onClose={() => setShowArchive(false)} onLoadQuestion={(loaded) => {
+        setQuestions((prev) => [...prev, loaded]);
+        setSelectedIndex(questions.length);
+        setMode('questions');
+        showToast('Loaded question into editor');
+      }} />}
 
       {/* Header */}
       <div className="border-b border-gray-800 bg-gray-900/80 backdrop-blur sticky top-0 z-40">
