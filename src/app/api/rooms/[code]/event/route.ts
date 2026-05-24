@@ -114,6 +114,7 @@ function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
   const hasValidCategories = Array.isArray(raw.categories);
   const hasValidGameId = Number.isFinite(resolvedGameId) && resolvedGameId > 0;
   if (!hasValidCategories || !hasValidGameId) return null;
+  const categories = raw.categories as JeopardyGameData['categories'];
   return {
     gameId: resolvedGameId,
     showNumber: Number(raw.showNumber || 0),
@@ -121,7 +122,7 @@ function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
     season: raw.season == null ? null : Number(raw.season),
     isSpecial: Boolean(raw.isSpecial),
     tournamentType: raw.tournamentType == null ? null : String(raw.tournamentType),
-    categories: raw.categories
+    categories: categories
       .filter((category) => Boolean(category && typeof category === 'object'))
       .map((category, categoryIndex) => ({
         name: String(category.name || ''),
