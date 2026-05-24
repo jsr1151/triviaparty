@@ -62,6 +62,8 @@ export type PromptQuestion = BaseQuestion & {
   prompt?: string;
   answer?: string;
   acceptedAnswers?: string[];
+  mediaType?: string;
+  mediaUrl?: string;
 };
 
 export type AnyQuestion =
