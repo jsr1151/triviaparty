@@ -109,13 +109,14 @@ function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
   const parsedGameId = Number(raw.gameId);
   const hasValidRawGameId = raw.gameId != null && Number.isFinite(parsedGameId) && parsedGameId > 0;
   const parsedShowNumber = Number(raw.showNumber);
-  const hasValidRawShowNumber = raw.showNumber != null && Number.isFinite(parsedShowNumber) && parsedShowNumber > 0;
+  const hasFiniteRawShowNumber = raw.showNumber != null && Number.isFinite(parsedShowNumber);
+  const hasValidRawShowNumber = hasFiniteRawShowNumber && parsedShowNumber > 0;
   const resolvedGameId = hasValidRawGameId
     ? parsedGameId
     : hasValidRawShowNumber
       ? parsedShowNumber
       : Number.NaN;
-  const resolvedShowNumber = hasValidRawShowNumber ? parsedShowNumber : 0;
+  const resolvedShowNumber = hasFiniteRawShowNumber ? parsedShowNumber : 0;
   const hasValidCategories = Array.isArray(raw.categories);
   const hasValidGameId = Number.isFinite(resolvedGameId) && resolvedGameId > 0;
   if (!hasValidCategories || !hasValidGameId) return null;
