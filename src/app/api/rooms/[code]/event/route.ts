@@ -106,18 +106,23 @@ function toDifficultyFromValue(value: number | null | undefined): AnyQuestion['d
 function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
   if (!value || typeof value !== 'object') return null;
   const raw = value as Partial<JeopardyGameData>;
-  const resolvedGameId = raw.gameId != null
-    ? Number(raw.gameId)
-    : raw.showNumber != null
-      ? Number(raw.showNumber)
+  const parsedGameId = Number(raw.gameId);
+  const hasValidRawGameId = raw.gameId != null && Number.isFinite(parsedGameId) && parsedGameId > 0;
+  const parsedShowNumber = Number(raw.showNumber);
+  const hasValidRawShowNumber = raw.showNumber != null && Number.isFinite(parsedShowNumber) && parsedShowNumber > 0;
+  const resolvedGameId = hasValidRawGameId
+    ? parsedGameId
+    : hasValidRawShowNumber
+      ? parsedShowNumber
       : Number.NaN;
+  const resolvedShowNumber = hasValidRawShowNumber ? parsedShowNumber : 0;
   const hasValidCategories = Array.isArray(raw.categories);
   const hasValidGameId = Number.isFinite(resolvedGameId) && resolvedGameId > 0;
   if (!hasValidCategories || !hasValidGameId) return null;
   const categories = raw.categories as JeopardyGameData['categories'];
   return {
     gameId: resolvedGameId,
-    showNumber: Number(raw.showNumber || 0),
+    showNumber: resolvedShowNumber,
     airDate: String(raw.airDate || ''),
     season: raw.season == null ? null : Number(raw.season),
     isSpecial: Boolean(raw.isSpecial),
