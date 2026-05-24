@@ -61,6 +61,12 @@ type GameKind = 'replay' | 'random' | 'custom' | 'learn';
 type TeamScore = { name: string; score: number; color: string };
 type Cell = { revealed: boolean; clue: JeopardyClue };
 type Board = Record<string, Record<number, Cell>>;
+type MultiplayerHostOptions = {
+  game?: JeopardyGame | null;
+  gameKind?: GameKind | null;
+  replayMode?: JeopardyEpisodeMode;
+  sourceRound?: Round;
+};
 
 type AuthUser = { id: string; email: string; username: string };
 type UserStats = {
@@ -1363,9 +1369,7 @@ export default function JeopardyPage() {
 
         <div className="mb-3 flex gap-2">
           <button onClick={() => setShowSettings(prev => !prev)} className="px-3 py-2 rounded-lg bg-blue-800 hover:bg-blue-700 text-sm font-bold">Settings</button>
-          {selectedGameKind === 'replay' && (
-            <button onClick={hostJeopardyMultiplayerRoom} className="px-3 py-2 rounded-lg text-sm font-bold bg-cyan-700 hover:bg-cyan-600">Host Multiplayer Room</button>
-          )}
+          <button onClick={() => void hostJeopardyMultiplayerRoom()} className="px-3 py-2 rounded-lg text-sm font-bold bg-cyan-700 hover:bg-cyan-600">Host Multiplayer Room</button>
           {sessionType === 'competition' && teamScores[chooserTeamIndex] && (
             <div className="text-sm text-blue-200 py-2">Category control: <span className="text-yellow-300 font-bold">{teamScores[chooserTeamIndex].name}</span></div>
           )}
@@ -1461,18 +1465,37 @@ export default function JeopardyPage() {
     );
   }
 
-  async function hostJeopardyMultiplayerRoom() {
+  function buildJeopardyMultiplayerConfig(options: MultiplayerHostOptions = {}) {
+    const game = options.game ?? selectedGame;
+    const gameKind = options.gameKind ?? selectedGameKind ?? null;
+    const replayMode = options.replayMode;
+    const configuredSessionType: SessionType = replayMode
+      ? replayMode === 'competition'
+        ? 'competition'
+        : 'practice'
+      : sessionType;
+    return {
+      method,
+      sessionType: configuredSessionType,
+      teams: teamNamesInput.split(',').map((name) => name.trim()).filter(Boolean),
+      sourceRound: options.sourceRound ?? currentRound,
+      gameKind,
+      sourceGameId: game?.gameId ?? null,
+      sourceShowNumber: game?.showNumber ?? null,
+      sourceFile: game?.sourceFile ?? null,
+      selectedGame: game ?? null,
+    };
+  }
+
+  async function hostJeopardyMultiplayerRoom(options: MultiplayerHostOptions = {}) {
     try {
+      const multiplayerConfig = buildJeopardyMultiplayerConfig(options);
       const res = await fetch('/api/rooms', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           mode: 'jeopardy',
-          gameConfig: {
-            method,
-            sessionType,
-            teams: teamNamesInput.split(',').map((name) => name.trim()).filter(Boolean),
-          },
+          gameConfig: multiplayerConfig,
         }),
       });
       const data = await res.json().catch(() => ({}));
@@ -1728,6 +1751,17 @@ export default function JeopardyPage() {
             )}
 
             <div className="flex flex-wrap gap-2 pt-2">
+              <button
+                onClick={() => void hostJeopardyMultiplayerRoom({
+                  game: setupGame,
+                  gameKind: 'replay',
+                  replayMode: setupMode,
+                  sourceRound: 'single',
+                })}
+                className="bg-cyan-700 hover:bg-cyan-600 font-bold rounded px-4 py-2"
+              >
+                Host Multiplayer Room
+              </button>
               {setupProgress?.status === 'unfinished' ? (
                 <>
                   <button onClick={() => void startFromSetup('resume')} className="bg-yellow-400 text-blue-950 font-bold rounded px-4 py-2">Resume</button>
