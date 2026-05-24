@@ -6,6 +6,9 @@ import type { AnyQuestion } from '@/types/questions';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
+const STATIC_QUESTIONS_FILE_PATH = path.join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+const PREVIEW_MAX_LENGTH = 180;
+const DJB2_SEED = 5381;
 
 type SearchResultItem = {
   id: string;
@@ -18,6 +21,15 @@ type SearchResultItem = {
 
 function slugify(value: string): string {
   return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+function hashString(value: string): string {
+  // djb2 hash for stable, lightweight fallback identifiers.
+  let hash = DJB2_SEED;
+  for (let i = 0; i < value.length; i++) {
+    hash = ((hash << 5) + hash) + value.charCodeAt(i);
+  }
+  return Math.abs(hash).toString(36);
 }
 
 function normalizeCategory(category: AnyQuestion['category']): string {
@@ -35,7 +47,9 @@ function toResultItem(item: {
 }): SearchResultItem {
   return {
     ...item,
-    preview: item.question.length > 180 ? `${item.question.slice(0, 180)}…` : item.question,
+    preview: item.question.length > PREVIEW_MAX_LENGTH
+      ? `${item.question.slice(0, PREVIEW_MAX_LENGTH)}…`
+      : item.question,
   };
 }
 
@@ -46,10 +60,14 @@ async function searchStaticQuestions(params: {
   difficulty: string;
   limit: number;
 }): Promise<SearchResultItem[]> {
-  const filePath = path.join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
-  const raw = await fs.readFile(filePath, 'utf8');
-  const parsed = JSON.parse(raw) as { questions?: AnyQuestion[] };
-  const questions = Array.isArray(parsed?.questions) ? parsed.questions : [];
+  let questions: AnyQuestion[] = [];
+  try {
+    const raw = await fs.readFile(STATIC_QUESTIONS_FILE_PATH, 'utf8');
+    const parsed = JSON.parse(raw) as { questions?: AnyQuestion[] };
+    questions = Array.isArray(parsed?.questions) ? parsed.questions : [];
+  } catch {
+    return [];
+  }
 
   const normalizedQuery = params.q.toLowerCase();
   const normalizedCategory = params.category.toLowerCase();
@@ -70,13 +88,22 @@ async function searchStaticQuestions(params: {
     return true;
   });
 
-  return filtered.slice(0, params.limit).map((question, index) => toResultItem({
-    id: String((question as { id?: string }).id || `static-${index}-${question.type}`),
-    type: question.type,
-    difficulty: String(question.difficulty || ''),
-    category: normalizeCategory(question.category),
-    question: String(question.question || ''),
-  }));
+  return filtered.slice(0, params.limit).map((question) => {
+    const questionText = String(question.question || '');
+    const categoryName = normalizeCategory(question.category);
+    const generatedId = `static-${question.type}-${hashString(`${question.type}|${categoryName}|${questionText}`)}`;
+    return toResultItem({
+      id: String((question as { id?: string }).id || generatedId),
+      type: question.type,
+      difficulty: String(question.difficulty || ''),
+      category: categoryName,
+      question: questionText,
+    });
+  });
+}
+
+function resultSignature(item: SearchResultItem): string {
+  return `${item.type}|${item.difficulty}|${item.category.toLowerCase()}|${item.question.toLowerCase()}`;
 }
 
 export async function GET(req: NextRequest) {
@@ -116,17 +143,31 @@ export async function GET(req: NextRequest) {
       take: limit,
     }).catch(() => []);
 
-    const fallbackResults = dbResults.length > 0
-      ? []
-      : await searchStaticQuestions({ q, type, category, difficulty, limit }).catch(() => []);
-
-    const merged = [...dbResults.map((item) => toResultItem({
+    const dbMapped = dbResults.map((item) => toResultItem({
       id: item.id,
       type: item.type,
       difficulty: item.difficulty,
       category: item.category?.name || item.category?.slug || '',
       question: item.question,
-    })), ...fallbackResults].slice(0, limit);
+    }));
+
+    const seen = new Set<string>();
+    const merged: SearchResultItem[] = [];
+    const appendUnique = (items: SearchResultItem[]) => {
+      for (const item of items) {
+        if (merged.length >= limit) break;
+        const sig = resultSignature(item);
+        if (seen.has(sig)) continue;
+        seen.add(sig);
+        merged.push(item);
+      }
+    };
+
+    appendUnique(dbMapped);
+    if (merged.length < limit) {
+      const fallbackResults = await searchStaticQuestions({ q, type, category, difficulty, limit: limit - merged.length }).catch(() => []);
+      appendUnique(fallbackResults);
+    }
 
     return NextResponse.json({
       count: merged.length,
