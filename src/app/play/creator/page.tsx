@@ -1225,10 +1225,16 @@ function QuestionArchiveModal({ onClose, onLoadQuestion }: { onClose: () => void
   async function handleResultClick(item: { id: string; type: string; category: string; difficulty: string; question: string }) {
     if (!onLoadQuestion) return;
 
-    // For static questions (generated id), construct a partial question from available fields
+    function buildFallback(): AnyQuestion {
+      // Start from a blank question of the correct type to ensure required fields are present,
+      // then overlay the fields we do have from the search result.
+      const base = blankQuestion(item.type as QType);
+      return { ...base, id: item.id, question: item.question, difficulty: item.difficulty as AnyQuestion['difficulty'], category: item.category };
+    }
+
+    // For static questions (generated id), construct from defaults + available fields
     if (item.id.startsWith('static-')) {
-      const base = { id: item.id, type: item.type, question: item.question, difficulty: item.difficulty as AnyQuestion['difficulty'], category: item.category };
-      onLoadQuestion(base as AnyQuestion);
+      onLoadQuestion(buildFallback());
       onClose();
       return;
     }
@@ -1241,10 +1247,17 @@ function QuestionArchiveModal({ onClose, onLoadQuestion }: { onClose: () => void
         const details = await res.json();
         onLoadQuestion({ ...details, type: item.type } as AnyQuestion);
       } else {
-        // Fallback to partial data if details fetch fails
-        const base = { id: item.id, type: item.type, question: item.question, difficulty: item.difficulty as AnyQuestion['difficulty'], category: item.category };
-        onLoadQuestion(base as AnyQuestion);
+        onLoadQuestion(buildFallback());
+        setLoadingId(null);
+        alert('Could not load full question details — partial data loaded. Fill in the missing fields before saving.');
+        onClose();
+        return;
       }
+      onClose();
+    } catch {
+      onLoadQuestion(buildFallback());
+      setLoadingId(null);
+      alert('Could not load full question details — partial data loaded. Fill in the missing fields before saving.');
       onClose();
     } finally {
       setLoadingId(null);
