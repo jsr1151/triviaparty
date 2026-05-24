@@ -21,6 +21,7 @@ import {
 import { buildPartyQuestionsFromRoomConfig, mapDbQuestionToAnyQuestion } from '@/lib/server-multiplayer-room';
 import { pusherServer } from '@/lib/pusher';
 import type { AnyQuestion } from '@/types/questions';
+import type { JeopardyGameData, JeopardyIndexEntry } from '@/types/jeopardy';
 
 export const dynamic = 'force-dynamic';
 
@@ -55,13 +56,181 @@ const HOST_ONLY_EVENTS = new Set([
 ]);
 const STATIC_QUESTIONS_FILE_PATH = process.env.MULTIPLAYER_PARTY_QUESTIONS_FILE
   ?? join(process.cwd(), 'public', 'data', 'questions', 'sheets-import-questions.json');
+const JEOPARDY_DATA_DIR_PATH = join(process.cwd(), 'public', 'data', 'jeopardy');
+const JEOPARDY_INDEX_FILE_PATH = join(JEOPARDY_DATA_DIR_PATH, 'index.json');
 const MAX_LIST_STRIKES = 3;
 const SINGLE_PICK_LIMIT = 1;
+const JEOPARDY_ROUND_ORDER = ['single', 'double', 'triple', 'final'] as const;
 
 type StaticMediaQuestion = AnyQuestion & {
   mediaUrl?: string;
   needsMediaReview?: boolean;
 };
+
+type JeopardyRound = (typeof JEOPARDY_ROUND_ORDER)[number];
+
+type JeopardyMultiplayerConfig = {
+  method?: unknown;
+  sessionType?: unknown;
+  teams?: unknown;
+  sourceRound?: unknown;
+  gameKind?: unknown;
+  sourceGameId?: unknown;
+  sourceShowNumber?: unknown;
+  sourceFile?: unknown;
+  selectedGame?: unknown;
+};
+
+function toSafeFileName(value: unknown): string | null {
+  const fileName = String(value || '').trim();
+  if (!fileName) return null;
+  return /^[a-zA-Z0-9._-]+\.json$/.test(fileName) ? fileName : null;
+}
+
+function normalizeJeopardyRound(value: unknown): JeopardyRound | null {
+  const raw = String(value || '').trim().toLowerCase();
+  if (!raw) return null;
+  if ((JEOPARDY_ROUND_ORDER as readonly string[]).includes(raw)) return raw as JeopardyRound;
+  return null;
+}
+
+function toDifficultyFromValue(value: number | null | undefined): AnyQuestion['difficulty'] {
+  if (!Number.isFinite(value)) return 'medium';
+  if ((value || 0) <= 400) return 'very_easy';
+  if ((value || 0) <= 800) return 'easy';
+  if ((value || 0) <= 1200) return 'medium';
+  if ((value || 0) <= 2000) return 'hard';
+  return 'very_hard';
+}
+
+function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
+  if (!value || typeof value !== 'object') return null;
+  const raw = value as Partial<JeopardyGameData>;
+  if (!Array.isArray(raw.categories) || !Number.isFinite(raw.gameId)) return null;
+  return {
+    gameId: Number(raw.gameId),
+    showNumber: Number(raw.showNumber || 0),
+    airDate: String(raw.airDate || ''),
+    season: raw.season == null ? null : Number(raw.season),
+    isSpecial: Boolean(raw.isSpecial),
+    tournamentType: raw.tournamentType == null ? null : String(raw.tournamentType),
+    categories: raw.categories
+      .filter((category) => Boolean(category && typeof category === 'object'))
+      .map((category, categoryIndex) => ({
+        name: String(category.name || ''),
+        round: String(category.round || 'single') as 'single' | 'double' | 'final',
+        position: Number(category.position ?? categoryIndex),
+        clues: Array.isArray(category.clues)
+          ? category.clues
+            .filter((clue) => Boolean(clue && typeof clue === 'object'))
+            .map((clue, clueIndex) => ({
+              clueId: String(clue.clueId || `g${Number(raw.gameId)}-${categoryIndex}-${clueIndex}`),
+              question: String(clue.question || ''),
+              answer: String(clue.answer || ''),
+              value: clue.value == null ? null : Number(clue.value),
+              dailyDouble: Boolean(clue.dailyDouble),
+              tripleStumper: Boolean(clue.tripleStumper),
+              isFinalJeopardy: Boolean(clue.isFinalJeopardy),
+              category: String(clue.category || category.name || ''),
+              round: String(clue.round || category.round || 'single') as 'single' | 'double' | 'final',
+              rowIndex: Number(clue.rowIndex ?? clueIndex),
+              topicTags: Array.isArray(clue.topicTags) ? clue.topicTags.map((tag) => String(tag)) : [],
+            }))
+          : [],
+      })),
+  };
+}
+
+async function loadJeopardyIndex(): Promise<JeopardyIndexEntry[]> {
+  try {
+    const raw = JSON.parse(await readFile(JEOPARDY_INDEX_FILE_PATH, 'utf-8'));
+    return Array.isArray(raw) ? raw as JeopardyIndexEntry[] : [];
+  } catch {
+    return [];
+  }
+}
+
+async function loadJeopardyGameByFile(fileName: string): Promise<JeopardyGameData | null> {
+  const safeFileName = toSafeFileName(fileName);
+  if (!safeFileName) return null;
+  try {
+    const raw = JSON.parse(await readFile(join(JEOPARDY_DATA_DIR_PATH, safeFileName), 'utf-8'));
+    return normalizeJeopardyGameShape(raw);
+  } catch {
+    return null;
+  }
+}
+
+async function resolveJeopardyGameFromConfig(gameConfig: unknown): Promise<JeopardyGameData | null> {
+  const config = (gameConfig && typeof gameConfig === 'object' ? gameConfig : {}) as JeopardyMultiplayerConfig;
+  const selectedGame = normalizeJeopardyGameShape(config.selectedGame);
+  if (selectedGame) return selectedGame;
+
+  const sourceFile = toSafeFileName(config.sourceFile);
+  if (sourceFile) {
+    const fileGame = await loadJeopardyGameByFile(sourceFile);
+    if (fileGame) return fileGame;
+  }
+
+  const sourceGameId = Number(config.sourceGameId);
+  if (Number.isFinite(sourceGameId) && sourceGameId > 0) {
+    const gameById = await loadJeopardyGameByFile(`game-${sourceGameId}.json`);
+    if (gameById) return gameById;
+  }
+
+  const sourceShowNumber = Number(config.sourceShowNumber);
+  const index = await loadJeopardyIndex();
+  if (Number.isFinite(sourceShowNumber) && sourceShowNumber > 0) {
+    const byShowNumber = index.find((entry) => Number(entry.showNumber) === sourceShowNumber);
+    if (byShowNumber?.file) {
+      const gameByShowNumber = await loadJeopardyGameByFile(byShowNumber.file);
+      if (gameByShowNumber) return gameByShowNumber;
+    }
+  }
+
+  const firstWithFile = index.find((entry) => Boolean(entry.file));
+  if (firstWithFile?.file) {
+    return loadJeopardyGameByFile(firstWithFile.file);
+  }
+
+  return null;
+}
+
+function buildJeopardyQuestions(game: JeopardyGameData, sourceRound: unknown): AnyQuestion[] {
+  const roundFilter = normalizeJeopardyRound(sourceRound);
+  const categoryList = [...(game.categories || [])]
+    .filter((category) => {
+      if (!roundFilter) return true;
+      return normalizeJeopardyRound(category.round) === roundFilter;
+    })
+    .sort((left, right) => {
+      const leftRound = JEOPARDY_ROUND_ORDER.indexOf(normalizeJeopardyRound(left.round) || 'single');
+      const rightRound = JEOPARDY_ROUND_ORDER.indexOf(normalizeJeopardyRound(right.round) || 'single');
+      if (leftRound !== rightRound) return leftRound - rightRound;
+      return Number(left.position || 0) - Number(right.position || 0);
+    });
+
+  const questions: AnyQuestion[] = [];
+  categoryList.forEach((category, categoryIndex) => {
+    const orderedClues = [...(category.clues || [])].sort((left, right) => Number(left.rowIndex || 0) - Number(right.rowIndex || 0));
+    orderedClues.forEach((clue, clueIndex) => {
+      const round = normalizeJeopardyRound(clue.round || category.round) || 'single';
+      const clueId = String(clue.clueId || `g${game.gameId}-${round}-c${categoryIndex}-r${clueIndex}`);
+      const question: AnyQuestion = {
+        id: clueId,
+        type: 'open_ended',
+        question: String(clue.question || ''),
+        answer: String(clue.answer || ''),
+        acceptedAnswers: [],
+        category: String(clue.category || category.name || 'Jeopardy'),
+        difficulty: toDifficultyFromValue(clue.value),
+      };
+      questions.push(question);
+    });
+  });
+
+  return questions;
+}
 
 function elapsedMsSince(startedAt: unknown): number {
   return Math.max(0, Date.now() - new Date(String(startedAt || new Date().toISOString())).getTime());
@@ -303,6 +472,62 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
         currentQuestion: plannedQuestions[0],
         currentQuestionIndex: 0,
         totalQuestions: plannedQuestions.length,
+        questionStartedAt: now,
+        answerRevealed: false,
+        scores: initialScores,
+      };
+    } else if (room.mode === 'jeopardy') {
+      const jeopardyGame = await resolveJeopardyGameFromConfig(roomGameConfig);
+      if (!jeopardyGame) {
+        return NextResponse.json({ error: 'Unable to load Jeopardy game data for this room.' }, { status: 400 });
+      }
+      const config = (roomGameConfig && typeof roomGameConfig === 'object' ? roomGameConfig : {}) as JeopardyMultiplayerConfig;
+      const jeopardyQuestions = buildJeopardyQuestions(jeopardyGame, config.sourceRound);
+      if (!jeopardyQuestions.length) {
+        return NextResponse.json({ error: 'No Jeopardy clues available for the selected source.' }, { status: 400 });
+      }
+      const initialScores = players.reduce<Record<string, number>>((acc, player) => {
+        acc[player.id] = Number(getScores()[player.id] || 0);
+        return acc;
+      }, {});
+      updatedState.questions = jeopardyQuestions;
+      updatedState.currentQuestionIndex = 0;
+      updatedState.currentQuestion = jeopardyQuestions[0];
+      updatedState.totalQuestions = jeopardyQuestions.length;
+      updatedState.questionStartedAt = now;
+      updatedState.answerRevealed = false;
+      updatedState.answerRevealedQuestionId = null;
+      updatedState.phase = 'active';
+      updatedState.playerAnswers = {};
+      updatedState.selectionTallies = {};
+      updatedState.correctOrderByQuestion = {};
+      updatedState.listStrikesByQuestion = {};
+      updatedState.groupingEliminatedItems = {};
+      updatedState.groupingClaimedItems = {};
+      updatedState.groupingTurnByQuestion = {};
+      updatedState.thisOrThatItemIndex = 0;
+      updatedState.streaks = {};
+      updatedState.buzz = null;
+      updatedState.scores = initialScores;
+      updatedState.jeopardyMeta = {
+        gameId: jeopardyGame.gameId,
+        showNumber: jeopardyGame.showNumber,
+        airDate: jeopardyGame.airDate,
+        sessionType: String(config.sessionType || 'competition'),
+        method: String(config.method || 'replay'),
+        gameKind: String(config.gameKind || 'replay'),
+        sourceRound: normalizeJeopardyRound(config.sourceRound) || null,
+      };
+      roomStatus = 'active';
+      pushPayload = {
+        ...pushPayload,
+        status: roomStatus,
+        phase: 'active',
+        question: jeopardyQuestions[0],
+        questionIndex: 0,
+        currentQuestion: jeopardyQuestions[0],
+        currentQuestionIndex: 0,
+        totalQuestions: jeopardyQuestions.length,
         questionStartedAt: now,
         answerRevealed: false,
         scores: initialScores,
