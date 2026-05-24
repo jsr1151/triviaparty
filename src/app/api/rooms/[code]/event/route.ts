@@ -106,8 +106,14 @@ function toDifficultyFromValue(value: number | null | undefined): AnyQuestion['d
 function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
   if (!value || typeof value !== 'object') return null;
   const raw = value as Partial<JeopardyGameData>;
-  const resolvedGameId = Number(raw.gameId ?? raw.showNumber);
-  if (!Array.isArray(raw.categories) || !Number.isFinite(resolvedGameId) || resolvedGameId <= 0) return null;
+  const resolvedGameId = raw.gameId != null
+    ? Number(raw.gameId)
+    : raw.showNumber != null
+      ? Number(raw.showNumber)
+      : Number.NaN;
+  const hasValidCategories = Array.isArray(raw.categories);
+  const hasValidGameId = Number.isFinite(resolvedGameId) && resolvedGameId > 0;
+  if (!hasValidCategories || !hasValidGameId) return null;
   return {
     gameId: resolvedGameId,
     showNumber: Number(raw.showNumber || 0),
