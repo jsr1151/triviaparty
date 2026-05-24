@@ -106,15 +106,29 @@ function toDifficultyFromValue(value: number | null | undefined): AnyQuestion['d
 function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
   if (!value || typeof value !== 'object') return null;
   const raw = value as Partial<JeopardyGameData>;
-  if (!Array.isArray(raw.categories) || !Number.isFinite(raw.gameId)) return null;
+  const parsedGameId = Number(raw.gameId);
+  const hasValidRawGameId = raw.gameId != null && Number.isFinite(parsedGameId) && parsedGameId > 0;
+  const parsedShowNumber = Number(raw.showNumber);
+  const hasFiniteRawShowNumber = raw.showNumber != null && Number.isFinite(parsedShowNumber);
+  const hasValidRawShowNumber = hasFiniteRawShowNumber && parsedShowNumber > 0;
+  const resolvedGameId = hasValidRawGameId
+    ? parsedGameId
+    : hasValidRawShowNumber
+      ? parsedShowNumber
+      : Number.NaN;
+  const resolvedShowNumber = hasFiniteRawShowNumber ? parsedShowNumber : 0;
+  const hasValidCategories = Array.isArray(raw.categories);
+  const hasValidGameId = Number.isFinite(resolvedGameId) && resolvedGameId > 0;
+  if (!hasValidCategories || !hasValidGameId) return null;
+  const categories = raw.categories as JeopardyGameData['categories'];
   return {
-    gameId: Number(raw.gameId),
-    showNumber: Number(raw.showNumber || 0),
+    gameId: resolvedGameId,
+    showNumber: resolvedShowNumber,
     airDate: String(raw.airDate || ''),
     season: raw.season == null ? null : Number(raw.season),
     isSpecial: Boolean(raw.isSpecial),
     tournamentType: raw.tournamentType == null ? null : String(raw.tournamentType),
-    categories: raw.categories
+    categories: categories
       .filter((category) => Boolean(category && typeof category === 'object'))
       .map((category, categoryIndex) => ({
         name: String(category.name || ''),
@@ -124,7 +138,7 @@ function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
           ? category.clues
             .filter((clue) => Boolean(clue && typeof clue === 'object'))
             .map((clue, clueIndex) => ({
-              clueId: String(clue.clueId || `g${Number(raw.gameId)}-${categoryIndex}-${clueIndex}`),
+              clueId: String(clue.clueId || `g${resolvedGameId}-${categoryIndex}-${clueIndex}`),
               question: String(clue.question || ''),
               answer: String(clue.answer || ''),
               value: clue.value == null ? null : Number(clue.value),
