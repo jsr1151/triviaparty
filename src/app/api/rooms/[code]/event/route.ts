@@ -106,9 +106,10 @@ function toDifficultyFromValue(value: number | null | undefined): AnyQuestion['d
 function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
   if (!value || typeof value !== 'object') return null;
   const raw = value as Partial<JeopardyGameData>;
-  if (!Array.isArray(raw.categories) || !Number.isFinite(raw.gameId)) return null;
+  const resolvedGameId = Number(raw.gameId ?? raw.showNumber);
+  if (!Array.isArray(raw.categories) || !Number.isFinite(resolvedGameId) || resolvedGameId <= 0) return null;
   return {
-    gameId: Number(raw.gameId),
+    gameId: resolvedGameId,
     showNumber: Number(raw.showNumber || 0),
     airDate: String(raw.airDate || ''),
     season: raw.season == null ? null : Number(raw.season),
@@ -124,7 +125,7 @@ function normalizeJeopardyGameShape(value: unknown): JeopardyGameData | null {
           ? category.clues
             .filter((clue) => Boolean(clue && typeof clue === 'object'))
             .map((clue, clueIndex) => ({
-              clueId: String(clue.clueId || `g${Number(raw.gameId)}-${categoryIndex}-${clueIndex}`),
+              clueId: String(clue.clueId || `g${resolvedGameId}-${categoryIndex}-${clueIndex}`),
               question: String(clue.question || ''),
               answer: String(clue.answer || ''),
               value: clue.value == null ? null : Number(clue.value),
